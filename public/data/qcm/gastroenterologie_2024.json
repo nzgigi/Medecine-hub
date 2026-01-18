@@ -1,0 +1,171 @@
+{
+  "matiere": "Gastroenterologie",
+  "annee": 2024,
+  "total_questions": 8,
+  "questions": [
+    {
+      "id": 1,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Quel diagnostic évoquez vous en première intention ?",
+      "choix": [
+        "A) ■ Péritonite d'origine biliaire",
+        "B) Péritonite sur ulcère perforé",
+        "C) ■ péritonite d'origine diverticulaire",
+        "D) ■ Péritonite sur perforation grêlique",
+        "E) ■ Proposition 5 Quel diagnostic évoquez vous en première intention ? (0ne best) Question à réponses multiples ",
+        "P) éritonite d'origine biliaire",
+        "Q) uel diagnostic évoquez vous en première intention ? (0ne best) Question à réponses multiples ",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "B"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Quels examens complémentaires réalisez vous en urgence ?",
+      "choix": [
+        "A) ■ Echographie abdominale",
+        "B) INDISPENSABLE Scanner abdomino-pelvien injecté",
+        "C) INDISPENSABLE Bilan biologique comprenant NFS CRP ionogramme sanguin créatininémie bilan d'hémostase RAI",
+        "D) ■ FOGD",
+        "E) chographie abdominale",
+        "I) NDISPENSABLE Scanner abdomino-pelvien injecté",
+        "Q) uestion à réponses multiples ",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Quelles sont vos thérapeutiques en urgence ?",
+      "choix": [
+        "A) Mise en place d'une sonde naso-gastrique",
+        "B) Mise en place d'une antibiothérapie",
+        "C) Mise en place d'inhibiteurs de la pompe à protons par voie intra-veineuse",
+        "D) INDISPENSABLE Chirurgie en urgence",
+        "I) NDISPENSABLE Chirurgie en urgence",
+        "M) ise en place d'une sonde naso-gastrique",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Quelles seront les mesures à prendre par la suite ?",
+      "choix": [
+        "A) Éradication d'Helicobacter Pylori si présent",
+        "B) ■ Poursuite des IPP à vie",
+        "C) ■ Régime sans résidus",
+        "D) Arrêt des facteurs favorisants (tabac, AINS)",
+        "E) ■ Endoscopie à distance de l'épisode aiguë Le patient est opéré en urgence. Quelles seront les mesures à prendre par la suite ? Question à réponse unique ",
+        "L) e patient est opéré en urgence. Quelles seront les mesures à prendre par la suite ? Question à réponse unique ",
+        "P) oursuite des IPP à vie",
+        "Q) uestion à réponse unique ",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "QRU",
+      "contexte": "",
+      "question": "chez l’adulte B ■ Le diagnostic est aﬃrmé par le dosage sérique des IgG anti-transglutaminase C ☑ Le diagnostic est aﬃrmé par les biopsies duodénales D ■ Le traitement repose sur le régime sans gluten pendant 6 à 12 mois E ☑ Peut se compliquer en lymphome du grêle en l’absence de traitement A propos de la maladie cœliaque, quelle(s) est ou sont la ou les réponse(s) exacte(s) ?",
+      "choix": [
+        "A) ■ Elle est rare chez l’adulte",
+        "B) ■ Le diagnostic est aﬃrmé par le dosage sérique des IgG anti-transglutaminase",
+        "C) Le diagnostic est aﬃrmé par les biopsies duodénales",
+        "D) ■ Le traitement repose sur le régime sans gluten pendant 6 à 12 mois",
+        "E) lle est rare chez l’adulte",
+        "L) e diagnostic est aﬃrmé par le dosage sérique des IgG anti-transglutaminase",
+        "P) eut se compliquer en lymphome du grêle en l’absence de traitement",
+        "Q) uestion à réponses multiples ",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "C"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "QRU",
+      "contexte": "",
+      "question": "quelles sont les complications possibles ?",
+      "choix": [
+        "A) hémorragie digestive par rupture de varices œsophagiennes",
+        "B) hémorragie digestive par rupture de varices gastriques ou rectales",
+        "C) ascite réfractaire",
+        "D) ■ carcinome hépatocellulaire",
+        "E) encéphalopathie hépatique",
+        "Q) uestion à réponses multiples ",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "QRU",
+      "contexte": "",
+      "question": "dans le temps : Fièvre, douleur puis ictère B ■ le syndrome associe successivement dans le temps : douleur, puis fièvre puis ictère C ☑ le syndrome associe successivement dans le temps : ictère, puis douleur puis Fièvre D ☑ peut être du à un calcul de la voie biliaire principale E ■ peut être du à un calcul du canal de Wirsung A propos du syndrome d’angiocholite, quelles sont les réponses exactes ?",
+      "choix": [
+        "A) ■ le syndrome associe successivement dans le temps : Fièvre, douleur puis ictère",
+        "B) ■ le syndrome associe successivement dans le temps : douleur, puis fièvre puis ictère",
+        "C) le syndrome associe successivement dans le temps : ictère, puis douleur puis Fièvre",
+        "D) peut être du à un calcul de la voie biliaire principale",
+        "E) ■ peut être du à un calcul du canal de Wirsung",
+        "Q) uestion à réponses multiples ",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Quelles sont les 4 causes les plus fréquentes de cirrhose en France?",
+      "choix": [
+        "A) ■ Cholangite biliaire primitive",
+        "B) Consommation excessive d’alcool",
+        "C) holangite biliaire primitive",
+        "D) ■ Cirrhose sclérosante primitive",
+        "E) Stéatopathie métabolique",
+        "F) Hépatite chronique virale C",
+        "G) ■ hépatite chronique virale B",
+        "H) épatite auto-immune",
+        "Q) uelles sont les 4 causes les plus fréquentes de cirrhose en France? Question à réponses précisées ",
+        "R) éponse attendue"
+      ],
+      "reponses": [
+        "B",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}
