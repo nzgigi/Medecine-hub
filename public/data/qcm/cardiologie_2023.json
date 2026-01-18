@@ -40,15 +40,14 @@
     {
       "id": 3,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quel(s) résultat(s) est(sont) attendu(s) de l’échocardiographie transthoracique dans cette pathologie (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quel(s) résultat(s) est(sont) attendu(s) de l’échocardiographie transthoracique dans cette pathologie ?",
       "choix": [
         "A) Présence d’une hypertrophie ventriculaire gauche",
-        "B) ■ Présence d’une insuffisance mitrale fonctionnelle",
-        "C) ■ Dilatation des cavités cardiaques droites",
-        "D) ilatation des cavités cardiaques droites",
-        "P) résence d’une hypertrophie ventriculaire gauche",
-        "R) éponse attendue"
+        "B) Présence d’une insuffisance mitrale fonctionnelle",
+        "C) Dilatation des cavités cardiaques droites",
+        "D) Augmentation du gradient transvalvulaire aortique",
+        "E) Diminution de la surface valvulaire aortique"
       ],
       "reponses": [
         "A",
@@ -58,18 +57,14 @@
     {
       "id": 4,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quel(s) traitement(s) pouvez- vous raisonnablement discuter chez cette patiente (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Les données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez-\nvous raisonnablement discuter chez cette patiente ?",
       "choix": [
         "A) Remplacement valvulaire aortique chirurgical par bioprothèse",
-        "B) ■ Remplacement valvulaire aortique chirurgical par prothèse mécanique",
-        "C) ■ Valvuloplastie aortique au ballon pour un traitement définitif.",
+        "B) Remplacement valvulaire aortique chirurgical par prothèse mécanique",
+        "C) Valvuloplastie aortique au ballon pour un traitement définitif.",
         "D) Mise en place d’une bioprothèse par technique transcathéter",
-        "E) ■ Traitement médical de 1 intention avec majoration du traitement diurétique Les données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez- vous raisonnablement discuter chez cette patiente (QRM)? ère Question à réponses multiples ",
-        "L) es données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez- vous raisonnablement discuter chez cette patiente (QRM)? ère Question à réponses multiples ",
-        "M) ise en place d’une bioprothèse par technique transcathéter",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
+        "E) Traitement médical de 1 intention avec majoration du traitement diurétique"
       ],
       "reponses": [
         "A",
@@ -79,16 +74,14 @@
     {
       "id": 5,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quel(s) examen(s) complémentaire(s) demandez-vous pour compléter le bilan pré-thérapeutique (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quel(s) examen(s) complémentaire(s) demandez-vous pour compléter le bilan pré-thérapeutique ?",
       "choix": [
         "A) Coronarographie",
-        "B) Epreuve fonctionnelle respiratoire.",
-        "C) oronarographie",
+        "B) Epreuve fonctionnelle respiratoire",
+        "C) Score calcique valvulaire",
         "D) Echographie doppler des troncs supra-aortiques",
-        "E) preuve fonctionnelle respiratoire.",
-        "Q) uel(s) examen(s) complémentaire(s) demandez-vous pour compléter le bilan pré-thérapeutique (QRM)? Question à réponses multiples ",
-        "R) éponse attendue"
+        "E) Coroscanner"
       ],
       "reponses": [
         "A",
@@ -99,17 +92,14 @@
     {
       "id": 6,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quelle(s) est(sont) la(les) propositions juste(s) concernant ce type de prothèse (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Mme A. bénéficie d’un remplacement valvulaire percutané avec implantation d’une bioprothèse Edwards. Quelle(s) est(sont)\nla(les) propositions juste(s) concernant ce type de prothèse ?",
       "choix": [
-        "A) ■ Un traitement anticoagulant oral à vie est justifié par la présence de la bioprothèse .",
-        "B) Une consultation dentaire est à programmer au moins 1 fois par an.",
+        "A) Un traitement anticoagulant oral à vie est justifié par la présence de la bioprothèse",
+        "B) Une consultation dentaire est à programmer au moins 1 fois par an",
         "C) Mme A. est une patiente désormais considérée à haut risque d’endocardite.",
         "D) Ce type de prothèse présente un risque de dégénérescence.",
-        "E) Ce type de prothèse présente un risque de thrombose. Mme A. bénéficie d’un remplacement valvulaire percutané avec implantation d’une bioprothèse Edwards. Quelle(s) est(sont) la(les) propositions juste(s) concernant ce type de prothèse (QRM)? 2/22 Question à réponses multiples ",
-        "M) me A. est une patiente désormais considérée à haut risque d’endocardite.",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
+        "E) Ce type de prothèse présente un risque de thrombose."
       ],
       "reponses": [
         "B",
