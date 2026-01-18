@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { BookOpen, Edit, LogOut, AlertCircle, RefreshCw } from 'lucide-react';
+import { BookOpen, Edit, LogOut, AlertCircle, RefreshCw, Save } from 'lucide-react';
 
 interface MatiereIndex {
   matiere: string;
@@ -16,6 +16,8 @@ export default function AdminDashboard() {
   const [loading, setLoading] = useState(true);
   const [syncing, setSyncing] = useState(false);
   const [syncMessage, setSyncMessage] = useState('');
+  const [backing, setBacking] = useState(false);
+  const [backupMessage, setBackupMessage] = useState('');
   const router = useRouter();
 
   useEffect(() => {
@@ -30,7 +32,7 @@ export default function AdminDashboard() {
 
   const loadMatieres = async () => {
     try {
-      const response = await fetch('/data/qcm/index.json?t=' + Date.now()); // Cache bust
+      const response = await fetch('/data/qcm/index.json?t=' + Date.now());
       const data = await response.json();
       setMatieres(data);
       setLoading(false);
@@ -56,13 +58,11 @@ export default function AdminDashboard() {
       if (result.success) {
         setSyncMessage(result.message);
         
-        // Afficher les changements dans la console
         if (result.changes.length > 0) {
           console.log('📊 Modifications détectées:');
           console.table(result.changes);
         }
         
-        // Recharger la liste
         await loadMatieres();
         
         setTimeout(() => setSyncMessage(''), 5000);
@@ -74,6 +74,33 @@ export default function AdminDashboard() {
       alert('❌ Erreur lors de la synchronisation');
     } finally {
       setSyncing(false);
+    }
+  };
+
+  const handleBackup = async () => {
+    if (!confirm('Créer un backup manuel sur GitHub ?\n\nCela va sauvegarder tous les fichiers QCM actuels.')) return;
+    
+    setBacking(true);
+    setBackupMessage('');
+    
+    try {
+      const response = await fetch('/api/admin/backup', { 
+        method: 'POST' 
+      });
+      
+      const result = await response.json();
+      
+      if (result.success) {
+        setBackupMessage(result.message);
+        setTimeout(() => setBackupMessage(''), 5000);
+      } else {
+        alert('❌ Erreur: ' + result.message);
+      }
+    } catch (error) {
+      console.error('Erreur backup:', error);
+      alert('❌ Erreur lors du backup');
+    } finally {
+      setBacking(false);
     }
   };
 
@@ -112,11 +139,24 @@ export default function AdminDashboard() {
             </div>
             
             <div className="flex items-center gap-3">
+              {backupMessage && (
+                <div className="bg-green-100 text-green-700 px-4 py-2 rounded-lg text-sm font-semibold">
+                  ✅ {backupMessage}
+                </div>
+              )}
               {syncMessage && (
-                <div className="bg-green-100 text-green-700 px-4 py-2 rounded-lg text-sm font-semibold animate-fade-in">
+                <div className="bg-green-100 text-green-700 px-4 py-2 rounded-lg text-sm font-semibold">
                   ✅ {syncMessage}
                 </div>
               )}
+              <button
+                onClick={handleBackup}
+                disabled={backing}
+                className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <Save className={`w-4 h-4 ${backing ? 'animate-pulse' : ''}`} />
+                {backing ? 'Backup...' : 'Backup GitHub'}
+              </button>
               <button
                 onClick={handleSyncIndex}
                 disabled={syncing}
@@ -203,10 +243,10 @@ export default function AdminDashboard() {
           <div className="flex items-start gap-3">
             <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
             <div>
-              <h3 className="font-bold text-blue-900 mb-1">Synchronisation automatique</h3>
+              <h3 className="font-bold text-blue-900 mb-1">Backup automatique sur GitHub</h3>
               <p className="text-blue-800 text-sm">
-                L'index se met à jour automatiquement lors de chaque sauvegarde. 
-                Utilisez le bouton "Synchroniser" si vous constatez des différences.
+                Chaque modification est automatiquement sauvegardée sur GitHub. 
+                Utilisez "Backup GitHub" pour forcer un backup manuel avant une grosse modification.
               </p>
             </div>
           </div>

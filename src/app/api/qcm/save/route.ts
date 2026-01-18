@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { exec } from "child_process";
+import { promisify } from "util";
+
+const execAsync = promisify(exec);
 
 export async function POST(request: NextRequest) {
   try {
@@ -46,7 +50,30 @@ export async function POST(request: NextRequest) {
       }
     } catch (indexError) {
       console.error("Erreur mise à jour index:", indexError);
-      // On ne fait pas échouer la sauvegarde si l'index échoue
+    }
+
+    // ✅ AUTO-BACKUP GitHub : Commit et push automatique
+    try {
+      const timestamp = new Date().toISOString();
+      const commitMessage = `Update: ${matiere} ${annee} (${qcmData.total_questions} questions) - ${timestamp}`;
+      
+      const commands = [
+        `cd ${process.cwd()}`,
+        'git add public/data/qcm/*.json',
+        `git commit -m "${commitMessage}"`,
+        'git push origin main'
+      ].join(' && ');
+
+      // Exécution en arrière-plan (non-bloquant)
+      execAsync(commands).then(() => {
+        console.log(`✅ Backup GitHub effectué: ${matiere} ${annee}`);
+      }).catch((error) => {
+        console.error('⚠️  Erreur backup GitHub:', error.message);
+      });
+
+    } catch (backupError) {
+      console.error("Erreur backup GitHub:", backupError);
+      // On ne fait pas échouer la sauvegarde si le backup échoue
     }
 
     return NextResponse.json({
