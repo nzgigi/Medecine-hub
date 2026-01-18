@@ -54,21 +54,13 @@ export async function POST(request: NextRequest) {
 
     // ✅ AUTO-BACKUP GitHub : Commit et push automatique
     try {
-      const timestamp = new Date().toISOString();
-      const commitMessage = `Update: ${matiere} ${annee} (${qcmData.total_questions} questions) - ${timestamp}`;
+      const scriptPath = path.join(process.cwd(), "scripts", "quick-backup.sh");
       
-      const commands = [
-        `cd ${process.cwd()}`,
-        'git add public/data/qcm/*.json',
-        `git commit -m "${commitMessage}"`,
-        'git push origin main'
-      ].join(' && ');
-
       // Exécution en arrière-plan (non-bloquant)
-      execAsync(commands).then(() => {
+      execAsync(`bash ${scriptPath}`).then(() => {
         console.log(`✅ Backup GitHub effectué: ${matiere} ${annee}`);
       }).catch((error) => {
-        console.error('⚠️  Erreur backup GitHub:', error.message);
+        console.error('⚠️ Erreur backup GitHub:', error.message);
       });
 
     } catch (backupError) {
