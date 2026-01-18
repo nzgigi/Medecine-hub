@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { BookOpen, Edit, Trash2, Plus, LogOut, AlertCircle } from 'lucide-react';
+import { BookOpen, Edit, LogOut, AlertCircle, RefreshCw } from 'lucide-react';
 
 interface MatiereIndex {
   matiere: string;
@@ -14,6 +14,8 @@ interface MatiereIndex {
 export default function AdminDashboard() {
   const [matieres, setMatieres] = useState<MatiereIndex[]>([]);
   const [loading, setLoading] = useState(true);
+  const [syncing, setSyncing] = useState(false);
+  const [syncMessage, setSyncMessage] = useState('');
   const router = useRouter();
 
   useEffect(() => {
@@ -28,13 +30,50 @@ export default function AdminDashboard() {
 
   const loadMatieres = async () => {
     try {
-      const response = await fetch('/data/qcm/index.json');
+      const response = await fetch('/data/qcm/index.json?t=' + Date.now()); // Cache bust
       const data = await response.json();
       setMatieres(data);
       setLoading(false);
     } catch (error) {
       console.error('Erreur chargement:', error);
       setLoading(false);
+    }
+  };
+
+  const handleSyncIndex = async () => {
+    if (!confirm('Recalculer tous les totaux de questions depuis les fichiers QCM ?')) return;
+    
+    setSyncing(true);
+    setSyncMessage('');
+    
+    try {
+      const response = await fetch('/api/admin/sync-index', {
+        method: 'POST'
+      });
+      
+      const result = await response.json();
+      
+      if (result.success) {
+        setSyncMessage(result.message);
+        
+        // Afficher les changements dans la console
+        if (result.changes.length > 0) {
+          console.log('📊 Modifications détectées:');
+          console.table(result.changes);
+        }
+        
+        // Recharger la liste
+        await loadMatieres();
+        
+        setTimeout(() => setSyncMessage(''), 5000);
+      } else {
+        alert('❌ Erreur: ' + result.message);
+      }
+    } catch (error) {
+      console.error('Erreur sync:', error);
+      alert('❌ Erreur lors de la synchronisation');
+    } finally {
+      setSyncing(false);
     }
   };
 
@@ -71,13 +110,29 @@ export default function AdminDashboard() {
                 <p className="text-gray-600">Gestion des QCM Medecine Hub</p>
               </div>
             </div>
-            <button
-              onClick={handleLogout}
-              className="flex items-center gap-2 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors font-semibold"
-            >
-              <LogOut className="w-4 h-4" />
-              Déconnexion
-            </button>
+            
+            <div className="flex items-center gap-3">
+              {syncMessage && (
+                <div className="bg-green-100 text-green-700 px-4 py-2 rounded-lg text-sm font-semibold animate-fade-in">
+                  ✅ {syncMessage}
+                </div>
+              )}
+              <button
+                onClick={handleSyncIndex}
+                disabled={syncing}
+                className="flex items-center gap-2 bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <RefreshCw className={`w-4 h-4 ${syncing ? 'animate-spin' : ''}`} />
+                {syncing ? 'Synchronisation...' : 'Synchroniser'}
+              </button>
+              <button
+                onClick={handleLogout}
+                className="flex items-center gap-2 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors font-semibold"
+              >
+                <LogOut className="w-4 h-4" />
+                Déconnexion
+              </button>
+            </div>
           </div>
         </div>
 
@@ -148,10 +203,10 @@ export default function AdminDashboard() {
           <div className="flex items-start gap-3">
             <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
             <div>
-              <h3 className="font-bold text-blue-900 mb-1">Important</h3>
+              <h3 className="font-bold text-blue-900 mb-1">Synchronisation automatique</h3>
               <p className="text-blue-800 text-sm">
-                Les modifications sont sauvegardées directement dans les fichiers JSON. 
-                Pensez à faire des sauvegardes régulières !
+                L'index se met à jour automatiquement lors de chaque sauvegarde. 
+                Utilisez le bouton "Synchroniser" si vous constatez des différences.
               </p>
             </div>
           </div>

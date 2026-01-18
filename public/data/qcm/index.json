@@ -1,29 +1,164 @@
 [
-  {"matiere":"Cardiologie","slug":"cardiologie","annee":2023,"total_questions":34},
-  {"matiere":"Cardiologie","slug":"cardiologie","annee":2024,"total_questions":36},
-  {"matiere":"Cardiologie","slug":"cardiologie","annee":2025,"total_questions":30},
-  {"matiere":"Diabetologie","slug":"diabetologie","annee":2023,"total_questions":27},
-  {"matiere":"Diabetologie","slug":"diabetologie","annee":2024,"total_questions":18},
-  {"matiere":"Diabetologie","slug":"diabetologie","annee":2025,"total_questions":16},
-  {"matiere":"Formation a la recherche","slug":"formation-a-la-recherche","annee":2023,"total_questions":16},
-  {"matiere":"Formation a la recherche","slug":"formation-a-la-recherche","annee":2024,"total_questions":15},
-  {"matiere":"Formation a la recherche","slug":"formation-a-la-recherche","annee":2025,"total_questions":8},
-  {"matiere":"Gastroenterologie","slug":"gastroenterologie","annee":2023,"total_questions":20},
-  {"matiere":"Gastroenterologie","slug":"gastroenterologie","annee":2024,"total_questions":23},
-  {"matiere":"Gastroenterologie","slug":"gastroenterologie","annee":2025,"total_questions":18},
-  {"matiere":"Geriatrie","slug":"geriatrie","annee":2023,"total_questions":4},
-  {"matiere":"Geriatrie","slug":"geriatrie","annee":2024,"total_questions":13},
-  {"matiere":"Geriatrie","slug":"geriatrie","annee":2025,"total_questions":7},
-  {"matiere":"Infectiologie","slug":"infectiologie","annee":2023,"total_questions":28},
-  {"matiere":"Infectiologie","slug":"infectiologie","annee":2024,"total_questions":27},
-  {"matiere":"Infectiologie","slug":"infectiologie","annee":2025,"total_questions":26},
-  {"matiere":"Pneumologie","slug":"pneumologie","annee":2023,"total_questions":26},
-  {"matiere":"Pneumologie","slug":"pneumologie","annee":2024,"total_questions":16},
-  {"matiere":"Pneumologie","slug":"pneumologie","annee":2025,"total_questions":24},
-  {"matiere":"Radiologie","slug":"radiologie","annee":2023,"total_questions":10},
-  {"matiere":"Radiologie","slug":"radiologie","annee":2024,"total_questions":6},
-  {"matiere":"Radiologie","slug":"radiologie","annee":2025,"total_questions":6},
-  {"matiere":"Urologie","slug":"urologie","annee":2023,"total_questions":6},
-  {"matiere":"Urologie","slug":"urologie","annee":2024,"total_questions":6},
-  {"matiere":"Urologie","slug":"urologie","annee":2025,"total_questions":16}
+  {
+    "matiere": "Cardiologie",
+    "slug": "cardiologie",
+    "annee": 2023,
+    "total_questions": 12
+  },
+  {
+    "matiere": "Cardiologie",
+    "slug": "cardiologie",
+    "annee": 2024,
+    "total_questions": 13
+  },
+  {
+    "matiere": "Cardiologie",
+    "slug": "cardiologie",
+    "annee": 2025,
+    "total_questions": 14
+  },
+  {
+    "matiere": "Diabetologie",
+    "slug": "diabetologie",
+    "annee": 2023,
+    "total_questions": 11
+  },
+  {
+    "matiere": "Diabetologie",
+    "slug": "diabetologie",
+    "annee": 2024,
+    "total_questions": 10
+  },
+  {
+    "matiere": "Diabetologie",
+    "slug": "diabetologie",
+    "annee": 2025,
+    "total_questions": 8
+  },
+  {
+    "matiere": "Formation a la recherche",
+    "slug": "formation-a-la-recherche",
+    "annee": 2023,
+    "total_questions": 12
+  },
+  {
+    "matiere": "Formation a la recherche",
+    "slug": "formation-a-la-recherche",
+    "annee": 2024,
+    "total_questions": 13
+  },
+  {
+    "matiere": "Formation a la recherche",
+    "slug": "formation-a-la-recherche",
+    "annee": 2025,
+    "total_questions": 7
+  },
+  {
+    "matiere": "Gastroenterologie",
+    "slug": "gastroenterologie",
+    "annee": 2023,
+    "total_questions": 9
+  },
+  {
+    "matiere": "Gastroenterologie",
+    "slug": "gastroenterologie",
+    "annee": 2024,
+    "total_questions": 8
+  },
+  {
+    "matiere": "Gastroenterologie",
+    "slug": "gastroenterologie",
+    "annee": 2025,
+    "total_questions": 8
+  },
+  {
+    "matiere": "Geriatrie",
+    "slug": "geriatrie",
+    "annee": 2023,
+    "total_questions": 4
+  },
+  {
+    "matiere": "Geriatrie",
+    "slug": "geriatrie",
+    "annee": 2024,
+    "total_questions": 5
+  },
+  {
+    "matiere": "Geriatrie",
+    "slug": "geriatrie",
+    "annee": 2025,
+    "total_questions": 5
+  },
+  {
+    "matiere": "Infectiologie",
+    "slug": "infectiologie",
+    "annee": 2023,
+    "total_questions": 10
+  },
+  {
+    "matiere": "Infectiologie",
+    "slug": "infectiologie",
+    "annee": 2024,
+    "total_questions": 10
+  },
+  {
+    "matiere": "Infectiologie",
+    "slug": "infectiologie",
+    "annee": 2025,
+    "total_questions": 10
+  },
+  {
+    "matiere": "Pneumologie",
+    "slug": "pneumologie",
+    "annee": 2023,
+    "total_questions": 9
+  },
+  {
+    "matiere": "Pneumologie",
+    "slug": "pneumologie",
+    "annee": 2024,
+    "total_questions": 8
+  },
+  {
+    "matiere": "Pneumologie",
+    "slug": "pneumologie",
+    "annee": 2025,
+    "total_questions": 10
+  },
+  {
+    "matiere": "Radiologie",
+    "slug": "radiologie",
+    "annee": 2023,
+    "total_questions": 5
+  },
+  {
+    "matiere": "Radiologie",
+    "slug": "radiologie",
+    "annee": 2024,
+    "total_questions": 3
+  },
+  {
+    "matiere": "Radiologie",
+    "slug": "radiologie",
+    "annee": 2025,
+    "total_questions": 4
+  },
+  {
+    "matiere": "Urologie",
+    "slug": "urologie",
+    "annee": 2023,
+    "total_questions": 4
+  },
+  {
+    "matiere": "Urologie",
+    "slug": "urologie",
+    "annee": 2024,
+    "total_questions": 4
+  },
+  {
+    "matiere": "Urologie",
+    "slug": "urologie",
+    "annee": 2025,
+    "total_questions": 8
+  }
 ]
