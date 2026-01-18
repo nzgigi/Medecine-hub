@@ -110,79 +110,70 @@
     },
     {
       "id": 7,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel est le mécanisme de cette défaillance cardiaque (QRU)?",
+      "type": "QRM",
+      "contexte": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant.\nSon état s'aggrave progressivement et il est maintenant essoufflé pour ses activités quotidiennes, ranger son garage et préparer\nles repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur\nthoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail,\nsans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de\nl'examen est sans particularité.",
+      "question": "Quels sont les deux diagnostics à évoquer dans ce contexte (2 réponses valides)?",
       "choix": [
-        "A) ■ Insuffisance cardiaque à fraction d'éjection préservée.",
-        "B) Insuffisance cardiaque à fraction d'éjection réduite.",
-        "C) ■ Tamponnade.",
-        "D) ■ Insuffisance cardiaque droite isolée.",
-        "F) raction d'éjection VG : 25 % Absence de valvulopathie Absence d'épanchement péricardique PAPS estimée à 40 mmHg Cavité droite non dilatée Quel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "I) nsuffisance cardiaque à fraction d'éjection préservée.",
-        "L) 'échocardiographie est soumise à votre interprétation : COMPTE-RENDU : Akinésie de la paroi antérieure Absence de thrombus intra-cavitaire Fraction d'éjection VG : 25 % Absence de valvulopathie Absence d'épanchement péricardique PAPS estimée à 40 mmHg Cavité droite non dilatée Quel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "P) APS estimée à 40 mmHg Cavité droite non dilatée Quel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "Q) uel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "R) éponse attendue"
+        "A) Broncho-Pneumopathie Chronique Obstructive.",
+        "B) Embolie pulmonaire",
+        "C) Asthme.",
+        "D) Insuffisance mitrale",
+        "E) Insuffisance cardiaque."
       ],
       "reponses": [
-        "B"
+        "A",
+        "E"
       ]
     },
     {
       "id": 8,
       "type": "QRU",
-      "contexte": "",
-      "question": "Quel(s) est (sont) le(s) paramètre(s) utile(s) pour en stratifier la gravité ?",
+      "contexte": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant.\nSon état s'aggrave progressivement et il est maintenant essoufflé pour ses activités quotidiennes, ranger son garage et préparer\nles repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur\nthoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail,\nsans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de\nl'examen est sans particularité.",
+      "question": "Quel est le stade de sévérité de cette dyspnée selon la classification de la New York Heart Association (QRU)?",
       "choix": [
-        "A) ■ Présence de thrombus proximal.",
-        "B) ■ Atteinte de >50% du lit vasculaire pulmonaire.",
-        "C) L'âge.",
-        "D) La pression artérielle.",
-        "E) La présence d'un cancer. L’angioscanner confirme la présence d’une embolie pulmonaire. Quel(s) est (sont) le(s) paramètre(s) utile(s) pour en stratifier la gravité ? 9/22 Question menu déroulant ",
-        "L) 'âge.",
-        "P) résence de thrombus proximal.",
-        "Q) uel(s) est (sont) le(s) paramètre(s) utile(s) pour en stratifier la gravité ? 9/22 Question menu déroulant ",
-        "R) éponse attendue"
+        "A) NYHA 0",
+        "B) NYHA 1",
+        "C) NYHA 2",
+        "D) NYHA 3",
+        "E) NYHA 4"
       ],
       "reponses": [
-        "C",
-        "D",
-        "E"
+        "D"
       ]
     },
     {
       "id": 9,
       "type": "QROC",
-      "contexte": "",
-      "question": "quand il inspire. Il a pris sa température qui est à 38°. L’examen physique vous parait normal notamment l’auscultation. La gorge est encore un peu rouge. Quel est le diagnostic le plus probable ?",
+      "contexte": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant.\nSon état s'aggrave progressivement et il est maintenant essoufflé pour ses activités quotidiennes, ranger son garage et préparer\nles repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur\nthoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail,\nsans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de\nl'examen est sans particularité.",
+      "question": "Parmi les examens suivants, lequel (lesquels) vous paraît (paraissent) nécessaire(s) en première intention?",
       "choix": [
-        "A) test",
-        "B) Nouvelle réponse"
+        "A) Une échographie cardiaque trans-oesophagienne",
+        "B) Un scanner cardiaque",
+        "C) Un bilan biologique comportant FNS, Ionogramme sanguin, TSH, NT-ProBNP",
+        "D) Un IRM cardiaque",
+        "E) Un électrocardiogramme"
       ],
       "reponses": [
-        "A"
+        "C",
+        "E"
       ]
     },
     {
       "id": 10,
-      "type": "QRU",
+      "type": "QRM",
       "contexte": "",
-      "question": "quels sont les deux risques principaux du patient à cinq ans (Question à réponse précisée)?",
+      "question": "La fonction rénale est normale sans désordre électrolytique, le BNP est à 195 pg/mL, l'Hb glyquée à 8.5 % et il n'existe ni\nanémie, ni hyperleucocytose.\nL'ECG est soumis à votre interprétation ( IL FAUT UNE IMAGE NORMALEMENT NORMALEMENT )",
       "choix": [
-        "A) Accident vasculaire cérébral.",
-        "B) ■ Amputation.",
-        "C) ■ Perte de vue.",
-        "D) Infarctus du myocarde.",
-        "E) ■ Ischémie aigüe de membres. Au stade de claudication intermittente, quels sont les deux risques principaux du patient à cinq ans (Question à réponse précisée)? Question à réponse unique ",
-        "I) nfarctus du myocarde.",
-        "P) erte de vue.",
-        "Q) uestion à réponse unique ",
-        "R) éponse attendue"
+        "A) Fibrillation atriale",
+        "B) Séquelle d'infarctus antérieur",
+        "C) Déviation axiale hypergauche",
+        "D) Hypertrophie ventriculaire gauche",
+        "E) Rythme sinusal"
       ],
       "reponses": [
-        "A",
-        "D"
+        "B",
+        "C",
+        "E"
       ]
     },
     {
