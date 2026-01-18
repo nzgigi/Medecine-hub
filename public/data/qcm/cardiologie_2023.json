@@ -6,16 +6,14 @@
     {
       "id": 1,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie (QRM)? TEST",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie ?",
       "choix": [
         "A) Souffle systolique",
         "B) Timbre râpeux",
-        "C) ■ Éclat du B2 TEST",
-        "D) ■ Élargissement de la pression différentielle TEST",
-        "E) Souffle irradiant vers les carotides Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avTEST ec cette valvulopathie (QRM)? Question à réponse unique ",
-        "Q) uelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie (QRM)? Question à réponse unique ",
-        "R) éponse attendueTEST"
+        "C) Éclat du B2",
+        "D) Élargissement de la pression différentielle",
+        "E) Souffle irradiant vers les carotides"
       ],
       "reponses": [
         "A",
@@ -26,17 +24,14 @@
     {
       "id": 2,
       "type": "QRU",
-      "contexte": "",
-      "question": "Quelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente (QRU)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente ?",
       "choix": [
         "A) Dégénératif",
-        "B) ■ Bicuspidie",
-        "C) ■ Post radique",
-        "D) égénératif",
-        "E) ■ Congénital Quelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente (QRU)? Question à réponses multiples ",
-        "P) ost radique",
-        "Q) uelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente (QRU)? Question à réponses multiples ",
-        "R) éponse attendue"
+        "B) Bicuspidie",
+        "C) Post radique",
+        "D) Post rhumatismal",
+        "E) Congénital"
       ],
       "reponses": [
         "A"
@@ -56,7 +51,8 @@
         "R) éponse attendue"
       ],
       "reponses": [
-        "A"
+        "A",
+        "C"
       ]
     },
     {
@@ -170,8 +166,13 @@
       "type": "QROC",
       "contexte": "",
       "question": "quand il inspire. Il a pris sa température qui est à 38°. L’examen physique vous parait normal notamment l’auscultation. La gorge est encore un peu rouge. Quel est le diagnostic le plus probable ?",
-      "choix": [],
-      "reponses": []
+      "choix": [
+        "A) test",
+        "B) Nouvelle réponse"
+      ],
+      "reponses": [
+        "A"
+      ]
     },
     {
       "id": 10,
@@ -225,7 +226,9 @@
         "Q) uestion à réponse ouverte et courte ",
         "R) éponse attendue Flutter auriculaire Fluter auriculaire Flutter atrial Fluter atrial flutter atriale flutter flutter commun Flutter Flutter atriale Flutter typique Flutter commun flutter typique flutter attrial 20/22 Question à réponse ouverte et courte "
       ],
-      "reponses": []
+      "reponses": [
+        "C"
+      ]
     }
   ]
 }
