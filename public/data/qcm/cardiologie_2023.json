@@ -6,16 +6,14 @@
     {
       "id": 1,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie (QRM)? TEST",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie ?",
       "choix": [
         "A) Souffle systolique",
         "B) Timbre râpeux",
-        "C) ■ Éclat du B2 TEST",
-        "D) ■ Élargissement de la pression différentielle TEST",
-        "E) Souffle irradiant vers les carotides Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avTEST ec cette valvulopathie (QRM)? Question à réponse unique ",
-        "Q) uelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie (QRM)? Question à réponse unique ",
-        "R) éponse attendueTEST"
+        "C) Éclat du B2",
+        "D) Élargissement de la pression différentielle",
+        "E) Souffle irradiant vers les carotides"
       ],
       "reponses": [
         "A",
@@ -26,17 +24,14 @@
     {
       "id": 2,
       "type": "QRU",
-      "contexte": "",
-      "question": "Quelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente (QRU)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente ?",
       "choix": [
         "A) Dégénératif",
-        "B) ■ Bicuspidie",
-        "C) ■ Post radique",
-        "D) égénératif",
-        "E) ■ Congénital Quelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente (QRU)? Question à réponses multiples ",
-        "P) ost radique",
-        "Q) uelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente (QRU)? Question à réponses multiples ",
-        "R) éponse attendue"
+        "B) Bicuspidie",
+        "C) Post radique",
+        "D) Post rhumatismal",
+        "E) Congénital"
       ],
       "reponses": [
         "A"
@@ -45,35 +40,31 @@
     {
       "id": 3,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quel(s) résultat(s) est(sont) attendu(s) de l’échocardiographie transthoracique dans cette pathologie (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quel(s) résultat(s) est(sont) attendu(s) de l’échocardiographie transthoracique dans cette pathologie ?",
       "choix": [
         "A) Présence d’une hypertrophie ventriculaire gauche",
-        "B) ■ Présence d’une insuffisance mitrale fonctionnelle",
-        "C) ■ Dilatation des cavités cardiaques droites",
-        "D) ilatation des cavités cardiaques droites",
-        "P) résence d’une hypertrophie ventriculaire gauche",
-        "R) éponse attendue"
+        "B) Présence d’une insuffisance mitrale fonctionnelle",
+        "C) Dilatation des cavités cardiaques droites",
+        "D) Augmentation du gradient transvalvulaire aortique",
+        "E) Diminution de la surface valvulaire aortique"
       ],
       "reponses": [
-        "A"
+        "A",
+        "C"
       ]
     },
     {
       "id": 4,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quel(s) traitement(s) pouvez- vous raisonnablement discuter chez cette patiente (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Les données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez-\nvous raisonnablement discuter chez cette patiente ?",
       "choix": [
         "A) Remplacement valvulaire aortique chirurgical par bioprothèse",
-        "B) ■ Remplacement valvulaire aortique chirurgical par prothèse mécanique",
-        "C) ■ Valvuloplastie aortique au ballon pour un traitement définitif.",
+        "B) Remplacement valvulaire aortique chirurgical par prothèse mécanique",
+        "C) Valvuloplastie aortique au ballon pour un traitement définitif.",
         "D) Mise en place d’une bioprothèse par technique transcathéter",
-        "E) ■ Traitement médical de 1 intention avec majoration du traitement diurétique Les données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez- vous raisonnablement discuter chez cette patiente (QRM)? ère Question à réponses multiples ",
-        "L) es données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez- vous raisonnablement discuter chez cette patiente (QRM)? ère Question à réponses multiples ",
-        "M) ise en place d’une bioprothèse par technique transcathéter",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
+        "E) Traitement médical de 1 intention avec majoration du traitement diurétique"
       ],
       "reponses": [
         "A",
@@ -83,16 +74,14 @@
     {
       "id": 5,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quel(s) examen(s) complémentaire(s) demandez-vous pour compléter le bilan pré-thérapeutique (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Quel(s) examen(s) complémentaire(s) demandez-vous pour compléter le bilan pré-thérapeutique ?",
       "choix": [
         "A) Coronarographie",
-        "B) Epreuve fonctionnelle respiratoire.",
-        "C) oronarographie",
+        "B) Epreuve fonctionnelle respiratoire",
+        "C) Score calcique valvulaire",
         "D) Echographie doppler des troncs supra-aortiques",
-        "E) preuve fonctionnelle respiratoire.",
-        "Q) uel(s) examen(s) complémentaire(s) demandez-vous pour compléter le bilan pré-thérapeutique (QRM)? Question à réponses multiples ",
-        "R) éponse attendue"
+        "E) Coroscanner"
       ],
       "reponses": [
         "A",
@@ -103,17 +92,14 @@
     {
       "id": 6,
       "type": "QRM",
-      "contexte": "",
-      "question": "Quelle(s) est(sont) la(les) propositions juste(s) concernant ce type de prothèse (QRM)?",
+      "contexte": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un\ncancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge\nde 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m ).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "question": "Mme A. bénéficie d’un remplacement valvulaire percutané avec implantation d’une bioprothèse Edwards. Quelle(s) est(sont)\nla(les) propositions juste(s) concernant ce type de prothèse ?",
       "choix": [
-        "A) ■ Un traitement anticoagulant oral à vie est justifié par la présence de la bioprothèse .",
-        "B) Une consultation dentaire est à programmer au moins 1 fois par an.",
+        "A) Un traitement anticoagulant oral à vie est justifié par la présence de la bioprothèse",
+        "B) Une consultation dentaire est à programmer au moins 1 fois par an",
         "C) Mme A. est une patiente désormais considérée à haut risque d’endocardite.",
         "D) Ce type de prothèse présente un risque de dégénérescence.",
-        "E) Ce type de prothèse présente un risque de thrombose. Mme A. bénéficie d’un remplacement valvulaire percutané avec implantation d’une bioprothèse Edwards. Quelle(s) est(sont) la(les) propositions juste(s) concernant ce type de prothèse (QRM)? 2/22 Question à réponses multiples ",
-        "M) me A. est une patiente désormais considérée à haut risque d’endocardite.",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
+        "E) Ce type de prothèse présente un risque de thrombose."
       ],
       "reponses": [
         "B",
@@ -124,74 +110,70 @@
     },
     {
       "id": 7,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel est le mécanisme de cette défaillance cardiaque (QRU)?",
+      "type": "QRM",
+      "contexte": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant.\nSon état s'aggrave progressivement et il est maintenant essoufflé pour ses activités quotidiennes, ranger son garage et préparer\nles repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur\nthoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail,\nsans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de\nl'examen est sans particularité.",
+      "question": "Quels sont les deux diagnostics à évoquer dans ce contexte (2 réponses valides)?",
       "choix": [
-        "A) ■ Insuffisance cardiaque à fraction d'éjection préservée.",
-        "B) Insuffisance cardiaque à fraction d'éjection réduite.",
-        "C) ■ Tamponnade.",
-        "D) ■ Insuffisance cardiaque droite isolée.",
-        "F) raction d'éjection VG : 25 % Absence de valvulopathie Absence d'épanchement péricardique PAPS estimée à 40 mmHg Cavité droite non dilatée Quel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "I) nsuffisance cardiaque à fraction d'éjection préservée.",
-        "L) 'échocardiographie est soumise à votre interprétation : COMPTE-RENDU : Akinésie de la paroi antérieure Absence de thrombus intra-cavitaire Fraction d'éjection VG : 25 % Absence de valvulopathie Absence d'épanchement péricardique PAPS estimée à 40 mmHg Cavité droite non dilatée Quel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "P) APS estimée à 40 mmHg Cavité droite non dilatée Quel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "Q) uel est le mécanisme de cette défaillance cardiaque (QRU)? 6/22 Question à réponses multiples ",
-        "R) éponse attendue"
+        "A) Broncho-Pneumopathie Chronique Obstructive.",
+        "B) Embolie pulmonaire",
+        "C) Asthme.",
+        "D) Insuffisance mitrale",
+        "E) Insuffisance cardiaque."
       ],
       "reponses": [
-        "B"
+        "A",
+        "E"
       ]
     },
     {
       "id": 8,
       "type": "QRU",
-      "contexte": "",
-      "question": "Quel(s) est (sont) le(s) paramètre(s) utile(s) pour en stratifier la gravité ?",
+      "contexte": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant.\nSon état s'aggrave progressivement et il est maintenant essoufflé pour ses activités quotidiennes, ranger son garage et préparer\nles repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur\nthoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail,\nsans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de\nl'examen est sans particularité.",
+      "question": "Quel est le stade de sévérité de cette dyspnée selon la classification de la New York Heart Association (QRU)?",
       "choix": [
-        "A) ■ Présence de thrombus proximal.",
-        "B) ■ Atteinte de >50% du lit vasculaire pulmonaire.",
-        "C) L'âge.",
-        "D) La pression artérielle.",
-        "E) La présence d'un cancer. L’angioscanner confirme la présence d’une embolie pulmonaire. Quel(s) est (sont) le(s) paramètre(s) utile(s) pour en stratifier la gravité ? 9/22 Question menu déroulant ",
-        "L) 'âge.",
-        "P) résence de thrombus proximal.",
-        "Q) uel(s) est (sont) le(s) paramètre(s) utile(s) pour en stratifier la gravité ? 9/22 Question menu déroulant ",
-        "R) éponse attendue"
+        "A) NYHA 0",
+        "B) NYHA 1",
+        "C) NYHA 2",
+        "D) NYHA 3",
+        "E) NYHA 4"
       ],
       "reponses": [
-        "C",
-        "D",
-        "E"
+        "D"
       ]
     },
     {
       "id": 9,
       "type": "QROC",
-      "contexte": "",
-      "question": "quand il inspire. Il a pris sa température qui est à 38°. L’examen physique vous parait normal notamment l’auscultation. La gorge est encore un peu rouge. Quel est le diagnostic le plus probable ?",
-      "choix": [],
-      "reponses": []
+      "contexte": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant.\nSon état s'aggrave progressivement et il est maintenant essoufflé pour ses activités quotidiennes, ranger son garage et préparer\nles repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur\nthoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail,\nsans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de\nl'examen est sans particularité.",
+      "question": "Parmi les examens suivants, lequel (lesquels) vous paraît (paraissent) nécessaire(s) en première intention?",
+      "choix": [
+        "A) Une échographie cardiaque trans-oesophagienne",
+        "B) Un scanner cardiaque",
+        "C) Un bilan biologique comportant FNS, Ionogramme sanguin, TSH, NT-ProBNP",
+        "D) Un IRM cardiaque",
+        "E) Un électrocardiogramme"
+      ],
+      "reponses": [
+        "C",
+        "E"
+      ]
     },
     {
       "id": 10,
-      "type": "QRU",
+      "type": "QRM",
       "contexte": "",
-      "question": "quels sont les deux risques principaux du patient à cinq ans (Question à réponse précisée)?",
+      "question": "La fonction rénale est normale sans désordre électrolytique, le BNP est à 195 pg/mL, l'Hb glyquée à 8.5 % et il n'existe ni\nanémie, ni hyperleucocytose.\nL'ECG est soumis à votre interprétation ( IL FAUT UNE IMAGE NORMALEMENT NORMALEMENT )",
       "choix": [
-        "A) Accident vasculaire cérébral.",
-        "B) ■ Amputation.",
-        "C) ■ Perte de vue.",
-        "D) Infarctus du myocarde.",
-        "E) ■ Ischémie aigüe de membres. Au stade de claudication intermittente, quels sont les deux risques principaux du patient à cinq ans (Question à réponse précisée)? Question à réponse unique ",
-        "I) nfarctus du myocarde.",
-        "P) erte de vue.",
-        "Q) uestion à réponse unique ",
-        "R) éponse attendue"
+        "A) Fibrillation atriale",
+        "B) Séquelle d'infarctus antérieur",
+        "C) Déviation axiale hypergauche",
+        "D) Hypertrophie ventriculaire gauche",
+        "E) Rythme sinusal"
       ],
       "reponses": [
-        "A",
-        "D"
+        "B",
+        "C",
+        "E"
       ]
     },
     {
@@ -225,7 +207,9 @@
         "Q) uestion à réponse ouverte et courte ",
         "R) éponse attendue Flutter auriculaire Fluter auriculaire Flutter atrial Fluter atrial flutter atriale flutter flutter commun Flutter Flutter atriale Flutter typique Flutter commun flutter typique flutter attrial 20/22 Question à réponse ouverte et courte "
       ],
-      "reponses": []
+      "reponses": [
+        "C"
+      ]
     }
   ]
 }
