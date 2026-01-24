@@ -1,7 +1,7 @@
 {
   "matiere": "Cardiologie",
   "annee": 2023,
-  "total_questions": 12,
+  "total_questions": 34,
   "questions": [
     {
       "id": 1,
@@ -51,7 +51,8 @@
       ],
       "reponses": [
         "A",
-        "C"
+        "D",
+        "E"
       ]
     },
     {
@@ -180,35 +181,345 @@
       "id": 11,
       "type": "QRU",
       "contexte": "",
-      "question": "Comment confirme-t-on un diagnostic d'artériopathie oblitérante des membres inférieurs lors d'un bilan pour claudication intermittente ?",
+      "question": "La radiographie du thorax est soumise à votre interprétation.",
       "choix": [
-        "A) ■ La clinique suffit.",
-        "B) ■ Il faut effectuer un angio-IRM des membres inférieurs.",
-        "C) Il faut calculer le rapport entre pression artérielle à la cheville et pression humérale.",
-        "D) ■ Il faut mesurer la cholestérolémie.",
-        "E) ■ Il faut effectuer un angioscanner des membres inférieurs. Comment confirme-t-on un diagnostic d'artériopathie oblitérante des membres inférieurs lors d'un bilan pour claudication intermittente ? Quelle est la réponse exacte (QRU)? Question à réponses multiples ",
-        "I) l faut effectuer un angio-IRM des membres inférieurs.",
-        "L) a clinique suffit.",
-        "Q) uelle est la réponse exacte (QRU)? Question à réponses multiples ",
-        "R) éponse attendue"
+        "A) Dilatation de l'aorte",
+        "B) Epanchement pleural",
+        "C) Syndrome interstitiel",
+        "D) Syndrome alvéolaire",
+        "E) Apneumopathie bilatérale"
       ],
       "reponses": [
         "C"
       ]
     },
     {
-      "id": 14,
+      "id": 12,
       "type": "QRU",
       "contexte": "",
-      "question": "Chez ce patient qui se plaint de palpitations et dont l'ECG est le suivant, quel diagnostic retenez-vous (2 mots)?",
+      "question": "Devant ces anomalies, vous vous orientez vers une étiologie cardiaque dominante à la dyspnée.\nQuel nouvel examen complémentaire doit être réalisé (QRU)?",
       "choix": [
-        "C) hez ce patient qui se plaint de palpitations et dont l'ECG est le suivant, quel diagnostic retenez-vous (2 mots)? Réponse attendue Flutter auriculaire Fluter auriculaire Flutter atrial Fluter atrial flutter atriale flutter flutter commun Flutter Flutter atriale Flutter typique Flutter commun flutter typique flutter attrial 20/22 Question à réponse ouverte et courte ",
-        "F) lutter auriculaire Fluter auriculaire Flutter atrial Fluter atrial flutter atriale flutter flutter commun Flutter Flutter atriale Flutter typique Flutter commun flutter typique flutter attrial 20/22 Question à réponse ouverte et courte ",
-        "Q) uestion à réponse ouverte et courte ",
-        "R) éponse attendue Flutter auriculaire Fluter auriculaire Flutter atrial Fluter atrial flutter atriale flutter flutter commun Flutter Flutter atriale Flutter typique Flutter commun flutter typique flutter attrial 20/22 Question à réponse ouverte et courte "
+        "A) Scanner thoracique",
+        "B) Coronarographie",
+        "C) IRM thoracique",
+        "D) Ventriculographie isotopique",
+        "E) Echocardiographie transœsophagienne"
       ],
       "reponses": [
-        "C"
+        "B"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "QRU",
+      "contexte": "",
+      "question": "L'échocardiographie est soumise à votre interprétation :",
+      "choix": [
+        "A) Insuffisance cardiaque à fraction d'éjection préservée",
+        "B) Insuffisance cardiaque à fraction d'éjection réduite",
+        "C) Tamponnade",
+        "D) Insuffisance cardiaque droite isolée",
+        "E) Insuffisance cardiaque à fraction d'éjection intermédiaire"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "QRM",
+      "contexte": "Nouveau DP\nM B 69 ans se présente aux urgences pour une douleur au mollet gauche, apparue depuis environ une semaine. La douleur est présente au repos, mais est accentuée par la marche. Les antécédents de ce patient sont une hypertension artérielle traitée par\nIrbesartan et hydrochlorothiazide. Il a fumé de l’âge de 20 ans à l’âge de 55 ans, environ un paquet par jour, puis il a arrêté suite à un syndrome coronaire aigu pour lequel il a bénéficié de la pose d’un stent dans l’IVA (il y a 15 ans). Il a été opéré il y a un mois\nd’une prothèse totale de genou droit à cause d’une arthrose. Il prend actuellement 100mg d’aspirine.\nIl est en bon état général, de poids stable. Il pèse 82Kg et mesure 178cm de taille. A l’examen clinique il ne présente pas d’œdème du membre douloureux ni de circulation collatérale superficielle, les pouls distaux sont présents. Le reste de l’examen\nest sans particularité.\nLa pression artérielle est de 132/80 mmHg, la FC 80bpm.\nLa clairance est de 80ml/min. Hb 14,2 g/dl ; GB 4,5 G/L, plaquettes 330 G/L.",
+      "question": "Quel(s) est (sont) le (les) facteur(s) de risque de thrombose veineuse profonde de ce patient ?",
+      "choix": [
+        "A) L'âge",
+        "B) Le tabagisme",
+        "C) L'hypertension",
+        "D) L'intervention chirurgicale",
+        "E) Le syndrome coronaire"
+      ],
+      "reponses": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "QRU",
+      "contexte": "",
+      "question": "Nouvelle question ?",
+      "choix": [
+        "A) Réponse 1",
+        "B) Réponse 2",
+        "C) Réponse 3"
+      ],
+      "reponses": [
+        "A"
       ]
     }
   ]
