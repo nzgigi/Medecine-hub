@@ -1,13 +1,12 @@
 #!/bin/bash
-cd /var/www/Medecine-hub
 
-# Add tous les fichiers modifiés
+cd /var/www/Medecine-hub || exit 1
+
 git add .
 
-# Commit avec timestamp
-git commit -m "Auto-backup: Admin modification $(date '+%Y-%m-%d %H:%M:%S')" 2>/dev/null
-
-# Push vers GitHub (silent mode)
-git push origin main 2>/dev/null
+if ! git diff --cached --quiet; then
+  git commit -m "Auto-backup: Admin modification $(date '+%Y-%m-%d %H:%M:%S')" 2>/dev/null
+  git push origin main 2>/dev/null
+fi
 
 exit 0
