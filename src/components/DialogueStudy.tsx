@@ -30,7 +30,7 @@ const dialogue: Replica[] = [
   { speaker: "Klant", text: "Dat is goed, ik neem hem." },
   { speaker: "Verkoper", text: "Mag ik u nog iets voorstellen? Omdat u de laptop vaak gebruikt, is een extra oplader handig." },
   { speaker: "Klant", text: "Waarom is een extra oplader handig?" },
-  { speaker: "Verkoper", text: "U kunt één oplader thuis laten en één in uw tas steken. Zo vergeet u nooit uw oplader." },
+  { speaker: "Verkoper", text: "Een voor thuis en een voor werk !" },
   { speaker: "Klant", text: "Is deze oplader goed voor deze laptop?" },
   { speaker: "Verkoper", text: "Ja, hij is speciaal voor dit model. Hij kost 35 euro." },
   { speaker: "Klant", text: "Oké, ik neem de oplader ook." },
