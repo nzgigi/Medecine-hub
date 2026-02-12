@@ -23,6 +23,7 @@ import {
   User
 } from 'lucide-react';
 
+
 interface Project {
   id: string;
   title: string;
@@ -31,6 +32,7 @@ interface Project {
   image?: string;
   link?: string;
 }
+
 
 export default function InoriWebPage() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -42,14 +44,17 @@ export default function InoriWebPage() {
     message: ''
   });
 
+
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
 
+
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
+
 
   const projects: Project[] = [
     {
@@ -99,6 +104,7 @@ export default function InoriWebPage() {
     }
   ];
 
+
   const services = [
     {
       icon: <Globe className="w-8 h-8" />,
@@ -132,11 +138,41 @@ export default function InoriWebPage() {
     }
   ];
 
+
+  // ✅ MODIFIÉ : handleSubmit qui envoie vers /api/devis
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Message envoyé ! Nous vous répondrons rapidement.');
-    setFormData({ name: '', email: '', phone: '', company: '', message: '' });
+    
+    try {
+      const response = await fetch('/api/devis', {  // ← Route spécifique pour les devis
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert('✅ Demande de devis envoyée avec succès !');
+        // Réinitialiser le formulaire
+        setFormData({ 
+          name: '', 
+          email: '', 
+          phone: '', 
+          company: '', 
+          message: '' 
+        });
+      } else {
+        alert('❌ ' + (result.error || 'Erreur lors de l\'envoi'));
+      }
+    } catch (error) {
+      console.error('Erreur:', error);
+      alert('❌ Erreur serveur');
+    }
   };
+
 
   return (
     <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
@@ -148,6 +184,7 @@ export default function InoriWebPage() {
           background: `radial-gradient(600px at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.15), transparent 80%)`
         }}
       />
+
 
       {/* Header / Hero Section */}
       <header className="relative">
@@ -166,12 +203,14 @@ export default function InoriWebPage() {
           </div>
         </nav>
 
+
         <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-32">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 rounded-full px-4 py-2 mb-8 backdrop-blur-sm animate-[fadeIn_0.5s_ease-out]">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
               <span className="text-sm font-medium text-blue-300">Disponible pour nouveaux projets</span>
             </div>
+
 
             <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight animate-[fadeIn_0.6s_ease-out]">
               Créons ensemble
@@ -183,6 +222,7 @@ export default function InoriWebPage() {
             <p className="text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed animate-[fadeIn_0.7s_ease-out]">
               Agence web belge spécialisée dans la création de sites modernes, performants et sur mesure.
             </p>
+
 
             <div className="flex flex-wrap gap-4 animate-[fadeIn_0.8s_ease-out]">
               <a
@@ -202,6 +242,7 @@ export default function InoriWebPage() {
           </div>
         </div>
       </header>
+
 
       {/* Stats avec animations */}
       <section className="relative py-16 bg-slate-900/50 backdrop-blur-sm">
@@ -227,6 +268,7 @@ export default function InoriWebPage() {
         </div>
       </section>
 
+
       {/* Services */}
       <section id="services" className="relative py-32 px-4">
         <div className="max-w-7xl mx-auto">
@@ -238,6 +280,7 @@ export default function InoriWebPage() {
               Des solutions web complètes adaptées à vos besoins
             </p>
           </div>
+
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
@@ -256,6 +299,7 @@ export default function InoriWebPage() {
         </div>
       </section>
 
+
       {/* Compétences/Technologies - VERSION COMPACTE */}
       <section className="relative py-20 px-4 bg-slate-900/30">
         <div className="max-w-7xl mx-auto">
@@ -270,6 +314,7 @@ export default function InoriWebPage() {
               Nous maîtrisons un large éventail de technologies pour répondre à tous vos besoins : sites web, bots Discord/Telegram/WhatsApp, logiciels sur mesure, intégrations API et bien plus encore.
             </p>
           </div>
+
 
           {/* Grille de compétences compacte */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -287,6 +332,7 @@ export default function InoriWebPage() {
               </ul>
             </div>
 
+
             {/* Bots & Automation */}
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-cyan-500/50 hover:shadow-[0_0_30px_rgba(34,211,238,0.2)] transition-all duration-300 hover:-translate-y-1">
               <div className="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center mb-4">
@@ -301,6 +347,7 @@ export default function InoriWebPage() {
               </ul>
             </div>
 
+
             {/* Software & APIs */}
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500/50 hover:shadow-[0_0_30px_rgba(168,85,247,0.2)] transition-all duration-300 hover:-translate-y-1">
               <div className="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4">
@@ -314,6 +361,7 @@ export default function InoriWebPage() {
                 <li>• Bases de données</li>
               </ul>
             </div>
+
 
             {/* Design & Performance */}
             <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-green-500/50 hover:shadow-[0_0_30px_rgba(34,197,94,0.2)] transition-all duration-300 hover:-translate-y-1">
@@ -330,6 +378,7 @@ export default function InoriWebPage() {
             </div>
           </div>
 
+
           {/* Highlight - Ce qu'on fait */}
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border border-blue-500/30 rounded-xl p-6 backdrop-blur-sm hover:shadow-[0_0_20px_rgba(59,130,246,0.2)] transition-all duration-300">
@@ -342,6 +391,7 @@ export default function InoriWebPage() {
               </p>
             </div>
 
+
             <div className="bg-gradient-to-br from-cyan-500/10 to-purple-500/10 border border-cyan-500/30 rounded-xl p-6 backdrop-blur-sm hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] transition-all duration-300">
               <div className="flex items-center gap-3 mb-3">
                 <MessageSquare className="w-6 h-6 text-cyan-400" />
@@ -351,6 +401,7 @@ export default function InoriWebPage() {
                 Création de bots Discord, Telegram, WhatsApp avec commandes personnalisées et intégrations API
               </p>
             </div>
+
 
             <div className="bg-gradient-to-br from-purple-500/10 to-green-500/10 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm hover:shadow-[0_0_20px_rgba(168,85,247,0.2)] transition-all duration-300">
               <div className="flex items-center gap-3 mb-3">
@@ -362,6 +413,7 @@ export default function InoriWebPage() {
               </p>
             </div>
           </div>
+
 
           {/* Mini badges technologies */}
           <div className="mt-12 text-center">
@@ -399,6 +451,7 @@ export default function InoriWebPage() {
         </div>
       </section>
 
+
       {/* Réalisations */}
       <section id="realisations" className="relative py-32 px-4 bg-slate-900/30">
         <div className="max-w-7xl mx-auto">
@@ -410,6 +463,7 @@ export default function InoriWebPage() {
               Des projets concrets qui parlent pour nous
             </p>
           </div>
+
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
@@ -433,6 +487,7 @@ export default function InoriWebPage() {
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-800 to-transparent opacity-60" />
                 </div>
+
 
                 <div className="p-6">
                   <div className="text-sm text-blue-400 font-semibold mb-2">
@@ -459,6 +514,7 @@ export default function InoriWebPage() {
               </div>
             ))}
           </div>
+
 
           {/* Message de flexibilité */}
           <div className="mt-16 text-center max-w-3xl mx-auto">
@@ -489,6 +545,7 @@ export default function InoriWebPage() {
         </div>
       </section>
 
+
       {/* Processus - VERSION AMÉLIORÉE */}
       <section id="processus" className="relative py-32 px-4">
         <div className="max-w-7xl mx-auto">
@@ -498,6 +555,7 @@ export default function InoriWebPage() {
             </h2>
             <p className="text-xl text-slate-400">Un processus simple et transparent en 4 étapes</p>
           </div>
+
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
@@ -559,6 +617,7 @@ export default function InoriWebPage() {
         </div>
       </section>
 
+
       {/* Section Contact améliorée */}
       <section className="relative py-20 px-4 bg-slate-900/50">
         <div className="max-w-4xl mx-auto text-center mb-16">
@@ -574,6 +633,7 @@ export default function InoriWebPage() {
             Nous nous adaptons à VOS préférences de communication
           </p>
 
+
           {/* Options de contact */}
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 hover:border-blue-500/50 hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] transition-all duration-300 hover:-translate-y-1">
@@ -584,6 +644,7 @@ export default function InoriWebPage() {
               <p className="text-sm text-slate-400">Rencontre physique à Bruxelles</p>
             </div>
 
+
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 hover:border-cyan-500/50 hover:shadow-[0_0_30px_rgba(34,211,238,0.2)] transition-all duration-300 hover:-translate-y-1">
               <div className="w-14 h-14 bg-cyan-500/20 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Video className="w-7 h-7 text-cyan-400" />
@@ -591,6 +652,7 @@ export default function InoriWebPage() {
               <h3 className="font-bold text-lg mb-2">Visioconférence</h3>
               <p className="text-sm text-slate-400">Appel vidéo via Teams/Zoom</p>
             </div>
+
 
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 hover:border-teal-500/50 hover:shadow-[0_0_30px_rgba(20,184,166,0.2)] transition-all duration-300 hover:-translate-y-1">
               <div className="w-14 h-14 bg-teal-500/20 rounded-xl flex items-center justify-center mx-auto mb-4">
@@ -600,6 +662,7 @@ export default function InoriWebPage() {
               <p className="text-sm text-slate-400">Appel simple et rapide</p>
             </div>
           </div>
+
 
           <div className="bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20 rounded-2xl p-6 backdrop-blur-sm">
             <div className="flex items-center justify-center gap-3 mb-3">
@@ -612,6 +675,7 @@ export default function InoriWebPage() {
           </div>
         </div>
       </section>
+
 
       {/* Contact Form */}
       <section id="contact" className="relative py-20 px-4">
@@ -637,6 +701,7 @@ export default function InoriWebPage() {
                   />
                 </div>
 
+
                 <div>
                   <label className="block text-sm font-semibold text-slate-300 mb-2">
                     Email *
@@ -651,6 +716,7 @@ export default function InoriWebPage() {
                   />
                 </div>
 
+
                 <div>
                   <label className="block text-sm font-semibold text-slate-300 mb-2">
                     Téléphone
@@ -660,9 +726,10 @@ export default function InoriWebPage() {
                     value={formData.phone}
                     onChange={(e) => setFormData({...formData, phone: e.target.value})}
                     className="w-full px-4 py-3 bg-slate-900/50 border border-slate-600 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-white placeholder-slate-500"
-                    placeholder="+32 XXX XX XX XX"
+                    placeholder="+32 488 96 43 80"
                   />
                 </div>
+
 
                 <div>
                   <label className="block text-sm font-semibold text-slate-300 mb-2">
@@ -676,6 +743,7 @@ export default function InoriWebPage() {
                     placeholder="Nom de votre entreprise"
                   />
                 </div>
+
 
                 <div>
                   <label className="block text-sm font-semibold text-slate-300 mb-2">
@@ -691,6 +759,7 @@ export default function InoriWebPage() {
                   />
                 </div>
 
+
                 <button
                   type="submit"
                   className="group w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-8 py-4 rounded-xl font-bold hover:shadow-[0_0_40px_rgba(59,130,246,0.6)] transition-all duration-300 hover:scale-[1.02] flex items-center justify-center gap-2"
@@ -700,6 +769,7 @@ export default function InoriWebPage() {
                 </button>
               </form>
             </div>
+
 
             {/* Informations */}
             <div className="space-y-6">
@@ -712,11 +782,12 @@ export default function InoriWebPage() {
                     </div>
                     <div>
                       <div className="font-semibold mb-1">Email</div>
-                      <a href="mailto:contact@inoriweb.be" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">
-                        contact@inoriweb.be
+                      <a href="mailto:inoritechlje@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">
+                        inoritechlje@gmail.com
                       </a>
                     </div>
                   </div>
+
 
                   <div className="flex items-start gap-4 group">
                     <div className="w-12 h-12 bg-cyan-500/20 text-cyan-400 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
@@ -724,11 +795,12 @@ export default function InoriWebPage() {
                     </div>
                     <div>
                       <div className="font-semibold mb-1">Téléphone</div>
-                      <a href="tel:+32XXXXXXXXX" className="text-cyan-400 hover:text-cyan-300 transition-colors duration-300">
-                        +32 XXX XX XX XX
+                      <a href="tel:+32488964380" className="text-cyan-400 hover:text-cyan-300 transition-colors duration-300">
+                        +32 488 96 43 80
                       </a>
                     </div>
                   </div>
+
 
                   <div className="flex items-start gap-4 group">
                     <div className="w-12 h-12 bg-teal-500/20 text-teal-400 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
@@ -741,6 +813,7 @@ export default function InoriWebPage() {
                   </div>
                 </div>
               </div>
+
 
               <div className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border border-blue-500/30 rounded-2xl p-6 backdrop-blur-sm hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] transition-all duration-500">
                 <div className="flex items-start gap-3">
@@ -755,6 +828,7 @@ export default function InoriWebPage() {
                 </div>
               </div>
 
+
               <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 text-center hover:border-slate-600 transition-all duration-300">
                 <div className="text-sm text-slate-400 mb-2">Numéro de TVA</div>
                 <div className="font-semibold text-lg">En cours de création</div>
@@ -763,6 +837,7 @@ export default function InoriWebPage() {
           </div>
         </div>
       </section>
+
 
       {/* Footer */}
       <footer className="relative border-t border-slate-800 py-12 px-4">
@@ -799,6 +874,7 @@ export default function InoriWebPage() {
           </div>
         </div>
       </footer>
+
 
     </div>
   );
