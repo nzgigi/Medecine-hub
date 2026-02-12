@@ -40,3 +40,16 @@ a {
     text-wrap: balance;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--target-width);
+  }
+}
