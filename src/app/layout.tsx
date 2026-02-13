@@ -17,8 +17,9 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <title>Inori Tech - Création de site web sur mesure</title>
-        <meta name="description" content="Agence web belge spécialisée dans la création de sites modernes, performants et sur mesure." />
+        <title>Medecine Hub - QCM gratuits DFASM1</title>
+<meta name="description" content="Des centaines de QCM d'annales DFASM1 gratuits pour réviser vos examens de médecine. Toutes les matières, toutes les années." />
+
       </head>
       <body className={inter.className}>
         {isNzPage ? (
