@@ -1,25 +1,33 @@
 "use client";
-import { useState } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { BookOpen, Heart, FileText, Menu, X, Mail, Sparkles, Scale } from 'lucide-react';
+import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import {
+  BookOpen,
+  Heart,
+  Mail,
+  Menu,
+  X,
+  Sparkles,
+  Scale,
+} from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
   const navigation = [
-    { name: 'Accueil', href: '/', icon: BookOpen },
-    { name: 'Sources', href: '/sources', icon: FileText },
-    { name: 'Mentions légales', href: '/mentions-legales', icon: Scale },
-    { name: 'Contact', href: '/contact', icon: Mail },
-    { name: 'Soutenir', href: '/soutenir', icon: Heart },
+    { name: "Accueil", href: "/", icon: BookOpen },
+    { name: "Mentions légales", href: "/mentions-legales", icon: Scale },
+    { name: "Contact", href: "/contact", icon: Mail },
+    { name: "Soutenir", href: "/soutenir", icon: Heart },
   ];
 
   const isActive = (href: string) => pathname === href;
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-200 shadow-lg">
+    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -34,28 +42,29 @@ export default function Navbar() {
               <span className="text-xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Medecine Hub
               </span>
-              <div className="flex items-center gap-1 text-xs text-gray-500">
+              <div className="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400">
                 <Sparkles className="w-3 h-3" />
-                <span>DFASM1</span>
+                <span>DFASM1/DFASM2</span>
               </div>
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+          {/* Desktop Navigation + Theme toggle */}
+          <div className="hidden md:flex items-center space-x-2">
             {navigation.map((item) => {
               const Icon = item.icon;
               const active = isActive(item.href);
-              
+
               return (
                 <Link
                   key={item.name}
                   href={item.href}
                   className={`
                     relative flex items-center gap-2 px-4 py-2 rounded-xl font-semibold transition-all
-                    ${active 
-                      ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg' 
-                      : 'text-gray-700 hover:bg-gray-100'
+                    ${
+                      active
+                        ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
+                        : "text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
                     }
                   `}
                 >
@@ -67,30 +76,36 @@ export default function Navbar() {
                 </Link>
               );
             })}
+
+            <ThemeToggle variant="desktop" />
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors"
-          >
-            {mobileMenuOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
-          </button>
+          {/* Mobile menu button + theme toggle (icon only) */}
+          <div className="flex items-center gap-2 md:hidden">
+            <ThemeToggle variant="icon" />
+
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="p-2 rounded-lg text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            >
+              {mobileMenuOpen ? (
+                <Menu className="w-6 h-6 rotate-90 transition-transform" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
+        <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navigation.map((item) => {
               const Icon = item.icon;
               const active = isActive(item.href);
-              
+
               return (
                 <Link
                   key={item.name}
@@ -98,9 +113,10 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`
                     flex items-center gap-3 px-4 py-3 rounded-xl font-semibold transition-all
-                    ${active 
-                      ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg' 
-                      : 'text-gray-700 hover:bg-gray-100'
+                    ${
+                      active
+                        ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
+                        : "text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
                     }
                   `}
                 >
