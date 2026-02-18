@@ -1,8 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import MatiereCard from "@/components/MatiereCard";
-import { BookOpen, Users, Sparkles, Heart, FileText } from "lucide-react";
+import { BookOpen, Users, Sparkles, Heart } from "lucide-react";
 
 interface MatiereData {
   matiere: string;
@@ -89,27 +88,10 @@ export default function HomePage() {
               </span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl sm:text-2xl text-blue-100 mb-6 max-w-2xl mx-auto leading-relaxed">
               Des centaines de QCM d&apos;annales pour préparer vos examens de
               médecine gratuitement
             </p>
-
-            <div className="flex flex-wrap justify-center gap-4">
-              <a
-                href="#matieres"
-                className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl"
-              >
-                <BookOpen className="w-5 h-5" />
-                Commencer maintenant
-              </a>
-              <Link
-                href="/sources"
-                className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all border border-white/30"
-              >
-                <FileText className="w-5 h-5" />
-                Sources
-              </Link>
-            </div>
           </div>
         </div>
 
@@ -120,7 +102,6 @@ export default function HomePage() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            {/* fond clair en mode clair, foncé en mode sombre via currentColor */}
             <path
               d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
               className="text-gray-50 dark:text-gray-950"
@@ -192,15 +173,6 @@ export default function HomePage() {
             Soutenez le projet pour nous aider à ajouter plus de contenu et
             maintenir la plateforme gratuite
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/soutenir"
-              className="inline-flex items-center gap-2 bg-white text-purple-600 px-8 py-4 rounded-xl font-bold hover:bg-purple-50 transition-all transform hover:scale-105 shadow-xl"
-            >
-              <Heart className="w-5 h-5" />
-              Soutenir le projet
-            </Link>
-          </div>
         </div>
       </div>
     </div>
