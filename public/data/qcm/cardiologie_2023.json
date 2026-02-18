@@ -1,7 +1,7 @@
 {
   "matiere": "Cardiologie",
   "annee": 2023,
-  "total_questions": 34,
+  "total_questions": 29,
   "questions": [
     {
       "id": 1,
@@ -441,87 +441,23 @@
     },
     {
       "id": 29,
-      "type": "QRU",
+      "type": "QRP",
       "contexte": "",
-      "question": "Nouvelle question ?",
+      "question": "bonjour qrp AB",
       "choix": [
-        "A) Réponse 1",
-        "B) Réponse 2",
-        "C) Réponse 3"
+        "A) ",
+        "B) ",
+        "C) ",
+        "D) ",
+        "E) ",
+        "F) ",
+        "G) "
       ],
       "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 30,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Nouvelle question ?",
-      "choix": [
-        "A) Réponse 1",
-        "B) Réponse 2",
-        "C) Réponse 3"
+        "A",
+        "B"
       ],
-      "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 31,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Nouvelle question ?",
-      "choix": [
-        "A) Réponse 1",
-        "B) Réponse 2",
-        "C) Réponse 3"
-      ],
-      "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 32,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Nouvelle question ?",
-      "choix": [
-        "A) Réponse 1",
-        "B) Réponse 2",
-        "C) Réponse 3"
-      ],
-      "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 33,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Nouvelle question ?",
-      "choix": [
-        "A) Réponse 1",
-        "B) Réponse 2",
-        "C) Réponse 3"
-      ],
-      "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 34,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Nouvelle question ?",
-      "choix": [
-        "A) Réponse 1",
-        "B) Réponse 2",
-        "C) Réponse 3"
-      ],
-      "reponses": [
-        "A"
-      ]
+      "maxReponses": 2
     }
   ]
 }
