@@ -6,9 +6,41 @@ import { promisify } from "util";
 
 const execAsync = promisify(exec);
 
+interface IndexEntry {
+  matiere: string;
+  slug: string;
+  annee: number;
+  total_questions: number;
+}
+
+interface QcmData {
+  total_questions: number;
+  folders?: {
+    questions?: unknown[];
+  }[];
+  questions?: unknown[];
+  [key: string]: unknown;
+}
+
+interface SaveBody {
+  matiere?: string;
+  annee?: string | number;
+  qcmData?: QcmData;
+}
+
+function countQuestions(qcmData: QcmData): number {
+  if (Array.isArray(qcmData.folders)) {
+    return qcmData.folders.reduce((acc, folder) => {
+      return acc + (Array.isArray(folder.questions) ? folder.questions.length : 0);
+    }, 0);
+  }
+
+  return Array.isArray(qcmData.questions) ? qcmData.questions.length : 0;
+}
+
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
+    const body = (await request.json()) as SaveBody;
     const { matiere, annee, qcmData } = body;
 
     if (!matiere || !annee || !qcmData) {
@@ -21,59 +53,75 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const anneeString = String(annee);
     const dirPath = path.join(process.cwd(), "public", "data", "qcm");
-    const filePath = path.join(dirPath, `${matiere}_${annee}.json`);
+    const filePath = path.join(dirPath, `${matiere}_${anneeString}.json`);
 
     if (!fs.existsSync(dirPath)) {
       fs.mkdirSync(dirPath, { recursive: true });
     }
 
-    // Sauvegarder le fichier QCM
-    fs.writeFileSync(filePath, JSON.stringify(qcmData, null, 2), "utf-8");
+    const qcmDataToSave: QcmData = {
+      ...qcmData,
+      total_questions: countQuestions(qcmData),
+    };
 
-    // ✅ AUTO-SYNC : Mettre à jour l'index.json automatiquement
+    fs.writeFileSync(filePath, JSON.stringify(qcmDataToSave, null, 2), "utf-8");
+
     try {
       const indexPath = path.join(dirPath, "index.json");
-      
+
       if (fs.existsSync(indexPath)) {
-        const indexData = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
-        
+        const indexData = JSON.parse(
+          fs.readFileSync(indexPath, "utf-8")
+        ) as IndexEntry[];
+
         const indexEntry = indexData.find(
-          (item: any) => item.slug === matiere && item.annee === parseInt(annee)
+          (item) =>
+            item.slug === matiere && item.annee === parseInt(anneeString, 10)
         );
 
         if (indexEntry) {
-          indexEntry.total_questions = qcmData.total_questions;
-          fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2), "utf-8");
-          console.log(`✅ Index mis à jour: ${matiere} ${annee} → ${qcmData.total_questions} questions`);
+          indexEntry.total_questions = qcmDataToSave.total_questions;
+
+          fs.writeFileSync(
+            indexPath,
+            JSON.stringify(indexData, null, 2),
+            "utf-8"
+          );
+
+          console.log(
+            `✅ Index mis à jour: ${matiere} ${anneeString} → ${qcmDataToSave.total_questions} questions`
+          );
         }
       }
-    } catch (indexError) {
+    } catch (indexError: unknown) {
       console.error("Erreur mise à jour index:", indexError);
     }
 
-    // ✅ AUTO-BACKUP GitHub : Commit et push automatique
     try {
       const scriptPath = path.join(process.cwd(), "scripts", "quick-backup.sh");
-      
-      // Exécution en arrière-plan (non-bloquant)
-      execAsync(`bash ${scriptPath}`).then(() => {
-        console.log(`✅ Backup GitHub effectué: ${matiere} ${annee}`);
-      }).catch((error) => {
-        console.error('⚠️ Erreur backup GitHub:', error.message);
-      });
 
-    } catch (backupError) {
+      execAsync(`bash ${scriptPath}`)
+        .then(() => {
+          console.log(`✅ Backup GitHub effectué: ${matiere} ${anneeString}`);
+        })
+        .catch((error: unknown) => {
+          const message =
+            error instanceof Error ? error.message : "Erreur backup inconnue";
+          console.error("⚠️ Erreur backup GitHub:", message);
+        });
+    } catch (backupError: unknown) {
       console.error("Erreur backup GitHub:", backupError);
-      // On ne fait pas échouer la sauvegarde si le backup échoue
     }
 
     return NextResponse.json({
       success: true,
       message: "QCM sauvegardé avec succès",
     });
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Erreur sauvegarde:", error);
+
     return NextResponse.json(
       {
         success: false,

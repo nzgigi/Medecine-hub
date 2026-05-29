@@ -7,7 +7,6 @@ import {
   Heart,
   Mail,
   Menu,
-  X,
   Sparkles,
   Scale,
 } from "lucide-react";

@@ -95,14 +95,17 @@ export default function ContactPage() {
         setStatus("idle");
         setResponseMessage("");
       }, 5000);
-    } catch (error: any) {
-      setStatus("error");
-      setResponseMessage(
-        error.message ||
-          "Une erreur est survenue. Veuillez réessayer plus tard."
-      );
-    }
-  };
+    } catch (error: unknown) {
+  setStatus("error");
+
+  const message =
+    error instanceof Error
+      ? error.message
+      : "Une erreur est survenue. Veuillez réessayer plus tard.";
+
+  setResponseMessage(message);
+}
+};
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-950 dark:via-gray-900 dark:to-gray-900 py-12">

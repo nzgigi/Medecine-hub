@@ -1,6 +1,8 @@
 "use client";
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { Lock, User, AlertCircle } from "lucide-react";
 
 export default function AdminLoginPage() {
@@ -30,7 +32,7 @@ export default function AdminLoginPage() {
       } else {
         setError(data.error || "Identifiants incorrects");
       }
-    } catch (err) {
+    } catch {
       setError("Erreur de connexion");
     } finally {
       setLoading(false);
@@ -44,12 +46,12 @@ export default function AdminLoginPage() {
           <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
             <Lock className="w-10 h-10 text-white" />
           </div>
+
           <h1 className="text-4xl font-extrabold text-white mb-2">
             Admin Panel
           </h1>
-          <p className="text-blue-200">
-            Medecine Hub - Gestion des QCM
-          </p>
+
+          <p className="text-blue-200">Medecine Hub - Gestion des QCM</p>
         </div>
 
         <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-8 border border-gray-100 dark:border-gray-800">
@@ -67,8 +69,10 @@ export default function AdminLoginPage() {
               <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
                 Nom d&apos;utilisateur
               </label>
+
               <div className="relative">
                 <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+
                 <input
                   type="text"
                   value={username}
@@ -84,8 +88,10 @@ export default function AdminLoginPage() {
               <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
                 Mot de passe
               </label>
+
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+
                 <input
                   type="password"
                   value={password}
@@ -107,12 +113,12 @@ export default function AdminLoginPage() {
           </form>
 
           <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800 text-center">
-            <a
+            <Link
               href="/"
               className="text-sm text-blue-600 dark:text-blue-300 hover:text-blue-700 dark:hover:text-blue-200 font-semibold"
             >
               ← Retour au site
-            </a>
+            </Link>
           </div>
         </div>
       </div>
