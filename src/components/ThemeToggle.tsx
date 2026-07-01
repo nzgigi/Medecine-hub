@@ -37,7 +37,7 @@ export default function ThemeToggle({ variant = "desktop" }: ThemeToggleProps) {
     return (
       <button
         onClick={toggleTheme}
-        className="p-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all"
+        className="rounded-lg border border-stone-200 bg-white p-2 text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
         aria-label="Changer de thème"
       >
         {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
@@ -48,7 +48,7 @@ export default function ThemeToggle({ variant = "desktop" }: ThemeToggleProps) {
   return (
     <button
       onClick={toggleTheme}
-      className="ml-2 p-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all flex items-center gap-2"
+      className="ml-2 flex items-center gap-2 rounded-lg border border-stone-200 bg-white p-2 text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
     >
       {isDark ? (
         <>

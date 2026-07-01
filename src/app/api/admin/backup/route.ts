@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { exec } from "child_process";
 import { promisify } from "util";
+import { requireAdminRequest } from "@/lib/server/security";
 
 const execAsync = promisify(exec);
 
@@ -9,19 +10,23 @@ function getErrorMessage(error: unknown): string {
   return "Erreur inconnue";
 }
 
-export async function POST() {
+export async function POST(request: Request) {
   try {
+    const unauthorized = requireAdminRequest(request);
+    if (unauthorized) return unauthorized;
+
     const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
     const date = new Date().toLocaleString("fr-FR");
+    const cwd = process.cwd();
 
-    const commands = [
-      `cd ${process.cwd()}`,
-      "git add public/data/qcm/*.json",
-      `git commit -m "🔒 Backup manuel - ${date}"`,
-      "git push origin main",
-    ].join(" && ");
-
-    const { stdout } = await execAsync(commands);
+    const { stdout } = await execAsync(
+      [
+        "git add public/data/qcm/*.json public/images/qcm",
+        `git commit -m "Backup manuel - ${date}"`,
+        "git push origin main",
+      ].join(" && "),
+      { cwd }
+    );
 
     return NextResponse.json({
       success: true,

@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
-import path from "path";
+import {
+  requireAdminRequest,
+  safeJoinInside,
+  sanitizeSlug,
+  sanitizeYear,
+} from "@/lib/server/security";
 
 interface IndexEntry {
   matiere: string;
@@ -38,10 +43,13 @@ function countQuestions(qcmData: QcmFileData): number {
   return Array.isArray(qcmData.questions) ? qcmData.questions.length : 0;
 }
 
-export async function POST() {
+export async function POST(request: Request) {
   try {
-    const qcmDir = path.join(process.cwd(), "public", "data", "qcm");
-    const indexPath = path.join(qcmDir, "index.json");
+    const unauthorized = requireAdminRequest(request);
+    if (unauthorized) return unauthorized;
+
+    const qcmDir = safeJoinInside(process.cwd(), "public", "data", "qcm");
+    const indexPath = safeJoinInside(qcmDir, "index.json");
 
     const indexData = JSON.parse(
       fs.readFileSync(indexPath, "utf-8")
@@ -51,8 +59,8 @@ export async function POST() {
     const updates: SyncUpdate[] = [];
 
     for (const entry of indexData) {
-      const filename = `${entry.slug}_${entry.annee}.json`;
-      const filepath = path.join(qcmDir, filename);
+      const filename = `${sanitizeSlug(entry.slug)}_${sanitizeYear(entry.annee)}.json`;
+      const filepath = safeJoinInside(qcmDir, filename);
 
       try {
         const qcmData = JSON.parse(

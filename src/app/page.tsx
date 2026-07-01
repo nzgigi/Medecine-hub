@@ -1,15 +1,16 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import MatiereCard from "@/components/MatiereCard";
 import {
+  ArrowRight,
   BookOpen,
-  Users,
-  Sparkles,
-  Heart,
+  ChevronDown,
+  ChevronRight,
   GraduationCap,
-  ShieldCheck,
-  Zap,
+  Stethoscope,
+  Users,
 } from "lucide-react";
 
 interface ExamPreview {
@@ -22,6 +23,8 @@ interface MatiereData {
   matiere: string;
   slug: string;
   subjectOrder: number;
+  semesterName: string;
+  semesterOrder: number;
   exams: ExamPreview[];
   totalQuestions: number;
 }
@@ -34,6 +37,14 @@ interface MatiereIndexEntry {
   subjectOrder?: number;
   examOrder?: number;
   examTitle?: string;
+  semesterName?: string;
+  semesterOrder?: number;
+}
+
+interface SemesterGroup {
+  name: string;
+  order: number;
+  matieres: MatiereData[];
 }
 
 function buildMatieresFromIndex(data: MatiereIndexEntry[]): MatiereData[] {
@@ -45,15 +56,22 @@ function buildMatieresFromIndex(data: MatiereIndexEntry[]): MatiereData[] {
         matiere: item.matiere,
         slug: item.slug,
         subjectOrder: item.subjectOrder ?? index + 1,
+        semesterName: item.semesterName?.trim() || "Semestre 7",
+        semesterOrder: item.semesterOrder ?? 1,
         exams: [],
         totalQuestions: 0,
       };
     }
 
-    grouped[item.slug].matiere = item.matiere;
     grouped[item.slug].subjectOrder = Math.min(
       grouped[item.slug].subjectOrder,
       item.subjectOrder ?? grouped[item.slug].subjectOrder
+    );
+    grouped[item.slug].semesterName =
+      item.semesterName?.trim() || grouped[item.slug].semesterName;
+    grouped[item.slug].semesterOrder = Math.min(
+      grouped[item.slug].semesterOrder,
+      item.semesterOrder ?? grouped[item.slug].semesterOrder
     );
 
     grouped[item.slug].exams.push({
@@ -73,18 +91,51 @@ function buildMatieresFromIndex(data: MatiereIndexEntry[]): MatiereData[] {
     .sort((a, b) => a.subjectOrder - b.subjectOrder);
 }
 
+function groupMatieresBySemester(matieres: MatiereData[]): SemesterGroup[] {
+  const grouped = new Map<string, SemesterGroup>();
+
+  matieres.forEach((matiere) => {
+    const name = matiere.semesterName || "Semestre 7";
+
+    if (!grouped.has(name)) {
+      grouped.set(name, {
+        name,
+        order: matiere.semesterOrder || grouped.size + 1,
+        matieres: [],
+      });
+    }
+
+    const group = grouped.get(name);
+
+    if (group) {
+      group.order = Math.min(group.order, matiere.semesterOrder || group.order);
+      group.matieres.push(matiere);
+    }
+  });
+
+  return Array.from(grouped.values()).sort((a, b) => a.order - b.order);
+}
+
 export default function HomePage() {
   const [matieres, setMatieres] = useState<MatiereData[]>([]);
   const [loading, setLoading] = useState(true);
-  const [mousePosition, setMousePosition] = useState({ x: 50, y: 50 });
+  const [openSemesters, setOpenSemesters] = useState<Record<string, boolean>>(
+    {}
+  );
 
   useEffect(() => {
     async function loadMatieres() {
       try {
         const response = await fetch("/data/qcm/index.json?t=" + Date.now());
         const data = (await response.json()) as MatiereIndexEntry[];
+        const loadedMatieres = buildMatieresFromIndex(data);
 
-        setMatieres(buildMatieresFromIndex(data));
+        setMatieres(loadedMatieres);
+        setOpenSemesters(
+          loadedMatieres.length > 0
+            ? { [loadedMatieres[0].semesterName || "Semestre 7"]: true }
+            : {}
+        );
       } catch (error) {
         console.error("Erreur chargement:", error);
       } finally {
@@ -95,27 +146,6 @@ export default function HomePage() {
     loadMatieres();
   }, []);
 
-  useEffect(() => {
-    const handleMouseMove = (event: MouseEvent) => {
-      const prefersReducedMotion = window.matchMedia(
-        "(prefers-reduced-motion: reduce)"
-      ).matches;
-
-      if (prefersReducedMotion) return;
-
-      const x = Math.round((event.clientX / window.innerWidth) * 100);
-      const y = Math.round((event.clientY / window.innerHeight) * 100);
-
-      setMousePosition({ x, y });
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
-
   const totalQuestions = useMemo(() => {
     return matieres.reduce((acc, matiere) => acc + matiere.totalQuestions, 0);
   }, [matieres]);
@@ -124,12 +154,16 @@ export default function HomePage() {
     return matieres.reduce((acc, matiere) => acc + matiere.exams.length, 0);
   }, [matieres]);
 
+  const semesters = useMemo(() => {
+    return groupMatieresBySemester(matieres);
+  }, [matieres]);
+
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950">
+      <div className="flex min-h-screen items-center justify-center bg-stone-50 dark:bg-black">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4" />
-          <div className="text-xl text-gray-600 dark:text-gray-300">
+          <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-2 border-stone-300 border-b-emerald-800 dark:border-stone-800 dark:border-b-emerald-300" />
+          <div className="text-sm font-semibold text-stone-500">
             Chargement...
           </div>
         </div>
@@ -138,198 +172,146 @@ export default function HomePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 overflow-hidden">
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-700 via-purple-700 to-indigo-900 text-white">
-        <div className="absolute inset-0 bg-grid-white/10 bg-[size:20px_20px] opacity-50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-blue-950/50 via-transparent to-transparent" />
-
-        <div
-          className="pointer-events-none absolute -inset-20 opacity-70 transition-all duration-500"
-          style={{
-            background: `radial-gradient(circle at ${mousePosition.x}% ${mousePosition.y}%, rgba(255,255,255,0.22), rgba(96,165,250,0.16) 18%, transparent 42%)`,
-          }}
-        />
-
-        <div className="absolute top-20 left-10 w-40 h-40 bg-cyan-400/20 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-24 right-10 w-56 h-56 bg-pink-400/20 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-purple-400/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-
-        <div className="relative max-w-7xl mx-auto px-4 py-24 sm:py-32">
-          <div className="text-center">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm font-medium mb-8 border border-white/20 shadow-lg">
-              <Sparkles className="w-4 h-4" />
-              <span>100% Gratuit • Annales médicales • Entraînement libre</span>
+    <main className="min-h-screen bg-stone-50 text-stone-950 dark:bg-black dark:text-stone-100">
+      <section className="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm font-bold text-stone-700 dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300">
+              <Stethoscope className="h-4 w-4 text-emerald-800 dark:text-emerald-300" />
+              Annales medicales gratuites
             </div>
 
-            <h1 className="text-5xl sm:text-7xl font-extrabold mb-6 leading-tight tracking-tight">
-              Révisez avec
-              <span className="block bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-pink-200 to-cyan-200">
-                Medecine Hub
-              </span>
+            <h1 className="mt-6 text-4xl font-black tracking-tight text-stone-950 dark:text-white sm:text-6xl">
+              Medecine Hub
             </h1>
 
-            <p className="text-xl sm:text-2xl text-blue-100 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Une plateforme gratuite pour s’entraîner sur des annales, suivre
-              sa progression et travailler les dossiers comme en conditions
-              d’examen.
+            <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600 dark:text-stone-300 sm:text-lg">
+              Des QCM d&apos;annales classes par matiere et par annee, avec une
+              interface simple pour reviser sans perdre de temps.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#matieres"
-                className="inline-flex items-center gap-2 bg-white text-blue-700 px-7 py-4 rounded-2xl font-extrabold shadow-xl hover:shadow-2xl hover:scale-105 transition-all"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 text-sm font-black text-white transition-colors hover:bg-emerald-700"
               >
-                <BookOpen className="w-5 h-5" />
-                Commencer à réviser
+                Commencer a reviser
+                <ArrowRight className="h-4 w-4" />
               </a>
 
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md text-white px-7 py-4 rounded-2xl font-bold border border-white/20">
-                <ShieldCheck className="w-5 h-5" />
-                Accès libre et gratuit
-              </div>
+              <Link
+                href="/compte"
+                className="inline-flex items-center justify-center rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-bold text-stone-800 transition-colors hover:bg-stone-50 dark:border-stone-800 dark:bg-black dark:text-stone-200 dark:hover:bg-stone-900"
+              >
+                Voir mon compte
+              </Link>
             </div>
           </div>
 
-          <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-center shadow-lg">
-              <BookOpen className="w-7 h-7 mx-auto mb-3 text-yellow-200" />
-              <div className="text-3xl font-extrabold">{totalQuestions}</div>
-              <div className="text-sm text-blue-100">questions</div>
-            </div>
+          <div className="mt-10 grid gap-3 sm:grid-cols-3">
+            {[
+              { label: "questions", value: totalQuestions, icon: BookOpen },
+              { label: "epreuves", value: totalExams, icon: GraduationCap },
+              { label: "matieres", value: matieres.length, icon: Users },
+            ].map((item) => {
+              const Icon = item.icon;
 
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-center shadow-lg">
-              <GraduationCap className="w-7 h-7 mx-auto mb-3 text-pink-200" />
-              <div className="text-3xl font-extrabold">{totalExams}</div>
-              <div className="text-sm text-blue-100">épreuves</div>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-center shadow-lg">
-              <Users className="w-7 h-7 mx-auto mb-3 text-cyan-200" />
-              <div className="text-3xl font-extrabold">{matieres.length}</div>
-              <div className="text-sm text-blue-100">matières</div>
-            </div>
+              return (
+                <div
+                  key={item.label}
+                  className="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-stone-950"
+                >
+                  <Icon className="h-5 w-5 text-emerald-800 dark:text-emerald-300" />
+                  <div className="mt-3 text-3xl font-black">{item.value}</div>
+                  <div className="text-sm text-stone-600 dark:text-stone-400">
+                    {item.label}
+                  </div>
+                </div>
+              );
+            })}
           </div>
-        </div>
-
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg
-            viewBox="0 0 1440 120"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path
-              d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
-              className="text-gray-50 dark:text-gray-950"
-              fill="currentColor"
-            />
-          </svg>
         </div>
       </section>
 
-      <main className="max-w-7xl mx-auto px-4 -mt-6 relative z-10">
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-7 border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-shadow">
-            <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-5">
-              <BookOpen className="w-7 h-7 text-white" />
-            </div>
-
-            <div className="text-3xl font-extrabold text-gray-900 dark:text-gray-100 mb-2">
-              Annales structurées
-            </div>
-
-            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Les épreuves peuvent être organisées en dossiers, questions
-              isolées et formats progressifs.
+      <section id="matieres" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-sm font-black uppercase text-emerald-800 dark:text-emerald-300">
+              Bibliotheque
             </p>
-          </div>
-
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-7 border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-shadow">
-            <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-5">
-              <Zap className="w-7 h-7 text-white" />
-            </div>
-
-            <div className="text-3xl font-extrabold text-gray-900 dark:text-gray-100 mb-2">
-              Correction claire
-            </div>
-
-            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Après soumission, l’étudiant retrouve ses erreurs, ses oublis et
-              ses bonnes réponses.
-            </p>
-          </div>
-
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-7 border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-shadow">
-            <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-5">
-              <ShieldCheck className="w-7 h-7 text-white" />
-            </div>
-
-            <div className="text-3xl font-extrabold text-gray-900 dark:text-gray-100 mb-2">
-              Sauvegarde auto
-            </div>
-
-            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Les réponses en cours sont sauvegardées localement pour éviter de
-              perdre une tentative.
-            </p>
-          </div>
-        </section>
-
-        <section id="matieres" className="pb-20 scroll-mt-24">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-200 px-4 py-2 rounded-full text-sm font-bold mb-4 border border-blue-100 dark:border-blue-800">
-              <GraduationCap className="w-4 h-4" />
-              Bibliothèque d’annales
-            </div>
-
-            <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-gray-100 mb-4">
-              Choisissez votre matière
+            <h2 className="mt-2 text-3xl font-black tracking-tight">
+              Choisir une matiere
             </h2>
+          </div>
+          <p className="max-w-md text-sm leading-6 text-stone-600 dark:text-stone-400">
+            Ouvrez un semestre, choisissez une matiere, puis lancez l&apos;annee
+            que vous voulez travailler.
+          </p>
+        </div>
 
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Parcourez les annales classées par spécialité et épreuve.
+        {semesters.length > 0 ? (
+          <div className="space-y-3">
+            {semesters.map((semester) => {
+              const isOpen = Boolean(openSemesters[semester.name]);
+
+              return (
+                <section
+                  key={semester.name}
+                  className="overflow-hidden rounded-lg border border-stone-200 bg-white dark:border-stone-800 dark:bg-black"
+                >
+                  <button
+                    onClick={() =>
+                      setOpenSemesters((current) => ({
+                        ...current,
+                        [semester.name]: !isOpen,
+                      }))
+                    }
+                    className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-stone-50 dark:hover:bg-stone-900"
+                  >
+                    <span>
+                      <span className="block text-xl font-black">
+                        {semester.name}
+                      </span>
+                      <span className="block text-sm text-stone-500 dark:text-stone-400">
+                        {semester.matieres.length} matiere
+                        {semester.matieres.length > 1 ? "s" : ""}
+                      </span>
+                    </span>
+
+                    {isOpen ? (
+                      <ChevronDown className="h-5 w-5 text-stone-500" />
+                    ) : (
+                      <ChevronRight className="h-5 w-5 text-stone-500" />
+                    )}
+                  </button>
+
+                  {isOpen && (
+                    <div className="grid grid-cols-1 gap-4 border-t border-stone-100 p-4 md:grid-cols-2 lg:grid-cols-3 dark:border-stone-800">
+                      {semester.matieres.map((matiere) => (
+                        <MatiereCard
+                          key={matiere.slug}
+                          matiere={matiere.matiere}
+                          slug={matiere.slug}
+                          totalQuestions={matiere.totalQuestions}
+                          exams={matiere.exams}
+                        />
+                      ))}
+                    </div>
+                  )}
+                </section>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="rounded-lg border border-stone-200 bg-white p-10 text-center dark:border-stone-800 dark:bg-black">
+            <BookOpen className="mx-auto mb-4 h-10 w-10 text-stone-400" />
+            <h3 className="text-xl font-black">Aucune matiere</h3>
+            <p className="mt-2 text-sm text-stone-500">
+              Aucune annale n&apos;est disponible pour le moment.
             </p>
           </div>
-
-          {matieres.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {matieres.map((matiere) => (
-                <MatiereCard
-                  key={matiere.slug}
-                  matiere={matiere.matiere}
-                  slug={matiere.slug}
-                  totalQuestions={matiere.totalQuestions}
-                  exams={matiere.exams}
-                />
-              ))}
-            </div>
-          ) : (
-            <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-800 p-10 text-center">
-              <BookOpen className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Aucune matière</h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Aucune annale n&apos;est disponible pour le moment.
-              </p>
-            </div>
-          )}
-        </section>
-
-        <section className="bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-600 rounded-3xl shadow-2xl p-10 sm:p-12 text-center text-white mb-20 relative overflow-hidden">
-          <div className="absolute inset-0 bg-grid-white/10 bg-[size:18px_18px] opacity-30" />
-          <div className="relative">
-            <Heart className="w-16 h-16 mx-auto mb-6 animate-pulse" />
-
-            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-              Vous aimez Medecine Hub ?
-            </h2>
-
-            <p className="text-lg text-purple-100 max-w-2xl mx-auto">
-              Le projet reste gratuit pour aider un maximum d’étudiants en
-              médecine à s’entraîner plus facilement.
-            </p>
-          </div>
-        </section>
-      </main>
-    </div>
+        )}
+      </section>
+    </main>
   );
 }

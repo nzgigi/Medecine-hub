@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
-import path from "path";
-import { exec } from "child_process";
-import { promisify } from "util";
-
-const execAsync = promisify(exec);
+import {
+  requireAdminRequest,
+  safeJoinInside,
+  sanitizeSlug,
+  sanitizeYear,
+} from "@/lib/server/security";
 
 interface IndexEntry {
   matiere: string;
@@ -40,6 +41,9 @@ function countQuestions(qcmData: QcmData): number {
 
 export async function POST(request: NextRequest) {
   try {
+    const unauthorized = requireAdminRequest(request);
+    if (unauthorized) return unauthorized;
+
     const body = (await request.json()) as SaveBody;
     const { matiere, annee, qcmData } = body;
 
@@ -53,9 +57,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const anneeString = String(annee);
-    const dirPath = path.join(process.cwd(), "public", "data", "qcm");
-    const filePath = path.join(dirPath, `${matiere}_${anneeString}.json`);
+    const safeSlug = sanitizeSlug(matiere);
+    const anneeString = sanitizeYear(annee);
+    const dirPath = safeJoinInside(process.cwd(), "public", "data", "qcm");
+    const filePath = safeJoinInside(dirPath, `${safeSlug}_${anneeString}.json`);
 
     if (!fs.existsSync(dirPath)) {
       fs.mkdirSync(dirPath, { recursive: true });
@@ -69,7 +74,7 @@ export async function POST(request: NextRequest) {
     fs.writeFileSync(filePath, JSON.stringify(qcmDataToSave, null, 2), "utf-8");
 
     try {
-      const indexPath = path.join(dirPath, "index.json");
+      const indexPath = safeJoinInside(dirPath, "index.json");
 
       if (fs.existsSync(indexPath)) {
         const indexData = JSON.parse(
@@ -78,7 +83,7 @@ export async function POST(request: NextRequest) {
 
         const indexEntry = indexData.find(
           (item) =>
-            item.slug === matiere && item.annee === parseInt(anneeString, 10)
+            item.slug === safeSlug && item.annee === parseInt(anneeString, 10)
         );
 
         if (indexEntry) {
@@ -89,30 +94,10 @@ export async function POST(request: NextRequest) {
             JSON.stringify(indexData, null, 2),
             "utf-8"
           );
-
-          console.log(
-            `✅ Index mis à jour: ${matiere} ${anneeString} → ${qcmDataToSave.total_questions} questions`
-          );
         }
       }
     } catch (indexError: unknown) {
       console.error("Erreur mise à jour index:", indexError);
-    }
-
-    try {
-      const scriptPath = path.join(process.cwd(), "scripts", "quick-backup.sh");
-
-      execAsync(`bash ${scriptPath}`)
-        .then(() => {
-          console.log(`✅ Backup GitHub effectué: ${matiere} ${anneeString}`);
-        })
-        .catch((error: unknown) => {
-          const message =
-            error instanceof Error ? error.message : "Erreur backup inconnue";
-          console.error("⚠️ Erreur backup GitHub:", message);
-        });
-    } catch (backupError: unknown) {
-      console.error("Erreur backup GitHub:", backupError);
     }
 
     return NextResponse.json({
@@ -125,7 +110,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       {
         success: false,
-        message: "Erreur lors de la sauvegarde",
+        message:
+          error instanceof Error ? error.message : "Erreur lors de la sauvegarde",
       },
       { status: 500 }
     );

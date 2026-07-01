@@ -83,6 +83,15 @@ function getFolderTypeLabel(type: FolderType) {
   return "Key Features Problem";
 }
 
+function getAdminHeaders(extraHeaders: HeadersInit = {}) {
+  const token = localStorage.getItem("admin_token");
+
+  return {
+    ...extraHeaders,
+    Authorization: token ? `Bearer ${token}` : "",
+  };
+}
+
 export default function EditQCMPage() {
   const params = useParams();
   const router = useRouter();
@@ -96,6 +105,9 @@ export default function EditQCMPage() {
   const [saving, setSaving] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState(false);
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
+  const [qrocResponseDrafts, setQrocResponseDrafts] = useState<
+    Record<number, string>
+  >({});
   const [uploadingQuestionId, setUploadingQuestionId] = useState<number | null>(
     null
   );
@@ -307,7 +319,7 @@ export default function EditQCMPage() {
 
       const response = await fetch("/api/qcm/save", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
         body: JSON.stringify({ matiere: slug, annee, qcmData: dataToSave }),
       });
 
@@ -535,6 +547,27 @@ export default function EditQCMPage() {
         };
       }),
     }));
+  };
+
+  const updateQrocResponses = (
+    folderId: string,
+    questionId: number,
+    value: string
+  ) => {
+    setQrocResponseDrafts((current) => ({
+      ...current,
+      [questionId]: value,
+    }));
+
+    updateQuestion(
+      folderId,
+      questionId,
+      "reponses",
+      value
+        .split(",")
+        .map((item) => item.trim())
+        .filter(Boolean)
+    );
   };
 
   const updateQuestionType = (
@@ -769,6 +802,7 @@ export default function EditQCMPage() {
 
       const response = await fetch("/api/qcm/upload-image", {
         method: "POST",
+        headers: getAdminHeaders(),
         body: formData,
       });
 
@@ -798,7 +832,7 @@ export default function EditQCMPage() {
     try {
       await fetch("/api/qcm/delete-image", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
         body: JSON.stringify({ imagePath: question.image }),
       });
     } catch {}
@@ -1085,7 +1119,7 @@ export default function EditQCMPage() {
                       <div className="flex justify-between items-start gap-4 mb-5">
                         <div className="flex items-center gap-3 flex-wrap">
                           <span className="font-bold text-xl text-blue-600">
-                            Q{question.id}
+                            Q{index + 1}
                           </span>
 
                           <select
@@ -1381,16 +1415,15 @@ export default function EditQCMPage() {
                           </label>
                           <input
                             type="text"
-                            value={question.reponses.join(", ")}
+                            value={
+                              qrocResponseDrafts[question.id] ??
+                              question.reponses.join(", ")
+                            }
                             onChange={(event) =>
-                              updateQuestion(
+                              updateQrocResponses(
                                 activeFolder.id,
                                 question.id,
-                                "reponses",
                                 event.target.value
-                                  .split(",")
-                                  .map((item) => item.trim())
-                                  .filter(Boolean)
                               )
                             }
                             className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none text-sm"

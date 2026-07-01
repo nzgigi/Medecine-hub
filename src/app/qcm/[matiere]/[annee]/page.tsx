@@ -54,18 +54,6 @@ function getFolderTypeLabel(type: ExamFolder["type"]) {
   return "Key Features Problem";
 }
 
-function getFolderTypeShortDescription(type: ExamFolder["type"]) {
-  if (type === "DP") {
-    return "Questions progressives : chaque réponse validée est verrouillée.";
-  }
-
-  if (type === "KFP") {
-    return "Key Features : chaque réponse validée est verrouillée.";
-  }
-
-  return "Questions isolées : navigation libre dans le dossier.";
-}
-
 function hasAnswer(question: Question, answer: UserAnswer | undefined) {
   if (question.type === "QROC") {
     return typeof answer === "string" && answer.trim().length > 0;
@@ -141,11 +129,11 @@ export default function QCMPage() {
   const [lockedQuestions, setLockedQuestions] = useState<LockedQuestions>({});
 
   const [showResults, setShowResults] = useState(false);
+  const [correctionFolderIndex, setCorrectionFolderIndex] = useState(0);
   const [leftPanelOpen, setLeftPanelOpen] = useState(false);
   const [rightPanelOpen, setRightPanelOpen] = useState(false);
 
   const [attemptLoaded, setAttemptLoaded] = useState(false);
-  const [resumeNotice, setResumeNotice] = useState("");
 
   useEffect(() => {
     async function loadQCM() {
@@ -189,7 +177,6 @@ export default function QCMPage() {
             setLockedQuestions(savedAttempt.lockedQuestions || {});
             setCurrentFolderIndex(safeFolderIndex);
             setCurrentQuestionIndex(safeQuestionIndex);
-            setResumeNotice("Tentative précédente restaurée automatiquement.");
           } else {
             localStorage.removeItem(attemptStorageKey);
           }
@@ -302,7 +289,6 @@ export default function QCMPage() {
     currentFolder,
     userAnswers
   );
-
   const currentFolderProgressPercent = getProgressPercent(
     currentAnsweredCount,
     totalQuestionsInFolder
@@ -330,6 +316,10 @@ export default function QCMPage() {
 
     return previousQuestions.every((question) => lockedQuestions[question.id]);
   };
+
+  const canGoNext =
+    currentQuestionIndex < totalQuestionsInFolder - 1 &&
+    canAccessQuestion(currentFolder, currentQuestionIndex + 1);
 
   const handleQuestionChange = (questionIndex: number) => {
     if (!canAccessQuestion(currentFolder, questionIndex)) return;
@@ -416,20 +406,11 @@ export default function QCMPage() {
   };
 
   const handleNext = () => {
+    if (!canGoNext) return;
+
     const nextQuestionIndex = currentQuestionIndex + 1;
 
-    if (
-      nextQuestionIndex < totalQuestionsInFolder &&
-      canAccessQuestion(currentFolder, nextQuestionIndex)
-    ) {
-      setCurrentQuestionIndex(nextQuestionIndex);
-      return;
-    }
-
-    if (currentFolderIndex < totalFolders - 1) {
-      setCurrentFolderIndex(currentFolderIndex + 1);
-      setCurrentQuestionIndex(0);
-    }
+    setCurrentQuestionIndex(nextQuestionIndex);
   };
 
   const validateProgressiveQuestion = () => {
@@ -446,8 +427,6 @@ export default function QCMPage() {
       ...lockedQuestions,
       [currentQuestion.id]: true,
     });
-
-    setResumeNotice(`Question ${currentQuestionIndex + 1} verrouillée.`);
 
     if (currentQuestionIndex < totalQuestionsInFolder - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
@@ -489,7 +468,6 @@ export default function QCMPage() {
       [currentFolder.id]: true,
     });
 
-    setResumeNotice(`Le dossier "${currentFolder.title}" a été soumis.`);
   };
 
   const resetAttempt = () => {
@@ -508,7 +486,6 @@ export default function QCMPage() {
     setCurrentFolderIndex(0);
     setCurrentQuestionIndex(0);
     setShowResults(false);
-    setResumeNotice("Tentative effacée.");
   };
 
   const submitExam = () => {
@@ -544,6 +521,7 @@ export default function QCMPage() {
     localStorage.setItem("qcm_history", JSON.stringify(history));
     localStorage.removeItem(attemptStorageKey);
 
+    setCorrectionFolderIndex(0);
     setShowResults(true);
   };
 
@@ -812,8 +790,38 @@ export default function QCMPage() {
             )}
           </div>
 
+          <div className="mb-6 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-4">
+            <div className="font-bold mb-4 flex items-center gap-2">
+              <FolderOpen className="w-5 h-5 text-blue-600" />
+              Dossiers
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+              {examData.folders.map((folder, index) => (
+                <button
+                  key={folder.id}
+                  onClick={() => setCorrectionFolderIndex(index)}
+                  className={`text-left rounded-xl p-3 border transition ${
+                    index === correctionFolderIndex
+                      ? "border-blue-500 bg-blue-50 dark:bg-blue-900/20"
+                      : "border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800"
+                  }`}
+                >
+                  <div className="text-xs font-bold text-blue-600 dark:text-blue-400 mb-1">
+                    {folder.type} - {getFolderTypeLabel(folder.type)}
+                  </div>
+                  <div className="font-semibold text-sm line-clamp-2">
+                    {folder.title}
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+
           <div className="space-y-8">
-            {examData.folders.map((folder) => {
+            {examData.folders
+              .filter((_, index) => index === correctionFolderIndex)
+              .map((folder) => {
               const folderScore = examScore.folders.find(
                 (item) => item.folderId === folder.id
               );
@@ -941,21 +949,6 @@ export default function QCMPage() {
         <Menu className="w-5 h-5" />
       </button>
 
-      {resumeNotice && (
-        <div className="max-w-7xl mx-auto px-4 pt-6">
-          <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 text-blue-800 dark:text-blue-200 rounded-2xl px-4 py-3 flex items-center justify-between gap-4">
-            <span className="text-sm font-semibold">{resumeNotice}</span>
-
-            <button
-              onClick={() => setResumeNotice("")}
-              className="text-xs font-bold hover:underline"
-            >
-              Fermer
-            </button>
-          </div>
-        </div>
-      )}
-
       <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[260px_1fr_220px] gap-6">
         <aside className="hidden md:block">
           <div className="sticky top-24 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-4">
@@ -1036,7 +1029,7 @@ export default function QCMPage() {
                     {getFolderTypeLabel(currentFolder.type)}
                   </div>
 
-                  <h1 className="text-2xl sm:text-3xl font-extrabold mb-2">
+                  <h1 className="text-lg sm:text-xl font-bold mb-1">
                     {currentFolder.title}
                   </h1>
 
@@ -1044,9 +1037,6 @@ export default function QCMPage() {
                     Question {currentQuestionIndex + 1}/{totalQuestionsInFolder}
                   </p>
 
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                    {getFolderTypeShortDescription(currentFolder.type)}
-                  </p>
                 </div>
 
                 {isCurrentFolderSubmitted && (
@@ -1057,7 +1047,7 @@ export default function QCMPage() {
                 )}
               </div>
 
-              <div className="mt-6 grid gap-2">
+              <div className="hidden">
                 <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
                   <span>
                     Progression du dossier : {currentAnsweredCount}/
@@ -1082,7 +1072,8 @@ export default function QCMPage() {
                 </div>
               )}
 
-              {!isCurrentFolderSubmitted &&
+              {false &&
+                !isCurrentFolderSubmitted &&
                 currentFolderUnansweredQuestions.length > 0 && (
                   <div className="mb-6 flex items-start gap-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700 text-yellow-800 dark:text-yellow-200 rounded-xl p-4 text-sm">
                     <AlertCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
@@ -1193,10 +1184,7 @@ export default function QCMPage() {
 
             <button
               onClick={handleNext}
-              disabled={
-                currentFolderIndex === totalFolders - 1 &&
-                currentQuestionIndex === totalQuestionsInFolder - 1
-              }
+              disabled={!canGoNext}
               className="inline-flex items-center gap-2 bg-blue-600 text-white px-5 py-3 rounded-xl hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed font-semibold"
             >
               Suivant

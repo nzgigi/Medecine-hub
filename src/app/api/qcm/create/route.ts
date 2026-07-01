@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import {
+  requireAdminRequest,
+  safeJoinInside,
+  sanitizeSlug,
+  sanitizeYear,
+} from "@/lib/server/security";
 
 interface IndexEntry {
   matiere: string;
@@ -10,6 +16,8 @@ interface IndexEntry {
   subjectOrder?: number;
   examOrder?: number;
   examTitle?: string;
+  semesterName?: string;
+  semesterOrder?: number;
 }
 
 interface NewQCM {
@@ -103,6 +111,8 @@ function normalizeIndex(entries: IndexEntry[]): IndexEntry[] {
       normalized.push({
         ...entry,
         subjectOrder: subjectOrderMap.get(slug) ?? 999,
+        semesterName: entry.semesterName?.trim() || "Semestre 7",
+        semesterOrder: entry.semesterOrder ?? 1,
         examOrder: index + 1,
         examTitle:
           entry.examTitle?.trim() || `${entry.matiere} - ${entry.annee}`,
@@ -120,6 +130,9 @@ function normalizeIndex(entries: IndexEntry[]): IndexEntry[] {
 
 export async function POST(req: Request) {
   try {
+    const unauthorized = requireAdminRequest(req);
+    if (unauthorized) return unauthorized;
+
     const body = await req.json();
 
     const { slug, matiere, annee } = body as {
@@ -137,25 +150,28 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
+    const safeSlug = sanitizeSlug(slug);
+    const safeYear = sanitizeYear(annee);
+    const anneeNum = Number(safeYear);
 
     const publicDir = path.join(process.cwd(), "public");
-    const qcmDir = path.join(publicDir, "data", "qcm");
+    const qcmDir = safeJoinInside(publicDir, "data", "qcm");
 
     if (!fs.existsSync(qcmDir)) {
       fs.mkdirSync(qcmDir, { recursive: true });
     }
 
-    const fileName = `${slug}_${annee}.json`;
-    const qcmPath = path.join(qcmDir, fileName);
+    const fileName = `${safeSlug}_${safeYear}.json`;
+    const qcmPath = safeJoinInside(qcmDir, fileName);
 
     let totalQuestions = 0;
 
     if (!fs.existsSync(qcmPath)) {
       const newQCM: NewQCM = {
         matiere,
-        slug,
-        annee,
-        title: `${matiere} - ${annee}`,
+        slug: safeSlug,
+        annee: anneeNum,
+        title: `${matiere} - ${safeYear}`,
         total_questions: 0,
         folders: [
           {
@@ -186,21 +202,25 @@ export async function POST(req: Request) {
     }
 
     const existingIndex = indexData.find(
-      (entry) => entry.slug === slug && entry.annee === annee
+      (entry) => entry.slug === safeSlug && entry.annee === anneeNum
     );
+    const existingSubject = indexData.find((entry) => entry.slug === safeSlug);
+    const subjectName = existingSubject?.matiere || matiere;
 
     if (existingIndex) {
-      existingIndex.matiere = matiere;
+      existingIndex.matiere = subjectName;
       existingIndex.total_questions = totalQuestions;
       existingIndex.examTitle =
-        existingIndex.examTitle?.trim() || `${matiere} - ${annee}`;
+        existingIndex.examTitle?.trim() || `${matiere} - ${safeYear}`;
     } else {
       indexData.push({
-        matiere,
-        slug,
-        annee,
+        matiere: subjectName,
+        slug: safeSlug,
+        annee: anneeNum,
         total_questions: totalQuestions,
-        examTitle: `${matiere} - ${annee}`,
+        semesterName: existingSubject?.semesterName?.trim() || "Semestre 7",
+        semesterOrder: existingSubject?.semesterOrder ?? 1,
+        examTitle: `${matiere} - ${safeYear}`,
       });
     }
 

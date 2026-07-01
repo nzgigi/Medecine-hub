@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
-import path from "path";
+import {
+  requireAdminRequest,
+  safeJoinInside,
+  sanitizeSlug,
+  sanitizeYear,
+} from "@/lib/server/security";
 
 interface IndexEntry {
   matiere: string;
@@ -10,6 +15,8 @@ interface IndexEntry {
   subjectOrder?: number;
   examOrder?: number;
   examTitle?: string;
+  semesterName?: string;
+  semesterOrder?: number;
 }
 
 type SaveIndexBody = {
@@ -38,8 +45,8 @@ type RequestBody =
   | DeleteSubjectBody
   | NormalizeIndexBody;
 
-const qcmDir = path.join(process.cwd(), "public", "data", "qcm");
-const indexPath = path.join(qcmDir, "index.json");
+const qcmDir = safeJoinInside(process.cwd(), "public", "data", "qcm");
+const indexPath = safeJoinInside(qcmDir, "index.json");
 
 function getErrorMessage(error: unknown) {
   if (error instanceof Error) return error.message;
@@ -61,6 +68,11 @@ function writeIndex(entries: IndexEntry[]) {
 }
 
 function normalizeEntries(entries: IndexEntry[]): IndexEntry[] {
+  entries.forEach((entry) => {
+    entry.slug = sanitizeSlug(entry.slug);
+    entry.annee = Number(sanitizeYear(entry.annee));
+  });
+
   const subjectSlugs: string[] = [];
 
   entries.forEach((entry) => {
@@ -111,6 +123,8 @@ function normalizeEntries(entries: IndexEntry[]): IndexEntry[] {
       normalized.push({
         ...entry,
         subjectOrder: subjectOrderMap.get(slug) ?? 999,
+        semesterName: entry.semesterName?.trim() || "Semestre 7",
+        semesterOrder: entry.semesterOrder ?? 1,
         examOrder: index + 1,
         examTitle:
           entry.examTitle?.trim() || `${entry.matiere} - ${entry.annee}`,
@@ -134,6 +148,9 @@ function deleteFileIfExists(filePath: string) {
 
 export async function POST(request: Request) {
   try {
+    const unauthorized = requireAdminRequest(request);
+    if (unauthorized) return unauthorized;
+
     const body = (await request.json()) as RequestBody;
 
     if (body.action === "saveIndex") {
@@ -161,10 +178,13 @@ export async function POST(request: Request) {
     }
 
     if (body.action === "deleteExam") {
+      const safeSlug = sanitizeSlug(body.slug);
+      const safeYear = sanitizeYear(body.annee);
+      const safeYearNumber = Number(safeYear);
       const currentIndex = readIndex();
 
       const entryToDelete = currentIndex.find(
-        (entry) => entry.slug === body.slug && entry.annee === body.annee
+        (entry) => entry.slug === safeSlug && entry.annee === safeYearNumber
       );
 
       if (!entryToDelete) {
@@ -177,11 +197,11 @@ export async function POST(request: Request) {
         );
       }
 
-      const qcmFilePath = path.join(qcmDir, `${body.slug}_${body.annee}.json`);
+      const qcmFilePath = safeJoinInside(qcmDir, `${safeSlug}_${safeYear}.json`);
       deleteFileIfExists(qcmFilePath);
 
       const nextIndex = currentIndex.filter(
-        (entry) => !(entry.slug === body.slug && entry.annee === body.annee)
+        (entry) => !(entry.slug === safeSlug && entry.annee === safeYearNumber)
       );
 
       writeIndex(normalizeEntries(nextIndex));
@@ -193,9 +213,10 @@ export async function POST(request: Request) {
     }
 
     if (body.action === "deleteSubject") {
+      const safeSlug = sanitizeSlug(body.slug);
       const currentIndex = readIndex();
       const subjectEntries = currentIndex.filter(
-        (entry) => entry.slug === body.slug
+        (entry) => entry.slug === safeSlug
       );
 
       if (subjectEntries.length === 0) {
@@ -209,7 +230,7 @@ export async function POST(request: Request) {
       }
 
       subjectEntries.forEach((entry) => {
-        const qcmFilePath = path.join(
+        const qcmFilePath = safeJoinInside(
           qcmDir,
           `${entry.slug}_${entry.annee}.json`
         );
@@ -217,7 +238,7 @@ export async function POST(request: Request) {
         deleteFileIfExists(qcmFilePath);
       });
 
-      const nextIndex = currentIndex.filter((entry) => entry.slug !== body.slug);
+      const nextIndex = currentIndex.filter((entry) => entry.slug !== safeSlug);
 
       writeIndex(normalizeEntries(nextIndex));
 

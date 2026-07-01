@@ -1,36 +1,77 @@
 import { NextRequest, NextResponse } from "next/server";
-import { writeFile, mkdir } from "fs/promises";
-import path from "path";
+import { mkdir, writeFile } from "fs/promises";
+import {
+  requireAdminRequest,
+  safeJoinInside,
+  sanitizeQuestionId,
+  sanitizeSlug,
+  sanitizeYear,
+} from "@/lib/server/security";
+
+const MAX_IMAGE_SIZE_BYTES = 4 * 1024 * 1024;
+const ALLOWED_IMAGE_TYPES: Record<string, string> = {
+  "image/jpeg": "jpg",
+  "image/png": "png",
+  "image/webp": "webp",
+  "image/gif": "gif",
+};
 
 export async function POST(req: NextRequest) {
   try {
-    const formData = await req.formData();
-    const file = formData.get("file") as File;
-    const slug = formData.get("slug") as string;
-    const annee = formData.get("annee") as string;
-    const questionId = formData.get("questionId") as string;
+    const unauthorized = requireAdminRequest(req);
+    if (unauthorized) return unauthorized;
 
-    if (!file || !slug || !annee || !questionId) {
-      return NextResponse.json({ success: false, message: "Paramètres manquants" }, { status: 400 });
+    const formData = await req.formData();
+    const file = formData.get("file");
+    const slug = String(formData.get("slug") || "");
+    const annee = String(formData.get("annee") || "");
+    const questionId = String(formData.get("questionId") || "");
+
+    if (!(file instanceof File) || !slug || !annee || !questionId) {
+      return NextResponse.json(
+        { success: false, message: "Paramètres manquants" },
+        { status: 400 }
+      );
     }
 
-    const bytes = await file.arrayBuffer();
-    const buffer = Buffer.from(bytes);
+    const ext = ALLOWED_IMAGE_TYPES[file.type];
+    if (!ext) {
+      return NextResponse.json(
+        { success: false, message: "Format d'image non autorisé" },
+        { status: 400 }
+      );
+    }
 
-    // Dossier de destination dans /public
-    const dir = path.join(process.cwd(), "public", "images", "qcm", slug, annee);
+    if (file.size > MAX_IMAGE_SIZE_BYTES) {
+      return NextResponse.json(
+        { success: false, message: "Image trop lourde (4 Mo maximum)" },
+        { status: 400 }
+      );
+    }
+
+    const safeSlug = sanitizeSlug(slug);
+    const safeYear = sanitizeYear(annee);
+    const safeQuestionId = sanitizeQuestionId(questionId);
+    const imageRoot = safeJoinInside(process.cwd(), "public", "images", "qcm");
+    const dir = safeJoinInside(imageRoot, safeSlug, safeYear);
+    const filename = `q${safeQuestionId}.${ext}`;
+    const filepath = safeJoinInside(dir, filename);
+
     await mkdir(dir, { recursive: true });
 
-    const ext = file.name.split(".").pop() || "webp";
-    const filename = `q${questionId}.${ext}`;
-    const filepath = path.join(dir, filename);
+    const bytes = await file.arrayBuffer();
+    await writeFile(filepath, Buffer.from(bytes));
 
-    await writeFile(filepath, buffer);
-
-    const publicPath = `/images/qcm/${slug}/${annee}/${filename}`;
-    return NextResponse.json({ success: true, path: publicPath });
+    return NextResponse.json({
+      success: true,
+      path: `/images/qcm/${safeSlug}/${safeYear}/${filename}`,
+    });
   } catch (error) {
     console.error("Erreur upload image:", error);
-    return NextResponse.json({ success: false, message: "Erreur serveur" }, { status: 500 });
+
+    return NextResponse.json(
+      { success: false, message: "Erreur serveur" },
+      { status: 500 }
+    );
   }
 }

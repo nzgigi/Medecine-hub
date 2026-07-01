@@ -28,14 +28,24 @@ interface MatiereIndex {
   subjectOrder?: number;
   examOrder?: number;
   examTitle?: string;
+  semesterName?: string;
+  semesterOrder?: number;
 }
 
 interface SubjectGroup {
   matiere: string;
   slug: string;
   subjectOrder: number;
+  semesterName: string;
+  semesterOrder: number;
   totalQuestions: number;
   exams: MatiereIndex[];
+}
+
+interface SemesterGroup {
+  name: string;
+  order: number;
+  subjects: SubjectGroup[];
 }
 
 interface ValidationIssue {
@@ -78,6 +88,8 @@ function normalizeIndex(entries: MatiereIndex[]): MatiereIndex[] {
       normalized.push({
         ...entry,
         subjectOrder: subjectOrderMap.get(slug) ?? 999,
+        semesterName: entry.semesterName?.trim() || "Semestre 7",
+        semesterOrder: entry.semesterOrder ?? 1,
         examOrder: index + 1,
         examTitle:
           entry.examTitle?.trim() || `${entry.matiere} - ${entry.annee}`,
@@ -102,6 +114,8 @@ function groupSubjects(entries: MatiereIndex[]): SubjectGroup[] {
         matiere: entry.matiere,
         slug: entry.slug,
         subjectOrder: entry.subjectOrder ?? 999,
+        semesterName: entry.semesterName?.trim() || "Semestre 7",
+        semesterOrder: entry.semesterOrder ?? 1,
         totalQuestions: 0,
         exams: [],
       });
@@ -111,6 +125,11 @@ function groupSubjects(entries: MatiereIndex[]): SubjectGroup[] {
 
     if (group) {
       group.totalQuestions += entry.total_questions;
+      group.semesterName = entry.semesterName?.trim() || group.semesterName;
+      group.semesterOrder = Math.min(
+        group.semesterOrder,
+        entry.semesterOrder ?? group.semesterOrder
+      );
       group.exams.push(entry);
     }
   });
@@ -127,6 +146,31 @@ function groupSubjects(entries: MatiereIndex[]): SubjectGroup[] {
     .sort((a, b) => a.subjectOrder - b.subjectOrder);
 }
 
+function groupSemesters(subjects: SubjectGroup[]): SemesterGroup[] {
+  const grouped = new Map<string, SemesterGroup>();
+
+  subjects.forEach((subject) => {
+    const name = subject.semesterName || "Semestre 7";
+
+    if (!grouped.has(name)) {
+      grouped.set(name, {
+        name,
+        order: subject.semesterOrder || grouped.size + 1,
+        subjects: [],
+      });
+    }
+
+    const group = grouped.get(name);
+
+    if (group) {
+      group.order = Math.min(group.order, subject.semesterOrder || group.order);
+      group.subjects.push(subject);
+    }
+  });
+
+  return Array.from(grouped.values()).sort((a, b) => a.order - b.order);
+}
+
 function confirmDangerousAction(message: string, expectedText: string) {
   const typed = prompt(
     `${message}\n\nPour confirmer, tape exactement : ${expectedText}`
@@ -139,11 +183,21 @@ function getDeleteExamConfirmationText(slug: string, annee: number) {
   return `SUPPRIMER ${slug} ${annee}`;
 }
 
+function getAdminHeaders(extraHeaders: HeadersInit = {}) {
+  const token = localStorage.getItem("admin_token");
+
+  return {
+    ...extraHeaders,
+    Authorization: token ? `Bearer ${token}` : "",
+  };
+}
+
 export default function AdminDashboard() {
   const router = useRouter();
 
   const [entries, setEntries] = useState<MatiereIndex[]>([]);
   const [loading, setLoading] = useState(true);
+  const [extraSemesters, setExtraSemesters] = useState<SemesterGroup[]>([]);
 
   const [savingIndex, setSavingIndex] = useState(false);
   const [normalizingIndex, setNormalizingIndex] = useState(false);
@@ -208,7 +262,7 @@ export default function AdminDashboard() {
 
       const response = await fetch("/api/admin/qcm-index", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
         body: JSON.stringify({
           action: "saveIndex",
           entries: normalizedEntries,
@@ -250,7 +304,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/admin/qcm-index", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
         body: JSON.stringify({
           action: "normalizeIndex",
         }),
@@ -291,6 +345,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/admin/migrate-qcm-folders", {
         method: "POST",
+        headers: getAdminHeaders(),
       });
 
       const result = (await response.json()) as {
@@ -321,6 +376,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/admin/validate-qcm", {
         method: "POST",
+        headers: getAdminHeaders(),
       });
 
       const result = (await response.json()) as {
@@ -369,6 +425,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/admin/backup", {
         method: "POST",
+        headers: getAdminHeaders(),
       });
 
       const result = (await response.json()) as {
@@ -403,6 +460,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/admin/sync-index", {
         method: "POST",
+        headers: getAdminHeaders(),
       });
 
       const result = (await response.json()) as {
@@ -439,7 +497,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/qcm/create", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
         body: JSON.stringify({ matiere, slug, annee: anneeNum }),
       });
 
@@ -529,6 +587,99 @@ export default function AdminDashboard() {
     setEntries(normalizeIndex(nextEntries));
   };
 
+  const addSemester = () => {
+    const semesters = groupSemesters(groupSubjects(normalizeIndex(entries)));
+    const name = prompt("Nom du nouveau menu déroulant :", "Semestre 8")?.trim();
+
+    if (!name) return;
+
+    if (semesters.some((semester) => semester.name === name)) {
+      alert("Ce semestre existe déjà.");
+      return;
+    }
+
+    setExtraSemesters((current) => [
+      ...current,
+      { name, order: semesters.length + current.length + 1, subjects: [] },
+    ]);
+    showStatus(`Menu "${name}" créé.`);
+  };
+
+  const renameSemester = (oldName: string, newName: string) => {
+    const cleanedName = newName.trim();
+    if (!cleanedName) return;
+
+    setExtraSemesters((current) =>
+      current.map((semester) =>
+        semester.name === oldName ? { ...semester, name: cleanedName } : semester
+      )
+    );
+
+    setEntries((current) =>
+      current.map((entry) =>
+        (entry.semesterName?.trim() || "Semestre 7") === oldName
+          ? { ...entry, semesterName: cleanedName }
+          : entry
+      )
+    );
+  };
+
+  const moveSemester = (name: string, direction: "up" | "down") => {
+    const index = semesters.findIndex((semester) => semester.name === name);
+    const newIndex = direction === "up" ? index - 1 : index + 1;
+
+    if (index < 0 || newIndex < 0 || newIndex >= semesters.length) return;
+
+    const nextSemesters = [...semesters];
+
+    [nextSemesters[index], nextSemesters[newIndex]] = [
+      nextSemesters[newIndex],
+      nextSemesters[index],
+    ];
+
+    const orderMap = new Map<string, number>();
+
+    nextSemesters.forEach((semester, semesterIndex) => {
+      orderMap.set(semester.name, semesterIndex + 1);
+    });
+
+    setExtraSemesters((current) =>
+      current.map((semester) => ({
+        ...semester,
+        order: orderMap.get(semester.name) ?? semester.order,
+      }))
+    );
+
+    setEntries((current) =>
+      normalizeIndex(
+        current.map((entry) => ({
+          ...entry,
+          semesterOrder:
+            orderMap.get(entry.semesterName?.trim() || "Semestre 7") ??
+            entry.semesterOrder,
+        }))
+      )
+    );
+  };
+
+  const assignSubjectToSemester = (slug: string, semesterName: string) => {
+    const semester = semesters.find((item) => item.name === semesterName);
+
+    setEntries((current) =>
+      normalizeIndex(
+        current.map((entry) =>
+          entry.slug === slug
+            ? {
+                ...entry,
+                semesterName,
+                semesterOrder: semester?.order ?? semesters.length + 1,
+              }
+            : entry
+        )
+      )
+    );
+  };
+
   const moveExam = (
     slug: string,
     annee: number,
@@ -582,7 +733,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/admin/qcm-index", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
         body: JSON.stringify({ action: "deleteExam", slug, annee }),
       });
 
@@ -620,7 +771,7 @@ export default function AdminDashboard() {
     try {
       const response = await fetch("/api/admin/qcm-index", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
         body: JSON.stringify({ action: "deleteSubject", slug }),
       });
 
@@ -664,6 +815,20 @@ export default function AdminDashboard() {
       }))
       .filter((subject) => subject.exams.length > 0);
   }, [entries, search]);
+
+  const semesters = useMemo(() => {
+    const persistedSemesters = groupSemesters(
+      groupSubjects(normalizeIndex(entries))
+    );
+    const persistedNames = new Set(
+      persistedSemesters.map((semester) => semester.name)
+    );
+
+    return [
+      ...persistedSemesters,
+      ...extraSemesters.filter((semester) => !persistedNames.has(semester.name)),
+    ].sort((a, b) => a.order - b.order);
+  }, [entries, extraSemesters]);
 
   const totalQuestions = entries.reduce(
     (acc, entry) => acc + entry.total_questions,
@@ -960,13 +1125,69 @@ export default function AdminDashboard() {
               </p>
             </div>
 
-            <input
-              type="text"
-              placeholder="Rechercher..."
-              value={search}
-              onChange={(event) => setSearch(event.target.value)}
-              className="border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm min-w-[220px]"
-            />
+            <div className="flex items-center gap-2 flex-wrap">
+              <button
+                onClick={addSemester}
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-semibold"
+              >
+                <Plus className="w-4 h-4" />
+                Ajouter un menu
+              </button>
+
+              <input
+                type="text"
+                placeholder="Rechercher..."
+                value={search}
+                onChange={(event) => setSearch(event.target.value)}
+                className="border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm min-w-[220px]"
+              />
+            </div>
+          </div>
+
+          <div className="mb-6 rounded-2xl border border-gray-200 dark:border-gray-800 overflow-hidden">
+            <div className="bg-gray-50 dark:bg-gray-950 px-4 py-3 font-bold">
+              Menus déroulants de l&apos;accueil
+            </div>
+
+            <div className="divide-y divide-gray-100 dark:divide-gray-800">
+              {semesters.map((semester, index) => (
+                <div
+                  key={semester.name}
+                  className="p-3 flex items-center gap-3 flex-wrap"
+                >
+                  <input
+                    value={semester.name}
+                    onChange={(event) =>
+                      renameSemester(semester.name, event.target.value)
+                    }
+                    className="flex-1 min-w-[220px] border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg font-semibold"
+                  />
+
+                  <span className="text-sm text-gray-500 dark:text-gray-400">
+                    {semester.subjects.length} matière
+                    {semester.subjects.length > 1 ? "s" : ""}
+                  </span>
+
+                  <button
+                    onClick={() => moveSemester(semester.name, "up")}
+                    disabled={index === 0}
+                    className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30"
+                    title="Monter le menu"
+                  >
+                    <ArrowUp className="w-5 h-5" />
+                  </button>
+
+                  <button
+                    onClick={() => moveSemester(semester.name, "down")}
+                    disabled={index === semesters.length - 1}
+                    className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30"
+                    title="Descendre le menu"
+                  >
+                    <ArrowDown className="w-5 h-5" />
+                  </button>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="space-y-6">
@@ -994,6 +1215,26 @@ export default function AdminDashboard() {
                         Slug : {subject.slug} • {subject.totalQuestions}{" "}
                         question(s)
                       </div>
+
+                      <label className="block text-xs font-semibold text-gray-500 dark:text-gray-400 mt-3 mb-1">
+                        Menu déroulant
+                      </label>
+                      <select
+                        value={subject.semesterName}
+                        onChange={(event) =>
+                          assignSubjectToSemester(
+                            subject.slug,
+                            event.target.value
+                          )
+                        }
+                        className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm"
+                      >
+                        {semesters.map((semester) => (
+                          <option key={semester.name} value={semester.name}>
+                            {semester.name}
+                          </option>
+                        ))}
+                      </select>
                     </div>
 
                     <div className="flex items-center gap-2">

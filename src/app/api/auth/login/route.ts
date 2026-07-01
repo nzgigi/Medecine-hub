@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { createAdminToken } from "@/lib/server/security";
 
 export async function POST(request: Request) {
   try {
@@ -15,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
-      const token = Buffer.from(`${username}:${Date.now()}`).toString("base64");
+      const token = createAdminToken(username);
 
       return NextResponse.json({
         success: true,

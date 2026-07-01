@@ -4,45 +4,56 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-  Heart,
-  Home,
-  Mail,
-  Menu,
-  Scale,
-  X,
-} from "lucide-react";
+import { Heart, Home, Mail, Menu, Scale, UserRound, X } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
+import {
+  getLocalUserProfile,
+  getProfilePicture,
+  USER_PROFILE_UPDATED_EVENT,
+  type LocalUserProfile,
+} from "@/lib/userProfile";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [profile, setProfile] = useState<LocalUserProfile | null>(null);
   const pathname = usePathname();
 
   const navigation = [
     { name: "Accueil", href: "/", icon: Home },
-    { name: "Mentions légales", href: "/mentions-legales", icon: Scale },
+    { name: "Mentions legales", href: "/mentions-legales", icon: Scale },
     { name: "Contact", href: "/contact", icon: Mail },
   ];
 
+  const isActive = (href: string) => pathname === href;
+  const profilePicture = profile ? getProfilePicture(profile) : undefined;
+
   useEffect(() => {
-    setMobileMenuOpen(false);
+    const syncProfile = () => {
+      setProfile(getLocalUserProfile());
+    };
+
+    syncProfile();
+    window.addEventListener("storage", syncProfile);
+    window.addEventListener(USER_PROFILE_UPDATED_EVENT, syncProfile);
+
+    return () => {
+      window.removeEventListener("storage", syncProfile);
+      window.removeEventListener(USER_PROFILE_UPDATED_EVENT, syncProfile);
+    };
   }, [pathname]);
 
-  const isActive = (href: string) => pathname === href;
-
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/95">
+    <header className="sticky top-0 z-50 border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
       <nav
         className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
         aria-label="Navigation principale"
       >
-        {/* Logo */}
         <Link
           href="/"
           className="group flex items-center gap-3"
           aria-label="Medecine Hub - Accueil"
         >
-          <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-xl border border-slate-200 bg-white transition-colors duration-200 group-hover:border-blue-300 dark:border-slate-700 dark:group-hover:border-blue-700">
+          <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-lg border border-stone-200 bg-white transition-colors duration-200 group-hover:border-emerald-700 dark:border-stone-800 dark:bg-black dark:group-hover:border-emerald-500">
             <Image
               src="/brand/pfp.png"
               alt="Logo Medecine Hub"
@@ -54,17 +65,16 @@ export default function Navbar() {
           </div>
 
           <div className="flex flex-col">
-            <span className="text-[17px] font-bold tracking-tight text-slate-900 dark:text-white">
+            <span className="text-[17px] font-bold tracking-tight text-stone-950 dark:text-white">
               Medecine Hub
             </span>
 
-            <span className="text-[11px] font-medium tracking-wide text-slate-500 dark:text-slate-400">
-              Annales de médecine
+            <span className="text-[11px] font-medium tracking-wide text-stone-500 dark:text-stone-400">
+              Annales de medecine
             </span>
           </div>
         </Link>
 
-        {/* Navigation desktop */}
         <div className="hidden items-center gap-1 md:flex">
           {navigation.map((item) => {
             const active = isActive(item.href);
@@ -75,8 +85,8 @@ export default function Navbar() {
                 href={item.href}
                 className={`rounded-lg px-3.5 py-2 text-sm font-medium transition-colors duration-200 ${
                   active
-                    ? "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300"
-                    : "text-slate-600 hover:bg-slate-100 hover:text-slate-950 dark:text-slate-300 dark:hover:bg-slate-900 dark:hover:text-white"
+                    ? "bg-emerald-50 text-emerald-800 dark:bg-stone-900 dark:text-emerald-300"
+                    : "text-stone-600 hover:bg-stone-100 hover:text-stone-950 dark:text-stone-300 dark:hover:bg-stone-900 dark:hover:text-white"
                 }`}
               >
                 {item.name}
@@ -84,27 +94,57 @@ export default function Navbar() {
             );
           })}
 
-          <div className="ml-2 border-l border-slate-200 pl-3 dark:border-slate-800">
+          <div className="ml-2 border-l border-stone-200 pl-3 dark:border-stone-800">
             <ThemeToggle variant="desktop" />
           </div>
 
+          {profile ? (
+            <Link
+              href="/compte"
+              className={`ml-2 flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg border transition-colors ${
+                isActive("/compte")
+                  ? "border-emerald-700 bg-emerald-50 text-emerald-800 dark:border-emerald-600 dark:bg-stone-900 dark:text-emerald-300"
+                  : "border-stone-200 bg-white text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-200 dark:hover:bg-stone-900"
+              }`}
+              aria-label="Mon compte"
+              title="Mon compte"
+            >
+              {profilePicture ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={profilePicture}
+                  alt=""
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <UserRound className="h-5 w-5" />
+              )}
+            </Link>
+          ) : (
+            <Link
+              href="/connexion"
+              className="ml-2 rounded-lg border border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-800 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
+            >
+              Se connecter
+            </Link>
+          )}
+
           <Link
             href="/soutenir"
-            className="ml-3 flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700"
+            className="ml-3 flex items-center gap-2 rounded-lg bg-emerald-800 px-4 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-emerald-700"
           >
             <Heart className="h-4 w-4" strokeWidth={2.2} />
             Soutenir
           </Link>
         </div>
 
-        {/* Actions mobiles */}
         <div className="flex items-center gap-1 md:hidden">
           <ThemeToggle variant="icon" />
 
           <button
             type="button"
             onClick={() => setMobileMenuOpen((open) => !open)}
-            className="flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 transition-colors hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-900"
+            className="flex h-10 w-10 items-center justify-center rounded-lg text-stone-700 transition-colors hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-stone-900"
             aria-label={
               mobileMenuOpen
                 ? "Fermer le menu de navigation"
@@ -121,9 +161,8 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Navigation mobile */}
       {mobileMenuOpen && (
-        <div className="border-t border-slate-200 bg-white px-4 pb-4 pt-3 dark:border-slate-800 dark:bg-slate-950 md:hidden">
+        <div className="border-t border-stone-200 bg-white px-4 pb-4 pt-3 dark:border-stone-800 dark:bg-black md:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-1">
             {navigation.map((item) => {
               const Icon = item.icon;
@@ -133,10 +172,11 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
                   className={`flex items-center gap-3 rounded-lg px-3 py-3 text-sm font-medium transition-colors duration-200 ${
                     active
-                      ? "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300"
-                      : "text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-900"
+                      ? "bg-emerald-50 text-emerald-800 dark:bg-stone-900 dark:text-emerald-300"
+                      : "text-stone-700 hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-stone-900"
                   }`}
                 >
                   <Icon className="h-4 w-4" />
@@ -146,8 +186,33 @@ export default function Navbar() {
             })}
 
             <Link
+              href={profile ? "/compte" : "/connexion"}
+              onClick={() => setMobileMenuOpen(false)}
+              className={`flex items-center gap-3 rounded-lg px-3 py-3 text-sm font-medium transition-colors duration-200 ${
+                isActive("/compte") || isActive("/connexion")
+                  ? "bg-emerald-50 text-emerald-800 dark:bg-stone-900 dark:text-emerald-300"
+                  : "text-stone-700 hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-stone-900"
+              }`}
+            >
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center overflow-hidden rounded-md border border-stone-200 dark:border-stone-800">
+                {profilePicture ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={profilePicture}
+                    alt=""
+                    className="h-full w-full object-cover"
+                  />
+                ) : (
+                  <UserRound className="h-4 w-4" />
+                )}
+              </span>
+              {profile ? "Mon compte" : "Se connecter"}
+            </Link>
+
+            <Link
               href="/soutenir"
-              className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700"
+              onClick={() => setMobileMenuOpen(false)}
+              className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-4 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-emerald-700"
             >
               <Heart className="h-4 w-4" strokeWidth={2.2} />
               Soutenir le projet

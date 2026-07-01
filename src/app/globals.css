@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 28, 25, 23;
+  --background-start-rgb: 250, 249, 247;
+  --background-end-rgb: 250, 249, 247;
+  --dark-page: #000000;
+  --dark-panel: #090909;
+  --dark-panel-soft: #111111;
+  --dark-border: #262626;
+  --dark-accent: #047857;
+  --dark-accent-hover: #065f46;
+  --dark-accent-soft: #052e25;
+  --dark-accent-text: #6ee7b7;
 }
 
 * {
@@ -22,12 +30,166 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgb(var(--background-end-rgb))
-  )
-  rgb(var(--background-start-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+.dark body {
+  color: rgb(245, 245, 244);
+  background: var(--dark-page);
+}
+
+.dark .dark\:bg-slate-950,
+.dark .dark\:bg-gray-950,
+.dark .dark\:bg-stone-950,
+.dark .dark\:bg-\[\#151512\] {
+  background-color: var(--dark-page);
+}
+
+.dark .dark\:bg-slate-900,
+.dark .dark\:bg-gray-900,
+.dark .dark\:bg-stone-900,
+.dark .dark\:bg-\[\#171713\],
+.dark .dark\:bg-\[\#191915\],
+.dark .dark\:bg-\[\#1d1c18\],
+.dark .dark\:bg-\[\#222119\] {
+  background-color: var(--dark-panel);
+}
+
+.dark .dark\:hover\:bg-slate-900:hover,
+.dark .dark\:hover\:bg-gray-900:hover,
+.dark .dark\:hover\:bg-stone-900:hover,
+.dark .dark\:hover\:bg-\[\#202019\]:hover,
+.dark .dark\:hover\:bg-\[\#222119\]:hover {
+  background-color: var(--dark-panel-soft);
+}
+
+.dark .dark\:border-slate-800,
+.dark .dark\:border-gray-800,
+.dark .dark\:border-stone-800,
+.dark .dark\:border-slate-700,
+.dark .dark\:border-gray-700,
+.dark .dark\:border-stone-700 {
+  border-color: var(--dark-border);
+}
+
+.dark [class*="bg-blue-"],
+.dark [class*="bg-indigo-"],
+.dark [class*="bg-purple-"],
+.dark [class*="bg-sky-"],
+.dark [class*="bg-cyan-"] {
+  background-color: var(--dark-accent);
+}
+
+.dark [class*="hover:bg-blue-"]:hover,
+.dark [class*="hover:bg-indigo-"]:hover,
+.dark [class*="hover:bg-purple-"]:hover,
+.dark [class*="hover:bg-sky-"]:hover,
+.dark [class*="hover:bg-cyan-"]:hover {
+  background-color: var(--dark-accent-hover);
+}
+
+.dark [class*="text-blue-"],
+.dark [class*="text-indigo-"],
+.dark [class*="text-purple-"],
+.dark [class*="text-sky-"],
+.dark [class*="text-cyan-"] {
+  color: var(--dark-accent-text);
+}
+
+.dark [class*="hover:text-blue-"]:hover,
+.dark [class*="hover:text-indigo-"]:hover,
+.dark [class*="hover:text-purple-"]:hover,
+.dark [class*="hover:text-sky-"]:hover,
+.dark [class*="hover:text-cyan-"]:hover {
+  color: #a7f3d0;
+}
+
+.dark [class*="border-blue-"],
+.dark [class*="border-indigo-"],
+.dark [class*="border-purple-"],
+.dark [class*="border-sky-"],
+.dark [class*="border-cyan-"] {
+  border-color: var(--dark-border);
+}
+
+.dark [class*="focus:border-blue-"]:focus,
+.dark [class*="focus:border-indigo-"]:focus,
+.dark [class*="focus:border-purple-"]:focus,
+.dark [class*="focus:border-sky-"]:focus,
+.dark [class*="focus:border-cyan-"]:focus {
+  border-color: var(--dark-accent);
+}
+
+.dark [class*="focus:ring-blue-"]:focus,
+.dark [class*="focus:ring-indigo-"]:focus,
+.dark [class*="focus:ring-purple-"]:focus,
+.dark [class*="focus:ring-sky-"]:focus,
+.dark [class*="focus:ring-cyan-"]:focus {
+  --tw-ring-color: rgba(4, 120, 87, 0.25);
+}
+
+.dark [class*="bg-gradient"] {
+  background-image: none;
+}
+
+.dark .min-h-screen[class*="bg-gradient"] {
+  background-color: var(--dark-page);
+}
+
+.dark [class*="bg-gradient"][class*="from-blue-"],
+.dark [class*="bg-gradient"][class*="via-blue-"],
+.dark [class*="bg-gradient"][class*="to-blue-"],
+.dark [class*="bg-gradient"][class*="from-indigo-"],
+.dark [class*="bg-gradient"][class*="via-indigo-"],
+.dark [class*="bg-gradient"][class*="to-indigo-"],
+.dark [class*="bg-gradient"][class*="from-purple-"],
+.dark [class*="bg-gradient"][class*="via-purple-"],
+.dark [class*="bg-gradient"][class*="to-purple-"] {
+  background-color: var(--dark-accent);
+}
+
+.dark .min-h-screen[class*="bg-gradient"][class*="from-blue-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="via-blue-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="to-blue-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="from-indigo-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="via-indigo-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="to-indigo-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="from-purple-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="via-purple-"],
+.dark .min-h-screen[class*="bg-gradient"][class*="to-purple-"] {
+  background-color: var(--dark-page);
+}
+
+.dark [class*="dark:bg-blue-"],
+.dark [class*="dark:bg-indigo-"],
+.dark [class*="dark:bg-purple-"],
+.dark [class*="dark:bg-sky-"],
+.dark [class*="dark:bg-cyan-"] {
+  background-color: var(--dark-panel);
+}
+
+.dark [class*="dark:hover:bg-blue-"]:hover,
+.dark [class*="dark:hover:bg-indigo-"]:hover,
+.dark [class*="dark:hover:bg-purple-"]:hover,
+.dark [class*="dark:hover:bg-sky-"]:hover,
+.dark [class*="dark:hover:bg-cyan-"]:hover {
+  background-color: var(--dark-panel-soft);
+}
+
+.dark [class*="dark:border-blue-"],
+.dark [class*="dark:border-indigo-"],
+.dark [class*="dark:border-purple-"],
+.dark [class*="dark:border-sky-"],
+.dark [class*="dark:border-cyan-"] {
+  border-color: var(--dark-border);
+}
+
+.dark [class*="dark:text-blue-"],
+.dark [class*="dark:text-indigo-"],
+.dark [class*="dark:text-purple-"],
+.dark [class*="dark:text-sky-"],
+.dark [class*="dark:text-cyan-"] {
+  color: var(--dark-accent-text);
 }
 
 a {
@@ -43,6 +205,156 @@ a {
 
 html {
   scroll-behavior: smooth;
+}
+
+html.dark,
+html.dark body {
+  background-color: #000000 !important;
+  color: #f5f5f4 !important;
+}
+
+html.dark main,
+html.dark header,
+html.dark footer,
+html.dark [class*="min-h-screen"] {
+  background-color: #000000 !important;
+  background-image: none !important;
+}
+
+html.dark [class*="bg-gradient"] {
+  background-image: none !important;
+}
+
+html.dark [class*="dark:bg-slate-950"],
+html.dark [class*="dark:bg-gray-950"],
+html.dark [class*="dark:bg-stone-950"],
+html.dark [class*="dark:bg-[#151512]"],
+html.dark [class*="dark:bg-\[\#151512\]"] {
+  background-color: #000000 !important;
+}
+
+html.dark [class*="dark:bg-slate-900"],
+html.dark [class*="dark:bg-gray-900"],
+html.dark [class*="dark:bg-stone-900"],
+html.dark [class*="dark:bg-slate-800"],
+html.dark [class*="dark:bg-gray-800"],
+html.dark [class*="dark:bg-stone-800"],
+html.dark [class*="dark:bg-[#171713]"],
+html.dark [class*="dark:bg-[#191915]"],
+html.dark [class*="dark:bg-[#1d1c18]"],
+html.dark [class*="dark:bg-[#222119]"],
+html.dark [class*="dark:bg-\[\#171713\]"],
+html.dark [class*="dark:bg-\[\#191915\]"],
+html.dark [class*="dark:bg-\[\#1d1c18\]"],
+html.dark [class*="dark:bg-\[\#222119\]"] {
+  background-color: #070707 !important;
+}
+
+html.dark [class*="bg-white"],
+html.dark [class*="bg-slate-50"],
+html.dark [class*="bg-gray-50"],
+html.dark [class*="bg-stone-50"],
+html.dark [class*="bg-slate-100"],
+html.dark [class*="bg-gray-100"],
+html.dark [class*="bg-stone-100"] {
+  background-color: #070707 !important;
+}
+
+html.dark [class*="bg-blue-"],
+html.dark [class*="bg-indigo-"],
+html.dark [class*="bg-purple-"],
+html.dark [class*="bg-sky-"],
+html.dark [class*="bg-cyan-"] {
+  background-color: #047857 !important;
+}
+
+html.dark [class*="hover:bg-blue-"]:hover,
+html.dark [class*="hover:bg-indigo-"]:hover,
+html.dark [class*="hover:bg-purple-"]:hover,
+html.dark [class*="hover:bg-sky-"]:hover,
+html.dark [class*="hover:bg-cyan-"]:hover {
+  background-color: #065f46 !important;
+}
+
+html.dark [class*="dark:bg-blue-"],
+html.dark [class*="dark:bg-indigo-"],
+html.dark [class*="dark:bg-purple-"],
+html.dark [class*="dark:bg-sky-"],
+html.dark [class*="dark:bg-cyan-"] {
+  background-color: #070707 !important;
+}
+
+html.dark [class*="dark:hover:bg-blue-"]:hover,
+html.dark [class*="dark:hover:bg-indigo-"]:hover,
+html.dark [class*="dark:hover:bg-purple-"]:hover,
+html.dark [class*="dark:hover:bg-sky-"]:hover,
+html.dark [class*="dark:hover:bg-cyan-"]:hover,
+html.dark [class*="dark:hover:bg-slate-"],
+html.dark [class*="dark:hover:bg-gray-"],
+html.dark [class*="dark:hover:bg-stone-"] {
+  background-color: #111111 !important;
+}
+
+html.dark [class*="border-blue-"],
+html.dark [class*="border-indigo-"],
+html.dark [class*="border-purple-"],
+html.dark [class*="border-sky-"],
+html.dark [class*="border-cyan-"],
+html.dark [class*="dark:border-blue-"],
+html.dark [class*="dark:border-indigo-"],
+html.dark [class*="dark:border-purple-"],
+html.dark [class*="dark:border-sky-"],
+html.dark [class*="dark:border-cyan-"],
+html.dark [class*="dark:border-slate-"],
+html.dark [class*="dark:border-gray-"],
+html.dark [class*="dark:border-stone-"] {
+  border-color: #262626 !important;
+}
+
+html.dark [class*="text-blue-"],
+html.dark [class*="text-indigo-"],
+html.dark [class*="text-purple-"],
+html.dark [class*="text-sky-"],
+html.dark [class*="text-cyan-"],
+html.dark [class*="dark:text-blue-"],
+html.dark [class*="dark:text-indigo-"],
+html.dark [class*="dark:text-purple-"],
+html.dark [class*="dark:text-sky-"],
+html.dark [class*="dark:text-cyan-"] {
+  color: #6ee7b7 !important;
+}
+
+html.dark [class*="hover:text-blue-"]:hover,
+html.dark [class*="hover:text-indigo-"]:hover,
+html.dark [class*="hover:text-purple-"]:hover,
+html.dark [class*="hover:text-sky-"]:hover,
+html.dark [class*="hover:text-cyan-"]:hover,
+html.dark [class*="dark:hover:text-blue-"]:hover,
+html.dark [class*="dark:hover:text-indigo-"]:hover,
+html.dark [class*="dark:hover:text-purple-"]:hover,
+html.dark [class*="dark:hover:text-sky-"]:hover,
+html.dark [class*="dark:hover:text-cyan-"]:hover {
+  color: #a7f3d0 !important;
+}
+
+html.dark input,
+html.dark textarea,
+html.dark select {
+  background-color: #000000 !important;
+  border-color: #404040 !important;
+  color: #f5f5f4 !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #78716c !important;
+}
+
+html.dark input:focus,
+html.dark textarea:focus,
+html.dark select:focus {
+  border-color: #047857 !important;
+  --tw-ring-color: rgba(4, 120, 87, 0.28) !important;
 }
 
 @keyframes slideIn {

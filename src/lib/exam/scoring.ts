@@ -136,10 +136,20 @@ export function getExamScore(
     .map((folder) => getFolderScore(folder.id, exam, userAnswers, folderSubmissions))
     .filter(Boolean) as FolderScoreResult[];
 
-  const categories = (["DP", "SQI", "KFP"] as FolderType[]).map((type) => {
+  const presentTypes = (["DP", "SQI", "KFP"] as FolderType[]).filter((type) =>
+    exam.folders.some((folder) => folder.type === type)
+  );
+  const totalPresentWeight = presentTypes.reduce(
+    (acc, type) => acc + CATEGORY_WEIGHTS[type],
+    0
+  );
+
+  const categories = presentTypes.map((type) => {
     const submittedFolders = folderScores.filter(
       (folder) => folder.folderType === type && folder.submitted
     );
+    const normalizedWeight =
+      totalPresentWeight > 0 ? CATEGORY_WEIGHTS[type] / totalPresentWeight : 0;
 
     const averageOn20 =
       submittedFolders.length > 0
@@ -148,14 +158,12 @@ export function getExamScore(
         : 0;
 
     const roundedAverageOn20 = Number(averageOn20.toFixed(2));
-    const weightedScore = Number(
-      (roundedAverageOn20 * CATEGORY_WEIGHTS[type]).toFixed(2)
-    );
+    const weightedScore = Number((roundedAverageOn20 * normalizedWeight).toFixed(2));
 
     return {
       type,
       label: CATEGORY_LABELS[type],
-      weight: CATEGORY_WEIGHTS[type],
+      weight: normalizedWeight,
       submittedFoldersCount: submittedFolders.length,
       averageOn20: roundedAverageOn20,
       weightedScore,

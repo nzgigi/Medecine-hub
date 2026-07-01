@@ -51,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${inter.className} bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100`}
+        className={`${inter.className} bg-stone-50 text-stone-950 antialiased dark:bg-black dark:text-stone-100`}
       >
         <SiteChrome>{children}</SiteChrome>
       </body>

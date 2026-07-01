@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
-import path from "path";
+import { requireAdminRequest, safeJoinInside } from "@/lib/server/security";
 
 interface Question {
   id: number;
@@ -29,7 +29,7 @@ interface MigratedFile {
   totalQuestions: number;
 }
 
-const qcmDir = path.join(process.cwd(), "public", "data", "qcm");
+const qcmDir = safeJoinInside(process.cwd(), "public", "data", "qcm");
 
 function getErrorMessage(error: unknown): string {
   if (error instanceof Error) return error.message;
@@ -65,8 +65,11 @@ function migrateQcmData(data: LegacyQcmData): LegacyQcmData {
   };
 }
 
-export async function POST() {
+export async function POST(request: Request) {
   try {
+    const unauthorized = requireAdminRequest(request);
+    if (unauthorized) return unauthorized;
+
     if (!fs.existsSync(qcmDir)) {
       return NextResponse.json(
         {
@@ -83,7 +86,7 @@ export async function POST() {
     const skippedFiles: string[] = [];
 
     for (const file of files) {
-      const filePath = path.join(qcmDir, file);
+      const filePath = safeJoinInside(qcmDir, file);
       const raw = fs.readFileSync(filePath, "utf-8");
       const data = JSON.parse(raw) as LegacyQcmData;
 
