@@ -1,261 +1,464 @@
 import Link from "next/link";
-import { ArrowLeft, Shield, Mail, Building } from "lucide-react";
+import {
+  ArrowLeft,
+  BookOpenCheck,
+  Cookie,
+  Database,
+  ExternalLink,
+  FileText,
+  HardDrive,
+  Heart,
+  LockKeyhole,
+  Mail,
+  Scale,
+  Server,
+  ShieldCheck,
+  Stethoscope,
+} from "lucide-react";
 
 export default function MentionsLegalesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-950 dark:to-gray-900 py-12">
-      <div className="max-w-4xl mx-auto px-4">
-        {/* Header */}
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+      <div className="mx-auto max-w-5xl px-4 pb-20 pt-8 sm:px-6 lg:px-8">
+        {/* Retour */}
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 mb-8 font-semibold"
+          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-700 dark:text-slate-400 dark:hover:text-blue-300"
         >
-          <ArrowLeft className="w-4 h-4" />
+          <ArrowLeft className="h-4 w-4" />
           Retour à l&apos;accueil
         </Link>
 
-        <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-8 md:p-12 border border-gray-100 dark:border-gray-800">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
-              <Shield className="w-8 h-8 text-white" />
+        {/* Introduction */}
+        <section className="pb-12 pt-14 sm:pb-16 sm:pt-20">
+          <div className="max-w-3xl">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 dark:border-blue-900 dark:bg-blue-950/60 dark:text-blue-300">
+              <Scale className="h-4 w-4" />
+              Informations légales
             </div>
-            <div>
-              <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100">
-                Mentions Légales
-              </h1>
-              <p className="text-gray-600 dark:text-gray-400 mt-1">
-                Dernière mise à jour : Janvier 2026
-              </p>
-            </div>
+
+            <h1 className="text-4xl font-bold tracking-tight text-slate-950 dark:text-white sm:text-5xl">
+              Mentions légales et confidentialité
+            </h1>
+
+            <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:text-lg">
+              Cette page présente les informations relatives à Medecine Hub,
+              à l&apos;utilisation de la plateforme et à la protection de vos
+              données personnelles.
+            </p>
+
+            <p className="mt-4 text-sm font-medium text-slate-500 dark:text-slate-400">
+              Dernière mise à jour : mai 2026
+            </p>
           </div>
+        </section>
 
-          <div className="prose prose-blue max-w-none space-y-8 prose-headings:text-gray-900 prose-p:text-gray-700 dark:prose-headings:text-gray-100 dark:prose-p:text-gray-300">
-            {/* Éditeur du site */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
-                <Building className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-                Éditeur du site
-              </h2>
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl border border-gray-200 dark:border-gray-700">
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  <strong>Nom du site :</strong> Medecine Hub
-                  <br />
-                  <strong>Type :</strong> Plateforme éducative gratuite
-                  <br />
-                  <strong>Responsable de publication :</strong> Nasim nz
-                  <br />
-                  <strong>Statut :</strong> Projet étudiant non commercial
-                </p>
-              </div>
-            </section>
-
-            {/* Hébergement */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                Hébergement
-              </h2>
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl border border-gray-200 dark:border-gray-700">
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  <strong>Hébergeur :</strong> OnetSolutions
-                  <br />
-                  <strong>Adresse :</strong> 1 Allée de l&apos;Ecluse, 33370
-                  YVRAC
-                  <br />
-                  <strong>Pays :</strong> France
-                </p>
-              </div>
-            </section>
-
-            {/* Propriété intellectuelle */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                Propriété intellectuelle
-              </h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                Le contenu présent sur Medecine Hub (structure, design, code
-                source) est protégé par le droit d&apos;auteur et appartient à
-                ses créateurs.
-              </p>
-              <div className="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-6 rounded-lg">
-                <h3 className="font-bold text-yellow-900 dark:text-yellow-200 mb-2">
-                  ⚠️ Concernant les annales
-                </h3>
-                <p className="text-yellow-800 dark:text-yellow-200 text-sm leading-relaxed">
-                  Les annales et questions présentes sur Medecine Hub
-                  proviennent des examens officiels de DFASM1/DFASM2 de
-                  l&apos;Université Toulouse. Ces documents sont utilisés à des
-                  fins pédagogiques uniquement. Si vous êtes titulaire de droits
-                  sur ces contenus et souhaitez leur retrait, veuillez nous
-                  contacter.
-                </p>
-              </div>
-            </section>
-
-            {/* Utilisation du site */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                Conditions d&apos;utilisation
-              </h2>
-              <ul className="space-y-3 text-gray-700 dark:text-gray-300">
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-600 dark:text-blue-400 font-bold mt-1">
-                    •
-                  </span>
-                  <span>
-                    Medecine Hub est un service gratuit destiné aux étudiants en
-                    médecine
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-600 dark:text-blue-400 font-bold mt-1">
-                    •
-                  </span>
-                  <span>
-                    L&apos;utilisation du site est libre et ne nécessite pas de
-                    création de compte
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-600 dark:text-blue-400 font-bold mt-1">
-                    •
-                  </span>
-                  <span>
-                    Les QCM sont fournis à titre indicatif pour la révision
-                    personnelle
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-600 dark:text-blue-400 font-bold mt-1">
-                    •
-                  </span>
-                  <span>
-                    Nous ne garantissons pas l&apos;exactitude à 100% des
-                    corrections
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-600 dark:text-blue-400 font-bold mt-1">
-                    •
-                  </span>
-                  <span>
-                    La reproduction ou distribution commerciale du contenu est
-                    interdite
-                  </span>
-                </li>
-              </ul>
-            </section>
-
-            {/* Données personnelles */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                Données personnelles
-              </h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                Medecine Hub ne collecte aucune donnée personnelle des
-                utilisateurs. Le site fonctionne sans inscription et n&apos;utilise
-                pas de cookies de suivi.
-              </p>
-              <div className="bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-6 rounded-lg">
-                <h3 className="font-bold text-green-900 dark:text-green-200 mb-2">
-                  ✅ Respect de votre vie privée
-                </h3>
-                <p className="text-green-800 dark:text-green-200 text-sm">
-                  Aucune donnée personnelle n&apos;est collectée, stockée ou
-                  partagée. Votre progression est sauvegardée uniquement
-                  localement sur votre appareil (localStorage).
-                </p>
-              </div>
-            </section>
-
-            {/* Limitation de responsabilité */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                Limitation de responsabilité
-              </h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                Medecine Hub est fourni &quot;tel quel&quot; sans garantie
-                d&apos;aucune sorte. Nous nous efforçons de maintenir le site
-                accessible et à jour, mais ne pouvons garantir :
-              </p>
-              <ul className="mt-4 space-y-2 text-gray-700 dark:text-gray-300">
-                <li className="flex items-start gap-2">
-                  <span className="text-gray-400 dark:text-gray-500 mt-1">
-                    −
-                  </span>
-                  <span>La disponibilité permanente du service</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-gray-400 dark:text-gray-500 mt-1">
-                    −
-                  </span>
-                  <span>L&apos;exactitude absolue de tous les contenus pédagogiques</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-gray-400 dark:text-gray-500 mt-1">
-                    −
-                  </span>
-                  <span>L&apos;absence totale d&apos;erreurs techniques</span>
-                </li>
-              </ul>
-            </section>
-
-            {/* Contact */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
-                <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-                Contact
-              </h2>
-              <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border border-blue-100 dark:border-blue-700">
-                <p className="text-gray-700 dark:text-gray-200 leading-relaxed">
-                  Pour toute question concernant ces mentions légales, le
-                  contenu du site, ou une demande de retrait de contenu :
-                </p>
-                <a
-                  href="mailto:nasimzouh@gmail.com"
-                  className="inline-block mt-4 text-blue-600 dark:text-blue-300 hover:text-blue-700 dark:hover:text-blue-200 font-semibold"
-                >
-                  nasimzouh@gmail.com
-                </a>
-              </div>
-            </section>
-
-            {/* Crédits */}
-            <section>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-                Crédits
-              </h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                <strong>Design &amp; Développement :</strong> Nasim nz
-                <br />
-                <strong>Framework :</strong> Next.js 16
-                <br />
-                <strong>UI :</strong> Tailwind CSS &amp; Lucide React
-                <br />
-                <strong>Sources des annales :</strong> Université Toulouse -
-                DFASM1/DFASM2/DFASM2
-              </p>
-            </section>
-
-            {/* Modification */}
-            <section className="border-t border-gray-200 dark:border-gray-800 pt-6">
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Ces mentions légales peuvent être modifiées à tout moment.
-                Dernière mise à jour : Janvier 2026.
-              </p>
-            </section>
-          </div>
-        </div>
-
-        {/* Retour */}
-        <div className="text-center mt-8">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-all transform hover:scale-105"
+        <div className="space-y-6">
+          {/* Éditeur du site */}
+          <LegalSection
+            icon={FileText}
+            title="Éditeur du site"
+            description="Informations relatives à la personne responsable de la publication."
           >
-            Retour à l&apos;accueil
-          </Link>
+            <InfoGrid
+              items={[
+                ["Nom du site", "Medecine Hub"],
+                ["Nature du projet", "Plateforme éducative gratuite"],
+                ["Responsable de publication", "Nasim nz"],
+                ["Statut", "Projet étudiant non commercial"],
+              ]}
+            />
+          </LegalSection>
+
+          {/* Hébergement */}
+          <LegalSection
+            icon={Server}
+            title="Hébergement"
+            description="Le site est hébergé par un prestataire externe assurant sa mise à disposition en ligne."
+          >
+            <InfoGrid
+              items={[
+                ["Hébergeur", "OnetSolutions"],
+                ["Adresse", "1 Allée de l’Écluse, 33370 Yvrac, France"],
+                [
+                  "Téléphone",
+                  "À compléter avec le numéro officiel de l’hébergeur",
+                ],
+              ]}
+            />
+          </LegalSection>
+
+          {/* Objet de la plateforme */}
+          <LegalSection
+            icon={BookOpenCheck}
+            title="Objet de la plateforme"
+            description="Medecine Hub met gratuitement à disposition des contenus destinés à faciliter les révisions."
+          >
+            <ul className="space-y-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <Bullet>
+                L&apos;utilisation du site est libre et ne nécessite pas de
+                création de compte.
+              </Bullet>
+
+              <Bullet>
+                Les annales et les QCM sont proposés à des fins pédagogiques et
+                pour un usage personnel.
+              </Bullet>
+
+              <Bullet>
+                Les corrections sont fournies à titre indicatif et peuvent
+                contenir des erreurs malgré les efforts réalisés pour les
+                vérifier.
+              </Bullet>
+
+              <Bullet>
+                Toute reproduction ou distribution commerciale des contenus
+                propres à la plateforme est interdite sans autorisation
+                préalable.
+              </Bullet>
+            </ul>
+          </LegalSection>
+
+          {/* Avertissement médical */}
+          <LegalSection
+            icon={Stethoscope}
+            title="Avertissement médical"
+            description="Medecine Hub est un outil pédagogique et ne remplace aucune source médicale officielle."
+          >
+            <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900 dark:bg-amber-950/30">
+              <p className="text-sm leading-6 text-amber-900 dark:text-amber-200">
+                Les contenus proposés sur Medecine Hub sont destinés aux
+                révisions académiques. Ils ne constituent pas des conseils
+                médicaux, ne doivent pas être utilisés pour établir un
+                diagnostic et ne remplacent pas les recommandations officielles,
+                l&apos;avis d&apos;un professionnel de santé ou les supports
+                pédagogiques de votre université.
+              </p>
+            </div>
+          </LegalSection>
+
+          {/* Propriété intellectuelle */}
+          <LegalSection
+            icon={ShieldCheck}
+            title="Propriété intellectuelle"
+            description="Les différents contenus présents sur le site ne relèvent pas tous du même régime."
+          >
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <p>
+                La structure du site, son interface et son code source sont
+                protégés par le droit d&apos;auteur et appartiennent à leurs
+                créateurs, sauf mention contraire.
+              </p>
+
+              <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900 dark:bg-amber-950/30">
+                <p className="font-semibold text-amber-950 dark:text-amber-100">
+                  Concernant les annales
+                </p>
+
+                <p className="mt-2 text-amber-900 dark:text-amber-200">
+                  Les annales et les questions présentes sur Medecine Hub sont
+                  issues d&apos;examens officiels de DFASM1 et DFASM2 de
+                  l&apos;Université de Toulouse. Elles sont mises à disposition
+                  uniquement à des fins pédagogiques. Toute personne estimant
+                  détenir des droits sur un contenu peut demander son retrait à
+                  l&apos;aide du formulaire de contact.
+                </p>
+              </div>
+            </div>
+          </LegalSection>
+
+          {/* Stockage local */}
+          <LegalSection
+            icon={HardDrive}
+            title="Stockage local sur votre appareil"
+            description="Certaines préférences sont enregistrées directement dans votre navigateur pour améliorer votre expérience."
+          >
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <p>
+                Medecine Hub peut utiliser le stockage local de votre navigateur
+                — appelé <strong>localStorage</strong> — pour mémoriser certaines
+                informations utiles, telles que votre progression dans les QCM
+                ou votre préférence d&apos;affichage.
+              </p>
+
+              <p>
+                Ces informations restent enregistrées sur votre propre appareil.
+                Elles ne sont pas utilisées à des fins publicitaires, ne servent
+                pas à établir un profil marketing et ne sont pas vendues à des
+                tiers.
+              </p>
+
+              <div className="rounded-xl border border-blue-200 bg-blue-50 p-4 dark:border-blue-900 dark:bg-blue-950/30">
+                <p className="text-sm leading-6 text-blue-900 dark:text-blue-200">
+                  Vous pouvez supprimer ces données à tout moment depuis les
+                  paramètres de votre navigateur. Cette suppression peut
+                  réinitialiser votre progression enregistrée localement et vos
+                  préférences d&apos;affichage.
+                </p>
+              </div>
+            </div>
+          </LegalSection>
+
+          {/* Cookies */}
+          <LegalSection
+            icon={Cookie}
+            title="Cookies et autres traceurs"
+            description="La plateforme limite l'utilisation des traceurs au strict nécessaire."
+          >
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <p>
+                À la date de la dernière mise à jour de cette page, Medecine Hub
+                n&apos;utilise pas de cookies publicitaires et ne dépose pas de
+                traceurs destinés au suivi marketing ou au profilage des
+                utilisateurs.
+              </p>
+
+              <p>
+                Des cookies ou mécanismes techniques strictement nécessaires au
+                fonctionnement, à la sécurité ou à la disponibilité du site
+                peuvent toutefois être utilisés par l&apos;infrastructure
+                technique. Ils ne sont pas exploités par Medecine Hub à des fins
+                commerciales.
+              </p>
+
+              <p>
+                Si des outils de mesure d&apos;audience, des contenus intégrés
+                provenant de services tiers ou d&apos;autres traceurs non
+                essentiels sont ajoutés ultérieurement, cette page sera mise à
+                jour et un mécanisme de recueil du consentement sera mis en
+                place lorsque cela est requis.
+              </p>
+            </div>
+          </LegalSection>
+
+          {/* Données personnelles */}
+          <LegalSection
+            icon={Database}
+            title="Données personnelles"
+            description="La consultation des annales ne nécessite aucune inscription."
+          >
+            <div className="space-y-5 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <p>
+                La navigation sur Medecine Hub et l&apos;utilisation des QCM ne
+                nécessitent pas la création d&apos;un compte utilisateur.
+              </p>
+
+              <div>
+                <h3 className="font-semibold text-slate-900 dark:text-white">
+                  Formulaire de contact
+                </h3>
+
+                <p className="mt-2">
+                  Lorsque vous utilisez le formulaire de contact, les
+                  informations que vous renseignez sont transmises afin de
+                  permettre le traitement de votre demande et de vous répondre.
+                </p>
+              </div>
+
+              <InfoGrid
+                items={[
+                  [
+                    "Données concernées",
+                    "Nom, adresse e-mail, sujet et contenu du message",
+                  ],
+                  [
+                    "Finalité",
+                    "Répondre à votre question, votre suggestion ou votre demande",
+                  ],
+                  [
+                    "Base du traitement",
+                    "Intérêt légitime à traiter les demandes reçues",
+                  ],
+                  [
+                    "Destinataires",
+                    "Responsable de Medecine Hub et prestataires techniques strictement nécessaires",
+                  ],
+                  [
+                    "Durée de conservation",
+                    "Temps nécessaire au traitement de la demande, puis suppression au plus tard 12 mois après le dernier échange, sauf obligation particulière",
+                  ],
+                ]}
+              />
+
+              <p>
+                Ces données ne sont ni vendues ni utilisées pour vous envoyer
+                des communications commerciales.
+              </p>
+            </div>
+          </LegalSection>
+
+          {/* Services externes */}
+          <LegalSection
+            icon={ExternalLink}
+            title="Liens vers des services externes"
+            description="Certains liens peuvent vous rediriger vers des sites exploités par des tiers."
+          >
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <p>
+                La page de soutien contient notamment un lien vers PayPal. Ce
+                service externe dispose de ses propres règles de
+                confidentialité. Medecine Hub ne transmet pas directement vos
+                données à PayPal lorsque vous consultez simplement la
+                plateforme.
+              </p>
+
+              <p>
+                Lorsque vous cliquez sur un lien externe, vous quittez Medecine
+                Hub. Nous vous invitons à consulter les conditions et la
+                politique de confidentialité du service concerné.
+              </p>
+            </div>
+          </LegalSection>
+
+          {/* Droits */}
+          <LegalSection
+            icon={LockKeyhole}
+            title="Vos droits"
+            description="Vous pouvez demander des informations sur les données personnelles transmises via le formulaire de contact."
+          >
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <p>
+                Selon votre situation, vous pouvez demander l&apos;accès à vos
+                données personnelles, leur rectification, leur effacement ou la
+                limitation de leur traitement. Vous pouvez également vous
+                opposer au traitement lorsqu&apos;un tel droit est applicable.
+              </p>
+
+              <p>
+                Pour exercer vos droits ou poser une question relative à la
+                confidentialité, utilisez le formulaire de contact.
+              </p>
+
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
+              >
+                <Mail className="h-4 w-4" />
+                Nous contacter
+              </Link>
+            </div>
+          </LegalSection>
+
+          {/* Responsabilité */}
+          <LegalSection
+            icon={Scale}
+            title="Limitation de responsabilité"
+            description="La plateforme est fournie gratuitement et fait l'objet d'améliorations régulières."
+          >
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+              <p>
+                Medecine Hub s&apos;efforce de maintenir la plateforme
+                accessible et de proposer des contenus utiles. Nous ne pouvons
+                toutefois pas garantir :
+              </p>
+
+              <ul className="space-y-3">
+                <Bullet>la disponibilité permanente du service ;</Bullet>
+
+                <Bullet>
+                  l&apos;exactitude absolue de l&apos;ensemble des contenus
+                  pédagogiques ;
+                </Bullet>
+
+                <Bullet>
+                  l&apos;absence totale d&apos;erreurs techniques ou
+                  d&apos;interruptions temporaires.
+                </Bullet>
+              </ul>
+            </div>
+          </LegalSection>
+
+          {/* Mise à jour */}
+          <section className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+            <div className="flex items-start gap-3">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+                <Heart className="h-5 w-5" />
+              </div>
+
+              <div>
+                <h2 className="font-bold text-slate-950 dark:text-white">
+                  Évolution de cette page
+                </h2>
+
+                <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
+                  Ces informations peuvent être modifiées pour refléter
+                  l&apos;évolution de Medecine Hub, l&apos;ajout de nouvelles
+                  fonctionnalités ou les changements applicables à la
+                  plateforme.
+                </p>
+
+                <p className="mt-3 text-xs font-medium text-slate-500 dark:text-slate-400">
+                  Dernière mise à jour : mai 2026
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-    </div>
+    </main>
+  );
+}
+
+function LegalSection({
+  icon: Icon,
+  title,
+  description,
+  children,
+}: {
+  icon: React.ElementType;
+  title: string;
+  description: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <section className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900 sm:p-8">
+      <div className="flex items-start gap-4">
+        <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300">
+          <Icon className="h-5 w-5" />
+        </div>
+
+        <div>
+          <h2 className="text-xl font-bold tracking-tight text-slate-950 dark:text-white sm:text-2xl">
+            {title}
+          </h2>
+
+          <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-400">
+            {description}
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-6">{children}</div>
+    </section>
+  );
+}
+
+function InfoGrid({ items }: { items: [string, string][] }) {
+  return (
+    <dl className="divide-y divide-slate-200 rounded-xl border border-slate-200 bg-slate-50 px-4 dark:divide-slate-800 dark:border-slate-800 dark:bg-slate-950/50">
+      {items.map(([label, value]) => (
+        <div
+          key={label}
+          className="grid gap-1 py-3.5 text-sm sm:grid-cols-[180px_1fr] sm:gap-4"
+        >
+          <dt className="font-semibold text-slate-900 dark:text-white">
+            {label}
+          </dt>
+
+          <dd className="leading-6 text-slate-600 dark:text-slate-300">
+            {value}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+function Bullet({ children }: { children: React.ReactNode }) {
+  return (
+    <li className="flex items-start gap-3">
+      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600 dark:bg-blue-400" />
+      <span>{children}</span>
+    </li>
   );
 }

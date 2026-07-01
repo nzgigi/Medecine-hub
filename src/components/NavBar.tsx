@@ -1,14 +1,16 @@
 "use client";
-import { useState } from "react";
+
+import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  BookOpen,
   Heart,
+  Home,
   Mail,
   Menu,
-  Sparkles,
   Scale,
+  X,
 } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
@@ -17,116 +19,142 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const navigation = [
-    { name: "Accueil", href: "/", icon: BookOpen },
+    { name: "Accueil", href: "/", icon: Home },
     { name: "Mentions légales", href: "/mentions-legales", icon: Scale },
     { name: "Contact", href: "/contact", icon: Mail },
-    { name: "Soutenir", href: "/soutenir", icon: Heart },
   ];
+
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [pathname]);
 
   const isActive = (href: string) => pathname === href;
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800 shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur opacity-75 group-hover:opacity-100 transition-opacity"></div>
-              <div className="relative w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform">
-                <BookOpen className="w-6 h-6 text-white" />
-              </div>
-            </div>
-            <div className="hidden sm:block">
-              <span className="text-xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Medecine Hub
-              </span>
-              <div className="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400">
-                <Sparkles className="w-3 h-3" />
-                <span>DFASM1/DFASM2</span>
-              </div>
-            </div>
-          </Link>
+    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/95">
+      <nav
+        className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
+        aria-label="Navigation principale"
+      >
+        {/* Logo */}
+        <Link
+          href="/"
+          className="group flex items-center gap-3"
+          aria-label="Medecine Hub - Accueil"
+        >
+          <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-xl border border-slate-200 bg-white transition-colors duration-200 group-hover:border-blue-300 dark:border-slate-700 dark:group-hover:border-blue-700">
+            <Image
+              src="/brand/pfp.png"
+              alt="Logo Medecine Hub"
+              fill
+              priority
+              sizes="44px"
+              className="object-cover"
+            />
+          </div>
 
-          {/* Desktop Navigation + Theme toggle */}
-          <div className="hidden md:flex items-center space-x-2">
-            {navigation.map((item) => {
-              const Icon = item.icon;
-              const active = isActive(item.href);
+          <div className="flex flex-col">
+            <span className="text-[17px] font-bold tracking-tight text-slate-900 dark:text-white">
+              Medecine Hub
+            </span>
 
-              return (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={`
-                    relative flex items-center gap-2 px-4 py-2 rounded-xl font-semibold transition-all
-                    ${
-                      active
-                        ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
-                        : "text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
-                    }
-                  `}
-                >
-                  <Icon className="w-4 h-4" />
-                  <span>{item.name}</span>
-                  {active && (
-                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-white rounded-full"></div>
-                  )}
-                </Link>
-              );
-            })}
+            <span className="text-[11px] font-medium tracking-wide text-slate-500 dark:text-slate-400">
+              Annales de médecine
+            </span>
+          </div>
+        </Link>
 
+        {/* Navigation desktop */}
+        <div className="hidden items-center gap-1 md:flex">
+          {navigation.map((item) => {
+            const active = isActive(item.href);
+
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`rounded-lg px-3.5 py-2 text-sm font-medium transition-colors duration-200 ${
+                  active
+                    ? "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300"
+                    : "text-slate-600 hover:bg-slate-100 hover:text-slate-950 dark:text-slate-300 dark:hover:bg-slate-900 dark:hover:text-white"
+                }`}
+              >
+                {item.name}
+              </Link>
+            );
+          })}
+
+          <div className="ml-2 border-l border-slate-200 pl-3 dark:border-slate-800">
             <ThemeToggle variant="desktop" />
           </div>
 
-          {/* Mobile menu button + theme toggle (icon only) */}
-          <div className="flex items-center gap-2 md:hidden">
-            <ThemeToggle variant="icon" />
-
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-            >
-              {mobileMenuOpen ? (
-                <Menu className="w-6 h-6 rotate-90 transition-transform" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
-            </button>
-          </div>
+          <Link
+            href="/soutenir"
+            className="ml-3 flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700"
+          >
+            <Heart className="h-4 w-4" strokeWidth={2.2} />
+            Soutenir
+          </Link>
         </div>
-      </div>
 
-      {/* Mobile menu */}
+        {/* Actions mobiles */}
+        <div className="flex items-center gap-1 md:hidden">
+          <ThemeToggle variant="icon" />
+
+          <button
+            type="button"
+            onClick={() => setMobileMenuOpen((open) => !open)}
+            className="flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 transition-colors hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-900"
+            aria-label={
+              mobileMenuOpen
+                ? "Fermer le menu de navigation"
+                : "Ouvrir le menu de navigation"
+            }
+            aria-expanded={mobileMenuOpen}
+          >
+            {mobileMenuOpen ? (
+              <X className="h-5 w-5" />
+            ) : (
+              <Menu className="h-5 w-5" />
+            )}
+          </button>
+        </div>
+      </nav>
+
+      {/* Navigation mobile */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
-          <div className="px-4 pt-2 pb-4 space-y-2">
+        <div className="border-t border-slate-200 bg-white px-4 pb-4 pt-3 dark:border-slate-800 dark:bg-slate-950 md:hidden">
+          <div className="mx-auto flex max-w-7xl flex-col gap-1">
             {navigation.map((item) => {
               const Icon = item.icon;
               const active = isActive(item.href);
 
               return (
                 <Link
-                  key={item.name}
+                  key={item.href}
                   href={item.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className={`
-                    flex items-center gap-3 px-4 py-3 rounded-xl font-semibold transition-all
-                    ${
-                      active
-                        ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
-                        : "text-gray-700 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800"
-                    }
-                  `}
+                  className={`flex items-center gap-3 rounded-lg px-3 py-3 text-sm font-medium transition-colors duration-200 ${
+                    active
+                      ? "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300"
+                      : "text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-900"
+                  }`}
                 >
-                  <Icon className="w-5 h-5" />
-                  <span>{item.name}</span>
+                  <Icon className="h-4 w-4" />
+                  {item.name}
                 </Link>
               );
             })}
+
+            <Link
+              href="/soutenir"
+              className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700"
+            >
+              <Heart className="h-4 w-4" strokeWidth={2.2} />
+              Soutenir le projet
+            </Link>
           </div>
         </div>
       )}
-    </nav>
+    </header>
   );
 }
