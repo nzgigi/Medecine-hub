@@ -10,7 +10,13 @@ export async function POST(req: NextRequest) {
     const unauthorized = requireAdminRequest(req);
     if (unauthorized) return unauthorized;
 
-    const { imagePath } = (await req.json()) as { imagePath?: string };
+    const { imagePath: rawImagePath } = (await req.json()) as {
+      imagePath?: string;
+    };
+
+    // Le chemin peut porter un paramètre de cache-busting (?v=...) ajouté à
+    // l'upload : on le retire avant de résoudre le chemin disque.
+    const imagePath = rawImagePath?.split("?")[0];
 
     if (!imagePath || !imagePath.startsWith("/images/qcm/")) {
       return NextResponse.json(

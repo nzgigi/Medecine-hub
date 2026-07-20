@@ -7,15 +7,22 @@ import {
   AlertCircle,
   ArrowDown,
   ArrowUp,
+  BarChart3,
   BookOpen,
+  ClipboardCheck,
   DatabaseZap,
   Edit,
+  FileText,
+  Layers,
   LogOut,
   Plus,
   RefreshCw,
   Save,
+  Search,
   ShieldCheck,
+  SlidersHorizontal,
   Trash2,
+  Users,
   Wand2,
   X,
 } from "lucide-react";
@@ -52,6 +59,13 @@ interface ValidationIssue {
   file: string;
   level: "error" | "warning";
   message: string;
+}
+
+interface AnalyticsData {
+  totalViews: number;
+  trackedPaths: number;
+  topPages: { path: string; total: number }[];
+  dailySeries: { day: string; total: number }[];
 }
 
 function normalizeIndex(entries: MatiereIndex[]): MatiereIndex[] {
@@ -192,6 +206,72 @@ function getAdminHeaders(extraHeaders: HeadersInit = {}) {
   };
 }
 
+function slugify(value: string) {
+  return value
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+function StatCard({
+  icon: Icon,
+  label,
+  value,
+  detail,
+}: {
+  icon: typeof BookOpen;
+  label: string;
+  value: string | number;
+  detail: string;
+}) {
+  return (
+    <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+      <div className="mb-4 flex items-center justify-between gap-3">
+        <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+          <Icon className="h-5 w-5" />
+        </div>
+        <span className="text-xs font-bold uppercase tracking-wide text-stone-400 dark:text-gray-500">
+          {label}
+        </span>
+      </div>
+      <div className="text-3xl font-black text-stone-950 dark:text-white">
+        {value}
+      </div>
+      <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">{detail}</p>
+    </div>
+  );
+}
+
+function AdminAction({
+  icon: Icon,
+  label,
+  loadingLabel,
+  loading,
+  onClick,
+}: {
+  icon: typeof BookOpen;
+  label: string;
+  loadingLabel?: string;
+  loading?: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      disabled={loading}
+      className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-800 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
+    >
+      <Icon className={`h-4 w-4 ${loading ? "animate-pulse" : ""}`} />
+      {loading ? loadingLabel || "En cours..." : label}
+    </button>
+  );
+}
+
 export default function AdminDashboard() {
   const router = useRouter();
 
@@ -213,10 +293,33 @@ export default function AdminDashboard() {
   );
   const [validationSummary, setValidationSummary] = useState("");
 
+  const [analytics, setAnalytics] = useState<AnalyticsData | null>(null);
+  const [loadingAnalytics, setLoadingAnalytics] = useState(false);
+
+  const maxDailyViews = useMemo(() => {
+    if (!analytics || analytics.dailySeries.length === 0) return 1;
+    return Math.max(1, ...analytics.dailySeries.map((point) => point.total));
+  }, [analytics]);
+
   const [newMatiere, setNewMatiere] = useState("");
   const [newSlug, setNewSlug] = useState("");
+  const [slugManuallyEdited, setSlugManuallyEdited] = useState(false);
   const [newAnnee, setNewAnnee] = useState("");
   const [creating, setCreating] = useState(false);
+
+  const slugIsValid = newSlug === "" || SLUG_PATTERN.test(newSlug);
+
+  const handleMatiereChange = (value: string) => {
+    setNewMatiere(value);
+    if (!slugManuallyEdited) {
+      setNewSlug(slugify(value));
+    }
+  };
+
+  const handleSlugChange = (value: string) => {
+    setSlugManuallyEdited(value.trim().length > 0);
+    setNewSlug(slugify(value));
+  };
 
   const [search, setSearch] = useState("");
 
@@ -229,7 +332,35 @@ export default function AdminDashboard() {
     }
 
     loadIndex();
+    loadAnalytics();
   }, [router]);
+
+  const loadAnalytics = async () => {
+    setLoadingAnalytics(true);
+
+    try {
+      const response = await fetch("/api/admin/analytics", {
+        headers: getAdminHeaders(),
+      });
+
+      const result = (await response.json()) as
+        | (AnalyticsData & { success: true })
+        | { success: false };
+
+      if (result.success) {
+        setAnalytics({
+          totalViews: result.totalViews,
+          trackedPaths: result.trackedPaths,
+          topPages: result.topPages,
+          dailySeries: result.dailySeries,
+        });
+      }
+    } catch (error) {
+      console.error("Erreur chargement analytics:", error);
+    } finally {
+      setLoadingAnalytics(false);
+    }
+  };
 
   const loadIndex = async () => {
     try {
@@ -276,15 +407,15 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
       setEntries(result.entries || normalizedEntries);
-      showStatus("Index sauvegardé");
+      showStatus("Index sauvegarde");
     } catch (error) {
       console.error("Erreur sauvegarde index:", error);
-      alert("❌ Erreur lors de la sauvegarde de l'index");
+      alert("Erreur lors de la sauvegarde de l'index");
     } finally {
       setSavingIndex(false);
     }
@@ -317,15 +448,15 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
       setEntries(result.entries || []);
-      showStatus(result.message || "Index normalisé");
+      showStatus(result.message || "Index normalise");
     } catch (error) {
       console.error("Erreur normalisation index:", error);
-      alert("❌ Erreur lors de la normalisation de l'index");
+      alert("Erreur lors de la normalisation de l'index");
     } finally {
       setNormalizingIndex(false);
     }
@@ -334,7 +465,7 @@ export default function AdminDashboard() {
   const migrateQcmFolders = async () => {
     if (
       !confirm(
-        "Migrer les anciens QCM vers le format dossiers ?\n\nLes anciens fichiers questions[] seront convertis vers folders[]. Les fichiers déjà migrés seront ignorés."
+        "Migrer les anciens QCM vers le format dossiers ?\n\nLes anciens fichiers questions[] seront convertis vers folders[]. Les fichiers deja migres seront ignores."
       )
     ) {
       return;
@@ -354,15 +485,15 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
-      showStatus(result.message || "Migration terminée");
+      showStatus(result.message || "Migration terminee");
       await loadIndex();
     } catch (error) {
       console.error("Erreur migration QCM:", error);
-      alert("❌ Erreur lors de la migration des QCM");
+      alert("Erreur lors de la migration des QCM");
     } finally {
       setMigratingQcm(false);
     }
@@ -388,19 +519,19 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
       setValidationIssues(result.issues || []);
-      setValidationSummary(result.message || "Vérification terminée");
+      setValidationSummary(result.message || "Verification terminee");
 
       if (!result.issues || result.issues.length === 0) {
         showStatus(result.message || "Tous les QCM sont valides");
       }
     } catch (error) {
       console.error("Erreur validation QCM:", error);
-      alert("❌ Erreur lors de la vérification des QCM");
+      alert("Erreur lors de la verification des QCM");
     } finally {
       setValidatingQcm(false);
     }
@@ -414,7 +545,7 @@ export default function AdminDashboard() {
   const handleBackup = async () => {
     if (
       !confirm(
-        "Créer un backup manuel sur GitHub ?\n\nCela va sauvegarder les fichiers QCM actuels."
+        "Creer un backup manuel sur GitHub ?\n\nCela va sauvegarder les fichiers QCM actuels."
       )
     ) {
       return;
@@ -434,13 +565,13 @@ export default function AdminDashboard() {
       };
 
       if (result.success) {
-        showStatus(result.message || "Backup effectué");
+        showStatus(result.message || "Backup effectue");
       } else {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
       }
     } catch (error) {
       console.error("Erreur backup:", error);
-      alert("❌ Erreur lors du backup");
+      alert("Erreur lors du backup");
     } finally {
       setBacking(false);
     }
@@ -469,14 +600,14 @@ export default function AdminDashboard() {
       };
 
       if (result.success) {
-        showStatus(result.message || "Synchronisation effectuée");
+        showStatus(result.message || "Synchronisation effectuee");
         await loadIndex();
       } else {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
       }
     } catch (error) {
       console.error("Erreur sync:", error);
-      alert("❌ Erreur lors de la synchronisation");
+      alert("Erreur lors de la synchronisation");
     } finally {
       setSyncing(false);
     }
@@ -488,7 +619,14 @@ export default function AdminDashboard() {
     const anneeNum = Number(newAnnee);
 
     if (!matiere || !slug || !anneeNum || Number.isNaN(anneeNum)) {
-      alert("Matière, slug et année valides sont requis");
+      alert("Matiere, slug et annee valides sont requis");
+      return;
+    }
+
+    if (!SLUG_PATTERN.test(slug)) {
+      alert(
+        "Slug invalide : uniquement des lettres minuscules, chiffres et tirets (ex: cardiologie)."
+      );
       return;
     }
 
@@ -508,7 +646,7 @@ export default function AdminDashboard() {
 
       if (!result.success) {
         alert(
-          "❌ Erreur création QCM : " + (result.message || "Erreur inconnue")
+          "Erreur creation QCM : " + (result.message || "Erreur inconnue")
         );
         return;
       }
@@ -517,18 +655,19 @@ export default function AdminDashboard() {
 
       setNewMatiere("");
       setNewSlug("");
+      setSlugManuallyEdited(false);
       setNewAnnee("");
 
       if (
         confirm(
-          "QCM créé / mis à jour pour cette matière et cette année.\n\nVoulez-vous l'éditer maintenant ?"
+          "QCM cree / mis a jour pour cette matiere et cette annee.\n\nVoulez-vous l'editer maintenant ?"
         )
       ) {
         router.push(`/admin/edit/${slug}/${anneeNum}`);
       }
     } catch (error) {
       console.error(error);
-      alert("❌ Erreur lors de la création du QCM");
+      alert("Erreur lors de la creation du QCM");
     } finally {
       setCreating(false);
     }
@@ -589,12 +728,12 @@ export default function AdminDashboard() {
 
   const addSemester = () => {
     const semesters = groupSemesters(groupSubjects(normalizeIndex(entries)));
-    const name = prompt("Nom du nouveau menu déroulant :", "Semestre 8")?.trim();
+    const name = prompt("Nom du nouveau menu deroulant :", "Semestre 8")?.trim();
 
     if (!name) return;
 
     if (semesters.some((semester) => semester.name === name)) {
-      alert("Ce semestre existe déjà.");
+      alert("Ce semestre existe deja.");
       return;
     }
 
@@ -602,7 +741,7 @@ export default function AdminDashboard() {
       ...current,
       { name, order: semesters.length + current.length + 1, subjects: [] },
     ]);
-    showStatus(`Menu "${name}" créé.`);
+    showStatus(`Menu "${name}" cree.`);
   };
 
   const renameSemester = (oldName: string, newName: string) => {
@@ -721,12 +860,12 @@ export default function AdminDashboard() {
     const expectedText = getDeleteExamConfirmationText(slug, annee);
 
     const confirmed = confirmDangerousAction(
-      `⚠️ Tu es sur le point de supprimer définitivement l'épreuve ${slug} ${annee}.\n\nLe fichier JSON de cette épreuve sera supprimé.`,
+      `Tu es sur le point de supprimer definitivement l'epreuve ${slug} ${annee}.\n\nLe fichier JSON de cette epreuve sera supprime.`,
       expectedText
     );
 
     if (!confirmed) {
-      alert("Suppression annulée.");
+      alert("Suppression annulee.");
       return;
     }
 
@@ -743,15 +882,15 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
       await loadIndex();
-      showStatus("Épreuve supprimée");
+      showStatus("Epreuve supprimee");
     } catch (error) {
-      console.error("Erreur suppression épreuve:", error);
-      alert("❌ Erreur lors de la suppression");
+      console.error("Erreur suppression epreuve:", error);
+      alert("Erreur lors de la suppression");
     }
   };
 
@@ -759,12 +898,12 @@ export default function AdminDashboard() {
     const expectedText = `SUPPRIMER ${slug}`;
 
     const confirmed = confirmDangerousAction(
-      `⚠️ Tu es sur le point de supprimer définitivement la matière "${matiere}".\n\nToutes les épreuves JSON de cette matière seront supprimées.`,
+      `Tu es sur le point de supprimer definitivement la matiere "${matiere}".\n\nToutes les epreuves JSON de cette matiere seront supprimees.`,
       expectedText
     );
 
     if (!confirmed) {
-      alert("Suppression annulée.");
+      alert("Suppression annulee.");
       return;
     }
 
@@ -781,15 +920,15 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        alert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
       await loadIndex();
-      showStatus("Matière supprimée");
+      showStatus("Matiere supprimee");
     } catch (error) {
-      console.error("Erreur suppression matière:", error);
-      alert("❌ Erreur lors de la suppression");
+      console.error("Erreur suppression matiere:", error);
+      alert("Erreur lors de la suppression");
     }
   };
 
@@ -845,12 +984,18 @@ export default function AdminDashboard() {
     (issue) => issue.level === "warning"
   ).length;
 
+  const totalMenus = semesters.length;
+  const averageQuestions =
+    entries.length > 0 ? Math.round(totalQuestions / entries.length) : 0;
+  const latestYear =
+    entries.length > 0 ? Math.max(...entries.map((entry) => entry.annee)) : "-";
+
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950">
+      <div className="min-h-screen flex items-center justify-center bg-stone-50 dark:bg-gray-950">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4" />
-          <div className="text-xl text-gray-600 dark:text-gray-300">
+          <div className="animate-spin rounded-full h-14 w-14 border-b-2 border-emerald-600 mx-auto mb-4" />
+          <div className="text-lg font-semibold text-stone-600 dark:text-gray-300">
             Chargement...
           </div>
         </div>
@@ -859,512 +1004,418 @@ export default function AdminDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-950 dark:to-gray-900 py-8">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-6 mb-8 border border-gray-100 dark:border-gray-800">
-          <div className="flex items-center justify-between flex-wrap gap-4">
+    <div className="min-h-screen bg-stone-50 text-stone-950 dark:bg-gray-950 dark:text-gray-100">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <header className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex items-center gap-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-                <BookOpen className="w-8 h-8 text-white" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-600 text-white">
+                <BookOpen className="h-6 w-6" />
               </div>
-
               <div>
-                <h1 className="text-3xl font-extrabold text-gray-900 dark:text-gray-100">
-                  Admin Dashboard
-                </h1>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Gestion des matières, épreuves et QCM
+                <p className="text-sm font-bold uppercase tracking-wide text-emerald-700 dark:text-emerald-300">
+                  Administration
+                </p>
+                <h1 className="text-3xl font-black">Dashboard QCM</h1>
+                <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">
+                  Vue d&apos;ensemble, creation et maintenance des epreuves.
                 </p>
               </div>
             </div>
 
-            <div className="flex items-center gap-3 flex-wrap justify-end">
+            <div className="flex flex-wrap items-center gap-2">
               {statusMessage && (
-                <div className="bg-green-100 dark:bg-green-900/20 text-green-700 dark:text-green-200 px-4 py-2 rounded-lg text-sm font-semibold">
-                  ✅ {statusMessage}
+                <div className="rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-bold text-emerald-800 dark:border-emerald-900/60 dark:bg-emerald-950/30 dark:text-emerald-200">
+                  {statusMessage}
                 </div>
               )}
-
               <button
                 onClick={() => saveIndex(entries)}
                 disabled={savingIndex}
-                className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+                className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-emerald-700 disabled:cursor-not-allowed disabled:opacity-60"
               >
-                <Save className="w-4 h-4" />
-                {savingIndex ? "Sauvegarde..." : "Sauvegarder l'ordre"}
+                <Save className="h-4 w-4" />
+                {savingIndex ? "Sauvegarde..." : "Sauvegarder"}
               </button>
-
-              <button
-                onClick={normalizeIndexOnServer}
-                disabled={normalizingIndex}
-                className="flex items-center gap-2 bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <Wand2
-                  className={`w-4 h-4 ${
-                    normalizingIndex ? "animate-pulse" : ""
-                  }`}
-                />
-                {normalizingIndex ? "Normalisation..." : "Normaliser l’index"}
-              </button>
-
-              <button
-                onClick={migrateQcmFolders}
-                disabled={migratingQcm}
-                className="flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <DatabaseZap
-                  className={`w-4 h-4 ${migratingQcm ? "animate-pulse" : ""}`}
-                />
-                {migratingQcm ? "Migration..." : "Migrer les QCM"}
-              </button>
-
-              <button
-                onClick={validateQcmFiles}
-                disabled={validatingQcm}
-                className="flex items-center gap-2 bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <ShieldCheck
-                  className={`w-4 h-4 ${
-                    validatingQcm ? "animate-pulse" : ""
-                  }`}
-                />
-                {validatingQcm ? "Vérification..." : "Vérifier les QCM"}
-              </button>
-
-              <button
-                onClick={handleBackup}
-                disabled={backing}
-                className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <Save className={`w-4 h-4 ${backing ? "animate-pulse" : ""}`} />
-                {backing ? "Backup..." : "Backup GitHub"}
-              </button>
-
-              <button
-                onClick={handleSyncIndex}
-                disabled={syncing}
-                className="flex items-center gap-2 bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <RefreshCw
-                  className={`w-4 h-4 ${syncing ? "animate-spin" : ""}`}
-                />
-                {syncing ? "Synchronisation..." : "Synchroniser"}
-              </button>
-
               <button
                 onClick={handleLogout}
-                className="flex items-center gap-2 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors font-semibold"
+                className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
               >
-                <LogOut className="w-4 h-4" />
-                Déconnexion
+                <LogOut className="h-4 w-4" />
+                Deconnexion
               </button>
             </div>
           </div>
-        </div>
+        </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6 border-l-4 border-blue-500 border border-gray-100 dark:border-gray-800">
-            <div className="text-3xl font-bold text-blue-600 mb-1">
-              {totalQuestions}
-            </div>
-            <div className="text-gray-600 dark:text-gray-300 font-medium">
-              Questions totales
-            </div>
-          </div>
+        <section className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-5">
+          <StatCard
+            icon={BarChart3}
+            label="Questions"
+            value={totalQuestions}
+            detail={`${averageQuestions} questions par epreuve`}
+          />
+          <StatCard
+            icon={FileText}
+            label="Epreuves"
+            value={entries.length}
+            detail={`Derniere annee: ${latestYear}`}
+          />
+          <StatCard
+            icon={BookOpen}
+            label="Matieres"
+            value={totalSubjects}
+            detail={`${totalMenus} menu(s) d'accueil`}
+          />
+          <StatCard
+            icon={ClipboardCheck}
+            label="Validation"
+            value={
+              validationSummary
+                ? `${validationErrorCount}/${validationWarningCount}`
+                : "A lancer"
+            }
+            detail="Erreurs / warnings detectes"
+          />
+          <StatCard
+            icon={Users}
+            label="Utilisateurs"
+            value="Local"
+            detail="Pas encore de base utilisateurs centrale"
+          />
+        </section>
 
-          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6 border-l-4 border-purple-500 border border-gray-100 dark:border-gray-800">
-            <div className="text-3xl font-bold text-purple-600 mb-1">
-              {entries.length}
-            </div>
-            <div className="text-gray-600 dark:text-gray-300 font-medium">
-              Épreuves
-            </div>
-          </div>
-
-          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6 border-l-4 border-green-500 border border-gray-100 dark:border-gray-800">
-            <div className="text-3xl font-bold text-green-600 mb-1">
-              {totalSubjects}
-            </div>
-            <div className="text-gray-600 dark:text-gray-300 font-medium">
-              Matières
-            </div>
-          </div>
-        </div>
-
-        {validationSummary && (
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-6 border border-gray-100 dark:border-gray-800 mb-8">
-            <div className="flex items-start justify-between gap-4 flex-wrap mb-4">
+        <section className="mb-6 grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+            <div className="mb-4 flex items-center gap-3">
+              <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+                <Plus className="h-5 w-5" />
+              </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-                  Rapport de vérification des QCM
-                </h2>
-
-                <p className="text-gray-600 dark:text-gray-300 mt-1">
-                  {validationSummary}
+                <h2 className="text-xl font-black">Creer un QCM</h2>
+                <p className="text-sm text-stone-500 dark:text-gray-400">
+                  Ajoutez une epreuve, puis ouvrez l&apos;editeur pour saisir les questions.
                 </p>
+              </div>
+            </div>
 
-                {validationIssues.length > 0 && (
-                  <div className="flex gap-3 mt-3 flex-wrap">
-                    <span className="bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-200 px-3 py-1 rounded-full text-sm font-semibold">
-                      ❌ {validationErrorCount} erreur(s)
-                    </span>
-                    <span className="bg-yellow-100 dark:bg-yellow-900/20 text-yellow-700 dark:text-yellow-200 px-3 py-1 rounded-full text-sm font-semibold">
-                      ⚠️ {validationWarningCount} warning(s)
-                    </span>
+            <div className="grid gap-3 md:grid-cols-[1fr_0.85fr_120px_auto] md:items-start">
+              <input
+                type="text"
+                placeholder="Matiere (ex: Cardiologie)"
+                value={newMatiere}
+                onChange={(event) => handleMatiereChange(event.target.value)}
+                className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+              />
+              <div>
+                <input
+                  type="text"
+                  placeholder="Slug (ex: cardiologie)"
+                  value={newSlug}
+                  onChange={(event) => handleSlugChange(event.target.value)}
+                  className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                />
+                {!slugIsValid && (
+                  <p className="mt-1 text-xs font-semibold text-red-600 dark:text-red-400">
+                    Slug invalide : minuscules, chiffres et tirets uniquement.
+                  </p>
+                )}
+              </div>
+              <input
+                type="number"
+                placeholder="Annee"
+                value={newAnnee}
+                onChange={(event) => setNewAnnee(event.target.value)}
+                className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+              />
+              <button
+                onClick={handleCreateQCM}
+                disabled={creating || !slugIsValid}
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-stone-950 px-4 py-2 text-sm font-bold text-white transition hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-emerald-600 dark:hover:bg-emerald-700"
+              >
+                <Plus className="h-4 w-4" />
+                {creating ? "Creation..." : "Creer"}
+              </button>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+            <div className="mb-4 flex items-center gap-3">
+              <div className="rounded-lg bg-stone-100 p-2 text-stone-700 dark:bg-gray-800 dark:text-gray-200">
+                <SlidersHorizontal className="h-5 w-5" />
+              </div>
+              <div>
+                <h2 className="text-xl font-black">Maintenance</h2>
+                <p className="text-sm text-stone-500 dark:text-gray-400">
+                  Actions techniques a utiliser quand le contenu change.
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+              <AdminAction icon={ShieldCheck} label="Verifier" loadingLabel="Verification..." loading={validatingQcm} onClick={validateQcmFiles} />
+              <AdminAction icon={RefreshCw} label="Synchroniser" loadingLabel="Synchronisation..." loading={syncing} onClick={handleSyncIndex} />
+              <AdminAction icon={Wand2} label="Normaliser" loadingLabel="Normalisation..." loading={normalizingIndex} onClick={normalizeIndexOnServer} />
+              <AdminAction icon={DatabaseZap} label="Migrer" loadingLabel="Migration..." loading={migratingQcm} onClick={migrateQcmFolders} />
+              <AdminAction icon={Save} label="Backup GitHub" loadingLabel="Backup..." loading={backing} onClick={handleBackup} />
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-3">
+              <div className="rounded-lg bg-sky-50 p-2 text-sky-700 dark:bg-sky-950/40 dark:text-sky-300">
+                <BarChart3 className="h-5 w-5" />
+              </div>
+              <div>
+                <h2 className="text-xl font-black">Statistiques</h2>
+                <p className="text-sm text-stone-500 dark:text-gray-400">
+                  Vues du site (compteur simple, pas de suivi individuel).
+                </p>
+              </div>
+            </div>
+
+            <button
+              onClick={loadAnalytics}
+              disabled={loadingAnalytics}
+              className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-gray-800 dark:text-gray-200 dark:hover:bg-gray-800"
+            >
+              <RefreshCw
+                className={`h-4 w-4 ${loadingAnalytics ? "animate-spin" : ""}`}
+              />
+              Actualiser
+            </button>
+          </div>
+
+          {!analytics ? (
+            <p className="text-sm text-stone-500 dark:text-gray-400">
+              {loadingAnalytics ? "Chargement..." : "Aucune donnee pour le moment."}
+            </p>
+          ) : (
+            <>
+              <div className="mb-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="rounded-lg border border-stone-200 p-4 dark:border-gray-800">
+                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-gray-400">
+                    Vues totales
+                  </div>
+                  <div className="text-3xl font-black">
+                    {analytics.totalViews}
+                  </div>
+                </div>
+                <div className="rounded-lg border border-stone-200 p-4 dark:border-gray-800">
+                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-gray-400">
+                    Pages suivies
+                  </div>
+                  <div className="text-3xl font-black">
+                    {analytics.trackedPaths}
+                  </div>
+                </div>
+              </div>
+
+              <div className="mb-5">
+                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-gray-200">
+                  14 derniers jours
+                </div>
+
+                {analytics.dailySeries.length === 0 ? (
+                  <p className="text-sm text-stone-500 dark:text-gray-400">
+                    Pas encore de donnees quotidiennes.
+                  </p>
+                ) : (
+                  <div className="flex h-28 items-end gap-1">
+                    {analytics.dailySeries.map((point) => {
+                      const heightPercent = Math.round(
+                        (point.total / maxDailyViews) * 100
+                      );
+
+                      return (
+                        <div
+                          key={point.day}
+                          className="flex flex-1 flex-col items-center gap-1"
+                          title={`${point.day} : ${point.total} vue(s)`}
+                        >
+                          <div
+                            className="min-h-[2px] w-full rounded-t bg-emerald-500 dark:bg-emerald-600"
+                            style={{
+                              height: `${Math.max(heightPercent, 2)}%`,
+                            }}
+                          />
+                          <div className="text-[9px] text-stone-400 dark:text-gray-500">
+                            {point.day.slice(5)}
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 )}
               </div>
 
-              <button
-                onClick={closeValidationReport}
-                className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700"
-              >
-                <X className="w-4 h-4" />
+              <div>
+                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-gray-200">
+                  Pages les plus vues
+                </div>
+
+                {analytics.topPages.length === 0 ? (
+                  <p className="text-sm text-stone-500 dark:text-gray-400">
+                    Aucune vue enregistree pour le moment.
+                  </p>
+                ) : (
+                  <div className="divide-y divide-stone-100 dark:divide-gray-800">
+                    {analytics.topPages.map((page) => (
+                      <div
+                        key={page.path}
+                        className="flex items-center justify-between gap-3 py-2 text-sm"
+                      >
+                        <span className="truncate text-stone-700 dark:text-gray-200">
+                          {page.path}
+                        </span>
+                        <span className="font-bold text-stone-950 dark:text-gray-100">
+                          {page.total}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </>
+          )}
+        </section>
+
+        {validationSummary && (
+          <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+            <div className="mb-4 flex flex-wrap items-start justify-between gap-4">
+              <div>
+                <h2 className="text-xl font-black">Rapport de verification</h2>
+                <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">{validationSummary}</p>
+              </div>
+              <button onClick={closeValidationReport} className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-gray-800 dark:text-gray-200 dark:hover:bg-gray-800">
+                <X className="h-4 w-4" />
                 Fermer
               </button>
             </div>
 
             {validationIssues.length === 0 ? (
-              <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 text-green-800 dark:text-green-200 rounded-xl p-4 font-semibold">
-                ✅ Aucun problème détecté. Les QCM sont propres.
+              <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm font-bold text-emerald-800 dark:border-emerald-900/60 dark:bg-emerald-950/30 dark:text-emerald-200">
+                Aucun probleme detecte. Les QCM sont propres.
               </div>
             ) : (
-              <div className="space-y-3 max-h-[420px] overflow-y-auto pr-2">
+              <div className="max-h-[360px] space-y-2 overflow-y-auto pr-2">
                 {validationIssues.map((issue, index) => (
-                  <div
-                    key={`${issue.file}-${index}`}
-                    className={`rounded-xl border p-4 ${
-                      issue.level === "error"
-                        ? "bg-red-50 dark:bg-red-900/20 border-red-300 dark:border-red-700"
-                        : "bg-yellow-50 dark:bg-yellow-900/20 border-yellow-300 dark:border-yellow-700"
-                    }`}
-                  >
-                    <div className="flex items-start gap-3">
-                      <div className="text-xl">
-                        {issue.level === "error" ? "❌" : "⚠️"}
-                      </div>
+                  <div key={`${issue.file}-${index}`} className={`rounded-lg border p-3 ${issue.level === "error" ? "border-red-200 bg-red-50 text-red-800 dark:border-red-900/60 dark:bg-red-950/30 dark:text-red-200" : "border-amber-200 bg-amber-50 text-amber-800 dark:border-amber-900/60 dark:bg-amber-950/30 dark:text-amber-200"}`}>
+                    <div className="font-bold">{issue.file}</div>
+                    <div className="mt-1 text-sm">{issue.message}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </section>
+        )}
 
-                      <div>
-                        <div
-                          className={`font-bold ${
-                            issue.level === "error"
-                              ? "text-red-800 dark:text-red-200"
-                              : "text-yellow-800 dark:text-yellow-200"
-                          }`}
-                        >
-                          {issue.file}
-                        </div>
+        <section className="rounded-xl border border-stone-200 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900">
+          <div className="border-b border-stone-200 p-5 dark:border-gray-800">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+              <div>
+                <h2 className="text-2xl font-black">Gestion des QCM</h2>
+                <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">
+                  Modifiez les menus, les matieres et les epreuves depuis un seul endroit.
+                </p>
+              </div>
+              <div className="flex flex-wrap items-center gap-2">
+                <button onClick={addSemester} className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800">
+                  <Plus className="h-4 w-4" />
+                  Menu
+                </button>
+                <div className="relative">
+                  <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400" />
+                  <input type="text" placeholder="Rechercher une matiere ou une annee" value={search} onChange={(event) => setSearch(event.target.value)} className="w-full min-w-[260px] rounded-lg border border-stone-300 bg-white py-2 pl-9 pr-3 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100" />
+                </div>
+              </div>
+            </div>
+          </div>
 
-                        <div
-                          className={`text-sm mt-1 ${
-                            issue.level === "error"
-                              ? "text-red-700 dark:text-red-200"
-                              : "text-yellow-700 dark:text-yellow-200"
-                          }`}
-                        >
-                          {issue.message}
-                        </div>
+          <div className="grid gap-0 lg:grid-cols-[320px_1fr]">
+            <aside className="border-b border-stone-200 p-5 dark:border-gray-800 lg:border-b-0 lg:border-r">
+              <div className="mb-3 flex items-center gap-2 font-black">
+                <Layers className="h-5 w-5 text-emerald-700 dark:text-emerald-300" />
+                Menus d&apos;accueil
+              </div>
+              <div className="space-y-2">
+                {semesters.map((semester, index) => (
+                  <div key={semester.name} className="rounded-lg border border-stone-200 p-3 dark:border-gray-800">
+                    <input value={semester.name} onChange={(event) => renameSemester(semester.name, event.target.value)} className="w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100" />
+                    <div className="mt-2 flex items-center justify-between gap-2">
+                      <span className="text-xs font-semibold text-stone-500 dark:text-gray-400">
+                        {semester.subjects.length} matiere{semester.subjects.length > 1 ? "s" : ""}
+                      </span>
+                      <div className="flex items-center gap-1">
+                        <button onClick={() => moveSemester(semester.name, "up")} disabled={index === 0} className="rounded-md p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Monter le menu"><ArrowUp className="h-4 w-4" /></button>
+                        <button onClick={() => moveSemester(semester.name, "down")} disabled={index === semesters.length - 1} className="rounded-md p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Descendre le menu"><ArrowDown className="h-4 w-4" /></button>
                       </div>
                     </div>
                   </div>
                 ))}
               </div>
-            )}
-          </div>
-        )}
+            </aside>
 
-        <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-6 border border-gray-100 dark:border-gray-800 mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-            Créer un nouveau QCM
-          </h2>
-
-          <div className="flex flex-wrap gap-3 items-center">
-            <input
-              type="text"
-              placeholder="Matière (ex: Cardiologie)"
-              value={newMatiere}
-              onChange={(event) => setNewMatiere(event.target.value)}
-              className="border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm min-w-[180px]"
-            />
-
-            <input
-              type="text"
-              placeholder="Slug (ex: cardiologie)"
-              value={newSlug}
-              onChange={(event) => setNewSlug(event.target.value)}
-              className="border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm min-w-[160px]"
-            />
-
-            <input
-              type="number"
-              placeholder="Année"
-              value={newAnnee}
-              onChange={(event) => setNewAnnee(event.target.value)}
-              className="border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm w-28"
-            />
-
-            <button
-              onClick={handleCreateQCM}
-              disabled={creating}
-              className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              <Plus className="w-4 h-4" />
-              {creating ? "Création..." : "Créer le QCM"}
-            </button>
-          </div>
-        </div>
-
-        <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-6 border border-gray-100 dark:border-gray-800">
-          <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-                Matières et épreuves
-              </h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                Renomme, supprime et réordonne les matières et épreuves.
-              </p>
-            </div>
-
-            <div className="flex items-center gap-2 flex-wrap">
-              <button
-                onClick={addSemester}
-                className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-semibold"
-              >
-                <Plus className="w-4 h-4" />
-                Ajouter un menu
-              </button>
-
-              <input
-                type="text"
-                placeholder="Rechercher..."
-                value={search}
-                onChange={(event) => setSearch(event.target.value)}
-                className="border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm min-w-[220px]"
-              />
-            </div>
-          </div>
-
-          <div className="mb-6 rounded-2xl border border-gray-200 dark:border-gray-800 overflow-hidden">
-            <div className="bg-gray-50 dark:bg-gray-950 px-4 py-3 font-bold">
-              Menus déroulants de l&apos;accueil
-            </div>
-
-            <div className="divide-y divide-gray-100 dark:divide-gray-800">
-              {semesters.map((semester, index) => (
-                <div
-                  key={semester.name}
-                  className="p-3 flex items-center gap-3 flex-wrap"
-                >
-                  <input
-                    value={semester.name}
-                    onChange={(event) =>
-                      renameSemester(semester.name, event.target.value)
-                    }
-                    className="flex-1 min-w-[220px] border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg font-semibold"
-                  />
-
-                  <span className="text-sm text-gray-500 dark:text-gray-400">
-                    {semester.subjects.length} matière
-                    {semester.subjects.length > 1 ? "s" : ""}
-                  </span>
-
-                  <button
-                    onClick={() => moveSemester(semester.name, "up")}
-                    disabled={index === 0}
-                    className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30"
-                    title="Monter le menu"
-                  >
-                    <ArrowUp className="w-5 h-5" />
-                  </button>
-
-                  <button
-                    onClick={() => moveSemester(semester.name, "down")}
-                    disabled={index === semesters.length - 1}
-                    className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30"
-                    title="Descendre le menu"
-                  >
-                    <ArrowDown className="w-5 h-5" />
-                  </button>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="space-y-6">
-            {subjects.map((subject, subjectIndex) => (
-              <section
-                key={subject.slug}
-                className="rounded-2xl border border-gray-200 dark:border-gray-800 overflow-hidden"
-              >
-                <div className="bg-gray-50 dark:bg-gray-950 p-5 border-b border-gray-200 dark:border-gray-800">
-                  <div className="flex items-center justify-between gap-4 flex-wrap">
-                    <div className="flex-1 min-w-[240px]">
-                      <label className="block text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1">
-                        Nom de la matière
-                      </label>
-
-                      <input
-                        value={subject.matiere}
-                        onChange={(event) =>
-                          renameSubject(subject.slug, event.target.value)
-                        }
-                        className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg font-bold"
-                      />
-
-                      <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Slug : {subject.slug} • {subject.totalQuestions}{" "}
-                        question(s)
-                      </div>
-
-                      <label className="block text-xs font-semibold text-gray-500 dark:text-gray-400 mt-3 mb-1">
-                        Menu déroulant
-                      </label>
-                      <select
-                        value={subject.semesterName}
-                        onChange={(event) =>
-                          assignSubjectToSemester(
-                            subject.slug,
-                            event.target.value
-                          )
-                        }
-                        className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg text-sm"
-                      >
-                        {semesters.map((semester) => (
-                          <option key={semester.name} value={semester.name}>
-                            {semester.name}
-                          </option>
-                        ))}
-                      </select>
-                    </div>
-
-                    <div className="flex items-center gap-2">
-                      <button
-                        onClick={() => moveSubject(subject.slug, "up")}
-                        disabled={subjectIndex === 0}
-                        className="p-2 rounded-lg hover:bg-white dark:hover:bg-gray-800 disabled:opacity-30"
-                        title="Monter la matière"
-                      >
-                        <ArrowUp className="w-5 h-5" />
-                      </button>
-
-                      <button
-                        onClick={() => moveSubject(subject.slug, "down")}
-                        disabled={subjectIndex === subjects.length - 1}
-                        className="p-2 rounded-lg hover:bg-white dark:hover:bg-gray-800 disabled:opacity-30"
-                        title="Descendre la matière"
-                      >
-                        <ArrowDown className="w-5 h-5" />
-                      </button>
-
-                      <button
-                        onClick={() =>
-                          deleteSubject(subject.slug, subject.matiere)
-                        }
-                        className="p-2 rounded-lg text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20"
-                        title="Supprimer la matière"
-                      >
-                        <Trash2 className="w-5 h-5" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="divide-y divide-gray-100 dark:divide-gray-800">
-                  {subject.exams.map((exam, examIndex) => (
-                    <div
-                      key={`${exam.slug}-${exam.annee}`}
-                      className="p-4 flex items-center justify-between gap-4 flex-wrap"
-                    >
-                      <div className="flex-1 min-w-[240px]">
-                        <label className="block text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1">
-                          Nom de l&apos;épreuve
-                        </label>
-
-                        <input
-                          value={
-                            exam.examTitle || `${exam.matiere} - ${exam.annee}`
-                          }
-                          onChange={(event) =>
-                            renameExam(
-                              exam.slug,
-                              exam.annee,
-                              event.target.value
-                            )
-                          }
-                          className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-3 py-2 rounded-lg"
-                        />
-
-                        <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                          Année : {exam.annee} • {exam.total_questions}{" "}
-                          question(s)
+            <div className="p-5">
+              <div className="space-y-4">
+                {subjects.map((subject, subjectIndex) => (
+                  <section key={subject.slug} className="overflow-hidden rounded-xl border border-stone-200 dark:border-gray-800">
+                    <div className="bg-stone-50 p-4 dark:bg-gray-950">
+                      <div className="grid gap-3 lg:grid-cols-[1fr_220px_auto] lg:items-end">
+                        <div>
+                          <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">Matiere</label>
+                          <input value={subject.matiere} onChange={(event) => renameSubject(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100" />
+                          <p className="mt-1 text-xs text-stone-500 dark:text-gray-400">{subject.slug} - {subject.totalQuestions} question(s)</p>
+                        </div>
+                        <div>
+                          <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">Menu</label>
+                          <select value={subject.semesterName} onChange={(event) => assignSubjectToSemester(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100">
+                            {semesters.map((semester) => <option key={semester.name} value={semester.name}>{semester.name}</option>)}
+                          </select>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <button onClick={() => moveSubject(subject.slug, "up")} disabled={subjectIndex === 0} className="rounded-lg p-2 hover:bg-white disabled:opacity-30 dark:hover:bg-gray-800" title="Monter la matiere"><ArrowUp className="h-5 w-5" /></button>
+                          <button onClick={() => moveSubject(subject.slug, "down")} disabled={subjectIndex === subjects.length - 1} className="rounded-lg p-2 hover:bg-white disabled:opacity-30 dark:hover:bg-gray-800" title="Descendre la matiere"><ArrowDown className="h-5 w-5" /></button>
+                          <button onClick={() => deleteSubject(subject.slug, subject.matiere)} className="rounded-lg p-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-950/30" title="Supprimer la matiere"><Trash2 className="h-5 w-5" /></button>
                         </div>
                       </div>
-
-                      <div className="flex items-center gap-2">
-                        <button
-                          onClick={() => moveExam(exam.slug, exam.annee, "up")}
-                          disabled={examIndex === 0}
-                          className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30"
-                          title="Monter l'épreuve"
-                        >
-                          <ArrowUp className="w-5 h-5" />
-                        </button>
-
-                        <button
-                          onClick={() =>
-                            moveExam(exam.slug, exam.annee, "down")
-                          }
-                          disabled={examIndex === subject.exams.length - 1}
-                          className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-30"
-                          title="Descendre l'épreuve"
-                        >
-                          <ArrowDown className="w-5 h-5" />
-                        </button>
-
-                        <Link
-                          href={`/admin/edit/${exam.slug}/${exam.annee}`}
-                          className="flex items-center gap-1 bg-blue-500 text-white px-3 py-2 rounded-lg hover:bg-blue-600 transition-colors text-sm font-semibold"
-                        >
-                          <Edit className="w-4 h-4" />
-                          Modifier
-                        </Link>
-
-                        <button
-                          onClick={() => deleteExam(exam.slug, exam.annee)}
-                          className="p-2 rounded-lg text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20"
-                          title="Supprimer l'épreuve"
-                        >
-                          <Trash2 className="w-5 h-5" />
-                        </button>
-                      </div>
                     </div>
-                  ))}
-                </div>
-              </section>
-            ))}
 
-            {subjects.length === 0 && (
-              <div className="text-center py-10 text-gray-500 dark:text-gray-400">
-                Aucun résultat.
+                    <div className="divide-y divide-stone-100 dark:divide-gray-800">
+                      {subject.exams.map((exam, examIndex) => (
+                        <div key={`${exam.slug}-${exam.annee}`} className="grid gap-3 p-4 lg:grid-cols-[96px_1fr_140px_auto] lg:items-center">
+                          <div className="text-sm font-black text-stone-500 dark:text-gray-400">{exam.annee}</div>
+                          <input value={exam.examTitle || `${exam.matiere} - ${exam.annee}`} onChange={(event) => renameExam(exam.slug, exam.annee, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100" />
+                          <div className="text-sm font-semibold text-stone-500 dark:text-gray-400">{exam.total_questions} question(s)</div>
+                          <div className="flex items-center gap-1">
+                            <button onClick={() => moveExam(exam.slug, exam.annee, "up")} disabled={examIndex === 0} className="rounded-lg p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Monter l'epreuve"><ArrowUp className="h-4 w-4" /></button>
+                            <button onClick={() => moveExam(exam.slug, exam.annee, "down")} disabled={examIndex === subject.exams.length - 1} className="rounded-lg p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Descendre l'epreuve"><ArrowDown className="h-4 w-4" /></button>
+                            <Link href={`/admin/edit/${exam.slug}/${exam.annee}`} className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-3 py-2 text-sm font-bold text-white transition hover:bg-emerald-700"><Edit className="h-4 w-4" />Modifier</Link>
+                            <button onClick={() => deleteExam(exam.slug, exam.annee)} className="rounded-lg p-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-950/30" title="Supprimer l'epreuve"><Trash2 className="h-4 w-4" /></button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </section>
+                ))}
+
+                {subjects.length === 0 && (
+                  <div className="rounded-xl border border-dashed border-stone-300 py-12 text-center text-stone-500 dark:border-gray-700 dark:text-gray-400">
+                    Aucun resultat.
+                  </div>
+                )}
               </div>
-            )}
-          </div>
-        </div>
-
-        <div className="mt-8 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6 rounded-lg border border-blue-100 dark:border-blue-700">
-          <div className="flex items-start gap-3">
-            <AlertCircle className="w-6 h-6 text-blue-600 dark:text-blue-300 flex-shrink-0 mt-0.5" />
-
-            <div>
-              <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-1">
-                Important
-              </h3>
-              <p className="text-blue-800 dark:text-blue-200 text-sm">
-                Après avoir renommé ou réordonné les matières/épreuves, cliquez
-                sur “Sauvegarder l&apos;ordre”. Les suppressions sont appliquées
-                immédiatement après confirmation.
-              </p>
             </div>
+          </div>
+        </section>
+
+        <div className="mt-6 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/30 dark:text-amber-100">
+          <div className="flex items-start gap-3">
+            <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0" />
+            <p>
+              Les renommages et les changements d&apos;ordre restent en attente jusqu&apos;au clic sur Sauvegarder. Les suppressions, elles, sont appliquees apres confirmation.
+            </p>
           </div>
         </div>
       </div>

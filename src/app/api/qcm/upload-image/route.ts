@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { mkdir, writeFile } from "fs/promises";
+import { access, chmod, constants, mkdir, writeFile } from "fs/promises";
 import {
   requireAdminRequest,
   safeJoinInside,
@@ -62,9 +62,34 @@ export async function POST(req: NextRequest) {
     const bytes = await file.arrayBuffer();
     await writeFile(filepath, Buffer.from(bytes));
 
+    // Garantit que le fichier reste lisible par le process qui sert les
+    // fichiers statiques, même s'il tourne sous un autre utilisateur que
+    // celui qui exécute Next.js (cas fréquent sur un VPS avec nginx devant).
+    try {
+      await chmod(filepath, 0o644);
+    } catch (chmodError) {
+      console.error("Erreur chmod image:", chmodError);
+    }
+
+    // Vérifie que le fichier écrit est bien lisible avant de confirmer le
+    // succès au client, pour ne pas renvoyer success:true sur une écriture
+    // silencieusement défaillante.
+    try {
+      await access(filepath, constants.R_OK);
+    } catch {
+      return NextResponse.json(
+        {
+          success: false,
+          message:
+            "L'image a été envoyée mais n'a pas pu être vérifiée sur le serveur",
+        },
+        { status: 500 }
+      );
+    }
+
     return NextResponse.json({
       success: true,
-      path: `/images/qcm/${safeSlug}/${safeYear}/${filename}`,
+      path: `/images/qcm/${safeSlug}/${safeYear}/${filename}?v=${Date.now()}`,
     });
   } catch (error) {
     console.error("Erreur upload image:", error);

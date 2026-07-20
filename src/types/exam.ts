@@ -11,6 +11,11 @@ export interface Question {
   question: string;
   choix: string[];
   reponses: string[];
+  /**
+   * Lettres de choix marquées "critique" : indispensable si la lettre est
+   * dans `reponses`, inacceptable sinon. Voir src/lib/exam/scoring.ts.
+   */
+  critiques?: string[];
   image?: string;
   maxReponses?: number;
   correctionExplanation?: string;

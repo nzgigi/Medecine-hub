@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type SyntheticEvent } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -28,7 +28,11 @@ import type {
   UserAnswers,
 } from "@/types/exam";
 import { normalizeExamData } from "@/lib/exam/normalizeExam";
-import { getExamScore, getQuestionScore } from "@/lib/exam/scoring";
+import {
+  getExamScore,
+  getQuestionScore,
+  violatesCritique,
+} from "@/lib/exam/scoring";
 import { isQrocAnswerCorrect } from "@/lib/exam/qroc";
 
 interface SavedExamAttempt {
@@ -109,6 +113,13 @@ function getChoiceLetter(choice: string) {
   return choice.charAt(0);
 }
 
+function handleQuestionImageError(event: SyntheticEvent<HTMLImageElement>) {
+  event.currentTarget.style.display = "none";
+  const placeholder =
+    event.currentTarget.nextElementSibling as HTMLElement | null;
+  if (placeholder) placeholder.style.display = "flex";
+}
+
 export default function QCMPage() {
   const params = useParams();
   const router = useRouter();
@@ -130,8 +141,8 @@ export default function QCMPage() {
 
   const [showResults, setShowResults] = useState(false);
   const [correctionFolderIndex, setCorrectionFolderIndex] = useState(0);
-  const [leftPanelOpen, setLeftPanelOpen] = useState(false);
-  const [rightPanelOpen, setRightPanelOpen] = useState(false);
+  const [questionsPanelOpen, setQuestionsPanelOpen] = useState(false);
+  const [foldersPanelOpen, setFoldersPanelOpen] = useState(false);
 
   const [attemptLoaded, setAttemptLoaded] = useState(false);
 
@@ -304,8 +315,8 @@ export default function QCMPage() {
   const handleFolderChange = (folderIndex: number) => {
     setCurrentFolderIndex(folderIndex);
     setCurrentQuestionIndex(0);
-    setLeftPanelOpen(false);
-    setRightPanelOpen(false);
+    setQuestionsPanelOpen(false);
+    setFoldersPanelOpen(false);
   };
 
   const canAccessQuestion = (folder: ExamFolder, questionIndex: number) => {
@@ -325,7 +336,7 @@ export default function QCMPage() {
     if (!canAccessQuestion(currentFolder, questionIndex)) return;
 
     setCurrentQuestionIndex(questionIndex);
-    setRightPanelOpen(false);
+    setQuestionsPanelOpen(false);
   };
 
   const handleAnswerSelect = (choiceLetter: string) => {
@@ -565,9 +576,9 @@ export default function QCMPage() {
               key={choice}
               onClick={() => handleAnswerSelect(letter)}
               disabled={isCurrentFolderSubmitted || isCurrentQuestionLocked}
-              className={`w-full text-left p-4 rounded-lg border-2 transition-all disabled:cursor-not-allowed ${
+              className={`w-full text-left p-4 rounded-lg border-2 transition-all disabled:cursor-not-allowed flex items-center justify-between gap-3 ${
                 isSelected
-                  ? "border-blue-600 bg-blue-50 dark:bg-blue-900/40 shadow-md"
+                  ? "border-blue-600 dark:border-blue-400 bg-blue-50 dark:bg-blue-900/40 dark:ring-2 dark:ring-blue-400/30 shadow-md"
                   : "border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 hover:border-blue-300 dark:hover:border-blue-500 hover:bg-gray-50 dark:hover:bg-gray-800"
               } ${
                 isCurrentFolderSubmitted || isCurrentQuestionLocked
@@ -576,6 +587,9 @@ export default function QCMPage() {
               }`}
             >
               <span className="font-medium">{choice}</span>
+              {isSelected && (
+                <CheckCircle className="w-5 h-5 flex-shrink-0 text-blue-600 dark:text-blue-300" />
+              )}
             </button>
           );
         })}
@@ -599,6 +613,8 @@ export default function QCMPage() {
 
     const userAnswerArray = Array.isArray(answer) ? answer : [];
     const userQrocAnswer = typeof answer === "string" ? answer : "";
+    const critiqueViolated =
+      question.type !== "QROC" && violatesCritique(question, userAnswerArray);
 
     return (
       <div
@@ -641,7 +657,22 @@ export default function QCMPage() {
               src={question.image}
               alt={`Illustration Q${question.id}`}
               className="max-h-72 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm object-contain"
+              onError={handleQuestionImageError}
             />
+            <div
+              className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-xl border border-dashed border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-sm text-gray-500 dark:text-gray-400 p-6 text-center"
+              style={{ display: "none" }}
+            >
+              Image indisponible
+            </div>
+          </div>
+        )}
+
+        {folderSubmitted && critiqueViolated && (
+          <div className="mb-4 flex items-start gap-2 bg-amber-50 dark:bg-amber-900/20 border border-amber-300 dark:border-amber-700 text-amber-800 dark:text-amber-200 rounded-xl p-3 text-sm font-semibold">
+            <AlertCircle className="w-4 h-4 flex-shrink-0 mt-0.5" />
+            Note ramenée à 0 : une réponse indispensable n&apos;a pas été
+            cochée, ou une réponse inacceptable a été cochée.
           </div>
         )}
 
@@ -673,6 +704,7 @@ export default function QCMPage() {
               const letter = getChoiceLetter(choice);
               const isCorrect = question.reponses.includes(letter);
               const isSelected = userAnswerArray.includes(letter);
+              const isCritique = (question.critiques ?? []).includes(letter);
 
               let classes =
                 "bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-200";
@@ -695,7 +727,18 @@ export default function QCMPage() {
                 >
                   <div className="flex items-center justify-between gap-3">
                     <span>{choice}</span>
-                    <span className="text-xs font-semibold">
+                    <span className="flex items-center gap-2 text-xs font-semibold">
+                      {isCritique && (
+                        <span
+                          className={`px-2 py-0.5 rounded-full ${
+                            isCorrect
+                              ? "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200"
+                              : "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200"
+                          }`}
+                        >
+                          {isCorrect ? "Indispensable" : "Inacceptable"}
+                        </span>
+                      )}
                       {isSelected && isCorrect && "Coché + bon"}
                       {isSelected && !isCorrect && "Coché + faux"}
                       {!isSelected && isCorrect && "Bonne réponse oubliée"}
@@ -934,83 +977,53 @@ export default function QCMPage() {
       </div>
 
       <button
-        onClick={() => setLeftPanelOpen(true)}
-        className="fixed left-3 top-24 z-40 md:hidden bg-blue-600 text-white p-3 rounded-xl shadow-lg"
-        aria-label="Ouvrir les dossiers"
-      >
-        <FolderOpen className="w-5 h-5" />
-      </button>
-
-      <button
-        onClick={() => setRightPanelOpen(true)}
-        className="fixed right-3 top-24 z-40 md:hidden bg-purple-600 text-white p-3 rounded-xl shadow-lg"
+        onClick={() => setQuestionsPanelOpen(true)}
+        className="fixed left-3 top-24 z-40 md:hidden bg-purple-600 text-white p-3 rounded-xl shadow-lg"
         aria-label="Ouvrir les questions"
       >
         <Menu className="w-5 h-5" />
+      </button>
+
+      <button
+        onClick={() => setFoldersPanelOpen(true)}
+        className="fixed right-3 top-24 z-40 md:hidden bg-blue-600 text-white p-3 rounded-xl shadow-lg"
+        aria-label="Ouvrir les dossiers"
+      >
+        <FolderOpen className="w-5 h-5" />
       </button>
 
       <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[260px_1fr_220px] gap-6">
         <aside className="hidden md:block">
           <div className="sticky top-24 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-4">
             <div className="font-bold mb-4 flex items-center gap-2">
-              <FolderOpen className="w-5 h-5 text-blue-600" />
-              Dossiers
+              <Menu className="w-5 h-5 text-purple-600" />
+              Questions
             </div>
 
-            <div className="space-y-2">
-              {examData.folders.map((folder, index) => {
-                const status = getFolderStatus(
-                  folder,
-                  userAnswers,
-                  folderSubmissions
-                );
-                const answeredCount = getAnsweredQuestionsCount(
-                  folder,
-                  userAnswers
-                );
-                const folderProgressPercent = getProgressPercent(
-                  answeredCount,
-                  folder.questions.length
-                );
+            <div className="grid grid-cols-5 gap-2">
+              {currentFolder.questions.map((question, index) => {
+                const answered = hasAnswer(question, userAnswers[question.id]);
+                const locked = Boolean(lockedQuestions[question.id]);
+                const active = index === currentQuestionIndex;
+                const accessible = canAccessQuestion(currentFolder, index);
 
                 return (
                   <button
-                    key={folder.id}
-                    onClick={() => handleFolderChange(index)}
-                    className={`w-full text-left rounded-xl p-3 border transition ${
-                      index === currentFolderIndex
-                        ? "border-blue-500 bg-blue-50 dark:bg-blue-900/20"
-                        : "border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800"
-                    }`}
+                    key={question.id}
+                    onClick={() => handleQuestionChange(index)}
+                    disabled={!accessible}
+                    className={`h-10 rounded-lg text-sm font-bold border transition relative ${
+                      active
+                        ? "bg-blue-600 text-white border-blue-600"
+                        : answered
+                        ? "bg-green-100 text-green-700 border-green-300 dark:bg-green-900/30 dark:text-green-300 dark:border-green-700"
+                        : "bg-gray-100 text-gray-600 border-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700"
+                    } disabled:opacity-40 disabled:cursor-not-allowed`}
                   >
-                    <div className="flex items-center justify-between gap-2 mb-1">
-                      <div className="text-xs font-bold text-blue-600 dark:text-blue-400">
-                        {folder.type}
-                      </div>
-
-                      <div
-                        className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${getFolderStatusClasses(
-                          status
-                        )}`}
-                      >
-                        {status}
-                      </div>
-                    </div>
-
-                    <div className="font-semibold text-sm line-clamp-2">
-                      {folder.title}
-                    </div>
-
-                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                      {answeredCount}/{folder.questions.length} question(s)
-                    </div>
-
-                    <div className="mt-2 w-full bg-gray-200 dark:bg-gray-800 rounded-full h-1.5">
-                      <div
-                        className="bg-blue-600 h-1.5 rounded-full transition-all"
-                        style={{ width: `${folderProgressPercent}%` }}
-                      />
-                    </div>
+                    {index + 1}
+                    {locked && (
+                      <Lock className="w-3 h-3 absolute -top-1 -right-1 bg-white dark:bg-gray-900 rounded-full" />
+                    )}
                   </button>
                 );
               })}
@@ -1113,6 +1126,10 @@ export default function QCMPage() {
                 </div>
               )}
 
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 whitespace-pre-wrap">
+                {currentQuestion.question}
+              </h2>
+
               {currentQuestion.image && (
                 <div className="mb-6 flex justify-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -1120,13 +1137,16 @@ export default function QCMPage() {
                     src={currentQuestion.image}
                     alt={`Illustration Q${currentQuestion.id}`}
                     className="max-h-72 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm object-contain"
+                    onError={handleQuestionImageError}
                   />
+                  <div
+                    className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-xl border border-dashed border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-sm text-gray-500 dark:text-gray-400 p-6 text-center"
+                    style={{ display: "none" }}
+                  >
+                    Image indisponible
+                  </div>
                 </div>
               )}
-
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 whitespace-pre-wrap">
-                {currentQuestion.question}
-              </h2>
 
               {renderQuestionContent()}
 
@@ -1142,17 +1162,8 @@ export default function QCMPage() {
             </div>
           </div>
 
-          <div className="mt-6 flex items-center justify-between gap-3 flex-wrap">
-            <button
-              onClick={handlePrevious}
-              disabled={currentFolderIndex === 0 && currentQuestionIndex === 0}
-              className="inline-flex items-center gap-2 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200 px-5 py-3 rounded-xl hover:bg-gray-300 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed font-semibold"
-            >
-              <ChevronLeft className="w-4 h-4" />
-              Précédent
-            </button>
-
-            <div className="flex items-center gap-3 flex-wrap justify-center">
+          {(isProgressiveFolder || !isCurrentFolderSubmitted) && (
+            <div className="mt-6 flex items-center justify-center gap-3 flex-wrap bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl p-4 shadow-sm">
               {isProgressiveFolder &&
                 !isCurrentFolderSubmitted &&
                 !isCurrentQuestionLocked && (
@@ -1181,6 +1192,17 @@ export default function QCMPage() {
                 </button>
               )}
             </div>
+          )}
+
+          <div className="mt-3 flex items-center justify-between gap-3 flex-wrap">
+            <button
+              onClick={handlePrevious}
+              disabled={currentFolderIndex === 0 && currentQuestionIndex === 0}
+              className="inline-flex items-center gap-2 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200 px-5 py-3 rounded-xl hover:bg-gray-300 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed font-semibold"
+            >
+              <ChevronLeft className="w-4 h-4" />
+              Précédent
+            </button>
 
             <button
               onClick={handleNext}
@@ -1196,8 +1218,86 @@ export default function QCMPage() {
         <aside className="hidden md:block">
           <div className="sticky top-24 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-4">
             <div className="font-bold mb-4 flex items-center gap-2">
-              <Menu className="w-5 h-5 text-purple-600" />
-              Questions
+              <FolderOpen className="w-5 h-5 text-blue-600" />
+              Dossiers
+            </div>
+
+            <div className="space-y-2">
+              {examData.folders.map((folder, index) => {
+                const status = getFolderStatus(
+                  folder,
+                  userAnswers,
+                  folderSubmissions
+                );
+                const answeredCount = getAnsweredQuestionsCount(
+                  folder,
+                  userAnswers
+                );
+                const folderProgressPercent = getProgressPercent(
+                  answeredCount,
+                  folder.questions.length
+                );
+
+                return (
+                  <button
+                    key={folder.id}
+                    onClick={() => handleFolderChange(index)}
+                    className={`w-full text-left rounded-xl p-3 border transition ${
+                      index === currentFolderIndex
+                        ? "border-blue-500 bg-blue-50 dark:bg-blue-900/20"
+                        : "border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800"
+                    }`}
+                  >
+                    <div className="flex items-center justify-between gap-2 mb-1">
+                      <div className="text-xs font-bold text-blue-600 dark:text-blue-400">
+                        {folder.type}
+                      </div>
+
+                      <div
+                        className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${getFolderStatusClasses(
+                          status
+                        )}`}
+                      >
+                        {status}
+                      </div>
+                    </div>
+
+                    <div className="font-semibold text-sm line-clamp-2">
+                      {folder.title}
+                    </div>
+
+                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                      {answeredCount}/{folder.questions.length} question(s)
+                    </div>
+
+                    <div className="mt-2 w-full bg-gray-200 dark:bg-gray-800 rounded-full h-1.5">
+                      <div
+                        className="bg-blue-600 h-1.5 rounded-full transition-all"
+                        style={{ width: `${folderProgressPercent}%` }}
+                      />
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      {questionsPanelOpen && (
+        <div className="fixed inset-0 z-50 md:hidden">
+          <button
+            className="absolute inset-0 bg-black/50"
+            onClick={() => setQuestionsPanelOpen(false)}
+            aria-label="Fermer le panneau questions"
+          />
+
+          <div className="absolute left-0 top-0 bottom-0 w-80 max-w-[85vw] bg-white dark:bg-gray-900 p-5 shadow-2xl overflow-y-auto">
+            <div className="flex items-center justify-between mb-5">
+              <div className="font-bold text-lg">Questions</div>
+              <button onClick={() => setQuestionsPanelOpen(false)}>
+                <X className="w-6 h-6" />
+              </button>
             </div>
 
             <div className="grid grid-cols-5 gap-2">
@@ -1229,21 +1329,21 @@ export default function QCMPage() {
               })}
             </div>
           </div>
-        </aside>
-      </div>
+        </div>
+      )}
 
-      {leftPanelOpen && (
+      {foldersPanelOpen && (
         <div className="fixed inset-0 z-50 md:hidden">
           <button
             className="absolute inset-0 bg-black/50"
-            onClick={() => setLeftPanelOpen(false)}
+            onClick={() => setFoldersPanelOpen(false)}
             aria-label="Fermer le panneau dossiers"
           />
 
-          <div className="absolute left-0 top-0 bottom-0 w-80 max-w-[85vw] bg-white dark:bg-gray-900 p-5 shadow-2xl overflow-y-auto">
+          <div className="absolute right-0 top-0 bottom-0 w-80 max-w-[85vw] bg-white dark:bg-gray-900 p-5 shadow-2xl overflow-y-auto">
             <div className="flex items-center justify-between mb-5">
               <div className="font-bold text-lg">Dossiers</div>
-              <button onClick={() => setLeftPanelOpen(false)}>
+              <button onClick={() => setFoldersPanelOpen(false)}>
                 <X className="w-6 h-6" />
               </button>
             </div>
@@ -1300,54 +1400,6 @@ export default function QCMPage() {
                         style={{ width: `${folderProgressPercent}%` }}
                       />
                     </div>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {rightPanelOpen && (
-        <div className="fixed inset-0 z-50 md:hidden">
-          <button
-            className="absolute inset-0 bg-black/50"
-            onClick={() => setRightPanelOpen(false)}
-            aria-label="Fermer le panneau questions"
-          />
-
-          <div className="absolute right-0 top-0 bottom-0 w-80 max-w-[85vw] bg-white dark:bg-gray-900 p-5 shadow-2xl overflow-y-auto">
-            <div className="flex items-center justify-between mb-5">
-              <div className="font-bold text-lg">Questions</div>
-              <button onClick={() => setRightPanelOpen(false)}>
-                <X className="w-6 h-6" />
-              </button>
-            </div>
-
-            <div className="grid grid-cols-5 gap-2">
-              {currentFolder.questions.map((question, index) => {
-                const answered = hasAnswer(question, userAnswers[question.id]);
-                const locked = Boolean(lockedQuestions[question.id]);
-                const active = index === currentQuestionIndex;
-                const accessible = canAccessQuestion(currentFolder, index);
-
-                return (
-                  <button
-                    key={question.id}
-                    onClick={() => handleQuestionChange(index)}
-                    disabled={!accessible}
-                    className={`h-10 rounded-lg text-sm font-bold border transition relative ${
-                      active
-                        ? "bg-blue-600 text-white border-blue-600"
-                        : answered
-                        ? "bg-green-100 text-green-700 border-green-300 dark:bg-green-900/30 dark:text-green-300 dark:border-green-700"
-                        : "bg-gray-100 text-gray-600 border-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700"
-                    } disabled:opacity-40 disabled:cursor-not-allowed`}
-                  >
-                    {index + 1}
-                    {locked && (
-                      <Lock className="w-3 h-3 absolute -top-1 -right-1 bg-white dark:bg-gray-900 rounded-full" />
-                    )}
                   </button>
                 );
               })}

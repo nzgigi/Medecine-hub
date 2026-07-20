@@ -27,6 +27,28 @@ function arraysAreEqual(a: string[], b: string[]): boolean {
   return JSON.stringify([...a].sort()) === JSON.stringify([...b].sort());
 }
 
+/**
+ * Une réponse "critique" annule toute la question si l'étudiant ne respecte
+ * pas sa contrainte : indispensable (bonne réponse critique) non cochée, ou
+ * inacceptable (mauvaise réponse critique) cochée.
+ */
+export function violatesCritique(
+  question: Question,
+  userAnswers: string[]
+): boolean {
+  const critiques = question.critiques ?? [];
+  if (critiques.length === 0) return false;
+
+  const correctSet = new Set(question.reponses);
+  const selectedSet = new Set(userAnswers);
+
+  return critiques.some((letter) => {
+    const isCorrectChoice = correctSet.has(letter);
+    const isSelected = selectedSet.has(letter);
+    return isCorrectChoice ? !isSelected : isSelected;
+  });
+}
+
 export function getQuestionScore(
   question: Question,
   answer: UserAnswer | undefined
@@ -38,6 +60,10 @@ export function getQuestionScore(
 
   const userAnswers = Array.isArray(answer) ? answer : [];
   const correctAnswers = [...question.reponses];
+
+  if (violatesCritique(question, userAnswers)) {
+    return 0;
+  }
 
   if (question.type === "QRU") {
     return arraysAreEqual(userAnswers, correctAnswers) ? 1 : 0;

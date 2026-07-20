@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# analytics locales (compteur de vues, non versionné)
+/data/analytics/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

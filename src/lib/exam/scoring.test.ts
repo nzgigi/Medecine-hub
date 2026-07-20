@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { ExamData, Question } from "@/types/exam";
 import { isQrocAnswerCorrect } from "./qroc";
-import { getExamScore, getQuestionScore } from "./scoring";
+import { getExamScore, getQuestionScore, violatesCritique } from "./scoring";
 
 const qrmQuestion: Question = {
   id: 1,
@@ -57,5 +57,31 @@ describe("scoring", () => {
     expect(score.categories[0].type).toBe("SQI");
     expect(score.categories[0].weight).toBe(1);
     expect(score.finalScoreOn20).toBe(20);
+  });
+});
+
+describe("réponses critiques (indispensable / inacceptable)", () => {
+  const critiqueQuestion: Question = {
+    ...qrmQuestion,
+    critiques: ["A", "D"],
+  };
+
+  it("annule la question si une réponse indispensable n'est pas cochée", () => {
+    expect(violatesCritique(critiqueQuestion, ["C"])).toBe(true);
+    expect(getQuestionScore(critiqueQuestion, ["C"])).toBe(0);
+  });
+
+  it("annule la question si une réponse inacceptable est cochée", () => {
+    expect(violatesCritique(critiqueQuestion, ["A", "C", "D"])).toBe(true);
+    expect(getQuestionScore(critiqueQuestion, ["A", "C", "D"])).toBe(0);
+  });
+
+  it("note normalement quand les contraintes critiques sont respectées", () => {
+    expect(violatesCritique(critiqueQuestion, ["A", "C"])).toBe(false);
+    expect(getQuestionScore(critiqueQuestion, ["A", "C"])).toBe(1);
+  });
+
+  it("ne change rien quand aucun choix n'est marqué critique", () => {
+    expect(violatesCritique(qrmQuestion, ["B", "D"])).toBe(false);
   });
 });

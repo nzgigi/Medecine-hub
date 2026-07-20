@@ -15,6 +15,7 @@ import {
   ImagePlus,
   Plus,
   Save,
+  ShieldAlert,
   Trash2,
   X,
 } from "lucide-react";
@@ -67,6 +68,12 @@ function getAllQuestions(examData: ExamData) {
   return examData.folders.flatMap((folder) => folder.questions);
 }
 
+function remapLetters(letters: string[], letterMap: Map<string, string>) {
+  return letters
+    .map((letter) => letterMap.get(letter) ?? letter)
+    .filter((letter): letter is string => letter !== undefined);
+}
+
 function getNextQuestionId(examData: ExamData) {
   const allQuestions = getAllQuestions(examData);
   const maxId = allQuestions.reduce(
@@ -105,9 +112,6 @@ export default function EditQCMPage() {
   const [saving, setSaving] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState(false);
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
-  const [qrocResponseDrafts, setQrocResponseDrafts] = useState<
-    Record<number, string>
-  >({});
   const [uploadingQuestionId, setUploadingQuestionId] = useState<number | null>(
     null
   );
@@ -239,7 +243,7 @@ export default function EditQCMPage() {
         }
 
         if (question.type === "QROC") {
-          if (question.reponses.length === 0) {
+          if (question.reponses.filter((reponse) => reponse.trim()).length === 0) {
             alert(
               `❌ Question ${question.id} : Aucune réponse attendue définie pour la QROC.`
             );
@@ -311,6 +315,12 @@ export default function EditQCMPage() {
             (question, questionIndex) => ({
               ...question,
               order: questionIndex + 1,
+              reponses:
+                question.type === "QROC"
+                  ? question.reponses
+                      .map((reponse) => reponse.trim())
+                      .filter(Boolean)
+                  : question.reponses,
             })
           ),
         })),
@@ -549,25 +559,73 @@ export default function EditQCMPage() {
     }));
   };
 
-  const updateQrocResponses = (
+  const setQrocResponseAt = (
     folderId: string,
     questionId: number,
+    index: number,
     value: string
   ) => {
-    setQrocResponseDrafts((current) => ({
+    updateExamData((current) => ({
       ...current,
-      [questionId]: value,
-    }));
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
 
-    updateQuestion(
-      folderId,
-      questionId,
-      "reponses",
-      value
-        .split(",")
-        .map((item) => item.trim())
-        .filter(Boolean)
-    );
+        return {
+          ...folder,
+          questions: folder.questions.map((question) => {
+            if (question.id !== questionId) return question;
+
+            const reponses = [...question.reponses];
+            reponses[index] = value;
+
+            return { ...question, reponses };
+          }),
+        };
+      }),
+    }));
+  };
+
+  const addQrocResponse = (folderId: string, questionId: number) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? { ...question, reponses: [...question.reponses, ""] }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const removeQrocResponse = (
+    folderId: string,
+    questionId: number,
+    index: number
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  reponses: question.reponses.filter((_, i) => i !== index),
+                }
+              : question
+          ),
+        };
+      }),
+    }));
   };
 
   const updateQuestionType = (
@@ -692,16 +750,34 @@ export default function EditQCMPage() {
             const removedLetter = question.choix[choiceIndex].charAt(0);
             const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-            const choices = question.choix
-              .filter((_, index) => index !== choiceIndex)
-              .map((choice, index) => `${letters[index]}) ${choice.slice(3)}`);
+            const survivingChoices = question.choix.filter(
+              (_, index) => index !== choiceIndex
+            );
+
+            const letterMap = new Map<string, string>();
+            survivingChoices.forEach((choice, newIndex) => {
+              letterMap.set(choice.charAt(0), letters[newIndex]);
+            });
+
+            const choices = survivingChoices.map(
+              (choice, index) => `${letters[index]}) ${choice.slice(3)}`
+            );
 
             return {
               ...question,
               choix: choices,
-              reponses: question.reponses.filter(
-                (reponse) => reponse !== removedLetter
+              reponses: remapLetters(
+                question.reponses.filter((reponse) => reponse !== removedLetter),
+                letterMap
               ),
+              critiques: question.critiques
+                ? remapLetters(
+                    question.critiques.filter(
+                      (letter) => letter !== removedLetter
+                    ),
+                    letterMap
+                  )
+                : question.critiques,
             };
           }),
         };
@@ -742,9 +818,20 @@ export default function EditQCMPage() {
               (choice, index) => `${letters[index]}) ${choice.slice(3)}`
             );
 
+            const letterAtChoiceIndex = letters[choiceIndex];
+            const letterAtNewIndex = letters[newIndex];
+            const letterMap = new Map<string, string>([
+              [letterAtChoiceIndex, letterAtNewIndex],
+              [letterAtNewIndex, letterAtChoiceIndex],
+            ]);
+
             return {
               ...question,
               choix: normalizedChoices,
+              reponses: remapLetters(question.reponses, letterMap),
+              critiques: question.critiques
+                ? remapLetters(question.critiques, letterMap)
+                : question.critiques,
             };
           }),
         };
@@ -779,6 +866,37 @@ export default function EditQCMPage() {
               reponses: exists
                 ? question.reponses.filter((reponse) => reponse !== letter)
                 : [...question.reponses, letter].sort(),
+            };
+          }),
+        };
+      }),
+    }));
+  };
+
+  const toggleCritique = (
+    folderId: string,
+    questionId: number,
+    letter: string
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) => {
+            if (question.id !== questionId) return question;
+            if (question.type === "QROC") return question;
+
+            const critiques = question.critiques ?? [];
+            const exists = critiques.includes(letter);
+
+            return {
+              ...question,
+              critiques: exists
+                ? critiques.filter((reponse) => reponse !== letter)
+                : [...critiques, letter].sort(),
             };
           }),
         };
@@ -1246,7 +1364,19 @@ export default function EditQCMPage() {
                               src={question.image}
                               alt={`Image Q${question.id}`}
                               className="max-h-48 rounded-lg border-2 border-gray-200 dark:border-gray-700 object-contain bg-gray-50 dark:bg-gray-800"
+                              onError={(event) => {
+                                event.currentTarget.style.display = "none";
+                                const placeholder =
+                                  event.currentTarget.nextElementSibling as HTMLElement | null;
+                                if (placeholder) placeholder.style.display = "flex";
+                              }}
                             />
+                            <div
+                              className="hidden max-h-48 w-64 items-center justify-center rounded-lg border-2 border-dashed border-red-300 dark:border-red-700 bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-300 text-xs font-semibold p-4 text-center"
+                              style={{ display: "none" }}
+                            >
+                              Image indisponible sur le serveur
+                            </div>
 
                             <button
                               onClick={() =>
@@ -1299,10 +1429,20 @@ export default function EditQCMPage() {
                           <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
                             Choix de réponses
                           </label>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">
+                            Le bouton <ShieldAlert className="inline w-3.5 h-3.5 -mt-0.5" /> marque
+                            un choix &quot;critique&quot; : indispensable si c&apos;est une
+                            bonne réponse (non cochée par l&apos;étudiant ⇒ note à
+                            0), inacceptable si c&apos;est une mauvaise réponse
+                            (cochée par l&apos;étudiant ⇒ note à 0).
+                          </p>
 
                           {question.choix.map((choice, choiceIndex) => {
                             const letter = choice.charAt(0);
                             const isCorrect = question.reponses.includes(letter);
+                            const isCritique = (question.critiques ?? []).includes(
+                              letter
+                            );
 
                             return (
                               <div
@@ -1329,6 +1469,32 @@ export default function EditQCMPage() {
                                   }
                                 >
                                   {letter}
+                                </button>
+
+                                <button
+                                  onClick={() =>
+                                    toggleCritique(
+                                      activeFolder.id,
+                                      question.id,
+                                      letter
+                                    )
+                                  }
+                                  className={`w-10 h-10 rounded-lg transition-all flex-shrink-0 flex items-center justify-center ${
+                                    isCritique
+                                      ? "bg-amber-500 text-white shadow-lg ring-2 ring-amber-300"
+                                      : "bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-700"
+                                  }`}
+                                  title={
+                                    isCritique
+                                      ? isCorrect
+                                        ? "Réponse indispensable (désactiver)"
+                                        : "Réponse inacceptable (désactiver)"
+                                      : isCorrect
+                                      ? "Marquer comme indispensable"
+                                      : "Marquer comme inacceptable"
+                                  }
+                                >
+                                  <ShieldAlert className="w-4 h-4" />
                                 </button>
 
                                 <input
@@ -1411,28 +1577,60 @@ export default function EditQCMPage() {
                       {question.type === "QROC" && (
                         <div className="mb-4">
                           <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
-                            Réponses acceptées QROC — séparées par des virgules
+                            Réponses acceptées QROC
                           </label>
-                          <input
-                            type="text"
-                            value={
-                              qrocResponseDrafts[question.id] ??
-                              question.reponses.join(", ")
-                            }
-                            onChange={(event) =>
-                              updateQrocResponses(
-                                activeFolder.id,
-                                question.id,
-                                event.target.value
-                              )
-                            }
-                            className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
-                            placeholder="rétrécissement aortique, stenose aortique, RA serré"
-                          />
 
-                          <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
+                          <div className="space-y-2">
+                            {question.reponses.map((reponse, reponseIndex) => (
+                              <div
+                                key={`${question.id}-qroc-${reponseIndex}`}
+                                className="flex gap-2 items-center"
+                              >
+                                <input
+                                  type="text"
+                                  value={reponse}
+                                  onChange={(event) =>
+                                    setQrocResponseAt(
+                                      activeFolder.id,
+                                      question.id,
+                                      reponseIndex,
+                                      event.target.value
+                                    )
+                                  }
+                                  className="flex-1 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
+                                  placeholder="ex: rétrécissement aortique"
+                                />
+
+                                <button
+                                  onClick={() =>
+                                    removeQrocResponse(
+                                      activeFolder.id,
+                                      question.id,
+                                      reponseIndex
+                                    )
+                                  }
+                                  className="p-2 hover:bg-red-50 dark:hover:bg-red-900/20 text-red-600 rounded"
+                                  title="Supprimer cette réponse"
+                                >
+                                  <Trash2 className="w-4 h-4" />
+                                </button>
+                              </div>
+                            ))}
+                          </div>
+
+                          <button
+                            onClick={() =>
+                              addQrocResponse(activeFolder.id, question.id)
+                            }
+                            className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold mt-2 hover:underline"
+                          >
+                            + Ajouter une réponse acceptée
+                          </button>
+
+                          <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
                             La comparaison est insensible aux majuscules,
-                            espaces et accents côté étudiant.
+                            espaces et accents côté étudiant. Ajoutez une
+                            entrée par formulation équivalente acceptée.
                           </p>
                         </div>
                       )}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SiteChrome from "../components/siteChrome";
+import PageViewTracker from "../components/PageViewTracker";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-stone-50 text-stone-950 antialiased dark:bg-black dark:text-stone-100`}
       >
+        <PageViewTracker />
         <SiteChrome>{children}</SiteChrome>
       </body>
     </html>

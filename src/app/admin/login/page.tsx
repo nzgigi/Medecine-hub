@@ -3,7 +3,14 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Lock, User, AlertCircle } from "lucide-react";
+import {
+  AlertCircle,
+  ArrowLeft,
+  BookOpenCheck,
+  Lock,
+  ShieldCheck,
+  User,
+} from "lucide-react";
 
 export default function AdminLoginPage() {
   const [username, setUsername] = useState("");
@@ -40,87 +47,117 @@ export default function AdminLoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center px-4">
-      <div className="max-w-md w-full">
-        <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-            <Lock className="w-10 h-10 text-white" />
+    <div className="min-h-screen bg-stone-50 text-stone-950 dark:bg-gray-950 dark:text-gray-100">
+      <div className="grid min-h-screen lg:grid-cols-[1.05fr_0.95fr]">
+        <section className="hidden lg:flex flex-col justify-between border-r border-stone-200 bg-white px-12 py-10 dark:border-gray-800 dark:bg-gray-900">
+          <Link
+            href="/"
+            className="inline-flex w-fit items-center gap-2 text-sm font-semibold text-stone-600 hover:text-stone-950 dark:text-gray-300 dark:hover:text-white"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Retour au site
+          </Link>
+
+          <div className="max-w-xl">
+            <div className="mb-8 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-emerald-600 text-white">
+              <BookOpenCheck className="h-7 w-7" />
+            </div>
+            <h1 className="text-5xl font-black tracking-tight">
+              Medecine Hub Admin
+            </h1>
+            <p className="mt-5 text-lg leading-8 text-stone-600 dark:text-gray-300">
+              Un espace de pilotage pour organiser les matieres, verifier les
+              QCM et garder les epreuves propres avant publication.
+            </p>
           </div>
 
-          <h1 className="text-4xl font-extrabold text-white mb-2">
-            Admin Panel
-          </h1>
-
-          <p className="text-blue-200">Medecine Hub - Gestion des QCM</p>
-        </div>
-
-        <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-8 border border-gray-100 dark:border-gray-800">
-          <form onSubmit={handleLogin} className="space-y-6">
-            {error && (
-              <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded">
-                <div className="flex items-center gap-2 text-red-700 dark:text-red-200">
-                  <AlertCircle className="w-5 h-5" />
-                  <span className="font-semibold">{error}</span>
-                </div>
+          <div className="grid grid-cols-3 gap-3 text-sm">
+            {["Acces securise", "QCM publics", "Backups"].map((label) => (
+              <div
+                key={label}
+                className="rounded-lg border border-stone-200 p-4 font-semibold text-stone-700 dark:border-gray-800 dark:text-gray-200"
+              >
+                {label}
               </div>
-            )}
+            ))}
+          </div>
+        </section>
 
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+        <main className="flex items-center justify-center px-5 py-10">
+          <div className="w-full max-w-md">
+            <div className="mb-8 lg:hidden">
+              <Link
+                href="/"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-stone-600 dark:text-gray-300"
+              >
+                <ArrowLeft className="h-4 w-4" />
+                Retour au site
+              </Link>
+            </div>
+
+            <div className="mb-8">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-600 text-white">
+                <ShieldCheck className="h-6 w-6" />
+              </div>
+              <h2 className="text-3xl font-black">Connexion administrateur</h2>
+              <p className="mt-2 text-sm text-stone-500 dark:text-gray-400">
+                Connectez-vous pour gerer les epreuves, les menus et la qualite
+                des fichiers QCM.
+              </p>
+            </div>
+
+            <form
+              onSubmit={handleLogin}
+              className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900"
+            >
+              {error && (
+                <div className="mb-5 flex items-start gap-3 rounded-lg border border-red-200 bg-red-50 p-3 text-sm font-semibold text-red-700 dark:border-red-900/60 dark:bg-red-950/30 dark:text-red-200">
+                  <AlertCircle className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                  <span>{error}</span>
+                </div>
+              )}
+
+              <label className="mb-2 block text-sm font-bold text-stone-700 dark:text-gray-200">
                 Nom d&apos;utilisateur
               </label>
-
-              <div className="relative">
-                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-
+              <div className="relative mb-5">
+                <User className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-stone-400" />
                 <input
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  className="w-full pl-11 pr-4 py-3 border-2 border-gray-200 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
+                  className="w-full rounded-lg border border-stone-300 bg-white py-3 pl-11 pr-4 text-stone-950 outline-none transition focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100 dark:focus:ring-emerald-900/30"
                   placeholder="admin"
                   required
                 />
               </div>
-            </div>
 
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+              <label className="mb-2 block text-sm font-bold text-stone-700 dark:text-gray-200">
                 Mot de passe
               </label>
-
-              <div className="relative">
-                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-
+              <div className="relative mb-6">
+                <Lock className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-stone-400" />
                 <input
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full pl-11 pr-4 py-3 border-2 border-gray-200 dark:border-gray-700 rounded-xl bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
-                  placeholder="••••••••"
+                  className="w-full rounded-lg border border-stone-300 bg-white py-3 pl-11 pr-4 text-stone-950 outline-none transition focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100 dark:focus:ring-emerald-900/30"
+                  placeholder="Mot de passe admin"
                   required
                 />
               </div>
-            </div>
 
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-xl font-bold hover:shadow-xl transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {loading ? "Connexion..." : "Se connecter"}
-            </button>
-          </form>
-
-          <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800 text-center">
-            <Link
-              href="/"
-              className="text-sm text-blue-600 dark:text-blue-300 hover:text-blue-700 dark:hover:text-blue-200 font-semibold"
-            >
-              ← Retour au site
-            </Link>
+              <button
+                type="submit"
+                disabled={loading}
+                className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-600 px-4 py-3 font-bold text-white transition hover:bg-emerald-700 disabled:cursor-not-allowed disabled:opacity-60"
+              >
+                <Lock className="h-4 w-4" />
+                {loading ? "Connexion..." : "Ouvrir le dashboard"}
+              </button>
+            </form>
           </div>
-        </div>
+        </main>
       </div>
     </div>
   );
