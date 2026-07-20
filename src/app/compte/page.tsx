@@ -126,6 +126,7 @@ export default function ComptePage() {
   const [indexEntries, setIndexEntries] = useState<MatiereIndexEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [avatarError, setAvatarError] = useState("");
+  const [avatarUploading, setAvatarUploading] = useState(false);
   const [selectedMatiere, setSelectedMatiere] = useState("global");
 
   useEffect(() => {
@@ -221,11 +222,14 @@ export default function ComptePage() {
     router.push("/");
   };
 
-  const handleAvatarChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleAvatarChange = async (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
     const file = event.target.files?.[0];
     setAvatarError("");
+    event.target.value = "";
 
-    if (!file) return;
+    if (!file || !profile) return;
 
     if (!file.type.startsWith("image/")) {
       setAvatarError("Choisis une image valide.");
@@ -237,21 +241,53 @@ export default function ComptePage() {
       return;
     }
 
-    const reader = new FileReader();
+    setAvatarUploading(true);
 
-    reader.onload = () => {
-      const result = reader.result;
-      if (typeof result !== "string") return;
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("sub", profile.sub);
 
-      const nextProfile = updateLocalUserProfile({ customPicture: result });
+      const response = await fetch("/api/users/avatar", {
+        method: "POST",
+        body: formData,
+      });
+
+      const result = (await response.json()) as {
+        success: boolean;
+        path?: string;
+        message?: string;
+      };
+
+      if (!result.success || !result.path) {
+        setAvatarError(result.message || "Échec de l'envoi de la photo.");
+        return;
+      }
+
+      const nextProfile = updateLocalUserProfile({
+        customPicture: result.path,
+      });
       if (nextProfile) setProfile(nextProfile);
-    };
-
-    reader.readAsDataURL(file);
-    event.target.value = "";
+    } catch {
+      setAvatarError("Échec de l'envoi de la photo.");
+    } finally {
+      setAvatarUploading(false);
+    }
   };
 
-  const handleRemoveAvatar = () => {
+  const handleRemoveAvatar = async () => {
+    if (!profile) return;
+
+    try {
+      await fetch("/api/users/avatar", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sub: profile.sub }),
+      });
+    } catch {
+      // on retire quand même localement même si l'appel serveur échoue
+    }
+
     const nextProfile = updateLocalUserProfile({ customPicture: undefined });
     if (nextProfile) setProfile(nextProfile);
   };
@@ -289,7 +325,8 @@ export default function ComptePage() {
                 <button
                   type="button"
                   onClick={() => fileInputRef.current?.click()}
-                  className="absolute -bottom-2 -right-2 flex h-9 w-9 items-center justify-center rounded-lg border border-stone-200 bg-white text-stone-700 shadow-sm transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
+                  disabled={avatarUploading}
+                  className="absolute -bottom-2 -right-2 flex h-9 w-9 items-center justify-center rounded-lg border border-stone-200 bg-white text-stone-700 shadow-sm transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
                   aria-label="Changer la photo de profil"
                 >
                   <Camera className="h-4 w-4" />
@@ -315,17 +352,19 @@ export default function ComptePage() {
                   <button
                     type="button"
                     onClick={() => fileInputRef.current?.click()}
-                    className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-900"
+                    disabled={avatarUploading}
+                    className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-900"
                   >
                     <Camera className="h-3.5 w-3.5" />
-                    Changer la photo
+                    {avatarUploading ? "Envoi..." : "Changer la photo"}
                   </button>
 
                   {profile.customPicture && (
                     <button
                       type="button"
                       onClick={handleRemoveAvatar}
-                      className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-900"
+                      disabled={avatarUploading}
+                      className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-900"
                     >
                       <Trash2 className="h-3.5 w-3.5" />
                       Retirer

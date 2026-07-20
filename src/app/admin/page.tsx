@@ -68,6 +68,19 @@ interface AnalyticsData {
   dailySeries: { day: string; total: number }[];
 }
 
+interface UserSummaryEntry {
+  name: string;
+  email: string;
+  firstSeenAt: string;
+  lastSeenAt: string;
+  hasCustomAvatar: boolean;
+}
+
+interface UsersSummary {
+  total: number;
+  users: UserSummaryEntry[];
+}
+
 function normalizeIndex(entries: MatiereIndex[]): MatiereIndex[] {
   const subjectOrderMap = new Map<string, number>();
   let nextSubjectOrder = 1;
@@ -296,6 +309,10 @@ export default function AdminDashboard() {
   const [analytics, setAnalytics] = useState<AnalyticsData | null>(null);
   const [loadingAnalytics, setLoadingAnalytics] = useState(false);
 
+  const [registeredUsers, setRegisteredUsers] = useState<UsersSummary | null>(
+    null
+  );
+
   const maxDailyViews = useMemo(() => {
     if (!analytics || analytics.dailySeries.length === 0) return 1;
     return Math.max(1, ...analytics.dailySeries.map((point) => point.total));
@@ -335,7 +352,26 @@ export default function AdminDashboard() {
 
     loadIndex();
     loadAnalytics();
+    loadRegisteredUsers();
   }, [router]);
+
+  const loadRegisteredUsers = async () => {
+    try {
+      const response = await fetch("/api/admin/users", {
+        headers: getAdminHeaders(),
+      });
+
+      const result = (await response.json()) as
+        | { success: true; total: number; users: UserSummaryEntry[] }
+        | { success: false };
+
+      if (result.success) {
+        setRegisteredUsers({ total: result.total, users: result.users });
+      }
+    } catch (error) {
+      console.error("Erreur chargement utilisateurs:", error);
+    }
+  };
 
   const loadAnalytics = async () => {
     setLoadingAnalytics(true);
@@ -1120,8 +1156,12 @@ export default function AdminDashboard() {
           <StatCard
             icon={Users}
             label="Utilisateurs"
-            value="Local"
-            detail="Pas encore de base utilisateurs centrale"
+            value={registeredUsers ? registeredUsers.total : "..."}
+            detail={
+              registeredUsers
+                ? "Comptes Google inscrits"
+                : "Chargement..."
+            }
           />
         </section>
 

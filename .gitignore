@@ -39,6 +39,9 @@ yarn-error.log*
 # analytics locales (compteur de vues, non versionné)
 /data/analytics/
 
+# base utilisateurs locale (noms/emails, non versionnée)
+/data/users/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

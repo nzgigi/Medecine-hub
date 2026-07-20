@@ -91,3 +91,33 @@ export function updateLocalUserProfile(
 export function getProfilePicture(profile: LocalUserProfile) {
   return profile.customPicture || profile.picture;
 }
+
+interface SyncedUser {
+  avatarPath?: string;
+}
+
+/**
+ * Enregistre/actualise l'utilisateur côté serveur (jeton Google vérifié) et
+ * renvoie sa photo de profil personnalisée si elle existe déjà — utile pour
+ * la retrouver quand l'utilisateur se connecte depuis un nouvel appareil.
+ */
+export async function syncUserProfile(
+  credential: string
+): Promise<SyncedUser | null> {
+  try {
+    const response = await fetch("/api/users/sync", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ credential }),
+    });
+
+    const result = (await response.json()) as {
+      success: boolean;
+      user?: SyncedUser;
+    };
+
+    return result.success ? result.user ?? null : null;
+  } catch {
+    return null;
+  }
+}

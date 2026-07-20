@@ -7,6 +7,7 @@ import { ArrowRight, ShieldCheck, UserRound } from "lucide-react";
 import {
   decodeGoogleCredential,
   saveLocalUserProfile,
+  syncUserProfile,
 } from "@/lib/userProfile";
 
 export default function ConnexionPage() {
@@ -38,14 +39,20 @@ export default function ConnexionPage() {
       window.google.accounts.id.initialize({
         client_id: clientId,
         ux_mode: "popup",
-        callback: (response) => {
+        callback: async (response) => {
           try {
             if (!response.credential) {
               throw new Error("Aucun profil Google reçu");
             }
 
             const profile = decodeGoogleCredential(response.credential);
-            saveLocalUserProfile(profile);
+            const syncedUser = await syncUserProfile(response.credential);
+
+            saveLocalUserProfile({
+              ...profile,
+              customPicture: syncedUser?.avatarPath || profile.customPicture,
+            });
+
             router.push("/compte");
           } catch (eventError) {
             setError(
