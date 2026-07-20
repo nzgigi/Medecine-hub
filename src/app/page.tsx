@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import MatiereCard from "@/components/MatiereCard";
 import {
@@ -175,36 +176,49 @@ export default function HomePage() {
     <main className="min-h-screen bg-stone-50 text-stone-950 dark:bg-black dark:text-stone-100">
       <section className="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm font-bold text-stone-700 dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300">
-              <Stethoscope className="h-4 w-4 text-emerald-800 dark:text-emerald-300" />
-              Annales medicales gratuites
+          <div className="flex flex-col-reverse items-center gap-8 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
+            <div className="max-w-3xl">
+              <div className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm font-bold text-stone-700 dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300">
+                <Stethoscope className="h-4 w-4 text-emerald-800 dark:text-emerald-300" />
+                Annales medicales gratuites
+              </div>
+
+              <h1 className="mt-6 text-4xl font-black tracking-tight text-stone-950 dark:text-white sm:text-6xl">
+                Medecine Hub
+              </h1>
+
+              <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600 dark:text-stone-300 sm:text-lg">
+                Des QCM d&apos;annales classes par matiere et par annee, avec une
+                interface simple pour reviser sans perdre de temps.
+              </p>
+
+              <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+                <a
+                  href="#matieres"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 text-sm font-black text-white transition-colors hover:bg-emerald-700"
+                >
+                  Commencer a reviser
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+
+                <Link
+                  href="/compte"
+                  className="inline-flex items-center justify-center rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-bold text-stone-800 transition-colors hover:bg-stone-50 dark:border-stone-800 dark:bg-black dark:text-stone-200 dark:hover:bg-stone-900"
+                >
+                  Voir mon compte
+                </Link>
+              </div>
             </div>
 
-            <h1 className="mt-6 text-4xl font-black tracking-tight text-stone-950 dark:text-white sm:text-6xl">
-              Medecine Hub
-            </h1>
-
-            <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600 dark:text-stone-300 sm:text-lg">
-              Des QCM d&apos;annales classes par matiere et par annee, avec une
-              interface simple pour reviser sans perdre de temps.
-            </p>
-
-            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-              <a
-                href="#matieres"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 text-sm font-black text-white transition-colors hover:bg-emerald-700"
-              >
-                Commencer a reviser
-                <ArrowRight className="h-4 w-4" />
-              </a>
-
-              <Link
-                href="/compte"
-                className="inline-flex items-center justify-center rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-bold text-stone-800 transition-colors hover:bg-stone-50 dark:border-stone-800 dark:bg-black dark:text-stone-200 dark:hover:bg-stone-900"
-              >
-                Voir mon compte
-              </Link>
+            <div className="relative h-40 w-40 shrink-0 sm:h-56 sm:w-56 lg:h-64 lg:w-64">
+              <Image
+                src="/brand/pfp.png"
+                alt="Medecine Hub"
+                fill
+                sizes="(min-width: 1024px) 256px, (min-width: 640px) 224px, 160px"
+                className="object-contain"
+                priority
+              />
             </div>
           </div>
 

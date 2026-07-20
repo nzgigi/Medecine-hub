@@ -301,6 +301,8 @@ export default function AdminDashboard() {
     return Math.max(1, ...analytics.dailySeries.map((point) => point.total));
   }, [analytics]);
 
+  const [createMode, setCreateMode] = useState<"existing" | "new">("existing");
+  const [selectedExistingSlug, setSelectedExistingSlug] = useState("");
   const [newMatiere, setNewMatiere] = useState("");
   const [newSlug, setNewSlug] = useState("");
   const [slugManuallyEdited, setSlugManuallyEdited] = useState(false);
@@ -614,20 +616,43 @@ export default function AdminDashboard() {
   };
 
   const handleCreateQCM = async () => {
-    const matiere = newMatiere.trim();
-    const slug = newSlug.trim();
     const anneeNum = Number(newAnnee);
 
-    if (!matiere || !slug || !anneeNum || Number.isNaN(anneeNum)) {
-      alert("Matiere, slug et annee valides sont requis");
+    if (!anneeNum || Number.isNaN(anneeNum)) {
+      alert("Une annee valide est requise");
       return;
     }
 
-    if (!SLUG_PATTERN.test(slug)) {
-      alert(
-        "Slug invalide : uniquement des lettres minuscules, chiffres et tirets (ex: cardiologie)."
+    let matiere: string;
+    let slug: string;
+
+    if (createMode === "existing") {
+      const subject = existingSubjects.find(
+        (item) => item.slug === selectedExistingSlug
       );
-      return;
+
+      if (!subject) {
+        alert("Choisissez une matiere existante");
+        return;
+      }
+
+      matiere = subject.matiere;
+      slug = subject.slug;
+    } else {
+      matiere = newMatiere.trim();
+      slug = newSlug.trim();
+
+      if (!matiere || !slug) {
+        alert("Matiere et slug sont requis");
+        return;
+      }
+
+      if (!SLUG_PATTERN.test(slug)) {
+        alert(
+          "Slug invalide : uniquement des lettres minuscules, chiffres et tirets (ex: cardiologie)."
+        );
+        return;
+      }
     }
 
     setCreating(true);
@@ -932,6 +957,21 @@ export default function AdminDashboard() {
     }
   };
 
+  const existingSubjects = useMemo(() => {
+    return groupSubjects(normalizeIndex(entries));
+  }, [entries]);
+
+  useEffect(() => {
+    if (existingSubjects.length === 0) return;
+
+    if (
+      !selectedExistingSlug ||
+      !existingSubjects.some((subject) => subject.slug === selectedExistingSlug)
+    ) {
+      setSelectedExistingSlug(existingSubjects[0].slug);
+    }
+  }, [existingSubjects, selectedExistingSlug]);
+
   const subjects = useMemo(() => {
     const normalized = normalizeIndex(entries);
     const groups = groupSubjects(normalized);
@@ -1092,51 +1132,121 @@ export default function AdminDashboard() {
                 <Plus className="h-5 w-5" />
               </div>
               <div>
-                <h2 className="text-xl font-black">Creer un QCM</h2>
+                <h2 className="text-xl font-black">Ajouter une epreuve</h2>
                 <p className="text-sm text-stone-500 dark:text-gray-400">
-                  Ajoutez une epreuve, puis ouvrez l&apos;editeur pour saisir les questions.
+                  Choisissez une matiere existante ou creez-en une nouvelle.
                 </p>
               </div>
             </div>
 
-            <div className="grid gap-3 md:grid-cols-[1fr_0.85fr_120px_auto] md:items-start">
-              <input
-                type="text"
-                placeholder="Matiere (ex: Cardiologie)"
-                value={newMatiere}
-                onChange={(event) => handleMatiereChange(event.target.value)}
-                className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
-              />
-              <div>
-                <input
-                  type="text"
-                  placeholder="Slug (ex: cardiologie)"
-                  value={newSlug}
-                  onChange={(event) => handleSlugChange(event.target.value)}
-                  className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
-                />
-                {!slugIsValid && (
-                  <p className="mt-1 text-xs font-semibold text-red-600 dark:text-red-400">
-                    Slug invalide : minuscules, chiffres et tirets uniquement.
-                  </p>
-                )}
-              </div>
-              <input
-                type="number"
-                placeholder="Annee"
-                value={newAnnee}
-                onChange={(event) => setNewAnnee(event.target.value)}
-                className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
-              />
+            <div className="mb-4 inline-flex rounded-lg border border-stone-200 bg-stone-50 p-1 dark:border-gray-800 dark:bg-gray-950">
               <button
-                onClick={handleCreateQCM}
-                disabled={creating || !slugIsValid}
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-stone-950 px-4 py-2 text-sm font-bold text-white transition hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-emerald-600 dark:hover:bg-emerald-700"
+                onClick={() => setCreateMode("existing")}
+                disabled={existingSubjects.length === 0}
+                className={`rounded-md px-3 py-1.5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-50 ${
+                  createMode === "existing"
+                    ? "bg-white text-stone-950 shadow-sm dark:bg-gray-800 dark:text-white"
+                    : "text-stone-500 hover:text-stone-800 dark:text-gray-400 dark:hover:text-gray-200"
+                }`}
               >
-                <Plus className="h-4 w-4" />
-                {creating ? "Creation..." : "Creer"}
+                Matiere existante
+              </button>
+              <button
+                onClick={() => setCreateMode("new")}
+                className={`rounded-md px-3 py-1.5 text-sm font-bold transition ${
+                  createMode === "new"
+                    ? "bg-white text-stone-950 shadow-sm dark:bg-gray-800 dark:text-white"
+                    : "text-stone-500 hover:text-stone-800 dark:text-gray-400 dark:hover:text-gray-200"
+                }`}
+              >
+                Nouvelle matiere
               </button>
             </div>
+
+            {createMode === "existing" ? (
+              existingSubjects.length === 0 ? (
+                <p className="text-sm text-stone-500 dark:text-gray-400">
+                  Aucune matiere existante pour le moment — utilisez
+                  &quot;Nouvelle matiere&quot;.
+                </p>
+              ) : (
+                <div className="grid gap-3 sm:grid-cols-[1fr_120px_auto] sm:items-center">
+                  <div className="relative">
+                    <BookOpen className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400 dark:text-gray-500" />
+                    <select
+                      value={selectedExistingSlug}
+                      onChange={(event) =>
+                        setSelectedExistingSlug(event.target.value)
+                      }
+                      className="w-full appearance-none rounded-lg border border-stone-300 bg-white py-2 pl-9 pr-3 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                    >
+                      {existingSubjects.map((subject) => (
+                        <option key={subject.slug} value={subject.slug}>
+                          {subject.matiere} — {subject.exams.length} epreuve
+                          {subject.exams.length > 1 ? "s" : ""}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <input
+                    type="number"
+                    placeholder="Annee"
+                    value={newAnnee}
+                    onChange={(event) => setNewAnnee(event.target.value)}
+                    className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                  />
+
+                  <button
+                    onClick={handleCreateQCM}
+                    disabled={creating}
+                    className="inline-flex items-center justify-center gap-2 rounded-lg bg-stone-950 px-4 py-2 text-sm font-bold text-white transition hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-emerald-600 dark:hover:bg-emerald-700"
+                  >
+                    <Plus className="h-4 w-4" />
+                    {creating ? "Creation..." : "Ajouter"}
+                  </button>
+                </div>
+              )
+            ) : (
+              <div className="grid gap-3 md:grid-cols-[1fr_0.85fr_120px_auto] md:items-start">
+                <input
+                  type="text"
+                  placeholder="Matiere (ex: Cardiologie)"
+                  value={newMatiere}
+                  onChange={(event) => handleMatiereChange(event.target.value)}
+                  className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                />
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Slug (ex: cardiologie)"
+                    value={newSlug}
+                    onChange={(event) => handleSlugChange(event.target.value)}
+                    className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                  />
+                  {!slugIsValid && (
+                    <p className="mt-1 text-xs font-semibold text-red-600 dark:text-red-400">
+                      Slug invalide : minuscules, chiffres et tirets uniquement.
+                    </p>
+                  )}
+                </div>
+                <input
+                  type="number"
+                  placeholder="Annee"
+                  value={newAnnee}
+                  onChange={(event) => setNewAnnee(event.target.value)}
+                  className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                />
+                <button
+                  onClick={handleCreateQCM}
+                  disabled={creating || !slugIsValid}
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-stone-950 px-4 py-2 text-sm font-bold text-white transition hover:bg-stone-800 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-emerald-600 dark:hover:bg-emerald-700"
+                >
+                  <Plus className="h-4 w-4" />
+                  {creating ? "Creation..." : "Creer"}
+                </button>
+              </div>
+            )}
           </div>
 
           <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">

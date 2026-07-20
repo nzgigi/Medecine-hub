@@ -606,7 +606,8 @@ export default function QCMPage() {
 
   const renderCorrectionQuestion = (
     question: Question,
-    folderSubmitted: boolean
+    folderSubmitted: boolean,
+    questionNumber: number
   ) => {
     const answer = userAnswers[question.id];
     const score = getQuestionScore(question, answer);
@@ -624,7 +625,7 @@ export default function QCMPage() {
         <div className="flex items-start justify-between gap-4 mb-4">
           <div>
             <div className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-1">
-              Question {question.id} • {question.type}
+              Question {questionNumber} • {question.type}
             </div>
             <h3 className="font-bold text-gray-900 dark:text-gray-100 whitespace-pre-wrap">
               {question.question}
@@ -907,8 +908,12 @@ export default function QCMPage() {
                   </div>
 
                   <div className="space-y-4">
-                    {folder.questions.map((question) =>
-                      renderCorrectionQuestion(question, folderSubmitted)
+                    {folder.questions.map((question, questionIndex) =>
+                      renderCorrectionQuestion(
+                        question,
+                        folderSubmitted,
+                        questionIndex + 1
+                      )
                     )}
                   </div>
                 </div>

@@ -29,13 +29,13 @@ export default function SiteChrome({
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-7 md:flex-row md:items-center md:justify-between">
             <Link href="/" className="flex items-center gap-3">
-              <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-lg border border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
+              <div className="relative h-12 w-12 shrink-0">
                 <Image
                   src="/brand/pfp.png"
                   alt="Logo Medecine Hub"
                   fill
-                  sizes="44px"
-                  className="object-cover"
+                  sizes="48px"
+                  className="object-contain"
                 />
               </div>
 

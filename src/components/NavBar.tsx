@@ -53,14 +53,14 @@ export default function Navbar() {
           className="group flex items-center gap-3"
           aria-label="Medecine Hub - Accueil"
         >
-          <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-lg border border-stone-200 bg-white transition-colors duration-200 group-hover:border-emerald-700 dark:border-stone-800 dark:bg-black dark:group-hover:border-emerald-500">
+          <div className="relative h-14 w-14 shrink-0 transition-transform duration-200 group-hover:scale-105">
             <Image
               src="/brand/pfp.png"
               alt="Logo Medecine Hub"
               fill
               priority
-              sizes="44px"
-              className="object-cover"
+              sizes="56px"
+              className="object-contain"
             />
           </div>
 
