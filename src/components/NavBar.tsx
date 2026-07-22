@@ -4,7 +4,16 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Heart, Home, Mail, Menu, Scale, UserRound, X } from "lucide-react";
+import {
+  Heart,
+  Home,
+  Mail,
+  Menu,
+  Scale,
+  Sparkles,
+  UserRound,
+  X,
+} from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import {
   getLocalUserProfile,
@@ -20,6 +29,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: "Accueil", href: "/", icon: Home },
+    { name: "Mises a jour", href: "/mises-a-jour", icon: Sparkles },
     { name: "Mentions legales", href: "/mentions-legales", icon: Scale },
     { name: "Contact", href: "/contact", icon: Mail },
   ];
