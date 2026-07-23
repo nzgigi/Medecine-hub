@@ -1,7 +1,450 @@
 {
   "matiere": "Urologie",
   "annee": 2023,
-  "total_questions": 4,
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "folder-1783269943002-085892b80401c8",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "Mr M, 65 ans consulte aux urgences pour une toux fébrile. Il n’a pas d’antécédent particulier en dehors d’une hypertension artérielle et d’un surpoids. Sa PCR Covid est positive. Un scanner thoracique est réalisé et met en évidence sur les coupes basses une masse rénale droite de 5,7 cm.",
+          "question": "Le diagnostic de tumeur du rein peut être fait:",
+          "choix": [
+            "A) Uniquement après réalisation d’une biopsie à visée anatomopathologique",
+            "B) Est le plus souvent fortuit",
+            "C) Par une IRM abdominale",
+            "D) Par un scanner abdomino-pelvien avec et sans injection de produit de contraste",
+            "E) En cas de palpation d’une masse abdominale en cas de volumineuse lésion"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En poussant l’interrogatoire, vous apprenez que Mr M a une mère qui est décédée d’un cancer de l’ovaire. Il a également présenté une hématurie macroscopique. En général, quels sont les facteurs de risque de tumeur du rein?",
+          "choix": [
+            "A) L’hypertension artérielle",
+            "B) L’obésité",
+            "C) Un antécédent de RCH",
+            "D) Le sexe masculin",
+            "E) L’antécédent familial de tumeur du rein"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La lésion au scanner est décrite comme telle « lésion solide présentant un rehaussement de 20 UH intéressant la lèvre antérieure du pôle supérieur du rein droit de 57 mm de plus grand axe exophytique ». D’après cette description, on peut évoquer le diagnostic de carcinome rénal à cellules claires.",
+          "choix": [
+            "A) Le type histologique le plus fréquent dans les tumeurs malignes est représentée par le carcinome papillaire",
+            "B) Un contenu graisseux est évocateur de tumeur maligne",
+            "C) La classification de Bosniak concerne les différents types d’angiomyolipomes",
+            "D) L’oncocytome est la forme histologique la plus agressive",
+            "E) D’après cette description, on peut évoquer le diagnostic de carcinome rénal à cellules claires"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Plus fréquent = cellule claires\nGraisse = angiomyolipome\nBosniak = tumeurs kystiques\nOncocytome = tumeur bénigne",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Les données du scanner retrouvent finalement une tumeur isolée du rein droit sans lésion à distance, un calcul de 4 mm caliciel inférieur gauche, un sigmoïde diverticulaire, un épaississement de la vessie et une vésicule lithiasique. Quels est chez Mr M l'élément prinicpal qui vous ferait évoquer une tumeur de vessie ?",
+          "choix": [],
+          "reponses": [
+            "hématurie",
+            "hématurie macroscopique",
+            "Hématurie macroscopique",
+            "hematurie macroscopique",
+            "Hematurie macroscopique",
+            "épaississement de vessie avec hématurie macroscopique",
+            "hématurie isolée",
+            "hématurie macroscopique terminale",
+            "hematurie macroscopiqe",
+            "Hématurie terminale",
+            "hématuries macroscopiques",
+            "sang ou caillot dans les urines en fin de jet",
+            "hematurie terminale"
+          ],
+          "correctionExplanation": "les calculs peuvent donner une hématurie mais pas évocateurs de tumeur de vessie",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant cette hématurie macroscopique, vous décidez de rechercher chez ce patient une tumeur de vessie. Quels seront les examens de première intention que vous prescrivez ?",
+          "choix": [
+            "A) Dosage des marqueurs sériques de tumeur de la vessie",
+            "B) Scanner cérébral thoracique et abdominopelvien avec injection de produit de contraste",
+            "C) Irm multiparamétrique de la vessie",
+            "D) Uro TDM",
+            "E) Cystoscopie urinaire avec cytologies"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A la cystoscopie réalisée en consultation, vous visualisez une zone suspecte du fond vésical.",
+          "choix": [
+            "A) Vous faites une biopsie à la consultation pour confirmer le diagnostic",
+            "B) INACCEPTABLE Vous prélevez des cytologies urinaires, en cas de négativité poursuite de la surveillance",
+            "C) Vous prélevez des cytologies urinaires et en cas de positivité seulement, vous organisez une intervention",
+            "D) Le traitement et le diagnostic reposeront sur une résection transurétrale de vessie",
+            "E) Le type histologique le plus fréquent est le carcinome épidermoïde de vessie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’hématurie macroscopique:",
+          "choix": [
+            "A) La démarche diagnostique sera différente de celle d’une hématurie microscopique persistante.",
+            "B) l’aspect de l’hématurie peut être évocateur de sa cause",
+            "C) Le bilan de première intention va permettre de différencier une cause urologique d’une cause néphrologique",
+            "D) L’ASP couplé à l’échographie est l’examen d’imagerie de référence en première intention",
+            "E) En l’absence de caillotage, il est recommandé de mettre en place une sonde vésicale en lavage"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'hématurie D Neutralisée Une hématurie macroscopique sur bicker chez un patient aux antécédents de tumeurs de vessie doit faire évoquer une récidive de cette maladie",
+          "choix": [
+            "A) La protéinurie des 24H positive sera évocatrice d’une cause néphrologique",
+            "B) Une infection urinaire basse peut etre une cause d’hématurie",
+            "C) Tout patient présentant une hématurie nécessite une hospitalisation pour bilan étiologique en urgence",
+            "D) La ponction biopsie rénale fait partie du diagnostic d’hématurie de cause urologique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1783269979795-0c8ddc9cb2f1d",
+      "type": "KFP",
+      "title": "Dossier 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "Matthieu 21 ans vient consulter pour augmentation douloureuse de sa bourse à gauche. Il a reçu un coup de genou dans les bourses lors d’un match de rugby il y a 3 semaines mais la douleur a rapidement cédé. Il a été opéré dans l’enfance à ce niveau. Il est sub fébrile à 37,9° sans frisson.",
+          "question": "Parmi les éléments supplémentaires de votre bilan ci-dessous, quels sont ceux vous orientent vers le diagnostic de cancer du testicule ? Listez les 4 principaux.",
+          "choix": [
+            "A) L’antécédent d’orchidopexie gauche il y a 2 ans pour torsion du cordon spermatique",
+            "B) La présence d’une asymétrie scrotale avec contenu d’allure liquidien",
+            "C) L’antécédent de chirurgie d’abaissement testiculaire du même coté",
+            "D) La présence d’adénopathies inguinales bilatérales",
+            "E) La présence d’un ganglion sus claviculaire gauche",
+            "F) La présence d’une lésion hypervascularisée de 2,5cm intratesticulaire gauche",
+            "G) L’apparition d’une toux avec crachats hémoptoïques",
+            "H) la présence d’un hématome avec rupture de l’albuginée a l’échographie testiculaire"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous avez fait une échographie scrotale très évocatrice du diagnostic de lésion germinale testiculaire gauche, quels sont les 3 autres examens complémentaires indispensables à votre prise en charge globale ?",
+          "choix": [
+            "A) scanner cérébral et thoraco abdomino-pelvien",
+            "B) dosage sanguin des LDH, aFP et HCG total",
+            "C) dosage de la testostérone libre",
+            "D) spermogramme",
+            "E) orchidectomie totale gauche par voie inguinale",
+            "F) échographie rénale",
+            "G) scanner thoraco-abdominopelvien",
+            "H) ECBU"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Les explorations que vous avez faites vous confirment le diagnostic avec les résultats des marqueurs comme à suivre : LDH 450ng/ml ( >1,5N) aFP 25ng/ml ( N) HCG total : 20 000 ( >2N) Il s'agit probablement d'un carcinome embryonnaire. Après avoir proposé une préservation de sperme, et vous être assuré qu'il n'y avait pas de lésion secondaire, vous programmez une prise en charge chirurgicale. En quoi va-t-elle consister?",
+          "choix": [],
+          "reponses": [
+            "Orchidectomie totale gauche par voie inguinale",
+            "orchidectomie gauche par voie inguinale",
+            "orchidectomie totale gauche",
+            "orchidectomie gauche",
+            "orchidectomie",
+            "orchidectomie totale",
+            "Orchidectomie",
+            "orchidectomie par voie inguinale",
+            "orchidectomie totale par voie inguinale",
+            "Orchidectomie totale",
+            "ablation testiculaire",
+            "Orchidectomie totale par voie inguinale",
+            "orchidectomie testiculaire gauche",
+            "orchidectomie gauche par voie inguinal",
+            "Ligature du cordon spermatique gauche (orchidectomie)",
+            "ochidectomie totale",
+            "Ablation totale du testicule gauche avec pose de prothèse testiculaire",
+            "ochidectomie",
+            "orchidectomie gauche totale par voie inguinale",
+            "orchidectomie par voie inguinale pour eviter la dissemination de cellules cancereuse et mise en place possible de prothèse durant l'operation en fonction de la volontée du patient.",
+            "orchidectomie à gauche",
+            "orchidectomie totale gauche par voie inguinale avec ligature 1ere du cordon spermatique et curage ganglionnaire",
+            "resection testiculaire par voie inguinale",
+            "Orchidectomie gauche par voie inguinale +/- prothèse testiculaire gauche",
+            "résection testicule gauche",
+            "orchidectomie gauche- ablation testiculaire gauche",
+            "orchidectomie gauche par voie inguinal + ligature cordon spermatique + envoi piece laboratoire anathomopathologie ; pose possible d'une prothese testiculaire",
+            "ablation totale testicule gauche",
+            "orchidectomie totale du testicule gauche par voie inguinale",
+            "Orchidectomie totale et chimiothérapie",
+            "orchidectomie gauche (avec pose de prothese testiculaire dans un second temps)",
+            "orchidetomie totale gauche",
+            "orchydectomie totale gauche avec pose de prothese en un ou deux temps",
+            "Ochidectomie totale gauche",
+            "orchydectomie",
+            "orchidectomie totale gauche avec pose de prothèse",
+            "ablation du testicule gauche",
+            "orchidectomie totale à gauche avec curage ganglionaire",
+            "orchidectomie gauche",
+            "avec curage ganglionnaire gauche",
+            "exérèse du testicule gauche",
+            "Orchidectomie totale gauche (voie inguinale)",
+            "ablation totale tesicule gauche",
+            "orchydectomie totale",
+            "résection testiculaire",
+            "orchidectomie total gauche",
+            "resection testiculaire gauche",
+            "orchidectomie totale par voie scrotale",
+            "orchidectomie totale gauche par voie inguinal",
+            "orchidectomie gauche par voie scrotale",
+            "orchidectomie élargie par voie inguinale",
+            "orchidotectomie totale",
+            "ablation testicule gauche",
+            "orchydotectomie totale gauche par voie inguinale",
+            "orchidectomie totale gauche par voie externe",
+            "ablation chirurgicale du testicule gauche",
+            "ochidectomie gauche",
+            "Orchydectomie",
+            "orchidectomie totale gauche par voie inguinale + curage ganglionaire",
+            "orchidectomie totale gauche par voie inguinale avec curage ganglionnaire",
+            "ablation chirurgicale du testicule et pose d'une prothèse pour le remplacer accompagnée d'un curage ganglionnaire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1783269989309-a03777173ca5f",
+      "type": "SQI",
+      "title": "Dossier 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la rétention aigue d’urines, on trouve :",
+          "choix": [
+            "A) Chez l’homme, c’est l’obstruction sous vésicale qui est la cause principale",
+            "B) Il faudra évoquer ce diagnostic devant tout tableau confusionnel chez la personne âgée",
+            "C) La RAU nécessite avant tout geste de drainage de réaliser une imagerie par échographie",
+            "D) Une RAU peut etre un des signes de découverte d’une SEP notamment chez la femme jeune.",
+            "E) Il existe de nombreuses causes médicamenteuses de rétention aigue d’urines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le priapisme",
+          "choix": [
+            "A) La durée de celui-ci aura une conséquence sur la fonction érectile ultérieure",
+            "B) Un pH < 7,25 avec une PCO2 <40 et un PO2> 50 seront évocateurs d’une cause non ischémique",
+            "C) Un pH > 7,35 avec une PCO2 <40 et un PO2> 50 seront évocateurs d’une cause non ischémique",
+            "D) Un pH < 7,25 avec une PCO2 >60 et un PO2> 50 seront évocateurs d’une cause non ischémique",
+            "E) Un pH < 7,25 avec une PCO2 >60 et un PO2< 30 seront évocateurs d’une cause ischémique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la transplantation rénale",
+          "choix": [
+            "A) Il s’agit la plupart du temps d’une transplantation orthotopique",
+            "B) Le temps d’ischémie chaude correspond au temps où le transplant est en place mais non reperfusé par le sang du receveur.",
+            "C) En France, le don d’organe repose sur le consentement présumé, la gratuité et l’anonymat",
+            "D) L’état de mort encéphalique est établi après examen clinique seul",
+            "E) La transplantation rénale représente le meilleur traitement de l’insuffisance rénale terminale après la dialyse"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant le diagnostic de tumeur de prostate, la séquence à préférer est :",
+          "choix": [
+            "A) Premièrement IRM prostatique, puis dosage du PSA puis biopsies",
+            "B) Premièrement biopsies, puis dosage du PSA et enfin IRM prostatique",
+            "C) Premièrement examen clinique et PSA, puis IRM et enfin biopsies",
+            "D) Premièrement examen clinique et PSA puis biopsies sans IRM"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En l'absence de signe clinique ou biologique de gravité, en cas de colique néphrétique, l'antalgie repose sur l'utilisation de quelle classe thérapeutique ?",
+          "choix": [],
+          "reponses": [
+            "Anti-inflammatoires stéroïdiens",
+            "AINS",
+            "Anti-inflammatoire non stéroïdien",
+            "anti inflammatoire non steroidien",
+            "anti-inflammatoires non stéroïdiens",
+            "anti inflammatoire non stéroïdien",
+            "AINS kétoprofène",
+            "Anti-inflammatoires non stéroïdiens",
+            "kétoprofène",
+            "Anti-inflammatoires non steroidiens",
+            "Anti-inflammatoire non stéroïdiens",
+            "Anti inflammatoires non steroidiens",
+            "anti-inflammatoire non steroidiens",
+            "AINS IV",
+            "anti-inflammatoire",
+            "anti-inflamatoire non stéroidien",
+            "Anti-inflammatoires (kétoprofène)",
+            "anti-inflamatoires non stéroidiens",
+            "Anti inflammatoire non steroïdien",
+            "anti-inflammatoire non seroidiens",
+            "Anti Inflammatoires Non Stéroïdiens",
+            "AINS type kétoprophène",
+            "AINS IV (Kétoprofène)",
+            "anti inflammatoires non stéroïdiens (AINS)",
+            "anti-inflammatoires non stéroidiens",
+            "AINS (keptoprofene)",
+            "AINS (Ketoprofène en 1ère intention)",
+            "Paracetamol + tramadol si douleur légère",
+            "AINS si douleur importante et pas de contre-indications",
+            "anti-inflammatoire non stéroïdien",
+            "anti inflammatoires non steroidiens",
+            "Anti-inflammatoire non stéroïdien (AINS)",
+            "Anti inflamatoire non steroidien (AINS)",
+            "Kétoprofene",
+            "anti-inflamatoire non steroidien (ketoprofene)",
+            "anti inflamatoire non steroidien (AINS)",
+            "ketoprofène",
+            "anti-inflammatoire non steroïdien",
+            "anti-inflammatoires",
+            "AINS (ketuprofene)",
+            "AINS kétoprofene",
+            "AINS (Keratoprofene)",
+            "ains (ketoprofene iv)",
+            "la classe des AINS (ketoprofene)",
+            "Anti inflammatoire non steroidïen",
+            "Anti-inflammatoire",
+            "AIS",
+            "AINS : ketoprofène",
+            "AINS (Kétoprofène)"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
   "questions": [
     {
       "id": 1,

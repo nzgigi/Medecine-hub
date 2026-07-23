@@ -1,7 +1,650 @@
 {
   "matiere": "Gastroenterologie",
   "annee": 2023,
-  "total_questions": 9,
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "folder-1783268433916-852d0a8ad73268",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "Un homme de 50 ans est admis aux urgences adressé par son médecin traitant pour un syndrome douloureux abdominal. Il a comme antécédent médical une hypertension artérielle traitée et stabilisée et comme antécédent chirurgical une appendicectomie par une incision de McBurney à l'âge de 18 ans. Depuis 48 heures, il a des douleurs abdominales à type de spasmes, plutôt périombilicales. Il a des vomissements fréquents qui ont commencé quelques heures après les douleurs. Il a eu un épisode de diarrhée et depuis il a un arrêt des matières et des gaz. À l'examen clinique, apyrétique, très asthénique, pli cutané, tension artérielle 11/8, pouls à 120. Le ventre est légèrement douloureux à la palpation, un peu distendu, sonore à la percussion sans défense. Il existe une cicatrice oblique de 10 cm dans la fosse iliaque droite d'aspect normal.",
+          "question": "Quel est le syndrome que doit faire évoquer ce tableau clinique ?",
+          "choix": [
+            "A) Syndrome d'ischémie mésentérique",
+            "B) Pancréatite aiguë",
+            "C) Occlusion basse par obstacle colique",
+            "D) Péritonite aiguë généralisée",
+            "E) Occlusion de l'intestin grêle"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant l'asthénie et le pli cutané, vous demander rapidement un bilan sanguin. Numération globulaire : hémoglobine 15 g/l ; globules blancs 8000 ; hématocrite 52 Ionogramme sanguin : sodium : 140 mmole/L, potassium : 4 mmole/L; chlore : 90 mmole/L; bicarbonate : 35 mmole/L Urée : 12 mmole/L ; créatinine : 150 micromole/L Comment peut-on interpréter le bilan biologique ?",
+          "choix": [
+            "A) Polyglobulie",
+            "B) Déshydratation intracellulaire",
+            "C) INDISPENSABLE Déshydratation extracellulaire avec insuffisance rénale fonctionnelle",
+            "D) Insuffisance rénale organique",
+            "E) Alcalose hypochlorémique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle est la conduite à tenir immédiate ?",
+          "choix": [
+            "A) Transfert immédiat au bloc opératoire pour laparotomie",
+            "B) INDISPENSABLE Pose d'une voie veineuse de bon calibre et réhydratation",
+            "C) Pose d'une sonde gastrique",
+            "D) Réalisation d'une endoscopie haute",
+            "E) Réalisation d'une échographie abdominale"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le malade a donc la mise en place de deux voies veineuses et perfusion par du liquide isotonique. Il a la mise en place d'une sonde gastrique et la mise en place d'une sonde vésicale pour mesure de la diurèse horaire. Au bout de 4 heures de réhydratation, on constate une amélioration de la tension, une diminution du pouls et une reprise de la diurèse. Quel examen doit-on réaliser en urgence ?",
+          "choix": [
+            "A) Opacification haute à la Gastrografine",
+            "B) Rectosigmoïdoscopie",
+            "C) Scanner abdominal avec injection de produit de contraste",
+            "D) Abdomen sans préparation",
+            "E) Opacification basse à la Gastrografine"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le scanner réalisé injecté met en évidence une occlusion organique du grêle avec une jonction grêle plat/grêle dilaté évoquant une occlusion sur bride dans la fosse iliaque droite et une impression de volvulus de l'anse avec un défaut de rehaussement de celle-ci. Quelles sont les attitude thérapeutiques possibles ?",
+          "choix": [
+            "A) Hospitalisation en chirurgie digestive pour poursuivre la réanimation hydroélectrolytique",
+            "B) Poursuite de l'hospitalisation aux urgences et réévaluation le lendemain par un scanner.",
+            "C) Intervention chirurgicale par laparotomie médiane périombilicale.",
+            "D) Intervention chirurgicale avec tentative de cœlioscopie première",
+            "E) Intervention chirurgicale par reprise de la cicatrice de l'incision de McBurney en FID"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le malade est donc opéré quelques heures après la réalisation de son scanner. On lui fait une cœlioscopie qui permet de visualiser l'occlusion dans la fosse iliaque droite avec une souffrance ischémique de l'anse volvulée sur la bride. Il y a donc une conversion en courte laparotomie pour résection du grêle de 20 cm et anastomose immédiate. Le malade reste allongé pendant 72 heures avec une sonde gastrique productive et l'absence de transit. Au 3e jour amélioration. Au premier lever le matin, dyspnée, petite angoisse et désaturation en oxygène avec à la gazométrie une gazométrie anormale : PaO2 : 60 mmHg; PaCO2 : 30 mm Hg. Quelle complication peut-on évoquer?",
+          "choix": [
+            "A) Récidive de l'occlusion",
+            "B) Lâchage de suture de l'anastomose avec péritonite",
+            "C) Rétention aiguë d'urine",
+            "D) Embolie pulmonaire",
+            "E) Infarctus du myocarde"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il s'agissait en fait d'une petite embolie pulmonaire périphérique qui a été traitée par anticoagulation curative avec une évolution très rapidement favorable. Au 15e jour post-opératoire, le malade est complètement rétabli sur le plan digestif et il aura un traitement anticoagulant pendant trois mois. Inquiet par cet accident de santé, il souhaite avoir des informations sur son avenir. Quelles réponses sont exactes ?",
+          "choix": [
+            "A) La laparotomie qu'il a eu a 18 ans pour appendicite ne peut être mise en cause dans la genèse de cet épisode occlusif.",
+            "B) Il va devoir suivre un régime alimentaire enrichi en fibres.",
+            "C) Cet épisode occlusif peut se renouveler au cours de sa vie.",
+            "D) Il y a des moyens de prévention d'un nouvel épisode occlusif par un traitement médical a vie.",
+            "E) L'embolie pulmonaire est une complication classique après une intervention abdominale en urgence."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1783268464088-a497aacb4d01b",
+      "type": "DP",
+      "title": "Dossier 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "Mme R 78 ans vous est adressée pour une asthénie et une perte de poids de 5 Kilogrammes en 3 mois sans modification de ses habitudes alimentaires. Votre examen physique abdominal objective une cicatrice transversale sus pubienne (dans le cadre d’une césarienne il y a 50 ans). Vous notez également une pâleur cutanée-muqueuse. Au niveau des signes fonctionnels elle vous rapporte: vertiges et étourdissements, un essoufflement et crampes des mollets. A noter que la patiente a chuté récemment « elle s’est cogné le genou mais dit que ce n’est pas grave et qu’elle a pris des antalgiques \"pas forts\" qu’elle avait chez elle à base de Nifluril® en comprimé ».",
+          "question": "Vous suspectez un saignement d’origine digestive et vous prescrivez une formule numération sanguine et un bilan martial quels résultats attendez-vous ? (réponses justes)",
+          "choix": [
+            "A) Une anémie macrocytaire",
+            "B) Une hyperleucocytose",
+            "C) Une baisse de la ferritinémie",
+            "D) Une anémie microcytaire",
+            "E) une thrombopénie"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous reprenez l'interrogatoire et elle vous signale que depuis quelques temps, elle présente des faux besoins, des douleurs anales avant d'aller à la selle et du sang rouge mêlé aux selles. Comment s'appelle ce syndrome?",
+          "choix": [
+            "A) Syndrome de Koenig",
+            "B) Syndrome de Cyriax",
+            "C) Syndrome Rectal",
+            "D) Syndrome sub-occlusif",
+            "E) Syndrome carcinoïde"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Elle présente effectivement un syndrome rectal avec rectorragies responsable d'une anémie ferriprive: quel est le diagnostic le plus probable à évoquer dans ce cas précis?",
+          "choix": [
+            "A) Cancer du côlon droit",
+            "B) Cancer du rectum",
+            "C) Maladie de Crohn",
+            "D) Fistule anale",
+            "E) Hémorroïdes stade IV"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l'examen qui vous permettra de confirmer le diagnostic que vous suspectez?",
+          "choix": [
+            "A) Scanner abdomino-pelvien avec produit de contraste",
+            "B) Echoendoscopie endo-rectale",
+            "C) IRM pelvienne",
+            "D) Coloscopie",
+            "E) TEP scanner"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La coloscopie objective une tumeur bourgeonnante suspecte située entre 10 et 12 cm de la marge anale. Quelles sont les propositions exactes concernant cette tumeur?",
+          "choix": [
+            "A) l'histologie est de type carcinome épidermoïde",
+            "B) Il s'agit d'une tumeur du bas rectum",
+            "C) il s'agit d'une tumeur du haut rectum",
+            "D) l'histologie est de type adénocarcinome",
+            "E) il s'agit d'un tumeur du moyen rectum"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est prise en charge pour son cancer du haut rectum par chirurgie d'exérèse: l’anatomopathologie répond adénocarcinome lieberkhunien T3 N0 MX R0 (réponses justes)",
+          "choix": [
+            "A) T3 signifie que la tumeur envahi un organe adjacent",
+            "B) N0 signifie qu’il n’y pas de ganglion envahi dans le meso-rectum",
+            "C) R0 signifie que les marges tumorales de résection sont saines",
+            "D) MX représente un statut métastatique radiologique",
+            "E) MX signifie qu’il n’y pas de métastase pulmonaire"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1783268479763-610f191828aff",
+      "type": "KFP",
+      "title": "Dossier 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "Mr GF. 56 ans, consulte aux urgences à 22h pour 3 épisodes de vomissement de sang rouge depuis le matin. Il n’a pas d’antécédent médical, ne prend aucun traitement au long cours et n’a pas vu son médecin traitant depuis 2 ans. L’ interrogatoire n’est pas possible, le patient est confus. Un ami qui l’a emmené aux urgences dit qu’il « fume beaucoup » et « boit au moins une bouteille de vin par jour et quelques bières ». A l’examen physique, vous notez : TA 95/50 mmHg, fréquence cardiaque 110 bpm, SpO2 95% en air ambiant, hémocue 7 g/d. L’auscultation cardio pulmonaire est normale. L’examen abdominal montre un abdomen distendu avec une matité des flancs. L’examen cutané retrouve une lésion cutanée sur l'épaule (cf photo jointe) mais elles sont également présentes sur la face antérieure du tronc. Il existe également une érythrose palmaire. Le bord inférieur du foie est dur et tranchant.",
+          "question": "Quel diagnostic étiologique premier suspectez-vous concernant son hématémèse ?",
+          "choix": [],
+          "reponses": [
+            "Rupture de varices œsophagiennes",
+            "rupture de varices oesophagiennes",
+            "Rupture de varices oesophagiennes",
+            "rupture des varices oesophagiennes",
+            "rupture de varice oesophagienne",
+            "Rupture des varices oesophagiennes",
+            "rupture varices oesophagiennes",
+            "rupture varice oesophagienne",
+            "rupture de varices oesophagienne",
+            "Rupture de varice oesophagienne",
+            "Rupture de varice oesophagienne sur cirrhose",
+            "rupture des varices œsophagiennes",
+            "rupture de varice oesophagienne sur probable cirrhose hepatique",
+            "Rupture de varices eosophagiennes",
+            "rupture de varices eosophagiennes",
+            "rupture de varices œusophagiennes",
+            "cirrhose compliquée d'une rupture des varices oesophagiennes",
+            "Rupture varices oesophagiennes (HTP)",
+            "hémorragie digestive par rupture de varices gastriques",
+            "rupture de varices oesophagiennes sur hypertension portale suite a une cirrhose alcoolique",
+            "hémorragie par rupture de varices oesophagiennes",
+            "Rupture de varice oesophagienne (cirrhose)",
+            "Rupture de varices oesphagiennes",
+            "rupture varice oesophagiene",
+            "Rupture de varices oesophagiennes chez un cirrhotique",
+            "rupture de varice oesophagienne sur cirrhose",
+            "hémorragie digestive sur hypertension portale cirrhotique",
+            "rupture de varice oesophagienne chez patient cirrotique",
+            "rupture varices oesophagiennes par hypertension portale",
+            "Rupture de varices oesophagiennes sur cirrhose",
+            "rupture de varice oesophagienne d'hypertension portale (cirrhose)",
+            "rupture de varices oesophagiennes causée par la cirrhose",
+            "rupture de varices oesophagiennes sur hypertension portale",
+            "Rupture de varice(s) oesophagienne(s) dans le cadre d'une cirrhose",
+            "rupture de varices oesophagiennes liées à une hypertension portale",
+            "hemorragie sur rupture de varices oesophagienne",
+            "Ruptures de varices oesophagiennes",
+            "rupture de varice oeusophagienne",
+            "rupture des varices oesophagiennes (hypertension portale)",
+            "rupture de varices oesophagiennes sur cirrhose (hypertension portale)",
+            "hémorragie sur rupture de varices oesophagiennes",
+            "Rupture varices oesophagiennes par hypertension portale",
+            "rupture de varices oesophagiennes dans le contexte d'une cirrhose",
+            "rupture de varices œsophagiennes sur foie cirrhotique",
+            "Rupture de varices oesophagiennes (dans le cadre d’une cirrhose)",
+            "Rupture de varices sur cirrhose",
+            "Rupture des varices oesophagienne",
+            "rupture de varices oesophagiens sur probable cirrhose hepatique alcoolique",
+            "rupture de varice oesophagienne chez un patient cirrhotique",
+            "Rupture varices oesophagiennes",
+            "rupture varices oesophagiennes sur cirrhose alcoolique",
+            "Rupture des varices oœsophagienne",
+            "rupture varices oesophagiennes sur cirrhose",
+            "rupture des varices oesophagiennes sur une cirrhose",
+            "rupture des varices oesophagienne dans le cadre d une cirrhose",
+            "rupture de varices sur foie cirrhotique",
+            "ruptures de varice oesophagienne",
+            "rupture varice oesophagien en liant avec hypertension portale cirrhotique",
+            "ruptures varices oesophagiennes",
+            "rupture de varices oesophagienne dans le contexte d'une hypertension portale",
+            "rupture de varice sur hypertention portale",
+            "rupture de varices oesphagiennes",
+            "Rupture de varice œsophagienne",
+            "rupture de varices par hypertension portale",
+            "Rupture de varices oesophagiennes avec foie cirrhotique",
+            "hémorragie digestive par rupture de varices oesophagiennes",
+            "rupture varices eosophagiennes",
+            "rupture de varices œsophagiennes compliquant une hypertension portale d'origine cirrhotique",
+            "rupture des varices oesophagienes",
+            "ruptures de varices oesophagiennes",
+            "Rupture de varices oesophagiennes ou gastriques"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez le bilan biologique prescrit en urgence : hémoglobine 6 g/dl ; VGM 102 fl ; plaquettes 75 G/l ; leucocytes 7 G/l ; Créatinine 70 μmol/l ; Albumine 26g/l ; ASAT 120 UI/l (10-34) ; ALAT 90UI/l (10-49); PAL 170 UI/l (46-116); GGT 900 UI/l (6-36) ; Bilirubine totale 88 μmol/l dont bilirubine conjuguée 40 μmol/l ; TP 45%, facteur V 45%. Comment interprétez-vous ce bilan biologique ? (QRM) Donnez les réponses justes",
+          "choix": [
+            "A) La baisse du TP fait évoquer une carence en vitamine K",
+            "B) Les anomalies biologiques évoquent une insuffisance hépatocellulaire",
+            "C) Les anomalies biologiques sont compatibles avec un syndrome de Gilbert",
+            "D) La cytolyse prédominant sur les ASAT est compatible avec une hépatite alcoolique",
+            "E) La thrombopénie est probablement liée à un hypersplénisme"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les éléments de votre prise en charge dans les 24 premières heures ? (6 réponses attendues)",
+          "choix": [
+            "A) Mise à jeun",
+            "B) Hospitalisation du patient en unité de soins continus ou réanimation",
+            "C) Intubation trachéale",
+            "D) Scanner thoraco abdominal",
+            "E) Vidéo capsule endoscopique",
+            "F) Endoscopie oesogastroduodénale dans les 12 premières heures, précédée d’érythromycine IV",
+            "G) Traitement vaso-actif type somatostatine",
+            "H) Beta bloquant non cardio-sélectif",
+            "I) Antibiothérapie",
+            "J) Perfusion d’albumine",
+            "K) Corticothérapie 40 mg par jour",
+            "L) Transfusion de plasma frais congelé",
+            "M) Transfusion de concentré de globules rouges",
+            "N) Diurétiques type spironolactone",
+            "O) Lactulose per os"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "F",
+            "G",
+            "I",
+            "M"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1783268490883-96f202c1d15e8",
+      "type": "SQI",
+      "title": "Dossier 4",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "On vous demandera la (QRU) ou les (QRM) réponses exactes.",
+          "question": "Quels signes cliniques peuvent être en rapport avec un cancer de l'oesophage ? (réponses exactes)",
+          "choix": [
+            "A) Adénopathie sus-claviculaire",
+            "B) Dysphagie",
+            "C) Dysphonie",
+            "D) Ascite",
+            "E) Odynophagie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'infection à hélicobacter pylori (réponses exactes)",
+          "choix": [
+            "A) est responsable de la Maladie de Biermer",
+            "B) est responsable d'un lymphome du MALT gastrique",
+            "C) est un facteur majeur d'apparition d'un ulcère duodénal",
+            "D) est un facteur de développement d'un endobrachyoesophage",
+            "E) peut faire le lit du cancer gastrique via une gastrite chronique atrophique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la mesure à prendre en urgence au cours d’une hémorragie digestive (méléna) chez un patient cirrhotique ? (réponse exacte)",
+          "choix": [
+            "A) Faire un scanner abdominal avec injection d'iode",
+            "B) Transfuser pour obtenir une Hb > 10 g/dL",
+            "C) Faire une coloscopie",
+            "D) Débuter un traitement vasoactif (analogues de la somatostatine)",
+            "E) Prescrire des anxiolytiques pour prévenir le delirium tremens"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les propositions suivantes lesquelles concerne le reflux gastro-oesophagien (RGO)? (Réponses exactes)",
+          "choix": [
+            "A) la toux chronique et douleurs thoraciques sont des symptômes du RGO",
+            "B) l’endobrachyoesophage peut être responsable d’un cancer épidermoïde du bas œsophage",
+            "C) la prescription d’inhibiteurs de la pompe à protons au long cours peut favoriser l’ostéoporose",
+            "D) la surcharge pondérale est un des principaux facteurs du RGO",
+            "E) la hernie hiatale par roulement est un des principaux facteurs anatomiques du RGO"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la première cause de cirrhose en. France ?",
+          "choix": [],
+          "reponses": [
+            "L'alcool",
+            "alcool",
+            "Alcool",
+            "alcoolique",
+            "alcoolisme",
+            "l'alcool",
+            "alcoolisme chronique",
+            "Alcoolique",
+            "Alcoolisme",
+            "consommation excessive d'alcool",
+            "intoxication alcoolique",
+            "l'ethylisme chronique",
+            "La consommation excessive d'alcool",
+            "ethylisme",
+            "Cirrhose alcoolique",
+            "cirrhose alcoolique",
+            "l’alcool",
+            "l’hépatopathie chronique alcoolique",
+            "hepatite alcoolique",
+            "hépatite alcoolique",
+            "éthylisme chronique",
+            "l'alcoolisme chronique",
+            "Alcoolisme chronique",
+            "Consommation d'alcool",
+            "Consommation excessive d'alcool",
+            "Hepatite alcoolique",
+            "alcolisme",
+            "ethylisme chronique",
+            "Éthylisme",
+            "alcholisme",
+            "consommation chronique d'alcool",
+            "Ethylisme",
+            "l’alcoolisme chronique",
+            "Hépatite alcoolique"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelles sont les deux causes les plus fréquentes des pancréatites aiguës?",
+          "choix": [],
+          "reponses": [
+            "Lithiase biliaire",
+            "Alcool",
+            "Lithiase biliaire et alcool",
+            "Alcool et lithiase biliaire",
+            "Alcool et lithiase",
+            "Lithiasique et alcoolique",
+            "Alcoolique et lithiasique",
+            "Alcool et lithiases biliaires",
+            "Lithiase biliaire et consommation excessive d’alcool",
+            "Pancréatite biliaire et alcoolique",
+            "Pancréatite aiguë alcoolique et lithiasique",
+            "Lithiase biliaire et Alcool",
+            "Alcool / Lithiase biliaire",
+            "Alcool et calcul biliaire",
+            "Pancréatite alcoolique et pancréatite d’origine biliaire (lithiasique)"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des complications de l'hypertension portale des cirrhoses (réponses exactes)",
+          "choix": [
+            "A) Ascite",
+            "B) Hémorragie digestive par rupture de varices gastriques",
+            "C) Encéphalopathie hépatique",
+            "D) syndrome de Korsakoff",
+            "E) Ischémie mésentérique chronique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une famille vient de faire un dîner au restaurant: ils rentrent vers 21 heures et se couchent tous mais le père et une des filles sont réveillés à 1 heure du matin par des maux de ventre avec selles diarrhéiques abondantes (4 à 5 fois sur toute la nuit). Quel germe suspectez vous comme responsable de cette diarrhée aiguë?",
+          "choix": [
+            "A) Salmonelle",
+            "B) Rotavirus",
+            "C) Campylobacter jéjuni",
+            "D) staphylocoque doré",
+            "E) Gardia Intestinalis"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les caractéristiques des troubles fonctionnels intestinaux quels sont les propositions vraies?",
+          "choix": [
+            "A) Symptômes diurnes et nocturnes",
+            "B) Troubles du transit depuis plus de 6 mois",
+            "C) Disparition ou amoindrissement des symptômes pendant les périodes de vacance",
+            "D) Perte de poids",
+            "E) Association fréquente à des crises de migraine"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "les lésions et états pré-cancéreux hépatiques (réponses vraies)",
+          "choix": [
+            "A) Hépatite chronique à virus B avec cirrhose",
+            "B) Hémochromatose",
+            "C) Polykystose hépatique",
+            "D) Adénome hépatique",
+            "E) Hyperplasie nodulaire et focale hépatique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
   "questions": [
     {
       "id": 1,

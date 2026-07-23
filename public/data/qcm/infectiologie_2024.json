@@ -1,7 +1,609 @@
 {
   "matiere": "Infectiologie",
   "annee": 2024,
-  "total_questions": 10,
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "Vous recevez en consultation de médecine générale un homme de 18 ans. Il a pour antécédent une épilepsie équilibrée sous Levetiracetam. Il prévoit un voyage de 2 semaines en zone amazonienne en Guyane dans 3 mois.",
+          "question": "Quelle chiomioprophylaxie anti-palustre pourriez-vous lui proposer en vue de ce voyage (2 réponses possibles) ?",
+          "choix": [
+            "A) Chloroquine",
+            "B) Mefloquine",
+            "C) Doxycycline",
+            "D) Atovaquone-Proguanil",
+            "E) Arthemeter-Lumefantrine"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "order": 1,
+          "maxReponses": 2,
+          "correctionExplanation": "Doxy, Atovaquone-Proguanil et Mefloquine sont les 3 seules molécules utilisables en CPAP. Ici la mefloquine est contreindiquée du fait de l’antécédent d’épilepsie."
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En plus de la chimioprophylaxie, vous abordez la question des vaccinations préalables à ce voyage. Parmi les propositions suivantes, quelle est la seule à réaliser de manière obligatoire avant ce voyage ?",
+          "choix": [
+            "A) Vaccination contre le VHA",
+            "B) Vaccination contre la typhoïde",
+            "C) Vaccination contre la fièvre jaune",
+            "D) Vaccination contre les méningocoques ACYW135",
+            "E) Vaccination contre la rage"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "order": 2,
+          "correctionExplanation": "Parmi les vaccinations du voyageur, concernant un voyage en Guyane, seule la vaccination contre la fièvre jaune est obligatoire. La vaccination contre l’hépatite A serait par ailleurs recommandée."
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous revoyez ce patient en consultation 1 semaine après son retour de voyage parce qu’il présente de la fièvre et des diarrhées depuis 24 heures. Le séjour de 2 semaines en Guyane s’est déroulé sans évènement particulier. Il a des sensations de fièvre depuis hier après-midi, associées à 4 selles liquides, des nausées sans vomissements et des douleurs articulaires et musculaires diffuses. L’examen clinique est normal en dehors d’une fièvre à 38,5°C et d’un exanthème du tronc. Quel diagnostic doit être évoqué en priorité chez ce patient ?",
+          "choix": [],
+          "reponses": [
+            "Paludisme",
+            "Accès palustre",
+            "palludisme",
+            "acces palustre",
+            "palu"
+          ],
+          "order": 3,
+          "correctionExplanation": "TOUTE fièvre ou histoire de fièvre dans les 3 mois après le retour d’un séjour en zone d’endémie palustre est un accès palustre jusqu’à PREUVE du contraire."
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous évoquez un possible accès palustre et prescrivez les examens complémentaires nécessaires à son diagnostic positif. Parmi les propositions suivantes, quels sont les 2 examens recommandés en 1 intention les plus sensibles ?",
+          "choix": [
+            "A) Frottis sanguin",
+            "B) Goutte épaisse",
+            "C) Test de diagnostic rapide",
+            "D) Technique de biologie moléculaire rapide",
+            "E) Sérologie"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "order": 4,
+          "maxReponses": 2,
+          "correctionExplanation": "Le frottis sanguin est moins sensible que la goutte épaisse et les techniques de biologie moléculaire et sert au diagnostic d’espèce et au calcul de la parasitémie. Le TDR est moins sensible que la goutte épaisse et les techniques de biologie moléculaire. Frottis et TDR seront réalisés associés pour le diagnostic positif en cas de non disponibilité de la goutte épaisse ou des techniques de biologie moléculaire."
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La recherche de paludisme par technique de biologie moléculaire rapide est négative. Les examens d’orientation réalisés montrent : Hb 14g/L, leucocytes 3000 dont 30% de PNN, plaquettes 132000/mm3, CRP 20 mg/L, ionogramme sanguin et fonctions rénales normaux, hypertransaminasémie mixte prédominant sur les ALAT à 3N sans cholestase. Vous revoyez le patient dans l’après-midi munis de ces examens. Sa symptomatologie est stable avec des arthromyalgies persistantes. L’examen clinique est superposable. L’exanthème du tronc est isolé et non prurigineux du tronc. Considérant l’histoire clinique du patient et ces données biologiques quels diagnostiques étiologiques sont envisageables (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Rickettsiose",
+            "B) Dengue",
+            "C) Leptospirose",
+            "D) Bilharziose",
+            "E) Zika"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "order": 5,
+          "correctionExplanation": "Tableau de fièvre algo-éruptive d’allure virale. L’absence d’escarre d’inoculation et la CRP basse plaident contre une rickettsiose ; L’absence de polynucléose neutrophile et la CRP basse plaident contre la leptospirose ; L’exanthème non urticarien et l’absence d’hyperéosinophilie plaident contre une bilharziose."
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une arbovirose est évoquée devant l’ensemble des éléments. Quels éléments cliniques et paracliniques auraient été compatibles avec un diagnostic de fièvre typhoïde (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Une hémoculture positive à bacille gram positif",
+            "B) Une fréquence cardiaque à 80 bpm chez un patient fébrile à 39,5°C",
+            "C) Une diarrhée d’aspect jus de melon",
+            "D) Une splénomégalie",
+            "E) Une escarre d’inoculation"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "order": 6,
+          "correctionExplanation": "Synthèse fièvre typhoïde : Une arbovirose est évoquée devant l’ensemble des éléments."
+        }
+      ]
+    },
+    {
+      "id": "folder-1783257870040-5f1b658cbcd72",
+      "type": "DP",
+      "title": "Dossier 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "Un patient de 64 ans consulte en cabinet de médecine générale pour fièvre. Il a une HTA traitée par périndopril, n’a pas d’antécédent chirurgical, pas d’allergie. Il est plombier retraité. Il fume 3 cigarettes par jour, ne consomme pas d’alcool. Il n’a pas voyagé récemment en dehors de France. Il rapporte l’apparition depuis 3 jours d’une douleur sus-pubienne avec brûlures mictionnelles et nécessité d’uriner plus souvent que d’habitude, puis une sensation de fatigue importante et de fièvre avec frissons depuis la veille. Par ailleurs, il n’a pas de céphalées, ne tousse pas, n’a pas d’autre douleur. Il n’a pas présenté d’épisode infectieux ni reçu de traitement antibiotique depuis plus d’un an. Vous prenez les constantes : température 38,2°C, tension artérielle 140/90 mmHg, fréquence cardiaque 85 bpm, saturation 98% en air ambiant. Votre examen clinique est sans particularité hormis une discrète sensibilité à la palpation sus-pubienne, il n’y a pas de douleur à l’ébranlement des fosses lombaires.",
+          "question": "Devant ce tableau clinique, quel est votre diagnostic ? (QROC – 1 à 3 mots)",
+          "choix": [],
+          "reponses": [
+            "Prostatite",
+            "Prostatite aiguë",
+            "Infection urinaire masculine",
+            "Prostatite aigu",
+            "Prostatite aigue",
+            "Infection urinaire",
+            "Infection urinaire aigu",
+            "Infection urinaire aigue",
+            "Infection urinaire aiguë",
+            "Prostatite masculine",
+            "Prostatite urinaire",
+            "prostatite aigüe",
+            "infection urinaire haute",
+            "Prostatite aigüe infectieuse",
+            "prostatite aiguë simple",
+            "infecton urinaire masculine",
+            "infection urinaire prostatite",
+            "prostatite simple",
+            "IU masculine prostatite",
+            "prostatie aiguë fébrile",
+            "Infection urinaire masculine (prostatite)"
+          ],
+          "correctionExplanation": "Ce tableau est typique d’une infection urinaire masculine (ou prostatite) aiguë. On ne parle pas de cystite chez l’homme, ni si fièvre chez la femme. En cas d’infection urinaire chez l’homme, il faut toujours considérer que la prostate est impliquée dans l’infection : en effet, cela implique de choisir en priorité des antibiotiques ayant une bonne diffusion prostatique, et de traiter de façon plus prolongée que les infections de la femme, pour prévenir le risque d’échec, de rechute ou de prostatite chronique. C’est pourquoi l’on ne parle pas de pyélonéphrite chez l’homme mais bien de prostatite ou d’infection urinaire masculine.",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous posez le diagnostic d’infection urinaire masculine (ou prostatite) aiguë. Vous lui remettez une ordonnance pour réaliser un bilan biologique standard et un ECBU. Le patient étant fébrile et très gêné par ses symptômes, vous décidez de lui prescrire un antibiotique sans attendre les résultats de l’ECBU, de le faire rentrer au domicile et de le revoir 48h plus tard avec les résultats. Quel traitement antibiotique pouvez-vous proposer à votre patient ? (QRP – 2 réponses attendues)",
+          "choix": [
+            "A) Fosfomycine-trométamol par voie orale",
+            "B) Amoxicilline-acide clavulanique par voie orale",
+            "C) Nitrofurantoïne par voie orale",
+            "D) Ceftriaxone par voie intraveineuse",
+            "E) Lévofloxacine par voie orale"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Le traitement probabiliste des infections urinaires masculines (IUM) sans critère de gravité est identique à celui d’une pyélonéphrite aiguë à risque de complication, avec deux possibilités antibiotiques : fluoroquinolone par voie orale (Ciprofloxacine, lévofloxacine sont possibles) sous réserve que le patient n’en ait pas reçu dans les 6 derniers mois, ou une céphalosporine de 3e génération IV (à privilégier si hospitalisation). La ceftriaxone (1 injection par 24h) peut se faire par IDE à domicile par voie intraveineuse ou intramusculaire.\nLa nitrofurantoïne et l’amoxicilline-acide clavulanique n’ont pas leur place dans le traitement des IUM en raison de leur diffusion prostatique médiocre. La fosfomycine a une bonne diffusion prostatique mais son utilisation recommandée dans les infections urinaires est limitée aux cystites simples de la femme.",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous remettez à votre patient une ordonnance de Lévofloxacine. Vous recevez le lendemain les résultats du bilan sanguin, qui montre une fonction rénale normale, une CRP à 80 mg/L et une hyperleucocytose avec PNN à 10 G/L, sans autre anomalie. Vous revoyez le patient 48h plus tard, le résultat de l’ECBU est le suivant : leucocytes 100 000/mm3, culture positive à Escherichia coli 10^5 UFC/ml (Antibiogramme en annexe). Quelle est votre prise en charge pour poursuivre le traitement de cette infection urinaire masculine ? (QRU)",
+          "choix": [
+            "A) Poursuite de la lévofloxacine par voie orale",
+            "B) Changement d’antibiotique pour de l’amoxicilline par voie orale",
+            "C) Changement d’antibiotique pour de l’amoxicilline acide-clavulanique par voie orale",
+            "D) Changement d’antibiotique pour de la nitrofurantoïne par voie orale",
+            "E) Changement d’antibiotique pour de l’amikacine par voie intraveineuse"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "Le traitement antibiotique des IUM documentées (résultat de l’ECBU avec antibiogramme) repose en 1ère intention sur les fluoroquinolones par voie orale et en 2e intention sur le cotrimoxazole par voie orale, en raison de leur bonne diffusion prostatique. L’amoxicilline est une possibilité mais pas en 1ère intention en raison d’une moins bonne diffusion en comparaison aux FQ et cotrimoxazole.\nLa nitrofurantoïne et l’amoxicilline-acide clavulanique n’ont pas leur place dans le traitement des IUM en raison de leur diffusion prostatique médiocre.",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous demandez à votre patient de poursuivre la prise d’ofloxacine. Quelle durée d’antibiothérapie allez-vous prescrire ? (QRU)",
+          "choix": [
+            "A) 3 jours",
+            "B) 7 jours",
+            "C) 14 jours",
+            "D) 21 jours",
+            "E) 28 jours"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "La durée d’antibiothérapie pour les IUM est toujours au minimum de 14 jours pour traiter efficacement la prostate. La durée est de 14 jours en cas de traitement par fluoroquinolones, par cotrimoxazole, ou par ß-lactamine parentérale durant toute la durée du traitement. Sinon, la durée doit être allongée à 21 jours.",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Deux mois plus tard, ce patient consulte aux urgences en raison d’une fièvre jusqu’à 39°C depuis 3 jours, il se sent très altéré et a des symptômes urinaires similaires à l’épisode d’il y a 5 mois. De plus, il dit avoir beaucoup de mal à uriner depuis la veille et il rapporte une douleur sus-pubienne intense. Constantes : température 39°C, fréquence cardiaque 115 bpm, tension artérielle 95/60 mmHg, saturation 98% en air ambiant, fréquence respiratoire 25 bpm. Il est conscient et orienté dans le temps et dans l’espace, sans déficit neurologique, il n’a pas de marbrures ni d’allongement du temps de recoloration cutanée. L’auscultation cardiopulmonaire est normale, il n’y a pas de signe d’insuffisance cardiaque. La palpation abdominale retrouve une matité sus-pubienne et une douleur à l’ébranlement lombaire bilatéral. Quels examens complémentaires demandez-vous ? (Une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Hémocultures",
+            "B) Créatininémie",
+            "C) ECBU",
+            "D) Echographie cardiaque trans-thoracique",
+            "E) Echographie des voies urinaires par voie sus-pubienne dans les 24h"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Devant toute IUM avec sepsis, des hémocultures et un ECBU doivent être demandés. Le bilan standard est également indiqué, dont la créatininémie d’autant plus dans ce contexte de suspicion de rétention aiguë d’urine. L’échographie des voies urinaires par voie sus-pubienne est indiquée en cas de douleur lombaire, de sepsis, de suspicion de rétention aiguë d’urines, ou d’antécédent de lithiase urinaire.",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous débutez un remplissage vasculaire par 500cc de NaCl en 15 minutes. Vous demandez à l’infirmier qui vous accompagne de préparer de quoi effectuer un sondage urinaire chez ce patient. Vous n’avez pas encore les résultats du bilan prescrit. Vous souhaitez débuter une antibiothérapie. Quel traitement antibiotique prescrivez-vous ? (QRU)",
+          "choix": [
+            "A) Lévofloxacine par voie intraveineuse",
+            "B) Ceftriaxone par voie intraveineuse",
+            "C) Lévofloxacine et amikacine par voie intraveineuse",
+            "D) Aztréonam et amikacine par voie intraveineuse",
+            "E) Ceftriaxone et amikacine par voie intraveineuse"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Nous sommes face à un tableau d’IUM avec signe de gravité, car compliquée d’un sepsis avec qSOFA ≥ 2, ce qui doit faire débuter l’antibiothérapie sans délai, par une céphalosporine de 3e génération associée à de l’amikacine. L’aminoside permet à la fois d’améliorer la bactéricidie par synergie avec la β-lactamine, mais aussi d’élargir le spectre de l’antibiothérapie. Les fluoroquinolones ne doivent pas être prescrites en traitement probabiliste dans les infections urinaires en cas de signe de gravité en raison du risque de résistance (d’autant plus chez ce patient qui en a reçu dans les 6 derniers mois). L’aztréonam est indiqué à la place des C3G en cas d’allergie aux β-lactamines. En cas de choc septique (le patient étant à date en sepsis) et de présence d’un facteur de risque de BLSE, l’antibiothérapie à choisir serait alors un carbapénème associé à un aminoside.",
+          "order": 6
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez débuté un traitement par ceftriaxone par voie intraveineuse, et de l’amikacine IV une seule injection. Après remplissage vasculaire par 1L de NaCl, la tension artérielle et la fréquence respiratoire du patient se normalisent. Il est hospitalisé en service traditionnel avec de la ceftriaxone 1g/24h IV et une hydratation intraveineuse. La biologie initiale montre une insuffisance rénale aiguë, qui se corrige rapidement après sondage urinaire. Le patient devient apyrétique en 24h. Les hémocultures et l’ECBU sont positifs à Escherichia coli, dont l’antibiogramme est le suivant : Vous souhaitez relayer l’antibiothérapie par voie orale. Comment adaptez-vous l’antibiothérapie ? (QRU)",
+          "choix": [
+            "A) Amoxicilline-acide clavulanique par voie orale",
+            "B) Cefixime par voie orale",
+            "C) Lévofloxacine par voie orale",
+            "D) Fosfomycine par voie orale",
+            "E) Triméthoprime-sulfaméthoxazole par voie orale"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Traitement documenté des IUM après réception de l’antibiogramme : Fluoroquinolone en 1ère intention : la fluoroquinolone est rendue résistante sur l’antibiogramme, aucune fluoroquinolone ne doit être prescrite. Cotrimoxazole en 2e intention. C3G IV en 3e intention : la ceftriaxone et la céfotaxime ne se prescrivent que par voie intraveineuse. A nouveau, l’amoxicilline-acide clavulanique n’a pas sa place dans le traitement des IUM en raison de sa diffusion prostatique médiocre. Même réflexion pour le Cefixime.",
+          "order": 7
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un suivi urologique a été débuté et a permis de diagnostiquer une hypertrophie bénigne de prostate pour laquelle un traitement a été introduit, et la sonde urinaire a pu être retirée. Le patient est rentré à son domicile et vous le revoyez un mois plus tard en cabinet de médecine générale, l’antibiothérapie est terminée depuis deux semaines, le patient n’a plus aucun symptôme et il n’est pas prévu d’intervention urologique prochaine. Il vous montre un résultat d’ECBU qu’il a effectué il y a 2 jours : leucocytes 9/mm3, Escherichia coli 10^4, antibiogramme suivant : Quel traitement prescrivez-vous ? (QRU)",
+          "choix": [
+            "A) Fosfomycine-trométamol par voie orale",
+            "B) Ofloxacine par voie orale",
+            "C) Triméthoprime-sulfaméthoxazole par voie orale",
+            "D) Nitrofurantoïne par voie orale",
+            "E) Aucun traitement antibiotique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "En l’absence de symptôme urinaire, il ne faut pas réaliser d’ECBU de contrôle ni prescrire d’antibiothérapie en cas d’ECBU positif, à l’exception de la situation d’un geste urologique invasif prévu.",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1783257884992-d72257fcd45748",
+      "type": "KFP",
+      "title": "Dossier 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "Un homme de 70 ans se présente aux urgences. Il a un tabagisme actif (30 paquets-année) et une consommation chronique d’alcool (5 à 6 verres/jour). Il n’a pas d’allergies connues. Il a de la fièvre à 39°C depuis 5 jours, il tousse plus que d’habitude, et se dit essoufflé au moindre effort. Il est un peu somnolent, et confus avec une désorientation temporo-spatiale à l’interrogatoire. La fréquence cardiaque est à 120/mn, la pression sanguine artérielle est à 105/65 mmHg. La fréquence respiratoire est à 25/mn. La saturation en oxygène est à 91% en air ambiant à l’arrivée aux urgences. Une radiographie thoracique est effectuée.",
+          "question": "Quel est le score quick-SOFA de ce patient ?",
+          "choix": [],
+          "reponses": [
+            "2/3 (confusion et FR>22)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelle anomalie identifiez-vous sur cette radiographie ? (1 réponse exacte)",
+          "choix": [
+            "A) Cardiomégalie",
+            "B) Pneumothorax",
+            "C) Pneumomédiastin",
+            "D) Caverne du sommet droit",
+            "E) Caverne du sommet gauche",
+            "F) Abcès pulmonaire du lobe inférieur gauche",
+            "G) Abcès pulmonaire du lobe inférieur droit",
+            "H) Opacité systématisée du lobe inférieur gauche",
+            "I) Opacité systématisée du lobe inférieur droit",
+            "J) Pleurésie gauche",
+            "K) Pleurésie droite",
+            "L) Pneumopathie interstitielle diffuse bilatérale"
+          ],
+          "reponses": [
+            "H"
+          ],
+          "maxReponses": 1,
+          "correctionExplanation": "Annulée",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il est finalement hospitalisé en réanimation pour une pneumopathie aigüe hypoxémiante. Quel traitement antibiotique probabiliste proposez-vous en priorité chez ce patient ? (1 seule réponse exacte)",
+          "choix": [
+            "A) amoxicilline",
+            "B) amoxicilline-acide clavulanique",
+            "C) ceftriaxone",
+            "D) levofloxacine",
+            "E) ceftriaxone + spiramycine"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1783257892471-4271166021222",
+      "type": "SQI",
+      "title": "Dossier 4",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 28,
+          "type": "QRU",
+          "contexte": "Vous voyez en consultation une enfant de 2 ans sans antécédent qui a une infection urinaire haute avec une fièvre évoluant depuis 48h. Elle n’a pas d’uropathie connue, n’a pas reçu d’antibiothérapie récemment, elle a une fièvre bien tolérée, elle ne vomit pas.",
+          "question": "Quelle sera votre attitude ?",
+          "choix": [
+            "A) Injection d’une C3G (Ceftriaxone) par voie IV en hospitalisation",
+            "B) Injection d’aminoside en IV en hospitalisation",
+            "C) Antibiothérapie orale d’emblée par cotrimoxazole en ambulatoire",
+            "D) Antibiothérapie orale d’emblée par une C3G orale (Céfixime) en ambulatoire",
+            "E) Antibiothérapie orale d’emblée par Amoxicilline/acide clavulanique en ambulatoire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 29,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les arguments clinique et biologique pour le diagnostic d’une coqueluche maligne (3 réponses juste) ?",
+          "choix": [
+            "A) Une tachycardie > 2 DS",
+            "B) Hyperlymphocytose majeure (> 50 000/mm3)",
+            "C) Une thrombopénie",
+            "D) Une élévation des CPK",
+            "E) Un état de mal convulsif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 30,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le principal diagnostic différentiel de la bronchiolite aigue à évoquer en urgence devant un enfant présentant une dyspnée associée à une hépatomégalie et une tachycardie sinusale ? (QROC)",
+          "choix": [],
+          "reponses": [
+            "Myocardite",
+            "Myocardite aigue",
+            "Insuffisance cardiaque dans un contexte de myocardite"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez en consultation un nourrisson âgé de 3 mois qui présente une bronchiolite sans critères de gravité. Vous envisagez un retour à domicile. Quelle prise en charge proposez-vous aux parents ?",
+          "choix": [
+            "A) Kinésithérapie respiratoire",
+            "B) Corticothérapie par voie orale",
+            "C) Fractionnement des prises alimentaires",
+            "D) Désobstruction rhinopharyngée avant chaque prise alimentaire",
+            "E) Salbutamol par voie inhalée à la chambre d’inhalation"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 32,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 50 ans consulte pour la prise en charge de lésions cutanées (photographie) apparues progressivement sur les derniers mois. Devant cet intertrigo, quels sont les 2 arguments faisant évoquer en priorité une dermatophytie ?",
+          "choix": [
+            "A) Extension à distance du pli",
+            "B) Atteinte muqueuse associée",
+            "C) Fond de l’érythème sec",
+            "D) Bords émiettés avec collerette desquamative",
+            "E) Caractère prurigineux"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 33,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Chez un patient présentant des lésions cutanées prurigineuses, quel serait l’élément particulièrement évocateur de gale ?",
+          "choix": [
+            "A) Un prurit majoritairement diurne",
+            "B) Une atteinte sévère du dos",
+            "C) Des sillons épidermiques dans les zones de prurit",
+            "D) Un intertrigo interdigital",
+            "E) Un prurit du cuir chevelu"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 34,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Chez un enfant présentant une otite moyenne aigue associée à une conjonctivite, quel microbe doit être évoqué ?",
+          "choix": [],
+          "reponses": [
+            "Haemophilus influenzae",
+            "Hemophilus influenzae",
+            "hemophilus influenzae",
+            "haemophilus influenzae",
+            "haemophilius influenzae",
+            "haemophilus influenza",
+            "H. influenzae",
+            "Haemophilus influenza",
+            "Haemophilius influenzae",
+            "H. Influenzae",
+            "H.influenzae",
+            "Haemophilius Influenzae",
+            "haemophilus",
+            "H.Influenzae",
+            "Haemophilus Influenza",
+            "haemophilis influenza",
+            "heamophilus influenzae",
+            "haemophilus influenzae b",
+            "haemophilius influenza",
+            "haemophilia influenzae",
+            "haemophilius influnzae",
+            "Haemophilius influenza",
+            "haemophilus influzae",
+            "haemophilius",
+            "Haemophilus Influzae",
+            "haemophillus influenzae",
+            "H. influenza",
+            "haemohilus influenza",
+            "haemofilius influenzae",
+            "haemophilis influenzae",
+            "haemophilia type B",
+            "HIB",
+            "haemophilus influenza (hib)",
+            "Haemofilus inflenzae",
+            "Haemophilia influenzae",
+            "hemophilius inflenzae",
+            "haemophylus influensae",
+            "haemophilius influenza B",
+            "Haemophilus",
+            "Haemofilus influenzae",
+            "haeomphilus influenza",
+            "hemophilis influenzae",
+            "Haemonphilus influenza",
+            "haemophilius influanzae",
+            "H.influensa",
+            "haemophilus influenzea",
+            "h influenzae",
+            "haemophilus influenzae de type b",
+            "haemophilus influenzae B",
+            "Haemophilus influenzae b",
+            "hemophilus influzae",
+            "haemofilus influenza",
+            "Haemophilus B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles(s) peut/peuvent être les causes d’élévation de la température centrale (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Thyroïdite",
+            "B) Amoebose colique",
+            "C) Allergie médicamenteuse",
+            "D) Hémorragie méningée",
+            "E) Phlébite"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "L’amoebose colique est classiquement dépourvue de réaction fébrile. Les autres étiologies sont à l’origine de fièvre non infectieuse.",
+          "order": 8
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une méningo-encéphalite à liquide clair chez un patient diabétique de 60 ans, quels traitements mettez-vous en œuvre en urgence avant les résultats des examens complémentaires (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Cefotaxime",
+            "B) Vancomycine",
+            "C) Amoxicilline",
+            "D) Aciclovir",
+            "E) Dexaméthasone"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Le terme « clair » fait référence à l’aspect macroscopique. Les 2 agents infectieux à cibler en 1ère intention sont HSV-1 et la Listeria. La corticothérapie n’est pas indiquée dans ces situations.",
+          "order": 9
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une bactériémie, quels arguments orienteraient vers la porte d’entrée d’un cathéter plutôt que vers une porte d’entrée digestive (une ou plusieurs réponses possibles)?",
+          "choix": [
+            "A) Le caractère polymicrobien des hémocultures",
+            "B) Des hémocultures positives à Staphylococcus aureus",
+            "C) L’absence de signe de sévérité clinique",
+            "D) La présence de levures à l’examen direct de l’hémoculture positive",
+            "E) La survenue de frissons au décours de l’utilisation d’un port-à-cathéter"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "Une septicémie à point de départ d’un cathéter est rarement polymicrobienne, et n’oriente en tout cas pas plus vers cette porte d’entrée. L’absence de signe de sepsis n’est pas prédictif de la porte d’entrée. Le point de départ d’une fongémie peut être cutané ou digestif.",
+          "order": 10
+        }
+      ]
+    }
+  ],
   "questions": [
     {
       "id": 1,

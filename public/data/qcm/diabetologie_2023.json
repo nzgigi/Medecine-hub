@@ -1,7 +1,713 @@
 {
   "matiere": "Diabetologie",
   "annee": 2023,
-  "total_questions": 11,
+  "total_questions": 33,
+  "folders": [
+    {
+      "id": "folder-1784300030282-3077d88527c108",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "Monsieur A., 50 ans vient vous voir en consultation pour la première fois car son ancien médecin traitant est parti à la retraite. Il est expert-comptable, il vit en couple avec sa femme et ses 2 enfants. Il ne se plaint de rien mais a besoin d’un renouvellement de son ordonnance de Lercanidipine (inhibiteur calcique).\nA l’interrogatoire, vous retrouvez des antécédents d’hypertension artérielle et de diabète chez son père et d’obésité chez sa mère et sa soeur.\nM.A. a arrêté de fumer il y a un an et a pris quelques kilos depuis.\nPoids : 101 kg\nTaille : 1,69m\nIMC : 35,4\nTour de taille : 108 cm\nPression artérielle : 150/90 mm Hg\nL’examen clinique est par ailleurs sans particularité.\nIl vous a apporté les résultats de son dernier bilan biologique :\nGlycémie à jeun : 1,34 g/l\nCréatininémie : 83 micromoles/l\nDébit de filtration glomérulaire (CKD-EPI) : 93 ml/mn\nTriglycérides : 2,17 g/l\nCholestérol total : 1,96 g/l\nCholestérol HDL : 0,51 g/l\nCholestérol LDL : 1,02 g/l\nLa glycémie à jeûn avait déjà été mesurée à 1,38 g/l au cours du bilan précédent, vous affirmez le diagnostic de diabète.",
+          "question": "Quels sont les facteurs de risque de diabète de type 2 chez ce patient ?",
+          "choix": [
+            "A) il présente une obésité",
+            "B) il présente des antécédents familiaux de diabète au premier degré",
+            "C) il présente des antécédents familiaux d’obésité au premier degré",
+            "D) il est âgé de plus de 45 ans",
+            "E) il présente une hypertriglycéridémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous dosez l’HbA1c qui est à 8,2% (N : 4 à 6%). Vous mettez en place des mesures d’hygiène de vie (réduction calorique, activité physique). Au contrôle suivant, 3 mois plus tard, l’HbA1c est à 7,8%. Vous décidez de débuter un traitement par metformine. Parmi les affirmations suivantes concernant la metformine, lesquelles sont exactes ?",
+          "choix": [
+            "A) elle fait partie de la classe des sulfamides",
+            "B) elle agit sur l’insulinorésistance",
+            "C) elle entraîne une perte de poids de l’ordre de 5%",
+            "D) les effets indésirables digestifs sont fréquents",
+            "E) elle peut être associée à toutes les autres classes thérapeutiques"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un ami de M.A. a bénéficié d’une chirurgie bariatrique (bypass gastrique) et a pu par la suite arrêter les traitements de son diabète. M.A. vous demande ce que vous pensez de ce traitement pour lui. Quelles sont vos réponses ?",
+          "choix": [
+            "A) M.A. rentre dans les indications de la chirurgie de l’obésité car il existe une obésité de grade 2 associée à un diabète de type 2",
+            "B) A ce stade précoce de la maladie, une guérison définitive du diabète peut être le plus souvent obtenue par la chirurgie",
+            "C) Il faut évaluer l’existence de troubles du comportement alimentaire avant d’envisager la chirurgie",
+            "D) La perte de poids attendue après chirurgie permet le plus souvent de ramener l’IMC en dessous de 25",
+            "E) Une supplémentation vitaminique à vie est nécessaire après bypass gastrique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Finalement, M. F. n’a pas souhaité entrer dans la démarche de chirurgie de l’obésité. Quelques années plus tard, alors que son traitement a été majoré sous la forme d’une bithérapie metformine + gliclazide (sulfamide), l’HbA1c n’est pas suffisamment contrôlée. Vous complétez le bilan de retentissement de son diabète et vous observez les éléments suivants :\nRapport protéinurie/créatininurie : 362 mg/g\nCréatininémie : 87 μmol/l\nDébit de filtration glomérulaire : 91 ml/min/1.73 m² (CKD-EPI)\nQuelle(s) sont les affirmation(s) exacte(s)?",
+          "choix": [
+            "A) il s’agit d’une insuffisance rénale modérée",
+            "B) il s’agit d’une néphropathie protéinurique",
+            "C) cette atteinte rénale justifie à elle-seule la réalisation d’un dépistage d’ischémie myocardique silencieuse",
+            "D) le diabète joue un rôle déterminant dans cette atteinte rénale",
+            "E) l’HTA joue un rôle déterminant dans cette atteinte rénale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez conclu à une néphropathie protéinurique d’origine probablement mixte (diabète de type 2 et hypertension artérielle). Quelle(s) attitude(s) thérapeutique(s) vous semble(nt) adaptée(s) ?",
+          "choix": [
+            "A) introduire un traitement par sartan (inhibiteur du récepteur de l’angiotensine 2)",
+            "B) introduire un traitement par diurétique épargneur de potassium",
+            "C) limiter la prise d’anti-inflammatoires non stéroïdiens",
+            "D) contrôle strict de la pression artérielle : < 125/75 mmHg",
+            "E) contrôle strict de l’équilibre glycémique : HbA1c < 6%"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez complété le bilan du retentissement du diabète par l’examen du fond d’oeil. Il met en évidence des microanévrysmes multiples et quelques hémorragies de façon bilatérale (> 2 quadrants pour chaque oeil). Comment qualifiez-vous cette anomalie sachant que le patient ne se plaint d’aucun trouble visuel ?",
+          "choix": [
+            "A) rétinopathie diabétique non proliférante minime",
+            "B) rétinopathie diabétique non proliférante modérée",
+            "C) rétinopathie diabétique non proliférante sévère",
+            "D) maculopathie diabétique diffuse",
+            "E) maculopathie diabétique hémorragique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recherchez des signes de neuropathie périphérique. Les réflexes ostéotendineux sont présents et symétriques. Le piquer/toucher est normal. En revanche, la pallesthésie est altérée tout comme le test au monofilament. Vous notez également des orteils en griffe de manière bilatérale. Les pouls périphériques sont bien perçus. En fonction de ces éléments, quel est le grade de risque podologique pour ce patient ?",
+          "choix": [
+            "A) Risque lésionnel grade 0",
+            "B) Risque lésionnel grade 1",
+            "C) Risque lésionnel grade 2",
+            "D) Risque lésionnel grade 3",
+            "E) Risque lésionnel grade 4"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques années ont passé, M.A. est maintenant sous trithérapie associant metformine 3 grammes/j, sulfamide (gliclazide, 120 mg/j), et un agoniste du récepteur du GLP1 (une injection par semaine de 1,5 mg de Dulaglutide). Le traitement est efficace, l’HbA1c est à 6,3%, et il a même perdu 6 kg. Il se plaint cependant d’hypoglycémies fréquentes dans l’après-midi, surtout quand il fait de l’activité physique. Que lui recommandez-vous pour prévenir ces hypoglycémies ?",
+          "choix": [
+            "A) diminuer la dose de metformine de moitié",
+            "B) diminuer la dose de gliclazide de moitié",
+            "C) diminuer la dose de dulaglutide de moitié",
+            "D) Prendre une collation dans l’après-midi en cas d’activité physique",
+            "E) Emmener une ampoule de glucagon quand il va faire de l’activité physique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1784300581358-2af4aadcee845",
+      "type": "DP",
+      "title": "Dossier 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "Vous recevez M. A. 28 ans, qui présente un projet de paternité avec sa compagne. Il est toutefois confronté à des troubles de l’érection qui augmentent depuis quelques mois.",
+          "question": "Concernant ses troubles de l’érection Parmi les propositions suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) Vous considérez l’absence d’érections matinales comme un trouble de l’érection.",
+            "B) Vous considérez l’absence d’érections matinales comme un symptôme d’hypogonadisme.",
+            "C) Devant une baisse de la libido concomitante, vous réalisez un dosage de testostéronémie totale.",
+            "D) Sur le plan étiologique, vous prescrivez un dosage de glycémie à jeun.",
+            "E) On définira une stérilité par une absence de grossesse, après un an de rapports sexuels non protégés."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’examen clinique, vous suspectez une gynécomastie à droite. Parmi les propositions suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) Une gynécomastie est une hyperplasie du tissu adipeux mammaire.",
+            "B) Une gynécomastie unilatérale est plus suspecte d’une origine tumorale.",
+            "C) Une gynécomastie est centrée sur le mamelon.",
+            "D) Une gynécomastie est liée à un déséquilibre du rapport oestradiol/testostérone.",
+            "E) En cas de doute, on peut confirmer le diagnostic par une mammographie."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recherchez une étiologie à cette gynécomastie, cliniquement confirmée. Parmi les propositions suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) Un traitement par Spironolactone, Oméprazole, ou Risperidone peut occasionner une gynécomastie.",
+            "B) Elle peut être secondaire à une élévation de la TeBG, par exemple dans le cadre d’une cirrhose.",
+            "C) La palpation testiculaire est indispensable (à la recherche d’une tumeur sécrétant de l’oestradiol ou de l’HCG)",
+            "D) La réalisation de tout bilan complémentaire biologique ou échographique n’est pas justifiée si la gynécomastie est isolée (examen clinique sans anomalie par ailleurs)",
+            "E) Vous dosez la TSH, à la recherche d’une hypothyroïdie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique réalisé retrouve :\nTestostérone totale : 70 ng/dl (N : 280-800)\nLH : 3,5 UI/L (N : 2-10)\nFSH : 4,5 UI/L (N : 3-10)\nTSH : 2,1 µU/ml\nCréatinine 60 µmol/l (DFG : 110 ml/min)\nbilan hépatique normal\nOestradiol 20 pg/ml (N< 40)\nHCG 2 UI/L (N< 4)\nL’échographie testiculaire retrouve une atrophie bilatérale, sans nodule identifié.\nQuels diagnostics étiologiques vous semblent compatibles avec le tableau clinique et paraclinique ?",
+          "choix": [
+            "A) Un hypogonadisme périphérique",
+            "B) Un hypogonadisme central",
+            "C) Un syndrome de Klinefelter",
+            "D) Une hyperprolactinémie",
+            "E) Un antécédent d’orchite ourlienne"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le complément de bilan biologique objective une prolactine à 450 ng/ml (N<15), recontrôlée dans un autre laboratoire à 434 ng/ml. Parmi les attitudes suivantes, lesquelles vous semblent adaptées ?",
+          "choix": [
+            "A) Vous recherchez une prise de neuroleptiques.",
+            "B) Vous réalisez une IRM hypophysaire pour confirmer votre principal diagnostic.",
+            "C) Une pâleur, des cheveux fins et une dépilation axillaire vous orienteraient vers une insuffisance antéhypophysaire globale.",
+            "D) Un cortisol bas à 8H, avec ACTH non élevée, vous oriente vers une insuffisance corticotrope.",
+            "E) Vous avez éliminé une hypothyroïdie centrale par le dosage normal de TSH"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’IRM hypophysaire confirme un macro-adénome hypophysaire, non compressif sur les voies optiques, et vous concluez à un prolactinome. Une co-sécrétion de prolactine et de GH est assez fréquente. Quelles comorbidités vous orienteraient vers une hypersécrétion de GH",
+          "choix": [
+            "A) Un syndrome d’apnées du sommeil",
+            "B) Une hypertension artérielle",
+            "C) Une cholangite sclérosante",
+            "D) Un diabète",
+            "E) Une cataracte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques jours après la réalisation de l’IRM hypophysaire, votre patient vous rappelle du fait de céphalées brutales et intenses, et d’une diplopie. Parmi les affirmations suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) L’ensemble du tableau vous oriente vers une acromégalie.",
+            "B) L’ensemble du tableau vous oriente vers une apoplexie.",
+            "C) La diplopie est liée à une atteinte des nerfs oculo-moteurs dans leur portion intra-caverneuse.",
+            "D) Une hyponatrémie dans ce contexte vous fait suspecter une insuffisance surrénalienne aiguë.",
+            "E) Ce syndrome peut s’associer à des troubles du champ visuel à type d’hémianopsie latérale homonyme."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1784300601417-3ff0ff3135df58",
+      "type": "KFP",
+      "title": "Dossier 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "Vous rencontrez en consultation Mr F. âgé de 48 ans pour une obésité de grade 3.\nA l’interrogatoire, il vous signale avoir un tabagisme actif, un antécédent de consommation de cocaïne sevrée grâce à un suivi addictologique, un antécédent de tentative d’autolyse à l’âge de 34 ans et un asthme ancien avec plusieurs cures de corticothérapie orale. Il vous raconte une prise de poids d’abord progressive à partir de l’âge de 20 ans, ce qui correspond à l’année où il a arrêté le rugby, puis une prise de 15 kg supplémentaire à l’âge de 25 ans puis la prise de poids a évolué plus rapidement, avec notamment une prise de 20 kg sur les 6 derniers mois.\nIl n’a pas d’antécédent en dehors d’une appendicectomie et d’une amygdalectomie dans l’enfance.\nIl fume, il a essayé d’arrêter à l’âge de 25 ans mais la tentative a échoué car il a repris la cigarette 2 ans plus tard.\nL’alimentation est peu structurée, et les repas sont pris rapidement. Il se plaint d’épigastralgies souvent après les repas et a tendance à s’endormir après avoir mangé, ce qui est problématique car il est chauffeur de bus. Le soir en rentrant chez lui, il exprime avoir un besoin incontrôlable de manger en grande quantité tout ce qui lui tombe sous la main, même s’il n’a pas faim. Il est gêné de vous le raconter « Eh bien oui, j’ai honte car je ne comprends pas pourquoi je fais ça. Je n’en peux plus, ça dure depuis trop longtemps ».\nPoids : 171 kg\nTaille : 1,80\nIMC : 53 kg/m²\nTour de taille : 138 cm\nPression artérielle : 145/95 mmHg\nL’auscultation cardiaque est sans particularité.\nSon traitement associe :\nsalbutamol à la demande (inhalé, β2-mimétiques)\nbudésonide 800 µg par jour (inhalé, glucocorticoïdes)\ntiotropium 18 µg (inhalé, anticholinergique de longue durée d’action)\nIl vous présente un bilan biologique récent (fait à jeun) :\nNFS : Hémoglobine 13,2 g/dl (N)\nleucocytes 6 G/l (N)\nplaquettes 180 G/l (N sup 150 G/l)\nbilan hépatique : ASAT 42 (1,5N)\nALAT 65 (2N)\nGGT 34 UI/l (N)\nPAL 88 UI/l (N)\nglycémie 1,52 g/l\ncholestérol total 3,4 g/l\nLDL cholestérol 2,20 g/l\nHDL cholestérol 0,30 g/l\ntriglycérides 1,9 g/l.",
+          "question": "Quel type de trouble du comportement alimentaire présente ce patient?",
+          "choix": [],
+          "reponses": [
+            "hyperphagie boulimique",
+            "Binge eating disorder",
+            "BED",
+            "hyperphagie boulemique",
+            "hyperphagie boulimie",
+            "Binge eating"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les éléments que vous voudriez particulièrement recueillir à l’interrogatoire et à l’examen clinique en regard des complications associées à l’obésité que vous évoquez chez ce patient ? Sélectionnez-en trois éléments",
+          "choix": [
+            "A) Céphalées matinales au réveil",
+            "B) Syndrome polyuro-polydypsique",
+            "C) Acanthosis nigricans",
+            "D) Souffle mitral",
+            "E) Circulation collatérale abdominale",
+            "F) Splénomégalie",
+            "G) Hépatomégalie",
+            "H) Etat du transit",
+            "I) Nycturie",
+            "J) Toux",
+            "K) Idées suicidaires"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "I"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les examens paracliniques complémentaires que vous voudriez particulièrement prescrire en regarddes complications associées à l’obésité que vous évoquez chez ce patient ? Sélectionnez-en cinq.",
+          "choix": [
+            "A) Une autre mesure de glycémie à jeun",
+            "B) Peptide C",
+            "C) Anticorps anti-GAD",
+            "D) Scanner pancréatique",
+            "E) Polygraphie ventilatoire nocturne",
+            "F) Mesure ambulatoire de la pression artérielle",
+            "G) Echographie abdominale",
+            "H) Doppler veineux des membres inférieurs",
+            "I) ECG de repos",
+            "J) Acide urique",
+            "K) Radiographie du thorax",
+            "L) Coroscanner",
+            "M) Scanner thoracique",
+            "N) Examen du fond d’œil"
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F",
+            "G",
+            "I"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1784300610441-a6a35fba677c4",
+      "type": "SQI",
+      "title": "Dossier 4",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez Mme C., que vous suivez habituellement pour une hypothyroïdie auto-immune. Elle présente une asthénie inhabituelle, un amaigrissement de 5 kg (poids habituel : 60 kg), et des symptômes d’hypotension orthostatique. La pression artérielle est à 105/60 mmHg. La natrémie récente est à 132 mmol/l. Quel test dynamique (en 1 mot) réalisez-vous pour confirmer votre principale hypothèse diagnostique ?",
+          "choix": [],
+          "reponses": [
+            "synacthène",
+            "Synacthène",
+            "synacthene",
+            "Synacthene",
+            "synactene",
+            "synachtène",
+            "synachtene",
+            "Synachtène",
+            "Synactène",
+            "synactène",
+            "test au synacthene",
+            "Synactene",
+            "synatchène",
+            "test synactene",
+            "test au synactene",
+            "test au synactheme",
+            "test au synachtène",
+            "Synachtene",
+            "test au synatchene",
+            "test au synacthène",
+            "Test au Synacten",
+            "test au Synachtène",
+            "Synacthtène"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La triade de Whipple associe une glycémie basse, des signes neuroglucopéniques, et une correction des symptômes après resucrage. Chez le sujet non diabétique, on retient pour cette définition :",
+          "choix": [
+            "A) Une glycémie veineuse < 0.60 g/l",
+            "B) Une glycémie capillaire < 0.60 g/l",
+            "C) Une glycémie veineuse < 0.50 g/l",
+            "D) Une glycémie interstitielle < 0.50 g/l",
+            "E) Une glycémie capillaire <0.40 g/l"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme W. 70 ans, Vous consulte devant l’apparition d’une masse cervicale. A la palpation, vous retrouvez un goitre, avec un nodule latéralisé à droite, mobile à la déglutition, et des aires ganglionnaires libres. Parmi les affirmations suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) Le goitre correspond à une augmentation du volume thyroïdien, diffuse ou localisée.",
+            "B) A l’interrogatoire, une constipation et une frilosité acquises orienteraient vers une hypothyroïdie.",
+            "C) L’apparition rapide du goitre, avec une vive douleur de l’ensemble de la glande à la palpation vous oriente vers une thyroïdite de Hashimoto.",
+            "D) En première intention, vous prescrivez un bilan sanguin avec dosage de TSH et T4L",
+            "E) En première intention, vous prescrivez une scintigraphie thyroïdienne"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme G, 28 ans, est confrontée depuis 2 mois à un amaigrissement de 5 kg, alors que son appétit est conservé, et à des palpitations. Parmi les affirmations suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) Un dosage de TSH élevé confirme votre suspicion d’hyperthyroïdie.",
+            "B) Une hypersudation et un tremblement fin des extrémités font partie des signes fréquents de thyrotoxicose.",
+            "C) Un goitre diffus avec thrill à la palpation vous oriente vers une maladie de Basedow.",
+            "D) Vous réalisez un dosage d’anticorps anti-TPO pour confirmer une maladie de Basedow.",
+            "E) L’orbitopathie basedowienne peut se manifester par une diplopie et une exophtalmie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "R, 50 ans, est habituellement traité pour une insuffisance surrénalienne secondaire à une corticothérapie au long cours. Alors qu’il présente une grippe depuis 3 jours, il est confronté à plusieurs épisodes de vomissements entre 8h et 11h du matin. Parmi les affirmations suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) Une insuffisance surrénalienne aiguë peut associer une hypotension artérielle, des douleurs diffuses et une confusion.",
+            "B) Vous conseillez dès la prise en charge au domicile un doublement de ses doses habituelles d’Hydrocortisone per os.",
+            "C) L’existence d’une hyper kaliémie est classique dans ce type d’insuffisance surrénalienne",
+            "D) Vous réalisez un dosage de cortisol, et débutez la prise en charge sans attendre les résultats.",
+            "E) Vous instaurez dès son arrivée aux urgences un traitement par un bolus IV d’Hydrocortisone 100 mg."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les agonistes des récepteurs du GLP1, quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) Ils augmentent la sécrétion d’insuline liée à l’hyperglycémie",
+            "B) La gastroparésie est une contre-indication à leur utilisation",
+            "C) Ils diminuent la satiété",
+            "D) Ils ne peuvent pas être utilisés en association avec les inhibiteurs de DPP4",
+            "E) Le principal effet indésirable de leur utilisation est la survenue d’hypoglycémies"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la première ligne de traitement du diabète de type 2 par mesures d’hygiène de vie, quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) L’apport glucidique quotidien recommandé est de l’ordre de 50% de l’apport en calories",
+            "B) L’apport lipidique recommandé ne doit pas dépasser 30% de l’apport en calories",
+            "C) Les recommandations diététiques visent à obtenir une perte de poids initiale d’au moins 10 kg",
+            "D) La quantité d’activité physique recommandée est d’au moins 250 minutes par semaine",
+            "E) L’activité physique agit via une augmentation de la sensibilité à l’insuline"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les situations suivantes, lesquelles sont à risque d’aggravation d’une rétinopathie diabétique ?",
+          "choix": [
+            "A) Hypertension artérielle mal contrôlée",
+            "B) Tabagisme",
+            "C) Puberté",
+            "D) Grossesse",
+            "E) Ménopause"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le risque de diabète de type 2 chez un adulte dont les deux parents présentent un diabète de type 2 ?",
+          "choix": [
+            "A) 5 à 10%",
+            "B) 10 à 20%",
+            "C) 20 à 30%",
+            "D) 30 à 60%",
+            "E) 60 à 80%"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 28,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’examen de dépistage de la néphropathie diabétique débutante? (un mot)",
+          "choix": [],
+          "reponses": [
+            "microalbuminurie",
+            "Microalbuminuerie",
+            "albuminurie/créatinurie",
+            "dosage rapport a/c"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous rencontrer Mélodie, une jeune femme de 17 ans, adressée par son infirmière scolaire, alertée par les enseignants qui trouvent qu’elle a de moins bons résultats scolaires. Parmi les éléments suivants recueillis à l’interrogatoire, lesquels vous permettent de poser le diagnostic d’anorexie mentale, selon les critères DSM V ?",
+          "choix": [
+            "A) la perte de poids s’est faite avec une hyperactivité physique sans modification des apports alimentaires,",
+            "B) Mélodie refuse de prendre des compléments alimentaires oraux malgré la prescription, proposée devant une perte de poids de 10% de son poids habituel,",
+            "C) Mélodie considère qu’elle est trop grosse au niveau du ventre et des cuisses malgré un indice de masse corporelle à 16 kg par mètre carré,",
+            "D) Mélodie vous dit que dans sa famille toutes les femmes sont minces et que son IMC est normal dans le contexte,",
+            "E) elle reconnaît que parfois pour préparer une compétition de gymnastique, elle prend des produits proposés par des camarades de sport connus pour faire uriner plus souvent ."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 30,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une personne présentant une obésité récente, avec une aménorrhée secondaire, des céphalées récentes, une hyperphagie avec une perte de satiété, explorée à deux reprises pour des épisodes d’hypernatrémie non expliquée, a possiblement une obésité secondaire. Il s’agit d’une obésité… Trouver le mot de 14 lettres commençant par la lettre H",
+          "choix": [],
+          "reponses": [
+            "HYPOTHALAMIQUE"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Préciser dans la liste, quels critères pourraient également être considérés pour définir une dénutrition chez Monsieur P, âgé de 63 ans, présentant un cancer du rein avec une insuffisance rénale (DFG 50 ml par minute), diabétique de type 2 traité par metformine, hypertendu traité par inhibiteurs calciques:",
+          "choix": [
+            "A) il a perdu 8 kg depuis trois mois, son poids habituel étant de 78 kg,",
+            "B) son IMC est de 19,2 kg /m2,",
+            "C) il est fatigué et il ne peut plus monter à pied les trois étages de l’escalier menant à son appartement par perte de force,",
+            "D) il a perdu l’appétit et mange un repas le midi, de taille réduite, une soupe de légumes le soir et ne prend plus de petit déjeuner",
+            "E) il y aurait des lésions pulmonaires secondaires"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une personne de 30 ans, avec un antécédent de cancer du sein, traitée initialement par radiothérapie, chimiothérapie et chirurgie, considérée comme en rémission et traitée seulement par hormonothérapie, avec une hypothyroïdie (traitée par hormone thyroïdienne), présentant un IMC de 32 kg /m2 est considérée comme présentant des complications de son obésité si : cocher les cases exactes",
+          "choix": [
+            "A) la pression partielle en oxygène aux gaz du sang est inférieure à 70,",
+            "B) il existe un lymphoedeme des deux membres inférieurs,",
+            "C) les triglycérides plasmatiques sont normaux mais le HDL cholestérol est abaissé au-dessous de 0,50 g par litre",
+            "D) il y a une incontinence urinaire lorsqu’elle fait un effort,",
+            "E) son bilan biologique oriente vers une hépatite auto-immune"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 33,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’indice de masse corporelle (IMC) définit l’obésité de l’adulte en France. Choisissez la valeur seuil de la définition :",
+          "choix": [
+            "A) IMC supérieur à 27 kg",
+            "B) IMC supérieur à 27 kg par mètre",
+            "C) IMC supérieur à 35 kg par mètre",
+            "D) IMC supérieur à 30 kg par mètre carré",
+            "E) IMC supérieur à 30% de masse grasse"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
   "questions": [
     {
       "id": 1,
