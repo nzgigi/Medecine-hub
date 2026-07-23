@@ -11,7 +11,8 @@
       "choix": [
         "Q) uestion à réponses précisées "
       ],
-      "reponses": []
+      "reponses": [],
+      "order": 1
     },
     {
       "id": 2,
@@ -21,7 +22,8 @@
       "choix": [
         "Q) uestion à réponse ouverte et courte "
       ],
-      "reponses": []
+      "reponses": [],
+      "order": 2
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "reponses": [
         "A",
         "D"
-      ]
+      ],
+      "order": 3
     },
     {
       "id": 4,
@@ -44,7 +47,8 @@
       "choix": [
         "P) artiel DFASM1/DFASM2 - KFP  Commentaire de correction de la question Classification de D'Amico classification D'Amico classifications d'Amico De D'Amico DAMICO classe d'Amico classimication d'Amico d amico Question à réponse unique "
       ],
-      "reponses": []
+      "reponses": [],
+      "order": 4
     },
     {
       "id": 5,
@@ -54,7 +58,8 @@
       "choix": [
         "Q) uestion à réponses multiples "
       ],
-      "reponses": []
+      "reponses": [],
+      "order": 5
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "choix": [
         "Q) uestion à réponses multiples "
       ],
-      "reponses": []
+      "reponses": [],
+      "order": 6
     },
     {
       "id": 7,
@@ -74,7 +80,8 @@
       "choix": [
         "Q) uestion à réponses multiples "
       ],
-      "reponses": []
+      "reponses": [],
+      "order": 7
     },
     {
       "id": 8,
@@ -93,6 +100,118 @@
       ],
       "reponses": [
         "D"
+      ],
+      "order": 8
+    }
+  ],
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "Questions",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelles sont la(les) complication(s) de l’hypertrophie bénigne de la prostate ?",
+          "choix": [
+            "Q) uestion à réponses précisées "
+          ],
+          "reponses": [],
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le principal facteur de risque de torsion du cordon spermatique ?",
+          "choix": [
+            "Q) uestion à réponse ouverte et courte "
+          ],
+          "reponses": [],
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans quelle(s) situation(s) le PSA peut-il être augmenté ?",
+          "choix": [
+            "Q) uestion à réponses multiples "
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la classification utilisée pour stadifier les groupes à risque du cancer de la prostate ?",
+          "choix": [
+            "P) artiel DFASM1/DFASM2 - KFP  Commentaire de correction de la question Classification de D'Amico classification D'Amico classifications d'Amico De D'Amico DAMICO classe d'Amico classimication d'Amico d amico Question à réponse unique "
+          ],
+          "reponses": [],
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous en priorité ?",
+          "choix": [
+            "Q) uestion à réponses multiples "
+          ],
+          "reponses": [],
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel(s) bilan(s) d’imagerie(s) pouvez-vous demander en urgence ?",
+          "choix": [
+            "Q) uestion à réponses multiples "
+          ],
+          "reponses": [],
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle prise en charge thérapeutique proposez-vous ?",
+          "choix": [
+            "Q) uestion à réponses multiples "
+          ],
+          "reponses": [],
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle antibiothérapie adaptée mettez-vous en place ?",
+          "choix": [
+            "A) ■ Augmentin",
+            "B) ■ Triméthoprime + Sulfaméthoxazole",
+            "C) ■ Fosfomycine",
+            "D) Ofloxacine",
+            "E) ■ Tazocilline 9/9",
+            "F) osfomycine",
+            "O) floxacine",
+            "R) éponse attendue"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "order": 8
+        }
       ]
     }
   ]
