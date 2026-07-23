@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import {
   Heart,
   Home,
+  Landmark,
   Mail,
   Menu,
   Scale,
@@ -30,6 +31,7 @@ export default function Navbar() {
   const navigation = [
     { name: "Accueil", href: "/", icon: Home },
     { name: "Mises a jour", href: "/mises-a-jour", icon: Sparkles },
+    { name: "Sources", href: "/sources", icon: Landmark },
     { name: "Mentions legales", href: "/mentions-legales", icon: Scale },
     { name: "Contact", href: "/contact", icon: Mail },
   ];
