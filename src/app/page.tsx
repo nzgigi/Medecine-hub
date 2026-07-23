@@ -28,6 +28,8 @@ interface MatiereData {
   semesterOrder: number;
   exams: ExamPreview[];
   totalQuestions: number;
+  subjectIcon?: string;
+  subjectColor?: string;
 }
 
 interface MatiereIndexEntry {
@@ -40,6 +42,8 @@ interface MatiereIndexEntry {
   examTitle?: string;
   semesterName?: string;
   semesterOrder?: number;
+  subjectIcon?: string;
+  subjectColor?: string;
 }
 
 interface SemesterGroup {
@@ -61,6 +65,8 @@ function buildMatieresFromIndex(data: MatiereIndexEntry[]): MatiereData[] {
         semesterOrder: item.semesterOrder ?? 1,
         exams: [],
         totalQuestions: 0,
+        subjectIcon: item.subjectIcon,
+        subjectColor: item.subjectColor,
       };
     }
 
@@ -212,7 +218,7 @@ export default function HomePage() {
 
             <div className="relative h-40 w-40 shrink-0 sm:h-56 sm:w-56 lg:h-64 lg:w-64">
               <Image
-                src="/brand/pfp.png"
+                src="/brand/pfp-v2.png"
                 alt="Medecine Hub"
                 fill
                 sizes="(min-width: 1024px) 256px, (min-width: 640px) 224px, 160px"
@@ -308,6 +314,8 @@ export default function HomePage() {
                           slug={matiere.slug}
                           totalQuestions={matiere.totalQuestions}
                           exams={matiere.exams}
+                          subjectIcon={matiere.subjectIcon}
+                          subjectColor={matiere.subjectColor}
                         />
                       ))}
                     </div>

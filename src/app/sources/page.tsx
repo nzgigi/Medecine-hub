@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   ArrowLeft,
   ExternalLink,
+  FolderOpen,
   GraduationCap,
   Landmark,
   type LucideIcon,
@@ -25,6 +26,7 @@ interface TypeConfig {
 
 const TYPE_CONFIG: Record<string, TypeConfig> = {
   universite: { label: "Université", icon: GraduationCap },
+  plateforme: { label: "Plateforme", icon: FolderOpen },
 };
 
 const DEFAULT_TYPE_CONFIG: TypeConfig = {

@@ -67,7 +67,7 @@ export default function Navbar() {
         >
           <div className="relative h-14 w-14 shrink-0 transition-transform duration-200 group-hover:scale-105">
             <Image
-              src="/brand/pfp.png"
+              src="/brand/pfp-v2.png"
               alt="Logo Medecine Hub"
               fill
               priority
@@ -87,7 +87,7 @@ export default function Navbar() {
           </div>
         </Link>
 
-        <div className="hidden items-center gap-1 md:flex">
+        <div className="hidden items-center gap-1 lg:flex">
           {navigation.map((item) => {
             const active = isActive(item.href);
 
@@ -150,7 +150,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="flex items-center gap-1 md:hidden">
+        <div className="flex items-center gap-1 lg:hidden">
           <ThemeToggle variant="icon" />
 
           <button
@@ -174,7 +174,7 @@ export default function Navbar() {
       </nav>
 
       {mobileMenuOpen && (
-        <div className="border-t border-stone-200 bg-white px-4 pb-4 pt-3 dark:border-stone-800 dark:bg-black md:hidden">
+        <div className="border-t border-stone-200 bg-white px-4 pb-4 pt-3 dark:border-stone-800 dark:bg-black lg:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-1">
             {navigation.map((item) => {
               const Icon = item.icon;

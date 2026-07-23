@@ -1,11 +1,13 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import {
+  getAdminActor,
   requireAdminRequest,
   safeJoinInside,
   sanitizeSlug,
   sanitizeYear,
 } from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 interface IndexEntry {
   matiere: string;
@@ -157,6 +159,8 @@ export async function POST(request: Request) {
       const normalizedEntries = normalizeEntries(body.entries);
       writeIndex(normalizedEntries);
 
+      logAdminAction(getAdminActor(request), "Sauvegarde de l'index des matières");
+
       return NextResponse.json({
         success: true,
         message: "Index sauvegardé avec succès",
@@ -169,6 +173,8 @@ export async function POST(request: Request) {
       const normalizedEntries = normalizeEntries(currentIndex);
 
       writeIndex(normalizedEntries);
+
+      logAdminAction(getAdminActor(request), "Normalisation de l'index des matières");
 
       return NextResponse.json({
         success: true,
@@ -206,6 +212,12 @@ export async function POST(request: Request) {
 
       writeIndex(normalizeEntries(nextIndex));
 
+      logAdminAction(
+        getAdminActor(request),
+        "Suppression d'une épreuve",
+        `${safeSlug} - ${safeYear}`
+      );
+
       return NextResponse.json({
         success: true,
         message: "Épreuve supprimée avec succès",
@@ -241,6 +253,12 @@ export async function POST(request: Request) {
       const nextIndex = currentIndex.filter((entry) => entry.slug !== safeSlug);
 
       writeIndex(normalizeEntries(nextIndex));
+
+      logAdminAction(
+        getAdminActor(request),
+        "Suppression d'une matière",
+        safeSlug
+      );
 
       return NextResponse.json({
         success: true,

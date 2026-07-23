@@ -1,11 +1,13 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import {
+  getAdminActor,
   requireAdminRequest,
   safeJoinInside,
   sanitizeSlug,
   sanitizeYear,
 } from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 interface IndexEntry {
   matiere: string;
@@ -88,6 +90,12 @@ export async function POST(request: Request) {
     if (updated > 0) {
       fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2));
     }
+
+    logAdminAction(
+      getAdminActor(request),
+      "Synchronisation des totaux de questions",
+      `${updated} entrée(s) mise(s) à jour`
+    );
 
     return NextResponse.json({
       success: true,

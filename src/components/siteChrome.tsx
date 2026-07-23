@@ -32,7 +32,7 @@ export default function SiteChrome({
             <Link href="/" className="flex items-center gap-3">
               <div className="relative h-12 w-12 shrink-0">
                 <Image
-                  src="/brand/pfp.png"
+                  src="/brand/pfp-v2.png"
                   alt="Logo Medecine Hub"
                   fill
                   sizes="48px"

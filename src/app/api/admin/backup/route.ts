@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { exec } from "child_process";
 import { promisify } from "util";
-import { requireAdminRequest } from "@/lib/server/security";
+import { getAdminActor, requireAdminRequest } from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 const execAsync = promisify(exec);
 
@@ -27,6 +28,8 @@ export async function POST(request: Request) {
       ].join(" && "),
       { cwd }
     );
+
+    logAdminAction(getAdminActor(request), "Backup manuel vers GitHub");
 
     return NextResponse.json({
       success: true,

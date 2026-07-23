@@ -13,6 +13,7 @@ import {
   User,
   Wind,
 } from "lucide-react";
+import { SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/subjectStyles";
 
 interface ExamPreview {
   annee: number;
@@ -25,6 +26,8 @@ interface MatiereCardProps {
   slug: string;
   totalQuestions: number;
   exams: ExamPreview[];
+  subjectIcon?: string;
+  subjectColor?: string;
 }
 
 const accents: Record<string, string> = {
@@ -84,15 +87,23 @@ export default function MatiereCard({
   slug,
   totalQuestions,
   exams,
+  subjectIcon,
+  subjectColor,
 }: MatiereCardProps) {
-  const accent = getAccent(matiere);
+  const accent =
+    (subjectColor && SUBJECT_COLORS[subjectColor]) || getAccent(matiere);
+  const CustomIcon = subjectIcon ? SUBJECT_ICONS[subjectIcon] : undefined;
 
   return (
     <article className="h-full rounded-lg border border-stone-200 bg-white transition-colors hover:border-stone-300 dark:border-stone-800 dark:bg-black dark:hover:border-stone-700">
       <div className="flex h-full flex-col p-5">
         <div className="flex items-start justify-between gap-4">
           <div className={`inline-flex rounded-lg border p-2 ${accent}`}>
-            {renderMatiereIcon(matiere)}
+            {CustomIcon ? (
+              <CustomIcon className="h-5 w-5" />
+            ) : (
+              renderMatiereIcon(matiere)
+            )}
           </div>
 
           <div className="inline-flex items-center gap-1 rounded-md border border-stone-200 px-2.5 py-1 text-xs font-bold text-stone-600 dark:border-stone-700 dark:text-stone-300">

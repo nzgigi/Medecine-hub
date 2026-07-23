@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -17,7 +17,94 @@ export default function AdminLoginPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [googleError, setGoogleError] = useState("");
+  const [googleReady, setGoogleReady] = useState(false);
+  const googleButtonRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
+  const clientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
+
+  useEffect(() => {
+    if (!clientId) {
+      setGoogleError("Connexion Google non configurée.");
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://accounts.google.com/gsi/client";
+    script.async = true;
+    script.defer = true;
+
+    script.onload = () => {
+      if (!window.google?.accounts?.id || !googleButtonRef.current) {
+        setGoogleError("Google n'a pas pu être initialisé.");
+        return;
+      }
+
+      window.google.accounts.id.initialize({
+        client_id: clientId,
+        ux_mode: "popup",
+        callback: async (response) => {
+          try {
+            if (!response.credential) {
+              throw new Error("Aucun profil Google reçu");
+            }
+
+            const apiResponse = await fetch("/api/auth/admin-google", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ credential: response.credential }),
+            });
+
+            const data = await apiResponse.json();
+
+            if (!apiResponse.ok || !data.success) {
+              throw new Error(
+                data.message || "Ce compte Google n'est pas autorisé"
+              );
+            }
+
+            localStorage.setItem("admin_token", data.token);
+            localStorage.setItem(
+              "admin_identity",
+              JSON.stringify({ name: data.name, picture: data.picture })
+            );
+            router.push("/admin");
+          } catch (eventError) {
+            setGoogleError(
+              eventError instanceof Error
+                ? eventError.message
+                : "Connexion impossible"
+            );
+          }
+        },
+      });
+
+      const googleButtonWidth = Math.min(
+        320,
+        Math.max(200, googleButtonRef.current.offsetWidth)
+      );
+
+      window.google.accounts.id.renderButton(googleButtonRef.current, {
+        theme: "outline",
+        size: "large",
+        shape: "rectangular",
+        text: "continue_with",
+        width: googleButtonWidth,
+      });
+
+      setGoogleReady(true);
+    };
+
+    script.onerror = () => {
+      setGoogleError("Impossible de charger Google Sign-In.");
+    };
+
+    document.head.appendChild(script);
+
+    return () => {
+      script.remove();
+    };
+  }, [clientId, router]);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -104,6 +191,33 @@ export default function AdminLoginPage() {
                 Connectez-vous pour gerer les epreuves, les menus et la qualite
                 des fichiers QCM.
               </p>
+            </div>
+
+            <div className="mb-6 rounded-xl border border-stone-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+              <p className="mb-4 text-sm font-bold text-stone-700 dark:text-gray-200">
+                Connexion recommandée (compte Google autorisé)
+              </p>
+
+              <div className="min-h-11" ref={googleButtonRef} />
+
+              {!googleReady && !googleError && (
+                <p className="mt-3 text-sm text-stone-500 dark:text-gray-400">
+                  Chargement de Google...
+                </p>
+              )}
+
+              {googleError && (
+                <div className="mt-4 flex items-start gap-3 rounded-lg border border-red-200 bg-red-50 p-3 text-sm font-semibold text-red-700 dark:border-red-900/60 dark:bg-red-950/30 dark:text-red-200">
+                  <AlertCircle className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                  <span>{googleError}</span>
+                </div>
+              )}
+            </div>
+
+            <div className="mb-6 flex items-center gap-3 text-xs font-bold uppercase text-stone-400 dark:text-gray-500">
+              <div className="h-px flex-1 bg-stone-200 dark:bg-gray-800" />
+              Ou avec le mot de passe partagé
+              <div className="h-px flex-1 bg-stone-200 dark:bg-gray-800" />
             </div>
 
             <form

@@ -115,6 +115,9 @@ export default function EditQCMPage() {
   const [uploadingQuestionId, setUploadingQuestionId] = useState<number | null>(
     null
   );
+  const [draggingQuestionId, setDraggingQuestionId] = useState<number | null>(
+    null
+  );
 
   useEffect(() => {
     const token = localStorage.getItem("admin_token");
@@ -1047,8 +1050,8 @@ export default function EditQCMPage() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-[320px_1fr] gap-6">
-          <aside className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-5 h-fit lg:sticky lg:top-28">
+        <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6 min-w-0">
+          <aside className="min-w-0 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-5 h-fit lg:sticky lg:top-28">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-extrabold text-xl">Dossiers</h2>
               <button
@@ -1125,7 +1128,7 @@ export default function EditQCMPage() {
             </div>
           </aside>
 
-          <main>
+          <main className="min-w-0">
             {!activeFolder ? (
               <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-8 text-center">
                 <FileText className="w-12 h-12 mx-auto mb-4 text-gray-400" />
@@ -1234,7 +1237,7 @@ export default function EditQCMPage() {
                       key={question.id}
                       className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border-2 border-gray-100 dark:border-gray-800"
                     >
-                      <div className="flex justify-between items-start gap-4 mb-5">
+                      <div className="flex flex-wrap justify-between items-start gap-4 mb-5">
                         <div className="flex items-center gap-3 flex-wrap">
                           <span className="font-bold text-xl text-blue-600">
                             Q{index + 1}
@@ -1389,7 +1392,36 @@ export default function EditQCMPage() {
                             </button>
                           </div>
                         ) : (
-                          <label className="flex items-center gap-3 cursor-pointer w-fit bg-gray-50 dark:bg-gray-900 border-2 border-dashed border-gray-300 dark:border-gray-700 hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all px-5 py-3 rounded-xl">
+                          <label
+                            onDragOver={(event) => {
+                              event.preventDefault();
+                              setDraggingQuestionId(question.id);
+                            }}
+                            onDragLeave={() =>
+                              setDraggingQuestionId((current) =>
+                                current === question.id ? null : current
+                              )
+                            }
+                            onDrop={(event) => {
+                              event.preventDefault();
+                              setDraggingQuestionId(null);
+
+                              const file = event.dataTransfer.files?.[0];
+
+                              if (file) {
+                                handleImageUpload(
+                                  activeFolder.id,
+                                  question.id,
+                                  file
+                                );
+                              }
+                            }}
+                            className={`flex items-center gap-3 cursor-pointer w-fit border-2 border-dashed transition-all px-5 py-3 rounded-xl ${
+                              draggingQuestionId === question.id
+                                ? "border-blue-500 bg-blue-100 dark:bg-blue-900/40"
+                                : "bg-gray-50 dark:bg-gray-900 border-gray-300 dark:border-gray-700 hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20"
+                            }`}
+                          >
                             {uploadingQuestionId === question.id ? (
                               <span className="text-sm text-gray-500 dark:text-gray-300">
                                 Upload en cours...
@@ -1398,7 +1430,9 @@ export default function EditQCMPage() {
                               <>
                                 <ImagePlus className="w-5 h-5 text-gray-400" />
                                 <span className="text-sm text-gray-500 dark:text-gray-300 font-medium">
-                                  Ajouter une image
+                                  {draggingQuestionId === question.id
+                                    ? "Déposez l'image ici"
+                                    : "Ajouter une image (ou glisser-déposer)"}
                                 </span>
                               </>
                             )}
@@ -1447,7 +1481,7 @@ export default function EditQCMPage() {
                             return (
                               <div
                                 key={`${question.id}-${choiceIndex}`}
-                                className="flex gap-2 mb-2 items-center group"
+                                className="flex flex-wrap gap-2 mb-2 items-center group"
                               >
                                 <button
                                   onClick={() =>
@@ -1507,10 +1541,10 @@ export default function EditQCMPage() {
                                       event.target.value
                                     )
                                   }
-                                  className="flex-1 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
+                                  className="min-w-[140px] flex-1 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
                                 />
 
-                                <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <div className="flex basis-full justify-end gap-1 opacity-60 group-hover:opacity-100 sm:basis-auto sm:justify-start sm:opacity-0 sm:group-hover:opacity-100 transition-opacity">
                                   <button
                                     onClick={() =>
                                       moveChoice(

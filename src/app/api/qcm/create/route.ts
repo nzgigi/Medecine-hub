@@ -2,11 +2,13 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import {
+  getAdminActor,
   requireAdminRequest,
   safeJoinInside,
   sanitizeSlug,
   sanitizeYear,
 } from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 interface IndexEntry {
   matiere: string;
@@ -18,6 +20,8 @@ interface IndexEntry {
   examTitle?: string;
   semesterName?: string;
   semesterOrder?: number;
+  subjectIcon?: string;
+  subjectColor?: string;
 }
 
 interface NewQCM {
@@ -135,10 +139,12 @@ export async function POST(req: Request) {
 
     const body = await req.json();
 
-    const { slug, matiere, annee } = body as {
+    const { slug, matiere, annee, subjectIcon, subjectColor } = body as {
       slug: string;
       matiere: string;
       annee: number;
+      subjectIcon?: string;
+      subjectColor?: string;
     };
 
     if (!slug || !matiere || !annee) {
@@ -221,6 +227,8 @@ export async function POST(req: Request) {
         semesterName: existingSubject?.semesterName?.trim() || "Semestre 7",
         semesterOrder: existingSubject?.semesterOrder ?? 1,
         examTitle: `${matiere} - ${safeYear}`,
+        subjectIcon: subjectIcon || existingSubject?.subjectIcon,
+        subjectColor: subjectColor || existingSubject?.subjectColor,
       });
     }
 
@@ -230,6 +238,12 @@ export async function POST(req: Request) {
       indexPath,
       JSON.stringify(normalizedIndex, null, 2),
       "utf-8"
+    );
+
+    logAdminAction(
+      getAdminActor(req),
+      "Création/mise à jour d'un QCM",
+      `${matiere} - ${safeYear}`
     );
 
     return NextResponse.json({

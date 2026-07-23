@@ -1,12 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { access, chmod, constants, mkdir, writeFile } from "fs/promises";
 import {
+  getAdminActor,
   requireAdminRequest,
   safeJoinInside,
   sanitizeQuestionId,
   sanitizeSlug,
   sanitizeYear,
 } from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 const MAX_IMAGE_SIZE_BYTES = 4 * 1024 * 1024;
 const ALLOWED_IMAGE_TYPES: Record<string, string> = {
@@ -86,6 +88,12 @@ export async function POST(req: NextRequest) {
         { status: 500 }
       );
     }
+
+    logAdminAction(
+      getAdminActor(req),
+      "Upload d'une image de question",
+      `${safeSlug} - ${safeYear} - q${safeQuestionId}`
+    );
 
     return NextResponse.json({
       success: true,

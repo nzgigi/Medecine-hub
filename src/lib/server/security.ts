@@ -4,10 +4,21 @@ import { NextResponse } from "next/server";
 
 const ADMIN_TOKEN_TTL_MS = 1000 * 60 * 60 * 8;
 
+export const ADMIN_GOOGLE_WHITELIST = [
+  "p2cuisson@gmail.com",
+  "nnzn4s1m@gmail.com",
+];
+
+export interface AdminIdentity {
+  googleEmail?: string;
+  googleName?: string;
+  googlePicture?: string;
+}
+
 type AdminTokenPayload = {
   username: string;
   exp: number;
-};
+} & AdminIdentity;
 
 function getAdminSecret() {
   return (
@@ -29,15 +40,61 @@ function sign(value: string) {
   return crypto.createHmac("sha256", getAdminSecret()).update(value).digest("base64url");
 }
 
-export function createAdminToken(username: string) {
+export function createAdminToken(username: string, identity?: AdminIdentity) {
   const payload: AdminTokenPayload = {
     username,
     exp: Date.now() + ADMIN_TOKEN_TTL_MS,
+    ...identity,
   };
   const encodedPayload = base64UrlEncode(JSON.stringify(payload));
   const signature = sign(encodedPayload);
 
   return `${encodedPayload}.${signature}`;
+}
+
+function decodeAdminToken(
+  token: string | null | undefined
+): AdminTokenPayload | null {
+  if (!token) return null;
+
+  const [encodedPayload, signature] = token.split(".");
+  if (!encodedPayload || !signature) return null;
+
+  const expectedSignature = sign(encodedPayload);
+  const signatureBuffer = Buffer.from(signature);
+  const expectedBuffer = Buffer.from(expectedSignature);
+
+  if (
+    signatureBuffer.length !== expectedBuffer.length ||
+    !crypto.timingSafeEqual(signatureBuffer, expectedBuffer)
+  ) {
+    return null;
+  }
+
+  try {
+    const payload = JSON.parse(base64UrlDecode(encodedPayload)) as AdminTokenPayload;
+    if (!payload.username || payload.exp <= Date.now()) return null;
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Renvoie l'identité de l'admin authentifié (utilisée pour le journal
+ * d'actions). Suppose que `requireAdminRequest` a déjà validé la requête.
+ */
+export function getAdminActor(request: Request): AdminIdentity & {
+  username: string;
+} {
+  const payload = decodeAdminToken(getBearerToken(request));
+
+  return {
+    username: payload?.username ?? "inconnu",
+    googleEmail: payload?.googleEmail,
+    googleName: payload?.googleName,
+    googlePicture: payload?.googlePicture,
+  };
 }
 
 export function verifyAdminToken(token: string | null | undefined) {

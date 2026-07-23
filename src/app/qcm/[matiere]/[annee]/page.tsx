@@ -57,6 +57,9 @@ interface QcmHistoryItem {
 const ICON_BUTTON_CLASSES =
   "rounded-lg border border-stone-200 bg-white p-2 text-stone-600 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-300 dark:hover:bg-stone-900";
 
+const ICON_BUTTON_ACTIVE_CLASSES =
+  "rounded-lg border border-emerald-700 bg-emerald-50 p-2 text-emerald-800 transition-colors hover:bg-emerald-100 dark:border-emerald-500 dark:bg-emerald-950/40 dark:text-emerald-300 dark:hover:bg-emerald-950/60";
+
 const CONTEXT_COLLAPSE_THRESHOLD = 260;
 
 function getFolderTypeLabel(type: ExamFolder["type"]) {
@@ -186,6 +189,7 @@ export default function QCMPage() {
   const [correctionFolderIndex, setCorrectionFolderIndex] = useState(0);
   const [questionsPanelOpen, setQuestionsPanelOpen] = useState(false);
   const [foldersPanelOpen, setFoldersPanelOpen] = useState(false);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   const [attemptLoaded, setAttemptLoaded] = useState(false);
 
@@ -1050,7 +1054,7 @@ export default function QCMPage() {
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-950 dark:bg-black dark:text-stone-100">
-      <header className="sticky top-0 z-30 border-b border-stone-200 bg-white/95 backdrop-blur dark:border-stone-800 dark:bg-black/95">
+      <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/95 backdrop-blur dark:border-stone-800 dark:bg-black/95">
         <div className="mx-auto flex max-w-3xl items-center gap-2 px-3 py-2.5 sm:gap-3 sm:px-4">
           <Link
             href="/"
@@ -1081,18 +1085,26 @@ export default function QCMPage() {
 
           <div className="flex shrink-0 items-center gap-1.5">
             <button
-              onClick={() => setQuestionsPanelOpen(true)}
-              className={ICON_BUTTON_CLASSES}
-              aria-label="Ouvrir les questions"
+              onClick={() => setQuestionsPanelOpen((current) => !current)}
+              className={
+                questionsPanelOpen
+                  ? ICON_BUTTON_ACTIVE_CLASSES
+                  : ICON_BUTTON_CLASSES
+              }
+              aria-label="Afficher/masquer les questions"
               title="Questions"
             >
               <Menu className="h-4 w-4" />
             </button>
 
             <button
-              onClick={() => setFoldersPanelOpen(true)}
-              className={ICON_BUTTON_CLASSES}
-              aria-label="Ouvrir les dossiers"
+              onClick={() => setFoldersPanelOpen((current) => !current)}
+              className={
+                foldersPanelOpen
+                  ? ICON_BUTTON_ACTIVE_CLASSES
+                  : ICON_BUTTON_CLASSES
+              }
+              aria-label="Afficher/masquer les dossiers"
               title="Dossiers"
             >
               <FolderOpen className="h-4 w-4" />
@@ -1184,8 +1196,9 @@ export default function QCMPage() {
                 <img
                   src={currentQuestion.image}
                   alt={`Illustration Q${currentQuestion.id}`}
-                  className="max-h-72 rounded-lg border border-stone-200 object-contain shadow-sm dark:border-stone-700"
+                  className="max-h-72 cursor-zoom-in rounded-lg border border-stone-200 object-contain shadow-sm transition-opacity hover:opacity-90 dark:border-stone-700"
                   onError={handleQuestionImageError}
+                  onClick={() => setLightboxImage(currentQuestion.image ?? null)}
                 />
                 <div
                   className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-400"
@@ -1197,16 +1210,6 @@ export default function QCMPage() {
             )}
 
             {renderQuestionContent()}
-
-            {isProgressiveFolder &&
-              !isCurrentFolderSubmitted &&
-              !isCurrentQuestionLocked && (
-                <div className="mt-4 rounded-lg border border-stone-200 bg-stone-50 p-3 text-xs text-stone-600 dark:border-stone-800 dark:bg-stone-900 dark:text-stone-300">
-                  En {currentFolder.type}, une fois la question validée, elle
-                  sera verrouillée et vous ne pourrez plus modifier votre
-                  réponse.
-                </div>
-              )}
           </div>
         </div>
 
@@ -1264,30 +1267,37 @@ export default function QCMPage() {
       </main>
 
       {questionsPanelOpen && (
-        <div className="fixed inset-0 z-50">
-          <button
-            className="absolute inset-0 bg-black/50"
-            onClick={() => setQuestionsPanelOpen(false)}
-            aria-label="Fermer le panneau questions"
-          />
-
-          <div className="absolute left-0 top-0 bottom-0 w-80 max-w-[85vw] overflow-y-auto bg-white p-5 shadow-2xl dark:bg-stone-950">
-            {questionsDrawer}
-          </div>
+        <div className="fixed left-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-r border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-stone-950/98">
+          {questionsDrawer}
         </div>
       )}
 
       {foldersPanelOpen && (
-        <div className="fixed inset-0 z-50">
-          <button
-            className="absolute inset-0 bg-black/50"
-            onClick={() => setFoldersPanelOpen(false)}
-            aria-label="Fermer le panneau dossiers"
-          />
+        <div className="fixed right-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-l border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-stone-950/98">
+          {foldersDrawer}
+        </div>
+      )}
 
-          <div className="absolute right-0 top-0 bottom-0 w-80 max-w-[85vw] overflow-y-auto bg-white p-5 shadow-2xl dark:bg-stone-950">
-            {foldersDrawer}
-          </div>
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 z-[60] flex items-center justify-center bg-black/90 p-4"
+          onClick={() => setLightboxImage(null)}
+        >
+          <button
+            onClick={() => setLightboxImage(null)}
+            className="absolute right-4 top-4 rounded-lg bg-white/10 p-2 text-white transition-colors hover:bg-white/20"
+            aria-label="Fermer l'image"
+          >
+            <X className="h-6 w-6" />
+          </button>
+
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={lightboxImage}
+            alt="Illustration en plein écran"
+            className="max-h-[90vh] max-w-[90vw] cursor-zoom-out rounded-lg object-contain"
+            onClick={(event) => event.stopPropagation()}
+          />
         </div>
       )}
     </div>

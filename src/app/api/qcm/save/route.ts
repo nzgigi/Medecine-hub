@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import {
+  getAdminActor,
   requireAdminRequest,
   safeJoinInside,
   sanitizeSlug,
   sanitizeYear,
 } from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 interface IndexEntry {
   matiere: string;
@@ -99,6 +101,12 @@ export async function POST(request: NextRequest) {
     } catch (indexError: unknown) {
       console.error("Erreur mise à jour index:", indexError);
     }
+
+    logAdminAction(
+      getAdminActor(request),
+      "Sauvegarde d'un QCM",
+      `${matiere} - ${anneeString}`
+    );
 
     return NextResponse.json({
       success: true,

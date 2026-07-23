@@ -42,6 +42,9 @@ yarn-error.log*
 # base utilisateurs locale (noms/emails, non versionnée)
 /data/users/
 
+# journal d'actions admin (non versionné)
+/data/admin/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

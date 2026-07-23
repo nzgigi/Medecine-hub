@@ -1,9 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { unlink } from "fs/promises";
 import {
+  getAdminActor,
   requireAdminRequest,
   safeJoinInside,
 } from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 export async function POST(req: NextRequest) {
   try {
@@ -30,6 +32,8 @@ export async function POST(req: NextRequest) {
     const fullPath = safeJoinInside(imageRoot, relativeImagePath);
 
     await unlink(fullPath);
+
+    logAdminAction(getAdminActor(req), "Suppression d'une image de question", imagePath);
 
     return NextResponse.json({ success: true });
   } catch {

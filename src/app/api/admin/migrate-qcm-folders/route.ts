@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
-import { requireAdminRequest, safeJoinInside } from "@/lib/server/security";
+import {
+  getAdminActor,
+  requireAdminRequest,
+  safeJoinInside,
+} from "@/lib/server/security";
+import { logAdminAction } from "@/lib/server/adminLog";
 
 interface Question {
   id: number;
@@ -113,6 +118,12 @@ export async function POST(request: Request) {
         totalQuestions: data.questions.length,
       });
     }
+
+    logAdminAction(
+      getAdminActor(request),
+      "Migration des QCM vers le format dossiers",
+      `${migratedFiles.length} migré(s), ${skippedFiles.length} ignoré(s)`
+    );
 
     return NextResponse.json({
       success: true,

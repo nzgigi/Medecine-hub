@@ -13,6 +13,7 @@ import {
   DatabaseZap,
   Edit,
   FileText,
+  History,
   Layers,
   LogOut,
   Plus,
@@ -26,6 +27,12 @@ import {
   Wand2,
   X,
 } from "lucide-react";
+import {
+  SUBJECT_COLOR_KEYS,
+  SUBJECT_COLOR_SWATCH,
+  SUBJECT_ICON_KEYS,
+  SUBJECT_ICONS,
+} from "@/lib/subjectStyles";
 
 interface MatiereIndex {
   matiere: string;
@@ -324,6 +331,8 @@ export default function AdminDashboard() {
   const [newSlug, setNewSlug] = useState("");
   const [slugManuallyEdited, setSlugManuallyEdited] = useState(false);
   const [newAnnee, setNewAnnee] = useState("");
+  const [newSubjectIcon, setNewSubjectIcon] = useState(SUBJECT_ICON_KEYS[0]);
+  const [newSubjectColor, setNewSubjectColor] = useState(SUBJECT_COLOR_KEYS[0]);
   const [creating, setCreating] = useState(false);
 
   const slugIsValid = newSlug === "" || SLUG_PATTERN.test(newSlug);
@@ -697,7 +706,14 @@ export default function AdminDashboard() {
       const response = await fetch("/api/qcm/create", {
         method: "POST",
         headers: getAdminHeaders({ "Content-Type": "application/json" }),
-        body: JSON.stringify({ matiere, slug, annee: anneeNum }),
+        body: JSON.stringify({
+          matiere,
+          slug,
+          annee: anneeNum,
+          ...(createMode === "new"
+            ? { subjectIcon: newSubjectIcon, subjectColor: newSubjectColor }
+            : {}),
+        }),
       });
 
       const result = (await response.json()) as {
@@ -718,6 +734,8 @@ export default function AdminDashboard() {
       setNewSlug("");
       setSlugManuallyEdited(false);
       setNewAnnee("");
+      setNewSubjectIcon(SUBJECT_ICON_KEYS[0]);
+      setNewSubjectColor(SUBJECT_COLOR_KEYS[0]);
 
       if (
         confirm(
@@ -1113,6 +1131,13 @@ export default function AdminDashboard() {
                 <Save className="h-4 w-4" />
                 {savingIndex ? "Sauvegarde..." : "Sauvegarder"}
               </button>
+              <Link
+                href="/admin/logs"
+                className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
+              >
+                <History className="h-4 w-4" />
+                Journal
+              </Link>
               <button
                 onClick={handleLogout}
                 className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
@@ -1248,6 +1273,7 @@ export default function AdminDashboard() {
                 </div>
               )
             ) : (
+              <div className="space-y-4">
               <div className="grid gap-3 md:grid-cols-[1fr_0.85fr_120px_auto] md:items-start">
                 <input
                   type="text"
@@ -1285,6 +1311,60 @@ export default function AdminDashboard() {
                   <Plus className="h-4 w-4" />
                   {creating ? "Creation..." : "Creer"}
                 </button>
+              </div>
+
+              <div>
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">
+                  Icone
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {SUBJECT_ICON_KEYS.map((iconKey) => {
+                    const Icon = SUBJECT_ICONS[iconKey];
+                    const active = newSubjectIcon === iconKey;
+
+                    return (
+                      <button
+                        key={iconKey}
+                        type="button"
+                        onClick={() => setNewSubjectIcon(iconKey)}
+                        aria-label={`Icone ${iconKey}`}
+                        className={`flex h-9 w-9 items-center justify-center rounded-lg border-2 transition ${
+                          active
+                            ? "border-emerald-600 bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300"
+                            : "border-stone-200 text-stone-500 hover:bg-stone-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+                        }`}
+                      >
+                        <Icon className="h-4 w-4" />
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">
+                  Couleur
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {SUBJECT_COLOR_KEYS.map((colorKey) => {
+                    const active = newSubjectColor === colorKey;
+
+                    return (
+                      <button
+                        key={colorKey}
+                        type="button"
+                        onClick={() => setNewSubjectColor(colorKey)}
+                        aria-label={`Couleur ${colorKey}`}
+                        className={`h-8 w-8 rounded-full ${SUBJECT_COLOR_SWATCH[colorKey]} transition ${
+                          active
+                            ? "ring-2 ring-offset-2 ring-stone-950 dark:ring-offset-gray-900 dark:ring-white"
+                            : "opacity-70 hover:opacity-100"
+                        }`}
+                      />
+                    );
+                  })}
+                </div>
+              </div>
               </div>
             )}
           </div>

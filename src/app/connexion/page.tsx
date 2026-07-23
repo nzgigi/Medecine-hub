@@ -64,12 +64,17 @@ export default function ConnexionPage() {
         },
       });
 
+      const buttonWidth = Math.min(
+        320,
+        Math.max(200, buttonRef.current.offsetWidth)
+      );
+
       window.google.accounts.id.renderButton(buttonRef.current, {
         theme: "outline",
         size: "large",
         shape: "rectangular",
         text: "continue_with",
-        width: 320,
+        width: buttonWidth,
       });
 
       setReady(true);
