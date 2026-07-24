@@ -18,12 +18,12 @@ import {
 
 export default function MentionsLegalesPage() {
   return (
-    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+    <main className="min-h-screen bg-slate-50 dark:bg-[#151512]">
       <div className="mx-auto max-w-5xl px-4 pb-20 pt-8 sm:px-6 lg:px-8">
         {/* Retour */}
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-700 dark:text-slate-400 dark:hover:text-blue-300"
+          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-700 dark:text-stone-400 dark:hover:text-emerald-300"
         >
           <ArrowLeft className="h-4 w-4" />
           Retour à l&apos;accueil
@@ -32,7 +32,7 @@ export default function MentionsLegalesPage() {
         {/* Introduction */}
         <section className="pb-12 pt-14 sm:pb-16 sm:pt-20">
           <div className="max-w-3xl">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 dark:border-blue-900 dark:bg-blue-950/60 dark:text-blue-300">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 dark:border-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-300">
               <Scale className="h-4 w-4" />
               Informations légales
             </div>
@@ -41,13 +41,13 @@ export default function MentionsLegalesPage() {
               Mentions légales et confidentialité
             </h1>
 
-            <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 dark:text-stone-300 sm:text-lg">
               Cette page présente les informations relatives à Medecine Hub,
               à l&apos;utilisation de la plateforme et à la protection de vos
               données personnelles.
             </p>
 
-            <p className="mt-4 text-sm font-medium text-slate-500 dark:text-slate-400">
+            <p className="mt-4 text-sm font-medium text-slate-500 dark:text-stone-400">
               Dernière mise à jour : mai 2026
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function MentionsLegalesPage() {
             title="Objet de la plateforme"
             description="Medecine Hub met gratuitement à disposition des contenus destinés à faciliter les révisions."
           >
-            <ul className="space-y-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <ul className="space-y-3 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <Bullet>
                 L&apos;utilisation du site est libre et ne nécessite pas de
                 création de compte.
@@ -143,7 +143,7 @@ export default function MentionsLegalesPage() {
             title="Propriété intellectuelle"
             description="Les différents contenus présents sur le site ne relèvent pas tous du même régime."
           >
-            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
                 La structure du site, son interface et son code source sont
                 protégés par le droit d&apos;auteur et appartiennent à leurs
@@ -173,7 +173,7 @@ export default function MentionsLegalesPage() {
             title="Stockage local sur votre appareil"
             description="Certaines préférences sont enregistrées directement dans votre navigateur pour améliorer votre expérience."
           >
-            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
                 Medecine Hub peut utiliser le stockage local de votre navigateur
                 — appelé <strong>localStorage</strong> — pour mémoriser certaines
@@ -188,8 +188,8 @@ export default function MentionsLegalesPage() {
                 tiers.
               </p>
 
-              <div className="rounded-xl border border-blue-200 bg-blue-50 p-4 dark:border-blue-900 dark:bg-blue-950/30">
-                <p className="text-sm leading-6 text-blue-900 dark:text-blue-200">
+              <div className="rounded-xl border border-blue-200 bg-blue-50 p-4 dark:border-emerald-900 dark:bg-emerald-950/30">
+                <p className="text-sm leading-6 text-blue-900 dark:text-emerald-200">
                   Vous pouvez supprimer ces données à tout moment depuis les
                   paramètres de votre navigateur. Cette suppression peut
                   réinitialiser votre progression enregistrée localement et vos
@@ -205,7 +205,7 @@ export default function MentionsLegalesPage() {
             title="Cookies et autres traceurs"
             description="La plateforme limite l'utilisation des traceurs au strict nécessaire."
           >
-            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
                 À la date de la dernière mise à jour de cette page, Medecine Hub
                 n&apos;utilise pas de cookies publicitaires et ne dépose pas de
@@ -237,7 +237,7 @@ export default function MentionsLegalesPage() {
             title="Données personnelles"
             description="La consultation des annales ne nécessite aucune inscription."
           >
-            <div className="space-y-5 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <div className="space-y-5 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
                 La navigation sur Medecine Hub et l&apos;utilisation des QCM ne
                 nécessitent pas la création d&apos;un compte utilisateur.
@@ -293,7 +293,7 @@ export default function MentionsLegalesPage() {
             title="Liens vers des services externes"
             description="Certains liens peuvent vous rediriger vers des sites exploités par des tiers."
           >
-            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
                 La page de soutien contient notamment un lien vers PayPal. Ce
                 service externe dispose de ses propres règles de
@@ -316,7 +316,7 @@ export default function MentionsLegalesPage() {
             title="Vos droits"
             description="Vous pouvez demander des informations sur les données personnelles transmises via le formulaire de contact."
           >
-            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
                 Selon votre situation, vous pouvez demander l&apos;accès à vos
                 données personnelles, leur rectification, leur effacement ou la
@@ -345,7 +345,7 @@ export default function MentionsLegalesPage() {
             title="Limitation de responsabilité"
             description="La plateforme est fournie gratuitement et fait l'objet d'améliorations régulières."
           >
-            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
                 Medecine Hub s&apos;efforce de maintenir la plateforme
                 accessible et de proposer des contenus utiles. Nous ne pouvons
@@ -369,9 +369,9 @@ export default function MentionsLegalesPage() {
           </LegalSection>
 
           {/* Mise à jour */}
-          <section className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+          <section className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="flex items-start gap-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-stone-800 dark:text-stone-200">
                 <Heart className="h-5 w-5" />
               </div>
 
@@ -380,14 +380,14 @@ export default function MentionsLegalesPage() {
                   Évolution de cette page
                 </h2>
 
-                <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
+                <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-stone-300">
                   Ces informations peuvent être modifiées pour refléter
                   l&apos;évolution de Medecine Hub, l&apos;ajout de nouvelles
                   fonctionnalités ou les changements applicables à la
                   plateforme.
                 </p>
 
-                <p className="mt-3 text-xs font-medium text-slate-500 dark:text-slate-400">
+                <p className="mt-3 text-xs font-medium text-slate-500 dark:text-stone-400">
                   Dernière mise à jour : mai 2026
                 </p>
               </div>
@@ -411,9 +411,9 @@ function LegalSection({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900 sm:p-8">
+    <section className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18] sm:p-8">
       <div className="flex items-start gap-4">
-        <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300">
+        <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-emerald-950/60 dark:text-emerald-300">
           <Icon className="h-5 w-5" />
         </div>
 
@@ -422,7 +422,7 @@ function LegalSection({
             {title}
           </h2>
 
-          <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-400">
+          <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-stone-400">
             {description}
           </p>
         </div>
@@ -435,7 +435,7 @@ function LegalSection({
 
 function InfoGrid({ items }: { items: [string, string][] }) {
   return (
-    <dl className="divide-y divide-slate-200 rounded-xl border border-slate-200 bg-slate-50 px-4 dark:divide-slate-800 dark:border-slate-800 dark:bg-slate-950/50">
+    <dl className="divide-y divide-slate-200 rounded-xl border border-slate-200 bg-slate-50 px-4 dark:divide-stone-800 dark:border-stone-800 dark:bg-[#151512]/50">
       {items.map(([label, value]) => (
         <div
           key={label}
@@ -445,7 +445,7 @@ function InfoGrid({ items }: { items: [string, string][] }) {
             {label}
           </dt>
 
-          <dd className="leading-6 text-slate-600 dark:text-slate-300">
+          <dd className="leading-6 text-slate-600 dark:text-stone-300">
             {value}
           </dd>
         </div>
@@ -457,7 +457,7 @@ function InfoGrid({ items }: { items: [string, string][] }) {
 function Bullet({ children }: { children: React.ReactNode }) {
   return (
     <li className="flex items-start gap-3">
-      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600 dark:bg-blue-400" />
+      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600 dark:bg-emerald-400" />
       <span>{children}</span>
     </li>
   );

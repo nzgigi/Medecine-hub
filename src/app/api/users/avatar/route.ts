@@ -1,14 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { access, chmod, constants, mkdir, unlink, writeFile } from "fs/promises";
+import { chmod, mkdir, unlink, writeFile } from "fs/promises";
 import { safeJoinInside } from "@/lib/server/security";
 import { readUsers, sanitizeSub, setUserAvatar } from "@/lib/server/userStore";
-
-const MAX_IMAGE_SIZE_BYTES = 1.5 * 1024 * 1024;
-const ALLOWED_IMAGE_TYPES: Record<string, string> = {
-  "image/jpeg": "jpg",
-  "image/png": "png",
-  "image/webp": "webp",
-};
+import {
+  ALLOWED_AVATAR_MIME_TYPES as ALLOWED_IMAGE_TYPES,
+  MAX_AVATAR_SIZE_BYTES as MAX_IMAGE_SIZE_BYTES,
+  MAX_AVATAR_SIZE_LABEL,
+} from "@/lib/avatarUpload";
 
 function avatarDir() {
   return safeJoinInside(process.cwd(), "public", "images", "users");
@@ -54,7 +52,7 @@ export async function POST(req: NextRequest) {
 
     if (file.size > MAX_IMAGE_SIZE_BYTES) {
       return NextResponse.json(
-        { success: false, message: "Image trop lourde (1,5 Mo maximum)" },
+        { success: false, message: `Image trop lourde (${MAX_AVATAR_SIZE_LABEL} maximum)` },
         { status: 400 }
       );
     }
@@ -73,18 +71,6 @@ export async function POST(req: NextRequest) {
       await chmod(filepath, 0o644);
     } catch (chmodError) {
       console.error("Erreur chmod avatar:", chmodError);
-    }
-
-    try {
-      await access(filepath, constants.R_OK);
-    } catch {
-      return NextResponse.json(
-        {
-          success: false,
-          message: "L'image a été envoyée mais n'a pas pu être vérifiée",
-        },
-        { status: 500 }
-      );
     }
 
     const path = `/images/users/${filename}?v=${Date.now()}`;

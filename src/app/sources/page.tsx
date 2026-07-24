@@ -72,8 +72,8 @@ export default function SourcesPage() {
   );
 
   return (
-    <main className="min-h-screen bg-stone-50 text-stone-950 dark:bg-black dark:text-stone-100">
-      <section className="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
+    <main className="min-h-screen bg-stone-50 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
+      <section className="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]">
         <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <Link
             href="/"
@@ -125,7 +125,7 @@ export default function SourcesPage() {
                   href={source.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group rounded-xl border border-stone-200 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md dark:border-stone-800 dark:bg-stone-950"
+                  className="group rounded-xl border border-stone-200 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md dark:border-stone-800 dark:bg-[#151512]"
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">

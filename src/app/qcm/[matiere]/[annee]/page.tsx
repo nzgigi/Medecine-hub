@@ -55,7 +55,7 @@ interface QcmHistoryItem {
 }
 
 const ICON_BUTTON_CLASSES =
-  "rounded-lg border border-stone-200 bg-white p-2 text-stone-600 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-300 dark:hover:bg-stone-900";
+  "rounded-lg border border-stone-200 bg-white p-2 text-stone-600 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-300 dark:hover:bg-[#1d1c18]";
 
 const ICON_BUTTON_ACTIVE_CLASSES =
   "rounded-lg border border-emerald-700 bg-emerald-50 p-2 text-emerald-800 transition-colors hover:bg-emerald-100 dark:border-emerald-500 dark:bg-emerald-950/40 dark:text-emerald-300 dark:hover:bg-emerald-950/60";
@@ -135,7 +135,7 @@ function QuestionContextBlock({ text }: { text: string }) {
   const [expanded, setExpanded] = useState(!isLong);
 
   return (
-    <div className="mb-5 overflow-hidden rounded-lg border border-stone-200 bg-stone-50 dark:border-stone-800 dark:bg-stone-900">
+    <div className="mb-5 overflow-hidden rounded-lg border border-stone-200 bg-stone-50 dark:border-stone-800 dark:bg-[#1d1c18]">
       <div
         className={`px-4 py-3 text-sm leading-6 text-stone-700 whitespace-pre-wrap dark:text-stone-200 ${
           !expanded ? "line-clamp-4" : ""
@@ -286,7 +286,7 @@ export default function QCMPage() {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-stone-50 text-stone-950 dark:bg-black dark:text-stone-100">
+      <div className="flex min-h-screen items-center justify-center bg-stone-50 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
         <div className="text-center">
           <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-2 border-stone-300 border-b-emerald-800 dark:border-stone-800 dark:border-b-emerald-300" />
           <div className="text-sm font-semibold text-stone-500 dark:text-stone-400">
@@ -299,8 +299,8 @@ export default function QCMPage() {
 
   if (!examData || !currentFolder || !currentQuestion) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-stone-50 px-4 text-stone-950 dark:bg-black dark:text-stone-100">
-        <div className="max-w-xl rounded-2xl border border-stone-200 bg-white p-8 text-center shadow-sm dark:border-stone-800 dark:bg-stone-950">
+      <div className="flex min-h-screen items-center justify-center bg-stone-50 px-4 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
+        <div className="max-w-xl rounded-2xl border border-stone-200 bg-white p-8 text-center shadow-sm dark:border-stone-800 dark:bg-[#151512]">
           <h1 className="mb-3 text-2xl font-black">Épreuve introuvable</h1>
           <p className="mb-6 text-stone-600 dark:text-stone-300">
             Impossible de charger cette épreuve.
@@ -344,8 +344,6 @@ export default function QCMPage() {
   const handleFolderChange = (folderIndex: number) => {
     setCurrentFolderIndex(folderIndex);
     setCurrentQuestionIndex(0);
-    setQuestionsPanelOpen(false);
-    setFoldersPanelOpen(false);
   };
 
   const canAccessQuestion = (folder: ExamFolder, questionIndex: number) => {
@@ -577,7 +575,7 @@ export default function QCMPage() {
             value={qrocValue}
             onChange={(event) => handleQrocChange(event.target.value)}
             disabled={isCurrentFolderSubmitted || isCurrentQuestionLocked}
-            className="w-full rounded-lg border-2 border-stone-200 bg-white p-3 text-stone-950 focus:border-emerald-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-700 dark:bg-stone-950 dark:text-stone-100"
+            className="w-full rounded-lg border-2 border-stone-200 bg-white p-3 text-stone-950 focus:border-emerald-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
             placeholder="Tapez votre réponse courte ici"
           />
 
@@ -607,7 +605,7 @@ export default function QCMPage() {
               className={`flex w-full items-center justify-between gap-3 rounded-lg border-2 p-3.5 text-left transition-all disabled:cursor-not-allowed ${
                 isSelected
                   ? "border-emerald-700 bg-emerald-50 dark:border-emerald-400 dark:bg-emerald-950/40 dark:ring-2 dark:ring-emerald-400/30"
-                  : "border-stone-200 bg-white hover:border-emerald-300 hover:bg-stone-50 dark:border-stone-700 dark:bg-stone-950 dark:hover:border-emerald-600 dark:hover:bg-stone-900"
+                  : "border-stone-200 bg-white hover:border-emerald-300 hover:bg-stone-50 dark:border-stone-700 dark:bg-[#151512] dark:hover:border-emerald-600 dark:hover:bg-[#1d1c18]"
               } ${
                 isCurrentFolderSubmitted || isCurrentQuestionLocked
                   ? "opacity-70"
@@ -648,7 +646,7 @@ export default function QCMPage() {
     return (
       <div
         key={question.id}
-        className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-stone-950 sm:p-6"
+        className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512] sm:p-6"
       >
         <div className="mb-4 flex items-start justify-between gap-4">
           <div>
@@ -674,7 +672,7 @@ export default function QCMPage() {
         </div>
 
         {question.contexte && (
-          <div className="mb-4 whitespace-pre-wrap rounded-lg border-l-4 border-emerald-300 bg-stone-50 p-4 text-sm text-stone-700 dark:border-emerald-700 dark:bg-stone-900 dark:text-stone-200">
+          <div className="mb-4 whitespace-pre-wrap rounded-lg border-l-4 border-emerald-300 bg-stone-50 p-4 text-sm text-stone-700 dark:border-emerald-700 dark:bg-[#1d1c18] dark:text-stone-200">
             {question.contexte}
           </div>
         )}
@@ -689,7 +687,7 @@ export default function QCMPage() {
               onError={handleQuestionImageError}
             />
             <div
-              className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-400"
+              className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
               style={{ display: "none" }}
             >
               Image indisponible
@@ -718,7 +716,7 @@ export default function QCMPage() {
               <div>{userQrocAnswer.trim() || "Aucune réponse"}</div>
             </div>
 
-            <div className="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-stone-900">
+            <div className="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-[#1d1c18]">
               <div className="mb-1 text-sm font-semibold text-stone-700 dark:text-stone-200">
                 Réponses acceptées :
               </div>
@@ -736,7 +734,7 @@ export default function QCMPage() {
               const isCritique = (question.critiques ?? []).includes(letter);
 
               let classes =
-                "bg-stone-50 border-stone-200 text-stone-700 dark:bg-stone-900 dark:border-stone-700 dark:text-stone-200";
+                "bg-stone-50 border-stone-200 text-stone-700 dark:bg-[#1d1c18] dark:border-stone-700 dark:text-stone-200";
 
               if (isSelected && isCorrect) {
                 classes =
@@ -746,7 +744,7 @@ export default function QCMPage() {
                   "bg-red-50 border-red-500 text-red-800 dark:bg-red-900/20 dark:text-red-200";
               } else if (!isSelected && isCorrect) {
                 classes =
-                  "bg-stone-50 border-emerald-500 text-stone-700 dark:bg-stone-900 dark:text-stone-200";
+                  "bg-stone-50 border-emerald-500 text-stone-700 dark:bg-[#1d1c18] dark:text-stone-200";
               }
 
               return (
@@ -824,7 +822,7 @@ export default function QCMPage() {
             >
               {index + 1}
               {locked && (
-                <Lock className="absolute -top-1 -right-1 h-3 w-3 rounded-full bg-white dark:bg-stone-950" />
+                <Lock className="absolute -top-1 -right-1 h-3 w-3 rounded-full bg-white dark:bg-[#151512]" />
               )}
             </button>
           );
@@ -858,7 +856,7 @@ export default function QCMPage() {
               className={`w-full rounded-lg border p-3 text-left transition ${
                 index === currentFolderIndex
                   ? "border-emerald-600 bg-emerald-50 dark:border-emerald-500 dark:bg-emerald-950/30"
-                  : "border-stone-200 hover:bg-stone-50 dark:border-stone-700 dark:hover:bg-stone-900"
+                  : "border-stone-200 hover:bg-stone-50 dark:border-stone-700 dark:hover:bg-[#1d1c18]"
               }`}
             >
               <div className="mb-1 flex items-center justify-between gap-2">
@@ -896,7 +894,7 @@ export default function QCMPage() {
 
   if (showResults && examScore) {
     return (
-      <div className="min-h-screen bg-stone-50 py-8 text-stone-950 dark:bg-black dark:text-stone-100">
+      <div className="min-h-screen bg-stone-50 py-8 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
         <div className="mx-auto max-w-5xl px-4">
           <div className="mb-6">
             <button
@@ -908,7 +906,7 @@ export default function QCMPage() {
             </button>
           </div>
 
-          <div className="mb-8 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-800 dark:bg-stone-950 sm:p-8">
+          <div className="mb-8 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-800 dark:bg-[#151512] sm:p-8">
             <div className="flex flex-wrap items-start justify-between gap-6">
               <div>
                 <div className="mb-2 text-sm font-bold text-emerald-800 dark:text-emerald-300">
@@ -937,7 +935,7 @@ export default function QCMPage() {
               {examScore.categories.map((category) => (
                 <div
                   key={category.type}
-                  className="rounded-lg border border-stone-200 bg-stone-50 p-5 dark:border-stone-800 dark:bg-stone-900"
+                  className="rounded-lg border border-stone-200 bg-stone-50 p-5 dark:border-stone-800 dark:bg-[#1d1c18]"
                 >
                   <div className="mb-1 font-bold">{category.label}</div>
                   <div className="mb-3 text-sm text-stone-500 dark:text-stone-400">
@@ -963,7 +961,7 @@ export default function QCMPage() {
             )}
           </div>
 
-          <div className="mb-6 rounded-2xl border border-stone-200 bg-white p-4 shadow-sm dark:border-stone-800 dark:bg-stone-950">
+          <div className="mb-6 rounded-2xl border border-stone-200 bg-white p-4 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
             <div className="mb-4 flex items-center gap-2 font-bold">
               <FolderOpen className="h-5 w-5 text-emerald-700 dark:text-emerald-300" />
               Dossiers
@@ -977,7 +975,7 @@ export default function QCMPage() {
                   className={`rounded-lg border p-3 text-left transition ${
                     index === correctionFolderIndex
                       ? "border-emerald-600 bg-emerald-50 dark:border-emerald-500 dark:bg-emerald-950/30"
-                      : "border-stone-200 hover:bg-stone-50 dark:border-stone-700 dark:hover:bg-stone-900"
+                      : "border-stone-200 hover:bg-stone-50 dark:border-stone-700 dark:hover:bg-[#1d1c18]"
                   }`}
                 >
                   <div className="mb-1 text-xs font-bold text-emerald-800 dark:text-emerald-300">
@@ -1004,7 +1002,7 @@ export default function QCMPage() {
                 return (
                   <div
                     key={folder.id}
-                    className="rounded-2xl border border-stone-200 bg-stone-100 p-5 dark:border-stone-800 dark:bg-stone-900/60"
+                    className="rounded-2xl border border-stone-200 bg-stone-100 p-5 dark:border-stone-800 dark:bg-[#1d1c18]/60"
                   >
                     <div className="mb-5 flex flex-wrap items-start justify-between gap-4">
                       <div>
@@ -1022,7 +1020,7 @@ export default function QCMPage() {
                         </div>
                       </div>
 
-                      <div className="rounded-lg border border-stone-200 bg-white px-5 py-3 shadow-sm dark:border-stone-800 dark:bg-stone-950">
+                      <div className="rounded-lg border border-stone-200 bg-white px-5 py-3 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
                         <div className="text-sm text-stone-500 dark:text-stone-400">
                           Note dossier
                         </div>
@@ -1053,13 +1051,13 @@ export default function QCMPage() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-950 dark:bg-black dark:text-stone-100">
-      <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/95 backdrop-blur dark:border-stone-800 dark:bg-black/95">
+    <div className="min-h-screen bg-stone-50 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
+      <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/95 backdrop-blur dark:border-stone-800 dark:bg-[#151512]/95">
         <div className="mx-auto flex max-w-3xl items-center gap-2 px-3 py-2.5 sm:gap-3 sm:px-4">
           <Link
             href="/"
             aria-label="Retour à l'accueil"
-            className="flex shrink-0 items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-bold text-stone-600 transition-colors hover:bg-stone-100 dark:text-stone-300 dark:hover:bg-stone-900"
+            className="flex shrink-0 items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-bold text-stone-600 transition-colors hover:bg-stone-100 dark:text-stone-300 dark:hover:bg-[#1d1c18]"
           >
             <ArrowLeft className="h-4 w-4" />
             <span className="hidden sm:inline">Accueil</span>
@@ -1075,7 +1073,7 @@ export default function QCMPage() {
               </p>
             </div>
 
-            <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-stone-100 dark:bg-stone-900">
+            <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-stone-100 dark:bg-[#1d1c18]">
               <div
                 className="h-full rounded-full bg-emerald-700 transition-all dark:bg-emerald-500"
                 style={{ width: `${globalProgressPercent}%` }}
@@ -1133,10 +1131,10 @@ export default function QCMPage() {
       </header>
 
       <main className="mx-auto max-w-3xl px-4 py-6 sm:py-8">
-        <div className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-950">
+        <div className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-[#151512]">
           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 px-5 py-3 dark:border-stone-900">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 rounded-md bg-stone-100 px-2 py-1 text-xs font-black uppercase tracking-wide text-stone-600 dark:bg-stone-900 dark:text-stone-300">
+              <span className="inline-flex items-center gap-1.5 rounded-md bg-stone-100 px-2 py-1 text-xs font-black uppercase tracking-wide text-stone-600 dark:bg-[#1d1c18] dark:text-stone-300">
                 <FileText className="h-3.5 w-3.5" />
                 {currentFolder.type}
               </span>
@@ -1144,7 +1142,7 @@ export default function QCMPage() {
                 {currentFolder.title} · Question {currentQuestionIndex + 1}/
                 {totalQuestionsInFolder}
               </span>
-              <span className="rounded-md bg-stone-100 px-2 py-1 text-xs font-bold text-stone-600 dark:bg-stone-900 dark:text-stone-300">
+              <span className="rounded-md bg-stone-100 px-2 py-1 text-xs font-bold text-stone-600 dark:bg-[#1d1c18] dark:text-stone-300">
                 {currentQuestion.type}
                 {currentQuestion.type === "QRP" &&
                   currentQuestion.maxReponses && (
@@ -1174,7 +1172,7 @@ export default function QCMPage() {
 
           <div className="p-5 sm:p-6">
             {currentFolder.description && (
-              <div className="mb-5 whitespace-pre-wrap rounded-lg border-l-4 border-stone-300 bg-stone-50 p-3 text-sm text-stone-700 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200">
+              <div className="mb-5 whitespace-pre-wrap rounded-lg border-l-4 border-stone-300 bg-stone-50 p-3 text-sm text-stone-700 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-200">
                 {currentFolder.description}
               </div>
             )}
@@ -1201,7 +1199,7 @@ export default function QCMPage() {
                   onClick={() => setLightboxImage(currentQuestion.image ?? null)}
                 />
                 <div
-                  className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-400"
+                  className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
                   style={{ display: "none" }}
                 >
                   Image indisponible
@@ -1214,7 +1212,7 @@ export default function QCMPage() {
         </div>
 
         {(isProgressiveFolder || !isCurrentFolderSubmitted) && (
-          <div className="mt-4 flex flex-wrap items-center justify-center gap-3 rounded-2xl border border-stone-200 bg-white p-3.5 shadow-sm dark:border-stone-800 dark:bg-stone-950">
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-3 rounded-2xl border border-stone-200 bg-white p-3.5 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
             {isProgressiveFolder &&
               !isCurrentFolderSubmitted &&
               !isCurrentQuestionLocked && (
@@ -1249,7 +1247,7 @@ export default function QCMPage() {
           <button
             onClick={handlePrevious}
             disabled={currentFolderIndex === 0 && currentQuestionIndex === 0}
-            className="inline-flex items-center gap-2 rounded-lg bg-stone-200 px-5 py-2.5 font-semibold text-stone-700 transition-colors hover:bg-stone-300 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-stone-900 dark:text-stone-200 dark:hover:bg-stone-800"
+            className="inline-flex items-center gap-2 rounded-lg bg-stone-200 px-5 py-2.5 font-semibold text-stone-700 transition-colors hover:bg-stone-300 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-[#1d1c18] dark:text-stone-200 dark:hover:bg-stone-800"
           >
             <ChevronLeft className="h-4 w-4" />
             Précédent
@@ -1267,13 +1265,13 @@ export default function QCMPage() {
       </main>
 
       {questionsPanelOpen && (
-        <div className="fixed left-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-r border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-stone-950/98">
+        <div className="fixed left-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-r border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-[#151512]/98">
           {questionsDrawer}
         </div>
       )}
 
       {foldersPanelOpen && (
-        <div className="fixed right-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-l border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-stone-950/98">
+        <div className="fixed right-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-l border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-[#151512]/98">
           {foldersDrawer}
         </div>
       )}

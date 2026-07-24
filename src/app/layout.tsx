@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${inter.className} bg-stone-50 text-stone-950 antialiased dark:bg-black dark:text-stone-100`}
+        className={`${inter.className} bg-stone-50 text-stone-950 antialiased dark:bg-[#151512] dark:text-stone-100`}
       >
         <PageViewTracker />
         <SiteChrome>{children}</SiteChrome>

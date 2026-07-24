@@ -28,10 +28,10 @@ import {
   X,
 } from "lucide-react";
 import {
-  SUBJECT_COLOR_KEYS,
-  SUBJECT_COLOR_SWATCH,
+  DEFAULT_SUBJECT_COLOR,
   SUBJECT_ICON_KEYS,
   SUBJECT_ICONS,
+  getSubjectColorStyle,
 } from "@/lib/subjectStyles";
 
 interface MatiereIndex {
@@ -44,6 +44,8 @@ interface MatiereIndex {
   examTitle?: string;
   semesterName?: string;
   semesterOrder?: number;
+  subjectIcon?: string;
+  subjectColor?: string;
 }
 
 interface SubjectGroup {
@@ -54,6 +56,8 @@ interface SubjectGroup {
   semesterOrder: number;
   totalQuestions: number;
   exams: MatiereIndex[];
+  subjectIcon?: string;
+  subjectColor?: string;
 }
 
 interface SemesterGroup {
@@ -152,6 +156,8 @@ function groupSubjects(entries: MatiereIndex[]): SubjectGroup[] {
         semesterOrder: entry.semesterOrder ?? 1,
         totalQuestions: 0,
         exams: [],
+        subjectIcon: entry.subjectIcon,
+        subjectColor: entry.subjectColor,
       });
     }
 
@@ -164,6 +170,8 @@ function groupSubjects(entries: MatiereIndex[]): SubjectGroup[] {
         group.semesterOrder,
         entry.semesterOrder ?? group.semesterOrder
       );
+      group.subjectIcon = group.subjectIcon || entry.subjectIcon;
+      group.subjectColor = group.subjectColor || entry.subjectColor;
       group.exams.push(entry);
     }
   });
@@ -250,19 +258,19 @@ function StatCard({
   detail: string;
 }) {
   return (
-    <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+    <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
       <div className="mb-4 flex items-center justify-between gap-3">
         <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
           <Icon className="h-5 w-5" />
         </div>
-        <span className="text-xs font-bold uppercase tracking-wide text-stone-400 dark:text-gray-500">
+        <span className="text-xs font-bold uppercase tracking-wide text-stone-400 dark:text-stone-500">
           {label}
         </span>
       </div>
       <div className="text-3xl font-black text-stone-950 dark:text-white">
         {value}
       </div>
-      <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">{detail}</p>
+      <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">{detail}</p>
     </div>
   );
 }
@@ -284,7 +292,7 @@ function AdminAction({
     <button
       onClick={onClick}
       disabled={loading}
-      className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-800 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
+      className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-800 disabled:cursor-not-allowed disabled:opacity-50 dark:border-stone-800 dark:bg-[#1d1c18] dark:text-stone-200 dark:hover:bg-stone-800"
     >
       <Icon className={`h-4 w-4 ${loading ? "animate-pulse" : ""}`} />
       {loading ? loadingLabel || "En cours..." : label}
@@ -332,7 +340,7 @@ export default function AdminDashboard() {
   const [slugManuallyEdited, setSlugManuallyEdited] = useState(false);
   const [newAnnee, setNewAnnee] = useState("");
   const [newSubjectIcon, setNewSubjectIcon] = useState(SUBJECT_ICON_KEYS[0]);
-  const [newSubjectColor, setNewSubjectColor] = useState(SUBJECT_COLOR_KEYS[0]);
+  const [newSubjectColor, setNewSubjectColor] = useState(DEFAULT_SUBJECT_COLOR);
   const [creating, setCreating] = useState(false);
 
   const slugIsValid = newSlug === "" || SLUG_PATTERN.test(newSlug);
@@ -735,7 +743,7 @@ export default function AdminDashboard() {
       setSlugManuallyEdited(false);
       setNewAnnee("");
       setNewSubjectIcon(SUBJECT_ICON_KEYS[0]);
-      setNewSubjectColor(SUBJECT_COLOR_KEYS[0]);
+      setNewSubjectColor(DEFAULT_SUBJECT_COLOR);
 
       if (
         confirm(
@@ -764,6 +772,22 @@ export default function AdminDashboard() {
                 : entry.examTitle,
           }
         : entry
+    );
+
+    setEntries(nextEntries);
+  };
+
+  const updateSubjectIcon = (slug: string, iconKey: string) => {
+    const nextEntries = entries.map((entry) =>
+      entry.slug === slug ? { ...entry, subjectIcon: iconKey } : entry
+    );
+
+    setEntries(nextEntries);
+  };
+
+  const updateSubjectColor = (slug: string, colorValue: string) => {
+    const nextEntries = entries.map((entry) =>
+      entry.slug === slug ? { ...entry, subjectColor: colorValue } : entry
     );
 
     setEntries(nextEntries);
@@ -1086,10 +1110,10 @@ export default function AdminDashboard() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-stone-50 dark:bg-gray-950">
+      <div className="min-h-screen flex items-center justify-center bg-stone-50 dark:bg-[#151512]">
         <div className="text-center">
           <div className="animate-spin rounded-full h-14 w-14 border-b-2 border-emerald-600 mx-auto mb-4" />
-          <div className="text-lg font-semibold text-stone-600 dark:text-gray-300">
+          <div className="text-lg font-semibold text-stone-600 dark:text-stone-300">
             Chargement...
           </div>
         </div>
@@ -1098,9 +1122,9 @@ export default function AdminDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-950 dark:bg-gray-950 dark:text-gray-100">
+    <div className="min-h-screen bg-stone-50 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <header className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+        <header className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex items-center gap-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-600 text-white">
@@ -1111,7 +1135,7 @@ export default function AdminDashboard() {
                   Administration
                 </p>
                 <h1 className="text-3xl font-black">Dashboard QCM</h1>
-                <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
                   Vue d&apos;ensemble, creation et maintenance des epreuves.
                 </p>
               </div>
@@ -1133,14 +1157,14 @@ export default function AdminDashboard() {
               </button>
               <Link
                 href="/admin/logs"
-                className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
+                className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-stone-800 dark:bg-[#1d1c18] dark:text-stone-200 dark:hover:bg-stone-800"
               >
                 <History className="h-4 w-4" />
                 Journal
               </Link>
               <button
                 onClick={handleLogout}
-                className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
+                className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-stone-800 dark:bg-[#1d1c18] dark:text-stone-200 dark:hover:bg-stone-800"
               >
                 <LogOut className="h-4 w-4" />
                 Deconnexion
@@ -1191,27 +1215,27 @@ export default function AdminDashboard() {
         </section>
 
         <section className="mb-6 grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="mb-4 flex items-center gap-3">
               <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
                 <Plus className="h-5 w-5" />
               </div>
               <div>
                 <h2 className="text-xl font-black">Ajouter une epreuve</h2>
-                <p className="text-sm text-stone-500 dark:text-gray-400">
+                <p className="text-sm text-stone-500 dark:text-stone-400">
                   Choisissez une matiere existante ou creez-en une nouvelle.
                 </p>
               </div>
             </div>
 
-            <div className="mb-4 inline-flex rounded-lg border border-stone-200 bg-stone-50 p-1 dark:border-gray-800 dark:bg-gray-950">
+            <div className="mb-4 inline-flex rounded-lg border border-stone-200 bg-stone-50 p-1 dark:border-stone-800 dark:bg-[#151512]">
               <button
                 onClick={() => setCreateMode("existing")}
                 disabled={existingSubjects.length === 0}
                 className={`rounded-md px-3 py-1.5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-50 ${
                   createMode === "existing"
-                    ? "bg-white text-stone-950 shadow-sm dark:bg-gray-800 dark:text-white"
-                    : "text-stone-500 hover:text-stone-800 dark:text-gray-400 dark:hover:text-gray-200"
+                    ? "bg-white text-stone-950 shadow-sm dark:bg-stone-800 dark:text-white"
+                    : "text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-stone-200"
                 }`}
               >
                 Matiere existante
@@ -1220,8 +1244,8 @@ export default function AdminDashboard() {
                 onClick={() => setCreateMode("new")}
                 className={`rounded-md px-3 py-1.5 text-sm font-bold transition ${
                   createMode === "new"
-                    ? "bg-white text-stone-950 shadow-sm dark:bg-gray-800 dark:text-white"
-                    : "text-stone-500 hover:text-stone-800 dark:text-gray-400 dark:hover:text-gray-200"
+                    ? "bg-white text-stone-950 shadow-sm dark:bg-stone-800 dark:text-white"
+                    : "text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-stone-200"
                 }`}
               >
                 Nouvelle matiere
@@ -1230,20 +1254,20 @@ export default function AdminDashboard() {
 
             {createMode === "existing" ? (
               existingSubjects.length === 0 ? (
-                <p className="text-sm text-stone-500 dark:text-gray-400">
+                <p className="text-sm text-stone-500 dark:text-stone-400">
                   Aucune matiere existante pour le moment — utilisez
                   &quot;Nouvelle matiere&quot;.
                 </p>
               ) : (
                 <div className="grid gap-3 sm:grid-cols-[1fr_120px_auto] sm:items-center">
                   <div className="relative">
-                    <BookOpen className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400 dark:text-gray-500" />
+                    <BookOpen className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400 dark:text-stone-500" />
                     <select
                       value={selectedExistingSlug}
                       onChange={(event) =>
                         setSelectedExistingSlug(event.target.value)
                       }
-                      className="w-full appearance-none rounded-lg border border-stone-300 bg-white py-2 pl-9 pr-3 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                      className="w-full appearance-none rounded-lg border border-stone-300 bg-white py-2 pl-9 pr-3 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
                     >
                       {existingSubjects.map((subject) => (
                         <option key={subject.slug} value={subject.slug}>
@@ -1259,7 +1283,7 @@ export default function AdminDashboard() {
                     placeholder="Annee"
                     value={newAnnee}
                     onChange={(event) => setNewAnnee(event.target.value)}
-                    className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                    className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
                   />
 
                   <button
@@ -1280,7 +1304,7 @@ export default function AdminDashboard() {
                   placeholder="Matiere (ex: Cardiologie)"
                   value={newMatiere}
                   onChange={(event) => handleMatiereChange(event.target.value)}
-                  className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                  className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
                 />
                 <div>
                   <input
@@ -1288,7 +1312,7 @@ export default function AdminDashboard() {
                     placeholder="Slug (ex: cardiologie)"
                     value={newSlug}
                     onChange={(event) => handleSlugChange(event.target.value)}
-                    className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                    className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
                   />
                   {!slugIsValid && (
                     <p className="mt-1 text-xs font-semibold text-red-600 dark:text-red-400">
@@ -1301,7 +1325,7 @@ export default function AdminDashboard() {
                   placeholder="Annee"
                   value={newAnnee}
                   onChange={(event) => setNewAnnee(event.target.value)}
-                  className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
+                  className="rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
                 />
                 <button
                   onClick={handleCreateQCM}
@@ -1314,7 +1338,7 @@ export default function AdminDashboard() {
               </div>
 
               <div>
-                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">
                   Icone
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -1331,7 +1355,7 @@ export default function AdminDashboard() {
                         className={`flex h-9 w-9 items-center justify-center rounded-lg border-2 transition ${
                           active
                             ? "border-emerald-600 bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300"
-                            : "border-stone-200 text-stone-500 hover:bg-stone-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+                            : "border-stone-200 text-stone-500 hover:bg-stone-50 dark:border-stone-700 dark:text-stone-400 dark:hover:bg-stone-800"
                         }`}
                       >
                         <Icon className="h-4 w-4" />
@@ -1342,41 +1366,38 @@ export default function AdminDashboard() {
               </div>
 
               <div>
-                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">
                   Couleur
                 </p>
-                <div className="flex flex-wrap gap-2">
-                  {SUBJECT_COLOR_KEYS.map((colorKey) => {
-                    const active = newSubjectColor === colorKey;
-
-                    return (
-                      <button
-                        key={colorKey}
-                        type="button"
-                        onClick={() => setNewSubjectColor(colorKey)}
-                        aria-label={`Couleur ${colorKey}`}
-                        className={`h-8 w-8 rounded-full ${SUBJECT_COLOR_SWATCH[colorKey]} transition ${
-                          active
-                            ? "ring-2 ring-offset-2 ring-stone-950 dark:ring-offset-gray-900 dark:ring-white"
-                            : "opacity-70 hover:opacity-100"
-                        }`}
-                      />
-                    );
-                  })}
+                <div className="flex items-center gap-3">
+                  <input
+                    type="color"
+                    value={newSubjectColor}
+                    onChange={(event) => setNewSubjectColor(event.target.value)}
+                    aria-label="Choisir une couleur"
+                    className="h-10 w-14 cursor-pointer rounded-lg border border-stone-300 bg-white p-1 dark:border-stone-700 dark:bg-[#151512]"
+                  />
+                  <input
+                    type="text"
+                    value={newSubjectColor}
+                    onChange={(event) => setNewSubjectColor(event.target.value)}
+                    placeholder="#10b981"
+                    className="w-28 rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm font-mono text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
+                  />
                 </div>
               </div>
               </div>
             )}
           </div>
 
-          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="mb-4 flex items-center gap-3">
-              <div className="rounded-lg bg-stone-100 p-2 text-stone-700 dark:bg-gray-800 dark:text-gray-200">
+              <div className="rounded-lg bg-stone-100 p-2 text-stone-700 dark:bg-stone-800 dark:text-stone-200">
                 <SlidersHorizontal className="h-5 w-5" />
               </div>
               <div>
                 <h2 className="text-xl font-black">Maintenance</h2>
-                <p className="text-sm text-stone-500 dark:text-gray-400">
+                <p className="text-sm text-stone-500 dark:text-stone-400">
                   Actions techniques a utiliser quand le contenu change.
                 </p>
               </div>
@@ -1391,7 +1412,7 @@ export default function AdminDashboard() {
           </div>
         </section>
 
-        <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+        <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-3">
               <div className="rounded-lg bg-sky-50 p-2 text-sky-700 dark:bg-sky-950/40 dark:text-sky-300">
@@ -1399,7 +1420,7 @@ export default function AdminDashboard() {
               </div>
               <div>
                 <h2 className="text-xl font-black">Statistiques</h2>
-                <p className="text-sm text-stone-500 dark:text-gray-400">
+                <p className="text-sm text-stone-500 dark:text-stone-400">
                   Vues du site (compteur simple, pas de suivi individuel).
                 </p>
               </div>
@@ -1408,7 +1429,7 @@ export default function AdminDashboard() {
             <button
               onClick={loadAnalytics}
               disabled={loadingAnalytics}
-              className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-gray-800 dark:text-gray-200 dark:hover:bg-gray-800"
+              className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-800"
             >
               <RefreshCw
                 className={`h-4 w-4 ${loadingAnalytics ? "animate-spin" : ""}`}
@@ -1418,22 +1439,22 @@ export default function AdminDashboard() {
           </div>
 
           {!analytics ? (
-            <p className="text-sm text-stone-500 dark:text-gray-400">
+            <p className="text-sm text-stone-500 dark:text-stone-400">
               {loadingAnalytics ? "Chargement..." : "Aucune donnee pour le moment."}
             </p>
           ) : (
             <>
               <div className="mb-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <div className="rounded-lg border border-stone-200 p-4 dark:border-gray-800">
-                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-gray-400">
+                <div className="rounded-lg border border-stone-200 p-4 dark:border-stone-800">
+                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-stone-400">
                     Vues totales
                   </div>
                   <div className="text-3xl font-black">
                     {analytics.totalViews}
                   </div>
                 </div>
-                <div className="rounded-lg border border-stone-200 p-4 dark:border-gray-800">
-                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-gray-400">
+                <div className="rounded-lg border border-stone-200 p-4 dark:border-stone-800">
+                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-stone-400">
                     Pages suivies
                   </div>
                   <div className="text-3xl font-black">
@@ -1443,12 +1464,12 @@ export default function AdminDashboard() {
               </div>
 
               <div className="mb-5">
-                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-gray-200">
+                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-stone-200">
                   14 derniers jours
                 </div>
 
                 {analytics.dailySeries.length === 0 ? (
-                  <p className="text-sm text-stone-500 dark:text-gray-400">
+                  <p className="text-sm text-stone-500 dark:text-stone-400">
                     Pas encore de donnees quotidiennes.
                   </p>
                 ) : (
@@ -1470,7 +1491,7 @@ export default function AdminDashboard() {
                               height: `${Math.max(heightPercent, 2)}%`,
                             }}
                           />
-                          <div className="text-[9px] text-stone-400 dark:text-gray-500">
+                          <div className="text-[9px] text-stone-400 dark:text-stone-500">
                             {point.day.slice(5)}
                           </div>
                         </div>
@@ -1481,25 +1502,25 @@ export default function AdminDashboard() {
               </div>
 
               <div>
-                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-gray-200">
+                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-stone-200">
                   Pages les plus vues
                 </div>
 
                 {analytics.topPages.length === 0 ? (
-                  <p className="text-sm text-stone-500 dark:text-gray-400">
+                  <p className="text-sm text-stone-500 dark:text-stone-400">
                     Aucune vue enregistree pour le moment.
                   </p>
                 ) : (
-                  <div className="divide-y divide-stone-100 dark:divide-gray-800">
+                  <div className="divide-y divide-stone-100 dark:divide-stone-800">
                     {analytics.topPages.map((page) => (
                       <div
                         key={page.path}
                         className="flex items-center justify-between gap-3 py-2 text-sm"
                       >
-                        <span className="truncate text-stone-700 dark:text-gray-200">
+                        <span className="truncate text-stone-700 dark:text-stone-200">
                           {page.path}
                         </span>
-                        <span className="font-bold text-stone-950 dark:text-gray-100">
+                        <span className="font-bold text-stone-950 dark:text-stone-100">
                           {page.total}
                         </span>
                       </div>
@@ -1512,13 +1533,13 @@ export default function AdminDashboard() {
         </section>
 
         {validationSummary && (
-          <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+          <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="mb-4 flex flex-wrap items-start justify-between gap-4">
               <div>
                 <h2 className="text-xl font-black">Rapport de verification</h2>
-                <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">{validationSummary}</p>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">{validationSummary}</p>
               </div>
-              <button onClick={closeValidationReport} className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-gray-800 dark:text-gray-200 dark:hover:bg-gray-800">
+              <button onClick={closeValidationReport} className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-800">
                 <X className="h-4 w-4" />
                 Fermer
               </button>
@@ -1541,45 +1562,45 @@ export default function AdminDashboard() {
           </section>
         )}
 
-        <section className="rounded-xl border border-stone-200 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900">
-          <div className="border-b border-stone-200 p-5 dark:border-gray-800">
+        <section className="rounded-xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
+          <div className="border-b border-stone-200 p-5 dark:border-stone-800">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
               <div>
                 <h2 className="text-2xl font-black">Gestion des QCM</h2>
-                <p className="mt-1 text-sm text-stone-500 dark:text-gray-400">
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
                   Modifiez les menus, les matieres et les epreuves depuis un seul endroit.
                 </p>
               </div>
               <div className="flex flex-wrap items-center gap-2">
-                <button onClick={addSemester} className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800">
+                <button onClick={addSemester} className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:bg-stone-100 dark:border-stone-800 dark:bg-[#1d1c18] dark:text-stone-200 dark:hover:bg-stone-800">
                   <Plus className="h-4 w-4" />
                   Menu
                 </button>
                 <div className="relative">
                   <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400" />
-                  <input type="text" placeholder="Rechercher une matiere ou une annee" value={search} onChange={(event) => setSearch(event.target.value)} className="w-full min-w-[260px] rounded-lg border border-stone-300 bg-white py-2 pl-9 pr-3 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100" />
+                  <input type="text" placeholder="Rechercher une matiere ou une annee" value={search} onChange={(event) => setSearch(event.target.value)} className="w-full min-w-[260px] rounded-lg border border-stone-300 bg-white py-2 pl-9 pr-3 text-sm text-stone-950 outline-none focus:border-emerald-600 focus:ring-4 focus:ring-emerald-100 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="grid gap-0 lg:grid-cols-[320px_1fr]">
-            <aside className="border-b border-stone-200 p-5 dark:border-gray-800 lg:border-b-0 lg:border-r">
+            <aside className="border-b border-stone-200 p-5 dark:border-stone-800 lg:border-b-0 lg:border-r">
               <div className="mb-3 flex items-center gap-2 font-black">
                 <Layers className="h-5 w-5 text-emerald-700 dark:text-emerald-300" />
                 Menus d&apos;accueil
               </div>
               <div className="space-y-2">
                 {semesters.map((semester, index) => (
-                  <div key={semester.name} className="rounded-lg border border-stone-200 p-3 dark:border-gray-800">
-                    <input value={semester.name} onChange={(event) => renameSemester(semester.name, event.target.value)} className="w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100" />
+                  <div key={semester.name} className="rounded-lg border border-stone-200 p-3 dark:border-stone-800">
+                    <input value={semester.name} onChange={(event) => renameSemester(semester.name, event.target.value)} className="w-full rounded-md border border-stone-300 bg-white px-3 py-2 text-sm font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100" />
                     <div className="mt-2 flex items-center justify-between gap-2">
-                      <span className="text-xs font-semibold text-stone-500 dark:text-gray-400">
+                      <span className="text-xs font-semibold text-stone-500 dark:text-stone-400">
                         {semester.subjects.length} matiere{semester.subjects.length > 1 ? "s" : ""}
                       </span>
                       <div className="flex items-center gap-1">
-                        <button onClick={() => moveSemester(semester.name, "up")} disabled={index === 0} className="rounded-md p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Monter le menu"><ArrowUp className="h-4 w-4" /></button>
-                        <button onClick={() => moveSemester(semester.name, "down")} disabled={index === semesters.length - 1} className="rounded-md p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Descendre le menu"><ArrowDown className="h-4 w-4" /></button>
+                        <button onClick={() => moveSemester(semester.name, "up")} disabled={index === 0} className="rounded-md p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-stone-800" title="Monter le menu"><ArrowUp className="h-4 w-4" /></button>
+                        <button onClick={() => moveSemester(semester.name, "down")} disabled={index === semesters.length - 1} className="rounded-md p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-stone-800" title="Descendre le menu"><ArrowDown className="h-4 w-4" /></button>
                       </div>
                     </div>
                   </div>
@@ -1590,37 +1611,102 @@ export default function AdminDashboard() {
             <div className="p-5">
               <div className="space-y-4">
                 {subjects.map((subject, subjectIndex) => (
-                  <section key={subject.slug} className="overflow-hidden rounded-xl border border-stone-200 dark:border-gray-800">
-                    <div className="bg-stone-50 p-4 dark:bg-gray-950">
+                  <section key={subject.slug} className="overflow-hidden rounded-xl border border-stone-200 dark:border-stone-800">
+                    <div className="bg-stone-50 p-4 dark:bg-[#151512]">
                       <div className="grid gap-3 lg:grid-cols-[1fr_220px_auto] lg:items-end">
                         <div>
-                          <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">Matiere</label>
-                          <input value={subject.matiere} onChange={(event) => renameSubject(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100" />
-                          <p className="mt-1 text-xs text-stone-500 dark:text-gray-400">{subject.slug} - {subject.totalQuestions} question(s)</p>
+                          <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">Matiere</label>
+                          <input value={subject.matiere} onChange={(event) => renameSubject(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-100" />
+                          <p className="mt-1 text-xs text-stone-500 dark:text-stone-400">{subject.slug} - {subject.totalQuestions} question(s)</p>
                         </div>
                         <div>
-                          <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-gray-400">Menu</label>
-                          <select value={subject.semesterName} onChange={(event) => assignSubjectToSemester(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100">
+                          <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">Menu</label>
+                          <select value={subject.semesterName} onChange={(event) => assignSubjectToSemester(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-100">
                             {semesters.map((semester) => <option key={semester.name} value={semester.name}>{semester.name}</option>)}
                           </select>
                         </div>
                         <div className="flex items-center gap-1">
-                          <button onClick={() => moveSubject(subject.slug, "up")} disabled={subjectIndex === 0} className="rounded-lg p-2 hover:bg-white disabled:opacity-30 dark:hover:bg-gray-800" title="Monter la matiere"><ArrowUp className="h-5 w-5" /></button>
-                          <button onClick={() => moveSubject(subject.slug, "down")} disabled={subjectIndex === subjects.length - 1} className="rounded-lg p-2 hover:bg-white disabled:opacity-30 dark:hover:bg-gray-800" title="Descendre la matiere"><ArrowDown className="h-5 w-5" /></button>
+                          <button onClick={() => moveSubject(subject.slug, "up")} disabled={subjectIndex === 0} className="rounded-lg p-2 hover:bg-white disabled:opacity-30 dark:hover:bg-stone-800" title="Monter la matiere"><ArrowUp className="h-5 w-5" /></button>
+                          <button onClick={() => moveSubject(subject.slug, "down")} disabled={subjectIndex === subjects.length - 1} className="rounded-lg p-2 hover:bg-white disabled:opacity-30 dark:hover:bg-stone-800" title="Descendre la matiere"><ArrowDown className="h-5 w-5" /></button>
                           <button onClick={() => deleteSubject(subject.slug, subject.matiere)} className="rounded-lg p-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-950/30" title="Supprimer la matiere"><Trash2 className="h-5 w-5" /></button>
+                        </div>
+                      </div>
+
+                      <div className="mt-3 flex flex-wrap items-center gap-4">
+                        <div>
+                          <p className="mb-1.5 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">Icone</p>
+                          <div className="flex flex-wrap gap-1.5">
+                            {SUBJECT_ICON_KEYS.map((iconKey) => {
+                              const Icon = SUBJECT_ICONS[iconKey];
+                              const active = subject.subjectIcon === iconKey;
+
+                              return (
+                                <button
+                                  key={iconKey}
+                                  type="button"
+                                  onClick={() => updateSubjectIcon(subject.slug, iconKey)}
+                                  aria-label={`Icone ${iconKey}`}
+                                  title={iconKey}
+                                  className={`flex h-8 w-8 items-center justify-center rounded-lg border-2 transition ${
+                                    active
+                                      ? "border-emerald-600 bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300"
+                                      : "border-stone-200 bg-white text-stone-500 hover:bg-stone-50 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400 dark:hover:bg-stone-800"
+                                  }`}
+                                >
+                                  <Icon className="h-4 w-4" />
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
+
+                        <div>
+                          <p className="mb-1.5 text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">Couleur</p>
+                          <div className="flex items-center gap-2">
+                            {(() => {
+                              const PreviewIcon = subject.subjectIcon
+                                ? SUBJECT_ICONS[subject.subjectIcon]
+                                : undefined;
+                              const previewStyle = getSubjectColorStyle(subject.subjectColor);
+
+                              return (
+                                <span
+                                  className={`flex h-8 w-8 items-center justify-center rounded-lg border ${previewStyle?.className || "border-stone-200 text-stone-400 dark:border-stone-700"}`}
+                                  style={previewStyle?.style}
+                                  title="Aperçu"
+                                >
+                                  {PreviewIcon ? <PreviewIcon className="h-4 w-4" /> : null}
+                                </span>
+                              );
+                            })()}
+                            <input
+                              type="color"
+                              value={subject.subjectColor && subject.subjectColor.startsWith("#") ? subject.subjectColor : DEFAULT_SUBJECT_COLOR}
+                              onChange={(event) => updateSubjectColor(subject.slug, event.target.value)}
+                              aria-label="Choisir une couleur"
+                              className="h-8 w-12 cursor-pointer rounded-lg border border-stone-300 bg-white p-1 dark:border-stone-700 dark:bg-[#1d1c18]"
+                            />
+                            <input
+                              type="text"
+                              value={subject.subjectColor || ""}
+                              onChange={(event) => updateSubjectColor(subject.slug, event.target.value)}
+                              placeholder="#10b981"
+                              className="w-24 rounded-lg border border-stone-300 bg-white px-2 py-1.5 text-xs font-mono text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-100"
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
 
-                    <div className="divide-y divide-stone-100 dark:divide-gray-800">
+                    <div className="divide-y divide-stone-100 dark:divide-stone-800">
                       {subject.exams.map((exam, examIndex) => (
                         <div key={`${exam.slug}-${exam.annee}`} className="grid gap-3 p-4 lg:grid-cols-[96px_1fr_140px_auto] lg:items-center">
-                          <div className="text-sm font-black text-stone-500 dark:text-gray-400">{exam.annee}</div>
-                          <input value={exam.examTitle || `${exam.matiere} - ${exam.annee}`} onChange={(event) => renameExam(exam.slug, exam.annee, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100" />
-                          <div className="text-sm font-semibold text-stone-500 dark:text-gray-400">{exam.total_questions} question(s)</div>
+                          <div className="text-sm font-black text-stone-500 dark:text-stone-400">{exam.annee}</div>
+                          <input value={exam.examTitle || `${exam.matiere} - ${exam.annee}`} onChange={(event) => renameExam(exam.slug, exam.annee, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100" />
+                          <div className="text-sm font-semibold text-stone-500 dark:text-stone-400">{exam.total_questions} question(s)</div>
                           <div className="flex items-center gap-1">
-                            <button onClick={() => moveExam(exam.slug, exam.annee, "up")} disabled={examIndex === 0} className="rounded-lg p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Monter l'epreuve"><ArrowUp className="h-4 w-4" /></button>
-                            <button onClick={() => moveExam(exam.slug, exam.annee, "down")} disabled={examIndex === subject.exams.length - 1} className="rounded-lg p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-gray-800" title="Descendre l'epreuve"><ArrowDown className="h-4 w-4" /></button>
+                            <button onClick={() => moveExam(exam.slug, exam.annee, "up")} disabled={examIndex === 0} className="rounded-lg p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-stone-800" title="Monter l'epreuve"><ArrowUp className="h-4 w-4" /></button>
+                            <button onClick={() => moveExam(exam.slug, exam.annee, "down")} disabled={examIndex === subject.exams.length - 1} className="rounded-lg p-2 hover:bg-stone-100 disabled:opacity-30 dark:hover:bg-stone-800" title="Descendre l'epreuve"><ArrowDown className="h-4 w-4" /></button>
                             <Link href={`/admin/edit/${exam.slug}/${exam.annee}`} className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-3 py-2 text-sm font-bold text-white transition hover:bg-emerald-700"><Edit className="h-4 w-4" />Modifier</Link>
                             <button onClick={() => deleteExam(exam.slug, exam.annee)} className="rounded-lg p-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-950/30" title="Supprimer l'epreuve"><Trash2 className="h-4 w-4" /></button>
                           </div>
@@ -1631,7 +1717,7 @@ export default function AdminDashboard() {
                 ))}
 
                 {subjects.length === 0 && (
-                  <div className="rounded-xl border border-dashed border-stone-300 py-12 text-center text-stone-500 dark:border-gray-700 dark:text-gray-400">
+                  <div className="rounded-xl border border-dashed border-stone-300 py-12 text-center text-stone-500 dark:border-stone-700 dark:text-stone-400">
                     Aucun resultat.
                   </div>
                 )}

@@ -129,19 +129,19 @@ export default function ContactPage() {
   };
 
   const inputClassName = (fieldName: string) =>
-    `w-full rounded-lg border bg-white px-3.5 py-3 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 dark:bg-slate-950 dark:text-white dark:placeholder:text-slate-500 ${
+    `w-full rounded-lg border bg-white px-3.5 py-3 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 dark:bg-[#151512] dark:text-white dark:placeholder:text-stone-500 ${
       errors[fieldName]
         ? "border-red-400 focus:border-red-500 focus:ring-4 focus:ring-red-100 dark:border-red-700 dark:focus:ring-red-950/50"
-        : "border-slate-300 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 dark:border-slate-700 dark:focus:border-blue-500 dark:focus:ring-blue-950/50"
+        : "border-slate-300 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 dark:border-stone-700 dark:focus:border-emerald-500 dark:focus:ring-emerald-950/50"
     }`;
 
   return (
-    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+    <main className="min-h-screen bg-slate-50 dark:bg-[#151512]">
       <div className="mx-auto max-w-6xl px-4 pb-20 pt-8 sm:px-6 lg:px-8">
         {/* Retour */}
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-700 dark:text-slate-400 dark:hover:text-blue-300"
+          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-700 dark:text-stone-400 dark:hover:text-emerald-300"
         >
           <ArrowLeft className="h-4 w-4" />
           Retour à l&apos;accueil
@@ -150,7 +150,7 @@ export default function ContactPage() {
         {/* Introduction */}
         <section className="pb-12 pt-14 sm:pb-16 sm:pt-20">
           <div className="max-w-3xl">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 dark:border-blue-900 dark:bg-blue-950/60 dark:text-blue-300">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 dark:border-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-300">
               <Mail className="h-4 w-4" />
               Nous contacter
             </div>
@@ -159,7 +159,7 @@ export default function ContactPage() {
               Une question ou une suggestion ?
             </h1>
 
-            <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 dark:text-stone-300 sm:text-lg">
               Vous avez remarqué un problème sur le site, vous souhaitez nous
               transmettre une remarque ou simplement poser une question ?
               Envoyez-nous un message à l&apos;aide du formulaire.
@@ -171,14 +171,14 @@ export default function ContactPage() {
         <section className="grid gap-8 lg:grid-cols-[340px_1fr]">
           {/* Informations */}
           <aside className="space-y-6">
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18]">
               <h2 className="text-lg font-bold text-slate-950 dark:text-white">
                 Pour quelles raisons nous écrire ?
               </h2>
 
               <div className="mt-6 space-y-5">
                 <div className="flex gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-emerald-950/60 dark:text-emerald-300">
                     <AlertCircle className="h-5 w-5" />
                   </div>
 
@@ -186,7 +186,7 @@ export default function ContactPage() {
                     <h3 className="text-sm font-semibold text-slate-900 dark:text-white">
                       Signaler un problème
                     </h3>
-                    <p className="mt-1 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                    <p className="mt-1 text-sm leading-6 text-slate-600 dark:text-stone-400">
                       Une erreur, un bug ou une difficulté rencontrée pendant
                       votre utilisation.
                     </p>
@@ -194,7 +194,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-emerald-950/60 dark:text-emerald-300">
                     <Lightbulb className="h-5 w-5" />
                   </div>
 
@@ -202,7 +202,7 @@ export default function ContactPage() {
                     <h3 className="text-sm font-semibold text-slate-900 dark:text-white">
                       Proposer une amélioration
                     </h3>
-                    <p className="mt-1 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                    <p className="mt-1 text-sm leading-6 text-slate-600 dark:text-stone-400">
                       Une idée utile pour faciliter les révisions ou améliorer
                       la plateforme.
                     </p>
@@ -210,7 +210,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-emerald-950/60 dark:text-emerald-300">
                     <Clock3 className="h-5 w-5" />
                   </div>
 
@@ -218,7 +218,7 @@ export default function ContactPage() {
                     <h3 className="text-sm font-semibold text-slate-900 dark:text-white">
                       Délai de réponse
                     </h3>
-                    <p className="mt-1 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                    <p className="mt-1 text-sm leading-6 text-slate-600 dark:text-stone-400">
                       Nous essayons généralement de répondre sous 24 à 48 heures.
                     </p>
                   </div>
@@ -227,8 +227,8 @@ export default function ContactPage() {
             </div>
 
             {/* Liens secondaires */}
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18]">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-stone-800 dark:text-stone-200">
                 <ShieldCheck className="h-5 w-5" />
               </div>
 
@@ -236,7 +236,7 @@ export default function ContactPage() {
                 Informations utiles
               </h2>
 
-              <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-400">
+              <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-stone-400">
                 Vous pouvez également consulter les informations relatives à la
                 plateforme et à ses contenus.
               </p>
@@ -244,7 +244,7 @@ export default function ContactPage() {
               <div className="mt-5 space-y-1">
                 <Link
                   href="/sources"
-                  className="flex items-center justify-between rounded-lg px-3 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-blue-700 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-blue-300"
+                  className="flex items-center justify-between rounded-lg px-3 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-blue-700 dark:text-stone-300 dark:hover:bg-stone-800 dark:hover:text-emerald-300"
                 >
                   <span className="flex items-center gap-2">
                     <FileText className="h-4 w-4" />
@@ -256,7 +256,7 @@ export default function ContactPage() {
 
                 <Link
                   href="/mentions-legales"
-                  className="flex items-center justify-between rounded-lg px-3 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-blue-700 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-blue-300"
+                  className="flex items-center justify-between rounded-lg px-3 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-blue-700 dark:text-stone-300 dark:hover:bg-stone-800 dark:hover:text-emerald-300"
                 >
                   <span className="flex items-center gap-2">
                     <ShieldCheck className="h-4 w-4" />
@@ -270,13 +270,13 @@ export default function ContactPage() {
           </aside>
 
           {/* Formulaire */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900 sm:p-8">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18] sm:p-8">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight text-slate-950 dark:text-white">
                 Envoyez-nous un message
               </h2>
 
-              <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-400">
+              <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-stone-400">
                 Remplissez les champs ci-dessous. Nous utiliserons votre adresse
                 e-mail uniquement pour vous répondre.
               </p>
@@ -312,7 +312,7 @@ export default function ContactPage() {
                 <div>
                   <label
                     htmlFor="name"
-                    className="mb-2 block text-sm font-semibold text-slate-700 dark:text-slate-200"
+                    className="mb-2 block text-sm font-semibold text-slate-700 dark:text-stone-200"
                   >
                     Nom complet
                   </label>
@@ -340,7 +340,7 @@ export default function ContactPage() {
                 <div>
                   <label
                     htmlFor="email"
-                    className="mb-2 block text-sm font-semibold text-slate-700 dark:text-slate-200"
+                    className="mb-2 block text-sm font-semibold text-slate-700 dark:text-stone-200"
                   >
                     Adresse e-mail
                   </label>
@@ -369,7 +369,7 @@ export default function ContactPage() {
               <div>
                 <label
                   htmlFor="subject"
-                  className="mb-2 block text-sm font-semibold text-slate-700 dark:text-slate-200"
+                  className="mb-2 block text-sm font-semibold text-slate-700 dark:text-stone-200"
                 >
                   Sujet
                 </label>
@@ -397,12 +397,12 @@ export default function ContactPage() {
                 <div className="mb-2 flex items-center justify-between gap-4">
                   <label
                     htmlFor="message"
-                    className="block text-sm font-semibold text-slate-700 dark:text-slate-200"
+                    className="block text-sm font-semibold text-slate-700 dark:text-stone-200"
                   >
                     Message
                   </label>
 
-                  <span className="text-xs text-slate-500 dark:text-slate-400">
+                  <span className="text-xs text-slate-500 dark:text-stone-400">
                     {formData.message.length} caractères
                   </span>
                 </div>

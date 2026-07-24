@@ -66,3 +66,42 @@ export const SUBJECT_COLOR_SWATCH: Record<string, string> = {
   teal: "bg-teal-600",
   stone: "bg-stone-600",
 };
+
+export const DEFAULT_SUBJECT_COLOR = "#10b981";
+
+export function isHexColor(value?: string): value is string {
+  return !!value && /^#[0-9a-fA-F]{6}$/.test(value);
+}
+
+export function hexToRgba(hex: string, alpha: number): string {
+  const clean = hex.replace("#", "");
+  const bigint = parseInt(clean, 16);
+  const r = (bigint >> 16) & 255;
+  const g = (bigint >> 8) & 255;
+  const b = bigint & 255;
+
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+// Retourne le style d'un badge de matière à partir d'une couleur libre (hex, choisie via
+// la palette) ou d'une ancienne clé de palette fixe (compat avec les matières existantes).
+export function getSubjectColorStyle(
+  subjectColor?: string
+): { className: string; style?: { backgroundColor: string; borderColor: string; color: string } } | null {
+  if (isHexColor(subjectColor)) {
+    return {
+      className: "border",
+      style: {
+        backgroundColor: hexToRgba(subjectColor, 0.12),
+        borderColor: hexToRgba(subjectColor, 0.4),
+        color: subjectColor,
+      },
+    };
+  }
+
+  if (subjectColor && SUBJECT_COLORS[subjectColor]) {
+    return { className: SUBJECT_COLORS[subjectColor] };
+  }
+
+  return null;
+}

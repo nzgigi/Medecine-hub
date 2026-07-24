@@ -107,7 +107,7 @@ export default function AdminLogsPage() {
   }, [router]);
 
   return (
-    <main className="min-h-screen bg-stone-50 px-4 py-10 text-stone-950 dark:bg-black dark:text-stone-100">
+    <main className="min-h-screen bg-stone-50 px-4 py-10 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
       <div className="mx-auto max-w-3xl">
         <Link
           href="/admin"
@@ -123,15 +123,15 @@ export default function AdminLogsPage() {
           </div>
           <div>
             <h1 className="text-2xl font-black">Journal des actions admin</h1>
-            <p className="text-sm text-stone-500 dark:text-gray-400">
+            <p className="text-sm text-stone-500 dark:text-stone-400">
               Historique des actions effectuées par les administrateurs.
             </p>
           </div>
         </div>
 
-        <div className="overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900">
+        <div className="overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           {loading ? (
-            <p className="p-6 text-sm text-stone-500 dark:text-gray-400">
+            <p className="p-6 text-sm text-stone-500 dark:text-stone-400">
               Chargement...
             </p>
           ) : error ? (
@@ -139,11 +139,11 @@ export default function AdminLogsPage() {
               {error}
             </p>
           ) : logs.length === 0 ? (
-            <p className="p-6 text-sm text-stone-500 dark:text-gray-400">
+            <p className="p-6 text-sm text-stone-500 dark:text-stone-400">
               Aucune action enregistrée pour le moment.
             </p>
           ) : (
-            <div className="divide-y divide-stone-100 dark:divide-gray-800">
+            <div className="divide-y divide-stone-100 dark:divide-stone-800">
               {logs.map((log) => {
                 const displayName =
                   log.actor.googleName || log.actor.username;
@@ -151,7 +151,7 @@ export default function AdminLogsPage() {
                 return (
                   <div
                     key={log.id}
-                    className="flex items-start gap-3 px-4 py-3 transition-colors hover:bg-stone-50 dark:hover:bg-gray-800/60"
+                    className="flex items-start gap-3 px-4 py-3 transition-colors hover:bg-stone-50 dark:hover:bg-stone-800/60"
                   >
                     {log.actor.googlePicture ? (
                       // eslint-disable-next-line @next/next/no-img-element
@@ -172,26 +172,26 @@ export default function AdminLogsPage() {
 
                     <div className="min-w-0 flex-1">
                       <div className="flex flex-wrap items-baseline gap-x-2">
-                        <span className="font-bold text-stone-900 dark:text-gray-100">
+                        <span className="font-bold text-stone-900 dark:text-stone-100">
                           {displayName}
                         </span>
                         {log.actor.googleEmail && (
-                          <span className="text-xs text-stone-400 dark:text-gray-500">
+                          <span className="text-xs text-stone-400 dark:text-stone-500">
                             {log.actor.googleEmail}
                           </span>
                         )}
-                        <span className="ml-auto shrink-0 text-xs font-semibold text-stone-400 dark:text-gray-500">
+                        <span className="ml-auto shrink-0 text-xs font-semibold text-stone-400 dark:text-stone-500">
                           {formatRelativeTime(log.at)}
                         </span>
                       </div>
 
-                      <p className="mt-0.5 text-sm text-stone-700 dark:text-gray-200">
+                      <p className="mt-0.5 text-sm text-stone-700 dark:text-stone-200">
                         <ShieldCheck className="mr-1 inline h-3.5 w-3.5 text-emerald-700 dark:text-emerald-400" />
                         {log.action}
                       </p>
 
                       {log.details && (
-                        <p className="mt-0.5 truncate text-xs text-stone-500 dark:text-gray-400">
+                        <p className="mt-0.5 truncate text-xs text-stone-500 dark:text-stone-400">
                           {log.details}
                         </p>
                       )}

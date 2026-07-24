@@ -23,6 +23,12 @@ import {
   updateLocalUserProfile,
   type LocalUserProfile,
 } from "@/lib/userProfile";
+import {
+  ALLOWED_AVATAR_ACCEPT,
+  ALLOWED_AVATAR_MIME_TYPES,
+  MAX_AVATAR_SIZE_BYTES,
+  MAX_AVATAR_SIZE_LABEL,
+} from "@/lib/avatarUpload";
 
 interface QcmHistoryItem {
   matiere: string;
@@ -231,13 +237,13 @@ export default function ComptePage() {
 
     if (!file || !profile) return;
 
-    if (!file.type.startsWith("image/")) {
-      setAvatarError("Choisis une image valide.");
+    if (!ALLOWED_AVATAR_MIME_TYPES[file.type]) {
+      setAvatarError("Formats acceptés : JPG, PNG, WEBP ou GIF.");
       return;
     }
 
-    if (file.size > 1.5 * 1024 * 1024) {
-      setAvatarError("Image trop lourde. Garde une photo sous 1,5 Mo.");
+    if (file.size > MAX_AVATAR_SIZE_BYTES) {
+      setAvatarError(`Image trop lourde. Garde une photo sous ${MAX_AVATAR_SIZE_LABEL}.`);
       return;
     }
 
@@ -294,7 +300,7 @@ export default function ComptePage() {
 
   if (!profile || loading) {
     return (
-      <main className="min-h-screen bg-stone-50 px-4 py-16 text-stone-950 dark:bg-black dark:text-stone-100">
+      <main className="min-h-screen bg-stone-50 px-4 py-16 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
         <div className="mx-auto max-w-5xl text-sm text-stone-500">
           Chargement du compte...
         </div>
@@ -303,9 +309,9 @@ export default function ComptePage() {
   }
 
   return (
-    <main className="min-h-screen bg-stone-50 px-4 py-10 text-stone-950 dark:bg-black dark:text-stone-100">
+    <main className="min-h-screen bg-stone-50 px-4 py-10 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
       <div className="mx-auto max-w-6xl">
-        <section className="rounded-lg border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-800 dark:bg-black">
+        <section className="rounded-lg border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-4">
               <div className="relative">
@@ -317,7 +323,7 @@ export default function ComptePage() {
                     className="h-20 w-20 rounded-lg object-cover"
                   />
                 ) : (
-                  <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-emerald-50 text-2xl font-black text-emerald-800 dark:bg-stone-900 dark:text-emerald-300">
+                  <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-emerald-50 text-2xl font-black text-emerald-800 dark:bg-[#1d1c18] dark:text-emerald-300">
                     {profile.name.charAt(0)}
                   </div>
                 )}
@@ -326,7 +332,7 @@ export default function ComptePage() {
                   type="button"
                   onClick={() => fileInputRef.current?.click()}
                   disabled={avatarUploading}
-                  className="absolute -bottom-2 -right-2 flex h-9 w-9 items-center justify-center rounded-lg border border-stone-200 bg-white text-stone-700 shadow-sm transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
+                  className="absolute -bottom-2 -right-2 flex h-9 w-9 items-center justify-center rounded-lg border border-stone-200 bg-white text-stone-700 shadow-sm transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-100 dark:hover:bg-[#1d1c18]"
                   aria-label="Changer la photo de profil"
                 >
                   <Camera className="h-4 w-4" />
@@ -335,7 +341,7 @@ export default function ComptePage() {
                 <input
                   ref={fileInputRef}
                   type="file"
-                  accept="image/*"
+                  accept={ALLOWED_AVATAR_ACCEPT}
                   className="hidden"
                   onChange={handleAvatarChange}
                 />
@@ -353,7 +359,7 @@ export default function ComptePage() {
                     type="button"
                     onClick={() => fileInputRef.current?.click()}
                     disabled={avatarUploading}
-                    className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-900"
+                    className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
                   >
                     <Camera className="h-3.5 w-3.5" />
                     {avatarUploading ? "Envoi..." : "Changer la photo"}
@@ -364,7 +370,7 @@ export default function ComptePage() {
                       type="button"
                       onClick={handleRemoveAvatar}
                       disabled={avatarUploading}
-                      className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-900"
+                      className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
                     >
                       <Trash2 className="h-3.5 w-3.5" />
                       Retirer
@@ -382,7 +388,7 @@ export default function ComptePage() {
 
             <button
               onClick={handleLogout}
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 px-4 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-900"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 px-4 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
             >
               <LogOut className="h-4 w-4" />
               Deconnexion
@@ -418,7 +424,7 @@ export default function ComptePage() {
             return (
               <div
                 key={item.label}
-                className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-black"
+                className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512]"
               >
                 <Icon className="h-5 w-5 text-emerald-700 dark:text-emerald-300" />
                 <div className="mt-4 text-2xl font-black">{item.value}</div>
@@ -431,7 +437,7 @@ export default function ComptePage() {
         </section>
 
         <section className="mt-6 grid gap-6 lg:grid-cols-[1fr_360px]">
-          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-black">
+          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
             <div className="mb-4 flex items-center justify-between gap-3">
               <h2 className="text-xl font-black">Derniers QCM</h2>
               <Link
@@ -469,14 +475,14 @@ export default function ComptePage() {
             )}
           </div>
 
-          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-black">
+          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
             <h2 className="text-xl font-black">Progression globale</h2>
             <p className="mt-2 text-sm leading-6 text-stone-500 dark:text-stone-400">
               Ces donnees restent sur cet appareil. Elles ne sont pas encore
               synchronisees avec un serveur.
             </p>
 
-            <div className="mt-5 h-3 overflow-hidden rounded-full bg-stone-100 dark:bg-stone-900">
+            <div className="mt-5 h-3 overflow-hidden rounded-full bg-stone-100 dark:bg-[#1d1c18]">
               <div
                 className="h-full rounded-full bg-emerald-700 dark:bg-emerald-400"
                 style={{
@@ -495,7 +501,7 @@ export default function ComptePage() {
         </section>
 
         <section className="mt-6 grid gap-6 lg:grid-cols-[360px_1fr]">
-          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-black">
+          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
             <div className="flex items-center gap-2">
               <Trophy className="h-5 w-5 text-emerald-700 dark:text-emerald-300" />
               <h2 className="text-xl font-black">Leaderboard matieres</h2>
@@ -519,7 +525,7 @@ export default function ComptePage() {
             )}
           </div>
 
-          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-black">
+          <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <div className="flex items-center gap-2">
@@ -534,7 +540,7 @@ export default function ComptePage() {
               <select
                 value={selectedMatiere}
                 onChange={(event) => setSelectedMatiere(event.target.value)}
-                className="rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 outline-none dark:border-stone-800 dark:bg-black dark:text-stone-100"
+                className="rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 outline-none dark:border-stone-800 dark:bg-[#151512] dark:text-stone-100"
               >
                 <option value="global">Global</option>
                 {matieresWithHistory.map((matiere) => (
@@ -552,7 +558,7 @@ export default function ComptePage() {
                     key={`${item.matiere}-${item.annee}-${item.date}-${index}`}
                     className="grid grid-cols-[44px_1fr_auto] items-center gap-3 py-4"
                   >
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-stone-50 dark:bg-stone-900">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-stone-50 dark:bg-[#1d1c18]">
                       <LeaderboardRankIcon index={index} />
                     </div>
 
@@ -600,8 +606,8 @@ function CategoryLeaderboardItem({
   index: number;
 }) {
   return (
-    <div className="grid grid-cols-[36px_1fr_auto] items-center gap-3 rounded-lg border border-stone-100 bg-stone-50 p-3 dark:border-stone-800 dark:bg-stone-950">
-      <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white dark:bg-black">
+    <div className="grid grid-cols-[36px_1fr_auto] items-center gap-3 rounded-lg border border-stone-100 bg-stone-50 p-3 dark:border-stone-800 dark:bg-[#151512]">
+      <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white dark:bg-[#151512]">
         <LeaderboardRankIcon index={index} />
       </div>
 

@@ -963,8 +963,8 @@ export default function EditQCMPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950">
-        <div className="text-xl text-gray-800 dark:text-gray-100">
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-[#151512]">
+        <div className="text-xl text-gray-800 dark:text-stone-100">
           Chargement…
         </div>
       </div>
@@ -973,16 +973,16 @@ export default function EditQCMPage() {
 
   if (!examData) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-950">
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-[#151512]">
         <div className="text-xl text-red-600">Erreur de chargement</div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-8 text-gray-900 dark:text-gray-100">
+    <div className="min-h-screen bg-gray-50 dark:bg-[#151512] py-8 text-gray-900 dark:text-stone-100">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow mb-6 sticky top-4 z-20 border border-gray-100 dark:border-gray-800">
+        <div className="bg-white dark:bg-[#1d1c18] p-6 rounded-xl shadow mb-6 sticky top-4 z-20 border border-gray-100 dark:border-stone-800">
           <div className="flex justify-between items-center gap-4 flex-wrap">
             <div className="flex items-center gap-4">
               <button
@@ -998,17 +998,17 @@ export default function EditQCMPage() {
 
                   router.push("/admin");
                 }}
-                className="flex gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-700 dark:hover:text-blue-300"
+                className="flex gap-2 text-blue-600 dark:text-emerald-400 font-semibold hover:text-blue-700 dark:hover:text-emerald-300"
               >
                 <ArrowLeft className="w-5 h-5" />
                 Retour
               </button>
 
               <div>
-                <div className="text-sm text-gray-600 dark:text-gray-300">
+                <div className="text-sm text-gray-600 dark:text-stone-300">
                   {examData.matiere} - {examData.annee}
                 </div>
-                <div className="text-xs text-gray-500 dark:text-gray-400">
+                <div className="text-xs text-gray-500 dark:text-stone-400">
                   {examData.folders.length} dossier(s) •{" "}
                   {examData.total_questions} question(s)
                 </div>
@@ -1051,7 +1051,7 @@ export default function EditQCMPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6 min-w-0">
-          <aside className="min-w-0 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-5 h-fit lg:sticky lg:top-28">
+          <aside className="min-w-0 bg-white dark:bg-[#1d1c18] rounded-2xl shadow-lg border border-gray-100 dark:border-stone-800 p-5 h-fit lg:sticky lg:top-28">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-extrabold text-xl">Dossiers</h2>
               <button
@@ -1069,23 +1069,23 @@ export default function EditQCMPage() {
                   key={folder.id}
                   className={`rounded-xl border p-3 transition ${
                     folder.id === activeFolderId
-                      ? "border-blue-500 bg-blue-50 dark:bg-blue-900/20"
-                      : "border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900"
+                      ? "border-blue-500 bg-blue-50 dark:bg-emerald-900/20"
+                      : "border-gray-200 dark:border-stone-700 bg-gray-50 dark:bg-[#1d1c18]"
                   }`}
                 >
                   <button
                     onClick={() => setActiveFolderId(folder.id)}
                     className="w-full text-left"
                   >
-                    <div className="text-xs font-bold text-blue-600 dark:text-blue-400 mb-1">
+                    <div className="text-xs font-bold text-blue-600 dark:text-emerald-400 mb-1">
                       {folder.type} • {getFolderTypeLabel(folder.type)}
                     </div>
 
-                    <div className="font-bold text-gray-900 dark:text-gray-100 line-clamp-2">
+                    <div className="font-bold text-gray-900 dark:text-stone-100 line-clamp-2">
                       {folder.title}
                     </div>
 
-                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                    <div className="text-xs text-gray-500 dark:text-stone-400 mt-1">
                       {folder.questions.length} question(s)
                     </div>
                   </button>
@@ -1094,7 +1094,7 @@ export default function EditQCMPage() {
                     <button
                       onClick={() => moveFolder(folder.id, "up")}
                       disabled={index === 0}
-                      className="p-2 rounded-lg hover:bg-white dark:hover:bg-gray-800 disabled:opacity-30"
+                      className="p-2 rounded-lg hover:bg-white dark:hover:bg-stone-800 disabled:opacity-30"
                       title="Monter"
                     >
                       <ArrowUp className="w-4 h-4" />
@@ -1103,7 +1103,7 @@ export default function EditQCMPage() {
                     <button
                       onClick={() => moveFolder(folder.id, "down")}
                       disabled={index === sortedFolders.length - 1}
-                      className="p-2 rounded-lg hover:bg-white dark:hover:bg-gray-800 disabled:opacity-30"
+                      className="p-2 rounded-lg hover:bg-white dark:hover:bg-stone-800 disabled:opacity-30"
                       title="Descendre"
                     >
                       <ArrowDown className="w-4 h-4" />
@@ -1121,7 +1121,7 @@ export default function EditQCMPage() {
               ))}
 
               {sortedFolders.length === 0 && (
-                <div className="text-sm text-gray-500 dark:text-gray-400">
+                <div className="text-sm text-gray-500 dark:text-stone-400">
                   Aucun dossier pour le moment.
                 </div>
               )}
@@ -1130,12 +1130,12 @@ export default function EditQCMPage() {
 
           <main className="min-w-0">
             {!activeFolder ? (
-              <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-8 text-center">
+              <div className="bg-white dark:bg-[#1d1c18] rounded-2xl shadow-lg border border-gray-100 dark:border-stone-800 p-8 text-center">
                 <FileText className="w-12 h-12 mx-auto mb-4 text-gray-400" />
                 <h2 className="text-2xl font-bold mb-2">
                   Aucun dossier sélectionné
                 </h2>
-                <p className="text-gray-600 dark:text-gray-300 mb-6">
+                <p className="text-gray-600 dark:text-stone-300 mb-6">
                   Créez un dossier pour commencer à ajouter des questions.
                 </p>
                 <button
@@ -1148,13 +1148,13 @@ export default function EditQCMPage() {
               </div>
             ) : (
               <div className="space-y-6">
-                <section className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-6">
+                <section className="bg-white dark:bg-[#1d1c18] rounded-2xl shadow-lg border border-gray-100 dark:border-stone-800 p-6">
                   <div className="flex items-start justify-between gap-4 flex-wrap mb-6">
                     <div>
                       <h1 className="text-2xl font-extrabold mb-1">
                         Configuration du dossier
                       </h1>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                      <p className="text-sm text-gray-500 dark:text-stone-400">
                         Type, nom, consigne générale et questions liées.
                       </p>
                     </div>
@@ -1170,7 +1170,7 @@ export default function EditQCMPage() {
 
                   <div className="grid md:grid-cols-2 gap-4 mb-4">
                     <div>
-                      <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                      <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                         Type de dossier
                       </label>
                       <select
@@ -1182,7 +1182,7 @@ export default function EditQCMPage() {
                             event.target.value as FolderType
                           )
                         }
-                        className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-lg px-3 py-2"
+                        className="w-full border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 rounded-lg px-3 py-2"
                       >
                         {FOLDER_TYPES.map((type) => (
                           <option key={type.value} value={type.value}>
@@ -1193,7 +1193,7 @@ export default function EditQCMPage() {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                      <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                         Nom du dossier
                       </label>
                       <input
@@ -1205,14 +1205,14 @@ export default function EditQCMPage() {
                             event.target.value
                           )
                         }
-                        className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-lg px-3 py-2"
+                        className="w-full border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 rounded-lg px-3 py-2"
                         placeholder="Ex: DP1 Cardiologie - Madame B."
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                    <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                       Consigne générale du dossier
                     </label>
                     <textarea
@@ -1224,7 +1224,7 @@ export default function EditQCMPage() {
                           event.target.value
                         )
                       }
-                      className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-lg px-3 py-2"
+                      className="w-full border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 rounded-lg px-3 py-2"
                       rows={4}
                       placeholder="Texte introductif, contexte global, consigne du dossier..."
                     />
@@ -1235,7 +1235,7 @@ export default function EditQCMPage() {
                   {sortQuestions(activeFolder.questions).map((question, index) => (
                     <div
                       key={question.id}
-                      className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md border-2 border-gray-100 dark:border-gray-800"
+                      className="bg-white dark:bg-[#1d1c18] p-6 rounded-2xl shadow-md border-2 border-gray-100 dark:border-stone-800"
                     >
                       <div className="flex flex-wrap justify-between items-start gap-4 mb-5">
                         <div className="flex items-center gap-3 flex-wrap">
@@ -1252,7 +1252,7 @@ export default function EditQCMPage() {
                                 event.target.value as QuestionType
                               )
                             }
-                            className="border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-lg px-3 py-1 text-sm font-semibold"
+                            className="border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 rounded-lg px-3 py-1 text-sm font-semibold"
                           >
                             {QUESTION_TYPES.map((type) => (
                               <option key={type.value} value={type.value}>
@@ -1275,7 +1275,7 @@ export default function EditQCMPage() {
                                   Number(event.target.value)
                                 )
                               }
-                              className="w-20 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-lg px-2 py-1 text-sm"
+                              className="w-20 border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 rounded-lg px-2 py-1 text-sm"
                               title="Nombre de réponses à cocher"
                             />
                           )}
@@ -1287,7 +1287,7 @@ export default function EditQCMPage() {
                               moveQuestion(activeFolder.id, question.id, "up")
                             }
                             disabled={index === 0}
-                            className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded disabled:opacity-30"
+                            className="p-2 hover:bg-gray-100 dark:hover:bg-stone-800 rounded disabled:opacity-30"
                             title="Monter"
                           >
                             <ChevronUp className="w-4 h-4" />
@@ -1298,7 +1298,7 @@ export default function EditQCMPage() {
                               moveQuestion(activeFolder.id, question.id, "down")
                             }
                             disabled={index === activeFolder.questions.length - 1}
-                            className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded disabled:opacity-30"
+                            className="p-2 hover:bg-gray-100 dark:hover:bg-stone-800 rounded disabled:opacity-30"
                             title="Descendre"
                           >
                             <ChevronDown className="w-4 h-4" />
@@ -1317,7 +1317,7 @@ export default function EditQCMPage() {
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                        <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                           Contexte clinique de la question
                         </label>
                         <textarea
@@ -1331,13 +1331,13 @@ export default function EditQCMPage() {
                             )
                           }
                           placeholder="Ex: Patient de 65 ans présentant une dyspnée..."
-                          className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-3 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
+                          className="w-full border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-3 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
                           rows={2}
                         />
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                        <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                           Question
                         </label>
                         <textarea
@@ -1350,13 +1350,13 @@ export default function EditQCMPage() {
                               event.target.value
                             )
                           }
-                          className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-3 rounded-lg focus:border-blue-500 focus:outline-none font-medium"
+                          className="w-full border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-3 rounded-lg focus:border-blue-500 focus:outline-none font-medium"
                           rows={3}
                         />
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                        <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                           Image optionnelle
                         </label>
 
@@ -1366,7 +1366,7 @@ export default function EditQCMPage() {
                             <img
                               src={question.image}
                               alt={`Image Q${question.id}`}
-                              className="max-h-48 rounded-lg border-2 border-gray-200 dark:border-gray-700 object-contain bg-gray-50 dark:bg-gray-800"
+                              className="max-h-48 rounded-lg border-2 border-gray-200 dark:border-stone-700 object-contain bg-gray-50 dark:bg-stone-800"
                               onError={(event) => {
                                 event.currentTarget.style.display = "none";
                                 const placeholder =
@@ -1418,18 +1418,18 @@ export default function EditQCMPage() {
                             }}
                             className={`flex items-center gap-3 cursor-pointer w-fit border-2 border-dashed transition-all px-5 py-3 rounded-xl ${
                               draggingQuestionId === question.id
-                                ? "border-blue-500 bg-blue-100 dark:bg-blue-900/40"
-                                : "bg-gray-50 dark:bg-gray-900 border-gray-300 dark:border-gray-700 hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20"
+                                ? "border-blue-500 bg-blue-100 dark:bg-emerald-900/40"
+                                : "bg-gray-50 dark:bg-[#1d1c18] border-gray-300 dark:border-stone-700 hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-emerald-900/20"
                             }`}
                           >
                             {uploadingQuestionId === question.id ? (
-                              <span className="text-sm text-gray-500 dark:text-gray-300">
+                              <span className="text-sm text-gray-500 dark:text-stone-300">
                                 Upload en cours...
                               </span>
                             ) : (
                               <>
                                 <ImagePlus className="w-5 h-5 text-gray-400" />
-                                <span className="text-sm text-gray-500 dark:text-gray-300 font-medium">
+                                <span className="text-sm text-gray-500 dark:text-stone-300 font-medium">
                                   {draggingQuestionId === question.id
                                     ? "Déposez l'image ici"
                                     : "Ajouter une image (ou glisser-déposer)"}
@@ -1460,10 +1460,10 @@ export default function EditQCMPage() {
 
                       {question.type !== "QROC" && (
                         <div className="mb-4">
-                          <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                          <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                             Choix de réponses
                           </label>
-                          <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">
+                          <p className="text-xs text-gray-500 dark:text-stone-400 mb-2">
                             Le bouton <ShieldAlert className="inline w-3.5 h-3.5 -mt-0.5" /> marque
                             un choix &quot;critique&quot; : indispensable si c&apos;est une
                             bonne réponse (non cochée par l&apos;étudiant ⇒ note à
@@ -1494,7 +1494,7 @@ export default function EditQCMPage() {
                                   className={`w-10 h-10 font-bold rounded-lg transition-all flex-shrink-0 ${
                                     isCorrect
                                       ? "bg-green-500 text-white shadow-lg"
-                                      : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 hover:bg-gray-300 dark:hover:bg-gray-600"
+                                      : "bg-gray-200 dark:bg-stone-700 text-gray-800 dark:text-stone-100 hover:bg-gray-300 dark:hover:bg-stone-600"
                                   }`}
                                   title={
                                     isCorrect
@@ -1516,7 +1516,7 @@ export default function EditQCMPage() {
                                   className={`w-10 h-10 rounded-lg transition-all flex-shrink-0 flex items-center justify-center ${
                                     isCritique
                                       ? "bg-amber-500 text-white shadow-lg ring-2 ring-amber-300"
-                                      : "bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-700"
+                                      : "bg-gray-100 dark:bg-stone-800 text-gray-400 dark:text-stone-500 hover:bg-gray-200 dark:hover:bg-stone-700"
                                   }`}
                                   title={
                                     isCritique
@@ -1541,7 +1541,7 @@ export default function EditQCMPage() {
                                       event.target.value
                                     )
                                   }
-                                  className="min-w-[140px] flex-1 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
+                                  className="min-w-[140px] flex-1 border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
                                 />
 
                                 <div className="flex basis-full justify-end gap-1 opacity-60 group-hover:opacity-100 sm:basis-auto sm:justify-start sm:opacity-0 sm:group-hover:opacity-100 transition-opacity">
@@ -1555,7 +1555,7 @@ export default function EditQCMPage() {
                                       )
                                     }
                                     disabled={choiceIndex === 0}
-                                    className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded disabled:opacity-30"
+                                    className="p-2 hover:bg-gray-100 dark:hover:bg-stone-800 rounded disabled:opacity-30"
                                     title="Déplacer vers le haut"
                                   >
                                     <ChevronUp className="w-4 h-4" />
@@ -1573,7 +1573,7 @@ export default function EditQCMPage() {
                                     disabled={
                                       choiceIndex === question.choix.length - 1
                                     }
-                                    className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded disabled:opacity-30"
+                                    className="p-2 hover:bg-gray-100 dark:hover:bg-stone-800 rounded disabled:opacity-30"
                                     title="Déplacer vers le bas"
                                   >
                                     <ChevronDown className="w-4 h-4" />
@@ -1601,7 +1601,7 @@ export default function EditQCMPage() {
                             onClick={() =>
                               addChoice(activeFolder.id, question.id)
                             }
-                            className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold mt-2 hover:underline"
+                            className="text-sm text-blue-600 dark:text-emerald-400 hover:text-blue-700 dark:hover:text-emerald-300 font-semibold mt-2 hover:underline"
                           >
                             + Ajouter un choix
                           </button>
@@ -1610,7 +1610,7 @@ export default function EditQCMPage() {
 
                       {question.type === "QROC" && (
                         <div className="mb-4">
-                          <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                          <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                             Réponses acceptées QROC
                           </label>
 
@@ -1631,7 +1631,7 @@ export default function EditQCMPage() {
                                       event.target.value
                                     )
                                   }
-                                  className="flex-1 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
+                                  className="flex-1 border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
                                   placeholder="ex: rétrécissement aortique"
                                 />
 
@@ -1656,12 +1656,12 @@ export default function EditQCMPage() {
                             onClick={() =>
                               addQrocResponse(activeFolder.id, question.id)
                             }
-                            className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold mt-2 hover:underline"
+                            className="text-sm text-blue-600 dark:text-emerald-400 hover:text-blue-700 dark:hover:text-emerald-300 font-semibold mt-2 hover:underline"
                           >
                             + Ajouter une réponse acceptée
                           </button>
 
-                          <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
+                          <p className="mt-2 text-xs text-gray-500 dark:text-stone-400">
                             La comparaison est insensible aux majuscules,
                             espaces et accents côté étudiant. Ajoutez une
                             entrée par formulation équivalente acceptée.
@@ -1670,7 +1670,7 @@ export default function EditQCMPage() {
                       )}
 
                       <div className="mb-4">
-                        <label className="block text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
+                        <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                           Justification / commentaire de correction
                         </label>
                         <textarea
@@ -1683,7 +1683,7 @@ export default function EditQCMPage() {
                               event.target.value
                             )
                           }
-                          className="w-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-3 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
+                          className="w-full border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-3 rounded-lg focus:border-blue-500 focus:outline-none text-sm"
                           rows={3}
                           placeholder="Expliquez pourquoi les réponses sont justes/fausses..."
                         />
@@ -1707,12 +1707,12 @@ export default function EditQCMPage() {
                   ))}
 
                   {activeFolder.questions.length === 0 && (
-                    <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 p-8 text-center">
+                    <div className="bg-white dark:bg-[#1d1c18] rounded-2xl shadow-lg border border-gray-100 dark:border-stone-800 p-8 text-center">
                       <FileText className="w-12 h-12 mx-auto mb-4 text-gray-400" />
                       <h2 className="text-xl font-bold mb-2">
                         Aucune question dans ce dossier
                       </h2>
-                      <p className="text-gray-600 dark:text-gray-300 mb-6">
+                      <p className="text-gray-600 dark:text-stone-300 mb-6">
                         Ajoutez une question pour commencer à construire ce
                         dossier.
                       </p>

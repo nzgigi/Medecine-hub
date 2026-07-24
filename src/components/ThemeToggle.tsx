@@ -1,43 +1,65 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import { Moon, Sun } from "lucide-react";
 
 type ThemeToggleProps = {
   variant?: "desktop" | "icon";
 };
 
-function getInitialTheme(): boolean {
-  if (typeof window === "undefined") return false;
+type Listener = () => void;
 
+const listeners = new Set<Listener>();
+let cachedTheme: boolean | null = null;
+
+function computeTheme(): boolean {
   const stored = localStorage.getItem("theme");
   const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
 
   return stored === "dark" || (!stored && prefersDark);
 }
 
+// Snapshot lu côté client (via useSyncExternalStore, qui gère nativement la
+// divergence serveur/client sans provoquer de warning d'hydratation React).
+function getSnapshot(): boolean {
+  if (cachedTheme === null) {
+    cachedTheme = computeTheme();
+  }
+
+  return cachedTheme;
+}
+
+function getServerSnapshot(): boolean {
+  return false;
+}
+
+function subscribe(listener: Listener) {
+  listeners.add(listener);
+  return () => listeners.delete(listener);
+}
+
+function setTheme(isDark: boolean) {
+  cachedTheme = isDark;
+  localStorage.setItem("theme", isDark ? "dark" : "light");
+  listeners.forEach((listener) => listener());
+}
+
 export default function ThemeToggle({ variant = "desktop" }: ThemeToggleProps) {
-  const [isDark, setIsDark] = useState(getInitialTheme);
+  const isDark = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   useEffect(() => {
-    if (isDark) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
+    document.documentElement.classList.toggle("dark", isDark);
   }, [isDark]);
 
   const toggleTheme = () => {
-    setIsDark((current) => !current);
+    setTheme(!isDark);
   };
 
   if (variant === "icon") {
     return (
       <button
         onClick={toggleTheme}
-        className="rounded-lg border border-stone-200 bg-white p-2 text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
+        className="rounded-lg border border-stone-200 bg-white p-2 text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-100 dark:hover:bg-[#1d1c18]"
         aria-label="Changer de thème"
       >
         {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
@@ -48,7 +70,7 @@ export default function ThemeToggle({ variant = "desktop" }: ThemeToggleProps) {
   return (
     <button
       onClick={toggleTheme}
-      className="ml-2 flex items-center gap-2 rounded-lg border border-stone-200 bg-white p-2 text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
+      className="ml-2 flex items-center gap-2 rounded-lg border border-stone-200 bg-white p-2 text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-100 dark:hover:bg-[#1d1c18]"
     >
       {isDark ? (
         <>

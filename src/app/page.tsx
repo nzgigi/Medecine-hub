@@ -167,7 +167,7 @@ export default function HomePage() {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-stone-50 dark:bg-black">
+      <div className="flex min-h-screen items-center justify-center bg-stone-50 dark:bg-[#151512]">
         <div className="text-center">
           <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-2 border-stone-300 border-b-emerald-800 dark:border-stone-800 dark:border-b-emerald-300" />
           <div className="text-sm font-semibold text-stone-500">
@@ -179,12 +179,12 @@ export default function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-stone-50 text-stone-950 dark:bg-black dark:text-stone-100">
-      <section className="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
+    <main className="min-h-screen bg-stone-50 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
+      <section className="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]">
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="flex flex-col-reverse items-center gap-8 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
             <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm font-bold text-stone-700 dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300">
+              <div className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm font-bold text-stone-700 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-300">
                 <Stethoscope className="h-4 w-4 text-emerald-800 dark:text-emerald-300" />
                 Annales medicales gratuites
               </div>
@@ -209,7 +209,7 @@ export default function HomePage() {
 
                 <Link
                   href="/compte"
-                  className="inline-flex items-center justify-center rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-bold text-stone-800 transition-colors hover:bg-stone-50 dark:border-stone-800 dark:bg-black dark:text-stone-200 dark:hover:bg-stone-900"
+                  className="inline-flex items-center justify-center rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-bold text-stone-800 transition-colors hover:bg-stone-50 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-200 dark:hover:bg-[#1d1c18]"
                 >
                   Voir mon compte
                 </Link>
@@ -239,7 +239,7 @@ export default function HomePage() {
               return (
                 <div
                   key={item.label}
-                  className="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-stone-950"
+                  className="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-[#151512]"
                 >
                   <Icon className="h-5 w-5 text-emerald-800 dark:text-emerald-300" />
                   <div className="mt-3 text-3xl font-black">{item.value}</div>
@@ -277,7 +277,7 @@ export default function HomePage() {
               return (
                 <section
                   key={semester.name}
-                  className="overflow-hidden rounded-lg border border-stone-200 bg-white dark:border-stone-800 dark:bg-black"
+                  className="overflow-hidden rounded-lg border border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]"
                 >
                   <button
                     onClick={() =>
@@ -286,7 +286,7 @@ export default function HomePage() {
                         [semester.name]: !isOpen,
                       }))
                     }
-                    className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-stone-50 dark:hover:bg-stone-900"
+                    className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-stone-50 dark:hover:bg-[#1d1c18]"
                   >
                     <span>
                       <span className="block text-xl font-black">
@@ -325,7 +325,7 @@ export default function HomePage() {
             })}
           </div>
         ) : (
-          <div className="rounded-lg border border-stone-200 bg-white p-10 text-center dark:border-stone-800 dark:bg-black">
+          <div className="rounded-lg border border-stone-200 bg-white p-10 text-center dark:border-stone-800 dark:bg-[#151512]">
             <BookOpen className="mx-auto mb-4 h-10 w-10 text-stone-400" />
             <h3 className="text-xl font-black">Aucune matiere</h3>
             <p className="mt-2 text-sm text-stone-500">

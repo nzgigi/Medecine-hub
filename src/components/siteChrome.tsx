@@ -26,7 +26,7 @@ export default function SiteChrome({
 
       <div className="min-h-screen">{children}</div>
 
-      <footer className="border-t border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
+      <footer className="border-t border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-7 md:flex-row md:items-center md:justify-between">
             <Link href="/" className="flex items-center gap-3">

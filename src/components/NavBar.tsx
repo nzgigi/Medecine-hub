@@ -55,7 +55,7 @@ export default function Navbar() {
   }, [pathname]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-black">
+    <header className="sticky top-0 z-50 border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]">
       <nav
         className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
         aria-label="Navigation principale"
@@ -97,8 +97,8 @@ export default function Navbar() {
                 href={item.href}
                 className={`rounded-lg px-3.5 py-2 text-sm font-medium transition-colors duration-200 ${
                   active
-                    ? "bg-emerald-50 text-emerald-800 dark:bg-stone-900 dark:text-emerald-300"
-                    : "text-stone-600 hover:bg-stone-100 hover:text-stone-950 dark:text-stone-300 dark:hover:bg-stone-900 dark:hover:text-white"
+                    ? "bg-emerald-50 text-emerald-800 dark:bg-[#1d1c18] dark:text-emerald-300"
+                    : "text-stone-600 hover:bg-stone-100 hover:text-stone-950 dark:text-stone-300 dark:hover:bg-[#1d1c18] dark:hover:text-white"
                 }`}
               >
                 {item.name}
@@ -115,8 +115,8 @@ export default function Navbar() {
               href="/compte"
               className={`ml-2 flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg border transition-colors ${
                 isActive("/compte")
-                  ? "border-emerald-700 bg-emerald-50 text-emerald-800 dark:border-emerald-600 dark:bg-stone-900 dark:text-emerald-300"
-                  : "border-stone-200 bg-white text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-200 dark:hover:bg-stone-900"
+                  ? "border-emerald-700 bg-emerald-50 text-emerald-800 dark:border-emerald-600 dark:bg-[#1d1c18] dark:text-emerald-300"
+                  : "border-stone-200 bg-white text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-200 dark:hover:bg-[#1d1c18]"
               }`}
               aria-label="Mon compte"
               title="Mon compte"
@@ -135,7 +135,7 @@ export default function Navbar() {
           ) : (
             <Link
               href="/connexion"
-              className="ml-2 rounded-lg border border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-800 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-black dark:text-stone-100 dark:hover:bg-stone-900"
+              className="ml-2 rounded-lg border border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-800 transition-colors hover:bg-stone-100 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-100 dark:hover:bg-[#1d1c18]"
             >
               Se connecter
             </Link>
@@ -156,7 +156,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen((open) => !open)}
-            className="flex h-10 w-10 items-center justify-center rounded-lg text-stone-700 transition-colors hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-stone-900"
+            className="flex h-10 w-10 items-center justify-center rounded-lg text-stone-700 transition-colors hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
             aria-label={
               mobileMenuOpen
                 ? "Fermer le menu de navigation"
@@ -174,7 +174,7 @@ export default function Navbar() {
       </nav>
 
       {mobileMenuOpen && (
-        <div className="border-t border-stone-200 bg-white px-4 pb-4 pt-3 dark:border-stone-800 dark:bg-black lg:hidden">
+        <div className="border-t border-stone-200 bg-white px-4 pb-4 pt-3 dark:border-stone-800 dark:bg-[#151512] lg:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-1">
             {navigation.map((item) => {
               const Icon = item.icon;
@@ -187,8 +187,8 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`flex items-center gap-3 rounded-lg px-3 py-3 text-sm font-medium transition-colors duration-200 ${
                     active
-                      ? "bg-emerald-50 text-emerald-800 dark:bg-stone-900 dark:text-emerald-300"
-                      : "text-stone-700 hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-stone-900"
+                      ? "bg-emerald-50 text-emerald-800 dark:bg-[#1d1c18] dark:text-emerald-300"
+                      : "text-stone-700 hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
                   }`}
                 >
                   <Icon className="h-4 w-4" />
@@ -202,8 +202,8 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
               className={`flex items-center gap-3 rounded-lg px-3 py-3 text-sm font-medium transition-colors duration-200 ${
                 isActive("/compte") || isActive("/connexion")
-                  ? "bg-emerald-50 text-emerald-800 dark:bg-stone-900 dark:text-emerald-300"
-                  : "text-stone-700 hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-stone-900"
+                  ? "bg-emerald-50 text-emerald-800 dark:bg-[#1d1c18] dark:text-emerald-300"
+                  : "text-stone-700 hover:bg-stone-100 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
               }`}
             >
               <span className="flex h-7 w-7 shrink-0 items-center justify-center overflow-hidden rounded-md border border-stone-200 dark:border-stone-800">

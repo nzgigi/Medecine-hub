@@ -13,7 +13,7 @@ import {
   User,
   Wind,
 } from "lucide-react";
-import { SUBJECT_COLORS, SUBJECT_ICONS } from "@/lib/subjectStyles";
+import { SUBJECT_ICONS, getSubjectColorStyle } from "@/lib/subjectStyles";
 
 interface ExamPreview {
   annee: number;
@@ -53,7 +53,7 @@ const accents: Record<string, string> = {
 function getAccent(matiere: string) {
   return (
     accents[matiere] ||
-    "text-stone-700 bg-stone-50 border-stone-100 dark:text-stone-300 dark:bg-stone-900 dark:border-stone-700"
+    "text-stone-700 bg-stone-50 border-stone-100 dark:text-stone-300 dark:bg-[#1d1c18] dark:border-stone-700"
   );
 }
 
@@ -90,15 +90,18 @@ export default function MatiereCard({
   subjectIcon,
   subjectColor,
 }: MatiereCardProps) {
-  const accent =
-    (subjectColor && SUBJECT_COLORS[subjectColor]) || getAccent(matiere);
+  const colorStyle = getSubjectColorStyle(subjectColor);
+  const accent = colorStyle?.className || getAccent(matiere);
   const CustomIcon = subjectIcon ? SUBJECT_ICONS[subjectIcon] : undefined;
 
   return (
-    <article className="h-full rounded-lg border border-stone-200 bg-white transition-colors hover:border-stone-300 dark:border-stone-800 dark:bg-black dark:hover:border-stone-700">
+    <article className="h-full rounded-lg border border-stone-200 bg-white transition-colors hover:border-stone-300 dark:border-stone-800 dark:bg-[#151512] dark:hover:border-stone-700">
       <div className="flex h-full flex-col p-5">
         <div className="flex items-start justify-between gap-4">
-          <div className={`inline-flex rounded-lg border p-2 ${accent}`}>
+          <div
+            className={`inline-flex rounded-lg border p-2 ${accent}`}
+            style={colorStyle?.style}
+          >
             {CustomIcon ? (
               <CustomIcon className="h-5 w-5" />
             ) : (
@@ -125,10 +128,10 @@ export default function MatiereCard({
             <Link
               key={`${slug}-${exam.annee}`}
               href={`/qcm/${slug}/${exam.annee}`}
-              className="group flex items-center justify-between gap-3 rounded-lg border border-stone-200 bg-stone-50 px-3 py-3 transition-colors hover:border-emerald-800 hover:bg-white dark:border-stone-800 dark:bg-stone-950 dark:hover:border-emerald-700 dark:hover:bg-stone-900"
+              className="group flex items-center justify-between gap-3 rounded-lg border border-stone-200 bg-stone-50 px-3 py-3 transition-colors hover:border-emerald-800 hover:bg-white dark:border-stone-800 dark:bg-[#151512] dark:hover:border-emerald-700 dark:hover:bg-[#1d1c18]"
             >
               <span className="flex min-w-0 items-center gap-3">
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-stone-200 bg-white text-stone-500 dark:border-stone-800 dark:bg-black dark:text-stone-300">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-stone-200 bg-white text-stone-500 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-300">
                   <FileText className="h-4 w-4" />
                 </span>
 

@@ -34,12 +34,12 @@ export default function SoutenirPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+    <main className="min-h-screen bg-slate-50 dark:bg-[#151512]">
       {/* Retour */}
       <div className="mx-auto max-w-6xl px-4 pt-8 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-700 dark:text-slate-400 dark:hover:text-blue-300"
+          className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-700 dark:text-stone-400 dark:hover:text-emerald-300"
         >
           <ArrowLeft className="h-4 w-4" />
           Retour à l&apos;accueil
@@ -49,7 +49,7 @@ export default function SoutenirPage() {
       {/* Introduction */}
       <section className="mx-auto max-w-6xl px-4 pb-14 pt-14 sm:px-6 sm:pb-16 sm:pt-20 lg:px-8">
         <div className="max-w-3xl">
-          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 dark:border-blue-900 dark:bg-blue-950/60 dark:text-blue-300">
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 dark:border-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-300">
             <Heart className="h-4 w-4" />
             Soutenir le projet
           </div>
@@ -58,7 +58,7 @@ export default function SoutenirPage() {
             Aidez-nous à faire grandir Medecine Hub
           </h1>
 
-          <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300 sm:text-lg">
+          <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 dark:text-stone-300 sm:text-lg">
             Medecine Hub a été créé pour permettre aux étudiants de réviser
             gratuitement avec des annales et des QCM accessibles simplement.
             Votre soutien nous aide à maintenir cette plateforme et à continuer
@@ -72,17 +72,17 @@ export default function SoutenirPage() {
         {/* Colonne gauche */}
         <div className="space-y-8">
           {/* Pourquoi soutenir */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900 sm:p-8">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18] sm:p-8">
             <h2 className="text-2xl font-bold tracking-tight text-slate-950 dark:text-white">
               À quoi sert votre soutien ?
             </h2>
 
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-400">
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 dark:text-stone-400">
               Chaque contribution est utilisée pour garder le projet fiable,
               accessible et agréable à utiliser au quotidien.
             </p>
 
-            <div className="mt-8 divide-y divide-slate-200 dark:divide-slate-800">
+            <div className="mt-8 divide-y divide-slate-200 dark:divide-stone-800">
               {contributions.map((item) => {
                 const Icon = item.icon;
 
@@ -91,7 +91,7 @@ export default function SoutenirPage() {
                     key={item.title}
                     className="flex gap-4 py-6 first:pt-0 last:pb-0"
                   >
-                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-700 dark:bg-emerald-950/60 dark:text-emerald-300">
                       <Icon className="h-5 w-5" strokeWidth={2} />
                     </div>
 
@@ -99,7 +99,7 @@ export default function SoutenirPage() {
                       <h3 className="font-semibold text-slate-900 dark:text-white">
                         {item.title}
                       </h3>
-                      <p className="mt-1.5 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                      <p className="mt-1.5 text-sm leading-6 text-slate-600 dark:text-stone-400">
                         {item.description}
                       </p>
                     </div>
@@ -110,8 +110,8 @@ export default function SoutenirPage() {
           </div>
 
           {/* Partager le site */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900 sm:p-8">
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18] sm:p-8">
+            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-stone-800 dark:text-stone-200">
               <Share2 className="h-5 w-5" />
             </div>
 
@@ -119,7 +119,7 @@ export default function SoutenirPage() {
               Vous pouvez aussi simplement partager le site
             </h2>
 
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-400">
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 dark:text-stone-400">
               Un don n&apos;est évidemment pas obligatoire. Parler de Medecine
               Hub à vos camarades de promotion est déjà une excellente manière
               de nous aider à faire connaître la plateforme.
@@ -127,7 +127,7 @@ export default function SoutenirPage() {
 
             <Link
               href="/"
-              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue-700 transition-colors hover:text-blue-800 dark:text-blue-300 dark:hover:text-blue-200"
+              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue-700 transition-colors hover:text-blue-800 dark:text-emerald-300 dark:hover:text-emerald-200"
             >
               Retourner sur la plateforme
               <ArrowRight className="h-4 w-4" />
@@ -138,7 +138,7 @@ export default function SoutenirPage() {
         {/* Colonne droite */}
         <aside className="space-y-6">
           {/* Carte PayPal */}
-          <div className="rounded-2xl border border-blue-200 bg-blue-600 p-6 text-white shadow-sm dark:border-blue-800 sm:p-7">
+          <div className="rounded-2xl border border-blue-200 bg-blue-600 p-6 text-white shadow-sm dark:border-emerald-800 sm:p-7">
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/15">
               <Heart className="h-5 w-5" />
             </div>
@@ -168,8 +168,8 @@ export default function SoutenirPage() {
           </div>
 
           {/* Contact */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18]">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100 text-slate-700 dark:bg-stone-800 dark:text-stone-200">
               <Mail className="h-5 w-5" />
             </div>
 
@@ -177,14 +177,14 @@ export default function SoutenirPage() {
               Une question ?
             </h2>
 
-            <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-400">
+            <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-stone-400">
               Vous pouvez nous écrire pour toute suggestion ou question
               concernant le projet.
             </p>
 
             <a
               href="mailto:nasimzouh@gmail.com"
-              className="mt-4 inline-block break-all text-sm font-semibold text-blue-700 transition-colors hover:text-blue-800 dark:text-blue-300 dark:hover:text-blue-200"
+              className="mt-4 inline-block break-all text-sm font-semibold text-blue-700 transition-colors hover:text-blue-800 dark:text-emerald-300 dark:hover:text-emerald-200"
             >
               nasimzouh@gmail.com
             </a>
