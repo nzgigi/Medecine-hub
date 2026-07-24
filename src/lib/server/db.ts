@@ -144,6 +144,26 @@ export function getDb(): Database.Database {
       earned_at TEXT NOT NULL,
       PRIMARY KEY (user_sub, achievement_key)
     );
+
+    CREATE TABLE IF NOT EXISTS follows (
+      follower_sub TEXT NOT NULL REFERENCES users(sub) ON DELETE CASCADE,
+      followee_sub TEXT NOT NULL REFERENCES users(sub) ON DELETE CASCADE,
+      created_at TEXT NOT NULL,
+      PRIMARY KEY (follower_sub, followee_sub)
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_follows_followee ON follows(followee_sub);
+    CREATE INDEX IF NOT EXISTS idx_follows_follower ON follows(follower_sub);
+
+    CREATE TABLE IF NOT EXISTS activity_events (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_sub TEXT NOT NULL REFERENCES users(sub) ON DELETE CASCADE,
+      type TEXT NOT NULL,
+      payload TEXT,
+      created_at TEXT NOT NULL
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_activity_events_user ON activity_events(user_sub, created_at);
   `);
 
   dbInstance = db;

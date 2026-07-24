@@ -18,6 +18,7 @@ import {
   Trash2,
   Trophy,
   User as UserIcon,
+  Users,
 } from "lucide-react";
 import { ACHIEVEMENTS, ACHIEVEMENT_ICONS } from "@/lib/achievements";
 import {
@@ -61,6 +62,8 @@ interface CategoryLeaderboardRow {
 interface SocialProfileSummary {
   handle: string;
   role: "etudiant" | "administrateur";
+  followers: number;
+  following: number;
   stats: {
     totalAttempts: number;
     distinctMatieres: number;
@@ -404,15 +407,36 @@ export default function ComptePage() {
                 <h1 className="text-3xl font-black">{profile.name}</h1>
                 <p className="mt-1 text-sm text-stone-500">{profile.email}</p>
 
-                {socialProfile?.handle && (
+                <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
+                  {socialProfile?.handle && (
+                    <Link
+                      href={`/profil/${socialProfile.handle}`}
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-700 dark:text-emerald-300"
+                    >
+                      <UserIcon className="h-3.5 w-3.5" />
+                      Voir mon profil public
+                    </Link>
+                  )}
+                  {socialProfile && (
+                    <span className="text-xs text-stone-500 dark:text-stone-400">
+                      <span className="font-bold text-stone-700 dark:text-stone-200">
+                        {socialProfile.followers}
+                      </span>{" "}
+                      abonné(e)s ·{" "}
+                      <span className="font-bold text-stone-700 dark:text-stone-200">
+                        {socialProfile.following}
+                      </span>{" "}
+                      abonnements
+                    </span>
+                  )}
                   <Link
-                    href={`/profil/${socialProfile.handle}`}
-                    className="mt-1 inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-700 dark:text-emerald-300"
+                    href="/membres"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-700 dark:text-emerald-300"
                   >
-                    <UserIcon className="h-3.5 w-3.5" />
-                    Voir mon profil public
+                    <Users className="h-3.5 w-3.5" />
+                    Découvrir les membres
                   </Link>
-                )}
+                </div>
 
                 <div className="mt-3 flex flex-wrap gap-2">
                   <button

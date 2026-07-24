@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, BookOpen, Percent, ShieldCheck, Sparkles, Target, Trophy } from "lucide-react";
+import { ArrowLeft, BookOpen, Percent, ShieldCheck, Sparkles, Target, Trophy, Users } from "lucide-react";
 import { getPublicProfileByHandle } from "@/lib/server/socialProfile";
 import { ACHIEVEMENTS, ACHIEVEMENT_ICONS } from "@/lib/achievements";
+import FollowButton from "@/components/FollowButton";
 
 export const dynamic = "force-dynamic";
 
@@ -42,34 +43,44 @@ export default async function ProfilPage({ params }: ProfilPageProps) {
         </Link>
 
         <section className="mt-6 rounded-lg border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
-          <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-            {avatarSrc ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={avatarSrc}
-                alt={profile.name}
-                className="h-20 w-20 rounded-lg object-cover"
-              />
-            ) : (
-              <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-emerald-50 text-2xl font-black text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
-                {profile.name.charAt(0)}
-              </div>
-            )}
+          <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center">
+              {avatarSrc ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={avatarSrc}
+                  alt={profile.name}
+                  className="h-20 w-20 rounded-lg object-cover"
+                />
+              ) : (
+                <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-emerald-50 text-2xl font-black text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                  {profile.name.charAt(0)}
+                </div>
+              )}
 
-            <div>
-              <div className="flex flex-wrap items-center gap-2">
-                <h1 className="text-2xl font-black tracking-tight">{profile.name}</h1>
-                {profile.role === "administrateur" && (
-                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
-                    <ShieldCheck className="h-3.5 w-3.5" />
-                    Administrateur
-                  </span>
-                )}
+              <div>
+                <div className="flex flex-wrap items-center gap-2">
+                  <h1 className="text-2xl font-black tracking-tight">{profile.name}</h1>
+                  {profile.role === "administrateur" && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                      <ShieldCheck className="h-3.5 w-3.5" />
+                      Administrateur
+                    </span>
+                  )}
+                </div>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
+                  Membre depuis {formatMemberSince(profile.memberSince)}
+                </p>
+                <div className="mt-2 flex items-center gap-1.5 text-sm text-stone-600 dark:text-stone-300">
+                  <Users className="h-4 w-4" />
+                  <span className="font-bold">{profile.followers}</span> abonné(e)s
+                  <span className="text-stone-300 dark:text-stone-600">·</span>
+                  <span className="font-bold">{profile.following}</span> abonnements
+                </div>
               </div>
-              <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
-                Membre depuis {formatMemberSince(profile.memberSince)}
-              </p>
             </div>
+
+            <FollowButton targetHandle={profile.handle} targetSub={profile.sub} />
           </div>
         </section>
 

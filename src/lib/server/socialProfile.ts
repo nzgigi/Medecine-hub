@@ -2,6 +2,7 @@ import fs from "fs";
 import { getDb } from "./db";
 import { safeJoinInside } from "./security";
 import { getUserByHandle, getUserBySub, type StoredUser } from "./userStore";
+import { recordActivityEvent, getFollowCounts } from "./social";
 import {
   ACHIEVEMENTS_BY_KEY,
   computeEarnedAchievementKeys,
@@ -174,6 +175,7 @@ function recomputeAchievements(sub: string): string[] {
 
     for (const key of newlyEarned) {
       insertAchievement.run(sub, key, now);
+      recordActivityEvent(sub, "achievement_unlocked", { achievementKey: key });
     }
   }
 
@@ -221,6 +223,7 @@ export interface PublicProfileStats {
 }
 
 export interface PublicProfile {
+  sub: string;
   handle: string;
   name: string;
   picture?: string;
@@ -229,12 +232,18 @@ export interface PublicProfile {
   memberSince: string;
   stats: PublicProfileStats;
   achievements: EarnedAchievement[];
+  followers: number;
+  following: number;
 }
 
 function toPublicProfile(user: StoredUser): PublicProfile {
   const stats = getStatsForAchievements(user.sub);
+  const followCounts = getFollowCounts(user.sub);
 
   return {
+    sub: user.sub,
+    followers: followCounts.followers,
+    following: followCounts.following,
     handle: user.handle,
     name: user.name,
     picture: user.picture,
@@ -260,4 +269,45 @@ export function getPublicProfileByHandle(handle: string): PublicProfile | null {
 export function getPublicProfileBySub(sub: string): PublicProfile | null {
   const user = getUserBySub(sub);
   return user ? toPublicProfile(user) : null;
+}
+
+export interface MemberSummary {
+  sub: string;
+  handle: string;
+  name: string;
+  picture?: string;
+  avatarPath?: string;
+  role: StoredUser["role"];
+  totalAttempts: number;
+  achievementsCount: number;
+}
+
+export function listMembers(): MemberSummary[] {
+  const db = getDb();
+  const rows = db.prepare(`SELECT * FROM users ORDER BY last_seen_at DESC`).all() as {
+    sub: string;
+    handle: string;
+    name: string;
+    email: string;
+    picture: string | null;
+    avatar_path: string | null;
+    role: string;
+    first_seen_at: string;
+    last_seen_at: string;
+  }[];
+
+  return rows.map((row) => {
+    const stats = getStatsForAchievements(row.sub);
+
+    return {
+      sub: row.sub,
+      handle: row.handle,
+      name: row.name,
+      picture: row.picture ?? undefined,
+      avatarPath: row.avatar_path ?? undefined,
+      role: row.role === "administrateur" ? "administrateur" : "etudiant",
+      totalAttempts: stats.totalAttempts,
+      achievementsCount: getUserAchievements(row.sub).length,
+    };
+  });
 }
