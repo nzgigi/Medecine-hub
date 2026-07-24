@@ -45,6 +45,9 @@ yarn-error.log*
 # journal d'actions admin (non versionné)
 /data/admin/
 
+# base de données sociale (profils, historique QCM, succès - non versionnée)
+/data/db/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

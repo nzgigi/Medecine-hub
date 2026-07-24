@@ -1,42 +1,80 @@
-import fs from "fs";
-import { safeJoinInside } from "./security";
+import { getDb, generateUniqueHandle } from "./db";
+import { ADMIN_GOOGLE_WHITELIST } from "./security";
+
+export type UserRole = "etudiant" | "administrateur";
 
 export interface StoredUser {
   sub: string;
+  handle: string;
   name: string;
   email: string;
   picture?: string;
   avatarPath?: string;
+  role: UserRole;
   firstSeenAt: string;
   lastSeenAt: string;
 }
 
-type UsersStore = Record<string, StoredUser>;
-
-function getStorePath() {
-  const dir = safeJoinInside(process.cwd(), "data", "users");
-
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-
-  return safeJoinInside(dir, "users.json");
+interface UserRow {
+  sub: string;
+  handle: string;
+  name: string;
+  email: string;
+  picture: string | null;
+  avatar_path: string | null;
+  role: string;
+  first_seen_at: string;
+  last_seen_at: string;
 }
 
-export function readUsers(): UsersStore {
-  const storePath = getStorePath();
-
-  if (!fs.existsSync(storePath)) return {};
-
-  try {
-    return JSON.parse(fs.readFileSync(storePath, "utf-8")) as UsersStore;
-  } catch {
-    return {};
-  }
+function rowToUser(row: UserRow): StoredUser {
+  return {
+    sub: row.sub,
+    handle: row.handle,
+    name: row.name,
+    email: row.email,
+    picture: row.picture ?? undefined,
+    avatarPath: row.avatar_path ?? undefined,
+    role: row.role === "administrateur" ? "administrateur" : "etudiant",
+    firstSeenAt: row.first_seen_at,
+    lastSeenAt: row.last_seen_at,
+  };
 }
 
-function writeUsers(store: UsersStore) {
-  fs.writeFileSync(getStorePath(), JSON.stringify(store, null, 2), "utf-8");
+function roleForEmail(email: string): UserRole {
+  return ADMIN_GOOGLE_WHITELIST.includes(email.toLowerCase())
+    ? "administrateur"
+    : "etudiant";
+}
+
+export function readUsers(): Record<string, StoredUser> {
+  const db = getDb();
+  const rows = db.prepare(`SELECT * FROM users`).all() as unknown as UserRow[];
+  const store: Record<string, StoredUser> = {};
+
+  for (const row of rows) {
+    store[row.sub] = rowToUser(row);
+  }
+
+  return store;
+}
+
+export function getUserBySub(sub: string): StoredUser | null {
+  const db = getDb();
+  const row = db.prepare(`SELECT * FROM users WHERE sub = ?`).get(sub) as
+    | UserRow
+    | undefined;
+
+  return row ? rowToUser(row) : null;
+}
+
+export function getUserByHandle(handle: string): StoredUser | null {
+  const db = getDb();
+  const row = db.prepare(`SELECT * FROM users WHERE handle = ?`).get(handle) as
+    | UserRow
+    | undefined;
+
+  return row ? rowToUser(row) : null;
 }
 
 export function upsertUser(profile: {
@@ -45,37 +83,47 @@ export function upsertUser(profile: {
   email: string;
   picture?: string;
 }): StoredUser {
-  const store = readUsers();
+  const db = getDb();
   const now = new Date().toISOString();
-  const existing = store[profile.sub];
+  const existing = getUserBySub(profile.sub);
+  const role = roleForEmail(profile.email);
 
-  const user: StoredUser = {
+  if (existing) {
+    db.prepare(
+      `UPDATE users SET name = ?, email = ?, picture = ?, role = ?, last_seen_at = ? WHERE sub = ?`
+    ).run(profile.name, profile.email, profile.picture ?? null, role, now, profile.sub);
+
+    return { ...existing, name: profile.name, email: profile.email, picture: profile.picture, role, lastSeenAt: now };
+  }
+
+  const handle = generateUniqueHandle(db, profile.name || "membre");
+
+  db.prepare(
+    `INSERT INTO users (sub, handle, name, email, picture, avatar_path, role, first_seen_at, last_seen_at)
+     VALUES (?, ?, ?, ?, ?, NULL, ?, ?, ?)`
+  ).run(profile.sub, handle, profile.name, profile.email, profile.picture ?? null, role, now, now);
+
+  return {
     sub: profile.sub,
+    handle,
     name: profile.name,
     email: profile.email,
     picture: profile.picture,
-    avatarPath: existing?.avatarPath,
-    firstSeenAt: existing?.firstSeenAt ?? now,
+    role,
+    firstSeenAt: now,
     lastSeenAt: now,
   };
-
-  store[profile.sub] = user;
-  writeUsers(store);
-
-  return user;
 }
 
 export function setUserAvatar(sub: string, avatarPath: string | undefined) {
-  const store = readUsers();
-  const user = store[sub];
+  const db = getDb();
+  const existing = getUserBySub(sub);
 
-  if (!user) return null;
+  if (!existing) return null;
 
-  user.avatarPath = avatarPath;
-  store[sub] = user;
-  writeUsers(store);
+  db.prepare(`UPDATE users SET avatar_path = ? WHERE sub = ?`).run(avatarPath ?? null, sub);
 
-  return user;
+  return { ...existing, avatarPath };
 }
 
 export function sanitizeSub(value: unknown): string {

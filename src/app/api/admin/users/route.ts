@@ -17,6 +17,8 @@ export async function GET(request: NextRequest) {
     users: users.map((user) => ({
       name: user.name,
       email: user.email,
+      handle: user.handle,
+      role: user.role,
       firstSeenAt: user.firstSeenAt,
       lastSeenAt: user.lastSeenAt,
       hasCustomAvatar: Boolean(user.avatarPath),

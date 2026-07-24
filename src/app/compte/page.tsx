@@ -12,10 +12,14 @@ import {
   Crown,
   LogOut,
   Medal,
+  ShieldCheck,
+  Sparkles,
   Target,
   Trash2,
   Trophy,
+  User as UserIcon,
 } from "lucide-react";
+import { ACHIEVEMENTS, ACHIEVEMENT_ICONS } from "@/lib/achievements";
 import {
   clearLocalUserProfile,
   getLocalUserProfile,
@@ -52,6 +56,19 @@ interface CategoryLeaderboardRow {
   best: number;
   average: number;
   latestDate: string;
+}
+
+interface SocialProfileSummary {
+  handle: string;
+  role: "etudiant" | "administrateur";
+  stats: {
+    totalAttempts: number;
+    distinctMatieres: number;
+    bestScorePercent: number;
+    avgScorePercent: number;
+    perfectScores: number;
+  };
+  achievements: { key: string; title: string; description: string; icon: string }[];
 }
 
 function getHistory() {
@@ -134,6 +151,7 @@ export default function ComptePage() {
   const [avatarError, setAvatarError] = useState("");
   const [avatarUploading, setAvatarUploading] = useState(false);
   const [selectedMatiere, setSelectedMatiere] = useState("global");
+  const [socialProfile, setSocialProfile] = useState<SocialProfileSummary | null>(null);
 
   useEffect(() => {
     const localProfile = getLocalUserProfile();
@@ -144,7 +162,9 @@ export default function ComptePage() {
     }
 
     setProfile(localProfile);
-    setHistory(getHistory());
+    const localHistory = getHistory();
+    setHistory(localHistory);
+    const sub = localProfile.sub;
 
     async function loadIndex() {
       try {
@@ -156,7 +176,29 @@ export default function ComptePage() {
       }
     }
 
+    async function syncHistoryToServer() {
+      try {
+        const response = await fetch("/api/users/history", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ sub, attempts: localHistory }),
+        });
+
+        const result = (await response.json()) as {
+          success: boolean;
+          profile?: SocialProfileSummary;
+        };
+
+        if (result.success && result.profile) {
+          setSocialProfile(result.profile);
+        }
+      } catch {
+        // pas grave si la synchro échoue, les stats restent disponibles localement
+      }
+    }
+
     loadIndex();
+    syncHistoryToServer();
   }, [router]);
 
   const stats = useMemo(() => {
@@ -348,11 +390,29 @@ export default function ComptePage() {
               </div>
 
               <div>
-                <p className="text-sm font-semibold text-emerald-800 dark:text-emerald-300">
-                  Tableau de bord personnel
-                </p>
+                <div className="flex flex-wrap items-center gap-2">
+                  <p className="text-sm font-semibold text-emerald-800 dark:text-emerald-300">
+                    Tableau de bord personnel
+                  </p>
+                  {socialProfile?.role === "administrateur" && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-bold text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                      <ShieldCheck className="h-3 w-3" />
+                      Administrateur
+                    </span>
+                  )}
+                </div>
                 <h1 className="text-3xl font-black">{profile.name}</h1>
                 <p className="mt-1 text-sm text-stone-500">{profile.email}</p>
+
+                {socialProfile?.handle && (
+                  <Link
+                    href={`/profil/${socialProfile.handle}`}
+                    className="mt-1 inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-700 dark:text-emerald-300"
+                  >
+                    <UserIcon className="h-3.5 w-3.5" />
+                    Voir mon profil public
+                  </Link>
+                )}
 
                 <div className="mt-3 flex flex-wrap gap-2">
                   <button
@@ -435,6 +495,59 @@ export default function ComptePage() {
             );
           })}
         </section>
+
+        {socialProfile && (
+          <section className="mt-6 rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+                  <Sparkles className="h-5 w-5" />
+                </div>
+                <div>
+                  <h2 className="text-xl font-black">Succès</h2>
+                  <p className="text-sm text-stone-500 dark:text-stone-400">
+                    {socialProfile.achievements.length}/{ACHIEVEMENTS.length} débloqués
+                  </p>
+                </div>
+              </div>
+
+              {socialProfile.handle && (
+                <Link
+                  href={`/profil/${socialProfile.handle}`}
+                  className="inline-flex items-center gap-2 text-sm font-bold text-emerald-800 dark:text-emerald-300"
+                >
+                  Voir le profil public
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              )}
+            </div>
+
+            {socialProfile.achievements.length === 0 ? (
+              <p className="text-sm text-stone-500 dark:text-stone-400">
+                Termine ton premier QCM pour débloquer ton premier succès.
+              </p>
+            ) : (
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 md:grid-cols-6">
+                {socialProfile.achievements.map((achievement) => {
+                  const Icon = ACHIEVEMENT_ICONS[achievement.icon];
+
+                  return (
+                    <div
+                      key={achievement.key}
+                      title={achievement.description}
+                      className="rounded-lg border border-emerald-200 bg-emerald-50 p-3 text-center dark:border-emerald-900 dark:bg-emerald-950/30"
+                    >
+                      <div className="mx-auto mb-2 flex h-9 w-9 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300">
+                        {Icon ? <Icon className="h-4 w-4" /> : null}
+                      </div>
+                      <p className="text-[11px] font-bold leading-tight">{achievement.title}</p>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </section>
+        )}
 
         <section className="mt-6 grid gap-6 lg:grid-cols-[1fr_360px]">
           <div className="rounded-lg border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
