@@ -4,11 +4,14 @@ import {
   Flag,
   Flame,
   Globe,
+  Heart,
   Medal,
   ShieldCheck,
   Sparkles,
   Star,
   Trophy,
+  UserPlus,
+  Users,
   Zap,
   type LucideIcon,
 } from "lucide-react";
@@ -25,6 +28,9 @@ export const ACHIEVEMENT_ICONS: Record<string, LucideIcon> = {
   "shield-check": ShieldCheck,
   "calendar-check": Calendar,
   flame: Flame,
+  heart: Heart,
+  users: Users,
+  "user-plus": UserPlus,
 };
 
 export interface UserStatsForAchievements {
@@ -36,6 +42,8 @@ export interface UserStatsForAchievements {
   avgScorePercent: number;
   totalQuestionsAnswered: number;
   distinctActiveDays: number;
+  followersCount: number;
+  followingCount: number;
 }
 
 export interface AchievementDefinition {
@@ -125,6 +133,34 @@ export const ACHIEVEMENTS: AchievementDefinition[] = [
     description: "200 questions répondues au total",
     icon: "flame",
     check: (stats) => stats.totalQuestionsAnswered >= 200,
+  },
+  {
+    key: "premier-fan",
+    title: "Premier fan",
+    description: "Obtiens ton premier abonné",
+    icon: "heart",
+    check: (stats) => stats.followersCount >= 1,
+  },
+  {
+    key: "populaire",
+    title: "Populaire",
+    description: "10 abonnés",
+    icon: "users",
+    check: (stats) => stats.followersCount >= 10,
+  },
+  {
+    key: "influenceur",
+    title: "Influenceur(se)",
+    description: "50 abonnés",
+    icon: "trophy",
+    check: (stats) => stats.followersCount >= 50,
+  },
+  {
+    key: "sociable",
+    title: "Sociable",
+    description: "Suis au moins 5 membres",
+    icon: "user-plus",
+    check: (stats) => stats.followingCount >= 5,
   },
 ];
 

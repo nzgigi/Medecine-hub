@@ -10,6 +10,7 @@ import {
   CheckCircle2,
   Clock3,
   Crown,
+  LayoutDashboard,
   LogOut,
   Medal,
   ShieldCheck,
@@ -470,13 +471,25 @@ export default function ComptePage() {
               </div>
             </div>
 
-            <button
-              onClick={handleLogout}
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 px-4 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
-            >
-              <LogOut className="h-4 w-4" />
-              Deconnexion
-            </button>
+            <div className="flex flex-wrap items-center gap-2">
+              {socialProfile?.role === "administrateur" && (
+                <Link
+                  href="/admin"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-4 py-2 text-sm font-bold text-white hover:bg-emerald-700"
+                >
+                  <LayoutDashboard className="h-4 w-4" />
+                  Dashboard admin
+                </Link>
+              )}
+
+              <button
+                onClick={handleLogout}
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 px-4 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
+              >
+                <LogOut className="h-4 w-4" />
+                Deconnexion
+              </button>
+            </div>
           </div>
         </section>
 

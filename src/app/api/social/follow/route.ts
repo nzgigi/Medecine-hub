@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { sanitizeSub } from "@/lib/server/userStore";
+import { getUserByHandle, sanitizeSub } from "@/lib/server/userStore";
 import { followUser, unfollowUser } from "@/lib/server/social";
+import { recomputeAchievements } from "@/lib/server/socialProfile";
 
 export async function POST(req: NextRequest) {
   try {
@@ -27,6 +28,12 @@ export async function POST(req: NextRequest) {
 
     if (!result.success) {
       return NextResponse.json(result, { status: 400 });
+    }
+
+    if (body.action !== "unfollow") {
+      const target = getUserByHandle(targetHandle);
+      if (target) recomputeAchievements(target.sub);
+      recomputeAchievements(sub);
     }
 
     return NextResponse.json(result);

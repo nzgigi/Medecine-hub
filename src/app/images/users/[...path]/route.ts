@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import { safeJoinInside } from "@/lib/server/security";
+import { ALLOWED_AVATAR_MIME_TYPES } from "@/lib/avatarUpload";
 
 /**
  * Filet de secours pour /images/users/**, même raison que
@@ -10,12 +11,9 @@ import { safeJoinInside } from "@/lib/server/security";
  */
 export const dynamic = "force-dynamic";
 
-const CONTENT_TYPES: Record<string, string> = {
-  jpg: "image/jpeg",
-  jpeg: "image/jpeg",
-  png: "image/png",
-  webp: "image/webp",
-};
+const CONTENT_TYPES: Record<string, string> = Object.fromEntries(
+  Object.entries(ALLOWED_AVATAR_MIME_TYPES).map(([mime, ext]) => [ext, mime])
+);
 
 export async function GET(
   _request: NextRequest,

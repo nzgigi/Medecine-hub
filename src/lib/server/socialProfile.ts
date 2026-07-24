@@ -140,6 +140,8 @@ function getStatsForAchievements(sub: string): UserStatsForAchievements {
     distinctActiveDays: number;
   };
 
+  const followCounts = getFollowCounts(sub);
+
   return {
     totalAttempts: Number(totals.totalAttempts) || 0,
     distinctMatieres: Number(totals.distinctMatieres) || 0,
@@ -149,10 +151,12 @@ function getStatsForAchievements(sub: string): UserStatsForAchievements {
     avgScorePercent: Number(totals.avgScorePercent) || 0,
     totalQuestionsAnswered: Number(totals.totalQuestionsAnswered) || 0,
     distinctActiveDays: Number(totals.distinctActiveDays) || 0,
+    followersCount: followCounts.followers,
+    followingCount: followCounts.following,
   };
 }
 
-function recomputeAchievements(sub: string): string[] {
+export function recomputeAchievements(sub: string): string[] {
   const db = getDb();
   const stats = getStatsForAchievements(sub);
   const earnedKeys = computeEarnedAchievementKeys(stats);
@@ -238,12 +242,11 @@ export interface PublicProfile {
 
 function toPublicProfile(user: StoredUser): PublicProfile {
   const stats = getStatsForAchievements(user.sub);
-  const followCounts = getFollowCounts(user.sub);
 
   return {
     sub: user.sub,
-    followers: followCounts.followers,
-    following: followCounts.following,
+    followers: stats.followersCount,
+    following: stats.followingCount,
     handle: user.handle,
     name: user.name,
     picture: user.picture,
