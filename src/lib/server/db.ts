@@ -1,8 +1,8 @@
 import fs from "fs";
-import Database from "better-sqlite3";
+import { DatabaseSync } from "node:sqlite";
 import { ADMIN_GOOGLE_WHITELIST, safeJoinInside } from "./security";
 
-let dbInstance: Database.Database | null = null;
+let dbInstance: DatabaseSync | null = null;
 
 function getDbPath() {
   const dir = safeJoinInside(process.cwd(), "data", "db");
@@ -26,7 +26,7 @@ function slugifyHandle(value: string) {
   );
 }
 
-function generateUniqueHandle(db: Database.Database, name: string) {
+function generateUniqueHandle(db: DatabaseSync, name: string) {
   const base = slugifyHandle(name);
   const existsStatement = db.prepare(`SELECT 1 FROM users WHERE handle = ?`);
 
@@ -40,7 +40,7 @@ function generateUniqueHandle(db: Database.Database, name: string) {
   return `${base}-${Date.now()}`;
 }
 
-function migrateLegacyUsersJson(db: Database.Database) {
+function migrateLegacyUsersJson(db: DatabaseSync) {
   const legacyPath = safeJoinInside(process.cwd(), "data", "users", "users.json");
 
   if (!fs.existsSync(legacyPath)) return;
@@ -99,12 +99,12 @@ function migrateLegacyUsersJson(db: Database.Database) {
   ).run(new Date().toISOString());
 }
 
-export function getDb(): Database.Database {
+export function getDb(): DatabaseSync {
   if (dbInstance) return dbInstance;
 
-  const db = new Database(getDbPath());
-  db.pragma("journal_mode = WAL");
-  db.pragma("foreign_keys = ON");
+  const db = new DatabaseSync(getDbPath());
+  db.exec("PRAGMA journal_mode = WAL;");
+  db.exec("PRAGMA foreign_keys = ON;");
 
   db.exec(`
     CREATE TABLE IF NOT EXISTS meta (
