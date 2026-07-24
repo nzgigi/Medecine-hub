@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/brand/banner.jpg",
+        url: "/brand/banner-v2.png",
         width: 1200,
         height: 630,
         alt: "Medecine Hub - Annales et QCM gratuits de médecine",
