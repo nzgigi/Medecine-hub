@@ -14,9 +14,10 @@ export default function SiteChrome({
   const pathname = usePathname();
   const isNzPage = pathname === "/nz";
   const isExamPage = pathname?.startsWith("/qcm/") ?? false;
+  const isSwipePage = pathname?.startsWith("/swipe") ?? false;
   const currentYear = new Date().getFullYear();
 
-  if (isNzPage || isExamPage) {
+  if (isNzPage || isExamPage || isSwipePage) {
     return <>{children}</>;
   }
 

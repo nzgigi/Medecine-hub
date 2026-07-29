@@ -12,6 +12,7 @@ import {
   GraduationCap,
   Stethoscope,
   Users,
+  Zap,
 } from "lucide-react";
 
 interface ExamPreview {
@@ -251,6 +252,36 @@ export default function HomePage() {
             })}
           </div>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
+        <Link
+          href="/swipe"
+          className="group flex flex-col items-center justify-between gap-5 overflow-hidden rounded-2xl bg-emerald-800 px-6 py-7 text-white shadow-sm transition-colors hover:bg-emerald-700 sm:flex-row sm:px-8"
+        >
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/15">
+              <Zap className="h-6 w-6" />
+            </div>
+            <div>
+              <div className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-0.5 text-[11px] font-black uppercase tracking-wide">
+                Nouveau
+              </div>
+              <h3 className="mt-1 text-xl font-black tracking-tight">
+                Mode Swipe
+              </h3>
+              <p className="mt-1 max-w-md text-sm text-emerald-50">
+                Revisez a la vitesse de vos reflexes : glissez a gauche pour
+                vrai, a droite pour faux, vers le bas pour passer.
+              </p>
+            </div>
+          </div>
+
+          <span className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-black text-emerald-800 transition-transform group-hover:translate-x-1">
+            Essayer
+            <ArrowRight className="h-4 w-4" />
+          </span>
+        </Link>
       </section>
 
       <section id="matieres" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">

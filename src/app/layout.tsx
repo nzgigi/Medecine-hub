@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Medecine Hub - Annales et QCM gratuits de médecine",
+    title: "Medecine Hub - Annales et QCM facultaires de médecine",
     description:
-      "Entraînez-vous gratuitement sur des QCM d'annales DFASM1 et DFASM2 classés par matière et par année.",
+      "Entraînez-vous sur des QCM d'annales de la faculté de Toulouse, classés par matières et par années.",
     url: "https://medecinehub.fr",
     siteName: "Medecine Hub",
     locale: "fr_FR",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         url: "/brand/banner-v2.png",
         width: 1200,
         height: 630,
-        alt: "Medecine Hub - Annales et QCM gratuits de médecine",
+        alt: "Medecine Hub - Annales et QCM facultaires de médecine",
       },
     ],
   },

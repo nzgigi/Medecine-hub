@@ -15,6 +15,7 @@ import {
   Sparkles,
   UserRound,
   X,
+  Zap,
 } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import {
@@ -31,6 +32,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: "Accueil", href: "/", icon: Home },
+    { name: "Swipe", href: "/swipe", icon: Zap },
     ...(profile ? [{ name: "Actualités", href: "/actualites", icon: Newspaper }] : []),
     { name: "Mises a jour", href: "/mises-a-jour", icon: Sparkles },
     { name: "Sources", href: "/sources", icon: Landmark },
