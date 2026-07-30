@@ -8,12 +8,14 @@ import {
   Check,
   ChevronDown,
   Flame,
-  PartyPopper,
   X,
 } from "lucide-react";
 import type { MedTokCard as MedTokCardData } from "@/app/api/medtok/cards/route";
 import MedTokCard from "@/components/MedTokCard";
 import ThemeToggle from "@/components/ThemeToggle";
+import { getLocalUserProfile } from "@/lib/userProfile";
+
+const SYNC_EVERY = 10;
 
 interface MatiereOption {
   slug: string;
@@ -49,6 +51,8 @@ export default function MedTokPage() {
   const [index, setIndex] = useState(0);
   const [loadingCards, setLoadingCards] = useState(true);
   const [loadError, setLoadError] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [noMoreAvailable, setNoMoreAvailable] = useState(false);
 
   const [drag, setDrag] = useState({ x: 0, y: 0 });
   const [dragging, setDragging] = useState(false);
@@ -71,6 +75,9 @@ export default function MedTokPage() {
 
   const dragStart = useRef<{ x: number; y: number } | null>(null);
   const feedbackTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const filterRef = useRef<HTMLDivElement | null>(null);
+  const syncSub = useRef<string | null>(null);
+  const pendingSync = useRef({ answered: 0, correct: 0, bestStreak: 0 });
 
   useEffect(() => {
     const saved =
@@ -81,7 +88,63 @@ export default function MedTokPage() {
     if (saved) {
       setStats((prev) => ({ ...prev, bestStreak: saved }));
     }
+
+    const profile = getLocalUserProfile();
+    if (profile) syncSub.current = profile.sub;
   }, []);
+
+  const flushSync = useCallback((useBeacon = false) => {
+    const sub = syncSub.current;
+    const pending = pendingSync.current;
+    if (!sub || pending.answered === 0) return;
+
+    const payload = JSON.stringify({
+      sub,
+      answered: pending.answered,
+      correct: pending.correct,
+      bestStreak: pending.bestStreak,
+    });
+
+    pendingSync.current = { answered: 0, correct: 0, bestStreak: 0 };
+
+    if (useBeacon && typeof navigator !== "undefined" && navigator.sendBeacon) {
+      navigator.sendBeacon("/api/medtok/sync", new Blob([payload], { type: "application/json" }));
+      return;
+    }
+
+    fetch("/api/medtok/sync", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: payload,
+    }).catch(() => {
+      // pas grave si la synchro echoue, on retentera au prochain lot
+    });
+  }, []);
+
+  useEffect(() => {
+    function handleVisibilityChange() {
+      if (document.visibilityState === "hidden") flushSync(true);
+    }
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      flushSync(true);
+    };
+  }, [flushSync]);
+
+  useEffect(() => {
+    if (!filterOpen) return;
+
+    function handleClickOutside(event: MouseEvent) {
+      if (filterRef.current && !filterRef.current.contains(event.target as Node)) {
+        setFilterOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [filterOpen]);
 
   useEffect(() => {
     async function loadMatieres() {
@@ -115,6 +178,7 @@ export default function MedTokPage() {
   const loadDeck = useCallback(async (matiereSlug: string) => {
     setLoadingCards(true);
     setLoadError(false);
+    setNoMoreAvailable(false);
     setExitDirection(null);
     setFeedback(null);
     setDrag({ x: 0, y: 0 });
@@ -147,6 +211,42 @@ export default function MedTokPage() {
     loadDeck(selectedMatiere);
   }, [selectedMatiere, loadDeck]);
 
+  // Deck "infini" façon TikTok : on complète le paquet en tache de fond avant
+  // qu'il ne se vide, pour qu'il n'y ait jamais d'écran de fin qui interrompt.
+  useEffect(() => {
+    if (loadingCards || loadError || loadingMore || noMoreAvailable) return;
+    if (cards.length === 0) return;
+    if (index < cards.length - 5) return;
+
+    let cancelled = false;
+    setLoadingMore(true);
+
+    fetch(
+      `/api/medtok/cards?matiere=${encodeURIComponent(selectedMatiere)}&limit=60&t=${Date.now()}`
+    )
+      .then((response) => (response.ok ? response.json() : Promise.reject()))
+      .then((data: { cards: MedTokCardData[] }) => {
+        if (cancelled) return;
+
+        if (data.cards.length === 0) {
+          setNoMoreAvailable(true);
+          return;
+        }
+
+        setCards((current) => [...current, ...data.cards]);
+      })
+      .catch(() => {
+        if (!cancelled) setNoMoreAvailable(true);
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingMore(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [index, cards.length, loadingCards, loadError, loadingMore, noMoreAvailable, selectedMatiere]);
+
   useEffect(() => {
     if (feedback) {
       setFeedbackVisible(false);
@@ -176,6 +276,10 @@ export default function MedTokPage() {
             localStorage.setItem(BEST_STREAK_KEY, String(bestStreak));
           }
 
+          pendingSync.current.answered += 1;
+          if (correct) pendingSync.current.correct += 1;
+          pendingSync.current.bestStreak = Math.max(pendingSync.current.bestStreak, streak);
+
           return {
             answered: prev.answered + 1,
             correct: prev.correct + (correct ? 1 : 0),
@@ -183,6 +287,8 @@ export default function MedTokPage() {
             bestStreak,
           };
         });
+
+        if (pendingSync.current.answered >= SYNC_EVERY) flushSync();
 
         if (feedbackTimer.current) clearTimeout(feedbackTimer.current);
 
@@ -202,7 +308,7 @@ export default function MedTokPage() {
         setDrag({ x: 0, y: 0 });
       }, 250);
     },
-    [cards, index, exitDirection]
+    [cards, index, exitDirection, flushSync]
   );
 
   useEffect(() => {
@@ -303,10 +409,10 @@ export default function MedTokPage() {
       ? Math.min(1, drag.y / 100)
       : 0;
 
-  const deckFinished = !loadingCards && !loadError && index >= cards.length;
-  const hasActiveDeck = !loadingCards && !loadError && cards.length > 0 && !deckFinished;
-  const percent =
-    stats.answered > 0 ? Math.round((stats.correct / stats.answered) * 100) : 0;
+  const caughtUp = index >= cards.length;
+  const deckExhausted = !loadingCards && !loadError && caughtUp && noMoreAvailable;
+  const catchingUp = !loadingCards && !loadError && caughtUp && !noMoreAvailable;
+  const hasActiveDeck = !loadingCards && !loadError && cards.length > 0 && !caughtUp;
 
   return (
     <div className="flex h-[100dvh] flex-col bg-stone-100 text-stone-950 dark:bg-[#101009] dark:text-stone-100">
@@ -319,7 +425,7 @@ export default function MedTokPage() {
           <ArrowLeft className="h-5 w-5" />
         </Link>
 
-        <div className="relative min-w-0 flex-1">
+        <div ref={filterRef} className="relative min-w-0 flex-1">
           <button
             onClick={() => setFilterOpen((current) => !current)}
             className="mx-auto flex max-w-full items-center gap-1.5 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm font-bold text-stone-700 transition-colors hover:bg-stone-100 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-200"
@@ -365,6 +471,12 @@ export default function MedTokPage() {
         </div>
 
         <div className="flex shrink-0 items-center gap-1.5">
+          {stats.answered > 0 && (
+            <span className="hidden items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1.5 text-xs font-black text-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-300 sm:flex">
+              <Check className="h-3.5 w-3.5" />
+              {stats.correct}/{stats.answered}
+            </span>
+          )}
           <span className="flex items-center gap-1 rounded-full bg-orange-50 px-2.5 py-1.5 text-xs font-black text-orange-700 dark:bg-orange-950/30 dark:text-orange-300">
             <Flame className="h-3.5 w-3.5" />
             {stats.streak}
@@ -372,15 +484,6 @@ export default function MedTokPage() {
           <ThemeToggle variant="icon" />
         </div>
       </header>
-
-      {hasActiveDeck && (
-        <div className="h-1 w-full shrink-0 bg-stone-200 dark:bg-stone-800">
-          <div
-            className="h-full bg-emerald-700 transition-all duration-300 dark:bg-emerald-500"
-            style={{ width: `${cards.length > 0 ? (index / cards.length) * 100 : 0}%` }}
-          />
-        </div>
-      )}
 
       <main className="relative flex flex-1 items-center justify-center overflow-hidden px-4 py-4">
         {loadingCards && (
@@ -414,23 +517,26 @@ export default function MedTokPage() {
           </div>
         )}
 
-        {deckFinished && (
+        {catchingUp && (
+          <div className="text-center">
+            <div className="mx-auto mb-4 h-8 w-8 animate-spin rounded-full border-2 border-stone-300 border-b-emerald-800 dark:border-stone-800 dark:border-b-emerald-300" />
+            <div className="text-sm font-semibold text-stone-500 dark:text-stone-400">
+              La suite arrive...
+            </div>
+          </div>
+        )}
+
+        {deckExhausted && (
           <div className="flex max-w-sm flex-col items-center gap-3 rounded-2xl border border-stone-200 bg-white p-8 text-center shadow-sm dark:border-stone-800 dark:bg-[#151512]">
-            <PartyPopper className="h-10 w-10 text-emerald-700 dark:text-emerald-300" />
-            <h2 className="text-2xl font-black">Deck terminé !</h2>
             <p className="text-stone-600 dark:text-stone-300">
-              {stats.correct} bonnes réponses sur {stats.answered}
-              {stats.answered > 0 ? ` (${percent}%)` : ""}
-            </p>
-            <p className="text-sm text-stone-500 dark:text-stone-400">
-              Meilleur streak : {stats.bestStreak}
+              T&apos;as fait le tour de cette matière pour l&apos;instant.
             </p>
             <div className="mt-2 flex flex-wrap justify-center gap-3">
               <button
                 onClick={() => loadDeck(selectedMatiere)}
                 className="rounded-lg bg-emerald-800 px-5 py-2.5 font-bold text-white transition-colors hover:bg-emerald-700"
               >
-                Rejouer
+                Recommencer
               </button>
               <Link
                 href="/"

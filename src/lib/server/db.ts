@@ -164,6 +164,14 @@ export function getDb(): DatabaseSync {
     );
 
     CREATE INDEX IF NOT EXISTS idx_activity_events_user ON activity_events(user_sub, created_at);
+
+    CREATE TABLE IF NOT EXISTS medtok_stats (
+      user_sub TEXT PRIMARY KEY REFERENCES users(sub) ON DELETE CASCADE,
+      total_answered INTEGER NOT NULL DEFAULT 0,
+      total_correct INTEGER NOT NULL DEFAULT 0,
+      best_streak INTEGER NOT NULL DEFAULT 0,
+      updated_at TEXT NOT NULL
+    );
   `);
 
   dbInstance = db;

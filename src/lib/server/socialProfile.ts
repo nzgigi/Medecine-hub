@@ -141,6 +141,9 @@ function getStatsForAchievements(sub: string): UserStatsForAchievements {
   };
 
   const followCounts = getFollowCounts(sub);
+  const medtok = db
+    .prepare(`SELECT total_answered, best_streak FROM medtok_stats WHERE user_sub = ?`)
+    .get(sub) as { total_answered: number; best_streak: number } | undefined;
 
   return {
     totalAttempts: Number(totals.totalAttempts) || 0,
@@ -153,7 +156,37 @@ function getStatsForAchievements(sub: string): UserStatsForAchievements {
     distinctActiveDays: Number(totals.distinctActiveDays) || 0,
     followersCount: followCounts.followers,
     followingCount: followCounts.following,
+    medtokAnswered: medtok?.total_answered ?? 0,
+    medtokBestStreak: medtok?.best_streak ?? 0,
   };
+}
+
+export interface RecordMedtokProgressResult {
+  newlyEarnedAchievementKeys: string[];
+}
+
+export function recordMedtokProgress(
+  sub: string,
+  delta: { answered: number; correct: number; bestStreak: number }
+): RecordMedtokProgressResult {
+  const db = getDb();
+  const now = new Date().toISOString();
+
+  const answered = Math.max(0, Math.min(1000, Math.round(delta.answered)));
+  const correct = Math.max(0, Math.min(answered, Math.round(delta.correct)));
+  const bestStreak = Math.max(0, Math.min(1000, Math.round(delta.bestStreak)));
+
+  db.prepare(
+    `INSERT INTO medtok_stats (user_sub, total_answered, total_correct, best_streak, updated_at)
+     VALUES (?, ?, ?, ?, ?)
+     ON CONFLICT(user_sub) DO UPDATE SET
+       total_answered = total_answered + excluded.total_answered,
+       total_correct = total_correct + excluded.total_correct,
+       best_streak = MAX(best_streak, excluded.best_streak),
+       updated_at = excluded.updated_at`
+  ).run(sub, answered, correct, bestStreak, now);
+
+  return { newlyEarnedAchievementKeys: recomputeAchievements(sub) };
 }
 
 export function recomputeAchievements(sub: string): string[] {

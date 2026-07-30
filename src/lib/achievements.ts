@@ -44,6 +44,8 @@ export interface UserStatsForAchievements {
   distinctActiveDays: number;
   followersCount: number;
   followingCount: number;
+  medtokAnswered: number;
+  medtokBestStreak: number;
 }
 
 export interface AchievementDefinition {
@@ -161,6 +163,20 @@ export const ACHIEVEMENTS: AchievementDefinition[] = [
     description: "Suis au moins 5 membres",
     icon: "user-plus",
     check: (stats) => stats.followingCount >= 5,
+  },
+  {
+    key: "medtok-assidu",
+    title: "Swipeur(se) assidu(e)",
+    description: "100 propositions répondues sur MedTok",
+    icon: "zap",
+    check: (stats) => stats.medtokAnswered >= 100,
+  },
+  {
+    key: "medtok-doigts-de-feu",
+    title: "Doigts de feu",
+    description: "Une série de 20 bonnes réponses d'affilée sur MedTok",
+    icon: "flame",
+    check: (stats) => stats.medtokBestStreak >= 20,
   },
 ];
 
