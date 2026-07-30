@@ -256,7 +256,7 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
         <Link
-          href="/swipe"
+          href="/medtok"
           className="group flex flex-col items-center justify-between gap-5 overflow-hidden rounded-2xl bg-emerald-800 px-6 py-7 text-white shadow-sm transition-colors hover:bg-emerald-700 sm:flex-row sm:px-8"
         >
           <div className="flex items-center gap-4">
@@ -268,7 +268,7 @@ export default function HomePage() {
                 Nouveau
               </div>
               <h3 className="mt-1 text-xl font-black tracking-tight">
-                Mode Swipe
+                MedTok
               </h3>
               <p className="mt-1 max-w-md text-sm text-emerald-50">
                 Revisez a la vitesse de vos reflexes : glissez a gauche pour

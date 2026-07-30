@@ -1,10 +1,10 @@
 "use client";
 
 import type { CSSProperties } from "react";
-import type { SwipeCard as SwipeCardData } from "@/app/api/swipe/cards/route";
+import type { MedTokCard as MedTokCardData } from "@/app/api/medtok/cards/route";
 
-interface SwipeCardProps {
-  card: SwipeCardData;
+interface MedTokCardProps {
+  card: MedTokCardData;
   style?: CSSProperties;
   vraiOpacity: number;
   fauxOpacity: number;
@@ -15,7 +15,7 @@ interface SwipeCardProps {
   onPointerUp?: (event: React.PointerEvent<HTMLDivElement>) => void;
 }
 
-export default function SwipeCard({
+export default function MedTokCard({
   card,
   style,
   vraiOpacity,
@@ -25,7 +25,7 @@ export default function SwipeCard({
   onPointerDown,
   onPointerMove,
   onPointerUp,
-}: SwipeCardProps) {
+}: MedTokCardProps) {
   return (
     <div
       onPointerDown={interactive ? onPointerDown : undefined}
@@ -73,7 +73,9 @@ export default function SwipeCard({
         </span>
       </div>
 
-      <div className="flex-1 overflow-y-auto px-5 py-4">
+      {/* touch-pan-y : permet de faire défiler un contexte/question longs verticalement au
+          doigt, tout en laissant le geste horizontal (swipe vrai/faux) remonter à la carte. */}
+      <div className="touch-pan-y flex-1 overflow-y-auto px-5 py-4">
         {card.contexte && (
           <div className="mb-4 max-h-32 overflow-y-auto whitespace-pre-wrap rounded-lg border border-stone-200 bg-stone-50 p-3 text-xs leading-5 text-stone-600 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-300">
             {card.contexte}

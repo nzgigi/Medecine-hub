@@ -32,7 +32,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: "Accueil", href: "/", icon: Home },
-    { name: "Swipe", href: "/swipe", icon: Zap },
+    { name: "MedTok", href: "/medtok", icon: Zap },
     ...(profile ? [{ name: "Actualités", href: "/actualites", icon: Newspaper }] : []),
     { name: "Mises a jour", href: "/mises-a-jour", icon: Sparkles },
     { name: "Sources", href: "/sources", icon: Landmark },

@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-07-30-medtok",
+    "date": "2026-07-30",
+    "tag": "nouveaute",
+    "title": "MedTok : révise en swipant",
+    "description": "Un nouveau mode de révision façon TikTok : des propositions vrai/faux tirées des annales défilent en plein écran, glisse à gauche pour vrai, à droite pour faux, vers le bas pour passer. Filtre par matière et compteur de série inclus."
+  },
+  {
+    "id": "2026-07-24-social",
+    "date": "2026-07-24",
+    "tag": "nouveaute",
+    "title": "Profils publics, rôles et succès",
+    "description": "Chaque compte a maintenant un profil public avec ses statistiques et ses succès débloqués (premier QCM, séries de bonnes réponses, matières explorées, et bien d'autres). Les comptes administrateurs sont identifiés par un badge."
+  },
+  {
+    "id": "2026-07-24-abonnements",
+    "date": "2026-07-24",
+    "tag": "nouveaute",
+    "title": "Abonnements et fil d'actualité",
+    "description": "Tu peux maintenant t'abonner à d'autres membres depuis leur profil ou l'annuaire des membres, et suivre leurs succès débloqués dans un fil d'actualité dédié."
+  },
+  {
+    "id": "2026-07-24-darkmode",
+    "date": "2026-07-24",
+    "tag": "amelioration",
+    "title": "Mode sombre unifié sur tout le site",
+    "description": "Le mode sombre utilise désormais la même palette (noir adouci) sur l'ensemble des pages, au lieu de varier d'une page à l'autre. Icône et couleur des matières modifiables à tout moment via une vraie palette de couleurs."
+  },
+  {
+    "id": "2026-07-24-compte-fixes",
+    "date": "2026-07-24",
+    "tag": "correction",
+    "title": "Connexion admin simplifiée et photos de profil améliorées",
+    "description": "La connexion administrateur se fait désormais uniquement via Google. Les photos de profil acceptent maintenant les GIF animés, la limite de taille est passée à 5 Mo, et une erreur intermittente à l'envoi a été corrigée."
+  },
+  {
+    "id": "2026-07-24-hud-sticky",
+    "date": "2026-07-24",
+    "tag": "correction",
+    "title": "Le panneau questions/dossiers ne se referme plus tout seul",
+    "description": "Pendant une épreuve, changer de dossier ne ferme plus automatiquement le panneau des questions et des dossiers : il reste ouvert tant que tu ne le fermes pas toi-même."
+  },
+  {
     "id": "2026-07-23-responsive",
     "date": "2026-07-23",
     "tag": "amelioration",

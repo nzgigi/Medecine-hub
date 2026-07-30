@@ -11,8 +11,8 @@ import {
   PartyPopper,
   X,
 } from "lucide-react";
-import type { SwipeCard as SwipeCardData } from "@/app/api/swipe/cards/route";
-import SwipeCard from "@/components/SwipeCard";
+import type { MedTokCard as MedTokCardData } from "@/app/api/medtok/cards/route";
+import MedTokCard from "@/components/MedTokCard";
 import ThemeToggle from "@/components/ThemeToggle";
 
 interface MatiereOption {
@@ -27,7 +27,7 @@ interface IndexEntry {
   subjectOrder?: number;
 }
 
-interface SwipeStats {
+interface MedTokStats {
   answered: number;
   correct: number;
   streak: number;
@@ -38,14 +38,14 @@ type ExitDirection = "vrai" | "faux" | "skip" | null;
 
 const H_THRESHOLD = 100;
 const V_THRESHOLD = 100;
-const BEST_STREAK_KEY = "swipe_best_streak";
+const BEST_STREAK_KEY = "medtok_best_streak";
 
-export default function SwipePage() {
+export default function MedTokPage() {
   const [selectedMatiere, setSelectedMatiere] = useState("all");
   const [matiereOptions, setMatiereOptions] = useState<MatiereOption[]>([]);
   const [filterOpen, setFilterOpen] = useState(false);
 
-  const [cards, setCards] = useState<SwipeCardData[]>([]);
+  const [cards, setCards] = useState<MedTokCardData[]>([]);
   const [index, setIndex] = useState(0);
   const [loadingCards, setLoadingCards] = useState(true);
   const [loadError, setLoadError] = useState(false);
@@ -62,7 +62,7 @@ export default function SwipePage() {
   } | null>(null);
   const [feedbackVisible, setFeedbackVisible] = useState(false);
 
-  const [stats, setStats] = useState<SwipeStats>({
+  const [stats, setStats] = useState<MedTokStats>({
     answered: 0,
     correct: 0,
     streak: 0,
@@ -121,12 +121,12 @@ export default function SwipePage() {
 
     try {
       const response = await fetch(
-        `/api/swipe/cards?matiere=${encodeURIComponent(matiereSlug)}&limit=60&t=${Date.now()}`
+        `/api/medtok/cards?matiere=${encodeURIComponent(matiereSlug)}&limit=60&t=${Date.now()}`
       );
 
       if (!response.ok) throw new Error("Erreur de chargement");
 
-      const data = (await response.json()) as { cards: SwipeCardData[] };
+      const data = (await response.json()) as { cards: MedTokCardData[] };
 
       setCards(data.cards);
       setIndex(0);
@@ -373,6 +373,15 @@ export default function SwipePage() {
         </div>
       </header>
 
+      {hasActiveDeck && (
+        <div className="h-1 w-full shrink-0 bg-stone-200 dark:bg-stone-800">
+          <div
+            className="h-full bg-emerald-700 transition-all duration-300 dark:bg-emerald-500"
+            style={{ width: `${cards.length > 0 ? (index / cards.length) * 100 : 0}%` }}
+          />
+        </div>
+      )}
+
       <main className="relative flex flex-1 items-center justify-center overflow-hidden px-4 py-4">
         {loadingCards && (
           <div className="text-center">
@@ -439,7 +448,7 @@ export default function SwipePage() {
             style={{ touchAction: "none" }}
           >
             {cards[index + 2] && (
-              <SwipeCard
+              <MedTokCard
                 card={cards[index + 2]}
                 interactive={false}
                 vraiOpacity={0}
@@ -454,7 +463,7 @@ export default function SwipePage() {
             )}
 
             {cards[index + 1] && (
-              <SwipeCard
+              <MedTokCard
                 card={cards[index + 1]}
                 interactive={false}
                 vraiOpacity={0}
@@ -468,7 +477,7 @@ export default function SwipePage() {
               />
             )}
 
-            <SwipeCard
+            <MedTokCard
               key={cards[index].id}
               card={cards[index]}
               interactive
@@ -485,7 +494,10 @@ export default function SwipePage() {
       </main>
 
       {hasActiveDeck && (
-        <div className="flex items-center justify-center gap-6 pb-5">
+        <div
+          className="flex items-center justify-center gap-6 pb-5"
+          style={{ paddingBottom: "max(1.25rem, env(safe-area-inset-bottom))" }}
+        >
           <button
             onClick={() => triggerExit("faux")}
             aria-label="Faux"

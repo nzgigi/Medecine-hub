@@ -4,7 +4,7 @@ import path from "path";
 import type { ExamData, LegacyQCMData } from "@/types/exam";
 import { normalizeExamData, flattenExamQuestions } from "@/lib/exam/normalizeExam";
 
-export interface SwipeCard {
+export interface MedTokCard {
   id: string;
   matiere: string;
   slug: string;
@@ -25,9 +25,9 @@ function stripLetterPrefix(choice: string) {
   return choice.replace(/^[A-Za-z][).:]\s*/, "").trim();
 }
 
-function buildCardsFromExam(exam: ExamData, slug: string): SwipeCard[] {
+function buildCardsFromExam(exam: ExamData, slug: string): MedTokCard[] {
   const questions = flattenExamQuestions(exam);
-  const cards: SwipeCard[] = [];
+  const cards: MedTokCard[] = [];
 
   questions.forEach((question) => {
     if (question.type === "QROC") return;
@@ -80,7 +80,7 @@ export async function GET(request: NextRequest) {
 
   const files = fs.readdirSync(QCM_DIR).filter((file) => file !== "index.json");
 
-  let allCards: SwipeCard[] = [];
+  let allCards: MedTokCard[] = [];
 
   for (const file of files) {
     const match = file.match(FILENAME_PATTERN);
