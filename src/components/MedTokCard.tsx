@@ -66,10 +66,7 @@ export default function MedTokCard({
 
       <div className="flex items-center justify-between gap-2 border-b border-stone-100 px-5 py-3 dark:border-stone-900">
         <span className="rounded-md bg-stone-100 px-2 py-1 text-xs font-black uppercase tracking-wide text-stone-600 dark:bg-[#151512] dark:text-stone-300">
-          {card.matiere} · {card.annee}
-        </span>
-        <span className="rounded-md bg-stone-100 px-2 py-1 text-xs font-bold text-stone-500 dark:bg-[#151512] dark:text-stone-400">
-          {card.questionType}
+          {card.matiere}
         </span>
       </div>
 

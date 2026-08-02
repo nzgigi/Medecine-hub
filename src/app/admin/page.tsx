@@ -14,6 +14,7 @@ import {
   Edit,
   FileText,
   History,
+  LayoutGrid,
   Layers,
   LogOut,
   Plus,
@@ -26,6 +27,7 @@ import {
   Users,
   Wand2,
   X,
+  Zap,
 } from "lucide-react";
 import {
   DEFAULT_SUBJECT_COLOR,
@@ -33,6 +35,8 @@ import {
   SUBJECT_ICONS,
   getSubjectColorStyle,
 } from "@/lib/subjectStyles";
+import { useDialogs } from "@/components/DialogProvider";
+import AdminMedtokPanel from "@/components/AdminMedtokPanel";
 
 interface MatiereIndex {
   matiere: string;
@@ -213,18 +217,6 @@ function groupSemesters(subjects: SubjectGroup[]): SemesterGroup[] {
   return Array.from(grouped.values()).sort((a, b) => a.order - b.order);
 }
 
-function confirmDangerousAction(message: string, expectedText: string) {
-  const typed = prompt(
-    `${message}\n\nPour confirmer, tape exactement : ${expectedText}`
-  );
-
-  return typed === expectedText;
-}
-
-function getDeleteExamConfirmationText(slug: string, annee: number) {
-  return `SUPPRIMER ${slug} ${annee}`;
-}
-
 function getAdminHeaders(extraHeaders: HeadersInit = {}) {
   const token = localStorage.getItem("admin_token");
 
@@ -300,8 +292,14 @@ function AdminAction({
   );
 }
 
+type AdminTab = "overview" | "epreuves" | "medtok" | "stats";
+
 export default function AdminDashboard() {
   const router = useRouter();
+  const { alert: showAlert, confirm: showConfirm, dangerConfirm: showDangerConfirm, prompt: showPrompt } =
+    useDialogs();
+
+  const [activeTab, setActiveTab] = useState<AdminTab>("overview");
 
   const [entries, setEntries] = useState<MatiereIndex[]>([]);
   const [loading, setLoading] = useState(true);
@@ -424,7 +422,7 @@ export default function AdminDashboard() {
       setEntries(normalizeIndex(data));
     } catch (error) {
       console.error("Erreur chargement:", error);
-      alert("Erreur lors du chargement de l'index QCM");
+      await showAlert("Erreur lors du chargement de l'index QCM");
     } finally {
       setLoading(false);
     }
@@ -462,7 +460,7 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
@@ -470,7 +468,7 @@ export default function AdminDashboard() {
       showStatus("Index sauvegarde");
     } catch (error) {
       console.error("Erreur sauvegarde index:", error);
-      alert("Erreur lors de la sauvegarde de l'index");
+      await showAlert("Erreur lors de la sauvegarde de l'index");
     } finally {
       setSavingIndex(false);
     }
@@ -478,9 +476,10 @@ export default function AdminDashboard() {
 
   const normalizeIndexOnServer = async () => {
     if (
-      !confirm(
-        "Normaliser l'index ?\n\nCela va remplir automatiquement subjectOrder, examOrder et examTitle dans index.json."
-      )
+      !(await showConfirm(
+        "Cela va remplir automatiquement subjectOrder, examOrder et examTitle dans index.json.",
+        { title: "Normaliser l'index ?" }
+      ))
     ) {
       return;
     }
@@ -503,7 +502,7 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
@@ -511,7 +510,7 @@ export default function AdminDashboard() {
       showStatus(result.message || "Index normalise");
     } catch (error) {
       console.error("Erreur normalisation index:", error);
-      alert("Erreur lors de la normalisation de l'index");
+      await showAlert("Erreur lors de la normalisation de l'index");
     } finally {
       setNormalizingIndex(false);
     }
@@ -519,9 +518,10 @@ export default function AdminDashboard() {
 
   const migrateQcmFolders = async () => {
     if (
-      !confirm(
-        "Migrer les anciens QCM vers le format dossiers ?\n\nLes anciens fichiers questions[] seront convertis vers folders[]. Les fichiers deja migres seront ignores."
-      )
+      !(await showConfirm(
+        "Les anciens fichiers questions[] seront convertis vers folders[]. Les fichiers deja migres seront ignores.",
+        { title: "Migrer les anciens QCM vers le format dossiers ?" }
+      ))
     ) {
       return;
     }
@@ -540,7 +540,7 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
@@ -548,7 +548,7 @@ export default function AdminDashboard() {
       await loadIndex();
     } catch (error) {
       console.error("Erreur migration QCM:", error);
-      alert("Erreur lors de la migration des QCM");
+      await showAlert("Erreur lors de la migration des QCM");
     } finally {
       setMigratingQcm(false);
     }
@@ -574,7 +574,7 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
@@ -586,7 +586,7 @@ export default function AdminDashboard() {
       }
     } catch (error) {
       console.error("Erreur validation QCM:", error);
-      alert("Erreur lors de la verification des QCM");
+      await showAlert("Erreur lors de la verification des QCM");
     } finally {
       setValidatingQcm(false);
     }
@@ -599,9 +599,9 @@ export default function AdminDashboard() {
 
   const handleBackup = async () => {
     if (
-      !confirm(
-        "Creer un backup manuel sur GitHub ?\n\nCela va sauvegarder les fichiers QCM actuels."
-      )
+      !(await showConfirm("Cela va sauvegarder les fichiers QCM actuels.", {
+        title: "Creer un backup manuel sur GitHub ?",
+      }))
     ) {
       return;
     }
@@ -622,11 +622,11 @@ export default function AdminDashboard() {
       if (result.success) {
         showStatus(result.message || "Backup effectue");
       } else {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
       }
     } catch (error) {
       console.error("Erreur backup:", error);
-      alert("Erreur lors du backup");
+      await showAlert("Erreur lors du backup");
     } finally {
       setBacking(false);
     }
@@ -634,9 +634,7 @@ export default function AdminDashboard() {
 
   const handleSyncIndex = async () => {
     if (
-      !confirm(
-        "Recalculer tous les totaux de questions depuis les fichiers QCM ?"
-      )
+      !(await showConfirm("Recalculer tous les totaux de questions depuis les fichiers QCM ?"))
     ) {
       return;
     }
@@ -658,11 +656,11 @@ export default function AdminDashboard() {
         showStatus(result.message || "Synchronisation effectuee");
         await loadIndex();
       } else {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
       }
     } catch (error) {
       console.error("Erreur sync:", error);
-      alert("Erreur lors de la synchronisation");
+      await showAlert("Erreur lors de la synchronisation");
     } finally {
       setSyncing(false);
     }
@@ -672,7 +670,7 @@ export default function AdminDashboard() {
     const anneeNum = Number(newAnnee);
 
     if (!anneeNum || Number.isNaN(anneeNum)) {
-      alert("Une annee valide est requise");
+      await showAlert("Une annee valide est requise");
       return;
     }
 
@@ -685,7 +683,7 @@ export default function AdminDashboard() {
       );
 
       if (!subject) {
-        alert("Choisissez une matiere existante");
+        await showAlert("Choisissez une matiere existante");
         return;
       }
 
@@ -696,12 +694,12 @@ export default function AdminDashboard() {
       slug = newSlug.trim();
 
       if (!matiere || !slug) {
-        alert("Matiere et slug sont requis");
+        await showAlert("Matiere et slug sont requis");
         return;
       }
 
       if (!SLUG_PATTERN.test(slug)) {
-        alert(
+        await showAlert(
           "Slug invalide : uniquement des lettres minuscules, chiffres et tirets (ex: cardiologie)."
         );
         return;
@@ -730,7 +728,7 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert(
+        await showAlert(
           "Erreur creation QCM : " + (result.message || "Erreur inconnue")
         );
         return;
@@ -746,15 +744,15 @@ export default function AdminDashboard() {
       setNewSubjectColor(DEFAULT_SUBJECT_COLOR);
 
       if (
-        confirm(
-          "QCM cree / mis a jour pour cette matiere et cette annee.\n\nVoulez-vous l'editer maintenant ?"
-        )
+        await showConfirm("Voulez-vous l'editer maintenant ?", {
+          title: "QCM cree / mis a jour pour cette matiere et cette annee.",
+        })
       ) {
         router.push(`/admin/edit/${slug}/${anneeNum}`);
       }
     } catch (error) {
       console.error(error);
-      alert("Erreur lors de la creation du QCM");
+      await showAlert("Erreur lors de la creation du QCM");
     } finally {
       setCreating(false);
     }
@@ -829,14 +827,16 @@ export default function AdminDashboard() {
     setEntries(normalizeIndex(nextEntries));
   };
 
-  const addSemester = () => {
+  const addSemester = async () => {
     const semesters = groupSemesters(groupSubjects(normalizeIndex(entries)));
-    const name = prompt("Nom du nouveau menu deroulant :", "Semestre 8")?.trim();
+    const name = (
+      await showPrompt("Nom du nouveau menu deroulant :", { defaultValue: "Semestre 8" })
+    )?.trim();
 
     if (!name) return;
 
     if (semesters.some((semester) => semester.name === name)) {
-      alert("Ce semestre existe deja.");
+      await showAlert("Ce semestre existe deja.");
       return;
     }
 
@@ -960,17 +960,12 @@ export default function AdminDashboard() {
   };
 
   const deleteExam = async (slug: string, annee: number) => {
-    const expectedText = getDeleteExamConfirmationText(slug, annee);
-
-    const confirmed = confirmDangerousAction(
-      `Tu es sur le point de supprimer definitivement l'epreuve ${slug} ${annee}.\n\nLe fichier JSON de cette epreuve sera supprime.`,
-      expectedText
+    const confirmed = await showDangerConfirm(
+      `Tu es sur le point de supprimer definitivement l'epreuve ${slug} ${annee}.`,
+      { detail: "Le fichier JSON de cette epreuve sera supprime." }
     );
 
-    if (!confirmed) {
-      alert("Suppression annulee.");
-      return;
-    }
+    if (!confirmed) return;
 
     try {
       const response = await fetch("/api/admin/qcm-index", {
@@ -985,7 +980,7 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
@@ -993,22 +988,17 @@ export default function AdminDashboard() {
       showStatus("Epreuve supprimee");
     } catch (error) {
       console.error("Erreur suppression epreuve:", error);
-      alert("Erreur lors de la suppression");
+      await showAlert("Erreur lors de la suppression");
     }
   };
 
   const deleteSubject = async (slug: string, matiere: string) => {
-    const expectedText = `SUPPRIMER ${slug}`;
-
-    const confirmed = confirmDangerousAction(
-      `Tu es sur le point de supprimer definitivement la matiere "${matiere}".\n\nToutes les epreuves JSON de cette matiere seront supprimees.`,
-      expectedText
+    const confirmed = await showDangerConfirm(
+      `Tu es sur le point de supprimer definitivement la matiere "${matiere}".`,
+      { detail: "Toutes les epreuves JSON de cette matiere seront supprimees." }
     );
 
-    if (!confirmed) {
-      alert("Suppression annulee.");
-      return;
-    }
+    if (!confirmed) return;
 
     try {
       const response = await fetch("/api/admin/qcm-index", {
@@ -1023,7 +1013,7 @@ export default function AdminDashboard() {
       };
 
       if (!result.success) {
-        alert("Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("Erreur : " + (result.message || "Erreur inconnue"));
         return;
       }
 
@@ -1031,7 +1021,7 @@ export default function AdminDashboard() {
       showStatus("Matiere supprimee");
     } catch (error) {
       console.error("Erreur suppression matiere:", error);
-      alert("Erreur lors de la suppression");
+      await showAlert("Erreur lors de la suppression");
     }
   };
 
@@ -1173,6 +1163,39 @@ export default function AdminDashboard() {
           </div>
         </header>
 
+        <div className="grid gap-6 lg:grid-cols-[220px_1fr]">
+          <aside className="flex gap-2 overflow-x-auto lg:h-fit lg:flex-col lg:gap-1 lg:overflow-visible lg:sticky lg:top-6">
+            {(
+              [
+                { id: "overview", label: "Vue d'ensemble", icon: LayoutGrid },
+                { id: "epreuves", label: "Epreuves", icon: FileText },
+                { id: "medtok", label: "MedTok", icon: Zap },
+                { id: "stats", label: "Statistiques", icon: BarChart3 },
+              ] as { id: AdminTab; label: string; icon: typeof BookOpen }[]
+            ).map((tab) => {
+              const TabIcon = tab.icon;
+              const active = activeTab === tab.id;
+
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`flex shrink-0 items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-bold transition ${
+                    active
+                      ? "bg-emerald-600 text-white shadow-sm"
+                      : "text-stone-600 hover:bg-white dark:text-stone-300 dark:hover:bg-[#1d1c18]"
+                  }`}
+                >
+                  <TabIcon className="h-4 w-4 shrink-0" />
+                  {tab.label}
+                </button>
+              );
+            })}
+          </aside>
+
+          <div className="min-w-0">
+
+        {activeTab === "overview" && (
         <section className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-5">
           <StatCard
             icon={BarChart3}
@@ -1213,7 +1236,9 @@ export default function AdminDashboard() {
             }
           />
         </section>
+        )}
 
+        {activeTab === "epreuves" && (
         <section className="mb-6 grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="mb-4 flex items-center gap-3">
@@ -1411,7 +1436,9 @@ export default function AdminDashboard() {
             </div>
           </div>
         </section>
+        )}
 
+        {activeTab === "stats" && (
         <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-3">
@@ -1531,8 +1558,9 @@ export default function AdminDashboard() {
             </>
           )}
         </section>
+        )}
 
-        {validationSummary && (
+        {activeTab === "epreuves" && validationSummary && (
           <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="mb-4 flex flex-wrap items-start justify-between gap-4">
               <div>
@@ -1562,6 +1590,8 @@ export default function AdminDashboard() {
           </section>
         )}
 
+        {activeTab === "epreuves" && (
+        <>
         <section className="rounded-xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           <div className="border-b border-stone-200 p-5 dark:border-stone-800">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
@@ -1732,6 +1762,22 @@ export default function AdminDashboard() {
             <p>
               Les renommages et les changements d&apos;ordre restent en attente jusqu&apos;au clic sur Sauvegarder. Les suppressions, elles, sont appliquees apres confirmation.
             </p>
+          </div>
+        </div>
+        </>
+        )}
+
+        {activeTab === "medtok" && (
+          <AdminMedtokPanel
+            existingSubjects={existingSubjects.map((subject) => ({
+              slug: subject.slug,
+              matiere: subject.matiere,
+            }))}
+            getAdminHeaders={getAdminHeaders}
+            onStatus={showStatus}
+          />
+        )}
+
           </div>
         </div>
       </div>

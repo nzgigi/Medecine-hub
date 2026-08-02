@@ -36,6 +36,7 @@ import {
 } from "@/lib/exam/scoring";
 import { isQrocAnswerCorrect } from "@/lib/exam/qroc";
 import ThemeToggle from "@/components/ThemeToggle";
+import { useDialogs } from "@/components/DialogProvider";
 
 interface SavedExamAttempt {
   userAnswers: UserAnswers;
@@ -169,6 +170,7 @@ function QuestionContextBlock({ text }: { text: string }) {
 export default function QCMPage() {
   const params = useParams();
   const router = useRouter();
+  const { alert: showAlert, confirm: showConfirm } = useDialogs();
 
   const matiere = params.matiere as string;
   const annee = params.annee as string;
@@ -210,8 +212,9 @@ export default function QCMPage() {
         const savedAttemptRaw = localStorage.getItem(attemptStorageKey);
 
         if (savedAttemptRaw) {
-          const shouldResume = confirm(
-            "Une tentative non terminée a été trouvée pour cette épreuve.\n\nVoulez-vous la reprendre ?"
+          const shouldResume = await showConfirm(
+            "Voulez-vous la reprendre ?",
+            { title: "Une tentative non terminée a été trouvée pour cette épreuve." }
           );
 
           if (shouldResume) {
@@ -451,11 +454,11 @@ export default function QCMPage() {
     setCurrentQuestionIndex(nextQuestionIndex);
   };
 
-  const validateProgressiveQuestion = () => {
+  const validateProgressiveQuestion = async () => {
     const answer = userAnswers[currentQuestion.id];
 
     if (!hasAnswer(currentQuestion, answer)) {
-      alert(
+      await showAlert(
         "Vous devez répondre à cette question avant de la valider.\n\nEn DP/KFP, une question validée est verrouillée."
       );
       return;
@@ -471,7 +474,7 @@ export default function QCMPage() {
     }
   };
 
-  const submitFolder = () => {
+  const submitFolder = async () => {
     const unansweredQuestions = getUnansweredQuestions(
       currentFolder,
       userAnswers
@@ -479,11 +482,12 @@ export default function QCMPage() {
 
     const warning =
       unansweredQuestions.length > 0
-        ? `\n\nAttention : ${unansweredQuestions.length} question(s) de ce dossier n'ont pas de réponse.`
-        : "";
+        ? `Attention : ${unansweredQuestions.length} question(s) de ce dossier n'ont pas de réponse.`
+        : undefined;
 
-    const confirmed = confirm(
-      `Une fois soumis, vous ne pourrez plus modifier vos réponses pour ce dossier.${warning}`
+    const confirmed = await showConfirm(
+      "Une fois soumis, vous ne pourrez plus modifier vos réponses pour ce dossier.",
+      { detail: warning, confirmLabel: "Soumettre" }
     );
 
     if (!confirmed) return;
@@ -507,11 +511,12 @@ export default function QCMPage() {
     });
   };
 
-  const resetAttempt = () => {
+  const resetAttempt = async () => {
     if (
-      !confirm(
-        "Effacer la tentative en cours ?\n\nToutes vos réponses locales seront supprimées pour cette épreuve."
-      )
+      !(await showConfirm(
+        "Toutes vos réponses locales seront supprimées pour cette épreuve.",
+        { title: "Effacer la tentative en cours ?", danger: true, confirmLabel: "Effacer" }
+      ))
     ) {
       return;
     }
@@ -525,7 +530,7 @@ export default function QCMPage() {
     setShowResults(false);
   };
 
-  const submitExam = () => {
+  const submitExam = async () => {
     const notSubmittedFolders = examData.folders.filter(
       (folder) => !folderSubmissions[folder.id]
     );
@@ -535,8 +540,9 @@ export default function QCMPage() {
         .map((folder) => `- ${folder.title}`)
         .join("\n");
 
-      const confirmed = confirm(
-        `Certains dossiers ne sont pas soumis et compteront 0 dans la note finale :\n\n${folderNames}\n\nVoulez-vous quand même soumettre l’épreuve ?`
+      const confirmed = await showConfirm(
+        "Certains dossiers ne sont pas soumis et compteront 0 dans la note finale. Voulez-vous quand même soumettre l’épreuve ?",
+        { detail: folderNames, danger: true, confirmLabel: "Soumettre quand même" }
       );
 
       if (!confirmed) return;

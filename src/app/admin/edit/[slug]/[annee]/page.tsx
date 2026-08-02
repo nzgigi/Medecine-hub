@@ -27,6 +27,7 @@ import type {
   QuestionType,
 } from "@/types/exam";
 import { normalizeExamData } from "@/lib/exam/normalizeExam";
+import { useDialogs } from "@/components/DialogProvider";
 
 const QUESTION_TYPES: { value: QuestionType; label: string }[] = [
   { value: "QRU", label: "QRU (Réponse Unique)" },
@@ -102,6 +103,7 @@ function getAdminHeaders(extraHeaders: HeadersInit = {}) {
 export default function EditQCMPage() {
   const params = useParams();
   const router = useRouter();
+  const { alert: showAlert, confirm: showConfirm } = useDialogs();
 
   const slug = params.slug as string;
   const annee = params.annee as string;
@@ -132,7 +134,7 @@ export default function EditQCMPage() {
         const draft = localStorage.getItem(`draft_${slug}_${annee}`);
 
         if (draft) {
-          const useDraft = confirm(
+          const useDraft = await showConfirm(
             "Un brouillon non sauvegardé a été trouvé. Voulez-vous le reprendre ?"
           );
 
@@ -158,7 +160,7 @@ export default function EditQCMPage() {
         setActiveFolderId(normalizedData.folders[0]?.id || "");
       } catch (error) {
         console.error("Erreur chargement:", error);
-        alert("Erreur lors du chargement du QCM");
+        await showAlert("Erreur lors du chargement du QCM");
       } finally {
         setLoading(false);
       }
@@ -220,34 +222,34 @@ export default function EditQCMPage() {
     setSaveSuccess(false);
   };
 
-  const validateExam = () => {
+  const validateExam = async () => {
     if (!examData) return false;
 
     if (examData.folders.length === 0) {
-      alert("❌ L'épreuve doit contenir au moins un dossier.");
+      await showAlert("❌ L'épreuve doit contenir au moins un dossier.");
       return false;
     }
 
     for (const folder of examData.folders) {
       if (!folder.title.trim()) {
-        alert("❌ Un dossier n'a pas de nom.");
+        await showAlert("❌ Un dossier n'a pas de nom.");
         return false;
       }
 
       if (folder.questions.length === 0) {
-        alert(`❌ Le dossier "${folder.title}" ne contient aucune question.`);
+        await showAlert(`❌ Le dossier "${folder.title}" ne contient aucune question.`);
         return false;
       }
 
       for (const question of folder.questions) {
         if (!question.question.trim()) {
-          alert(`❌ Question ${question.id} : Le texte de la question est vide.`);
+          await showAlert(`❌ Question ${question.id} : Le texte de la question est vide.`);
           return false;
         }
 
         if (question.type === "QROC") {
           if (question.reponses.filter((reponse) => reponse.trim()).length === 0) {
-            alert(
+            await showAlert(
               `❌ Question ${question.id} : Aucune réponse attendue définie pour la QROC.`
             );
             return false;
@@ -257,14 +259,14 @@ export default function EditQCMPage() {
         }
 
         if (question.choix.length < 2) {
-          alert(
+          await showAlert(
             `❌ Question ${question.id} : Il faut au moins 2 choix de réponse.`
           );
           return false;
         }
 
         if (question.reponses.length === 0) {
-          alert(`❌ Question ${question.id} : Aucune réponse correcte définie.`);
+          await showAlert(`❌ Question ${question.id} : Aucune réponse correcte définie.`);
           return false;
         }
 
@@ -274,7 +276,7 @@ export default function EditQCMPage() {
           );
 
           if (!exists) {
-            alert(
+            await showAlert(
               `❌ Question ${question.id} : La réponse "${reponse}" n'existe pas dans les choix.`
             );
             return false;
@@ -283,14 +285,14 @@ export default function EditQCMPage() {
 
         if (question.type === "QRP") {
           if (!question.maxReponses || question.maxReponses < 1) {
-            alert(
+            await showAlert(
               `❌ Question ${question.id} : QRP sans nombre de réponses max.`
             );
             return false;
           }
 
           if (question.maxReponses > question.choix.length) {
-            alert(
+            await showAlert(
               `❌ Question ${question.id} : maxReponses est supérieur au nombre de choix.`
             );
             return false;
@@ -304,7 +306,7 @@ export default function EditQCMPage() {
 
   const handleSave = async () => {
     if (!examData) return;
-    if (!validateExam()) return;
+    if (!(await validateExam())) return;
 
     setSaving(true);
 
@@ -348,11 +350,11 @@ export default function EditQCMPage() {
         localStorage.removeItem(`draft_${slug}_${annee}`);
         setTimeout(() => setSaveSuccess(false), 3000);
       } else {
-        alert("❌ Erreur : " + (result.message || "Erreur inconnue"));
+        await showAlert("❌ Erreur : " + (result.message || "Erreur inconnue"));
       }
     } catch (error) {
       console.error("Erreur sauvegarde:", error);
-      alert("❌ Erreur lors de la sauvegarde");
+      await showAlert("❌ Erreur lors de la sauvegarde");
     } finally {
       setSaving(false);
     }
@@ -380,16 +382,17 @@ export default function EditQCMPage() {
     });
   };
 
-  const deleteFolder = (folderId: string) => {
+  const deleteFolder = async (folderId: string) => {
     if (!examData) return;
 
     const folder = examData.folders.find((item) => item.id === folderId);
     if (!folder) return;
 
     if (
-      !confirm(
-        `⚠️ Supprimer le dossier "${folder.title}" et toutes ses questions ?`
-      )
+      !(await showConfirm(
+        `Supprimer le dossier "${folder.title}" et toutes ses questions ?`,
+        { danger: true, confirmLabel: "Supprimer" }
+      ))
     ) {
       return;
     }
@@ -477,8 +480,9 @@ export default function EditQCMPage() {
     });
   };
 
-  const deleteQuestion = (folderId: string, questionId: number) => {
-    if (!confirm("⚠️ Supprimer cette question définitivement ?")) return;
+  const deleteQuestion = async (folderId: string, questionId: number) => {
+    if (!(await showConfirm("Supprimer cette question définitivement ?", { danger: true, confirmLabel: "Supprimer" })))
+      return;
 
     updateExamData((current) => ({
       ...current,
@@ -701,7 +705,19 @@ export default function EditQCMPage() {
     }));
   };
 
-  const addChoice = (folderId: string, questionId: number) => {
+  const addChoice = async (folderId: string, questionId: number) => {
+    const folder = examData?.folders.find((item) => item.id === folderId);
+    const question = folder?.questions.find((item) => item.id === questionId);
+    if (!question) return;
+
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const nextLetter = letters[question.choix.length];
+
+    if (!nextLetter) {
+      await showAlert("Maximum 26 choix atteint");
+      return;
+    }
+
     updateExamData((current) => ({
       ...current,
       folders: current.folders.map((folder) => {
@@ -711,14 +727,6 @@ export default function EditQCMPage() {
           ...folder,
           questions: folder.questions.map((question) => {
             if (question.id !== questionId) return question;
-
-            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            const nextLetter = letters[question.choix.length];
-
-            if (!nextLetter) {
-              alert("Maximum 26 choix atteint");
-              return question;
-            }
 
             return {
               ...question,
@@ -730,11 +738,19 @@ export default function EditQCMPage() {
     }));
   };
 
-  const removeChoice = (
+  const removeChoice = async (
     folderId: string,
     questionId: number,
     choiceIndex: number
   ) => {
+    const folder = examData?.folders.find((item) => item.id === folderId);
+    const question = folder?.questions.find((item) => item.id === questionId);
+
+    if (question && question.choix.length <= 2) {
+      await showAlert("Il faut au moins 2 choix.");
+      return;
+    }
+
     updateExamData((current) => ({
       ...current,
       folders: current.folders.map((folder) => {
@@ -744,11 +760,6 @@ export default function EditQCMPage() {
           ...folder,
           questions: folder.questions.map((question) => {
             if (question.id !== questionId) return question;
-
-            if (question.choix.length <= 2) {
-              alert("Il faut au moins 2 choix.");
-              return question;
-            }
 
             const removedLetter = question.choix[choiceIndex].charAt(0);
             const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -936,11 +947,11 @@ export default function EditQCMPage() {
       if (result.success && result.path) {
         updateQuestion(folderId, questionId, "image", result.path);
       } else {
-        alert("❌ Erreur upload : " + (result.message || "Erreur inconnue"));
+        await showAlert("❌ Erreur upload : " + (result.message || "Erreur inconnue"));
       }
     } catch (error) {
       console.error("Erreur upload image:", error);
-      alert("❌ Erreur lors de l'upload");
+      await showAlert("❌ Erreur lors de l'upload");
     } finally {
       setUploadingQuestionId(null);
     }
@@ -948,7 +959,8 @@ export default function EditQCMPage() {
 
   const handleImageDelete = async (folderId: string, question: Question) => {
     if (!question.image) return;
-    if (!confirm("Supprimer l'image de cette question ?")) return;
+    if (!(await showConfirm("Supprimer l'image de cette question ?", { danger: true, confirmLabel: "Supprimer" })))
+      return;
 
     try {
       await fetch("/api/qcm/delete-image", {
@@ -986,12 +998,13 @@ export default function EditQCMPage() {
           <div className="flex justify-between items-center gap-4 flex-wrap">
             <div className="flex items-center gap-4">
               <button
-                onClick={() => {
+                onClick={async () => {
                   if (
                     hasUnsavedChanges &&
-                    !confirm(
-                      "Vous avez des modifications non sauvegardées. Quitter quand même ?"
-                    )
+                    !(await showConfirm(
+                      "Vous avez des modifications non sauvegardées. Quitter quand même ?",
+                      { danger: true, confirmLabel: "Quitter" }
+                    ))
                   ) {
                     return;
                   }
