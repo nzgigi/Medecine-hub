@@ -1,0 +1,341 @@
+{
+  "matiere": "Formation Générale à la Recherche",
+  "slug": "fgrs7",
+  "annee": 2024,
+  "title": "Formation Générale à la Recherche - 2024",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le type de cette étude, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Une étude de cohorte exposés-non exposés",
+            "B) Une étude cas-témoins nichée dans une cohorte",
+            "C) Une étude de terrain prospective",
+            "D) Une étude observationnelle",
+            "E) Un essai clinique randomisé"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est (sont) l’(les) argument(s) justifiant la réalisation de cette étude ?",
+          "choix": [
+            "A) Les fluoroquinolones sont des antibiotiques largement prescrits dans le monde",
+            "B) L’amoxicilline est un antibiotique avec un risque bien décrit de survenue d’anévrisme ou de dissection aortique",
+            "C) Les fluoroquinolones altèrent la matrice extracellulaire ayant un rôle majeur dans l’intégrité de la paroi aortique",
+            "D) Deux études observationnelles précédentes ont retrouvé un risque augmenté de survenue d’anévrisme ou de dissection de l’aorte associé à l’exposition aux fluoroquinolones, mais elles présentent des biais méthodologiques",
+            "E) Les anévrismes et les dissections aortiques sont des événements graves"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’objectif principal de l’étude, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’objectif est descriptif",
+            "B) L’objectif est analytique ou étiologique",
+            "C) Il s’agit de décrire l’utilisation des fluoroquinolones et de l’amoxicilline dans une cohorte de patients ayant présenté un anévrisme ou une dissection aortique",
+            "D) Il s’agit de démontrer la causalité entre l’exposition à une fluoroquinolone et la survenue d’anévrisme ou de dissection aortique par rapport à une exposition à l’amoxicilline",
+            "E) Il s’agit de mesurer l’association entre l’exposition aux fluoroquinolones et la survenue d’anévrisme ou de dissection aortique, en comparaison à l’exposition à l’amoxicilline"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les données utilisées dans cette étude, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les données des patients inclus dans cette étude sont issues d’un registre clinique de patients atteints d’anévrisme ou de dissection aortique.",
+            "B) Les données des patients inclus dans cette étude sont issues d’un essai clinique randomisé",
+            "C) Les données des patients inclus dans cette étude sont issues du couplage de bases de données médicoadministratives à l’échelle nationale en Suède",
+            "D) Les données des patients inclus sont des données recueillies spécifiquement pour cette étude",
+            "E) Les données des patients inclus dans cette étude sont issues d’un registre de patients traités par antibiotiques"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la population de l’étude, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Pour être inclus dans la cohorte, les patients devaient avoir présenté un anévrisme ou une dissection aortique",
+            "B) Pour être inclus dans la cohorte, les patients devaient avoir été admis à l’hôpital avant d’avoir reçu un traitement par fluoroquinolone ou amoxicilline",
+            "C) Pour être inclus dans la cohorte, les patients devaient avoir reçu au moins un épisode de traitement par fluoroquinolone ou amoxicilline",
+            "D) Pour les patients inclus dans la cohorte, seul le premier épisode de traitement antibiotique par fluoroquinolone ou amoxicilline était pris en compte",
+            "E) Pour les patients inclus dans la cohorte, les patients devaient avoir eu une prescription de n'importe quel médicament dans l'année précédent la prescription d'antibiotique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la mesure de l’exposition et la définition de la période à risque, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Dans la source de données utilisée, le recueil des données de prescriptions médicamenteuses peut être soumis à un biais de mémorisation",
+            "B) Dans la source de données utilisée, la consommation médicamenteuse réelle des patients est mesurée",
+            "C) Dans la source de données utilisée, les données concernant les prescriptions médicamenteuses à l’hôpital ne sont pas disponibles.",
+            "D) Dans la cohorte d’étude, un même patient pouvait débuter simultanément une fluoroquinolone et l’amoxicilline",
+            "E) Compte tenu des données de la littérature sur l’association entre exposition aux fluoroquinolones et dissection aortique, la période à risque était de 60 jours après le début du traitement par fluoroquinolone ou amoxicilline"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la mesure de l’évènement étudié, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’évènement d’intérêt principal était défini comme le décès dû à un anévrisme ou une dissection aortique",
+            "B) Une analyse secondaire a estimé les risques de survenue d’anévrisme d’une part, et de dissection aortique d’autre part",
+            "C) Le critère de jugement principal était un critère de jugement composite",
+            "D) Les données médicales des patients de l’étude ayant présenté un anévrisme ou une dissection aortique au cours du suivi ont été revues par un cardiologue",
+            "E) Les évènements ont été identifiés à l’aide de codes diagnostiques précédemment validés"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les méthodes statistiques, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Afin de prendre en compte les facteurs de confusion, un appariement par score de propension a été réalisé",
+            "B) La méthode d’appariement par score de propension permet de supprimer tous les biais de sélection",
+            "C) L’analyse a été réalisée à l’aide d’un modèle de régression logistique",
+            "D) Le principe du modèle de régression de Cox est de relier la date de survenue d'un évènement (ici la survenue de dissection ou d’anévrisme aortique) à une ou plusieurs variables explicatives (ici l’exposition aux fluoroquinolones ou à l’amoxicilline)",
+            "E) Dans cette étude, une personne-temps représente un épisode de traitement pour un patient multiplié par le temps de suivi relatif à l’épisode de traitement soit de la date de prescription de l’antibiotique jusqu’à la survenue de l’évènement, la date de fin de suivi de l’épisode (120 jours), une hospitalisation, le décès, une nouvelle prescription d’antibiotique ou la fin du suivi au 31 décembre 2013"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats de cette étude, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Avant appariement sur le score de propension, il y avait plus d'épisodes de traitement par amoxicilline que par fluoroquinolones",
+            "B) Après appariement sur le score de propension, 360 088 épisodes de traitement dans chaque groupe ont été inclus dans l’analyse",
+            "C) Après appariement sur le score de propension, les caractéristiques des patients au moment de l’épisode de traitement étaient comparables entre les deux groupes d’exposition (fluoroquinolone ou amoxicilline)",
+            "D) Avant appariement sur le score de propension, les caractéristiques des patients au moment de l’épisode de traitement étaient comparables entre les deux groupes d’exposition (fluoroquinolone ou amoxicilline)",
+            "E) Après appariement sur le score de propension, les caractéristiques des patients ayant présenté ou non l’évènement étaient comparables"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats de cette étude, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’incidence cumulée de survenue d’anévrisme ou dissection aortique à 60 jours était de 1,2 x 10-4 pour les épisodes d’exposition à l’amoxicilline",
+            "B) L’incidence cumulée de survenue d’anévrisme ou dissection aortique à 60 jours était de 2,0 x 10-4 pour les épisodes d’exposition aux fluoroquinolones",
+            "C) Une augmentation du risque instantané de survenue d’anévrisme ou de dissection aortique de 66% (HR : 1,66 IC à 95% : 1,12-2,46) était associée à l’exposition aux fluoroquinolones (dans les 60 premiers jours) en comparaison à l’exposition à l’amoxicilline",
+            "D) La différence absolue entre l’exposition aux fluoroquinolones en comparaison à l’exposition à l’amoxicilline dans les 60 jours après le début du traitement était de 82 cas d’anévrisme ou de dissection aortique par million d’épisodes de traitement",
+            "E) La différence de risque entre les deux groupes de traitement persistait en tenant compte d'un délai d'observation de 120 jours après le début de traitement"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les forces et les limites de l’étude, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L'appariement sur le score de propension permet de diminuer la comparabilité entre les groupes",
+            "B) La nature des sources de données utilisées dans cette étude permet de diminuer le biais d'attrition",
+            "C) L’utilisation d’un comparateur actif permet de minimiser le biais d’indication",
+            "D) L’appariement sur le score de propension permet de minimiser le biais d’attrition",
+            "E) Un biais de confusion résiduelle ne peut être exclu"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats, quelle(s) conclusion(s) vous semble(nt) exacte(s) ?",
+          "choix": [
+            "A) L’étude confirme le risque de survenue d’anévrisme ou de dissection aortique associé à l’exposition aux fluoroquinolones",
+            "B) Le risque de survenue d’anévrisme ou de dissection aortique associé à l’exposition aux fluoroquinolones est plus faible que dans les deux autres études populationnelles du fait notamment de la prise en compte du biais d’indication",
+            "C) Un essai clinique randomisé est nécessaire afin de confirmer les résultats de cette étude",
+            "D) Le risque de survenue d’anévrisme ou de dissection aortique associée à l’exposition aux fluoroquinolones est rare",
+            "E) Le risque de survenue d’anévrisme aortique semble supérieur au risque de survenue de dissection aortique associé à l’exposition aux fluoroquinolones"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une étude de cohorte réalisée dans une base de données française sur la même question ayant inclus plus d’un million de patients retrouve un Hazard Ratio de 1,00 (IC 95% [0,79-1,25]) chez les patients exposés aux fluoroquinolones en comparaison aux patients exposés à l’amoxicilline. Quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’étude incluant le plus grand nombre de patients à une meilleure validité interne",
+            "B) Les résultats de l’étude française invalident les résultats de l’étude conduite en Suède présentée ici",
+            "C) L’étude française est plus convaincante pour ma pratique en tant que futur médecin exerçant en France",
+            "D) Sans examiner la méthode de l’étude réalisée en France, il est impossible de commenter des différences potentielles de résultats",
+            "E) L’étude publiée dans la revue avec le meilleur impact factor est l’étude la plus convaincante"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        }
+      ]
+    },
+    {
+      "id": "folder-1785539030529-1be74707555e4",
+      "type": "SQI",
+      "title": "Dossier 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des conflits d’intérêts, la ou les proposition(s) suivante(s) est(sont) vrai(e)",
+          "choix": [
+            "A) Un conflit d’intérêt se définit une situation d’interférence entre un intérêt public et des intérêts publics ou privés de nature à influencer l’exercice indépendant, objectif et impartial d’une fonction",
+            "B) La publicité directe d’un médicament sur ordonnance auprès du grand public est permise en France.",
+            "C) La publicité directe d’un médicament sur ordonnance dans les revues scientifiques est permise.",
+            "D) La loi oblige les visiteurs médicaux à déclarer les effets indésirables médicamenteux.",
+            "E) Les firmes pharmaceutiques peuvent influencer indirectement la prescription médicamenteuse dans les hôpitaux en attribuant des remises financières aux pharmacies hospitalières"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prévention des conflits d’intérêt, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Les techniques d’influence sont plus efficaces si elles ne font pas l’objet d’une attention critique minutieuse",
+            "B) Le fait de tisser des liens avec plusieurs firmes pharmaceutiques permet de ne pas être influencé.",
+            "C) Les visiteurs médicaux peuvent assurer l’information médicale auprès des professionnels de santé",
+            "D) Les études les plus récentes suggèrent que les patients dont le médecin a reçu des paiements de l'industrie pharmaceutique semblent plus susceptibles de recevoir des traitements non recommandés et de faible niveau de preuve.",
+            "E) Tous les essais cliniques réalisés sont publiés."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la médecine thermale, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Les cures de boisson d’eaux minérales n’est pas une pratique de la médecine thermale.",
+            "B) Les cures thermales agissent principalement par modification du métabolisme.",
+            "C) Les cures de contact consistent à l’application de l’agent thermal au contact de la peau et/ou des muqueuses.",
+            "D) Les gaz thermaux sont des agents utilisés dans la médecine thermale",
+            "E) Les effets indésirables n’existent pas en médecine thermale."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

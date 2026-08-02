@@ -1,19 +1,21 @@
 {
   "matiere": "Cardiologie",
+  "slug": "cardiologie",
   "annee": 2024,
+  "title": "Cardiologie - 2024",
   "total_questions": 42,
   "folders": [
     {
-      "id": "folder-1783272225989-8835b95fdf4d5",
+      "id": "default-questions",
       "type": "KFP",
       "title": "Dossier 1",
-      "description": "",
+      "description": "Mr C, chauffeur routier de 34 ans, se présente aux Urgences à 20 h pour une douleur thoracique évoluant depuis 18h.\nIl est suivi au plan cardiologique car on lui a découvert un souffle au cours d’un bilan effectué par la médecine du travail associéà une « dilatation de l’aorte ».\nIl fume 10 cigarettes par jour depuis l’âge de 25 ans.\nSa douleur est permanente, néanmoins calmée en antéflexion.\nIl a présenté une rhinopharyngite il y a 3 semaines.\nSa température est de 38,1°.\nL’examen physique montre un souffle systolodiastolique au bord gauche du sternum.\nSa tension artérielle est mesurée à 148/80.\nSa fréquence cardiaque à 80/min.\nL’ECG est normal.",
       "order": 1,
       "questions": [
         {
           "id": 1,
           "type": "QRP",
-          "contexte": "Mr C, chauffeur routier de 34 ans, se présente aux Urgences à 20 h pour une douleur thoracique évoluant depuis 18h. Il est suivi au plan cardiologique car on lui a découvert un souffle au cours d’un bilan effectué par la médecine du travail associé à une « dilatation de l’aorte ». Il fume 10 cigarettes par jour depuis l’âge de 25 ans. Sa douleur est permanente, néanmoins calmée en antéflexion. Il a présenté une rhinopharyngite il y a 3 semaines. Sa température est de 38,1°. L’examen physique montre un souffle systolodiastolique au bord gauche du sternum. Sa tension artérielle est mesurée à 148/80, sa fréquence cardiaque à 80/min. L’ECG est normal.",
+          "contexte": "",
           "question": "Parmi les éléments suivants de l’interrogatoire ou de l’examen physique (déjà recueillis ou supplémentaires), citez les 5 propositions qui orientent vers le diagnostic de dissection aortique ?",
           "choix": [
             "A) Présence d’une bicuspidie aortique dans les antécédents",
@@ -89,14 +91,14 @@
             "péricardite auiguë virale",
             "Pericardite aiguë"
           ],
-          "correctionExplanation": "",
+          "correctionExplanation": "péricardite: réponse partielle",
           "order": 2
         },
         {
           "id": 3,
           "type": "QRP",
           "contexte": "",
-          "question": "Dans l’hypothèse d’une péricardite aigue virale confirmée par une échocardiographie transthoracique relevant un épanchement minime en regard des cavités droites, quelles sont les 4 mesure(s) ou traitement(s) à mettre en place ?",
+          "question": "Dans l’hypothèse d’une péricardite aigue virale confirmée par une échocardiographie transthoracique relevant un épanchement minime en regard des cavités droites, quelles sont les 4 mesures mesure(s) ou traitement(s) à mettre en place ?",
           "choix": [
             "A) Hospitalisation en service de Médecine ou Cardiologie",
             "B) Arrêt de travail",
@@ -122,16 +124,16 @@
       ]
     },
     {
-      "id": "folder-1783272250451-bbf0f56b461bc8",
+      "id": "folder-1785535669255-e0ed8971e064a",
       "type": "KFP",
       "title": "Dossier 2",
-      "description": "",
+      "description": "M. V. est un professeur des écoles à la retraite de 68 ans.\nIl se présente ce jour aux urgences.\nIl est fatigué et trouve qu'il respire mal depuis 2 jours.\nIl a comme antécédents une hypertension artérielle depuis 12 ans, une pneumopathie bactérienne du lobe supérieur droit il y a 2 mois, un cancer de la prostate en surveillance depuis 6 mois, une intervention pour une fracture humérale droite suite à une chute à vélo il y a 2 mois.\nIl fume 2-3 cigarettes/jour.\nSon traitement habituel comporte de l'amlodipine 5 mg/j, du cholécalciférol 100 000 UI tous les 3 mois.\nA l'examen sa température est à 38 °C.\nSa pression artérielle est à 162/88 mmHg au bras droit.\nSa pression artérielle est à 153/84 mmHg au bras gauche.\nSa saturation en oxygène est à 93% en air ambiant.\nSa fréquence cardiaque est à 100 batt/min.\nL'auscultation retrouve un souffle sous-clavier gauche à 2/6.\nL'auscultation pulmonaire retrouve des fins crépitants des deux bases pulmonaires.\nIl n'y a pas de sibilants.\nLa palpation abdominale ne retrouve pas de défense, de contracture, de masse.",
       "order": 2,
       "questions": [
         {
           "id": 4,
           "type": "QRP",
-          "contexte": "M. V. est un professeur des écoles à la retraite de 68 ans. Il se présente ce jour aux urgences. Il est fatigué et trouve qu'il respire mal depuis 2 jours. Il a comme antécédents une hypertension artérielle depuis 12 ans, une pneumopathie bactérienne du lobe supérieur droit il y a 2 mois, un cancer de la prostate en surveillance depuis 6 mois, une intervention pour une fracture humérale droite suite à une chute à vélo il y a 2 mois. Il fume 2-3 cigarettes/jour. Son traitement habituel comporte de l'amlodipine 5 mg/j, du cholécalciférol 100 000 UI tous les 3 mois. A l'examen sa température est à 38 °C, sa pression artérielle est à 162/88 mmHg au bras droit et à 153/84 mmHg au bras gauche. Sa saturation en oxygène est à 93% en air ambiant, sa fréquence cardiaque est à 100 batt/min. L'auscultation retrouve un souffle sous-clavier gauche à 2/6, l'auscultation pulmonaire retrouve des fins crépitants des deux bases pulmonaires. Il n'y a pas de sibilants. La palpation abdominale ne retrouve pas de défense, de contracture, de masse.",
+          "contexte": "",
           "question": "Quelles sont vos trois hypothèses diagnostiques principales à ce stade ?",
           "choix": [
             "A) Embolie pulmonaire.",
@@ -166,7 +168,7 @@
             "Maladie thromboembolique veineuse",
             "thrombose veineuse profonde compliquée d'une embolie pulmonaire",
             "embolie pulmonaire sur thrombose veineuse profonde",
-            "trombose veineuse profonde",
+            "thrombose veineuse profonde",
             "embolie pulmonaire sur TVP",
             "embolie pulmonaire sur thrombose veineuse",
             "thrombose veineuse profonde du membre inférieur gauche",
@@ -183,7 +185,7 @@
             "Embolie pulmonaire causée par TVP",
             "TVP du mb inf",
             "embolie pulmnaire",
-            "trombose veineuse profonde du membre inferieur gauche",
+            "thrombose veineuse profonde du membre inferieur gauche",
             "Thrombose Veineuse Profonde compliquée d'une embolie pulmonaire",
             "Maladie Thrombo-Embolique Veineuse",
             "embolie pulomnaire",
@@ -200,17 +202,14 @@
             "embolie pulmonaire associée à une TVP gauche",
             "TVP du membre inférieur gauche",
             "thrombose veineuse profonde puis embolie pulmonaire",
-            "trombose veineuse profonde gauche",
-            "Thromobose veineuse profonde et embolie pulmonaire",
-            "Embolie pulmonaire sur thrombose veineuse membre inferieur gauche",
-            "Embolie pulmonaire secondaire à une thrombose veineuse profonde"
+            "thrombose veineuse profonde gauche"
           ],
           "correctionExplanation": "",
           "order": 2
         },
         {
           "id": 6,
-          "type": "QRP",
+          "type": "QRM",
           "contexte": "",
           "question": "Quels sont les 4 éléments de l'énoncé les plus pertinents pour justifier votre hypothèse diagnostique principale parmi les propositions ci-dessous :",
           "choix": [
@@ -226,7 +225,7 @@
             "J) Le traitement par cholécalciférol.",
             "K) La saturation à 93%.",
             "L) La fréquence cardiaque à 100 batt/min.",
-            "M) L’auscultation pulmonaire.",
+            "M) L'auscultation pulmonaire.",
             "N) Le souffle sous clavier gauche."
           ],
           "reponses": [
@@ -235,29 +234,28 @@
             "H",
             "L"
           ],
-          "maxReponses": 4,
           "correctionExplanation": "",
           "order": 3
         }
       ]
     },
     {
-      "id": "folder-1783272261074-83ab5fc5534878",
+      "id": "folder-1785535679441-01f65fefe011a",
       "type": "DP",
       "title": "Dossier 3",
-      "description": "",
+      "description": "M B 69 ans se présente aux urgences pour une douleur au mollet gauche, apparue depuis environ une semaine.\nLa douleur est présente au repos, mais est accentuée par la marche.\nLes antécédents de ce patient sont une hypertension artérielle traitée par Irbesartan et hydrochlorothiazide.\nIl a fumé de l’âge de 20 ans à l’âge de 55 ans environ un paquet par jour, puis il a arrêté suite à un syndrome coronaire aigu pour lequel il a bénéficié de la pose d’un stent dans l’IVA (il y a 15 ans).\nIl a été opéré il y a un mois d’une prothèse totale de genou droit à cause d’une arthrose.\nIl prend actuellement 100mg d’aspirine.\nIl est en bon état général, de poids stable.\nIl pèse 82Kg et mesure 178cm de taille.\nA l’examen clinique il ne présente pas d’œdème du membre douloureux ni de circulation collatérale superficielle, les pouls distaux sont présents.\nLe reste de l’examen est sans particularité.\nLa pression artérielle est de 132/80 mmHg.\nLa FC 80bpm.\nLa clairance est de 80ml/min.\nHb 14,2 g/dl\nGB 4,5 G/L\nplaquettes 330 G/L.",
       "order": 3,
       "questions": [
         {
           "id": 7,
           "type": "QRM",
-          "contexte": "M B 69 ans se présente aux urgences pour une douleur au mollet gauche, apparue depuis environ une semaine. La douleur est présente au repos, mais est accentuée par la marche. Les antécédents de ce patient sont une hypertension artérielle traitée par Irbesartan et hydrochlorothiazide. Il a fumé de l’âge de 20 ans à l’âge de 55 ans environ un paquet par jour, puis il a arrêté suite à un syndrome coronaire aigu pour lequel il a bénéficié de la pose d’un stent dans l’IVA (il y a 15 ans). Il a été opéré il y a un mois d’une prothèse totale de genou droit à cause d’une arthrose. Il prend actuellement 100mg d’aspirine. Il est en bon état général, de poids stable. Il pèse 82Kg et mesure 178cm de taille. A l’examen clinique il ne présente pas d’œdème du membre douloureux ni de circulation collatérale superficielle, les pouls distaux sont présents. Le reste de l’examen est sans particularité. La pression artérielle est de 132/80 mmHg, la FC 80bpm. La clairance est de 80ml/min. Hb 14,2 g/dl ; GB 4,5 G/L, plaquettes 330 G/L.",
+          "contexte": "",
           "question": "Quel(s) est (sont) le (les) facteur(s) de risque de thrombose veineuse profonde de ce patient ?",
           "choix": [
             "A) L'âge.",
             "B) Le tabagisme.",
             "C) L'Hypertension.",
-            "D) L’intervention chirurgicale.",
+            "D) L'intervention chirurgicale.",
             "E) Le syndrome coronaire."
           ],
           "reponses": [
@@ -400,16 +398,16 @@
       ]
     },
     {
-      "id": "folder-1783272281419-015dfd40bf787",
+      "id": "folder-1785535695333-67f8dbc0cc742",
       "type": "DP",
       "title": "Dossier 4",
-      "description": "",
+      "description": "Mme A, 77 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois.\nSes antécédents sont marqués par un cancer du sein traité par tumorectomie, radiothérapie et hormonothérapie à l’âge de 72 ans.\nElle est traitée pour une HTA depuis l’âge de 60 ans (association valsartan et hydrochlorothiazide).\nLes anomalies auscultatoires anomalies vous conduisent à suspecter un rétrécissement aortique.",
       "order": 4,
       "questions": [
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "Mme A, 77 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un cancer du sein traité par tumorectomie, radiothérapie et hormonothérapie à l’âge de 72 ans. Elle est traitée pour une HTA depuis l’âge de 60 ans (association valsartan et hydrochlorothiazide). Les anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique.",
+          "contexte": "",
           "question": "Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie ?",
           "choix": [
             "A) Souffle systolique",
@@ -468,7 +466,7 @@
           "id": 18,
           "type": "QRM",
           "contexte": "",
-          "question": "Les données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez-vous raisonnablement proposer au patient à distance ?",
+          "question": "Les données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvezvous raisonnablement proposer au patient à distance ?",
           "choix": [
             "A) Remplacement valvulaire aortique chirurgical par bioprothèse",
             "B) Remplacement valvulaire aortique chirurgical par prothèse mécanique",
@@ -523,20 +521,63 @@
           ],
           "correctionExplanation": "",
           "order": 6
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques années plus tard, la patiente alors âgée de 80 ans consulte son cardiologue pour une dyspnée d’apparition progressive, crescendo, actuellement au moindre effort. Elle n’a pas de douleurs thoraciques, pas de notion de syncope. L’auscultation met en évidence un souffle au foyer aortique non connu. Il existe de discrets crépitants aux bases. Quels critères sont en faveur d’un souffle de rétrécissement aortique ?",
+          "choix": [
+            "A) Souffle râpeux",
+            "B) Souffle diastolique",
+            "C) Abolition du B2",
+            "D) Irradiation dans les carotides",
+            "E) Souffle éjectionnel"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’échocardiographie met en évidence :\nune valve aortique très remaniée, calcifiée avec une vitesse maximale à 4,5 m/s\nun gradient moyen à 45 mmHg\nune surface aortique à 0,8 cm2\nLe VG est non dilaté mais légèrement hypertrophié et la FEVG est conservée à 55%.\nAprès discussion médico chirurgicale, devant cette patiente présentant un rétrécissement aortique serré symptomatique, une prise en charge par voie percutanée a été décidée au vu de l’âge et de l’état général de la patiente.\nQuels sont les examens qui sont réalisés dans le bilan pré-interventionnel ?",
+          "choix": [
+            "A) Echo doppler des TSAO",
+            "B) Angio-scanner aortique injecté",
+            "C) Coronarographie",
+            "D) Bilan dentaire avec panoramique dentaire",
+            "E) Radiographie thoracique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
         }
       ]
     },
     {
-      "id": "folder-1783272300394-9acc6d4b3e6e48",
+      "id": "folder-1785535717767-5df289de9a8388",
       "type": "DP",
       "title": "Dossier 5",
-      "description": "",
+      "description": "Une patiente de 67 ans se présente aux urgences en raison d’un essoufflement.\nSes antécédents sont représentés par une appendicectomie et une PTH droite.\nElle est traitée pour hypertension artérielle par Valsartan.\nElle est apyrétique.\nLe bilan biologique d’entrée est sans particularité.\nL’IRM cérébrale réalisée met en évidence un AVC ischémique gauche sans remaniement hémorragique.\nL’électrocardiogramme est le suivant :",
       "order": 5,
       "questions": [
         {
-          "id": 21,
+          "id": 23,
           "type": "QRM",
-          "contexte": "Une patiente de 67 ans se présente aux urgences en raison d’un essoufflement. Ses antécédents sont représentés par une appendicectomie et une PTH droite. Elle est traitée pour hypertension artérielle par Valsartan. Elle est apyrétique. Le bilan biologique d’entrée est sans particularité. L’IRM cérébrale réalisée met en évidence un AVC ischémique gauche sans remaniement hémorragique. L’électrocardiogramme est le suivant :",
+          "contexte": "",
           "question": "Que met en évidence cet électrocardiogramme ? (une ou plusieurs réponses justes)",
           "choix": [
             "A) Une fibrillation atriale",
@@ -552,7 +593,7 @@
           "order": 1
         },
         {
-          "id": 22,
+          "id": 24,
           "type": "QRM",
           "contexte": "",
           "question": "Dans le cas général, quels sont les critères à prendre en compte dans le cadre du calcul du CHA2DS2VASC ?",
@@ -572,7 +613,7 @@
           "order": 2
         },
         {
-          "id": 23,
+          "id": 25,
           "type": "QRU",
           "contexte": "",
           "question": "Quel est le score CHA2DS2VASC de cette patiente ?",
@@ -590,7 +631,7 @@
           "order": 3
         },
         {
-          "id": 24,
+          "id": 26,
           "type": "QRU",
           "contexte": "",
           "question": "Quel est le traitement de première intention?",
@@ -608,10 +649,10 @@
           "order": 4
         },
         {
-          "id": 25,
+          "id": 27,
           "type": "QROC",
           "contexte": "",
-          "question": "Après 3 semaines de traitements anticoagulants, la patiente présente toujours le même trouble du rythme. Que lui proposez-vous pour rétablir le rythme sinusal ?",
+          "question": "Après 3 semaines de traitements anticoagulants, la patiente présente toujours le même trouble du rythme. Que lui proposezvous pour rétablir le rythme sinusal ?",
           "choix": [],
           "reponses": [
             "choc electrique externe",
@@ -660,61 +701,15 @@
             "Cardioversion électrique ou médicamenteuse par amiodarone",
             "choc életrique externe",
             "une cardioversion",
-            "introduction d'anti-arythmique (amiodarone)",
-            "Réduction chimique par amiodarone ou électrique",
-            "Choc électrique externe (CEE)",
-            "choc électrique externe ou amiodarone"
+            "introduction d'anti-arythmique (amiodarone)"
           ],
           "correctionExplanation": "",
           "order": 5
-        },
-        {
-          "id": 26,
-          "type": "QRM",
-          "contexte": "",
-          "question": "Quelques années plus tard, la patiente alors âgée de 80 ans consulte son cardiologue pour une dyspnée d’apparition progressive, crescendo, actuellement au moindre effort. Elle n’a pas de douleurs thoraciques, pas de notion de syncope. L’auscultation met en évidence un souffle au foyer aortique non connu. Il existe de discrets crépitants aux bases. Quels critères sont en faveur d’un souffle de rétrécissement aortique ?",
-          "choix": [
-            "A) Souffle râpeux",
-            "B) Souffle diastolique",
-            "C) Abolition du B2",
-            "D) Irradiation dans les carotides",
-            "E) Souffle éjectionnel"
-          ],
-          "reponses": [
-            "A",
-            "C",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 6
-        },
-        {
-          "id": 27,
-          "type": "QRM",
-          "contexte": "",
-          "question": "L’échocardiographie met en évidence une valve aortique très remaniée, calcifiée avec une vitesse maximale à 4,5 m/s, un gradient moyen à 45 mmHg et une surface aortique à 0,8 cm². Le VG est non dilaté mais légèrement hypertrophié et la FEVG est conservée à 55%. Après discussion médico‑chirurgicale, devant cette patiente présentant un rétrécissement aortique serré symptomatique, une prise en charge par voie percutanée a été décidée au vu de l’âge et de l’état général de la patiente. Quels sont les examens qui sont réalisés dans le bilan pré‑interventionnel ?",
-          "choix": [
-            "A) Echo doppler des TSAO",
-            "B) Angio-scanner aortique injecté",
-            "C) Coronarographie",
-            "D) Bilan dentaire avec panoramique dentaire",
-            "E) Radiographie thoracique"
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 7
         }
       ]
     },
     {
-      "id": "folder-1783272316619-b8ce53667055e",
+      "id": "folder-1785535732234-d9a430f6e7f758",
       "type": "SQI",
       "title": "Dossier 6",
       "description": "",
@@ -722,7 +717,7 @@
       "questions": [
         {
           "id": 28,
-          "type": "QRM",
+          "type": "QRP",
           "contexte": "",
           "question": "Concernant le traitement de l’hypertension artérielle, quelles sont les 3 réponses exactes ?",
           "choix": [
@@ -737,12 +732,13 @@
             "D",
             "E"
           ],
+          "maxReponses": 3,
           "correctionExplanation": "",
           "order": 1
         },
         {
           "id": 29,
-          "type": "QRM",
+          "type": "QRP",
           "contexte": "",
           "question": "Concernant les facteurs qui favorisent l’augmentation de la pression artérielle, quelles sont les 3 réponses exactes ?",
           "choix": [
@@ -757,6 +753,7 @@
             "C",
             "E"
           ],
+          "maxReponses": 3,
           "correctionExplanation": "",
           "order": 2
         },
@@ -1018,8 +1015,7 @@
             "systolyque",
             "systole ventriculaire",
             "systolique ( b1 a b2)",
-            "systole",
-            "B1 à B2",
+            "systole B1 à B2",
             "proto systolique"
           ],
           "correctionExplanation": "",
@@ -1048,239 +1044,5 @@
       ]
     }
   ],
-  "questions": [
-    {
-      "id": 1,
-      "type": "QRU",
-      "contexte": "",
-      "question": "dans les antécédents B ■ Présence d’une insuffisance mitrale dans les antécédents C ■ Douleur de siège rétrosternal D ■ Irradiation dans les mâchoires E ☑ Caractère migratoire de la douleur F ☑ Intensité très élevée de la douleur G ■ Caractère constrictif H ☑ Début très brutal I ■ Douleur inspiratoire J ☑ Présence d’une asymétrie tensionnelle K ■ Présence d’une fièvre Parmi les éléments suivants de l’interrogatoire ou de l’examen physique (déjà recueillis ou supplémentaires), citez les 5 propositions qui orientent vers le diagnostic de dissection aortique ?",
-      "choix": [
-        "A) Présence d’une bicuspidie aortique dans les antécédents",
-        "B) ■ Présence d’une insuffisance mitrale dans les antécédents",
-        "C) ■ Douleur de siège rétrosternal",
-        "D) ouleur de siège rétrosternal",
-        "E) Caractère migratoire de la douleur",
-        "F) Intensité très élevée de la douleur",
-        "G) ■ Caractère constrictif",
-        "H) Début très brutal",
-        "I) rradiation dans les mâchoires",
-        "J) Présence d’une asymétrie tensionnelle",
-        "K) ■ Présence d’une fièvre Parmi les éléments suivants de l’interrogatoire ou de l’examen physique (déjà recueillis ou supplémentaires), citez les 5 propositions qui orientent vers le diagnostic de dissection aortique ? Question à réponse ouverte et courte ",
-        "P) résence d’une bicuspidie aortique dans les antécédents",
-        "Q) uestion à réponse ouverte et courte ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "E",
-        "F",
-        "H",
-        "J"
-      ]
-    },
-    {
-      "id": 2,
-      "type": "QROC",
-      "contexte": "",
-      "question": "quel est le diagnostic le plus probable ?",
-      "choix": [],
-      "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 3,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Dans l’hypothèse d’une péricardite aigue virale confirmée par une échocardiographie transthoracique relevant un épanchement minime en regard des cavités droites, quelles sont les 4 mesures mesure(s) ou traitement(s) à mettre en place ?",
-      "choix": [
-        "A) ■ Hospitalisation en service de Médecine ou Cardiologie",
-        "B) Arrêt de travail",
-        "C) ■ Rééducation à l’effort à l’issue d’une semaine de repos",
-        "D) Anti inflammatoires non stéroïdiens",
-        "E) ■ Anti inflammatoires stéroïdiens",
-        "F) Colchicine",
-        "G) Inhibiteur de la pompe a protons",
-        "H) ospitalisation en service de Médecine ou Cardiologie",
-        "I) nhibiteur de la pompe a protons",
-        "J) ■ Antibiothérapie probabiliste ciblée sur les germes de la sphère ORL Dans l’hypothèse d’une péricardite aigue virale confirmée par une échocardiographie transthoracique relevant un épanchement minime en regard des cavités droites, quelles sont les 4 mesures mesure(s) ou traitement(s) à mettre en place ? Question à réponses précisées ",
-        "Q) uestion à réponses précisées ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "B",
-        "D",
-        "F",
-        "G"
-      ]
-    },
-    {
-      "id": 4,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel facteur est déterminant pour le choix de la dose ?",
-      "choix": [
-        "A) ■ La fonction hépatique.",
-        "B) ■ Le niveau d'antiXa.",
-        "C) Le poids.",
-        "D) ■ La taille.",
-        "E) ■ Le taux de plaquettes. Vous choisissez de démarrer un traitement par HBPM. Quel facteur est déterminant pour le choix de la dose ? 6/19 Question à réponse unique ",
-        "L) a fonction hépatique.",
-        "Q) uestion à réponse unique ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "C"
-      ]
-    },
-    {
-      "id": 5,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel bilan demandez-vous pour ce patient ?",
-      "choix": [
-        "A) ■ Dosage antithrombine, protéine C, protéine S.",
-        "B) ■ Recherche mutation du facteur V (LEIDEN).",
-        "C) ■ Dosage facteur II.",
-        "D) osage antithrombine, protéine C, protéine S.",
-        "E) Aucun des précédents. Quel bilan demandez-vous pour ce patient ? Question à réponse unique ",
-        "Q) uel bilan demandez-vous pour ce patient ? Question à réponse unique ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "E"
-      ]
-    },
-    {
-      "id": 6,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel est le monitoring biologique que vous mettez en place pour ce patient ?",
-      "choix": [
-        "A) Surveillance plaquettes deux fois par semaine.",
-        "B) ■ Surveillance du taux d'anti-Xa une fois par semaine.",
-        "C) ■ Surveillance de la fonction rénale une fois par semaine.",
-        "D) ■ Surveillance de la numération une fois par mois.",
-        "E) ■ Surveillance de la fonction rénale une fois par mois. Quel est le monitoring biologique que vous mettez en place pour ce patient ? Question à réponse unique ",
-        "Q) uel est le monitoring biologique que vous mettez en place pour ce patient ? Question à réponse unique ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 7,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel examen vous permet de confirmer la présence d’une embolie pulmonaire ?",
-      "choix": [
-        "A) Angioscanner.",
-        "B) ■ D-dimères.",
-        "C) ■ Echographie cardiaque.",
-        "D) -dimères.",
-        "E) chographie cardiaque.",
-        "L) es anomalies auscultatoires anomalies vous conduisent à suspecter un rétrécissement aortique. Question à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A"
-      ]
-    },
-    {
-      "id": 8,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quels sont les paramètres utiles pour en stratifier la gravité ?",
-      "choix": [
-        "A) ■ Présence de thrombus proximal.",
-        "B) ■ Atteinte de >50% du lit vasculaire pulmonaire.",
-        "C) L’âge.",
-        "D) La pression artérielle.",
-        "E) La présence d’un cancer. L’angioscanner confirme la présence d’une embolie pulmonaire. Quels sont les paramètres utiles pour en stratifier la gravité ? Question à réponses multiples ",
-        "L) ’âge.",
-        "P) résence de thrombus proximal.",
-        "Q) uels sont les paramètres utiles pour en stratifier la gravité ? Question à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "C",
-        "D",
-        "E"
-      ]
-    },
-    {
-      "id": 9,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel diagnostic évoquez-vous en priorité ?",
-      "choix": [
-        "A) VC sur dissection aortique AVC post dissection aortique dissection aortique ascendante AVC ischémique sur dissection aortique dissection aprtique AVC ischemique sur dissection aortique 16/19 Question à réponse ouverte et courte "
-      ],
-      "reponses": []
-    },
-    {
-      "id": 10,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel est l’examen de première intention que vous demandez ?",
-      "choix": [
-        "D) osage des troponines Dosage de la troponine Dosage répété de troponine Dosage répété de troponines dosage troponine dosage de troponine troponine ultra sensible dosage troponine ultra sensible Dosage des troponines us Troponines ultra sensibles troponine us troponemie Question à réponses multiples ",
-        "R) éponse attendue Troponine Troponines troponine hypersensible Troponine T Troponine i Dosage des troponines Dosage de la troponine Dosage répété de troponine Dosage répété de troponines dosage troponine dosage de troponine troponine ultra sensible dosage troponine ultra sensible Dosage des troponines us Troponines ultra sensibles troponine us troponemie Question à réponses multiples "
-      ],
-      "reponses": []
-    },
-    {
-      "id": 12,
-      "type": "QRU",
-      "contexte": "",
-      "question": "quelles sont les 2 réponses justes?",
-      "choix": [
-        "A) Il s’agit d’une valvulopathie longtemps asymptomatique.",
-        "B) La bicuspidie est un facteur favorisant.",
-        "C) ■ Le souffle est facile à entendre.",
-        "D) ■ L’insuffisance aortique sévère s’accompagne d’un pincement de la pression sanguine artérielle.",
-        "I) l s’agit d’une valvulopathie longtemps asymptomatique.",
-        "L) a bicuspidie est un facteur favorisant.",
-        "Q) uestion à réponse unique ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "B"
-      ]
-    },
-    {
-      "id": 13,
-      "type": "QRU",
-      "contexte": "",
-      "question": "quelques jours plus tôt D ■ La douleur est majorée en expiration. E ■ La douleur ne varie pas selon la position. Un jeune homme de 22 ans se réveille vers 2h du matin avec une gêne thoracique qui persiste au matin. Il vient consulter. Parmi les éléments suivants quel est celui qui vous fait évoquer le diagnostic de péricardite ?",
-      "choix": [
-        "A) ■ Hyperthermie à 39, 5",
-        "B) ■ Souffle précordial",
-        "C) Notion de « grippette » quelques jours plus tôt",
-        "D) ■ La douleur est majorée en expiration.",
-        "E) ■ La douleur ne varie pas selon la position. Un jeune homme de 22 ans se réveille vers 2h du matin avec une gêne thoracique qui persiste au matin. Il vient consulter. Parmi les éléments suivants quel est celui qui vous fait évoquer le diagnostic de péricardite ? 18/19 Question à réponse ouverte et courte ",
-        "H) yperthermie à 39, 5",
-        "L) a douleur est majorée en expiration.",
-        "N) otion de « grippette » quelques jours plus tôt",
-        "P) armi les éléments suivants quel est celui qui vous fait évoquer le diagnostic de péricardite ? 18/19 Question à réponse ouverte et courte ",
-        "Q) uestion à réponse ouverte et courte ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "C"
-      ]
-    },
-    {
-      "id": 14,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quel est le temps auscultatoire de l'insuffisance mitrale?",
-      "choix": [
-        "M) éso-systolique holo-méso-systolique souffle systolique systolyque systole ventriculaire systolique ( b1 a b2) systole B1 à B2 proto systolique Question à réponses multiples "
-      ],
-      "reponses": []
-    }
-  ]
+  "questions": []
 }

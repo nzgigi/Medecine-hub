@@ -1,220 +1,144 @@
 {
-  "matiere": "Gastroenterologie",
+  "matiere": "Gastroentérologie",
+  "slug": "gastroenterologie",
   "annee": 2025,
-  "total_questions": 8,
-  "questions": [
-    {
-      "id": 1,
-      "type": "QRU",
-      "contexte": "",
-      "question": "chez ce patient. Quels sont les principales causes d’ascite et le taux de protides dans l’ascite correspondant à chaque étiologie ?",
-      "choix": [
-        "A) Cirrhose ; taux de protides < 25 g/L",
-        "B) Carcinose péritonéale ; taux de protides > 25 g/L",
-        "C) irrhose ; taux de protides < 25 g/L",
-        "D) Insuffisance cardiaque droite sans cirrhose ; taux de protides > 25 g/L",
-        "I) nsuffisance cardiaque droite sans cirrhose ; taux de protides > 25 g/L",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "B",
-        "D"
-      ],
-      "order": 1
-    },
-    {
-      "id": 2,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quels sont les éléments vrais concernant le diagnostique de cirrhose ?",
-      "choix": [
-        "A) L’examen clinique peut être normal",
-        "B) La présence d’angiomes stellaires est très évocateur de cirrhose",
-        "C) ■ L’échographie abdominale avec doppler n’est pas utile",
-        "D) L’élastométrie impulsionnelle est l’examen non invasif le plus performant.",
-        "E) La biopsie hépatique est l’examen diagnostique de référence. Vous suspectez une cirrhose d’origine alcoolique qui est responsable de l’ascite. Quels sont les éléments vrais concernant le diagnostique de cirrhose ? 6/10 Question à réponse unique ",
-        "L) ’examen clinique peut être normal",
-        "Q) uestion à réponse unique ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "B",
-        "D",
-        "E"
-      ],
-      "order": 2
-    },
-    {
-      "id": 3,
-      "type": "QRU",
-      "contexte": "",
-      "question": "chez les hommes et entraine une cholestase. C ■ La cholangite sclérosante primitive est associée à la présence d’Ac anti mitochondrie de type M2 D ■ La première cause de cirrhose en France est la stéatopathie métabolique E ☑ L’hémochromatose est associée à une mutation homozygote C282Y du gène HFE. Quelle est la seule réponse juste concernant les causes de cirrhose ?",
-      "choix": [
-        "A) ■ Il n’est pas utile d’identifier la cause de la cirrhose car cela n’a pas d’impact sur la prise en charge",
-        "B) ■ La cholangite primitive est une cause fréquente, qui prédomine chez les hommes et entraine une cholestase.",
-        "C) ■ La cholangite sclérosante primitive est associée à la présence d’Ac anti mitochondrie de type M2",
-        "D) ■ La première cause de cirrhose en France est la stéatopathie métabolique",
-        "E) L’hémochromatose est associée à une mutation homozygote C282Y du gène HFE. Quelle est la seule réponse juste concernant les causes de cirrhose ? Question à réponses multiples ",
-        "I) l n’est pas utile d’identifier la cause de la cirrhose car cela n’a pas d’impact sur la prise en charge",
-        "L) a cholangite primitive est une cause fréquente, qui prédomine chez les hommes et entraine une cholestase.",
-        "Q) uelle est la seule réponse juste concernant les causes de cirrhose ? Question à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "E"
-      ],
-      "order": 3
-    },
-    {
-      "id": 4,
-      "type": "QRU",
-      "contexte": "",
-      "question": "chez deux membres d’entre elle. Ils ont mangé tous ensemble au même restaurant. Quels seront très probablement les bactéries possibles en cause en fonction du délai d’apparition des symptômes ?",
-      "choix": [
-        "A) Salmonella enteritidis : 24 heures",
-        "B) ■ Clostridioides difficile : 36 heures",
-        "C) lostridioides difficile : 36 heures",
-        "D) Bacillus cereus : 12 heures",
-        "E) ■ Norovirus : 48 heures Une famille consulte pour des troubles digestifs (vomissements, diarrhée) de type toxi-infection alimentaire aiguë chez deux membres d’entre elle. Ils ont mangé tous ensemble au même restaurant. Quels seront très probablement les bactéries possibles en cause en fonction du délai d’apparition des symptômes ? Question à réponses multiples ",
-        "N) orovirus : 48 heures Une famille consulte pour des troubles digestifs (vomissements, diarrhée) de type toxi-infection alimentaire aiguë chez deux membres d’entre elle. Ils ont mangé tous ensemble au même restaurant. Quels seront très probablement les bactéries possibles en cause en fonction du délai d’apparition des symptômes ? Question à réponses multiples ",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "D"
-      ],
-      "order": 4
-    },
-    {
-      "id": 5,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Parmi les signes cliniques et biologiques suivants lesquels sont très évocateurs de pancréatite aiguë?",
-      "choix": [
-        "A) ■ Douleur aiguë des fosses lombaires",
-        "B) Douleur transfixiante aiguë épigastrique",
-        "C) Vomissements",
-        "D) ouleur aiguë des fosses lombaires",
-        "E) lévation des ASAT et des GammaGT sériques > 3 N",
-        "P) armi les signes cliniques et biologiques suivants lesquels sont très évocateurs de pancréatite aiguë? Question à réponses multiples ",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "B",
-        "C"
-      ],
-      "order": 5
-    },
-    {
-      "id": 6,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quelles sont les 3 réponses vraies ?",
-      "choix": [
-        "A) La spironolactone peut entraîner une hyperkaliémie",
-        "B) ■ Le furosémide peut entraîner une gynécomastie",
-        "C) La natriurèse permet de juger de l’efficacité du traitement",
-        "D) L’efficacité du traitement diurétique en ambulatoire est jugée principalement par la perte de poids",
-        "E) ■ La surveillance du ionogramme sanguin est facultative tout au long du traitement Le patient est traité en première intention par spironolactone puis secondairement nécessité d'ajouter du furosémide. Quelles sont les 3 réponses vraies ? 7/10 Examen Digestif DFASM1/DFASM2 Janvier 2025 examen DFASM1/DFASM2 06 janvier 2024 Question à réponse unique ",
-        "L) a spironolactone peut entraîner une hyperkaliémie",
-        "Q) uestion à réponse unique ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "C",
-        "D"
-      ],
-      "order": 6
-    },
-    {
-      "id": 7,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Quelle est la réponse exacte?",
-      "choix": [
-        "A) ■ Un traitement par biothérapie complémentaire est nécessaire en première intention",
-        "B) ■ Une chimiothérapie adjuvante est nécessaire",
-        "C) Un syndrome de Lynch (HNPCC) doit être rechercher",
-        "D) ■ Une colectomie prophylactique complémentaire est nécessaire",
-        "Q) uestion à réponse unique ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "C"
-      ],
-      "order": 7
-    },
-    {
-      "id": 8,
-      "type": "QRU",
-      "contexte": "",
-      "question": "quelle une coloscopie complète est réalisée. Celle-ci met en évidence une lésion bourgeonnante du côlon sigmoïde. L’anatomopathologie confirme que c’est une tumeur maligne. Quelle est l’histologie la plus probable?",
-      "choix": [
-        "A) ■ Carcinome epidermoide",
-        "B) Adénocarcinome lieberkhunien",
-        "C) arcinome epidermoide",
-        "D) ■ Adénome tubulo-villeux en dysplasie de haut grade",
-        "E) ■ Carcinome neuroendocrine Une patiente de 65 ans décrit des rectorragies depuis 3 mois pour laquelle une coloscopie complète est réalisée. Celle-ci met en évidence une lésion bourgeonnante du côlon sigmoïde. L’anatomopathologie confirme que c’est une tumeur maligne. Quelle est l’histologie la plus probable? Question à réponses précisées ",
-        "L) ’anatomopathologie confirme que c’est une tumeur maligne. Quelle est l’histologie la plus probable? Question à réponses précisées ",
-        "P) olype hyperplasique",
-        "Q) uelle est l’histologie la plus probable? Question à réponses précisées ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "B"
-      ],
-      "order": 8
-    }
-  ],
+  "title": "Gastroentérologie - 2025",
+  "total_questions": 25,
   "folders": [
     {
       "id": "default-questions",
       "type": "SQI",
-      "title": "Questions",
+      "title": "Dossier 1",
       "description": "",
       "order": 1,
       "questions": [
         {
           "id": 1,
-          "type": "QRU",
+          "type": "QROC",
           "contexte": "",
-          "question": "chez ce patient. Quels sont les principales causes d’ascite et le taux de protides dans l’ascite correspondant à chaque étiologie ?",
-          "choix": [
-            "A) Cirrhose ; taux de protides < 25 g/L",
-            "B) Carcinose péritonéale ; taux de protides > 25 g/L",
-            "C) irrhose ; taux de protides < 25 g/L",
-            "D) Insuffisance cardiaque droite sans cirrhose ; taux de protides > 25 g/L",
-            "I) nsuffisance cardiaque droite sans cirrhose ; taux de protides > 25 g/L",
-            "Q) uestion à réponses multiples ",
-            "R) éponse attendue"
-          ],
+          "question": "Quelles sont les deux situations d'urgence de la maladie diverticulaire colique",
+          "choix": [],
           "reponses": [
-            "A",
-            "B",
-            "D"
+            "Hémorragie et péritonite",
+            "peritonite et hemorragie",
+            "Péritonite et hémorragie",
+            "peritonite et hemorragie digestive",
+            "hémorragie digestive et péritonite",
+            "péritonite et hémorragie digestive",
+            "péritonite et hémorragie",
+            "hémorragie et peritonite",
+            "péritonite et hémorragie diverticulaire",
+            "hemorragie diverticulaire et peritonite",
+            "hemorragie et peritonite",
+            "hémorragie diverticulaire et péritonite diverticulaire",
+            "hémorragie diverticulaire et péritonite",
+            "hémorragie et péritonite diverticulaire",
+            "peritonite et hémorragie diverticulaire",
+            "péritonite et choc hémorragique",
+            "Hémorragie diverticulaire ET Diverticulite (et ses complication : Abcès, Peritoinite)",
+            "peritonite sur perforation et hemorragie diverticulaire",
+            "hemorragie digestive et péritonite généralisé",
+            "hemmoragie digestive et peritonite",
+            "hémorragie diverticulaire et péritonite généralisée",
+            "hemorragie peritonite",
+            "hemorragie diverticulaire et peritonite sur diverticulite",
+            "hémorragie et péritonite",
+            "hémorragie et péritonite par perforation",
+            "perforation avec peritonite et hemorragie",
+            "hemorragie et complications infectieuses (peritonite, sepsis, choc septique)",
+            "hémorragies, péritonite",
+            "peritonite / hemorragie",
+            "hemorragie diverticulaire et diverticulite compliquée d'une péritonite",
+            "Péritonite et hémorrhagie",
+            "péritonite et hémoragie diverticulaire",
+            "hémorragie, péritonite",
+            "péritonite, hémorragie",
+            "péritonite et hemorragie",
+            "hémorragie digestive basse et péritonite",
+            "Hemorragie digestive et perforation à risque de péritonite",
+            "Péritonite et hémorragie digestive",
+            "hemorragie et abces",
+            "hemoragie digestive basse et peritonite sur perforation",
+            "péritonite par perforation et hémorragie digestive",
+            "Hemoragie digestive due a un saignement diverticulaire / perforation donnant une peritonite",
+            "hemmorragie et peritonite",
+            "hémorragie digestive et péritonite aigue",
+            "péritonite divertiuclaire et hémorragie diverticulaire",
+            "Péritonite / hemmoragie diverticulaire",
+            "hemoragie, perforation (peritonite)",
+            "Peritonite et Hemorragie digestive",
+            "hemorragie, peritonite",
+            "hémorragie digestive, péritonite sur perforation diverticulaire",
+            "hemorragie digestive et peritonite",
+            "hemorragie et Peritonite et hemorragie",
+            "hemmoragie et peritonite",
+            "péritonite diverticulaire et hémorragie digestive",
+            "peritonite par perforation, hémorragie digestive basse",
+            "Hemoragie digestive et peritonite sur perforation",
+            "hemmorragie anemie",
+            "péritonite, hémorragie diverticulaire",
+            "Hémorragie diverticulaire et la peritonite diverticulaire",
+            "rectorragie, perritonite",
+            "hemorragie et péritonite diverticulaire",
+            "rectorragies et peritonite",
+            "péritonite et hémorragie digestive basse",
+            "Péritonite diverticulaire et hémorragie",
+            "perforation (avec complications comme peritonite stade 3 et 4 hinchey ou pneumoperitoine) ou choc hemodynamique",
+            "hemorragie et abcès",
+            "peritoinite et hemorragie",
+            "Péritonite sur diverticulite perforée et Choc hémorragique sur diverticulite hémorragique",
+            "péritonite diverticulaire et hémorragie",
+            "Hémorragie diverticulaire et péritonite",
+            "hemorragie, péritonite"
           ],
+          "correctionExplanation": "",
           "order": 1
         },
         {
           "id": 2,
-          "type": "QRU",
+          "type": "QROC",
           "contexte": "",
-          "question": "Quels sont les éléments vrais concernant le diagnostique de cirrhose ?",
+          "question": "Quelles sont les deux principaux facteurs de risque du cancer épidermoïde de l’œsophage",
+          "choix": [],
+          "reponses": [
+            "Alcool et tabac",
+            "tabac et alcool",
+            "Tabac et alcool",
+            "tabac alcool",
+            "alcool tabac",
+            "tabac, alcool",
+            "Tabac et Alcool",
+            "alcool, tabac",
+            "l'alcool et le tabac",
+            "tabagisme et alcoolisme",
+            "l’alcool et le tabac",
+            "le tabac et l'alcool",
+            "Alcool, tabac",
+            "tabagisme et alcoolisme chronique",
+            "alcool - tabac",
+            "Tabac, alcool",
+            "consommation d’alcool et de tabac",
+            "tabagisme et alcool",
+            "Tabagisme et alcoolisme",
+            "OH et Tabac",
+            "La consommation chronique de tabac et d'alcool",
+            "Intoxication Alcoolo-Tabagique chronique",
+            "tabagisme, alcoolisme"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des causes fréquentes de vomissements chroniques chez l'adulte; quelles sont les réponses vraies",
           "choix": [
-            "A) L’examen clinique peut être normal",
-            "B) La présence d’angiomes stellaires est très évocateur de cirrhose",
-            "C) ■ L’échographie abdominale avec doppler n’est pas utile",
-            "D) L’élastométrie impulsionnelle est l’examen non invasif le plus performant.",
-            "E) La biopsie hépatique est l’examen diagnostique de référence. Vous suspectez une cirrhose d’origine alcoolique qui est responsable de l’ascite. Quels sont les éléments vrais concernant le diagnostique de cirrhose ? 6/10 Question à réponse unique ",
-            "L) ’examen clinique peut être normal",
-            "Q) uestion à réponse unique ",
-            "R) éponse attendue"
+            "A) Cancer du pancréas",
+            "B) Grossesse (premier trimestre)",
+            "C) Maladie de Parkinson",
+            "D) Anorexie mentale",
+            "E) Tumeur cérébrale"
           ],
           "reponses": [
             "A",
@@ -222,133 +146,467 @@
             "D",
             "E"
           ],
-          "order": 2
-        },
-        {
-          "id": 3,
-          "type": "QRU",
-          "contexte": "",
-          "question": "chez les hommes et entraine une cholestase. C ■ La cholangite sclérosante primitive est associée à la présence d’Ac anti mitochondrie de type M2 D ■ La première cause de cirrhose en France est la stéatopathie métabolique E ☑ L’hémochromatose est associée à une mutation homozygote C282Y du gène HFE. Quelle est la seule réponse juste concernant les causes de cirrhose ?",
-          "choix": [
-            "A) ■ Il n’est pas utile d’identifier la cause de la cirrhose car cela n’a pas d’impact sur la prise en charge",
-            "B) ■ La cholangite primitive est une cause fréquente, qui prédomine chez les hommes et entraine une cholestase.",
-            "C) ■ La cholangite sclérosante primitive est associée à la présence d’Ac anti mitochondrie de type M2",
-            "D) ■ La première cause de cirrhose en France est la stéatopathie métabolique",
-            "E) L’hémochromatose est associée à une mutation homozygote C282Y du gène HFE. Quelle est la seule réponse juste concernant les causes de cirrhose ? Question à réponses multiples ",
-            "I) l n’est pas utile d’identifier la cause de la cirrhose car cela n’a pas d’impact sur la prise en charge",
-            "L) a cholangite primitive est une cause fréquente, qui prédomine chez les hommes et entraine une cholestase.",
-            "Q) uelle est la seule réponse juste concernant les causes de cirrhose ? Question à réponses multiples ",
-            "R) éponse attendue"
-          ],
-          "reponses": [
-            "E"
-          ],
+          "correctionExplanation": "",
           "order": 3
         },
         {
           "id": 4,
-          "type": "QRU",
+          "type": "QRM",
           "contexte": "",
-          "question": "chez deux membres d’entre elle. Ils ont mangé tous ensemble au même restaurant. Quels seront très probablement les bactéries possibles en cause en fonction du délai d’apparition des symptômes ?",
+          "question": "Une famille consulte pour des troubles digestifs (vomissements, diarrhée) de type toxi-infection alimentaire aiguë chez deux membres d’entre elle. Ils ont mangé tous ensemble au même restaurant. Quels seront très probablement les bactéries possibles en cause en fonction du délai d’apparition des symptômes ?",
           "choix": [
             "A) Salmonella enteritidis : 24 heures",
-            "B) ■ Clostridioides difficile : 36 heures",
-            "C) lostridioides difficile : 36 heures",
+            "B) Clostridioides difficile : 36 heures",
+            "C) Staphylococcus aureus : 4 heures",
             "D) Bacillus cereus : 12 heures",
-            "E) ■ Norovirus : 48 heures Une famille consulte pour des troubles digestifs (vomissements, diarrhée) de type toxi-infection alimentaire aiguë chez deux membres d’entre elle. Ils ont mangé tous ensemble au même restaurant. Quels seront très probablement les bactéries possibles en cause en fonction du délai d’apparition des symptômes ? Question à réponses multiples ",
-            "N) orovirus : 48 heures Une famille consulte pour des troubles digestifs (vomissements, diarrhée) de type toxi-infection alimentaire aiguë chez deux membres d’entre elle. Ils ont mangé tous ensemble au même restaurant. Quels seront très probablement les bactéries possibles en cause en fonction du délai d’apparition des symptômes ? Question à réponses multiples ",
-            "Q) uestion à réponses multiples ",
-            "R) éponse attendue"
-          ],
-          "reponses": [
-            "A",
-            "D"
-          ],
-          "order": 4
-        },
-        {
-          "id": 5,
-          "type": "QRU",
-          "contexte": "",
-          "question": "Parmi les signes cliniques et biologiques suivants lesquels sont très évocateurs de pancréatite aiguë?",
-          "choix": [
-            "A) ■ Douleur aiguë des fosses lombaires",
-            "B) Douleur transfixiante aiguë épigastrique",
-            "C) Vomissements",
-            "D) ouleur aiguë des fosses lombaires",
-            "E) lévation des ASAT et des GammaGT sériques > 3 N",
-            "P) armi les signes cliniques et biologiques suivants lesquels sont très évocateurs de pancréatite aiguë? Question à réponses multiples ",
-            "Q) uestion à réponses multiples ",
-            "R) éponse attendue"
-          ],
-          "reponses": [
-            "B",
-            "C"
-          ],
-          "order": 5
-        },
-        {
-          "id": 6,
-          "type": "QRU",
-          "contexte": "",
-          "question": "Quelles sont les 3 réponses vraies ?",
-          "choix": [
-            "A) La spironolactone peut entraîner une hyperkaliémie",
-            "B) ■ Le furosémide peut entraîner une gynécomastie",
-            "C) La natriurèse permet de juger de l’efficacité du traitement",
-            "D) L’efficacité du traitement diurétique en ambulatoire est jugée principalement par la perte de poids",
-            "E) ■ La surveillance du ionogramme sanguin est facultative tout au long du traitement Le patient est traité en première intention par spironolactone puis secondairement nécessité d'ajouter du furosémide. Quelles sont les 3 réponses vraies ? 7/10 Examen Digestif DFASM1/DFASM2 Janvier 2025 examen DFASM1/DFASM2 06 janvier 2024 Question à réponse unique ",
-            "L) a spironolactone peut entraîner une hyperkaliémie",
-            "Q) uestion à réponse unique ",
-            "R) éponse attendue"
+            "E) Norovirus : 48 heures"
           ],
           "reponses": [
             "A",
             "C",
             "D"
           ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes cliniques et biologiques suivants lesquels sont très évocateurs de pancréatite aiguë?",
+          "choix": [
+            "A) Douleur aiguë des fosses lombaires",
+            "B) Douleur transfixiante aiguë épigastrique",
+            "C) Vomissements",
+            "D) Elévation des ASAT et des GammaGT sériques > 3 N",
+            "E) Elévation de la lipasémie > 3 N"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’ictère cholestatique et de son diagnostic (réponses vraies)",
+          "choix": [
+            "A) S’accompagne de selles décolorées et d’urines foncées",
+            "B) Elévation de la GammaGT, des phosphatases alcalines et de la bilirubine libre",
+            "C) Un prurit généralisé peut être présent",
+            "D) L’examen de première intention est le scanner abdominal avec injection d’iode",
+            "E) Cancer du pancréas et pancréatite chronique peuvent en être les responsables"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
           "order": 6
         },
         {
           "id": 7,
           "type": "QRU",
           "contexte": "",
-          "question": "Quelle est la réponse exacte?",
+          "question": "Un patient de 65 ans est pris en charge pour une tumeur du colon droit opérée. L’anatomopathologiste vous appelle pour vous donner les résultats histologiques il s’agit d’une tumeur maligne classée T2 N0 avec une instabilité microsatellitaire, dMMR (statut MSI présent). Quelle est la réponse exacte?",
           "choix": [
-            "A) ■ Un traitement par biothérapie complémentaire est nécessaire en première intention",
-            "B) ■ Une chimiothérapie adjuvante est nécessaire",
+            "A) Un traitement par biothérapie complémentaire est nécessaire en première intention",
+            "B) Une chimiothérapie adjuvante est nécessaire",
             "C) Un syndrome de Lynch (HNPCC) doit être rechercher",
-            "D) ■ Une colectomie prophylactique complémentaire est nécessaire",
-            "Q) uestion à réponse unique ",
-            "R) éponse attendue"
+            "D) Une colectomie prophylactique complémentaire est nécessaire",
+            "E) Les apparentés au premier degré devront faire un test de dépistage hemocult tous les deux ans à partir de 50 ans"
           ],
           "reponses": [
             "C"
           ],
+          "correctionExplanation": "",
           "order": 7
         },
         {
           "id": 8,
           "type": "QRU",
           "contexte": "",
-          "question": "quelle une coloscopie complète est réalisée. Celle-ci met en évidence une lésion bourgeonnante du côlon sigmoïde. L’anatomopathologie confirme que c’est une tumeur maligne. Quelle est l’histologie la plus probable?",
+          "question": "Une patiente de 65 ans décrit des rectorragies depuis 3 mois pour laquelle une coloscopie complète est réalisée. Celle-ci met en évidence une lésion bourgeonnante du côlon sigmoïde. L’anatomopathologie confirme que c’est une tumeur maligne. Quelle est l’histologie la plus probable?",
           "choix": [
-            "A) ■ Carcinome epidermoide",
+            "A) Carcinome epidermoide",
             "B) Adénocarcinome lieberkhunien",
-            "C) arcinome epidermoide",
-            "D) ■ Adénome tubulo-villeux en dysplasie de haut grade",
-            "E) ■ Carcinome neuroendocrine Une patiente de 65 ans décrit des rectorragies depuis 3 mois pour laquelle une coloscopie complète est réalisée. Celle-ci met en évidence une lésion bourgeonnante du côlon sigmoïde. L’anatomopathologie confirme que c’est une tumeur maligne. Quelle est l’histologie la plus probable? Question à réponses précisées ",
-            "L) ’anatomopathologie confirme que c’est une tumeur maligne. Quelle est l’histologie la plus probable? Question à réponses précisées ",
-            "P) olype hyperplasique",
-            "Q) uelle est l’histologie la plus probable? Question à réponses précisées ",
-            "R) éponse attendue"
+            "C) Polype hyperplasique",
+            "D) Adénome tubulo-villeux en dysplasie de haut grade",
+            "E) Carcinome neuroendocrine"
           ],
           "reponses": [
             "B"
           ],
+          "correctionExplanation": "",
           "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les tumeurs bénignes du foie (deux réponses exactes):",
+          "choix": [
+            "A) Elles surviennent le plus souvent chez des patients porteurs d’une hépatopathie chronique avancée",
+            "B) A l'imagerie, l’hyperplasie nodulaire focale présente une prise de contraste au temps artériel avec une cicatrice centrale peu réhaussée après injection",
+            "C) L’hémangiome nécessite une surveillance annuelle par imagerie en coupes.",
+            "D) L’adénome hépatocellulaire est favorisé par la prise prolongée de contraceptifs oestro-progestatifs.",
+            "E) L’adénome hépatocellulaire ne dégénère jamais chez l’homme."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les hépatites aiguës (trois réponses exactes):",
+          "choix": [
+            "A) Le diagnostic est posé devant l’association d’une élévation à la fois des transaminases et des phosphatase alcalines",
+            "B) L’échographie-doppler hépatique permet à la fois de rechercher une thrombose porte ou un syndrome de Budd-Chiari.",
+            "C) Devant une hépatite aiguë, il faut doser en première intention les anticorps anti-nucléaires, anti-muscle lisse, anti-LKM1 pour recherche une hépatite auto-immune",
+            "D) Si une hépatite virale est éliminée par les sérologies il faut aussi rechercher une cause toxique comme ingestion de champignons ou prise de drogue",
+            "E) La recherche de l’infection par le virus de l’hépatite D n’est pas obligatoire en première intention"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1785629999393-eafb32e14b3cb",
+      "type": "DP",
+      "title": "Dossier 2",
+      "description": "Mr L 54 ans est hospitalisé pour une gêne et une distension abdominale. L’examen clinique cardio-respiratoire est sans anomalie. Il existe une matité déclive et mobile des flancs avec un circulation veineuse collatérale des deux flancs également. Le bord inférieur du foie est dur et tranchant. Il boit plusieurs verres de vin par jour et des apéritifs depuis au moins vingt ans. L’examen clinique objective un tremblement fin des doigts.\nPour les autres antécédents :\nTabac 25 PA\nAppendicectomie\nPhlébite membre inférieur droit post-traumatique il y a dix ans\nL’ECG et la Radio du Thorax sont sans anomalie.\nAu plan biologique :\nHémoglobine 12 g/dl\nPlaquettes 100 000/mm3\nLeucocytes 8 200 /mm3\nNa : 133 mmol/L\nK : 4,0 mmo/L\nCréat : 90 mmol/L\nTP : 50%\nFacteur V : 55%\nASAT : 150 (N< 30)\nALAT : 95 (N<30)\nGammaGT : 110 UI (< 60)\nBilirubine totale : 40 mmol/L (N< 17)\nPhosphatases Alcalines : 277 UI/l (N< 280)",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une ascite chez ce patient. Quels sont les principales causes d’ascite et le taux de protides dans l’ascite correspondant à chaque étiologie ?",
+          "choix": [
+            "A) Cirrhose ; taux de protides < 25 g/L",
+            "B) Carcinose péritonéale ; taux de protides > 25 g/L",
+            "C) Syndrome de Budd-chiari sans cirrhose ; taux de protides > 25 g/L",
+            "D) Insuffisance cardiaque droite sans cirrhose ; taux de protides > 25 g/L",
+            "E) Syndrome néphrotique ; taux de protides < 25 g/L"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une cirrhose d’origine alcoolique qui est responsable de l’ascite. Quels sont les éléments vrais concernant le diagnostique de cirrhose ?",
+          "choix": [
+            "A) L’examen clinique peut être normal",
+            "B) La présence d’angiomes stellaires est très évocateur de cirrhose",
+            "C) L’échographie abdominale avec doppler n’est pas utile",
+            "D) L’élastométrie impulsionnelle est l’examen non invasif le plus performant.",
+            "E) La biopsie hépatique est l’examen diagnostique de référence."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la seule réponse juste concernant les causes de cirrhose ?",
+          "choix": [
+            "A) Il n’est pas utile d’identifier la cause de la cirrhose car cela n’a pas d’impact sur la prise en charge",
+            "B) La cholangite primitive est une cause fréquente, qui prédomine chez les hommes et entraine une cholestase.",
+            "C) La cholangite sclérosante primitive est associée à la présence d’Ac anti mitochondrie de type M2",
+            "D) La première cause de cirrhose en France est la stéatopathie métabolique",
+            "E) L’hémochromatose est associée à une mutation homozygote C282Y du gène HFE."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La cirrhose est confirmée chez ce patient. Vous décidez de faire une ponction d’ascite. Quelles sont les réponses justes ?",
+          "choix": [
+            "A) Le liquide d’ascite de la cirrhose est le plus souvent citrin",
+            "B) La ponction se fait dans la fosse iliaque droite en pleine matité déclive",
+            "C) Une ascite hémorragique peut faire craindre une ascite néoplasique",
+            "D) L’infection est définie par un taux de polynucléaires neutrophiles > 450/mm3",
+            "E) En cas d'ascite abondante, une compensation par perfusion d'albumine est nécessaire après évacuation"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’infection du liquide d’ascite a été écartée. Quelles sont les réponses vraies concernant les principes du traitement en première intention de l’ascite du cirrhotique ?",
+          "choix": [
+            "A) Il est nécessaire de ponctionner une ascite tendue",
+            "B) Un régime hyposodé strict ( < 2g /j) est obligatoire",
+            "C) Le régime pauvre en sel peut être remplacé par des diurétiques",
+            "D) Le traitement diurétique repose sur la spironolactone",
+            "E) Le traitement diurétique repose sur le furosémide"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient est traité en première intention par spironolactone puis secondairement nécessité d'ajouter du furosémide. Quelles sont les 3 réponses vraies ?",
+          "choix": [
+            "A) La spironolactone peut entraîner une hyperkaliémie",
+            "B) Le furosémide peut entraîner une gynécomastie",
+            "C) La natriurèse permet de juger de l’efficacité du traitement",
+            "D) L’efficacité du traitement diurétique en ambulatoire est jugée principalement par la perte de poids",
+            "E) La surveillance du ionogramme sanguin est facultative tout au long du traitement"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1785630016433-fb4962341f41e",
+      "type": "KFP",
+      "title": "Dossier 3",
+      "description": "Mme. Y…, 28 ans qui a pour principal antécédent une appendicectomie. Elle ne prend pas de traitement au quotidien. Elle consulte pour diarrhées glairo-sanglantes (8 selles par jour dont 2 selles nocturnes) avec douleurs abdominales mais aussi épreintes et ténesmes, évoluant depuis 4 mois. Elle vous signale avoir perdu 6 kg sur les 3 derniers mois et se sentir fatiguée depuis quelque temps. Les symptômes ont débuté suite à un sevrage tabagique. Votre examen clinique met en évidence un abdomen souple dépressible sensible en hypogastre et fosse iliaque gauche. Les bruits hydro-aériques sont présents. L’examen cardiopulmonaire met en évidence des bruits du cœur réguliers sans bruit surajouté, les murmures vésiculaires sont perçus et symétriques.\nTempérature 37°C\nTension artérielle 120/80mmHg\nFréquence cardiaque 110 battements par minute\nSaturation 99% en air ambiant",
+      "order": 3,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est votre principale hypothèse diagnostique ?",
+          "choix": [
+            "A) Adénocarcinome colique",
+            "B) Colite Ischémique",
+            "C) Maladie de Crohn iléo-caecale",
+            "D) Toxi infection alimentaire",
+            "E) Rectocolite hémorragique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les éléments présents dans l’énoncé, quels sont les 4 principaux qui ont guidé votre diagnostic ?",
+          "choix": [
+            "A) Diarrhée glairo-sanglante",
+            "B) Symptômes depuis moins de 6 mois",
+            "C) Amaigrissement",
+            "D) Symptômes nocturnes",
+            "E) Antécédents d'appendicectomie",
+            "F) Douleurs fosse iliaque gauche et syndrome rectal",
+            "G) Survenue au décours d'un sevrage tabagique",
+            "H) Tachycardie",
+            "I) sexe féminin",
+            "J) Age compris entre 25 et 30 ans"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "G"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la complication aiguë à craindre lors d'une rectocolite hémorragique?",
+          "choix": [],
+          "reponses": [
+            "Colite aiguë grave"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1785630022744-a0e199223a3f8",
+      "type": "DP",
+      "title": "Dossier 4",
+      "description": "Une femme de 78 ans qui présente depuis 6 mois des douleurs abdominales périodiques sans fièvre. Elle pèse 78 kg pour 1m55. Dans ces antécédents on note une gastrectomie distale il y a 20 ans pour ulcère, une HTA et un diabète. A l'interrogatoire, les douleurs sont au niveau de l'hypochondre droit, de début brutal sans fièvre et d'une durée de 15 à 45 minutes. Vous suspectez des épisodes de coliques hépatiques.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les facteurs de risque de calcul vésiculaire que présente cette patiente ?",
+          "choix": [
+            "A) Gastrectomie distale",
+            "B) Diabète",
+            "C) Age",
+            "D) Obésité",
+            "E) Sexe féminin"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les facteurs de risque qui font évoquer la présence de calculs pigmentaires de la vésicule biliaire ?",
+          "choix": [
+            "A) hémolyse",
+            "B) sexe féminin",
+            "C) Origine asiatique",
+            "D) grossesse",
+            "E) cirrhose"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez une lithiase vésiculaire. Vous prescrivez un bilan biologique avec notamment un bilan hépatique. Qu'attendezvous à voir sur ce bilan ?",
+          "choix": [
+            "A) Aucune anomalie",
+            "B) Cytolyse avec TGO > TGP",
+            "C) Cytolyse avec TGP > TGO",
+            "D) Cholestase anictérique",
+            "E) Une cytolyse au moment de la crise et aucune anomalie en dehors des crises"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les évolutions possibles en absence d'une prise en charge adaptée ?",
+          "choix": [
+            "A) Cholécystite aiguë",
+            "B) Récidive des crises douloureuses",
+            "C) Cancer de la vésicule biliaire",
+            "D) Angiocholite aiguë",
+            "E) pancréatite aiguë par migration de calcul dans le cholédoque"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel examen paraclinique vous permettra de confirmer votre diagnostic ?",
+          "choix": [
+            "A) Echographie vésiculaire",
+            "B) IRM biliaire",
+            "C) Scanner abdominal injecté",
+            "D) CPRE",
+            "E) Scintigraphie biliaire"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le traitement que vous devez préconiser ?",
+          "choix": [
+            "A) Cholécystectomie par coelioscopie",
+            "B) Cholécystectomie par laparotomie",
+            "C) Sphinctérotomie endoscopique",
+            "D) Cholécystectomie avec Cholédocotomie",
+            "E) Sels biliaires et surveillance"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6
         }
       ]
     }
-  ]
+  ],
+  "questions": []
 }

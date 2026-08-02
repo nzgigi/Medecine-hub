@@ -1,0 +1,590 @@
+{
+  "matiere": "Endocrinologie, Diabétologie, Nutrition",
+  "slug": "endocrinologie-diabetologie-nutrition",
+  "annee": 2025,
+  "title": "Endocrinologie, Diabétologie, Nutrition - 2025",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "Madame P, âgée de 53 ans, secrétaire médicale, consulte pour excès de poids.\nElle pèse 123 kg pour une taille de 1,63 m, soit un IMC à 46,3 kg/m².\nSon tour de taille est de 131 cm.\nSa tension artérielle état 136/82 mmHg.\nSa fréquence cardiaque est à 70 battements par minute.\nSes antécédents se composent de :\nd'un épisode dépressif sévère à 35 ans\nd'un reflux gastro-oesophagien\nd'une hystérectomie pour fibrome à 41 ans\nElle ne fume pas.\nSon traitement comporte :\nOMEPRAZOLE 20 mg : 1 cp le soir",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Cochez la réponse exacte :",
+          "choix": [
+            "A) Il s'agit d'une obésité de grade 3 avec une hypertension artérielle",
+            "B) Il s'agit d'une obésité de grade 3 avec une répartition androïde de la masse grasse",
+            "C) Il s'agit d'une obésité de grade 3 avec une tachycardie",
+            "D) Il s'agit d'une obésité de grade 3 avec un syndrome métabolique",
+            "E) Il s'agit d'une obésité de grade 2 avec un syndrome métabolique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous lui avez prescrit un bilan biologique à jeun et vous en recevez les résultats :\nGlycémie à jeun : 1.39 g/l\nHbA1c : 6.9%\nTriglycérides: 1.96 g/l\nLDL: 1.40 g/l\nHDL: 0.41 g/l\nNFS normale\nIonogramme sanguin normal\nASAT (TGO): 59 UI/l (norme=0-50)\nALAT (TGP): 85 UI/l (norme=0-40)\nGGT : 76 UI/l (norme=0-60)\nPAL : 98 UI/l (norme=40-129)\nCRP : 12 mg/l (norme = 0-5)\nA propos de ce bilan biologique, quelles assertions sont vraies :",
+          "choix": [
+            "A) Cette patiente a probablement un diabète de type 2",
+            "B) Le diagnostic de diabète de type 2 repose sur le dosage de l’HbA1c, selon les recommandations de la HAS",
+            "C) Cette patiente présente une dyslipidémie mixte",
+            "D) L’augmentation des transaminases doit faire penser à une stéatopathie métabolique",
+            "E) Vous faites pratiquer une échographie hépatobiliaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sa courbe de poids est indiquée ci-dessous. Son poids était normal durant l'enfance, elle pratiquait la danse régulièrement, elle maintenait un poids entre 64 et 66 kg (soit un IMC autour de 24 kg/m²) entre 16 et 25 ans. Les chiffres entourés correspondent aux évènements de vie ci-dessous :\n1. Première grossesse: a pris environ 11 kg, en a reperdu 9\n2. 2e grossesse : a pris 20 kg, en a reperdu 10\n3. 1er épisode dépressif majeur: prise de poids rapide\n4. 1er régime: régime hyperprotéiné : a perdu 12 kg en 9 semaines, puis reprise rapide accentuée par difficultés personnelles\n5. 2e régime: soupe au chou: a perdu 20 kg en 3 mois\n6. Décès brutal de son père par suicide: épisode dépressif sévère\nD'après ces informations, cochez les réponses exactes :",
+          "choix": [
+            "A) L'IMC de Madame P à 20 ans était normal",
+            "B) La prise de poids lors de la première grossesse était au-dessus des objectifs recommandés",
+            "C) La répétition de régimes très restrictifs participe à la reprise excessive de poids",
+            "D) La reprise pondérale après la dépression peut être associée au traitement antidépresseur",
+            "E) Les événements personnels de vie ont pu contribuer à sa prise de poids"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’interrogatoire diététique retrouve :\nL’absence de petit déjeuner\nUn repas de midi sur son lieu de travail à la cantine relativement bien équilibré\nUn repas du soir copieux constitué essentiellement de féculents, de viandes et de fromage\nDes grignotages devant la télévision de chocolats en grande quantité (1 tablette entière ou 1 paquet de m&m’s…)\nElle vous explique également que depuis 4 mois, elle présente au rythme de 1 à 3 fois par semaine, selon les contrariétés qu’elle a eues durant sa journée, en rentrant du travail, lorsqu’elle est seule, des « crises » durant lesquelles elle va ingurgiter très rapidement ce qu’elle trouve dans le frigo ou dans les placards : cela peut être un reste de poulet froid, des madeleines, un pot de fromage blanc d’1 kg, un paquet de gruyère râpé, du pain… Elle a honte de cela, ne vous en parle qu’en fin de consultation, elle n’en a pas parlé à ses proches. Elle a la sensation de perdre le contrôle de ce qu’elle fait pendant les crises, elle a bien conscience que cela participe à son gain de poids. Elle a même essayé de se faire vomir, mais n’y est pas arrivé. Elle se sent totalement démunie, désemparée et très coupable. Comment se nomme ce trouble du comportement alimentaire ?",
+          "choix": [],
+          "reponses": [
+            "Hyperphagie boulimique",
+            "Binge eating disorder",
+            "BED",
+            "hyperphagie boulimie",
+            "hyperphagie boulemique",
+            "hyperphagie boulimique (binge eating desorder)",
+            "hyperphagie boulimique non compensée",
+            "Hyperphagie boulimie",
+            "Binge eating desorder",
+            "Syndrome d'hyperphagie boulimie",
+            "hyparphagie boulimique",
+            "Binge Eating",
+            "binge eating",
+            "Binge eating"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Pour induire une perte de poids chez cette patiente, cochez les 3 réponses exactes :",
+          "choix": [
+            "A) Vous proposez d'augmenter son activité physique",
+            "B) Vous suggérez une psychothérapie pour les troubles du comportement alimentaire et les traumatismes psychiques",
+            "C) Vous lui indiquez une diète hypocalorique à 1000 kcalories par jour, avec 50% de glucides et 15% de protéines",
+            "D) Vous convenez avec elle d’un programme alimentaire réparti en 4 prises (3 repas et 1 collation) en accord avec son mode de vie et ses horaires de travail",
+            "E) Vous l'adressez à un chirurgien digestif pour envisager un by-pass gastrique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1785537224658-33604fc87a0018",
+      "type": "DP",
+      "title": "Dossier 2",
+      "description": "Vous êtes médecin généraliste. Mme D, 54 ans consulte pour une asthénie évoluant depuis 6 mois. Les antécédents personnels sont une hypothyroïdie périphérique par thyroidite de Hashimoto et une hypertension artérielle depuis une dizaine d’années. Les antécédents familiaux sont un diabète de type 1 chez sa fille.\nL’asthénie évolue depuis 6 mois et est présente tout le long de la journée. Elle a dû arrêter son activité physique (course à pied trois fois par semaine) en raison de cette fatigue. Elle présente également depuis 4 mois des douleurs abdominales diffuses. Elle est en revanche contente car elle a pu arrêter son traitement antihypertenseur. Son médecin avait en effet authentifié des hypotensions artérielles depuis 1 mois sous Lercanidipine.\nLa tension artérielle, lors de la consultation, est à 122/78 mmHg.\nLe bilan biologique retrouve :\nNFS normale\nIonogramme sang : natrémie = 133 mmol/l\nkaliémie = 4,2 mmol/l\ncréatinine = 90 µmol/l\nurée = 14 ml/ml\nDFG = 42 ml/ml\nCRP = 2 mg/l",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une insuffisance surrénalienne. Que recherchez vous à l’interrogatoire pour confirmer votre diagnostic ?",
+          "choix": [
+            "A) Antécédents de prise de corticoïdes",
+            "B) Prise de poids récente",
+            "C) Appétence pour le sucre",
+            "D) Ronflements nocturnes",
+            "E) Sueurs nocturnes"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une insuffisance surrénalienne. Quel(s) élément(s) recherchez-vous à l’examen clinique pour confirmer votre diagnostic ?",
+          "choix": [
+            "A) Présence de taches ardoisées",
+            "B) Présence d’un pli cutané",
+            "C) Hypotension artérielle orthostatique",
+            "D) Présence d’une bosse de bison",
+            "E) Vergetures"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous lui proposez la réalisation d’un test au synacthène. Quel(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il doit être réalisé si la cortisolémie réalisée à 8h est indosable",
+            "B) Le synacthène est un analogue de l’aldostérone",
+            "C) Une cortisolémie élevée en post-synacthène permet d’affirmer le diagnostic d’une insuffisance surrénalienne",
+            "D) Une ACTH élevée en post-synacthène permet d’affirmer le diagnostic d’une insuffisance surrénalienne",
+            "E) S’il est pathologique, il oriente vers la cause de l’insuffisance surrénalienne",
+            "F) Il peut être réalisé en ambulatoire"
+          ],
+          "reponses": [
+            "F"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) la(les) paramètre(s) qui vous orientera(orienteront) vers une étiologie périphérique ?",
+          "choix": [
+            "A) Hypokaliémie",
+            "B) Hyponatrémie",
+            "C) Mélanodermie",
+            "D) Dépigmentation des cicatrices",
+            "E) Hyperéosinophilie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Si le diagnostic d’insuffisance surrénalienne périphérique est confirmée, quelle est l’étiologie la plus probable de cette insuffisance surrénalienne ?",
+          "choix": [],
+          "reponses": [
+            "Auto-immun",
+            "Auto immun",
+            "Auto-immune",
+            "Auto immune",
+            "maladie d'Addison",
+            "maladie d'addison",
+            "Maladie d'Addison",
+            "maladie d'adisson",
+            "maladie addison",
+            "Maladie d'Adisson",
+            "maladie d’addison",
+            "maladie d'Adison",
+            "maladie d’Addison",
+            "Addison autoimmune",
+            "maladie d'adison",
+            "Maladie d'Addisson",
+            "maladie d'Adisson",
+            "retraction corticale auto immune",
+            "Syndrome d'Addison",
+            "addison",
+            "maladie d'Addisson",
+            "insuffisance surrenalienne auto immune",
+            "immunologique",
+            "Maladie d'addison",
+            "Maladie d’Addison",
+            "Auto-immune (rétraction corticale)",
+            "Insuffisance surrénale primaire (Maladie d'Addison)",
+            "auto immune par retraction corticale",
+            "auto-immune : maladie d'addison",
+            "poly-endocrinopathie auto-immune",
+            "Rétraction surrénalienne",
+            "maladie Addison auto-immune (maladie d’Addison)",
+            "maladie auto-immune (maladie d'Adisson)",
+            "immunitaire",
+            "maladie d Addison",
+            "maladie d'addinson",
+            "auto immune (maladie addison)",
+            "auto-imune",
+            "auto-immune ( adison)",
+            "maladie d’Adisson",
+            "auto-imune (maladie adisson )",
+            "auto imune",
+            "Maladie auto-immune",
+            "endocrinopathie auto-immune",
+            "rétraction corticale des surrénales",
+            "maladie d'Addinson",
+            "maladie d‘Addisson",
+            "rétractation corticale",
+            "maladie d‘Addison",
+            "polyendocrinopathie auto-immune",
+            "maladie auto-immune (atrophie surrénalienne)",
+            "Maladie d'adison",
+            "Maladie d'Adison",
+            "Maladie d‘Addison",
+            "Insuffisance surrénalienne auto-immune",
+            "mécanisme auto-immun",
+            "origine auto-immune",
+            "polyendocrinopathie auto immune",
+            "Maladie d'Addison(auto-immune)",
+            "cause immunologique",
+            "maladie de addison",
+            "maladie d'addisson",
+            "Maladie d‘Adison",
+            "insuffisance auto-immune",
+            "maladie de Addison auto-immune: maladie d'addison",
+            "La maladie d'addison",
+            "maladie auto-immune",
+            "Étiologie auto-immune",
+            "Auto immune ( anticorps anti 21 OH )"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1785537238879-f6cca5d923f998",
+      "type": "SQI",
+      "title": "Dossier 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) concernant la maladie de Basedow?",
+          "choix": [
+            "A) L’échographie cervicale retrouve d’un goitre homogène peu vascularisé",
+            "B) Elle est responsable d’une élévation des anticorps anti-récepteurs de la TSH",
+            "C) Elle peut être associée à d’autres maladies auto-immunes",
+            "D) Elle est principalement retrouvée chez le sujet de plus de 65 ans",
+            "E) Elle est plus fréquente chez la femme que chez l’homme",
+            "F) La scintigraphie thyroidienne est un élément indispensable au diagnostic"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est(sont) la(les) pathologie(s) susceptible(s) d’être responsable(s) d’une hypercalcémie ?",
+          "choix": [
+            "A) Sarcoïdose",
+            "B) Hypovitaminose D",
+            "C) Hyperparathyroïdie primaire",
+            "D) Hypothyroïdie périphérique",
+            "E) Adénome à prolactine"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle peut être la cause d'une galactorrhée?",
+          "choix": [
+            "A) hyperthyroidie",
+            "B) syndrome de Cushing",
+            "C) adénome hypophysaire",
+            "D) insuffisance corticotrope",
+            "E) hyperparathyroidie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une patiente de 54 ans consulte pour une asthénie. Elle vous apporte le bilan suivant :\nTSH = 24 µU/ml (normale de 0.4 à 4.2 µU/ml)\nT4 libre = 8.2 pmol/l (Normale de 9.5 à 17 pmol/l)",
+          "choix": [],
+          "reponses": [
+            "hypothyroidie périphérique",
+            "hypothyroïdie périphérique",
+            "hypothyroidie peripherique",
+            "Hypothyroïdie périphérique",
+            "hypothyroidie primaire",
+            "Hypothyroidie peripherique",
+            "hypothyroïdie primaire",
+            "hypothyroidie péripherique",
+            "hypothyroïdie peripherique",
+            "hypothiroidie périphérique",
+            "hypothyroidie peripherique patente",
+            "hypothyroïdie périphérique franche",
+            "hypothyroidie périphérique patente",
+            "hypothyroidie periphérique",
+            "suspicion d’hypothyroïdie d’origine périphérique",
+            "hypothyrïdie périphérique",
+            "hypothiroidie peripherique",
+            "hypothyroidie frustre primaire",
+            "hypotyroidie peripherique",
+            "hypothyroïdie périphérique patente",
+            "Hypothyroidie primaire patente",
+            "Hypothyroïdie primaire patente",
+            "hypothyroïdie primaire patente",
+            "Hypothiroidie peripherique",
+            "Hypothyroïdie periphérique",
+            "Hypothyroïdie primaire",
+            "Hypothyroïdie péripherique",
+            "Hypothyroïdie peripherique",
+            "hypothyroidite peripherique",
+            "thyroidite d'hashimoto/ hypothyroidie peripherique",
+            "hypothyrodie périphérique",
+            "Hypothyroïdie peripherique (demander un dosage des anti-TPO)",
+            "hypothroidie peripherique patente",
+            "hypothyroidie primaire patente",
+            "hypothyroïdie périphérique/ primaire",
+            "Hypothyroïdie périphérique patente",
+            "hypothyroidie peripherique",
+            "maladie de hashimoto"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mme M. consulte pour la découverte d’un nodule thyroidien de 34 mm au niveau du lobe thyroidien droit. Quel est l’examen à réaliser en première intention?",
+          "choix": [
+            "A) TSH",
+            "B) T4 libre",
+            "C) Anticorps anti thyroglobuline",
+            "D) Thyroglobuline",
+            "E) Cytoponction échoguidée"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle complication chronique du diabète est mise en évidence par cette tomographie par cohérence optique (OCT) ?",
+          "choix": [],
+          "reponses": [
+            "œdème maculaire",
+            "maculopathie diabétique"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Chez une patiente présentant un diabète préalablement à la grossesse, quel est l’objectif d’HbA1c en préconceptionnel ?",
+          "choix": [
+            "A) HbA1c < ou égal 6,5%",
+            "B) HbA1c < ou égal 7,0%",
+            "C) HbA1c < ou égal 7,5%",
+            "D) HbA1c < ou égal 8,0%",
+            "E) Aucun objectif d’HbA1c n’est défini en préconceptionnel."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le coma hyperosmolaire, la (les) affirmation(s) suivante(s) est (sont) exacte(s) :",
+          "choix": [
+            "A) Il s’agit d’une décompensation diabétique classique du sujet âgé vivant avec un diabète de type 1.",
+            "B) Ce coma est associé à une mortalité élevée, de l’ordre de 20 à 40%.",
+            "C) Dans environ 50% des cas, il survient chez des patients dont le diabète est méconnu (complication inaugurale).",
+            "D) Le diagnostic biologique repose sur l’association des critères suivants : hyperglycémie franche (>6g/L), hyperosmolalité (>320 mOsmol/kg H2O) et cétonurie positive (> +).",
+            "E) Les diurétiques ou une corticothérapie sont des facteurs de risque de coma hyperosmolaire."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les conditions physiologiques ou pathologiques suivantes, laquelle (lesquelles) augmente(nt) le risque de faux positifs du dépistage de la microalbuminurie ?",
+          "choix": [
+            "A) Une activité physique intense",
+            "B) Une infection urinaire",
+            "C) Une poussée d’insuffisance cardiaque",
+            "D) L’orthostatisme prolongé",
+            "E) La survenue d’une hypoglycémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le dépistage du diabète de type 2 par la réalisation de la glycémie veineuse à jeun doit être proposé dans les cas suivants :",
+          "choix": [
+            "A) Situation de précarité",
+            "B) Sujet dont l’indice de masse corporelle est > ou égal à 30 kg/m2",
+            "C) Patient présentant une hypertension artérielle",
+            "D) Femme avec antécédent de diabète gestationnel",
+            "E) Sujet d’origine non caucasienne"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1785537268277-e7b73d6b4b4e4",
+      "type": "KFP",
+      "title": "Dossier 4",
+      "description": "Interne dans le service de Diabétologie, vous recevez un patient âgé de 37 ans adressé par son médecin traitant pour découverte d’un diabète. Le patient déclare comme seul antécédent une allergie aux protéines de lait de vache dans l’enfance. Dans la famille, sa mère présente une thyroïdite d’Hashimoto. Aucune consommation de toxiques. Il est sportif (pratique le rugby). À l’interrogatoire, il signale boire abondamment depuis 6 semaines environ, surtout des boissons sucrées. Il pense avoir perdu quelques kilos alors qu’il a l’impression de manger plus qu’à l’habitude. Les entraînements de rugby sont également de plus en plus difficiles. Il n’y est d’ailleurs pas allé depuis 2 semaines car se sentait trop fatigué. Il décrit également depuis quelques jours des brûlures et des démangeaisons au niveau génital. Il vous signale également avoir réalisé il y a 3 mois la vaccination contre le Covid19. Devant les symptômes, il a consulté son médecin traitant. Suite à cette consultation, il a réalisé un bilan biologique retrouvant une glycémie à jeun à 3,08 g/L, recontrôlée sur un second prélèvement à 3,26 g/L avec une HbA1c à 12%. Suite à la découverte de ce diabète, il est adressé directement dans le service de Diabétologie.\nÀ l’examen clinique, le patient est eupnéique (fréquence respiratoire à 18/min), apyrétique.\nLa pression artérielle est à 120/70 mmHg.\nLa fréquence cardiaque est à 70/min.\nL’examen clinique retrouve une dépigmentation au niveau des avants-bras (cf photo) et une probable balanite.\nLe poids à l’entrée est de 72 kilos.\nLe poids habituel déclaré par le patient est de 80 kilos pour 180 cm.\nLa glycémie capillaire réalisée dès son arrivée est à 2,80 g/l.\nLa bandelette urinaire retrouve :\ncétonurie négative\nprotéinurie positive (1+)\nAu vu de ces premiers éléments, votre hypothèse principale concernant le type de diabète est celle d’un diabète de type 1.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels principaux arguments parmi les suivants vous orientent vers l’origine auto-immune de ce diabète ? (3 réponses attendues)",
+          "choix": [
+            "A) Le sexe masculin",
+            "B) Allergie aux protéines de lait de vache dans l’enfance",
+            "C) Le syndrome polyuro-polydipsique",
+            "D) L’amaigrissement paradoxal",
+            "E) L’asthénie",
+            "F) Le taux d’HbA1c",
+            "G) La survenue d’une balanite",
+            "H) La réalisation récente du vaccin contre le Covid19",
+            "I) La brutalité du tableau clinique",
+            "J) Les antécédents familiaux",
+            "K) La présence d’un vitiligo",
+            "L) L’âge du patient",
+            "M) La présence d’une protéinurie"
+          ],
+          "reponses": [
+            "D",
+            "I",
+            "K"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le pourcentage de risque de diabète de type 1 dans la population générale en France ?",
+          "choix": [],
+          "reponses": [
+            "0,4%",
+            "0,4",
+            "0,4%"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont le(s) principe(s) et objectif(s) de la prise en charge chez un patient vivant avec un diabète de type 1 récent ?",
+          "choix": [
+            "A) Débuter une insulinothérapie intensifiée associant une insuline basale et une injection d’insuline rapide avant chaque repas, adaptée aux résultats glycémiques.",
+            "B) Obtenir un bon équilibre glycémique avec un objectif d’HbA1c < à 6%",
+            "C) Réaliser une autosurveillance glycémique capillaire ou interstitielle",
+            "D) Proposer une éducation thérapeutique visant à l’autonomisation du patient.",
+            "E) Mettre en place une surveillance quotidienne de la cétonurie (ou cétonémie)"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

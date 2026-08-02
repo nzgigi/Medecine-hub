@@ -1,19 +1,21 @@
 {
-  "matiere": "Geriatrie",
+  "matiere": "Gériatrie",
+  "slug": "geriatrie",
   "annee": 2023,
+  "title": "Gériatrie - 2023",
   "total_questions": 15,
   "folders": [
     {
-      "id": "folder-1783268908775-7a0e4366532f8",
+      "id": "default-questions",
       "type": "DP",
       "title": "Dossier 1",
-      "description": "",
+      "description": "Vous recevez aux urgences une patiente de 80 ans pour des troubles du comportement d’apparition brutale. Dans les antécédents de cette patiente on retient : une incontinence urinaire occasionnelle, une HTA, une hypothyroïdie et une insuffisance rénale chronique avec un DFG à 50 mL/min. Son traitement comprends : LEVOTHYROX 125 µg, TAMSULOSINE LP 0.4 mg, PERINDOPRIL 4 mg.\nVous interrogez sa fille. Elle vous explique que la patiente vit seule à domicile, qu’elle bénéficie d’une aide-ménagère 2h par semaine auto financé, c’est fille qui fait les courses, qui s’occupe de la gestion administrative depuis environ 6 mois. La patiente reste autonome pour la préparation des repas. Elle est également autonome pour les actes de la vie quotidienne avec un ADL que vous évaluez à 5,5/6.\nVous apprenez que la patiente présente depuis 24h, de troubles du sommeil, elle va sonner chez les voisins la nuit, avec des hallucinations visuelles. Elle présente une désorientation avec une agitation inhabituelle.",
       "order": 1,
       "questions": [
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "Vous recevez aux urgences une patiente de 80 ans pour des troubles du comportement d’apparition brutale. Dans les antécédents de cette patiente on retient : une incontinence urinaire occasionnelle, une HTA, une hypothyroïdie et une insuffisance rénale chronique avec un DFG à 50 mL/min. Son traitement comprends : LEVOTHYROX 125 µg, TAMSULOSINE LP 0.4 mg, PERINDOPRIL 4 mg. Vous interrogez sa fille. Elle vous explique que la patiente vit seule à domicile, qu’elle bénéficie d’une aide-ménagère 2h par semaine auto financé, c’est fille qui fait les courses, qui s’occupe de la gestion administrative depuis environ 6 mois. La patiente reste autonome pour la préparation des repas. Elle est également autonome pour les actes de la vie quotidienne avec un ADL que vous évaluez à 5,5/6. Vous apprenez que la patiente présente depuis 24h, de troubles du sommeil, elle va sonner chez les voisins la nuit, avec des hallucinations visuelles. Elle présente une désorientation avec une agitation inhabituelle.",
+          "contexte": "",
           "question": "Quel diagnostic suspectez vous en premier intention :",
           "choix": [
             "A) Une maladie d’Alzheimer",
@@ -32,7 +34,7 @@
           "id": 2,
           "type": "QRM",
           "contexte": "",
-          "question": "Les constantes à l’arrivée sont : TA 14/8, FC 95 bpm, température : 39°C, SaO2 : 92%. La patiente est calme dans le box des urgences. Votre examen clinique neurologique ne retrouve pas de déficit sensitivo-moteur. L’examen cardiologique est sans particularité. A l’auscultation pulmonaire, vous retrouvez un foyer en base droite. Vous pensez à un syndrome confusionnel. Quel bilan biologique demandez vous en première intention ? (3 réponses exactes)",
+          "question": "Les constantes à l’arrivée sont :\nTA 14/8\nFC 95 bpm\ntempérature : 39°C\nSaO2 : 92%\nLa patiente est calme dans le box des urgences. Votre examen clinique neurologique ne retrouve pas de déficit sensitivo-moteur. L’examen cardiologique est sans particularité. A l’auscultation pulmonaire, vous retrouvez un foyer en base droite. Vous pensez à un syndrome confusionnel. Quel bilan biologique demandez vous en première intention ? (3 réponses exactes)",
           "choix": [
             "A) Un bilan hépatique",
             "B) Une calcémie",
@@ -52,7 +54,7 @@
           "id": 3,
           "type": "QRM",
           "contexte": "",
-          "question": "Le bilan biologique retrouve une déshydratation extra cellulaire (Na 155 mmol/L) avec une insuffisance rénale aigue d’allure fonctionnelle (DFG 30 mL/min) avec un syndrome inflammatoire biologique important (hyperleucocytose è 25 G/L et CRP à 230 mg/L). Quelle est votre prise en charge initiale ? (3 réponses exactes)",
+          "question": "Le bilan biologique retrouve une déshydratation extra cellulaire :\nNa 155 mmol/L\navec une insuffisance rénale aigue d’allure fonctionnelle :\nDFG 30 mL/min\navec un syndrome inflammatoire biologique important :\nhyperleucocytose è 25 G/L\nCRP à 230 mg/L\nQuelle est votre prise en charge initiale ? (3 réponses exactes)",
           "choix": [
             "A) Mise en place d’une antibiothérapie adaptée",
             "B) Mise en place d’une réhydratation parentérale associée à une stimulation de la boisson per os.",
@@ -110,7 +112,7 @@
           "id": 6,
           "type": "QRM",
           "contexte": "",
-          "question": "La patiente a réalisé l’imagerie suivante dont voici l’image : Quelles sont les propositions vraies : (2 réponses exactes)",
+          "question": "Vous recevez aux urgences madame P. 92 ans aux urgences dans les suites d’une chute. Il s’agit d’une patiente qui vit en EHPAD. Dans ses antécédents on retrouve : une trouble neurocognitif majeur à un stade sévère dans le cadre d’une maladie à corps de Léwy, une cardiopathie ischémique stentée, une gonarthrose, un diabète insulino dépendant. Son traitement comprend : HYDROCHLOROTHIAZIDE 12,5, PERINDOPRIL8 mg, BISOPROLOL 10 mg, LASILIX 125 mg, INSULINE lente 12 UI le matin, KARDEGIC 75 mg, DOLIPRANE 1g, TRAMADOL 50 si douleurs. L’EHPAD vous explique les circonstances de la chute : la patiente a été retrouvé sur le sol mouillé de la salle de bain. L’aidesoignante l’a entendu tomber et a pu immédiatement aider à la relever. Il n’y a pas eu de perte de connaissance. La patiente a dit avoir une sensation de vertige au moment de la chute. L’EHPAD vous explique c’est la 5 chute de cette patiente en 2 mois. La patiente a réalisé l’imagerie suivante dont voici l’image : Quelles sont les propositions vraies : (2 réponses exactes)",
           "choix": [
             "A) Il s’agit d’un scanner cérébral sans injection de produit de contraste",
             "B) Il s’agit d’un scanner cérébral avec injection de contraste",
@@ -147,8 +149,8 @@
       ]
     },
     {
-      "id": "folder-1783268944531-8627224baf3d38",
-      "type": "KFP",
+      "id": "folder-1785630062659-8f650cb23a0618",
+      "type": "DP",
       "title": "Dossier 2",
       "description": "",
       "order": 2,
@@ -156,7 +158,7 @@
         {
           "id": 8,
           "type": "QRP",
-          "contexte": "Vous recevez aux urgences madame P. 92 ans aux urgences dans les suites d’une chute. Il s’agit d’une patiente qui vit en EHPAD. Dans ses antécédents on retrouve : une trouble neurocognitif majeur à un stade sévère dans le cadre d’une maladie à corps de Léwy, une cardiopathie ischémique stentée, une gonarthrose, un diabète insulino dépendant. Son traitement comprend : HYDROCHLOROTHIAZIDE 12,5, PERINDOPRIL8 mg, BISOPROLOL 10 mg, LASILIX 125 mg, INSULINE lente 12 UI le matin, KARDEGIC 75 mg, DOLIPRANE 1g, TRAMADOL 50 si douleurs. L’EHPAD vous explique les circonstances de la chute : la patiente a été retrouvé sur le sol mouillé de la salle de bain. L’aidesoignante l’a entendu tomber et a pu immédiatement aider à la relever. Il n’y a pas eu de perte de connaissance. La patiente a dit avoir une sensation de vertige au moment de la chute. L’EHPAD vous explique c’est la 5 chute de cette patiente en 2 mois.",
+          "contexte": "",
           "question": "parmi les facteurs prédisposants de la chute, lesquels vous retenez chez cette patiente ? (6 réponses attendues)",
           "choix": [
             "A) Son âge",
@@ -235,7 +237,7 @@
       ]
     },
     {
-      "id": "folder-1783268955280-b8737feba4c7d8",
+      "id": "folder-1785630072202-7b57f66b393ad",
       "type": "SQI",
       "title": "Dossier 3",
       "description": "",
@@ -341,91 +343,5 @@
       ]
     }
   ],
-  "questions": [
-    {
-      "id": 1,
-      "type": "QRU",
-      "contexte": "",
-      "question": "parmi les facteurs prédisposants de la chute, lesquels vous retenez chez cette patiente ?",
-      "choix": [
-        "A) Son âge",
-        "B) Son sexe",
-        "C) ■ Son lieu de vie en EHPAD",
-        "D) ■ Son traitement par psychotrope",
-        "E) Son traitement par bétabloquant",
-        "F) Son traitement par diurétique",
-        "G) Son trouble neurocognitif",
-        "H) ■ Son trouble visuel",
-        "I) Son arthrose",
-        "J) ■ L’environnement inadapté (sol mouillé)",
-        "K) ■ Vous suspectez une hypotension orthostatique",
-        "L) ’environnement inadapté (sol mouillé)",
-        "Q) uestion à réponse ouverte et courte ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "B",
-        "E",
-        "F",
-        "G",
-        "I"
-      ]
-    },
-    {
-      "id": 2,
-      "type": "QRU",
-      "contexte": "",
-      "question": "dans le box des urgences. Votre examen clinique neurologique ne retrouve pas de déficit sensitivo-moteur. L’examen cardiologique est sans particularité. A l’auscultation pulmonaire, vous retrouvez un foyer en base droite. Vous pensez à un syndrome confusionnel. Quel bilan biologique demandez vous en première intention ?",
-      "choix": [
-        "A) ■ Un bilan hépatique",
-        "B) Une calcémie",
-        "C) Une glycémie capillaire",
-        "D) Une CRP",
-        "Q) uel bilan biologique demandez vous en première intention ? (3 réponses exactes) 1/6 Question à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "B",
-        "C",
-        "D"
-      ]
-    },
-    {
-      "id": 3,
-      "type": "QRU",
-      "contexte": "",
-      "question": "dans le couloir des urgences pour la surveiller D ■ Vous mettez en place une contention physique E ☑ Vous mettez en place une surveillance des constantes vitales et de la conscience fréquente et régulière Le bilan biologique retrouve une déshydratation extra cellulaire (Na 155 mmol/L) avec une insuffisance rénale aigue d’allure fonctionnelle (DFG 30 mL/min) avec un syndrome inflammatoire biologique important (hyperleucocytose è 25 G/L et CRP à 230 mg/L). Quelle est votre prise en charge initiale ?",
-      "choix": [
-        "A) Mise en place d’une antibiothérapie adaptée",
-        "B) Mise en place d’une réhydratation parentérale associée à une stimulation de la boisson per os.",
-        "C) ■ Vous mettez la patiente dans le couloir des urgences pour la surveiller",
-        "D) ■ Vous mettez en place une contention physique",
-        "L) e bilan biologique retrouve une déshydratation extra cellulaire (Na 155 mmol/L) avec une insuffisance rénale aigue d’allure fonctionnelle (DFG 30 mL/min) avec un syndrome inflammatoire biologique important (hyperleucocytose è 25 G/L et CRP à 230 mg/L). Quelle est votre prise en charge initiale ? (3 réponses exactes) Question à réponses multiples ",
-        "M) ise en place d’une antibiothérapie adaptée",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": [
-        "A",
-        "B"
-      ]
-    },
-    {
-      "id": 4,
-      "type": "QRU",
-      "contexte": "",
-      "question": "Dans le service la patiente a besoin d’une aide à la toilette et à l’habillage. Elle marche sans aide technique. Elle mange seule. Elle reste incontinente urinaire de manière occasionnelle. Concernant son état actuel, quelle est la réponse exacte ?",
-      "choix": [
-        "A) ■ Son ADL est à 1/6",
-        "B) ■ Vous estimez son iADL à 7/8",
-        "C) ■ Les items des iADL comprennent entre autre les soins corporels, l’habillement",
-        "D) ■ Les items des ADL comprennent entre autre la capacité à utiliser un téléphone, faire ses courses",
-        "L) es items des iADL comprennent entre autre les soins corporels, l’habillement",
-        "Q) uestion à réponses multiples ",
-        "R) éponse attendue"
-      ],
-      "reponses": []
-    }
-  ]
+  "questions": []
 }

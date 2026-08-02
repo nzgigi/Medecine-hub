@@ -1,0 +1,324 @@
+{
+  "matiere": "Formation Générale à la Recherche",
+  "slug": "fgrs7",
+  "annee": 2025,
+  "title": "Formation Générale à la Recherche - 2025",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les raisons évoquées par les auteurs pour justifier la réalisation de cette étude sur les inhibiteurs du SGLT-2 dans l'insuffisance cardiaque avec fraction d'éjection réduite ? (une ou plusieurs propositions attendues)",
+          "choix": [
+            "A) Les recommandations récentes placent les inhibiteurs de SGLT-2 en première intention en association avec le traitement standard chez les patients atteints d’insuffisance cardiaque.",
+            "B) Il n'y a pas de preuve de l’efficacité des inhibiteurs de SGLT-2 sur la diminution de la mortalité chez les patients atteints d’insuffisance cardiaque avec une fraction d’éjection réduite.",
+            "C) Les patients suivis en pratique clinique quotidienne diffèrent des populations homogènes souvent incluses dans les essais cliniques.",
+            "D) Les inhibiteurs du SGLT-2 ont montré une efficacité uniquement chez les patients diabétiques atteints d’insuffisance cardiaque.",
+            "E) L’efficacité des inhibiteurs de SGLT-2 pour traiter l’insuffisance cardiaque en pratique réelle (« effectiveness ») reste méconnue."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels étaient les objectifs de l'étude ? (une ou plusieurs propositions attendues)",
+          "choix": [
+            "A) Évaluer l’efficacité des inhibiteurs de SGLT-2 sur la mortalité toutes causes confondues chez des patients insuffisants cardiaques.",
+            "B) Evaluer l’efficacité des inhibiteurs de SGLT-2 sur le risque d’hospitalisation pour insuffisance cardiaque.",
+            "C) Identifier des facteurs associés à l’initiation d’inhibiteurs de SGLT-2 chez les patients insuffisants cardiaques.",
+            "D) Evaluer l’efficacité des inhibiteurs SGLT-2 dans des sous-groupes de patients insuffisants cardiaques définis par la classification NYHA.",
+            "E) Evaluer l’impact des recommandations de prescription en première intention des inhibiteurs de SGLT-2 dans la prise en charge de l’insuffisance cardiaque."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le design de l'étude (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Il s’agit d’une étude observationnelle utilisant les bases de données médico-administratives danoises.",
+            "B) Il s’agit d’une étude observationnelle utilisant des données issues d’un registre de patients atteints d’insuffisance cardiaque.",
+            "C) Il s’agit d’une étude de type \"exposé - non exposé\".",
+            "D) Il s’agit d’une étude de cohorte.",
+            "E) Il s’agit d’une étude pronostique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la population de l’étude (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Seuls les patients nouveaux utilisateurs d’inhibiteurs de SGLT-2 ou nouveaux utilisateurs du traitement standard ont été inclus.",
+            "B) Seuls les patients âgés de 45 ans et plus et présentant une fraction d'éjection réduite ont été inclus.",
+            "C) Seuls les patients identifiés dans le registre danois de l'insuffisance cardiaque ont été inclus.",
+            "D) Seuls les patients ayant eu recours à une consultation avec un spécialiste ou un soin spécialisé de l’insuffisance cardiaque (\"specialist care\") dans les trente jours avant la date d’entrée dans la cohorte ont été inclus.",
+            "E) Seuls les patients ayant reçu un traitement pendant 180 jours ont été inclus."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les critères de jugements de l’étude (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) La mortalité toutes causes confondues était le critère de jugement principal.",
+            "B) L'hospitalisation pour insuffisance cardiaque était un critère de jugement secondaire.",
+            "C) Le critère de jugement composite secondaire incluait la mortalité cardiovasculaire.",
+            "D) La réduction du NT-proBNP était un critère de jugement secondaire.",
+            "E) La durée des hospitalisations était un critère de jugement secondaire."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les expositions médicamenteuses d’intérêt (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) L’exposition aux inhibiteurs de SGLT-2 a été comparée à l’exposition concomitante à la trithérapie βbloquant, médicament du système rénine-angiotensine-aldostérone et antagoniste des récepteurs minéralocorticoïdes.",
+            "B) L’exposition incidente aux inhibiteurs de SGLT-2 a été comparée à la non-exposition aux inhibiteurs de SGLT2 chez des patients recevant une prise en charge habituelle de l’insuffisance cardiaque.",
+            "C) Le groupe comparateur était constitué de patients exposés à un ou plusieurs médicaments de la prise en charge habituelle de l’insuffisance cardiaque.",
+            "D) Dans le groupe des patients exposés aux inhibiteurs de SGLT-2, la date index était la date de première délivrance d’inhibiteurs de SGLT-2.",
+            "E) Dans le groupe des patients non exposés aux inhibiteurs de SGLT-2, la date index correspondait à la date de diagnostic de l’insuffisance cardiaque."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le suivi des patients dans l’analyse du critère de jugement principal (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Dans l’analyse en intention de traiter, les patients ont été suivis jusqu’au premier évènement censurant : la survenue du décès, la fin de la période d’étude, l’émigration, ou la fin du traitement, selon celui qui s'est produit en premier.",
+            "B) Dans l’analyse en per protocole, les patients ont été suivis jusqu’au premier évènement censurant : la survenue du décès, la fin de la période d’étude, l’émigration, ou la fin du traitement, selon celui qui s'est produit en premier.",
+            "C) Dans l’analyse en per protocole, la fin du suivi survenait 180 jours après la dernière délivrance de médicaments d’intérêt.",
+            "D) Dans l’analyse en intention de traiter, la fin du suivi survenait 180 jours après la dernière délivrance de médicaments d’intérêt.",
+            "E) L’initiation d’un inhibiteur du SGLT-2 chez un patient du groupe comparateur correspondait à un évènement censurant."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le score de propension (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Le score de propension dans cette étude désigne la probabilité pour un patient donné de recevoir un inhibiteur de SGLT-2 compte tenu de ses caractéristiques à l’inclusion.",
+            "B) Un appariement sur le score de propension a été utilisé dans cette étude.",
+            "C) Une pondération sur le score de propension a été utilisée dans cette étude.",
+            "D) Les patients avec des valeurs extrêmes du score de propension ont été exclus des analyses.",
+            "E) Tous les facteurs de confusion potentiels ont été inclus dans le calcul du score de propension."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les principaux résultats de l'étude ? (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) L’exposition aux inhibiteurs du SGLT-2 réduit de 25% (intervalle de confiance à 95% : 15% ; 34%) le risque instantané de mortalité toutes causes confondues chez les patients atteints d’insuffisance cardiaque avec une fraction d’éjection altérée.",
+            "B) L’exposition aux inhibiteurs du SGLT-2 augmente significativement le risque instantané d’hospitalisation pour insuffisance cardiaque chez les patients atteints d’insuffisance cardiaque avec une fraction d’éjection altérée.",
+            "C) L’efficacité des inhibiteurs du SGLT-2 était supérieure dans le sous-groupe des patients avec une insuffisance cardiaque NYHA III-IV.",
+            "D) L’exposition aux inhibiteurs du SGLT-2 permet d’éviter 1,6 décès lié à l’insuffisance cardiaque pour 100 patients suivis pendant 1 année en comparaison à la non exposition.",
+            "E) L’efficacité des inhibiteurs du SGLT-2 n’était pas différente quelle que soit la fraction d’éjection ventriculaire à l’inclusion."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les forces de cette étude ? (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) L’utilisation de méthodes de pharmacoépidémiologie avancées.",
+            "B) La puissance de l'étude.",
+            "C) L’utilisation d’un registre clinique de patients insuffisants cardiaques permettant notamment d’obtenir les données sur la fraction d’éjection et la classification NYHA.",
+            "D) Le choix du critère de jugement principal.",
+            "E) La robustesse des résultats à travers toutes les analyses de sensibilité."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les limites de cette étude ? (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Un biais de sélection avec l’inclusion de patients ayant une prise en charge active de l’insuffisance cardiaque.",
+            "B) Un biais de classement résiduel avec l’absence de prise en compte de l’exercice physique ou du tabagisme.",
+            "C) Un biais protopathique.",
+            "D) Un biais de mesure de l’évènement (critère de jugement principal) différentiel.",
+            "E) Un biais de mesure de l’exposition non différentiel."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la généralisation des résultats de cette étude (une ou plusieurs propositions attendues) ?",
+          "choix": [
+            "A) Les résultats de cette étude peuvent être généralisés à l’ensemble de la population européenne atteinte d’insuffisance cardiaque.",
+            "B) Cette étude est en faveur d’une efficacité en vie réelle (\"effectiveness\") des inhibiteurs de SGLT-2 comparable à l’efficacité dans les essais cliniques.",
+            "C) La présence de limites altérant la validité interne de l’étude empêche toute généralisation des résultats.",
+            "D) Compte tenu de l’absence d’effet mesuré sur la mortalité cardiovasculaire et les hospitalisations pour insuffisance cardiaque, les preuves sont insuffisantes pour recommander l’utilisation des inhibiteurs de SGLT2 en première intention.",
+            "E) Compte tenu de l’utilisation de données rétrospectives, cette étude ne permet aucune conclusion sur le bénéfice des inhibiteurs de SGLT-2."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "id": "folder-1785539079105-dd7159183e0c98",
+      "type": "SQI",
+      "title": "Dossier 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Qu'est-ce que la loi Bertrand de 2011 vise à faire ?",
+          "choix": [
+            "A) Réduire le temps de formation des médecins.",
+            "B) Prévenir les conflits d'intérêts dans le secteur de la santé.",
+            "C) Renforcer l'indépendance de l'expertise sanitaire publique.",
+            "D) Faciliter l'accès aux médicaments pour les patients.",
+            "E) Augmenter les budgets des hôpitaux."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle information devriez-vous systématiquement demander à un visiteur médical qui présente un nouveau médicament lors d’une visite médicale :",
+          "choix": [
+            "A) Les effets indésirables rapportés lors des essais cliniques",
+            "B) Le SMR",
+            "C) L’ASMR",
+            "D) La tarification hospitalière",
+            "E) L’inscription sur la liste des médicaments remboursables"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les situations suivantes, laquelle (ou lesquelles) est (ou sont) une (ou des) contre-indication(s) de cures thermales ?",
+          "choix": [
+            "A) Asthme allergique",
+            "B) Insuffisance veineuse chronique",
+            "C) Mucoviscidose",
+            "D) Lombalgies chroniques",
+            "E) Légionellose"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

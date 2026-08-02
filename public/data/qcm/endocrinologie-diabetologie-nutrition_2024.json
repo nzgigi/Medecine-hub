@@ -1,0 +1,578 @@
+{
+  "matiere": "Endocrinologie, Diabétologie, Nutrition",
+  "slug": "endocrinologie-diabetologie-nutrition",
+  "annee": 2024,
+  "title": "Endocrinologie, Diabétologie, Nutrition - 2024",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Dossier 1",
+      "description": "Mme L, 37 ans, consulte pour la première fois au sujet de son problème de poids. A l’interrogatoire, vous retrouvez un antécédent d’asthme dans l’enfance et de cholécystectomie il y a 2 ans. Sur le plan gynécologique, elle est G0P0. Sa mère a été opérée d’une sleeve gastrectomie. Elle poursuit un traitement par Venlafaxine 37.5 mg, 1 cp par jour, pour un syndrome dépressif suivi par son médecin traitant.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Elle pèse 98,3 kg pour 1,65 m soit un IMC à 36,1 kg/m2. Le tour de taille est à 98 cm. Vous relevez à l’examen physique une tension artérielle à 133/82mmHg Fc 85 bpm, une dyspnée aux efforts modérés à intenses. Parmi les propositions suivantes, cochez la réponse exacte:",
+          "choix": [
+            "A) Il s'agit d'une obésité de grade 3 avec une hypertension artérielle",
+            "B) Il s'agit d'une obésité de grade 2 avec une répartition androïde des graisses",
+            "C) Il s'agit d'une obésité de grade 2 avec une tachycardie",
+            "D) Il s'agit d'une obésité de grade 1 avec un syndrome métabolique",
+            "E) Il s'agit d'une obésité de grade 2 avec un syndrome métabolique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 2 éléments à l’interrogatoire/examen physique qui vous orienteraient vers une obésité secondaire ?",
+          "choix": [
+            "A) un acanthosis nigricans",
+            "B) une déficience intellectuelle",
+            "C) un syndrome tumoral hypothalamo-hypophysaire",
+            "D) un psoriasis",
+            "E) un lymphoedème"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le tableau de la patiente évoque plutôt une obésité commune. Quels éléments de biologie parmi les suivants sont systématiques à prescrire dans le bilan de complications de l'obésité ? 3 réponses attendues",
+          "choix": [
+            "A) bilan hépatique (transaminases, gamma-glutamyltranspeptidase)",
+            "B) exploration d’une anomalie lipidique (Cholestérol total, calcul du LDL cholestérol, HDL cholestérol, Triglycérides)",
+            "C) cortisol libre urinaire des 24h",
+            "D) Insulinémie à jeun",
+            "E) glycémie à jeun"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous lui avez prescrit un bilan biologique à jeun et vous en recevez les résultats : Glycémie à jeun : 1.37 g/l HbA1c : 6.9% Triglycérides: 1.96 g/l LDL: 1.20 g/l HDL: 0.39 g/l NFS normale Ionogramme sanguin normal ASAT (TGO): 59 UI/l (norme=0-50) ALAT (TGP): 85 UI/l (norme=0-40) GGT : 75 UI/l (norme=0-60) PAL : 98 UI/l (norme=40-129) CRP: 12 mg/l (norme = 0-5) A propos de ce bilan biologique, quelles assertions sont vraies :",
+          "choix": [
+            "A) cette patiente a probablement un diabète de type 2",
+            "B) le HDL cholestérol est anormalement bas",
+            "C) cette patiente présente une dyslipidémie mixte",
+            "D) l’augmentation des transaminases doit faire penser à une stéatopathie métabolique",
+            "E) la crp modérément élevée est en lien avec une inflammation de bas grade souvent présente en cas d’obésité"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Mme L. se plaint d'une fatigue au réveil parfois accompagnée de céphalées. Elle décrit aussi un manque d'attention dans la journée et des ronflements nocturnes qui gênent son mari, au point qu'il dorme sur le canapé. Vous suspectez un syndrome d'apnées obstructives du sommeil (SAOS). Quels sont les 2 autres signes qu’il vous parait pertinent de rechercher dans ce contexte ?",
+          "choix": [
+            "A) Pauses respiratoires perçues par l'entourage durant le sommeil",
+            "B) un syndrome polyuro-polydipsique",
+            "C) un night eating syndrome",
+            "D) des chiffres élevés de pression artérielle sanguine",
+            "E) des troubles cognitifs à type de dyslexie"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "À l'interrogatoire alimentaire, elle ne prend jamais de petit déjeuner. Quand elle travaille, elle déjeune à la cantine et en 30 minutes environ avec ses collègues : Pas d'entrée, un plat avec une part d'environ 150 g de viande ou de poisson, environ 250 g de féculents (riz, pâtes, pommes de terre), et une petite part de légumes, 1 crème au chocolat ou une pâtisserie en dessert. Elle ne boit que de l’eau. Le soir, elle mange devant la télévision du pain, généralement la baguette entière, et plusieurs morceaux de fromage de plus de 50g chacun ou se fait réchauffer une pizza ou une quiche surgelée (normalement dimensionnée pour 4 personnes) qu’elle mange en entier. Au coucher, elle a besoin de manger quelque chose de sucré sinon elle ne dort pas, elle prend en général une barre chocolatée (type Mars) ou un petit paquet de M&Ms. Cochez les 3 réponses exactes, en se basant sur les recommandations du PNNS",
+          "choix": [
+            "A) le repas de midi pris à la cantine est équilibré",
+            "B) Il y a une hyperphagie lors du dîner",
+            "C) Il n'y a pas de tachyphagie lors du repas de midi",
+            "D) Ses apports en fibres semblent insuffisants",
+            "E) Ses apports en sucre ne dépassent pas ce qui est recommandé"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1785537161695-09062053f476b",
+      "type": "KFP",
+      "title": "Dossier 2",
+      "description": "Mme D., 68 ans consulte en urgence pour des palpitations et une perte de poids. Elle présente comme antécédent : une ostéoporose fracturaire, un adénome parathyroïdien opéré, une cholécystectomie, des troubles du rythme sur cardiopathie ischémique stentée. Les antécédents familiaux sont marqués par un diabète de type 1 chez son fils. Le traitement comprend : Eliquis, Ramipril 5 mg, Sotalol Elle décrit l’apparition de palpitations depuis une dizaine de jours associées à une fatigabilité à l’effort. Elle décrit parallèlement une perte de poids de 15 kgs en 2 mois sans qu’il n’y ait eu de modifications hygiéno-diététiques. Le poids est donc désormais de 45 kgs pour 1,65 m (IMC = 16,5 kg/m2). La palpation de la région cervicale retrouve un nodule du lobe thyroïdien droit mesurant 3 cm sans adénopathie perceptible. L’électrocardiogramme retrouve une fibrillation auriculaire. Le bilan biologique retrouve : Hémoglobine = 12.8 g/dl, leucocytes = 6.3 G/l, plaquettes = 254 000/mm3, bilan hépatique : TGO = 45 U/l (1.5N), TGP = 27 U/l (normal), gamma GT = 37 U/l (normal), calcémie = 2.18 mmol/l, albumine = 32 g/l, TSH < 0,002 µU/ml (normal de 0,4 à 4,5), T4l = 55 pmol/l (N de 9 à 17), glycémie veineuse = 0,76 g/l.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est votre hypothèse diagnostique principale ?",
+          "choix": [],
+          "reponses": [
+            "hyperthyroidie périphérique",
+            "hyperthyroidie periphérique lié à un nodule toxique",
+            "hyperthryoidie peripherique",
+            "hypertyroïdie périphérique"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions ci-dessous, quelles sont les 5 qui seront déterminantes pour orienter le diagnostic étiologique de cette hyperthyroïdie ?",
+          "choix": [
+            "A) L'antécédent d'adénome parathyroïdien opéré",
+            "B) L'antécédent de diabète de type I chez son fils",
+            "C) Un antécédent de scanner injecté il y a trois semaines",
+            "D) Le traitement par ramipril au long cours",
+            "E) Un antécédent de prise d'amiodarone il y a cinq ans",
+            "F) La présence d'un nodule thyroïdien du lobe droit de 3 cm",
+            "G) Le traitement d'une plaie vasculaire par de la Bétadine depuis trois mois",
+            "H) Le traitement par Eliquis au long cours",
+            "I) La présence d'une perte de poids rapide",
+            "J) Le niveau de T4 libre",
+            "K) La présence d'un souffle vasculaire à l'auscultation thyroïdienne"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "F",
+            "G",
+            "K"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 examens complémentaires que vous voudriez particulièrement prescrire pour avancer dans le diagnostic étiologique de cette hyperthyroïdie ?",
+          "choix": [
+            "A) Une échographie de la région cervicale antérieure",
+            "B) Un scanner cervical sans injection de produit de contraste",
+            "C) Une IRM cervicale",
+            "D) Des anticorps antinucléaires",
+            "E) Des anticorps antithyroglobuline",
+            "F) Des anticorps antirécepteurs de la TSH",
+            "G) Un dosage de FSH",
+            "H) Une scintigraphie thyroïdienne au technétium"
+          ],
+          "reponses": [
+            "A",
+            "F",
+            "H"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1785537168371-0b15ebc3e95778",
+      "type": "SQI",
+      "title": "Dossier 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) peut(peuvent) être la(les) causes d’hypoglycémie chez un sujet non diabétique ?",
+          "choix": [
+            "A) Antécédent de chirurgie bariatrique",
+            "B) Acromégalie",
+            "C) Insuffisance surrénalienne",
+            "D) Hypothyroïdie périphérique",
+            "E) Insulinome"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente de 44 ans consulte pour une prise de poids de 5 kgs en 2 mois, avec une répartition facio-tronculaire et quelques vergetures pourpres. Vous évoquez le diagnostic de syndrome de Cushing. Quel test réalisez-vous en première intention ?",
+          "choix": [
+            "A) Test au synacthène sur le cortisol",
+            "B) Cortisolémie à 8h",
+            "C) ACTH à 8h",
+            "D) Cortisol libre urinaire des 24 h",
+            "E) Test à la dexaméthasone 1 mg"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une jeune femme de 26 ans consulte pour une aménorrhée secondaire à l’arrêt d’une contraception oestro-progestative. Elle présente cliniquement une galactorrhée unilatérale, multipore. La prolactinémie est à 78 ng/ml (normal > 25 ng/ml). Quelle(s) peut(peuvent) être la(les) hypothèse(s) diagnostique(s) la(les) plus probable(s) ?",
+          "choix": [
+            "A) un artefact de dosage de la prolactine",
+            "B) un syndrome de Cushing",
+            "C) une grossesse",
+            "D) un prolactinome",
+            "E) un microadénome non sécrétant avec hyperprolactinémie de déconnexion"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Indiquer dans cette liste, les affirmations exactes au sujet du syndrome de renutrition inappropriée (SRI)",
+          "choix": [
+            "A) Une femme de 32 ans, avec une anorexie mentale stabilisée et un indice de masse corporelle stable à 19,2 kg/m2 est à risque de SRI",
+            "B) Une dénutrition modérée (non sévère) chez une femme de 82 ans, avec une insuffisance cardiaque chronique d’origine ischémique est à risque de SRI",
+            "C) Une femme de 42 ans, opérée d’une chirurgie de l’obésité, ayant perdu 20% de son poids dans le premier mois est à risque de SRI",
+            "D) Une personne vivant avec un diabète, chroniquement déséquilibré (HbA1c 9,2%) malgré un traitement par insuline et ayant perdu 15% de son poids en trois mois est à risque de SRI",
+            "E) Une femme de 54 ans, en récidive de son cancer du sein, avec un poids stable, et un appétit conservé est à risque de SRI"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour porter le diagnostic de dénutrition chez une personne de 73 ans, les critères de diagnostic sont différents de ceux de l’adulte jeune. Pour chaque proposition, concernant un de ces critères, dire ce qui est exact :",
+          "choix": [
+            "A) l’indice de masse corporelle inférieur à 25 kg/m constitue un critère phénotypique de diagnostic,",
+            "B) une perte de poids de plus de 10% en un mois constitue un critère phénotypique de diagnostic,",
+            "C) une perte de poids de plus de 5% en six mois constitue un critère phénotypique de diagnostic,",
+            "D) une vitesse de marche inférieure à 0,8 m/s constitue un critère phénotypique de diagnostic,",
+            "E) une pathologie maligne évolutive constitue un critère étiologique de diagnostique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En cas de dénutrition modérée (non sévère), chez une personne de 54 ans, avec un cancer du poumon, si les ingestas sont supérieurs aux deux tiers des besoins protéino-énergétiques, et qu’après une semaine d’alimentation enrichie il y a une discrète prise de poids, il est recommandé de",
+          "choix": [
+            "A) poursuivre l’alimentation enrichie",
+            "B) proposer une nutrition entérale",
+            "C) prescrire des compléments nutritionnels oraux",
+            "D) proposer une nutrition parentérale",
+            "E) prescrire de la L-Carnitine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En cas d’échec de l’enrichissement de l’alimentation (le poids continue de diminuer, et les ingesta spontanés ont tendance à diminuer, car l’anorexie s’aggrave). Vous prescrivez une :",
+          "choix": [],
+          "reponses": [
+            "Nutrition Entérale",
+            "nutrition enterale",
+            "sonde naso gastrique",
+            "alimentation enterale",
+            "sonde naso-gastrique",
+            "alimentation entérale",
+            "Sonde naso-gastrique",
+            "sonde nasogastrique",
+            "Nutrition enterale",
+            "sonde enterale",
+            "nutriton entéral par sonde naso gastrique",
+            "nutrition par Voie enterale",
+            "une nutrition enterale",
+            "nutrition artificielle enterale",
+            "nutrition par sonde naso gastrique",
+            "alimentation entérale par sonde nasogastrique",
+            "pose SNG",
+            "nutrition enterale artificielle",
+            "pose de sonde naso-gastrique",
+            "nutrtion enterale",
+            "Nutrition entérale par sonde naso-gastrique",
+            "nutrution entérale",
+            "un nutrition entérale",
+            "nutrition entérale artificielle",
+            "renutrition enterale",
+            "nutrition entéral",
+            "nutrtion entérale",
+            "renutrition entérale",
+            "SNG"
+          ],
+          "correctionExplanation": "accepter nutrition entérale Nutrition entérale nutrition Entérale",
+          "order": 7
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les caractéristiques du diabète de type 1, quelles propositions sont exactes ? (2 réponses attendues)",
+          "choix": [
+            "A) Le diabète de type 1 est le type de diabète le plus fréquemment diagnostiqué en France (environ 90% des cas de diabète).",
+            "B) Dans la majorité des cas, le début de la maladie est rapide ou explosif (« coup de tonnerre dans un ciel serein »).",
+            "C) L’âge de survenue est le plus souvent avant 35 ans.",
+            "D) Les complications dégénératives sont souvent présentes au diagnostic.",
+            "E) La principale cause de mortalité est l’acido-cétose diabétique."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, lesquels sont des effets potentiels connus des inhibiteurs des SGLT2 (gliflozines) ? (3 réponses attendues)",
+          "choix": [
+            "A) Infections génitales",
+            "B) Ralentissement de la vidange gastrique",
+            "C) Risque d’hypovolémie",
+            "D) Gangrène de Fournier",
+            "E) Hypoglycémie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment se nomme cette pathologie cutanée auto-immune (cf photo) qui peut être associée à un diabète de type 1 ?",
+          "choix": [],
+          "reponses": [
+            "Vitiligo",
+            "vitiligo",
+            "vitilligo",
+            "vitilgo"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1785537193175-e0116db5073a08",
+      "type": "DP",
+      "title": "Dossier 4",
+      "description": "De garde aux urgences, vous recevez un patient de 68 ans adressé par son médecin traitant pour déséquilibre glycémique. En effet, il s’agit d’un sujet diabétique de type 2, traité par Metformine seule, qui présente depuis le matin des glycémies supérieures à 3 g/l, ce qui est tout à fait inhabituel. Sa dernière mesure d’HbA1c (hémoglobine glyquée) réalisée il y a 6 mois était à 7,5% (N 4 à 6%). Par ailleurs, il est hypertendu (traité par Irbésartan 300 mg/jour avec un bon contrôle tensionnel) et dyslipidémique (traité par Atorvastatine 20 mg/jour). Il fume environ 1 paquet de cigarettes par jour (estimation à 40 PA). Il pèse 88 kilos pour 1m70. Quand vous l’interrogez, il vous explique qu’il a été alerté par des glycémies supérieures à 3 g/l depuis le réveil. Il signale également quelques nausées depuis le matin et une sensation de malaise, sans être plus précis. Il n’y a aucune autre symptomatologie et notamment pas de douleur thoracique. A l’examen clinique : fréquence cardiaque à 55/min, fréquence respiratoire à 22/min, pression artérielle à 160/100 mmHg, température à 37,4 °C, quelques crépitants au niveau des deux bases à l’auscultation pulmonaire. Les pouls pédieux ne sont pas retrouvés. Le reste de l’examen est sans particularité.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quel(s) examen(s) parmi les suivants réalisez-vous en urgence chez ce patient ? (2 réponses attendues)",
+          "choix": [
+            "A) Hémocultures",
+            "B) ECG",
+            "C) Bandelette urinaire",
+            "D) HbA1c",
+            "E) Lactates"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’ECG retrouve le tracé suivant :",
+          "choix": [
+            "A) Le tracé est normal.",
+            "B) Vous suspectez une intoxication aux digitaliques.",
+            "C) Vous suspectez un syndrome coronarien aigue dans le territoire antérieur.",
+            "D) Vous suspectez un syndrome coronarien aigue dans le territoire inférieur.",
+            "E) Vous pensez qu’il y a une erreur concernant l’identité du patient et refaites l’ECG."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Après la prise en charge cardiologique, le patient est transféré dans le service de diabétologie. Il n’a pas réalisé de bilan de retentissement de son diabète depuis au moins 2 ans. Son HbA1c est à 8,2%. Quel(s) examen(s) réalisez-vous dans le cadre du bilan de retentissement ?",
+          "choix": [
+            "A) Fond d’œil ou rétinographie",
+            "B) Recherche d’une microalbuminurie",
+            "C) Echodoppler artériel des membres inférieurs",
+            "D) Electromyographie",
+            "E) Scintigraphie myocardique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les différents examens retrouvent : - une rétinopathie diabétique non proliférante modérée bilatérale, - une fonction rénale altérée avec un débit de filtration glomérulaire estimé à 51 ml/min, - une fraction d’éjection ventriculaire gauche (FEVG) à 44% suite au syndrome coronarien aigu, - une artériopathie bilatérale distale avec médiacalcose (doppler artériel des membres inférieurs), sans indication à un geste de revascularisation, - test au monofilament anormal (perception altérée), pas de déformation des pieds. Dans ce contexte, selon la prise de position de la Société Francophone du Diabète, quelle(s) option(s) thérapeutique(s) vous paraît (paraissent) la plus adaptée(s) ? (3 réponses attendues)",
+          "choix": [
+            "A) La poursuite d’un traitement par biguanides à posologie adaptée à la fonction rénale",
+            "B) Un traitement par sulfamides hypoglycémiants",
+            "C) Un traitement par inhibiteurs des SGLT2",
+            "D) Un traitement par insuline",
+            "E) Un traitement par analogues du GLP1"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’objectif de LDL cholestérol qui vous semble adapté chez ce patient ?",
+          "choix": [
+            "A) LDL cholestérol < 1,6 g/l",
+            "B) LDL cholestérol < 1,3 g/l",
+            "C) LDL cholestérol < 1,0 g/l",
+            "D) LDL cholestérol < 0,7 g/l",
+            "E) LDL cholestérol < 0,55 g/l"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le grade de risque podologique pour ce patient ?",
+          "choix": [
+            "A) Risque lésionnel grade 0",
+            "B) Risque lésionnel grade 1",
+            "C) Risque lésionnel grade 2",
+            "D) Risque lésionnel grade 3",
+            "E) Risque lésionnel grade 4"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le patient a été perdu de vue. Vous le revoyez 6 ans plus tard car il présente depuis quelques semaines une plaie du pied. D’après la photo jointe, de quel type de plaie s’agit-il ? (3 mots)",
+          "choix": [],
+          "reponses": [
+            "Mal perforant plantaire",
+            "mal perforant plantaire",
+            "malperforant plantaire",
+            "mal perforant plantaie",
+            "mal perforant plantaire diabétique"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}
