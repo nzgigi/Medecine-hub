@@ -13,6 +13,7 @@ import {
   LayoutDashboard,
   LogOut,
   Medal,
+  Pencil,
   ShieldCheck,
   Sparkles,
   Target,
@@ -21,6 +22,7 @@ import {
   User as UserIcon,
   Users,
 } from "lucide-react";
+import { useDialogs } from "@/components/DialogProvider";
 import { ACHIEVEMENTS, ACHIEVEMENT_ICONS } from "@/lib/achievements";
 import {
   clearLocalUserProfile,
@@ -147,6 +149,7 @@ function LeaderboardRankIcon({ index }: { index: number }) {
 
 export default function ComptePage() {
   const router = useRouter();
+  const dialogs = useDialogs();
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [profile, setProfile] = useState<LocalUserProfile | null>(null);
   const [history, setHistory] = useState<QcmHistoryItem[]>([]);
@@ -154,6 +157,7 @@ export default function ComptePage() {
   const [loading, setLoading] = useState(true);
   const [avatarError, setAvatarError] = useState("");
   const [avatarUploading, setAvatarUploading] = useState(false);
+  const [nameSaving, setNameSaving] = useState(false);
   const [selectedMatiere, setSelectedMatiere] = useState("global");
   const [socialProfile, setSocialProfile] = useState<SocialProfileSummary | null>(null);
 
@@ -327,6 +331,46 @@ export default function ComptePage() {
     }
   };
 
+  const handleRenameClick = async () => {
+    if (!profile || nameSaving) return;
+
+    const nextName = await dialogs.prompt("Choisis ton nouveau pseudo.", {
+      title: "Se renommer",
+      defaultValue: profile.name,
+      placeholder: "Ton pseudo sur Medecine Hub",
+      confirmLabel: "Enregistrer",
+    });
+
+    if (!nextName || nextName === profile.name) return;
+
+    setNameSaving(true);
+
+    try {
+      const response = await fetch("/api/users/rename", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sub: profile.sub, name: nextName }),
+      });
+
+      const result = (await response.json()) as {
+        success: boolean;
+        message?: string;
+      };
+
+      if (!result.success) {
+        await dialogs.alert(result.message || "Échec du changement de pseudo.");
+        return;
+      }
+
+      const updatedProfile = updateLocalUserProfile({ name: nextName });
+      if (updatedProfile) setProfile(updatedProfile);
+    } catch {
+      await dialogs.alert("Échec du changement de pseudo.");
+    } finally {
+      setNameSaving(false);
+    }
+  };
+
   const handleRemoveAvatar = async () => {
     if (!profile) return;
 
@@ -405,7 +449,17 @@ export default function ComptePage() {
                     </span>
                   )}
                 </div>
-                <h1 className="text-3xl font-black">{profile.name}</h1>
+                <button
+                  type="button"
+                  onClick={handleRenameClick}
+                  disabled={nameSaving}
+                  aria-label="Se renommer"
+                  title="Se renommer"
+                  className="group -ml-1 flex items-center gap-2 rounded-lg px-1 py-0.5 text-left transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:hover:bg-[#1d1c18]"
+                >
+                  <h1 className="text-3xl font-black">{profile.name}</h1>
+                  <Pencil className="h-4 w-4 shrink-0 text-stone-300 transition-colors group-hover:text-emerald-700 dark:text-stone-600 dark:group-hover:text-emerald-300" />
+                </button>
                 <p className="mt-1 text-sm text-stone-500">{profile.email}</p>
 
                 <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
@@ -448,6 +502,16 @@ export default function ComptePage() {
                   >
                     <Camera className="h-3.5 w-3.5" />
                     {avatarUploading ? "Envoi..." : "Changer la photo"}
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={handleRenameClick}
+                    disabled={nameSaving}
+                    className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-xs font-bold text-stone-700 transition-colors hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-[#1d1c18]"
+                  >
+                    <Pencil className="h-3.5 w-3.5" />
+                    {nameSaving ? "Enregistrement..." : "Se renommer"}
                   </button>
 
                   {profile.customPicture && (

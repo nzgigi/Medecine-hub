@@ -11,6 +11,7 @@ export interface StoredUser {
   picture?: string;
   avatarPath?: string;
   role: UserRole;
+  nameCustomized: boolean;
   firstSeenAt: string;
   lastSeenAt: string;
 }
@@ -23,6 +24,7 @@ interface UserRow {
   picture: string | null;
   avatar_path: string | null;
   role: string;
+  name_customized: number;
   first_seen_at: string;
   last_seen_at: string;
 }
@@ -36,6 +38,7 @@ function rowToUser(row: UserRow): StoredUser {
     picture: row.picture ?? undefined,
     avatarPath: row.avatar_path ?? undefined,
     role: row.role === "administrateur" ? "administrateur" : "etudiant",
+    nameCustomized: Boolean(row.name_customized),
     firstSeenAt: row.first_seen_at,
     lastSeenAt: row.last_seen_at,
   };
@@ -89,18 +92,22 @@ export function upsertUser(profile: {
   const role = roleForEmail(profile.email);
 
   if (existing) {
+    // Si l'utilisateur a choisi un pseudo personnalisé, on ne l'écrase pas
+    // avec le nom renvoyé par Google à chaque connexion.
+    const nextName = existing.nameCustomized ? existing.name : profile.name;
+
     db.prepare(
       `UPDATE users SET name = ?, email = ?, picture = ?, role = ?, last_seen_at = ? WHERE sub = ?`
-    ).run(profile.name, profile.email, profile.picture ?? null, role, now, profile.sub);
+    ).run(nextName, profile.email, profile.picture ?? null, role, now, profile.sub);
 
-    return { ...existing, name: profile.name, email: profile.email, picture: profile.picture, role, lastSeenAt: now };
+    return { ...existing, name: nextName, email: profile.email, picture: profile.picture, role, lastSeenAt: now };
   }
 
   const handle = generateUniqueHandle(db, profile.name || "membre");
 
   db.prepare(
-    `INSERT INTO users (sub, handle, name, email, picture, avatar_path, role, first_seen_at, last_seen_at)
-     VALUES (?, ?, ?, ?, ?, NULL, ?, ?, ?)`
+    `INSERT INTO users (sub, handle, name, email, picture, avatar_path, role, name_customized, first_seen_at, last_seen_at)
+     VALUES (?, ?, ?, ?, ?, NULL, ?, 0, ?, ?)`
   ).run(profile.sub, handle, profile.name, profile.email, profile.picture ?? null, role, now, now);
 
   return {
@@ -110,9 +117,42 @@ export function upsertUser(profile: {
     email: profile.email,
     picture: profile.picture,
     role,
+    nameCustomized: false,
     firstSeenAt: now,
     lastSeenAt: now,
   };
+}
+
+const DISPLAY_NAME_MIN_LENGTH = 2;
+const DISPLAY_NAME_MAX_LENGTH = 40;
+
+export function sanitizeDisplayName(value: unknown): string {
+  if (typeof value !== "string") throw new Error("Pseudo invalide");
+
+  const name = value.trim().replace(/\s+/g, " ");
+
+  if (name.length < DISPLAY_NAME_MIN_LENGTH || name.length > DISPLAY_NAME_MAX_LENGTH) {
+    throw new Error(
+      `Le pseudo doit contenir entre ${DISPLAY_NAME_MIN_LENGTH} et ${DISPLAY_NAME_MAX_LENGTH} caractères`
+    );
+  }
+
+  if (!/^[\p{L}\p{N} '.-]+$/u.test(name)) {
+    throw new Error("Le pseudo contient des caractères non autorisés");
+  }
+
+  return name;
+}
+
+export function setUserDisplayName(sub: string, name: string) {
+  const db = getDb();
+  const existing = getUserBySub(sub);
+
+  if (!existing) return null;
+
+  db.prepare(`UPDATE users SET name = ?, name_customized = 1 WHERE sub = ?`).run(name, sub);
+
+  return { ...existing, name, nameCustomized: true };
 }
 
 export function setUserAvatar(sub: string, avatarPath: string | undefined) {

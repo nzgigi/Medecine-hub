@@ -99,6 +99,15 @@ function migrateLegacyUsersJson(db: DatabaseSync) {
   ).run(new Date().toISOString());
 }
 
+function migrateAddNameCustomizedColumn(db: DatabaseSync) {
+  const columns = db.prepare(`PRAGMA table_info(users)`).all() as { name: string }[];
+  const hasColumn = columns.some((column) => column.name === "name_customized");
+
+  if (!hasColumn) {
+    db.exec(`ALTER TABLE users ADD COLUMN name_customized INTEGER NOT NULL DEFAULT 0;`);
+  }
+}
+
 export function getDb(): DatabaseSync {
   if (dbInstance) return dbInstance;
 
@@ -120,6 +129,7 @@ export function getDb(): DatabaseSync {
       picture TEXT,
       avatar_path TEXT,
       role TEXT NOT NULL DEFAULT 'etudiant',
+      name_customized INTEGER NOT NULL DEFAULT 0,
       first_seen_at TEXT NOT NULL,
       last_seen_at TEXT NOT NULL
     );
@@ -173,6 +183,8 @@ export function getDb(): DatabaseSync {
       updated_at TEXT NOT NULL
     );
   `);
+
+  migrateAddNameCustomizedColumn(db);
 
   dbInstance = db;
   migrateLegacyUsersJson(db);
