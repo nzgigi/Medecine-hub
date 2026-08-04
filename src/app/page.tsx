@@ -195,8 +195,9 @@ export default function HomePage() {
               </h1>
 
               <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600 dark:text-stone-300 sm:text-lg">
-                Des QCM d&apos;annales classes par matiere et par annee, avec une
-                interface simple pour reviser sans perdre de temps.
+                Des QCM d&apos;annales pour les étudiants de Toulouse, classés par
+                matières et par années, avec une interface simple pour réviser
+                efficacement.
               </p>
 
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">

@@ -171,16 +171,17 @@ export function getExamScore(
   );
 
   const categories = presentTypes.map((type) => {
-    const submittedFolders = folderScores.filter(
-      (folder) => folder.folderType === type && folder.submitted
-    );
+    const foldersOfType = folderScores.filter((folder) => folder.folderType === type);
+    const submittedFolders = foldersOfType.filter((folder) => folder.submitted);
     const normalizedWeight =
       totalPresentWeight > 0 ? CATEGORY_WEIGHTS[type] / totalPresentWeight : 0;
 
+    // Les dossiers non soumis comptent pour 0 : on divise par le nombre total
+    // de dossiers de la catégorie, pas seulement par ceux qui sont soumis.
     const averageOn20 =
-      submittedFolders.length > 0
+      foldersOfType.length > 0
         ? submittedFolders.reduce((acc, folder) => acc + folder.scoreOn20, 0) /
-          submittedFolders.length
+          foldersOfType.length
         : 0;
 
     const roundedAverageOn20 = Number(averageOn20.toFixed(2));

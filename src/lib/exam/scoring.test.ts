@@ -58,6 +58,46 @@ describe("scoring", () => {
     expect(score.categories[0].weight).toBe(1);
     expect(score.finalScoreOn20).toBe(20);
   });
+
+  it("compte les dossiers non soumis pour 0 dans la moyenne de leur catégorie", () => {
+    const makeQuestion = (id: number): Question => ({
+      id,
+      type: "QRU",
+      question: "Question",
+      choix: ["A) Juste", "B) Faux"],
+      reponses: ["A"],
+    });
+
+    const exam: ExamData = {
+      matiere: "Maladies Transmissibles",
+      annee: 2023,
+      total_questions: 2,
+      folders: [
+        {
+          id: "dp-1",
+          type: "DP",
+          title: "Dossier 1",
+          order: 1,
+          questions: [makeQuestion(1)],
+        },
+        {
+          id: "dp-2",
+          type: "DP",
+          title: "Dossier 2",
+          order: 2,
+          questions: [makeQuestion(2)],
+        },
+      ],
+    };
+
+    // Seul le dossier 1 est soumis (et repondu correctement) ; le dossier 2
+    // n'a pas ete soumis du tout.
+    const score = getExamScore(exam, { 1: ["A"] }, { "dp-1": true });
+
+    const dpCategory = score.categories.find((category) => category.type === "DP");
+    expect(dpCategory?.averageOn20).toBe(10);
+    expect(dpCategory?.submittedFoldersCount).toBe(1);
+  });
 });
 
 describe("réponses critiques (indispensable / inacceptable)", () => {

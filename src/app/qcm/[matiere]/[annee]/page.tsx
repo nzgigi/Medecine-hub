@@ -659,7 +659,7 @@ export default function QCMPage() {
             <div className="mb-1 text-sm font-bold text-emerald-800 dark:text-emerald-300">
               Question {questionNumber} • {question.type}
             </div>
-            <h3 className="font-black whitespace-pre-wrap text-stone-950 dark:text-stone-100">
+            <h3 className="font-bold whitespace-pre-wrap text-stone-950 dark:text-stone-100">
               {question.question}
             </h3>
           </div>
@@ -1190,7 +1190,7 @@ export default function QCMPage() {
               />
             )}
 
-            <h2 className="mb-5 whitespace-pre-wrap text-lg font-black leading-snug tracking-tight sm:text-xl">
+            <h2 className="mb-5 whitespace-pre-wrap text-base font-bold leading-snug tracking-tight sm:text-lg">
               {currentQuestion.question}
             </h2>
 
