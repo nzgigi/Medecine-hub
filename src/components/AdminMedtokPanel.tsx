@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Check, Edit, Plus, Sparkles, Trash2, X } from "lucide-react";
 import { useDialogs } from "@/components/DialogProvider";
 import type { MedtokCardEntry } from "@/app/api/admin/medtok-cards/route";
@@ -30,7 +31,13 @@ export default function AdminMedtokPanel({
   getAdminHeaders,
   onStatus,
 }: AdminMedtokPanelProps) {
-  const { dangerConfirm } = useDialogs();
+  const router = useRouter();
+  const { alert: showAlert, dangerConfirm } = useDialogs();
+
+  const handleUnauthorized = () => {
+    localStorage.removeItem("admin_token");
+    router.push("/admin/login");
+  };
 
   const [cards, setCards] = useState<MedtokCardEntry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -51,6 +58,11 @@ export default function AdminMedtokPanel({
       const response = await fetch("/api/admin/medtok-cards", {
         headers: getAdminHeaders(),
       });
+
+      if (response.status === 401) {
+        handleUnauthorized();
+        return;
+      }
 
       const result = (await response.json()) as {
         success: boolean;
@@ -111,10 +123,15 @@ export default function AdminMedtokPanel({
         }),
       });
 
+      if (response.status === 401) {
+        handleUnauthorized();
+        return;
+      }
+
       const result = (await response.json()) as { success: boolean; message?: string };
 
       if (!result.success) {
-        console.error(result.message);
+        await showAlert(result.message || "Échec de l'enregistrement de la carte.");
         return;
       }
 
@@ -140,10 +157,17 @@ export default function AdminMedtokPanel({
       body: JSON.stringify({ action: "delete", id: card.id }),
     });
 
-    const result = (await response.json()) as { success: boolean };
+    if (response.status === 401) {
+      handleUnauthorized();
+      return;
+    }
+
+    const result = (await response.json()) as { success: boolean; message?: string };
     if (result.success) {
       await loadCards();
       onStatus("Carte MedTok supprimee");
+    } else {
+      await showAlert(result.message || "Échec de la suppression de la carte.");
     }
   };
 
