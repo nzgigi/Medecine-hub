@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { ArrowLeft, ShieldCheck, Sparkles, Users } from "lucide-react";
+import { ArrowLeft, Users } from "lucide-react";
 import { listMembers } from "@/lib/server/socialProfile";
+import MembersSearch from "@/components/MembersSearch";
 
 export const dynamic = "force-dynamic";
 
@@ -35,47 +36,7 @@ export default function MembresPage() {
             Aucun membre pour le moment.
           </div>
         ) : (
-          <div className="grid gap-3 sm:grid-cols-2">
-            {members.map((member) => {
-              const avatarSrc = member.avatarPath || member.picture;
-
-              return (
-                <Link
-                  key={member.sub}
-                  href={`/profil/${member.handle}`}
-                  className="flex items-center gap-3 rounded-lg border border-stone-200 bg-white p-4 shadow-sm transition-colors hover:border-emerald-300 dark:border-stone-800 dark:bg-[#1d1c18] dark:hover:border-emerald-700"
-                >
-                  {avatarSrc ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={avatarSrc}
-                      alt={member.name}
-                      className="h-12 w-12 shrink-0 rounded-lg object-cover"
-                    />
-                  ) : (
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-lg font-black text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
-                      {member.name.charAt(0)}
-                    </div>
-                  )}
-
-                  <div className="min-w-0">
-                    <div className="flex items-center gap-1.5">
-                      <p className="truncate font-bold">{member.name}</p>
-                      {member.role === "administrateur" && (
-                        <ShieldCheck className="h-3.5 w-3.5 shrink-0 text-emerald-700 dark:text-emerald-300" />
-                      )}
-                    </div>
-                    <p className="flex items-center gap-1 text-xs text-stone-500 dark:text-stone-400">
-                      {member.totalAttempts} épreuve{member.totalAttempts > 1 ? "s" : ""}
-                      <span className="text-stone-300 dark:text-stone-600">·</span>
-                      <Sparkles className="h-3 w-3" />
-                      {member.achievementsCount}
-                    </p>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+          <MembersSearch members={members} />
         )}
       </div>
     </main>

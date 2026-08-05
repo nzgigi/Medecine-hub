@@ -72,7 +72,7 @@ export async function POST(req: NextRequest) {
 
     const { data, error } = await resend.emails.send({
       from: "Medecine Hub <onboarding@resend.dev>",
-      to: ["nnzn4s1m@gmail.com"],
+      to: ["nnzn4s1m@gmail.com", "p2cuisson@gmail.com"],
       replyTo: email,
       subject: `[Contact Medecine Hub] ${subject}`,
       html: `

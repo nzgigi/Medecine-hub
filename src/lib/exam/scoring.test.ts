@@ -27,6 +27,11 @@ describe("scoring", () => {
     expect(getQuestionScore(qrmQuestion, ["B", "D"])).toBe(0);
   });
 
+  it("ne donne aucun point a une question QRM laissee sans reponse", () => {
+    expect(getQuestionScore(qrmQuestion, [])).toBe(0);
+    expect(getQuestionScore(qrmQuestion, undefined)).toBe(0);
+  });
+
   it("ne pondère pas les catégories absentes d'une épreuve", () => {
     const exam: ExamData = {
       matiere: "Diabetologie",

@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     "Révisez gratuitement vos examens de médecine avec des centaines de QCM d'annales DFASM1 et DFASM2 classés par matière et par année.",
 
   icons: {
-    icon: "/brand/pfp-v2.png",
-    apple: "/brand/pfp-v2.png",
+    icon: "/brand/favicon-icon.png",
+    apple: "/brand/favicon-icon.png",
   },
 
   openGraph: {

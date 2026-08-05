@@ -1366,6 +1366,9 @@ export default function EditQCMPage() {
                           className="w-full border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-3 rounded-lg focus:border-blue-500 focus:outline-none font-medium"
                           rows={3}
                         />
+                        <p className="mt-1 text-xs text-gray-400 dark:text-stone-500">
+                          **gras** et *italique* sont pris en charge dans l&apos;énoncé.
+                        </p>
                       </div>
 
                       <div className="mb-4">

@@ -88,7 +88,7 @@ export default function SiteChrome({
               en medecine.
             </p>
 
-            <p>DFASM1 et DFASM2 - Annales 2023, 2024 et 2025</p>
+            <p>Annales facultaires de Toulouse - 1er et 2e cycle</p>
           </div>
         </div>
       </footer>

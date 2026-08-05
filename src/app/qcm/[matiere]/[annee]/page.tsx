@@ -6,6 +6,7 @@ import Link from "next/link";
 import {
   AlertCircle,
   ArrowLeft,
+  ArrowUp,
   CheckCircle,
   ChevronDown,
   ChevronLeft,
@@ -35,6 +36,7 @@ import {
   violatesCritique,
 } from "@/lib/exam/scoring";
 import { isQrocAnswerCorrect } from "@/lib/exam/qroc";
+import { renderRichText } from "@/lib/text/richText";
 import ThemeToggle from "@/components/ThemeToggle";
 import { useDialogs } from "@/components/DialogProvider";
 
@@ -659,8 +661,8 @@ export default function QCMPage() {
             <div className="mb-1 text-sm font-bold text-emerald-800 dark:text-emerald-300">
               Question {questionNumber} • {question.type}
             </div>
-            <h3 className="font-bold whitespace-pre-wrap text-stone-950 dark:text-stone-100">
-              {question.question}
+            <h3 className="whitespace-pre-wrap text-sm text-stone-950 dark:text-stone-100">
+              {renderRichText(question.question)}
             </h3>
           </div>
 
@@ -760,22 +762,17 @@ export default function QCMPage() {
                 >
                   <div className="flex items-center justify-between gap-3">
                     <span>{choice}</span>
-                    <span className="flex items-center gap-2 text-xs font-semibold">
-                      {isCritique && (
-                        <span
-                          className={`rounded-full px-2 py-0.5 ${
-                            isCorrect
-                              ? "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200"
-                              : "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200"
-                          }`}
-                        >
-                          {isCorrect ? "Indispensable" : "Inacceptable"}
-                        </span>
-                      )}
-                      {isSelected && isCorrect && "Coché + bon"}
-                      {isSelected && !isCorrect && "Coché + faux"}
-                      {!isSelected && isCorrect && "Bonne réponse oubliée"}
-                    </span>
+                    {isCritique && (
+                      <span
+                        className={`rounded-full px-2 py-0.5 text-xs font-semibold ${
+                          isCorrect
+                            ? "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200"
+                            : "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200"
+                        }`}
+                      >
+                        {isCorrect ? "Indispensable" : "Inacceptable"}
+                      </span>
+                    )}
                   </div>
                 </div>
               );
@@ -801,7 +798,11 @@ export default function QCMPage() {
     <>
       <div className="mb-4 flex items-center justify-between">
         <div className="text-lg font-black">Questions</div>
-        <button onClick={() => setQuestionsPanelOpen(false)} aria-label="Fermer">
+        <button
+          onClick={() => setQuestionsPanelOpen(false)}
+          aria-label="Fermer"
+          className="lg:hidden"
+        >
           <X className="h-5 w-5" />
         </button>
       </div>
@@ -841,7 +842,11 @@ export default function QCMPage() {
     <>
       <div className="mb-4 flex items-center justify-between">
         <div className="text-lg font-black">Dossiers</div>
-        <button onClick={() => setFoldersPanelOpen(false)} aria-label="Fermer">
+        <button
+          onClick={() => setFoldersPanelOpen(false)}
+          aria-label="Fermer"
+          className="lg:hidden"
+        >
           <X className="h-5 w-5" />
         </button>
       </div>
@@ -1052,6 +1057,16 @@ export default function QCMPage() {
               })}
           </div>
         </div>
+
+        <button
+          type="button"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          aria-label="Remonter en haut de page"
+          title="Remonter en haut"
+          className="fixed bottom-6 right-6 flex h-11 w-11 items-center justify-center rounded-full bg-emerald-800 text-white shadow-lg transition-colors hover:bg-emerald-700"
+        >
+          <ArrowUp className="h-5 w-5" />
+        </button>
       </div>
     );
   }
@@ -1090,11 +1105,11 @@ export default function QCMPage() {
           <div className="flex shrink-0 items-center gap-1.5">
             <button
               onClick={() => setQuestionsPanelOpen((current) => !current)}
-              className={
+              className={`lg:hidden ${
                 questionsPanelOpen
                   ? ICON_BUTTON_ACTIVE_CLASSES
                   : ICON_BUTTON_CLASSES
-              }
+              }`}
               aria-label="Afficher/masquer les questions"
               title="Questions"
             >
@@ -1103,11 +1118,11 @@ export default function QCMPage() {
 
             <button
               onClick={() => setFoldersPanelOpen((current) => !current)}
-              className={
+              className={`lg:hidden ${
                 foldersPanelOpen
                   ? ICON_BUTTON_ACTIVE_CLASSES
                   : ICON_BUTTON_CLASSES
-              }
+              }`}
               aria-label="Afficher/masquer les dossiers"
               title="Dossiers"
             >
@@ -1136,7 +1151,12 @@ export default function QCMPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-3xl px-4 py-6 sm:py-8">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:py-8 lg:grid lg:grid-cols-[260px_1fr_260px] lg:items-start lg:gap-6">
+        <aside className="hidden lg:sticky lg:top-20 lg:block lg:rounded-2xl lg:border lg:border-stone-200 lg:bg-white lg:p-5 lg:shadow-sm dark:lg:border-stone-800 dark:lg:bg-[#151512]">
+          {questionsDrawer}
+        </aside>
+
+        <main className="mx-auto max-w-3xl">
         <div className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-[#151512]">
           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 px-5 py-3 dark:border-stone-900">
             <div className="flex flex-wrap items-center gap-2">
@@ -1190,8 +1210,8 @@ export default function QCMPage() {
               />
             )}
 
-            <h2 className="mb-5 whitespace-pre-wrap text-base font-bold leading-snug tracking-tight sm:text-lg">
-              {currentQuestion.question}
+            <h2 className="mb-5 whitespace-pre-wrap text-sm leading-snug tracking-tight sm:text-base">
+              {renderRichText(currentQuestion.question)}
             </h2>
 
             {currentQuestion.image && (
@@ -1268,16 +1288,21 @@ export default function QCMPage() {
             <ChevronRight className="h-4 w-4" />
           </button>
         </div>
-      </main>
+        </main>
+
+        <aside className="hidden lg:sticky lg:top-20 lg:block lg:rounded-2xl lg:border lg:border-stone-200 lg:bg-white lg:p-5 lg:shadow-sm dark:lg:border-stone-800 dark:lg:bg-[#151512]">
+          {foldersDrawer}
+        </aside>
+      </div>
 
       {questionsPanelOpen && (
-        <div className="fixed left-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-r border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-[#151512]/98">
+        <div className="fixed left-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-r border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-[#151512]/98 lg:hidden">
           {questionsDrawer}
         </div>
       )}
 
       {foldersPanelOpen && (
-        <div className="fixed right-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-l border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-[#151512]/98">
+        <div className="fixed right-0 top-14 bottom-0 z-40 w-80 max-w-[85vw] overflow-y-auto border-l border-stone-200 bg-white/98 p-5 shadow-2xl backdrop-blur dark:border-stone-800 dark:bg-[#151512]/98 lg:hidden">
           {foldersDrawer}
         </div>
       )}

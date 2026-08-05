@@ -23,6 +23,7 @@ import {
   Search,
   ShieldCheck,
   SlidersHorizontal,
+  Star,
   Trash2,
   Users,
   Wand2,
@@ -292,7 +293,10 @@ function AdminAction({
   );
 }
 
-type AdminTab = "overview" | "epreuves" | "medtok" | "stats";
+type AdminTab = "overview" | "epreuves" | "medtok";
+
+const FAVORITE_COLORS_STORAGE_KEY = "medecine_hub_admin_favorite_colors";
+const MAX_FAVORITE_COLORS = 10;
 
 export default function AdminDashboard() {
   const router = useRouter();
@@ -300,6 +304,38 @@ export default function AdminDashboard() {
     useDialogs();
 
   const [activeTab, setActiveTab] = useState<AdminTab>("overview");
+
+  const [favoriteColors, setFavoriteColors] = useState<string[]>([]);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(FAVORITE_COLORS_STORAGE_KEY);
+      if (raw) setFavoriteColors(JSON.parse(raw));
+    } catch {
+      // pas grave si le stockage local est indisponible
+    }
+  }, []);
+
+  const addFavoriteColor = (color: string) => {
+    if (!color || !color.startsWith("#")) return;
+
+    setFavoriteColors((current) => {
+      const next = [color, ...current.filter((c) => c !== color)].slice(
+        0,
+        MAX_FAVORITE_COLORS
+      );
+      localStorage.setItem(FAVORITE_COLORS_STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
+  };
+
+  const removeFavoriteColor = (color: string) => {
+    setFavoriteColors((current) => {
+      const next = current.filter((c) => c !== color);
+      localStorage.setItem(FAVORITE_COLORS_STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
+  };
 
   const [entries, setEntries] = useState<MatiereIndex[]>([]);
   const [loading, setLoading] = useState(true);
@@ -1170,7 +1206,6 @@ export default function AdminDashboard() {
                 { id: "overview", label: "Vue d'ensemble", icon: LayoutGrid },
                 { id: "epreuves", label: "Epreuves", icon: FileText },
                 { id: "medtok", label: "MedTok", icon: Zap },
-                { id: "stats", label: "Statistiques", icon: BarChart3 },
               ] as { id: AdminTab; label: string; icon: typeof BookOpen }[]
             ).map((tab) => {
               const TabIcon = tab.icon;
@@ -1438,7 +1473,7 @@ export default function AdminDashboard() {
         </section>
         )}
 
-        {activeTab === "stats" && (
+        {activeTab === "overview" && (
         <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-3">
@@ -1642,14 +1677,15 @@ export default function AdminDashboard() {
               <div className="space-y-4">
                 {subjects.map((subject, subjectIndex) => (
                   <section key={subject.slug} className="overflow-hidden rounded-xl border border-stone-200 dark:border-stone-800">
-                    <div className="bg-stone-50 p-4 dark:bg-[#151512]">
-                      <div className="grid gap-3 lg:grid-cols-[1fr_220px_auto] lg:items-end">
-                        <div>
-                          <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">Matiere</label>
-                          <input value={subject.matiere} onChange={(event) => renameSubject(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-100" />
-                          <p className="mt-1 text-xs text-stone-500 dark:text-stone-400">{subject.slug} - {subject.totalQuestions} question(s)</p>
-                        </div>
-                        <div>
+                    <div className="bg-stone-50 p-5 dark:bg-[#151512]">
+                      <div className="mb-3">
+                        <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">Matiere</label>
+                        <input value={subject.matiere} onChange={(event) => renameSubject(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2.5 text-base font-bold text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-100" />
+                        <p className="mt-1.5 text-sm font-semibold text-stone-500 dark:text-stone-400">{subject.slug} - {subject.totalQuestions} question(s)</p>
+                      </div>
+
+                      <div className="flex flex-wrap items-end justify-between gap-3">
+                        <div className="w-full max-w-[220px]">
                           <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500 dark:text-stone-400">Menu</label>
                           <select value={subject.semesterName} onChange={(event) => assignSubjectToSemester(subject.slug, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-100">
                             {semesters.map((semester) => <option key={semester.name} value={semester.name}>{semester.name}</option>)}
@@ -1723,14 +1759,40 @@ export default function AdminDashboard() {
                               placeholder="#10b981"
                               className="w-24 rounded-lg border border-stone-300 bg-white px-2 py-1.5 text-xs font-mono text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-100"
                             />
+                            <button
+                              type="button"
+                              onClick={() => addFavoriteColor(subject.subjectColor || DEFAULT_SUBJECT_COLOR)}
+                              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-stone-300 text-stone-500 transition hover:border-amber-400 hover:text-amber-500 dark:border-stone-700 dark:text-stone-400"
+                              title="Ajouter aux couleurs favorites"
+                              aria-label="Ajouter aux couleurs favorites"
+                            >
+                              <Star className="h-4 w-4" />
+                            </button>
                           </div>
+
+                          {favoriteColors.length > 0 && (
+                            <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                              {favoriteColors.map((color) => (
+                                <button
+                                  key={color}
+                                  type="button"
+                                  onClick={() => updateSubjectColor(subject.slug, color)}
+                                  onDoubleClick={() => removeFavoriteColor(color)}
+                                  className="group relative h-6 w-6 shrink-0 rounded-full border border-stone-300 dark:border-stone-700"
+                                  style={{ backgroundColor: color }}
+                                  title={`${color} (double-clic pour retirer)`}
+                                  aria-label={`Utiliser la couleur ${color}`}
+                                />
+                              ))}
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>
 
                     <div className="divide-y divide-stone-100 dark:divide-stone-800">
                       {subject.exams.map((exam, examIndex) => (
-                        <div key={`${exam.slug}-${exam.annee}`} className="grid gap-3 p-4 lg:grid-cols-[96px_1fr_140px_auto] lg:items-center">
+                        <div key={`${exam.slug}-${exam.annee}`} className="grid gap-3 p-4 sm:p-5 lg:grid-cols-[96px_1fr_140px_auto] lg:items-center">
                           <div className="text-sm font-black text-stone-500 dark:text-stone-400">{exam.annee}</div>
                           <input value={exam.examTitle || `${exam.matiere} - ${exam.annee}`} onChange={(event) => renameExam(exam.slug, exam.annee, event.target.value)} className="w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100" />
                           <div className="text-sm font-semibold text-stone-500 dark:text-stone-400">{exam.total_questions} question(s)</div>

@@ -241,12 +241,18 @@ export default function HomePage() {
               return (
                 <div
                   key={item.label}
-                  className="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-[#151512]"
+                  className="flex items-center gap-3 rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-[#151512]"
                 >
-                  <Icon className="h-5 w-5 text-emerald-800 dark:text-emerald-300" />
-                  <div className="mt-3 text-3xl font-black">{item.value}</div>
-                  <div className="text-sm text-stone-600 dark:text-stone-400">
-                    {item.label}
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-emerald-100 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                    <Icon className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <div className="text-3xl font-black leading-tight">
+                      {item.value}
+                    </div>
+                    <div className="text-sm text-stone-600 dark:text-stone-400">
+                      {item.label}
+                    </div>
                   </div>
                 </div>
               );

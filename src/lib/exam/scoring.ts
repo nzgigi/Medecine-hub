@@ -81,6 +81,8 @@ export function getQuestionScore(
     return goodSelected * pointsPerGoodAnswer;
   }
 
+  if (userAnswers.length === 0) return 0;
+
   const correctSet = new Set(correctAnswers);
   const selectedSet = new Set(userAnswers);
 
