@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, History, ShieldCheck } from "lucide-react";
+import AdminSessionBadge from "@/components/AdminSessionBadge";
 
 interface AdminLogEntry {
   id: string;
@@ -109,13 +110,17 @@ export default function AdminLogsPage() {
   return (
     <main className="min-h-screen bg-stone-50 px-4 py-10 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
       <div className="mx-auto max-w-3xl">
-        <Link
-          href="/admin"
-          className="inline-flex items-center gap-2 text-sm font-bold text-stone-500 transition-colors hover:text-emerald-800 dark:text-stone-400 dark:hover:text-emerald-300"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          Retour au dashboard
-        </Link>
+        <div className="flex items-center justify-between gap-3">
+          <Link
+            href="/admin"
+            className="inline-flex items-center gap-2 text-sm font-bold text-stone-500 transition-colors hover:text-emerald-800 dark:text-stone-400 dark:hover:text-emerald-300"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Retour au dashboard
+          </Link>
+
+          <AdminSessionBadge />
+        </div>
 
         <div className="mb-6 mt-6 flex items-center gap-3">
           <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">

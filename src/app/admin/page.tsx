@@ -38,6 +38,7 @@ import {
 } from "@/lib/subjectStyles";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminMedtokPanel from "@/components/AdminMedtokPanel";
+import AdminSessionBadge from "@/components/AdminSessionBadge";
 
 interface MatiereIndex {
   matiere: string;
@@ -1173,6 +1174,7 @@ export default function AdminDashboard() {
                   {statusMessage}
                 </div>
               )}
+              <AdminSessionBadge />
               <button
                 onClick={() => saveIndex(entries)}
                 disabled={savingIndex}

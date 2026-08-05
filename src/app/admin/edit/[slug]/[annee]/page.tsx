@@ -28,6 +28,7 @@ import type {
 } from "@/types/exam";
 import { normalizeExamData } from "@/lib/exam/normalizeExam";
 import { useDialogs } from "@/components/DialogProvider";
+import AdminSessionBadge from "@/components/AdminSessionBadge";
 
 const QUESTION_TYPES: { value: QuestionType; label: string }[] = [
   { value: "QRU", label: "QRU (Réponse Unique)" },
@@ -1042,6 +1043,8 @@ export default function EditQCMPage() {
                   Sauvegardé
                 </div>
               )}
+
+              <AdminSessionBadge />
 
               <button
                 onClick={addFolder}
