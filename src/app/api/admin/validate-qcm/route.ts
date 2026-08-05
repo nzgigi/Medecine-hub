@@ -6,19 +6,43 @@ interface ImageZone {
   x: number;
   y: number;
   radius: number;
+  label?: string;
+}
+
+interface AssociationItem {
+  id: string;
+  label: string;
+  correctAnswer: string;
+}
+
+interface NumericRange {
+  min: number;
+  max: number;
 }
 
 interface Question {
   id: number;
-  type: "QRU" | "QRM" | "QRP" | "QROC" | "IMAGE_ZONE" | string;
+  type:
+    | "QRU"
+    | "QRM"
+    | "QRP"
+    | "QROC"
+    | "IMAGE_ZONE"
+    | "ASSOCIATION"
+    | "VALEUR_NUMERIQUE"
+    | string;
   contexte?: string;
   question?: string;
   choix?: string[];
   reponses?: string[];
   image?: string;
+  images?: string[];
   zones?: ImageZone[];
+  items?: AssociationItem[];
+  numericRange?: NumericRange;
   maxReponses?: number;
   correctionExplanation?: string;
+  correctionImage?: string;
   order?: number;
 }
 
@@ -93,7 +117,15 @@ function validateQuestion(
     });
   }
 
-  const allowedTypes = ["QRU", "QRM", "QRP", "QROC", "IMAGE_ZONE"];
+  const allowedTypes = [
+    "QRU",
+    "QRM",
+    "QRP",
+    "QROC",
+    "IMAGE_ZONE",
+    "ASSOCIATION",
+    "VALEUR_NUMERIQUE",
+  ];
 
   if (!allowedTypes.includes(question.type)) {
     issues.push({
@@ -118,7 +150,9 @@ function validateQuestion(
   }
 
   if (question.type === "IMAGE_ZONE") {
-    if (!question.image) {
+    const hasImage = Boolean(question.image) || Boolean(question.images?.length);
+
+    if (!hasImage) {
       issues.push({
         file,
         level: "error",
@@ -131,6 +165,66 @@ function validateQuestion(
         file,
         level: "error",
         message: `${label} : question a zones sans zone correcte definie`,
+      });
+    }
+
+    return;
+  }
+
+  if (question.type === "ASSOCIATION") {
+    const items = Array.isArray(question.items) ? question.items : [];
+    const choices = Array.isArray(question.choix) ? question.choix : [];
+
+    if (items.length === 0) {
+      issues.push({
+        file,
+        level: "error",
+        message: `${label} : question association sans item`,
+      });
+    }
+
+    if (choices.length < 2) {
+      issues.push({
+        file,
+        level: "error",
+        message: `${label} : question association avec moins de 2 options`,
+      });
+    }
+
+    items.forEach((item, index) => {
+      if (!item.label || !item.label.trim()) {
+        issues.push({
+          file,
+          level: "error",
+          message: `${label} : item ${index + 1} sans intitulé`,
+        });
+      }
+
+      if (!choices.includes(item.correctAnswer)) {
+        issues.push({
+          file,
+          level: "error",
+          message: `${label} : item ${index + 1} pointe vers une option inexistante`,
+        });
+      }
+    });
+
+    return;
+  }
+
+  if (question.type === "VALEUR_NUMERIQUE") {
+    const range = question.numericRange;
+
+    if (
+      !range ||
+      typeof range.min !== "number" ||
+      typeof range.max !== "number" ||
+      range.min > range.max
+    ) {
+      issues.push({
+        file,
+        level: "error",
+        message: `${label} : intervalle numérique invalide`,
       });
     }
 

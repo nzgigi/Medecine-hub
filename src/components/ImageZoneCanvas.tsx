@@ -4,6 +4,19 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import type { ImagePoint, ImageZone } from "@/types/exam";
 
+export const ZONE_COLOR_PALETTE = [
+  "#0ea5e9",
+  "#f59e0b",
+  "#8b5cf6",
+  "#f43f5e",
+  "#06b6d4",
+  "#84cc16",
+];
+
+export function getZoneColor(index: number): string {
+  return ZONE_COLOR_PALETTE[index % ZONE_COLOR_PALETTE.length];
+}
+
 function distanceBetweenPoints(a: ImagePoint, b: ImagePoint): number {
   return Math.hypot(a.x - b.x, a.y - b.y);
 }
@@ -81,19 +94,26 @@ export default function ImageZoneCanvas({
       <img src={image} alt={imageAlt} className="block w-full" draggable={false} />
 
       {renderedWidth > 0 &&
-        zones?.map((zone, index) => (
-          <div
-            key={`zone-${index}`}
-            className="pointer-events-none absolute rounded-full border-2 border-emerald-500 bg-emerald-500/10"
-            style={{
-              left: toPx(zone.x),
-              top: toPx(zone.y),
-              width: toPx(zone.radius * 2),
-              height: toPx(zone.radius * 2),
-              transform: "translate(-50%, -50%)",
-            }}
-          />
-        ))}
+        zones?.map((zone, index) => {
+          const color = getZoneColor(index);
+
+          return (
+            <div
+              key={`zone-${index}`}
+              className="pointer-events-none absolute rounded-full border-2"
+              style={{
+                left: toPx(zone.x),
+                top: toPx(zone.y),
+                width: toPx(zone.radius * 2),
+                height: toPx(zone.radius * 2),
+                transform: "translate(-50%, -50%)",
+                borderColor: color,
+                backgroundColor: `${color}26`,
+              }}
+              title={zone.label}
+            />
+          );
+        })}
 
       {renderedWidth > 0 &&
         points.map((point, index) => {

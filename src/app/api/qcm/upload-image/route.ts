@@ -28,10 +28,18 @@ export async function POST(req: NextRequest) {
     const slug = String(formData.get("slug") || "");
     const annee = String(formData.get("annee") || "");
     const questionId = String(formData.get("questionId") || "");
+    const rawVariant = String(formData.get("variant") || "");
 
     if (!(file instanceof File) || !slug || !annee || !questionId) {
       return NextResponse.json(
         { success: false, message: "Paramètres manquants" },
+        { status: 400 }
+      );
+    }
+
+    if (rawVariant && !/^[a-z0-9]{1,20}$/.test(rawVariant)) {
+      return NextResponse.json(
+        { success: false, message: "Variante d'image invalide" },
         { status: 400 }
       );
     }
@@ -56,7 +64,9 @@ export async function POST(req: NextRequest) {
     const safeQuestionId = sanitizeQuestionId(questionId);
     const imageRoot = safeJoinInside(process.cwd(), "public", "images", "qcm");
     const dir = safeJoinInside(imageRoot, safeSlug, safeYear);
-    const filename = `q${safeQuestionId}.${ext}`;
+    const filename = rawVariant
+      ? `q${safeQuestionId}_${rawVariant}.${ext}`
+      : `q${safeQuestionId}.${ext}`;
     const filepath = safeJoinInside(dir, filename);
 
     await mkdir(dir, { recursive: true });

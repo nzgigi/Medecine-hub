@@ -1,4 +1,6 @@
 import type {
+  AssociationAnswer,
+  AssociationItem,
   ExamData,
   ExamScoreResult,
   FolderScoreResult,
@@ -6,6 +8,7 @@ import type {
   FolderType,
   ImagePoint,
   ImageZone,
+  NumericRange,
   Question,
   QuestionScoreResult,
   UserAnswer,
@@ -54,6 +57,38 @@ function getImageZoneScore(
   if (mistakes === 1) return 0.5;
   if (mistakes === 2) return 0.2;
   return 0;
+}
+
+function isAssociationAnswer(value: unknown): value is AssociationAnswer {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+/** Note proportionnelle : (items corrects) / (nombre total d'items). */
+function getAssociationScore(
+  items: AssociationItem[],
+  answer: UserAnswer | undefined
+): number {
+  if (items.length === 0) return 0;
+
+  const responses = isAssociationAnswer(answer) ? answer : {};
+  const correctCount = items.filter(
+    (item) => responses[item.id] === item.correctAnswer
+  ).length;
+
+  return correctCount / items.length;
+}
+
+function getNumericScore(
+  range: NumericRange | undefined,
+  answer: UserAnswer | undefined
+): number {
+  if (!range) return 0;
+  if (typeof answer !== "string" || answer.trim() === "") return 0;
+
+  const value = Number(answer.trim().replace(",", "."));
+  if (!Number.isFinite(value)) return 0;
+
+  return value >= range.min && value <= range.max ? 1 : 0;
 }
 
 const CATEGORY_WEIGHTS: Record<FolderType, number> = {
@@ -105,6 +140,14 @@ export function getQuestionScore(
 
   if (question.type === "IMAGE_ZONE") {
     return getImageZoneScore(question.zones ?? [], answer);
+  }
+
+  if (question.type === "ASSOCIATION") {
+    return getAssociationScore(question.items ?? [], answer);
+  }
+
+  if (question.type === "VALEUR_NUMERIQUE") {
+    return getNumericScore(question.numericRange, answer);
   }
 
   const userAnswers = (Array.isArray(answer) ? answer : []).filter(

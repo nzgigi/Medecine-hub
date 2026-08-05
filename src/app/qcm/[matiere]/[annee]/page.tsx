@@ -21,6 +21,7 @@ import {
   X,
 } from "lucide-react";
 import type {
+  AssociationAnswer,
   ExamData,
   ExamFolder,
   FolderSubmissions,
@@ -30,6 +31,7 @@ import type {
   UserAnswer,
   UserAnswers,
 } from "@/types/exam";
+import { getQuestionImages } from "@/types/exam";
 import { normalizeExamData } from "@/lib/exam/normalizeExam";
 import {
   getExamScore,
@@ -38,7 +40,7 @@ import {
 } from "@/lib/exam/scoring";
 import { isQrocAnswerCorrect } from "@/lib/exam/qroc";
 import { renderRichText } from "@/lib/text/richText";
-import ImageZoneCanvas from "@/components/ImageZoneCanvas";
+import ImageZoneCanvas, { getZoneColor } from "@/components/ImageZoneCanvas";
 import ThemeToggle from "@/components/ThemeToggle";
 import { useDialogs } from "@/components/DialogProvider";
 
@@ -74,8 +76,17 @@ function getFolderTypeLabel(type: ExamFolder["type"]) {
 }
 
 function hasAnswer(question: Question, answer: UserAnswer | undefined) {
-  if (question.type === "QROC") {
+  if (question.type === "QROC" || question.type === "VALEUR_NUMERIQUE") {
     return typeof answer === "string" && answer.trim().length > 0;
+  }
+
+  if (question.type === "ASSOCIATION") {
+    return (
+      typeof answer === "object" &&
+      answer !== null &&
+      !Array.isArray(answer) &&
+      Object.keys(answer).length > 0
+    );
   }
 
   return Array.isArray(answer) && answer.length > 0;
@@ -437,31 +448,58 @@ export default function QCMPage() {
     });
   };
 
+  const handleAssociationChange = (itemId: string, value: string) => {
+    if (isCurrentFolderSubmitted || isCurrentQuestionLocked) return;
+
+    const questionId = currentQuestion.id;
+
+    setUserAnswers((current) => {
+      const rawAnswer = current[questionId];
+      const currentAnswers: AssociationAnswer =
+        typeof rawAnswer === "object" && rawAnswer !== null && !Array.isArray(rawAnswer)
+          ? rawAnswer
+          : {};
+
+      return {
+        ...current,
+        [questionId]: { ...currentAnswers, [itemId]: value },
+      };
+    });
+  };
+
   const handleImageZonePointAdd = (point: ImagePoint) => {
     if (isCurrentFolderSubmitted || isCurrentQuestionLocked) return;
 
-    const rawAnswer = userAnswers[currentQuestion.id];
-    const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
-      (item): item is ImagePoint => typeof item === "object"
-    );
+    const questionId = currentQuestion.id;
 
-    setUserAnswers({
-      ...userAnswers,
-      [currentQuestion.id]: [...currentPoints, point],
+    setUserAnswers((current) => {
+      const rawAnswer = current[questionId];
+      const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
+        (item): item is ImagePoint => typeof item === "object"
+      );
+
+      return {
+        ...current,
+        [questionId]: [...currentPoints, point],
+      };
     });
   };
 
   const handleImageZonePointRemove = (index: number) => {
     if (isCurrentFolderSubmitted || isCurrentQuestionLocked) return;
 
-    const rawAnswer = userAnswers[currentQuestion.id];
-    const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
-      (item): item is ImagePoint => typeof item === "object"
-    );
+    const questionId = currentQuestion.id;
 
-    setUserAnswers({
-      ...userAnswers,
-      [currentQuestion.id]: currentPoints.filter((_, i) => i !== index),
+    setUserAnswers((current) => {
+      const rawAnswer = current[questionId];
+      const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
+        (item): item is ImagePoint => typeof item === "object"
+      );
+
+      return {
+        ...current,
+        [questionId]: currentPoints.filter((_, i) => i !== index),
+      };
     });
   };
 
@@ -627,13 +665,81 @@ export default function QCMPage() {
       );
     }
 
+    if (currentQuestion.type === "VALEUR_NUMERIQUE") {
+      const numericValue = typeof rawAnswer === "string" ? rawAnswer : "";
+
+      return (
+        <div className="space-y-3">
+          <input
+            type="text"
+            inputMode="decimal"
+            value={numericValue}
+            onChange={(event) => handleQrocChange(event.target.value)}
+            disabled={isCurrentFolderSubmitted || isCurrentQuestionLocked}
+            className="w-full rounded-lg border-2 border-stone-200 bg-white p-3 text-stone-950 focus:border-emerald-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
+            placeholder="Tapez une valeur numérique"
+          />
+
+          {(isCurrentFolderSubmitted || isCurrentQuestionLocked) && (
+            <div className="flex items-center gap-2 text-sm text-stone-500 dark:text-stone-400">
+              <Lock className="h-4 w-4" />
+              Réponse verrouillée
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    if (currentQuestion.type === "ASSOCIATION") {
+      const currentAnswers: AssociationAnswer =
+        typeof rawAnswer === "object" && rawAnswer !== null && !Array.isArray(rawAnswer)
+          ? rawAnswer
+          : {};
+      const locked = isCurrentFolderSubmitted || isCurrentQuestionLocked;
+      const items = currentQuestion.items ?? [];
+
+      return (
+        <div className="space-y-2.5">
+          {items.map((item) => (
+            <div
+              key={item.id}
+              className="flex flex-wrap items-center justify-between gap-3 rounded-lg border-2 border-stone-200 p-3.5 dark:border-stone-700"
+            >
+              <span className="font-medium">{item.label}</span>
+              <select
+                value={currentAnswers[item.id] ?? ""}
+                onChange={(event) => handleAssociationChange(item.id, event.target.value)}
+                disabled={locked}
+                className="rounded-lg border-2 border-stone-200 bg-white px-3 py-2 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 disabled:cursor-not-allowed disabled:opacity-70 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-100"
+              >
+                <option value="">Choisir...</option>
+                {currentQuestion.choix.map((choice) => (
+                  <option key={choice} value={choice}>
+                    {choice}
+                  </option>
+                ))}
+              </select>
+            </div>
+          ))}
+
+          {locked && (
+            <div className="flex items-center gap-2 text-sm text-stone-500 dark:text-stone-400">
+              <Lock className="h-4 w-4" />
+              Réponse verrouillée
+            </div>
+          )}
+        </div>
+      );
+    }
+
     if (currentQuestion.type === "IMAGE_ZONE") {
       const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
         (item): item is ImagePoint => typeof item === "object"
       );
       const locked = isCurrentFolderSubmitted || isCurrentQuestionLocked;
+      const zoneImage = getQuestionImages(currentQuestion)[0];
 
-      if (!currentQuestion.image) {
+      if (!zoneImage) {
         return (
           <p className="text-sm text-stone-500 dark:text-stone-400">
             Aucune image n&apos;a été configurée pour cette question.
@@ -643,13 +749,19 @@ export default function QCMPage() {
 
       return (
         <div className="space-y-3">
-          <p className="text-sm text-stone-500 dark:text-stone-400">
-            Cliquez sur l&apos;image à l&apos;endroit de l&apos;anomalie. Cliquez sur un
-            marqueur pour le retirer.
-          </p>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <p className="text-sm text-stone-500 dark:text-stone-400">
+              Cliquez sur l&apos;image à l&apos;endroit de l&apos;anomalie. Cliquez sur un
+              marqueur pour le retirer.
+            </p>
+            <span className="shrink-0 rounded-full bg-stone-100 px-2.5 py-1 text-xs font-bold text-stone-600 dark:bg-[#1d1c18] dark:text-stone-300">
+              {currentPoints.length} point{currentPoints.length > 1 ? "s" : ""} positionné
+              {currentPoints.length > 1 ? "s" : ""}
+            </span>
+          </div>
 
           <ImageZoneCanvas
-            image={currentQuestion.image}
+            image={zoneImage}
             points={currentPoints}
             onAddPoint={locked ? undefined : handleImageZonePointAdd}
             onRemovePoint={locked ? undefined : handleImageZonePointRemove}
@@ -724,9 +836,15 @@ export default function QCMPage() {
       (item): item is ImagePoint => typeof item === "object"
     );
     const userQrocAnswer = typeof answer === "string" ? answer : "";
+    const userAssociationAnswers: AssociationAnswer =
+      typeof answer === "object" && answer !== null && !Array.isArray(answer)
+        ? answer
+        : {};
     const critiqueViolated =
       question.type !== "QROC" &&
       question.type !== "IMAGE_ZONE" &&
+      question.type !== "ASSOCIATION" &&
+      question.type !== "VALEUR_NUMERIQUE" &&
       violatesCritique(question, userAnswerArray);
 
     return (
@@ -763,21 +881,25 @@ export default function QCMPage() {
           </div>
         )}
 
-        {question.image && question.type !== "IMAGE_ZONE" && (
-          <div className="mb-4 flex justify-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={question.image}
-              alt={`Illustration Q${question.id}`}
-              className="max-h-72 rounded-lg border border-stone-200 object-contain shadow-sm dark:border-stone-700"
-              onError={handleQuestionImageError}
-            />
-            <div
-              className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
-              style={{ display: "none" }}
-            >
-              Image indisponible
-            </div>
+        {question.type !== "IMAGE_ZONE" && getQuestionImages(question).length > 0 && (
+          <div className="mb-4 flex flex-wrap justify-center gap-3">
+            {getQuestionImages(question).map((src, index) => (
+              <div key={src} className="relative">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={src}
+                  alt={`Illustration ${index + 1} Q${question.id}`}
+                  className="max-h-72 rounded-lg border border-stone-200 object-contain shadow-sm dark:border-stone-700"
+                  onError={handleQuestionImageError}
+                />
+                <div
+                  className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
+                  style={{ display: "none" }}
+                >
+                  Image indisponible
+                </div>
+              </div>
+            ))}
           </div>
         )}
 
@@ -813,9 +935,9 @@ export default function QCMPage() {
           </div>
         ) : question.type === "IMAGE_ZONE" ? (
           <div className="space-y-3">
-            {question.image ? (
+            {getQuestionImages(question)[0] ? (
               <ImageZoneCanvas
-                image={question.image}
+                image={getQuestionImages(question)[0]}
                 points={userImagePoints}
                 zones={question.zones ?? []}
                 className="max-w-2xl"
@@ -827,10 +949,6 @@ export default function QCMPage() {
             )}
             <div className="flex flex-wrap items-center gap-4 text-xs font-semibold text-stone-500 dark:text-stone-400">
               <span className="inline-flex items-center gap-1.5">
-                <span className="h-2.5 w-2.5 rounded-full border border-emerald-500 bg-emerald-500/20" />
-                Zone attendue
-              </span>
-              <span className="inline-flex items-center gap-1.5">
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-600" />
                 Clic correct
               </span>
@@ -838,6 +956,81 @@ export default function QCMPage() {
                 <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
                 Clic hors zone
               </span>
+            </div>
+            {(question.zones ?? []).length > 0 && (
+              <div className="flex flex-wrap items-center gap-3 text-xs font-semibold text-stone-500 dark:text-stone-400">
+                {(question.zones ?? []).map((zone, index) => (
+                  <span key={index} className="inline-flex items-center gap-1.5">
+                    <span
+                      className="h-2.5 w-2.5 rounded-full border-2"
+                      style={{
+                        borderColor: getZoneColor(index),
+                        backgroundColor: `${getZoneColor(index)}26`,
+                      }}
+                    />
+                    {zone.label || `Zone ${index + 1}`}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+        ) : question.type === "ASSOCIATION" ? (
+          <div className="space-y-2">
+            {(question.items ?? []).map((item) => {
+              const selected = userAssociationAnswers[item.id];
+              const isCorrect = selected === item.correctAnswer;
+
+              return (
+                <div
+                  key={item.id}
+                  className={`rounded-lg border-2 p-3 text-sm ${
+                    !selected
+                      ? "border-stone-200 bg-stone-50 dark:border-stone-700 dark:bg-[#1d1c18]"
+                      : isCorrect
+                      ? "border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20"
+                      : "border-red-500 bg-red-50 dark:bg-red-900/20"
+                  }`}
+                >
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <span className="font-semibold">{item.label}</span>
+                    <span className={isCorrect ? "text-emerald-800 dark:text-emerald-200" : "text-stone-700 dark:text-stone-200"}>
+                      {selected || "Aucune réponse"}
+                    </span>
+                  </div>
+                  {!isCorrect && (
+                    <div className="mt-1 text-xs font-semibold text-emerald-700 dark:text-emerald-300">
+                      Bonne réponse : {item.correctAnswer}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        ) : question.type === "VALEUR_NUMERIQUE" ? (
+          <div className="space-y-3">
+            <div
+              className={`rounded-lg border p-4 ${
+                question.numericRange &&
+                Number.isFinite(Number(userQrocAnswer.replace(",", "."))) &&
+                Number(userQrocAnswer.replace(",", ".")) >= question.numericRange.min &&
+                Number(userQrocAnswer.replace(",", ".")) <= question.numericRange.max
+                  ? "border-emerald-500 bg-emerald-50 text-emerald-800 dark:bg-emerald-900/20 dark:text-emerald-200"
+                  : "border-red-500 bg-red-50 text-red-800 dark:bg-red-900/20 dark:text-red-200"
+              }`}
+            >
+              <div className="mb-1 text-sm font-semibold">Réponse donnée :</div>
+              <div>{userQrocAnswer.trim() || "Aucune réponse"}</div>
+            </div>
+
+            <div className="rounded-lg border border-stone-200 bg-stone-50 p-4 dark:border-stone-800 dark:bg-[#1d1c18]">
+              <div className="mb-1 text-sm font-semibold text-stone-700 dark:text-stone-200">
+                Intervalle accepté :
+              </div>
+              <div className="font-medium text-emerald-700 dark:text-emerald-300">
+                {question.numericRange
+                  ? `[${question.numericRange.min} ; ${question.numericRange.max}]`
+                  : "Non défini"}
+              </div>
             </div>
           </div>
         ) : (
@@ -887,14 +1080,27 @@ export default function QCMPage() {
           </div>
         )}
 
-        {question.correctionExplanation && (
+        {(question.correctionExplanation || question.correctionImage) && (
           <div className="mt-4 rounded-lg border border-emerald-200 bg-emerald-50 p-4 dark:border-emerald-800 dark:bg-emerald-950/20">
             <div className="mb-1 font-black text-emerald-900 dark:text-emerald-100">
               Commentaire de correction
             </div>
-            <div className="whitespace-pre-wrap text-sm text-emerald-800 dark:text-emerald-200">
-              {question.correctionExplanation}
-            </div>
+            {question.correctionExplanation && (
+              <div className="whitespace-pre-wrap text-sm text-emerald-800 dark:text-emerald-200">
+                {question.correctionExplanation}
+              </div>
+            )}
+            {question.correctionImage && (
+              <div className="mt-3 flex justify-center">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={question.correctionImage}
+                  alt="Illustration du commentaire de correction"
+                  className="max-h-72 rounded-lg border border-emerald-200 object-contain shadow-sm dark:border-emerald-800"
+                  onError={handleQuestionImageError}
+                />
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -1321,24 +1527,29 @@ export default function QCMPage() {
               {renderRichText(currentQuestion.question)}
             </h2>
 
-            {currentQuestion.image && currentQuestion.type !== "IMAGE_ZONE" && (
-              <div className="mb-6 flex justify-center">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={currentQuestion.image}
-                  alt={`Illustration Q${currentQuestion.id}`}
-                  className="max-h-72 cursor-zoom-in rounded-lg border border-stone-200 object-contain shadow-sm transition-opacity hover:opacity-90 dark:border-stone-700"
-                  onError={handleQuestionImageError}
-                  onClick={() => setLightboxImage(currentQuestion.image ?? null)}
-                />
-                <div
-                  className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
-                  style={{ display: "none" }}
-                >
-                  Image indisponible
+            {currentQuestion.type !== "IMAGE_ZONE" &&
+              getQuestionImages(currentQuestion).length > 0 && (
+                <div className="mb-6 flex flex-wrap justify-center gap-3">
+                  {getQuestionImages(currentQuestion).map((src, index) => (
+                    <div key={src} className="relative">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={src}
+                        alt={`Illustration ${index + 1} Q${currentQuestion.id}`}
+                        className="max-h-72 cursor-zoom-in rounded-lg border border-stone-200 object-contain shadow-sm transition-opacity hover:opacity-90 dark:border-stone-700"
+                        onError={handleQuestionImageError}
+                        onClick={() => setLightboxImage(src)}
+                      />
+                      <div
+                        className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
+                        style={{ display: "none" }}
+                      >
+                        Image indisponible
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              </div>
-            )}
+              )}
 
             {renderQuestionContent()}
           </div>

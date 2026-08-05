@@ -163,6 +163,73 @@ describe("IMAGE_ZONE", () => {
   });
 });
 
+describe("ASSOCIATION", () => {
+  const associationQuestion: Question = {
+    id: 1,
+    type: "ASSOCIATION",
+    question: "Associez chaque symptôme à sa maladie",
+    choix: ["Maladie X", "Maladie Y", "Maladie Z"],
+    reponses: [],
+    items: [
+      { id: "item-1", label: "Symptôme A", correctAnswer: "Maladie X" },
+      { id: "item-2", label: "Symptôme B", correctAnswer: "Maladie Y" },
+      { id: "item-3", label: "Symptôme C", correctAnswer: "Maladie Z" },
+      { id: "item-4", label: "Symptôme D", correctAnswer: "Maladie X" },
+    ],
+  };
+
+  it("note proportionnellement au nombre d'items corrects", () => {
+    expect(
+      getQuestionScore(associationQuestion, {
+        "item-1": "Maladie X",
+        "item-2": "Maladie Y",
+        "item-3": "Maladie Z",
+        "item-4": "Maladie X",
+      })
+    ).toBe(1);
+
+    expect(
+      getQuestionScore(associationQuestion, {
+        "item-1": "Maladie X",
+        "item-2": "Maladie Z",
+        "item-3": "Maladie Z",
+        "item-4": "Maladie X",
+      })
+    ).toBe(0.75);
+  });
+
+  it("ne donne aucun point sans reponse", () => {
+    expect(getQuestionScore(associationQuestion, undefined)).toBe(0);
+    expect(getQuestionScore(associationQuestion, {})).toBe(0);
+  });
+});
+
+describe("VALEUR_NUMERIQUE", () => {
+  const numericQuestion: Question = {
+    id: 1,
+    type: "VALEUR_NUMERIQUE",
+    question: "Quelle est la valeur ?",
+    choix: [],
+    reponses: [],
+    numericRange: { min: 48, max: 49 },
+  };
+
+  it("accepte toute valeur dans l'intervalle inclus", () => {
+    expect(getQuestionScore(numericQuestion, "48")).toBe(1);
+    expect(getQuestionScore(numericQuestion, "49")).toBe(1);
+    expect(getQuestionScore(numericQuestion, "48.5")).toBe(1);
+    expect(getQuestionScore(numericQuestion, "48,5")).toBe(1);
+  });
+
+  it("refuse une valeur hors intervalle ou invalide", () => {
+    expect(getQuestionScore(numericQuestion, "47.9")).toBe(0);
+    expect(getQuestionScore(numericQuestion, "49.1")).toBe(0);
+    expect(getQuestionScore(numericQuestion, "abc")).toBe(0);
+    expect(getQuestionScore(numericQuestion, "")).toBe(0);
+    expect(getQuestionScore(numericQuestion, undefined)).toBe(0);
+  });
+});
+
 describe("réponses critiques (indispensable / inacceptable)", () => {
   const critiqueQuestion: Question = {
     ...qrmQuestion,

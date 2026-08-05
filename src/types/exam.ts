@@ -1,4 +1,11 @@
-export type QuestionType = "QRU" | "QRM" | "QRP" | "QROC" | "IMAGE_ZONE";
+export type QuestionType =
+  | "QRU"
+  | "QRM"
+  | "QRP"
+  | "QROC"
+  | "IMAGE_ZONE"
+  | "ASSOCIATION"
+  | "VALEUR_NUMERIQUE";
 
 export type FolderType = "DP" | "SQI" | "KFP";
 
@@ -17,6 +24,21 @@ export interface ImagePoint {
 
 export interface ImageZone extends ImagePoint {
   radius: number;
+  /** Nom de la structure attendue (ex: "Cochlée"), affiché en légende. */
+  label?: string;
+}
+
+/** Un item de question ASSOCIATION : un intitulé à faire correspondre à l'une des options de `choix`. */
+export interface AssociationItem {
+  id: string;
+  label: string;
+  /** Doit correspondre exactement à l'une des valeurs de `question.choix`. */
+  correctAnswer: string;
+}
+
+export interface NumericRange {
+  min: number;
+  max: number;
 }
 
 export interface Question {
@@ -31,11 +53,20 @@ export interface Question {
    * dans `reponses`, inacceptable sinon. Voir src/lib/exam/scoring.ts.
    */
   critiques?: string[];
+  /** @deprecated conservé pour compatibilité, utiliser `images`. */
   image?: string;
+  /** Une ou plusieurs images illustrant la question. */
+  images?: string[];
   /** Zones correctes pour une question de type IMAGE_ZONE. */
   zones?: ImageZone[];
+  /** Items à associer pour une question de type ASSOCIATION. */
+  items?: AssociationItem[];
+  /** Intervalle correct pour une question de type VALEUR_NUMERIQUE. */
+  numericRange?: NumericRange;
   maxReponses?: number;
   correctionExplanation?: string;
+  /** Image jointe au commentaire de correction (ex: formule rendue graphiquement). */
+  correctionImage?: string;
   order?: number;
 }
 
@@ -70,7 +101,15 @@ export interface ExamData {
   questions?: Question[];
 }
 
-export type UserAnswer = string[] | string | ImagePoint[];
+/** Reponse a une question ASSOCIATION : id d'item -> reponse choisie. */
+export type AssociationAnswer = Record<string, string>;
+
+export type UserAnswer = string[] | string | ImagePoint[] | AssociationAnswer;
+
+export function getQuestionImages(question: Pick<Question, "image" | "images">): string[] {
+  if (question.images && question.images.length > 0) return question.images;
+  return question.image ? [question.image] : [];
+}
 
 export type UserAnswers = {
   [questionId: number]: UserAnswer;

@@ -27,10 +27,11 @@ import type {
   Question,
   QuestionType,
 } from "@/types/exam";
+import { getQuestionImages } from "@/types/exam";
 import { normalizeExamData } from "@/lib/exam/normalizeExam";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminSessionBadge from "@/components/AdminSessionBadge";
-import ImageZoneCanvas from "@/components/ImageZoneCanvas";
+import ImageZoneCanvas, { getZoneColor } from "@/components/ImageZoneCanvas";
 
 const QUESTION_TYPES: { value: QuestionType; label: string }[] = [
   { value: "QRU", label: "QRU (Réponse Unique)" },
@@ -38,9 +39,15 @@ const QUESTION_TYPES: { value: QuestionType; label: string }[] = [
   { value: "QRP", label: "QRP (Réponse Précisée)" },
   { value: "QROC", label: "QROC (Réponse Ouverte Courte)" },
   { value: "IMAGE_ZONE", label: "Zone sur image (radio, schéma...)" },
+  { value: "ASSOCIATION", label: "Association (menu déroulant partagé)" },
+  { value: "VALEUR_NUMERIQUE", label: "Valeur numérique (intervalle)" },
 ];
 
 const DEFAULT_ZONE_RADIUS = 0.05;
+
+function createAssociationItemId() {
+  return `item-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
 
 const FOLDER_TYPES: { value: FolderType; label: string }[] = [
   { value: "DP", label: "DP - Dossier progressif" },
@@ -714,6 +721,34 @@ export default function EditQCMPage() {
     }));
   };
 
+  const updateImageZoneLabel = (
+    folderId: string,
+    questionId: number,
+    index: number,
+    label: string
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  zones: (question.zones ?? []).map((zone, i) =>
+                    i === index ? { ...zone, label } : zone
+                  ),
+                }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
   const updateQuestionType = (
     folderId: string,
     questionId: number,
@@ -737,6 +772,8 @@ export default function EditQCMPage() {
                 reponses: [],
                 maxReponses: undefined,
                 zones: undefined,
+                items: undefined,
+                numericRange: undefined,
               };
             }
 
@@ -748,6 +785,34 @@ export default function EditQCMPage() {
                 reponses: [],
                 maxReponses: undefined,
                 zones: question.zones ?? [],
+                items: undefined,
+                numericRange: undefined,
+              };
+            }
+
+            if (type === "ASSOCIATION") {
+              return {
+                ...question,
+                type,
+                choix: question.choix.length > 0 ? question.choix : ["Option A", "Option B"],
+                reponses: [],
+                maxReponses: undefined,
+                zones: undefined,
+                items: question.items ?? [],
+                numericRange: undefined,
+              };
+            }
+
+            if (type === "VALEUR_NUMERIQUE") {
+              return {
+                ...question,
+                type,
+                choix: [],
+                reponses: [],
+                maxReponses: undefined,
+                zones: undefined,
+                items: undefined,
+                numericRange: question.numericRange ?? { min: 0, max: 0 },
               };
             }
 
@@ -761,8 +826,165 @@ export default function EditQCMPage() {
               reponses: [],
               maxReponses: type === "QRP" ? question.maxReponses || 3 : undefined,
               zones: undefined,
+              items: undefined,
+              numericRange: undefined,
             };
           }),
+        };
+      }),
+    }));
+  };
+
+  const addAssociationOption = (folderId: string, questionId: number) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? { ...question, choix: [...question.choix, ""] }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const removeAssociationOption = async (
+    folderId: string,
+    questionId: number,
+    index: number
+  ) => {
+    const folder = examData?.folders.find((item) => item.id === folderId);
+    const question = folder?.questions.find((item) => item.id === questionId);
+
+    if (question && question.choix.length <= 2) {
+      await showAlert("Il faut au moins 2 options.");
+      return;
+    }
+
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? { ...question, choix: question.choix.filter((_, i) => i !== index) }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const addAssociationItem = (folderId: string, questionId: number) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  items: [
+                    ...(question.items ?? []),
+                    { id: createAssociationItemId(), label: "", correctAnswer: "" },
+                  ],
+                }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const removeAssociationItem = (
+    folderId: string,
+    questionId: number,
+    itemId: string
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  items: (question.items ?? []).filter((item) => item.id !== itemId),
+                }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const updateAssociationItem = (
+    folderId: string,
+    questionId: number,
+    itemId: string,
+    field: "label" | "correctAnswer",
+    value: string
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  items: (question.items ?? []).map((item) =>
+                    item.id === itemId ? { ...item, [field]: value } : item
+                  ),
+                }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const updateNumericRange = (
+    folderId: string,
+    questionId: number,
+    field: "min" | "max",
+    value: number
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  numericRange: {
+                    ...(question.numericRange ?? { min: 0, max: 0 }),
+                    [field]: value,
+                  },
+                }
+              : question
+          ),
         };
       }),
     }));
@@ -1010,10 +1232,45 @@ export default function EditQCMPage() {
     }));
   };
 
+  type ImageSlot = { kind: "main"; index: number } | { kind: "correction" };
+
+  const setQuestionImageAt = (
+    folderId: string,
+    questionId: number,
+    index: number,
+    path: string | undefined
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) => {
+            if (question.id !== questionId) return question;
+
+            const currentImages = getQuestionImages(question);
+            const nextImages = [...currentImages];
+
+            if (path) {
+              nextImages[index] = path;
+            } else {
+              nextImages.splice(index, 1);
+            }
+
+            return { ...question, images: nextImages, image: undefined };
+          }),
+        };
+      }),
+    }));
+  };
+
   const handleImageUpload = async (
     folderId: string,
     questionId: number,
-    file: File
+    file: File,
+    slot: ImageSlot
   ) => {
     setUploadingQuestionId(questionId);
 
@@ -1023,6 +1280,12 @@ export default function EditQCMPage() {
       formData.append("slug", slug);
       formData.append("annee", annee);
       formData.append("questionId", String(questionId));
+
+      if (slot.kind === "correction") {
+        formData.append("variant", "correction");
+      } else if (slot.index > 0) {
+        formData.append("variant", String(slot.index));
+      }
 
       const response = await fetch("/api/qcm/upload-image", {
         method: "POST",
@@ -1037,7 +1300,11 @@ export default function EditQCMPage() {
       };
 
       if (result.success && result.path) {
-        updateQuestion(folderId, questionId, "image", result.path);
+        if (slot.kind === "correction") {
+          updateQuestion(folderId, questionId, "correctionImage", result.path);
+        } else {
+          setQuestionImageAt(folderId, questionId, slot.index, result.path);
+        }
       } else {
         await showAlert("❌ Erreur upload : " + (result.message || "Erreur inconnue"));
       }
@@ -1049,20 +1316,33 @@ export default function EditQCMPage() {
     }
   };
 
-  const handleImageDelete = async (folderId: string, question: Question) => {
-    if (!question.image) return;
-    if (!(await showConfirm("Supprimer l'image de cette question ?", { danger: true, confirmLabel: "Supprimer" })))
+  const handleImageDelete = async (
+    folderId: string,
+    question: Question,
+    slot: ImageSlot
+  ) => {
+    const imagePath =
+      slot.kind === "correction"
+        ? question.correctionImage
+        : getQuestionImages(question)[slot.index];
+
+    if (!imagePath) return;
+    if (!(await showConfirm("Supprimer cette image ?", { danger: true, confirmLabel: "Supprimer" })))
       return;
 
     try {
       await fetch("/api/qcm/delete-image", {
         method: "POST",
         headers: getAdminHeaders({ "Content-Type": "application/json" }),
-        body: JSON.stringify({ imagePath: question.image }),
+        body: JSON.stringify({ imagePath }),
       });
     } catch {}
 
-    updateQuestion(folderId, question.id, "image", undefined);
+    if (slot.kind === "correction") {
+      updateQuestion(folderId, question.id, "correctionImage", undefined);
+    } else {
+      setQuestionImageAt(folderId, question.id, slot.index, undefined);
+    }
   };
 
   if (loading) {
@@ -1469,108 +1749,116 @@ export default function EditQCMPage() {
                         <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                           {question.type === "IMAGE_ZONE"
                             ? "Image (radio, schéma...)"
-                            : "Image optionnelle"}
+                            : "Images optionnelles"}
                         </label>
 
-                        {question.image ? (
-                          <div className="relative inline-block">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src={question.image}
-                              alt={`Image Q${question.id}`}
-                              className="max-h-48 rounded-lg border-2 border-gray-200 dark:border-stone-700 object-contain bg-gray-50 dark:bg-stone-800"
-                              onError={(event) => {
-                                event.currentTarget.style.display = "none";
-                                const placeholder =
-                                  event.currentTarget.nextElementSibling as HTMLElement | null;
-                                if (placeholder) placeholder.style.display = "flex";
-                              }}
-                            />
-                            <div
-                              className="hidden max-h-48 w-64 items-center justify-center rounded-lg border-2 border-dashed border-red-300 dark:border-red-700 bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-300 text-xs font-semibold p-4 text-center"
-                              style={{ display: "none" }}
-                            >
-                              Image indisponible sur le serveur
+                        <div className="flex flex-wrap items-start gap-3">
+                          {getQuestionImages(question).map((src, imageIndex) => (
+                            <div key={src} className="relative">
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img
+                                src={src}
+                                alt={`Image ${imageIndex + 1} Q${question.id}`}
+                                className="max-h-48 rounded-lg border-2 border-gray-200 dark:border-stone-700 object-contain bg-gray-50 dark:bg-stone-800"
+                                onError={(event) => {
+                                  event.currentTarget.style.display = "none";
+                                  const placeholder =
+                                    event.currentTarget.nextElementSibling as HTMLElement | null;
+                                  if (placeholder) placeholder.style.display = "flex";
+                                }}
+                              />
+                              <div
+                                className="hidden max-h-48 w-64 items-center justify-center rounded-lg border-2 border-dashed border-red-300 dark:border-red-700 bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-300 text-xs font-semibold p-4 text-center"
+                                style={{ display: "none" }}
+                              >
+                                Image indisponible sur le serveur
+                              </div>
+
+                              <button
+                                onClick={() =>
+                                  handleImageDelete(activeFolder.id, question, {
+                                    kind: "main",
+                                    index: imageIndex,
+                                  })
+                                }
+                                className="absolute top-1 right-1 bg-red-500 text-white rounded-full p-1 hover:bg-red-600 shadow-md"
+                                title="Supprimer cette image"
+                              >
+                                <X className="w-4 h-4" />
+                              </button>
                             </div>
+                          ))}
 
-                            <button
-                              onClick={() =>
-                                handleImageDelete(activeFolder.id, question)
+                          {(question.type !== "IMAGE_ZONE" ||
+                            getQuestionImages(question).length === 0) && (
+                            <label
+                              onDragOver={(event) => {
+                                event.preventDefault();
+                                setDraggingQuestionId(question.id);
+                              }}
+                              onDragLeave={() =>
+                                setDraggingQuestionId((current) =>
+                                  current === question.id ? null : current
+                                )
                               }
-                              className="absolute top-1 right-1 bg-red-500 text-white rounded-full p-1 hover:bg-red-600 shadow-md"
-                              title="Supprimer l'image"
-                            >
-                              <X className="w-4 h-4" />
-                            </button>
-                          </div>
-                        ) : (
-                          <label
-                            onDragOver={(event) => {
-                              event.preventDefault();
-                              setDraggingQuestionId(question.id);
-                            }}
-                            onDragLeave={() =>
-                              setDraggingQuestionId((current) =>
-                                current === question.id ? null : current
-                              )
-                            }
-                            onDrop={(event) => {
-                              event.preventDefault();
-                              setDraggingQuestionId(null);
+                              onDrop={(event) => {
+                                event.preventDefault();
+                                setDraggingQuestionId(null);
 
-                              const file = event.dataTransfer.files?.[0];
-
-                              if (file) {
-                                handleImageUpload(
-                                  activeFolder.id,
-                                  question.id,
-                                  file
-                                );
-                              }
-                            }}
-                            className={`flex items-center gap-3 cursor-pointer w-fit border-2 border-dashed transition-all px-5 py-3 rounded-xl ${
-                              draggingQuestionId === question.id
-                                ? "border-blue-500 bg-blue-100 dark:bg-emerald-900/40"
-                                : "bg-gray-50 dark:bg-[#1d1c18] border-gray-300 dark:border-stone-700 hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-emerald-900/20"
-                            }`}
-                          >
-                            {uploadingQuestionId === question.id ? (
-                              <span className="text-sm text-gray-500 dark:text-stone-300">
-                                Upload en cours...
-                              </span>
-                            ) : (
-                              <>
-                                <ImagePlus className="w-5 h-5 text-gray-400" />
-                                <span className="text-sm text-gray-500 dark:text-stone-300 font-medium">
-                                  {draggingQuestionId === question.id
-                                    ? "Déposez l'image ici"
-                                    : "Ajouter une image (ou glisser-déposer)"}
-                                </span>
-                              </>
-                            )}
-
-                            <input
-                              type="file"
-                              accept="image/*"
-                              className="hidden"
-                              disabled={uploadingQuestionId === question.id}
-                              onChange={(event) => {
-                                const file = event.target.files?.[0];
+                                const file = event.dataTransfer.files?.[0];
 
                                 if (file) {
-                                  handleImageUpload(
-                                    activeFolder.id,
-                                    question.id,
-                                    file
-                                  );
+                                  handleImageUpload(activeFolder.id, question.id, file, {
+                                    kind: "main",
+                                    index: getQuestionImages(question).length,
+                                  });
                                 }
                               }}
-                            />
-                          </label>
-                        )}
+                              className={`flex items-center gap-3 cursor-pointer w-fit border-2 border-dashed transition-all px-5 py-3 rounded-xl ${
+                                draggingQuestionId === question.id
+                                  ? "border-blue-500 bg-blue-100 dark:bg-emerald-900/40"
+                                  : "bg-gray-50 dark:bg-[#1d1c18] border-gray-300 dark:border-stone-700 hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-emerald-900/20"
+                              }`}
+                            >
+                              {uploadingQuestionId === question.id ? (
+                                <span className="text-sm text-gray-500 dark:text-stone-300">
+                                  Upload en cours...
+                                </span>
+                              ) : (
+                                <>
+                                  <ImagePlus className="w-5 h-5 text-gray-400" />
+                                  <span className="text-sm text-gray-500 dark:text-stone-300 font-medium">
+                                    {draggingQuestionId === question.id
+                                      ? "Déposez l'image ici"
+                                      : getQuestionImages(question).length > 0
+                                      ? "Ajouter une autre image"
+                                      : "Ajouter une image (ou glisser-déposer)"}
+                                  </span>
+                                </>
+                              )}
+
+                              <input
+                                type="file"
+                                accept="image/*"
+                                className="hidden"
+                                disabled={uploadingQuestionId === question.id}
+                                onChange={(event) => {
+                                  const file = event.target.files?.[0];
+
+                                  if (file) {
+                                    handleImageUpload(activeFolder.id, question.id, file, {
+                                      kind: "main",
+                                      index: getQuestionImages(question).length,
+                                    });
+                                  }
+                                }}
+                              />
+                            </label>
+                          )}
+                        </div>
                       </div>
 
-                      {question.type === "IMAGE_ZONE" && question.image && (
+                      {question.type === "IMAGE_ZONE" && getQuestionImages(question)[0] && (
                         <div className="mb-4">
                           <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                             Zones correctes ({(question.zones ?? []).length})
@@ -1581,7 +1869,7 @@ export default function EditQCMPage() {
                           </p>
 
                           <ImageZoneCanvas
-                            image={question.image}
+                            image={getQuestionImages(question)[0]}
                             points={question.zones ?? []}
                             zones={question.zones ?? []}
                             onAddPoint={(point) =>
@@ -1600,9 +1888,28 @@ export default function EditQCMPage() {
                                   key={index}
                                   className="flex items-center gap-3 rounded-lg border-2 border-gray-200 dark:border-stone-700 p-2.5"
                                 >
-                                  <span className="w-14 shrink-0 text-xs font-bold text-gray-500 dark:text-stone-400">
-                                    Zone {index + 1}
-                                  </span>
+                                  <span
+                                    className="h-4 w-4 shrink-0 rounded-full border-2"
+                                    style={{
+                                      borderColor: getZoneColor(index),
+                                      backgroundColor: `${getZoneColor(index)}26`,
+                                    }}
+                                    title={`Zone ${index + 1}`}
+                                  />
+                                  <input
+                                    type="text"
+                                    value={zone.label || ""}
+                                    onChange={(event) =>
+                                      updateImageZoneLabel(
+                                        activeFolder.id,
+                                        question.id,
+                                        index,
+                                        event.target.value
+                                      )
+                                    }
+                                    placeholder={`Nom de la zone ${index + 1} (ex: Cochlée)`}
+                                    className="w-40 shrink-0 rounded-lg border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] px-2 py-1.5 text-xs font-semibold text-gray-900 dark:text-stone-100 outline-none focus:border-blue-500"
+                                  />
                                   <input
                                     type="range"
                                     min={0.02}
@@ -1638,7 +1945,10 @@ export default function EditQCMPage() {
                         </div>
                       )}
 
-                      {question.type !== "QROC" && question.type !== "IMAGE_ZONE" && (
+                      {question.type !== "QROC" &&
+                        question.type !== "IMAGE_ZONE" &&
+                        question.type !== "ASSOCIATION" &&
+                        question.type !== "VALEUR_NUMERIQUE" && (
                         <div className="mb-4">
                           <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                             Choix de réponses
@@ -1788,6 +2098,166 @@ export default function EditQCMPage() {
                         </div>
                       )}
 
+                      {question.type === "ASSOCIATION" && (
+                        <>
+                          <div className="mb-4">
+                            <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
+                              Options du menu déroulant
+                            </label>
+                            <p className="text-xs text-gray-500 dark:text-stone-400 mb-2">
+                              Les options partagées par tous les items ci-dessous.
+                            </p>
+
+                            <div className="space-y-2">
+                              {question.choix.map((choice, choiceIndex) => (
+                                <div key={choiceIndex} className="flex items-center gap-2">
+                                  <input
+                                    type="text"
+                                    value={choice}
+                                    onChange={(event) =>
+                                      updateChoice(
+                                        activeFolder.id,
+                                        question.id,
+                                        choiceIndex,
+                                        event.target.value
+                                      )
+                                    }
+                                    placeholder={`Option ${choiceIndex + 1}`}
+                                    className="flex-1 border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
+                                  />
+                                  <button
+                                    onClick={() =>
+                                      removeAssociationOption(
+                                        activeFolder.id,
+                                        question.id,
+                                        choiceIndex
+                                      )
+                                    }
+                                    className="p-2 hover:bg-red-50 dark:hover:bg-red-900/20 text-red-600 rounded"
+                                    title="Supprimer cette option"
+                                  >
+                                    <Trash2 className="w-4 h-4" />
+                                  </button>
+                                </div>
+                              ))}
+                            </div>
+
+                            <button
+                              onClick={() => addAssociationOption(activeFolder.id, question.id)}
+                              className="text-sm text-blue-600 dark:text-emerald-400 hover:text-blue-700 dark:hover:text-emerald-300 font-semibold mt-2 hover:underline"
+                            >
+                              + Ajouter une option
+                            </button>
+                          </div>
+
+                          <div className="mb-4">
+                            <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
+                              Items à associer ({(question.items ?? []).length})
+                            </label>
+
+                            <div className="space-y-2">
+                              {(question.items ?? []).map((item) => (
+                                <div key={item.id} className="flex flex-wrap items-center gap-2">
+                                  <input
+                                    type="text"
+                                    value={item.label}
+                                    onChange={(event) =>
+                                      updateAssociationItem(
+                                        activeFolder.id,
+                                        question.id,
+                                        item.id,
+                                        "label",
+                                        event.target.value
+                                      )
+                                    }
+                                    placeholder="Intitulé de l'item"
+                                    className="min-w-[180px] flex-1 border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
+                                  />
+                                  <select
+                                    value={item.correctAnswer}
+                                    onChange={(event) =>
+                                      updateAssociationItem(
+                                        activeFolder.id,
+                                        question.id,
+                                        item.id,
+                                        "correctAnswer",
+                                        event.target.value
+                                      )
+                                    }
+                                    className="border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
+                                  >
+                                    <option value="">Bonne réponse...</option>
+                                    {question.choix.map((choice) => (
+                                      <option key={choice} value={choice}>
+                                        {choice}
+                                      </option>
+                                    ))}
+                                  </select>
+                                  <button
+                                    onClick={() =>
+                                      removeAssociationItem(activeFolder.id, question.id, item.id)
+                                    }
+                                    className="p-2 hover:bg-red-50 dark:hover:bg-red-900/20 text-red-600 rounded"
+                                    title="Supprimer cet item"
+                                  >
+                                    <Trash2 className="w-4 h-4" />
+                                  </button>
+                                </div>
+                              ))}
+                            </div>
+
+                            <button
+                              onClick={() => addAssociationItem(activeFolder.id, question.id)}
+                              className="text-sm text-blue-600 dark:text-emerald-400 hover:text-blue-700 dark:hover:text-emerald-300 font-semibold mt-2 hover:underline"
+                            >
+                              + Ajouter un item
+                            </button>
+                          </div>
+                        </>
+                      )}
+
+                      {question.type === "VALEUR_NUMERIQUE" && (
+                        <div className="mb-4">
+                          <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
+                            Intervalle correct
+                          </label>
+
+                          <div className="flex items-center gap-3">
+                            <input
+                              type="number"
+                              step="any"
+                              value={question.numericRange?.min ?? 0}
+                              onChange={(event) =>
+                                updateNumericRange(
+                                  activeFolder.id,
+                                  question.id,
+                                  "min",
+                                  Number(event.target.value)
+                                )
+                              }
+                              placeholder="Min"
+                              className="w-28 border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
+                            />
+                            <span className="text-sm text-gray-500 dark:text-stone-400">à</span>
+                            <input
+                              type="number"
+                              step="any"
+                              value={question.numericRange?.max ?? 0}
+                              onChange={(event) =>
+                                updateNumericRange(
+                                  activeFolder.id,
+                                  question.id,
+                                  "max",
+                                  Number(event.target.value)
+                                )
+                              }
+                              placeholder="Max"
+                              className="w-28 border-2 border-gray-200 dark:border-stone-700 bg-white dark:bg-[#1d1c18] text-gray-900 dark:text-stone-100 p-2 rounded-lg focus:border-blue-500 focus:outline-none"
+                            />
+                          </div>
+                        </div>
+                      )}
+
                       {question.type === "QROC" && (
                         <div className="mb-4">
                           <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
@@ -1867,6 +2337,62 @@ export default function EditQCMPage() {
                           rows={3}
                           placeholder="Expliquez pourquoi les réponses sont justes/fausses..."
                         />
+
+                        <p className="mt-2 mb-1.5 text-xs text-gray-500 dark:text-stone-400">
+                          Utile si la correction est une formule rendue graphiquement.
+                        </p>
+
+                        {question.correctionImage ? (
+                          <div className="relative inline-block">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={question.correctionImage}
+                              alt={`Image de correction Q${question.id}`}
+                              className="max-h-40 rounded-lg border-2 border-gray-200 dark:border-stone-700 object-contain bg-gray-50 dark:bg-stone-800"
+                            />
+                            <button
+                              onClick={() =>
+                                handleImageDelete(activeFolder.id, question, {
+                                  kind: "correction",
+                                })
+                              }
+                              className="absolute top-1 right-1 bg-red-500 text-white rounded-full p-1 hover:bg-red-600 shadow-md"
+                              title="Supprimer l'image de correction"
+                            >
+                              <X className="w-4 h-4" />
+                            </button>
+                          </div>
+                        ) : (
+                          <label className="flex w-fit cursor-pointer items-center gap-2 rounded-xl border-2 border-dashed border-gray-300 bg-gray-50 px-4 py-2.5 transition-all hover:border-blue-400 hover:bg-blue-50 dark:border-stone-700 dark:bg-[#1d1c18] dark:hover:bg-emerald-900/20">
+                            {uploadingQuestionId === question.id ? (
+                              <span className="text-sm text-gray-500 dark:text-stone-300">
+                                Upload en cours...
+                              </span>
+                            ) : (
+                              <>
+                                <ImagePlus className="h-4 w-4 text-gray-400" />
+                                <span className="text-sm font-medium text-gray-500 dark:text-stone-300">
+                                  Ajouter une image à la correction
+                                </span>
+                              </>
+                            )}
+                            <input
+                              type="file"
+                              accept="image/*"
+                              className="hidden"
+                              disabled={uploadingQuestionId === question.id}
+                              onChange={(event) => {
+                                const file = event.target.files?.[0];
+
+                                if (file) {
+                                  handleImageUpload(activeFolder.id, question.id, file, {
+                                    kind: "correction",
+                                  });
+                                }
+                              }}
+                            />
+                          </label>
+                        )}
                       </div>
 
                       <div className="mt-4 p-3 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-600">
