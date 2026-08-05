@@ -1040,6 +1040,7 @@ export default function QCMPage() {
               const isCorrect = question.reponses.includes(letter);
               const isSelected = userAnswerArray.includes(letter);
               const isCritique = (question.critiques ?? []).includes(letter);
+              const isNeutralized = (question.neutralized ?? []).includes(letter);
 
               let classes =
                 "bg-stone-50 border-stone-200 text-stone-700 dark:bg-[#1d1c18] dark:border-stone-700 dark:text-stone-200";
@@ -1055,6 +1056,11 @@ export default function QCMPage() {
                   "bg-stone-50 border-emerald-500 text-stone-700 dark:bg-[#1d1c18] dark:text-stone-200";
               }
 
+              if (isNeutralized) {
+                classes =
+                  "bg-slate-50 border-slate-300 text-slate-600 dark:bg-slate-900/20 dark:border-slate-600 dark:text-slate-300";
+              }
+
               return (
                 <div
                   key={choice}
@@ -1062,16 +1068,25 @@ export default function QCMPage() {
                 >
                   <div className="flex items-center justify-between gap-3">
                     <span>{choice}</span>
-                    {isCritique && (
+                    {isNeutralized ? (
                       <span
-                        className={`rounded-full px-2 py-0.5 text-xs font-semibold ${
-                          isCorrect
-                            ? "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200"
-                            : "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200"
-                        }`}
+                        className="rounded-full bg-slate-200 px-2 py-0.5 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                        title="Neutralisée au barème (comptée juste, aucune pénalisation)"
                       >
-                        {isCorrect ? "Indispensable" : "Inacceptable"}
+                        Neutralisée
                       </span>
+                    ) : (
+                      isCritique && (
+                        <span
+                          className={`rounded-full px-2 py-0.5 text-xs font-semibold ${
+                            isCorrect
+                              ? "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200"
+                              : "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200"
+                          }`}
+                        >
+                          {isCorrect ? "Indispensable" : "Inacceptable"}
+                        </span>
+                      )
                     )}
                   </div>
                 </div>

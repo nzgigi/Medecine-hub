@@ -105,6 +105,46 @@ describe("scoring", () => {
   });
 });
 
+describe("propositions neutralisées", () => {
+  it("compte juste quelle que soit la reponse quand toutes les bonnes reponses sont neutralisees", () => {
+    const question: Question = {
+      ...qrmQuestion,
+      reponses: ["A", "C"],
+      neutralized: ["A", "C"],
+    };
+
+    // Meme en cochant une proposition neutralisee, ou rien du tout parmi
+    // les non-neutralisees, la note reste parfaite.
+    expect(getQuestionScore(question, ["A"])).toBe(1);
+    expect(getQuestionScore(question, ["C"])).toBe(1);
+    expect(getQuestionScore(question, ["A", "C"])).toBe(1);
+  });
+
+  it("penalise toujours les mauvaises reponses non neutralisees", () => {
+    const question: Question = {
+      ...qrmQuestion,
+      reponses: ["A", "C"],
+      neutralized: ["A", "C"],
+    };
+
+    // B est une mauvaise reponse non neutralisee : elle penalise toujours.
+    expect(getQuestionScore(question, ["B"])).toBe(0.5);
+  });
+
+  it("neutralise seulement la lettre marquee, pas les autres bonnes reponses", () => {
+    const question: Question = {
+      ...qrmQuestion,
+      reponses: ["A", "C"],
+      neutralized: ["A"],
+    };
+
+    // A est neutralisee (peu importe), mais C reste une vraie bonne reponse
+    // a trouver.
+    expect(getQuestionScore(question, ["C"])).toBe(1);
+    expect(getQuestionScore(question, ["B"])).toBe(0.2); // C manquee + B en trop
+  });
+});
+
 describe("IMAGE_ZONE", () => {
   const imageZoneQuestion: Question = {
     id: 1,

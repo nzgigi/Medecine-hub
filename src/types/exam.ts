@@ -53,6 +53,12 @@ export interface Question {
    * dans `reponses`, inacceptable sinon. Voir src/lib/exam/scoring.ts.
    */
   critiques?: string[];
+  /**
+   * Lettres de choix "neutralisées" par le jury : comptées justes quelle
+   * que soit la réponse de l'étudiant, sans aucune pénalisation. Voir
+   * src/lib/exam/scoring.ts.
+   */
+  neutralized?: string[];
   /** @deprecated conservé pour compatibilité, utiliser `images`. */
   image?: string;
   /** Une ou plusieurs images illustrant la question. */

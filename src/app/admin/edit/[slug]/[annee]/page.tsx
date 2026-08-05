@@ -7,6 +7,7 @@ import {
   ArrowDown,
   ArrowLeft,
   ArrowUp,
+  Ban,
   Check,
   ChevronDown,
   ChevronUp,
@@ -1232,6 +1233,37 @@ export default function EditQCMPage() {
     }));
   };
 
+  const toggleNeutralized = (
+    folderId: string,
+    questionId: number,
+    letter: string
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) => {
+            if (question.id !== questionId) return question;
+            if (question.type === "QROC") return question;
+
+            const neutralized = question.neutralized ?? [];
+            const exists = neutralized.includes(letter);
+
+            return {
+              ...question,
+              neutralized: exists
+                ? neutralized.filter((reponse) => reponse !== letter)
+                : [...neutralized, letter].sort(),
+            };
+          }),
+        };
+      }),
+    }));
+  };
+
   type ImageSlot = { kind: "main"; index: number } | { kind: "correction" };
 
   const setQuestionImageAt = (
@@ -1958,13 +1990,20 @@ export default function EditQCMPage() {
                             un choix &quot;critique&quot; : indispensable si c&apos;est une
                             bonne réponse (non cochée par l&apos;étudiant ⇒ note à
                             0), inacceptable si c&apos;est une mauvaise réponse
-                            (cochée par l&apos;étudiant ⇒ note à 0).
+                            (cochée par l&apos;étudiant ⇒ note à 0). Le bouton{" "}
+                            <Ban className="inline w-3.5 h-3.5 -mt-0.5" /> neutralise
+                            une proposition retirée du barème par le jury : elle
+                            compte toujours juste, quelle que soit la réponse de
+                            l&apos;étudiant.
                           </p>
 
                           {question.choix.map((choice, choiceIndex) => {
                             const letter = choice.charAt(0);
                             const isCorrect = question.reponses.includes(letter);
                             const isCritique = (question.critiques ?? []).includes(
+                              letter
+                            );
+                            const isNeutralized = (question.neutralized ?? []).includes(
                               letter
                             );
 
@@ -2019,6 +2058,28 @@ export default function EditQCMPage() {
                                   }
                                 >
                                   <ShieldAlert className="w-4 h-4" />
+                                </button>
+
+                                <button
+                                  onClick={() =>
+                                    toggleNeutralized(
+                                      activeFolder.id,
+                                      question.id,
+                                      letter
+                                    )
+                                  }
+                                  className={`w-10 h-10 rounded-lg transition-all flex-shrink-0 flex items-center justify-center ${
+                                    isNeutralized
+                                      ? "bg-slate-500 text-white shadow-lg ring-2 ring-slate-300"
+                                      : "bg-gray-100 dark:bg-stone-800 text-gray-400 dark:text-stone-500 hover:bg-gray-200 dark:hover:bg-stone-700"
+                                  }`}
+                                  title={
+                                    isNeutralized
+                                      ? "Proposition neutralisée (désactiver)"
+                                      : "Neutraliser cette proposition (comptée juste pour tous)"
+                                  }
+                                >
+                                  <Ban className="w-4 h-4" />
                                 </button>
 
                                 <input

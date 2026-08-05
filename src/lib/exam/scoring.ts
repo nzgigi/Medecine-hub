@@ -177,8 +177,18 @@ export function getQuestionScore(
 
   if (userAnswers.length === 0) return 0;
 
-  const correctSet = new Set(correctAnswers);
-  const selectedSet = new Set(userAnswers);
+  // Une proposition "neutralisée" par le jury compte juste quelle que soit
+  // la réponse de l'étudiant : on l'exclut du calcul des erreurs.
+  const neutralizedSet = new Set(question.neutralized ?? []);
+  const activeCorrectAnswers = correctAnswers.filter(
+    (letter) => !neutralizedSet.has(letter)
+  );
+  const activeUserAnswers = userAnswers.filter(
+    (letter) => !neutralizedSet.has(letter)
+  );
+
+  const correctSet = new Set(activeCorrectAnswers);
+  const selectedSet = new Set(activeUserAnswers);
 
   let mistakes = 0;
 
