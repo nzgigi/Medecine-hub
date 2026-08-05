@@ -24,6 +24,7 @@ import type {
   ExamData,
   ExamFolder,
   FolderSubmissions,
+  ImagePoint,
   LockedQuestions,
   Question,
   UserAnswer,
@@ -37,6 +38,7 @@ import {
 } from "@/lib/exam/scoring";
 import { isQrocAnswerCorrect } from "@/lib/exam/qroc";
 import { renderRichText } from "@/lib/text/richText";
+import ImageZoneCanvas from "@/components/ImageZoneCanvas";
 import ThemeToggle from "@/components/ThemeToggle";
 import { useDialogs } from "@/components/DialogProvider";
 
@@ -376,9 +378,9 @@ export default function QCMPage() {
     if (currentQuestion.type === "QROC") return;
 
     const currentRawAnswer = userAnswers[currentQuestion.id];
-    const currentAnswers = Array.isArray(currentRawAnswer)
-      ? currentRawAnswer
-      : [];
+    const currentAnswers = (
+      Array.isArray(currentRawAnswer) ? currentRawAnswer : []
+    ).filter((item): item is string => typeof item === "string");
 
     if (currentQuestion.type === "QRU") {
       setUserAnswers({
@@ -432,6 +434,34 @@ export default function QCMPage() {
     setUserAnswers({
       ...userAnswers,
       [currentQuestion.id]: value,
+    });
+  };
+
+  const handleImageZonePointAdd = (point: ImagePoint) => {
+    if (isCurrentFolderSubmitted || isCurrentQuestionLocked) return;
+
+    const rawAnswer = userAnswers[currentQuestion.id];
+    const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
+      (item): item is ImagePoint => typeof item === "object"
+    );
+
+    setUserAnswers({
+      ...userAnswers,
+      [currentQuestion.id]: [...currentPoints, point],
+    });
+  };
+
+  const handleImageZonePointRemove = (index: number) => {
+    if (isCurrentFolderSubmitted || isCurrentQuestionLocked) return;
+
+    const rawAnswer = userAnswers[currentQuestion.id];
+    const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
+      (item): item is ImagePoint => typeof item === "object"
+    );
+
+    setUserAnswers({
+      ...userAnswers,
+      [currentQuestion.id]: currentPoints.filter((_, i) => i !== index),
     });
   };
 
@@ -597,7 +627,48 @@ export default function QCMPage() {
       );
     }
 
-    const selectedAnswers = Array.isArray(rawAnswer) ? rawAnswer : [];
+    if (currentQuestion.type === "IMAGE_ZONE") {
+      const currentPoints = (Array.isArray(rawAnswer) ? rawAnswer : []).filter(
+        (item): item is ImagePoint => typeof item === "object"
+      );
+      const locked = isCurrentFolderSubmitted || isCurrentQuestionLocked;
+
+      if (!currentQuestion.image) {
+        return (
+          <p className="text-sm text-stone-500 dark:text-stone-400">
+            Aucune image n&apos;a été configurée pour cette question.
+          </p>
+        );
+      }
+
+      return (
+        <div className="space-y-3">
+          <p className="text-sm text-stone-500 dark:text-stone-400">
+            Cliquez sur l&apos;image à l&apos;endroit de l&apos;anomalie. Cliquez sur un
+            marqueur pour le retirer.
+          </p>
+
+          <ImageZoneCanvas
+            image={currentQuestion.image}
+            points={currentPoints}
+            onAddPoint={locked ? undefined : handleImageZonePointAdd}
+            onRemovePoint={locked ? undefined : handleImageZonePointRemove}
+            className="max-w-2xl"
+          />
+
+          {locked && (
+            <div className="flex items-center gap-2 text-sm text-stone-500 dark:text-stone-400">
+              <Lock className="h-4 w-4" />
+              Réponse verrouillée
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    const selectedAnswers = (
+      Array.isArray(rawAnswer) ? rawAnswer : []
+    ).filter((item): item is string => typeof item === "string");
 
     return (
       <div className="space-y-2.5">
@@ -646,10 +717,17 @@ export default function QCMPage() {
     const answer = userAnswers[question.id];
     const score = getQuestionScore(question, answer);
 
-    const userAnswerArray = Array.isArray(answer) ? answer : [];
+    const userAnswerArray = (Array.isArray(answer) ? answer : []).filter(
+      (item): item is string => typeof item === "string"
+    );
+    const userImagePoints = (Array.isArray(answer) ? answer : []).filter(
+      (item): item is ImagePoint => typeof item === "object"
+    );
     const userQrocAnswer = typeof answer === "string" ? answer : "";
     const critiqueViolated =
-      question.type !== "QROC" && violatesCritique(question, userAnswerArray);
+      question.type !== "QROC" &&
+      question.type !== "IMAGE_ZONE" &&
+      violatesCritique(question, userAnswerArray);
 
     return (
       <div
@@ -685,7 +763,7 @@ export default function QCMPage() {
           </div>
         )}
 
-        {question.image && (
+        {question.image && question.type !== "IMAGE_ZONE" && (
           <div className="mb-4 flex justify-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -731,6 +809,35 @@ export default function QCMPage() {
               <div className="font-medium text-emerald-700 dark:text-emerald-300">
                 {question.reponses.join(", ")}
               </div>
+            </div>
+          </div>
+        ) : question.type === "IMAGE_ZONE" ? (
+          <div className="space-y-3">
+            {question.image ? (
+              <ImageZoneCanvas
+                image={question.image}
+                points={userImagePoints}
+                zones={question.zones ?? []}
+                className="max-w-2xl"
+              />
+            ) : (
+              <p className="text-sm text-stone-500 dark:text-stone-400">
+                Aucune image configurée pour cette question.
+              </p>
+            )}
+            <div className="flex flex-wrap items-center gap-4 text-xs font-semibold text-stone-500 dark:text-stone-400">
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full border border-emerald-500 bg-emerald-500/20" />
+                Zone attendue
+              </span>
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-600" />
+                Clic correct
+              </span>
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-red-600" />
+                Clic hors zone
+              </span>
             </div>
           </div>
         ) : (
@@ -1214,7 +1321,7 @@ export default function QCMPage() {
               {renderRichText(currentQuestion.question)}
             </h2>
 
-            {currentQuestion.image && (
+            {currentQuestion.image && currentQuestion.type !== "IMAGE_ZONE" && (
               <div className="mb-6 flex justify-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img

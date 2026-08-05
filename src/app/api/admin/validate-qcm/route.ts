@@ -2,14 +2,21 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import { requireAdminRequest, safeJoinInside } from "@/lib/server/security";
 
+interface ImageZone {
+  x: number;
+  y: number;
+  radius: number;
+}
+
 interface Question {
   id: number;
-  type: "QRU" | "QRM" | "QRP" | "QROC" | string;
+  type: "QRU" | "QRM" | "QRP" | "QROC" | "IMAGE_ZONE" | string;
   contexte?: string;
   question?: string;
   choix?: string[];
   reponses?: string[];
   image?: string;
+  zones?: ImageZone[];
   maxReponses?: number;
   correctionExplanation?: string;
   order?: number;
@@ -86,7 +93,7 @@ function validateQuestion(
     });
   }
 
-  const allowedTypes = ["QRU", "QRM", "QRP", "QROC"];
+  const allowedTypes = ["QRU", "QRM", "QRP", "QROC", "IMAGE_ZONE"];
 
   if (!allowedTypes.includes(question.type)) {
     issues.push({
@@ -104,6 +111,26 @@ function validateQuestion(
         file,
         level: "error",
         message: `${label} : QROC sans réponse acceptée`,
+      });
+    }
+
+    return;
+  }
+
+  if (question.type === "IMAGE_ZONE") {
+    if (!question.image) {
+      issues.push({
+        file,
+        level: "error",
+        message: `${label} : question a zones sans image`,
+      });
+    }
+
+    if (!Array.isArray(question.zones) || question.zones.length === 0) {
+      issues.push({
+        file,
+        level: "error",
+        message: `${label} : question a zones sans zone correcte definie`,
       });
     }
 

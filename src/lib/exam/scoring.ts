@@ -4,12 +4,57 @@ import type {
   FolderScoreResult,
   FolderSubmissions,
   FolderType,
+  ImagePoint,
+  ImageZone,
   Question,
   QuestionScoreResult,
   UserAnswer,
   UserAnswers,
 } from "@/types/exam";
 import { isQrocAnswerCorrect } from "./qroc";
+
+function isImagePoint(value: unknown): value is ImagePoint {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    typeof (value as ImagePoint).x === "number" &&
+    typeof (value as ImagePoint).y === "number"
+  );
+}
+
+function distanceBetweenPoints(a: ImagePoint, b: ImagePoint): number {
+  return Math.hypot(a.x - b.x, a.y - b.y);
+}
+
+/**
+ * Meme bareme que les QRM : chaque zone correcte non trouvee, ou chaque clic
+ * en dehors de toute zone, compte comme une "erreur" (0 erreur = 1, 1 = 0.5,
+ * 2 = 0.2, 3+ = 0).
+ */
+function getImageZoneScore(
+  zones: ImageZone[],
+  answer: UserAnswer | undefined
+): number {
+  if (zones.length === 0) return 0;
+
+  const points = Array.isArray(answer) ? answer.filter(isImagePoint) : [];
+  if (points.length === 0) return 0;
+
+  const missedZones = zones.filter(
+    (zone) => !points.some((point) => distanceBetweenPoints(point, zone) <= zone.radius)
+  ).length;
+
+  const falsePositives = points.filter(
+    (point) => !zones.some((zone) => distanceBetweenPoints(point, zone) <= zone.radius)
+  ).length;
+
+  const mistakes = missedZones + falsePositives;
+
+  if (mistakes === 0) return 1;
+  if (mistakes === 1) return 0.5;
+  if (mistakes === 2) return 0.2;
+  return 0;
+}
 
 const CATEGORY_WEIGHTS: Record<FolderType, number> = {
   DP: 0.4,
@@ -58,7 +103,13 @@ export function getQuestionScore(
     return isQrocAnswerCorrect(userText, question.reponses) ? 1 : 0;
   }
 
-  const userAnswers = Array.isArray(answer) ? answer : [];
+  if (question.type === "IMAGE_ZONE") {
+    return getImageZoneScore(question.zones ?? [], answer);
+  }
+
+  const userAnswers = (Array.isArray(answer) ? answer : []).filter(
+    (item): item is string => typeof item === "string"
+  );
   const correctAnswers = [...question.reponses];
 
   if (violatesCritique(question, userAnswers)) {

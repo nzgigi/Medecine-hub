@@ -105,6 +105,64 @@ describe("scoring", () => {
   });
 });
 
+describe("IMAGE_ZONE", () => {
+  const imageZoneQuestion: Question = {
+    id: 1,
+    type: "IMAGE_ZONE",
+    question: "Entourez l'anomalie",
+    choix: [],
+    reponses: [],
+    image: "/images/qcm/test.png",
+    zones: [
+      { x: 0.3, y: 0.3, radius: 0.05 },
+      { x: 0.7, y: 0.7, radius: 0.05 },
+    ],
+  };
+
+  it("donne 1 point quand toutes les zones sont trouvées sans clic superflu", () => {
+    expect(
+      getQuestionScore(imageZoneQuestion, [
+        { x: 0.3, y: 0.3 },
+        { x: 0.7, y: 0.7 },
+      ])
+    ).toBe(1);
+  });
+
+  it("tolère un clic legerement decale dans le rayon de la zone", () => {
+    expect(
+      getQuestionScore(imageZoneQuestion, [
+        { x: 0.32, y: 0.31 },
+        { x: 0.71, y: 0.69 },
+      ])
+    ).toBe(1);
+  });
+
+  it("penalise une zone manquee comme une erreur (0.5)", () => {
+    expect(getQuestionScore(imageZoneQuestion, [{ x: 0.3, y: 0.3 }])).toBe(0.5);
+  });
+
+  it("penalise un clic hors de toute zone comme une erreur en plus", () => {
+    expect(
+      getQuestionScore(imageZoneQuestion, [
+        { x: 0.3, y: 0.3 },
+        { x: 0.7, y: 0.7 },
+        { x: 0.9, y: 0.1 },
+      ])
+    ).toBe(0.5);
+  });
+
+  it("ne donne aucun point sans aucun clic", () => {
+    expect(getQuestionScore(imageZoneQuestion, [])).toBe(0);
+    expect(getQuestionScore(imageZoneQuestion, undefined)).toBe(0);
+  });
+
+  it("renvoie 0 si la question n'a aucune zone definie", () => {
+    expect(
+      getQuestionScore({ ...imageZoneQuestion, zones: [] }, [{ x: 0.3, y: 0.3 }])
+    ).toBe(0);
+  });
+});
+
 describe("réponses critiques (indispensable / inacceptable)", () => {
   const critiqueQuestion: Question = {
     ...qrmQuestion,

@@ -23,19 +23,24 @@ import type {
   ExamData,
   ExamFolder,
   FolderType,
+  ImagePoint,
   Question,
   QuestionType,
 } from "@/types/exam";
 import { normalizeExamData } from "@/lib/exam/normalizeExam";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminSessionBadge from "@/components/AdminSessionBadge";
+import ImageZoneCanvas from "@/components/ImageZoneCanvas";
 
 const QUESTION_TYPES: { value: QuestionType; label: string }[] = [
   { value: "QRU", label: "QRU (Réponse Unique)" },
   { value: "QRM", label: "QRM (Réponses Multiples)" },
   { value: "QRP", label: "QRP (Réponse Précisée)" },
   { value: "QROC", label: "QROC (Réponse Ouverte Courte)" },
+  { value: "IMAGE_ZONE", label: "Zone sur image (radio, schéma...)" },
 ];
+
+const DEFAULT_ZONE_RADIUS = 0.05;
 
 const FOLDER_TYPES: { value: FolderType; label: string }[] = [
   { value: "DP", label: "DP - Dossier progressif" },
@@ -636,6 +641,79 @@ export default function EditQCMPage() {
     }));
   };
 
+  const addImageZone = (folderId: string, questionId: number, point: ImagePoint) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  zones: [
+                    ...(question.zones ?? []),
+                    { ...point, radius: DEFAULT_ZONE_RADIUS },
+                  ],
+                }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const removeImageZone = (folderId: string, questionId: number, index: number) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  zones: (question.zones ?? []).filter((_, i) => i !== index),
+                }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
+  const updateImageZoneRadius = (
+    folderId: string,
+    questionId: number,
+    index: number,
+    radius: number
+  ) => {
+    updateExamData((current) => ({
+      ...current,
+      folders: current.folders.map((folder) => {
+        if (folder.id !== folderId) return folder;
+
+        return {
+          ...folder,
+          questions: folder.questions.map((question) =>
+            question.id === questionId
+              ? {
+                  ...question,
+                  zones: (question.zones ?? []).map((zone, i) =>
+                    i === index ? { ...zone, radius } : zone
+                  ),
+                }
+              : question
+          ),
+        };
+      }),
+    }));
+  };
+
   const updateQuestionType = (
     folderId: string,
     questionId: number,
@@ -658,6 +736,18 @@ export default function EditQCMPage() {
                 choix: [],
                 reponses: [],
                 maxReponses: undefined,
+                zones: undefined,
+              };
+            }
+
+            if (type === "IMAGE_ZONE") {
+              return {
+                ...question,
+                type,
+                choix: [],
+                reponses: [],
+                maxReponses: undefined,
+                zones: question.zones ?? [],
               };
             }
 
@@ -670,6 +760,7 @@ export default function EditQCMPage() {
                   : createDefaultChoices(),
               reponses: [],
               maxReponses: type === "QRP" ? question.maxReponses || 3 : undefined,
+              zones: undefined,
             };
           }),
         };
@@ -1376,7 +1467,9 @@ export default function EditQCMPage() {
 
                       <div className="mb-4">
                         <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
-                          Image optionnelle
+                          {question.type === "IMAGE_ZONE"
+                            ? "Image (radio, schéma...)"
+                            : "Image optionnelle"}
                         </label>
 
                         {question.image ? (
@@ -1477,7 +1570,75 @@ export default function EditQCMPage() {
                         )}
                       </div>
 
-                      {question.type !== "QROC" && (
+                      {question.type === "IMAGE_ZONE" && question.image && (
+                        <div className="mb-4">
+                          <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
+                            Zones correctes ({(question.zones ?? []).length})
+                          </label>
+                          <p className="text-xs text-gray-500 dark:text-stone-400 mb-2">
+                            Cliquez sur l&apos;image pour ajouter une zone à
+                            l&apos;endroit de l&apos;anomalie, puis ajustez son rayon.
+                          </p>
+
+                          <ImageZoneCanvas
+                            image={question.image}
+                            points={question.zones ?? []}
+                            zones={question.zones ?? []}
+                            onAddPoint={(point) =>
+                              addImageZone(activeFolder.id, question.id, point)
+                            }
+                            onRemovePoint={(index) =>
+                              removeImageZone(activeFolder.id, question.id, index)
+                            }
+                            className="mb-3 max-w-2xl"
+                          />
+
+                          {(question.zones ?? []).length > 0 && (
+                            <div className="space-y-2">
+                              {(question.zones ?? []).map((zone, index) => (
+                                <div
+                                  key={index}
+                                  className="flex items-center gap-3 rounded-lg border-2 border-gray-200 dark:border-stone-700 p-2.5"
+                                >
+                                  <span className="w-14 shrink-0 text-xs font-bold text-gray-500 dark:text-stone-400">
+                                    Zone {index + 1}
+                                  </span>
+                                  <input
+                                    type="range"
+                                    min={0.02}
+                                    max={0.25}
+                                    step={0.005}
+                                    value={zone.radius}
+                                    onChange={(event) =>
+                                      updateImageZoneRadius(
+                                        activeFolder.id,
+                                        question.id,
+                                        index,
+                                        Number(event.target.value)
+                                      )
+                                    }
+                                    className="flex-1"
+                                  />
+                                  <span className="w-10 shrink-0 text-xs text-gray-500 dark:text-stone-400">
+                                    {Math.round(zone.radius * 100)}%
+                                  </span>
+                                  <button
+                                    onClick={() =>
+                                      removeImageZone(activeFolder.id, question.id, index)
+                                    }
+                                    className="rounded-lg p-1.5 text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20"
+                                    title="Supprimer cette zone"
+                                  >
+                                    <Trash2 className="h-4 w-4" />
+                                  </button>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {question.type !== "QROC" && question.type !== "IMAGE_ZONE" && (
                         <div className="mb-4">
                           <label className="block text-sm font-semibold text-gray-700 dark:text-stone-200 mb-2">
                             Choix de réponses

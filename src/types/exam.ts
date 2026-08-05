@@ -1,8 +1,23 @@
-export type QuestionType = "QRU" | "QRM" | "QRP" | "QROC";
+export type QuestionType = "QRU" | "QRM" | "QRP" | "QROC" | "IMAGE_ZONE";
 
 export type FolderType = "DP" | "SQI" | "KFP";
 
 export type FolderStatus = "not_started" | "in_progress" | "submitted";
+
+/**
+ * Coordonnees exprimees en fraction de la LARGEUR de l'image (pas un
+ * pourcentage classique relatif a chaque axe), pour que x, y et radius
+ * partagent la meme echelle et que les distances restent correctes quelle
+ * que soit la proportion largeur/hauteur de l'image.
+ */
+export interface ImagePoint {
+  x: number;
+  y: number;
+}
+
+export interface ImageZone extends ImagePoint {
+  radius: number;
+}
 
 export interface Question {
   id: number;
@@ -17,6 +32,8 @@ export interface Question {
    */
   critiques?: string[];
   image?: string;
+  /** Zones correctes pour une question de type IMAGE_ZONE. */
+  zones?: ImageZone[];
   maxReponses?: number;
   correctionExplanation?: string;
   order?: number;
@@ -53,7 +70,7 @@ export interface ExamData {
   questions?: Question[];
 }
 
-export type UserAnswer = string[] | string;
+export type UserAnswer = string[] | string | ImagePoint[];
 
 export type UserAnswers = {
   [questionId: number]: UserAnswer;
