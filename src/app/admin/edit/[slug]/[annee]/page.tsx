@@ -272,6 +272,58 @@ export default function EditQCMPage() {
           continue;
         }
 
+        if (question.type === "VALEUR_NUMERIQUE") {
+          if (
+            !question.numericRange ||
+            question.numericRange.min > question.numericRange.max
+          ) {
+            await showAlert(
+              `❌ Question ${question.id} : L'intervalle numérique correct est invalide.`
+            );
+            return false;
+          }
+
+          continue;
+        }
+
+        if (question.type === "IMAGE_ZONE") {
+          if (!question.zones || question.zones.length === 0) {
+            await showAlert(
+              `❌ Question ${question.id} : Aucune zone correcte définie sur l'image.`
+            );
+            return false;
+          }
+
+          continue;
+        }
+
+        if (question.type === "ASSOCIATION") {
+          if (question.choix.length < 2) {
+            await showAlert(
+              `❌ Question ${question.id} : Il faut au moins 2 options dans le menu déroulant.`
+            );
+            return false;
+          }
+
+          if (!question.items || question.items.length === 0) {
+            await showAlert(
+              `❌ Question ${question.id} : Aucun item à associer défini.`
+            );
+            return false;
+          }
+
+          for (const item of question.items) {
+            if (!item.label.trim() || !item.correctAnswer.trim()) {
+              await showAlert(
+                `❌ Question ${question.id} : Chaque item doit avoir un intitulé et une bonne réponse.`
+              );
+              return false;
+            }
+          }
+
+          continue;
+        }
+
         if (question.choix.length < 2) {
           await showAlert(
             `❌ Question ${question.id} : Il faut au moins 2 choix de réponse.`
@@ -2459,7 +2511,21 @@ export default function EditQCMPage() {
                       <div className="mt-4 p-3 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-600">
                         <span className="text-sm font-semibold text-green-800 dark:text-green-200">
                           Réponse(s) correcte(s) :{" "}
-                          {question.reponses.length > 0
+                          {question.type === "VALEUR_NUMERIQUE"
+                            ? question.numericRange
+                              ? `${question.numericRange.min} à ${question.numericRange.max}`
+                              : "Aucune"
+                            : question.type === "IMAGE_ZONE"
+                            ? question.zones && question.zones.length > 0
+                              ? `${question.zones.length} zone(s)`
+                              : "Aucune"
+                            : question.type === "ASSOCIATION"
+                            ? question.items && question.items.length > 0
+                              ? question.items
+                                  .map((item) => `${item.label} → ${item.correctAnswer}`)
+                                  .join(", ")
+                              : "Aucune"
+                            : question.reponses.length > 0
                             ? question.reponses.join(", ")
                             : "Aucune"}
                         </span>
