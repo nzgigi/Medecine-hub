@@ -1,0 +1,224 @@
+{
+  "matiere": "Système neurosensoriel – Biophysique",
+  "slug": "sns-biophysique-s5",
+  "annee": 2023,
+  "title": "Système neurosensoriel – Biophysique - 2023",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le son,",
+          "choix": [
+            "A) la hauteur d'un son est une sensation sonore liée de façon prédominante à la fréquence du son",
+            "B) la bande de fréquence audible diminue avec l'âge surtout dans les aigües",
+            "C) dans les zones de fréquences moyennes, le seuil différentiel de fréquence est constant",
+            "D) la tonie s'exprime en phone",
+            "E) le seuil d'audibilité est indépendant de la fréquence du son"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les explorations fonctionnelles de l’audition,",
+          "choix": [
+            "A) l'audiométrie tonale liminaire permet d'établir, chez un patient, la perte de dB pour des sons purs de différentes fréquences, en conduction osseuse et en conduction aérienne",
+            "B) les tests en conduction aérienne permettent d'explorer uniquement les altérations de la transmission",
+            "C) dans le test de Rinne, le son est mieux perçu en conduction osseuse qu'aérienne dans le cas d'une surdité de perception",
+            "D) dans le test de Rinne, le son est mieux perçu en conduction aérienne qu'osseuse pour un sujet normal",
+            "E) l'audiométrie supraliminaire permet de rechercher des distorsions des sensations sonores et des diminutions du seuil douloureux"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le son,",
+          "choix": [
+            "A) les ondes sonores ne peuvent se déplacer que dans un milieu élastique",
+            "B) la vitesse de l'onde sonore dépend du milieu traversé et en particulier de la compressibilité de ce milieu",
+            "C) la fréquence, la période et la longueur d'onde d'un son sont indépendantes du milieu traversé",
+            "D) l'impédance acoustique Z d'un milieu reflète la résistance opposée par le milieu à sa mise en vibration",
+            "E) le niveau d'intensité sonore s'exprime en dB"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au niveau de l'oreille,",
+          "choix": [
+            "A) l'oreille externe permet une amplification du signal sonore, cet effet étant lié, de manière prépondérante, au pavillon ou au conduit auditif externe, selon la fréquence du son",
+            "B) l'oreille moyenne compense la perte d'impédance entre celle, élevée, de l'air extérieur et celle des liquides cochléaires, plus basse",
+            "C) les phénomènes de diffraction au niveau de l'oreille externe contribuent à la localisation de la source sonore",
+            "D) une altération des cellules ciliées de la cochlée provoque une surdité de perception",
+            "E) dans l'oreille interne, chaque segment de la membrane basilaire vibre préférentiellement pour une bande de fréquences"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La myopie",
+          "choix": [
+            "A) rapproche le punctum remotum du sujet qui ne voit plus à l'inﬁni",
+            "B) ne modifie pas le punctum proximum du sujet",
+            "C) accélère la survenue de la presbytie",
+            "D) est corrigée par les lunettes divergentes",
+            "E) peut s'additionner à l'astigmatisme"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En optique,",
+          "choix": [
+            "A) après passage à travers un système stigmate, les rayons lumineux issus d'un point convergent en un point",
+            "B) la puissance d'un dioptre dépend de son indice de réfraction",
+            "C) la puissance d'un dioptre est inversement proportionnelle au rayon de courbure de ce dioptre",
+            "D) l'oeil peut être assimilé à une lentille divergente de puissance 60 ± 3 dioptries",
+            "E) l'hypermétropie est une amétropie dans laquelle l'oeil n'est pas assez convergent pour sa longueur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant le ganglion géniculé latéral ?",
+          "choix": [
+            "A) il est le siège d’une organisation rétinotopique",
+            "B) il reçoit des afférences binoculaires",
+            "C) il est composé de couches distinctes pour les canaux P, M et non P non M (K)",
+            "D) leurs neurones ont un champ récepteur ayant une symétrie circulaire",
+            "E) leurs neurones ont un champ récepteur ayant une opposition centre/périphérie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant le photorécepteur ?",
+          "choix": [
+            "A) il est le siège d’un courant d’obscurité",
+            "B) son potentiel de membrane suit des variations graduées",
+            "C) il est hyperpolarisé à la lumière",
+            "D) les canaux sodiques se ferment à la lumière",
+            "E) la libération synaptique du glutamate augmente à la lumière"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) en condition de vision scotopique ?",
+          "choix": [
+            "A) la sensibilité visuelle est maximale au niveau du centre optique",
+            "B) les bâtonnets sont les photorécepteurs adaptés à cette condition",
+            "C) les bâtonnets sont très peu sensibles aux longueurs d’ondes rouges",
+            "D) le pic de sensibilité à la longueur d’onde est le même qu’en condition photopique",
+            "E) les cônes sont hyperpolarisés"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant le coefficient d’efficacité lumineuse (ou d’efficacité relative spectrale) ?",
+          "choix": [
+            "A) il s’agit du facteur permettant de calculer la correspondance entre unités radiométriques et photométriques",
+            "B) il est mesuré expérimentalement à l’aide d’un test de papillotement",
+            "C) il est indépendant de la longueur d’onde de la lumière test",
+            "D) il est identique pour les cônes et les bâtonnets",
+            "E) sa valeur est comprise entre 0 et 1"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

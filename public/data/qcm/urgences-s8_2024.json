@@ -1,0 +1,604 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s8",
+  "annee": 2024,
+  "title": "Urgences - 2024",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous accueillez en service d’urgences Mme O. âgée de 68 ans suite à une fièvre évoluant depuis 24 heures associée à une pollakiurie. A son arrivée, les paramètres vitaux étaient : tension artérielle 91/59 mmHg, fréquence cardiaque 111 bpm, fréquence respiratoire 26/min, saturation 96 % en air ambiant. Elle a pour seul antécédent une pyélonéphrite non compliquée à l’âge de 29 ans, une appendicectomie et une HTA actuellement sous amlodipine. Elle ne rapporte pas d’hospitalisation récente ou de voyage à l’étranger. La bandelette urinaire faite à son arrivée retrouve des leucocytes +++ et nitrites ++. Le reste du bilan biologique est en attente est vous avez débutez une expansion volémique.\nA partir de ces premiers éléments, quels sont les 2 antibiotiques que vous allez débuter ?",
+          "choix": [
+            "A) sulfamethoxazole-trimethoprime",
+            "B) ceftriaxone",
+            "C) pipéracilline/tazobactam",
+            "D) ofloxacine",
+            "E) amikacine"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous êtes de garde aux urgences et recevez un patient de 67 ans, pour malaise. Il a pour principal antécédent une insuffisance rénale dialysée ainsi qu’un diabète de type 2. Le patient vous avoue ne pas avoir été à ses deux dernières séances de dialyse car il était en week-end prolongé. L’infirmière vous appelle car le patient est en arrêt cardiaque. Le scope vous montre fibrillation ventriculaire. Vous êtes au troisième choc. Vous suspectez une cause réversible. Quelles sont les 3 thérapeutiques que vous instaurez immédiatement ?",
+          "choix": [
+            "A) Amiodarone 300 mg",
+            "B) Adrénaline 1 mg",
+            "C) Bicarbonates molaires",
+            "D) Thrombolyse",
+            "E) Noradrénaline 1mg"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mlle S., âgé de 22 ans est amenée en service d’urgence par les pompiers suite à un accident lors de son cours de Judo. Elle rapporte une violente douleur de l’épaule gauche lors d’une prise de judo. Il s’agit du premier épisode, cliniquement l’épaule est hyperalgique et irréductible. Vous suspectez un premier épisode de luxation antérieur traumatique d’épaule gauche.\nParmi les propositions suivantes, lesquelles réalisez-vous en urgence avant d’envisager la réduction de cette luxation ?",
+          "choix": [
+            "A) rechercher la présence du pouls radial",
+            "B) rechercher un déficit moteur flexion du poignet",
+            "C) rechercher une hyperlaxité ligamentaire controlatérale",
+            "D) rechercher un déficit sensitif du moignon de l'épaule",
+            "E) réaliser une radiographie de l'épaule"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’embolie pulmonaire grave, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Il s’agit d’un état de choc distributif.",
+            "B) Son diagnostic repose entre autre sur la triade de Virchow",
+            "C) Les signes de dysfonction cardiaque droite sont attendus.",
+            "D) Une thrombophilie peut être acquise ou constitutionnelle.",
+            "E) Les maladies inflammatoires peuvent conduire à une thrombophilie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prise en charge d’un trouble conductif sévère, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Un trouble de la conduction sévère peut être assimilé à un choc cardiogénique.",
+            "B) Il peut être causé par un trouble ionique.",
+            "C) Il peut être causé par une endocardite.",
+            "D) L’échocardiographie permet le diagnostic d’un trouble conductif",
+            "E) La dobutamine est le traitement de choix d’un trouble sévère."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes orientant vers une hypercapnie lors d’une détresse respiratoire ?",
+          "choix": [
+            "A) cyanose",
+            "B) sueurs",
+            "C) somnolence",
+            "D) polypnée",
+            "E) tirage"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une patiente de 73 ans consulte aux Urgences pour une fièvre avec des frissons associés à des douleurs abdominales. L’examen abdominal retrouve une sensibilité en hypochondre droit sans défense, les bruits hydro-aériques sont perçus. Le bilan biologique retrouve : Hb 13 g/dl, leucocytes 26 G/l(80% de PNN), CRP 210 mg/l, DFG 70 ml/min, transaminases à 3 fois la normale, gGT et phosphatase alcaline à 7 fois la normale, bilirubinémie totale à 90 µmol/l avec bilirubinémie conjuguée à 70 µmol/l, lipasémie normale. La bandelette urinaire est négative. L’échographie abdominale retrouve une dilatation de la voie biliaire principale à 13cm.\nQuel diagnostic évoquez-vous ? (un seul mot, tout en minuscule)",
+          "choix": [],
+          "reponses": [
+            "angiocholite",
+            "angiocolite",
+            "angiocholyte",
+            "Angiocolite"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous êtes médecin régulateur au centre 15 – SAMU. Le collègue de M. U. âgé 36 ans vous contacte. Il est ouvrier sur un chantier de ravalement et vient de chuter d’une hauteur estimée à 3 mètres depuis un échafaudage. Son collègue qui l’a vu tombé a constaté une perte de connaissance de quelques secondes suivie d’une confusion car il ne s’avait pas où il était. Cet épisode a duré 20 min environ. Au moment d’appeler le SAMU, M. U est orienté dans le temps et l’espace, il est assis, il ne présente pas de déficit moteur. Il existe un impact pariétal droit avec une plaie ne nécessitant pas de suture.\nQuel est votre diagnostic suspecté dès l’appel à la régulation ? (3 mots)",
+          "choix": [],
+          "reponses": [
+            "traumatisme crânien léger",
+            "commotion cérébrale",
+            "Traumatisme cranien léger",
+            "Traumatisme cranien leger",
+            "traumatisme cranien léger",
+            "Trauma cranien leger",
+            "Trauma crânien léger",
+            "Trauma cranien léger",
+            "Traumatisé cranien léger",
+            "traumatisme cranien leger",
+            "Traumatisme cranier léger",
+            "tramatisme cranien léger",
+            "Trauma Cranien Leger",
+            "Traumastisme cranien léger",
+            "Traumatisme crânien leger",
+            "Traumastisme crânien léger",
+            "Traumatisme cranier leger",
+            "Traumatisme crânien lèger",
+            "Traumatisme cranien modere"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l’interprétation de cet ECG ?",
+          "choix": [
+            "A) bloc de branche gauche",
+            "B) bloc de branche droit",
+            "C) hypertrophie ventriculaire droite",
+            "D) syndrome coronaire aigu",
+            "E) syndrome de Brugada"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "images": [
+            "/images/qcm/urgences-s8/2024/q9.png?v=1786300835558"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l’amine de choix dans la prise en charge du choc anaphylactique ?",
+          "choix": [
+            "A) l'adrénaline",
+            "B) la dobutamine",
+            "C) la dopamine",
+            "D) la noradrénaline",
+            "E) l'éphédrine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300836192-fe95146a0ea59",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une patiente, âgée de 26 ans, se présente se présente en maison médicale de garde car elle présente des signes fonctionnels urinaires évolutifs depuis 24 heures. Elle rapporte des envies fréquentes d’uriner. Elle n’a pas d’antécédent. Vous suspectez une infection unaire.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les signes les plus en faveur d’une infection urinaire haute (3 propositions justes) ?",
+          "choix": [
+            "A) hématurie",
+            "B) douleur pelvienne",
+            "C) vomissement",
+            "D) douleur ébranlement lombaire",
+            "E) diminution de la diurèse",
+            "F) tachycardie",
+            "G) fièvre",
+            "H) marbrures membres inférieurs",
+            "I) douleur spontanée d'un flanc",
+            "J) asthénie"
+          ],
+          "reponses": [
+            "D",
+            "G",
+            "I"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous retrouvez des arguments en faveur d’une infection urinaire haute sans critère de gravité. La patiente n’a pas voyagé récemment. La bandelette urinaire que vous venez de réaliser retrouve nitrite ++ ; leucytes +++. Quelle classe antibiotique probabiliste proposez-vous en première intention ?",
+          "choix": [
+            "A) fluoroquinolones",
+            "B) céphalosporine de troisième génération",
+            "C) pénicillines",
+            "D) sulfamides",
+            "E) nitrofuranes"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Avant de débuter l’antibiothérapie probabiliste chez cette patiente, quel examen proposez-vous ? (4 mot)",
+          "choix": [],
+          "reponses": [
+            "examen cytobactériologique des urines",
+            "Examen cytobacteriologique des urines",
+            "Examen cyto-bactériologique des urines",
+            "Examen cyto-bacteriologique des urines",
+            "Examen cyto bacteriologique urinaire",
+            "examen cytobacteriologique des urines",
+            "Examen cyto-bactériologique urinaire",
+            "Examen cyto bacteriologique des urines",
+            "examen cytobactériologique des urines (ECBU)",
+            "Examen cyto bactériologique urinaire",
+            "Examen Cyto Bactériologique Urinaire",
+            "Examen cytologique bacteriologique urinaire",
+            "Examen cytobacterien des urines",
+            "Examen cytobactériologique des urines (ECBU)",
+            "Examen Cyto-Bactériologique des Urines",
+            "Examen cyto-bactériologique des urines (ECBU)",
+            "Exament cyto bacteriologique urinaire",
+            "Examen cyto-bactériologie des urines",
+            "Etude cytobacteriologique des urines",
+            "Examen cytobactériologique urinaire (ECBU)",
+            "examen cyto-bactériologique urinaire",
+            "Examen cyto bactériologique des urines",
+            "Examen Cytobacteriologique des Urines",
+            "Examen cytobacteriologique urinaire",
+            "Examen cyto bacteriologique des urines (ECBU)",
+            "Exament cytobacteriologique des urines",
+            "Examen Cyto-bactériologique des urines",
+            "Examen Cytologique Bactériologique Urinaire",
+            "examen cytologique bactériologique urinaire",
+            "Examen cytologique et bactérien des urines",
+            "Examen cytobacteriologiques des urines",
+            "Examen cytobactériologique urinaire",
+            "Examen cytologique bactériologique urinaire",
+            "Examen cytologique et bacteriologique des urines",
+            "Examen cytobacteriologie des urines",
+            "Examen cyto-bacteriologique urines",
+            "Examen cytobactériologique des urines ECBU",
+            "Examen cytologique bacteriologique des urines (ECBU)",
+            "Examen cytobacteriologique des urines (ECBU)",
+            "Examen Cytologique Bacteriologique Urines",
+            "Exemen cytobacteriologique des urines"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300839619-bbfbde552a7be",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes médecin urgentiste à la SAUV. Vous recevez M. P, 52 ans.\nIl est amené par le SMUR dans un contexte d’hématémèse, c’est le compagnon de M. P qui a appelé le 15 devant 2 épisodes d’hématémèse (2 fois l’équivalent d’un demi bol).\nA l’arrivée du SMUR, le patient présente les paramètres vitaux suivants :\nTA 94/45 mmHg (Pam 61 mmHg)\nFC 108 bpm\nSpO2 95% en AA\nFR 28\nNormoglyqué / Normotherme\nAu cours du transport, le patient a présenté des rectorragies. Il a bénéficié d’un remplissage vasculaire par cristalloïdes de 250mL. Avec ce traitement, les paramètres vitaux restent identiques.\nLe médecin du SMUR, après vous avoir fait les transmissions, vous signale que le compagnon du patient était très probablement alcoolisé et que l’appartement était rempli de bouteilles d’alcool. Ni le patient ni le compagnon étaient en mesure de vous donner les antécédents et les traitements de votre patient.\nVous recherchez le patient sur votre logiciel afin d’en savoir un peu plus. Vous découvrez qu’il a été suivi il y a 3 ans en hépatologie pour une cirrhose alcoolique CHILD B7 à ce moment-là. Il avait eu plusieurs endoscopies qui retrouvaient des varices œsophagiennes de grade 1. Il était traité par PROPRANOLOL. Il n’avait pas d’ascite.\nDepuis, le patient ne s’est pas présenté aux consultations de suivi. Il a consulté une fois aux urgences il y a quelques mois pour une chute au domicile sans gravité.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est votre première hypothèse diagnostique ?",
+          "choix": [
+            "A) choc septique sur infection de liquide d’ascite",
+            "B) hémorragie sur ulcère gastro-duodénal",
+            "C) hémorragie sur rupture de varice œsophagienne",
+            "D) hémorragie sur pathologie hémorroïdaire",
+            "E) hémorragie sur pathologie diverticulaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A l’examen clinique, l’abdomen est distendu avec une matité à la percussion dans les zones déclives et tympanique sur les zones supérieures (cf image ci-dessous). On retrouve une circulation veineuse collatérale abdominale. Le patient est cohérent, il n’existe pas de signe de localisation neurologique.\nLes paramètres vitaux à l’arrivée en service d’urgence sont les suivants :\nTA 99/48 (Pam 65 mmHg)\nFC 99 bpm\nSpO2 95% en AA\nFR 25\nQuelles thérapeutiques devez-vous débuter dans les 24 premières heures ? (trois réponses justes)",
+          "choix": [
+            "A) antibiotiques en prévention de l'infection du liquide d'ascite",
+            "B) Sandostatine intraveineuse",
+            "C) transfusion plaquettaire",
+            "D) inhibiteurs de la pompe à protons intraveineux",
+            "E) coloscopie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/urgences-s8/2024/q15.png?v=1786300840821"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel bilan biologique réalisez-vous en urgence ?",
+          "choix": [
+            "A) numération globulaire/plaquettes",
+            "B) gaz du sang artériel avec lactate",
+            "C) hémostase",
+            "D) créatinine et urée plasmatique",
+            "E) ionogramme urinaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Rapidement après son arrivée au SAUV, le patient présente un nouvel épisode d’hématémèse de sang frais associé à une lipothymie. Vous ne disposez pas encore des résultats biologiques. Les paramètres vitaux sont les suivants :\nTA 83/42 (Pam 56 mmHg)\nFC 112 bpm\nSpO2 92% en AA\nQuelles sont les thérapeutiques à mettre en place dans les prochaines 30 minutes ? (deux réponses justes)",
+          "choix": [
+            "A) remplissage vasculaire par cristalloïdes",
+            "B) adréaline IVSE",
+            "C) transfusion de CGR",
+            "D) mise en place d'une sonde naso-gastrique",
+            "E) oxygénothérapie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez les résultats du bilan biologique :\nHb 5.2 g/dL ; Plaquettes 96 G/L\nTP 62% ; TCA 0.87 ; Fibrinogène 2.9 g/L\nCréatininémie 92 µmol/L ; urée plasmatique 13 mmol/L\nNa 138 mmol/L ; K 4.3 mmol/L\nGaz du sang artériel : pH 7.28 ; PO2 (sous 2L/min) 91 mmHg ; PCO2 30 mmHg ; Lactate 5.6 mmol/L ; HCO3- 18 mmol/L Concernant le bilan biologique du patient. Quelles sont les 2 réponses justes ?",
+          "choix": [
+            "A) il existe une acidose mixte",
+            "B) il existe une acidose métabolique non compensée",
+            "C) la PCO2 est basse en lien avec une hyperventilation compensatrice de l'acidose métabolique",
+            "D) devant le taux de fibrinogène retrouvé le patient nécessite une perfusion de fibrinogène",
+            "E) le patient nécessite la perfusion de bicarbonate de sodium"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A partir de ces nouveaux éléments, quelle est votre prise en charge en urgence ? (2 réponses justes)",
+          "choix": [
+            "A) transfusion de PFC (plasma frais congelé)",
+            "B) transfusion de CGR",
+            "C) Noradrénaline IVSE pour viser une pression artérielle moyenne > 75 mmHg",
+            "D) surveillance de la diurèse horaire",
+            "E) transfusion plaquettaire"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle intervention faut-il réaliser sans délai chez ce patient ?",
+          "choix": [
+            "A) ponction évacuatrice du liquide d'ascite",
+            "B) mise en place d'un TIPS en urgence",
+            "C) endoscopie œsogastroduodénale",
+            "D) reprise des bêta-bloquants",
+            "E) mise en place d'une sonde de Blakemore"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300843820-f85f3b553f704",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous êtes de garde aux urgences, vous recevez madame V, 87 ans pour chute. La patiente présente une amnésie des faits, son interrogatoire est limité. Elle a pour principal antécédent une maladie d’Alzheimer, une cardiopathie ischémique stentée, ainsi qu’une maladie cœliaque. Son traitement comporte Kardegic 75mg le midi, atorvastatine 10mg le matin, et oxazepam 10mg le soir. Madame V a une impotence fonctionnelle du poignet droit avec déformation évocatrice d'une fracture. Le mécanisme lésionnel est en compression flexion.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "D’après le mécanisme lésionnel, quel est le sens du déplacement de la fracture le plus probable ? 1 mot attendu",
+          "choix": [],
+          "reponses": [
+            "antérieur",
+            "Antérieure",
+            "Anterieure"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles complications recherchez-vous à l’examen clinique ?",
+          "choix": [
+            "A) un déficit sensitif",
+            "B) une atteinte du nerf médian",
+            "C) un déficit de l'extenseur du pouce",
+            "D) une atteinte vasculaire",
+            "E) une plaie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous réalisez une radiographie face et profil du poignet qui retrouve une fracture de l’extrémité inférieure du radius, extra articulaire, avec une déformation antérieure. Concernant l’aspect radiographique normal de l’extrémité inférieure du radius, quelles sont les 3 réponses vraies ?",
+          "choix": [
+            "A) la tête de l’ulna est plus longue de 2mm par rapport au radius",
+            "B) la ligne bistyloidienne a une inclinaison de 15°",
+            "C) l’inclinaison frontale de l’épiphyse radiale est d’environ 25°",
+            "D) l’inclinaison de la glène radiale de profil est de 10°",
+            "E) les arcs de Gilula se croisent"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente bénéficie d’une réduction et d’une immobilisation par attelle plâtrée, de type manchette. Quelles sont les deux complications sous plâtre à court terme ?",
+          "choix": [
+            "A) syndrome du canal carpien",
+            "B) syndrome douloureux régional complexe de type 1",
+            "C) cal vicieux",
+            "D) syndrome des loges",
+            "E) thrombose veineuse profonde"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 facteurs de risque d’ostéoporose que vous retrouvez chez cette patiente ?",
+          "choix": [
+            "A) la ménopause",
+            "B) le traitement par Kardegic",
+            "C) le traitement par Oxazepam",
+            "D) son antécédent de maladie cœliaque",
+            "E) le sexe féminin"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant le bilan de chute : son ECG est normal, et le test d’hypotension orthostatique revient positif. Vous prescrivez des bas de contention. Au moment de se verticaliser pour le retour à domicile, Madame V présente une instabilité, elle tombe vers l’arrière et a un fléchissement des genoux. Elle semble anxieuse. Quelle est votre hypothèse principale ?",
+          "choix": [
+            "A) confusion",
+            "B) syndrome post chute",
+            "C) fracture branche ischiopubienne associée",
+            "D) hypotension orthostatique sévère",
+            "E) syndrome dépressif"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

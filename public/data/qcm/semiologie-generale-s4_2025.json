@@ -1,0 +1,435 @@
+{
+  "matiere": "Sémiologie générale",
+  "slug": "semiologie-generale-s4",
+  "annee": 2025,
+  "title": "Sémiologie générale - 2025",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’asthénie, quelles ont les propositions justes (QRM) ?",
+          "choix": [
+            "A) L’asthénie organique est présente à son maximum dès le matin",
+            "B) L’asthénie psychogène peut s’associer à des difficultés d’endormissements",
+            "C) L’asthénie psychogène peut s’associer à des réveils nocturnes spontanés",
+            "D) La présence d’un amaigrissement oriente d’emblée vers une asthénie organique",
+            "E) toute souffrance d'organe importante peut être à l'origine d'une asthénie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, quelles sont celles dans lesquelles on peut entendre des crépitants (QRM) ?",
+          "choix": [
+            "A) Fibrose pulmonaire",
+            "B) Asthme",
+            "C) OAP",
+            "D) Pneumonie aigue",
+            "E) BPCO"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen sénologique, quelles sont les propositions justes (QRM) ?",
+          "choix": [
+            "A) Il comprend toujours un temps les bras le long du corps (ou les mains sur les hanches) et un temps les bras levés",
+            "B) À l’inspection, un méplat ou une rétraction sont des signes évocateurs d’une tumeur du sein",
+            "C) Il ne doit être réalisé que sur une patiente debout",
+            "D) Un écoulement mammelonaire peut être physiologique en dehors de la grossesse",
+            "E) L’examen des aires ganglionnaires à la recherche d’adénopathies suspectes est primordial"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Afin d'orienter le diagnostic d' oedèmes généralisés, vous recherchez:",
+          "choix": [
+            "A) une turgescence jugulaire",
+            "B) un bruit de galop à l'auscultation cardiaque",
+            "C) une hépatomégalie douloureuse",
+            "D) un souffle systolique à la pointe de la xyphoïde",
+            "E) une protéinurie à la bandelette urinaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les anomalies auscultatoires d’une insuffisance mitrale (QRM) ?",
+          "choix": [
+            "A) Bruit à type de souffle",
+            "B) Temps diastolique",
+            "C) Temps systolique",
+            "D) Timbre 'en jet de vapeur'",
+            "E) Irradiation vers le cou"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente de 34 ans consulte pour l'apparition récente de leucorrhées. Quel signe est très en faveur d'une infection de l'appareil génital? (QRU) ?",
+          "choix": [
+            "A) des métrorragies",
+            "B) une leucocyturie à la bandelette urinaire",
+            "C) Douleur et défense à la palpation de la fosse iliaque gauche",
+            "D) irradiation de la douleur vers la fosse lombaire gauche",
+            "E) Vomissements"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les râles sibilants, quelle affirmation est fausse?",
+          "choix": [
+            "A) ces râles peuvent être diffus en cas de crise d'asthme",
+            "B) on peut les rencontrer dans certaines infections virales",
+            "C) ils sont présents à l'inspiration et à l'expiration",
+            "D) on peut les rencontrer en cas d'insuffisance cardiaque du sujet âgé",
+            "E) ils peuvent être provoqués par une prise de beta-bloquant"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes suivants, lesquels vous évoquent la possibilité d'un diabète insulinodépendant?",
+          "choix": [
+            "A) polyurie",
+            "B) polydypsie",
+            "C) prise de poids rapide",
+            "D) fatigue",
+            "E) perte de poids avec appétit conservé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes doivent faire évoquer une rétention aigue d'urine?",
+          "choix": [
+            "A) matité sus-pubienne",
+            "B) douleur sus-pubienne",
+            "C) douleur en fosse lombaire unilatérale",
+            "D) confusion chez un sujet âgé",
+            "E) brûlures mictionnelles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Rattacher un type de douleur à son mécanisme ou son origine\nÉlément à associer Réponse attendue\nbrûlure neuropathique\ndouleur à type de torsion souffrance d'un viscère creux\nconstrictive ischémie\nimpulsive à la toux pleurale\nirradiant en face externe de cuisse et de jambe radiculaire",
+          "choix": [
+            "neuropathique",
+            "souffrance d'un viscère creux",
+            "ischémie",
+            "pleurale",
+            "radiculaire"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 10,
+          "items": [
+            {
+              "id": "item-1786300190102-84e13643351df8",
+              "label": "brûlure",
+              "correctAnswer": "neuropathique"
+            },
+            {
+              "id": "item-1786300190271-86a4c920260ab",
+              "label": "douleur à type de torsion",
+              "correctAnswer": "souffrance d'un viscère creux"
+            },
+            {
+              "id": "item-1786300190435-e32b71a10319",
+              "label": "constrictive",
+              "correctAnswer": "ischémie"
+            },
+            {
+              "id": "item-1786300190605-0c99c6de546bc",
+              "label": "impulsive à la toux",
+              "correctAnswer": "pleurale"
+            },
+            {
+              "id": "item-1786300190769-39ef9c7160847",
+              "label": "irradiant en face externe de cuisse et de jambe",
+              "correctAnswer": "radiculaire"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes peut on rencontrer au cours de la confusion?",
+          "choix": [
+            "A) désorientation temporelle",
+            "B) des troubles de la mémoire",
+            "C) agitation psychomotrice",
+            "D) altération de la vigilance",
+            "E) désorientation spatiale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On pense à une démence devant:",
+          "choix": [
+            "A) un trouble de la mémoire d'installation brutale",
+            "B) un trouble du jugement ou du raisonnement d'apparition progressive",
+            "C) un syndrome aphaso-apraxo-agnosique chez un sujet de 83 ans",
+            "D) un état de mélancolie délirante",
+            "E) un épisode psychotique aigu"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle particularité du rétrécissement aortique orificiel (RAO) est juste?",
+          "choix": [
+            "A) le RAO est responsable d'un bruit de roulement",
+            "B) le bruit de RAO est doux, lointain , voilé",
+            "C) on entend le RAO au temps systolique",
+            "D) on recherche le RAO au deuxième foyer intercostal gauche",
+            "E) le RAO irradie dans l'aisselle"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel signe clinique n'est pas évocateur de syncope vagale?",
+          "choix": [
+            "A) présence de prodromes",
+            "B) pâleur",
+            "C) sueurs",
+            "D) tension artérielle systolique à 50 mm Hg",
+            "E) tachycardie"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'hypotension orthostatique, quelles sont les affirmations vraies?",
+          "choix": [
+            "A) Elle se définit par la perte de 40 mm Hg de tension artérielle systolique (TAS) lors du passage à l'orthostatisme",
+            "B) elle se définit par l'absence de tachycardie en réponse à une chute de TAS d'au moins 20 mm Hg",
+            "C) elle peut être suivie de syncope vagale",
+            "D) elle doit systématiquement être recherchée lors d'une première prise de tension artérielle chez un nouveau patient",
+            "E) elle est généralement due à une maladie neurologique"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On peut rencontrer une polypnée au cours de:",
+          "choix": [
+            "A) l'acido-cétose diabétique",
+            "B) une crise d'asthme non sévère",
+            "C) un choc hémorragique",
+            "D) une intoxication aux morphiniques",
+            "E) une crise d'angoisse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez vous chez un jeune homme de 35 sans facteurs de risque cardiovasculaire qui se présente aux urgences pour une douleur thoracique médio-sternale apparue en quelques heures, augmentant à l'inspiration profonde, et diminuée par l'antéflexion du tronc? (répondre par un seul mot)",
+          "choix": [],
+          "reponses": [
+            "péricardite",
+            "pericardite",
+            "Péricardite",
+            "Pericardite"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes évocateurs de syndrome occlusif?",
+          "choix": [
+            "A) diarrhée",
+            "B) arrêt des matières",
+            "C) arrêt des gaz",
+            "D) vomissements fécaloïdes",
+            "E) rectorragies"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les syndromes péritonéaux, quels sont les affirmations exactes?",
+          "choix": [
+            "A) la défense s'évalue par l'inspection",
+            "B) la contracture s'évalue par la palpation",
+            "C) un toucher pelvien s'impose devant un syndrome péritonéal de la fosse iliaque gauche",
+            "D) la contracture est un signe de gravité",
+            "E) un avis chirurgical est requis devant tout syndrome péritonéal"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, lesquelles sont des complications classiques de l'alitement chez un sujet âgé?",
+          "choix": [
+            "A) rétention d'urine",
+            "B) fécalome",
+            "C) phlébite des membres inférieurs",
+            "D) syndrome de glissement",
+            "E) escarres"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

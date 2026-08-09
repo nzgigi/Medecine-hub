@@ -1,0 +1,356 @@
+{
+  "matiere": "Système neurosensoriel – ORL, CMF et ophtalmologie",
+  "slug": "sns-orl-cmf-ophtalmologie-s5",
+  "annee": 2025,
+  "title": "Système neurosensoriel – ORL, CMF et ophtalmologie - 2025",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant ce champ visuel, quel est ce déficit ?",
+          "choix": [
+            "A) Quadranopsie latérale homonyme supérieure gauche",
+            "B) Quadranopsie latérale homonyme supérieure droite",
+            "C) Quadranopsie bi temporale supérieure",
+            "D) Hémianopsie bi temporale",
+            "E) Hémianopsie latérale homonyme gauche"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2025/q1.png?v=1786300336445"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les particularités ophtalmologiques chez l’enfant, quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) L’acuité visuelle à la naissance est à 10/10",
+            "B) Un enfant sur 6 présente une anomalie visuelle",
+            "C) Des dépistages d’anomalie visuelle sont obligatoires comme par exemple avant l’entrée au CP",
+            "D) Une microphtalmie est un signe d’un bon fonctionnement de l’œil.",
+            "E) Lors du test d’occlusion alternée, l’enfant ne tolère pas l’occlusion de l’œil sain"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Indiquez ci-dessous quelle(s) proposition(s) est/sont vraie(s)",
+          "choix": [
+            "A) Le muscle droit supérieur est innervé par le nerf III",
+            "B) Le muscle releveur de la paupière supérieure est innervé par le nerf IV",
+            "C) La cornée est avasculaire",
+            "D) La couche endothéliale cornéenne se renouvelle régulièrement",
+            "E) Le muscle sphincter de l’iris est innervé par la voie sympathique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Si l’on retrouve un phénomène de tyndall à l’examen clinique, à quoi faut-il penser ?",
+          "choix": [
+            "A) Une uvéite",
+            "B) Une sclérite",
+            "C) Une épisclérite",
+            "D) Une conjonctivite",
+            "E) Une hémorragie sous conjonctivale"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Comment se nomme l’examen permettant de voir l’angle irido-cornéen ?",
+          "choix": [
+            "A) Le verre à 3 miroirs",
+            "B) Le tonomètre de goldman",
+            "C) La gonioscopie",
+            "D) L’ophtalmoscopie",
+            "E) L’asthénopie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300337596-1cb664e9b35ce8",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient se présente pour une paralysie faciale gauche d'origine centrale. Quels signes cliniques sont compatibles avec cette origine?",
+          "choix": [
+            "A) Effacement des rides du front à gauche",
+            "B) Kératite d’exposition gauche",
+            "C) Signe du rideau gauche",
+            "D) Fermeture symétrique des fentes palpébrales",
+            "E) Asymétrie du sourire"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "neutralized": [
+            "C"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient viens vous voir pour otalgie droite. L’otoscopie vous est fournie. Quelles sont les propositions justes ?",
+          "choix": [
+            "A) Le tympan est bombant.",
+            "B) On retrouve des filaments mycéliens.",
+            "C) Il présente une otorrhée purulente.",
+            "D) Il y a un œdème du conduit.",
+            "E) Il s’agit d’une otite moyenne aiguë bactérienne."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2025/q7.png?v=1786300338523"
+          ],
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez vu en consultation un patient pour vertige évoluant depuis la veille même au repos. Vous avez fait le diagnostic de syndrome vestibulaire périphérique gauche. Quels éléments avez-vous pu retrouver à l’examen ?",
+          "choix": [
+            "A) Déviation des index à gauche",
+            "B) Un élargissement du polygone de sustentation",
+            "C) Nystagmus horizontal gauche spontané dans tous les sens du regard",
+            "D) Nystagmus provoqué par la manœuvre de Dix et Hallpike gauche",
+            "E) Test d’Halmagyi (ou Head Impulse Test) positif à gauche"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles structures appartiennent à la cavité buccale?",
+          "choix": [
+            "A) La langue mobile",
+            "B) Les vallécules",
+            "C) Le palais dur",
+            "D) Le vestibule labial",
+            "E) Le voile du palais"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dyspnée, il est vrai que:",
+          "choix": [
+            "A) La dyspnée laryngée est aux 2 temps",
+            "B) La dyspnée laryngée est inspiratoire",
+            "C) La dyspnée laryngée peut être associée à un bruit type stridor",
+            "D) La dyspnée laryngée peut être secondaire à une lésion cancéreuse d’une corde vocale",
+            "E) La dyspnée laryngée peut être secondaire à une paralysie des cordes vocales"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dysphagie",
+          "choix": [
+            "A) Elle se définit par une douleur à la déglutition",
+            "B) Elle se définit par une gêne à la déglutition",
+            "C) Elle peut être aux solides et aux liquides",
+            "D) Elle est uniquement d’origine œsophagienne",
+            "E) Elle se définit par une modification de la voix"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300340108-b9a7dff24dec38",
+      "type": "SQI",
+      "title": "DL 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes cliniques qui peuvent nous aider a diagnostiquer une fracture de mandibule ?",
+          "choix": [
+            "A) Diplopie binoculaire",
+            "B) Limitation d'ouverture buccale",
+            "C) Trouble de l'articulé dentaire",
+            "D) Douleur a la palpation de la pyramide nasale",
+            "E) Paralysie faciale"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le nerf qui assure la motricité du visage ?",
+          "choix": [
+            "A) Nerf optique",
+            "B) Nerf de LYNN",
+            "C) Nerf facial",
+            "D) Nerf mentonnier",
+            "E) Nerf trijumeau"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Nerf de LYNN n'existe pas",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes que l'on peut retrouver dans le cadre d'une fracture orbitaire isolée ?",
+          "choix": [
+            "A) Epistaxis",
+            "B) Diplopie binoculaire",
+            "C) Diplopie monoculaire",
+            "D) Enophtalmie",
+            "E) Limitation de l'oculomotricité"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Diplopie monoculaire = trouble ophtalmo",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l'examen radiologique de référence en traumatologie faciale ?",
+          "choix": [
+            "A) Scanner",
+            "B) IRM",
+            "C) Echographie",
+            "D) Panoramique dentaire",
+            "E) Cliché de WINTERS"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "Le panoramique permet de voir quelques fractures de mandibule mais pas le reste du massif et n'est pas l'examen de référence",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles structures peuvent être atteintes lors d'une plaie strictement limité à la face ?",
+          "choix": [
+            "A) Voies lacrymales",
+            "B) Le canal de Sténon (canal salivaire parotidien)",
+            "C) Le nerf facial",
+            "D) Le nerf trijumeau",
+            "E) Le nerf oculomoteur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,669 @@
+{
+  "matiere": "Pédiatrie",
+  "slug": "pediatrie-s9",
+  "annee": 2024,
+  "title": "Pédiatrie - 2024",
+  "total_questions": 28,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos de l’allaitement maternel, quelle est la proposition vraie ?",
+          "choix": [
+            "A) En cas d’allaitement maternel exclusif après 4 mois, il faut débuter une supplémentation en fer",
+            "B) Les nourrissons allaités sont dispensés d’une supplémentation en vitamine D",
+            "C) L’allaitement maternel augmente le risque de cancer du sein pour la mère",
+            "D) L’introduction retardée du lait artificiel en cas d’allaitement peut augmenter le risque de maladie atopique",
+            "E) L’allaitement maternel exclusif a l’avantage de diminuer le risque d’infections virales"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi ces éléments, quels sont les 2 facteurs de risque de mort inattendue du nourrisson ?",
+          "choix": [
+            "A) Antécédent de naissance prématurée",
+            "B) Antécédent familial d’épilepsie",
+            "C) Tabagisme parental",
+            "D) Couchage en décubitus dorsal",
+            "E) Couchage dans un lit dans la chambre parentale"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi ces propositions, quelles sont les 2 causes de protéinurie physiologique de l’enfant ?",
+          "choix": [
+            "A) Protéinurie tubulaire",
+            "B) Protéinurie orthostatique",
+            "C) Protéinurie d’effort",
+            "D) Protéinurie glomérulaire",
+            "E) Glomérulonéphrite post-infectieuse"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "le signalement judiciaire est adressé",
+          "choix": [
+            "A) A l’Officier de Police Judiciaire (OPJ)",
+            "B) Au Juge des Enfants (JE)",
+            "C) Au Juge des Affaires Familiales (JAF)",
+            "D) Au procureur de la république",
+            "E) A la brigade des mineurs"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Dans le syndrome de West, le tracé EEG de fond typique montre :",
+          "choix": [],
+          "reponses": [
+            "une hypsarythmie",
+            "hypsarythmie",
+            "Hypsarythmie",
+            "hypsarythmies",
+            "hypsarthmie",
+            "Ipsarythmies",
+            "tracé hypsarythmique",
+            "hypsiarythmies",
+            "hysarythmies",
+            "hypsiarythmie",
+            "hypsarthymie",
+            "tracé hypsarythmique avec obdes lentes et diffuses et perte du rythme physiologique",
+            "hypsorythmique",
+            "Hyperarythmie",
+            "Des hypsarythmies",
+            "Hypersarythmie",
+            "hypsarythmique",
+            "Hypsarythmies",
+            "hypersarthimie",
+            "ipsirythmie",
+            "Hipsarythmie",
+            "hypsarythmie (et pointes ondes, polypointes onde)",
+            "hypsarythmie/ anarchie",
+            "une hypsarhytmie",
+            "hipsarythmie",
+            "un tracé ipsarythmique",
+            "hypsarrythmie",
+            "hysarythmie",
+            "ipsarythmie",
+            "un trace hyps arythmique",
+            "des hypsarythmies",
+            "Ipsarythmie",
+            "hypsarithmie",
+            "Tracé hypsarythmique"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En cas de crise convulsive hyperthermique de plus de 5 minutes chez un enfant de 2 ans, quelle est la voie d’administration en première intention de la thérapeutique d’urgence ?",
+          "choix": [],
+          "reponses": [
+            "intra rectale",
+            "intrarectale",
+            "intra-rectale",
+            "rectale",
+            "intra rectal",
+            "Intra-rectale",
+            "Intrarectale",
+            "voie rectale",
+            "intra-rectal",
+            "intrarectal",
+            "Intra-rectal",
+            "voie intra-rectale",
+            "rectal",
+            "Voie intra-rectale",
+            "Voie rectale",
+            "Rectale",
+            "voie rectal",
+            "Diazépam intra-rectale",
+            "Voie intra rectale",
+            "voie intrarectale",
+            "Intrarectal",
+            "voie intra rectale",
+            "Voie intrarectale"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A 6 mois, un nourrisson au développement typique doit :",
+          "choix": [
+            "A) Tenir assis sans appui",
+            "B) Avoir acquis la permanence de l’objet",
+            "C) Commencer à babiller",
+            "D) Attraper volontairement les objets",
+            "E) Être capable de pointer"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La scoliose idiopathique",
+          "choix": [
+            "A) est plus fréquente chez la fille",
+            "B) présente un risque d’aggravation en période pubertaire",
+            "C) est responsable d’une gibbosité",
+            "D) est due à une malformation vertébrale",
+            "E) n’entraine pas de rotation vertébrale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un enfant de 14 mois présente une diarrhée aiguë\nParmi les signes suivants lequel (lesquels) est (sont) en faveur d’une diarrhée invasive bactérienne :",
+          "choix": [
+            "A) fièvre très élevée et mal tolérée évoluant depuis plus de 48 heures",
+            "B) selles aqueuses de couleur verte",
+            "C) douleurs abdominales, épreintes et ténesme lors de l’émission de selles",
+            "D) association à des signes ORL et un exanthème cutané",
+            "E) vomissements fréquents et abondants"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le stade de Tanner, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Il est coté chez la fille selon le développement des seins et de la pilosité pubienne",
+            "B) Le stade S1 correspond au démarrage pubertaire chez la fille",
+            "C) Il comprend l’âge d’apparition des règles chez la fille",
+            "D) Un volume testiculaire de plus de 4 ml chez le garçon correspond à un démarrage pubertaire",
+            "E) La lettre P correspond au stade de développement du pénis"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297282585-7dba3ba72f9db8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un nouveau-né au terme de 28 SA + 3 jours naît par voie basse spontanément. L’évaluation postnatale met en évidence une détresse respiratoire",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la cause la plus probable de cette détresse respiratoire ?",
+          "choix": [],
+          "reponses": [
+            "membranes hyalines",
+            "maladie des membranes hyalines",
+            "maladie des membranes hyaline",
+            "maladie des membrane hyaline",
+            "Maladie des membranes hyalines (prematurité)",
+            "maladie des membranes hyalines (défaut de maturation pulmonaire)",
+            "maladie des membranes hyaline du a la prematurite",
+            "Maladie des membranes hialines",
+            "Maladie des mambranes hyaline",
+            "detresse respiratoire sur maladie des membranes hyaline",
+            "maladie des membranes hyalines dans le cadre de sa prématurité extrême",
+            "maladie des membranes hyalines en lien avec la prématurité",
+            "Prématurité (maladie des membranes hyalines)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 4 éléments complémentaires de l’histoire en faveur de votre hypothèse diagnostique ?",
+          "choix": [
+            "A) Corticothérapie anténatale",
+            "B) Diabète maternel",
+            "C) Oxygéno-dépendance",
+            "D) Couleur du liquide amniotique",
+            "E) Fièvre maternelle",
+            "F) Rupture prématurée de la poche des eaux",
+            "G) Survenue immédiate après la naissance et amélioration spontanée",
+            "H) Apparition rapide après la naissance et aggravation progressive",
+            "I) Colonisation maternelle à strepto B",
+            "J) Manœuvre d’extraction instrumentale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "H"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel élément radiologique est en faveur de ce diagnostic ?",
+          "choix": [
+            "A) Syndrome alvéolaire bilatéral",
+            "B) Syndrome interstitiel bilatéral",
+            "C) Scissurite",
+            "D) Troubles de ventilation",
+            "E) Opacité alvéolaire unilatérale systématisée"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297283712-55c3b4a609ea7",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez en consultation M... , un nouveau-né de 15 jours. Il s’agit d’un rendez-vous systématique, mais ce matin la maman l’a trouvé chaud et a mesuré une température à 38.4°C. Vous consultez son carnet de santé : il est né à 40 SA + 1 jour, par césarienne pour cause fœtale, la durée de rupture de la poche des eaux était de 3h, le liquide amniotique était clair, score d’Apgar 10 à 1 et 5 min, poids de naissance 2950 g, taille de naissance 49 cm et périmètre crânien 35 cm. C’est un 3ème enfant, il bénéficie d’un allaitement mixte et avait repris son poids de naissance à 11 jours de vie, dernière pesée par la sage-femme",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel élément de l’anamnèse vous manque-t-il pour compléter les facteurs de risque d’infection néonatale précoce ?",
+          "choix": [
+            "A) Fièvre néonatale dans les 2h suivant l’accouchement",
+            "B) Antécédent d’infection néonatale précoce dans la fratrie",
+            "C) Antibiothérapie pendant la grossesse",
+            "D) Résultat du prélèvement vaginal chez la mère en fin de grossesse",
+            "E) Anomalies du rythme cardiaque fœtal pendant le travail"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La maman n’a pas eu de fièvre à l’accouchement et son prélèvement vaginal était négatif pour le streptocoque B. Elle a eu une infection urinaire à E. Coli au troisième trimestre de la grossesse, son bébé a eu un dosage de la CRP à J3 qui était négatif\nQuelle est la voie de référence pour mesurer la température d’un nourrisson ?",
+          "choix": [],
+          "reponses": [
+            "Voie rectale",
+            "rectale",
+            "intra rectale",
+            "intrarectale",
+            "intra-rectale",
+            "intra rectal",
+            "Intra-rectale",
+            "rectal",
+            "Intra rectale",
+            "intra-rectal",
+            "Intrarectale",
+            "intrarectal",
+            "voie intra-rectale",
+            "Intra-rectal",
+            "voie intra rectale",
+            "thermometre intrarectale",
+            "thermomètre rectal",
+            "voie rectal",
+            "température rectale",
+            "anale",
+            "intra-recrale",
+            "voie rectale"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous commencez à examiner M....., le poids est stable à 2955 g, soit pas de prise de poids depuis 4 jours, le PC est à 35 cm, la température rectale est à 38.6°C\nQuels sont les 4 signes de gravité associés à la fièvre que vous allez rechercher chez ce nouveau-né ?",
+          "choix": [
+            "A) Signes de lutte respiratoire",
+            "B) Troubles digestifs",
+            "C) Temps de recoloration allongé",
+            "D) Tachycardie",
+            "E) Troubles de la conscience"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous constatez que cet enfant présente des signes de lutte respiratoires marqués et un encombrement nasal. La fréquence cardiaque est à 160/min et la fréquence respiratoire à 70/min. Le Temps de recoloration cutané est à 3s, l’enfant est pâle mais tonique et souriant. L’auscultation cardiaque est normale, l’auscultation pulmonaire retrouve des crépitants aux 2 bases. La fontanelle est normo tendue. La maman vous demande si son bébé peut avoir lui aussi une infection urinaire.\nParmi ces propositions à propos des infections urinaires, quelle est la proposition vraie ?",
+          "choix": [
+            "A) La cystite du nouveau-né est un diagnostic possible chez la fille",
+            "B) L’âge < à 6 mois est un critère de gravité pour une pyélonéphrite aiguë de l’enfant",
+            "C) Une infection urinaire doit toujours être évoquée pour toute fièvre sans point d’appel, avant 3 mois",
+            "D) Le dépistage repose sur la bandelette urinaire quel que soit l’âge",
+            "E) Il n’est pas nécessaire de réaliser une échographie rénale et des voies urinaires lors du 1er épisode d’infection urinaire haute du nourrisson"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous expliquez à la maman que ce diagnostic est peu probable car M...... a un point d’appel.\nQuel est le diagnostic le plus probable selon vous ?",
+          "choix": [],
+          "reponses": [
+            "bronchiolite aigue",
+            "bronchiolite aigue du nourrisson",
+            "bronchiolite",
+            "bronchiolite du nourrisson",
+            "Bronchiolite du nourrisson",
+            "bronchiolite du nourisson",
+            "bronchiolite aigue du nourisson",
+            "bronchiolyte",
+            "bronchiolite aiguë",
+            "bronchilote aigue du nourrisson",
+            "bronchiolite aiguë du nourisson",
+            "Bronchiolite aigüe",
+            "Bronchiolitte du nourisson",
+            "infection respiratoire (bronchiolite)",
+            "bronchiolite aiguë du nourrisson"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les 2 arguments que vous allez donner à cette maman pour justifier d’hospitaliser son enfant ?",
+          "choix": [
+            "A) Fièvre < 6 semaines",
+            "B) Détresse respiratoire aigue",
+            "C) Stagnation pondérale",
+            "D) Facteurs de risque d’infection néonatale",
+            "E) Signes neurologiques"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels seront les 3 examens complémentaires à réaliser ?",
+          "choix": [
+            "A) Radiographie thoracique",
+            "B) Hémoculture",
+            "C) Bandelette urinaire",
+            "D) CRP",
+            "E) Coproculture"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297287202-f07179e10f2c",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un nourrisson de sexe masculin de 18 mois est amené aux urgences pour une fièvre à 39°5 C évoluant depuis le matin avec vomissements répétés",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Chez ce nourrisson citez les 2 items qui orienteraient plus particulièrement vers une méningite bactérienne ?",
+          "choix": [
+            "A) Paleur",
+            "B) Survenue d’une crise d’épilepsie focale",
+            "C) Présence d’une otite moyenne aigue à l’examen",
+            "D) Hypotonie axiale nette",
+            "E) Reflexes ostéo-tendineux vifs aux membres inférieurs"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous constatez à l’examen cutané de l’enfant une éruption purpurique. Vous suspectez une méningite purulente. Dans ce contexte, quelle serait la condition qui contre indique la réalisation immédiate d’une ponction lombaire",
+          "choix": [
+            "A) Chiffres de plaquettes à 150 000 / mm 3",
+            "B) Somnolence",
+            "C) Fontanelle bombée",
+            "D) Trouble hémodynamique avec hypotension significative",
+            "E) Survenue d’une crise épileptique généralisée"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Effectivement, vous constatez un état hémodynamique insuffisant et sans attendre vous réalisez un remplissage vasculaire et débutez une antibiothérapie par voie IV.\nParmi les 5 germes suivants, quels sont les deux les plus probables chez un enfant correctement vacciné ,",
+          "choix": [
+            "A) Neisseria Meningitidis",
+            "B) E Coli",
+            "C) Haemophilus Influenzae b",
+            "D) Streptoccoccus Pneumoniae",
+            "E) Listeria"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "De manière différée, vous réalisez une ponction lombaire dont voici les résultats\n1000 cellules, avec prédominance de polynucléaires altérés\nProtéinorachie= 0,6g/l\nRapport Glycorachie/Glycémie= 0,2\nExamen direct négatif\nQuel(s) sont les commentaires exacts ?",
+          "choix": [
+            "A) La négativité de l’examen direct écarte le diagnostic de méningite purulente",
+            "B) Il n’existe pas d’hyper-protéinorachie puisque < 1g/l",
+            "C) Il existe une hypoglycorachie",
+            "D) Le caractère altéré des PN n’est pas un élément d’orientation",
+            "E) Le nombre de cellules permet d’orienter vers une origine bactérienne"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297288100-fdb5028ef0e7c8",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Vous examinez P...... à la maternité qui présente un syndrome dysmorphique",
+      "order": 5,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic pouvez-vous évoquer immédiatement ?",
+          "choix": [
+            "A) Syndrome X fragile",
+            "B) Trisomie 21",
+            "C) Syndrome de Turner",
+            "D) Syndrome de RETT",
+            "E) Mucoviscidose"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/pediatrie-s9/2024/q25.png?v=1786297288369"
+          ]
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez évoqué le diagnostic de Trisomie 21, cette pathologie (une ou plusieurs réponses possibles) :",
+          "choix": [
+            "A) Aurait pu être diagnostiquée en anténatal",
+            "B) Aurait pu conduire à une interruption médicale de grossesse",
+            "C) Entraine une élévation des taux de phosphatases alcalines dans le liquide amniotique",
+            "D) Se confirme par une étude en biologie moléculaire",
+            "E) A une fréquence influencée par l’âge maternel"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de l’examen de P......, vous constatez l’existence d’un souffle cardiaque localisé au foyer mitral, doux, holosystolique, irradiant dans l’aisselle, 2/6.",
+          "choix": [
+            "A) Les caractéristiques du souffle évoquent un souffle fonctionnel",
+            "B) Il peut s’agir d’un souffle d’insuffisance mitrale",
+            "C) Il peut s’agir d’un souffle de Communication Inter Ventriculaire",
+            "D) Ce souffle est probablement révélateur d’un canal atrio ventriculaire",
+            "E) L’échocardiographie n’est pas utile dans cette situation"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) attitude(s) adoptez-vous suite à vos constatations à l’examen clinique",
+          "choix": [
+            "A) Vous informez le parent présent immédiatement",
+            "B) Vous demandez à recevoir les deux parents en entretien",
+            "C) Vous essayez de minimiser la situation médicale pour protéger la famille",
+            "D) Vous donnez des informations sommaires par crainte que les parents ne comprennent pas",
+            "E) Vous abordez dès l’annonce du diagnostic les possibilités de prise en charge"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

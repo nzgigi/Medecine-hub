@@ -1,0 +1,403 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s10",
+  "annee": 2025,
+  "title": "Urgences - 2025",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un nourrisson de 9 mois est amené par ses parents aux urgences pédiatriques pour malaise. Il est né au terme de 39 SA +3 jours, poids de naissance 3450g, taille de naissance 50 cm, périmètre crânien de naissance 35 cm. Apgar 10 à 1, 5 et 10 minutes. La période néonatale s’est déroulée sans particularité. Il bénéficie d’un allaitement artificiel depuis la naissance. Il est diversifié. Il a est jour du calendrier vaccinal. Sa mère vous explique que depuis ce matin il a vomi 3 fois. Il a vomi juste après son biberon. Il était pâle et depuis il pleure beaucoup.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les deux éléments d’interrogatoire et/ou cliniques qui vous orienteraient vers un malaise d’allure vagal ? (2\nréponses)",
+          "choix": [
+            "A) Un antécédent familial de mort subite du nourrisson",
+            "B) Un antécédent chez la sœur d’allergie aux protéines de lait de vache",
+            "C) Un antécédent de reflux gastro-œsophagien avec œsophagite",
+            "D) Une bradycardie à l’arrivée aux urgences",
+            "E) Un épisode de pleurs avec érythrose puis cyanose du visage précédant le malaise"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A l’examen clinique aux urgences :\nPoids 9kg, Taille 72cm\nL’enfant est pâle et hypotonique mais réactif. Les voies aériennes sont libres et sûres, fréquence respiratoire 42/min, SpO2 98%, bonne ampliation thoracique, pas de signes de lutte. Fréquence cardiaque 170/min, les pouls sont bien frappés, la pression artérielle est de 81/42 (52) mmHg. Il n’y a pas de signe d’hypoperfusion, ni de signe de précharge. La température corporelle est de 37.2°C, Glasgow 15. Les pupilles sont intermédiaires, réactives et symétriques. L’examen clinique est sans particularité.\nQuelle mesure physique indispensable manque dans l’examen physique de cet enfant ? (2 mots)",
+          "choix": [],
+          "reponses": [
+            "Périmètre crânien",
+            "Mesure périmètre crânien",
+            "Courbe de PC",
+            "Courbe de périmètre crânien",
+            "périmètre cranien",
+            "perimetre cranien",
+            "Périmètre cranien",
+            "périmetre cranien",
+            "Perimetre cranien",
+            "périmetre crânien",
+            "perimétre cranien",
+            "Perimètre crânien",
+            "perimètre crânien",
+            "périmêtre crânien",
+            "périmètre crannien",
+            "perimètre cranien"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La fontanelle est normo-tendue. Le périmètre crânien est de 46 cm et suit son couloir depuis la naissance. Il n’y a pas de signe de focalisation neurologique.\nQuel examen au lit du malade prescrivez-vous en premier ? (2 mots)",
+          "choix": [],
+          "reponses": [
+            "Glycémie capillaire",
+            "Dextro",
+            "Glycémie",
+            "glycemie capillaire",
+            "Glycemie capillaire",
+            "realisation dextro",
+            "glycémie capilaire",
+            "la glycémie",
+            "mesure glycémie",
+            "glycèmie capillaire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 5 examens biologiques prioritaires que vous prescrivez en urgence ? (5 réponses correctes)",
+          "choix": [
+            "A) NFS",
+            "B) calcémie",
+            "C) magnésémie",
+            "D) lactate",
+            "E) LDH, acide urique",
+            "F) troponine",
+            "G) ionogramme sanguin, transaminases",
+            "H) NT pro BNP",
+            "I) CK totales",
+            "J) lipasémie",
+            "K) ammoniémie",
+            "L) CRP, procalcitonine",
+            "M) hémoculture",
+            "N) screening toxicologique sanguin",
+            "O) ECBU",
+            "P) TP TCA",
+            "Q) PCR coqueluche"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "G",
+            "L"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les lactates sont normaux ainsi que le reste du bilan biologique.\nQuel examen d’imagerie vous semble le plus important à réaliser dans ce contexte ?",
+          "choix": [
+            "A) radiographie thoracique",
+            "B) TDM cérébral SPC",
+            "C) IRM cérébrale",
+            "D) échographie abdominale",
+            "E) échographie transfontanellaire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’échographie abdominale est en faveur d’une invagination iléocæcale. L’enfant bénéficie d’une désinvagination par\npar lavement thérapeutique rétrograde. Il est hospitalisé. 48heures plus tard, il va rentrer à domicile.\nQuels sont les facteurs protecteurs de la mort inattendue du nourrisson que vous allez expliquer aux parents ? (2 réponses exactes)",
+          "choix": [
+            "A) Utiliser un lit avec un matelas ferme, à plat, sans oreiller, ni couette, ni couverture",
+            "B) Favoriser le co-spleeping (le nourrisson dort dans le lit des parents)",
+            "C) Proposer à l'enfant une tétine lors de l'endormissement",
+            "D) Mettre un cale-bébé dans le lit du nourrisson",
+            "E) Maintenir la température de la chambre à 21°C"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300790047-4f6d684a49689",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une patiente de 54 ans est adressée aux urgences pour troubles de la vigilance. Elle est traitée depuis quelques jours par de la morphine sulfate (Skenan° 10 mg 1 comprimé matin et soir et Actiskenan° 5 mg 4 comprimés par jour) pour une fracture du poignet droit avec un traitement orthopédique (pas de chirurgie). C’est son mari, en rentrant du travail, qui l’a retrouvé dans le canapé, difficilement réveillable. Elle n’aurait rien pris d’autre que ce traitement-là. Le mari est rentré du travail à 17h30.\nA l’examen à 19h30, elle est somnolente mais réveillable à la stimulation verbale, les pupilles sont en myosis et elle présente une bradypnée à 9 par minute.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le toxidrome présent chez cette patiente ?",
+          "choix": [],
+          "reponses": [
+            "syndrome opioïde",
+            "syndrome opioide",
+            "syndrome opiacé",
+            "syndrome morphinique",
+            "opioïde",
+            "opioide",
+            "Opioïde",
+            "toxidrome opioïde",
+            "opioïdes",
+            "Toxidrome opioïde",
+            "morphinique",
+            "morphine",
+            "opiode",
+            "toxidrome opioide",
+            "Opioide",
+            "opioides",
+            "opïoide",
+            "syndrome opoïde",
+            "toxidrome aux opioïdes",
+            "opïode",
+            "opïoides",
+            "opiacé",
+            "Opioïdes",
+            "syndrome d'intoxication aux morphiniques",
+            "toxidrome opioïdes",
+            "Toxidrome morphinique (opoïde)",
+            "toxidrome opïode (morphinique)",
+            "toxidrome opiode",
+            "toxidrome aux opïacés",
+            "syndrome opioides",
+            "opioïde (intoxication aux morphiniques)",
+            "opiodes",
+            "toxidrome aux opioides",
+            "aux opioïdes",
+            "Toxidrome opioide",
+            "Toxidrome opioïdes",
+            "morphinique (opioïde)",
+            "intoxication aux opïoides",
+            "morphinique, intoxication aux opiacés",
+            "Morphinique",
+            "morphinique opioïde",
+            "syndrome des opioïdes",
+            "opoïde",
+            "toxidrome morphinique (intoxication axu opioides)",
+            "morphinique/opiode",
+            "aux opiacés",
+            "morphine (opïoide)",
+            "syndrome opïoide",
+            "morphinique/ opioide ( myosis, bradypnee , somnolente )"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles prises en charge priorisez-vous en urgence ?\nTraitements qui pourraient potentiellement être administrés à la patiente durant sa prise en charge ? (4 réponses attendues)",
+          "choix": [
+            "A) procéder à une intubation oro-trachéale d’emblée",
+            "B) recherche des signes de détresses respiratoire",
+            "C) débuter N-acétyl-Cystéine",
+            "D) débuter Naloxone",
+            "E) débuter Flumazénil",
+            "F) débuter Hydroxycobalamine",
+            "G) débuter Glucagon",
+            "H) pose d’une voie veineuse périphérique",
+            "I) administrer du bicarbonate de sodium 4.2%",
+            "J) administrer du gluconate de calcium",
+            "K) organiser un transport hospitalier médicalisé",
+            "L) administrer du charbon activé"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "H",
+            "K"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La bolus de Naloxone permet d’améliorer la vigilance de la patiente. Elle présente des signes de détresse respiratoire avec une toux productive. La saturation est mesurée à 88 % de saturation, sa fréquence respiratoire est mesurée à 24/min. Elle ne présente pas de sueur, la patiente est orientée dans le temps et l’espace. A l’auscultation, on retrouve des crépitants en base droite. Quelles sont les propositions justes ? (3 réponses)",
+          "choix": [
+            "A) débuter une oxygénothérapie nasale",
+            "B) initier une antibiothérapie",
+            "C) débuter une ventilation non invasive",
+            "D) administrer du charbon activé",
+            "E) poursuivre la Naloxone IV jusqu’à l’arrivée à l’hôpital"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300795176-1b4d8ba5ecb0a8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste et recevez Monsieur V, 45 ans, épileptique pour renouvellement de son ordonnance de lévétiracétam qui se termine la semaine prochaine. Il n’a pas d’autre antécédent et ne prend pas d’autre traitement. Il vous informe qu’il continue de présenter des crises tonicocloniques généralisées tous les mois malgré une bonne observance et l’absence d’effet indésirable de ses traitements. Pendant votre examen il présente une crise habituelle de 3 minutes.\nEn quoi consiste votre prise en charge au cabinet ?",
+          "choix": [
+            "A) administration d’une Benzodiazépine",
+            "B) installation en position latérale de sécurité",
+            "C) appel au 15 pour transport aux urgences",
+            "D) changement du traitement anti épileptique",
+            "E) administration d’une dose de charge de Lacosamide"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du choc hémorragique chez l’enfant, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) quand des signes de défaillance de la pompe cardiaque sont mis en évidence, un support hémodynamique via des inotropes doit être initié",
+            "B) tout enfant qui n'a pas répondu à 80 ml/kg (son volume circulant) de cristalloïdes nécessite des dérives sanguins dès que possible.",
+            "C) la première étape de la prise en charge thérapeutique sera l'arrêt du saignement par compression, suture, chirurgie ou endoscopie.",
+            "D) les cristalloïdes isotoniques sont recommandés comme liquide d'expansion volémique initial.",
+            "E) il est préférable de ne pas administrer plus de 20ml/kg de globules rouges 0(-) non comptabilisés à un enfant en raison du risque de modifier son groupe sanguin."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient se présente aux urgences avec les symptômes suivants : myosis, bradypnée et somnolence. Il vous affirme avoir ingéré des médicaments. Quel est le toxidrome en cause ?",
+          "choix": [
+            "A) myorelaxation",
+            "B) sérotoninergique",
+            "C) stabilisant de membrane",
+            "D) cholinergique",
+            "E) opioïde"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez aux urgences un patient de 18 ans ayant appelé le SAMU devant des difficultés respiratoires. Il décrit avoir ressenti une sensation d’étouffement brutale, associée à une tachycardie, une peur intense de mourir, et un sentiment d’étrangeté et d’irréalité du monde. Les paramètres vitaux sont normaux. Quelle est selon vous l’hypothèse clinique la plus probable ?",
+          "choix": [],
+          "reponses": [
+            "attaque de panique",
+            "crise d’angoisse aiguë",
+            "crise de panique",
+            "crise d'angoisse",
+            "Crise d'angoisse",
+            "crise d’angoisse",
+            "Crise de panique",
+            "crise panique",
+            "trouble panique",
+            "Crise de panique aiguë",
+            "Angoisse",
+            "Crise de panique avec déréalisation",
+            "crise de panique aigue",
+            "crise angoisse",
+            "une attaque de panique",
+            "un épisode d'attaque de panique",
+            "attaque aigüe de panique",
+            "attaque de panique avec déréalisation",
+            "Attaque de panique (psychogène)",
+            "crise d'attaque de panique",
+            "Crise/attaque de panique",
+            "attaque de panique psychogène",
+            "crise/attaque de panique",
+            "Crise d’angoisse",
+            "attaque de panique (crise d'angoisse)",
+            "attaque/crise de panique"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un nourrisson de 19 mois est admis aux urgences pédiatriques pour une convulsion fébrile. La crise cède au bout de 20 minutes lors de l’administration de diazepam intrarectal. Il présente de la ﬁèvre depuis la veille ainsi que des vomissements et une modiﬁcation du comportement selon les parents. La glycémie capillaire à l’arrivée aux urgences est à 0.9g/l, la CRP microméthode à 175mg/l.\nVous l’examinez à l’arrêt de la convulsion, quels éléments de votre examen clinique contre-indiqueraient la réalisation d’une ponction lombaire immédiatement chez ce nourrisson ?",
+          "choix": [
+            "A) un score de Glasgow pédiatrique à 13",
+            "B) une fréquence cardiaque à 60 bpm",
+            "C) un purpura sur les membres inférieurs",
+            "D) une récidive de convulsion généralisée",
+            "E) une asymétrie de force motrice"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

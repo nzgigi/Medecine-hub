@@ -1,0 +1,302 @@
+{
+  "matiere": "Sémiologie générale",
+  "slug": "semiologie-generale-s3",
+  "annee": 2024,
+  "title": "Sémiologie générale - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les douleurs thoraciques, quelles sont les affirmations exactes :",
+          "choix": [
+            "A) d'origine ischémique, elle est typiquement rétrosternale",
+            "B) d'origine péricardique, elle est modifiée par la position",
+            "C) d'origine péricardique, elle est modifiée par la respiration",
+            "D) elle peut irradier en hémi-ceinture",
+            "E) la douleur d'origine pleurale est atténuée par la respiration"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dyspnée, quelles sont les affirmations exactes :",
+          "choix": [
+            "A) Expiratoire, elle évoque une obstruction des petites bronches",
+            "B) Une polypnée peut se voir en cas d'infection sévère",
+            "C) Une bradypnée peut s'observer en cas de surdosage en morphine",
+            "D) Une polypnée peut avoir pour cause une hémorragie aigue",
+            "E) Inspiratoire, elle peut correspondre à un oedème du larynx"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une syncope se caractérise par (deux réponses vraies)?",
+          "choix": [
+            "A) une impression de perte de connaissance complète imminente",
+            "B) la présence de prodromes (signes annonciateurs)",
+            "C) une durée supérieure à 15 mn",
+            "D) la perte du tonus postural",
+            "E) une baisse transitoire de la perfusion cérébrale"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’hypotension orthostatique, quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) Elle est toujours ressentie",
+            "B) une baisse de 25 mm de la tension artérielle en orthostatisme n'est pas normale",
+            "C) Elle a fréquemment une cause médicamenteuse",
+            "D) Elle peut se compliquer de syncope vaso-vagale",
+            "E) on ne la recherche que s'il y a des symptômes suggestifs chez le patient"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les oedèmes:(réponses vraies)",
+          "choix": [
+            "A) C’est une cause de prise de poids rapide",
+            "B) Une albuminémie à 38 g/l peut être une cause d’œdème généralisé",
+            "C) Un œdème localisé à un membre doit faire évoquer une compression veineuse extrinsèque",
+            "D) Un œdème localisé à un membre doit faire évoquer une thrombose veineuse",
+            "E) Une anasarque correspond à l'accumulation de liquide dans la cavité péritonéale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant des oedèmes avec hypoalbuminémie < 30 g/L, on peut évoque en priorité (3 réponses exactes) :",
+          "choix": [
+            "A) Une maladie hépatique évoluée",
+            "B) Une maladie du tube digestif avec malabsorption",
+            "C) Un syndrome néphrotique",
+            "D) une insuffisance rénale débutante",
+            "E) une insuffisance cardiaque"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une douleur abdominale du flanc droit à type de spasmes, évoluant par à-coups paroxystiques, en l'absence de fièvre, on peut évoquer:",
+          "choix": [
+            "A) Une colopathie fonctionnelle",
+            "B) Une lithiase de la voie biliaire principale",
+            "C) Une lithiase urétérale",
+            "D) Un globe urinaire",
+            "E) Une pyélonéphrite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les organes suivants, lesquels peuvent être le siège de douleurs aggravées par l'alimentation (2 réponses exactes)",
+          "choix": [
+            "A) rate",
+            "B) pancréas",
+            "C) vésicule biliaire",
+            "D) reins",
+            "E) foie"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les vomissements, quelles sont les affirmations exactes :",
+          "choix": [
+            "A) Ils surviennent toujours après un repas",
+            "B) ils peuvent avoir une cause ORL",
+            "C) Ils peuvent avoir une cause psychique",
+            "D) Ils peuvent révéler une maladie du système nerveux central",
+            "E) En l'absence de cause évidente, ils doivent faire évoquer la possibilité d’une grossesse chez une femme"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez un choc hémorragique devant les signes suivants :",
+          "choix": [
+            "A) pâleur",
+            "B) Pouls à 140 / mn",
+            "C) fréquence respiratoire à 35 / mn",
+            "D) extrémités chaudes",
+            "E) Tension artérielle 100/60 mm Hg chez une patiente qui avait une tension artérielle à 150/70 lors de ses surveillances habituelles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant un syndrome fébrile à 40°C avec frissons chez un patient de 70 ans\névoluant depuis 2 jours, quels éléments de terrain sont utiles à rechercher à visée\nétiologique ?",
+          "choix": [
+            "A) introduction récente d'un nouveau médicament",
+            "B) Présence de matériel étranger",
+            "C) Voyages récents",
+            "D) Antécédents familiaux chirurgicaux",
+            "E) Facteurs d’immunodépression"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des signes généraux (réponses exactes) :",
+          "choix": [
+            "A) Le diabète est une cause d’amaigrissement sans anorexie",
+            "B) Une asthénie organique prédomine le matin",
+            "C) Une température corporelle centrale à 38,1°C est une fébricule",
+            "D) L’anorexie sélective pour les viandes est évocatrice d’une pathologie psychiatrique",
+            "E) Une septicémie à bacille Gram négatif peut être responsable d’hypothermie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du raisonnement clinique (réponses exactes)",
+          "choix": [
+            "A) Le principe de base est le modèle hypothético-déductif",
+            "B) L’observation reflète le raisonnement clinique et se termine par une synthèse",
+            "C) Un signe pathognomonique est observé dans plusieurs maladies",
+            "D) Le principe du rasoir d’Ockham consiste à rechercher plusieurs causes face à plusieurs symptômes",
+            "E) Il aboutit toujours à une prescription d’examens complémentaires"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des signes de gravité face à une dyspnée (réponses justes) :",
+          "choix": [
+            "A) L’hypercapnie est une cause de sueurs",
+            "B) Le temps de recoloration augmenté est un signe d’hypoxémie",
+            "C) Le balancement thoraco-abdominal est un signe d’épuisement respiratoire",
+            "D) La contraction à l’inspiration des muscles sterno-cléido-mastoïdiens est un signe de lutte",
+            "E) Une tension artérielle systolique < 100 mmHg signe un collapsus cardiovasculaire associé"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,304 @@
+{
+  "matiere": "Hormonologie et reproduction – Biochimie",
+  "slug": "hr-biochimie-s5",
+  "annee": 2025,
+  "title": "Hormonologie et reproduction – Biochimie - 2025",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste remplaçant et recevez en consultation M. J âgé de 50 ans. Ce dernier vous montre le dernier bilan réalisé à la demande dé son médecine traitant qui retour une glycémie à jeun à 1,35 g/l. Quelle(s) est/sont les modalités de dépistage biologique du diabète de type de type 2 ?",
+          "choix": [
+            "A) Glycémie à jeun > 1.26g/l à deux reprises",
+            "B) Glycémie à 0,8g/l",
+            "C) Hémoglobine glyquée (HbA1c) à 5%",
+            "D) Corps cétoniques élevés",
+            "E) Fructosamine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous retrouvez que le patient est diabétique par les données de la biologie (glycémie à 1,5 g/l). Le patient vous demande quels sont les facteurs de risque de développer un diabète de type 2.",
+          "choix": [
+            "A) Obésité",
+            "B) Hypertriglycéridémie",
+            "C) Anti-glutamate décarboxylase (anti-GAD) positifs",
+            "D) Augmentation des concentrations plasmatiques de HDL-cholestérol",
+            "E) Antécédents familiaux"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous vous installez dans le cabinet où vous aviez vu ce patient. Celui-ci n’est pas revenu en consultation depuis plusieurs années. Le patient vient vous voir en consultation suite à une aggravation de son état général et passage aux urgences. Quels critères clinico-biologiques ont permis de poser le diagnostic de coma hyper-osmolaire ?",
+          "choix": [
+            "A) Hypoglycémie",
+            "B) Hyperglycémie >50 mmol/l",
+            "C) Corps cétoniques élevés",
+            "D) Acidose",
+            "E) Hypernatrémie"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient est inquiet et vous demande les complications chroniques de son diabète.",
+          "choix": [
+            "A) Lupus",
+            "B) Coma acidocétosique",
+            "C) Neuropathie périphérique",
+            "D) Atteintes rénale ou rétinienne",
+            "E) Pied diabétique"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient vient maintenant régulièrement en consultation. Quel(s) sont le(s) paramètre(s) biologique(s) privilégié(s) pour le suivi d’une hyperglycémie chronique ?",
+          "choix": [
+            "A) C-peptide",
+            "B) Insuline",
+            "C) Hémoglobine glyquée (HbA1c)",
+            "D) Glucagon",
+            "E) Fructosamine"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296555896-c135a0293a625",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un nouveau-né est détecté positif pour une TSH dosée sur le buvard du Guthrie (J3 après la naissance) à 63 mUI/L (valeur normale TSH sur le buvard : <25 mUI/L).",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Compte tenu de ce résultat :",
+          "choix": [
+            "A) Vous suspectez une hyperthyroïdie",
+            "B) Vous suspectez une hypothyroïdie",
+            "C) Vous contrôlez la TSH et la T4L sur un prélèvement veineux à 10 jours de vie",
+            "D) Vous préconisez d’emblée le dosage des anticorps anti récepteur de la TSH",
+            "E) Vous préconisez d’emblée le dosage des anticorps anti thyropéroxydase (anti-TPO)"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A 10 jours de vie, le dosage de la TSH est à 87 mUI/L (valeurs de références : 0.4-4 mUI/L) et celui de la T4L à 1.2 pmol/L (valeurs de référence : 8.6-25 pmol/L)\nL’échographie thyroïdienne montre une thyroïde en place. La maman s’inquiète du changement de valeurs de référence pour la TSH entre les deux prélèvements.\nVous expliquez que :",
+          "choix": [
+            "A) Les nouveaux nés ont toujours une TSH élevée à la naissance ce qui explique la différence de valeurs de référence",
+            "B) Le rétrocontrôle hormonal sur l’axe hypothalamo-hypophysaire est efficace",
+            "C) Vous suspectez une dysgénésie thyroïdienne",
+            "D) Vous suspectez la présence d’un adénome hypophysaire",
+            "E) Vous mettez en place rapidement le traitement par Levothyroxine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Après deux mois de traitement par 5 gouttes de Levothyroxine, vous revoyez le bébé. Il est hypotonique et présente une peau sèche.\nVous contrôlez le taux de TSH et de T4L qui sont respectivement à 12 mUI/L (valeurs de références TSH : 0.4-4 mUI/L) et à 4 pmol/L (valeurs de référence T4L: 8.6-25 pmol/L). Vos conclusions :",
+          "choix": [
+            "A) Vous augmentez la dose de Lévothyroxine",
+            "B) Vous demandez à refaire les dosages dans un mois après modification du traitement",
+            "C) Vous demandez à refaire les dosages dans un mois sans modifier le traitement",
+            "D) Vous avez des arguments cliniques et biologiques d’hypothyroïdie persistante",
+            "E) Vous suspectez une interférence analytique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296556811-53f65d4b929f58",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Monsieur B, 60 ans, consulte pour une obésité tronculaire, une atrophie musculaire des membres inférieurs et il présente des vergetures violacées au niveau des flancs.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "concernant vos premières conclusions :",
+          "choix": [
+            "A) Les signes cliniques sont évocateurs d’un syndrome de Cushing.",
+            "B) Les signes cliniques sont évocateurs d’une insuffisance surrénalienne.",
+            "C) Vous prescrivez un dosage d’ACTH à 8h.",
+            "D) Vous prescrivez un cycle du cortisol avec dosages à 8h, 12h, 16h et 20h.",
+            "E) Le dosage du cortisol salivaire sera une bonne indication du cortisol libre actif."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À 8 heures, la valeur du cortisol plasmatique est à 964 nmol/L (valeurs de référence = 250-850), et elle est à 850 nmol/L à\n20 heures. La mesure du cortisol salivaire à minuit est de 25 nmol/L, (valeurs de référence < 5). Le taux d'ACTH plasmatique est à 5 pg/ml à 8 heures (valeurs de référence = 10-80).\nVous concluez et poursuivez vos explorations :",
+          "choix": [
+            "A) La valeur du cortisol 8h permet d’éliminer un syndrome de Cushing.",
+            "B) La valeur de l’ACTH permet d’éliminer un adénome hypophysaire",
+            "C) Vous prescrivez un test au synacthène.",
+            "D) Vous prescrivez un test à la déxaméthasone.",
+            "E) Vous réalisez une IRM surrénalienne."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les cortisolémies ne sont pas modifiées par l'administration orale de 2 mg/j de dexaméthasone ni par celle de 8 mg/j, chacune des doses ayant été prise pendant 2 jours. Le dosage des catécholamines et dérivés méthoxylés urinaires sont normaux. L'IRM des aires surrénaliennes permet d'identifier une hyperplasie macronodulaire des 2 surrénales dont le volume est globalement augmenté. Au moment de l’IRM, sa tension est à 185/105 mmHg (valeurs de références :135/85 mmHg)\nVos conclusions :",
+          "choix": [
+            "A) Vous faites le diagnostic d’un adénome surrénalien ACTH-dépendant.",
+            "B) Vous faites le diagnostic d’un adénome surrénalien ACTH-indépendant.",
+            "C) Vous suspectez un carcinome médullo-surrénalien.",
+            "D) Vous préconisez un dosage d’aldostérone et de rénine plasmatiques.",
+            "E) L’hypertension observée chez ce patient est secondaire et disparaitra après la chirurgie"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296557656-f657a3645f941",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Bilan biologique lipidique",
+          "choix": [
+            "A) Une Exploration d’une Anomalie Lipidique (EAL) peut être demandée en première intention devant une suspicion de dyslipidémie.",
+            "B) Le calcul du taux de LDL selon la formule de Friedewald ne peut être réalisé si le taux de triglycérides est trop élevé.",
+            "C) Selon les recommandations, une surveillance annuelle biologique lipidique est justifiée pour toute personne de plus de 60 ans.",
+            "D) Toute prescription partielle de HDL amène le biologiste à réaliser l'ensemble des examens de l'EAL.",
+            "E) La concentration de LDL prise en compte pour une prise en charge thérapeutique médicamenteuse d’un patient dyslipidémique varie fonction du risque cardiovasculaire qu’il présente."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels critères peuvent entrer dans la définition du syndrome métabolique ?",
+          "choix": [
+            "A) Une obésité gynoïde.",
+            "B) Un diabète sucré",
+            "C) Une hypoHDLémie.",
+            "D) Une hypertriglycéridémie.",
+            "E) Une hypertension artérielle."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

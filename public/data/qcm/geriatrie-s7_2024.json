@@ -1,0 +1,325 @@
+{
+  "matiere": "Gériatrie",
+  "slug": "geriatrie-s7",
+  "annee": 2024,
+  "title": "Gériatrie - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous prenez en charge dans le service d’un court séjour gériatrique Mr D. âgé de 85 ans.\nMr D. est agité et présente des propos incohérents. Son épouse présente dans la chambre vous dit qu’il est agité depuis environ 48h.\nIl vit habituellement de façon autonome à domicile, sans aide, avec son épouse. Le couple a deux enfants à proximité, il est ancien enseignant chercheur au CNRS.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel syndrome gériatrique présente M. D. ? (un seul mot, pas de majuscule)",
+          "choix": [],
+          "reponses": [
+            "confusion",
+            "confusionnel",
+            "confusionel",
+            "syndrome confusionnel",
+            "syndrome confusionel",
+            "confusionnelle",
+            "Syndrome confusionnel",
+            "Confusionnel"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il présente dans ses antécédents :\nDiabète de type 2.\nCancer de la prostate métastatique d’emblée à l’os, sous hormonothérapie de première ligne, diagnostiqué en novembre 2023 (avec première injection en novembre 2023)\nSes traitements d’après sa dernière ordonnance comportent :\nRAMIPRIL (IEC) : 1,25 mg/j le matin.\nDUROGESIC : 25 µg/72h introduit depuis quelques jours.\nMETFORMINE 500 mg : un comprimé par jour.\nTRIPTORELINE (hormonothérapie) une injection tous les 3 mois.\nSes constantes sont les suivantes : TA 145/76, Fc 110 bpm, T° 37 °C, SpO2 94 % AA.\nL’examen clinique ne retrouve pas de signes de focalisation, M. D. est désorienté dans le temps et l’espace, il rapporte des douleurs diffuses notamment de l’ensemble du rachis. L’auscultation pulmonaire est claire, sans bruits surajoutés. L’abdomen est tendu dans son ensemble, vous constatez une matité sus pubienne. Les bruits du cœur sont réguliers, il n’y a pas d’œdèmes des membres inférieurs.\nParmi les propositions suivantes, quelles sont les 4 réponses justes ?",
+          "choix": [
+            "A) L’âge supérieur à 80 ans est un facteur prédisposant au syndrome confusionnel.",
+            "B) Les antécédents et comorbidités de M. D. représente un facteur prédisposant au risque de syndrome confusionnel.",
+            "C) La possible rétention aiguë d’urine présentée par M. D. est un potentiel facteur déclenchant de son syndrome confusionnel.",
+            "D) Devant les douleurs importantes présentées par M. D. vous augmentez le DUROGESIC.",
+            "E) Vous faites un toucher rectal à la recherche d’un fécalome."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) examen(s) complémentaire(s) effectuez-vous ?",
+          "choix": [
+            "A) bilan biologique complet avec NFS, ionogramme sanguin, créatinine, CRP, calcémie",
+            "B) Vous effectuez un dosage de la glycémie capillaire.",
+            "C) Vous faites en urgence une ponction lombaire.",
+            "D) Vous faites un body-scanner en urgence",
+            "E) Vous faites un ECG."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "D. est toujours très agité, il escalade les barrières de son lit, est tombé à deux reprises sans mal apparent.\nLe bladder scan confirme une rétention d’urine à 700 cc. Il n’y a pas de fécalome au toucher rectal.\nQuelle prise en charge de sa confusion proposez-vous ? (3 réponses)",
+          "choix": [
+            "A) Vous proposez la mise en place d’une sonde urinaire.",
+            "B) Vous administrez par voie intra veineuse en urgence une benzodiazépine à demi-vie longue.",
+            "C) Vous le contentionnez au lit aux 4 membres.",
+            "D) Vous arrêtez le DUROGESIC dans l’hypothèse d’une iatrogénie et mettez en place un autre traitement antalgique.",
+            "E) Vous enlevez les barrières du lit."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’évolution est finalement favorable pour M. D. après arrêt du DUROGESIC, relais par un autre traitement antalgique, mise en place d’une sonde urinaire à demeure pour la prise en charge de la rétention aiguë d’urine.\nIl regagne son domicile quelques jours plus tard.\nVous le revoyez en consultation à 2 mois de sa sortie d’hospitalisation. M. D. se plaint de troubles mnésiques, d’un manque du mot depuis son syndrome confusionnel. Son épouse rapporte que son mari oublie de plus en plus de choses, notamment ses rendez-vous médicaux et ce depuis environ un an.\nQue proposez-vous en bilan cognitif de première intention ?",
+          "choix": [
+            "A) La réalisation d’un MMSE à la consultation.",
+            "B) Vous prévoyez la réalisation d’une IRM cérébrale en urgence dans la journée.",
+            "C) Vous lui remettez une ordonnance pour la réalisation d’un bilan biologique avec NFS plaquettes, CRP, TSH, ionogramme sanguin, calcémie, glycémie à jeun et albuminémie.",
+            "D) Vous prévoyez un EEG.",
+            "E) Vous demandez une scintigraphie au DaTSCAN."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le bilan neuro-psychologique est en faveur d’une maladie d’Alzheimer, l’IRM cérébrale retrouve une atrophie des structures temporales internes avec un score de Scheltens 3 à droite et 2 à gauche, le bilan biologique ne retrouve pas d’anomalie.\nD. reste autonome à domicile et poursuit ses activités habituelles.\nVous concluez donc à un trouble neuro-cognitif mineur en lien avec une maladie d’Alzheimer débutante.\nQue pouvez-vous mettre en place au domicile ? (3 réponses justes)",
+          "choix": [
+            "A) Vous prescrivez des séances d’orthophonie.",
+            "B) Vous faites des demandes d’admission en EHPAD.",
+            "C) Vous introduisez en systématique un traitement neuroleptique devant l’antécédent de syndrome confusionnel.",
+            "D) Vous faites le point avec le couple sur la potentielle nécessité de mettre en place des aides au domicile.",
+            "E) Vous faites une demande d’ALD15."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295530393-1fd1254dad292",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes de garde aux Urgences et prenez en charge une patiente de 82 ans, ayant chuté ce matin dans la rue sur une plaque de verglas avec son déambulateur, avec un traumatisme crânien.\nLes constantes sont les suivantes : TA 178/100, Fc 130 bpm, T° 38,5 °C, SpO2 88 % en AA.\nL’examen clinique retrouve des crépitants en base gauche, les bruits du cœur sont irréguliers, sans souffle entendu, elle n’est pas marbrée. Vous constatez à la palpation une douleur élective en T12. Elle a une plaie propre de l’arcade sourcilière d’environ 4 cm qui ne saigne plus. Elle ne présente pas de signes de focalisation neurologique.\nVous apprenez qu’elle ne prend aucun traitement de façon habituelle au long cours. Elle n’a aucun antécédent.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles vous semblent les plus urgentes à réaliser ? (4 réponses justes)",
+          "choix": [
+            "A) Mise en place d’une oxygénothérapie aux lunettes",
+            "B) Réalisation d’un scanner cérébral",
+            "C) Réalisation de radiographies du rachis dorso-lombaire face et profil",
+            "D) Prélèvement biologique complet",
+            "E) Réalisation de deux paires d’hémocultures",
+            "F) Réalisation d’un ECG",
+            "G) Suture de la plaie de l’arcade",
+            "H) Demande d’un avis neuro-chirurgical devant la possible fracture vertébrale",
+            "I) Prescription d’un PSE de NICARDIPINE",
+            "J) Prescription d’un traitement antalgique de palier II d’emblée"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E",
+            "F"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous mettez en place une oxygénothérapie aux lunettes, vous prélevez un bilan biologique complet et deux paires d’hémocultures et vous réalisez un ECG qui retrouve une fibrillation atriale. Vous introduisez un traitement antibiotique en traitement de sa pneumopathie infectieuse.\nQuels semblent-être les facteurs précipitants responsables de la chute ? (3 réponses justes)",
+          "choix": [
+            "A) La plaque de verglas",
+            "B) L’infection pulmonaire",
+            "C) La fibrillation atriale",
+            "D) L’âge de la patiente",
+            "E) Son sexe féminin"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L'évolution est rapidement favorable. La patiente regagne son domicile.\nDans le cadre de ses troubles de la marche, quelle prise en charge pouvez-vous proposer au domicile ? (un seul mot en minuscule, sans majuscule)",
+          "choix": [],
+          "reponses": [
+            "kinésithérapie",
+            "kiné",
+            "kinésithérapeute",
+            "réadaptation",
+            "kinesitherapeute",
+            "reéducation",
+            "réeducationnelle",
+            "kinéthérapeuthique",
+            "kinésiethérapie",
+            "kinisetherapie",
+            "kinésithéraphie",
+            "readaptation",
+            "réhabilitation",
+            "reeducation",
+            "réeducation",
+            "rééducation"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295535325-d99d2ee382f14",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle échelle permet d’évaluer l’autonomie sur les activités de base de la vie quotidienne ? (abréviation attendue, en majuscule, sans espace)",
+          "choix": [],
+          "reponses": [
+            "ADL",
+            "Echelle ADL"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) juste concernant la fragilité ?",
+          "choix": [
+            "A) La fragilité est un syndrome clinique correspondant à une diminution des réserves physiologiques de l’organisme avec l’avancée en âge.",
+            "B) La fragilité est un état irréversible.",
+            "C) Le critère semblant être prédictif de morbi-mortalité selon les critères de Fried est la perte de force musculaire.",
+            "D) Une personne âgée fragile est plus à risque de décompensation fonctionnelle, de perte d’indépendance fonctionnelle ou encore de décès.",
+            "E) L’état de fragilité ne peut s’évaluer qu’en condition médicale stable (hors décompensation d’organe)."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) sont la (les) caractéristique(s) des troubles de la marche dans le cadre d’un syndrome parkinsonien ?",
+          "choix": [
+            "A) Démarche talonnante",
+            "B) Marche à petits pas.",
+            "C) Le demi-tour est décomposé.",
+            "D) En rétropulsion spontanée.",
+            "E) Avec perte du ballant des bras."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la réponse juste parmi les suivantes concernant le vieillissement normal ?",
+          "choix": [
+            "A) L’apparition de troubles mnésiques fait partie du vieillissement cérébral normal.",
+            "B) Le vieillissement normal se traduit par une diminution des capacités fonctionnelles de l’organisme.",
+            "C) Le vieillissement est le même pour tous les individus.",
+            "D) Il existe des traitements médicamenteux disponibles pour prévenir des effets du vieillissement.",
+            "E) La diminution de la fraction d'éjection ventriculaire gauche avec l’avancée en âge fait partie du vieillissement physiologique cardiaque."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelles sont les 3 réponses justes ?",
+          "choix": [
+            "A) Un patient obèse ne peut pas être dénutri.",
+            "B) Une albumine inférieure à 30 g/L définit la dénutrition comme sévère.",
+            "C) La personne âgée doit consommer en moyenne 1 à 1,2 gramme/kg et par jour de protéines.",
+            "D) Les besoins journaliers en protéines des personnes âgées sont identiques à ceux du sujet jeune.",
+            "E) Les troubles neuro-cognitifs sont un facteur de risque de dénutrition."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

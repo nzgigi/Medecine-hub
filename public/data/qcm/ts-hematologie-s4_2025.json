@@ -1,0 +1,252 @@
+{
+  "matiere": "Tissu sanguin – Hématologie",
+  "slug": "ts-hematologie-s4",
+  "annee": 2025,
+  "title": "Tissu sanguin – Hématologie - 2025",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les items suivants, quelle(s) est(sont) la(les) bonne(s) réponse(s) ?",
+          "choix": [
+            "A) Les lymphocytes T participent à la réponse immunitaire à médiation cellulaire.",
+            "B) Les lymphocytes B finissent leur maturation dans le thymus.",
+            "C) Les lymphocytes représentent environ un tiers des leucocytes de l’adulte.",
+            "D) La recombinaison VDJ est un processus qui permet d’augmenter l’affinité du lymphocyte B pour l’antigène.",
+            "E) Le site de liaison à l’antigène est porté par le fragment Fab de l’anticorps."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les antigènes suivants, quel est (quels sont) celui (ceux) qui est (sont) présent(s) à la surface des globules rouges d’un patient de groupe A RH :-1,-2,-3,4,5 KEL : 1 :",
+          "choix": [
+            "A) Antigène A",
+            "B) Antigène D",
+            "C) Antigène C",
+            "D) Antigène E",
+            "E) Antigène K"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la coagulation et la fibrinolyse, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le facteur XIII est une transglutaminase qui stabilise le polymère de fibrine",
+            "B) Le calcium interagit avec les domaines -carboxylés sur des résidus glutamiques des facteurs dépendants de la vitamine K",
+            "C) Le facteur tissulaire, l'accélérine (V), le fibrinogène, le facteur Stuart (X) et le facteur Rosenthal (XI) sont produits par le foie",
+            "D) l'alpha2-antiplasmine empêche la transformation du plasminogène en plasmine",
+            "E) Le t-PA (activateur tissulaire du plasminogène) est plus efficace sur le plasminogène circulant que sur le plasminogène fixé à la fibrine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’hémostase primaire et la coagulation, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le facteur de von Willebrand est une protéine adhésive multimérique composée de sous-unités de 275 kDa",
+            "B) Le facteur de von Willebrand se lie au collagène sous-endothélial",
+            "C) L’exposition des phosphatidylsérines lors de l'activation des plaquettes leur confère une propriété pro-coagulante",
+            "D) Le fibrinogène plasmatique est produit par les cellules endothéliales",
+            "E) En l’absence de la protéase ADAMTS13, le facteur von Willebrand est hyper-polymérisé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la vitamine B12 et des folates, parmi les propositions suivantes, quelle(s) est (sont) l’(les) affirmation(s) exacte(s) :",
+          "choix": [
+            "A) ils ont un rôle dans la synthèse de l’ADN des cellules",
+            "B) leur déficit ne touche que la lignée érythroïde",
+            "C) le déficit en folates est d’installation lente (plusieurs années)",
+            "D) une carence en vitamine B12 a pour conséquence un retard de synthèse de l’hémoglobine dans la lignée érythroblastique",
+            "E) la protéine de transport des folates est l’albumine"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la physiologie des hématies, parmi les propositions suivantes, quelle(s) est (sont) l’(les) affirmation(s) exacte(s) :",
+          "choix": [
+            "A) les hématies utilisent principalement la glycolyse anaérobie pour produire de l’ATP",
+            "B) la voie de la glycolyse catalysée par la glucose-6-déshydrogénase (G6PD) permet de protéger la globine de l’oxydation",
+            "C) la rate joue un rôle majeur dans l’hémolyse physiologique",
+            "D) le fer de l’hème est éliminé dans les urines",
+            "E) la bilirubine est un produit de dégradation de l’hème"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300443696-a58549ec63709",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les polynucléaires neutrophiles, lesquelles de ces affirmations sont vraies?",
+          "choix": [
+            "A) Ils possèdent un seul type de granulation",
+            "B) Ils sont impliqués dans la phagocytose des pathogènes",
+            "C) Leur durée de vie dans le sang est de 15 jours",
+            "D) Ils dérivent directement des lymphocytes B",
+            "E) Ils possèdent un noyau multilobé"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300443914-77aee38e303fb",
+      "type": "SQI",
+      "title": "SQI 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des monocytes et des macrophages, lesquelles de ces propositions sont exactes",
+          "choix": [
+            "A) Les monocytes circulent dans le sang avant de migrer dans les tissus",
+            "B) Les monocytes peuvent se différencier en macrophages",
+            "C) Les monocytes ont un noyau plurilobé",
+            "D) Les monocytes représentent 60% des leucocytes dans le sang.",
+            "E) Les macrophages sont capables de phagocyter des pathogènes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300444138-0c974a59216bf8",
+      "type": "SQI",
+      "title": "SQI 4",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "l'hématopoïèse chez l'être humain :",
+          "choix": [
+            "A) a uniquement lieu dans la moelle osseuse, du fœtus à l'âge adulte.",
+            "B) permet la production des cellules matures sanguines.",
+            "C) est organisée de façon hexagonale avec un pool de cellules progénitrices différent à chaque sommet.",
+            "D) est organisée de façon pyramidale avec un pool de cellules souches à son sommet.",
+            "E) est régulée par des facteurs extrinsèques (cytokines) et intrinsèques (facteurs de transcription)"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300444374-dbe0a03e0b0fc",
+      "type": "SQI",
+      "title": "SQI 5",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les plaquettes sanguines, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Chez l’adulte, la thrombopoïétine et l’érythropoïétine jouent un rôle clé dans la production des plaquettes.",
+            "B) Les plaquettes au repos ont une forme discoïde et leur volume moyen est de l’ordre de 60fl.",
+            "C) Une thrombopénie peut s’observer suite à un défaut de maturation des mégacaryocytes ou à une consommation plaquettaire",
+            "D) Le complexe glycoprotéique plaquettaire GpIb-IX-V est impliqué dans l’interaction des plaquettes au facteur de von Willebrand",
+            "E) L’intégrine GpIIbIIIa, appelée également IIb 3, est le principal récepteur du collagène à la surface des plaquettes"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

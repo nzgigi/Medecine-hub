@@ -1,0 +1,410 @@
+{
+  "matiere": "Dermatologie",
+  "slug": "dermatologie-s8",
+  "annee": 2024,
+  "title": "Dermatologie - 2024",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une patiente présente depuis 48 heures un prurit généralisé avec des lésions cutanées disséminées qui se multiplient et changent de forme rapidement. Elle se présente aux urgences très inquiète. Elle n'a pas de fièvre et reste en bon état général.",
+          "choix": [],
+          "reponses": [
+            "Urticaire",
+            "Urticaire généralisé",
+            "urticaire aigue",
+            "Crise d'urticaire",
+            "Urticaire superficiel",
+            "Urticaire superficiel aigue",
+            "Urticaire generalisee"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 1,
+          "images": [
+            "/images/qcm/dermatologie-s8/2024/q1.png?v=1786294950816"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la présentation clinique de l'éruption et les données à recueillir lors de l'interrogatoire, quel(s) est (sont) le (les) élément (s) du diagnostic",
+          "choix": [
+            "A) Lésions d'évolution fugace",
+            "B) Possibilité de lésions bulleuses associées",
+            "C) Macules érythémateuses",
+            "D) Lésions prurigineuses",
+            "E) Présence fréquente d'une polyadénopathie"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel bilan complémentaire prescrivez vous ?",
+          "choix": [
+            "A) Patch-tests",
+            "B) Numération formule sanguine",
+            "C) Bilan hépatique",
+            "D) Prick-tests",
+            "E) Aucun examen complémentaire n'est nécessaire"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel traitement mettez vous en place ?",
+          "choix": [
+            "A) Corticothérapie orale de courte durée",
+            "B) Anti-histaminique H1",
+            "C) Anti-histaminique H2",
+            "D) Corticothérapie locale forte",
+            "E) Régime pauvre en gluten"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les causes possibles de cette éruption ?",
+          "choix": [
+            "A) Piqures d'insectes",
+            "B) Aliments",
+            "C) Médicaments",
+            "D) Infections virales",
+            "E) Efforts intenses"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "24 heures après cette première visite, la patiente reconsulte aux urgences.\nA l’inspection la patiente est très asthénique, anxieuse et dyspnéique. Elle présente une éruption érythémateuse faite de plaques figurées et infiltrées sur les membres et le tronc qui sont apparues depuis une trentaine de minutes. Le visage est oedémacié ainsi que les lèvres et la langue. La respiration est difficile et il existe un tirage sus claviculaire. La pression artérielle est à 85/50 et le pouls est à 120/mn. A l’auscultation vous retrouvez des râles sibilants diffus.\nQuel diagnostic évoquez vous ?",
+          "choix": [],
+          "reponses": [
+            "anaphylaxie",
+            "choc anaphylactique",
+            "Choc anaphylaxique",
+            "Reaction anaphylactique",
+            "choc anaphylaxique",
+            "Oedeme de Quincke sur anaphylaxie",
+            "Choc anaphylactique",
+            "angioedème anaphylactique",
+            "Choc anaphylaxique compliqué d'un oedeme de quinck",
+            "Anaphylaxie - oeudème de Quincke",
+            "Choc anaphylactique (oedeme de quincke)",
+            "Choc anaphylactique, oedeme de Quincke",
+            "Réaction anaphylactique avec angio oedème",
+            "Angioedeme Anaphylaxie",
+            "Angioedeme avec choc anaphylactique",
+            "Choc anaphylactique oedeme de Quincke",
+            "Oedèmes de quinck choc anaphylactique",
+            "Anaphylaxie (angiodème)",
+            "Choc anapylactique",
+            "Urticaire suite choc anaphylactique",
+            "Choc anaphylactique avec oedeme de quincke",
+            "Choc anaphylactique avec oedeme de quinck",
+            "Choc anaphylactique avec angio-oedème",
+            "angioœdème sur anaphylaxie",
+            "choc anaphylactique (oedeme de Quincke)",
+            "Angiodème avec choc anaphylactique",
+            "Choc anaphylactiaque",
+            "Choc anaphylactique avec angiodème",
+            "angioedeme avec anaphylaxie",
+            "Choc Anaphylaxique",
+            "Angioedème cervical avec choc anaphylactique"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le grade de sévérité de la maladie ?",
+          "choix": [
+            "A) grade I",
+            "B) Grade II",
+            "C) Grade III",
+            "D) Grade IV",
+            "E) Grade V"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments de votre prise en charge immédiate ?",
+          "choix": [
+            "A) Anxyolitique type benzodiazépine",
+            "B) Adrénaline intra-musculaire",
+            "C) Oxygénothérapie",
+            "D) Corticothérapie orale",
+            "E) Anti Histaminique H2"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294960947-d57a5ce6f0615",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le cancer cutané le plus fréquent en France ?",
+          "choix": [],
+          "reponses": [
+            "Carcinome baso-cellulaire",
+            "Carcinome basocellulaire",
+            "carcinome basocellulaire",
+            "Basocellulaire",
+            "Carcinome Basocellulaire",
+            "Cancer basocellulaire",
+            "Carinome basocellulaire",
+            "Carcinome basocelulaire",
+            "Carcinome bascocellulaire",
+            "carcinome basocellulaire (CBC)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 3 propositions exactes au sujet des angiomes ?",
+          "choix": [
+            "A) L'hémangiome infantile est l'anomalie vasculaire la plus fréquente chez l'enfant",
+            "B) L’histoire naturelle de l'hémangiome infantile est celle d'une lésion qui apparaît rapidement après la naissance, et qui augmente de taille régulièrement tout au cours de la vie",
+            "C) L’histoire naturelle de la malformation veineuse est celle d'une lésion qui est apparaît rapidement après la naissance et qui va disparaitre avec l’âge de 4 à 7 ans.",
+            "D) La mise en place d'un traitement par propranolol se justifie chez un enfant présentant un hémangiome infantile à risque de cicatrice sur une zone visible",
+            "E) Il peut exister des troubles de la coagulation en cas de malformations veineuses"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "quel(les) est (sont) la (les) proposition (s) exacte(s) au sujet du purpura ?",
+          "choix": [
+            "A) Il est secondaire à une extravasation de sang dans le derme",
+            "B) Il s'efface à la vitropression",
+            "C) La présence de nécrose cutanée est un signe de gravité",
+            "D) la première mesure devant une suspicion de purpura fulminans est d'adresser le patient aux urgences",
+            "E) Un purpura d'origine hématologique induit des lésions pétéchiales non infiltrées"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) au sujet de l'acné",
+          "choix": [
+            "A) Il existe une colonisation cutanée à Propionibacterium acnes",
+            "B) Il existe une hyperkératose folliculaire, une inflammation et une hyperseborrhée",
+            "C) une acné légère justifie la mise en place d'un traitement local",
+            "D) Il est utile de mettre en place un régime alimentaire",
+            "E) une exposition solaire légère est conseillée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez en consultation M. F 67 ans qui consultation pour une éruption du thorax apparue depuis ce matin, hier il présentait une douleur à type de brulure dans la même zone mais il n'y avait aucune lésion.\nIl présente comme antécédent un HTA sous Amlodipine et un syndrome dépressif traité par Sertraline. Il n'est pas fébrile, normotendu, normocarde, EVA douleur évaluer à 6/10.\nQuelles sont les réponses vraies ?",
+          "choix": [
+            "A) Cliniquement vous voyez des pustules coalescentes",
+            "B) Vous expliquez au patient que les douleurs qu'il a présenté sont liées à son éruption",
+            "C) Vous débutez un traitement par Aciclovir pour 10 jours",
+            "D) Vous proposez uniquement un traitement antalgique",
+            "E) Vous débutez un traitement par Valaciclovir pour 7 jours"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "Vésicules coalescentes avec lésions bulleuses sur un placard érythémateux.\nPatient non immunodéprimé de plus de 65 ans : indication à un traitement anti viral per os (valaciclovir) pour 7 jours en prévention des algies post zostériennes",
+          "order": 5,
+          "images": [
+            "/images/qcm/dermatologie-s8/2024/q13.png?v=1786294964396"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294965160-b6925577c7058",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’urgentiste vous appelle pour un avis concernant M F 55 ans. Il présente comme antécédent une HTA sous Ramipril. Il présente des « cloques » depuis 3 mois initialement au niveau de la peau puis des lésions buccales qui gênent l’alimentation et qui se sont étendu progressivement, il a perdu 4 kg. Il se présente aux urgences car l’atteinte cutanée s’est majorée. Il est apyrétique, FC 90bpm, TA 110/60 Sat 99%.\nQuels éléments cliniques retrouvez-vous sur ces photographies :",
+          "choix": [
+            "A) Une chéilite",
+            "B) Des bulles flasques",
+            "C) Des bulles tendues",
+            "D) Des érosions post bulleuses",
+            "E) Un placard eczématiforme"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Pas de bulles tendues visibles, placard érythémateux post inflammatoire mais pas eczematiforme",
+          "order": 1,
+          "images": [
+            "/images/qcm/dermatologie-s8/2024/q14.png?v=1786294965474",
+            "/images/qcm/dermatologie-s8/2024/q14_1.png?v=1786294965746"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Il n’a pas pris de nouveau traitement depuis l’introduction de son Ramipril il y a 2 ans, il présente également une atteinte génitale, pas d’atteinte oculaire, signe de Nikolsky positif.\nQuel est votre diagnostic le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "Pemphigus",
+            "pemphigus profond",
+            "pemphigus vulgaire",
+            "Pemphigus bulleux",
+            "Phemphigus",
+            "Phempigus",
+            "Pemphigus superficiel",
+            "Pemphygus",
+            "Phemphigus vulgaire",
+            "pemphigus bulleux",
+            "Pemphigus intra epidermique",
+            "Pemphugus vulgaire",
+            "Pemphigus vulgaire (DBAI)",
+            "Dermatite bulleuse autoimmune type pemphigus",
+            "Pemphigus superficiel avec atteinte intra épidermique",
+            "pemphigus superficiel",
+            "Pemphigus vulgaire (dermatose bulleuse auto immune)",
+            "Pemphygus vulgaire",
+            "Pamphigus vulgaire",
+            "Dermatose bulleuse pemphigus",
+            "Penphigus",
+            "Pemphigus bulleuse",
+            "Pemphigus vulgaris",
+            "Pemphigus vulgaire ou superficiel",
+            "Pimphigus",
+            "Pemphigus auto-immun",
+            "pemphygus",
+            "phemphigus vulgaire",
+            "Pemphimgus"
+          ],
+          "correctionExplanation": "Décollement cutané avec atteinte muqueuse, d'évolution lente sans prise médicamenteuse pouvant faire évoquer une toxidermie, le plus probable est un pemphigus.",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez un pemphigus, quels sont les 4 éléments para cliniques que vous allez retrouver chez votre patient :",
+          "choix": [
+            "A) Une hyperéosinophilie sanguine",
+            "B) Une acantholyse avec une bulle intra-épidermique à l’histologie",
+            "C) Des dépots d’IgG le long de la membrane basale avec un aspect en rayon de miel à l’immunofluorescence directe",
+            "D) Des anti corps anti membrane basale sanguins",
+            "E) Une hypoalbuminémie",
+            "F) Des anti corps circulants reconnaissant des anti desmogléines",
+            "G) Un pic monoclonale à IgM",
+            "H) Une cytolyse hépatique",
+            "I) Des anti corps anti substance intercellulaire sanguins",
+            "J) Une tryptase élévée"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "F",
+            "I"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "Une hyperéosinophilie sanguine (présent dans la pemphigoide bulleuse et non dans le pemphigus)\nDes dépots d’IgG le long de la membrane basale avec un aspect en rayon de miel à l’immunofluorescence directe (dépots sur les kératinocytes avec aspect en maille ou résille)\nDes anti corps anti membrane basale circulants (anti substance inter cellulaire)\nUne hypoalbuminémie (oui car dysphagie avec perte de poids, probable dénutrition)\nDes anti corps circulants reconnaissant des anti desmogléines, responsable de l'adhésion des kératinocytes (ici les anti desmogléine 3 car il s’agit d’une forme profonde/vulgaire)\nPas d'association avec des pic monoclonaux",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,727 @@
+{
+  "matiere": "UE transversale",
+  "slug": "ue-transversale-s10",
+  "annee": 2025,
+  "title": "UE transversale - 2025",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez aux urgences une patiente de 83 ans. Son médecin généraliste l'adresse 'en raison d' une dépression avec délire de persécution et hallucinations visuelles'. Les symptômes délirants sont apparus il y a 3 ou 4 jours, sans évènement déclenchant évident. La dépression date de 6 semaines, traitée par paroxetine. La veille de l'hospitalisation sont survenus des vomissements itératifs à la moindre prise alimentaire. Température: 37°3; pouls: 80 / mn; fréquence respiratoire: 16 / mn; tension artérielle:\n150/85 mm Hg.\nSes antécédents sont: thyroïdectomie totale il y a 20 ans pour 'nodules thyroïdiens'; substitution par L-thyroxine, 150 µg/j; reflux gastro-oesophagien traité au long cours par omeprazole; hypertension artérielle traitée par candesartant/hydrochlorothiazide; dépression traitée par paroxetine;",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments pris par la patiente, certains peuvent avoir une toxicité neurologique directe. Lesquels?",
+          "choix": [
+            "A) oméprazole",
+            "B) L-thyroxine",
+            "C) candésartan",
+            "D) hydrochlorothiazide",
+            "E) paroxetine"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un bilan est prélevé qui montre:\nIonogramme : natrémie 117 mmol/l. Kaliémie 3,4 mmol/l. urée: 2 mmol/L; Créatinine 70 µmol/l. DFG 67 ml minute. Calcémie 1,45 mmol/l. Phosphorémie 0,98 mmol/l. Albumine 29 g/l. glycémie 10 mmol/L. Concernant l'hyponatrémie, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) il s'agit d'une fausse hyponatrémie en relation avec un coma hyperosmolaire",
+            "B) il s'agit d'une hyponatrémie hypotonique",
+            "C) les données hémodynamiques évoquent plutôt un phénomène de dilution que de déplétion",
+            "D) les données biologiques sont plutôt en faveur d'une dilution que d'une déplétion",
+            "E) le contexte et l'histoire clinique évoquent la possibilité d'une déplétion sodée (pool sodé bas) associée à une dilution"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivant pris par la patiente, deux (2) peuvent être responsable de sécrétion inappropriée d'ADH. Lesquels?",
+          "choix": [
+            "A) L-thyroxine",
+            "B) candésartan",
+            "C) hydrochlorothiazide",
+            "D) paroxétine",
+            "E) oméprazole"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Certaines anomalies biologiques présentées par la patiente peuvent être associées à des troubles neuropsychiques. lesquelles?",
+          "choix": [
+            "A) l'hypokaliémie à 3.4 mmol/l",
+            "B) son hypocalcémie",
+            "C) la diminution de son DFG",
+            "D) l'albuminémie à 29 g/L",
+            "E) la natrémie à 117 mmol/l"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour mieux préciser le mécanisme de l'hyponatrémie, vous demandez aux urgences:",
+          "choix": [
+            "A) une radiographie du thorax de face",
+            "B) un ionogramme urinaire et une osmolarité urinaire",
+            "C) une surveillance de la diurèse des 24 heures",
+            "D) un dosage de ADH",
+            "E) une échographie rénale"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'hypocalcémie, vous évoquez en priorité chez cette patiente deux diagnostics. Lesquels ?",
+          "choix": [
+            "A) une hypoparathyroïdie post thyroïdectomie",
+            "B) une hyperthyroïdie sur parenchyme thyroïdien restant",
+            "C) une hypoparathyroïdie auto immune",
+            "D) un effet indésirable de l'oméprazole",
+            "E) un effet indésirable de l'hydrochlorothiazide"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Chez cette patiente, quelle mesure thérapeutique vous parait dans l'immédiat la plus adaptée pour la correction de l'hyponatrémie?",
+          "choix": [
+            "A) insuline au pousse seringue électrique",
+            "B) restriction hydrique à 500 ml/24h",
+            "C) apport de 2 litres de NaCl 9/1000 en perfusion par 24 heures",
+            "D) apport de 2 litres de glucosé 2.5 % par 24 heures",
+            "E) prescription de tolvaptan"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300680610-87fdb282d276c",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un patient de 70 ans, ancien buraliste, consulte pour fièvre depuis un mois ; il surveille sa température tous les matins, elle est toujours entre 38,4 et 39°C. Il a également perdu 4 kg et se sent fatigué. Il est né en Algérie, en France depuis 50 ans. Il a six enfants en bonne santé. Il a comme antécédents une cholécystectomie, une hypertension artérielle sous ramipril et hydrochlorothiazide, une hypercholestérolémie sous rosuvastatine, un syndrome d’apnée du sommeil appareillé efficacement. Il a un tabagisme à 20 paquets-années. Il ne boit pas d’alcool. Il n’a pas voyagé hors de retours annuels en Algérie pendant les vacances d’été.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A partir de quelle durée parle-t-on de fièvre prolongée (QROC) ?",
+          "choix": [],
+          "reponses": [
+            "Trois semaines",
+            "3 semaines",
+            "21 jours",
+            "> 3 semaines",
+            "20 jours",
+            "3semaines",
+            "3 semaines (21 jours)",
+            "21jours",
+            "+ de 3 semaines (21J)",
+            "21 jour",
+            "3 semaine"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au vu du terrain, quels éléments d’interrogatoire vous paraissent importants à rechercher dans l’enquête étiologique de cette fièvre prolongée (QRM) ?",
+          "choix": [
+            "A) Douleur thoracique à l’effort",
+            "B) Antécédent d’AIT",
+            "C) Antécédent de contage tuberculeux",
+            "D) Episodes d’hémoptysie",
+            "E) Présence de sueurs nocturnes"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il n’y a aucun élément d’orientation à l’interrogatoire. Quels éléments sont importants à rechercher à l’examen physique dans ce contexte de fièvre prolongée (QRM) ?",
+          "choix": [
+            "A) Recherche de splénomégalie",
+            "B) Recherche de souffle valvulaire",
+            "C) Recherche d’un souffle sur les artères humérales",
+            "D) Recherche d’adénopathies sus-claviculaires",
+            "E) Recherche d’hypertrophie prostatique au toucher rectal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’examen physique, vous mettez en évidence un souffle systolique râpeux à 1/6 au foyer aortique sans signe d’insuffisance cardiaque, une auscultation pulmonaire normale, des pouls périphériques perçus, pas de souffle vasculaire, un examen cutané normal, des adénopathies centimétriques jugulocarotidiennes, axillaires, inguinales bilatérales indolores, une splénomégalie sans hépatomégalie. Le reste de l’examen général est normal. Quels examens biologiques prescrivez-vous (QRM) ?",
+          "choix": [
+            "A) Hémogramme",
+            "B) CRP",
+            "C) TSH",
+            "D) Hémocultures",
+            "E) TGO-TGP-gammaGT-Phosphatases alcalines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles causes infectieuses pourraient expliquer la splénomégalie (QRM) ?",
+          "choix": [
+            "A) Maladie des griffes du chat sans dissémination systémique",
+            "B) Endocardite infectieuse",
+            "C) Primo-infection à CMV",
+            "D) Schistosomiase",
+            "E) Primo-infection à VIH"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique a montré les anomalies suivantes: hémogramme: Hémoglobine 10 g/dl (VGM: 82 µ3). créatininémie: 65 µmol/l; CRP: 78 mg/L; bandelette urinaire normale; bilan hépatique: banal; électrophorèse des protides du sang: albuminémie 28 g/L et hyperalpha2globulinémie; Chez ce patient, quel bilan d’imagerie de première intention prescrivez-vous (QRM) ?",
+          "choix": [
+            "A) Echocardiographie transthoracique",
+            "B) Scanner thoraco-abdominopelvien injecté",
+            "C) Scanner thoraco- abdominopelvien non injecté",
+            "D) échographie hépatique",
+            "E) PET-scanner"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300683456-03b615331456f8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une carence en fer peut être associée avec une ou plusieurs situations cliniques suivantes",
+          "choix": [
+            "A) une chirurgie de l'obésité",
+            "B) une maladie cœliaque",
+            "C) une grossesse",
+            "D) la prise d'aspirine",
+            "E) la prise de paracétamol"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre d'une surcharge en fer une ou plusieurs réponses sont exactes",
+          "choix": [
+            "A) le dépistage de l'hémochromatose de type I est basé sur la détermination du coefficient de saturation de la transferrine",
+            "B) un coefficient de saturation de la transferrine > 30 % doit faire rechercher une mutation du gène HFE",
+            "C) une hémochromatose de type I se définit par une mutation homozygote C282Y",
+            "D) l'hémochromatose de type I se traite par saignées",
+            "E) dans la recherche d'une surcharge en fer, l'IRM hépatique avec dosage du fer n'a aucun intérêt"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes laquelle se présente avec une grosse jambe rouge aiguë?",
+          "choix": [
+            "A) Dermohypodermite nécrosante",
+            "B) le syndrome néphrotique",
+            "C) l'insuffisance cardiaque droite",
+            "D) le psoriasis",
+            "E) l'ischémie aiguë de membre"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant un oeil rouge et douloureux avec baisse d'acuité visuelle vous évoquez?",
+          "choix": [
+            "A) une cataracte",
+            "B) une névrite optique ischémique antérieure aiguë",
+            "C) une sclérite",
+            "D) un décollement de rétine",
+            "E) une conjonctivite"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez un patient à votre cabinet de médecine générale qui présente une asthénie persistante depuis 2 mois. Votre examen physique retrouve une hépatomégalie à bord inférieur tranchant, une splénomégalie, une circulation veineuse collatérale abdominale. Lorsque vous examinez ses mains vous retrouvez une érythrose palmaire et une leuco-onychie. Quel diagnostic évoquez vous?",
+          "choix": [],
+          "reponses": [
+            "Cirrhose",
+            "cirrhose avec hypertension portale",
+            "cirrhose décompensée",
+            "cirrhose hépatique avec hypertension portale",
+            "cirrhose avec insuffisance hépatique et hypertension portale",
+            "insuffisance hepatique sur cirrhose",
+            "cirrhose avec signes d'insuffisance hépathique et hypertension portale",
+            "fibrose hépatique sur cirrhose avec hypertension portale",
+            "Hypertension portale du cirrhotique",
+            "cirrhose hépatocellulaire avec hypertension portale et insuffisance hepatocellulaire",
+            "Insuffisance hepatocellulaire avec foie cirrhotique",
+            "cirrhose avec insuffisance hépato-cellulaire et hypertension portale",
+            "cirrhose hépatique avec hypertension portale et insuffisance hépatocellulaire",
+            "insuffisance hepatocellulaire sur cirrhose",
+            "insuffisance hépatique probable cirrhose",
+            "Cirrhose avec hypertension portale",
+            "Cirrhose probablement alcolique",
+            "cirrhose avec signes d'hypertension portale",
+            "cirrhose hypertension portale et insuffisance hepato-cellulaire",
+            "cirrhose non alcoolique",
+            "cirrhose (alcoolique)",
+            "Insuffisance hépatocellulaire avec cirrhose",
+            "cirrhose hépatique",
+            "cirrhose alcoolique",
+            "Cirrhose hépatique",
+            "cirrhose hepatique",
+            "Cirrhose alcoolique",
+            "cirrhose éthylique",
+            "cirrhose hépatique alcoolique",
+            "Cirrhose ethylique",
+            "Cirrhose alcoolique décompensée"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Votre patient présente une lombalgie chronique évoluant depuis plus de 3 mois dans un contexte de lombalgies chroniques évoluant depuis plus de 10 ans sur un rachis dégénératif. Ce monsieur est en surpoids et pèse 90 kilos pour 1m70.\nIl est apyrétique ne présente aucune altération de l'état général. Ses douleurs sont d'horaire mécanique, il n'y a pas de déficit sensitivomoteur il n'y a pas d’irradiation sciatique pas de signe de la queue de cheval.\nQuel bilan diagnostique vous semble pertinent? (2 propositions vraies)",
+          "choix": [
+            "A) IRM lombaire",
+            "B) exploration d'une anomalie lipidique",
+            "C) dosage de la TSH",
+            "D) dosage de la calcémie",
+            "E) réalisation d'un électroneuromyogramme"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez en consultation une femme de 50 ans pour la découverte d’une tumeur axillaire gauche de 2cm de diamètre, ferme, indolore, avec peau non inflammatoire en regard, découverte lors de sa toilette et persistante depuis 3 semaines. L’examen clinique ne retrouve pas d’autres adénopathies.\nParmi les propositions suivantes quels sont les diagnostics les plus vraisemblables ? (3 propositions)",
+          "choix": [
+            "A) Cancer du sein",
+            "B) Mélanome",
+            "C) Maladie des griffes du chat",
+            "D) Lymphome malin non hodgkinien",
+            "E) Mononucléose infectieuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Joyce, 55 ans, présente une surcharge pondérale avec un IMC à 33. Elle ne pratique plus de sport.\nLa boiterie est douloureuse, a débuté il y a 2 mois. Elle présente une limitation en rotation externe et abduction. D’ailleurs, la flexion de la hanche entraîne une rotation latérale de la hanche. Il y a une douleur seulement au genou droit. Il n’y a ni fièvre ni AEG.\nQuels examens complémentaires vous paraissent les plus pertinents ?",
+          "choix": [
+            "A) Radio du genou douloureux de face et de profil",
+            "B) Radio hanche et bassin face et profil",
+            "C) Scanner du bassin et de la hanche non injecté",
+            "D) Ostéodensitométrie",
+            "E) Bilan vitaminique"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une femme de 58 ans présente un syndrome fébrile à 39°C aiguë avec grand frisson à claquer des dents associé à une douleur thoracique gauche et de la toux. Vous ne retrouvez pas de notion de contage ou de voyage récent. Le bilan biologique retrouve un syndrome inflammatoire biologique avec 250 mg/L de CRP et une polynucléose à PNN. La radio thoracique est jointe.\nQuel est le diagnostic le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "Pneumopathie franche lobaire aiguë gauche",
+            "pneumopathie franche lobaire aigue",
+            "pneumopathie franche lobaire aigue gauche",
+            "PFLA",
+            "pneumopathie franche lobaire aiguë",
+            "pneumopathie",
+            "pneumopathie infectieuse",
+            "Pneumopathie franche lobaire aigue",
+            "pneumopathie gauche",
+            "pneumopathie bactérienne",
+            "pneumonie",
+            "pneumopathie à pneumocoque",
+            "PFLA gauche",
+            "pneumopathie bacterienne",
+            "pneumopathie aigue communautaire",
+            "pneumonie franche lobaire aigue",
+            "Pneumopathie gauche",
+            "pneumopathie franche lobaire aiguë supérieure gauche",
+            "Pneumopathie franche lobaire aiguë",
+            "Pneumopathie infectieuse",
+            "Pneumopathie aiguë communautaire",
+            "pneumonie aigue communautaire",
+            "pneumopathie infectieuse gauche",
+            "pneumonie gauche",
+            "pneumonie franche lobaire aigue gauche",
+            "pneumopathie franche lobaire aigüe",
+            "pneumopathie infectieuse à pneumocoque",
+            "pneumopathie interstitielle diffuse gauche",
+            "PFLA lobe superieur gauche",
+            "pneumopathie du lobe supérieur gauche",
+            "Pneumopathie bactérienne gauche",
+            "Pneumopathie franche lobaire aigue (PFLA)",
+            "pneumonie à pneumocoque",
+            "pneumonie bactérienne",
+            "Pneumonie aiguë communautaire",
+            "Pneumopathie franche lobaire aigue du lobe supérieur gauche",
+            "pneumopathie franche lobaire aïgue",
+            "pneumonie bacterienne",
+            "Pneumonie bactérienne",
+            "pfla",
+            "pneumopathie bactérienne gauche",
+            "pneumopathie lobaire gauche",
+            "Pneumopathie franche lobaire aigue du lobe superieur gauche",
+            "pneumonie franche lobaire aiguë gauche",
+            "pneumopathie franche lobaire gauche",
+            "PFLA lobe inférieur gauche",
+            "pneumopathie franche lobaire supérieure gauche",
+            "pneumopathie franche lobaire aigue du lobe supérieur gauche",
+            "Pneumonie franche lobaire aigue (PFLA)",
+            "pneumonie a pneumocoque",
+            "pneumopathie lobaire aigue",
+            "PFLA (pneumopathie franche lobaire aigue)",
+            "Pneumopathie franche lobaire gauche",
+            "pneumopathie à streptocoques",
+            "Pneumopathie aiguë gauche (lobe supérieur)",
+            "pneumopathie franche lobaire aigue superieure gauche",
+            "pneumopathie du poumon gauche",
+            "pneumopathie infectieuse (PID)",
+            "pneumopathie aigue à pneumocoque",
+            "pneumopathie interstitielle gauche",
+            "pneumopathie gauche (pneumocoque)",
+            "Pneumopathie aigue gauche",
+            "pneumopathie aigue",
+            "Pneumopathie franche lobaire aiguë",
+            "Pneumopathie franche lobaire aigue bacterienne",
+            "pneumonie du lobe supperieur gauche",
+            "pneumonie lobe supérieur gauche",
+            "pneumopathie franche lobaire aiguë gauche",
+            "Pneumopathie franche lobaire",
+            "pneumopathie franche lobaire aigue inférieure gauche",
+            "pneumopathie gauche à pneumocoque",
+            "PFLA a pneumocoque",
+            "pneumopathie franche lobaire aigue dans le lobe superieure gauche",
+            "pneumonie aiguë communautaire",
+            "pneumopathie infectieuse supérieure gauche (PFLA)",
+            "pneumonie bactérienne avec pleurésie réactionelle",
+            "Pneumopathie Aigue Franche Lobaire gauche",
+            "pneumopathie lobe superieur gauche",
+            "pneumonie bactérienne (PFLA gauche)",
+            "pneumonie franche lobaire aigue du lobe superieur gauche",
+            "pneumonie franche lobaire aiguë",
+            "pneumopathie franche lobaire aigue bactérienne",
+            "pneumopathie franche lobaire aigu gauche",
+            "Pneumonie bacterienne gauche",
+            "Pneumopathie aigue communautaire gauche",
+            "Pneumopathie franche lobaire aigue (lobe supérieur gauche)",
+            "pneumopathie du lobe superieur gauche",
+            "pneumopathie infectieuse du lobe supérieur gauche",
+            "Pneumopathie franche lobaire aigue gauche",
+            "pneumopathie franche lobaire aigue bacterienne",
+            "Pneumomie gauche bactérienne avec épanchement pleural gauche",
+            "pleuro-pneumopathie infectieuse",
+            "Pneumonie aiguë",
+            "pneumopathie bactérienne du poumon gauche",
+            "pneumonie a pneumocoque gauche",
+            "Pneumopathie franche lobaire aigue du poumon gauche",
+            "pneumopathie franche lobaire aiguë du lobe inférieur gauche",
+            "PFLA Gauche",
+            "Pneumopathie Aigue Communautaire",
+            "Pneumonie aigüe communautaire",
+            "pneumopathie franche lobaire aigue lobe inferieur gauche",
+            "Pneumonie franche lobaire aiguë supérieure gauche",
+            "pneumonie focale lobaire aigue gauche",
+            "pneumonie aïgue communautaire",
+            "pneumopathie a pneumocoque",
+            "pneumopathie bactérienne diffuse gauche",
+            "Pneumonie lobaire supérieure gauche",
+            "pneumopathie franche lobaire aiguë du lobe supérieur gauche",
+            "PFLA avec pleurésie gauche",
+            "pneumopathie sévère",
+            "pneumopathie à pneumoccoque gauche",
+            "Pneumonie aigue communotaire",
+            "pleuro-pneumopathie bactérienne",
+            "Pneumopathie Franche Lobaire Aigue",
+            "pneumopathie lobaire supérieure gauche",
+            "PFLA du lobe supérieur gauche",
+            "Pneumopathie infectieuse gauche",
+            "pneumopathie aigue lobe superieur gauche",
+            "pneumopathie franche lobaire aigue à pneumocoque",
+            "pneumopathie franche lobaire aigue (PFLA)",
+            "Pneumopathie lobaire supérieure gauche",
+            "pneumopathie bactérienne lobe gauche",
+            "pneumopathie aigue communautaire non systématisée du poumon gauche",
+            "Pneumopathie franche lobaire aïgue gauche",
+            "PFLA lingula et pneumopathie lobe supérieur gauche",
+            "pneumopathie bacterienne gauche",
+            "pneumopathie supérieure gauche",
+            "pneumopathie d'origine bactérienne",
+            "pneumopathie communautaire aigüe gauche",
+            "pneumonie franche lobaire aigüe",
+            "pneumopathie franche lobaire aigue bactérienne gauche",
+            "pneumonie aigue communautaire a pneumocoque",
+            "pneumopthie franche lobaire aigue gauche",
+            "pneumopathie lobaire aiguë gauche",
+            "pneumopathie franche lobaire aigüe bactérienne",
+            "pneumopathie lobaire franche aïgue",
+            "Pneumopathie franche lobaire aiguë moyenne gauche",
+            "Pneumonie"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "images": [
+            "/images/qcm/ue-transversale-s10/2025/q22.png?v=1786300690953"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes lesquelles sont compatibles avec le diagnostic de péricardite aiguë?",
+          "choix": [
+            "A) une douleur thoracique gauche calmée par le décubitus dorsal",
+            "B) un frottement péricardique à l'auscultation",
+            "C) un sous décalage P-Q sur l'ECG",
+            "D) un épanchement péricardique à l'échocardiographie",
+            "E) une élévation du Nt-ProBNP"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300712126-3cc38414ea6778",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez un homme de 32 ans qui présente depuis 5 jours une diarrhée glairo-sanglante, associée à des douleurs abdominales diffuses. Depuis 24h les douleurs se sont intensifiées. Il consulte aux urgences.\nIl est tabagique, en surpoids, consomme de l’alcool de façon festive. Il n’a pas d’allergie connue.\nA l’examen, il est sub-fébrile (38,3°C) et tachycarde. La douleur est maximale en fosse iliaque gauche. A la palpation, vous avez un doute sur la présence d' une défense en fosse iliaque gauche.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’examen d’imagerie de première intention que vous proposez ?",
+          "choix": [
+            "A) Echographie abdominale",
+            "B) Scanner abdominal sans produit de contraste",
+            "C) Scanner abdominal avec produit de contraste",
+            "D) IRM abdominale",
+            "E) Abdomen sans préparation"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les examens suivants, lesquels demandez-vous en première intention (choisissez les 6 propositions les plus pertinentes) ?",
+          "choix": [
+            "A) Ionogramme sanguin créatinine",
+            "B) bilan hépatique lipase",
+            "C) CRP",
+            "D) NFS plaquettes",
+            "E) Anticorps anti-nucléaires",
+            "F) Coproculture et hémocultures",
+            "G) Gastroscopie",
+            "H) Rectosigmoïdoscopie",
+            "I) Echo-endoscopie",
+            "J) Artériographie abdominale",
+            "K) un transit oeso-gastro-duodénal",
+            "L) un pet scanner"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "F",
+            "H"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Pendant que vous rédigiez votre observation médicale, le MAO des urgences vous a devancé et a prescrit cet examen.\nQuel est votre diagnostic positif ?",
+          "choix": [],
+          "reponses": [
+            "Colite aiguë",
+            "colite",
+            "Colite",
+            "collite"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/ue-transversale-s10/2025/q26.png?v=1786300713397"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

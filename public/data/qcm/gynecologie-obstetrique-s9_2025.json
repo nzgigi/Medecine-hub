@@ -1,0 +1,695 @@
+{
+  "matiere": "Gynécologie-obstétrique",
+  "slug": "gynecologie-obstetrique-s9",
+  "annee": 2025,
+  "title": "Gynécologie-obstétrique - 2025",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez en consultation une patiente de 26 ans. Elle présente comme antécédent une cholécystectomie et une adénoïdectomie. Sur le plan familial, il existe un antécédent de néoplasie rectale chez son père et de diabète de type II chez sa grand-mère maternelle. Son groupe sanguin est O négatif. Son IMC est de 27 kg/m2. Elle est enceinte de sa première grossesse et souhaite réaliser une interruption volontaire de grossesse (IVG).",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la réalisation de l’IVG, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) La loi qui dépénalise l’IVG a été adoptée le 17 janvier 1975",
+            "B) Une consultation psychologique et sociale est obligatoire quel que soit l’âge",
+            "C) Le choix de la méthode dépend de l’âge gestationnel, des antécédents et du choix de la patiente",
+            "D) La demande d’IVG et la confirmation peuvent être réalisées le même jour sans délai de réflexion",
+            "E) En France, elle est autorisée jusqu’à 14 semaines d’aménorrhée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Cs psychosociale obligatoire pour les mineurs\nPlus de délai de réflexion obligatoire\nJusqu'à 16 SA",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Finalement la patiente souhaite garder la grossesse. Elle est actuellement à 12SA + 2j et vous la recevez en consultation de suivi de grossesse pour la première fois. Vous rédigez les ordonnances du 1er trimestre.\nQue lui prescrivez-vous ?",
+          "choix": [
+            "A) Une sérologie toxoplasmose",
+            "B) Une sérologie rougeole",
+            "C) L’échographie du 1er trimestre",
+            "D) Une hyperglycémie orale provoquée",
+            "E) Génotypage RhD foetal"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Sérologie rubéole et pas rougeole\nGlycémie à jeun et pas HGPO\nRh D foetal car mère de Rh négatif",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un mois plus tard, lors de la consultation mensuelle de suivi, la patiente vous rapporte les résultats de ce que vous lui avez prescrit :\nSérologie toxoplasmose : non immunisée\nSérologie rubéole : immunité acquise\nGlycémie à jeun : 0,91 g/L\nGénotypage RhD fœtal positif\nLe dépistage de la trisomie 21 réalisé à la suite de l’échographie du 1er trimestre retrouve un risque à 1/547.\nElle vous questionne sur les résultats des examens, que pouvez vous lui dire ?",
+          "choix": [
+            "A) Il est nécessaire d’éviter le contact avec la litière des chats",
+            "B) La glycémie à jeun est anormale",
+            "C) Il sera nécessaire de réaliser un nouveau génotypage RhD fœtal pour confirmer le statut positif",
+            "D) Le calcul de risque de trisomie 21 est basé sur la mesure de la clarté nucale, de la prise de sang et de l’âge paternel",
+            "E) Il existe une indication à réaliser un caryotype fœtal"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "Eviction de la litière des chats pour la toxoplasmose\nGlycémie à jeun normale car < 0,92 g/L\nPAs de confirmation du Rh D foetal si positif, confirmation à demander si Rh D négatif sur la première détermination\nRisque de T21 : dépend de l'âge maternel\nPas de caryotype foetal si < 1/50 => indication à un DPNI",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous lui prescrivez un diagnostic prénatal non invasif (DPNI) pour la trisomie 21 qui est revenu négatif.\nLa patiente consulte en urgence pour douleurs lombaires fébriles associées à une bandelette urinaire positive.\nQue faites vous ?",
+          "choix": [
+            "A) Un traitement en dose unique",
+            "B) Un traitement probabiliste par céphalosporine de 3ème génération par voie intra veineuse",
+            "C) Un bilan biologique",
+            "D) Un ECBU de contrôle le jour de l’arrêt du traitement puis une fois par mois jusqu'à l'accouchement",
+            "E) La durée de traitement est de 10 à 14 jours"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Diagnostic de PNA : hospitalisation avec traitement IV de C3G, bilan biologique et échographique, ECBU 8-10 après l'arrêt du traitement, durée de 10 à 14 jours",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous hospitalisez la patiente à 26 SA + 4 j avec un traitement IV. Le bilan biologique objective un syndrome inflammatoire. Vous faites le point sur son dossier et vous demandez une hyperglycémie orale provoquée 75g.\nConcernant le diabète gestationnel (DG) ?",
+          "choix": [
+            "A) Une glycémie à T1 à 1,57 g/L est synonyme de DG",
+            "B) Une glycémie à T2 à 1,82 g/L est synonyme de DG",
+            "C) Les nouveaux nés de mère ayant eu un DG sont à risque d’hypoglycémies",
+            "D) L’antécédent de diabète de type 2 chez les grands parents est un facteur de risque de DG",
+            "E) Les enfants nés de mères ayant eu un DG sont à risque d’HTA à long terme"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Seuils pathologiques de l'HGPO : 0,92/1,80/1,53\nFDR de DG : ATCD de DG, macrosomie foetale sur les premiers accouchements, ATCD de diabète au premier degré, âge > 35 ans et IMC > 25\nRisques accrus cardiovasculaires à long terme et d'hypoglycémie néonatale sur l'hyperinsulinime maternel à la naissance",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Durant l’hospitalisation, la patiente vous appelle pour des contractions utérines douloureuses régulières que vous objectivez avec le monitoring suivant :\nLe toucher vaginal retrouve un col court et est mesuré à 7mm à l’échographie vaginale.\nConcernant la menace d’accouchement prématuré ?",
+          "choix": [
+            "A) Elle est définie par des contractions utérines associées à des modifications cervicales",
+            "B) L’âge de cette patiente est un facteur de risque",
+            "C) La consommation tabagique est un facteur de risque",
+            "D) Une tocolyse par inhibiteurs calciques peut-être initiée",
+            "E) La corticothérapie de maturation pulmonaire fœtale est à réaliser"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "définition type de la menace d'accouchement prématurée (MAP)\nFDR si âge < 18 ans\nFDR de MAP : tabac, bas niveau socio économique, précarité..., grossesses rapprochées, troubles psy maternels, trauma abdo, métrorragies du 2 et 3ème trimestre\nPEC de la MAP : corticoides car < 34 SA, tocolyse pour le temps de la maturation foetale",
+          "order": 6,
+          "images": [
+            "/images/qcm/gynecologie-obstetrique-s9/2025/q6.png?v=1786295817028"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La tocolyse initiée ne permet pas d’amender les contractions utérines et la patiente est finalement descendue en salle de naissance. Concernant le travail et l’accouchement :",
+          "choix": [
+            "A) Il s’agit d’un accouchement dystocique car prématuré",
+            "B) Le stade 1 est divisé en 2 phases",
+            "C) Le stade 2 correspond au stade de l’engagement de la tête fœtale",
+            "D) L’administration prophylactique d’oxytocine est recommandé pendant le stade 3",
+            "E) L’hémorragie du post partum est définie comme une perte sanguine supérieure à 500 mL"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "cf page 458 du collège",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques jours plus tard, vous revoyez la patiente dans le service de maternité est celle-ci vous pose des questions sur le post partum. L’allaitement est maternel.",
+          "choix": [
+            "A) Les tranchées sont importantes pour l’involution utérine",
+            "B) L’anticoagulation dépend du risque thrombo-embolique",
+            "C) Le retour de couche a lieu environ 6 semaines après l’arrêt de l’allaitement maternel",
+            "D) La première tétée permet au nouveau-né de recevoir le colostrum",
+            "E) La patiente sera informée sur la rééducation pelvipérinéale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Pilule avec oestrogène : diminue la lactation",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295820577-96a34e1c9b6a3",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez en consultation une jeune femme de 31 ans, qui consulte à la recherche de renseignements généraux sur le cancer du sein.\nVous recueillez les informations suivantes : ménarches à l’âge de 17 ans, nulligeste nullipare, pas de contraception. S mère est décédée d’un cancer de l’ovaire à 48 ans et une sœur a été opérée d’un cancer du sein droit à l'âge de 34 ans.\nElle est fumeuse à hauteur de 10 paquets-année, son état général est bon et elle ne déclare aucun signe fonctionnel.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les facteurs de risque de cancer du sein retrouvés chez cette patiente ?",
+          "choix": [
+            "A) Puberté tardive",
+            "B) Nulliparité",
+            "C) Contraception oestro-progestative",
+            "D) Antécédents familiaux",
+            "E) Tabagisme actif"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Rang A",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen clinique, quelles sont les réponses justes ?",
+          "choix": [
+            "A) La patiente doit se placer dans plusieurs positions pour la palpation",
+            "B) Un nodule mammaire souple et indolore est évocateur de malignité",
+            "C) La rétraction d’un mamelon est physiologique chez la femme jeune",
+            "D) Un écoulement mamelonnaire unipore est suspect de malignité",
+            "E) La palpation des aires ganglionnaires mammaires internes doit être systématique"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous palpez un nodule suspect, et les examens complémentaires montrent la présence d’un carcinome infiltrant, de 2cm, dans le quadrant supéro-externe droit. Les récepteurs hormonaux de la tumeur sont positifs (RO et RP > 20%), et la tumeur est HER2 positive. L’échographie du creux axillaire ne montre pas d’adénopathie. Le reste du bilan d’extension est normal.\nQuelle sera la prise en charge de la patiente ?",
+          "choix": [
+            "A) En cas de tumorectomie, il n’y aura pas de radiothérapie nécessaire",
+            "B) Il faut réaliser un geste de curage ganglionnaire axillaire",
+            "C) Il faut proposer une hormonothérapie par tamoxifène",
+            "D) Le tamoxifène est cardiotoxique",
+            "E) S’il s’était s’agit d’un cancer du sein inflammatoire, il aurait fallu proposer une mastectomie totale"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Au vu de l’âge de la patiente, et de son antécédent familial, vous allez rechercher une mutation génétique :\nlaquelle ?",
+          "choix": [],
+          "reponses": [
+            "BRCA 1",
+            "BRCA 2",
+            "BRCA",
+            "BRCA 1 2",
+            "Breast Cancer",
+            "BRCA1/2",
+            "BRCA1",
+            "BRCA 1/2",
+            "BRCA1/BRCA2",
+            "BRCA 1 et 2",
+            "BRCA1 et 2",
+            "BRCA1 BRCA2",
+            "BRCA2",
+            "BRCA1 ou 2",
+            "BRCA1 et BRCA2",
+            "mutation BRCA1/2",
+            "mutation BRCA 1 et 2",
+            "BRCA 1 / 2",
+            "BRC1/2",
+            "BRCAE1",
+            "BCRA 1 et 2",
+            "brca1",
+            "BRCA 1 ou 2",
+            "BRCA1 et BRCA 2",
+            "gène BRCA1/2",
+            "mutation BRCA1 BRCA2",
+            "BCRA1 et 2",
+            "mutation BRCA",
+            "brca2",
+            "BRCA 1&2",
+            "BRCA 1 et BRCA2",
+            "BCRA1 et BCRA2",
+            "brca1 et 2",
+            "mutation du gene BRCA",
+            "brca1/2",
+            "mutation BRCA1/BRCA2",
+            "mutation BRCA1 et 2",
+            "mutation BRCA 1/2",
+            "BRCA 1 et BRCA 2",
+            "BCRA 1/2",
+            "BCR1/2",
+            "BCRA1",
+            "BRCA1-2",
+            "BRAC 1 et 2",
+            "brca 1/2",
+            "mutation du gène BRCA1 / BRCA2",
+            "mutation du gène BRCA 1 et 2",
+            "muation du gene BRCA 1 et 2",
+            "BRCA 1-2",
+            "BRCA1/A2",
+            "BRCA1 / BRCA2",
+            "mutation brca1 et brca2",
+            "Mutation BRCA 1 et 2",
+            "BCRA1, BCRA2",
+            "BRCA1/ BRCA2"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors d’une de vos consultations de suivi de son cancer, la patiente vient avec sa sœur de 19 ans. Celle-ci a senti une “boule dans le sein”.\nQuelles sont les réponses justes ?",
+          "choix": [
+            "A) En cas de fibroadénome, le nodule est indolore",
+            "B) En cas de fibroadénome, le nodule est ferme et mobile",
+            "C) En cas d’examen clinique évocateur d’un fibroadénome, vous rassurer la patiente car il n’y a pas d’examen complémentaire à réaliser dans son cas",
+            "D) Au vu de l’âge, il s’agit plus probablement d’une mastopathie fibrokystique",
+            "E) En cas de mastopathie fibrokystique, le meilleur traitement reste la chirurgie"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295833007-896bfa19050618",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez aux urgences obstétricales une patiente de 31 ans, qui consulte pour des oedèmes en fin de grossesse.\nElle n’a aucun antécédent personnel hormis une appendicectomie, et aucun antécédent familial. Elle fume occasionnellement. C’est sa première grossesse, elle est actuellement à 36 SA.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les éléments suivants, quels sont les 5 principaux qui vont vous orienter vers une pré-éclampsie ?",
+          "choix": [
+            "A) Toucher vaginal douloureux lors de la mobilisation utérine",
+            "B) Réflexes ostéo tendineux abolis",
+            "C) Phosphènes",
+            "D) Tabagisme actif",
+            "E) Acouphènes",
+            "F) Leucorrhées malodorantes",
+            "G) Dyspareunies d'intromission",
+            "H) Douleur épigastrique",
+            "I) Antécédent personnel de GEU",
+            "J) Antécédent familial de cancer du sein",
+            "K) Bouffées vasomotrices",
+            "L) Antécédent de salpingite",
+            "M) Hypertension artérielle",
+            "N) Mastodynies",
+            "O) Perte de poids inexpliquée",
+            "P) Fièvre",
+            "Q) Céphalées",
+            "R) Phonophotophobie",
+            "S) Métrorragies"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "H",
+            "M",
+            "Q"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel examen complémentaire demandez-vous lors de l’arrivée de la patiente aux urgences obstétricales pour confirmer votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "protéinurie",
+            "proteinurie",
+            "protéinurie sur échantillon",
+            "rapport protéinurie sur créatininurie",
+            "rapport protéinurie sur créatininurie sur échantillon",
+            "protéinurie sur créatininurie",
+            "bandelette urinaire",
+            "BU",
+            "Bandelette urinaire",
+            "BU (protéinurie)",
+            "Bandelette Urinaire",
+            "Bandelette urinaire avec protéinurie",
+            "protéinurie sur bandelette urinaire",
+            "Bandelette urinaire (protéinurie)",
+            "BU pour recherche de proteinurie",
+            "BU (proteinurie )",
+            "bandette urinaire",
+            "mesure de la protéinurie/créatinurie",
+            "proteinurie sur Bandelette urinaire",
+            "BU (recherche protéinurie)",
+            "dosage des protéinuries BU",
+            "bandelette urinaire pour protéinurie",
+            "BU pour mesure de la proteinurie",
+            "BU pour rechercher une protéinurie",
+            "bandelette urinaire recherche proteinurie",
+            "BU pour détecter une proteinurie",
+            "bandelette urinaire pour proteinurie",
+            "BU avec proteinurie",
+            "Dosage de la protéinurie",
+            "bu",
+            "Protéinurie (analyse biochimique des urines)",
+            "bilan rénal avec proteinurie",
+            "Dosage de la proteinurie",
+            "bandelette urinaire pour recherche de protéinurie",
+            "Proteinurie sur BU",
+            "bandelette urinaire (dosage de la proteinurie)",
+            "bandelette urinaire : protéinurie sur échantillon",
+            "Bandelette urinaire, protéinurie",
+            "bandelette urinaire pour dépistage de la protéinurie",
+            "BU pour recherche protéinurie"
+          ],
+          "correctionExplanation": "rapport protéinurie/créatininurie sur échantillon = fiable et rapidement disponible (par rapport à la protéinurie des 24h)",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le rapport protéinurie/créatininurie est à 6 g/g et laa tension est initialement à 21/15 mmHg.\nLes réflexes sont vifs et polycinétiques, la patiente se plaint de céphalées intenses.\nElle finit par convulser devant vous, puis la crise d’éclampsie cède.\nQuel traitement va permettre d'éviter la récidive de la crise d'éclampsie ?",
+          "choix": [
+            "A) naissance immédiate par césarienne",
+            "B) titration antihypertensive par labétalol IVSE",
+            "C) transfert en réanimation",
+            "D) sulfate de magnésium 4g en dose de charge sur 20 minutes",
+            "E) administration de benzodiazépines (1mg de clonazépam en IV lente)"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295842069-f992ceec222a3",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la durée totale du congé maternité pour une femme enceinte de jumeaux, dont il s’agit d’une première grossesse.",
+          "choix": [],
+          "reponses": [
+            "34",
+            "34 SA",
+            "34 semaines d'aménorrhées",
+            "34 semaines",
+            "34 semaines (12 semaines avant, 22 semaines après l'accouchement)",
+            "34 semaines (12 pré + 22 post )"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Question à réponses unique, A propos du diabète gestationnel,",
+          "choix": [
+            "A) L’antécédent de chirurgie bariatrique est un facteur de risque de diabète gestationnel",
+            "B) La prévalence du diabète gestationnel en France est estimée entre 5 et 8% des grossesses",
+            "C) Une patiente enceinte ayant un frère diabétique sera éligible au dépistage du diabète gestationnel",
+            "D) Chez une patiente enceinte, une glycémie à jeun > ou = 0.92 g/L au 1e trimestre définit un diabète pré-existant",
+            "E) Toutes les réponses ci-dessus sont fausses"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos des suites de couches pathologiques, 2 réponses attendues",
+          "choix": [
+            "A) Les hémorragies du post partum précoces représentent 10% des accouchements",
+            "B) Une hémorragie du post partum tardive se définit par une hémorragie survenant au delà des 12 heures suivant l’accouchement et dans les 6 semaines qui suivent l’accouchement.",
+            "C) La rétention placentaire correspond à la première cause d’hémorragie du post partum",
+            "D) Le retour de couche hémorragique est dû à une anomalie transitoire de la réceptivité aux œstrogènes",
+            "E) En cas de thrombophlébite cérébrale, l’atteinte du sinus longitudinal supérieur est la plus fréquente"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’herpès néonatal,",
+          "choix": [
+            "A) Son mode de contamination le plus fréquent est par voie hématogène, pendant la grossesse lors d’une primo-infection maternelle",
+            "B) L’herpès néonatal est fréquent",
+            "C) En cas de primo-infection la semaine qui précède l’accouchement, et en l’absence de rupture de la poche des eaux, une césarienne doit être réalisée.",
+            "D) En cas de récurrence herpétique 3 jours avant l’accouchement, et en l’absence de rupture de la poche des eaux, une césarienne doit être réalisée.",
+            "E) Le Valaciclovir peut être initié en fin de grossesse chez les patientes ayant fait une récurrence herpétique en cours de grossesse"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la Listériose,",
+          "choix": [
+            "A) Il s’agit d’une maladie infectieuse à déclaration obligatoire",
+            "B) Elle est causée par un bacille GRAM négatif",
+            "C) La listériose se manifeste souvent par un syndrome pseudo-grippal",
+            "D) Le diagnostic repose sur une sérologie maternelle",
+            "E) L’infection à Listéria chez la femme enceinte représente peu de risque pour le fœtus"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’IVG par méthode médicamenteuse :",
+          "choix": [
+            "A) On l’induit par l'association de deux médicaments : la mifépristone et le misoprostol",
+            "B) On ne peut jamais l’initier en cas de grossesse de localisation indéterminée",
+            "C) Elle se complique d’hémorragie dans 5% des cas",
+            "D) Elle est contre-indiquée en cas de prise d'un traitement anticoagulant",
+            "E) Elle est contre-indiquée en cas de grossesse gémellaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous voyez en consultation une patiente de 30 ans présentant une irrégularité des cycles associée à de l’acné et des poils foncés au niveau du visage. Son bilan biologique montre des BHCG négatifs, ainsi que des taux de FSH, d’œstradiol et de prolactine normaux. Quel est le diagnostic le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome des ovaires polykystiques",
+            "Syndrome des ovaires polykystique",
+            "Syndrome des ovaire polykystique",
+            "Sd des ovaires polykystiques",
+            "Sd des ovaires polykystique",
+            "Sd des ovaires polykystiques",
+            "Syndrome ovaires polykystiques",
+            "Syndrome ovaires polykystique",
+            "Syndrome ovaire polykystique",
+            "Sd ovaires polykystiques",
+            "Sd ovaires polykystique",
+            "Sd ovaire polykystique",
+            "SOPK",
+            "Sopk",
+            "sopk",
+            "Syndrome des ovaires poly-kystiques",
+            "Syndrome des ovaires poly-kystique",
+            "Syndrome des ovaire poly-kystique",
+            "Sd des ovaires poly-kystiques",
+            "Sd des ovaires poly-kystique",
+            "Sd des ovaire poly-kystique",
+            "Syndrome ovaires poly-kystiques",
+            "Syndrome ovaires poly-kystique",
+            "Syndrome ovaire poly-kystiques",
+            "Sd ovaires poly-kystiques",
+            "Sd ovaires poly-kystique",
+            "Sd ovaire poly-kystique",
+            "syndrome des ovaires polykysitiques",
+            "syndrome des ovaires polykystiques (SOPK)",
+            "Syndrome des ovaires polykystiques (SOPK)",
+            "syndrome des ovaires polykystiques SOPK",
+            "syndrome des ovaires polikystiques",
+            "syndrome des ovaires polykistiques",
+            "syndrome de l'ovaire polykystique",
+            "syndrome ovaire polykistiques",
+            "syndrome des ovaires polykistyques",
+            "ovaires polykystiques",
+            "syndrome ovaires polykystique SOPK",
+            "syndrome polykystique",
+            "syndrome des ovaires polykistques",
+            "SOPK syndrome des ovaires polykistiques",
+            "syndromes des ovaires polykystiques",
+            "SOPK avec hyperandrogénie",
+            "syndrome de ovaires polykystiques",
+            "sndrome des ovaires polykystiques",
+            "Syndrome des ovaires polykystiques SOPK",
+            "Syndrome des ovaires polykistiques",
+            "SPOK"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(les) est (sont) la(les) réponse(s) juste(s) concernant la ménopause :",
+          "choix": [
+            "A) La ménopause survient à un âge moyen de 49 ans en France",
+            "B) En cas de ménopause avant 40 ans, on parle d’insuffisance ovarienne prématurée",
+            "C) Actuellement, environ 45 % des femmes ménopausée prennent un traitement hormonal de la ménopause (THM)",
+            "D) Il existe une accélération de la perte osseuse à cette période",
+            "E) La ménopause est la seconde cause d’ostéoporose chez la femme"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’indice de Pearl de la pilule combinée œstroprogestative en utilisation courante ?",
+          "choix": [
+            "A) 0.05",
+            "B) 0.3",
+            "C) 8",
+            "D) 15",
+            "E) 21"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les symptômes du syndrome climatérique.\nParmi les 5 items suivants, donner les 3 réponses justes.",
+          "choix": [
+            "A) Les bouffées vaso-motrices concernent 20 % des femmes occidentales ménopausées",
+            "B) Les bouffées vaso-motrices disparaissent en général après 2 à 3 ans de ménopause",
+            "C) Le syndrome génito-urinaire de la ménopause associe trois types de symptômes : des symptômes de sécheresse vulvaire, des symptômes sexuels et des symptômes urinaires",
+            "D) Il peut apparaître une pilosité de type androgénique (lèvre supérieure, joues)",
+            "E) La carence œstrogénique est à l’origine de douleurs articulaires et ligamentaires"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

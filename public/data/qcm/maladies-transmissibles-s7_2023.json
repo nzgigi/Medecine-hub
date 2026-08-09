@@ -1,0 +1,743 @@
+{
+  "matiere": "Maladies transmissibles",
+  "slug": "maladies-transmissibles-s7",
+  "annee": 2023,
+  "title": "Maladies transmissibles - 2023",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un homme de 17 ans se présente aux urgences parce qu’il présente des céphalées inhabituelles et de la fièvre depuis hier soir. Il n’a pas d’antécédent médical ou chirurgical et ne prend aucun traitement.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quels sont 2 éléments cliniques évocateurs dans un contexte de céphalées fébriles d’une méningite infectieuse ?",
+          "choix": [
+            "A) Présence d’une raideur de nuque",
+            "B) Présence de troubles digestifs avec une diarrhée liquidienne",
+            "C) Présence de céphalées d’apparition explosive",
+            "D) Présence de troubles de la vigilance",
+            "E) Présence d’une amygdalite avec test diagnostic streptococcique rapide positif"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Les céphalées ont débuté rapidement hier soir en même temps que la fièvre et sont associées à des vomissements répétés.\nA l’examen : TA 120/80, Fc 120 bpm, 39,5°C. Purpura pétéchial non nécrotique des membres inférieurs. Franche raideur de nuque dans signe de souffrance neurologique. Auscultation cardio-pulmonaire normale. Abdomen souple et indolore. Vous envisagez une méningite infectieuse et la nécessité de réaliser une ponction lombaire. Devez-vous réaliser une imagerie cérébrale avant la ponction lombaire ?",
+          "choix": [],
+          "reponses": [
+            "Non",
+            "non pas de CI a la PL",
+            "Pas de signes de souffrances neurologique donc pas besoin d'imagerie",
+            "faux",
+            "Non car pas de signe de souffrance neurologique",
+            "Non : pas de signes de souffrance neurologique"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont parmi les propositions suivantes les 3 qui représenteraient une contre-indication à la réalisation d’une ponction lombaire chez ce patient ?",
+          "choix": [
+            "A) Tableau de sepsis avec hypotension artérielle",
+            "B) Patient sous antiagrégant plaquettaire",
+            "C) Présence d’une paralysie faciale centrale",
+            "D) Présence d’un purpura non nécrotique",
+            "E) Crise comitiale persistante"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La ponction lombaire est réalisée et montre un liquide trouble. Quel est dans le contexte de ce patient le microbe le plus probablement responsable de cette méningite ?",
+          "choix": [
+            "A) Streptococcus pneumoniae",
+            "B) Neisseria meningitidis",
+            "C) Enterovirus",
+            "D) Listeria monocytogenes",
+            "E) Escherichia coli"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une méningite à méningocoque. Concernant cette infection, quelle sont les propositions justes ?",
+          "choix": [
+            "A) La porte d’entrée est habituellement une sinusite",
+            "B) Le sérotype B est le plus souvent impliqué en France",
+            "C) La drépanocytose homozygote en est un potentiel facteur favorisant",
+            "D) L’incidence est plus importante après 50 ans",
+            "E) Le méningocoque est un bacille gram négatif"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont parmi les propositions suivantes vos 2 prescriptions immédiates ?",
+          "choix": [
+            "A) Antibiothérapie par Cefotaxime IV",
+            "B) Précautions complémentaires air",
+            "C) Antibiothérapie par Amoxicilline IV",
+            "D) Antibiothérapie par Aciclovir IV",
+            "E) Traitement anti-inflammatoire par Dexamethasone"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une méningite à méningocoque de sérotype B est confirmée. Quelle sont les 2 mesures préventives à prendre parmi les propositions suivantes ?",
+          "choix": [
+            "A) Poursuite des précautions complémentaires gouttelettes jusqu’à la fin de l’antibiothérapie",
+            "B) Déclaration obligatoire à l’ARS",
+            "C) Vaccination anti-méningococcique des sujets contacts",
+            "D) Prophylaxie par Rifampicine des sujets ayant été contact du cas index dans les 10 jours précédents la déclaration obligatoire",
+            "E) Vaccination anti-méningococcique du cas index"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes lesquelles vous auraient amené à prescrire une antibiothérapie probabiliste par Amoxicilline associée à la cefotaxime ?",
+          "choix": [
+            "A) Age > 50 ans",
+            "B) Tableau neurologique associé à une diarrhée aigue",
+            "C) Immunodépression",
+            "D) Identification à l’examen direct du LCS d’un cocci gram négatif",
+            "E) Méningite chez un nouveau-né"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296857745-1a6a16a977c828",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous voyez en consultation de médecine générale un homme de 55 ans pour un syndrome fébrile.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelles sont 3 situations dans lesquelles des examens complémentaires de première intention ne sont pas indiqués ?",
+          "choix": [
+            "A) Fièvre sans orientation clinique ni signe de gravité évoluant depuis 2 jours au retour d’un voyage au Sénégal",
+            "B) Fièvre isolée sans orientation clinique ni signe de gravité évoluant depuis 24 heures chez un sujet jeune sans comorbidité n’ayant pas voyagé dans les 3 derniers mois",
+            "C) Fièvre aigue avec tableau de dermo-hypodermite bactérienne non compliquée",
+            "D) Fièvre isolée sans orientation clinique ni signe de gravité évoluant depuis 6 jours",
+            "E) Fièvre aigue avec tableau de bronchite"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Ce patient présente en effet une fièvre intermittente depuis 6 jours associée à des frissons. Il se plaint principalement de douleurs du rachis lombaire le réveillant la nuit depuis quelques jours. Il est porteur d’une prothèse aortique mécanique posée il a 5 ans dans le cadre du traitement d’une valvulopathie dégénérative. A l’examen : TA : 130/80, Fc 120 bpm, Sa02 100%, FR 22/min ; Souffle systolique aortique connu ; Absence de signe d’incompétence cardiaque ; Examen neurologique normal ; Abdomen souple indolore ; Raideur rachidienne lombaire avec douleurs à la percussion des épineuses ; Examen du tégument montrant ces lésions (photographie). Quel diagnostic prioritaire suspectez-vous?",
+          "choix": [],
+          "reponses": [
+            "Endocardite",
+            "Endocardite infectieuse",
+            "Endocardite aigue",
+            "endocardite infectieuse avec spondilodiscite",
+            "Endocardite à staphylocoque dorés",
+            "endocardite infectieuse sur prothèse",
+            "endocardite infectieuse à s. aureus",
+            "endocardite à staphylococcus aureus",
+            "endocardite infectieuse complique d'une spondylodiscite",
+            "endocardite infectieuse à staphylococcus aureus",
+            "endocardite à staphylocoque doré",
+            "Endocardite infectieuse avec foyer secondaire rachidien",
+            "Endocardite à Staphylocoque Doré",
+            "endocardite aigue avec spondylodiscite",
+            "Endocardite infectieuse à Staphylocoque doré",
+            "Endocardite à Staphylocoque",
+            "Endocardite bactérienne",
+            "Endocardite infectieuse à staphylocoque",
+            "Endocardite à staphylococcus aureus",
+            "endocardite bacterienne",
+            "endocardite infectieuse à staphylocoque",
+            "Endocardite à staphylocoque",
+            "Spondylodiscite (complicant une endocardite)",
+            "endocardite infectueuse",
+            "Endocardite à Staphylocoque aureus",
+            "sepsis avec spondylodiscite sur endocardite",
+            "Endocardite à staphylocoque doré",
+            "endocardite à staphylocoque",
+            "Endocardite à Staphylocoque doré",
+            "endocardite a staphilocoque dore",
+            "Endocardite à staphylocoque aureus"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s7/2023/q10.png?v=1786296858327"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une endocardite compliquée d’une spondylodiscite lombaire est suspectée. Le patient est hospitalisé. Quel examen complémentaire est à demander en 1ère intention pour documenter ce diagnostic ?",
+          "choix": [
+            "A) Radiographie du rachis lombaire face et profil",
+            "B) Une paire d’hémoculture",
+            "C) Echocardiographie trans-oesophagienne",
+            "D) TEP-scanner",
+            "E) IRM cérébrale"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Des 3 paires d’hémocultures prélevées, 2 sont positives en 12 heures avec un cocci gram positif en chainette. Quelles sont les 2 bactéries pouvant ici être évoquées ?",
+          "choix": [
+            "A) Staphylococcus aureus",
+            "B) Enterococcus faecalis",
+            "C) Klebsiella pneumoniae",
+            "D) Listeria monocytogenes",
+            "E) Streptococcus gallolyticus"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une bactériémie à Streptocoque ou Enterocoque est en cours de documentation. Quel antibiotique débutez-vous en première intention ?",
+          "choix": [],
+          "reponses": [
+            "Amoxicilline",
+            "Pénicilline A",
+            "amoxiciline",
+            "Amoxiciline",
+            "Amoxicilline IV",
+            "amoxicilline IV",
+            "Amoxilline",
+            "Amoxcilline"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un Enterococcus faecalis est identifié dans les hémocultures. Quelles sont les portes d’entrée les plus probable de ce microbe ?",
+          "choix": [
+            "A) Cavité bucco-dentaire",
+            "B) Colon",
+            "C) Sinus",
+            "D) Voies urinaires",
+            "E) Poumon"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la situation où les hémocultures prélevées avant antibiothérapie auraient été négatives après 72 heures de culture, quels microbes auraient pu être envisagés ?",
+          "choix": [
+            "A) Bartonella henselae",
+            "B) Abiotrophia spp",
+            "C) Coxiella burnetii",
+            "D) Staphylococcus epidermidis",
+            "E) Tropheryma whipplei"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Si un seul flacon d’hémoculture avait été positif à Staphylococcus aureus méti-S, quelles auraient été les propositions justes ?",
+          "choix": [
+            "A) La réalisation à titre systématique d’un fond d’œil aurait été nécessaire",
+            "B) Un contrôle systématique de la négativation des hémocultures aurait été nécessaire",
+            "C) L’antibiothérapie aurait reposée sur la vancomycine IV",
+            "D) Une coloscopie à la recherche d’une porte d’entrée aurait été nécessaire",
+            "E) Une confirmation de la bactériémie par d’autres hémocultures aurait été nécessaire"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296861676-56fd5d7a894aa",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un homme de 22 ans se présente en décembre 2022 à votre cabinet de médecine générale pour une toux fébrile. Il n’a aucun antécédent médico-chirurgical et ne fume pas. Il présente de la fièvre associée à une toux ayant débutés brutalement hier. Ses constantes sont : 38,5°C, Fc 110/min, TA 110/65 mmHg, pas de trouble des fonctions supérieures.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous suspectez en premier lieu une infection, quel élément manque-t-il pour l’évaluation immédiate de sa gravité ?",
+          "choix": [],
+          "reponses": [
+            "Fréquence respiratoire",
+            "FR",
+            "Polypnée",
+            "frequence respiratoire",
+            "Frequence respiratoire",
+            "la fréquence respiratoire",
+            "la frequence respiratoire",
+            "Frequence Respiratoire",
+            "La fréquence respiratoire",
+            "Féquence respiratoire",
+            "La frequence respiratoire pour evaluer le qSOFA",
+            "frequence Respiratoire",
+            "la frequence respiratoire pour le qSOFA",
+            "La frequence respiratoire",
+            "fréquence respiratore"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La fréquence respiratoire est à 18/min. La SaO2 est à 97% en air ambiant. Il présente une douleur basi-thoracique gauche. Vous suspectez une pneumopathie.\nSélectionnez 5 éléments qui vous semblent important à rechercher à l’interrogatoire et à l’examen physique à ce stade avant de décider de votre prise en charge thérapeutique.",
+          "choix": [
+            "A) Recherche d’un souffle tubaire à l’auscultation pulmonaire",
+            "B) Recherche de brulures mictionnelles",
+            "C) Recherche du caractère purulent de l’expectoration",
+            "D) Recherche d’une conjonctivite",
+            "E) Recherche d’une hépatomégalie",
+            "F) Recherche d’une adénopathie inguinale",
+            "G) Recherche d’un tympan érythémateux",
+            "H) Recherche d’une éruption vésiculeuse de la zone de Ramsay-Hunt",
+            "I) Recherche d’une rhinopharyngite",
+            "J) Recherche d’une diarrhée aigue",
+            "K) Recherche d’un intertrigo",
+            "L) Recherche d’un œdème douloureux du mollet"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "I",
+            "J",
+            "L"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "Dans le contexte d’une toux fébrile avec douleur basi-thoracique,\nconfirmer la pneumopathie (expectoration purulente, syndrome de condensation pulmonaire),\npenser EP et rechercher des arguments pour TVP,\ns’orienter quant au microbe : rechercher un syndrome grippal préalable (rhinopharyngite, représentation SAMS accrue),\net des signes extra-respiratoires évocateurs de pneumopathie atypique.",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il n’y a pas eu de syndrome grippal préalable, et il n’y a pas de symptôme extra-respiratoire. L’examen met en évidence un syndrome de condensation pulmonaire de la base gauche. Une radiographie thoracique a été réalisée, ci-joint. Quelle antibiothérapie probabiliste prescrivez-vous à ce patient ?",
+          "choix": [
+            "A) Amoxicilline-Acide clavulanique",
+            "B) Clarithromycine",
+            "C) Levofloxacine",
+            "D) Amoxicilline",
+            "E) Ceftriaxone"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "PAC non grave du sujet jeune avec arguments pour pneumocoque (PFLA) = Amoxicilline ; Si allergie : Pristinamycine.\nSi suspicion bactérie atypique = Clarithromycine ;\nSi syndrome grippal préalable = Amoxicilline-Acide clavulanique\nSi PAC grave : Ceftriaxone associé à un macrolide ou à une FQAP",
+          "order": 3,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s7/2023/q19.png?v=1786296862806"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296863084-97cf32638d81d8",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 35 ans consulte aux urgences pour de la fièvre évoluant depuis 48 heures. Il n’a pas d’antécédent médical ou chirurgical. Il a séjourné au Cameroun pendant 1 semaine avec un retour en France il y a 3 jours. Il a pris une prophylaxie par Atovaquone qu’il poursuit actuellement. En dehors de la fièvre il se plaint de céphalées intermittentes, d’arthralgies et de myalgies diffuses. Il a eu 2 selles liquides aujourd’hui. A l’examen : TA 130/80, Fc 110, 39,5°C, FR 20/minutes. Examen neurologique normal. Auscultation cardio-pulmonaire normal. Abdomen souple. Absence d’exanthème. Aires ganglionnaires libres. Absence d’organomégalie. Biologiquement : Hb 13g/dL, plaquettes 90000/mm3, leucocytes 13500/mm3 dont 11000 PNN, 200 PNEo, 1000 lymphocytes/mm3. Créatininémie 90 micromoles/L, ALAT 2,5N, ASAT 2,2N, PAL normales, bilirubine totale normale, CRP 250 mg/L. Bandelette urinaire montrant une protéinurie et une hématurie. La recherche de paludisme par biologie moléculaire rapide est négative. Quels diagnostiques sont plausibles chez ce patient ?",
+          "choix": [
+            "A) Dengue",
+            "B) Rickettsiose",
+            "C) Hépatite virale",
+            "D) Leptospirose",
+            "E) Bilharziose"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bactéries suivantes quelles sont celles qui font partie du spectre utile de la ceftriaxone ?",
+          "choix": [
+            "A) Pseudomonas aeruginosa",
+            "B) Enterococcus faecalis",
+            "C) Streptococcus oralis",
+            "D) Listeria monocytogenes",
+            "E) Escherichia coli"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 42 ans se présente aux urgences pour de la fièvre depuis 2 heures. Il vous présente à son arrivée sa carte de splénectomisé. Il a en effet subi une splénectomie d’hémostase il y a 10 ans au décours d’un AVP grave. L’interrogatoire et l’examen physique n’identifient ni point d’appel, ni signe de gravité. L’urgentiste décide de débuter après 2 paires d’hémocultures une antibiothérapie probabiliste par Ceftriaxone. Quels sont les 3 microbes qu’il cherche à traiter spécifiquement dans le contexte de ce patient ?",
+          "choix": [
+            "A) Pseudomonas aeruginosa",
+            "B) Streptococcus pneumoniae",
+            "C) Neisseria meningitidis",
+            "D) Streptococcus pyogenes",
+            "E) Haemophilus influenzae b"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les molécules suivantes quelles sont les 2 pouvant être utilisées comme relais par voie orale après documentation dans un contexte de pyélonéphrite aigue et d’infection urinaire masculine ?",
+          "choix": [
+            "A) Levofloxacine",
+            "B) Fosfomycine",
+            "C) Cotrimoxazole",
+            "D) Amoxicilline-acide clavulanique",
+            "E) Cefixime"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résistances des entérobactéries aux antibiotiques et leurs mécanismes, quelles sont les 2 propositions justes ?",
+          "choix": [
+            "A) Le principal mécanisme de résistance des entérobactéries aux C3G est le résultat d’une modification de la cible",
+            "B) Plus de 20% des Escherichia coli communautaires sont résistants au Cotrimoxazole",
+            "C) La résistance des entérobacteries aux fluoroquinolones n’est pas pas influencée par une exposition récente à cette famille d’antibiotiques",
+            "D) Plus de 20% des Escherichia coli communautaires sont résistants aux carbapenemes",
+            "E) 5% des Escherichia coli communautaires sont résistants aux C3G"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation un homme de 35 ans pour la prise en charge d’une fièvre. Il n’a pas d’antécédent médical ou chirurgical, il n’a pas voyagé dans les 3 derniers mois. Il est tabagique actif (15 paquets-année). Il présente depuis 48 heures une fièvre objectivée entre 38 et 38,5°C avec une obstruction nasale, une rhinorrhée purulente avec des douleurs infra-orbitaires bilatérales, une odynophagie bilatérale, une toux grasse avec douleurs rétrosternales à la toux et des myalgies diffuses. A l’examen : 38,3°C, Fc 90 bpm, FR 20/min, TA 130/80. Examen neurologique normal. Pas de syndrome méningé. Ronchi diffus à l’auscultation pulmonaire. Bruits du cœur réguliers sans souffle. Pas d’incompétence cardiaque. Abdomen souple. Absence d’exanthème ou de purpura. Quelles sont vos 2 prescriptions ?",
+          "choix": [
+            "A) Amoxicilline",
+            "B) Paracétamol",
+            "C) Amoxicilline-Acide clavulanique",
+            "D) Ibuprofène",
+            "E) Sérum physiologique pour lavage des fosses nasales"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une femme de 30 ans consulte en médecine générale pour une toux persistante. Cette patiente tabagique active et consommant du cannabis de manière occasionnelle n’a pas d’antécédent médical ou chirurgical. Elle ne prend aucun traitement. Elle est célibataire et n’a pas d’enfant. Elle ne connait pas précisément son état vaccinal, mais pense ne pas\navoir fait les rappels prévus à 25 ans. Elle n’a pas voyagé dans le dernier semestre. Elle est agent territorial spécialisé des écoles maternelles. Elle présente en dehors de toute fièvre une toux sèche répétitive depuis 4 semaines. Son état général est légèrement altéré surtout du fait d’une asthénie qu’elle relie à des troubles du sommeil liés à cette toux. La rhinorrhée et l’obstruction nasale qu’elle présentait initialement ont disparu avec l’apparition de cette toux. L’examen physique est\nnormal, notamment l’auscultation pulmonaire. Une radiographie thoracique faite il y a une semaine était normale. Quel diagnostic évoquez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Coqueluche",
+            "Bordetella pertussis",
+            "Infection à Coqueluche"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 27,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une patiente de 75 ans consulte pour des douleurs du genou gauche. Elle a pour principaux antécédents une fibrillation auriculaire sous anticoagulation orale et une BPCO post-tabagique sevrée. Elle est porteuse d’une prothèse totale du genou gauche posée en 2015. Les douleurs évoluent depuis plusieurs mois, sans fièvre ni altération de l’état général. Le genou gauche par rapport au genou droit n’est pas augmenté de volume et n’est pas érythémateux ni chaud. La cicatrice sur la face antérieure de ce genou est propre mais avec une croute à sa partie distale. La patiente vous rapporte des écoulements intermittents à cet endroit, le dernier la semaine dernière. Le reste de l’examen est normal, notamment il n’y a pas de limitation de l’articulation coxo-fémorale gauche. Elle dispose des résultats d’une prise de sang montrant une NFS normale et une CRP à 3 mg/L (N < 5 mg/L). Quel élément clinique est très évocateur d’une infection ostéo-articulaire chronique de cette prothèse ?",
+          "choix": [],
+          "reponses": [
+            "Fistule",
+            "Fistulisation",
+            "Ecoulement",
+            "écoulements intermittents",
+            "ecoulements intermittents",
+            "écoulements",
+            "Ecoulements intermittents",
+            "écoulement intermittent",
+            "écoulement",
+            "ecoulements",
+            "Écoulements intermittents",
+            "ecoulement intermittent",
+            "écoulements intermittents de la cicatrice",
+            "ecoulement de la cicatrice",
+            "écoulement intermittent de la cicatrice",
+            "Ecoulement au niveau de la cicatrice",
+            "écoulements cicatriciels",
+            "écoulements intermittents au niveau de la cicatrice",
+            "les écoulements intermittents",
+            "Ecoulements cicatriciels",
+            "ecoulements intermittents de la cicatrice",
+            "écoulement de la cicatrice",
+            "ecoulement purulent",
+            "écoulements articulaires",
+            "écoulement au niveau de la cicatrice",
+            "écoulements de la cicatrice",
+            "ecoulements de la cicatrice",
+            "Ecoulements intermitants",
+            "croute avec écoulements intermittents au genou",
+            "les ecoulements intermittents",
+            "Présence d'une fistule avec écoulement intermittent",
+            "Écoulements intermittents du genou (fistule)",
+            "Fistule ostéo-cutanée",
+            "Fistule cutanée",
+            "fistule cutané (ecoulements intermittents)",
+            "Ecoulement de fistule",
+            "croute avec écoulement et pas AEG",
+            "Ecoulement purulent",
+            "Fistulisation avec écoulements intermittents",
+            "les écoulements intermittents sur la croute",
+            "écoulements intermittants",
+            "ecoulement au niveau de la prothese evoquant une fistule",
+            "fistule (avec ecoulement intermittent)",
+            "écoulements intermitants",
+            "ecoulement intermittent sans syndrome inflammatoire",
+            "Ecoulements intermittents de la cicatrice",
+            "Ecoulement intermittent en regard de la cicatrice",
+            "Croûte avec écoulements intermittents au niveau de sa prothèse de genou",
+            "Fistule productive",
+            "pertuis",
+            "douleur chronique sur prothèse totale du genou avec écoulement",
+            "Ecoulements à la cicatrice",
+            "ecoulements intermittents sur la cicatrice",
+            "Fistulisation cutanée",
+            "fistule (écoulements intermittents de la prothèse)",
+            "les ecoulements au niveau de la cicatrice",
+            "ecoulements de la partie distale de la cicatrice",
+            "ecoulements articulaires",
+            "ecoulement de la croute",
+            "écoulement intermittant de la cicatrice",
+            "écoulement intermittents au niveau de la croute",
+            "Cicatrice avec croute et écoulement",
+            "cicatrice suitante",
+            "la fistule",
+            "croute avec écoulements",
+            "ecoulement intermittents de sa cicatrice",
+            "la cicatrice croûteuse avec les écoulements",
+            "Douleur chronique sur prothese totale du genou avec écoulements intermittents",
+            "ecoulements intermittents au niveau de la cicatrice",
+            "écoulements intermittents genou gauche",
+            "ecoulement intermitants",
+            "Présence d'écoulements intermittents",
+            "ecoulement intermittent dans un contexte de douleurs chroniques apyrexie",
+            "Croute à la partie distale de la cicatrice avec écoulements intermittents",
+            "écoulement intermittent au niveau de la cicatrice",
+            "écoulements intermittents de la plaie",
+            "ecoulement de la cicatrice sans syndrome inflammatoire",
+            "Écoulement intermittents",
+            "ecoulement cicatrice",
+            "écoulement intermitant au niveau de la cicatrice de la prothese totale du genoux",
+            "écoulements intermittents au niveau du genou gauche",
+            "écoulements purulents",
+            "écoulement cicatriciel",
+            "eécoulements intermittents",
+            "écoulements intermittents (fistule)",
+            "croute avec ecoulement au niveau de la cicatrice",
+            "ecoulement intermittents sans fievre et crp normale",
+            "écoulements chroniques intermittents du genou gauche",
+            "Ecoulements intermittents (fistule)",
+            "ecoulement de la cicatrice sans fievre",
+            "écoulement intermitants",
+            "ecoulement intermittent du genou gauche",
+            "croute avec ecoulement intermittent",
+            "l'ecoulement evocateur d'une fistule",
+            "les ecoulement intermittant",
+            "La fistule",
+            "ecoulement intermitent",
+            "écoulement intermittent cicatriciel",
+            "écoulements intermittents apyrexiques",
+            "Ecoulements intermittents au niveau de la cicatrice",
+            "Ecoulements par fistule",
+            "ecoulement avec croute au niveau de la cicatrice",
+            "écoulement à travers la cicatrice",
+            "Ecoulement et croute sur cicatrice",
+            "croute et écoulements intermittents de la cicatrice",
+            "ecoulement intermittant",
+            "ecoulement intermittents",
+            "Écoulement au niveau de la cicatrice",
+            "écoulement intermittent du genou gauche",
+            "écoulements intermittents sans signes inflammatoires aigues (possible fistule)",
+            "Ecoulements de la cicatrice",
+            "Ecoulements intermitents",
+            "les ecoulements intermittents de la cicatrice",
+            "écoulements intermittents de cicatrice",
+            "Écoulement purulent"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 28,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est parmi les propositions suivantes celle qui ne fait pas partie de la prise en charge thérapeutique d’une dermo-hypodermite bactérienne non nécrosante de jambe ?",
+          "choix": [
+            "A) Application d’econazole sur le placard inflammatoire",
+            "B) Antibiothérapie orale par amoxiciline",
+            "C) Prescription d’un arrêt de travail",
+            "D) Repos au lit avec surélévation du membre inférieur",
+            "E) Anticoagulation préventive par enoxaparine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les antibiotiques suivants, lequel n’est pas considéré comme particulièrement à risque de générer des résistances bactériennes ?",
+          "choix": [
+            "A) Cotrimoxazole",
+            "B) Amoxicilline-Acide Clavulanique",
+            "C) Cefotaxime",
+            "D) Ciprofloxacine",
+            "E) Meropeneme"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

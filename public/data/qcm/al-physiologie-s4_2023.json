@@ -1,0 +1,220 @@
+{
+  "matiere": "Appareil locomoteur – Physiologie",
+  "slug": "al-physiologie-s4",
+  "annee": 2023,
+  "title": "Appareil locomoteur – Physiologie - 2023",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Identifiez la(les) réponse(s) exacte(s). Concernant les cellules osseuses",
+          "choix": [
+            "A) Les ostéoclastes dérivent de précurseurs mésenchymateux",
+            "B) Les ostéoblastes dérivent de précurseurs hématopoïétiques",
+            "C) Elles comprennent les ostéoclastes, les ostéoblastes et les astrocytes",
+            "D) Elles sont responsables du remodelage osseux",
+            "E) Les cellules bordantes sont des ostéoblastes quiescents capable de redevenir des cellules ostéogéniques"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Identifiez la(les) réponse(s) exacte(s). Concernant les ostéoclastes.",
+          "choix": [
+            "A) Ce sont des cellules spécialisées dans la minéralisation de la matrice osseuse",
+            "B) Ce sont des cellules spécialisées dans la résorption de la matrice osseuse",
+            "C) Ils dérivent de la fusion de précurseurs monocytaires",
+            "D) Leur formation et leur activité sont influencées par des facteur cytokiniques tel que le RANK Ligand",
+            "E) Ils sont des acteurs essentiels du remodelage osseux"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Identifiez la(les) réponse(s) exacte(s). Concernant le remodelage osseux",
+          "choix": [
+            "A) Il inclut une phase d’attraction par chimiotactisme des précurseurs ostéoclastiques",
+            "B) Il inclut une phase de formation de la matrice osseuse par les ostéoclastes",
+            "C) Il inclut une phase de minéralisation de matrice dite ostéoïde",
+            "D) Il permet la cicatrisation osseuse post-fracturaire",
+            "E) Il est soumis à l’influence de facteurs hormonaux tels que le vitamine E"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les fonctions cellulaires de chondrocytes (1 à 5 affirmations exactes)",
+          "choix": [
+            "A) Les chondrocytes synthétisent du collagène de type I",
+            "B) Les chondrocytes synthétisent du collagène de type II",
+            "C) Les chondrocytes synthétisent des protéoglycanes",
+            "D) Les chondrocytes synthétisent des métalloprotéinases matricielles (MMPs)",
+            "E) L’interleukine-1 et le TNFalpha favorisent le renouvellement de la matrice extracellulaire par les chondrocytes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la composition du cartilage articulaire (1 à 5 affirmations exactes)",
+          "choix": [
+            "A) La matrice extracellulaire du cartilage articulaire comporte 65 à 80% d’eau",
+            "B) Le collagène de type I est le collagène principal du cartilage articulaire",
+            "C) Les collagène de type IX, X et XI sont des collagènes mineurs du cartilage articulaire",
+            "D) Les glycosaminoglycanes sont de longues chaînes polysaccharidiques",
+            "E) Les protéoglycanes comportent du kératane sulfate et de la chondroïtine sulfate"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le vieillissement du cartilage articulaire (1 à 5 affirmations exactes)",
+          "choix": [
+            "A) L’élasticité du cartilage articulaire augmente avec l’âge",
+            "B) Le nombre de chondrocytes augmente avec l’âge",
+            "C) La teneur en eau du cartilage articulaire augmente avec l’âge",
+            "D) La teneur en collagène de type II diminue avec l’âge",
+            "E) La réponse aux facteurs de croissance diminue avec l’âge"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’état physiologique, les principales caractéristiques du liquide synovial normal sont d’être un liquide (donner la ou les bonnes propositions):",
+          "choix": [
+            "A) très visqueux",
+            "B) très abondant",
+            "C) riche en protéines",
+            "D) riche en cellules",
+            "E) riche en hyaluronate"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les synoviocytes de la membrane synoviale (donner la ou les propositions exactes)",
+          "choix": [
+            "A) Sont localisés dans la couche sous-intimale (subintima)",
+            "B) Peuvent être de type A ou fibroblastique",
+            "C) Peuvent être de type B ou macrophagique",
+            "D) Possèdent des prolongements cytoplasmiques dirigés vers la cavité articulaire",
+            "E) Peuvent proliférer en cas d’inflammation synoviale"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bilans suivants, lesquels peuvent être proposés pour évaluer le tissu musculaire strié squelettique ?",
+          "choix": [
+            "A) Scanner musculaire",
+            "B) Imagerie par Résonance Magnétique (IRM) musculaire",
+            "C) Biopsie musculaire",
+            "D) Dosages biologiques des métabolites du muscle strié squelettique",
+            "E) Evaluation fonctionnelle de la force musculaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre de la recherche d’une anomalie du métabolisme énergétique du muscle strié squelettique, il est possible de proposer la réalisation des explorations complémentaires suivantes (cocher la ou les bonnes réponses) :",
+          "choix": [
+            "A) Mesure de la consommation d’oxygène (O2) et de la production de dioxyde de carbone (CO2) à la bouche du patient",
+            "B) Dosage de la concentration en acide lactique dans le sang",
+            "C) Dosage de la concentration en créatine phospho-kinase (CPK) dans le sang",
+            "D) Scanner cérébral",
+            "E) Biopsie musculaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

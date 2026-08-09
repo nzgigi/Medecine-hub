@@ -1,0 +1,433 @@
+{
+  "matiere": "Urologie",
+  "slug": "urologie-s7",
+  "annee": 2025,
+  "title": "Urologie - 2025",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans quelle(s) situation(s) le PSA peut-il être augmenté ? (Rang A)",
+          "choix": [
+            "A) Hypertrophie bénigne de la prostate",
+            "B) Adénocarcinome prostatique localisé",
+            "C) Adénocarcinome prostatique métastatique",
+            "D) Infection urinaire masculine",
+            "E) Suite à la pose de néphrostomie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont la(les) complication(s) de l’hypertrophie bénigne de la prostate ? (Rang A)",
+          "choix": [
+            "A) Apparition de calcul(s) de la vessie",
+            "B) Apparition de calcul(s) urétéral(aux)",
+            "C) Apparition de calcul(s) pyélique(s)",
+            "D) Transformation maligne en un adénocarcinome prostatique",
+            "E) Hématurie macroscopique"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels examens sont recommandés dans le cadre du bilan d'extension du cancer de la prostate de risque intermédiaire ? (Réponses valides: 2) (Rang B)",
+          "choix": [
+            "A) IRM pelvi-prostatique",
+            "B) TDM thoraco-abdomino-pelvien injecté",
+            "C) TDM cérébral",
+            "D) Scintigraphie osseuse",
+            "E) TEP choline",
+            "F) TEP PSMA",
+            "G) IRM corps entier",
+            "H) TDM thoraco-abdomino-pelvien non injecté",
+            "I) IRM lombaire",
+            "J) TEP 18 FDG"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la classification utilisée pour stadifier les groupes à risque du cancer de la prostate ? (Rang B)",
+          "choix": [],
+          "reponses": [
+            "Amico",
+            "classification d'Amico",
+            "amico",
+            "AMICO",
+            "D'Amico",
+            "Classification d'Amico",
+            "classification d'amico",
+            "d'amico",
+            "classification d’Amico",
+            "Classification de D'Amico",
+            "D'amico",
+            "D’Amico",
+            "Classification d‘Amico",
+            "classification d’amico",
+            "d'Amico",
+            "Classification de d'Amico",
+            "classification de D'Amico",
+            "classification d'Amicco",
+            "classification de d'Amico",
+            "Classification de d’Amico",
+            "Damico",
+            "la classification d'Amico",
+            "classification AMICO",
+            "de d'Amico",
+            "la classification de d'Amico",
+            "classification d Amico",
+            "classification de damico",
+            "Classification AMICO",
+            "AMICCO",
+            "de D'Amico",
+            "Classification d'AMICO",
+            "Classification d'Amico en fonction du score ISUP, du PSA et TNM",
+            "classification amico",
+            "Classification d'Ammico",
+            "classification D'amico",
+            "score d'amico",
+            "De Amico",
+            "classification d'AMICO",
+            "D‘Amico",
+            "Classification de Damico",
+            "Di Amico",
+            "classification D'Amico",
+            "classifications d'Amico",
+            "De D'Amico",
+            "DAMICO",
+            "classe d'Amico",
+            "classimication d'Amico",
+            "d amico"
+          ],
+          "correctionExplanation": "Classification de D'Amico",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le principal facteur de risque de torsion du cordon spermatique ? (Rang A)",
+          "choix": [
+            "A) Cancer du testicule",
+            "B) Activité sexuelle récente",
+            "C) Hydrocèle vaginale",
+            "D) Cryptorchidie",
+            "E) Antécédent de torsion controlatérale"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300923780-669eba18f7eee8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Votre êtes urologue et recevez en consultation une patiente de 82 ans suivie pour une fibrillation auriculaire sous AVK et bisoprolol. Elle n’a pas d’antécédent chirurgical ni d’allergie. Elle est ancienne fumeuse sevrée (50 PA).\nElle a présenté il y à 1 an, un premier épisode d’hématurie macroscopique sous AVK, résolutif après suspension de ce dernier, arrêté spontanément par la patiente elle-même.\nActuellement, elle présente une récidive d’hématurie macroscopique depuis un mois. Elle vous décrit la présence de caillot dans ses urines. Elle n’a pas de brulure mictionnelle.\nQuestion 1. Quel est votre diagnostic étiologique principal pour expliquer cette hématurie macroscopique ? (Rang A)",
+          "choix": [],
+          "reponses": [
+            "Cancer de la vessie",
+            "tumeur vésicale",
+            "tumeur de la vessie",
+            "cancer vessie",
+            "tumeur vesicale",
+            "cancer de vessie",
+            "cancer vésical",
+            "tumeur de vessie",
+            "cancer vesical",
+            "Tumeur vésicale",
+            "tumeur vessie",
+            "Cancer vésical",
+            "Tumeur de la vessie",
+            "cancer vésicale",
+            "cancer vesicale",
+            "etiologie vesicale / cancer de vessie",
+            "Origine urologique : cancer urothélial ?",
+            "Cancer vessie",
+            "tumeur vésical",
+            "Cancer urothelial",
+            "carcinome vessie",
+            "urologique (possible cancer urothélial)",
+            "tumeur urotheliale",
+            "tumeurs de la vessie",
+            "tumeur urothéliale",
+            "tumeur vésicale (origine urologique)",
+            "carcinome urothelial",
+            "Carcinome urothélial",
+            "Tumeur vesicale",
+            "carcinome urothélial",
+            "Cancer vesical",
+            "cancer voies urinaires",
+            "Tumeur Vesicale",
+            "Carcinome urothélial de la vessie",
+            "Tumeur de vessie",
+            "hématurie d'origine urologique possiblement causée par un cancer de vessie",
+            "Cancer de vessie",
+            "Cancer de la la vessie",
+            "Tu.eur urothéliale de vessie",
+            "Tumeur vessie"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quel(s) examen(s) de première intention devant cette hématurie macroscopique caillotante demandez-vous ? (5 réponses valides) (Rang B)",
+          "choix": [
+            "A) NFS",
+            "B) UroTDM",
+            "C) Échographie réno-vésicale",
+            "D) Protéinurie",
+            "E) Créatininémie et clairance de la créatinine",
+            "F) ECBU",
+            "G) Fibroscopie",
+            "H) IRM pelvienne",
+            "I) TDM abdomino-pelvien sans injection",
+            "J) Ionogramme urinaire",
+            "K) Ionogramme sanguin",
+            "L) Frottis sanguin",
+            "M) Test de Coombs",
+            "N) Rapport protéine / créatinine",
+            "O) Albuminurie des 24h"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Dans l’intervalle du bilan, l’hématurie macroscopique a récidivé et s’est majorée. Elle présente maintenant une douleur pelvienne. La patiente est adressée aux urgences et l’urgentiste retrouve une voussure sus-pubienne associée à une matité. Question 3. Quelle prise en charge de ce caillotage vésical compliqué de rétention aigue d’urine sur hématurie macroscopique proposez-vous ? (2 réponses valides) (Rang B)",
+          "choix": [
+            "A) Mise en place d’un cystocathéter après arrêt des anticoagulants",
+            "B) Mise en place d’une sonde vésicale avec lavage vésicaux",
+            "C) Mise en place de néphrostomies bilatérales",
+            "D) Dérivation urinaire par mise en place de sonde double J bilatérales",
+            "E) Arrêt des anticoagulants en fonction de l’avis cardiologique"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300928165-78b49d761ec94",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 56 ans consulte aux urgences pour douleur lombaire droite, d’installation brutale, survenue à son domicile. Il a pour antécédents une hypertension artérielle. Il s’agit de son premier épisode de douleur lombaire brutale. Son traitement au long cours comprend de l’amlodipine 10 mg 1 comprimé par jour.\nL’anamnèse retrouve une douleur lombaire droite d’apparition brutale, il y à 3 heures, sans position antalgique. Il décrit également des nausées sans vomissement. Devant l’absence d’amélioration de ses douleurs après la prise de paracétamol (1g), il a consulté aux urgences.\nSes constantes sont les suivantes : PA 130/70 mmHg, FC : 100/min, SaO2 : 98% en AA, Température : 37,1°C, EVA : 9/10. Question 1 : Quels sont les diagnostics qui peuvent être évoqués devant ce tableau clinique ? (Rang A)",
+          "choix": [
+            "A) Pyélonéphrite aigue obstructive droite",
+            "B) Pneumopathie basale droite",
+            "C) Colique néphrétique non compliquée droite",
+            "D) Pancréatite aiguë non compliquée",
+            "E) Infection urinaire masculine"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un bilan biologique est réalisé et retrouve : GB : 5.8 G/l ; Hb : 14.0 g/dL ; Plaquettes : 300 G/l ; CRP <5 mg/l ; créatininémie : 83 µmol/l, clairance de la créatinine : 80 ml/min ; Bilan hépatique sans anomalies avec lipase négative.\nL’examen physique retrouve une douleur lombaire droite spontanée avec irradiation antérieure. Il existe un empâtement de la fosse lombaire droite et une douleur intense à la percussion. Du côté gauche, l’examen est normal.\nQuestion 2 : Après réalisation du bilan biologique, quel diagnostic semble le plus probable ? (Rang A)",
+          "choix": [
+            "A) Pyélonéphrite aigue obstructive droite",
+            "B) Pneumopathie basale droite",
+            "C) Colique néphrétique non compliquée droite",
+            "D) Pancréatite aigue",
+            "E) Infection urinaire masculine"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de colique néphrétique non compliquée est retenu.\nQuestion 3 : Quel(s) examen(s) d’imagerie(s) demandez-vous en urgence ? (Rang B)",
+          "choix": [
+            "A) TDM abdomino-pelvien non injecté",
+            "B) TDM abdomino-pelvien avec injection de produit de contraste",
+            "C) UroTDM",
+            "D) Aucun examen en urgence",
+            "E) Echographie rénale + ASP"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel(s) traitement(s) de 1ère intention à visée antalgique mettez-vous en place ? (Rang A)",
+          "choix": [
+            "A) Antalgique de palier I",
+            "B) Antalgique de palier I + palier III",
+            "C) Antalgique de palier II + palier III",
+            "D) AINS + antalgique palier I + palier II",
+            "E) AINS + antalgique palier I"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le patient retourne à son domicile avec une ordonnance d’AINS et d’antalgique de palier I ainsi qu’avec une ordonnance pour un TDM abdomino-pelvien sans injection à réaliser dans les 12 à 48h.\nIl reconsulte cependant le lendemain aux urgences devant la persistance des douleurs lombaires droites. Ses constantes à son arrivée sont les suivantes : PA 95/60 mmHg, FC : 120/min, SaO2 : 97% en AA, Température : 39,9°C, EVA : 9/10.\nQuestion 5. Quel diagnostic évoquez-vous en priorité ? (Rang A)",
+          "choix": [
+            "A) Pyélonéphrite aigue obstructive droite",
+            "B) Pneumopathie basale droite",
+            "C) Colique néphrétique non compliquée droite",
+            "D) Pancréatite aigue",
+            "E) Infection urinaire masculine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) bilan(s) d’imagerie(s) pouvez-vous demander en urgence ? (Rang B)",
+          "choix": [
+            "A) TDM abdomino-pelvien non injecté",
+            "B) TDM abdomino-pelvien avec injection de produit de contraste",
+            "C) UroTDM",
+            "D) Aucun examen en urgence",
+            "E) Echographie rénale + ASP"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un TDM abdomino-pelvien non injecté est réalisé et retrouve la présence d’un calcul de 5 mm situé au niveau du méat urétéro-vésical droit de 1200 UH, associé à une infiltration de la graisse péri-urétérale et un épaississement urétéral au contact du calcul.\nLe diagnostic de pyélonéphrite obstructive droite d’origine lithiasique est retenu.\nQuestion 7. Quelle prise en charge thérapeutique proposez-vous ? (Rang A)",
+          "choix": [
+            "A) Poursuite des AINS",
+            "B) Dérivation des urines par sonde double J après avoir obtenu les résultats de l’ECBU",
+            "C) Dérivation des urines par sonde double J en urgence",
+            "D) Antibiothérapie adaptée après avoir obtenu les résultats de l’ECBU",
+            "E) Antibiothérapie probabiliste en urgence"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient a été hospitalisé en urgence après dérivation des urines par mise en place de sonde JJ droite et antibiothérapie probabiliste par Rocéphine. L’antibiogramme de l’ECBU prélevé au bloc opératoire est le suivant :\nQuestion 8. Quelle antibiothérapie adaptée mettez-vous en place ? (Rang A)",
+          "choix": [
+            "A) Augmentin",
+            "B) Triméthoprime + Sulfaméthoxazole",
+            "C) Fosfomycine",
+            "D) Ofloxacine",
+            "E) Tazocilline"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/urologie-s7/2025/q16.jpg?v=1786300930900"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

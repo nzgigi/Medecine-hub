@@ -1,0 +1,456 @@
+{
+  "matiere": "Revêtement cutané",
+  "slug": "revetement-cutane-s6",
+  "annee": 2023,
+  "title": "Revêtement cutané - 2023",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la filaggrine",
+          "choix": [
+            "A) Elle permet l’agrégation des filaments intermédiaires de kératine",
+            "B) Elle est sécrétée par le kératinocyte granuleux dans l’espace extracellulaire de la couche cornée",
+            "C) Elle contribue à l’organisation des lipides extracellulaires en lamella",
+            "D) Elle joue un rôle essentiel dans l’hydratation de la couche cornée",
+            "E) La mutation du gène codant la filaggrine est responsable d’une forme fréquente d’ichtyose appelée ichtyose vulgaire"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La réalisation d’une biopsie cutanée permet de",
+          "choix": [
+            "A) Faire le diagnostic d’une tumeur bénigne",
+            "B) Faire le diagnostic d’une tumeur maligne",
+            "C) Distinguer une pathologie tumorale d’une pathologie inflammatoire",
+            "D) Dire si les berges d’exérèse d’une tumeur sont saines ou tumorales",
+            "E) Fournir des indications pronostiques et/ou de prise en charge dans les tumeurs malignes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La kératose actinique",
+          "choix": [
+            "A) Correspond à une lésion mélanocytaire",
+            "B) Est l’équivalent d’un carcinome malpighien",
+            "C) Correspond à une lésion précancéreuse qui peut se transformer à terme en carcinome malpighien",
+            "D) Est induite par l’exposition solaire",
+            "E) Se rencontre surtout chez les enfants"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En pathologie inflammatoire, l’examen histopathologique de l’épiderme",
+          "choix": [
+            "A) Peut montrer des lésions de spongiose qui sont fréquemment observées dans l’eczéma",
+            "B) Peut permettre de diagnostiquer une lésion d’origine virale",
+            "C) Montre des lésions d’acantholyse dans le pemphigus vulgaire",
+            "D) Peut montrer des nécroses kératinocytaires dans une toxidermie médicamenteuse",
+            "E) Est peu contributif lorsque la biopsie a intéressé une zone ulcérée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le signe de Nikolsky",
+          "choix": [
+            "A) Est un signe recherché lors de l’inspection cutanée",
+            "B) Correspond à la dégranulation des mastocytes",
+            "C) Se traduit par un décollement de l’épiderme",
+            "D) A une grande valeur d’orientation étiologique",
+            "E) Se traduit par un gonflement de la peau"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’analyse clinique topographique en dermatologie comprend",
+          "choix": [
+            "A) Siège d’apparition des lésions",
+            "B) Etendue des lésions",
+            "C) Caractère symétrique des lésions",
+            "D) Délai d’apparition des lésions",
+            "E) Agencement des lésions sur la peau"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "les facteurs influençant la pénétration des médicaments topiques sont",
+          "choix": [
+            "A) L’épaisseur du Stratum cornéum",
+            "B) La vascularisation du derme",
+            "C) Le poids moléculaire de la substance active",
+            "D) Le type d’excipient utilisé",
+            "E) L’horaire d’application du produit"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les cellules de Merckel siègent",
+          "choix": [
+            "A) Au sein de l’épiderme et du derme",
+            "B) Au sein du derme exclusivement",
+            "C) Au sein de l’épiderme",
+            "D) Dans tous les couches cutanées",
+            "E) Les cellules de Merckel ne sont pas des cellules cutanées"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelles sont dans l’ordre les phases évolutives de la cicatrisation normale d’une plaie ?",
+          "choix": [
+            "A) Cicatrisation de 1ère et de 2ème intention",
+            "B) Phase vasculaire, Phase inflammatoire détersive, Phase inflammatoire proliférative, Phase de ré-épidermisation",
+            "C) Phase vasculaire, Phase inflammatoire proliférative, Phase inflammatoire détersive, Phase de ré-épidermisation",
+            "D) Phase vasculaire, Phase inflammatoire détersive, Phase de ré-épidermisation",
+            "E) Phase inflammatoire proliférative, Phase de ré-épidermisation"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En cas de suspicion de Mélanome, il est nécessaire de:",
+          "choix": [
+            "A) Réaliser une biopsie au punch à visée diagnostique",
+            "B) Réaliser une exérèse avec des marges de sécurité de 2 cm à visée diagnostique et thérapeutique",
+            "C) Surveiller l’évolution",
+            "D) Réaliser une biopsie-exérèse marginale à visée diagnostique",
+            "E) Réaliser une exérèse large avec des marges de sécurité de 1 cm à visée diagnostique et thérapeutique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la réponse immunitaire innée",
+          "choix": [
+            "A) Elle est spécifique des invertébrés",
+            "B) Elle permet une réponse rapide à l’infection par des microorganismes",
+            "C) Elle est dirigée contre un répertoire limité de motifs",
+            "D) Elle est médiée par les lymphocytes T",
+            "E) Elle met en jeu des récepteurs produits par des réarrangements de gènes"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes au sujet de cette lésion ?",
+          "choix": [
+            "A) On peut la décrire comme une macule hypopigmentée",
+            "B) On peut la décrire comme une lésion mal limitée",
+            "C) On peut la décrire sa forme comme difficile à décrire, plutôt de forme arrondie/ovalaire",
+            "D) Cette lésion peut être due à une vasocontriction",
+            "E) Cette lésion peut être due à une disparition des mélanocytes"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2023/q12.png?v=1786299816239"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes au sujet des lésions élémentaires ?",
+          "choix": [
+            "A) Une macule est une lésion plane",
+            "B) Les vésicules et les pustules sont des lésions liquidiennes à liquide clair",
+            "C) Les squames correspondent à des lamelles cornées",
+            "D) Une lésion en cocarde est une lésion formée de 2 cercles concentriques",
+            "E) Une lésion hyperkératosique est une lésion rugueuse au toucher"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes au sujet de la forme des lésions ?",
+          "choix": [
+            "A) Une lésion annulaire est une lésion arrondie dont le centre est de la couleur de la peau normale",
+            "B) Une lésion annulaire s’étend de manière centripète",
+            "C) La cocarde s’observe dans un grand nombre d’affection",
+            "D) Certaines lésions ont une forme qui correspond à un contact avec un agent externe",
+            "E) Les lésions cutanées ont le plus souvent une forme irrégulière"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le signe de Darier permet d’appréhender l’épaisseur des squames",
+            "B) Une bulle profonde est plus tendue qu’une bulle superficielle",
+            "C) Une atrophie cutanée peut se traduire par une peau plus blanche et plus brillante",
+            "D) La présence de pus évoque une infection bactérienne",
+            "E) La recherche d’un dermographisme se fait à l’aide d’une curette"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes au sujet des mesures de photoprotection",
+          "choix": [
+            "A) L’application d’écran total est la mesure la plus importante",
+            "B) Il convient d’éviter de sortir quand le soleil est au zénith",
+            "C) L’exposition solaire protège des cancers de peau grâce à l’acquisition d’un bronzage",
+            "D) Les vêtements protègent mieux que l’écran total",
+            "E) Les nuages arrêtent les UVA et les UVB"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16,
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes au sujet des cheveux ?",
+          "choix": [
+            "A) Le cycle pilaire comprend 4 phases",
+            "B) Les cheveux poussent durant la phase anagène, qui dure quelques semaines",
+            "C) Les cheveux tombent durant la phase catagène qui dure quelques semaines",
+            "D) La couleur des cheveux dépend de la mélanine",
+            "E) Une alopécie est une lésion circonscrite"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Cette lésion correspond à quelle pathologie ?",
+          "choix": [],
+          "reponses": [
+            "psoriasis"
+          ],
+          "correctionExplanation": "",
+          "order": 18,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2023/q18.jpg?v=1786299819264"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels composants d'une crème émolliente reconstituent favorablement la barrière épidermique d'un sujet atteint de dermatite atopique avec xérose sévère ?",
+          "choix": [
+            "A) le facteur naturel d'hydratation",
+            "B) les acides gras et sphingolipides contenus dans un baume",
+            "C) une émulsion eau dans huile contenant des céramides",
+            "D) une émulsion légère huile dans l'eau contenant de l'acide hyaluronique",
+            "E) Aucune de ses propositions."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes au sujet de la description de cette lésion ?",
+          "choix": [
+            "A) Il s’agit d’une nécrose",
+            "B) Il existe un placard maculeux ou légèrement maculo papuleux",
+            "C) Les lésions sont hyperpigmentées",
+            "D) Les lésions sont plutôt bien limitées",
+            "E) Il convient de voir si les lésions s’effacent à la vitropression"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 20,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2023/q20.jpg?v=1786299820011"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Cette lésion correspond à quelle pathologie ?",
+          "choix": [],
+          "reponses": [
+            "Verrue séborrhéique",
+            "Kératose séborrhéique",
+            "keratose seborrheique",
+            "kératose seborrhéique",
+            "keratose seborreique",
+            "kératose séborhéique",
+            "kératose séborréique",
+            "kératose séboréique",
+            "kératose seborhéique",
+            "keratose séborrhéique",
+            "keratose seborhéique",
+            "keratose seborheique",
+            "kératose séborréhique",
+            "Keratose seborrheique",
+            "kératose séborrhéïque",
+            "Kératose sébhorréique",
+            "kératose seboréique",
+            "keratose séborhéique",
+            "keratose seborrehique",
+            "kératose séboherrique",
+            "Kératose seborrhéique",
+            "kératose séborrheique",
+            "kératose sébhorréique",
+            "keratose seboherique",
+            "hyperkeratose séborrheique",
+            "keratose seborrhéique",
+            "une kératose séborrhéique",
+            "keratose seboreique",
+            "kératose séborrheïque"
+          ],
+          "correctionExplanation": "",
+          "order": 21,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2023/q21.jpg?v=1786299820697"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

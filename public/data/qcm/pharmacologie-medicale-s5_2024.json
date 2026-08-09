@@ -1,0 +1,476 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s5",
+  "annee": 2024,
+  "title": "Pharmacologie médicale - 2024",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Monsieur D, 58 ans, a un cancer bronchopulmonaire pour lequel différentes possibilités de chimiothérapies sont envisagées avec lui. Il a lu sur internet qu’il existe des médicaments anticancéreux « innovants », et vous pose des questions à ce propos.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les éléments qu’il a pu lire, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les anticorps monoclonaux ont une activité ciblée seulement sur les cellules tumorales",
+            "B) Les médicaments inhibiteurs des points de contrôles peuvent être utilisés dans tous les types de cancer",
+            "C) L’immunothérapie augmente le risque de survenue d’effets indésirables de type auto-immun",
+            "D) La plupart des cytotoxiques sont associés à une augmentation du risque d’aplasie médullaire",
+            "E) Les médicaments de thérapies ciblées présentent un profil d’effets indésirables différent des médicaments cytotoxiques"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments anticancéreux qui peuvent lui être proposés, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les effets indésirables digestifs sont très courant avec les médicaments cytotoxiques",
+            "B) La toxicité hématologique observée avec les médicaments cytotoxiques est réversible",
+            "C) Les anthracyclines ont une toxicité cardiaque",
+            "D) Les médicaments de thérapies ciblées ont très peu d’effets indésirables",
+            "E) La survie globale est le seul paramètre utilisé pour évaluer le bénéfice des médicaments dans les essais cliniques de Phase III"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’annonce de ce diagnostic de cancer entraine un syndrome dépressif sévère nécessitant une prise en charge médicamenteuse.\nConcernant les médicaments antidépresseurs, quelle est ou quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Les imipraminiques ont des propriétés latérales anti-histaminiques",
+            "B) De nombreux inhibiteurs de la recapture de la sérotonine sont des inhibiteurs du cytochrome 2D6",
+            "C) La duloxétine et la venlafaxine sont imputés dans la survenue d’HTA",
+            "D) Les inhibiteurs de la recapture de la sérotonine sont efficaces dans le traitement des douleurs INACCEPTABLE neuropathiques",
+            "E) L’escitalopram allonge la durée de l’espace QT"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments antidépresseurs, quelle est ou quelles sont les réponses exactes ?",
+          "choix": [
+            "A) La prise de poids induite par l’amitriptyline est liée à ses propriétés atropiniques",
+            "B) Les inhibiteurs de la recapture de la sérotonine sont imputés dans la survenue de troubles comportementaux à type d’hétéro- ou auto-agressivité",
+            "C) L’iproniazide bloque de façon irréversible l’activité de la MAO-A",
+            "D) L’association IMAO-inhibiteurs de la recapture de la sérotonine est contre-indiquée en raison du risque INDISPENSABLE de syndrome sérotoninergique",
+            "E) L’agomélatine est un antagoniste des récepteurs de la mélatonine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Du fait d’un trouble anxieux associé au syndrome dépressif, vous envisagez un traitement par benzodiazépine.\nConcernant les benzodiazépines, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) l’insuffisance respiratoire sévère constitue une contre indication",
+            "B) elles présentent des propriétés antipsychotiques",
+            "C) elles agissent aussi sur le système serotoninergique ce qui explique leurs propriétés myorelaxantes",
+            "D) Parmi les contre-indications, on peut citer l’insuffisance hépatique et la myasthénie",
+            "E) elles peuvent entrainer une amnésie antérograde"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les éléments pharmacologiques suivants, le(s)quel(s) est(sont) à prendre en compte pour apprécier la balance bénéfices/risques de cette prescription médicamenteuse :",
+          "choix": [
+            "A) les benzodiazépines sont des médicaments lipophiles",
+            "B) les benzodiazépines diminuent les stades 3 et 4 du sommeil",
+            "C) Les benzodiazépines augmentent le risque de chute chez le sujet âgé",
+            "D) Les benzodiazépines peuvent entrainer des réactions paradoxales à type d’irritabilité et désinhibition",
+            "E) Les benzodiazépines induisent une pharmacodépendance"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786298407152-77ce6c1b8e8a2",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Certains médicaments antiépileptiques modulent la conductance ionique des membranes",
+            "B) les benzodiazépines ont des propriétés antiépileptiques",
+            "C) Certains médicaments antiépileptiques sont des antagonistes des récepteurs GABA B",
+            "D) Certains médicaments antiépileptiques diminuent l’excitabilité neuronale en bloquant les canaux calciques de type L",
+            "E) la lamotrigine entraine peu d’effets indésirables cutanés"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments antiépileptiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) L’acide valproique peut être prescrit à la femme en âge de procréer uniquement en deuxième intention",
+            "B) les médicaments antiépileptiques augmentent la neurotransmission dopaminergique",
+            "C) les effets indésirables de type ralentissement psychique et sédation sont doses dépendants.",
+            "D) les médicaments antiépileptiques de deuxième génération provoquent des effets indésirables à type de troubles du comportement",
+            "E) Les médicaments antiépileptiques sont peu tératogènes"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments normothymiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) le lithium peut être associé aux inhibiteurs de l'enzyme de conversion mais pas aux diurétiques",
+            "B) la réabsorption du lithium au niveau tubulaire s’effectue en compétition avec celle du sodium",
+            "C) le lithium possède des propriétés anti épileptiques",
+            "D) le tremblement est un effet indésirable fréquent du lithium",
+            "E) en cas de contre-indication au lithium, certains antiépileptiques peuvent être prescrits"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) le baclofene agit sur le récepteur ionotrope GABA A",
+            "B) le récepteur GABA A est une structure pentamérique contenant un canal chlore",
+            "C) le propofol, anesthésique utilisé par voie intraveineuse est un antagoniste du récepteur GABA A",
+            "D) L’oxybate de sodium ou GHB a une AMM dans la narcolepsie/cataplexie",
+            "E) les benzodiazépines sont des modulateurs allostériques du GABA A en augmentant la fréquence d’ouverture du canal chlore"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments des troubles mnésiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Les médicaments anticholinestérasiques sont à éviter dans la maladie d’Alzheimer car ils induisent des troubles mnésiques",
+            "B) les anticholinesterasiques peuvent présenter des interactions médicamenteuses avec les médicaments bradycardisants",
+            "C) Des anticorps monoclonaux dirigés contre la protéine amyloide, constituent un traitement de la maladie d’Alzheimer",
+            "D) Des anticorps monoclonaux dirigés contre la protéine Tau sont en cours d’évaluation dans le traitement de la maladie d’Alzheimer",
+            "E) les anticholinesterasiques ont comme effet indésirable une constipation"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments anticancéreux, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les inhibiteurs de protéines kinases ont une application seulement aux cancers hématologiques",
+            "B) Les indications des inhibiteurs de protéines kinases concernent également des pathologies non oncologiques",
+            "C) L’efficacité des médicaments inhibiteurs des points de contrôles immunitaires est fréquemment supérieure à 50% dans ses indications",
+            "D) Les médicaments bispécifiques sont de natures chimiques",
+            "E) Les médicaments CAR-T cell ont bénéficié d’une évaluation très rapide de l’efficacité clinique avant leur mise sur le marché"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments antimigraineux de la crise, quelle est ou quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Le paracétamol surtout s’il est associé à de la codéine peut déterminer l’apparition d’une céphalée chronique quotidienne",
+            "B) La récidive de la crise migraineuse après la prise d’un « -triptan » est d’autant plus fréquente que la demi-vie de la molécule est courte",
+            "C) Le zolmitriptan est un antagoniste des récepteurs 5HT1B/D",
+            "D) L’effet antimigraineux des « -triptans » est lié à une une vasoconstriction des artères cérébrales",
+            "E) Le paracétamol a une efficacité démontrée dans le traitement de la céphalée migraineuse"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments antimigraineux du traitement de fond, quelle est ou quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Le propranolol et le métoprolol sont deux bétabloquants ayant une AMM dans cette indication",
+            "B) L’érémumab est anticorps monoclonal dirigé contre le récepteur du CGRP",
+            "C) Le pizotifène possède des propriétés anti-histaminiques H1",
+            "D) Le valproate de sodium est indiqué dans la prévention de la migraine",
+            "E) L’amitriptyline est indiquée dans le traitement des céphalées chroniques médicamenteuses en complément du sevrage"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments et la dopamine, laquelle (ou lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) La levo-DOPA ne passe pas la barrière hémato-encéphalique.",
+            "B) Les agonistes dopaminergiques D2 non ergotés agissent sur la voie dopaminergique mésocorticale.",
+            "C) Les agonistes dopaminergiques D2 favorisent la libération de prolactine via l’action sur la voie tubéro-infundibulaire.",
+            "D) Les inhibiteurs de la dopa-decarboxylase majorent les effets indésirables périphériques de la L-DOPA.",
+            "E) L’entacapone (ICOMT) augmente la demi-vie de la L-DOPA."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (ou lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Les agonistes dopaminergiques D2 utilisés chez le patient parkinsonien sont à l’origine d’hypotension orthostatique.",
+            "B) Les antagonistes dopaminergiques D2 utilisés chez les patients schizophrènes sont à l’origine d’hypotension orthostatique.",
+            "C) La L-DOPA utilisée chez le patient parkinsonien et les antagonistes dopaminergiques D2 utilisés chez INDISPENSABLE les patients schizophrènes sont à l’origine de mouvements anormaux.",
+            "D) Les antipsychotiques ne passent pas la barrière hémato-méningée",
+            "E) Les IMAO-B, à l’inverse des ICOMT, sont efficaces sur les symptômes parkinsoniens en monothérapie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants des antipsychotiques, lequel (ou lesquelles) est (sont) généralement associé(s) à l’effet antagoniste muscarinique ?",
+          "choix": [
+            "A) Allongement du QT",
+            "B) Xérostomie",
+            "C) Akathisie",
+            "D) Prise de poids",
+            "E) Agranulocytose"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "ED Pathologies médicamenteuses\nLe ou les médicament(s) suivant(s) peu(ven)t entrainer un syndrome parkinsonien :",
+          "choix": [
+            "A) Les agonistes dopaminergiques D2",
+            "B) Les neuroleptiques antipsychotiques",
+            "C) Les neuroleptiques antiémétiques",
+            "D) La réserpine",
+            "E) Les diurétiques thiazidiques"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anesthésiques locaux :",
+          "choix": [
+            "A) Ils bloquent les canaux chlore",
+            "B) Ils bloquent les canaux calciques",
+            "C) Ils bloquent les canaux sodiques",
+            "D) Ils exercent un effet pro-convulsivant",
+            "E) Leur mécanisme s’action est similaire à certains anti-arythmiques"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anesthésiques généraux :",
+          "choix": [
+            "A) Ils ont une marge thérapeutique étroite",
+            "B) Ils potentialisent l’effet du glutamate",
+            "C) Ils induisent une diminution de la fréquence respiratoire",
+            "D) Plus ils sont hydrophiles, plus leur effet anesthésiant est puissant",
+            "E) Les curares agissent sur les récepteurs nicotiniques de l’acétylcholine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les cannabinoïdes, laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Les récepteurs cannabinoïdes CB1 sont exclusivement retrouvés dans le système nerveux central",
+            "B) Le cannabis sativa est une variété de chanvre contenant des substances pharmacologiquement actives appelées phytocannabinoides",
+            "C) Le cannabidiol est indiqué dans les formes d’épilepsie réfractaires de l’enfant (Syndrome de Lennox-Gastault, Dravet)",
+            "D) Le delta 9 tetrahydrocannabinol est responsable des effets psychiques recherchés lors de l’usage récréatif de cannabis",
+            "E) Le cannabidiol agit principalement comme agoniste des récepteurs CB2"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments agissant sur le système endocannabinoïde, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le cannabidiol est à l’origine d’interactions médicamenteuses significatives (notamment via le CYP 3A4)",
+            "B) Le delta-9-tetrahydrocannabinol (THC) est utilisé pour ses propriétés anticonvulsivantes",
+            "C) Selon l’OMS, les substances extraites du Cannabis sativa (delta 9 tetrahydrocannabinol, cannabidiol) sont considérées comme présentant un intérêt thérapeutique",
+            "D) Le dronabinol présente des effets similaires à ceux du delta 9 tetrahydrocannabinol",
+            "E) Les médicaments antagonistes des récepteurs cannabinoides CB1 et/ou CB2 sont très largement utilisés dans la prise en charge de l’obésité associée au diabète de type 2."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

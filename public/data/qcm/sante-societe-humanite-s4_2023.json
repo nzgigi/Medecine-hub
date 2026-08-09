@@ -1,0 +1,622 @@
+{
+  "matiere": "Santé, société, humanité",
+  "slug": "sante-societe-humanite-s4",
+  "annee": 2023,
+  "title": "Santé, société, humanité - 2023",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Certains futurs médecins ont moins d'intérêt que d'autres pour les aspects relationnels de leur métier",
+            "B) Un médecin peut toujours améliorer la qualité de ses relations avec ses patients",
+            "C) Un médecin doit se contenter de faire confiance à ses intuitions",
+            "D) Les aspects psychologiques sont tout à fait secondaires dans la qualité du soin",
+            "E) Certaines maladresses relationnelles du médecin peuvent entrainer une rupture des soins"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle correspond à la capacité́ du médecin de comprendre son patient et de lui faire comprendre qu’il l’a compris ?",
+          "choix": [
+            "A) La psychologie",
+            "B) L'empathie",
+            "C) La théorie de l'esprit",
+            "D) La sympathie",
+            "E) La sensibilité"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle(lesquelles) peut(vent) faire partie des modalités d’un programme d’éducation thérapeutique ?",
+          "choix": [
+            "A) La sensibilisation",
+            "B) Le coaching",
+            "C) L'information",
+            "D) Le conditionnement",
+            "E) L'accompagnement psycho-social"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les facteurs suivants, lequel(lesquels) peut(vent) influencer les représentations que le patient a de sa maladie ?",
+          "choix": [
+            "A) Son histoire familiale",
+            "B) Sa personnalité",
+            "C) Son état dépressif",
+            "D) Ses croyances",
+            "E) Sa culture d'origine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le consentement du patient est un préalable à tout entretien médical",
+            "B) Quand le patient donne son consentement, le médecin est certain d'avoir obtenu son engagement dans la relation",
+            "C) Pour favoriser une bonne alliance thérapeutique, le médecin doit ignorer les particularités socio-culturelles de son patient",
+            "D) Quand un patient présente des résistances, le médecin est impuissant à les faire évoluer",
+            "E) L'empathie a un effet apaisant sur l'anxiété du patient"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur l’entretien motivationnel en médecine, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le but de l'entretien motivationnel est de convaincre le patient de changer",
+            "B) L'entretien motivationnel s'appuie sur un renforcement du sentiment d'efficacité personnelle du patient",
+            "C) La motivation au changement du patient peut être modifiée",
+            "D) Le médecin doit explorer avec le patient les comportements pouvant constituer une alternative aux comportements à problèmes",
+            "E) L'entretien motivationnel s'appuie sur la suggestion"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Un médecin qui a bon cœur s'y prend bien sur le plan relationnel avec tous ses malades",
+            "B) Un médecin peut s'y prendre très bien avec certains patients et moins bien avec d'autres",
+            "C) Le contexte social du patient n'influence jamais la qualité de la relation avec son médecin",
+            "D) Les croyances du médecin peuvent influencer sa relation avec certains patients",
+            "E) Il est bon que le médecin ait une certaine emprise sur ses malades les plus difficiles"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur le processus de « transaction » en psychologie de la santé, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La transaction, c’est tout ce qui change dans la vie d’une personne à cause de sa maladie",
+            "B) La transaction, ce sont les efforts que fait la personne pour s’ajuster aux stress liés à sa maladie",
+            "C) Dans le processus de transaction, une mesure objective de la situation de stress prédit mieux l’état de santé ultérieur que le stress perçu par le patient lui-même",
+            "D) Le « contrôle perçu » correspond au sentiment qu’a le patient d’être contrôlé par son médecin",
+            "E) Un patient qui a un bon soutien social perçu adoptera plus facilement les changements de style de vie nécessaires à ses soins"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur l’éducation thérapeutique, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L’éducation thérapeutique est un processus centré sur la maladie",
+            "B) L’éducation thérapeutique est un processus centré sur le malade",
+            "C) La qualité de vie est un élément important de l’éducation thérapeutique",
+            "D) L’information est une des activités d’éducation thérapeutique",
+            "E) Les activités d’éducation thérapeutique portent uniquement sur l’acceptation des contraintes par le patient"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur l’annonce d’une maladie grave, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Quand elle concerne un enfant, mieux vaut ne délivrer l'information qu'à ses parents",
+            "B) Quand un adulte souhaite que son entourage soit présent lors de l'annonce, c'est possible",
+            "C) Pour que le médecin ne soit pas perturbé par ses émotions, le mieux est qu'il utilise un protocole d'annonce standardisé",
+            "D) Une fois l'annonce faite, mieux vaut ne pas y revenir et passer à autre chose",
+            "E) L'annonce doit être faite dans un espace prévu pour cela"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur les résistances dans la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le médecin doit ignorer les résistances chez son patient",
+            "B) La résistance peut avoir des conséquences graves pour la qualité des soins",
+            "C) La résistance apparait souvent quand les représentations du patient et celles du médecin divergent",
+            "D) Pour prévenir les résistances chez ses patients, le médecin doit masquer le plus possible ses propres valeurs et ses ressentis",
+            "E) Face à une résistance de son patient, le médecin doit lui transmettre le sentiment qu'il ne le juge pas"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur l’annonce d’une maladie grave à un adulte, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L’essentiel c’est d’annoncer rapidement ce qu’il en est, quitte à improviser",
+            "B) L’entourage doit être systématiquement associé à l’annonce",
+            "C) Avant l’annonce, le médecin doit s’informer sur ce que sait déjà le patient",
+            "D) Pour son annonce, le médecin peut s’appuyer sur les explications qu’il donne sur les différents examens effectués",
+            "E) Une fois l’annonce faite, il n’est pas nécessaire que le médecin donne un nouveau rendez-vous à ce sujet à son patient : il faut le laisser tranquille"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur la démographie médicale en France, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Depuis le début des années 90, la proportion de femmes parmi les médecins est en augmentation",
+            "B) Dans les projections de la DREES, la part des médecins en activité exerçant exclusivement en secteur libéral est en diminution jusqu’en 2040",
+            "C) Chez les médecins, la pyramide des âges des femmes et celle des hommes sont strictement comparables",
+            "D) La densité des médecins en exercice en France en 2016 était inférieure à la densité médicale moyenne observée en Europe (UE-15)",
+            "E) Entre le début des années 80 et 2019, l’évolution du numerus clausus annuel en médecine est caractérisée par une diminution constante du nombre de places en deuxième année des études médicales"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur les enjeux des formes de coopération entre les professions de santé en France, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Améliorer l’accessibilité aux soins",
+            "B) Développer la flexibilité des organisations de travail",
+            "C) Développer l’attractivité des professions",
+            "D) Faire évoluer l’image sociale des professions",
+            "E) Réduire les coûts des prises en charge"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes caractérisant un système d’information hospitalier (SIH), indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Il a vocation à faciliter la gestion des informations médicales et administratives indispensables au bon fonctionnement d'un établissement",
+            "B) Il a pour seul objectif de disposer d’outils de pilotage de l’établissement",
+            "C) L’interopérabilité constitue une caractéristique majeure des SIH",
+            "D) Les SIH sont fréquemment confrontés à la complexité de l’informatisation des unités de soins",
+            "E) La sécurité des SIH constitue un enjeu majeur pour les établissements de santé"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur la santé numérique, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le développement massif des technologies d’analyse des données dans le champ de la santé contribue fortement au développement de la santé numérique",
+            "B) L’Espace Numérique de Santé (ENS) est une plateforme numérique qui propose aux citoyens des services dans le champ de la santé",
+            "C) La médecine « prédictive » s’appuie largement sur l’utilisation des données massives en santé",
+            "D) La santé connectée doit demeurer une médecine reposant sur les preuves d’un service médical rendu",
+            "E) Le téléphone portable peut constituer un outil puissant d’assistance à la santé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur la qualité d’un service tel que le soin, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elle représente l'aptitude des caractéristiques d'un service à satisfaire les exigences des patients",
+            "B) Elle représente l'aptitude des caractéristiques d'un service à satisfaire les exigences des usagers",
+            "C) Elle représente l'aptitude des caractéristiques d'un service à satisfaire les exigences des professionnels de l'organisation",
+            "D) Elle représente l'aptitude des caractéristiques d'un service à satisfaire les exigences des partenaires d'une organisation",
+            "E) Elle représente l'aptitude des caractéristiques d'un service à satisfaire les exigences de la direction d'une organisation"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur les grands principes d’un système de management de la qualité, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L'écoute client est le premier d'entre eux",
+            "B) L'amélioration continue est un de ces principes",
+            "C) La mesure est un de ces principes",
+            "D) La certification est un de ces principes",
+            "E) L'implication du personnel dans les démarches est un de ces principes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur les droits des usagers, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La représentation des usagers relève des droits individuels des patients",
+            "B) La représentation des usagers doit être assurée dans les établissements de santé",
+            "C) La représentation des usagers doit être assurée dans l'administration régionale du système de santé",
+            "D) La représentation des usagers doit être assurée dans l'administration nationale du système de santé",
+            "E) En établissement de santé, leur représentation ne se limite pas à la commission des usagers (CDU)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur les missions de la HAS, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La certification ISO des établissements de santé est coordonnée par la HAS",
+            "B) La définition de certains indicateurs nationaux qualité et sécurité des soins est assurée par la HAS",
+            "C) Elle définit les méthodes d'évaluation des pratiques professionnelles validantes pour le DPC",
+            "D) Des recommandations de bonne pratique sont élaborées par la HAS",
+            "E) La coordination des vigilances sanitaires est assurée par la HAS"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur l’éthique hippocratique, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) C'est une éthique professionnelle",
+            "B) Elle repose sur le triangle hippocratique patient, maladie, médecin",
+            "C) Elle instaure le secret professionnel",
+            "D) Elle ne mentionne pas comme valeur morale médicale la probité et le dévouement",
+            "E) Elle a inspiré notre code de déontologie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur l’éthique déontologique, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Kant en est l'auteur principal",
+            "B) La dignité est ontologiquement associée à l'Homme et fait de lui une fin en soi",
+            "C) L'Homme est libre d'accepter son instrumentalisation",
+            "D) Elle est plutôt en faveur de la gestation pour autrui",
+            "E) Elle repose sur le respect d'une loi morale universelle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes se rapportant à Ruwen Ogien, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Il s'agit d'un philosophe anglais",
+            "B) Il a développé l'éthique maximaliste",
+            "C) Il s'agit d'un philosophe du 19ème siècle",
+            "D) Il s'oppose à l'éthique déontologique non pluraliste",
+            "E) Il pense qu'il ne peut y avoir d'ingérence en dehors de torts causés à autrui"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La réflexion éthique n'est utile que pour les questions de bioéthique : génétique, médecine prédictive, procréation médicalement assistée",
+            "B) L'essor de l'éthique médicale est consécutif aux progrès techniques et scientifiques",
+            "C) La philosophie n'est pas utile à la réflexion éthique",
+            "D) En éthique téléologique le bienfondé de la finalité donne la moralité de l'action a postériori",
+            "E) Paul Ricœur propose la sagesse pratique comme rempart à une éthique déontologie inaccessible"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 24
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin à la PASS du CHU et êtes interpellé par une équipe de maraude pour la prise en charge d’une jeune femme souffrant de douleurs abdominales. Vous la recevez en consultation dans le service. Indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elle est originaire du Nigeria et ne parle pas français. Vous pouvez avoir accès à un interprète professionnel, de même que dans l'ensemble des services du CHU",
+            "B) Elle n'a pas d'assurance maladie et va donc devoir régler la consultation",
+            "C) Si un bilan sanguin est nécessaire celui-ci peut être réalisé par une IDE du service",
+            "D) Il n'y a pas d'assistante sociale à la PASS, elle devra donc rencontrer un assistante sociale travaillant en ville",
+            "E) Devant les douleurs et les perturbations du bilan hépatique, vous allez hospitaliser cette patiente à la PASS"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur la protection médicale, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La Protection Maladie Universelle (PUMA) garantit à toute personne résidant en France de manière irrégulière depuis plus de 3 mois, un droit à la prise en charge de ses frais de santé",
+            "B) La Complémentaire Santé Solidaire (CSS) est une complémentaire santé exclusivement gratuite",
+            "C) La CSS est accessible sous condition de ressources",
+            "D) L'Aide Médicale d'Etat est disponible pour les personnes étrangères en situation irrégulière résidant en France de manière ininterrompue depuis plus de trois mois",
+            "E) L'Aide Médicale d'Etat permet une prise en charge à 100%"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 26
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur les inégalités sociales de santé (ISS), indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elles correspondent aux différences systématiques dans le domaine de la santé observées entre les groupes sociaux",
+            "B) Elles ne concernent que les populations en situation de précarité",
+            "C) En France, l'espérance de vie d'un cadre est environ similaire à celle d'un ouvrier",
+            "D) Les inégalités sociales ont tendance à diminuer sur les trente dernières années",
+            "E) Les ISS résultent d'une inégalité de distribution d'une multitude de déterminants sociaux, économiques, culturels et environnementaux"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 27
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin généralise, vous recevez un patient de 58 ans, ayant un antécédent d’arthrodèse du rachis lombaire dans les suites d’un accident de la voie publique en 2008. Il présente une forte lombo-sciatalgie, sans signe d’alerte (red flag). Il vous explique avoir été exclus de son logement et vivre actuellement dans sa voiture. Indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Vous lui prescrivez des antalgiques adaptés à son niveau de douleur",
+            "B) Vous lui prescrivez des séances de kinésithérapie du rachis lombaire et insistez sur l'importance des auto-exercices à faire quotidiennement à domicile",
+            "C) Vous appelez le service de rhumatologie pour l'hospitaliser au plus vite",
+            "D) Vous remplissez un dossier de demande d'admission en LHSS (Lits Halte Soins de Santé)",
+            "E) Vous lui dites de contacter au plus vite son assistante sociale pour faire une demande d'hébergement plus adapté"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 28
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur le Sievert, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Il représente une grandeur dosimétrique utilisée en radioprotection",
+            "B) Il décrit la dose absorbée",
+            "C) Il décrit la dose efficace",
+            "D) Il constitue une mesure de la radioactivité",
+            "E) L'exposition annuelle en France se situe aux environs de 2mSv/an"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 29
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur la radioprotection, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L’UNSCEAR est un organisme des Nations Unies chargé également de la surveillance de la cohorte des survivants de Hiroshima et Nagasaki",
+            "B) L’ASN est chargée du contrôle des activités nucléaires en France y compris dans le domaine médical",
+            "C) L’AIEA contribue à l’utilisation pacifique dans le monde des découvertes de la radioactivité",
+            "D) L’échelle INES sert à décrire la gravité des accidents nucléaires",
+            "E) Il est important de noter qu’un score à 0 sur l’échelle ASN SFRO ne signifie pas l’absence d’évènement et que le score d’un évènement peut évoluer dans le temps"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 30
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

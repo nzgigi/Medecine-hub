@@ -1,0 +1,625 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s8",
+  "annee": 2025,
+  "title": "Urgences - 2025",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes médecin au déchocage, vous recevez un appel de la régulation du SAMU concernant un patient de 22 ans victime d’un accident de la voie publique. Selon les témoins sur place il aurait effectué une sortie de route alors qu’il roulait à 80km/h sur une route départementale, son véhicule s’est ensuite encastré contre un platane. Les airbags ont été déclenchés et le conducteur passager est malheureusement décédé avant l’arrivée des premiers secours. Après 30 min de désincarcération vous obtenez un premier bilan provisoire :\nIl bouge les 4 membres en retrait non adapté à la stimulation douloureuse, avec des grognements, et il garde les yeux fermés. Les pupilles sont intermédiaires symétriques et réactives.\nSes constantes vitales sont les suivantes : tension artérielle 121/72 mmHg ; FC 132 bpm ; SpO2 98% en air ambiant.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Indiquez son score de Glasgow (1 chiffre)",
+          "choix": [],
+          "reponses": [
+            "7"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant la prise en charge pré-hospitalière du patient, quels sont les 2 actes les plus urgents parmi la liste suivante ?",
+          "choix": [
+            "A) administration d’une antibioprophylaxie",
+            "B) intubation oro-trachéale",
+            "C) immobilisation du rachis cervical",
+            "D) administration d’une osmothérapie",
+            "E) transfusion pré-hospitalière"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la proposition exacte ?",
+          "choix": [
+            "A) si le patient était Glasgow 15 il ne serait pas considéré comme un traumatisé grave et pourrait être orienté vers un centre non expert",
+            "B) il faut attendre une imagerie du rachis cervical avant de procéder à une intubation orotrachéale chez ce patient",
+            "C) la mise en place d’un capnographe est obligatoire en cas de recours à la ventilation mécanique invasive",
+            "D) comme le patient est stable sur le plan respiratoire il est préférable de ne pas l’intuber pour surveiller son état neurologique de façon rapproché",
+            "E) les objectifs tensionnels (Pression artérielle moyenne) sont plus bas en cas de traumatisme crânien grave pour éviter la majoration du saignement intracérébral"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez à présent ce jeune patient au déchocage. Il a été intubé en pré-hospitalier après induction en séquence rapide par ETOMIDATE et SUCCINYLCHOLINE. Sa situation hémodynamique s’est dégradée depuis le premier bilan, en effet ses constantes sont maintenant : PA 85/48 mmHg ; FC 135 bpm ; SpO2 92% (sous ventilation mécanique, avec une fraction inspirée en oxygène à 80 %). L’hémoglobine capillaire est à 10g/dL. Il est sédaté par MIDAZOLAM et SUFENTANIL. Les pupilles sont en myosis, symétriques et réactives. Il a reçu 1000 ml de remplissage vasculaire par NaCl 0.9% durant le transport vers le déchocage et de la NORADRENALINE vient d’être débutée devant l’absence d’efficacité du remplissage vasculaire.\nQuels sont les 3 examens d’imagerie à réaliser en priorité dans ce contexte ?",
+          "choix": [
+            "A) FAST échographie",
+            "B) body-scanner d'emblée",
+            "C) radiographie du bassin de face",
+            "D) radiographie du thorax de face",
+            "E) radiographie du rachis cervical"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La radiographie du bassin est normale. La radiographie du thorax également, hormis un foyer de condensation alvéolaire en base droite. L’interne de garde est en train de réaliser la FAST échographie.\nA ce stade quelle est l’hypothèse principale pour expliquer l’instabilité hémodynamique du patient ?",
+          "choix": [
+            "A) un choc anaphylactique au curare injecté pour l’intubation oro-trachéale",
+            "B) un choc septique sur probable pneumopathie lobaire inférieure droite",
+            "C) un choc hémorragique",
+            "D) une tamponnade gazeuse",
+            "E) un traumatisme crânien grave avec engagement cérébral"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La FAST échographie retrouve un volumineux épanchement au niveau de l’hypochondre gauche. En parallèle la tension artérielle de votre patient continue de chuter à 68/44 mmHg. Vous n’avez pas encore les résultats du bilan biologique envoyé en urgence. L’hémoglobine capillaire est passée à 7g/dL.\nQuelle est votre prise en charge ?",
+          "choix": [
+            "A) réalisation d’un body-scanner",
+            "B) appel du chirurgien digestif pour réalisation d’une laparotomie en urgence",
+            "C) débuter une transfusion en urgence sans attendre les résultats des groupages sanguins.",
+            "D) administration d’acide tranexamique 1g",
+            "E) administration de dobutamine IV"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300853188-10d016fa47fff8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez aux urgences une femme de 73 ans, pour dyspnée de repos. Elle est amenée par les ambulances car elle est gênée pour respirer depuis 2 heures. A l’accueil, elle est somnolente et présente un balancement thoraco-abdominal. Ses paramètres sont les suivants : TA = 170/90 mmHg ; fréquence cardiaque = 105/minute; SpO2 = 92% sous 6L ; fréquence respiratoire = 28 cycles/minute ; T° = 37,8°C.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Définissez le cadre nosologique présenté par Mme C (3 mots)",
+          "choix": [],
+          "reponses": [
+            "détresse respiratoire aiguë",
+            "insuffisance respiratoire aiguë",
+            "detresse respiratoire aigue",
+            "détresse respiratoire aigue",
+            "insuffisance respiratoire aigue",
+            "Détresse respiratoire aigue",
+            "détresse respiratoire aigüe",
+            "Detresse respiratoire aigue",
+            "Détresse respiratoire aigüe",
+            "insuffisance respiratoire aigüe",
+            "detresse respiratoire aiguë",
+            "détresse respiratoire aigu",
+            "détresse respiratoire aïgue",
+            "detresse repiratoire aigue",
+            "insuffisance respiratoire aïgue",
+            "Insuffisance respiratoire aigue",
+            "detresse respitatoire aigue",
+            "syndrome de detresse respiratoire aigue",
+            "detresse resoiratoire aigue",
+            "detresse respiratoire aigu",
+            "Insuffisance respiratoire aigüe",
+            "détresses respiratoire aigu",
+            "inssufisance respiratoire aiguë",
+            "Detresse respiratoire aigu",
+            "détresse repiratoire aigue",
+            "insuffisance respiratoire aigu",
+            "détrésse respiratoire aigue",
+            "detresse resporatoire aiguë",
+            "insuffisance respiratoire aigue",
+            "insufisance respiratoire aigue",
+            "inssufisance respiratoire aigue",
+            "détresse respiratiore aigue",
+            "detresse repiratoire aigüe",
+            "déresse respiratoire aigu"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente est admise à la SAUV. En appelant son mari, vous apprenez qu’elle est porteuse d’une bronchite chronique non traitée, d’une hypertension artérielle sous anticalciques et a bénéﬁcié d’une hystérectomie il y a 7 ans. Elle aurait une augmentation des crachats purulents depuis quelques jours, associée à une grande asthénie qui la limite dans sa consommation tabagique habituelle de 1 paquet par jour. L’auscultation retrouve des sibilants expiratoires bilatéraux très important. Elle n’a pas de douleur, pas d’œdème des membres inférieurs, pas de turgescence jugulaire spontanée mais d’importantes sueurs et reste somnolente. Son ECG est normal.\nQuels sont les deux diagnostics les plus probables (et potentiellement associés) ?",
+          "choix": [
+            "A) oedème aigu du poumon",
+            "B) asthme aigu grave",
+            "C) pneumopathie bactérienne",
+            "D) embolie pulmonaire",
+            "E) exacerbation de BPCO"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les deux examens complémentaires que vous demandez immédiatement ?",
+          "choix": [
+            "A) Gazométrie artérielle",
+            "B) Numération Formule Sanguine",
+            "C) Scanner thoracique injecté",
+            "D) Echocardiographie par le cardiologue",
+            "E) Troponinémie"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La gazométrie artérielle est la suivante, sous 4L/min d’oxygène : pH = 7,25 ; pO2 = 63 mmHg ; pCO2 = 55 mmHg ; HCO3- = 26 mmol/L.\nLes résultats gazométriques représentent une :",
+          "choix": [
+            "A) acidose respiratoire non compensée",
+            "B) acidose respiratoire compensée",
+            "C) alcalose respiratoire non compensée",
+            "D) alcalose métabolique compensée",
+            "E) acidose métabolique compensée"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant cette acidose respiratoire chez une patiente porteuse d’une bronchite chronique, quel support respiratoire proposez-vous ? (3 mots)",
+          "choix": [],
+          "reponses": [
+            "ventilation non invasive",
+            "ventillation non invasive",
+            "ventilation non invasive (VNI)",
+            "ventilation non invasive VNI",
+            "ventilation non invasif",
+            "ventilation non inavasive",
+            "ventilation non inasive",
+            "Ventilation non invasif",
+            "Ventilation non inasive",
+            "Ventilation Non Invasive VNI",
+            "Ventilation non-invasive",
+            "ventilation non-invasive",
+            "Ventillation non invasive"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels traitements proposez-vous aux urgences (2 réponses vraies) ?",
+          "choix": [
+            "A) Diurétiques de l’anse intraveineux",
+            "B) β2-mimétiques en aérosols",
+            "C) Dérivés nitrés intraveineux",
+            "D) Antibiothérapie intraveineuse",
+            "E) Corticothérapie intraveineuse"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300858853-4c11aa0cf64e48",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous prenez en charge aux urgences une patiente de 52 ans qui présente une douleur lombaire droite d’installation brutale il y a plusieurs heures. Elle est adressée par le SAMU devant la douleur et l’installation de frissons depuis 1 heure. Elle est pale, en sueurs, présente des marbrures des genoux et est somnolente. Ses paramètres sont les suivants : TA = 95/55 ; FC = 100 ; FR = 25 ; SpO2 = 90%AA ; T° = 39,5°C. Elle n’a reçu aucune thérapeutique pour le moment.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment définiriez-vous l’état de la patiente (un mot)?",
+          "choix": [],
+          "reponses": [
+            "sepsis",
+            "sepsi"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez une infection d’origine urinaire avec un qSOFA = 3. Quels sont les 4 éléments à proposer immédiatement ?",
+          "choix": [
+            "A) transfert immédiat en réanimation",
+            "B) réalisation d'un scanner cérébral",
+            "C) prélèvement d’hémocultures",
+            "D) prélèvement des lactates sanguins",
+            "E) prélèvement d’une PCR COVID",
+            "F) réalisation d’une radiographie thoracique",
+            "G) remplissage vasculaire par cristalloïdes",
+            "H) remplissage vasculaire par G5%",
+            "I) administration de Noradrénaline",
+            "J) administration de Dobutamine",
+            "K) administration d’Adrénaline",
+            "L) administration d’antibiotiques"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "G",
+            "L"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous apprenez en consultant son dossier médical qu’elle a fait de multiples épisodes de coliques néphrétiques lithiasiques et demandez un scanner des voies urinaires qui retrouve une lithiase de l’uretère lombaire droit avec dilatation des cavités-pyélocalicielles en amont. Le remplissage, bien que bien conduit sur la première heure, n’a pas permis de restaurer une tension artérielle. La patiente est toujours qSOFA =3.\nQuels sont les deux éléments indispensables à sa prise en charge ?",
+          "choix": [
+            "A) arrêt des antibiotiques",
+            "B) réalisation d’une échographie des voies urinaires",
+            "C) mise en place d’une sonde urinaire vésicale",
+            "D) dérivation des voies urinaires droites",
+            "E) administration de Noradrénaline",
+            "F) administration de Dobutamine",
+            "G) administration d’Adrénaline"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300860270-bdfdc9f691afb",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous prenez en charge à son domicile Mr X. 19 ans qui a chuté sur la tête dans les escaliers il y a quelques heures. Il s’est initialement relevé sans problème et a repris ses activités habituelles avec seulement quelques céphalées. Sa mère contacte finalement le SAMU 4h plus tard car elle le retrouve endormi sur le canapé et « n’arrive pas à le réveiller ».\nEn eﬀet à l’arrivée vous retrouvez un jeune homme inconscient, les yeux fermés et sans réponse verbale à la stimulation nociceptive. Vous obtenez une réponse en extension stéréotypée au bras gauche à la stimulation douloureuse. L’examen des pupilles montre une asymétrie pupillaire avec une mydriase aréactive à gauche et une pupille intermédiaire à droite.\nQuelles sont les 3 propositions exactes concernant votre prise en charge ?",
+          "choix": [
+            "A) le score de Glasgow du patient justifie une intubation orotrachéale",
+            "B) vous administrez de l’acide tranexamique 1g IV",
+            "C) il faut réaliser une osmothérapie avec un soluté hypertonique",
+            "D) la notion d’intervalle libre est compatible avec un hématome extra-dural",
+            "E) vous administrez 1mg de Rivotril IV"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 2 signes cliniques d’insuffisance cardiaque droite ?",
+          "choix": [
+            "A) crépitants des bases pulmonaires",
+            "B) turgescence jugulaire",
+            "C) douleur d’un mollet",
+            "D) oedème des membres inférieurs",
+            "E) souffle holo-systolique cardiaque"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome occlusif, parmi les affirmations suivantes, lesquelles sont vraies ?",
+          "choix": [
+            "A) plus l’occlusion est basse, plus le retentissement hydro-électrolytique est rapide.",
+            "B) au scanner, une dilatation colique de plus de 6 cm est un signe de gravité.",
+            "C) la sonde naso-gastrique ne doit être mise en place qu’une fois le diagnostic confirmé au scanner.",
+            "D) l’existence d’une défense à la palpation abdominale peut être le signe d’une souffrance d’une anse intestinale.",
+            "E) en cas d’hernie inguinale étranglée, le scanner n’est pas indispensable avant la prise en charge chirurgicale."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les hémorragies digestives, parmi les affirmations suivantes, lesquelles sont vraies ?",
+          "choix": [
+            "A) l’association de méléna et de rectorragies est évocatrice d’hémorragie digestive basse.",
+            "B) le syndrome de Mallory Weiss est une déchirure de la muqueuse au niveau du cardia consécutive à des vomissements itératifs.",
+            "C) 80% des hémorragies digestives basses cèdent spontanément.",
+            "D) la classification de Forest permet d’apprécier le risque hémorragique des diverticules lors de la coloscopie.",
+            "E) il faut adopter une stratégie de transfusion restrictive et ne transfuser qu’en cas d’hémoglobinémie ≤ 7 g/dl."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les principaux mécanismes physiopathologiques d’une perte de connaissance brève chez l’adulte ?",
+          "choix": [
+            "A) hypoglycémie",
+            "B) hypoperfusion cérébrale",
+            "C) sepsis",
+            "D) dysfonctionnement de l'activité cérébrale",
+            "E) intoxication médicamenteuse"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 82 ans est admis aux urgences pour une chute suite à une syncope avec prodromes en allant aux toilettes. Quels sont les examens que vous réalisez chez ce patient ?",
+          "choix": [
+            "A) test d’hypotension orthostatique",
+            "B) électrocardiogramme",
+            "C) ionogramme sanguin",
+            "D) dosage de troponine",
+            "E) test d’inclinaison"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient de 45 ans est admis aux urgences pour une douleur thoracique d’allure angineuse évaluant depuis 3h. L’électrocardiogramme est le suivant.\nDans quel territoire identifiez-vous les troubles de la repolarisation principaux ? (1 mot)",
+          "choix": [],
+          "reponses": [
+            "inférieur",
+            "territoire inférieur",
+            "Inferieur",
+            "inferieure",
+            "territoire inferieur",
+            "inferieur (D2-D3-AVF)",
+            "territoire inferieure d2 d3",
+            "susST inferieur",
+            "inferrieur",
+            "inferieur",
+            "syndrome coronarien aigu inférieur"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/urgences-s8/2025/q22.png?v=1786300864311"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous accueillez en service d’urgences M. J. âgé de 62 ans, amené par ambulance suite à une confusion s’installant depuis 24 heures. Le patient n’a pas de suivi médical mais rapporte une consommation éthylique chronique. A l’examen clinique, vous identifiez un ictère cutané et une distension abdominale avec matité déclive évocatrice d’une ascite de grande abondance. A partir de l’iconographie présentée ci-dessus, quel est l’autre signe clinique en faveur d’une hypertension portale ? (4 mots)",
+          "choix": [],
+          "reponses": [
+            "circulation veineuse collatérale abdominale",
+            "circulation veineuse collatérale",
+            "circulation veineuse collaterale abdominale",
+            "circulation veineuse collaterale",
+            "circulation veineuse abdominale collatérale",
+            "circulation veineuse collatérale superficielle",
+            "circulation collatérale veineuse abdominale",
+            "circulation veineuse abdominale collaterale",
+            "circulation veineuse colatérale abdominale",
+            "Circulation veineuse collatérale",
+            "une circulation veineuse collatérale",
+            "circulation veineuse portale collatérale",
+            "circulation veineuse collatérale périphérique",
+            "circulation veineuse collaterale superficielle",
+            "Circulation veineuse abdominale collatérale",
+            "circulation collatérale veineuse",
+            "circulation veineuse collateral",
+            "circulation veineuse collatérale diffuse",
+            "une circulation veineuse collaterale",
+            "circulation collatérale superficielle abdominale",
+            "circulation collatérale abdominale veineuse",
+            "circulation veineuse peripherique collaterale",
+            "circulation collaterale veineuse abdominale",
+            "circulation veineuse superficielle collatérale",
+            "circulation abdominale veineuse collatérale",
+            "Circulation collatérale superficielle abdominale",
+            "circulation veineuse colaterale abdominale",
+            "ciruclation veineuse superficielle collatérale",
+            "circulation veineuse collatéral",
+            "circulation collaterale veineuse",
+            "dilatation circulation veineuse collaterale",
+            "circulation veineuse collateral superficiel",
+            "circulation veineuse superficielle collateral",
+            "circulation abdominale superficielle collatérale",
+            "La circulation veineuse collatérale",
+            "Circulation collateral veineuse superficiel",
+            "Circulation veineuse collaterale abdominale",
+            "circulztion veineuse collatérale abdominale",
+            "la circulation veineuse collatérale",
+            "circulation veineuse colaterale",
+            "circulation abdominale veineuse colaterale",
+            "circulation collateral veineuse superficielle",
+            "circulation sanguine collatérale abdominale",
+            "signes de circulation veineuse collaterale",
+            "la circulation veineuse collaterale",
+            "ciculation veineuse collaterale abdominale",
+            "Circulation veineuse colaterale abdominale",
+            "circulation veineuse colatérale superficielle",
+            "circulation veineuse collatérale abodminale",
+            "circularion veineuse collatérale abdominale",
+            "circulation veineuse colatérale",
+            "circulation veineuse collateral superficielle",
+            "circulation abdominale veineuse collaterale",
+            "circulation veineuse collaterale peripherique",
+            "circulation veineuse collatéralle abdominale",
+            "Circulation veineuse collaterale",
+            "circulation veineuse abdominal collatéral",
+            "Présence circulation veineuse collaterale",
+            "circulation veineuse collatérale abdominal",
+            "circulation collaterale superficielle abdominale",
+            "cirulation veineuse collatérale abdominale",
+            "circulation veineuse collaterale abdominal",
+            "circulation veineuse collaterale",
+            "circulation collatératale veineuse",
+            "Circulation veineuse colaterale superficielle"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/urgences-s8/2025/q23.png?v=1786300865624"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, laquelle ne donne classiquement pas d’ictère :",
+          "choix": [
+            "A) l'hépatite alcoolique aiguë",
+            "B) la maladie de Gilbert",
+            "C) l'angiocholite",
+            "D) l'hémolyse",
+            "E) la cholécystite"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les thérapeutiques suivantes, laquelle n’est pas indiquée dans le traitement initial d’une exacerbation sévère d’asthme aux urgences ?",
+          "choix": [
+            "A) oxygénothérapie avec objectif SpO2 93 à 96 %",
+            "B) corticostéroïdes en nébulisation",
+            "C) β2 mimétiques en nébulisation",
+            "D) anticholinergiques en nébulisation",
+            "E) corticoïdes par voie systémique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,423 @@
+{
+  "matiere": "Rein et voies urinaires – Anatomie et radiologie",
+  "slug": "rvu-anatomie-radiologie-s6",
+  "annee": 2023,
+  "title": "Rein et voies urinaires – Anatomie et radiologie - 2023",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies :",
+          "choix": [
+            "A) La flèche A désigne le cortex rénal",
+            "B) La flèche B désigne la médullaire rénale",
+            "C) La flèche C désigne le sinus rénal",
+            "D) La médullaire rénale est plus hypoéchogène que le cortex rénal. Il existe à l'état normal une différenciation cortico-médullaire.",
+            "E) À l'état normal, en échographie, les cavités pyélocalicielles intra-rénales ne sont pas visibles."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/rvu-anatomie-radiologie-s6/2023/q1.png?v=1786299894624"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies :",
+          "choix": [
+            "A) La radiographie est prise debout",
+            "B) On visualise un niveau hydro-aérique dans la poche à air gastrique",
+            "C) La patiente porte un dispositif intra utérin",
+            "D) On visualise une dilatation des cavités pyélocalicielles du rein gauche",
+            "E) On visualise une lithiase en projection de l’uretère lombaire gauche"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/rvu-anatomie-radiologie-s6/2023/q2.png?v=1786299895186"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies :",
+          "choix": [
+            "A) L’examen présenté est une cystographie rétrograde",
+            "B) Cet examen montre un reflux vésico-urétéral bilatéral",
+            "C) La flèche A désigne le bassinet gauche",
+            "D) La flèche B désigne le groupe caliciel inférieur droit",
+            "E) La flèche C désigne l’uretère pelvien gauche"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/rvu-anatomie-radiologie-s6/2023/q3.png?v=1786299895663"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez les structures désignées par les flèches A, B, C, D et E (menu déroulant)\nÉlément à associer Réponse attendue\nA Veine rénale gauche\nB Veine cave inférieure\nC Artère mésentérique supérieure\nD Pancréas\nE Foie",
+          "choix": [
+            "Veine rénale gauche",
+            "Veine cave inférieure",
+            "Artère mésentérique supérieure",
+            "Pancréas",
+            "Foie"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 4,
+          "items": [
+            {
+              "id": "item-1786299896235-d2e07058a6182",
+              "label": "A",
+              "correctAnswer": "Veine rénale gauche"
+            },
+            {
+              "id": "item-1786299896295-bd2143f1e7ef38",
+              "label": "B",
+              "correctAnswer": "Veine cave inférieure"
+            },
+            {
+              "id": "item-1786299896368-3febe777747178",
+              "label": "C",
+              "correctAnswer": "Artère mésentérique supérieure"
+            },
+            {
+              "id": "item-1786299896429-89fe404795d45",
+              "label": "D",
+              "correctAnswer": "Pancréas"
+            },
+            {
+              "id": "item-1786299896502-8a5c9c2ab24cf8",
+              "label": "E",
+              "correctAnswer": "Foie"
+            }
+          ],
+          "images": [
+            "/images/qcm/rvu-anatomie-radiologie-s6/2023/q4.png?v=1786299896105"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Précisez pour chaque image à quel temps a été réalisé l’acquisition du scanner (menu déroulant)\nÉlément à associer Réponse attendue\nA Acquisition au temps excrétoire ou tardif après injection de produit de contraste B Acquisition au temps portal après injection de produit de contraste\nC Acquisition au temps artériel après injection de produit de contraste\nD Acquisition sans injection de produit de contraste",
+          "choix": [
+            "Acquisition au temps excrétoire ou tardif après injection de produit de contraste",
+            "Acquisition au temps portal après injection de produit de contraste",
+            "Acquisition au temps artériel après injection de produit de contraste",
+            "Acquisition sans injection de produit de contraste",
+            "E) "
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "items": [
+            {
+              "id": "item-1786299896866-e81587148bc898",
+              "label": "A",
+              "correctAnswer": "Acquisition au temps excrétoire ou tardif après injection de produit de contraste"
+            },
+            {
+              "id": "item-1786299896945-78b188213d42f8",
+              "label": "B",
+              "correctAnswer": "Acquisition au temps portal après injection de produit de contraste"
+            },
+            {
+              "id": "item-1786299897023-f655b576513918",
+              "label": "C",
+              "correctAnswer": "Acquisition au temps artériel après injection de produit de contraste"
+            },
+            {
+              "id": "item-1786299897103-6e85c7c5e9d9e8",
+              "label": "D",
+              "correctAnswer": "Acquisition sans injection de produit de contraste"
+            }
+          ],
+          "images": [
+            "/images/qcm/rvu-anatomie-radiologie-s6/2023/q5.png?v=1786299896735"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299897175-390b68026eb6f",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des voies urinaires et de l'appareil génital masculin",
+          "choix": [
+            "A) Les cellules les plus superficielles de l’urothélium, les cellules dites en ombrelle, ont une surface apicale qui peut augmenter de taille participant à l’adaptation de la paroi vésicale au remplissage.",
+            "B) Les corps caverneux sont composés de lacs sanguins séparés par du tissu conjonctif contenant des cellules musculaires lisses.",
+            "C) Les tubes séminifères possèdent un épithélium dit stratifié.",
+            "D) Les cellules de Sertoli sont les cellules nourricières qui participent à la maturation et à la libération des gamètes. V",
+            "E) Les cellules de Leydig forment des ilots dans le tissu conjonctif du testicule autour des tubes séminifères. V"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299897436-2d82c8f725e33",
+      "type": "SQI",
+      "title": "DL 3",
+      "description": "Module uro-néphro DFGSM 3",
+      "order": 3,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'ANATOMIE DES REINS",
+          "choix": [
+            "A) Le grand axe du rein est oblique en bas, en avant et en dehors.",
+            "B) Le bord interne portant le hile rénal est concave.",
+            "C) Le rein présente 2 faces concaves, une ventrale et une dorsale.",
+            "D) La médulla rénale est formée par les pyramides rénales.",
+            "E) La partie contournée du cortex rénal correspond à la partie la plus externe."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'ANATOMIE DES REINS",
+          "choix": [
+            "A) Le sinus rénal est une cavité qui contient la voie excrétrice.",
+            "B) Le fascia rénal est un feuillet dépendant du fascia superficialis.",
+            "C) Le feuillet dorsal du fascia rénal est séparé de la paroi par la graisse para-rénale.",
+            "D) Le rein est séparé de la glande surrénale par la lame intersurrénalo-rénale.",
+            "E) Le rein droit est presque entièrement sus-mésocolique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'URETERE",
+          "choix": [
+            "A) La jonction pyélo-urétérale se projette en regard du processus transverse de L4.",
+            "B) L’uretère iliaque droit croise l’artère iliaque commune.",
+            "C) Les vaisseaux génitaux croisent l’uretère en regard de L3.",
+            "D) L’uretère lombaire est en rapport postérieur avec le nerf génito-fémoral.",
+            "E) L’uretère pelvien chemine en dehors de l’artère ombilicale."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LA VESSIE",
+          "choix": [
+            "A) La vessie vide a une forme ovoïde.",
+            "B) La vessie est située entre les uretères et l’urètre.",
+            "C) L’urètre est un organe musculo-membraneux, canal excréteur de la vessie.",
+            "D) La vessie pleine a une forme de pyramide aplatie.",
+            "E) La vessie est un réservoir musculo-membraneux où s’accumule l’urine entre deux mictions."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LA VESSIE",
+          "choix": [
+            "A) Le trigone vésical se situe entre les 2 méats urétéraux et l’orifice urétral.",
+            "B) Le détrusor est le muscle de la paroi vésicale.",
+            "C) L’appareil sphinctérien urétral chez la femme est double, le sphincter strié entoure la partie initiale de l’urètre.",
+            "D) L’urètre féminin fait suite au col vésical, il a un trajet oblique en bas et en avant.",
+            "E) L’urètre chez la femme a pour rapports anatomiques la symphyse pubienne en avant et le vagin en arrière."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LES TESTICULES",
+          "choix": [
+            "A) Les testicules ont une double fonction : exocrine et endocrine.",
+            "B) La fonction exocrine des testicules permet la sécrétion des hormones sexuelles.",
+            "C) Les voies spermatiques permettent la conduction des spermatozoïdes du testicule à l’uretère.",
+            "D) Les testicules, situées dans les bourses, sont les glandes génitales mâles.",
+            "E) Le canal péritonéo-vaginal est un diverticule péritonéal qui est formé embryologiquement par la descente de la gonade mâle lors du passage inguinal."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LES TESTICULES",
+          "choix": [
+            "A) Les tubes séminifères contournés appartiennent aux voies spermatiques intra-testiculaires.",
+            "B) Les tubes séminifères droits appartiennent aux voies spermatiques extra-testiculaires.",
+            "C) Les voies spermatiques extra-testiculaires comportent successivement l’épididyme, le canal éjaculateur, le conduit déférent et la vésicule séminale.",
+            "D) La vésicule séminale n’appartient pas aux voies spermatiques extra-testiculaires.",
+            "E) L’épididyme est constitué d’une tête, d’un corps, et en extrémité postérieure d’une queue aplatie."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LE CONDUIT DEFERENT",
+          "choix": [
+            "A) Le conduit déférent débute de la queue de l’épididyme jusqu’à la base de la prostate.",
+            "B) Le conduit déférent a une paroi très épaisse de palpation facile.",
+            "C) La vésicule séminale est un réservoir pour les spermatozoïdes et les sucs prostatiques (sperme) entre les éjaculations.",
+            "D) Le canal éjaculateur débouche dans l’urètre.",
+            "E) Les bourses sont séparées en deux par un raphé médian."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LES TESTICULES",
+          "choix": [
+            "A) Le conduit déférent contient le cordon spermatique, les vaisseaux testiculaires et épididymaires.",
+            "B) Les vésicules séminales sont situées au-dessous de la prostate, en arrière de la vessie et en avant du rectum.",
+            "C) Le testicule est très sensible à l’ischémie.",
+            "D) Les vésicules séminales peuvent être explorées par le toucher rectal.",
+            "E) L’artère testiculaire se situe en regard de L2 sur la face ventrale de l’aorte abdominale."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'URETRE",
+          "choix": [
+            "A) L’urètre masculin est formé de deux parties : l'urètre antérieur et l'urètre postérieur.",
+            "B) L’urètre postérieur comprend l’urètre prostatique et l’urètre membraneux.",
+            "C) L’urètre membraneux traverse le plancher pelvien",
+            "D) L’urètre antérieur est constitué par l’urètre spongieux.",
+            "E) Les glandes bulbo-urétrales permettent la lubrification de l’urètre spongieux."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

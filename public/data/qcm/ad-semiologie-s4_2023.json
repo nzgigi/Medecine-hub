@@ -1,0 +1,417 @@
+{
+  "matiere": "Appareil digestif – Sémiologie",
+  "slug": "ad-semiologie-s4",
+  "annee": 2023,
+  "title": "Appareil digestif – Sémiologie - 2023",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’ascite de grande abondance",
+          "choix": [
+            "A) est souvent associée à une prise de poids",
+            "B) est toujours associée à une cirrhose",
+            "C) le déplacement déclive de la matité à la percussion témoigne d’une ascite libre",
+            "D) peut se compliquer d’une hernie ombilicale",
+            "E) se reconnait cliniquement par un tympanisme des flancs"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la ponction d’ascite :",
+          "choix": [
+            "A) Elle est réalisée en fosse iliaque droite, entre l’ombilic et la crête iliaque",
+            "B) La présence de polynucléaires dans l’ascite à plus de 250/mm3 suffit à conclure à une infection du liquide d’ascite",
+            "C) Un liquide riche en protides supérieur à 25g/L est classiquement observé chez les patients cirrhotiques",
+            "D) Un liquide chyleux est d’aspect laiteux ou blanchâtre riche en triglycérides",
+            "E) La ponction d’ascite est un examen nécessitant une anesthésie générale"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la cirrhose :",
+          "choix": [
+            "A) la circulation veineuse collatérale est un signe d’hypertension portale",
+            "B) le flapping tremor ou asterixis est un signe d’insuffisance hépatocellulaire",
+            "C) les angiomes stellaires sont typiquement observés sur la paume des mains",
+            "D) une consommation d’alcool excessive chronique est indispensable au développement d’une cirrhose",
+            "E) l’hépatomégalie est classiquement à bord inférieur mousse"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Hépatomégalie:",
+          "choix": [
+            "A) On repère la limite inférieure d’une hépatomégalie grâce à la percussion",
+            "B) L’insuffisance cardiaque est une cause d’hépatomégalie douloureuse",
+            "C) l’hépatomégalie dans la cirrhose est de consistance « marronnée » avec des nodules à la palpation",
+            "D) l’hépatomégalie douloureuse avec fièvre est compatible avec un abcès hépatique",
+            "E) la cirrhose ne s’accompagne pas constamment d’une hépatomégalie"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le reflux gastro-oesophagien (RGO) :",
+          "choix": [
+            "A) Le diagnostic positif nécessite toujours la réalisation d’examens complémentaires",
+            "B) Peut être associé à une toux",
+            "C) Le RGO est typiquement caractérisé par une brulure rétrosternale",
+            "D) La position debout est un facteur favorisant le RGO",
+            "E) Une hernie hiatale est une condition indispensable à l’apparition d’un reflux gastro-oesophagien"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Face à une dysphagie :",
+          "choix": [
+            "A) Une endoscopie oesogastroduodénale est systématiquement réalisée",
+            "B) La manométrie oesophagienne est l’examen à réaliser en première intention",
+            "C) Une dysphagie aux solides est en faveur d’une étiologie fonctionnelle",
+            "D) L’odynophagie se définit par un blocage complet du bol alimentaire",
+            "E) Une dysphagie progressive est compatible avec un cancer de l’oesophage"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans une pancréatite aiguë:",
+          "choix": [
+            "A) la douleur siège le plus souvent au niveau de l’hypochondre droit",
+            "B) la douleur a une irradiation postérieure transfixiante",
+            "C) elle peut être déclenchée par la prise d’alcool",
+            "D) elle s’accompagne rarement de vomissements",
+            "E) elle s’associe le plus souvent à une fièvre à 39°C"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La constipation :",
+          "choix": [
+            "A) peut alterner avec une fausse diarrhée",
+            "B) peut se compliquer d’un état sub-occlusif",
+            "C) est favorisée par le décubitus prolongé",
+            "D) Peut-être induite par certains médicaments",
+            "E) est rarement accompagné d’un fécalome"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un ictère cholestatique sévère peut s’accompagner :",
+          "choix": [
+            "A) de prurit",
+            "B) de selles décolorées",
+            "C) d’urines claires en cas d’obstacle sur la voie biliaire",
+            "D) d’une grosse vésicule en cas de cancer du pancréas",
+            "E) de fièvre en cas d’angiocholite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une rectorragie :",
+          "choix": [
+            "A) la présence d’une tachycardie avec hypotension artérielle est un signe de gravité",
+            "B) elle est rarement d’origine recto-sigmoïdienne",
+            "C) elle peut révéler un cancer du colon",
+            "D) le toucher rectal est inutile",
+            "E) un examen gynécologique est indispensable chez la femme"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les douleurs abdominales, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Elles sont toujours en rapport avec une pathologie organique localisée au niveau abdominal ou thoracique",
+            "B) Elles sont toujours rythmées par les repas en cas de pathologie gastrique",
+            "C) En cas de diminution de l’intensité douloureuse après les repas, une origine colo-rectale doit être évoquée en premier lieu",
+            "D) Un ulcère gastro-duodénal perforé s’accompagne rarement de douleurs abdominales",
+            "E) Des douleurs épigastriques à type de crampe ou de torsion, peuvent être causées par un ulcère gastro-duodénal"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les douleurs abdominales, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Le signe de Murphy s’observe en cas d’appendicite aigue",
+            "B) Le signe de Mac Burney correspond à une inhibition de l’inspiration profonde lors de la palpation de de la région sous costale droite",
+            "C) La triade sémiologique clinique de la diverticulite du colon sigmoïde comprend : Douleur en fosse iliaque gauche, Fièvre, Défense à la palpation",
+            "D) La triade sémiologique clinique de la cholécystite aigue comprend : Douleur de l’hypochondre droit, Fièvre, Défense à la palpation",
+            "E) En cas de péritonite généralisée, il existe habituellement une contracture à la palpation"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les hernies et éventrations de la paroi abdominale antérieure, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Une volumineuse hernie inguinale peut se développer vers les bourses chez l’homme (hernie inguino-scrotale)",
+            "B) Les hernies crurales sont plus fréquentes chez la femme que chez l’homme",
+            "C) Les hernies épigastriques siègent habituellement au niveau de la ligne blanche sus-ombilicale",
+            "D) Une hernie ombilicale peut contenir de l’ascite chez le patient cirrhotique",
+            "E) En cas d’étranglement herniaire il existe un risque de nécrose intestinale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome péritonéal, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) En cas de péritonite appendiculaire il existe souvent une fièvre au-delà de 39°c",
+            "B) En cas de péritonite appendiculaire le toucher rectal est habituellement douloureux",
+            "C) Une cholécystite aigue peut se compliquer de péritonite stercorale",
+            "D) Une diverticulite du colon sigmoïde peut se compliquer de péritonite",
+            "E) Une infection des trompes (salpingite) peut se compliquer de péritonite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome occlusif, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’existence de cicatrices abdominales peut orienter vers le diagnostic d’occlusion sur bride",
+            "B) Des niveaux hydro-aériques sont mis en évidence lors des examens radiologiques",
+            "C) Les examens d’imagerie peuvent permettre de déterminer le niveau de l’obstacle et le mécanisme de l’occlusion",
+            "D) Les occlusions de l’intestin grêle sont le plus souvent en rapport avec un mécanisme par obstruction",
+            "E) Une occlusion colique peut-être causée par une sténose compliquant une diverticulite du colon sigmoïde"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen de l’abdomen, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) La palpation du foie ou de la rate peut être sensibilisée par l’inspiration profonde",
+            "B) Un contact lombaire peut s’apprécier par un palper bi-manuel",
+            "C) Le signe du glaçon est un signe de cholécystite",
+            "D) La défense est une contraction douloureuse volontaire des muscles de la paroi abdominale",
+            "E) La contracture est une contraction douloureuse invincible des muscles de la paroi abdominale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome péritonéal, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il peut s’agir d’un mécanisme par obstruction ou par strangulation",
+            "B) Une péritonite peut être causée par une infection urinaire",
+            "C) Une disparition de la matité hépatique à la percussion doit faire évoquer un mécanisme par diffusion",
+            "D) Un arrêt des matières et des gaz peut survenir en cas de péritonite",
+            "E) Un péritonite stercorale peut être causée par une perforation diastatique du caecum"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome appendiculaire, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) La triade sémiologique clinique comprend : Douleur de la fosse iliaque droite, Fièvre, Défense",
+            "B) Il existe habituellement un signe de Murphy",
+            "C) Des nausées ou des vomissements sont fréquemment associés",
+            "D) Il existe habituellement une altération de l’état général avec dénutrition",
+            "E) Une contracture abdominale peut s’observer en cas de forme compliquée d’appendicite aigue"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome occlusif, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’élément sémiologique de base au plan radiologique est le croissant gazeux sous-phrénique",
+            "B) Une occlusion fonctionnelle peut être causée par une colique néphrétique",
+            "C) Une infection intra-abdominale peut causer une occlusion fonctionnelle",
+            "D) Il peut être à l’origine d’un choc hypovolémique",
+            "E) Un météorisme abdominal est rare"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome péritonéal, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il peut s’agir d’un mécanisme par diffusion",
+            "B) Les péritonites ont toujours une origine digestive",
+            "C) Les signes généraux peuvent être au premier plan en cas de péritonite",
+            "D) Un arrêt des matières et des gaz peut survenir en cas de péritonite",
+            "E) Un pneumopéritoine signe une perforation du tube digestif"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

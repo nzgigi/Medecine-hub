@@ -1,0 +1,721 @@
+{
+  "matiere": "Pneumologie",
+  "slug": "pneumologie-s7",
+  "annee": 2023,
+  "title": "Pneumologie - 2023",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mme BM, âgée de 61 ans, accompagnée par sa fille, est adressée le 3 janvier par son médecin traitant aux urgences pour dyspnée au moindre effort, majoration d’une toux chronique et présence d’expectorations purulentes, abondantes. A l’arrivée aux urgences les données cliniques sont les suivantes : température 38,6°C ; PA 100/60 mmHg ; FC 122/min, SpO2 en air ambiant 69% ; fréquence respiratoire 28/min. Poids 45 kg, taille 1,62m (IMC 17,4). L’examen clinique retrouve une respiration à lèvres pincées, des signes de lutte respiratoire, une dyspnée à la parole. L’auscultation met en évidence des sibilants diffus. Vous débutez immédiatement une oxygénothérapie à 3 l/min et demandez des gaz du sang ainsi qu’une radiographie thoracique.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est votre interprétation de cette gazométrie ?",
+          "choix": [],
+          "reponses": [
+            "Acidose respiratoire non compensée"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Sa fille vous apprend que la patiente est ancienne secrétaire, actuellement au chômage. Elle fume depuis l’âge de 16 ans d’abord à 1 paquet/jour, réduit depuis 10 ans à 10 à 15 cigarettes par jour. Elle est traitée par Diprosone© 0,05% crème (beclomethasone dipropionate) pour un psoriasis. Elle n’a pas d’autre maladie connue. Elle présente depuis des années une\ntoux chronique avec des expectorations à prédominance matinale et une dyspnée d’effort d’aggravation progressive, actuellement estimée à 1 étage (avant l’aggravation récente). Vous suspectez une exacerbation de BPCO, d'autant que la radiographie thoracique retrouve des signes de distension sans foyer parenchymateux visible. La patiente déplie son mouchoir et vous montre une expectoration franchement purulente.\nQuelle est la première mesure thérapeutique à mettre en place aux urgences ?",
+          "choix": [
+            "A) Aérosol de Salbutamol et d’Ipratropium",
+            "B) Corticothérapie IV à la dose de 120mg",
+            "C) Antibiothérapie par macrolide",
+            "D) Kinésithérapie de drainage",
+            "E) Héparinothérapie par HBPM à dose curative"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il s’agit bien d’une exacerbation de BPCO. La patiente a été transférée dans le service de pneumologie et 48h plus tard L’examen cyto-bactériologique de l’expectoration prescrit aux urgences par un interne zélé met en évidence 10 7 Haemophilus influenzae. La PCR SARS-CoV2 est négative.\nParmi les propositions suivantes concernant Haemophilus influenzae, la ou lesquelles est (sont) juste(s) ?",
+          "choix": [
+            "A) C'est un bacille gram positif",
+            "B) Il est fréquemment sécréteur de bétalactamase",
+            "C) C'est l'un des germes les plus fréquemment retrouvé au cours des exacerbations de BPCO",
+            "D) Il est sensible à l'association Amoxicilline/Acide clavulanique",
+            "E) Il est nécessaire d'isoler la patiente (isolement gouttelettes)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente transférée en service de Pneumologie a été placée 48h sous VNI. L’évolution a finalement été favorable.\nA sa sortie elle vous demande de lui prescrire des substituts nicotiniques car elle est décidée à arrêter de fumer. Elle vous précise qu’habituellement elle fume entre 10 et 15 cigarettes par jour et qu’elle allume sa première cigarette le matin en prenant son café.\nParmi les propositions suivantes concernant les substituts nicotiniques, laquelle est inexacte?",
+          "choix": [
+            "A) Il s'agit d'une bonne indication chez cette patiente car sa dépendance est forte",
+            "B) Ils ne sont pas contre-indiqués en cas de pathologie cardio-vasculaire aiguë",
+            "C) Ils sont très efficaces sur le phénomène de craving",
+            "D) Ils augmentent significativement les chances de sevrage tabagique",
+            "E) Ils sont remboursés à 65% par l’assurance maladie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous revoyez la patiente un mois plus tard en consultation de suivi. Elle a effectué des mesures du souffle chez un pneumologue. Elle a arrêté de fumer depuis son hospitalisation. Elle se sent mieux, décrit la persistance d’une toux matinale avec de rares expectorations.\nQuels sont les propositions exactes concernant cet examen du souffle ?\nPréd = valeur théorique (attendue pour la patiente) Préd -2S = valeur théorique -2 déviation standard",
+          "choix": [
+            "A) Il s'agit d'une spirométrie",
+            "B) Il existe une obstruction bronchique sévère",
+            "C) Il s'agit d'un trouble ventilatoire mixte (obstructif + restrictif)",
+            "D) Il existe une distension",
+            "E) Il n' a pas été effectué de test de réversibilité"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/pneumologie-s7/2023/q5.png?v=1786299614349"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il aurait été intéressant de disposer d'un test de réversibilité après prise de béta 2 mimétique. Ce pneumologue était manifestement pressé.\nLorsque l'on réalise un test de réversibilité quels sont les différents paramètres à prendre en compte pour déterminer l'existence d'une réversibilité complète ou partielle ?",
+          "choix": [
+            "A) La valeur du VEMS en ml avant bronchodilatateur",
+            "B) La valeur du VEMS en ml après bronchodilatateur",
+            "C) Le rapport VEMS/CV (ou CVF) avant bronchodilatateur",
+            "D) Le rapport VEMS/CVF après bronchodilatateur",
+            "E) La valeur prédite théorique du VEMS"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous l’avez adressée à un autre pneumologue moins pressé ou plus consciencieux qui a confirmé l’absence de réversibilité de l’obstruction et effectué des gaz du sang en air ambiant dont les résultats sont les suivants : pH 7,40 ; PaO2 55 mmHg ; PaCO2 49 mmHg.\nQuelle est la proposition exacte concernant la situation actuelle ?",
+          "choix": [
+            "A) La patiente est au stade d’insuffisance respiratoire hypercanique",
+            "B) Elle relève d’une oxygénothérapie de longue durée à domicile d’au minimum 10h/J",
+            "C) Le traitement inhalé doit comporter un traitement de fond par corticoïde inhalé et un traitement de secours par bronchodilatateur courte durée d’action",
+            "D) La vaccination contre la grippe est recommandée tous les deux ans",
+            "E) La vaccination contre le pneumocoque comporte une injection de vaccin polysaccharidique suivi au moins 8 semaines plus tard d’une injection de vaccin conjugué."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Cette patiente est donc atteinte d’une BPCO au stade d’insuffisance respiratoire chronique. Vous l’adressez dans un centre spécialisé pour une réhabilitation respiratoire.\nConcernant les objectifs attendus de cette prise en charge quelle proposition est inexacte?",
+          "choix": [
+            "A) L’amélioration du VEMS",
+            "B) L'amélioration des capacités à l'exercice",
+            "C) L'amélioration de l'observance au traitement de fond",
+            "D) La diminution des exacerbations dans les mois suivants",
+            "E) L'amélioration de la qualité de vie de la patiente"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299615317-6499d47a12b44",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez en consultation un patient de 64 ans adressé pour un essoufflement qui s’est progressivement aggravé depuis deux ans.\nIl fume depuis l’âge de 30 ans, 30 cigarettes par jour. Il était avocat. Il n’a pas d’allergie et boit de manière occasionnelle quelques verres d’alcool. Il n’a pas d’antécédents mais n’est pas suivi par son médecin traitant. Il ne prend aucun traitement. La dernière bronchite remonte à il y a 2 ans.\nQuand vous le voyez, vous constatez les éléments suivants:\npoids 78 kg taille 1.83 m\ndyspnée apparaissant même sur terrain plat (il n’arrive pas à suivre son épouse qui a le même âge que lui)\nexpectorations muqueuses et une toux matinale\nsaturation 94%, TA 15/9\nauscultation pulmonaire : murmure vésiculaire assourdi de manière globale",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous demandez une exploration fonctionnelle respiratoire dont voici les résultats :\nQuel est cet examen (un seul mot) ?",
+          "choix": [],
+          "reponses": [
+            "Pléthysmographie",
+            "plétysmographie",
+            "pletysmographie",
+            "Plétysmographie",
+            "plethismographie",
+            "pléthysmographe",
+            "plesthymographie",
+            "pléthismographie",
+            "plethysmographe",
+            "Pléthismographie",
+            "plétismographie",
+            "phlétismographie",
+            "plethysysmographie",
+            "Plétysmogramme"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/pneumologie-s7/2023/q9.png?v=1786299616375"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la première mesure thérapeutique à prendre chez ce patient ?",
+          "choix": [],
+          "reponses": [
+            "Arrêt du tabac",
+            "Sevrage tabagique",
+            "arret tabac",
+            "arrêt tabac",
+            "arreter de fumer",
+            "arréter de fumer",
+            "conseiller l’arrêt du tabac",
+            "stopper le tabagisme",
+            "conseiller l'arrêt du tabac",
+            "Arret tabac",
+            "arrêt de la cigarette",
+            "Sevrage tabac",
+            "Conseiller l'arrêt du tabac",
+            "Arrêt Tabac",
+            "conseil arrêt du tabac",
+            "arret Tabac",
+            "Arrêt tabac",
+            "sevrage tabac",
+            "arrêt tabagique",
+            "arret tabagique",
+            "arrêt du tabagisme",
+            "dire d'arreter tabac",
+            "Conseiller arrêt tabac",
+            "conseil d'arret du tabac",
+            "aide au sevrage tabagique"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous demandez un scanner thoracique devant la sévérité de la maladie.\nQuelles sont les propositions exactes ?",
+          "choix": [
+            "A) Il s’agit d’un scanner injecté",
+            "B) Il s’agit de coupes frontales",
+            "C) Il s’agit de coupes sagittales",
+            "D) Il s’agit de coupes parenchymateuses",
+            "E) Il s’agit de coupes en expiration"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/pneumologie-s7/2023/q11.png?v=1786299618435"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Interprétez le :",
+          "choix": [
+            "A) Il existe un emphysème sévère prédominant dans les lobes supérieurs",
+            "B) A est le lobe supérieur gauche",
+            "C) B est la veine cave supérieure",
+            "D) D est le foie",
+            "E) E est la veine porte"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les autres mesures thérapeutiques à mettre en place en tenant compte des données cliniques et paracliniques laquelle est inexacte ?",
+          "choix": [
+            "A) Réhabilitation respiratoire",
+            "B) Vaccination antipneumococcique",
+            "C) Vaccination antigrippale",
+            "D) Traitement par bronchodilatateur de longue durée d’action",
+            "E) Traitement par corticothérapie inhalée"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Six mois plus tard, le patient se présente aux urgences pour une aggravation brutale et importante de sa dyspnée. Sa tension est à 13/7. Sa saturation est à 89% en air ambiant, son pouls à 96.\nVoici sa radiographie thoracique :\nQuelle est votre interprétation ?",
+          "choix": [
+            "A) Il existe un pneumothorax incomplet apical droit",
+            "B) Il existe un nodule hilaire gauche",
+            "C) Il existe une distension thoracique",
+            "D) Il émoussement du cul de sac gauche",
+            "E) Il existe une opacité rétrocardiaque"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/pneumologie-s7/2023/q14.png?v=1786299619364"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient se présente de nouveau 3 ans après devant l’apparition de crachats hemoptoïques.\nVous réalisez un scanner du thorax avec injection de produit de contraste qui montre un nodule spiculé du lobe supérieur droit dont la biopsie est en faveur d’un adénocarcinome bronchique primitif TTF1+.\nQuels examens demandez-vous dans le bilan d’extension de ce cancer ?",
+          "choix": [
+            "A) TEP scanner",
+            "B) IRM thoracique",
+            "C) IRM encéphalique",
+            "D) Scintigraphie osseuse",
+            "E) Scanner abdominopelvien"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici une coupe de son TEP scanner. Il existe également une atteinte de ganglions médiastinaux\nQuelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le dossier doit être présenté en réunion de concertation pluridisciplinaire",
+            "B) Le traitement reposera sur la chirurgie avec chimiothérapie adjuvante",
+            "C) Le traitement reposera sur la radiothérapie et la chimiothérapie",
+            "D) Le traitement reposera sur un traitement systémique",
+            "E) Les soins de support deviennent nécessaires en cas d’échec des autres traitements"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/pneumologie-s7/2023/q16.png?v=1786299619970"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299620248-636c6dd236f73",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 54 ans, fumeur actif avec un tabagisme cumulé de 40 PA, se présente à la consultation pour exploration d’une dyspnée qui évolue depuis 6 mois.\nParmi les propositions suivantes, quelles sont les 3 qui vont le plus vous aider à étayer vos hypothèses diagnostiques ?",
+          "choix": [
+            "A) Anomalies auscultatoires",
+            "B) Fréquence respiratoire",
+            "C) Pouls",
+            "D) Antécédents cardiovasculaires",
+            "E) Signe de Hoover",
+            "F) Profession",
+            "G) Oedèmes des membres inférieurs",
+            "H) Sévérité de la dyspnée",
+            "I) Effort comme facteur déclenchant"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’examen clinique est normal. Quels sont les 3 examens complémentaires à réaliser en première intention pour le bilan de cette dyspnée ?",
+          "choix": [
+            "A) NFS",
+            "B) Scanner thoracique",
+            "C) D-Dimères",
+            "D) Gazométrie artérielle",
+            "E) Radiographie artérielle",
+            "F) Spirométrie",
+            "G) Troponine",
+            "H) CRP",
+            "I) BNP",
+            "J) Epreuve d'effort",
+            "K) Scintigraphie cardiaque"
+          ],
+          "reponses": [
+            "E",
+            "F",
+            "I"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’examen qui permet de faire le diagnostic de BPCO ?",
+          "choix": [],
+          "reponses": [
+            "Spirométrie",
+            "Epreuve fonctionnelle respiratoire",
+            "Epreuves fonctionnelles respiratoires",
+            "EFR",
+            "Spirométrie avec test de réversibilité",
+            "spirometrie avec test de reversibilite",
+            "spirométrie avec test de réversibilité",
+            "spirometrie avec test de reversibilité",
+            "La spirométrie",
+            "spirométrie avec test de reversibilité",
+            "la spirometrie",
+            "spirométrie avec test de réversibilté aux bronchodilatateur",
+            "spirométrie avec bronchodilatateur",
+            "spirometrie avec EFR sans et avec bronchodilatateur",
+            "EFR ( spirometrie ou plestymographie, au choix), avec test de reversibilité",
+            "Spirométrie avec test de reversibilité",
+            "Spirométrie (EFR)",
+            "exploration fonctionelle respiratoire (EFR)",
+            "spirometrie avec test de reversibilite au bronchodilatateur",
+            "Exploration fonctionnelle respiratoire/Spirométrie",
+            "Explorations fonctionnelles respiratoires",
+            "EFR avec test de reversibilité",
+            "spirometrie post bronchodilatateur",
+            "spirométrie avec test de réversibilité aux bronchodilatateurs",
+            "spirométrie avec test de réversibilité après prise de beta 2 mimétique",
+            "Exploration Fonctionnelle Respiratoire",
+            "spirometrie avec test de reversibilite au B2 mimetiques",
+            "test de reversibilité aux EFR",
+            "EFR avec spirométrie",
+            "EFR ( spirometrie)",
+            "spirometrie avec test de reversibilte negatif",
+            "Epreuves respiratoires fonctionnelles",
+            "spirometrie avec bronchodilatateurs",
+            "EFR Spirométrie",
+            "plethysmographie avec test de reversibilité post-bronchodilatateurs",
+            "spirometrie avec test de reveribilité",
+            "spirometrie avec et sans BD",
+            "EFR dont spirométrie",
+            "EFR (exploration fonctionnelle respiratoire)",
+            "spirometrie avec test de reversibilite aux beta 2 mimetiques",
+            "Exploration fonctionelle respiratoire",
+            "la spirometrie pre et post dilatation bronchique",
+            "Spirométrie (dans le cadre d’une EFR)",
+            "EFR avec tests de réversibilité",
+            "spirmometrie",
+            "spirometrie : VEMS<0,7 pre et post bronchodilatateur",
+            "spirometrie, epreuve fonctionelle respiratoire",
+            "Spirométrie avec test de réversibilité sous BDCA"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299622758-39c1d069c828f8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les critères suivants quels sont ceux qui font partis de l’évaluation du contrôle de l’asthme ?",
+          "choix": [
+            "A) Score de symptômes",
+            "B) Débit de pointe",
+            "C) Nombre d’exacerbation au cours des 12 derniers mois",
+            "D) VEMS/CVF",
+            "E) Inobservance"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelles sont celles qui sont vraies ?",
+          "choix": [
+            "A) L’initiation d’un traitement anti-tuberculeux se fait classiquement par isoniazide, rifabutine, ethambutol et pyrazinamide",
+            "B) Un traitement de 6 mois est suffisant quel que soit le site d’infection dans un contexte de tuberculose multi-sensible",
+            "C) Une sérologie VIH est à réaliser systématiquement avant le début du traitement anti-tuberculeux",
+            "D) En cas de transaminase entre 3 et 5 fois la normale, l’isoniazide doit être arrêté",
+            "E) L’effet secondaire classique de l’éthambutol est la dyschromatopsie"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les examens suivants, quels sont ceux à réaliser dans le cadre du bilan initial systématique d’une sarcoïdose ?",
+          "choix": [
+            "A) NFS",
+            "B) Spirométrie",
+            "C) Sérologie hépatite B",
+            "D) Calciurie des 24h",
+            "E) Enzyme de conversion de l’angiotensine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les causes suivantes, quelles sont celles qui sont des causes fréquentes de la toux ?",
+          "choix": [
+            "A) Insuffisance cardiaque gauche",
+            "B) Dilatation des bronches",
+            "C) Asthme",
+            "D) RGO",
+            "E) Rhinosinusite chronique"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les critères suivants, quels sont ceux qui sont utilisés pour évaluer la gravité d’une hémoptysie ?",
+          "choix": [
+            "A) Anémie",
+            "B) Terrain sous-jacent",
+            "C) Volume saignement à 250 ml",
+            "D) Persistance du saignement",
+            "E) Tension artérielle"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En cas de pleurésie lymphocytaire, quelles sont les étiologies les plus fréquentes ?",
+          "choix": [
+            "A) Cancer",
+            "B) Pleurésie infectieuse",
+            "C) Insuffisance cardiaque",
+            "D) Insuffisance hépato-cellulaire",
+            "E) Tuberculose"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En-dessous de quelle valeur de protides pleuraux, parle-t-on de transudat ?",
+          "choix": [
+            "A) 15 g/l",
+            "B) 20 g/l",
+            "C) 25 g/l",
+            "D) 30 g/l",
+            "E) 35 g/l"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la durée du traitement antibiotique d’une pneumonie aiguë communautaire sans signes de gravité ?",
+          "choix": [
+            "A) 5 jours",
+            "B) 7 jours",
+            "C) 10 jours",
+            "D) 15 jours",
+            "E) 21 jours"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 28,
+          "type": "QRU",
+          "contexte": "",
+          "question": "QRU A partir de quelle durée parle-t-on de toux chronique ?",
+          "choix": [
+            "A) 3 semaines",
+            "B) 4 semaines",
+            "C) 6 semaines",
+            "D) 8 semaines",
+            "E) 12 semaines"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 29,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Sur quoi est évalué la sévérité spirométrique de la BPCO ?",
+          "choix": [],
+          "reponses": [
+            "VEMS",
+            "Volume expiré maximal en 1 seconde",
+            "Volume expiré maximal 1 seconde",
+            "Volume expiré maximal en une seconde",
+            "Volume expiré maximal une seconde",
+            "Volume expiré maximal 1 s",
+            "Volume expiré maximal en 1 s",
+            "VEMS post bronchodilatateur",
+            "VEMS post-bronchodilatateur",
+            "VEMS post BD",
+            "VEMS post-bronchodilatateurs",
+            "VEMS post bronchodilatation",
+            "le VEMS",
+            "VEMS post bronchodilatateurs",
+            "sur le VEMS",
+            "GOLD avec la VEMS",
+            "le VEMS en pourcentage de la valeur theorique, apres bronchodilatation",
+            "VEMS qu'on compare avec la VEMS théorique",
+            "la valeur du vems",
+            "VEMS post-bronchodilateur",
+            "VEMS theorique post inhalation de bronchodilatateur (stade Gold)",
+            "VEMS (post-BD)",
+            "VEMS post Bronchodilatation",
+            "VEMS post-BD (GOLD)",
+            "pourcentage VEMS post brochodilatateur",
+            "Valeur du VEMS par rapport a la valeur théorique",
+            "VEMS post inhalation de beta 2 mimétique",
+            "La diminution du VEMS",
+            "le pourcentage du VEMS en fonction de sa valeur théorique en post dilatation",
+            "VEMS post bronchodilatateur (score de Gold)",
+            "vems post bronchodilatateurs",
+            "VEMS en pourcentage",
+            "vems post BD",
+            "VEMS post test",
+            "la VEMS",
+            "rapport en pourcentage de vems patient et vems predictif",
+            "La VEMS",
+            "Classification de GOLD : VEMS post Bronchodilatateur",
+            "valeur du VEMS post-bronchodilatateur",
+            "VEMS post bronchodilateur",
+            "gold avec vems",
+            "le pourcentage du VEMS",
+            "le rapport VEMS/CVF et la valeur du VEMS post bronchodilatateur",
+            "le VEMS post-BD",
+            "Critères de GOLD : VEMS",
+            "VEMS après bronchodilatateur",
+            "sur la valeur du vems"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

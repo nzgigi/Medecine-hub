@@ -1,0 +1,482 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s4",
+  "annee": 2025,
+  "title": "Pharmacologie médicale - 2025",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mme Tomba, 75 ans a été admise à l'hôpital dans votre service à la suite d'une chute à son domicile. Elle a trébuché sur un objet posé sur le sol et est tombée sur le côté droit. L'aidant de Mme Tomba était avec elle à ce moment-là et l'a aidée à se relever en attendant l'arrivée de l'ambulance.\nL’inﬁrmier de votre équipe vous dit que la patiente se sent bien, hormis une douleur au bras droit. Les antécédents médicaux sont les suivants : Polyarthrite rhumatoïde, multiples chutes qui ont entraı̂né des fractures du poignet gauche et de la hanche gauche, hypotension orthostatique, infections urinaires récurrentes et des troubles de la mémoire. Elle vit seule et bénéﬁcie d’une aide pour les tâches ménagères. Elle n’a jamais fumé et ne consomme pas d’alcool.\nLa patiente présente des ecchymoses étendues sur le bras droit et une lacération sur le front. Elle déclare avoir des diﬃcultés à bouger les articulations de son épaule et de son coude dans tous les plans en raison de la douleur.\nUne radiographie du membre supérieur droit montre une fracture de l'humérus droit. Le DEXA scan (=mesure de la densitométrie osseuse) est compatible avec une ostéoporose.\nElle prend les médicaments suivants :\nun comprimé associant du carbonate de calcium et de la vitamine D3\nparacétamol de 1 g par jour\nesoméprazole\nprednisolone (glucocorticoïdes)\nRamipril\nHydrochlorothiazide\nHydroxyzine (antihistaminique H1)\nRivastigmine (anticholinesterasique)",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous informez la patiente du diagnostic d'ostéoporose, ce qui a probablement contribué à ses fractures antérieures. On vous suggère de lui prescrire de l'acide alendronique une fois par semaine (dose usuelle) pour traiter son ostéoporose.\nA propos du mécanisme d’action et de la pharmacodynamie de l’acide alendronique, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) L’acide alendronique augmente l’absorption intestinale de calcium",
+            "B) L’acide alendronique agit sur des récepteurs nucléaires comme la vitamine D",
+            "C) L’acide alendronique possède une forte affinité pour les cristaux d’hydroxyapatite",
+            "D) L’acide alendronique est un analogue structural du pyrophosphate",
+            "E) L’acide alendronique favorise la résorption osseuse induite par la PTH."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’infirmier va lui donner l'acide alendronique. Il demande s'il y a des instructions particulières que la patiente devait suivre lorsqu'elle prend l'acide alendronique. Parmi les propositions suivantes, la(les)quelle(s) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Pour favoriser l’absorption, l’acide alendronique doit être pris 30 minutes après des premiers aliments.",
+            "B) Pour favoriser l’absorption, l’acide alendronique doit être pris avec un grand verre d’eau du robinet (> 200ml).",
+            "C) Pour réduire le risque d’effets indésirables locaux, la patiente doit croquer le comprimé pour favoriser sa dissolution.",
+            "D) La patiente ne doit pas s’allonger dans les 30 minutes suivant la prise de l’acide alendronique.",
+            "E) La patiente peut prendre l’acide alendronique en même temps que les autres médicaments."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente vous interroge sur les effets indésirables de l’acide alendronique. Parmi les propositions suivantes, la(les)quelle(s) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Un état buccal inflammatoire favorise la survenue d’ostéonécroses de la mâchoire avec l’acide INDISPENSABLE alendronique.",
+            "B) L’acide alendronique expose à des ulcères digestifs comme 2 autres médicaments de son ordonnance.",
+            "C) L’acide alendronique favorise la survenue de fractures fémorales atypiques",
+            "D) L’acide alendronique entraine des hypertensions artérielles",
+            "E) L’acide alendronique favorise la survenue d’hypercalcémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une cause médicamenteuse à l’ostéoporose de la patiente. Parmi les médicaments suivant de son ordonnance, lequel est le plus susceptible d’avoir favorisé l’ostéoporose ?",
+          "choix": [
+            "A) Paracétamol",
+            "B) Prednisolone",
+            "C) Ramipril",
+            "D) Hydrochlorothiazide",
+            "E) Hydroxyzine"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous pensez que sa chute a été favorisé par une hypotension orthostatique. Parmi les médicaments suivant de son ordonnance, lequel ou lesquels est(sont) susceptible(s) de favoriser une hypotension orthostatique?",
+          "choix": [
+            "A) Prednisolone",
+            "B) Ramipril",
+            "C) Hydrochlorothiazide",
+            "D) Hydroxyzine",
+            "E) Rivastigmine"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "critiques": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans ce contexte de pathologies médicamenteuses, vous continuez à analyser l’ordonnance. Concernant ce médicament, la(les)quelle(s) des propositions suivantes est (sont) vraie(s).",
+          "choix": [
+            "A) L'ésoméprazole est l'isomère lévogyre de l'oméprazole.",
+            "B) L’ésoméprazole expose à un risque d’ostéoporose",
+            "C) L’association hydroxyzine et ésoméprazole réduit la sécrétion acide gastrique.",
+            "D) Son ordonnance initiale contient 5 médicaments hyponatrémiants",
+            "E) Il existe une interaction pharmacodynamique entre l’hydroxyzine et la rivastigmine."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297553006-7c214c917c3048",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs de variation des effets des médicaments, quelle est la proposition exacte ?",
+          "choix": [
+            "A) Le phénomène d’induction enzymatique engendré par un médicament se met en place dès l’initiation du traitement",
+            "B) Les sujets métaboliseurs lents pour le CYP2D6 présentent un risque de dépression respiratoire après l’administration d’une posologie usuelle de codéine",
+            "C) Les métaboliseurs ultrarapides pour le CYP2D6 présentent une mutation ponctuelle aboutissant à la production d’une enzyme plus active que la protéine sauvage",
+            "D) Les mutations des cibles pharmacologiques expliquent fréquemment l’absence d’efficacité de différents médicaments",
+            "E) Le phénomène d’inhibition enzymatique engendré par un médicament disparait après l’élimination complète de celui-ci"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’aspirine, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) A faible dose elle inhibe préférentiellement la COX1",
+            "B) Elle diminue la synthèse du TXA2 plaquettaire",
+            "C) Son effet anti-agrégant se manifeste à faible dose",
+            "D) Elle augmente le temps de saignement",
+            "E) Elle est déconseillée en association au paracétamol"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les AINS, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Pris pendant la grossesse, ils augmentent le risque d’anomalie de fermeture du tube neural",
+            "B) Ils sont utilisables pendant l’allaitement",
+            "C) Ils peuvent déterminer une insuffisance rénale par diminution du débit de filtration glomérulaire",
+            "D) Ils élèvent la pression sanguine artérielle",
+            "E) Le kétoprofène est photosensibilisant"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les glucocorticoides, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) ils possèdent une activité anti inflammatoire indissociable de l’effet antiallergique",
+            "B) ils exercent une action transcriptionnelle directe et permettent la synthèse de lipocortine",
+            "C) ils peuvent entrainer un hypoaldostéronisme",
+            "D) ils inhibent la synthèse de phospholipase A2",
+            "E) Ils sont indiqués dans le traitement de l’asthme"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments anti-TNF-α, laquelle ou (lesquelles) est (ou sont) exacte(s):",
+          "choix": [
+            "A) Ils sont indiqués dans la prévention du rejet de greffe rénale",
+            "B) Ils majorent le risque de survenue de cancer en particulier cutané",
+            "C) L’étanercept est un récepteur soluble du TNF-alpha",
+            "D) Le rituximab est un anticorps monoclonal anti-TNF-Alpha",
+            "E) Ils majorent le risque de survenue d’infections opportunistes sévères"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "critiques": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les inhibiteurs de calcineurine, laquelle ou (lesquelles) est (ou sont) exacte(s) :",
+          "choix": [
+            "A) Ils inhibent la production d’IL-2 par les lymphocytes T",
+            "B) Il s’agit notamment de l’évérolimus",
+            "C) Ce sont des médicaments à marge thérapeutique étroite",
+            "D) Ils sont néphrotoxiques",
+            "E) Ils sont myélotoxiques"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le passage systémique des médicaments topiques, ce passage est facilité par :",
+          "choix": [
+            "A) L’âge avancé",
+            "B) Le Poids moléculaire élevé",
+            "C) La vasodilatation",
+            "D) Les parties épaisses de la peau",
+            "E) Une Peau lésée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des mécanismes d’action des médicaments de la goutte, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Les AINS type ibuprofène catalysent l'oxydation enzymatique de l'acide urique en allantoïne.",
+            "B) L’allopurinol favorise l’action de la xanthine oxydase",
+            "C) La colchicine est un poison du fuseau.",
+            "D) Le canakinumab est un anticorps inhibiteur de l’interleukine 1 ;",
+            "E) Le febuxostat inhibe de la recapture des acides organiques au niveau du tubule rénal."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le ou les médicament(s) suivant(s) cause(nt) ou aggrave(nt) une hyperuricémie :",
+          "choix": [
+            "A) Le probénécide",
+            "B) Les cytotoxiques",
+            "C) L’aspirine",
+            "D) Les diurétiques de l’anse",
+            "E) Le tacrolimus"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système opioïde, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) Les interneurones opioïdes n’agissent qu’au niveau de la corne postérieure de la moelle épinière afin de contrôler la douleur",
+            "B) La stimulation des récepteurs opioïdes entraine une diminution de l’AMPc et exerce un rôle inhibiteur sur l’excitabilité neuronale",
+            "C) La morphine exerce son effet antalgique en augmentant le seuil de la douleur et la tolérance à la douleur",
+            "D) La morphine entraine une sensation de paix et d’euphorie",
+            "E) Les récepteurs opioïdes sont des récepteurs à 7 domaines transmembranaires"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets pharmacodynamiques de la morphine, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) Effet dépresseur respiratoire",
+            "B) Effet éveillant",
+            "C) Mydriase",
+            "D) Diarrhées",
+            "E) Hypotension artérielle"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des mécanismes d’action des médicaments anti-émétiques, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Les neuroleptiques type métoclopramide sont des antagonistes des récepteurs µ.",
+            "B) Les neuroleptiques type métoclopramide sont des antagonistes 5-HT3.",
+            "C) Les « sétrons » type ondansétron sont des antagonistes récepteurs µ.",
+            "D) Les « sétrons » type ondansétron sont des antagonistes 5-HT3.",
+            "E) L’aprépitant est un antagoniste des récepteurs NK1"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le ou les médicament(s) suivant(s) est(sont) émétisant(s) :",
+          "choix": [
+            "A) La morphine",
+            "B) Le tramadol",
+            "C) L’allopurinol",
+            "D) Les anesthésiques généraux",
+            "E) Les cytotoxiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13,
+          "critiques": [
+            "A",
+            "E"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des ulcères digestifs avec les AINS, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) Ce sont surtout des ulcères œsophagiens",
+            "B) Ils s’expliquent par l’augmentation de la synthèse des prostaglandines",
+            "C) L’utilisation chronique des AINS est un facteur favorisant",
+            "D) Le risque d’ulcère digestif n’existe pas avec la sous-famille des AINS des « coxibs »",
+            "E) Les inhibiteurs de la pompe à protons sont indiqués dans le traitement des ulcères digestifs déterminés par les AINS."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que pouvez-vous conclure sur la bétahistine qui possède un SMR modéré et un ASMR V pour votre future pratique clinique. Quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) La bétahistine possède une autorisation de mise sur le marché (AMM).",
+            "B) La bétahistine apporte un progrès thérapeutique majeur.",
+            "C) Le SMR de la bétahistine indique que le médicament ne doit pas être remboursé.",
+            "D) L’ASMR fournit des éléments d’éclairage scientifique pour la fixation du prix des médicaments.",
+            "E) Le SMR et L'ASMR de la bétahistine indiquent que ce médicament sera un médicament majeur pour ma pratique clinique et mes patients."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le potentiel addictif d’une substance, quelle est la proposition exacte ?",
+          "choix": [
+            "A) Le potentiel addictif est d’autant plus important que la substance présente un long délai d’action et une demi-vie longue",
+            "B) Le potentiel addictif de la cocaïne est le plus important en cas d’utilisation par voie intraveineuse",
+            "C) Le potentiel addictif d’une substance donnée (par exemple la morphine) ne peut s’exercer que lorsque le motif d’utilisation est récréatif (par exemple hors douleur pour la morphine)",
+            "D) Le potentiel addictif des médicaments opioïdes (morphine, tramadol, codéine, oxycodone, fentanyl) dépend de leur effet agoniste sur les récepteurs opioïdes mu",
+            "E) Le potentiel addictif théorique d’un agoniste partiel pour un récepteur donné (par exemple récepteur opioïde mu) est toujours supérieur à celui d’un agoniste plein pour ce même récepteur"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

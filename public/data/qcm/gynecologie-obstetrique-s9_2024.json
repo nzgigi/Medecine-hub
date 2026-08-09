@@ -1,0 +1,686 @@
+{
+  "matiere": "Gynécologie-obstétrique",
+  "slug": "gynecologie-obstetrique-s9",
+  "annee": 2024,
+  "title": "Gynécologie-obstétrique - 2024",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "Session de questions isolées",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Concernant la contraception définitive ou stérilisation à visée de contraception définitive, quel est le délai de réflexion légal nécessaire entre les deux signatures du consentement ?",
+          "choix": [],
+          "reponses": [
+            "4 mois",
+            "quatre mois",
+            "quatres mois"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Concernant la contraception d’urgence, jusqu’à combien de jours après un rapport a risque peut-on poser un DIU en cuivre ?",
+          "choix": [],
+          "reponses": [
+            "5",
+            "5 jours",
+            "cinq jours",
+            "cinq",
+            "5j",
+            "5 j",
+            "5 Jours"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le diagnostic à éliminer en urgence chez une patiente de 30 ans, venant consulter aux urgences pour douleurs pelviennes intenses, sans fièvre, avec des BHCG +. La date des dernières règles étaient il y a 6 semaines.",
+          "choix": [
+            "A) Torsion d’annexe",
+            "B) Hémorragie intra kystique",
+            "C) Grossesse extra utérine",
+            "D) Infection génitale haute compliquée",
+            "E) Rupture de kyste"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’examen indispensable à réaliser avant la pose d’un DIU chez une nullipare ?",
+          "choix": [
+            "A) Echographie pelvienne",
+            "B) Dépistage des infections génitales",
+            "C) Bilan biologique pour connaitre son hémoglobine",
+            "D) ECG",
+            "E) La pose n’est pas possible chez la nullipart"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les contre-indications à la prescription d’une contraception oestro-progestative ? 3 réponses attendues",
+          "choix": [
+            "A) Nullipare",
+            "B) Endométriose pelvienne",
+            "C) Antécédent de cancer du sein non hormonodépendant",
+            "D) Diabète de type 1 compliqué",
+            "E) Antécédent de grossesse extra utérine",
+            "F) Migraine sans aura",
+            "G) HTA traitée et équilibrée"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les modalités de dépistage organisé du cancer du col de l’utérus ? 3 réponses attendues",
+          "choix": [
+            "A) Femme entre 30 et 65 ans",
+            "B) Femme entre 25 et 65 ans",
+            "C) FCU entre 25 et 65 ans",
+            "D) FCU avant 30 ans",
+            "E) FCU avant 30 ans à 0, 24 mois puis 3 ans",
+            "F) Test HPV entre 30 et 65 ans",
+            "G) Test HPV avant 30 ans",
+            "H) Test HPV entre 25 et 65 ans, tous les 5 ans"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "F"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cancer du col de l’utérus",
+          "choix": [
+            "A) Il s’agit du 4e cancer féminin en incidence dans le monde",
+            "B) 80 à 90 % sont des adénocarcinomes",
+            "C) Le tabac est un facteur de risque du cancer du col de l’utérus",
+            "D) Le TDM est l’examen de référence pour les cancers du col utérin au-delà du stade 1A",
+            "E) Une tumeur du col de l’utérus limitée au col et de faible volume correspond à un stade précoce"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cancer de l’endomètre (cancer du corps utérin)",
+          "choix": [
+            "A) Chez une patiente ménopausée, un endomètre mesuré à 3 mm en échographie est fortement suspect d’un cancer de l’endomètre",
+            "B) L’obésité est un facteur de risque",
+            "C) L’IRM abdominopelvienne est indispensable au bilan d’extension locorégional",
+            "D) Le dosage du CA 125 au diagnostic est obligatoire",
+            "E) L’IRM abdominopelvienne est très performante pour détecter les adénopathies pelviennes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cancer de l’ovaire",
+          "choix": [
+            "A) Le CA 125 doit être dosé en cas de suspicion de tumeur ovarienne",
+            "B) La coelioscopie fait partie du bilan diagnostic et pronostic",
+            "C) On peut retrouver de la carcinose péritonéale sur les coupoles diaphragmatiques",
+            "D) Le TEP TDM est une option dans le bilan d’extension",
+            "E) Les cancers de l’ovaire sont des tumeurs épithéliales dans 90% des cas"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "critiques": [
+            "E"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cancer du sein",
+          "choix": [
+            "A) Le cancer du sein est le 2e cancer le plus fréquent chez la femme",
+            "B) On retrouve une mutation BRCA1/2 dans 5 à 10 % des cancers du sein",
+            "C) Le carcinome lobulaire infiltrant représente 90% des cancers du sein",
+            "D) Le Ki67 représente la sensibilité de la tumeur aux œstrogènes et progestérone",
+            "E) Les lésions du sein classées ACR 2 à la mammographie ne feront pas l’objet d’une biopsie du sein"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295769907-c9499040cf5b3",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Mme V, 19 ans consulte en urgence pour une douleur aigue et intense en fosse iliaque droite d’apparition brutale à 1h du matin après un rapport sexuel. Elle n’a pas de métrorragie, ni de fièvre. Elle n’a pas d’antécédent notable.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A ce stade quels sont les diagnostics les plus probables (3 attendus)",
+          "choix": [
+            "A) Grossesse extra utérine",
+            "B) Salpingite",
+            "C) Appendicite",
+            "D) Torsion d’annexe",
+            "E) Rupture de kyste ovarien",
+            "F) Fausse couche précoce",
+            "G) Rectocolite hémorragique",
+            "H) Hématome de paroi",
+            "I) Colique néphrétique gauche",
+            "J) Torsion d'un myome pédiculé"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les examens de première intention les plus pertinents pour votre diagnostic (2 attendus)",
+          "choix": [
+            "A) Dosage des BhCG plasmatiques",
+            "B) IRM pelvienne",
+            "C) Echographie abdominale et pelvienne",
+            "D) TDM abdomino-pelvien",
+            "E) Prélèvement vaginal",
+            "F) Test HPV",
+            "G) CA 125",
+            "H) Coelioscopie",
+            "I) Sérologie des IST",
+            "J) CA 19.9"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La patiente a finalement une douleur entrainant des vomissements, s’intensifiant depuis son arrivée. Les bHGC sont négatifs et vous diagnostiquez un kyste ovarien droit de 7 cm, d’allure fonctionnelle.\nVous palpez une défense et vous décidez de réaliser une coelioscopie exploratrice qui met en évidence cette image.\nQuelle est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Torsion d'annexe droite",
+            "Torsion d'annexe",
+            "Torsion d'ovaire",
+            "Torsion ovarienne droite",
+            "Torsion",
+            "Torsion d'ovaire droite sur kyste ovarien",
+            "torsion de kyste ovarien",
+            "torsion ovarienne",
+            "torsion d’annexe",
+            "torsion de l'ovaire droit",
+            "Torsion ovarienne",
+            "Torsion de kyste ovarien",
+            "torsion d'annexe sur kyste ovarien",
+            "Torsion d'annexe sur kyste ovarien droit",
+            "torsion ovaire droite",
+            "torsion ovaire droit",
+            "torsion de l'ovaire",
+            "Torsion d’annexe",
+            "torsion d‘annexe",
+            "torsion du kyste ovarien",
+            "Torsion de l'ovaire droit",
+            "torsion kyste ovarien",
+            "Torsion d’ovaire",
+            "Torsion ovarienne sur kyste",
+            "torsion ovaire",
+            "Torsion d’annexe droite",
+            "tortion d'annexe",
+            "torsion d'annexe ovaire droit",
+            "Torsion d'annexe ovarienne",
+            "torsion ovarienne droite (probablement favorisée par le kyste)",
+            "torsion de l‘ovaire droit",
+            "torsion d'ovaire droite",
+            "Torsion d’annexe sur kyste ovarien droit",
+            "torsion d’annexe droite",
+            "Torsion d‘annexe",
+            "Torsion de kyste ovarien droit avec ischémie",
+            "torsion d'annexe sur kyste ovarien droit",
+            "torsion ovarienne droite sur kyste ovarien",
+            "torsion de kyste ovarien droit",
+            "Torsion du kyste",
+            "torsion d annexe",
+            "torsion de l‘ovaire",
+            "Torsion d‘annexes",
+            "torsion d'ovaire droit",
+            "Torsion de kyste",
+            "torsion de la trompe",
+            "torsion trompe droite"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/gynecologie-obstetrique-s9/2024/q13.png?v=1786295772564"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295780062-cb954903235ae",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes gynécologue dans une maternité de niveau I.\nMme GECHO vient consulter pour son suivi obstétrical.\nElle a 31 ans, elle mesure 1m64 pour 71kg (IMC 27). Elle ne fume pas, et est aide-soignante. On note dans ses antécédents une appendicectomie. Elle est allergique aux céphalosporines.\nC’est sa première grossesse, obtenue spontanément. Elle a fait son suivi de grossesse en ville jusqu’à maintenant, avec sa sage-femme.\nElle vient donc consulter pour la première fois dans la maternité où elle s’est inscrite, elle est à 14 SA. La déclaration de grossesse a été faite.\nVous recueillez les examens qu’elle a déjà réalisé :\n\u0000 L’échographie du 1er trimestre est normale, avec une clarté nucale à 1.2mm.\n\u0000 Hémoglobine : 14 g/dL ; plaquettes 241 G/L, ferritinémie 44 μgL.\n\u0000 Sérologies = VIH : négative ; toxoplasmose : immunité acquise ; hépatite B : vaccinée.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels examens obligatoires sont manquants dans le dossier de votre patiente ?",
+          "choix": [
+            "A) Glycémie à jeun",
+            "B) Sérologie rubéole",
+            "C) Dépistage de la trisomie 21",
+            "D) Groupe sanguin – rhésus",
+            "E) Frottis cervico-utérin"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "RANG A",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente avait déjà fait sa carte de groupe en ville (groupe B négatif). Elle est vaccinée pour la rubéole.\nVous revoyez régulièrement la patiente et sa grossesse se poursuit normalement jusqu’à 30 SA.\nCe jour-là, à 30+2 SA, elle consulte aux urgences de votre maternité.\nElle vous explique qu’elle pense avoir des contractions, « sûrement à cause de toutes les courses de Noël » qu’elle a faite. Elle décrit également que ses contractions « lui font mal au dos ». Les symptômes sont plutôt latéralisés à droite. Elle se sent aussi fiévreuse et très fatiguée.\nA l’interrogatoire, elle ne décrit pas de saignements ou de pertes vaginales, elle sent bien son bébé bouger.\nA l’examen, la température est à 38.9°C. L’utérus est souple entre les contractions utérines.\nQuels sont les diagnostics à évoquer ?",
+          "choix": [
+            "A) Menace d’accouchement prématuré",
+            "B) Pyélonéphrite",
+            "C) Douleurs ligamentaires",
+            "D) Appendicite aiguë",
+            "E) Listériose"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "Patiente déjà appendicectomisée.",
+          "order": 2,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels examens complémentaires réalisez-vous ?",
+          "choix": [
+            "A) Enregistrement du RCF (rythme cardiaque fœtal)",
+            "B) Echographie obstétricale avec mesure du col",
+            "C) Bilan biologique avec NFS - CRP",
+            "D) Bandelette urinaire et ECBU si positive",
+            "E) Tocométrie pour enregistrement des contractions utérines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous récupérez vos examens complémentaires :\n\u0000 Hémoglobine 12.2 g/dL, plaquettes 247 G/L\n\u0000 CRP 122 mg/dL\n\u0000 Bandelette urinaire négative\n\u0000 Test Covid négatif\n\u0000 Test grippe positif\nVous récupérez également le RCF avec la tocométrie utérine (image 1).\nVous avez également pu faire l’échographie, qui retrouve une excellente vitalité fœtale. Le fœtus est en présentation céphalique, l’estimation du poids fœtal est de 1854g.\nVous mesurez également le col utérin (image 2).\nQuelle prise en charge proposez-vous ?",
+          "choix": [
+            "A) Installation en salle de naissance pour la péridurale en vue de l’accouchement",
+            "B) Transfert en maternité de niveau II",
+            "C) Maturation fœtale par corticoïdes",
+            "D) Antibiothérapie par Amoxicilline probabiliste",
+            "E) Immunoglobulines anti-D"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "A) l'accouchement n'est pas imminent, et il faut d'abord essayer de tocolyser\nB) maternité de niveau III vu le terme (niveau III avant 32 SA)\nC) Oui indispensable avant 34 SA !\nD) Ce n'est ni une pyélonéphrite ni une chorioamniote ni une listériose, mais une grippe a priori = pas d'amoxicilline, mais éventuellement oseltamivir\nE) Certes Rhésus négatif mais pas d'indication dans ce contexte de MAP (pas de risque d'hémorragie foeto-maternelle)",
+          "order": 4,
+          "images": [
+            "/images/qcm/gynecologie-obstetrique-s9/2024/q17.png?v=1786295783951",
+            "/images/qcm/gynecologie-obstetrique-s9/2024/q17_1.jpg?v=1786295784146"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez réalisé la maturation fœtale, la patiente est ensuite transférée en maternité de niveau III, sous tocolyse par Atosiban IV.\nAprès traitement de sa grippe par Oseltamivir, la situation se stabilise, et retourne à son domicile après quelques jours.\nVous la revoyez à 31 SA pour le suivi. Elle est assez inquiète car elle s’est rendu compte qu’elle n’a pas encore eu « la piqûre pour le rhésus ».\nQue faites-vous concernant la prévention de l’allô-immunisation foeto-maternelle liée au rhésus ?",
+          "choix": [
+            "A) Si son conjoint est de rhésus négatif, la recherche de RAI est inutile",
+            "B) Vous lui prescrivez 200 μg d’immunoglobulines anti-D",
+            "C) Vous lui prescrivez 300 μg d’immunoglobulines anti-D",
+            "D) Vous lui prescrivez un test de Kleïhaeur en urgence",
+            "E) Vous lui prescrivez des RAI à réaliser après la réalisation des immunoglobulines"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "On rattrape ici le schéma classique à faire à 28 SA, que la patiente n'a pas encore fait:\n- RAI à faire AVANT l'injection\n- posologie de 300mcg\nLa recherche de RAI est nécessaire pour toutes les patientes enceintes, y compris celles dont le conjoint est de rhésus négatif.\nAucun intérêt du Kleiïhauer en prénatal si il y n'a pas de risque d'hémorragie foeto-maternelle",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le reste de la grossesse se passe bien, et elle accouche ensuite à terme dans votre maternité.\nElle a accouché par voie basse, il n’y a pas eu de complications en dehors d’une délivrance artificielle.\nAu 3e jour de l’accouchement, vous la voyez dans le service de suites de couches. Elle se plaint de se sentir fiévreuse et que ça la fatigue beaucoup, « déjà que l’allaitement c’est fatiguant ». La température est à 38.4°C.\nQuels éléments seront en faveur d’une endométrite du post-partum ?",
+          "choix": [
+            "A) signe de Homans positif",
+            "B) Lochies malodorantes",
+            "C) Signe de Budin positif",
+            "D) Rétention placentaire visible à l’échographie pelvienne",
+            "E) Céphalées en position debout"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "A) signe de TVP\nC) possible dans la mastite\nD) signe inconstant mais argument fort si présent\nE) signe de brèche dure-mèrienne",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’échographie pelvienne était sans particularité, mais votre faisceau d’arguments vous suspecter une endométrite du post-partum, et vous commencez un traitement par antibiothérapie par Amoxicilline per-os.\nAprès 6 jours de traitement, la patiente reste fébrile, avec persistance de ses douleurs utérines.\nQuel diagnostic suspectez-vous ?",
+          "choix": [],
+          "reponses": [
+            "thrombophlébite pelvienne",
+            "Thrombo-phlébite pelvienne",
+            "complication embolique pelvienne",
+            "Thrombophlébite pelvienne",
+            "Phlébite pelvienne",
+            "Thrombose pelvienne",
+            "thrombose veineuse pelvienne",
+            "Thrombose veineuse pelvienne",
+            "thrombose veineuse",
+            "thrombose pelvienne profonde",
+            "Thombose veineuse pelvienne",
+            "Trombose pelvienne",
+            "throbose veineuse pelvienne",
+            "thromboses pelviennes",
+            "thrombo-phlébite",
+            "thrombophébite pelvienne",
+            "Trombophlébite pelvienne",
+            "thrombophlébite",
+            "thrombophlebite",
+            "thrombose veineuse pelvienne profonde",
+            "trombose veineuse profonde",
+            "tvp",
+            "Thrombose pelvienne profonde",
+            "Thrombose veine ovarienne",
+            "thrombophlebite veineuse pelvienne",
+            "thombose veineuse pelvienne",
+            "trhombose veineuse pelvienne",
+            "Thrombose veineuse pelvienne",
+            "Thrombose pelvienne aigue",
+            "thrombose veineuse uterine",
+            "Thrombophlébite du post-partum",
+            "trombose veineuse pelvienne post partum",
+            "thrombose veineuse ovarienne",
+            "thrombose veineuse profonde",
+            "Thrombophébite pelvienne"
+          ],
+          "correctionExplanation": "RANG A",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295792777-e2c33def7841d8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez en consultation Mme JARO, pour désir de grossesse.\nElle a 36 ans, elle prenait une contraception oestroprogestative depuis l'âge de 21 ans. Elle a stoppé sa contraception il y a 6 mois, et n’a pas eu de règles depuis.\nElle ne fume pas, n’a pas d’antécédent médico-chirurgical. Elle mesure 1m61, pour 70 kilos.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le premier dosage biologique à demander chez Madame JARO?",
+          "choix": [],
+          "reponses": [
+            "betahcg",
+            "bhcg",
+            "beta hcg",
+            "hcg",
+            "test de grossesse",
+            "B-HCG",
+            "B HCG",
+            "b-hcg",
+            "B-hcg",
+            "b-HCG",
+            "B hcg",
+            "b hcg",
+            "B-hCG",
+            "BhCG plasmatiques",
+            "beta-hcg plasmatiques",
+            "beta hcg plasmatique",
+            "beta hcg plasmatiques",
+            "b-hCG",
+            "beta-hcg sanguin",
+            "bHCG plasmatiques",
+            "HCG plasmatique",
+            "b HCG",
+            "BhCG plasmatique",
+            "Beta hCG plasmatique",
+            "Beta HCG plasmatiques",
+            "dosage plasmatique des beta-hCG",
+            "HCG plasmatiques",
+            "BHCG plasmatiques",
+            "dosage des beta HCG plasmatiques",
+            "bétaHCG plasmatique",
+            "Dosage des bêta-HCG"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que recherchez-vous à l’interrogatoire et à l’examen clinique pour orienter le diagnostic étiologique de l’aménorrhée ?",
+          "choix": [
+            "A) Hirsutisme",
+            "B) Bouffées de chaleur",
+            "C) Leucorrhées malodorantes",
+            "D) Dyspareunies",
+            "E) Galactorrhées"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Elle évoque des bouffées de chaleur et des sueurs nocturnes depuis plusieurs mois. Vous suspectez une insuffisance ovarienne précoce.\nQuel résultat de bilan hormonal est en faveur de ce diagnostic ?",
+          "choix": [
+            "A) FSH effondrée ,œstradiol indosable, prolactine normale, testostérone totale normale",
+            "B) FSH élevée, œstradiol indosable, prolactine normale, testostérone totale normale",
+            "C) FSH basse, œstradiol indosable, prolactine élevée, testostérone totale normale",
+            "D) FSH normale, œstradiol normal, prolactine normale, testostérone totale élevée"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous confirmer l’IOP. Quelles sont les principales causes d'IOP à rechercher chez madame JARO?",
+          "choix": [
+            "A) Infection génitale haute",
+            "B) Cause auto-immune",
+            "C) Syndrome de Turner en mosaïque",
+            "D) Tumeur cérébrale",
+            "E) Prémutation FMR1"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous confirmer l’IOP.\nEn raison de son désir de grossesse, la patiente est orientée en consultation en centre de PMA.\nVous avez prescrit un spermogramme et le spermocytogramme chez son conjoint, voici le résultat :\n-Volume: 5mL\n-Numération: 40 millions par mL\n-Mobilité normale, vitalité 68%.\n-Formes typiques 22 %\nQue pensez-vous de ce résultat de spermogramme ?",
+          "choix": [
+            "A) Azoospermie",
+            "B) Hypospermie",
+            "C) Spermogramme normal",
+            "D) Tératospermie",
+            "E) Asthénospermie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le spermogramme est donc normal. Le bilan chez la femme (échographie pelvienne etc) est normal en dehors de l’IOP. Que proposez-vous à ce couple ?",
+          "choix": [
+            "A) Don d’ovocytes",
+            "B) Insémination avec sperme du conjoint",
+            "C) Insémination avec sperme de donneur",
+            "D) Stimulation ovarienne",
+            "E) FIV/ICSI intraconjugale"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 27,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Après votre brillante prise en charge en AMP, votre patiente est enceinte. Le suivi de grossesse est normal.\nElle se présente à 32 SA à votre consultation de suivi.\nElle se plaint alors d’œdèmes des jambes importants.\nA votre consultation vous retrouvez :\nTA 15/10\nProtéinurie à 3 croix\nLes mouvements fœtaux sont présents\nLe poids est à 80 kg\nQuel diagnostic devez-vous évoquer ?",
+          "choix": [],
+          "reponses": [
+            "preeclampsie",
+            "préeclampsie",
+            "prééclampsie",
+            "preéclampsie",
+            "pré éclampsie",
+            "pre eclampsie",
+            "pre éclampsie",
+            "pré eclampsie",
+            "préeclanpsie",
+            "préeclamspie",
+            "pre-eclamspie",
+            "pre eclempsie",
+            "pré-éclamspie",
+            "Crise de pré-éclampsie",
+            "protéinurie avant 34 SA = pré-éclampsie"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

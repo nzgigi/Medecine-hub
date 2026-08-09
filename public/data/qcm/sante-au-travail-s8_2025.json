@@ -1,0 +1,326 @@
+{
+  "matiere": "Santé au travail",
+  "slug": "sante-au-travail-s8",
+  "annee": 2025,
+  "title": "Santé au travail - 2025",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment s'appelle la mesure dans le sang ou les urines d'un salarié de son exposition professionnelle à un produit chimique ?",
+          "choix": [],
+          "reponses": [
+            "la biométrologie",
+            "biométrologie",
+            "biometrologie",
+            "Biométrologie",
+            "métrobiologie",
+            "metrobiologie",
+            "métrologie biologique",
+            "Métrobiologie",
+            "Métrologie sanguine",
+            "metrologie biologique",
+            "Biometrologie",
+            "metrrobiologie",
+            "biometeologie",
+            "metrologie sanguine",
+            "biomatériologie",
+            "biométrorologie",
+            "biométhrologie",
+            "biometrologie sanguine"
+          ],
+          "correctionExplanation": "1 à 2 mots",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les réponses valides dans le cadre des démarches d'évaluation et de gestion des risques professionnels par le médecin du travail?",
+          "choix": [
+            "A) La démarche de gestion des risques professionnels ne suit pas toujours le même ordre",
+            "B) La suppression des dangers fait partie de la démarche de gestion des risques professionnels",
+            "C) L'identification et la caractérisation des dangers fait partie de la démarche d'évaluation des risques professionnels",
+            "D) La limitation des émissions à la source fait partie de la démarche de gestion des risques professionnels",
+            "E) La limitation des émissions à la source fait partie de la démarche d'évaluation des risques professionnels",
+            "F) La limitation de l'exposition des salariés fait partie de la démarche de gestions des risques professionnels",
+            "G) L'évaluation de l'exposition professionnelle des salariés fait partie de la démarche d'évaluation des risques professionnels",
+            "H) L'évaluation de l'efficacité des mesures de préventions fait partie de la démarche d'évaluation des risques professionnels"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "F",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la visite de reprise en santé au travail, quelle est la réponse juste?",
+          "choix": [
+            "A) La visite de reprise en santé au travail après un congé maternité est une visite obligatoire",
+            "B) Elle a lieu suite à un arrêt de travail de plus de 15 jours dans le cadre d'un accident du travail",
+            "C) Elle a lieu suite à un arrêt de travail de plus de 30 jours dans le cadre d'un arrêt de travail sans lien avec un accident du travail ou avec une maladie professionnelle",
+            "D) Elle est demandée par le médecin du travail",
+            "E) La détermination par le médecin du travail de l'aptitude au poste de travail n'est pas systématique au cours de cette visite"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le médecin du travail, quelle(s) est ou sont les réponses justes?",
+          "choix": [
+            "A) Il exerce selon un mode salarié",
+            "B) Il est soumis au code de santé publique",
+            "C) Il a un rôle essentiellement curatif",
+            "D) L'action du médecin du travail en milieu professionnel est axée sur la prévention",
+            "E) Il détermine la date de guérison ou de consolidation de l'état de santé d'un salarié suite à un accident du travail"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne de médecine du travail en stage dans un service de santé au travail interentreprise, vous recevez Madame G. , 55 ans, dans le cadre de sa visite périodique. Elle a été reçue en consultation de santé au travail pour la dernière fois il y a 5 ans.\nElle occupe un poste d'informaticienne dans une entreprise du tertiaire, Elle n’est pas exposée à des risques particuliers nécessitant un suivi individuel renforcé.\nElle vous rapporte au milieu de la consultation que sa demande de RQTH (reconnaissance en qualité de travailleur handicapé) pour un cancer du sein métastatique vient d’être acceptée.\nConcernant la visite périodique en santé au travail, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
+          "choix": [
+            "A) La périodicité du suivi jusqu’ici (avant la reconnaissance en RQTH) est conforme à la réglementation concernant notre patiente",
+            "B) Cette visite est une visite d’information et de prévention.",
+            "C) Elle est assurée en général par un(e) infirmier(e) en santé au travail",
+            "D) La rythmicité de la visite d'information et de prévention peut être modifiée par la notion d'une invalidité",
+            "E) La rythmicité de la visite d'information et de prévention est maintenant de 3 ans car la patiente est reconnue en qualité de travailleur handicapé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300013228-55d6306a5fa338",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes médecin généraliste traitant de Madame Y, qui vous sollicite pour réaliser un certificat médical pour une déclaration en maladie professionnelle pour une tendinopathie rompue de la coiffe des rotateurs de son épaule droite dominante",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un principe conditionne la reconnaissance en maladie professionnelle. Lequel?\n2 à 3 mots",
+          "choix": [],
+          "reponses": [
+            "Présomption d'origine",
+            "Présomption d'imputabilité",
+            "principe d'origine",
+            "principe d'imputabilité",
+            "présemption d'origine",
+            "principe d'imputabilite",
+            "Principe d'imputabilité",
+            "principe de presomption",
+            "presomption d'origine ou d'amputabilité",
+            "imputabilité d'origine",
+            "imputabilite d'origine",
+            "principe d‘imputabilité",
+            "presomption origine professionnelle",
+            "Principe d'origine",
+            "la presomption d'origine",
+            "présemption d’origine",
+            "presomption d'origne",
+            "principe d’imputabilité",
+            "principe de présomption",
+            "présomption professionnelle",
+            "Présemption d’origine",
+            "présomptiom d'imputabilité",
+            "principe d’imputabilite",
+            "Principe d'Imputabilité",
+            "principe de présomption d'imputabilite"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la réponse juste?",
+          "choix": [
+            "A) C'est l'employeur qui réalise la déclaration de la maladie professionnelle à l'assurance maladie",
+            "B) une maladie professionnelle est un état pathologique d'installation aigue",
+            "C) une pathologie pour être reconnue en maladie professionnelle doit être inscrite dans un des tableaux de maladies professionnelles",
+            "D) La colonne du milieu d'un tableau de maladie professionnelle fait état au minimum du délai de prise en charge",
+            "E) La réparation d'une maladie professionnelle est différente de celle d'un accident du travail"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les 7 propositions, quelles sont les 3 propositions valides dans le cadre de la déclaration et de la reconnaissance d'une maladie professionnelle ?",
+          "choix": [
+            "A) La victime, l'employeur, un médecin et la caisse primaire d'assurance maladie interviennent dans le procès de déclaration d'une maladie professionnelle reconnaissance",
+            "B) L'employeur remet à la caisse primaire d'assurance maladie une attestation de salaire",
+            "C) tout médecin dont le médecin du travail peut réaliser un certificat médical initial de maladie professionnelle",
+            "D) Après un arrêt de travail pour une maladie professionnelle, la victime de la maladie professionnelle doit bénéficier d'une visite de reprise quelque soit la durée de l'arrêt de travail",
+            "E) La victime d'une maladie professionnelle dispose de 5 ans pour réaliser sa déclaration en maladie professionnelle après sa constatation médicale",
+            "F) Lorsque la maladie professionnelle est guérie, le médecin conseil détermine l'incapacité permanente.",
+            "G) Lors d'une reconnaissance d'une maladie professionnelle, la victime bénéficie de prestations en espèces correspondantes à l'exonération du ticket modérateur et au tiers payant"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300015334-4d8b46d1b3345",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes le médecin traitant de Monsieur R. Il vous consulte pour une douleur lombaire aigue évoluant depuis 72 heures. Ce jour, vous prescrivez un arrêt de travail d'une semaine car sa lombalgie est invalidante.\nIl vous rapporte être salarié d'une entreprise de déménagement. Il aurait déjà eu des épisodes similaires dans le passé ayant nécessité des arrêts de travail courts.\nIl vous interroge sur la cause de cette lombalgie et son devenir professionnel.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur R vous précise que cette douleur est survenue à la suite du port d'un lave-linge seul dans le cadre de son activité professionnelle. Il vous demande de réaliser une déclaration en accident du travail. Quelles sont les réponses vraies?",
+          "choix": [
+            "A) La déclaration d'un accident du travail est réalisée par le médecin réalisant le certificat médical initial d'accident du travail",
+            "B) Le médecin traitant peut refuser de réaliser un certificat médical initial d'accident du travail car il n'est pas certain du lien entre la lombalgie et l'exercice professionnel",
+            "C) La lombalgie aigue peut être la conséquence d'un effort de port de charge lourde",
+            "D) Dans le cadre d'un accident du travail, il existe une présomption d'imputabilité ou d'origine, c'est à dire que le Monsieur R n'aura pas à apporter la preuve du lien entre sa lombalgie et son travail de déménageur pour la reconnaissance en accident du travail",
+            "E) La déclaration d'un accident du travail est conditionnée à la réalisation d'un certificat médical initial d'accident du travail"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au final, sa lombalgie perdure et nous sommes maintenant à un mois d'arrêt de travail et vous prolongez cette arrêt de travail. Vous l'orientez vers son médecin du travail pendant son arrêt de travail. Quelle(s) est(sont) la(les) réponses juste(s)?",
+          "choix": [
+            "A) Cette visite peut être demandée au service de santé par le médecin traitant",
+            "B) Cette visite ne peut pas être réalisée car l'arrêt de travail est trop court",
+            "C) Cette visite aura pour but d'informer le médecin du travail de l'état de santé de Monsieur R",
+            "D) Cette visite est intitulée visite de reprise",
+            "E) Cette visite aura pour but de permettre au médecin du travail de faire d'éventuelles préconisations d'aménagement du poste de travail à l'employeur afin qu'elles soient mises en place le jour de la reprise du travail de Monsieur R."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la visite de pré-reprise, quelle(s) est(sont) la(les) réponses juste(s)?",
+          "choix": [
+            "A) La visite de pré-reprise peut être demandée par le médecin conseil de l'assurance maladie",
+            "B) La visite de pré-reprise peut être demandée par l'employeur",
+            "C) La visite de pré-reprise peut être demandée par le médecin du travail",
+            "D) La visite de pré-reprise est conseillée pour tout arrêt de travail de plus de 30 jours",
+            "E) la visite de pré-reprise se conclut par la réalisation d'une fiche d'aptitude médicale au poste de travail par le médecin du travail"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au final, après une prise en charge médicale bien adaptée de sa lombalgie, Monsieur R reprend le travail six semaines après la survenue de son accident du travail. Quelles sont les réponses vraies?",
+          "choix": [
+            "A) L'employeur a l'obligation de solliciter le service de santé au travail pour une visite de reprise pour Monsieur R même si il a été reçue en visite de pré-reprise récemment",
+            "B) Monsieur R a le droit de refuser la réalisation d'une visite de reprise",
+            "C) Le médecin traitant peut réaliser cette visite de reprise en précisant sur un certificat médical que l'état de santé de Monsieur R est compatible avec une reprise de son activité de déménageur",
+            "D) Cette visite de reprise pourra être assurée par un infirmier en santé au travail qui statuera sur l'aptitude médicale de Monsieur R a reprendre le travail",
+            "E) La visite de reprise au service de santé au travail de Monsieur R ne peux pas avoir lieu la veille de la reprise officielle du travail"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les visites en santé au travail et les dispositifs de maintien dans l'emploi, Monsieur R vous interroge. Quelle(s) est(sont) la(les) réponses juste(s) ?",
+          "choix": [
+            "A) Un rendez-vous de liaison entre le salarié et son employeur lors d'un arrêt de travail peut faire l'objet d'une discussion sur l'intérêt pour le salarié de solliciter une visite de pré-reprise au service de santé au travail",
+            "B) Monsieur R vous sollicite pour compléter le questionnaire médical pour une demande de reconnaissance en qualité de travailleur handicapé. Vous l'encouragez dans cette demande car la reconnaissance en qualité de travailleur handicapé favorise le maintien dans l'emploi",
+            "C) Monsieur R vous sollicite pour compléter le questionnaire médical pour une demande de reconnaissance en qualité de travailleur handicapé. Vous refusez de compléter ce questionnaire médical car vous expliquez à Monsieur R que c'est au médecin conseil de la sécurité sociale de faire la demande de reconnaissance en qualité de travailleur handicapé car il a été victime d'un accident du travail.",
+            "D) La reconnaissance en qualité de travailleur handicapé peut permettre l'obtention d'aides financières pour le salarié",
+            "E) Monsieur R vous sollicite pour prescrire un temps partiel thérapeutique après une semaine de reprise du travail car c'est trop difficile. Vous refusez la prescription de ce temps partiel thérapeutique car c'est au médecin du travail de la faire."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

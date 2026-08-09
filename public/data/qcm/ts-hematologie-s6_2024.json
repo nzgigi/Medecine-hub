@@ -1,0 +1,383 @@
+{
+  "matiere": "Tissu sanguin – Hématologie",
+  "slug": "ts-hematologie-s6",
+  "annee": 2024,
+  "title": "Tissu sanguin – Hématologie - 2024",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes médecin spécialisé en hématologie, et accueillez en consultation Monsieur Martin, âgé de 72 ans, aux antécédents d’hypertension artérielle, d’infarctus du myocarde en novembre 2021 ayant nécessité la pose d’un stent coronaire et de dyslipidémie, adressé par son médecin généraliste pour anémie.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes cliniques de gravité de l’anémie à rechercher dans ce contexte ?",
+          "choix": [
+            "A) Hypertension artérielle",
+            "B) Hypotension artérielle",
+            "C) Douleur thoracique",
+            "D) Pâleur cutanéo-muqueuse",
+            "E) Cyanose"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur Martin présente une dyspnée d’effort stade II NYHA sans douleur thoracique, avec une pâleur cutanéo-muqueuse. La pression artérielle est à 116/85 mmHg, la fréquence cardiaque est de 75 BPM, la saturation en O2 est à 98% en air ambiant, la fréquence respiratoire est à 15 cycles/minute. Il n’a pas pensé à prendre ses résultats biologiques mais vous dit que son hémoglobine était à 8 g/dL.\nQuels sont les paramètres biologiques vous permettant de caractériser cette anémie ?",
+          "choix": [
+            "A) VPM",
+            "B) VGM",
+            "C) CCMH",
+            "D) Réticulocytes",
+            "E) Erythroblastes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La secrétaire médicale a récupéré sa NFS : hémoglobine à 8,2 g/dL, VGM à 95 fL, réticulocytes à 65 G/L, CCMH à 33 g/dL, leucocytes à 9 G/L, polynucléaires neutrophiles à 4 G/L, polynucléaires éosinophiles à 0.3 G/L, polynucléaires basophiles à 0 G/L, lymphocytes à 2 G/L, monocytes à 2.7 G/L, plaquettes à 120 G/L. Comment interprétez-vous cet examen ?",
+          "choix": [
+            "A) Il s’agit d’une anémie macrocytaire arégénérative.",
+            "B) Il s’agit d’une anémie normocytaire régénérative.",
+            "C) Il s’agit d’une anémie normocytaire arégénérative.",
+            "D) Cette anémie s’associe à une autre cytopénie.",
+            "E) Il existe une anomalie de la formule leucocytaire."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Face à une anémie normocytaire arégénérative, quelles étiologies doivent être évoquer ?",
+          "choix": [
+            "A) Insuffisance rénale chronique",
+            "B) Inflammation aiguë",
+            "C) Carence en vitamine B9",
+            "D) Carence en vitamine B12",
+            "E) Hypothyroïdie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le reste du bilan biologique (CRP, ionogramme sanguin, créatinine, transaminases, gamma-GT, phosphatases alcalines et bilirubine totale) est normal. Le frottis sanguin est normal.\nDevant l’association d’une anémie normocytaire arégénérative, d’une thrombopénie et d’une monocytose, avec frottis sanguin normal, quel diagnostic doit-on évoquer ?",
+          "choix": [
+            "A) Une carence en vitamine B9",
+            "B) Une tumeur solide avec envahissement métastatique osseux",
+            "C) Une leucémie aiguë myéloïde",
+            "D) Une aplasie médullaire",
+            "E) Une myélodysplasie"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous évoquez donc une myélodysplasie de type leucémie myélomonocytaire chronique, entre le myélogramme et la biopsie ostéo-médullaire, quel est l’examen le plus adapté afin d’obtenir un diagnostic rapide ?",
+          "choix": [],
+          "reponses": [
+            "un myélogramme",
+            "myélogramme",
+            "le myélogramme",
+            "Myélogramme",
+            "Myelogramme",
+            "myelogramme",
+            "Le myélogramme",
+            "Myéologramme",
+            "Myellograme",
+            "Le myelogramme",
+            "Myelograme"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300466255-b84efa13c4cdd8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Madame M, 22 ans se présente en consultation pour asthénie depuis 8 jours, associée à une ﬁèvre à 39 °C et une angine rouge. AO l'examen clinique, vous notez des adénopathies cervicales bilatérales et axillaires modérées, et une rate palpable de 3 cm. A l'interrogatoire, elle indique avoir un « nouvel amoureux » depuis quelques semaines.\nVers quelle étiologie doit-on s’orienter en premier ?",
+          "choix": [
+            "A) Une hémopathie maligne",
+            "B) Un cancer",
+            "C) Une infection",
+            "D) Un syndrome dysimmunitaire",
+            "E) Aucune de ces propositions"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel examen biologique semble le plus pertinent pour explorer la maladie de votre patient ?",
+          "choix": [
+            "A) Myélogramme",
+            "B) Bilan d'hémostase (TP, TCA)",
+            "C) Hémogramme",
+            "D) Dosage de la ferritine",
+            "E) Examen cytobactériologique urinaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez prescrit un hémogramme dont la numération est la suivante :\nhématies 5,1 T/l, hématocrite 43,7 %, hémoglobine 14 g/dL, VGM 85 fL, CCMH 32 %, TCMH 28 pg, leucocytes 15 G/L, plaquettes 160 G/L.\nQue montre cet examen ?",
+          "choix": [
+            "A) Une anémie hyperchrome normocytaire",
+            "B) Une anémie hypochrome normocytaire",
+            "C) Une anémie normochrome normocytaire",
+            "D) Une anémie normochrome macrocytaire",
+            "E) Aucune de ces propositions"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez prescrit un hémogramme dont la numération est la suivante :\nhématies 5,1 T/l, hématocrite 43,7 %, hémoglobine 14 g/dL, VGM 85 fL, CCMH 32 %, TCMH 28 pg, leucocytes 15 G/L, plaquettes 160 G/L.\nQue montre cet examen ?",
+          "choix": [
+            "A) Une leucocytose",
+            "B) Une leucopénie",
+            "C) Une numération normale",
+            "D) Une thrombocytose",
+            "E) Une thrombopénie"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La formule sanguine précise la leucocytose : polynucléaires neutrophiles 4,7 G/L, polynucléaires éosinophiles 0,2 G/L, polynucléaires basophiles 0,2 G/L, lymphocytes 6 G/L, monocytes 0,9 G/L, présence de 20 % de cellules mononucléées hyperbasophiles. Que montre la formule sanguine ?",
+          "choix": [
+            "A) Une hyperlymphocytose avec présence de cellules mononucléées hyperbasophiles",
+            "B) La présence de blastes",
+            "C) Une monocytose",
+            "D) Une neutropénie",
+            "E) Une agranulocytose"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Compte-tenu des résultats de l’hémogramme et du tableau clinique, quelle est votre hypothèse diagnostique principale ?",
+          "choix": [
+            "A) Leucémie aiguë",
+            "B) Allergie",
+            "C) Carence vitaminique",
+            "D) Syndrome mononucléosique",
+            "E) Leucémie lymphoïde chronique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300468356-d083a9966d8f18",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne en anesthésie-réanimation et vous recevez Monsieur M., âgé de 56ans, connu pour une hypertrophie bénigne de la prostate qu’il a longtemps négligée, et pour lequel se pose maintenant l’indication de résection transurétrale de prostate. A l’interrogatoire, vous avez noté tous les symptômes du bas appareil urinaire qu’avait déjà rapporté votre co-interne d’urologie, ainsi qu’un syndrome métabolique traité par statines et une hypertension artérielle bien contrôlée sous bétabloquants. A l’examen clinique, vous notez la présence de quelques angiomes stellaires ainsi qu’un reflux hépato-jugulaire. Question 1 : Qu’avez-vous également demandé à Monsieur M. lors de l’interrogatoire ?",
+          "choix": [
+            "A) S’il pratique une activité physique régulière",
+            "B) S’il a déjà présenté des épisodes d’hématurie et/ou d’autres saignements",
+            "C) S’il a des troubles du transit",
+            "D) S’il a déjà été opéré et quelles avaient été les complications éventuelles",
+            "E) Si des membres de sa famille ont déjà présenté des complications hémorragiques"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne en anesthésie-réanimation et vous recevez Monsieur M., âgé de 56ans, connu pour une hypertrophie bénigne de la prostate qu’il a longtemps négligée, et pour lequel se pose maintenant l’indication de résection transurétrale de prostate. A l’interrogatoire, vous avez noté tous les symptômes du bas appareil urinaire qu’avait déjà rapporté votre co-interne d’urologie, ainsi qu’un syndrome métabolique traité par statines et une hypertension artérielle bien contrôlée sous bétabloquants. A l’examen clinique, vous notez la présence de quelques angiomes stellaires ainsi qu’un reflux hépato-jugulaire. Monsieur M. vous informe qu’il « ne saigne pas particulièrement », n’a jamais été opéré et qu’il n’existe aucune histoire hémorragique familiale.\nQuestion 2 : Que choisissez-vous de prévoir dans votre bilan préopératoire ?",
+          "choix": [
+            "A) Une numération formule sanguine",
+            "B) Une échocardiographie",
+            "C) Un groupage sanguin avec RAI",
+            "D) Un bilan d’hémostase avec TP, TCA et fibrinogène",
+            "E) Une fonction rénale et une fonction hépatique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous êtes interne en anesthésie-réanimation et vous recevez Monsieur M., âgé de 56ans, connu pour une hypertrophie bénigne de la prostate qu’il a longtemps négligée, et pour lequel se pose maintenant l’indication de résection transurétrale de prostate. A l’interrogatoire, vous avez noté tous les symptômes du bas appareil urinaire qu’avait déjà rapporté votre co-interne d’urologie, ainsi qu’un syndrome métabolique traité par statines et une hypertension artérielle bien contrôlée sous bétabloquants. A l’examen clinique, vous notez la présence de quelques angiomes stellaires ainsi qu’un reflux hépato-jugulaire. Monsieur M. vous informe qu’il « ne saigne pas particulièrement », n’a jamais été opéré et qu’il n’existe aucune histoire hémorragique familiale.\nPeu avant l’intervention de Monsieur M., vous lisez sous la numération formule sanguine : Hb 10,6 g/dL (13-17 g/dL), numération plaquettaire 123 G/L (150-450 G/L) et leucocytes 6,3 G/L (4-10 G/L), et sous le bilan d’hémostase : TP 34 % (70-100 %), ratio TCA 1,38 (<1,2) et fibrinogène 1,3 g/L (2-4 g/L).\nQuestion 3 : Quelle interprétation faites-vous de ces bilans biologiques au regard des éléments cliniques en votre possession ?",
+          "choix": [
+            "A) Vous suspectez une insuffisance rénale devant l’anémie et la thrombopénie",
+            "B) Vous suspectez une insuffisance hépatocellulaire devant la thrombopénie et le bilan d’hémostase",
+            "C) Vous suspectez une anémie par carence martiale devant le bilan d’hémostase",
+            "D) Vous suspectez une infection en cours car les leucocytes sont augmentés",
+            "E) Vous suspectez une coagulopathie de consommation devant la thrombopénie et le bilan d’hémostase"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne en anesthésie-réanimation et vous recevez Monsieur M., âgé de 56ans, connu pour une hypertrophie bénigne de la prostate qu’il a longtemps négligée, et pour lequel se pose maintenant l’indication de résection transurétrale de prostate. A l’interrogatoire, vous avez noté tous les symptômes du bas appareil urinaire qu’avait déjà rapporté votre co-interne d’urologie, ainsi qu’un syndrome métabolique traité par statines et une hypertension artérielle bien contrôlée sous bétabloquants. A l’examen clinique, vous notez la présence de quelques angiomes stellaires ainsi qu’un reflux hépato-jugulaire. Monsieur M. vous informe qu’il « ne saigne pas particulièrement », n’a jamais été opéré et qu’il n’existe aucune histoire hémorragique familiale.\nPeu avant l’intervention de Monsieur M., vous lisez sous la numération formule sanguine : Hb 10,6 g/dL (13-17 g/dL), numération plaquettaire 123 G/L (150-450 G/L) et leucocytes 6,3 G/L (4-10 G/L), et sous le bilan d’hémostase : TP 34 % (70-100 %), ratio TCA 1,38 (<1,2) et fibrinogène 1,3 g/L (2-4 g/L).\nEffectivement, vous suspectiez une insuffisance hépatocellulaire lors de l’examen clinique (angiomes stellaires, reflux, syndrome métabolique) ; les analyses biologiques semblent le confirmer.\nQuestion 4 : Vous discutez avec votre biologiste préféré pour convenir des analyses complémentaires à réaliser.",
+          "choix": [
+            "A) Devant l’insuffisance hépatocellulaire, vous dosez le facteur V",
+            "B) Vous recherchez un anticoagulant circulant de type lupique avant la chirurgie",
+            "C) Vous explorez le facteur de Willebrand devant l’allongement du TCA",
+            "D) Vous explorez les facteurs du complexe prothrombinique (facteur V, facteur X, facteur II)",
+            "E) Vous ne demandez rien car le patient est asymptomatique du point de vue de l’hémostase"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne en anesthésie-réanimation et vous recevez Monsieur M., âgé de 56ans, connu pour une hypertrophie bénigne de la prostate qu’il a longtemps négligée, et pour lequel se pose maintenant l’indication de résection transurétrale de prostate. A l’interrogatoire, vous avez noté tous les symptômes du bas appareil urinaire qu’avait déjà rapporté votre co-interne d’urologie, ainsi qu’un syndrome métabolique traité par statines et une hypertension artérielle bien contrôlée sous bétabloquants. A l’examen clinique, vous notez la présence de quelques angiomes stellaires ainsi qu’un reflux hépato-jugulaire. Monsieur M. vous informe qu’il « ne saigne pas particulièrement », n’a jamais été opéré et qu’il n’existe aucune histoire hémorragique familiale.\nPeu avant l’intervention de Monsieur M., vous lisez sous la numération formule sanguine : Hb 10,6 g/dL (13-17 g/dL), numération plaquettaire 123 G/L (150-450 G/L) et leucocytes 6,3 G/L (4-10 G/L), et sous le bilan d’hémostase : TP 34 % (70-100 %), ratio TCA 1,38 (<1,2) et fibrinogène 1,3 g/L (2-4 g/L).\nEffectivement, vous suspectiez une insuffisance hépatocellulaire lors de l’examen clinique (angiomes stellaires, reflux, syndrome métabolique) ; les analyses biologiques semblent le confirmer.\nL’exploration du complexe prothrombinique vous rapporte un facteur V à 28% (70-130%), un facteur X à 37% (70- 130%) et un facteur II à 34% (70-130%).\nQuestion 5 : Quelles sont les interprétations possibles ?",
+          "choix": [
+            "A) Il existe une hypovitaminose K",
+            "B) Il existe un déficit combiné constitutionnel en facteurs de la coagulation",
+            "C) Il existe un déficit combiné acquis en facteurs de la coagulation",
+            "D) Il existe une hémophilie B mineure",
+            "E) Il existe une insuffisance hépatocellulaire"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne en anesthésie-réanimation et vous recevez Monsieur M., âgé de 56ans, connu pour une hypertrophie bénigne de la prostate qu’il a longtemps négligée, et pour lequel se pose maintenant l’indication de résection transurétrale de prostate. A l’interrogatoire, vous avez noté tous les symptômes du bas appareil urinaire qu’avait déjà rapporté votre co-interne d’urologie, ainsi qu’un syndrome métabolique traité par statines et une hypertension artérielle bien contrôlée sous bétabloquants. A l’examen clinique, vous notez la présence de quelques angiomes stellaires ainsi qu’un reflux hépato-jugulaire. Monsieur M. vous informe qu’il « ne saigne pas particulièrement », n’a jamais été opéré et qu’il n’existe aucune histoire hémorragique familiale.\nPeu avant l’intervention de Monsieur M., vous lisez sous la numération formule sanguine : Hb 10,6 g/dL (13-17 g/dL), numération plaquettaire 123 G/L (150-450 G/L) et leucocytes 6,3 G/L (4-10 G/L), et sous le bilan d’hémostase : TP 34 % (70-100 %), ratio TCA 1,38 (<1,2) et fibrinogène 1,3 g/L (2-4 g/L).\nEffectivement, vous suspectiez une insuffisance hépatocellulaire lors de l’examen clinique (angiomes stellaires, reflux, syndrome métabolique) ; les analyses biologiques semblent le confirmer.\nL’exploration du complexe prothrombinique vous rapporte un facteur V à 28% (70-130%), un facteur X à 37% (70-130%) et un facteur II à 34% (70-130%).\nEffectivement, il s’agit d’un bilan d’hémostase typique d’un patient insuffisant hépatocellulaire pour lequel il conviendra d’effectuer une recherche étiologique (métabolique probable, infectieuse ? exogénose ?)\nQuestion 6 : Que proposez-vous pour la prise en charge de la chirurgie de prostate ?",
+          "choix": [
+            "A) Vous discutez de l’exploration de l’anémie et de sa correction éventuelle avant le geste",
+            "B) Vous discutez de la nécessité d’une transfusion plaquettaire",
+            "C) Vous discutez de l’intérêt du plasma frais congelé pour apporter tous les facteurs de la coagulation et le fibrinogène",
+            "D) Vous reportez la chirurgie car il vous manque toujours l’échocardiographie",
+            "E) Vous récupérez l’examen cytologique et bactériologique des urines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,399 @@
+{
+  "matiere": "Agents infectieux – Virologie",
+  "slug": "ai-virologie-s6",
+  "annee": 2025,
+  "title": "Agents infectieux – Virologie - 2025",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic et le traitement de l'infection par le HIV, il est vrai que :",
+          "choix": [
+            "A) Le test de dépistage standard est une sérologie combinée (Ag p24 + Ac VIH-1/2)",
+            "B) Un test positif doit toujours être confirmé par une PCR VIH",
+            "C) Le traitement antirétroviral est initié uniquement si la charge virale est >10 000 copies/mL",
+            "D) Le traitement antirétroviral a pour objectif d'obtenir une charge virale plasmatique indétectable",
+            "E) Une charge virale indétectable rend la transmission sexuelle négligeable"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'infection par le virus de l'hépatite E, il est vrai que :",
+          "choix": [
+            "A) Elle est surtout transmise par voie féco-orale",
+            "B) Elle peut évoluer vers une hépatite chronique chez l’immunodéprimé",
+            "C) Elle est fréquente chez les voyageurs revenant d’Amérique du Sud",
+            "D) Une forme grave peut survenir chez la femme enceinte",
+            "E) Il existe un vaccin disponible et recommandé en France"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic virologique de l'Hépatite B, il est vrai que :",
+          "choix": [
+            "A) La détection de l’Ag HBs permet le diagnostic d’infection par le VHB",
+            "B) La présence d’Ac anti-HBc IgM signe une infection aiguë",
+            "C) Le profil sérologique Ag HBs positif et Ac anti-HBc positifs évoque une infection ancienne guérie",
+            "D) La présence d’Ac anti-HBs indique une immunité protectrice",
+            "E) Le profil Ag HBs négatif, Ac anti-HBs négatif et Ac anti-HBc positifs évoque une immunité post-vaccinale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les infections par les Papillomavirus, il est vrai que :",
+          "choix": [
+            "A) Les génotypes 16 et 18 sont les plus oncogènes",
+            "B) Les verrues génitales sont liées aux HPV à haut risque",
+            "C) La vaccination HPV est recommandée dès 11 ans chez les filles uniquement",
+            "D) Le dépistage du cancer du col chez les femmes âgées de plus de 30 ans repose sur la recherche d’HPV oncogènes en première intention",
+            "E) L’infection à HPV est souvent transitoire et asymptomatique"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic et la prévention d'une Dengue, il est vrai que :",
+          "choix": [
+            "A) La PCR dans le sang est utile dans les 5 premiers jours suivant le début des symptômes",
+            "B) Il existe 4 sérotypes de Dengue et donc la possibilité de faire plusieurs infections consécutives",
+            "C) Durant la phase fébrile d'une Dengue symptomatique on peut retrouver une éruption maculeuse",
+            "D) La Dengue est une arbovirose dont un des moyens de prévention est la lutte antivectorielle",
+            "E) Il n'existe à ce jour aucun vaccin contre la Dengue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'infection par les virus de la grippe, il est vrai que :",
+          "choix": [
+            "A) Le diagnostic de grippe en période épidémique est le plus souvent un diagnostic clinique",
+            "B) La diagnostic virologique repose sur la détection de l'ARN viral par PCR sur aspiration nasale ou un écouvillonnage pharyngé",
+            "C) L'Oseltamivir (Tamiflu) est un inhibiteur de l'Hemagglutinine virale et bloque l'entrée du virus dans sa cellule cible",
+            "D) Les formes sévères d'infections grippales touchent particulièrement les sujets âgés (>65 ans)",
+            "E) La vaccination repose sur l'utilisation de souches virales inactivées d’influenza de type A et de type B"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293915450-bd3a36fe19b42",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sarah, 20 ans, consulte pour des brûlures génitales importantes et fièvre à 38,5°C depuis 2 jours. Elle décrit aussi des douleurs à la miction et une gêne à la marche. Elle a eu récemment un nouveau partenaire sexuel. À l’examen : vésicules douloureuses ulcérées vulvaires, conjonctivite bilatérale, adénopathies inguinales sensibles. L’hypothèse d’une primo-infection herpétique est évoquée.\nConcernant la présentation clinique d'une primo-infection herpétique, il est vrai que :",
+          "choix": [
+            "A) Elle peut être totalement asymptomatique",
+            "B) L’herpès génital est le plus souvent dû au HSV-1",
+            "C) L’herpès génital est toujours dû au HSV-2",
+            "D) La primo-infection à HSV-1 peut se présenter sous une forme bénigne de gingivostomatite",
+            "E) Une primo-infection herpétique induit une infection latente dans environ 75% des cas"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic virologique d'une infection génitale herpétique, il est vrai que :",
+          "choix": [
+            "A) La PCR sur prélèvement de lésion est l’examen de référence",
+            "B) La recherche d’IgM sériques permet de confirmer la primo-infection",
+            "C) La détection des IgG anti-HSV sériques est positive en cas antécédent d’herpès génital",
+            "D) En cas d'infection génitale masculine, le prélèvement de choix est l'urine",
+            "E) Un écouvillonnage vaginal pour PCR HSV est recommandé lors de l'accouchement pour prévenir l’Herpès néonatal chez les femmes ayant des récurrences d'herpès génital pendant la grossesse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le traitement de la primo-infection, il est vrai que :",
+          "choix": [
+            "A) Un traitement antiviral systémique est recommandé",
+            "B) L’acyclovir est inefficace sur le HSV-2",
+            "C) Le traitement doit débuter dans les 5 premiers jours d’évolution",
+            "D) Les formes sévères peuvent nécessiter un traitement IV",
+            "E) En cas de résistance à l'Aciclovir, un traitement par AZT peut-être proposé"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les moyens de prévention des infections herpétiques, il est vrai que :",
+          "choix": [
+            "A) L'utilisation du préservatif prévient complètement la transmission de l'herpès génital",
+            "B) Le vaccin est aussi efficace contre les infections à HSV-1 qu'à HSV-2",
+            "C) La transmission est possible en l'absence de lésions visibles",
+            "D) Le diagnostic de l'herpès néonatal inclut la détection de l'ADN viral sur prélèvements de l’œil, de la gorge et de la vulve à la naissance",
+            "E) En cas de lésions herpétiques au moment de l'accouchement, il est recommandé de pratiquer une césarienne"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes quel(s) est(sont) le(s) autres virus transmissible(s) par voie sexuelle ?",
+          "choix": [
+            "A) HIV",
+            "B) HBV",
+            "C) HEV",
+            "D) HPV",
+            "E) EBV"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les infections virales suivantes, la(es)quelle(s) peut(vent) être prévenue(s) par la vaccination ?",
+          "choix": [
+            "A) HSV1",
+            "B) HBV",
+            "C) HPV",
+            "D) HSV2",
+            "E) HIV"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293918432-e2e3c74d487598",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous êtes pédiatre dans un service d'urgences pédiatriques. Vous recevez Jason, un garçon de 5 ans, appartenant à la communauté des gens du voyage, accompagné de sa mère. Elle rapporte une fièvre élevée à 39,5°C, apparue depuis 3 jours, accompagnée d'une toux sèche, d'un écoulement nasal clair et d'une conjonctivite bilatérale. L'enfant est irritable, a peu d'appétit. Elle mentionne qu'une éruption cutanée est apparue ce matin.\nA l'examen clinique, vous retrouvez les symptômes décrits par la maman chez un enfant fatigué, mais réactif. Vous notez une éruption maculo-papuleuse débutant sur le visage et le haut du thorax. Le carnet de santé n'est pas à jour et vous n'y retrouvez aucune trace de vaccination.\nQuelle est l'étiologie la plus probable que vous évoque ce tableau clinique ?",
+          "choix": [
+            "A) Virus de la Rougeole",
+            "B) Enterovirus",
+            "C) Herpès Simplex Virus (HSV)",
+            "D) Virus Parainfluenza 4",
+            "E) Adénovirus"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de l'examen clinique de la muqueuse buccale, vous avez observé des taches blanchâtres de type taches de Koplik qui vous ont conforté dans votre hypothèse diagnostic de Rougeole. Concernant le diagnostic clinique d'une Rougeole, il est vrai que :",
+          "choix": [
+            "A) La présence de tache de Koplik est pathognomonique de la rougeole",
+            "B) L’éruption de la rougeole commence typiquement par les membres inférieurs",
+            "C) La conjonctivite et la toux sont des signes fréquents dans la rougeole",
+            "D) La confirmation diagnostique repose obligatoirement sur une sérologie",
+            "E) La période d’incubation est d’environ 10 à 12 jours"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les modes de transmission de la Rougeole, il est vrai que :",
+          "choix": [
+            "A) Elle se fait par voie oro-fécale",
+            "B) Le virus de la rougeole est l’un des plus contagieux",
+            "C) Le port du masque chirurgical permet de limiter la transmission",
+            "D) Le patient est contagieux 48 h avant l’éruption cutanée",
+            "E) Un isolement strict est recommandé à l’hôpital"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic virologique de la Rougeole",
+          "choix": [
+            "A) Repose sur la mise en évidence de l'ARN viral sur écouvillonnage cutané",
+            "B) Repose sur la détection d'IgM anti-rougeole par sérologie sur prélèvement sanguin",
+            "C) Peut se faire par détection de l'ARN viral sur prélèvement salivaire",
+            "D) Peut se faire par recherche de l'ARN viral dans les selles où le virus est excrété",
+            "E) Est une maladie à déclaration obligatoire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il est vrai que les complications possibles de la Rougeole sont :",
+          "choix": [
+            "A) Otite moyenne aiguë",
+            "B) Encéphalite aiguë post-infectieuse",
+            "C) Pancréatite hémorragique",
+            "D) Pneumopathie virale ou surinfection bactérienne",
+            "E) Panencéphalite sclérosante aigüe"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les moyens de prévention de la Rougeole par la vaccination, il est vrai que :",
+          "choix": [
+            "A) Le vaccin ROR est obligatoire depuis 2018 en France chez les nouveaux-nés",
+            "B) Une seule dose de ROR suffit pour une immunité à vie",
+            "C) La vaccination est indiquée chez la femme enceinte non immunisée",
+            "D) La couverture vaccinale souhaitable est de 50%",
+            "E) Le vaccin est contre-indiqué en cas d'immunosuppression"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

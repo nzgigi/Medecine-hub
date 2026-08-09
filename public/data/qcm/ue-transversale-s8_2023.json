@@ -1,0 +1,768 @@
+{
+  "matiere": "UE transversale",
+  "slug": "ue-transversale-s8",
+  "annee": 2023,
+  "title": "UE transversale - 2023",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez Mr R. âgé de 45 ans qui a mal à la jambe gauche depuis 6 jours. Ce patient est adapte de trail en montagne. Il ne prend pas de médicament. L’examen clinique retrouve une TA à 130/75, Fréquence cardiaque :96/min; fréquence respiratoire: 24 / mn; Température: 38°5; SaO2: 94%; une grosse jambe gauche douloureuse, surtout à la palpation du mollet. Tous les pouls périphériques sont perçus, l’auscultation cardiaque et pulmonaire est sans particularité. Il a fait un dépistage de cancer du colon par coloscopie il y a 2 ans en raison d'antécédent de cancer du colon chez son père à 55 ans. On lui a alors enlevé 3 polypes bénins.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous envisagez l'hypothèse d'une thrombose veineuse du membre inférieur gauche, mais vous vous assurez cliniquement de l'absence d'argument pour une dermo-hypodermite du membre inférieur gauche. Que recherchez vous en faveur de ce diagnostic? (6 réponses exactes)",
+          "choix": [
+            "A) diminution du ballant du mollet",
+            "B) dilatation du lacis veineux superficiel",
+            "C) trainée de lymphangite à la face interne de la cuisse",
+            "D) présence d'une adénopathie inguinale gauche",
+            "E) des accès de frissons à claquer des dents",
+            "F) douleur du mollet à la dorsiflexion du pied",
+            "G) un intertrigo inter-orteil",
+            "H) oedème blanc et mou du dos du pied",
+            "I) présence d'un érythème rapidement extensif et douloureux de la jambe",
+            "J) présence de bulles cutanées"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E",
+            "G",
+            "I",
+            "J"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L'examen ne retrouve pas d'argument pour une dermo-hypodermite. Tous les pouls périphériques sont perçus. Quel examen d’imagerie demandez-vous en première intention en urgence ?",
+          "choix": [],
+          "reponses": [
+            "Echodoppler veineux des membres inferieurs",
+            "Echo-doppler veineux des membres inferieurs",
+            "Echographie-doppler veineuse des membres inferieurs",
+            "echodoppler veineux membre inferieur",
+            "Echo-doppler veineux",
+            "echographie doppler veineux des membres inferieurs",
+            "Écho dopler veineux",
+            "echo-doppler veineux du membre inférieur gauche",
+            "écho-doppler veineux membres inférieurs",
+            "Echo-doppler veineux des MI",
+            "Echographie doppler des membres inférieurs",
+            "écho doppler veineux du membre inférieur",
+            "echo doppler veineux membres inferieurs",
+            "echodoppler veineux",
+            "echo doppler veineux",
+            "echo-doppler veineux",
+            "écho-doppler veineux",
+            "échodoppler veineux",
+            "écho Doppler veineux",
+            "Echo Doppler Veineux",
+            "echo-dopller veineux",
+            "echo doppler veineux du membre inferieur",
+            "Echo-doppler veineux du membre inférieur gauche",
+            "échographie doppler des veines du membre inférieur",
+            "Écho doppler veineux",
+            "echodoppler veineux du membre inferieur gauche",
+            "échodoppler veineux du membre inférieur gauche",
+            "echo-dopler veineux des membres inférieurs",
+            "Echo-doppler veineuse",
+            "Echo-doopler veineux",
+            "Echo-Doppler veineuse du membre inferieur",
+            "échographie doppler veineux du membre inférieur gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique (hémogramme, bilan hépatique, créatininémie, bandelette urinaire, C-réactive protéine, bilan d'hémostase) montre simplement une élévation de la CRP à 40 mg/L et un TCA du patient à 2,5 fois celui du témoin de type antiphospholipide. L’ échographie-doppler veineux du membre inferieur gauche retrouve une thrombose veineuse surale, poplitée et fémorale gauche sans caillot flottant.\nQuel(s) traitement(s) mettez-vous en place aux urgences ?",
+          "choix": [
+            "A) un traitement par aspirine",
+            "B) un traitement par HBPM",
+            "C) un filtre cave",
+            "D) un traitement par NACO",
+            "E) un alitement strict"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez retenu le diagnostic de thrombose proximale du membre inférieur gauche avec suspicion de syndrome des antiphospholipides compte tenu de la présence d'un anticoagulant circulant de type antiphospholipide sur le bilan d'hémostase, le patient a été mis sous AVK au long cours après une phase d'anticoagulation initiale par HBPM. Il revient vous voir 12 semaines après pour une asthénie inhabituelle, et vous montre son bilan biologique récent : Hémoglobine: 8,9g/dl, VGM 72μ3 plaquettes: 500 G/L; Globules blancs: 8,5 G/L; Ferritinémie 8 μg/l (N : 13-150) ; ionogramme sanguin équilibré, créatinine à 60 micromol/L. Vous suspectez:",
+          "choix": [
+            "A) une anémie hémolytique auto-immune",
+            "B) une anémie par carence martiale",
+            "C) une anémie par carence en folates",
+            "D) une anémie inﬂammatoire",
+            "E) on ne peut pas se prononcer car l'énoncé ne précise pas le taux de réticulocytes"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que proposez vous devant cette anémie par carence en fer ?",
+          "choix": [
+            "A) une coloscopie",
+            "B) une vidéocapsule",
+            "C) une gastroscopie",
+            "D) arrêter les anticoagulants puisque le patient a déjà été traité par 3 mois d'anticoagulation",
+            "E) une transfusion sanguine"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "neutralized": [
+            "E"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L'arrêt des anticoagulants fait courir un risque important de récidive de thrombose chez ce patient en raison du caractère extensif et récent de la thrombose, de la présence d'un anticoagulant circulant et de la possibilité d'un cancer digestif. L'exploration endoscopique avec biopsies est classée 'geste à faible risque hémorragique'. Quelle est la meilleure conduite à tenir?",
+          "choix": [
+            "A) reporter de 3 mois l'examen endoscopique",
+            "B) arrêter les AVK 5 jours avant l'examen et prescrire de l'aspirine",
+            "C) arrêter les AVK 7 jours avant l'examen et prescrire un anticoagulant oral direct jusqu'à la veille de l'examen",
+            "D) maintenir les AVK en gardant un INR < 3 et se limiter pour ce geste à une exploration endoscopique diagnostique avec biopsies, mais sans polypectomie.",
+            "E) maintenir les AVK à dose réduite assurant un INR < 1.5 le jour du geste"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300723733-9f9b73e1ce4ac",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez un patient de 56 ans, pour fatigue générale. Antécédents: hypertension artérielle traitée par hydrochlorothiazide-énalapril. Il prend aussi de nombreux compléments alimentaires 'pour lutter contre la fatigue'. Il a perdu 4 gk au cours du dernier mois et a largement restreint ses activités quotidiennes. Il dit avoir envie d'entreprendre des choses, ne pas avoir de tristesse particulière, dormir correctement. et boit abondamment depuis 2 mois, environ 3 litres par jour. Il fume 1 paquet de cigarette sans filtre par jour depuis 35 ans et tousse 'sec' en général pendant la saison des pollens depuis plusieurs années. L'examen physique retrouve , une expiration prolongée, un tympanisme et une diminution du murmure vésiculaire dans les bases pulmonaires sans sibilances. La tension artérielle est à 130/70 couché, 100/60 debout; le pouls passe de 70/ mn couché à 100/mn debout.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A ce stade, parmi les diagnostics suivants, lesquels sont possibles chez ce patient (plusieurs diagnostics peuvent être\nassociés)?",
+          "choix": [
+            "A) emphysème pulmonaire",
+            "B) bronchite chronique",
+            "C) cancer bronchique",
+            "D) hypercalcémie",
+            "E) diabète insipide",
+            "F) SIADH paranéoplasique",
+            "G) anémie",
+            "H) pleurésie",
+            "I) hypothyroïdie",
+            "J) rhumatisme paranéoplasique",
+            "K) insuffisance surrénalienne",
+            "L) effets indésirables médicamenteux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "G",
+            "I",
+            "K",
+            "L"
+          ],
+          "maxReponses": 8,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Votre bilan sanguin montre:\nhémogramme: 15 g/dl; urée: 20 mmol/l; créatininémie 130 µmol/l; calcémie: 3,6 mmol/l. Phosphore: 1,3 mmol/L (normes: 0.8- 1.2). Quatre diagnostics paraissent improbables. Lesquels? (2 réponses justes)",
+          "choix": [
+            "A) insuffisance rénale fonctionnelle secondaire à l'hypercalcémie",
+            "B) hyperparathyroïdie tertiaire",
+            "C) hyperparathyroïdie primaire",
+            "D) hyperparathyroïdie paranéoplasique",
+            "E) intoxication par la vitamine D",
+            "F) hypercalcémie sarcoïdosique",
+            "G) hypercalcémie en relation avec une hyperparathyroïdie secondaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "G"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "Question ANNULEE",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La radiographie du thorax a montré l'image jointe. la PTH est abaissée. Quel est la cause de l'hypercalcémie?",
+          "choix": [],
+          "reponses": [
+            "cancer bronchique",
+            "cancer du poumon",
+            "hypercalcémie paranéoplasique",
+            "paranéoplasique",
+            "cancer pulmonaire",
+            "cancer bronchique primitif",
+            "néoplasique",
+            "hyperparathyroïdie paranéoplasique",
+            "cancer broncho pulmonaire",
+            "hyperparathyroidie paraneoplasique",
+            "cancer broncho-pulmonaire",
+            "syndrome paraneoplasique",
+            "Cancer",
+            "hyperparathyroidie paranéoplasique",
+            "neoplasique",
+            "Hyperparathyroïdie paranéoplasique",
+            "cancer broncho-pulmonaire primitif",
+            "néoplasie pulmonaire",
+            "Cancer bronchopulmonaire avec secretion de PTHrp",
+            "syndrome paraneoplasique sur cancer bronchique",
+            "cancer bronchique avec hypercalcémie néoplasique",
+            "hypercalcémie paranéoplasique pulmonaire à PTHrp",
+            "cancereuse",
+            "Néoplasie bronchique droite",
+            "syndrome paranéoplasique avec sécrétion de PTHrp",
+            "noéplasique",
+            "carcinome bronchique",
+            "cancer bronchique droit",
+            "Cancer Broncho-Pulmonaire",
+            "neoplasie",
+            "hypercalcémie secondaire a un cancer",
+            "Hyperparathyroidie paraneoplasique sur carcinome bronchique",
+            "neoplasie pulmonaire",
+            "hyperparathyroidie neoplasique",
+            "sécrétion paranéoplasique PTHrp sur cancer bronchopulmonaire",
+            "tumeur lobe superieur droit poumon",
+            "paranéoplasique d'un cancer bronchique droit",
+            "syndrome para néoplasique",
+            "hyperparathyroidie secondaire au cancer bronchique",
+            "syndrome para-neoplasique",
+            "cancer bronchique avec production de PTHrp paranéoplasique",
+            "Cancer broncho-pulmonaire",
+            "hyperparathyroidie néoplasique",
+            "tumorale",
+            "cancer bronchique à petites cellules",
+            "cancer pulmonaire avec secretion paraneoplasmique",
+            "hyperparathyroïdie paraneoplasique",
+            "Cancer broncho-pulmonaire a petite cellule",
+            "cancer bronchopulmonaire à petite cellule",
+            "hypercalcémie néoplasique sur cancer pulmonaire",
+            "syndrome paraneoplasique d'un cancer du poumon droit",
+            "cancer bronchopulmonaire",
+            "cancer bronchique droit avec syndrome paraneoplasique",
+            "Hyperparathyroidie paranéoplasique",
+            "cancer pulmonaire avec PTHrp produit (syndrome paraneoplasique)",
+            "cancer primitif des bronches",
+            "cancer pulmonaire droit",
+            "syndrome paranéoplasique",
+            "Cancer broncho-pulmonaire primitif",
+            "Hypercalcémie para-néoplasique",
+            "sacoïdose"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/ue-transversale-s8/2023/q9.png?v=1786300725453"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300729952-581abfd0207408",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "9QRM,\n3QRU, 3QROC",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "devant des douleurs de l'appareil locomoteur de rythme inflammatoire évoluant depuis 3 mois touchant les mains et les poignets, sans atteinte axiale, quels diagnostics peut on évoquer?",
+          "choix": [
+            "A) lupus systémique",
+            "B) spondylarthrite ankylosante de forme périphérique",
+            "C) polyarthrite rhumatoïde",
+            "D) rhumatisme post-viral",
+            "E) rhumatisme psoriasique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "critiques": [
+            "C"
+          ],
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "les éléments diagnostiques d'une cruralgie sont:",
+          "choix": [
+            "A) douleur de face antérieure ou antéro-interne de cuisse",
+            "B) abolition du réflexe rotulien",
+            "C) amyotrophie quadricipitale",
+            "D) manoeuvre de Lasègue positive",
+            "E) anesthésie du dos du pied"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affections suivantes, lesquelles sont à risque de fracture par déminéralisation osseuse?",
+          "choix": [
+            "A) certains myélomes",
+            "B) maladie coeliaque",
+            "C) hyperparathyroïdie",
+            "D) cirrhose",
+            "E) cholangite sclérosante"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ce patient de 85 ans sans comorbidité majeure est hospitalisé en raison de douleurs intenses apparues il y a 1 semaine sur le tronc. L'examen physique montre des lésions cutanées (photo). il est apyrétique. Quelles sont les affirmations exactes?",
+          "choix": [
+            "A) il s'agit d'un érysipèle nécrosant",
+            "B) le patient relève de perfusions d'acyclovir",
+            "C) à ce stade le paracétamol est généralement inefficace pour traiter la douleur",
+            "D) cette affection peut révéler une maladie évolutive sous jacente",
+            "E) en cas d'immunodépression, cette maladie peut évoluer vers une varicelle"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/ue-transversale-s8/2023/q13.png?v=1786300733226"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le pseudo-asthme cardiaque, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) il s'agit d'une manifestation d'insuffisance cardiaque chez le sujet âgé",
+            "B) il survient uniquement de façon préférentielle au printemps",
+            "C) l'auscultation révèle des sibilances",
+            "D) il requiert des corticoïdes par voie orale pour son traitement",
+            "E) il requiert des diurétiques pour son traitement"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant ce patient essoufflé, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) l'examen physique devrait montrer une matité à droite",
+            "B) l'examen physique devrait retrouver une disparition du murmure vésiculaire à droite",
+            "C) il y a une opacité en nappe à droite",
+            "D) l'image est évocatrice de pleurésie",
+            "E) le rapport cardio-thoracique est normal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/ue-transversale-s8/2023/q15.png?v=1786300734398"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mme A, 26 ans, présente une douleur aiguë localisée à la fosse iliaque droite non soulagée par les antalgiques prescrits à domicile et des nausées. Elle est subfébrile.Vous retrouvez un défense à la palpation de la fosse iliaque droite. Elle n'a pas de symptômes urinaires, pas de pertes vaginales anormales, la mobilisation utérine n'est pas douloureuse. Le toucher vaginal déclenche cependant une douleur à droite. Quel est votre première hypothèse diagnostique? (1 seul mot; toute réponse de plus de 1 mot sera comptée fausse).",
+          "choix": [],
+          "reponses": [
+            "appendicite",
+            "appendicite",
+            "apendicite",
+            "appendicite aigue",
+            "Apindicite"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mr B, 84 ans, est hospitalisé en raison d'une douleur abdominale. Les constantes vitales sont: température, 39,2°C; Tension artérielle: 120/80; pouls 110 / mn; Fréquence respiratoire: 24 / mn. Auscultation cardiaque et pulmonaire normale, examen des aires ganglionnaires, du foie et de la rate normal, examen cutané normal, pas de raideur de nuque, pas d'anomalie à l'examen neurologique. L'examen abdominal retrouve une douleur avec défense en fosse iliaque gauche. Quel est votre diagnostic? (1 seul mot)",
+          "choix": [],
+          "reponses": [
+            "diverticulite",
+            "sigmoïdite",
+            "sigmoidite",
+            "Sigmoidite"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Monsieur C, alcoolique au stade de cirrhose avancée, est adressé aux urgences en raison d'une aggravation brutale de son état général. A l'arrivée aux urgences, il est très pâle et a très soif. Le pouls est à 130/mn régulier. La tension artérielle est à 70/50 mm Hg. Il n'est pas fébrile, il y a une ascite de moyenne abondance, une circulation collatérale marquée. Quel est la première hypothèse diagnostique? (en 4 mots).",
+          "choix": [],
+          "reponses": [
+            "rupture de varices oesophagiennes",
+            "rupture des varices oesophagiennes",
+            "rupture de varice oesophagienne",
+            "Rupture de varice oesophagienne",
+            "rupture de varices oesophagienne",
+            "Rupture des varices oesophagiennes",
+            "rupture des varices œsophagiennes",
+            "rupture des varices oesophagienes",
+            "rupture de varice oesophagien",
+            "rupture de varice",
+            "Rupture des varices œsophagiennes",
+            "hemmoragie sur rupture de varices oesophagiennes",
+            "Rupture de varices oeosphagiennes",
+            "Rupture des Varices Oesophagiennes",
+            "Rupture de varices oesophagienne",
+            "choc hémorragique sur rupture varices oesophagiennes",
+            "choc hemorragique sur rupture de varice oesophagienne",
+            "choc hémorragique par rupture de varices œsophagiennes",
+            "rupture de varices oeusophagiennes",
+            "hemorragie sur rupture varices",
+            "rupture varices oesophagiennes",
+            "hemorragie sur rupture de varice",
+            "ruptures de varices oesophagiennes",
+            "choc hémorragique rupture varices",
+            "hemorragie par rupture varcice",
+            "Ruptures des varices oesophagiennes"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Ce patient de 65 ans a perdu brutalement la vision de l'oeil droit depuis 24 heures. Il est capable de vous dire que ceci s'est installé à 18h15. Il devine vaguement quelques formes. Il n'y a pas de douleurs. Vous suspectez:",
+          "choix": [
+            "A) une neuropathie optique inflammatoire",
+            "B) une vascularite rétinienne",
+            "C) une neuropathie optique ischémique antérieure aigue",
+            "D) une uvéite antérieure",
+            "E) une uvéite postérieure"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez vous en priorité (diagnostic le plus probable) chez un homme de 68 ans, IMC à 32, traité par furosémide, avec fonction rénale altérée, DFG à 25, qui présente une hydarthrose aigue et douloureuse du genou droit en l'absence de fièvre?",
+          "choix": [
+            "A) arthrite rhumatoïde",
+            "B) crise de goutte",
+            "C) poussée d'arthrose",
+            "D) arthrite septique",
+            "E) rhumatisme psoriasique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "on rencontre classiquement une tachycardie dans les situations suivantes, sauf une. Laquelle?",
+          "choix": [
+            "A) péricardite aigue bénigne",
+            "B) hyperthyroïdie",
+            "C) crise de panique",
+            "D) choc hémorragique",
+            "E) fièvre typhoïde"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le QUICK SOFA, quelles sont les réponses justes?",
+          "choix": [
+            "A) en cas de sepsis, il permet d'évaluer si un patient a un risque de mortalité > 10%",
+            "B) il prend en compte le fréquence respiratoire",
+            "C) il prend en compte la saturation en oxygène mesurée par voie transcutanée",
+            "D) il prend en compte l'état de conscience",
+            "E) il prend en compte la tension artérielle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes cliniques peut-on rencontrer au cours de l'infection urinaire masculine?",
+          "choix": [
+            "A) dysurie",
+            "B) pollakiurie",
+            "C) rétention aigüe d'urine",
+            "D) confusion chez un sujet âgé",
+            "E) toucher rectal douloureux"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une douleur de la fosse lombaire droite et du flanc, sans fièvre avec une bandelette urinaire retrouvant hématurie ++++, on peut évoquer :",
+          "choix": [
+            "A) un infarctus rénal",
+            "B) un calcul vésical",
+            "C) une hydronéphrose sur cancer des voies urinaires",
+            "D) une crise de colique néphrétique",
+            "E) une rétention aigue d'urine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15,
+          "critiques": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300742307-a7524ee4499948",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous venez de faire le diagnostic de polyarthrite rhumatoïde active, facteurs rhumatoïdes fortement positifs, chez une de vos patientes de 35 ans, infirmière, sans autre antécédent qu'un tabagisme à 1 paquet par jour depuis 10 ans. Elle est originaire des Antilles. Vous débutez un traitement de fond synthétique conventionnel de première ligne par méthotrexate associé à 20 mg de prednisone.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le méthotrexate, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) il s'agit d'un immunosuppresseur antimétabolite",
+            "B) par voie orale, la prise de médicament est quotidienne",
+            "C) par voie sous cutanée, la prise du médicament est hebdomadaire",
+            "D) le médicament est hépatotoxique",
+            "E) le médicament est hématotoxique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prévoyez de sevrer la patiente au bout de 10 semaines de corticoïdes. Concernant le risque d'ostéoporose chez cette patiente, que recommandez vous (1 ou plusieurs réponses sont possibles)?",
+          "choix": [
+            "A) une activité physique régulière",
+            "B) des apports calciques, alimentaires et/ou médicamenteux, d'au moins 2,5 grammes par jour",
+            "C) une supplémentation vitaminique 10.000 (dix mille) unités tous les 3 mois",
+            "D) la réalisation d'une densitométrie osseuse",
+            "E) un traitement par diphosphonate oral compte tenu de la forte dose de corticoïdes prescrite, à arrêter au bout de 2 mois"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) traitement(s) mettez-vous en place pour prévenir l'anguillulose maligne chez cette patiente Antillaise?",
+          "choix": [
+            "A) trédémine",
+            "B) Ivermectine",
+            "C) praziquantel",
+            "D) albendazole",
+            "E) aucun car il n'y a pas d'éosinophilie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un mois après, la patiente n'a pas diminué sa corticothérapie car elle se sentait bien avec, et elle a la crainte que sa maladie redémarre trop rapidement. L'hémogramme de contrôle à 1 mois retrouve une polynucléose à 10.6 G/L, contre 8,6 G/L au diagnostic 1 mois plus tôt. La patiente ne se plaint de rien de particulier. Son examen physique est normal en dehors de la persistance de douleurs à la mobilisation des deux poignets et à la palpation des deux métacarpo-phalangiennes des 2ième et 3ième rayons aux deux mains. La CRP est à 2 mg/L. Quelles sont les affirmations exactes?",
+          "choix": [
+            "A) la polynucléose peut être due au méthotrexate",
+            "B) il faut l'envoyer faire des hémocultures systématiques",
+            "C) la polynucléose peut être due aux corticoïdes",
+            "D) la polynucléose peut être due au tabagisme",
+            "E) l'origine Antillaise de la patiente rend compte en partie de la polynucléose (polynucléose ethnique)"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente revient vous voir à 4 mois du début du traitement car elle reste polyarthralgique sous 8 mg de prednisone. Elle se plaint de plus depuis une semaine d'un douleur rétrosternale maximale à l'inspiration, soulagée partiellement par l'antéflexion du tronc, et d'une dyspnée de grade III. L'examen clinique retrouve quelques râles crépitants secs des deux bases pulmonaires, imitant un bruit de Velcro, et un bruit surajouté discret, médio-thoracique, systolo-diastolique variable selon la respiration et les positions de la patiente. la CRP est à 70 mg/L, les polynucléaires neutrophiles à 12,8 G/L, les D-dimères sont à 900 µg/L. Quelles sont les affirmations exactes?",
+          "choix": [
+            "A) la patiente a probablement une péricardite rhumatoïde",
+            "B) la patiente a probablement une pleurésie rhumatoïde",
+            "C) la patiente a très certainement une embolie pulmonaire",
+            "D) on ne peut pas exclure une embolie pulmonaire chez cette patiente",
+            "E) on évoque une fibrose pulmonaire débutante dans le cadre de sa PR"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le choix du traitement s'est porté sur le tocilizumab. Quelles sont les affirmations exactes?",
+          "choix": [
+            "A) il s'agit d'une prescription hors AMM",
+            "B) il s'agit d'un anti-TNF",
+            "C) il s'agit d'un anti-CD20",
+            "D) il s'agit d'un anti-IL6",
+            "E) le médicament est disponible par voie sous cutanée"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

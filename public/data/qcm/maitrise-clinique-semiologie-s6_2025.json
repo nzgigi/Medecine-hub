@@ -1,0 +1,629 @@
+{
+  "matiere": "Maîtrise clinique et sémiologie",
+  "slug": "maitrise-clinique-semiologie-s6",
+  "annee": 2025,
+  "title": "Maîtrise clinique et sémiologie - 2025",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’asthénie, quelles ont les propositions justes (QRM) ?",
+          "choix": [
+            "A) L’asthénie organique est présente à son maximum dès le matin",
+            "B) L’asthénie psychogène peut s’associer à des difficultés d’endormissements",
+            "C) L’asthénie psychogène peut s’associer à des réveils nocturnes spontanés",
+            "D) La présence d’un amaigrissement oriente d’emblée vers une asthénie organique",
+            "E) Une carence martiale peut s’exprimer par une asthénie isolée"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) le(s) signe(s) clinique(s) pouvant être évocateur(s) d’une hyperthyroïdie (QRM) ?",
+          "choix": [
+            "A) Prise de poids",
+            "B) Constipation",
+            "C) Tremblements des extrémités",
+            "D) Palpitations",
+            "E) Asthénie"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, quelles sont celles dans lesquelles on peut entendre des crépitants (QRM) ?",
+          "choix": [
+            "A) Fibrose pulmonaire",
+            "B) Asthme",
+            "C) OAP",
+            "D) Pneumonie aigue",
+            "E) BPCO"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic devez-vous évoquer prioritairement devant une douleur en épigastre, brutale, intense, irradiant en arrière, non calmée par l’alimentation, sans défense ni contracture à la palpation abdominale (QRU) ?",
+          "choix": [
+            "A) Colique hépatique",
+            "B) Syndrome ulcéreux",
+            "C) Colite infectieuse",
+            "D) Pancréatite aiguë",
+            "E) Péritonite"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des troubles de la sensibilité, quelles propositions sont exactes (QRM) ?",
+          "choix": [
+            "A) L’hypoesthésie correspond à une diminution de la sensibilité",
+            "B) L’anesthésie correspond à une abolition de la sensibilité",
+            "C) L’allodynie corresponds à une sensation douloureuse lors d’un stimulus qui ne l’est pas",
+            "D) Les paresthésies correspondent à des sensations anormales à type de picotements, fourmillements",
+            "E) Il peut exister une dissociation entre l’atteinte de la sensibilité au tact (épicritique) et celle de la douleur (thermo-algique)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": ". Quels éléments sémiologiques font partie du syndrome cérébelleux (QRM) ?",
+          "choix": [
+            "A) Un signe de Babinski",
+            "B) Une ataxie à la marche",
+            "C) Une dysarthrie",
+            "D) Une dysmétrie",
+            "E) Une amyotrophie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez un patient de 47 ans pour le renouvellement de ses traitements habituels. A la fin de la consultation il vous parle d’un grain de beauté dans le dos que sa femme ne trouve « pas très joli » et il souhaiterait votre avis. Voici la lésion qui fait 25 mm de grand axe.\nVous prenez un avis dermatologique, comment décririez-vous cette lésion ?",
+          "choix": [
+            "A) Il s’agit d’une lésion vasculaire",
+            "B) Il s’agit d’une lésion pigmentée",
+            "C) Il existe une papule au centre de la lésion",
+            "D) La lésion est asymétrique",
+            "E) Le caractère polychrome vous inquiète"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/maitrise-clinique-semiologie-s6/2025/q7.png?v=1786296840886"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevrez en consultation une patiente de 78 ans, pour une douleur aigue de la jambe gauche. Elle vous explique avoir eu de la fièvre à la maison (38.9°C). A l’examen clinique vous retrouvez cet aspect de la jambe gauche. Quelles sont les affirmations justes ?",
+          "choix": [
+            "A) On note un placard érythémateux bien délimité du membre inférieur gauche",
+            "B) On note un œdème du dos du pied et de la jambe gauches",
+            "C) Vous suspectez une dermohypodermite (érysipèle)",
+            "D) Vous recherchez des signes d’embolie pulmonaire",
+            "E) Il s’agit d’une insuffisance cardiaque droite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/maitrise-clinique-semiologie-s6/2025/q8.png?v=1786296841647"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du syndrome fébrile, quelles sont les affirmations justes (QRM) ?",
+          "choix": [
+            "A) Une fièvre en plateau évoque une cause infectieuse",
+            "B) Les frissons sont présents au moment de la montée thermique",
+            "C) Les sueurs s’observent lors de la défervescence thermique",
+            "D) Une hyperthermie <39,2°C s’appelle une fébricule",
+            "E) une fréquence respiratoire à 30/mn est un signe de gravite"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’hématurie macroscopique, quelles sont les affirmations justes (QRM) :",
+          "choix": [
+            "A) Elle peut être d’origine néphrologique",
+            "B) Elle est totale lorsqu’elle est d’origine rénale",
+            "C) Elle est initiale lorsqu’elle est d’origine vésicale",
+            "D) ses causes sont les mêmes que l’hématurie microscopique",
+            "E) Elle est un symptôme dont la cause doit être recherchée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen sénologique, quelles sont les propositions justes (QRM) ?",
+          "choix": [
+            "A) Il comprend toujours un temps les bras le long du corps (ou les mains sur les hanches) et un temps les bras levés",
+            "B) À l’inspection, un méplat ou une rétraction sont des signes évocateurs d’une tumeur du sein",
+            "C) Il ne doit être réalisé que sur une patiente debout",
+            "D) Un écoulement mammelonaire peut être physiologique en dehors de la grossesse",
+            "E) L’examen des aires ganglionnaires à la recherche d’adénopathies suspectes est primordial"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes d’insuffisance cardiaque droite (QRM) ?",
+          "choix": [
+            "A) Turgescence jugulaire",
+            "B) Crépitants humides des bases pulmonaires",
+            "C) Hépatomégalie douloureuse",
+            "D) Souffle diastolique le long du bord gauche du sternum",
+            "E) Œdème unilatéral d’un membre inférieur"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient est hospitalisé pour dyspnée. Vous suspectez un pneumothorax droit. Quelles anomalies seraient en faveur à l’examen physique (QRM) ?",
+          "choix": [
+            "A) Matité à droite",
+            "B) Tympanisme à droite",
+            "C) Abolition du murmure vésiculaire à droite",
+            "D) Crépitants secs à droite",
+            "E) Augmentation des vibrations vocales à droite"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les anomalies auscultatoires d’une insuffisance mitrale (QRM) ?",
+          "choix": [
+            "A) Bruit à type de souffle",
+            "B) Temps diastolique",
+            "C) Temps systolique",
+            "D) Timbre 'en jet de vapeur'",
+            "E) Irradiation vers le cou"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente de 34 ans consulte pour une douleur fosse iliaque droite. Quel élément vous ferait évoquer une grossesse extra-utérine plutôt qu’un diagnostic différentiel (QRU) ?",
+          "choix": [
+            "A) Métrorragies",
+            "B) Leucorrhée",
+            "C) Douleur à la palpation fosse iliaque droite",
+            "D) Irradiation de la douleur vers les organes génitaux externes",
+            "E) Vomissements"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les râles sibilants, quelle affirmation est fausse?",
+          "choix": [
+            "A) ces râles peuvent être diffus en cas de crise d'asthme",
+            "B) on peut les rencontrer dans certaines infections virales",
+            "C) ils sont présents à l'inspiration et à l'expiration",
+            "D) on peut les rencontrer en cas d'insuffisance cardiaque du sujet âgé",
+            "E) ils peuvent être provoqués par une prise de beta-bloquant"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes de diabète insulinodépendant?",
+          "choix": [
+            "A) polyurie",
+            "B) polydypsie",
+            "C) prise de poids rapide",
+            "D) fatigue",
+            "E) perte d'appétit"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes doivent faire évoquer une rétention aigue d'urine?",
+          "choix": [
+            "A) matité sus-pubienne",
+            "B) douleur sus-pubienne",
+            "C) douleur en fosse lombaire unilatérale",
+            "D) confusion chez un sujet âgé",
+            "E) brûlures mictionnelles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Rattacher un type de douleur à son mécanisme ou son origine\nÉlément à associer Réponse attendue\nbrûlure neuropathique\ndouleur à type de torsion souffrance d'un viscère creux\nconstrictive ischémie\nimpulsive à la toux pleurale\nirradiant en face externe de cuisse et de jambe radiculaire",
+          "choix": [
+            "neuropathique",
+            "souffrance d'un viscère creux",
+            "ischémie",
+            "pleurale",
+            "radiculaire"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 19,
+          "items": [
+            {
+              "id": "item-1786296847103-0345370902a46",
+              "label": "brûlure",
+              "correctAnswer": "neuropathique"
+            },
+            {
+              "id": "item-1786296847251-679a40ae33d0b",
+              "label": "douleur à type de torsion",
+              "correctAnswer": "souffrance d'un viscère creux"
+            },
+            {
+              "id": "item-1786296847388-dfd877b44d8e6",
+              "label": "constrictive",
+              "correctAnswer": "ischémie"
+            },
+            {
+              "id": "item-1786296847523-e0d4504b4293",
+              "label": "impulsive à la toux",
+              "correctAnswer": "pleurale"
+            },
+            {
+              "id": "item-1786296847674-e29ce23f5fead",
+              "label": "irradiant en face externe de cuisse et de jambe",
+              "correctAnswer": "radiculaire"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes possibles du syndrome pyramidal?",
+          "choix": [
+            "A) réflexe cutané plantaire en flexion",
+            "B) augmentation de l'aire réflexogène",
+            "C) hypotonie",
+            "D) hypertonie",
+            "E) signe de la roue dentée"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes peut on rencontrer au cours de la confusion?",
+          "choix": [
+            "A) désorientation temporelle",
+            "B) des troubles de la mémoire et de l'attention",
+            "C) agitation psychomotrice",
+            "D) altération de la vigilance",
+            "E) désorientation spatiale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On pense à une démence devant:",
+          "choix": [
+            "A) un trouble de la mémoire d'installation brutale",
+            "B) un trouble du jugement ou du raisonnement d'apparition progressive",
+            "C) un syndrome aphaso-apraxo-agnosique chez un sujet de 83 ans",
+            "D) un état de mélancolie délirante",
+            "E) un épisode psychotique aigu"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle particularité du rétrécissement aortique orificiel (RAO) est juste?",
+          "choix": [
+            "A) le RAO est responsable d'un bruit de roulement",
+            "B) le bruit de RAO est doux, lointain , voilé",
+            "C) on entend le RAO au temps systolique",
+            "D) on recherche le RAO au deuxième foyer intercostal gauche",
+            "E) le RAO irradie dans l'aisselle"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel signe clinique n'est pas évocateur de syncope vagale?",
+          "choix": [
+            "A) présence de prodromes",
+            "B) pâleur",
+            "C) sueurs",
+            "D) tension artérielle systolique à 50 mm Hg",
+            "E) tachycardie"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 24
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'hypotension orthostatique, quelles sont les affirmations vraies?",
+          "choix": [
+            "A) Elle se définit par la perte de 40 mm Hg de tension artérielle systolique (TAS) lors du passage à l'orthostatisme",
+            "B) elle se définit par l'absence de tachycardie en réponse à une chute de TAS d'au moins 20 mm Hg",
+            "C) elle peut être suivie de syncope vagale",
+            "D) elle doit systématiquement être recherchée lors d'une première prise de tension artérielle chez un nouveau patient",
+            "E) elle est généralement due à une maladie neurologique"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        },
+        {
+          "id": 26,
+          "type": "VALEUR_NUMERIQUE",
+          "contexte": "",
+          "question": "A partir de quelle valeur de BMI parle-t-on d'obésité ?\nÉnoncé",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 26,
+          "numericRange": {
+            "min": 30,
+            "max": 30
+          }
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On peut rencontrer un ictère au cours de :",
+          "choix": [
+            "A) la lithiase vésiculaire",
+            "B) la lithiase cholédocienne",
+            "C) l' hémolyse chronique",
+            "D) une cirrhose hépatique",
+            "E) une hépatite virale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 27
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On peut rencontrer une polypnée au cours de:",
+          "choix": [
+            "A) l'acido-cétose diabétique",
+            "B) une crise d'asthme non sévère",
+            "C) un choc hémorragique",
+            "D) une intoxication aux morphiniques",
+            "E) une crise d'angoisse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 28
+        },
+        {
+          "id": 29,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez vous chez un jeune homme de 35 sans facteurs de risque cardiovasculaire qui se présente aux urgences pour une douleur thoracique médio-sternale apparue en quelques heures, augmentant à l'inspiration profonde, et diminuée par l'antéflexion du tronc? (répondre par un seul mot)",
+          "choix": [],
+          "reponses": [
+            "PERICARDITE",
+            "péricardite",
+            "Péricardite"
+          ],
+          "correctionExplanation": "péricardite",
+          "order": 29
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les caractéristiques du zona?",
+          "choix": [
+            "A) répartition métamérique des lésions",
+            "B) la lésion élémentaire est papuleuse",
+            "C) présence d'une érythème diffus",
+            "D) douleur à type de brûlure",
+            "E) douleur dans un territoire radiculaire"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 30
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

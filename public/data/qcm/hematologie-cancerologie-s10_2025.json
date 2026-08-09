@@ -1,0 +1,1280 @@
+{
+  "matiere": "Hématologie et cancérologie",
+  "slug": "hematologie-cancerologie-s10",
+  "annee": 2025,
+  "title": "Hématologie et cancérologie - 2025",
+  "total_questions": 40,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Madame B., 36 ans, consulte pour une masse palpable au sein droit, apparue, dit-elle, il y a quelques jours.\nElle ne présente aucun antécédent médical notable.\nSes premières règles sont survenues à l'âge de 11 ans et elle utilise actuellement un dispositif intra-utérin au cuivre comme contraception.\nElle exprime une inquiétude particulière car sa mère est décédée d'un cancer des ovaires à l'âge de 45 ans.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les éléments cliniques et anamnestiques qui peuvent vous conduire à évoquer un cancer du sein ? (5 réponses exactes attendues)",
+          "choix": [
+            "A) Son âge",
+            "B) L'âge de sa puberté",
+            "C) L'histoire familiale",
+            "D) La durée d'évolution de la masse",
+            "E) La présence d’une adénopathie axillaire",
+            "F) La présence d’un érythème cutané du sein",
+            "G) La présence d’un nodule induré dans le sein droit",
+            "H) Son moyen de contraception",
+            "I) L'absence de tabagisme actif ou passif"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À l’examen clinique, vous retrouvez un nodule de 3 cm au niveau du quadrant supéro-externe du sein droit associé à une adénopathie axillaire palpable.\nVous la confiez à un radiologue.\nElle revient vous voir deux semaines plus tard avec les résultats d’une biopsie de la tumeur mammaire retrouvant un carcinome canalaire infiltrant de type non spécifique de grade Elston et Ellis III (3+3+2), récepteurs œstrogène 5%, récepteurs progestérone 2%, Ki67 80%, HER2 non amplifié.\nLe ganglion palpable est envahi par le même carcinome.\nUne analyse en biologie moléculaire de la biopsie a également retrouvé une mutation hétérozygote sur le gène BRCA1 au locus c.330A>G ; p.(Arg71Gly).\nQuel(s) élément(s) de mauvais pronostic retrouvez vous ?",
+          "choix": [
+            "A) La présence d’une expression des récepteurs hormonaux.",
+            "B) L’index de prolifération Ki67.",
+            "C) La présence d’une surexpression de HER2.",
+            "D) La présence d’une mutation BRCA1.",
+            "E) La présence d’une atteinte ganglionnaire."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle a également réalisé cet examen.\nConcernant celui-ci :",
+          "choix": [
+            "A) Il s’agit d’un examen réalisé en médecine nucléaire.",
+            "B) Il est indiqué dans le bilan à distance du cancer du sein.",
+            "C) Il montre une atteinte métastatique pulmonaire.",
+            "D) Il est très utile pour rechercher des lésions secondaires cérébrales.",
+            "E) Il permet de définir le projet thérapeutique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/hematologie-cancerologie-s10/2025/q3.png?v=1786296126581"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il a été proposé en réunion de concertation pluridisciplinaire un traitement néoadjuvant.\nVous recevez maintenant Madame B. en consultation d'annonce.\nQuelle(s) réponse(s) est/sont correcte(s) ?",
+          "choix": [
+            "A) Le traitement néoadjuvant vise à réduire la taille de la tumeur mammaire primitive et du ganglion axillaire.",
+            "B) Un traitement néoadjuvant peut être envisagé en situation métastatique.",
+            "C) Cette consultation d'annonce doit inclure un temps paramédical.",
+            "D) Lors de cette consultation d'annonce, vous devez obligatoirement remettre un plan de soin personnalisé.",
+            "E) Un traitement néoadjuvant, comme un traitement adjuvant, vise à traiter les éventuelles micrométastases."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le traitement néoadjuvant en oncologie, q uelle(s) réponse(s) est/sont correcte(s) ? ?",
+          "choix": [
+            "A) Il ne peut pas inclure une association de chimiothérapie et de radiothérapie externe.",
+            "B) Son efficacité peut être évaluée dans les études cliniques en mesurant la survie sans progression.",
+            "C) Son efficacité peut être évaluée dans les études cliniques en mesurant la survie globale.",
+            "D) Son efficacité peut être évaluée dans les études cliniques en mesurant la qualité de la réponse histologique sur la pièce opératoire, car une chirurgie est réalisée par la suite.",
+            "E) Il est souvent recommandé pour préserver l'organe atteint par la tumeur primitive."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le traitement néoadjuvant comprendra 4 cycles de CARBOPLATINE-PACLITAXEL et 4 cycles d'EPIRUBICINE-CYCLOPHOSPHAMIDE, associés à une immunothérapie (PEMBROLIZUMAB). Quelle(s) réponse(s) est/sont correcte(s) ?",
+          "choix": [
+            "A) Une consultation de préservation de la fertilité doit être proposée.",
+            "B) Une alopécie définitive est attendue.",
+            "C) Une neurotoxicité liée au PACLITAXEL est attendue.",
+            "D) Un bilan cardiovasculaire doit être effectué avant le début du traitement néoadjuvant.",
+            "E) Un traitement anti-émétique doit être proposé en prophylaxie primaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'épisode aigu est désormais résolu.\nElle revient vous consulter car une consultation d'oncogénétique lui a été proposée.",
+          "choix": [
+            "A) En cas de mutation constitutionnelle BRCA1, son risque de développer un cancer du col de l’utérus est plus élevé que dans la population générale.",
+            "B) En cas de mutation constitutionnelle BRCA1, son risque de développer un deuxième cancer du sein est plus élevé que dans la population générale.",
+            "C) En cas de mutation tumorale BRCA1 sans mutation constitutionnelle, son risque de développer un cancer de l’ovaire est plus élevé que dans la population générale.",
+            "D) Le risque de développer un cancer chez ses apparentés sera influencé par les résultats génétiques.",
+            "E) Le résultat d’analyse génétique peut modifier sa prise en charge thérapeutique."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Après chimiothérapie néoadjuvante, une mastectomie bilatérale, un curage axillaire et une radiothérapie adjuvante ont été réalisés.\nElle réalise une surveillance clinique semestrielle.\nÀ un an de la prise en charge chirurgicale, lors d’une consultation de surveillance, elle signale l’apparition de céphalées depuis plusieurs semaines, exacerbées par les bruits et la lumière, associées à des nausées avec quelques épisodes de vomissements.\nQue suspectez-vous en priorité ?",
+          "choix": [
+            "A) Une méningite carcinomateuse.",
+            "B) Une hypercalcémie.",
+            "C) Une toxicité de l’immunothérapie.",
+            "D) Une toxicité de la chimiothérapie.",
+            "E) Un surdosage en opioïdes."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296129753-9cb6d1aaddc1",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur B., 36 ans, se présente aux urgences pour des douleurs abdominales évoluant depuis plusieurs semaines avec l’apparition récente de rectorragies.\nIl n’a pas d’antécédents médico-chirurgicaux. Son frère est suivi pour un syndrome de Lynch. Monsieur B. n’a jamais voulu se faire dépister et n’a aucun suivi.",
+          "choix": [
+            "A) Le syndrome de Lynch est responsable de 15% des cancers colorectaux.",
+            "B) Le syndrome de Lynch est dû à une mutation constitutionnelle sur un des gènes suivants : MLH1, MSH2, MSH6 ou PMS2.",
+            "C) Les tumeurs du côlon développées dans le cadre d’un syndrome de Lynch sont de phénotype « dMMR ».",
+            "D) Le syndrome de Lynch augmente également le risque de développer un cancer de l’œsophage.",
+            "E) Le frère de Monsieur B. a un risque très élevé de développer un cancer du côlon."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Monsieur B. est hospitalisé en service de gastro-entérologie pour réaliser des explorations.\nParmi ces propositions, quelles sont les 2 affirmations vraies ?",
+          "choix": [
+            "A) A. Le bilan biologique retrouvera probablement une anémie macrocytaire.",
+            "B) B. Un test de recherche de sang dans les selles (test immunologique) sera réalisé et une coloscopie sera réalisée en cas de positivité.",
+            "C) C. Une coloscopie totale sera proposée d’emblée.",
+            "D) D. Un scanner thoraco-abdomino-pelvien sera réalisé à la recherche d’une extension métastatique.",
+            "E) E. Le dosage de l’ACE est obligatoire dans cette situation."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La coloscopie retrouve une lésion bourgeonnante de la charnière recto-sigmoïdienne saignant au contact, non franchissable. Des biopsies sont réalisées et envoyées en anatomopathologie. Le scanner thoraco-abdomino-pelvien ne retrouve pas d’atteinte métastatique à distance. Le bilan biologique retrouve une anémie ferriprive.\nCiter l’histologie la plus fréquente.",
+          "choix": [],
+          "reponses": [
+            "Adénocarcinome lieberkuhnien",
+            "Adénocarcinome lieberkühnien",
+            "adénocarcinome",
+            "Adénocarcinome",
+            "adénocarcinome lieberkunien",
+            "adenocarcinome lieberkunien",
+            "adénocarcinome liberkunien",
+            "adénocarcinome liberkhunien",
+            "adénocarcinome lieberkhunien",
+            "adenocarcinome liberkhunien",
+            "Adenocarcinome lieberkunien",
+            "Adénocarcinome liberkhunien",
+            "adénocarcinome liberkuhnien",
+            "adénocarcinome lieberkünien",
+            "adenocarcinome (glandes Lieberkuhn)",
+            "adénocarcinome liberkunien (colique)",
+            "adenocarcinome lieberkhunien",
+            "adenocarcinome lieberkünien",
+            "Adénocarcinome Lieberkhunien",
+            "adénocarcinome liberkhünien",
+            "adénocarcinome lieberkhünien",
+            "Adénocarcinome Liehberkunien",
+            "adénocarcinome Lieberkünien",
+            "adénocarcicome",
+            "adénocarcinome lieberkunhien",
+            "adenocarcinome liberkunnhien",
+            "adénocarinome liberkunien",
+            "Adénocarcinome Lieberkunien",
+            "Adénocarcinome Lieberkunïen",
+            "adénocarcinome de Lieberkhun",
+            "adénocarcinome liberkhunnien",
+            "adenocarcinome de liberkün",
+            "Adenocarcinome liberkunien",
+            "adenocarcinome de lieberkhun",
+            "adénocarcinome liberkhun",
+            "Adenocarcinome liberkhünien",
+            "Adenocarcinome liberkhunien",
+            "adénocarcinome glandes de liberküne",
+            "Adénocarcinome liberkühnien",
+            "adénocarcinome lleberkünien",
+            "Adénocarcinome lieberkhün",
+            "adénocarcinome lüberckunien",
+            "Adénocarcinome liebhërkunien",
+            "adénocarcinome lieberkhun",
+            "adénocarcinome de Lieberkühn",
+            "adénocarcinome de lieberkhun",
+            "adénocarcinome liëberkhunien",
+            "Adenocarcinome liberkuhnien",
+            "adenocarcinome liberkunien",
+            "adenocarcinome de luberkhun",
+            "adénocarcinome colo-rectal (glandes de Liberkun majoritairement)",
+            "adenocarcinome lüberkhunien",
+            "adénocarcinome de lieberkuhn",
+            "adénocarcinome de liberkhün",
+            "adenocarcinome de liberkhune",
+            "adénocarcinome de Liebruhn",
+            "Adénocarcinome Lieberkhünien",
+            "adénocarcinome luberkhunien",
+            "adénocarcinome colique",
+            "Adénocarcinome colo-rectal",
+            "adenocarcinome rectal",
+            "Adénocarcinome colorectal",
+            "adenocarcinome colique",
+            "adenocarcinome tubulaire",
+            "adenocarcinome colo rectal",
+            "adénocarcinome du rectum",
+            "adénocarcinome colo-rectal",
+            "Adénocarcinome tubuleux",
+            "adenocarcinome tubuleux",
+            "adénocarcinome tubuleux"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur B. présente un adénocarcinome de la charnière recto-sigmoïdienne dMMR localisé sans signe d’envahissement locorégional ou à distance.\nConcernant la prise en charge des adénocarcinomes coliques localisés, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Une prise en charge par chimiothérapie néoadjuvante est toujours réalisée.",
+            "B) Une prise en charge chirurgicale d’emblée sera proposée.",
+            "C) L'objectif de la prise en charge chirurgicale est d'obtenir des marges saines, R1.",
+            "D) L’exérèse chirurgicale comprend un curage ganglionnaire.",
+            "E) La pièce opératoire retrouve une tumeur classée pT2N0, il s'agit d'un stade 2."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur B. est opéré, les suites opératoires sont simples. Son dossier est discuté en RCP pour décider de la suite.",
+          "choix": [
+            "A) L’acronyme RCP veut dire Réunion de Concertation Pluridisciplinaire.",
+            "B) Un quorum d’au moins 4 médecins de spécialités différentes est obligatoire.",
+            "C) Le dossier de Monsieur B. a déjà dû être présenté précédemment pour décider la prise en charge chirurgicale.",
+            "D) La surveillance est une décision qui peut être prise en RCP.",
+            "E) Un traitement adjuvant est un traitement pour diminuer le risque de récidive."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une surveillance est actée en RCP.\nAu cours du suivi, une évolutivité métastatique hépatique est diagnostiquée. Un traitement par immunothérapie est proposé à Monsieur B.\nConcernant l’immunothérapie :",
+          "choix": [
+            "A) Elle agit en activant la réponse anti-tumorale du système immunitaire.",
+            "B) Les anticorps anti CTLA-4 et anti- PD1 sont des inhibiteurs de points de contrôle (check points) immunitaires.",
+            "C) Les effets indésirables des inhibiteurs de check points immunitaires sont dus à une réponse immunitaire excessive contre les organes du patient.",
+            "D) Les effets indésirables des inhibiteurs de check points immunitaires peuvent toucher tous les organes.",
+            "E) Il s’agit d’un traitement administrable par voie orale."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Monsieur B. reçoit régulièrement ses injections d’immunothérapie à l’hôpital de jour. Lors de ses venues, il lui est proposé de rencontrer la psychologue, la socio-esthéticienne, la sophrologue. Comment appelle-t-on ses différents soins ?",
+          "choix": [],
+          "reponses": [
+            "soins de support",
+            "soins de supports",
+            "soin de support",
+            "les soins de support",
+            "Soins de supports",
+            "soints de support",
+            "Soins support",
+            "soins de support paramedicaux",
+            "soins de supports, paramédical",
+            "temps paramedical du plan personnalisé des soins de cancer",
+            "Prise en charge bio-psycho-sociale",
+            "soins de support et d'accompagnement",
+            "soins de support à visée d'amelioration du bien-être global",
+            "Soins de support et d'accompagnement"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296144198-6e199521c4a2b",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous êtes médecin généraliste et vous voyez M. C. consultation pour une asthénie persistante associée à des douleurs dorsales.\nIl s’agit d’un patient de 45 ans, marié, 2 enfants, commercial dans une entreprise de BTP.\nIl n’a pas d’antécédent particulier en dehors d’un tabagisme actif. Il dit fumer 2 paquets par jour depuis l’âge de 18 ans. Il pèse 70 kg pour 1m75, mais a perdu 5 kg sur le dernier mois sans raison évidente. Il ne prend aucun traitement habituel.\nIl décrit une asthénie croissance depuis environ 3 semaines. Il parvient cependant à continuer de travailler à temps plein. Des douleurs dorsales sont contemporaines, elles surviennent la nuit et ne sont pas modifiées par la mobilisation. Elles semblent parfois se projeter au niveau épigastrique. Il n’a pas de traumatisme récent ou d’élément déclencheur pouvant expliquer ces douleurs.\nQuand vous l’examinez, il est apyrétique, les constantes sont correctes. Il décrit des épisodes de selles décolorées depuis quelques jours et vous constatez un léger ictère conjonctival à l’inspection. L’auscultation cardiorespiratoire est normale. La palpation abdominale est sensible au niveau épigastique. La palpation des épineuses et paravertébrale ne retrouve pas de contracture et ne provoque pas de douleur.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A partir des éléments à votre disposition, parmi les 5 propositions, choisissez les 3 qui sont vraies :",
+          "choix": [
+            "A) Le patient présente une altération de l’état général.",
+            "B) Il est IP OMS 2.",
+            "C) Ces douleurs semblent mécaniques, plutôt fonctionnelles.",
+            "D) Vous prescrivez un bilan paraclinique.",
+            "E) Vous instaurez un traitement symptomatique."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le tableau clinique vous oriente plutôt vers une cause digestive des douleurs.\nParmi les examens complémentaires suivants, lesquels prescrivez-vous en première intention à visée diagnostique ?",
+          "choix": [
+            "A) Un bilan biologique (NFS, ionogramme sanguin, créatinine, bilan hépatique)",
+            "B) Des radiographies standards du rachis lombaire, face et profil",
+            "C) Une endoscopie digestive",
+            "D) Une TDM TAP",
+            "E) CA 19-9"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous prescrivez une TDM TAP et un bilan biologique.\nLe bilan biologique retrouve une cholestase ictérique sans cytolyse. La TDM TAP identifie une lésion de 4 cm de la tête du pancréas prenant le contraste au temps tardif et engainant l’artère mésentérique supérieure sur >180°. Cette lésion est associée à une dilatation de voies biliaires intra et extra-hépatiques. Vous prévoyez alors une écho-endoscopie afin de pratiquer un prélèvement histologique.\nQuel est le principal type histologique de tumeur maligne du pancréas redoutez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Adénocarcinome",
+            "adénocarcinome",
+            "Adenocarcinome",
+            "adenocarcinome",
+            "adénocarcinome pancréatique",
+            "Adénocarcinome pancréatique",
+            "adenocarcinome pancreatique",
+            "adénocarcinome du pancréas",
+            "Adénocarcinome canalaire",
+            "adenocarcinome pancréatique",
+            "Adénocarcinome de la tête du pancréas",
+            "adénocarcinome de la tête du pancréas",
+            "adenocarcinome de la tete du pancreas",
+            "adenocarcinome canalaire",
+            "adenocarcinome invasif",
+            "Adenocarcinome du pancreas",
+            "adenocarcinome exocrinien",
+            "adernocarcinome",
+            "adénorcarcinome de la tête du pancréas",
+            "adenocarcinome du pancréas",
+            "adenocarcinome intracanalaire",
+            "adenocacinome",
+            "adenocarninome",
+            "adénocarcinome pancréatique mucineuse",
+            "adenocarcinome mucineux",
+            "adénocarcinome papillaire",
+            "adénocarcinome mucineux",
+            "Adénocarcinome mucineux",
+            "adénocarcinome canalaire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient bénéficie de la pose d’une prothèse biliaire et de la mise en place d’un traitement par FOLFIRINOX. Malheureusement, l’évolution est défavorable avec une maladie qui devient métastatique sur le plan osseux.\nIl présente une douleur au niveau du fémur gauche en lien avec une lésion lytique. Le patient est EN 8/10 et a une impotence fonctionnelle majeure sans instabilité ou risque fracturaire.\nParmi les 5 propositions, choisissez les 3 traitements antalgiques les plus adaptés à la situation ?",
+          "choix": [
+            "A) Un antalgique de pallier I en monothérapie",
+            "B) Un antalgique de pallier III avec un co-antalgique (anti-inflammatoire)",
+            "C) Une radiothérapie à visée antalgique peut se discuter",
+            "D) Une prescription de séances d’ostéopathie",
+            "E) Une décharge du membre douloureux"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296148882-a6afb92b123a28",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "M. Dupont, 28 ans, consulte pour une tuméfaction indolore du testicule droit évoluant depuis 3 mois.\nIl n’a pas d’antécédent médical notable mais il signale qu’il a été opéré de ce testicule durant l’enfance.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels éléments vous orienteraient vers le diagnostic de cancer du testicule ? (6 réponses exactes attendues)",
+          "choix": [
+            "A) Un antécédent personnel de cryptorchidie.",
+            "B) Un antécédent familial de tumeur germinale.",
+            "C) Un volume testiculaire estimé à 15 mL.",
+            "D) Un tabagisme actif d’environ 5 cigarettes par jour.",
+            "E) Un signe de Chevassu.",
+            "F) La présence d’une adénopathie sus-claviculaire gauche.",
+            "G) La présence d’une adénopathie inguinale droite.",
+            "H) Une dyspnée à l’effort.",
+            "I) La présence d’une gynécomastie.",
+            "J) La présence de brûlures mictionnelles.",
+            "K) La présence d’une tuméfaction molle au niveau du testicule.",
+            "L) La présence d’une tuméfaction testiculaire transilluminable."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E",
+            "F",
+            "H",
+            "I"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel examen paraclinique demandez-vous en première intention ?",
+          "choix": [],
+          "reponses": [
+            "Échographie scrotale",
+            "échographie testiculaire",
+            "échographie des testicules",
+            "échographie testiculaire bilatérale",
+            "echographie testicule",
+            "ecographie testiculaire",
+            "échographie scrotale bilatérale",
+            "echographie testiculaire droite",
+            "echographie des testicules",
+            "echographie du testicule",
+            "échographie testicule droit",
+            "échographie doppler du testicule",
+            "Echographie scrotale ou testiculaire",
+            "echographie doppler testiculaire droite",
+            "Echographie doppler testiculaire",
+            "echographie testicules",
+            "échographie du testicule",
+            "échographie génitoscrotale",
+            "echographie testiculaire bilaterale",
+            "Echographie testiculaire droite",
+            "échographie testiculaires",
+            "echographie testiculaire et inguinale",
+            "echographie genitoscrotale",
+            "Echographie des testicules",
+            "échograchie testiculaire",
+            "Echographie du testicule",
+            "Echograpahie testiculaire",
+            "echographie testiculaires",
+            "echographie du testicule droit",
+            "échographie testiculaire droite",
+            "echographie du testicule droit et puis gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L'examen clinique révèle une masse testiculaire gauche de 5 cm, dure, irrégulière, fixée au plan profond, sans adénopathies inguinales palpables ; la lésion est hypoéchogène et hétérogène à l’échographie scrotale.\nUn scanner thoraco-abdomino-pelvien est réalisé retrouvant une adénopathie rétropéritonéale de 2 cm.\nQuel examen permettra de confirmer votre principale hypothèse diagnostique ?",
+          "choix": [
+            "A) Dosage de l’AFP",
+            "B) Biopsie de l’adénopathie rétropéritonéale",
+            "C) Biopsie transcrotale",
+            "D) Orchidectomie totale par voie inguinale",
+            "E) Dosage de la sous-unité bêta de l’HCG"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296152551-e9333771e0d0b8",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "Au sujet des traitements anticancéreux.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, désignez les 5 classes médicamenteuses qui sont des chimiothérapies antimitotiques :",
+          "choix": [
+            "A) Les inhibiteurs du VEGF",
+            "B) Les poisons du fuseau mitotique",
+            "C) Les inhibiteurs des topo-isomérases I et II",
+            "D) Les analogues de la LH-RH",
+            "E) Les antiandrogènes",
+            "F) Les antimétabolites",
+            "G) Les inhibiteurs de l’aromatase",
+            "H) Les inhibiteurs de checkpoint immunitaires",
+            "I) Les sels de platines",
+            "J) Les alkylants"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "F",
+            "I",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle classe de chimiothérapie peut donner des spasmes coronaires ?",
+          "choix": [],
+          "reponses": [
+            "5-FU",
+            "Capécitabine",
+            "capecitabine",
+            "Capecitabine",
+            "5-fluorouracile",
+            "5fluorouracile",
+            "5 fluoro uracile",
+            "5 fluoro-uracile",
+            "5 FU",
+            "5FU",
+            "5-fluoro-uracile",
+            "5 fluorouracile",
+            "5-Fluoro-Uracile",
+            "5 Fluoro Uracile",
+            "5-Fluorouracile",
+            "antimétabolite (5-FU)",
+            "5-FU (antimetabolite)",
+            "5-fluoro uracile",
+            "5 Fluoro-uracile",
+            "5-Fluoro Uracile",
+            "5 Fluoro-Uracile",
+            "Anti-pyrimidique (5-FU)",
+            "5 FU (antimétabolite)",
+            "5-FU (antimétabolite)",
+            "Antimétabolite (5-FU)",
+            "5-Fluoro-uracile",
+            "5-FU : 5-fluoro-uracile",
+            "5 FluoroUracile",
+            "5 Fluoro uracile (5FU)",
+            "5 fluoro",
+            "5 FU (analogue pyrimidique)",
+            "5-Fluorouracile (antimétabolite)",
+            "5 Fluorouracile (analogue des bases pyrimidiques)",
+            "5FU analogue des pyrimidiques",
+            "5 fluoro-uracile (antimétabolites)",
+            "5 fluoro-uracil (antimétabolites)",
+            "5 Fluo-uracile (5-FU)",
+            "analogues pyrimidiques (5-FU)",
+            "5-fluorouracil",
+            "antimétabolites (5-FU)",
+            "anti-pyrimidine (5-FU)",
+            "5-Fluoro-uracil",
+            "5 fluoro uracile (antimétabolite)",
+            "5-fluoro uracile (5-FU)",
+            "5-Fluoro-uracile, anti métabolite",
+            "5 fluoro Uracile",
+            "antimetabolite (5-FU)",
+            "Antimétabolite (5 fluoro uracile)",
+            "5-FU (anti-pyrimidiques)",
+            "5-fluoruacile",
+            "anti metabolique 5FU",
+            "5 fluorouracile (antimetabolite)",
+            "anti metaboliques (5 fluorouracile)",
+            "anti pyrimidine 5FU",
+            "5 fluoro-uracil (antimétabolite)",
+            "5- Fluorouracile",
+            "5-FU / anti-métabolite",
+            "5-fluoro-uracyle",
+            "5-FU (antimétabolite : antagoniste pyrimidique)",
+            "5 Fluoro uracile",
+            "5 fluoro-uracil",
+            "5- fluoro-uracil",
+            "5 FU ( analogue pyrimidique )",
+            "analogues des bases puriques (5FU et capécitabine)",
+            "fluorouracile",
+            "5FU (antimétabolite)",
+            "5-FU, 5-fluoro uracile",
+            "5 Fluorouracile (anti base pyrimidine)",
+            "5 Fluorouracile",
+            "5 - fluoro uracile",
+            "5-FU (analogue des bases pyrimidiques, anti métabolite)",
+            "5 FU (5 fluoro uracile)",
+            "5 fluoro uracile (antimétabolite analogue pyrimidique)",
+            "antimétabolite pyrimidique ( 5-FU)",
+            "5- FU",
+            "5-FU (5 Fluorouracile)",
+            "Antimétabolites pyrimidiques (5-FU)",
+            "5-FluoroUracile",
+            "antimetabolite - antipyrimidique (5-FU)",
+            "5 FU, antimétabolites pyrimidiques",
+            "5 FU ( 5 fluoro uracil )",
+            "5FU fluro 5 uracile",
+            "Antimétabolite analogue pyrimidique (5-Fluorouracile)",
+            "5 fluorouracile (analogue de bases)",
+            "anti-métabolites (5FU)",
+            "anti metabolite 5FU",
+            "antimétabolite 5FU",
+            "analogues pyrimidiques (5-FU, capécitabine)",
+            "antimétabolites (5FU)",
+            "antimétabolites 5FU",
+            "Anti-métabolites type 5-FU",
+            "Antimetabolite pyrimidique 5 FU",
+            "anti-pyrimidine",
+            "Anti métabolites ciblant l'uracile",
+            "Anti-métabolites (5-Fluoro-uracile)",
+            "5 fluoro uracile (analogue pyrimidine)",
+            "antimétabolite (5FU)",
+            "Analogue pyrimidique (5-FU)",
+            "Le 5 fluoro uracile",
+            "5FU (5 fluorouracile, antimétabolites)",
+            "antimetabolites ( analogue pyrimidine : 5FU)",
+            "anti-metabolites : 5-FU",
+            "5-Fluorouacile",
+            "5 fluro-uracile (classe des antimétabolites)",
+            "les antimetabolites (5-FU)",
+            "analogues des pyrymidines (5 FU) parmi les anti métabolites",
+            "inhibiteurs bases puriques (5 F-U)",
+            "5-Fluoro-uracyl",
+            "5 FU analogue pyrimidique",
+            "anti-métabolites (5 fluoro uracile)",
+            "analogues bases pyrimidiques",
+            "5-FU analogue pyrimidique",
+            "5FU soit 5fluoruracile",
+            "antimétaboliques (5-FU)",
+            "5-Fluorouracile (pyrimidique)",
+            "5 fluoro uracil",
+            "5-Fluro Uracile",
+            "Antimétabolites (5FU)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Désignez la principale chimiothérapie utilisée à visée de radio-sensibilisation.",
+          "choix": [
+            "A) Doxorubicine",
+            "B) Gemcitabine",
+            "C) Méthotrexate",
+            "D) Cisplatine",
+            "E) Azathioprine"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296167719-dbd25efddb99b",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Face à une hyperéosinophilie sanguine modérée, quelle(s) est(sont) la(les) causes(s) à envisager en première intention ?",
+          "choix": [
+            "A) Une pneumonie chronique à éosinophiles",
+            "B) Une granulomatose éosinophilique avec polyangéite",
+            "C) Une hémopathie myéloïde avec hyperéosinophilie",
+            "D) Une helminthiase",
+            "E) Une allergie"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Face à une hyperéosinophilie sanguine modérée et asymptomatique, quel(s) est(sont) l’(les) examens biologiques(s) à prescrire en première intention ?",
+          "choix": [
+            "A) Un examen parasitologique des selles",
+            "B) Un dosage des IgE",
+            "C) Un myélogramme",
+            "D) Un caryotype",
+            "E) Des sérologies helminthiases"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) l’(les) étiologie(s) à envisager face à un syndrome mononucléosique ?",
+          "choix": [
+            "A) Une mononucléose infectieuse",
+            "B) Une primoinfection à VIH",
+            "C) Une leucémie lymphoïde chronique",
+            "D) Une toxoplasmose",
+            "E) Une infection à CMV"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 29,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient vient en consultation pour la découverte d'une hyper-lymphocytose. Il n'a pas d'antécédent, et ne consomme pas d'alcool ou de tabac. L'interrogatoire n'identifie ni altération de l'état général, ni fièvre, ni amaigrissement.\nL'hémogramme objective :\nHb = 14,5 g/dL\nGB = 20 G/L, dont PNN 3,5 G/L et lymphocytes 15 G/L\nPlaquettes = 330 G/L\nQuelles sont les deux réponses exactes ?",
+          "choix": [
+            "A) Ce patient a sans doute un syndrome lymphoprolifératif",
+            "B) Ce patient a sans doute une leucémie aigue",
+            "C) Une cause infectieuse est exclue",
+            "D) Une allergie est possible",
+            "E) Une maladie auto-immune est possible",
+            "F) Une cause médicamenteuse est possible"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 30,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient suivi pour une leucémie lymphoïde chronique, non traitée, présente une augmentation rapide d'une adénopathie unilatérale de 6 cm, associée à une altération de l'état général, et sur le bilan biologique une augmentation des LDH et une hyper-calcémie. Quelle cause évoquez-vous en premier lieu ?",
+          "choix": [],
+          "reponses": [
+            "Richter",
+            "Syndrome de Richter",
+            "Transformation en lymphome agressif",
+            "Lymphome agressif",
+            "Activation",
+            "syndrome de Ritcher",
+            "syndrome de richter (transformation en lymphome)",
+            "lymphome de Richter",
+            "transformation en syndrome de richter",
+            "syndrome de Richter (lymphome)",
+            "syndrome de ritcher",
+            "transformation en lymphome malin",
+            "syndrome de richter - transformation en lymphome de haut grade",
+            "lymphome à grande cellule",
+            "syndrome de Richter (transformation en lymphome agressif)",
+            "transformation lymphome (syndrome de richter)",
+            "lymphome malin",
+            "syndrome de Richter (evolution vers un lymphome)",
+            "syndrome de Ritchter",
+            "syndrome de richter (évolution vers un lymphome)",
+            "Evolution en lymphome agressif",
+            "syndrome de richter (transformation lymphomateuse)",
+            "transformation lymphomateuse",
+            "syndrome de reichter",
+            "syndrole de ritcher",
+            "syndrome de Richter - accutisation en lymphome",
+            "Lymphome / Syndrome de Richter",
+            "Lymphome (syndrome de Richter)",
+            "transformation en lymphome B agressif de haut grade",
+            "transformation en lymphome de haut grade (syndrome de Richter)",
+            "lymphome de richter",
+            "transformation de richter (en lymphome)",
+            "Transformation maligne de la LLC (syndrome de Richter)",
+            "transformation en lymphome B de haut grade",
+            "Transformation en lymphome de haut grade",
+            "Transformation en lymphome malin",
+            "lymphome B de haut grade",
+            "syndrome de ritcher (transformation en lymphome agressif)",
+            "syndrome de richter ( transformation lymphome agressif)",
+            "syndrome richter /transformation en lymphome",
+            "lymphome de Ritcher",
+            "Syndrome de Richter (transformation en lymphome)",
+            "evolution en lymphome B diffus à grandes cellules",
+            "transformation en lymphome B à grandes cellules",
+            "Syndrole de Richter",
+            "Syndrome de richter, acutisation en lymphome",
+            "syndrome de Rishter",
+            "transformation de type ritcher",
+            "lymphome b à grandes cellules",
+            "syndrome de richer",
+            "Syndrome de Ritcher évolution vers un lymphome",
+            "Lymphome B diffus a grandes cellules",
+            "acuitisation en lymphome (syndrome de richter)",
+            "syndrome de ritcher, évolution vers lymphome",
+            "syndrome de Ritcher : lymphome",
+            "Syndrome de Richter, transformation en lymphome",
+            "Lymphome malin (syndrome de Richter)",
+            "Syndrome de Richter (évolution en LNH de haut grade)",
+            "syndrome de richter (lymphome B diffus a grandes cellules)",
+            "évolution en lymphome agressif",
+            "syndrome de richter (transformation en lymphome agressif)",
+            "Lymphome de haut grade",
+            "syndrome de Richter transformation en lymphome",
+            "transformation en lymphome de haut grade",
+            "Syndrome de richter (lymphome B)"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 31,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le diagnostic de leucémie lymphoïde chronique repose sur un examen biologique principal. Lequel ?",
+          "choix": [
+            "A) L'électrophorèse des protides",
+            "B) L'hémogramme",
+            "C) L'immunophénotypage des lymphocytes sanguins",
+            "D) L'immunophénotypage des lymphocytes médullaires",
+            "E) L'immunofixation"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 32,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les anémies hémolytiques, quelle est la proposition exacte ?",
+          "choix": [
+            "A) elles sont dans tous les cas d’origine génétique",
+            "B) elles s’accompagnent d’une augmentation de l’haptoglobine",
+            "C) le test direct à l’antiglobuline est toujours positif",
+            "D) le frottis sanguin est un examen de première intention",
+            "E) le volume globulaire moyen (VGM) est toujours diminué"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 33,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelles sont les anomalies de la formule leucocytaire suivante ?\nPolynucléaires neutrophiles : 11,1G/L\nPolynucléaires éosinophiles : 0,1 G/L\nPolynucléaires basophiles : 0 G/L\nLymphocytes : 1,8 G/L\nMonocytes : 1,2 G/L\nMétamyélocytes neutrophiles : 0,8 G/L\nMyélocytes neutrophiles 0,3 G/L",
+          "choix": [],
+          "reponses": [
+            "Polynucléose monocytose myélémie",
+            "Polynucléose neutrophile monocytose myélémie",
+            "polynucléose neutrophile, monocytose, myélémie",
+            "Polynucléose neutrophile, monocytose, myélémie",
+            "polynucleose neutrophile, monocytose, myélémie",
+            "polynucléose neutrophile, monocytose, myélémie équilibrée",
+            "neutrophilie, monocytose, myélémie",
+            "neutrophilie monocytose myelemie",
+            "polynucleose neutrophile, monocytose, myelemie",
+            "hyperneutrophilie, monocytose, myélémie",
+            "polynucléose, monocytose, myélémie",
+            "myélémie, polynucléose neutrophile, monocytose",
+            "Polynucléose neutrophile, monocytose et myélémie",
+            "neutrophilie, monocytose et myélémie",
+            "polynucleose neutrophile et monocytaire avec myélémie modérée",
+            "polynucléose neutrophile, hypermonocytose, myélémie",
+            "polynucléose à neutrophile, monocytose, myélémie",
+            "polynucleose neutrophile avec myelemie et monocytose",
+            "Polynucléose neutrophile, Monocytose et Myélémie",
+            "Polynucléose neutrophile, myélémie, monocytose",
+            "monocytose et polynucléose neutrophile avec myélémie",
+            "polynucléose neutrophile, monocytose, myélémie neutrophile",
+            "leucocytose, neutrophilie, monocytose, myélémie",
+            "hyperleucocytose à PNN, monocytose, myélémie équilibrée",
+            "hyperneutrophilie, monocytose, myélémie équilibrée",
+            "polynucléose neutrophile - monocytose - myélémie",
+            "hyperleucocytose à PNN avec myélémie et hypermonocytose",
+            "hyperleucocytose avec polynucléose neutrophile, monocytose et myélémie équilibrée",
+            "polynucléose neutrophile / monocytose / myélémie",
+            "polynucléose à PNN, myélémie, monocytose",
+            "neutrophilie, monocytose, myélémie équilibrée",
+            "neutrophilie monocytose et myélémie",
+            "polynucléose à PNN, monocytose, myélémie equilibrée",
+            "polynucléose neutrophile, monocytose et myélémie évocateur d'un syndrome myéloprolifératif",
+            "Polynucléose neutrophile avec myélémie de la lignée neutrophile et monocytose",
+            "neutrophilie et monocytose avec myélémie",
+            "hyperleucocytose avec polynucléose neutrophile, monocytose et myélémie",
+            "polynucleose, monocytose, myelemie",
+            "myélemie, polynucleose neutrophile, monocytose",
+            "hyperleucocytose avec polynucleose neutrophile, myelemie equilibre et monocytose",
+            "Myélémie équilibrée avec neutrophilie et monocytose",
+            "polynucleose neutrophile, monocytose, et une myélémie",
+            "polynucleose avec myelemie et monocytose",
+            "monocytose, neutrophilie, myelemie",
+            "polynucléose neutrophile, monocytose et une myélémie",
+            "polynucleose monocytose myélemie",
+            "hyperneutrophilie avec myelemie et monocytose",
+            "polynucléose neutrophile, myélémie équilibrée, monocytose",
+            "HyperPNN Monocytose Myélémie",
+            "hyperleucocytose a PNN avec myélémie, monocytose",
+            "polynucléose neutrophile monocytose myélémie équilibrée",
+            "hyperleucocytose à PNN, monocytose et myélémie",
+            "Hyperneutrophilie, augmentation des monocytes (monocytose), présence de précurseurs myéloïdes (myélémie)",
+            "monocytose, myélémie, neutrophilie",
+            "hyperleucocytose à PNN avec myélémie équilibrée, monocytose",
+            "Hyperleucocytose, polynucléose neutrophile, monocytose, myélémie",
+            "Polynucléose neutrophile, Monocytose, myélémie équilibré",
+            "neutrophilie monocytose myélémie equilibrée",
+            "myélémie, monocytose, hyperneutrophilie",
+            "polynucléose neutrophile + monocytose + myélémie",
+            "Neutrophilie Monocytose Myélémie",
+            "monocytose, polynucleose neutrophile, myelemie neutrophile",
+            "hyperleucocytose a PNN avec monocytose et myelemie",
+            "myélémie, monocytose, hyperleucocytose à PNN",
+            "hyperleucocytose à polynucléaires neutrophiles, monocytose et myélémie",
+            "polynucleose neutrophile/ monocytose/ myélémie",
+            "neutrophilie monocytose myélémie",
+            "polynucléose neutrophile avec myélémie, monocytose",
+            "polynucleose neutrophile avec myélémie et monocytose",
+            "polynucléose neutrophile avec monocytose et myélémie",
+            "augmentation des PNN, monocytose, myélémie",
+            "neutrophilie, myelemie, monocytose"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 34,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les étiologies suivantes, lesquelles doivent être recherchées devant une anémie macrocytaire arégénérative (3 réponses attendues) ?",
+          "choix": [
+            "A) une carence martiale",
+            "B) une sphérocytose hériditaire",
+            "C) un éthylisme chronique",
+            "D) une insuffisance thyroïdienne",
+            "E) une carence en folates",
+            "F) une anémie hémolytique auto-immune"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 35,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une patiente de 62 ans, sans antécédent, vous consulte en raison de la découverte d'une thrombopénie isolée à 35 G/L. Le frottis sanguin a éliminé la présence d'amas plaquettaires. Le myélogramme est normal, vous orientez votre bilan étiologique vers la recherche d'une cause périphérique.\nQuels examens réalisez-vous en première intention (5 réponses attendues) ?",
+          "choix": [
+            "A) Recherche d'anticorps anti-thyroïde",
+            "B) Sérologies hépatites B et C",
+            "C) Sérologie VIH",
+            "D) Recherche d'anticorps anti-plaquettes",
+            "E) Sérologie Parvovirus B19",
+            "F) Electrophorèse des protéines sériques",
+            "G) Durée de vie isotopique et siège de destruction des plaquettes",
+            "H) Immunophénotypage des lymphocytes circulants",
+            "I) Recherche d'anticorps anti-nucléaires",
+            "J) Bilan hépatique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "F",
+            "I",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 36,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient de 34 ans sans antécédent présente une splénomégalie mesurée à 5 centimètres en dessous du rebord costal. Voici les résultats de l'hémogramme : Hémoglobine 13,2 g/dL, VGM 95 fL, globules blancs 25 G/L dont 63 % de polynucléaires neutrophiles, 5 % de polynucléaires éosinophiles, 10 % de polynucléaires basophiles, 8 % de lymphocytes, 3 % de monocytes, 5 % de métamyélocytes, 3 % de myélocytes, 2 % de promyélocytes et 1 % de blastes, plaquettes 653 G/L.\nParmi les propositions suivantes, laquelle est exacte ?",
+          "choix": [
+            "A) Le diagnostic le plus probable est une thrombocytémie essentielle",
+            "B) Le diagnostic le plus probable est une parasitose",
+            "C) Le diagnostic le plus probable est un syndrome myélodysplasique",
+            "D) Le diagnostic le plus probable est une leucémie myéloïde chronique",
+            "E) Le diagnostic le plus probable est une myélofibrose primitive"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 37,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un jeune homme de 21 ans, doit se faire opérer des dents de sagesse ; ce sera sa première chirurgie. Il ne prend aucun traitement. A l’interrogatoire, il rapporte des épistaxis très fréquents et des ecchymoses au moindre coup depuis l’enfance, ainsi que des gingivorragies particulièrement abondantes lors des soins d’orthodontie dont il a bénéficié pendant le collège. Quel est le diagnostic le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "Maladie de Willebrand",
+            "Willebrand type 1",
+            "Trait Willebrand",
+            "Willebrand fruste",
+            "maladie de willbrand",
+            "Maladie de Willbrand",
+            "maladie de Von Willebrand",
+            "Maladie de Willebrandt",
+            "maladie de Willebrant",
+            "Maladie de Willebrand constitutionnelle",
+            "maladie de Willbrand",
+            "Déficit en facteur de Willebrand",
+            "maladie de Willebrandt",
+            "maladie de von Willebrand",
+            "maladie willebrand",
+            "deficit en facteur de willebrand",
+            "maladie de willbrant",
+            "maladie de von willebrand",
+            "maladie de Wilbrant",
+            "mutation du facteur de Willebrand, trouble de l'hemostase primaire",
+            "maladie de willbrandt congenital",
+            "maladie de Won Villebrand",
+            "maladie de Von Willebrand constitutionnelle",
+            "Willebrandt constitutionnel",
+            "Maladie de Willebrandt constitutionnelle",
+            "trouble de l'hemostase primaire : Maladie de Willebrand",
+            "maladie de wilbrant",
+            "Trouble de l'hémostase primaire (Maladie de Willebrand)",
+            "maladie de von willebrand constitutionnelle",
+            "maladie de Willebrand congénitale",
+            "déficit en facteur de Von Willebrand",
+            "deficit facteur Willbrand (hemostase primaire)",
+            "maladie de willbrand constitutionnelle",
+            "maladie de willebrand constitutionnelle",
+            "maladie de willebrand congenitale",
+            "maladie de Willebrand innée",
+            "Maladie de Willebrand congénitale",
+            "maladie de von willebrandt",
+            "déficit en facteur de von willebrand",
+            "deficit en facteur de willebrand constitutionnel",
+            "trouble de l'hémostase primaire (maladie de willebrand)",
+            "maladie de von Willebrandt",
+            "maladie de Vanwillebrandt vwf constitutionelle",
+            "Maladie de Willebrandt congénitale",
+            "anomalie du vwf",
+            "deficit en facteur de Willebrand",
+            "Trouble de l’hémostase primaire à type de maladie de VonWillebrand",
+            "maladie de willebrande",
+            "déficit en facteur de Willebrand",
+            "maladie de willebrandt",
+            "maladie de willebrant congénitale",
+            "maladie willebrand constitutionnelle",
+            "Maladie de Wilbrandt",
+            "deficit en facteur de willbrand",
+            "Maladie de willebrand constitutionnelle",
+            "maladie de willebrandt - trouble de l'hemostase primaire",
+            "anomalie de l’hémostase primaire (maladie de willebrand)",
+            "Maladie de Willbrand constitutionnelle",
+            "maladie de wilbrand"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 68 ans est adressé en consultation devant la découverte d'un myélome multiple suite à l'exploration d'un pic monoclonal de type IgG kappa à l’électrophorèse des protéines sériques.\nParmi les examens suivants, lequel (lesquels) demandez-vous pour pouvoir décider de la prise en charge thérapeutique ?",
+          "choix": [
+            "A) une calcémie",
+            "B) un scanner cérébral",
+            "C) une créatininémie",
+            "D) un scanner de l'holosquelette",
+            "E) un caryotype dans le sang"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le Purpura Thrombopénique Immunologique, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Une anémie s’associe souvent à la thrombopénie",
+            "B) La thrombopénie est périphérique",
+            "C) Le mécanisme principal est un excès de consommation des plaquettes",
+            "D) La moelle osseuse est pauvre en mégacaryocytes",
+            "E) Un méléna constitue un signe de gravité"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 36 ans présente une altération de l’état général, une pâleur cutanéo-muqueuse et un purpura pétéchial au niveau des membres inférieurs. Voici les résultats de l'hémogramme : hémoglobine 9,1 g/dL, VGM 96 fL, globules blancs 25 G/L dont 17 % de polynucléaires neutrophiles, 10 % de lymphocytes, 3 % de monocytes et 70 % de blastes, plaquettes 30 G/L. Vous complétez le bilan biologique.\nParmi les propositions suivantes, quelle(s) est(sont) celle(s) qui fait(font) évoquer une leucémie aiguë promyélocytaire ?",
+          "choix": [
+            "A) Un score de Matutes à 3 / 5 à l'immunophénotypage des lymphocytes circulants",
+            "B) L'existence d'une coagulation intravasculaire disséminée sur le bilan d'hémostase",
+            "C) Un test de Coombs direct positif",
+            "D) La présence de corps d’Auer en fagots dans les blastes",
+            "E) La présence d'une hypercalcémie"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,392 @@
+{
+  "matiere": "Biochimie",
+  "slug": "biochimie-s3",
+  "annee": 2024,
+  "title": "Biochimie - 2024",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cycle de l’urée:",
+          "choix": [
+            "A) L’uréogenèse est une voie métabolique rénale qui permet de transformer l’ammoniac, très toxique pour le système nerveux central, en urée.",
+            "B) Le cycle de l’urée se déroule en 6 réactions enzymatiques réparties entre la matrice mitochondriale et le cytosol de l’hépatocyte.",
+            "C) L’acide fumarique, obtenu après clivage de l’acide argininosuccinique, est hydrolysé en urée puis éliminé dans les urines.",
+            "D) La citrulline, acide aminé non protéinogène, est synthétisée dans la mitochondrie à partir de l’ornithine au cours du cycle de l’urée.",
+            "E) La synthèse d’une molécule d’urée consomme 3 molécules d’ATP au cours du cycle de l’urée."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du catabolisme des acides aminés :",
+          "choix": [
+            "A) Dans un premier temps, l’acide aminé est décarboxylé",
+            "B) Les transaminations font toujours intervenir le couple glutamate-alpha-cétoglutarate",
+            "C) Le radical carboné qui subit une oxydation est un acide alpha-cétonique, appelé communément acide organique",
+            "D) L’ammoniac produit par les organes ne circule pas librement mais lié à l’albumine",
+            "E) L’ammoniac produit par l’intestin circule librement dans la veine porte"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des dérivés des acides aminés:",
+          "choix": [
+            "A) La carnitine est une protéine musculaire",
+            "B) La carnitine, en se liant aux acides gras à chaine longue, permet leur entrée dans la mitochondrie",
+            "C) Le phosphagène (ou créatine phosphate) est une source d’ATP pour le muscle lors de l’exercice endurant",
+            "D) La clairance à la créatinine permet d’explorer la fonction rénale",
+            "E) L’augmentation de la concentration plasmatique en créatine phosphate est un marqueur de lyse des cellules musculaires (rhabdomyolyse)"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’akee est un arbre (originaire d’Afrique occidentale) dont le fruit non mûr contient un acide aminé particulier métabolisé en un dérivé CoA qui inhibe irréversiblement l’acyl-CoA deshydrogénase. La consommation des fruits non mûrs de l’akee provoque des troubles graves pouvant conduire à la mort.\nSur ces bases-là, à quelle(s) conséquence(s) métabolique(s) pouvez-vous vous attendre ?",
+          "choix": [
+            "A) Une diminution de la production d’acétyl-CoA (à partir des acides gras) dans la mitochondrie",
+            "B) Un excès de production de malonyl-CoA",
+            "C) Une accumulation des acylcarnitines à très longue chaîne dans les peroxysomes",
+            "D) Une accumulation d’énoyl-CoA dans la matrice mitochondriale",
+            "E) Une diminution de la production de coenzymes réduits (FADH2) dans la mitochondrie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'acéto-acétyl-CoA",
+          "choix": [
+            "A) C’est un intermédiaire, comme le 3-hydroxy-3-méthyl-glutaryl-CoA, de la biosynthèse des corps cétoniques",
+            "B) Il est libéré par l’avant-dernier tour de l’hélice de Lynen",
+            "C) C’est un intermédiaire, comme le 3-hydroxy-3-méthyl-glutaryl-CoA, de la biosynthèse du cholestérol",
+            "D) C’est le produit de l’acétyl-CoA carboxylase",
+            "E) C’est le substrat principal de l’acide gras synthase pour produire l’acide palmitique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Lors du jeûne :",
+          "choix": [
+            "A) L’insuline active la lipase hormono-sensible",
+            "B) Les catécholamines stimulent la biosynthèse de cholestérol",
+            "C) La principale source de production d’acétyl-CoA est le glucose hépatique",
+            "D) Du citrate est produit en excès, ce qui active la production de malonyl-CoA",
+            "E) La lipolyse et la libération d’acyl-CoA bloquent la biosynthèse des acides gras"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’état nourri :",
+          "choix": [
+            "A) La beta-oxydation des acides gras est bloquée car la CPT I est inhibée par du malonyl-CoA",
+            "B) Le citrate produit en abondance passe dans le cytosol pour libérer de l’acétyl-CoA",
+            "C) L’acétyl-CoA carboxylase est inhibée par le citrate",
+            "D) L'acétyl-CoA produit en abondance alimente la synthèse des corps cétoniques",
+            "E) Glucagon et adrénaline activent la lipolyse adipocytaire"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’abêtalipoprotéinémie appelée maladie de Bassen-Kornzweig est une affection autosomique récessive, rare, de l'enfant, qui résulte d'un défaut de l'assemblage des constituants pour former les lipoprotéines dans l’entérocyte et l’hépatocyte. Dans un certain nombre de cas, la maladie est due à des défauts d’une protéine des microsomes participant au transfert microsomal des triglycérides, dite MTP. Cette maladie est responsable de retards psychomoteurs associés à des troubles de la croissance et à une polyneuropathie démyélinisante.",
+          "choix": [
+            "A) La synthèse des chylomicrons est inexistante",
+            "B) Elle se manifeste par des troubles intestinaux et une stéatorrhée",
+            "C) Les taux sériques de triglycérides sont très augmentés",
+            "D) Les taux sériques de cholestérol sont très abaissés",
+            "E) Les taux sériques en vitamines A et E sont très abaissés"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des lipoprotéines sériques, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les HDL sont les particules lipoprotéiques les plus denses et les moins volumineuses",
+            "B) Dans le plasma d'un sujet normolipémique après 12 heures de jeûne, on trouve des chylomicrons, des VLDL, des LDL et des HDL",
+            "C) Les LDL fournissent du cholestérol aux cellules par l'intermédiaire d'un récepteur spécifique permettant l'endocytose des LDL",
+            "D) Les VLDL véhiculent les triacylglycérols synthétisés par les entérocytes après absorption des graisses alimentaires",
+            "E) Le foie est l'organe majeur d'épuration du cholestérol des lipoprotéines."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Métabolisme et exercice physique",
+          "choix": [
+            "A) Au cours d’un exercice physique d’intensité croissante et maximal, la concentration sanguine de lactate au maximum de l’effort devrait être supérieure à la concentration sanguine de lactate au repos.",
+            "B) A la fin d’un exercice physique d’endurance de 2 heures, on s’attend à trouver chez un sujet sain une concentration en AGNE (acides gras non estérifiés) intramusculaire plus basse que celle de repos.",
+            "C) Chez un sujet sain qui réalise un effort d’intensité croissante et maximal, le quotient respiratoire (ratio entre la production de CO2 et la consommation d’O2) au maximum de l’effort, devrait être inférieur à 1.",
+            "D) La production de catécholamines lors d’un exercice physique peut être due, au moins en partie, à une baisse de la glycémie.",
+            "E) Les besoins en glucose au niveau des tissus périphériques diminuent avec l’intensité de l’exercice."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Métabolisme, exercice physique et santé",
+          "choix": [
+            "A) Un entrainement physique et sportif réalisé pendant 45 minutes 4 fois par semaine depuis 3 mois conduira probablement à une élévation de la concentration sanguine de LDL.",
+            "B) Sans prise alimentaire dans les 2 heures qui précèdent le début d’un exercice physique, l’insulinémie devrait augmenter en quelques minutes après le début de l’exercice.",
+            "C) L’activité physique et sportive peut être prescrite comme une thérapeutique médicale non médicamenteuse utile à traiter le diabète insulino-résistant.",
+            "D) Chez un patient qui présente une fatigabilité excessive et des myalgies, un test à l’effort au cours duquel le patient ne présentera pas d’élévation de lactate malgré un effort intense peut orienter sur l’existence d’une glycogénose.",
+            "E) Pour améliorer la santé d’un patient, des conseils de lutte contre la sédentarité doivent compléter les conseils de pratique d’une activité physique et sportive."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294567489-67937cd2f292",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Chez un de vos jeunes patients vous diagnostiquez un diabète de type 1.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "D’un point de vue physiopathologique, à jeun et par rapport à ce qui est observé chez un patient sain:",
+          "choix": [
+            "A) Vous observez un déficit en insuline et en C-peptide sériques",
+            "B) Vous observez une augmentation d’AMPc au niveau cellulaire",
+            "C) Le taux de fructose 2, 6-diphosphate hépatique est augmenté",
+            "D) La néoglucogenèse hépatique est augmentée",
+            "E) La glycogénolyse hépatique est augmentée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous expliquez, grâce à ces données expérimentales mesurées chez un rat diabétique, que\nFructose 2,6 diPhosphate (nmol/g\nGlucose sanguin (g/l)\nfoie)\nValeurs de Référence 1,36 +/- 0,21 12,7 + /- 1,1\nRat diabétique 5,96 0,9\nRat diabétique après 15 min de\n2,62 13,2\ntraitement par insuline",
+          "choix": [
+            "A) L’activité PFK1 est diminuée dans le foie du rat diabétique",
+            "B) Le Fructose 2,6 diphosphate est un produit issu du fructose 1,6 diphosphate",
+            "C) L’activité PFK2 est diminuée dans le foie du rat diabétique",
+            "D) L’administration d’insuline augmente l’activité PFK2",
+            "E) La glycémie sera probablement normalisée dans les heures suivants l’injection d’insuline"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ce patient est originaire du pourtour méditerranéen et né de parents consanguins. Il a récemment déclenché une anémie hémolytique suite à un traitement par sulfamides pour une infection urinaire. Ce type de manifestation aiguë a déjà été observé chez son frère. Vous lui expliquez que :",
+          "choix": [
+            "A) Vous suspectez une maladie génétique",
+            "B) L’anémie hémolytique peut être provoquée par un déficit de production de NADPH,H+",
+            "C) Le NADPH,H+ est un cofacteur des enzymes de détoxification des radicaux libres",
+            "D) Le NADPH,H+ est produit par la glycolyse",
+            "E) Le NADPH,H+ est produit par la voie des pentoses phosphates"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous proposez à votre patient suite à son anémie hémolytique :",
+          "choix": [
+            "A) De changer de type de sulfamides",
+            "B) De ne pas manger de fèves",
+            "C) De faire réaliser le dosage de l’activité Glucose 6 phosphate déshydrogénase (G6PDH)",
+            "D) De faire réaliser le dosage de l’activité Pyruvate kinase (PK)",
+            "E) De prendre de grandes précautions s’il voyage en Afrique, du fait d’une sensibilité accrue au paludisme"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294569631-1011b421d75238",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Monsieur M, consulte pour une altération récente de son état général. A l’examen clinique vous retrouvez une insuffisance cardiaque et des signes neurologiques à type de désorientation. Vous connaissez ce patient qui a subi une résection du grêle à la suite d’une occlusion sur bride et qui présente un alcoolisme chronique. Vous allez demander un avis cardiologique mais vous devez d’ores et déjà, suspecter une carence micronutritionnelle potentielle et analyser ses causes et ses conséquences.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Monsieur M. a un fort risque de présenter une carence en :",
+          "choix": [
+            "A) vitamine B12",
+            "B) vitamine B9",
+            "C) vitamine C",
+            "D) vitamine B1",
+            "E) vitamine A"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le coenzyme issu de cette vitamine et ses rôles biochimiques :",
+          "choix": [
+            "A) Il s’agit du pyridoxal phosphate",
+            "B) Il s’agit de la thiamine pyrophosphate",
+            "C) Ce coenzyme est nécessaire au fonctionnement de la pyruvate déshydrogénase",
+            "D) Ce coenzyme est nécessaire au métabolisme du glucose",
+            "E) Ce coenzyme est nécessaire au métabolisme de l’homocystéine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Par ailleurs dans ce contexte,",
+          "choix": [
+            "A) Les réserves hépatiques de la vitamine incriminée sont de plusieurs mois",
+            "B) La supplémentation en cette vitamine sera de l’ordre de 10 g par jour",
+            "C) Il est licite de penser qu’un déficit en vitamine B6 puisse être associé",
+            "D) Le risque de cette carence, si elle est prolongée, est l’apparition d’une encéphalopathie",
+            "E) Il est licite de penser que la chirurgie du grêle est un facteur favorisant la carence par malabsorption"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

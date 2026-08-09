@@ -1,0 +1,750 @@
+{
+  "matiere": "Agents infectieux – Bactériologie",
+  "slug": "ai-bacteriologie-s6",
+  "annee": 2024,
+  "title": "Agents infectieux – Bactériologie - 2024",
+  "total_questions": 35,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mateo 3 ans est amené aux urgences par ses parents. L’interne de garde suspecte une méningite. Quels sont les symptômes conduisant à suspecter une méningite ?",
+          "choix": [
+            "A) Une raideur de la nuque",
+            "B) Des céphalées associées à une fièvre",
+            "C) Une diarrhée sanglante",
+            "D) Un syndrome grippal persistant",
+            "E) Une photophobie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’interne de garde réalise une ponction lombaire. Quels sont les éléments d’orientation en faveur d’une méningite bactérienne ?",
+          "choix": [
+            "A) Un liquide céphalo-rachidien trouble",
+            "B) Un liquide céphalo rachidien riche en leucocytes et majoritairement en polynucléaires neutrophiles",
+            "C) Un liquide céphalo rachidien riche en hématies",
+            "D) Une glycorachie augmentée",
+            "E) Une protéinorachie augmentée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le lendemain, la culture du liquide céphalo rachidien (LCR) de Mateo (3 ans) revient positive à pneumocoque. Que savez-vous à propos de cette bactérie ?",
+          "choix": [
+            "A) Elle peut être responsable de méningites bactériennes en particulier chez les enfants de cet âge",
+            "B) Le pneumocoque pénètre le plus souvent dans le LCR par contiguïté à partir d’un foyer ORL",
+            "C) Le pneumocoque est également appelé Mycoplasma pneumoniae",
+            "D) Un vaccin existe pour prévenir les méningites à pneumocoque",
+            "E) Le pneumocoque est un cocci à Gram négatif en « grain de café »"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293701653-4acb1e4fe1a32",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme B., 30 ans se présente aux urgences pour fièvre. Elle est enceinte (20 semaines d’aménorrhée). Dans ce contexte, un prélèvement d’hémocultures est prescrit.\nA propos des hémocultures, cochez la/les réponse(s) exactes :",
+          "choix": [
+            "A) Un prélèvement d’hémocultures comprend un flacon aérobie et un flacon microaérobie",
+            "B) Il est préférable de prélever toutes les hémocultures en une fois pour limiter les risques de contamination",
+            "C) Après 2 jours d’incubation, les hémocultures sont considérées comme stériles",
+            "D) Il est recommandé de prélever au moins 6 paires par jour",
+            "E) La positivité des hémocultures peut être décelée par la détection de la production de CO2"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "1. Sur les 2 paires d’hémocultures prélevées pour Mme B, un flacon aérobie se positive. A l’examen direct après coloration de Gram, des bacilles à Gram positif sont vus.\nParmi les bactéries suivantes, laquelle est un bacille à Gram positif ?",
+          "choix": [
+            "A) Haemophilus influenzae",
+            "B) Neisseria meningitidis",
+            "C) Staphylococcus saprophyticus",
+            "D) Listeria monocytogenes",
+            "E) Escherichia coli"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’identification de la bactérie cultivée à partir du flacon d’hémoculture de Mme B. donne le résultat : Listeria monocytogenes. Cochez la/les réponse(s) exactes concernant l’interprétation de ce résultat :",
+          "choix": [
+            "A) Listeria monocytogenes est une bactérie commensale cutanée",
+            "B) Un seul flacon d’hémoculture positif à Listeria monocytogenes est généralement considéré comme une contamination",
+            "C) Un seul flacon d’hémoculture positif à Listeria monocytogenes est le signe d’une bactériémie car il s’agit d’un pathogène strict",
+            "D) Listeria monocytogenes est fréquemment responsable d’endocardites",
+            "E) Listeria monocytogenes est responsable d’infections materno-foetales"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cochez la/les réponse(s) exactes concernant la prise en charge de la bactériémie à Listeria monocytogenes chez Mme B. :",
+          "choix": [
+            "A) Les beta-lactamines de choix contre Listeria monocytogenes sont les céphalosporines de 3e génération",
+            "B) La beta-lactamine de choix contre Listeria monocytogenes est l’amoxicilline",
+            "C) Un prélèvement vaginal doit être effectué chez Mme B. car la porte d’entrée de cette bactériémie àL isteria monocytogenes est génitale.",
+            "D) Une déclaration obligatoire doit être faite à l’Agence régionale de Santé",
+            "E) Il doit être mis en place des précautions d’hygiène complémentaires (Hygis) de type contact autour de Mme B"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293704440-0ca5c119aae5d",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mme A. (25 ans) se présente en consultation chez son médecin traitant, pour des leucorrhées abondantes et malodorantes. Elle n’a pas d’autres plaintes, en particulier, pas de douleurs pelviennes ni de fièvre. Quel est le diagnostic le plus probable ?",
+          "choix": [
+            "A) Vaginose bactérienne",
+            "B) Syphilis",
+            "C) Lymphogranulomatose vénérienne",
+            "D) Cystite aiguë simple",
+            "E) Urétrite gonococcique"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la vaginose de Mme A, cochez la/les réponse(s) exactes :",
+          "choix": [
+            "A) Gardnerella vaginalis est la bactérie pathogène à l’origine de la vaginose",
+            "B) La vaginose est liée à un déséquilibre de la flore vaginale",
+            "C) Pour étayer le diagnostic de vaginose, un prélèvement vaginal peut être effectué pour réaliser le score de Nugent",
+            "D) La vaginose est une infection sexuellement transmissible",
+            "E) Le traitement de référence de la vaginose repose sur de l’amoxicilline – acide clavulanique administré par voie orale"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de la consultation, Mme A (25 ans) rapporte avoir eu des rapports sexuels non protégés avec un nouveau partenaire 2 mois auparavant. Cochez la/les réponse(s) exactes concernant le dépistage des infections sexuellement transmissibles dans ce contexte :",
+          "choix": [
+            "A) Un prélèvement vaginal doit être réalisé pour rechercher Neisseria gonorrhoeae et Chlamydia trachomatis par culture",
+            "B) Un prélèvement vaginal doit être réalisé pour rechercher Neisseria gonorrhoeae et Chlamydia trachomatis par PCR",
+            "C) Un prélèvement sanguin doit être réalisé pour faire une sérologie Chlamydia trachomatis",
+            "D) Un prélèvement sanguin doit être réalisé pour faire une sérologie syphilis",
+            "E) Un prélèvement sanguin doit être réalisé pour rechercher Treponema pallidum par culture"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour rappel, Mme A rapporte avoir eu des rapports sexuels non protégés avec un nouveau partenaire 2 mois auparavant. Dans ce contexte de diagnostic d’infection sexuellement transmissible, vous avez prescrit un dépistage de syphilis dont le résultat est le suivant : Ig totales négatives. Sélectionnez la (les) réponse(s) correcte(s).",
+          "choix": [
+            "A) Il s’agit d’un test tréponémique",
+            "B) Il y a très souvent des faux positifs pour ce test de dépistage de la syphilis",
+            "C) Il faut demander un test non tréponémique (VDRL) pour compléter ce test de dépistage",
+            "D) Les Ig totales (anti-syphilis) mettent plus de 2 mois à se positiver en cas de rapport sexuel contaminant.",
+            "E) Si Mme A. n’a pas eu d’autres rapports sexuels non protégés dans l’intervalle, alors elle n’a pas la syphilis."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293706965-79eba2c63621f8",
+      "type": "DP",
+      "title": "DP 4",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme S., 23 ans, enceinte (15 semaines d’aménorrhées), se présente aux urgences obstétriques pour brûlures à la miction et douleurs lombaires. Suite à la réalisation d’une bandelette urinaire qui s’est avérée positive, un ECBU lui est prescrit.\nQuelles recommandations lui donnez-vous pour la réalisation de cet examen ?",
+          "choix": [
+            "A) Recueil du premier jet d’urine",
+            "B) Prélèvement urines après stase de 4h",
+            "C) Nettoyage des organes génitaux externes",
+            "D) Lavage des mains",
+            "E) Miction dans pot stérile"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments sont à prendre en compte pour l’interprétation de l’ECBU ?",
+          "choix": [
+            "A) Nombre de bactérie(s) isolée(s)",
+            "B) Identification du (des) bactéries(s) isolée(s)",
+            "C) Quantification des hématies",
+            "D) Quantification des leucocytes",
+            "E) Quantification du (des) bactéries (s) isolée(s)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les 2 bactéries les plus fréquemment impliquées dans les infections urinaires de la femme jeune ?",
+          "choix": [
+            "A) Enterococcus faecalis",
+            "B) Escherichia coli",
+            "C) Staphylococcus saprophyticus",
+            "D) Proteus mirabilis",
+            "E) Klebsiella pneumoniae"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant Staphylococcus saprophyticus, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Il s’agit d’un cocci à Gram négatif",
+            "B) Cette bactérie appartient à la flore ORL",
+            "C) Cette bactérie est fréquemment impliquée dans des infections respiratoires",
+            "D) Cette bactérie est fréquemment impliquée dans des infections digestives",
+            "E) Cette bactérie est naturellement résistante à la fosfomycine"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293709943-be2b582cd6dbc",
+      "type": "DP",
+      "title": "DP 5",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Jean, 2 ans, consulte aux Urgences pour diarrhée et fièvre depuis 48h. Un prélèvement est réalisé. Quelles sont les bactéries à rechercher ?",
+          "choix": [
+            "A) Salmonella spp",
+            "B) Clostridioides difficile",
+            "C) Helicobacter pylori",
+            "D) Campylobacter jejuni",
+            "E) Staphylococcus aureus"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Par quelle(s) technique(s) peut-on les mettre en évidence ?",
+          "choix": [
+            "A) Examen direct",
+            "B) Culture sur milieux sélectifs",
+            "C) Sérologie",
+            "D) Biologie moléculaire (PCR)",
+            "E) Test immuno-enzymatique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une Samonella Enteritidis a été retrouvée. Quelles sont les caractéristiques de cette bactérie ?",
+          "choix": [
+            "A) Il s’agit d’une bactérie strictement humaine",
+            "B) Il s’agit d’un bacille à Gram négatif",
+            "C) La contamination se fait principalement par ingestion d’aliments et d’eau contaminés",
+            "D) Il s’agit d’une salmonelle majeure",
+            "E) La répartition est mondiale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293711793-e95aae24686c",
+      "type": "DP",
+      "title": "DP 6",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 65 ans se présente aux Urgences avec un tableau de pneumopathie. Il n’a pas d’antécédent d’infection respiratoire.\nDevant ce tableau de pneumopathie communautaire, quelle(s) bactérie(s) est/sont possiblement responsable(s) de l’infection ?",
+          "choix": [
+            "A) Streptococcus pneumoniae",
+            "B) Mycoplasma pneumoniae",
+            "C) Pseudomonas aeruginosa",
+            "D) Legionella pneumophila",
+            "E) Neisseria meningitidis"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l’interrogatoire, on retrouve un syndrome pseudo-grippal, une diarrhée, des douleurs abdominales et des céphalées depuis une semaine. Il présente aussi un terrain alcoolo-tabagique. Un traitement par amoxicilline-acide clavulanique prescrit par son médecin traitant n’a rien amélioré depuis trois jours. La radiographie pulmonaire montre des opacités alvéolaires touchant surtout le lobe inférieur droit.\nDevant ces éléments complémentaires, quelle bactérie est probablement responsable du tableau de pneumopathie communautaire ?",
+          "choix": [
+            "A) Streptococcus pneumoniae",
+            "B) Mycoplasma pneumoniae",
+            "C) Pseudomonas aeruginosa",
+            "D) Legionella pneumophila",
+            "E) Neisseria meningitidis"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant la symptomatologie clinique, l’atteinte d’un lobe pulmonaire, l’absence d’efficacité de l’amoxicilline-acide clavulanique, l’âge du patient et le terrain alcoolo-tabagique, la légionellose doit être suspectée.\nConcernant Legionella pneumophila, quel(s) est (sont) la (les) affirmation(s) exacte(s) ?",
+          "choix": [
+            "A) le diagnostic microbiologique de la légionellose repose sur la recherche d’antigène spécifique dans les urines",
+            "B) le diagnostic microbiologique de la légionellose repose sur la PCR spécifique dans les sécrétions respiratoires",
+            "C) le diagnostic microbiologique de la légionellose repose sur la culture à partir des sécrétions respiratoires",
+            "D) les patients se contaminent uniquement par l’intermédiaire d’aérosols d’eau chaude sanitaire contaminée",
+            "E) cette bactérie est fréquemment responsable de pneumopathies chez les enfants"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293713813-29bbdfbe14da18",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 7,
+      "questions": [
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le composant bactérien dont la synthèse est bloquée par les B-lactamines ?",
+          "choix": [
+            "A) la mucine",
+            "B) la capsule",
+            "C) la membrane cytoplasmique",
+            "D) le peptidoglycane de la paroi",
+            "E) le lipopolysaccharide"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En ce qui concerne les glycopeptides, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) ils sont actifs sur les Entérobactéries",
+            "B) ils sont lentement bactéricides",
+            "C) la teicoplanine est un glycopeptide",
+            "D) ils inhibent la synthèse des acides nucléiques",
+            "E) la résistance à ces antibiotiques a été décrite chez les entérocoques"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les familles d'antibiotiques suivantes, quelle(s) est/sont celle(s) active(s) sur les bactéries à développement intracellulaire ?",
+          "choix": [
+            "A) Fluoroquinolones",
+            "B) Céphalosporines",
+            "C) Macrolides",
+            "D) Glycopeptides",
+            "E) Tétracyclines"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) antibiotique(s) peut/peuvent être utilisé(s) pour traiter une infection à Staphylococcus aureus résistant à la méticilline (SARM) ?",
+          "choix": [
+            "A) Amoxicilline",
+            "B) Vancomycine",
+            "C) Meropénème",
+            "D) Teicoplanine",
+            "E) Association amoxicilline-acide clavulanique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la principale voie de transmission des bactéries impliquées dans les infections nosocomiales ?",
+          "choix": [
+            "A) La transmission par l’air",
+            "B) La transmission par l’eau",
+            "C) La transmission par manu-portage",
+            "D) La transmission par des dispositifs médicaux",
+            "E) La transmission par la nourriture"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le type d’infection nosocomiale le plus fréquent ?",
+          "choix": [
+            "A) Infections sur cathéter",
+            "B) Infections du site opératoire",
+            "C) Pneumopathies",
+            "D) Infections urinaires",
+            "E) Bactériémies"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la tuberculose, quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ?",
+          "choix": [
+            "A) Toutes les personnes infectées développent des signes cliniques",
+            "B) Lors du début de l'infection, la zone infectée est souvent circonscrite à la zone pulmonaire par la réaction inflammatoire",
+            "C) La tuberculose est très contagieuse par voie aérienne suite à un contact prolongé avec un malade",
+            "D) La tuberculose est uniquement une infection pulmonaire",
+            "E) La précarité, la vie en collectivité et la dénutrition sont des facteurs de risque de tuberculose"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic de la tuberculose, quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ?",
+          "choix": [
+            "A) Il faut multiplier les prélèvements : au moins un prélèvement par jour pendant 3 jours d’expectorations ou de tubages gastriques",
+            "B) L’excrétion de la bactérie est homogène au cours du temps",
+            "C) La bactérie est colorable par la coloration spécifique de Ziehl-Neelsen dans les prélèvements",
+            "D) Les patients présentant des BAAR (bacilles acido-alcoolo-résistants) à l'examen direct des prélèvements respiratoires sont très contagieux",
+            "E) Le délai de pousse de la bactérie sur milieux spécifiques est de 72 heures"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ? Le tétanos est une pathologie :",
+          "choix": [
+            "A) aiguë grave, souvent mortelle en l’absence de prise en charge lourde (réanimation)",
+            "B) dont la contamination s’effectue par voie respiratoire",
+            "C) due à un bacille à Gram positif anaérobie sporulé du genre Clostridium",
+            "D) due à une bactérie dont le réservoir est le sol",
+            "E) prévenue par la vaccination basée sur la principale toxine responsable de la maladie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ? La coqueluche est une infection :",
+          "choix": [
+            "A) respiratoire très contagieuse causée par la bactérie Bordetella pertussis",
+            "B) grave et potentiellement létale chez le nourrisson de <6 mois",
+            "C) dont la bactérie responsable a un réservoir environnemental",
+            "D) dont le diagnostic microbiologique est basé sur la sérologie",
+            "E) dont l’immunité naturelle et vaccinale est définitive"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la Borréliose de Lyme due à Borrelia burgdorferi, quelle(s) est (sont)\nla (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) le risque de transmission de la bactérie à l’homme augmente avec la durée d'attachement de la tique",
+            "B) la morsure de tique passe rarement inaperçue car la morsure est douloureuse",
+            "C) les patients développent les formes cliniques des stades secondaires et tertiaires qu’en l’absence de traitement antibiotique bien conduit lors de l’érythème migrant (phase primaire)",
+            "D) le diagnostic bactériologique est nécessaire à tous les stades cliniques",
+            "E) une sérologie positive signe une borréliose de Lyme active"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les staphylocoques, quelles sont les affirmations exactes parmi les propositions suivantes ?",
+          "choix": [
+            "A) ce sont des bacilles à Gram négatif",
+            "B) ils font partie de la flore résidente digestive",
+            "C) ils possèdent ou non une coagulase (base de la classification)",
+            "D) les staphylocoques à coagulase négative sont des pathogènes opportunistes",
+            "E) ce sont des bactéries à croissance difficile nécessitant des milieux spécifiques"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) affirmation(s) exacte(s) parmi les propositions suivantes ?\nStreptococcus pyogenes :",
+          "choix": [
+            "A) est un cocci à Gram positif en chainettes",
+            "B) est naturellement résistant à l’amoxicilline",
+            "C) est responsable d’angines érythémateuses",
+            "D) est responsable d’infections cutanées, parfois graves comme la dermohypodermite nécrosante",
+            "E) est une bactérie strictement humaine de la flore oropharyngée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bactéries suivantes, quelles sont celles responsables d’otite moyenne aiguë de l’enfant ?",
+          "choix": [
+            "A) Branhamella (Moraxella) catarrhalis",
+            "B) Streptococcus pneumoniae",
+            "C) Streptocoques non hémolytiques",
+            "D) Corynebacterium diphteriae",
+            "E) Haemophilus influenzae"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

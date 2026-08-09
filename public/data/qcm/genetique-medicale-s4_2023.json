@@ -1,0 +1,464 @@
+{
+  "matiere": "Génétique médicale",
+  "slug": "genetique-medicale-s4",
+  "annee": 2023,
+  "title": "Génétique médicale - 2023",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Monsieur R. âgé de 25 ans est atteint depuis l’enfance d’une neuropathie périphérique survenue dans un contexte familial et qui s’aggrave progressivement. Il présente une amyotrophie importante des membres inférieurs responsable notamment de pieds creux et l’obligeant à utiliser un fauteuil pour se déplacer. Son frère cadet est lui aussi sévèrement atteint alors que sa sœur aînée serait indemne. Il signale de plus que sa mère présente des pieds creux mais sans véritable handicap tandis qu’un cousin germain issu d’une tante maternelle asymptomatique est comme lui sévèrement atteint. Enfin, il n’est pas rapporté d’unions consanguines dans cette famille. L’examen par électromyographie confirme le diagnostic de neuropathie périphérique familiale (maladie de Charcot-Marie-Tooth) dont on connaît plusieurs modes de transmission liés à différents gènes.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A partir des données familiales vous pouvez retenir la ou les hypothèse(s) suivante(s) :",
+          "choix": [
+            "A) la neuropathie familiale peut être transmise selon un mode récessif",
+            "B) la neuropathie familiale peut être transmise selon un mode dominant",
+            "C) une transmission liée au sexe ne peut être exclue",
+            "D) un mode de transmission non mendélien doit être évoqué en priorité",
+            "E) une hérédité mitochondriale est possible"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un séquençage par NGS d’un large panel de gènes connus pour leur implication dans la maladie de Charcot-Marie-Tooth est réalisé chez le cas index. La variation c.410del, répertoriée en classe 5 de pathogénicité, a été détectée à l’état hémizygote dans le gène GJB1 dont les mutations pathogènes sont responsables d’une maladie de Charcot-Marie-Tooth à transmission dominante liée à l’X appelée CMTX1. Ce résultat vous conduit à considérer :",
+          "choix": [
+            "A) que la variation identifiée dans GJB1 est probablement causale de la neuropathie",
+            "B) que le gène GJB1 ne peut être impliqué dans la neuropathie familiale",
+            "C) que la variation identifiée dans GJB1 a une pénétrance incomplète",
+            "D) que la variation identifiée entraine probablement une perte de fonction de la protéine codée parG JB1",
+            "E) que la variation identifiée est probablement survenue de novo chez le cas index"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La variation c.410del identifiée dans le gène GJB1 a été rapportée dans plusieurs familles atteintes de CMTX1. Cette variation est réputée avoir une pénétrance complète chez les hommes tandis que chez les femmes la pénétrance est de 50%. Dans ces conditions :",
+          "choix": [
+            "A) le cas index a 25% de risque a priori d’avoir une fille atteinte de la neuropathie CMTX1",
+            "B) le cas index a 100% de risque a priori d’avoir un garçon atteint de la neuropathie CMTX1",
+            "C) le cas index n’a aucun risque a priori d’avoir un enfant atteint de la neuropathie CMTX1",
+            "D) la sœur du cas index a un risque a posteriori de 1/6 d’avoir un garçon atteint de CMTX1",
+            "E) il est possible que la tante maternelle du cas index ait un biais d’inactivation de l’X"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295408608-c6109b1261f8e",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un diagnostic de syndrome de l’X fragile a été porté chez l’individu V-2 de cette famille. La mère IV-4, qui est asymptomatique, est porteuse d’une prémutation du gène FMR1. A l’interrogatoire, on remarque que III-2 et III-4 ont eu une insuffisance ovarienne prématurée respectivement à 25 et 32 ans. Il existe un lien de parenté entre III-3 et III-2.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la fratrie de V-2 :",
+          "choix": [
+            "A) Le risque pour le petit garçon V-3 d’être atteint du syndrome de l’X fragile est de ¼.",
+            "B) Le risque pour l’enfant à naître (V-4) d’être atteint d’un syndrome de l’X fragile est de ¼.",
+            "C) Le fait que IV-4 n’ait pas de déficience intellectuelle s’explique par un biais d’inactivation de l’X favorable.",
+            "D) IV-4 a un risque augmenté de présenter une insuffisance ovarienne prématurée et une maladie neurologique de l’adulte.",
+            "E) Un diagnostic de sexe fœtal montrant que V-4 est de sexe féminin permettra d’écarter tout risque de troubles du neurodéveloppement en lien avec le syndrome de l’X fragile."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/genetique-medicale-s4/2023/q4.png?v=1786295409028"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la famille de IV-4 :",
+          "choix": [
+            "A) L’individu V-6 de cette famille est à risque d’avoir un enfant atteint du syndrome de l’X fragile.",
+            "B) L’individu V-5 est à risque d’être atteint du syndrome de l’X fragile.",
+            "C) La mise en évidence de la prémutation chez III-4 permettrait de rassurer d’emblée la sœur de III-3 et sa descendance quant au risque de syndrome de l'X fragile.",
+            "D) Du fait des antécédents familiaux, une maladie neurodégénérative chez II-1 devra faire évoquer un FXTAS.",
+            "E) Du fait des antécédents familiaux, une maladie neurodégénérative chez II-4 devra faire évoquer un FXTAS."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295410077-07527ce5b9ce6",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les bases moléculaires du cancer,",
+          "choix": [
+            "A) La majorité des cancers résulte de l’accumulation séquentielle de mutations somatiques",
+            "B) Les cancers héréditaires constituent un motif rare de consultation en génétique médicale",
+            "C) Un cancer héréditaire est lié à des altérations génétiques constitutionnelles",
+            "D) Les cancers héréditaires ont le plus souvent une transmission autosomique dominante avec pénétrance incomplète",
+            "E) Des mutations constitutionnelles des gènes BRCA1 ou BRCA2 sont responsables de prédispositions familiales aux cancers du sein et de l’ovaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le DPI (diagnostic préimplantatoire),",
+          "choix": [
+            "A) Le DPI permet d’éviter le traumatisme de l’interruption de grossesse.",
+            "B) Le DPI nécessite une consultation pluridisciplinaire durant laquelle gynécologues, généticiens et psychologues vont débattre de l’utilité d’un tel acte.",
+            "C) La décision du DPI est prise uniquement par la future mère",
+            "D) Le DPI n’expose qu’à des problèmes d’ordre technique.",
+            "E) Un diagnostic prénatal peut être réalisé même après un DPI"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les méthodes d’analyse du génome,",
+          "choix": [
+            "A) Un séquençage de génome permet d’identifier ~3.5 millions de variations chez un individu",
+            "B) Un séquençage d’exome permet d’identifier ~5000 variations chez un individu",
+            "C) Le séquençage Sanger est l’approche de choix pour les enquêtes familiales de variations ponctuelles",
+            "D) La profondeur de lecture est le nombre de fois qu’une base est lue lors du séquençage haut débit",
+            "E) Le séquençage de génome peut révéler des translocations chromosomiques équilibrées"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les méthodes d’analyse du génome,",
+          "choix": [
+            "A) Le séquençage Sanger permet une analyse qualitative (identification des variations ponctuelles) et quantitative (identification des délétions/duplications d’exons) B-",
+            "B) Le séquençage d’exome vise à séquencer l’ensemble des exons du génome en une seule analyse",
+            "C) Le séquençage d’un panel de gènes nécessite une étape de capture",
+            "D) La couverture est le pourcentage de la cible à séquencer effectivement séquencée",
+            "E) Le séquençage de génome permet de détecter des variations d’épissage non visibles par séquençage"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "neutralized": [
+            "E"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les variations ponctuelles,",
+          "choix": [
+            "A) Une variation faux-sens peut être à l’origine d’un gain de fonction de la protéine",
+            "B) Les variations sont habituellement classées en 3 classes de pathogénicité, de 1 (bénin) à 3 (pathogène)",
+            "C) Une mutation somatique n’est pas présente dans toutes les cellules d’un individu",
+            "D) Une variation non-stop peut entraîner un allongement de la protéine",
+            "E) La variation c.375-12_375-13del est une variation frameshift"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les variations ponctuelles,",
+          "choix": [
+            "A) Une variation non-sens va toujours entraîner l’apparition d’un phénotype",
+            "B) La variation c.678-86G>A est une variation intronique",
+            "C) Les variations entrainant une perte de fonction de la protéine sont toujours situées dans les régions codantes",
+            "D) La variation p.[Arg87Gly];[=] est présente à l’état hétérozygote",
+            "E) Une variation synonyme entraîne une variation de la séquence d’acides aminés de la protéine"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’identification d’une variation pathogène causale d’un syndrome chez un patient :",
+          "choix": [
+            "A) Elle peut permettre de confirmer un diagnostic suspecté cliniquement",
+            "B) Elle peut permettre de préciser le conseil génétique notamment en cas d’une hétérogénéité génétique",
+            "C) L’absence d’identification d’un variant causal permet le plus souvent d’éliminer notre hypothèse diagnostique",
+            "D) Elle est nécessaire pour rendre possible techniquement une approche par DPN ou DPI",
+            "E) Elle permet parfois d’apporter des facteurs pronostiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un sujet atteint d’une surdité profonde bénéficie d’un test génétique dont le résultat confirme le diagnostic de surdité de type DFNB1 dont la transmission est autosomique et récessive. Le test a en effet révélé la présence homozygote de la mutation c.35delG du gène GJB2. Il s’agit de la mutation la plus fréquente de ce gène avec un taux d’hétérozygotie dans la population générale européenne de 1/50. Dans ces conditions, il est possible de déduire :",
+          "choix": [
+            "A) que l’incidence de la surdité de type DFNB1 dans la population européenne est d’au moins 1/10 000",
+            "B) que le risque pour un couple de cousins germains sans antécédent familial connu de surdité profonde est a priori d’au moins 1/1600",
+            "C) que le risque pour une conjointe non apparentée d’avoir un enfant atteint de surdité DFNB1 avec le cas index est d’au moins 1% ;",
+            "D) que le risque pour une cousine germaine d’avoir un enfant atteint de surdité DFNB1 avec le cas index est d’environ 12% (1/8",
+            "E) que le risque pour une cousine germaine atteinte elle aussi de surdité DFNB1 d’avoir un enfant atteint de surdité DFNB1 avec le cas index est de 50%"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une jeune femme enceinte de 25 semaines d’aménorrhée est adressée en urgence car elle vient d’apprendre la naissance d’un neveu atteint de mucoviscidose, une maladie infantile grave dont l’incidence est de 1/3600. Un test génétique dont la sensibilité est de 90% a été prescrit au couple confirmant chez madame un statut hétérozygote pour la maladie tandis que le test est négatif chez monsieur. Dans cette situation :",
+          "choix": [
+            "A) le risque pour le couple d’avoir un enfant atteint était a priori (avant la prescription des tests) de 1/120",
+            "B) le risque a posteriori (après le résultat des tests) pour le couple d’avoir un enfant atteint est inférieur à 1/1000",
+            "C) le risque a posteriori est suffisamment faible pour rassurer le couple",
+            "D) il convient d’organiser en urgence une choriocentèse pour un diagnostic prénatal",
+            "E) il convient de prescrire un test génétique au premier enfant de la proposante âgé de 5 ans bien qu’il soit bien portant"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Certaines affections telles que le syndrome de Prader-Willi ont une transmission d’allure non mendélienne car le ou les gènes impliqués sont soumis à une empreinte parentale. Cela signifie :",
+          "choix": [
+            "A) que la séquence d’ADN des gènes concernés varie en fonction de l’origine parentale des allèles;",
+            "B) que l’expression des gènes concernés est sous la dépendance d’un contrôle épigénétique;",
+            "C) que des disomies uniparentales puissent être à l’origine de ces affections ;",
+            "D) qu’une délétion de l’allèle parental soumis à l’empreinte puisse être à l’origine de ces affections;",
+            "E) qu’une mutation pathogène affectant un gène soumis à l’empreinte puisse être transmise par un parent sain."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic prénatal",
+          "choix": [
+            "A) A l’échographie de 12 semaines d’aménorrhée, une clarté nucale mesurée à 1,5 mm est anormale",
+            "B) Une clarté nucale anormale mesurée à l’échographie de 12 semaines d’aménorrhée doit faire suspecter un syndrome de Turner",
+            "C) Une interruption médicale de grossesse peut être réalisée à 7 mois de grossesse lorsqu’une maladie génétique d’une particulière gravité est diagnostiquée chez le fœtus",
+            "D) Une clarté nucale anormale mesurée à l’échographie de 12 semaines d’aménorrhée doit conduire à proposer un caryotype fœtal",
+            "E) Le calcul de risque combiné pour dépistage de la trisomie 21 détecte tous les fœtus avec une trisomie 21"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la technique de CGH array (Comparative Genomic Hybridization array)",
+          "choix": [
+            "A) Elle est basée sur des mesures d’intensité de fluorescence",
+            "B) La technique permet de détecter une délétion chromosomique de 12 Mb (mégabases)",
+            "C) Une translocation réciproque équilibrée est détectée par cette technique",
+            "D) La CGH array est l’examen génétique réalisé en première intention chez un enfant avec déficience intellectuelle",
+            "E) Les petites variations de séquence de l’ADN (type SNV) sont détectées par cette technique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la cytogénétique moléculaire",
+          "choix": [
+            "A) L’hybridation in situ en fluorescence (FISH) permet de détecter une délétion de 5 kb (kilobases)",
+            "B) Une mère porteuse d’une microdélétion 22q11.2 a 50% de risque de transmettre la microdélétion à un enfant",
+            "C) La tétralogie de Fallot est une malformation cardiaque souvent observée dans la microdélétion 22q11.2",
+            "D) Une craniosténose est une malformation souvent observée dans la microdélétion 22q11.2",
+            "E) La microdélétion 22q11.2 détectée chez un enfant est parfois héritée d’un parent dont le phénotype est proche de la normale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la translocation Robertsonienne impliquant les chromosomes 14 et 21",
+          "choix": [
+            "A) Une interruption médicale de grossesse est acceptable lorsqu’un fœtus est porteur de cette translocation à l’état équilibré",
+            "B) Lorsqu’elle est portée à l’état équilibré chez une femme enceinte, elle justifie la réalisation d’un caryotype fœtal",
+            "C) A l’état équilibré chez une femme, elle peut être responsable de trisomie 21 chez son enfant",
+            "D) A l’état équilibré chez un homme elle peut être responsable de stérilité masculine",
+            "E) Elle peut être présente à l’état équilibré chez un fœtus"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Madame H., âgée de 34 ans, est enceinte à 23 semaines d’aménorrhée (SA). Le risque de trisomie 21 avait été évalué à 1/82 au dépistage combiné du 1er trimestre. Vous ne notez rien de particulier dans les antécédents personnels de Madame H. ni de son conjoint.",
+          "choix": [
+            "A) Un dépistage prénatal non invasif de la trisomie 21 (DPNI) doit être proposé",
+            "B) Ce résultat justifie la réalisation d’une amniocentèse pour caryotype fœtal",
+            "C) La proposante est dans un groupe à risque accru d’avoir un enfant trisomique 21",
+            "D) Si un DPNI est réalisé, la proposante bénéficiera d’un remboursement de cette analyse par la sécurité sociale",
+            "E) Un suivi échographique simple est recommandé devant ce résultat"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la méthode de diagnostic préimplantatoire :",
+          "choix": [
+            "A) Le diagnostic génétique peut être fait à partir d’un seul blastomère",
+            "B) La mucoviscidose est une maladie génétique pouvant être prise en charge par cette méthode",
+            "C) Cette méthode permet de dire si un embryon est porteur d’une translocation Robertsonienne à l’état équilibré",
+            "D) Un embryon hétérozygote pour une maladie autosomique récessive ne sera pas transféré in utero",
+            "E) Cette méthode est une alternative au diagnostic prénatal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

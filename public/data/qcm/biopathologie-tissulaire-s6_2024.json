@@ -1,0 +1,752 @@
+{
+  "matiere": "Biopathologie tissulaire",
+  "slug": "biopathologie-tissulaire-s6",
+  "annee": 2024,
+  "title": "Biopathologie tissulaire - 2024",
+  "total_questions": 36,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles techniques permettent d’établir le statut de HER2 sur un adénocarcinome mammaire?",
+          "choix": [
+            "A) FISH (hybridation fluorescente in situ)",
+            "B) RT-PCR",
+            "C) Immunohistochimie",
+            "D) Western blot",
+            "E) Immuno-enzymologie"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les maladies suivantes, quelles sont celles qui peuvent engendrer une cirrhose?",
+          "choix": [
+            "A) Une hépatite chronique virale B",
+            "B) Les stéatoses non alcooliques",
+            "C) L’hémochromatose primitive",
+            "D) Une hépatite auto-immune",
+            "E) L’éthylisme chronique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les critères histologiques suivants, quel(s) est/ sont ceux qui est/sont incompatible(s) avec le diagnostic de carcinome in situ ?",
+          "choix": [
+            "A) Présence d’atypies cyto-nucléaires marquées",
+            "B) Franchissement de la membrane basale",
+            "C) Mitoses atypiques",
+            "D) Présence de métastases ganglionnaires",
+            "E) Présence de foyer de nécrose"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la tumeur maligne dérivant des cellules musculaires lisses ?",
+          "choix": [
+            "A) Liposarcome",
+            "B) Léiomyosarcome",
+            "C) Fibrosarcome",
+            "D) Rhabdomyosarcome",
+            "E) Chondrosarcome"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les cancers qui donnent fréquemment des métastases osseuses ?",
+          "choix": [
+            "A) Prostate",
+            "B) Thyroïde",
+            "C) Côlon",
+            "D) Rein",
+            "E) Sein"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez posé un diagnostic d’amylose, quelles techniques complémentaires devez-vous réaliser sur le prélèvement ?",
+          "choix": [
+            "A) Immunohistochimie anti-amylose",
+            "B) Immunohistochimie avec anticorps anti-AA",
+            "C) Immunohistochimie avec anticorps anti-collagène IV",
+            "D) Immunohistochimie avec anticorps anti-TTR",
+            "E) Immunofluorescence avec les anticorps anti-chaînes légères d’immunoglobulines"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes à propos de la technique d’immunohistochimie sur coupes en paraffine ?",
+          "choix": [
+            "A) Permet de rattacher une métastase osseuse à un cancer primitif de prostate si le marquage anti-PSA est positif",
+            "B) Permet de typer précisément un lymphome",
+            "C) Est utilisée pour rechercher des micro-métastases dans un ganglion sentinelle",
+            "D) Permet de rechercher l’expression de cibles thérapeutiques dans un cancer",
+            "E) Permet de rattacher une métastase ganglionnaire à un mélanome si le marquage anti-cytokératine est positif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes à propos de la métaplasie intestinale ?",
+          "choix": [
+            "A) Peut évoluer vers un cancer",
+            "B) Est irréversible",
+            "C) S’observe dans les bronches",
+            "D) S’observe dans l’œsophage lors des reflux gastro-œsophagiens",
+            "E) S’observe dans un contexte de gastrite chronique"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles caractérisent la maladie de Crohn ?",
+          "choix": [
+            "A) Inflammation trans-murale",
+            "B) Possibilité de survenue de fistules",
+            "C) Atteinte prédominant dans le rectum",
+            "D) Atteinte discontinue avec intervalle de muqueuse saine",
+            "E) Granulomes épithélioïdes sans nécrose"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles caractérisent l’artérite à cellules géantes ?",
+          "choix": [
+            "A) On trouve le plus souvent des calcifications dans la paroi de l'artère",
+            "B) Elle atteint uniquement les artères de petit calibre",
+            "C) Il s'agit d'une artérite granulomateuse giganto-cellulaire",
+            "D) Elle peut toucher les trois tuniques d'un vaisseau",
+            "E) Elle est diagnostiquée sur une biopsie de l'artère temporale"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Qu’est-ce qu’un goitre thyroïdien ?",
+          "choix": [
+            "A) Une hypertrophie thyroïdienne",
+            "B) Une tumeur cancéreuse",
+            "C) Un processus réactionnel à un dysfonctionnement thyroïdien",
+            "D) Une lésion pré-cancéreuse",
+            "E) Une métaplasie conjonctive de la thyroïde"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen extemporané, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Est pratiqué dans le but d’optimiser le geste chirurgical",
+            "B) Peut porter sur n’importe quel tissu",
+            "C) Utilise des coupes en paraffine",
+            "D) Se pratique au cours d’une intervention chirurgicale",
+            "E) Est aussi fiable qu’un examen classique"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des léiomyomes utérins, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Ils peuvent se transformer en léïomyosarcome avec le temps",
+            "B) Ils sont plus fréquemment observés chez la femme en péri-ménopause ou ménopausée",
+            "C) Il s’agit d’une prolifération de cellules fusiformes sans atypie",
+            "D) Ils peuvent conduire à une hystérectomie selon les signes fonctionnels",
+            "E) Il s’agit d’une tumeur rare"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du méningiome, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) C’est une tumeur bénigne du tissu méningé",
+            "B) Il a des atypies marquées et une forte activité mitotique",
+            "C) C’est une tumeur bénigne du tissu épendymaire",
+            "D) On observe une nette délimitation de cette tumeur avec le tissu cérébral avoisinant",
+            "E) C’est une tumeur maligne des astrocytes"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le type tumoral le plus fréquent au niveau testiculaire ?",
+          "choix": [
+            "A) Tumeur des cordons sexuels",
+            "B) Tumeur germinale",
+            "C) Mésothéliome",
+            "D) Sarcome",
+            "E) Lymphome"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cocher les anomalies moléculaires qui sont recherchées dans les cancers correspondants.",
+          "choix": [
+            "A) Amplification du gène HER2 dans le carcinome mammaire",
+            "B) Amplification du gène MDM2 dans le liposarcome",
+            "C) Mutation du gène des récepteurs aux œstrogènes dans le carcinome mammaire",
+            "D) Mutation du gène BRAF dans le mélanome",
+            "E) Mutation du gène EGFR dans le carcinome bronchique non à petites cellules"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les variétés morphologiques d’un foyer inflammatoire aigu ?",
+          "choix": [
+            "A) Phlegmon",
+            "B) Pustule",
+            "C) Empyème",
+            "D) Cirrhose",
+            "E) Gangrène gazeuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cancer du col utérin, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Il s'agit le plus souvent d'un adénocarcinome",
+            "B) On peut en faire le diagnostic sur un frottis cervico-utérin",
+            "C) On peut faire le diagnostic de carcinome infiltrant sur un frottis cervico-utérin",
+            "D) Le traitement consiste toujours en une hystérectomie",
+            "E) Il est quasiment toujours dû à une infection par un HPV"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294653096-066fe9f280ed3",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un patient âgé de 76 ans, ancien fumeur, est hospitalisé en raison d’une toux sans expectoration depuis quelques mois. Il dit avoir maigri et à l’interrogatoire, vous retrouvez des sueurs nocturnes. Sur la radiographie thoracique, vous observez un épanchement pleural bilatéral et des nodules pulmonaires.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels diagnostics évoquez-vous à ce stade ?",
+          "choix": [
+            "A) Une infection broncho-pulmonaire",
+            "B) Une insuffisance cardiaque",
+            "C) Une tuberculose",
+            "D) Une embolie pulmonaire",
+            "E) Un cancer broncho-pulmonaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les examens à visée diagnostique que vous avez prescrits ne sont pas contributifs. La biopsie trans-bronchique d’un nodule est programmée. Parmi les lésions décrites par le pathologiste, laquelle est très évocatrice d’une origine tuberculeuse ?",
+          "choix": [
+            "A) Des amas de cellules épithélioïdes associées à quelques cellules géantes, disposées autour d’un matériel éosinophile, acellulaire",
+            "B) Des granulomes épithélioïdes bien limités, non confluents",
+            "C) Une vascularite des petits vaisseaux",
+            "D) Une alvéolite purulente",
+            "E) Des globes cornés au sein de massifs d’allure épithéliale"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic posé est finalement celui d’une tuberculose maladie ou secondaire. Parmi les propositions suivantes, lesquelles sont exactes ?",
+          "choix": [
+            "A) Notre patient est contagieux",
+            "B) La tuberculose maladie ou secondaire atteint préférentiellement le foie",
+            "C) Une forme miliaire correspond à une infection non contrôlée après dissémination hématogène des bacilles",
+            "D) La primo-infection tuberculeuse est en général asymptomatique",
+            "E) La tuberculose maladie ou secondaire peut toucher tous les organes"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles peuvent correspondre à l’évolution d’une lésion tuberculeuse ?",
+          "choix": [
+            "A) La caverne par drainage du caséum dans une bronche",
+            "B) La miliaire par drainage du caséum dans un vaisseau",
+            "C) La colonisation d’une caverne par un agent infectieux",
+            "D) La calcification",
+            "E) L’atteinte osseuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la coloration spéciale utilisée par le pathologiste pour mettre en évidence le bacille de Koch, quelles propositions sont exactes ?",
+          "choix": [
+            "A) Il s’agit de la coloration de Masson",
+            "B) Elle colore d’autres types de mycobactéries que Mycobacterium Tuberculosis",
+            "C) Il s’agit de la coloration du PAS",
+            "D) Il s’agit de la coloration de Ziehl",
+            "E) Elle colore en rouge les bacilles"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la tuberculose, quelles propositions sont exactes ?",
+          "choix": [
+            "A) Le granulome épithélio-giganto-cellulaire est une réaction inflammatoire spécifique de la tuberculose",
+            "B) Le mode de contage est interhumain",
+            "C) La tuberculose musculo-squelettique touche essentiellement le rachis et les grosses articulations",
+            "D) Le caséum est toujours présent dans les lésions histologiques induites par une infection tuberculeuse",
+            "E) Les cellules de Langhans sont le réservoir du bacille de Koch"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294656892-187002325ddbf8",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Une patiente de 75 ans, sans antécédent notable, est hospitalisée pour une altération de l’état général, une hépatomégalie et un ictère. L’examen échographique révèle une volumineuse masse hépatique hétérogène suspecte de cancer.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la conduite à tenir devant cette masse pour obtenir un diagnostic formel ?",
+          "choix": [
+            "A) Une biopsie sous contrôle d’imagerie",
+            "B) Doser des marqueurs tumoraux notamment l’antigène carcino-embryonnaire",
+            "C) Rechercher des cellules tumorales circulantes dans le sang (biopsie liquide)",
+            "D) Faire des sérologies virales (virus de l’hépatite C, virus de l’hépatite B, ...)",
+            "E) Effectuer une tomographie par émission de positons (TEP scan)"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la biopsie hépatique adressée fixée au pathologiste, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Le fixateur idéal est l’acide acétique",
+            "B) Le fixateur idéal est le formol",
+            "C) Après quelques heures de fixation, on déshydrate la biopsie, avant de l’imprégner en paraffine",
+            "D) Des coupes sur le bloc de paraffine sont réalisées au microtome",
+            "E) Ces coupes sont ensuite colorées en première intention par l’hémalun éosine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sur la biopsie de cette masse hépatique, l’aspect est celui d’une tumeur maligne formant des glandes et avec mucisécrétion. Quelles sont les diagnostics possibles?",
+          "choix": [
+            "A) Lymphome",
+            "B) Carcinome hépatocellulaire",
+            "C) Métastase d’un adénocarcinome bronchique",
+            "D) Métastase d’un mélanome",
+            "E) Métastase d’un adénocarcinome colorectal"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic retenu est celui de métastase d’un cancer colorectal. Concernant le cancer colorectal, quelles sont les propositions justes ?",
+          "choix": [
+            "A) il apparaît le plus souvent dans un contexte de syndrome Lynch",
+            "B) Le foie est le site préférentiel de ses métastases",
+            "C) Sa diffusion métastatique se fait par voie lymphatique et sanguine",
+            "D) Il n’est jamais d’origine héréditaire",
+            "E) Son dépistage se fait par une analyse dans les selles"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le compte-rendu anatomo-pathologique que le pathologiste va rédiger, quels sont les éléments indispensables à la prise en charge de la patiente qui doivent y figurer?",
+          "choix": [
+            "A) La différenciation de la tumeur qui définit le grade",
+            "B) La différenciation de la tumeur qui définit le stade",
+            "C) La présence de ganglions métastatiques",
+            "D) Le niveau d’invasion de la paroi colique qui définit le stade",
+            "E) Le niveau d’invasion de la paroi colique qui définit le grade"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 30,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la lésion précancéreuse sur laquelle s’est probablement développé ce cancer ?",
+          "choix": [
+            "A) Une colite inflammatoire",
+            "B) Un ulcère chronique",
+            "C) Un adénome tubuleux",
+            "D) Un diverticule",
+            "E) Une sténose d’origine inflammatoire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294660416-093f68509591e",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Un patient de 78 ans consulte son médecin généraliste pour un problème de dysurie (douleur lors de la miction). Il n’a pas de fièvre, ni d’autre symptôme. Le bilan biologique standard réalisé est normal, sans syndrome inflammatoire (CRP normale). L’ECBU est normal.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelles sont celles que le médecin généraliste va proposer au patient pour sa prise en charge?",
+          "choix": [
+            "A) un dosage sérique des PSA",
+            "B) une surveillance à 6 mois",
+            "C) un toucher rectal",
+            "D) un bilan d’imagerie par IRM d’emblée",
+            "E) une biopsie prostatique d’emblée par un urologue"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant ce tableau clinique et biologique, quels sont les deux diagnostics les plus probables?",
+          "choix": [
+            "A) une prostatite",
+            "B) un adénome prostatique",
+            "C) un cancer de la vessie métastatique à la prostate",
+            "D) un cancer de la prostate",
+            "E) un cancer du rectum localement évolué infiltrant la prostate"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 33,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans l’éventualité où il s’agirait d’un cancer de la prostate, quelle description en ferait le pathologiste sur des biopsies prostatiques?",
+          "choix": [
+            "A) Foyer tumoral constitué de glandes infiltrantes",
+            "B) Hyperplasie glandulaire et stromale",
+            "C) Infiltration diffuse par des polynucléaires neutrophiles avec œdème du stroma",
+            "D) Carcinome malpighien (=épidermoïde) infiltrant",
+            "E) Infiltration diffuse par des lymphocytes et histiocytes"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 34,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans l’éventualité où il s’agirait d’une tumeur bénigne de la prostate, quelle description en ferait le pathologiste?",
+          "choix": [
+            "A) Infiltration diffuse par des lymphocytes et histiocytes",
+            "B) Infiltration diffuse par des polynucléaires neutrophiles avec œdème du stroma",
+            "C) Foyer tumoral constitué de glandes infiltrantes",
+            "D) Carcinome malpighien (=épidermoïde) infiltrant",
+            "E) Hyperplasie glandulaire et stromale"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles sont justes ?",
+          "choix": [
+            "A) Concernant le cancer de la prostate, on utilise le score de Elston-Ellis pour grader la différenciation tumorale",
+            "B) Concernant le cancer de la prostate, on utilise le score de Gleason pour grader la différenciation tumorale",
+            "C) Concernant le cancer de la prostate, on utilise le score de Gleason pour évaluer le stade du cancer",
+            "D) Dans le stade TNM des cancers en général, le T correspond à l’extension de la tumeur dans l’organe, son extension aux organes voisins et parfois à sa taille",
+            "E) Dans le cancer en général, plus un cancer est bien différencié, moins il ressemble au tissu normal d’origine"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les cancers pour lesquels existe un dépistage organisé en France?",
+          "choix": [
+            "A) Ovaire",
+            "B) Côlon",
+            "C) Col utérin",
+            "D) Prostate",
+            "E) Sein"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

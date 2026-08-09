@@ -1,0 +1,394 @@
+{
+  "matiere": "Système neurosensoriel – Neurologie",
+  "slug": "sns-neurologie-s5",
+  "annee": 2025,
+  "title": "Système neurosensoriel – Neurologie - 2025",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les malaises avec perte de connaissance",
+          "choix": [
+            "A) Une perte de connaissance à l’effort est évocatrice d’une syncope cardiaque.",
+            "B) La perte d’urine oriente vers une crise d’épilepsie.",
+            "C) La morsure du bord latéral de langue est évocatrice d’une syncope cardiaque.",
+            "D) Une perte de connaissance avec courtes convulsions est forcément une crise d’épilepsie.",
+            "E) Le test d’hypotension orthostatique est positif si la pression artérielle systolique chute de plus de 10mmHg après 3 minutes en position debout."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la sémiologie des crises épileptiques :",
+          "choix": [
+            "A) Les absences sont des crises généralisées avec rupture de contact, mais sans activité motrice clonique ou tonique visibles.",
+            "B) Les crises focales avec altération de la conscience peuvent se manifester par une confusion et des automatismes moteurs (exemple : mouvements répétitifs des mains).",
+            "C) Les crises généralisées tonico-cloniques commencent généralement par une phase tonique, suivie d’une phase clonique puis d’une phase d’hypotonie.",
+            "D) La durée moyenne d’une crise tonico-clonique généralisée est de 5 à 6 minutes.",
+            "E) Un EEG normal après un malaise avec perte de connaissance écarte le diagnostic d’épilepsie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont, dans la liste suivante, les causes potentielles de coma ?",
+          "choix": [
+            "A) Hypoglycémie",
+            "B) Médicaments Psychotropes",
+            "C) Accident Vasculaire Cérébral",
+            "D) Infection du système nerveux central",
+            "E) Polyneuropathie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments de l’examen clinique qui orientent vers un coma lésionnel ?",
+          "choix": [
+            "A) Pupilles symétriques et réactives à la stimulation lumineuse",
+            "B) Réflexe cutané plantaire en extension à gauche",
+            "C) Réflexe de décérébration à la stimulation douloureuse",
+            "D) Un score de Glasgow à 6",
+            "E) Abolition du réflexe cornéen"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une cruralgie est :",
+          "choix": [
+            "A) Une douleur radiculaire de racines L5-S1",
+            "B) Une douleur radiculaire de racines L3-L4",
+            "C) Associée à une réduction/abolition de réflexe achilléen",
+            "D) Associée à une réduction/abolition de réflexe rotulien",
+            "E) Liée à une douleur dans la face postérieure de la cuisse"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un déficit du nerf radial donne :",
+          "choix": [
+            "A) un déficit moteur de flexion du poignet",
+            "B) un déficit moteur d'extension du poignet",
+            "C) une main tombante",
+            "D) rarement un deficit sensitif partie externe du dos de la main",
+            "E) un déficit sensitif des trois premiers doigts"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les myoclonies :",
+          "choix": [
+            "A) sont des mouvements brusques et brefs",
+            "B) sont stéréotypées",
+            "C) peuvent être supprimées par la volonté",
+            "D) peuvent être focales et/ou généralisées",
+            "E) peuvent être positives et negatives (flapping tremor)"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les mouvements choréiques :",
+          "choix": [
+            "A) sont variables dans leur distribution, leur fréquence et leur intensité",
+            "B) sont stéréotypés",
+            "C) peuvent intéresser la musculature axiale et faciale",
+            "D) sont rythmiques",
+            "E) ont très souvent une grande amplitude"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de cette image, quelle(s) proposition(s) est/sont juste(s) ?",
+          "choix": [
+            "A) La lésion est en partie dans le lobe pariétal droit",
+            "B) Il s’agit d’une coupe axiale T1 après Gadolinium",
+            "C) Il existe un oedème périlésionnel",
+            "D) Il existe un effet de masse",
+            "E) Il existe un engagement sous-falcoriel"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "images": [
+            "/images/qcm/sns-neurologie-s5/2025/q9.png?v=1786300298713"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du scanner, quelle proposition est juste ?",
+          "choix": [
+            "A) Il est basé sur l’utilisation des mouvements des protons",
+            "B) Le sang frais apparait isodense",
+            "C) Les ventricules normaux apparaissent hyperdenses",
+            "D) La substance blanche est plus dense que la substance grise",
+            "E) Il permet de détecter des signes d’AVC ischémique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’IRM, quelle(s) proposition(s) est/sont juste(s) ?",
+          "choix": [
+            "A) En T1, la substance blanche est plus blanche que la substance grise",
+            "B) En T2, le liquide cérébrospinal est blanc",
+            "C) En FLAIR, la substance blanche est plus blanche que la substance grise",
+            "D) En T2*, le sang apparait en hyposignal",
+            "E) En Diffusion, l’AVC aigu apparait en hypersignal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient atteint d’un syndrome démentiel, le(s) élément(s) suivant(s) sont vrai(s) :",
+          "choix": [
+            "A) La confusion est toujours présente",
+            "B) Il existe systématiquement une perte d’autonomie dans la vie quotidienne",
+            "C) Il peut exister des troubles psychocomportementaux",
+            "D) Un trouble de la mémoire épisodique peut être retrouvé",
+            "E) Un trouble de la mémoire immédiate peut être retrouvé"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’aphasie le(s) élément(s) suivant(s) sont vrai(s) :",
+          "choix": [
+            "A) elle peut entrainer une hypophonie",
+            "B) elle peut être associée à une dysarthrie",
+            "C) si elle survient de manière brutale, une consultation rapide chez le médecin traitant s’impose",
+            "D) elle peut donner un trouble de la compréhension orale",
+            "E) elle peut donner un trouble de la lecture"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13,
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’amnésie le(s) élément(s) suivant(s) sont vrai(s) :",
+          "choix": [
+            "A) la perte de l’identité ne s’observe quasiment que dans les maladies psychiatriques",
+            "B) lors d’un ictus amnésique, il existe un oubli à mesure",
+            "C) un trouble de mémoire sémantique fait perdre la compréhension des mots",
+            "D) le trouble de la mémoire épisodique est fréquent dans la maladie d’Alzheimer",
+            "E) une altération du fonctionnement de l’hippocampe entraine un trouble de la mémoire épisodique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes du syndrome pyramidal ?",
+          "choix": [
+            "A) Amyotrophie",
+            "B) Aréflexie",
+            "C) Réflexes ostéotendineux vifs et polycinétiques",
+            "D) Extension de la zone réflexogène",
+            "E) Réflexe cutané plantaire en flexion"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est/sont la/les proposition(s) vraie(s) à propos des paires crâniennes ?",
+          "choix": [
+            "A) La paralysie d’un nerf oculomoteur engendre une diplopie monoculaire",
+            "B) Un déficit d’occlusion palpébral, ou signe de Charles Bell, est un signe de paralysie faciale périphérique",
+            "C) Une paralysie du nerf hypoglosse droit (XIIème nerf crânien droit) provoque une déviation de la langue du côté gauche.",
+            "D) Une paralysie du nerf oculomoteur commun ne provoque jamais de mydriase",
+            "E) Le cinquième nerf crânien ou nerf trijumeau est le nerf de la sensibilité du visage"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies à propos des céphalées ?",
+          "choix": [
+            "A) Une céphalée brutale, dite aussi en coup de tonnerre, est définie par une céphalée d’une intensité d’au moins 7/10 maximale en moins d’une minute",
+            "B) Une céphalée récente inhabituelle fait évoquer une céphalée primaire",
+            "C) L’intensité de céphalée est bien corrélée à la gravité de la cause sous-jacente",
+            "D) La raideur de nuque fait partie des signes du syndrome méningé",
+            "E) La raideur méningée se cherche dans les mouvements de rotation de la tête"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les critères de migraine sans aura ?",
+          "choix": [
+            "A) Au moins 2 épisodes de céphalée",
+            "B) Durée de la céphalée de 15 minutes à 3 heures sans traitement",
+            "C) Céphalée hémicrânienne",
+            "D) Céphalée de type pulsatile",
+            "E) Photophobie et phonophobie"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,1014 @@
+{
+  "matiere": "UE transversale",
+  "slug": "ue-transversale-s10",
+  "annee": 2023,
+  "title": "UE transversale - 2023",
+  "total_questions": 41,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez aux urgences une jeune femme de 20 ans en raison d’un point de côté ressenti depuis 4 jours de localisation latéro-thoracique gauche. Elle était plutôt fatiguée depuis quelques semaines dans un contexte de préparation d’un concours pour entrer dans une école d’ingénieurs, mais elle ne se sentait pas fébrile. Elle vient consulter car la douleur la gêne pour inspirer profondément et elle se sent anormalement essoufflée. La veille de l’apparition des symptômes, elle avait passé une soirée tranquille avec des amis ; elle s’est réveillée avec la douleur qui est allée en s’accentuant depuis 3 jours.\nLe poids est de 60 kg pour 1m72. La tension artérielle est 120/70 mm HG, le pouls à 116 /mn, la fréquence respiratoire à 26/mn, la température corporelle à 38°2. Saturation en O2 : 92%. Elle ne se plaint de rien d’autre, ne prend aucun médicament, elle a des règles normales.\nElle fume quotidiennement 1 paquet de cigarettes blondes depuis 3 ans.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions de diagnostic suivantes, laquelle vous parait la plus probable pour expliquer la douleur?",
+          "choix": [
+            "A) syndrome coronarien aigu",
+            "B) pneumothorax",
+            "C) fracture de côte",
+            "D) pleurésie",
+            "E) zona à la phase pré-éruptive"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’examen pulmonaire retrouve une matité de base gauche, une diminution du murmure vésiculaire en base gauche, et un\nbruit surajouté discret perçu aux deux temps de la respiration. Que vous évoque cette auscultation ?",
+          "choix": [],
+          "reponses": [
+            "épanchement pleural",
+            "pleurésie",
+            "épanchement pleural gauche",
+            "pleurésie gauche",
+            "Epanchement pleural",
+            "epanchement pleural gauche",
+            "pleuresie",
+            "epanchement pleural",
+            "pleuresie gauche",
+            "pleuresie base gauche",
+            "Epanchement pleural gauche",
+            "Pleurésie gauche",
+            "pleurésie base gauche",
+            "épanchement pleural liquidien",
+            "Épanchement pleural liquidien",
+            "épanchement pleural liquidien gauche",
+            "Epanchement pleural liquidien",
+            "pleurésie basale gauche",
+            "épenchement pleural",
+            "Epanchement pleural en base gauche",
+            "pleurésie en base gauche",
+            "Epanchement pleurale",
+            "Epanchement pleural base gauche",
+            "Pleurésie base gauche",
+            "bruits de frottements des feuillets de la plèvre dans contexte de pleurésie",
+            "Pleurésie avec bruit de frottement pleural",
+            "pleurésie gauche probable",
+            "epenchement pleural",
+            "Epanchement pleural basal gauche",
+            "pleuresie basale gauche",
+            "Frottement pleural sur pleuresie gauche",
+            "pleurésie du poumon gauche",
+            "épenchement pleural base gauche",
+            "Épanchement pleurale basale gauche",
+            "épanchement pleural abondant",
+            "pleurésie liquidienne",
+            "Epanchement pleural liquidien gauche avec frottement pleural",
+            "epanchement pulmonaire basal gauche",
+            "epanchement liquidien basithoracique gauche",
+            "epanchement lquidien pleural gauche",
+            "pleurésie avec frottement pleural",
+            "Un épanchement pleural",
+            "frottement pleural (pleuresie)",
+            "épanchement pleurale liquidien",
+            "epanchement liquidien gauche",
+            "une pleurésie avec frottement pleural",
+            "épanchement pleural basi thoracique gauche",
+            "Pleurésie basale gauche",
+            "épanchement liquidien pleural",
+            "Frottement pleural avec probable épanchement à gauche donc pleurésie",
+            "épenchement pleural gauche",
+            "frottement pleural sur épanchement pleural gauche",
+            "crépitants épanchement pleural",
+            "epanchement pleural base gauche",
+            "Epanchement liquidien à la base du poumon gauche",
+            "Épanchement pleural liquidien gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les gestes cliniques suivants, lesquels sont indispensables à ce stade (3 réponses exactes)",
+          "choix": [
+            "A) Palpation des mollets",
+            "B) Recherche d’un pouls paradoxal",
+            "C) Recherche d’oedème des membres inférieurs",
+            "D) Recherche d’une turgescence jugulaire",
+            "E) Touchers pelviens"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le bilan que lui a prescrit son médecin généraliste le matin même montre :\nHémogramme : globules blancs : 7200 dont 80% de polynucléaires neutrophiles ; lymphocytes : 10% ; plaquettes : 104 G/L ; hémoglobine : 10.5 g/dl; VGM : 96 µ3 ; D-dimères : 2000 Unités (N<500) ; créatininémie : normale ; TGO : 3N, TGP : 2N ; CRP :\n50 mg/L. le TCA de la patiente est à 58 secondes pour un témoin à 34 s, le TP est normal.\nQuelle est l’affirmation exacte ?",
+          "choix": [
+            "A) elle présente une polynucléose, ce qui est très en faveur d’une pleurésie bactérienne",
+            "B) les anomalies des transaminases suggèrent une hépatite virale aigue",
+            "C) l’élévation des D-dimères est en faveur d’une embolie pulmonaire",
+            "D) la patiente présente une anémie inflammatoire",
+            "E) aucune de ces affirmations n’est exacte"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’électrocardiogramme montre une tachycardie sinusale et un bloc de branche droit complet. L'ensemble du tableau clinico-biologique de cette patiente vous évoque:",
+          "choix": [
+            "A) une maladie thrombo-embolique",
+            "B) une pleuro-pneumopathie pneumococcique",
+            "C) un infarctus du coeur droit",
+            "D) une coagulation intravasculaire disséminée",
+            "E) un syndrome des antiphospholipides"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez demandé un angioscanner qui confirme un épanchement pleural d’abondance modérée en base gauche et une embolie pulmonaire pluri-segmentaire. Le doppler veineux ne retrouve pas de caillot. Il n’y a aucun antécédant familial de thrombose chez cette patiente ni histoire familiale de cancer. Quelle est la réponse exacte ?",
+          "choix": [
+            "A) On peut prescrire indifféremment une héparine de bas poids moléculaire ou un anticoagulant oral direct chez cette patiente",
+            "B) Un alitement est indiqué",
+            "C) On doit traiter la patiente par héparine non fractionnée au pousse seringue",
+            "D) Il n’est pas recommandé de traiter cette patiente en ambulatoire",
+            "E) Aucune de ces réponses n’est exacte"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le laboratoire rappelle pour vous confirmer la présence d'un anticoagulant circulant de type antiphospholipide. Quels autre autoanticorps demandez vous pour préciser le diagnostic chez cette patiente?",
+          "choix": [
+            "A) anti gpIIb/IIIa",
+            "B) anti beta2 gp1",
+            "C) anti cardiolipides",
+            "D) ACAN",
+            "E) anti DNA"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez finalement conclu à un SAPL secondaire à un lupus avec anémie hémolytique auto-immune. Quels sont les principes du traitement?",
+          "choix": [
+            "A) anticoagulation par AVK un an puis relais par aspirine",
+            "B) antipaludéen de synthèse (hydroxychloroquine)",
+            "C) arrêt du tabagisme",
+            "D) éviction de toute contraception par estrogènes ou progestatif",
+            "E) corticothérapie systémique sans dépasser 20 mg/j de prednisone"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300616178-aa40ab29c952a8",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez à l'hôpital un patient de 40 ans en raison d'une fatigue majeure et d' oedèmes généralisés. Il est porteur d'un diabète de type II en relation avec une obésité morbide (140 kg pour 1m70).",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "VALEUR_NUMERIQUE",
+          "contexte": "",
+          "question": "Calculez le BMI du patient",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 1,
+          "numericRange": {
+            "min": 48,
+            "max": 49
+          }
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles anomalies à l'examen physique peuvent vous orienter vers des oedèmes généralisés d'origine cardiaque?",
+          "choix": [
+            "A) présence d'un épanchement pleural bilatéral",
+            "B) présence d'une ascite",
+            "C) rythme à trois temps en région précordiale",
+            "D) hépatomégalie douloureuse",
+            "E) pouls jugulaire"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'examen physique retrouve outre les oedèmes des membres inférieurs remontant jusqu'à la racine des deux cuisses, une hépatomégalie sensible, une ascite, une matité des deux bases pulmonaires avec abolition du murmure vésiculaire. tension artérielle: 190/100 couché et debout avec une fréquence cardiaque passant de 70 par minute à 74 par minute. Vous constatez un léger ictère.\nLe bilan biologique du patient est le suivant:\nHémogramme: Hémoglobine 19 g/dl, VGM 88 micron3, plaquettes 100 Giga/L, leucocytes: 3.4 Giga/L, dont 1.6 G/L de polynucléaires neutrophiles, 1.4 G/L de lymphocytes; 0.2 G/L d'éosinophiles; 0.2 G.L de basophiles.\nionogramme sanguin: Sodium=120 mmol/L; Potassium=3,2 mmol/L; chlore= 106 mmol/L; bicarbonates: 29 mmol/L. créatininémie: 80 micromoles/L; protidémie: 70 grammes /l; urée: 4 mmol/L.\nbilan hépatique: TGO: 3N; TGP: 35N; gammaGT: 8N; bilirubine totale: 45 µmol/l; bilirubine libre: 20 mmol/l; phosphatases alcalines : 5N; TP=70%.\nalbuminémie: 23 grammes/L\nCRP: 10 mg/L; fibrinogène 3.5 g/L\nbandelette urinaire normale\nParmi les hypothèses suivantes, lesquelles retenez vous en priorité pour expliquer les anomalies biologiques?",
+          "choix": [
+            "A) insuffisance respiratoire",
+            "B) stéato-hépatite",
+            "C) cirrhose",
+            "D) hypersplénisme",
+            "E) syndrome myélodysplasique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les données cliniques, biologiques et échographiques permettent de conclure à un diagnostic d'hypertension artérielle pulmonaire. Les cavités gauches ne sont pas dilatées, le myocarde a un aspect normal, la fonction du ventricule gauche est normale, il n'y a pas de signe de valvulopathie ou d'ischémie à l'échographie. Quels examens sont utiles en première intention pour orienter le diagnostic de cette HTAP ?",
+          "choix": [
+            "A) dosage du pro-BNP",
+            "B) angioscanner thoracique",
+            "C) oxymétrie nocturne",
+            "D) cathéterisme droit",
+            "E) gazométrie artérielle"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Compte tenu de l'état d'anasarque, vous allez ponctionner l'ascite. Quelles sont la/les affirmations exacte(s)?",
+          "choix": [
+            "A) on attribuera l'ascite à une insuffisance cardiaque droite si elle est pauvre en protide",
+            "B) on évoquera une hypertension portale si le gradient d'albumine sérum-ascite est supérieur à 11 g/L",
+            "C) il n'est pas nécessaire de mettre en culture bactérienne le liquide d'ascite car il n'y a pas de syndrome inflammatoire significatif chez ce patient",
+            "D) une ascite de couleur rosée devra faire évoquer une maladie thrombo-embolique",
+            "E) la diminution du TP chez ce patient constitue une contre-indication au geste en risque d'un risque d'hématome musculaire de la paroi abdominale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "vous avez confirmé un syndrome d'apnées du sommeil sévère et une insuffisance respiratoire avec hypoventilation alvéolaire. Concernant les anomalies de l'hémogramme, que préconisez vous?",
+          "choix": [
+            "A) réalisation d'une biopsie ostéomédullaire pour éliminer un syndrome myéloprolifératif",
+            "B) réalisation rapide de saignées",
+            "C) faire un médullogramme pour confirmer le rôle de l'hypersplénisme dans la bi-cytopénie",
+            "D) une recherche de mutation C282Y",
+            "E) recherche du gène bcr-abl"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Concernant l'hyponatrémie, quelle mesure thérapeutique préconisez vous dans l'attente d'en faire un diagnostic étiologique plus précis?",
+          "choix": [],
+          "reponses": [
+            "restriction hydrique",
+            "restriction hydrique <500ml/J",
+            "restriction en eau pure",
+            "Restriction hydrique et apport de sel",
+            "restrictrion hydrique",
+            "restrcition hydrique",
+            "restriction hydrique à 500ml/j",
+            "restricion hydrique",
+            "restriction hydrique furosémide",
+            "restriction hydrique, furosémide, régime désodé",
+            "Restriction hydrique et furosemide",
+            "restricton hydrique plus ou moins diuretique de l.anse si anasarque",
+            "restriction hydrique + diurétique de l'anse",
+            "restriction hydrique furosemide",
+            "Furosemide avec restriction hydrique",
+            "furosémide, restriction hydrique",
+            "restriction hydrique, restriction sodée et diurétiques de l'anse",
+            "restriction hydrique, regime allégé en sel, diuretiques de l'anse",
+            "restriction hydro-sodée et diurétiques de l’anse",
+            "restriction hydrique + furosemide",
+            "Restriction hydrique et Furosémide",
+            "restriction hydro-sodée",
+            "restriction hydrosodée",
+            "restriction hydrique et sodée",
+            "Restriction hydro-sodée",
+            "restriction hydrique, restriction sodée, diurétique de l'anse"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300620957-3eb94ad750238",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "cet homme de 43 ans vient consulter pour une polyadénopathie cervicale évoluant depuis 3 semaines. les ganglions sont bilatéraux, de taille infra-infracentimétrique, les chaines cervicales antérieures et postérieures. Il n'y a pas de fièvre. Il n'a pas d'antécédent significatif, ne prend pas de médicaments, ne fume pas, n'est pas buveur excessif d'alcool.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "parmi les diagnostics suivants, quels sont ceux compatibles avec cette présentation clinique (4 réponses exactes)?",
+          "choix": [
+            "A) vascularite",
+            "B) toxoplasmose",
+            "C) maladie des griffes du chat (Bartonellose)",
+            "D) adénopathies à germes pyogènes d'inoculation",
+            "E) infection par le VIH",
+            "F) hépatite B",
+            "G) syphilis",
+            "H) cancer de la sphère ORL",
+            "I) lymphome"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "G",
+            "I"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez demandé un hémogramme. Dans quelle situation parmi les suivantes la numération-formule leucocytaire a-t-elle de fortes chances d'être banale?",
+          "choix": [
+            "A) primo-infection par EBV",
+            "B) leucémie lymphoïde chronique",
+            "C) lymphome leucémisé",
+            "D) syndrome hyperéosinophilique",
+            "E) maladie de Hodgkin"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous revoyez le patient 3 semaines plus tard, les adénopathies continuent de grossir. Toutes font entre 1 et 2 cm. Vous retrouvez aussi des adénopathies axillaires bilatérales. Il ramène le résultat d'une échographie cervicale retrouvant une thyroïde de morphologie normale. Les sérologie EBV, VIH, syphilis et toxocarose sont non contributives. Que proposez pour faire le diagnostic? (1 seul examen, maximum 3 mots)",
+          "choix": [],
+          "reponses": [
+            "biopsie exerese ganglionnaire",
+            "biopsie du ganglion",
+            "biopsie ganglionaire",
+            "biopsie adénopathie",
+            "ponction biopsie ganglionnaire",
+            "Biopsie ganglionnaire",
+            "biopsie ganglionnaire",
+            "biospie ganglionnaire",
+            "ponction-biopsie ganglionnaire",
+            "biopsie d'une adénopathie",
+            "Biopsie d'adénopathie",
+            "biopsie d'une adenopathie",
+            "biopsie exérèse",
+            "biopsie exerese ganglion",
+            "Biopsie d’adénopathie",
+            "Biopsie de ganglion",
+            "biopsie ganglion",
+            "ponction biopsie ganglionaire",
+            "Ponction biopsie adenopathie",
+            "Biopsie ganglion cervicale",
+            "biopsie d'adenopathie",
+            "biospie exerese ganglionnaire",
+            "biopsie de ganglion",
+            "biospie adénopathie",
+            "Biopsie exérèse ganglion",
+            "Ponction-Biopsie ganglionnaire",
+            "biopsie-excérèse ganglionnaire",
+            "biopsie d’une adénopathie",
+            "biopsies ganglionnaires",
+            "biopsie exerese ganglion",
+            "biopsie de l'adenopathie",
+            "biopsie genglionnaire",
+            "Biopsie d'une adénopathie",
+            "biopsie chirurgicale d'adenopathie",
+            "Exérèse ganglionnaire",
+            "biopsie des ganglions",
+            "Biopsie ganglionnaire cervicale",
+            "biopsie exerèse adénopathie",
+            "biopsie ganglionnaire cervicale",
+            "ablation biopsie ganglionnaire",
+            "biopsie exérèse d‘une adénopathie",
+            "ponction biopsie ganglion",
+            "Ponction biopsie ganglionnaire",
+            "ponction biopsie d'adénopathie",
+            "Ponction-biopsie ganglionnaire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300624623-fd152457b8a1c8",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "12QRM, 4 QRU, 4 QROC",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les situations suivantes, lesquelles peuvent se compliquer d’œdème d'un membre supérieur?",
+          "choix": [
+            "A) séquelle de chirurgie de cancer du sein",
+            "B) extravasation de perfusion intraveineuse",
+            "C) thrombose de veine axillaire",
+            "D) thrombose de veine jugulaire",
+            "E) fasciite nécrosante de membre supérieur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant des métastases osseuses, quels cancers faut-il rechercher en priorité chez une femme de 60 ans",
+          "choix": [
+            "A) Poumon",
+            "B) Colon",
+            "C) sein",
+            "D) Thyroïde",
+            "E) rein"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes d' une éclampsie compliquant une pré-éclampsie?",
+          "choix": [
+            "A) crise convulsive généralisée",
+            "B) Thrombopénie",
+            "C) Protéinurie",
+            "D) hypertension artérielle",
+            "E) crise épileptique de type absence"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les éléments suivants, lesquels peut on rencontrer au cours d'un lymphome folliculaire (bas grade) en l’absence de transformation en lymphome de haut grade ?",
+          "choix": [
+            "A) blastes circulants > 20%",
+            "B) lymphocytose à lymphocytes clonaux",
+            "C) mononucléose",
+            "D) une polyadénopathie",
+            "E) un score de Matutes à 5"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes peut-on observer en cas d’accident vasculaire cérébral hémorragique?",
+          "choix": [
+            "A) Une hémiplégie proportionnelle droite",
+            "B) Un coma rapidement agravatif",
+            "C) des anomalies pupillaires",
+            "D) Une défaillance respiratoire",
+            "E) Des troubles tensionnels"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la puberté, quelles affirmations sont exactes ?",
+          "choix": [
+            "A) L’apparition de l’os sésamoïde du pouce correspond à un âge osseux de 11 ans chez le garçon",
+            "B) Les cartilages osseux sont soudés pour un âge osseux de 15 ans chez la fille",
+            "C) On parle de puberté précoce en cas d’apparition de signes de puberté avant 9 ans chez la fille",
+            "D) On parle de retard pubertaire en cas d’absence d’augmentation du volume testiculaire après l’âge de 14 ans chez le garçon",
+            "E) Le syndrome de Kallmann est une cause de retard pubertaire"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, lesquelles sont typiquement des causes d'opacités non systématisées à la radiographie thoracique:",
+          "choix": [
+            "A) une pneumopathie atypique",
+            "B) une pneumopathie franche lobaire aiguë",
+            "C) une lymphangite carcinomateuse",
+            "D) une pleurésie gauche",
+            "E) une atélectasie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours de la varicelle :",
+          "choix": [
+            "A) les lésions sont vésiculeuses",
+            "B) la maladie peut diffuser au poumon",
+            "C) les lésions sont toujours nombreuses et disséminées à l'ensemble des téguments",
+            "D) les lésions responsables de prurit",
+            "E) épargnent les muqueuses"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affections suivantes, lesquelles peuvent être responsables d’hyponatrémie ?",
+          "choix": [
+            "A) carcinome bronchique à petites cellules",
+            "B) traitement diurétique par thiazidique",
+            "C) traitement par beta-bloquant",
+            "D) traitement par desmopressine",
+            "E) traitement par fluoxétine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes observe-t-on au cours de la maladie de Parkinson?",
+          "choix": [
+            "A) marche ataxique",
+            "B) hypertonie cédant par à coup",
+            "C) amimie",
+            "D) Réflexe naso-palpébral inépuisable",
+            "E) freezing"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans quelle situation peut on rencontrer une hyperleucocytose avec lymphocytose clonale>10 G/L ?",
+          "choix": [
+            "A) abcès profond",
+            "B) pneumopathie à mycoplasme",
+            "C) mononucléose infectieuse",
+            "D) leucémie lymphoïde chronique débutante",
+            "E) syndrome myélodysplasique avec dysplasie unilignée"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 30,
+          "type": "QRU",
+          "contexte": "",
+          "question": "chez un patient présentant un taux d'hémoglobine à 5 g/dl. Vous suspectez:",
+          "choix": [
+            "A) une carence en folate devant un VGM à 90 µm3",
+            "B) une carence en fer devant un VGM à 100 µm3",
+            "C) une érythroblastopénie devant un VGM à 90 et des réticulocytes à 10 G/L",
+            "D) une microangiopathie thrombotique si les plaquettes sont > 500 G/L",
+            "E) une hypothyroïdie si le VGM est à 100"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 31,
+          "type": "QRU",
+          "contexte": "",
+          "question": "parmi les médicaments suivants, lequel n'est pas hypercalcémiant?",
+          "choix": [
+            "A) colécalciférol",
+            "B) hydrochlorothiazide",
+            "C) acide zoledronique",
+            "D) calcitriol",
+            "E) alfacalcidol"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le psoriasis, quelle est l'affirmation fausse (1 seule réponse)?",
+          "choix": [
+            "A) les lésions siègent volontiers derrière les genoux",
+            "B) les lésions peuvent être pustuleuses",
+            "C) les lésions sont habituellement érythémato-squameuses",
+            "D) les lésions peuvent toucher la muqueuse vaginale",
+            "E) les lésions peuvent se localiser à la paume des mains et des pieds"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 33,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le soluté de réhydratation de choix pour corriger une insuffisance rénale aigue fonctionnelle avec le ionogramme suivant: Na: 138 mmol/L; Potassium: 4,5 mmol/L; réserve alcaline: 18 mmol/L; créatininémie: 360 µmol/l)",
+          "choix": [],
+          "reponses": [
+            "NaCL isotonique",
+            "NaCl 0,9%",
+            "NaCl 0.9%",
+            "Nacl 0,9%",
+            "soluté salé isotonique",
+            "NaCl 9g/L",
+            "serum salé isotonique",
+            "NaCl 0,9 %",
+            "nacl 0,9%",
+            "serum sale isotonique",
+            "Soluté salé isotonique",
+            "sérum salé isotonique",
+            "NaCl isotonique 0.9%",
+            "sérum salé isotonique NaCl 0,9%",
+            "NaCl 0,9% et eau de vichy",
+            "NaCl 9‰",
+            "soluté isotonique de Nacl",
+            "soluté isotonique NaCl 0.9%",
+            "NaCl 0,9% isotonique",
+            "isotonique NaCl 0,9 %",
+            "Sérum salé isotonique",
+            "Serum salé isotonique",
+            "cristalloïde NaCl 0,9%",
+            "Nacl à 0,9%",
+            "Nacl à 0.9%",
+            "solution salee isotonique",
+            "NaCl iso osmolaire",
+            "NaCl isotonique 0,9%",
+            "soluté salé isotonique NaCl 0,9%",
+            "serum salé isotonique 0,9%",
+            "NaCl 0.9 %",
+            "NaCl 0.9% isotonique",
+            "NACL 0,9%",
+            "Sérum salé isotonique 0,9%",
+            "soluté cristalloide NaCl à 0,9%",
+            "serum salé isotonique NaCl 0,9%",
+            "Solution de NaCl isotonique",
+            "NaCl iso osmotique 0,9%",
+            "NaCl O,9%",
+            "NaCl 0.9",
+            "Solution de NaCl 0.9% (cristalloide)",
+            "NaCl isotonique 9g/L",
+            "NaCl 9g/l",
+            "Na 0,9",
+            "NaCl 0,9",
+            "Soluté salé isotonique (NaCl 0,9)",
+            "soluté salé NaCl 0,9",
+            "serum salé isotonique 0.9%",
+            "Na 0,9%",
+            "Solution salé isotonique",
+            "Sérum salé isotonique NaCl",
+            "Soluté salé isotonique (NaCl 0,9 %)",
+            "NaCl à 0.9%"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 34,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le traitement de première intention toujours justifié devant un SIADH",
+          "choix": [],
+          "reponses": [
+            "Restriction hydrique",
+            "restriction hydro-sodée",
+            "Urée PO + Restriction hydrique",
+            "restriction apport hydrique",
+            "Restriction des apports hydriques",
+            "restriction hydrique 500 cc"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 35,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est le nom de la manœuvre clinique qui permet de rattacher une douleur de membre inférieur de topographie L4 à un conflit disco-radiculaire ?",
+          "choix": [],
+          "reponses": [
+            "manœuvre de Léri",
+            "manoeuvre de Léri",
+            "Manoeuvre de Léri",
+            "manoeuvre de Leri",
+            "manoeuvre de léri",
+            "Manoeuvre de Leri",
+            "manoeuvre de leri",
+            "Manoeuvre de Léry",
+            "Reproduction de la cruralgie lors de l‘hyperextension passive de hanche, genou fléchi",
+            "Manoeuvre de léri",
+            "manœuvre de Leri",
+            "manoeuvre de Lery",
+            "manouvre de leri",
+            "Manoevre de Léri",
+            "manoeuvre de lery"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 36,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mr A, 75 ans, se présente aux urgences pour fièvre à 40 depuis moins de 24 inaugurée par des frissons intenses et suivis de l'apparition d'un point de côté inhibant la respiration. Quel est votre diagnostic?",
+          "choix": [],
+          "reponses": [
+            "pneumopathie franche lobaire aigue",
+            "pneumopathie à pneumocoque",
+            "Pneumopathie franche lobaire aiguë",
+            "PFLA",
+            "pneumopathie franche lobaire aiguë",
+            "pneumopathie franche lobaire aigue avec pleurésie",
+            "pneumopathie infectieuse à pneumocoque",
+            "Pneumopathie franche lobaire",
+            "pneumopathie franche lobaire aigue bacterienne",
+            "pneumonie franche lobaire aiguë",
+            "Pneumopathie Franche Lobaire Aiguë"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 37,
+          "type": "QRU",
+          "contexte": "",
+          "question": "quelle est la composition type d'un soluté destiné à entretenir l'hydratation et l'équilibre hydroélectrolytique d'un patient (exemple:plasmalyte, ionoK...)",
+          "choix": [
+            "A) 1 litre de Nacl à 0.9% et 2 g KCL",
+            "B) 1 litre de Nacl à 0.9% et 4 g KCL",
+            "C) 1 litre de glucosé à 5% avec 6 g Nacl",
+            "D) 1 litre de glucosé à 5% avec 6 g Nacl et 4 g KCL",
+            "E) 1 litre de glucosé à 5% avec 4 g Nacl et 2 g KCL"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cette patiente de 85 ans, 70 kg de poids habituel, arrive aux urgences car elle a été retrouvée inconsciente sur le sol de son domicile. parmi les examens réalisés, le ionogramme montre une hyponatrémie à 165 mmol/L. La glycémie est normale. Quelles sont les affirmations exactes? le retard d'hydratation en eau libre qu'il faudra corriger par du soluté glucosé. Exprimer le résultat en litres par une valeur numérique",
+          "choix": [
+            "A) la patiente est en situation de déshydratation intracellulaire",
+            "B) le retard d'hydratation en eau libre à l'arrivée aux urgences est d'environ 7.5 litres",
+            "C) le soluté de réhydratation de choix dans cette situation est du sérum à 9 g/L de Na Cl",
+            "D) il faut prescrire du furosémide pour éliminer le sel en excès",
+            "E) aucune réponse n'est exacte"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 20,
+          "critiques": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300648653-69e3727ee64b9",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "Vous recevez un patient qui se plaint de fatigue avec diminution de l'appétit , perte de poids de 3 kg au cours du mois écoulé. A l'examen clinique, vous retrouvez une splénomégalie palpable avec un débord costal de 1 travers de doigt à l'inspiration profonde.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 39,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il convient de rechercher attentivement certaines anomalies cliniques pour orienter le diagnostic étiologique de la splénomégalie (7 réponses sont exactes):",
+          "choix": [
+            "A) une dermite ocre",
+            "B) un psoriasis",
+            "C) un purpura des membres inférieurs",
+            "D) un souffle cardiaque systolique au deuxième espace intercostal droit",
+            "E) un souffle cardiaque systolique au bord gauche du sternum, 3° ou 4° espace intercostal",
+            "F) des adénopathies",
+            "G) un mauvais état bucco-dentaire",
+            "H) une hypertension artérielle",
+            "I) un souffle huméral",
+            "J) une hépatomégalie",
+            "K) une circulation collatérale",
+            "L) une hypertrophie prostatique",
+            "M) des angiomes stellaires"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "F",
+            "G",
+            "J",
+            "K",
+            "M"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 40,
+          "type": "QROC",
+          "contexte": "",
+          "question": "vous avez retrouvé une polyadénopathie sus et sous diaphragmatique. les ganglions sont fermes, mobiles par rapport aux plans profonds de 1 à 2 cm. Quel diagnostic évoquez vous en priorité (répondre par un seul mot)",
+          "choix": [],
+          "reponses": [
+            "lymphome"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 41,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L'hémogramme est banal. Le bilan hépatique révèle une cholestase anictérique. la CRP est à 50 mg/L. Quel est l'examen le plus adapté pour confirmer le diagnostic?",
+          "choix": [
+            "A) immunophénotypage lymphocytaire",
+            "B) médullogramme",
+            "C) biopsie ostéomédullaire",
+            "D) biopsie-exérèse d'un ganglion",
+            "E) TEP scanner"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

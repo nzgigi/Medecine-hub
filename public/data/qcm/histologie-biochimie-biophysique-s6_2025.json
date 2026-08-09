@@ -1,0 +1,807 @@
+{
+  "matiere": "Histologie, biochimie et biophysique",
+  "slug": "histologie-biochimie-biophysique-s6",
+  "annee": 2025,
+  "title": "Histologie, biochimie et biophysique - 2025",
+  "total_questions": 35,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Monsieur CG, 88 ans, avec cancer prostatique découvert il y a quatorze ans à l ’état localisé, devenu métastatique osseux et ganglionnaire et pulmonaire il y a trois ans, traité par hormonothérapie de castration et chimiothérapie (taxane) revient en consultation pour apparition des douleurs dorso lombaires.\nVous demandez comme explorations dans un premier temps:",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous demandez comme explorations dans un premier temps:",
+          "choix": [
+            "A) Une IRM du corps entier",
+            "B) Une scintigraphie osseuse",
+            "C) Deux dosages successifs de PSA",
+            "D) Une TEP-TDM au Ga-68 DOTATOC",
+            "E) Une TEP-TDM au F-18 FDG"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen suivant est réalisé. Concernant cet examen et ce qu’il met en évidence, les affirmations correctes sont:",
+          "choix": [
+            "A) Il s’agit d’une scintigraphie osseuse planaire en incidences antérieure et postérieure",
+            "B) Il s’agit d’une TEP-TDM au F-18 F choline",
+            "C) Il s’agit d’une TEP-TDM au Ga-68 ou F-18 PSMA",
+            "D) L’examen révèle des lésions hyperfixantes du squelette",
+            "E) L’examen révèle une hyperfixation rotulienne gauche"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Afin de réaliser un bilan d’extension complet avant décision de prise en charge un examen d’imagerie est demandé. Il s’agit de (deux réponses sont possibles):",
+          "choix": [
+            "A) TEP au Ga-68 PSMA",
+            "B) TEP au F-18 PSMA",
+            "C) TEP au F-18 FDG",
+            "D) Une IRM corps entier",
+            "E) Une scintigraphie au Lu-177 PSMA"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q3.png?v=1786296301998"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen précèdent a été demandé afin d’évaluer l’éligibilité d’une thérapie par Lu-177 PSMA. Les affirmations correctes concernant cet examen et la décision thérapeutique selon cet examen sont:",
+          "choix": [
+            "A) Fixations fortes et homogène des lésions osseuses",
+            "B) Fixations faibles et hétérogènes des lésions du bassin",
+            "C) Fixations fortes et pathologiques des glandes salivaires",
+            "D) L’intensité des fixations rend éligible une thérapie par Lu-177 PSMA",
+            "E) L’intensité de fixation ne rends pas éligible une thérapie par Lu-177 PSMA"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q4.png?v=1786296302466"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous décidez de débuter une thérapie par Lu-177 PSMA. Les fixations non pathologiques de l’examen réalisé post traitement sont:",
+          "choix": [
+            "A) Le foie",
+            "B) Les glandes lacrymales",
+            "C) Les pyélons",
+            "D) Les reins",
+            "E) La prostate"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q5.png?v=1786296302917"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296303459-514eeeaa1b3678",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Place de l’imagerie par TEP au 68GaPSMA pour les cancers de la prostate",
+          "choix": [
+            "A) Le cancer de la prostate est le cancer le plus fréquent chez l’homme.",
+            "B) Le PSMA est exclusivement exprimé par les cellules tumorales.",
+            "C) Elle permet de faire le bilan d’extension des cancers.",
+            "D) Elle permet de faire le diagnostic précoce des récidives biologiques des cancers de la prostate",
+            "E) Elle permet de savoir si un patient est éligible à une radiothérapie interne vectorisée par 177LuPSMA"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le théranostic",
+          "choix": [
+            "A) Le principe du théranostic est la combinaison d’une méthode diagnostique et d’une méthode thérapeutique.",
+            "B) Dans le cas du cancer de la prostate la procédure diagnostique est l’imagerie par tomographie d’émission de positons.",
+            "C) Dans le cas du cancer de la prostate la procédure thérapeutique est la radiothérapie interne vectorisée.",
+            "D) L’évolution du cancer de la prostate est systématiquement mortelle, c’est la première cause mortalité par cancer.",
+            "E) L’intérêt de l’imagerie est qu’elle permet de faire le diagnostic de cancer dès le stade de l’initiation de la maladie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au sujet des techniques d’imagerie :",
+          "choix": [
+            "A) Une scintigraphie peut être acquise à l’aide d’un appareil IRM",
+            "B) Une scintigraphie est une image qui reflète la concentration en protons dans le corps humain.",
+            "C) Une tomoscintigraphie est une image volumique.",
+            "D) Une image floue possède une valeur de résolution spatiale supérieure à celle d’une image nette.",
+            "E) Le bruit statistique se traduit par des variations aléatoires des valeurs mesurées, d’un pixel à l’autre."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296304860-a4eaaa64012fb",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la glande mammaire (ci dessous une photographie d'une microscopie optique de glande mammaire au repos)",
+          "choix": [
+            "A) La glande mammaire au repos comprend des portions sécrétrices tubulo-acineuses",
+            "B) Les canaux galactophores sont ramifiés",
+            "C) La glande mammaire au repos contient un tissu conjonctif abondant",
+            "D) Certaines cellules épithéliales expriment le récepteur aux œstrogènes",
+            "E) Les adénocarcinomes de la glande mammaire peuvent exprimer le récepteur aux œstrogènes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q9.jpg?v=1786296306500"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'utérus et du col de l'utérus",
+          "choix": [
+            "A) La photographie de microscopie optique ci-dessous montre la phase menstruelle avec des fragments de muqueuse qui se détachent (2,3) associés à des nappes de globules rouges (1)",
+            "B) A propos de la photographie du col de l'utérus, la brosse est au contact de la zone de transformation",
+            "C) A propos de la photographie du col de l'utérus, le frottis est effectué dans la zone qu'il faut explorer pour rechercher des cellules cancéreuses",
+            "D) Le col de l'utérus comprend un épithélium cylindrique simple mucisecrétant",
+            "E) Le col de l'utérus comprend un épithélium malpighien non kératinisé"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q10.jpg?v=1786296307579",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q10_1.png?v=1786296307852",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q10_2.png?v=1786296308117"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la trompe et de l'utérus",
+          "choix": [
+            "A) La fécondation a lieu dans l'ampoule de la trompe",
+            "B) Dans les suites d'une infection de la trompe, la cicatrisation de la muqueuse peux entrainer une fusion des replis de la muqueuse tubaire",
+            "C) Dans les suites d'une infection, la fusion des replis de la muqueuse tubaire entraine la formation de culs de sac gênant le passage des spermatozoïdes ou de l'ovule",
+            "D) La partie basale de la muqueuse du corps de l'utérus desquame lors des menstruations",
+            "E) Lors de la phase sécrétoire la muqueuse de l'endomètre est œdémateuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des ovaires",
+          "choix": [
+            "A) Les cicatrices à la surface de l'ovaire sont la conséquence des ovulations successives",
+            "B) L'ovocyte mature à l'intérieur d'un follicule",
+            "C) Au cours de la folliculogénèse, les cellules de la granulosa se multiplient",
+            "D) Au cours de la folliculogénèse les follicules peuvent dégénérer de façon incomplète et donner des kystes ovariens",
+            "E) la majorité des adénocarcinomes ovariens proviennent des cellules de la granulosa"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la thyroïde",
+          "choix": [
+            "A) L'annotation 1 montre les cellules C",
+            "B) L'annotation 2 montre la colloïde",
+            "C) L'annotation 3 montre le tissu conjonctif",
+            "D) La photographie ci-dessous montre l'aspect des vésicules thyroïdiennes en cas de carence iodée",
+            "E) Les cellules C produisent de la calcitonine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q13.jpg?v=1786296310683",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q13_1.jpg?v=1786296310850"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des organes endocrines",
+          "choix": [
+            "A) La photographie vous montre une microscopie optique d'une partie du cortex surrénalien : vous observez deux types d'organisation (d'architecture) des cellules glandulaires",
+            "B) La photographie vous montre une microscopie optique d'une partie du cortex surrénalien : quelque soit leur organisation ( leur architecture ) les cellules sécrètent exactement les mêmes hormones",
+            "C) La photographie vous montre une microscopie optique d'une partie du cortex surrénalien : l'aspect clair du cytoplasme des cellules est la conséquence de la présence de gouttelettes lipidiques.",
+            "D) La photographie vous montre une microscopie optique d'une partie du cortex surrénalien : Les gouttelettes lipidiques contiennent du cholestérol qui est le constituant de base nécessaire à la synthèse de ou des hormones produites dans cette région",
+            "E) La photographie vous montre une microscopie optique d'une partie du cortex surrénalien : Les hormones produites dans cette région sont des hormones de la famille des catécholamines"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q14.jpg?v=1786296311844"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'embryologie et de l'histologie de l’hypophyse et de l'hypothalamus",
+          "choix": [
+            "A) L'adénohypophyse a pour origine embryologique le neurectoderme",
+            "B) L'adénohypophyse est vascularisée par un système capillaire veineux/veineux",
+            "C) Les axones qui traversent la neuro-hypophyse possèdent des expansions cytoplasmiques, les corps de Herring (flèches), qui stockent les hormones synthétisées au niveau de l'hypothalamus",
+            "D) La neurohypophyse contient des ilots de cellules glandulaires",
+            "E) Les cellules glandulaires hypophysaires ont une affinité tinctoriale qui varie selon l'hormone qu'elles synthétisent."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q15.png?v=1786296312793"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'appareil génital masculin",
+          "choix": [
+            "A) Photographie de testicule à fort grossissement: L'annotation 1 montre un tube séminifère",
+            "B) Photographie de testicule à fort grossissement: L'annotation 2 montre des ilots de cellules glandulaires qui secrètent les androgènes",
+            "C) L'annotation 3 montre le tissu conjonctif",
+            "D) Les cellules de Sertoli sont les cellules de soutien des gamètes",
+            "E) La prostate (photographie ci-dessous) est constituée de glandes tubulo-alvéolaires"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q16.jpg?v=1786296313831",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q16_1.jpg?v=1786296314073"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) A propos de la barrière de filtration glomérulaire : la fente de filtration est fermée par un diaphragme constitué de filaments protéiques (néphrine)",
+            "B) A propos de votre observation de la photographie de microscopie électronique : Vous en déduisez que la barrière de filtration est altérée",
+            "C) Votre patient présente une hématurie : vous déduisez de l'analyse des photographies de microscopies électronique et optique que votre patient a un saignement provenant de la vessie.",
+            "D) Dans l'encadré annoté 1 et 2 vous observez une papille rénale",
+            "E) Dans l'encadré annoté 2 vous observez en plus des canaux collecteurs"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q17.png?v=1786296315183",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q17_1.jpg?v=1786296315547",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q17_2.jpg?v=1786296315682"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des voies urinaires",
+          "choix": [
+            "A) L’urothélium présente un nombre d’assise cellulaire plus important quand la vessie est pleine",
+            "B) Les cellules les plus superficielles de l’urothélium, les cellules dites en ombrelle, ont une surface apicale qui peut augmenter de taille participant à l’adaptation de la paroi vésicale au remplissage",
+            "C) Les plaques d'uroplakine jouent un rôle dans l'étanchéité de l'urothélium",
+            "D) La paroi de l'uretère montre une muqueuse plissée",
+            "E) La photographie de microscopie optique montre la paroi de l'uretère"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q18.jpg?v=1786296316681"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) L’annotation 1 marque une artériole afférente",
+            "B) L’annotation 2 marque un glomérule capillaire",
+            "C) L’annotation 3 marque une artériole efférente",
+            "D) L’annotation 4 marque le réseau capillaire péri-tubulaire",
+            "E) Les cellules endothéliales des capillaires glomérulaires ont une surface cationique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q19.png?v=1786296317750"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) L’annotation 1 marque des corpuscules rénaux",
+            "B) L’annotation 2 marque une pyramide de Malpighi",
+            "C) L’annotation 3 marque des pyramides de Ferrein",
+            "D) Les tubules contournés se situent dans la substance médullaire",
+            "E) Les corpuscules rénaux se situent dans la substance médullaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2025/q20.png?v=1786296318880"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oreille",
+          "choix": [
+            "A) Le Labyrinthe membraneux est constitué d'un épithélium simple dans les zones ou il n'y a pas de différenciations spécifiques",
+            "B) Le Labyrinthe membraneux comprend des régions de différenciation neuro-sensorielle",
+            "C) Le canal cochléaire comprend la strie vasculaire",
+            "D) Le canal cochléaire comprend l'organe de Corti",
+            "E) Le canal cochléaire comprend les macules"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oeil",
+          "choix": [
+            "A) Le limbe scléro-cornéen résorbe l’humeur aqueuse.",
+            "B) Le limbe scléro-cornéen comprend un réseau trabéculaire.",
+            "C) Les ligaments suspenseurs du cristallin (fibres zonulaires) relient le cristallin aux procès ciliaires.",
+            "D) Le muscle ciliaire contrôle la forme du cristallin.",
+            "E) La presbytie est la conséquence de la perte d’élasticité du cristallin"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oeil",
+          "choix": [
+            "A) La tunique la plus interne de l’œil est la sclère.",
+            "B) La choroïde est un tissu richement vascularisé",
+            "C) La rétine aveugle est un tissu épithélial.",
+            "D) Le stroma cornéen se caractérise par la présence de fibres collagènes de diamètre variable.",
+            "E) Le stroma cornéen est vascularisé"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296322231-006c4cc422d78",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Une femme de 36 ans (poids : 91 kg, taille : 168 cm) vous consulte car un examen récent de la glycémie à jeun indique une valeur de 2 g/L (11,1 mM). La patiente vit en couple et indique un désir de grossesse non réalisée depuis plusieurs années. Aucun traitement médicamenteux et aucune complication aigüe antérieure ne sont rapportés. L’anamnèse révèle que son père et son grand-père paternel sont obèses et diabétiques.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vers quelle(s) pathologie(s) oriente(nt) les éléments de la consultation ?",
+          "choix": [
+            "A) Anorexie mentale",
+            "B) Diabète de type MODY",
+            "C) Diabète de type 2",
+            "D) Diabète gestationnel",
+            "E) Obésité"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) pathologie(s) sont très probablement à exclure(s) pour cette patiente par les examens complémentaires suivants et les éléments de la consultation ?\nAnti-glutamate décarboxylase (anti-GAD) : négatif\nAnti-islet antigen number 2 (anti IA-2) : négatif\nAnti-ilôts de Langerhans (anti ICA) : négatif\nSéquençage d’ADN génomique : pas de variant pathogène identifié",
+          "choix": [
+            "A) Diabète de type 1",
+            "B) Diabète de type 2",
+            "C) Diabètes monogéniques",
+            "D) Diabètes secondaires",
+            "E) Syndrome inflammatoire"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) autre(s) examen(s) biologique(s) complémentaire(s) peuvent être suggérés vu le profil de la patiente ?",
+          "choix": [
+            "A) Mesure de glycémie 2 heures après un repas standard",
+            "B) Hormone de croissance",
+            "C) Hémoglobine glyquée",
+            "D) Corps cétoniques",
+            "E) Troponine"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sans prise en charge, quelles complications sont le plus à craindre avant la ménopause?",
+          "choix": [
+            "A) Infertilité",
+            "B) Coma acidocétosique",
+            "C) Cancer de l’ovaire",
+            "D) Atteintes rénale ou rétinienne",
+            "E) Hypertension artérielle"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296323731-2981e5a898686",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Mr A M, âgé de 76 ans, aux antécédents d’HTA, traité depuis 3 ans par Amiodarone 1cp par jour pour des extrasystoles ventriculaires, consulte pour une symptomatologie faite de troubles amnésiques, ronﬂements et hypoacousie associés à une prise de poids récente (4 Kg en 6 mois).\nA l’examen clinique : TA:14/9cmHg, FC:64b/mn, voix rauque, infiltration œdémateuse des paupières et des deux jambes, macroglossie, reflexes rotuliens symétriques faibles.\nLe résultat des examens Biologiques montre : Glycémie : 0,9 g/l (N= 0.7-1.10), Créatinine : 9 mg/l (N=7-14), cholestérol total : 3,4 g/l (N=<2), triglycérides : 1,2 g/l (N=0.4-1.6), Hb:11,3g/dl (N=12-18)\nLe diagnostic d’hypothyroïdie est suspecté.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 28,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel dosage allez-vous demander en 1 ère intention pour confirmer votre diagnostic ?",
+          "choix": [
+            "A) La TRH",
+            "B) La TSH",
+            "C) La T4 totale",
+            "D) La T4 libre",
+            "E) La T3 libre"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle serait l’étiologie la plus probable chez ce patient ?",
+          "choix": [
+            "A) Une tumeur hypophysaire",
+            "B) Une agénésie thyroïdienne",
+            "C) Une surcharge en iode",
+            "D) Une maladie de Basedow",
+            "E) Un cancer de la thyroïde"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 30,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La conduite thérapeutique est :",
+          "choix": [
+            "A) La prescription d’antithyroı̈diens de synthèse",
+            "B) Le traitement par iode radioactif",
+            "C) La chirurgie hypophysaire",
+            "D) La prescription de L-Thyroxine",
+            "E) L’abstention thérapeutique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296324696-c703c601520908",
+      "type": "SQI",
+      "title": "DL 3",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la testostérone",
+          "choix": [
+            "A) Sa forme biodisponible correspond à la forme libre de l’hormone",
+            "B) Elle agit au travers de récepteurs couplés aux protéines G",
+            "C) Selon les tissus, elle peut subir l’action d’une aromatase ou d’une alpha-réductase",
+            "D) Elle peut exercer un effet non génomique",
+            "E) Sa concentration est élevée chez les nouveaux nés fille présentant un déficit en 21-hydroxylase"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cortisol",
+          "choix": [
+            "A) C’est une hormone dérivée du cholestérol",
+            "B) Il est possible de doser sa forme libre dans la salive",
+            "C) Il présente un cycle nycthéméral avec un pic à 8h",
+            "D) Sa concentration est indépendante de celle de l’ACTH",
+            "E) Lors du test au synacthène une réponse normale correspond à une concentration qui doit rester égale au taux de base"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des gonadotrophines",
+          "choix": [
+            "A) Ce sont des hormones peptidiques",
+            "B) Elles agissent via des Récepteurs couplés aux protéines G et activent la voie AMPc / PKA",
+            "C) Les cellules de Leydig expriment le récepteur de la FSH",
+            "D) La production d’œstradiol par les cellules de la granulosa est dépendante de la FSH",
+            "E) La concentration sérique en LH est stable au cours du nycthémère"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une Exploration d’une Anomalie Lipidique (EAL) correspond à un plusieurs éléments dont :",
+          "choix": [
+            "A) un dosage de Lp(a)",
+            "B) un dosage du cholestérol total",
+            "C) un dosage des LDL",
+            "D) un calcul du taux de HDL",
+            "E) un aspect du sérum après 12 heures de jeûne"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 4
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les paramètres qui entrent dans la définition du syndrome métabolique, on trouve :",
+          "choix": [
+            "A) Une hyperuricémie",
+            "B) Une obésité gynoïde",
+            "C) Une glycémie à jeun > 1.26 g/L (7 mmol/L).",
+            "D) Un taux de HDL > 0.6 g/L (1.5 mmol/L).",
+            "E) Une hypertriglycéridémie > 1.5 g/L (1.7 mmol/L)"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

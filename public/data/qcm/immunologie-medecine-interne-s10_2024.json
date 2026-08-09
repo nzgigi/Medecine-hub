@@ -1,0 +1,717 @@
+{
+  "matiere": "Immunologie et médecine interne",
+  "slug": "immunologie-medecine-interne-s10",
+  "annee": 2024,
+  "title": "Immunologie et médecine interne - 2024",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient de 28 ans est hospitalisé pour AVC sylvien gauche non cardio-embolique et avec des artères à destinées céphaliques non sténosées. Le reste de l’examen clinique est normal. A l´IRM, l´AVC est limité, sans œdème périlésionnel. Au bilan, vous retrouvez un anticoagulant circulant, des anticorps anticardiolipides et des anticorps anti-bêta2-GP-I. Les anticorps antinucléaires sont négatifs. Quel traitement prescrivez-vous ?",
+          "choix": [
+            "A) Aspirine",
+            "B) Héparine puis relais AVK",
+            "C) Anticoagulant oraux directs",
+            "D) Hydroxychloroquine",
+            "E) Aucun traitement, les auto-anticorps doivent être recontrôlés à 12 semaines."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos des collagénoses, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Il n’y a pas d’atteinte d’organe dans la sclérodermie systémique limitée",
+            "B) Les anticorps anti-Sm sont fréquents dans le lupus systémique",
+            "C) Les anticorps anti-SSA sont pathognomoniques du syndrome de Sjögren",
+            "D) Le seuil de significativité clinique des anticorps antinucléaires est de 1/160",
+            "E) La présence d’anticorps anti-ADN natifs permet de poser le diagnostic de lupus systémique indépendamment de tout signe clinique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles anomalies immunologiques peuvent se voir au cours du lupus systémique (QRM) ?",
+          "choix": [
+            "A) Anticorps anti-SSA",
+            "B) Anticorps anti-Sm",
+            "C) Anticorps anti-CCP",
+            "D) Hypocomplémentémie",
+            "E) Anticorps anti-ADN natif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des vascularites, quelles sont celles touchant les artères des petits vaisseaux (QRM) ?",
+          "choix": [
+            "A) Maladie de Kawasaki",
+            "B) Vascularite cryoglobulinémique",
+            "C) Vascularite à IgA",
+            "D) Granulomatose avec polyangéite",
+            "E) Périartérite noueuse"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les atteintes les plus fréquentes (≥40% des patients) dans le lupus érythémateux systémique",
+          "choix": [
+            "A) Cutanée",
+            "B) Pulmonaire",
+            "C) Rénale",
+            "D) Cardiaque",
+            "E) Articulaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous prescrivez de l’hydroxychloroquine pour un lupus systémique. Quel est le risque de toxicité liée à ce médicament qui est systématiquement surveillé ?",
+          "choix": [],
+          "reponses": [
+            "rétinopathie",
+            "maculopathie",
+            "Retinopathie",
+            "Toxicité maculaire",
+            "Toxicité rétinienne",
+            "Maculaire",
+            "Maculopathie aux antipaludéens",
+            "Ophtalmique (maculopathie)",
+            "Toxicite maculaire",
+            "Rétinopathie maculaire",
+            "Ophtalmologique : rétinopathie",
+            "Oculaire retinien",
+            "Toxicité ophtalmique (maculopathie)",
+            "Toxicité rétine",
+            "Toxicite retinienne",
+            "Maculopathie oculaire",
+            "Maculaire (ophtalmo)",
+            "Toxicité oculaire (macula)",
+            "Toxicité occulaire maculopathie",
+            "Atteinte maculaire",
+            "Ophtalmologique rétinienne",
+            "Maculaire (ophtalmique)",
+            "Ophtalmologique (maculopathie)",
+            "Toxicité occulaire (maculaire)",
+            "Toxicite ophtalmique retinopathie",
+            "Toxicite rétinienne",
+            "Ophtalmologique (maculopathie et dyschromatopsie jaune bleue)",
+            "Toxicite ophtalmologique maculopathie",
+            "Retinopathie avec dyschromatopsie jaune bleu",
+            "retinopathie maculaire",
+            "Retienne surveillée par fond d'oeil",
+            "Atteinte ophtalmique maculaire",
+            "Toxicité ophtalmique (macula)",
+            "Ophtalmologique (rétinienne)",
+            "Rétinienne",
+            "Toxicité occulaire (maculopathie)",
+            "Toxicite ophtalmologique (maculaire)",
+            "Toxicité retinienne maculopathie",
+            "Toxicité ophtalmologique maculaire",
+            "ophtalmologique (maculopathie)",
+            "Ophtalmique (oedème maculaire en oeil de boeuf)",
+            "Rétinopathie (maculaire)",
+            "Retinopathie donc fond oeil",
+            "Toxicité oculaire (rétinienne)",
+            "Cardiaque et retinienne",
+            "Toxicité maculaire et cardiaque",
+            "Ophtalmologique (maculaire)",
+            "Toxicité ophtalmique rétinopathie",
+            "Oculaire (macula)",
+            "Rétinopathie (maculopathie)",
+            "Atteinte macula oeil , faire fond d'oeil"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des anticorps antiphospholipides, quelles sont les assertions justes ?",
+          "choix": [
+            "A) La présence de 2 fausses couches spontanées précoces <10 semaines d’aménorrhée sans cause génétique, malformative ni hormonale est un critère clinique de syndrome des antiphospholipides",
+            "B) Les anticorps antiphospholipides se recherchent uniquement par des tests immunologiques",
+            "C) Les anticorps antiphospholipides doivent être contrôlés à au moins 12 semaines d’intervalle",
+            "D) Le syndrome des antiphospholipides peut donner des manifestations cutanées, cardiaques",
+            "E) Il faut toujours proposer une prévention primaire devant la découverte isolée d’anticorps antiphospholipides"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous avez diagnostiqué une artérite gigantocellulaire chez un patient de 85 ans. Vous avez mis la maladie est en rémission complète grâce à une corticothérapie, mais lors de la décroissance, le patient rechute et montre une corticodépendance au seuil de 20 mg de prednisone par jour. Quel médicament possède l'autorisation de mise sur le marché dans cette maladie pouvez-vous utiliser dans ce cas (QROC) ?",
+          "choix": [],
+          "reponses": [
+            "tocilizumab",
+            "anti-interleukine 6",
+            "anti-IL-6",
+            "antirécepteur de l’IL-6",
+            "antirécepteur de l’interleukine 6",
+            "anti-récepteur de l’IL-6",
+            "anti-récepteur de l’interleukine 6",
+            "Tolicizumab",
+            "Tocillizumab",
+            "Tociluzumab",
+            "Tolicizumab anti Il6",
+            "Tocilizulmab",
+            "Tocilizumab = anti IL6"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 4 protéines qui sont habituellement élevées en cas de syndrome inflammatoire ?",
+          "choix": [
+            "A) alpha1 globulines",
+            "B) haptoglobine",
+            "C) albumine",
+            "D) fibrinogène",
+            "E) LDH",
+            "F) céruléoplasmine",
+            "G) ferritine",
+            "H) C réactive protéine"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "G",
+            "H"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 80 ans, hypertendu sous enalapril, est hospitalisé en ce mois de janvier pour une fièvre évoluant depuis 1 mois, avec une acmé quotidienne à 38,5°C. Il n’a pas voyagé à l’étranger. L’examen clinique est pauvre. Quels examens de première intention prévoyez-vous ? (8 bonnes réponses)",
+          "choix": [
+            "A) hemogramme",
+            "B) tgo tgp gammagt",
+            "C) creatininemie",
+            "D) proteinurie (ou bandelette urinaire)",
+            "E) ECBU",
+            "F) hemocultures",
+            "G) scintigraphie osseuse",
+            "H) TDM Thoraco abdomino pelvien injecté (si la fonction rénale le permet)",
+            "I) TEP scanner",
+            "J) biopsie d'artère temporale",
+            "K) biopsie ostéomédullaire",
+            "L) ponction lombaire",
+            "M) médullogramme",
+            "N) ACAN",
+            "O) antigénurie légionelle",
+            "P) électrophorèse des protides"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "H",
+            "P"
+          ],
+          "maxReponses": 8,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296645850-66d64ec96532f",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Ce patient de 66 ans a un asthme sévère d'installation tardive et un antécédent de polypose naso-sinusienne. Il est adressé à l'hôpital car sont apparues récemment des douleurs sévères neuropathiques du pied droit et une marche caractérisée par un pied tombant (marche en équin). Son médecin a prescrite un hémogramme qui retrouve:\nglobules blancs 15 G/l dont\n-neutrophiles: 9 G/L\n-éosinophiles: 3 G/L\n-lymphocytes 1.5 G/L\n-basophiles: 0.3 G/L\n-monocytes: 1.2 G/L",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A ce stade, quelle est votre première hypothèse diagnostique? (PAS de nom propre dans la réponse)",
+          "choix": [],
+          "reponses": [
+            "granulomatose éosinophilique avec polyangéite",
+            "GEPA",
+            "EGPA",
+            "Granulomatose éosinophile avec polyangéite",
+            "Granulomatose eosinophile avec polyangeite",
+            "Granulomatose eosinophilique avec polyangeite",
+            "Granulomatose eosinophilique avec polyangéite",
+            "Granulomatose éosinophilique avec polyangéite (GEPA)",
+            "Granulomatose à éosinophiles avec polyangéite",
+            "Granulomatose éosinophilique à polyangéite",
+            "Granulomatose eosinophile avec polyangéite",
+            "Granulomatose eosinophilique avec polyangeite (GEPA)",
+            "Granulomatose éosinophile à polyangéite",
+            "GEPA granulomatose eosinophilique avec polyangeite",
+            "Vascularite à ANCA (GEPA)",
+            "Granulomatose éosinophilique avec polyangeite",
+            "Granulomatose eosinophilique polyangeite GEPA",
+            "Granulomatose Eosinophilique avec Polyangéite",
+            "Granulomatose eosinophile avec polyangeite (GEPA)",
+            "Granulomatose Eosinophile avec PolyAngéite",
+            "Vascularite avec granulome à polyangeite hypereosinophilique (GEPA)",
+            "Granulomatose éosinophilique avec polyangéitte",
+            "Granulomathose eosinophile avec polyangéite",
+            "Granulomatose eosinophile avec poly angeite",
+            "Granulomatose eosinophile avec polangeite",
+            "Granulomatose éosinophie avec polyangéite",
+            "Granulomatose eosinophilique à polyangeite",
+            "Granulomatose éosinophile avec poly-angéite",
+            "Granulomatose à eosinophile et polyangeite",
+            "GEPA : Granulomatose eosinophilique avec polyangéite",
+            "GPEA",
+            "GEPA Granulomatose eosinophile a polyangéite",
+            "Granulomatose eosinophille avec polyangeite",
+            "Granulomatose eosinophilique polyangeique (GePA)",
+            "Granulomatose èosinophilique avec polyangèite (GEPA)",
+            "GEPA Granulomatose à éosinophile polyangéite",
+            "Granulomatose avec polyangeite a eosinophile",
+            "Granulomatose eosinophilique a polyangeite (GEPA)",
+            "GEPA (granulomatose a eosinophile avec polyangeite )",
+            "GEPA (granulomatose éosinophile à polyangéite)",
+            "GEPA ( granulomatose eosinophilique avec polyangéite)",
+            "Granulomatose eosinophile à polyangeite",
+            "granulomatose eosinoplile avec polyangeite",
+            "Granulomatose eosinophile a polyangeite (GEPA)",
+            "Granulomatose eosinophilique polyangéique (GEPA)",
+            "Granulomatose éosinophilique avec poly-angéite (GEPA)",
+            "Granulomatose éosinophilique avec polyangéïte",
+            "Granulomatose éosinophilique à polyangéite GEPA",
+            "Granulomatose eosinophilique avec polyangéite (GEPA)",
+            "Granulomatose eosinophilique avec polyangite",
+            "Granulomatose hyperéosinophilique avec polyangéite",
+            "Granulomatose eosinophilique polyangéite",
+            "Granulomatose eosinophile à polyangeite GEPA",
+            "Granulomatose eosinophile a polyangeite GEPA",
+            "GEPA (= granulomatose éosinophile avec polyangéite)",
+            "granulomatose eosinophilique avec polyangeite",
+            "Granulomatose éosinophile avec polyangéite (GEPA)",
+            "Granulomatose éosinophilique à polyangéite (GEPA)",
+            "granulomatose éosinophile avec polyangéite",
+            "Granolumatose eosinophilique avec polyangeite",
+            "Granulomatose eosinophlique avec polyangeite",
+            "Granulomatose éosinophilique à polyangéites",
+            "Granulomatose à eosinophile avec polyangétite",
+            "Granulomatose a eosinophile avec polyangeite",
+            "Granulomatose Eosinophile avec Polyangeite (GEPA)",
+            "GEPA granulomatose eosinophilique poly angéique",
+            "Granulomatose hyperesoinophile avec polyangeite",
+            "Granulomatose avec eosinophilie et polyangeite (GEPA)",
+            "Granulomatose a polyangéite et éosinophiles (GEPA)",
+            "Granulomatose avec polyangeite eosinophilie",
+            "Granulomatose eosinophilique avec polyangéïte",
+            "Granulomatose à éonisophile polyangéite (GEPA)",
+            "Gepa granulomatose eosinophile polyangiotique",
+            "GEPA = granulomatose eosinophilique poly angeite",
+            "Granulomatose Eosinophilique avec Poly Angéite",
+            "Granulomatose éosinophile polyangéique (GEPA)",
+            "Vascularite avec granulomatose polyengeite eosinophilique",
+            "Granulomatose eosinophile a polyangeite",
+            "GEPA (granulomatose eosinophilque poly angéite)",
+            "Granulomatose eosinophilique a polyangeite",
+            "Granulomatose éosinophilique avec polyangéite GEPA",
+            "GEPA granulomatose eosinophile avec polyangeite",
+            "Granulomatose eosinophilie avec polyangéite"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant cette maladie, quelles sont les réponses exactes?",
+          "choix": [
+            "A) des ANCA de type anti MPO peuvent être présents",
+            "B) il s'agit d'une collagénose",
+            "C) la maladie peut se compliquer de myocardite",
+            "D) la récupération du déficit neurologique moteur est rapide dès lors que la maladie est bien contrôlée par le traitement",
+            "E) il s'agit d'une maladie par complexes immuns secondaires à une parasitose"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La maladie a des différences importantes avec la granulomatose avec polyangéite. lesquelles (trois réponses exactes)?",
+          "choix": [
+            "A) les corticoïdes prescrits seuls sont souvent efficaces en monothérapie dans la GEPA, contrairement à la GPA",
+            "B) on retrouve des ACAN au cours de la GEPA et des ANCA au cours de la GPA",
+            "C) l'atteinte névritique habituelle est une polynévrite dans la GPA, pas une mononeuropathie ou une multinévrite",
+            "D) il n'y a jamais de purpura au cours de la GEPA",
+            "E) les ANCA sont plus fréquents au cours de la GEPA que de la GPA",
+            "F) la GEPA se caractérise par une atteinte rénale fréquente contrairement à la GPA",
+            "G) l'atteinte pulmonaire ne comporte habituellement pas de nodules nécrosants dans la GEPA",
+            "H) la GPA est caractérisée par un asthme fréquent",
+            "I) les antiphospholipides sont communs au cours de la GEPA et pas de la GPA",
+            "J) l'atteinte rhinosinusienne n'est pas destructrice dans la GEPA"
+          ],
+          "reponses": [
+            "A",
+            "G",
+            "J"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296649557-8eceb8a4719fa",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Une femme âgée de 19 ans, sans antécédent notable, consulte pour une douleur thoracique précordiale augmentée au décubitus évoluant depuis 24 heures. L’auscultation pulmonaire est normale ; l’auscultation cardiaque met en évidence un bruit surajouté à cheval sur les bruits du cœur. Elle se plaint de doigts douloureux et changeant de couleur au froid depuis deux ans (photo) et depuis une semaine de douleurs articulaires prédominant le matin des poignets et des métacarpophalangiennes et interphalangiennes proximales des mains avec dérouillage matinal de quarante minutes. L’examen physique montre une éruption du visage (photo). Les articulations sont sèches. L’ECG montre un sous-décalage du segment PQ et un segment ST surélevé dans toutes les dérivations.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment décrivez-vous les atteintes cliniques ?",
+          "choix": [
+            "A) Polyarthralgies inflammatoires",
+            "B) érythème malaire bilatéral",
+            "C) Péricardite",
+            "D) Vespertilio",
+            "E) Syndrome de Raynaud"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/immunologie-medecine-interne-s10/2024/q14.png?v=1786296649845"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est votre diagnostic de présomption concernant cette maladie systémique ?",
+          "choix": [
+            "A) Polyathrite rhumatoïde",
+            "B) Lupus érythémateux systémique",
+            "C) Syndrome de Gougerot-Sjögren",
+            "D) Syndrome de Sharp",
+            "E) Sclérodermie systémique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels auto-anticorps recherche-t-on en faveur de cette maladie?",
+          "choix": [
+            "A) Anticorps antinucléaires",
+            "B) ANCA",
+            "C) Anticorps anti-CCP",
+            "D) anticorps anti-Sm",
+            "E) anti-DNA"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels autres examens sont nécessaires chez cette patiente ?",
+          "choix": [
+            "A) recherche d'anticoagulant circulant, anti cardiolipides et antibeta2 gp1",
+            "B) Echographie articulaire",
+            "C) Bandelette urinaire ou proteinurie/creatininurie",
+            "D) Biopsie cutanée",
+            "E) IRM cardiaque"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "De quels éléments d’éducation thérapeutique sur sa maladie informez-vous la patiente ?",
+          "choix": [
+            "A) La maladie s’améliore en général pendant la grossesse",
+            "B) L’exposition aux UV est à éviter",
+            "C) La contraception à base d’estrogènes est contre-indiquée",
+            "D) C’est une maladie chronique avec des poussées entrecoupées de rémissions",
+            "E) Il y a une contre-indication générale aux vaccins"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le diagnostic de lupus a été confirmé par les examens complémentaires. La patiente n'a pas d'autre atteinte que celles suspectées cliniquement. Quels sont les 3 médicaments dont on envisage la prescription devant ce tableau?",
+          "choix": [
+            "A) cyclophosphamide",
+            "B) hydroxychloroquine",
+            "C) prednisone",
+            "D) mycophénomate mofétil",
+            "E) kétoprofène"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L'hydroxychloroquine a une toxicité nécessitant une surveillance régulière. Laquelle? (répondre en 1 mot)",
+          "choix": [],
+          "reponses": [
+            "rétinienne",
+            "rétinopathie",
+            "ophtalmique",
+            "ophtalmologique",
+            "maculopathie",
+            "macula",
+            "Maculaire",
+            "Rétine",
+            "dyschromatopsie jaune-bleu maculopathie en oeil de boeuf fond d'oeil",
+            "Toxicite retinienne",
+            "Toxicité maculaire",
+            "Ophtalmologique (maculopathie)",
+            "Retinotoxicité",
+            "Toxicité rétinienne controlée au fond d'oeil",
+            "maculaire",
+            "Surveillance ophtalmique toxicité maculaire et cardiaque",
+            "Retinopatie"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296651788-04611f75757348",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous recevez un patient de 56 ans en raison de l'apparition récente d'une douleur du scalp qui le réveille chaque nuit vers 4h du matin , s'atténue en cours de journée, est exacerbée lorsqu'il se passe la main ou un peigne dans les cheveux, et fatigue inexpliquée évoluant depuis 3 semaines.\nOn lui connait comme seul antécédent un terrain atopique avec allergies aux pollens, avec asthme saisonnier.\nVous relevez une perte de poids de 3 kg par rapport à son poids de base, une température à 38°3, et un souffle systolique dans la région sous clavière droite et sous clavière gauche. Son médecin a fait pratiquer un premier bilan sanguin qui a montré:\nHémoglobine: 9,8 g/dl; VGM: 80 µ3; plaquettes: 600 G/L; leucocytes: 13,6 G/L; polynucléaires neutrophiles: 10,3 G/L; monocytes:\n1,3 G/L, lymphocytes: 1.8 G/L; basophiles: 0,4 G/L; éosinophiles: 0.8 G/L. CRP: 68 mg/L; VS: 40 mm; ionogramme sanguin: normal; créatininémie: 78 µmol/L; TGO: 25; TGP: 35; gammagt: 2N: phosphatases alcalines: 3N",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le souffle, quelle sont les affirmations exactes?",
+          "choix": [
+            "A) ses caractéristiques évoquent une insuffisance aortique",
+            "B) vous souhaitez savoir s'il existe aussi un souffle carotidien",
+            "C) prendre la tension artérielle aux deux bras peut vous aider à mieux comprendre l'origine de ce souffle",
+            "D) il s'agit probablement d'une athéromatose des artères sous clavières",
+            "E) vous devez ausculter également le creux huméral et la face interne des deux bras"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le contexte clinique de ce patient, les anomalies biologiques font évoquer en priorité (2 réponses justes)",
+          "choix": [
+            "A) une vascularite",
+            "B) une infection fongique",
+            "C) une syndrome myéloprolifératif",
+            "D) un syndrome mononucléosique",
+            "E) une infection bactérienne"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "quels examens complémentaires sont justifiés en première intention?",
+          "choix": [
+            "A) facteurs rhumatoïdes",
+            "B) hémocultures pour recherche d'endocardite",
+            "C) échographie-doppler des artères temporales",
+            "D) recherche de l'antigène HLAB51",
+            "E) angioscanner de l'aorte et de ses branches"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le doppler des artères temporales s'est révélé banal, les hémocultures ont mis en évidence une pousse de Staphylococcus epidermidis (1 flacon sur 3) . L'angio-scanner a montré une épaississement très significatif étendu et circonférentiel de la paroi de l'aorte thoracique descendante et abdominale sus-rénale, ainsi que des artères sous-clavières . Quelles sont les affirmations exactes?",
+          "choix": [
+            "A) On ne peut pas affirmer le diagnostic d'artérite à cellules géantes car la biopsie d'artère temporale n'a pas été faite",
+            "B) On ne peut pas affirmer le diagnostic d'artérite à cellules géantes car l'échographie-doppler des artères temporales est normal",
+            "C) On peut préciser le diagnostic par un TEP scanner de l'aorte et de ses branches",
+            "D) chez ce patient, à ce stade de la démarche diagnostique, le diagnostic d'artérite à cellules géantes est hautement probable",
+            "E) on débute sans plus attendre une corticothérapie par prednisone, 20 mg par jour"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Alors que vous avez débuté une corticothérapie par prednisone 0,7 mg/kg/j depuis 2 jours, le patient signale garder quelques céphalées nocturnes et avoir eu il y a quelques heures comme un voile devant l'oeil droit, avec une perte complète de la vision de cet oeil, qui a duré environ 1 minute, puis tout est rentré dans l'ordre. Quelles décisions sont des fautes graves dans cette situation?",
+          "choix": [
+            "A) prescrire immédiatement méthyprednisolone IV, 500 mg IV, après avoir vérifié l'ECG (le ionogramme sanguin a été contrôlé normal la veille)",
+            "B) prescrire de l'acide acétylsalicylique",
+            "C) arrêter la corticothérapie et débuter une antibiothérapie anti-staphylococcique",
+            "D) adresser en urgence le patient à l'ophtalmologue",
+            "E) arrêter la corticothérapie et faire la biopsie d'artère temporale"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "le patient a bien évolué sous corticoïdes (pas de complications vasculaires de l'ACG) mais il devient corticodépendant à 10 mg/ jour . On décide d'introduire un traitement d'épargne cortisonique. Quels sont les deux molécules que l'on peut prescrire chez ce patient?",
+          "choix": [
+            "A) infliximab",
+            "B) adalimumab",
+            "C) tocilizumab",
+            "D) rituximab",
+            "E) methotrexate"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

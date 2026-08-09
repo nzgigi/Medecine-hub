@@ -1,0 +1,754 @@
+{
+  "matiere": "Pneumologie",
+  "slug": "pneumologie-s7",
+  "annee": 2024,
+  "title": "Pneumologie - 2024",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un patient de 68 ans, sans domicile fixe, d’origine polonaise et vivant en France depuis 5 ans, vous est adressé par une association à la consultation pour la prise en charge d’une dyspnée évoluant depuis quelques jours. Il vous dit fumer depuis l’âge de 18 ans, à raison de 30 cigarettes par jour et être légèrement essoufflé (pour les efforts soutenus comme monter une cote avec un pas rapide) depuis de nombreuses années, et tousse et crache des sécrétions blanchâtres tous les jours, surtout l’hiver. Son essoufflement s’est nettement aggravé depuis 2 jours. Il est effectivement devant vous dyspnéique au repos, expire à lèvres pincées. Il est fébrile à 39°C, en sueurs, ralenti mais non confus. Vous notez à l’examen clinique une distension thoracique et des sibilants diffus à l’auscultation ainsi qu’un foyer de crépitants axillaire droit. Sa saturation est de 87 % en air ambiant. Sa TA est à 180/95 mm Hg, son pouls à 100 bpm.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont à ce stade (examen clinique seul) les diagnostics que vous pouvez affirmer de manière formelle",
+          "choix": [
+            "A) Ce patient présente une bronchite chronique",
+            "B) Ce patient présente une pneumopathie infectieuse",
+            "C) Ce patient a un emphysème sévère",
+            "D) Ce patient a une BPCO post-tabagique",
+            "E) Ce patient a une insuffisance respiratoire chronique"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels examens respiratoires demandez-vous en première intention afin d’avancer sur la prise en charge ?",
+          "choix": [
+            "A) Radiographie thoracique de face et profil",
+            "B) Exploration fonctionnelle respiratoire avec pléthysmographie et test au CO",
+            "C) Scintigraphie pulmonaire ventilation-perfusion",
+            "D) bronchoscopie souple",
+            "E) Gazométrie artérielle en air ambiant"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "critiques": [
+            "A",
+            "E"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici la radiographie thoracique de face. La gazométrie est la suivante : pH 7.23 pO2 47 mmHg pCO2 64 mmHg HCO3 mEq/L. Quelles sont la ou les propositions exactes?",
+          "choix": [
+            "A) Il existe sur la radiographie thoracique une pneumopathie du lobe supérieur droit et une horizontalisation des cotes",
+            "B) Il existe une acidose respiratoire décompensée",
+            "C) L’acidose respiratoire est compensée par une élimination des bicarbonates par le rein",
+            "D) Il existe un pneumothorax partiel à gauche",
+            "E) Le signe de la silhouette permet de localiser l'opacité dans le lobe moyen"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 3,
+          "images": [
+            "/images/qcm/pneumologie-s7/2024/q3.png?v=1786299630917"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Ce patient présente manifestement une pneumonie infectieuse. Dans le contexte radio-clinique actuel, quel est votre choix antibiotique. Citez uniquement le nom de la molécule (sans les doses ni la durée)",
+          "choix": [],
+          "reponses": [
+            "Amoxicilline/acide clavulanique",
+            "augmentin",
+            "Augmentin",
+            "amoxicilline et acide clavulanique",
+            "amoxicilline-acide clavulanique (Augmentin)",
+            "Amoxiciline-Acide clavulanique",
+            "amoxicilline-acide clavulinique",
+            "amoxiciline-acide clavulanique",
+            "Amoxicille - acide clavulanique",
+            "amoxicilline et acide clavulinique",
+            "Amoxiciline + acide clavulanique",
+            "amoxiciline - acide clavulanique",
+            "Augmentin (amoxicilline et acide clavulanique)",
+            "amoxicilline-axide clavulanique",
+            "amoxicilline-acide clavulanique / augmentin"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient s'est remis de cet épisode aigu grâce à vos bons soins. Vous le revoyez à distance et faites réaliser une pléthysmographie respiratoire dont voici le résultat. Quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le coefficient de Tiffeneau est à 78 %",
+            "B) Il existe un trouble ventilatoire obstructif modéré GOLD 2",
+            "C) L'obstruction bronchique est partiellement réversible",
+            "D) Cet examen permet de confirmer le diagnostic d’emphysème",
+            "E) L'intensité de l'obstruction bronchique mesurée par le VEMS permet d'évaluer la sévérité clinique de la BPCO"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/pneumologie-s7/2024/q5.png?v=1786299632135"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez retenu le diagnostic de BPCO chez ce patient. Sa prise en charge santé est maintenant satisfaisante. Vous envisagez de l'aider à se sevrer du tabac. Son test de Fagerström est à 3. Quelles sont les propositions exactes",
+          "choix": [
+            "A) La dépendance du patient à la nicotine est modérée",
+            "B) Vous lui prescrivez des patchs de nicotine à raison de un patch à 21 mg par jour",
+            "C) Vous lui précisez d'enlever le patch s'il a un besoin impérieux de fumer et allume une cigarette malgré celui-ci",
+            "D) En plus des patchs vous lui recommandez des gommes nicotiniques à mâcher pour contrer le craving",
+            "E) Vous lui préciser que les substituts sont pris en charge à 65%par l'assurance maladie et que cela lui coutera moins cher que de continuer à fumer"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez ce patient BPCO vous disposez également de deux gaz du sang effectués à un mois d'intervalle et à distance de l'épisode pneumonique aigu dont les résultats sont les suivants: pH 7.38 pO2 63 mm Hg pCO2 47 mm Hg ; pH 7.39 pO2 61 mm Hg pCO2 45 mm Hg.\nQuelles sont vos propositions de prise en charge en plus du sevrage tabagique.",
+          "choix": [
+            "A) Vaccination anti-pneumococcique tous les trois ans et antigrippale tous les ans",
+            "B) Traitement bronchodilatateur longue action inhalé",
+            "C) Oxygénothérapie longue durée",
+            "D) Réhabilitation respiratoire",
+            "E) Corticothérapie inhalée"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Citer une échelle de dyspnée qui vous permettra d'évaluer lors des consultations ce suivi l'évolution de ce symptôme chez ce patient BPCO.",
+          "choix": [],
+          "reponses": [
+            "mMRC",
+            "MRC",
+            "mMRC2",
+            "échelle mMRC",
+            "mmrc2",
+            "Echelle mMRC",
+            "NYHA; mMRC",
+            "mRc2",
+            "echelle MCR",
+            "Echelle Mmrc2",
+            "Score mmrc",
+            "mMMRC",
+            "échelle Mmrc"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299633475-f13b18bd31aa5",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez en consultation Mme V, âgée de 30 ans, qui présente des épisodes paroxystiques de dyspnée sifflante depuis 2 ans. Ces épisodes sont variables au cours de l'année et prédominent au printemps. Elle se plaint également de périodes de rhinorrhée claire et d'éternuements survenant plusieurs fois par an et pouvant durer plusieurs semaines.\nElle ne prend aucun traitement à part du Salbutamol à la demande en inhalation. Elle n'a aucun antécédent excepté un asthme dans l'enfance qui n'a jamais été suivi médicalement et qui s'est amélioré spontanément à l'âge de 19 ans. Elle n'est pas tabagique. Elle exerce la profession de maître des écoles.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l'issu de votre interrogatoire et de votre examen physique, vous suspectez fortement un asthme. Parmi les éléments suivant lequel ou lesquels vous oriente(nt) vers ce diagnostic ?",
+          "choix": [
+            "A) la présence d'un antécédent familial de BPCO.",
+            "B) La symptomatologie nasale évocatrice de rhinite allergique",
+            "C) la résolution des symptômes respiratoires par la prise de Salbutamol.",
+            "D) l'aggravation des symptômes respiratoires la nuit.",
+            "E) la présence de râles sibilants diffus à l'auscultation."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour confirmer le diagnostic d'asthme, vous réalisez l'examen suivant :",
+          "choix": [
+            "A) il s'agit d'une spirométrie",
+            "B) il existe une réversibilité complète.",
+            "C) il existe un trouble ventilatoire obstructif.",
+            "D) la courbe en rouge a été réalisée après la prise de bronchodilatateur de longue durée d'action.",
+            "E) Pour confirmer l'asthme, cet examen doit être complété par une pléthysmographie."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/pneumologie-s7/2024/q10.png?v=1786299634250"
+          ],
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La spirométrie que vous avez réalisé met en évidence un trouble ventilatoire obstructif significativement réversible qui vous confirme la présence d'un asthme. Vous suspectez une origine allergique du fait d'une prédominance saisonnière des symptômes respiratoire qui sont associés à des symptômes ORL évocateur d'une rhinite allergique. Quel examen de première intention vous permet de vous orienter vers un asthme de phénotype allergique ?",
+          "choix": [],
+          "reponses": [
+            "Prick test",
+            "Test cutané",
+            "prick-tests",
+            "prick tests",
+            "prick test cutané",
+            "pick test",
+            "pricks test",
+            "pricks tests",
+            "pricktest",
+            "Prick-test cutané",
+            "Prick tests cutanés",
+            "prick test cutane",
+            "Prick test cutané",
+            "Prick-tests",
+            "tests cutanés d'allergie à lecture immédiate",
+            "prick test cutanés",
+            "pricks-test",
+            "prick-test cutané",
+            "test de sensibilité cutanée (princk test)",
+            "prick tests cutanés",
+            "Pick test",
+            "pric test",
+            "Prick-tests cutanés",
+            "Prick tests"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Les tests cutanés d'hypersensibilité immédiate sont tous négatifs y compris le témoin positif. Quelle est l'hypothèse la plus probable pour expliquer cette observation.",
+          "choix": [],
+          "reponses": [
+            "Prise d'antihistaminique",
+            "Antihistaminique",
+            "anti histaminique",
+            "médicament antihistaminique",
+            "prise d'antihistaminiques",
+            "prise d'anti-histaminique",
+            "prise d'anti-histaminiques",
+            "Prise d'antihistaminiques",
+            "Prise d'anti-histaminiques",
+            "prise d’anti-histaminique",
+            "prise d’antihistaminiques",
+            "prise anti-histaminique",
+            "prise d'anti histaminique",
+            "prise d'anti histaminiques",
+            "traitement anti-histaminique",
+            "prise récente d'antihistaminiques",
+            "Prise d'anti histaminiques",
+            "Prise antihistaminiques",
+            "prise récente d'anti-histaminiques",
+            "la prise d'antihistaminiques",
+            "Prise d'anti-histaminiques H1",
+            "prise d'anti-histaminique avant l'examen",
+            "prise d'antihistaminiques par la patiente moins de 48h avant les tests",
+            "Non arrêt des antihistaminiques avant le test",
+            "prise d'anti-histaminque",
+            "Absence d'arrêt des anti-histaminique",
+            "Prise d'anti-histaminique récente",
+            "prise d’anti-histaminiques",
+            "traitement (antiH1, ...) faussant le resultat",
+            "anti-histaminiques",
+            "Prise d'anti-histaminique",
+            "le patient a pris des anti histaminiques",
+            "prise d'antihistaminiques avant",
+            "prise d'un anti histaminique",
+            "absence d'arret des medicaments (anti histaminique ou dermocorticoide)",
+            "Prise d'anti-histaminique avant les tests",
+            "elle n'a pas arrêté les antihistaminiques",
+            "prise antihistaminiques",
+            "pas d'arret des anti histaminiques",
+            "prise d'anti histaminique avant le test",
+            "la prise des anti histaminique",
+            "prise d'antihistaminique avant ou peau aréactive",
+            "prise d’anti histaminiques",
+            "prise antihistaminique récente",
+            "Prise d’anti-histaminiques",
+            "prise cachée d'antihistaminiques",
+            "utilisation anti histaminique avant le test",
+            "utilisation d'antihistaminiques",
+            "prise antihistaminique",
+            "prise anti-histaminique avant le test",
+            "prise d'antihistaminiques préalable",
+            "pas de sevrage préalable aux antihistaminiques",
+            "prise d'antihistaminique avant le test",
+            "Prise d'antihistaminique avant le test",
+            "traitement anti histaminique"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Cette patiente a donc un asthme confirmé avec une composante allergique puisque les prick-tests sont revenus positifs pour les acariens.\nSon score ACT est à 15, elle se réveille plusieurs fois par semaine du fait de l'asthme mais elle ne décrit pas d'exacerbation dans les 6 mois qui viennent de s'écouler.\nQuelle est votre choix thérapeutique de première intention ?",
+          "choix": [
+            "A) Immunothérapie allergénique (désensibilisation) aux acariens",
+            "B) Antileucotriène per os",
+            "C) Association fixe béta-2-longue action/corticoïde inhalé",
+            "D) Association fixe béta-2-longue action et Tiotropium inhalé",
+            "E) Corticothérapie inhalée faible dose"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la rhinite allergique associée à l'asthme en lien avec la sensibilisation aux acariens, quel traitement lui proposez vous sachant que la patiente se plaint avant tout de l'obstruction nasale",
+          "choix": [
+            "A) Antihistaminique per os",
+            "B) Désobstruction chirurgicale par lasérisation des cornets inférieurs",
+            "C) Vasoconstricteur endonasal",
+            "D) Courte corticothérapie par voie orale",
+            "E) Corticothérapie locale endo-nasale"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous revoyez la patiente en consultation 3 mois plus tard pour une évaluation de son asthme. Elle se plaint d'être toujours symptomatique et son score ACT est à 16. Quelles sont les deux principales causes d'échec à rechercher en priorité ?",
+          "choix": [
+            "A) Inobservance au traitement de fond",
+            "B) Persistance du tabagisme",
+            "C) Association avec une dysfonction des cordes vocales et/ou un syndrome d'hyperventilation",
+            "D) Mauvaise utilisation du dispositif d'inhalation",
+            "E) Persistance de l'exposition aux acariens",
+            "F) Prise d'un médicament contre-indiqué (bétabloquant par exemple)",
+            "G) Problème psychologique"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente vous demande des informations concernant l'immunothérapie allergénique (ITA) aux acariens. Quelles sont les propositions exactes ?",
+          "choix": [
+            "A) L'ITA aux acariens s'effectue par voie sublinguale (avec une solution liquide ou des comprimés)",
+            "B) Le traitement doit être pris 5 jours par semaine",
+            "C) Les effets secondaires locaux à type de prurit oral ou d’œdème des lèvres ou de la langue sont exceptionnels",
+            "D) Lorsque le traitement est efficace il doit être poursuivi au moins trois ans pour permettre une efficacité persistante à l'arrêt de l'ITA",
+            "E) Ce traitement n'est pas remboursé"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299639391-a025947ec56e28",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l'examen clé pour le diagnostic de pneumopathie interstitielle diffuse",
+          "choix": [],
+          "reponses": [
+            "Scanner thoracique",
+            "TDM thorax",
+            "Tomodensitométrie thoracique",
+            "scanner",
+            "TDM",
+            "Tomodensitométrie",
+            "TDM thoracique",
+            "scanner thoracique injecté",
+            "Scanner thoracique injecté",
+            "scanner injecté",
+            "scanner thoracique non injecté",
+            "tdm thoracique",
+            "TDM thoracique sans produit de contraste",
+            "Scanner thoracique SPC",
+            "Scaner thoracique",
+            "Scanner pulmonaire non injecté",
+            "TDM pulmonaire",
+            "scanner thoracique sans injection",
+            "sacanner thoracique",
+            "scanner pulmonaire",
+            "TDM du thorax",
+            "scanner non injecte",
+            "Scanner pulmonaire",
+            "TDM thoracique non injecté"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient admis aux urgences pour hémoptysie présente cette anomalie sur le TDM thoracique. Quel est votre diagnostic",
+          "choix": [],
+          "reponses": [
+            "Aspergillome",
+            "Aspergillome du sommet droit",
+            "aspergilome",
+            "Aspergilome sommet droit",
+            "Aspergillome du sommet",
+            "aspergillom",
+            "aspergillome pulmonaire",
+            "grelot d'aspergillome",
+            "caverne tuberculeuse avec greffe aspergillaire",
+            "asperguillome",
+            "aspergillome dans une excavation",
+            "aspargilome",
+            "grelot aspergillaire",
+            "Aspergillose (signe du grelot)",
+            "aspegillome"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/pneumologie-s7/2024/q18.png?v=1786299641069"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les tests cutanés à usage diagnostique dans l'hypersensibilité immédiate quels sont les propositions exactes",
+          "choix": [
+            "A) Les prick-tests sont la technique de références pour la recherche d'une sensibilisation aux allergènes respiratoires",
+            "B) Les tests cutanés à lecture immédiate doivent être effectués après arrêt d'au moins 48 heures des antihistaminiques",
+            "C) Pour le diagnostic de l'allergie alimentaire on peut effectuer des prick-tests avec les aliments natifs",
+            "D) la positivité d'un prick-test à un allergène est caractérisée par la présence d'un érythème de taille supérieure à 3 mm par rapport au témoin négatif",
+            "E) Les tests cutanés d'hypersensibilité immédiate sont ininterprétables en cas de dermographisme"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient présente une BPCO confirmée . Il existe une obstruction bronchique modérée (grade GOLD 2) sur la spirométrie. Il se plaint d'une dyspnée stade 2 mMRC. Il n'a pas fait d'exacerbation au cours des 12 derniers mois.\nQuelle est l'option thérapeutique recommandée dans cette situation",
+          "choix": [
+            "A) Traitement bronchodilatateur longue action inhalé",
+            "B) Antileucotriène per os",
+            "C) Corticothérapie inhalée",
+            "D) Traitement inhalé par association fixe bronchodilatateur/corticoïde inhalé",
+            "E) Bronchodilatateur courte action inhalé à la demande"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes concernant cet examen du souffle?",
+          "choix": [
+            "A) Il s'agit d'une spirométrie",
+            "B) L'obstruction bronchique est modérée car le VEMS est à 56% de la théorique",
+            "C) Le test de réversibilité est négatif",
+            "D) Le rapport VEMS/CV est à 60%",
+            "E) Il existe un syndrome restrictif associé"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/pneumologie-s7/2024/q21.jpg?v=1786299642479"
+          ]
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient présente une pneumopathie interstitielle diffuse de découverte récente. Quels sont les éléments en faveur d'une fibrose pulmonaire idiopathique.",
+          "choix": [
+            "A) Toux productive",
+            "B) Râles crépitants secs des bases à l'auscultation thoracique",
+            "C) Hippocratisme digital",
+            "D) Prédominance basale et sous pleurale des anomalies de l'imagerie en tomodensitométrie thoracique",
+            "E) Absence d'antécédent de tabagisme"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez fait réaliser une exploration fonctionnelle respiratoire chez un patient de 56 ans qui se plaint d'une dyspnée d'effort progressivement croissante depuis un an.\nQuelles sont les réponses exactes concernant cet examen présenté ci dessous ? (la colonne limite indique la valeur inférieure de la normale pour chaque donnée)",
+          "choix": [
+            "A) La morphologie de la courbe expiratoire est caractéristique d'une obstruction bronchique",
+            "B) Les mesures du souffle ont été réalisées en pléthysmographie",
+            "C) Il existe un trouble ventilatoire restrictif",
+            "D) Il existe un trouble sévère de la diffusion",
+            "E) Ces résultats sont compatibles avec un emphysème évolué"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/pneumologie-s7/2024/q23.png?v=1786299643247"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez une sarcoïdose chez un patient de 31 ans devant la découverte d'adénopathies médiastinales symétriques non compressives à la radiographie thoracique. Parmi les anomalies biologiques suivantes laquelle n'est habituellement pas retrouvée au cours de la sarcoïdose ?",
+          "choix": [
+            "A) Hyperlymphocytose sanguine",
+            "B) Lymphocytose au LBA",
+            "C) Elévation de l'enzyme de conversion de l'angiotensine",
+            "D) Hypergammaglobulinémie polyclonale",
+            "E) IDR à la tuberculine négative"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un jeune patient de 15 ans consulte en pneumologie pour des manifestations respiratoires sibilantes récidivantes survenant surtout à l'effort ou lors des infections rhinopharyngé. Il y a un contexte atopique familial atopique (sa mère est asthmatique) et il décrit des manifestations de rhinite au printemps depuis 3 ans. Vous évoquez un asthme. Quels sont les trois examens complémentaires à effectuer en priorité ?",
+          "choix": [
+            "A) Radiographie thoracique de face",
+            "B) Tests cutanés d'allergie à lecture immédiate",
+            "C) Dosage des Ig E totales",
+            "D) Test biologique de dépistage multi allergénique type Phadiatop",
+            "E) Spirométrie avec test de réversibilité",
+            "F) Test d'effort pour recherche de bronchospasme",
+            "G) Test d'hyperréactivité bronchique à la Métacholine",
+            "H) Formule numération sanguine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "C'est dimanche, vous êtes de garde aux urgences et recevez une femme de 32 ans qui présente une douleur thoracique et une fièvre à 39°. L'auscultation retrouve un foyer de crépitants à droite. Le reste de l'examen clinique est sans particularité. Elle vit en couple et a deux enfants de 3 et 5 ans au domicile. Elle n'a pas d'antécédent particulier en dehors d'un tabagisme à 10 paquets/année. La radiographie thoracique est la suivante.\nParmi les propositions suivantes concernant la suite de la prise en charge quelles sont les deux à prioriser ?",
+          "choix": [
+            "A) Prescription d'une antibiothérapie par Amoxicilline per os",
+            "B) Gaz du sang",
+            "C) AngioTDM",
+            "D) Retour à domicile avec réévaluation à 48h par le médecin traitant",
+            "E) Endoscopie bronchique",
+            "F) Examen cytobactériologique de l'expectoration",
+            "G) PCR virale multiplex sur prélèvement rhinopharyngé"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 10,
+          "images": [
+            "/images/qcm/pneumologie-s7/2024/q26.png?v=1786299644538"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299644975-51532a54f0d3",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un patient de 63 ans présente un essoufflement progressivement croissant depuis un an.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les éléments suivants de l’examen clinique, quels sont les 2 éléments qui vous orientent préférentiellement vers une pneumopathie interstitielle ?",
+          "choix": [
+            "A) Dyspnée d'effort lors de la montée des escaliers à 2 étages",
+            "B) Tabagisme actif et ancien",
+            "C) Crépitants type velcro à l'auscultation thoracique",
+            "D) Toux productive",
+            "E) Sibilants à l'auscultation thoracique",
+            "F) Saturation en O2 à 88%",
+            "G) Thorax en tonneau",
+            "H) Œdème des membres inférieurs prenant le godet",
+            "I) Antécédent de sclérodermie",
+            "J) Prise de statine"
+          ],
+          "reponses": [
+            "C",
+            "I"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 28,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il existe effectivement des éléments à l’examen clinique en faveur d’une pneumopathie interstitielle. Quels sont les 4 examens complémentaires à faire en priorité pour le bilan dans une situation clinique sans élément d’orientation étiologique évident ?",
+          "choix": [
+            "A) Scintigraphie pulmonaire Ventilation/perfusion",
+            "B) Electrocardiogramme",
+            "C) Scanner thoracique",
+            "D) Pléthysmographie respiratoire",
+            "E) recherche de facteurs antinucléaires",
+            "F) Formule numération sanguine",
+            "G) Echocardiographie",
+            "H) Echo-endoscopie bronchique",
+            "I) Sérologie poumon de fermier et éleveur d'oiseau",
+            "J) Enquête génétique télomérase"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 29,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la cause la plus fréquente de pneumopathie interstitielle chronique ?",
+          "choix": [],
+          "reponses": [
+            "Fibrose pulmonaire idiopathique",
+            "FPI",
+            "fibrose idiopathique pulmonaire",
+            "Fibrose idiopathique pulmonaire",
+            "fribrose idiopathique",
+            "Pneumopathie Fibrosante Idiopathique",
+            "fibrose pulmonaire idiopathiqe",
+            "Fibrose Pneumo Idiopathique",
+            "Fibrose idiopathique diffuse",
+            "Fibrose idiopathique pulmonaire (FIP)",
+            "pneumopathie fibrosante idiopathie"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

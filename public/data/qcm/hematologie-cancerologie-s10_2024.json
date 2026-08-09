@@ -1,0 +1,1052 @@
+{
+  "matiere": "Hématologie et cancérologie",
+  "slug": "hematologie-cancerologie-s10",
+  "annee": 2024,
+  "title": "Hématologie et cancérologie - 2024",
+  "total_questions": 39,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente de 38 ans consulte pour une hyperleucocytose. L’examen clinique objective une splénomégalie mesurée à 5 centimètres en dessous du rebord costal. Voici les résultats de l'hémogramme : Hémoglobine 13,2 g/dL, VGM 95 fL, globules blancs 25 G/L dont 63 % de polynucléaires neutrophiles, 5 % de polynucléaires éosinophiles, 10 % de polynucléaires basophiles, 8 % de lymphocytes, 3 % de monocytes, 5 % de métamyélocytes, 3 % de myélocytes, 2 % de promyélocytes et 1 % de blastes, plaquettes 653 G/L.\nParmi les propositions suivantes, laquelle est exacte ?",
+          "choix": [
+            "A) Le diagnostic le plus probable est une thrombocytémie essentielle",
+            "B) Le diagnostic le plus probable est une parasitose",
+            "C) Le diagnostic le plus probable est un syndrome myélodysplasique",
+            "D) Le diagnostic le plus probable est une leucémie myéloïde chronique",
+            "E) Le diagnostic le plus probable est une myélofibrose primitive"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente de 32 ans vient de bénéficier d’une mastectomie droite avec reconstruction mammaire immédiate. Malheureusement, les suites opératoires sont compliquées à deux reprises d’un volumineux hématome du grand pectoral, avec déglobulisation et chute tensionnelle. Lors de la consultation pré-anesthésique la semaine précédant la chirurgie, rien n’avait fait suspecter un risque hémorragique : aucun antécédent obstétrical, aucun antécédent chirurgical, aucun traitement en cours hormis une contraception microprogestative depuis une dizaine d’années environ du fait de saignement utérins abondants. L’examen clinique était sans particularité et le bilan d’hémostase préopératoire réalisé (TP 70 %, TCA ratio 1,57 et Fibrinogène 6,2 g/L) n’avait pas été contrôlé.\nParmi les propositions suivantes, quelle est l’hypothèse la plus probable concernant l’origine de ce syndrome hémorragique ?",
+          "choix": [
+            "A) Un syndrome hémorragique acquis sous traitement anticoagulant",
+            "B) Une maladie hémorragique constitutionnelle de la coagulation",
+            "C) Une thrombopénie constitutionnelle",
+            "D) Une anomalie acquise de la coagulation dans un contexte paranéoplasique",
+            "E) Une complication fréquente associée à ce type de procédure opératoire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre laboratoire vous appelle pour une patiente de 43 ans à laquelle vous avez prescrit un bilan 24 heures auparavant. Vous aviez noté une altération de l’état général, des douleurs osseuses diffuses, un fébricule, une pâleur cutanéo-muqueuse et un purpura pétéchial au niveau des membres inférieurs.\nLe biologiste vous informe des résultats de l'hémogramme : Hémoglobine 9,3 g/dL, VGM 95 fL, globules blancs 25 G/L dont 17 % de polynucléaires neutrophiles, 10 % de lymphocytes, 3 % de monocytes et 70 % de blastes, plaquettes 30 G/L.\nParmi les questions suivantes que vous pourriez poser au biologiste dans ce contexte, laquelle (lesquelles) retenez-vous ?",
+          "choix": [
+            "A) Pourriez-vous réaliser un immunophénotypage des lymphocytes circulants ?",
+            "B) Quel est le résultat du bilan d’hémostase ?",
+            "C) Pourriez-vous réaliser un test de Coombs direct ?",
+            "D) Existe-t-il des corps d’Auer ou des granulations azurophiles dans les blastes ?",
+            "E) Pourriez-vous rechercher des anticorps anti-plaquettes ?"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une lymphocytose isolée chez un patient asymptomatique, vous suspectez une leucémie lymphoïde chronique ou moins probablement (en fréquence), un lymphome malin non hodgkinien indolent à petites cellules.\nQuel(s) examen(s) demandez-vous en première intention pour orienter le diagnostic ?",
+          "choix": [
+            "A) Une biopsie ostéo-médullaire",
+            "B) Un myélogramme",
+            "C) Un immunophénotypage des lymphocytes sanguins",
+            "D) Un PET-scanner",
+            "E) Une recherche du transcrit BCR-ABL en biologie moléculaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (lesquelles) peut (peuvent) être une (des) cause(s) d’anémie macrocytaire ?",
+          "choix": [
+            "A) L’insuffisance rénale chronique",
+            "B) L’éthylisme chronique",
+            "C) La carence vitaminique B12",
+            "D) L’inflammation chronique",
+            "E) L’insuffisance thyroïdienne"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le Purpura Thrombopénique Immunologique, quelle(s) proposition(s) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Une anémie s’associe souvent à la thrombopénie",
+            "B) La thrombopénie est périphérique",
+            "C) Le mécanisme principal est un excès de consommation des plaquettes",
+            "D) Il peut être associé à un déficit immunitaire",
+            "E) Un méléna constitue un signe de gravité"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le contexte de syndrome hémorragique post-opératoire avec TP à 70 %, TCA ratio 1,57 et fibrinogène 6,2 g/L une semaine avant la chirurgie, vous souhaitez contrôler le bilan d’hémostase.\nParmi les propositions suivantes, lesquelles retenez-vous ?",
+          "choix": [
+            "A) Devant l’antériorité du TP diminué associé aux manifestations hémorragiques, vous demandez l’exploration du complexe prothrombinique avec facteur V, facteur II et facteur X",
+            "B) Devant l’antériorité d’allongement du TCA associé aux manifestations hémorragiques, vous demandez l’exploration de la voie endogène avec les facteur VIII, facteur IX et facteur XI",
+            "C) Devant l’allongement du TCA associé aux manifestations hémorragiques, vous recherchez la présence d’un anticoagulant circulant de type lupique",
+            "D) Devant les saignements, vous recherchez une coagulopathie de consommation et demandez une numération plaquettaire, le dosage du facteur V, du fibrinogène et des D-dimères",
+            "E) Vous demandez une exploration du facteur Willebrand (activité et antigène) avec le facteur VIII pour compléter votre recherche d’un syndrome hémorragique acquis"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient se présentant pour anémie arégénérative, quelle(s) information(s) fait (font) évoquer un syndrome myélodysplasique ?",
+          "choix": [
+            "A) Son âge : 80 ans",
+            "B) Son ancien travail : boulanger",
+            "C) Ses antécédents familiaux : lymphome chez sa tante à l'âge de 70 ans",
+            "D) Ses antécédents : cancer de prostate traité par radiothérapie",
+            "E) L’hémogramme : dégranulation de certains polynucléaires neutrophiles"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez en consultation un patient de 65 ans asymptomatique qui présente depuis plusieurs mois une hyperlymphocytose à 24 G/L sans autre anomalie de l'hémogramme pour laquelle vous avez demandé un immunophénotypage des lymphocytes circulants qui conclut à un score de Matutes à 5/5.\nQuel diagnostic posez-vous ?",
+          "choix": [],
+          "reponses": [
+            "LLC",
+            "leucémie lymphoïde chronique",
+            "Leucémie lymphoïde chronique (LLC)",
+            "Leucemie lymphocytaire chronique",
+            "Leucémie lymphoide chronique (LLC)",
+            "Leucémique lymphoide chronique",
+            "Leucemie lymphoïde chronique LLC",
+            "Leucemie lymhoïde chronique",
+            "Leucémie lyphoïde chronique",
+            "Leucémie lynphoïde chronique"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous êtes appelé(e) pour un patient de 33 ans pour qui un diagnostic de lymphome B diffus grande cellules vient d'être posé. Les résultats biologiques suivants vous sont communiqués :\nHb 12 g/dL, plaquettes 100 G/L, leucocytes 8 G/L dont 45 % de PNN ; pas de cellule anormale sur le frottis sanguin\nCréatinine 130 µmol/L, sodium 135 mmol/L, potassium 5,1 mmol/L, acide urique 680 µmol/L, phosphore 2,2 mmol/L, calcium 2 mmol/L\nASAT 35 UI/L, ALAT 40 UI/L, GGT 50 UI/L, PAL 80 UI/L, bilirubine 5 µmol/L, LDH 2000 UI/L.\nQuelle complication suspectez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome de lyse tumorale",
+            "Lyse tumorale",
+            "Syndrome de lyse tumoral",
+            "Syndrome de lyse",
+            "Syndrome de lyse cellulaire",
+            "Syndrole de lyse tumorale",
+            "Syndrome lyse tumoral",
+            "Sybdrome de lyse",
+            "Sydrome de lyse tumoral",
+            "syndrome de lyse",
+            "Syndrome de lyse tumorale spontane",
+            "Syndrome de Lyse",
+            "Sundrome de lyse tumorale",
+            "Syndrome de lsye tumorale",
+            "lyse cellulaire"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296083511-242095234f51d8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous accueillez aux urgences une patiente âgée de 65 ans, pour dyspnée au moindre effort d’aggravation progressive, évoluant depuis 3 semaines, sans douleur thoracique ni fièvre. Elle n’a pas de rendez-vous avec un médecin généraliste avant demain mais sa voisine, coiffeuse, lui a dit que cela pouvait être une embolie pulmonaire et qu’elle devait vite aller aux urgences. La pression artérielle est à 120/88 mmHg, la fréquence cardiaque à 105 bpm, la fréquence respiratoire à 16 cycles/min et la saturation en oxygène à 96 % en air ambiant. La température est à 37,2°C. L’examen clinique est normal en-dehors d’une pâleur cutanéo-muqueuse.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le biologiste appelle pour vous informer que l'hémoglobine est à 7 g/dL avec un VGM à 102 fL et des réticulocytes à 40 G/L. Parmi les informations suivantes, laquelle (lesquelles) est (sont) plus en faveur d’une carence en folates que d’une carence en vitamine B12 ?",
+          "choix": [
+            "A) Une glossite",
+            "B) La prise de méthotrexate",
+            "C) Une thrombopénie associée",
+            "D) Une neutropénie associée",
+            "E) Une alimentation sans légume vert ni légumineuse"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente n’a pas d'antécédent particulier et ne prend aucun traitement. Il n’y a pas eu de saignement récent selon la patiente.\nLe biologiste vous rappelle : il a recontrôlé le taux de réticulocytes qui lui paraissait étrange, il est en fait à 340 G/L. Il n’y a pas de schizocyte mais il existe de rares sphérocytes.\nQuelles étiologies pouvez-vous évoquer ?",
+          "choix": [
+            "A) Carence en fer en cours de supplémentation",
+            "B) Erythroblastopénie auto-immune",
+            "C) Hypothyroïdie",
+            "D) Anémie hémolytique auto-immune",
+            "E) Sphérocytose héréditaire"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l'examen clinique, vous mesurez un débord splénique de 4 cm. Votre externe a récupéré plusieurs prises de sang antérieures depuis 15 ans (la plus récente datant d’il y a 3 mois), et vous constatez que NFS était toujours strictement normale, de même que le bilan hépatique.\nQuel examen biologique vous permettra de confirmer l’étiologie de cette anémie ?",
+          "choix": [
+            "A) Haptoglobine",
+            "B) Electrophorèse de l’hémoglobine",
+            "C) Test à l'éosine 5'maléimide (EMA)",
+            "D) Test direct à l’antiglobuline",
+            "E) Ektacytométrie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le test direct à l’antiglobuline est positif en IgG (+++) et C3d (+). Vous suspectez une anémie hémolytique auto-immune à anticorps chauds. Les plaquettes sont à 180 G/L et les leucocytes à 20 G/L (formule non réalisée).\nLes LDH sont à 600 UI/L, l’haptoglobine est effondrée, la bilirubine totale est à 72 µmol/L et la bilirubine conjuguée à 10 µmol/L, les transaminases sont normales, ainsi que les GGT et les phosphatases alcalines. Il n’y a pas de carence en folate ni en vitamine B12.\nLa patiente se plaint d’une grande fatigue ; l’examen clinique et les constantes sont stables.\nParmi les propositions suivantes de prise en charge, laquelle (lesquelles) retenez-vous en première intention ?",
+          "choix": [
+            "A) Hospitalisation",
+            "B) Antibiothérapie probabiliste",
+            "C) Transfusion de culots globulaires phénotypés",
+            "D) Biopsie ostéo-médullaire",
+            "E) Supplémentation par acide folique"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous débutez un traitement par méthylprednisolone à 1 mg/kg/j avec une lente décroissance prévue sur plusieurs mois. Quelles sont les vaccinations recommandées dans cette situation ?",
+          "choix": [
+            "A) Méningocoque B",
+            "B) Grippe saisonnière",
+            "C) COVID",
+            "D) Pneumocoque",
+            "E) Haemophilus influenzae b"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente est hospitalisée dans le service de Médecine Interne.\nLa formule leucocytaire est la suivante : polynucléaires neutrophiles 4 G/L, polynucléaires basophiles 0 G/L, polynucléaires éosinophiles 0,3 G/L, monocytes 0,5 G/L, lymphocytes 15,2 G/L, blastes 0%. Le biologiste vous contacte et vous dit qu’il y a certaines anomalies sur le frottis sanguin. Vous avez également accès à l’électrophorèse des protéines sériques ci-dessous. Quelle anomalie attendez-vous au frottis sanguin ?",
+          "choix": [
+            "A) Présence de lymphocytes hyperbasophiles",
+            "B) Présence de corps d’Auer en fagots",
+            "C) Présence de schizocytes",
+            "D) Présence d'ombres nucléaires de Gümprecht",
+            "E) Présence de plasmocytes"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/hematologie-cancerologie-s10/2024/q16.png?v=1786296086004"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Les anomalies constatées sur le frottis sanguin sont des ombres de Gümprecht et le score de Matutes est à 5, confirmant le diagnostic de leucémie lymphoïde chronique. L'hémogramme est stable avec hémoglobine à 7,6 g/dL et plaquettes à 190 G/L notamment. Un scanner objective des adénopathies médiastinales et inguinales.\nComment classez-vous cette maladie ?",
+          "choix": [],
+          "reponses": [
+            "Binet C",
+            "Stade C",
+            "C",
+            "Stade C de Binet",
+            "Binet stade C",
+            "Classe C",
+            "Stade C de la classification de Binet",
+            "Stade Binet C",
+            "Stade C de binet",
+            "Stade C Binet",
+            "stade C",
+            "Score Binet C",
+            "Stade C selon la classification de Binet",
+            "LLC Binet C",
+            "Classe C de Binet",
+            "LLC Stade C",
+            "Stade C classification de Binet",
+            "Stade c",
+            "stade C de Binet",
+            "Stade C de la classification de binet",
+            "Critère C de Binet",
+            "Stade binet C",
+            "Binet C donc sévère necessitant un traitement",
+            "Stade C (III)",
+            "Classification de Binet : C",
+            "C de Binet",
+            "Classification Binnet : C",
+            "Binet Classe C",
+            "Classification de binnet C",
+            "Leucémie lymphoide chrinique stade C (Binet)",
+            "Stade C Binnet",
+            "Classification Binet stade C",
+            "Binet grade C",
+            "Classification de binet stade C",
+            "Stade C selon Binet",
+            "Classification de Binet (stade C)",
+            "Binet C ou 3",
+            "Bine C",
+            "Binnet C",
+            "Grade C de Binet",
+            "Score de Binet grade C",
+            "Binet classe C (haut risque)",
+            "C selon Binet"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296090559-3b9bf306d6e4d8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un patient de 50 ans vient en consultation en raison de la découverte fortuite d'une gammapathie monoclonale à 28 g/L, de type IgG kappa en immunofixation.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quel examen permet de différencier une gammapathie monoclonale de signification indéterminée (MGUS) d'un myélome multiple ?",
+          "choix": [
+            "A) Une électrophorèse des protéines urinaires",
+            "B) Un hémogramme à la recherche d'une anémie",
+            "C) Un myélogramme",
+            "D) Un immunophénotypage",
+            "E) Un dosage de la calcémie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le myélogramme met en évidence une moelle riche, infiltrée par 18 % de plasmocytes dystrophiques, confirmant le diagnostic de myélome multiple. Le patient n'a pas de doléance particulière.\nQuels examens réalisez-vous en première intention pour décider d'une prise en charge spécifique ? (3 réponses attendues)",
+          "choix": [
+            "A) Un dosage de la créatininémie",
+            "B) Un dosage pondéral des immunoglobulines (IgG, IgA, IgM)",
+            "C) Une échographie cardiaque",
+            "D) Un dosage de la calcémie",
+            "E) Un scanner thoraco-abdomino-pelvien",
+            "F) Un bilan thyroïdien (TSH)",
+            "G) Un scanner osseux du corps entier",
+            "H) Une scintigraphie osseuse",
+            "I) Une IRM cérébrale",
+            "J) Une protéinurie sur urines des 24 h"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le bilan biologique complémentaire met en évidence une hypercalcémie à 3,2 mmol/L associée à une élévation modérée de la créatininémie à 168 µmol/L (clairance à 45 mL/min). Vous décidez d'hospitaliser le patient.\nEn dehors des mesures de néphroprotection, d'une hydratation par du sérum physiologique et de l'administration de bisphosphonate, quel traitement d'urgence prescrivez-vous ?",
+          "choix": [],
+          "reponses": [
+            "corticoïdes",
+            "dexamethasone",
+            "Glucocorticoïdes",
+            "Glucocorticoides",
+            "Corticotherapie",
+            "Corticoide",
+            "Corticothérapie",
+            "Corticoides en intra veineux",
+            "Coritcoïdes",
+            "Coritcoides",
+            "Corticothérapie par prednisone",
+            "Corthicothérapie",
+            "Cortocoïdes",
+            "Glucocorticoïde",
+            "Cortcoides",
+            "Prednisone",
+            "Cortocoide",
+            "Glucocorticoides IV"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296092804-8914325fce9db8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes dans votre cabinet de médecine générale, vous recevez Monsieur G. 55 ans, pour des signes fonctionnels urinaires récurrents depuis environ 6 mois.\nLe patient est d’origine antillaise, il a pour antécédent une hypertension artérielle et une hypercholestérolémie pour lesquelles il est sous statine et IEC.\nIl est fumeur, non sevré, avec un tabagisme estimé à 30 paquet-année et travaille comme peintre en bâtiment. Il travaille à temps plein, sans limitation dans ses activités quotidiennes.\nIl se plaint principalement d’une dysurie avec sensation de vidange vésicale incomplète, d’urgenturies et de nycturies (4 par nuit en moyenne). Il n’a pas de fièvre ou d’altération de l’état général. L’examen clinique est sans particularité.\nParmi les 5 propositions suivantes, choisir les 2 propositions qui sont vraies :",
+          "choix": [
+            "A) L’âge et les origines du patient sont des facteurs de risque de cancer prostatique",
+            "B) Dans ce contexte, il n’est pas justifié de réaliser un bilan paraclinique plus complet",
+            "C) Ce patient doit entrer dans un programme de dépistage du cancer de la prostate.",
+            "D) Le patient est PS 0 selon la classification OMS.",
+            "E) L’absence d’antécédents familiaux de cancer vous permet d’écarter une cause oncologique des troubles actuels."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez un cancer prostatique, quel bilan initial doit être réalisé ?",
+          "choix": [
+            "A) Une IRM pelvienne",
+            "B) Des biopsies prostatiques systématisées",
+            "C) Un dosage du PSA puis un toucher rectal",
+            "D) Un scanner thoraco-abdomino-pelvien",
+            "E) Une TEP TDM au PSMA"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Votre toucher rectal identifie une induration suspecte à gauche et le dosage du PSA retrouve un taux à 15 ng/mL. Vous complétez le bilan avec une IRM pelvienne qui permet d’identifier une cible de 12 mm dans le lobe gauche, PIRADS 4/5, sans signe d’extension extra-prostatique ou aux vésicules séminales. Des biopsies sont réalisées dans les suites de cette IRM et permettent la mise en évidence un adénocarcinome prostatique Gleason 7 (4+3), ISUP 3. Le bilan d’extension par scanner thoraco-abdomino-pelvien et scintigraphie osseuse est négatif.\nCitez l’étape indispensable à la décision collégiale d’un traitement anti-cancéreux.",
+          "choix": [],
+          "reponses": [
+            "RCP",
+            "Réunion de concertation pluridisciplinaire",
+            "Réunion de concertation pluri disciplinaire",
+            "Réunion de concertation pluri-disciplinaire",
+            "Reunion de concertation pluridisciplinaire",
+            "Réunion de concertation pluridisciplinaire (RCP)",
+            "Reunion de concertation pluridisciplinaire (RCP)",
+            "Réunion collégiale pluridisciplinaire",
+            "RCP réunion de concertation pluridisciplinaire",
+            "Réunion concertation pluridisciplinaire",
+            "Reunion concertation pluridisciplinaire RCP",
+            "RCP (reunion collegiale pluridisciplinaire)",
+            "Discussion en RCP",
+            "Réunion de concertation pluridisciplinaire RCP",
+            "Réunion Concertation Pluridisciplinaire",
+            "Reunion de Concertation Multidisciplinaire",
+            "Réunion de concertation pluridisplinaire",
+            "Reunion collegiale pluridisciplinaire (RCP)",
+            "Reunion de concertation pluridisciplinnaire",
+            "Une réunion de concertation pluridisciplinaire (RCP)",
+            "Reunion de concertation pluriprofessionnelle",
+            "Reunion de concertation pludridisciplinaire (RCP)",
+            "Reunion concertation pludisciplinaire RCP",
+            "Réunion de concertation pluri-professionnelle RCP",
+            "Réunion pluri disciplinaire",
+            "Reunion Concertation Pluridisciplinaire (RCP)",
+            "reunion de concertation pluridisciplinaire",
+            "Reunion collegiale pluridisciplinaire",
+            "La RCP",
+            "RCP (réunion collégiale pluridisciplinaire)",
+            "Reunion de concertation pluri disciplinaire",
+            "Reunion concertacion pluridisciplinaire",
+            "RCP : reunion de concertation pluriprofessionnel",
+            "Réunion collégiale pluridisciplinaire (RCP)",
+            "Reunion de conseil pluridisciplinaire",
+            "Presentation du dossier en Reunion de Concertation Pluridisciplinaire (RCP)",
+            "RCP avec présentation du patient",
+            "RCP (Reunion Comité Pluridisciplinaire)",
+            "Reunion de concertation pluri-disciplinaire",
+            "Réunion Collégiale Pluridisciplinaire (RCP)",
+            "Réunion de concertation pluridicsiplinaire",
+            "Réunion pluri-disciplinaire (RCP)",
+            "Réunion de concertation pluri-professionel",
+            "RCP - Réunion de Concertation Pluridisciplinaire",
+            "Reunion concertation pluridisciplinaire",
+            "Reunion en comite pluridisciplinaire (rcp)",
+            "Reunion collégiale pluridisciplinaire",
+            "RCP (réunion de concertation pluridisciplinaire)",
+            "Réunion de concertation multidisciplinaire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La réunion de concertation pluridisciplinaire (RCP) propose la réalisation d’une chirurgie par prostatectomie ou d’une radiothérapie associée à une hormonothérapie androgéno-suppressive.\nConcernant la prise en charge thérapeutique, choisir les propositions exactes :",
+          "choix": [
+            "A) Une chirurgie prostatique peut se compliquer d’une incontinence urinaire",
+            "B) Une radiothérapie prostatique peut aggraver transitoirement le syndrome obstructif urinaire du patient",
+            "C) Cette maladie peut être considérée à faible risque selon la classification d’Amico",
+            "D) L’annonce diagnostique et les propositions thérapeutiques peuvent être faites au téléphone",
+            "E) L’hormonothérapie a une toxicité hématologique importante"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient est finalement opéré avec un PSA post-opératoire indétectable. 3 ans plus tard, il revient vous voir accompagné de son épouse. Il a une lombalgie aigue associée à une sciatalgie L5 depuis environ 1 mois. Il a perdu 3 kg et son épouse vous décrit des épisodes de confusion sur les derniers jours.\nParmi les 5 propositions suivantes, choisir les 2 propositions qui sont vraies :",
+          "choix": [
+            "A) L’altération de l’état général est la cause la plus probable des épisodes confusions",
+            "B) La présence d’une anesthésie en selle doit conduire à une imagerie en urgence",
+            "C) Un nouveau dosage du PSA n’est pas nécessaire dans ce contexte",
+            "D) Un bilan biologique s’impose à la recherche d’une hypercalcémie",
+            "E) La symptomatologie semble fonctionnelle"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296099782-d9c4cc721080a8",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "M. D., 42 ans, se présente à votre consultation pour épigastralgies à type de crampes, calmées par la prise alimentaire et rythmées par les repas (1-3h d'intervalle libre).\nAntécédents personnels : hypertension artérielle traitée par AMLODIPINE\nAntécédents familiaux : cancer colorectal chez son père à l'âge de 45 ans\nUne endoscopie oeso-gastroduodénale a été réalisée retrouvant un ulcère gastrique creusant et les biopsies révèlent une infection à H. Pylori.\nConcernant H. Pylori, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) H. Pylori est un bacille gram positif",
+            "B) Le traitement d’éradication repose sur des antibiotiques seuls",
+            "C) La sérologie H. Pylori n'est pas adaptée au contrôle de l’éradication",
+            "D) L’infection à H. Pylori est impliquée dans 80% des cancers de l’estomac",
+            "E) En l’absence de traitement, la majorité des patients infectés à H. Pylori développeront un cancer de l’estomac"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Neuf ans plus tard, le patient revient pour des épigastralgies, une dysphagie débutante et une perte de poids de 5 kg. Vous prescrivez une nouvelle endoscopie oeso-gastroduodénale qui révèle une lésion suspecte du cardia.\nLa biopsie est en faveur d’un adénocarcinome invasif de type intestinal.\nUn scanner thoraco-abdomino-pelvien réalisé dans le cadre du bilan montre de multiples métastases hépatiques. De quel(s) examen(s) avez-vous besoin pour compléter le bilan ?",
+          "choix": [
+            "A) Une recherche du statut HER2",
+            "B) Une recherche du statut BRCA",
+            "C) Une écho-endoscopie",
+            "D) Un TEP-scanner",
+            "E) Une IRM cérébrale"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’anatomopathologiste vous fait part d’un défaut du système de réparation des mésappariements (statut dMMR) identifié sur la tumeur.\nQuelles sont les réponses vraies ?",
+          "choix": [
+            "A) Le traitement consistera en une chirurgie de l'estomac 4/5 ainsi que des métastases puis une immunothérapie adjuvante",
+            "B) Le traitement consistera en une prise en charge curative compte-tenu de l’âge du patient",
+            "C) Ce cancer survient probablement de manière sporadique compte tenu de l’âge du patient et de ses antécédents familiaux",
+            "D) Ce cancer peut s’intégrer dans le cadre d’un syndrome de Lynch",
+            "E) Le phénotype tumoral dMMR se caractérise par une forte sensibilité tumorale à l'immunothérapie (inhibiteurs des points de contrôle immunitaires)."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la décision thérapeutique en oncologie, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) La proposition thérapeutique (chirurgie, radiothérapie ou traitement médical) est le fruit d'une décision collégiale, obligatoirement prise en réunion de concertation pluridisciplinaire (RCP)",
+            "B) La RCP doit se tenir en présence d'au moins cinq médecins de spécialités différentes",
+            "C) La décision prise est tracée, puis soumise et expliquée au patient",
+            "D) Le dispositif d'annonce est construit autour de deux temps : un temps médical puis un temps d’accompagnement soignant",
+            "E) Le programme personnalisé de soins (PPS) doit être remis au patient"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient a reçu 5 cures de chimiothérapie comprenant du 5FU ainsi que de l’immunothérapie. Quels sont les effets secondaires classiquement liés au 5 FU ?",
+          "choix": [
+            "A) Syndrome mains / pieds",
+            "B) Neuropathie périphérique",
+            "C) Diarrhées",
+            "D) Nécrose cutanée",
+            "E) Spasme coronarien"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Après six mois de traitement, le patient présente de vives douleurs hépatiques évaluées à 10/10 sur l’échelle EVA.\nIl arrive à votre consultation en brancard et vous dit être alité en permanence devant une asthénie marquée.\nLe scanner de réévaluation confirme une progression multi-site du cancer.\nQuelles sont les réponses vraies ?",
+          "choix": [
+            "A) Vous proposez d’introduire un antalgique de palier 3 en première intention",
+            "B) Le patient présente un score IP-OMS évalué à 4",
+            "C) Vous proposez dans ce contexte un changement de ligne de chimiothérapie",
+            "D) Vous proposez dans ce contexte un arrêt des thérapeutiques actives",
+            "E) L'accompagnement des patients en fin de vie se fait dans le respect des lois Leonetti et Leonetti-Clays"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296102987-60982be3a7f18",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 32,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un homme de 70 ans se présente aux urgences avec un arrêt du transit (gaz et selles) avec distension abdominale depuis 3 jours faisant évoquer un syndrome occlusif. Il signale des troubles du transit depuis deux mois, une perte de poids de 7kg, des douleurs abdominales ainsi qu’une alternance de diarrhées constipations et des rectorragies de faible abondance. Dans sa famille il signale deux cas de cancer de l’endomètre chez ses sœurs à 55 et 60 ans et un cas de cancer de la vessie chez son oncle à 70 ans.\nQuelle est votre première hypothèse étiologique ?",
+          "choix": [],
+          "reponses": [
+            "cancer du colon",
+            "cancer du rectum",
+            "cancer colo-rectal",
+            "Cancer colorectal",
+            "Cancer colo rectal",
+            "Cancer colorectale",
+            "Cancer colo-rectale",
+            "Cancer colo rectale",
+            "cancer colorectal",
+            "Cancer colorectal (syndrome de lynch)",
+            "cancer du côlon",
+            "Cancers rectal",
+            "Cancer colorectal sur probable syndrome de Lynch",
+            "Syndrome occlusif sur un cancer du colon",
+            "Cancer colorectal (syndrome de Lynch)",
+            "Syndrome occlusif sur néoplasie colo-rectale",
+            "Cancer colorectal sur syndrome de lynch",
+            "Cancer colo-rectal s’intégrant dans un syndrome de Lynch",
+            "Cancer colorectzl",
+            "Cancer colorectal (syndrome de Lynch ?)",
+            "Cancer colorectal lié au syndrome de Lynch",
+            "Cancer rectocolique",
+            "Cancer colorectal sur un syndrome de Lynch",
+            "Syndrome de masse sur cancer colorectal",
+            "Cancer colorectal contexte de syndrome de lynch",
+            "Cancer de colon",
+            "Cancer colo rectal (suspicion syndrome de lynch)",
+            "Cancer colorectal avec probable syndrome de Lynch",
+            "Cancer colorectal sur syndrome de Lynch",
+            "Cancer colo rectal (sur syndrome de Lynch)",
+            "Cancer colorectal dans le cadre du syndrome de lynch",
+            "Adénocarcinome colorectal",
+            "Cance colorectal",
+            "Cancer colorectal dans un contexte de syndrome de Lynch",
+            "Occlusion sur cancer colorectal",
+            "Cancer recto-colique",
+            "Cancer colorectal associé syndrome de lynch",
+            "Occlusion sur un cancer colo-rectal",
+            "Cancer colorectal (Syndrome de lynch)",
+            "Cancer colorectal dans un contexte de Syndrome de Lynch",
+            "Syndrome occlusif sur cancer colo-rectal dans le cadre d'un syndrome de Lynch",
+            "Occlusion sur cancer colo-rectal",
+            "Obstruction par cancer colorectal",
+            "Cancer colo rectal avec syndrome de lynch"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 33,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous évoquez une néoplasie sous-jacente. Parmi les propositions suivantes quelles sont celles qui sont en faveur de cette hypothèse ?",
+          "choix": [
+            "A) La perte de poids",
+            "B) Les troubles du transit",
+            "C) Les rectorragies",
+            "D) Les antécédents familiaux",
+            "E) L’âge du patient"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 34,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le cancer colo-rectal, quelles sont les 5 hypothèses suivantes qui sont correctes ?",
+          "choix": [
+            "A) 1. Le cancer colo-rectal est le cancer le plus fréquent",
+            "B) 2. Les cancers du colon représentent 65% des cancers colo-rectaux",
+            "C) 3. Le programme national de dépistage organisé des cancers colo-rectaux s’adresse aux personnes entre 45- 85 ans",
+            "D) 4. Le Syndrome de Lynch est responsable de moins de 6% des cancers colo-rectaux",
+            "E) 5. L’indication d’une consultation d’oncogénétique doit être discutée en cas de cancer du colon de phénotype dMMR/MSI (microsatellite instability) quel que soit l’âge du patient",
+            "F) 6. L’hystérectomie avec annexectomie bilatérale est une option à discuter en cas de Sd de Lynch, après accomplissement du projet parental",
+            "G) 7. Les personnes à risque élevé de cancer colo-rectal doivent réaliser une coloscopie à partir de 60 ans",
+            "H) 8. Le tabagisme, le diabète, la sédentarité et l’obésité sont des facteurs de risque",
+            "I) 9. Parmi les polypes coliques, l’adénome tubuleux a le risque le plus élevé de transformation cancéreuse",
+            "J) 10. Un TEP/TDM est indiquée de manière systématique dans le bilan d’extension des cancers colo-rectaux",
+            "K) 11. Les tumeurs de stade II (T3 T4, N0) nécessitent d’une chimiothérapie adjuvante"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E",
+            "F",
+            "H"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296108948-8fbaf7bca437f",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 7,
+      "questions": [
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la chirurgie des cancers, quelles sont les propositions vraies",
+          "choix": [
+            "A) Une qualité de l’exérèse R2 signifie qu’il existe un résidu microscopique probable",
+            "B) Il peut s’agir d’une chirurgie de réduction du risque de cancer",
+            "C) La technique du ganglion sentinelle consiste à limiter le prélèvement à quelques ganglions après un repérage de ces derniers",
+            "D) La chirurgie d’une tumeur primitive est indispensable pour connaître la qualité de la réponse histologique après une chimiothérapie néoadjuvante",
+            "E) Une chirurgie orthopédique de prévention du risque de fracture d’une lésion lytique secondaire du col fémoral peut précéder une radiothérapie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les mutations et les cancers, quelles sont les propositions vraies",
+          "choix": [
+            "A) Des mutations somatiques peuvent être la cible de thérapies",
+            "B) Les mutations germinales BRCA2 prédisposent aux cancers de la prostate",
+            "C) Les mutations germinales BRCA1 se transmettent de manière autosomique récessive",
+            "D) Les mutations germinales des gènes MMR sont responsables du syndrome de Lynch",
+            "E) Des mutations somatiques de l’EGFR sont fréquentes dans les adénocarcinomes bronchiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le traitement adjuvant des cancers, quelles sont les propositions vraies",
+          "choix": [
+            "A) Il peut s’agir d’une radiothérapie externe dont le but est de réduire le risque de rechute à distance",
+            "B) Son efficacité se mesure en taux de réponse objective",
+            "C) Il peut consister en une hormonothérapie par exemple par anti-aromatase dans le cas d’un cancer du sein",
+            "D) Il peut s’agir d’une polychimiothérapie administrée avant un acte chirurgical",
+            "E) Son objectif est de diminuer le risque de rechute"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 38,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le compte-rendu d’une biopsie d’une tumeur du sein rapporte le résultat suivant : « amplification de HER2 ». Quelle est la proposition juste parmi les suivantes ?",
+          "choix": [
+            "A) Il s’agit d’un résultat obtenu par immunohistochimie",
+            "B) Cela signifie que le récepteur à activité tyrosine kinase HER2 est surexprimé",
+            "C) Il s’agit d’un facteur prédictif de réponse au trastuzumab, anticorps anti-HER2",
+            "D) Il s’agit d’un paramètre de bon pronostic",
+            "E) L’amplification de HER2 n’est observée que dans les cancers du sein"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 39,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Citez trois toxicités fréquentes et attendues en lien avec les anthracyclines",
+          "choix": [],
+          "reponses": [
+            "Toxicité cardiaque- cardiopathie- cardiomyopathie dilatée",
+            "Nausées – vomissements",
+            "Alopécie",
+            "Hématotoxicité – neutropénie- leuconeutropénie – thrombopénie - anémie",
+            "Toxicité gonadique / Tératogénicité",
+            "Asthénie",
+            "Nécrose cutanée en cas d'extravasation",
+            "Syndrome mains-pieds",
+            "Nouvelle réponse acceptée",
+            "Cardiomyopathie dilatée, alopécie, vomissements",
+            "Syndrome main pied, nécrose cutanée, ischémie myocardique",
+            "Cardiotoxicité, alopécie, nausées et vomissement",
+            "Cardiomyopathie dilatée, hématotoxicité, alopécie",
+            "Cardiomyopathies dilatées, nécrose cutanée, émétisant",
+            "Cytopenie, insuffisance cardiaque par cardiomyopathie dilaté, nausees et vomissements",
+            "Cardiomyopathie dilatée, nécrose cutanée, syndrome mains/pieds",
+            "Cardiotoxicité, Vomissements, nécrose cutanée",
+            "Cardiotoxicité, allopecie, nausée/vomissement",
+            "Alopécie, cardiopathie dilatée, cytopénies",
+            "Syndrome pied main, cardiopathie dilatée, alopecie",
+            "Necroses cutanée par extravasation, cardiomyopathie dilatée, nausées et vomissements",
+            "Cardiopathie dilatée alopécie nécrose cutanée",
+            "Necrose cutanée/ cardiomyopathie dilaté/ nausées-vomis chimio induite",
+            "Cardiomyopathie dilatée / nécrose cutanée / alopécie",
+            "Cardio-toxicité dose cumulative et irréversible, alopécie, vomissements",
+            "Hematotoxicité, cardiotoxicité, nécrose cutanée",
+            "Cardiomyopathie, hematotoxicité, alopécie",
+            "Cardiopathie dilatée hématotoxicité Nécrose cutanée",
+            "Cardiomyopathie dilatee, cumalite et irreversible, necrose cutanee, emetisant",
+            "Nausée , cardiopathie , alopecie",
+            "Cardiaque dose cumulative irréversible, alopécie, nausées/vomissements",
+            "Alopécie, vomissements, cardiomyopathie dilatée",
+            "Cardiopathie dilatée dose dépendante irréversible, alopécie, atteinte de la fertilité",
+            "Cardiopathie dilatée, nausées/vomissements et infertilité",
+            "cardiomyopathie dilate irréversible, emetisant, alopeciant",
+            "Cardiomyopathie dilaté dose cumulative irreversible, atteinte de la fertilité, vomissement",
+            "Cardiomyopathie, vomissement, alopecie",
+            "cardiopathie dilatée dose dépendante, nécrose cutanée, vomissements",
+            "Toxicité cardiaque, vomissements, alopécie",
+            "Cardiomyopathie dilatée, nécrose cutanée, syndrome main-pied",
+            "Émétisant, cardiomyopathie dilatée, alopécie",
+            "Vomissements, mucite, cytopénies, cardiomyopathie dilatée",
+            "Cardiotoxicite emetisant alopeciante",
+            "Hématotoxicité, nausées/vomissements, cardiotoxicité dose cumulative",
+            "Vomissements, cardiomyopathie dilatée, alopécie",
+            "Cardiopathie dilaté hematotoxicite alopecie",
+            "Cardiopathie dilatée, alopecie, cytopénies",
+            "Cardiotoxicite, alopécie, cytopénie",
+            "Cardiomyopathie dilatée, Nécrose cutanée par extravasation, alopécie",
+            "Cardiopathie dilatée, vomissements, alopécie",
+            "Cardiaque alopeciante hematotoxicité",
+            "Cardiomyopathie dilatée, neutropénie, alopécie",
+            "Nausées/vomissements , cardiomyopathie dilatée , alopécie",
+            "Cardiopathie dilaté nausées alopécie",
+            "Cardiomyopathie dilatée, nausées, alopécie",
+            "Cardiomyopathie dilateé, nausée/vomissement, cytopénie",
+            "Nausée cardiomyopathie dilatée alopécie",
+            "Cardiomyopathie dilatée, nausées, toxicité gonadique",
+            "Nausées et vomissements, alopécie et cardiotoxicité dose dépendante",
+            "Hématotoxicité, cardiotoxicité cumulative, alopécie",
+            "Émétisant, cardiopathie, hématotoxique",
+            "Cardiopathie dilatée, nécrose cutanée, alopécie",
+            "Emetisant, cardiomyopathie dilatée, alopécie",
+            "Alopecie, cardiopathie dose dependante, vomissement",
+            "cardiopathie - vomissement - necrose cutanée - pancytopenie",
+            "Myocardiopathie dilatee - cytopenies - vomissements",
+            "Vomissement, toxicité cardiaque Cardiomyopathie dilatée, allopecie",
+            "Cardiomyopathie dilatée, vomissements, alopécie",
+            "toxicité cardiaque, alopécie, cytopénies",
+            "Toxicite cardiaque, vomissement, alopecie",
+            "vomissement , alopecie , hematotoxicite",
+            "Cardiopathie dilatée, émétisant, alopécie",
+            "Cardiotoxicité vomissements nécrose cutanée par extravasation",
+            "Cardiaque cumulée, cytopénie et alopécie",
+            "Cardiopathie dilatée, necrose cutanée par extravasation, syndrome mains-pieds",
+            "Cardiomyopathie dilaté nausees pancytopenie",
+            "Cutanée (alopécie), cardiaque (cardiomyopathie dilatée), digestive (nausées/vomissements)",
+            "Cardiomyopathie dilatée dose dépendante, alopécie, vomissements",
+            "Cardiaque, alopecie, vomissement",
+            "Cardiaque, nécrose cutanée, alopécie",
+            "Cardiaque, alopécie, anémie",
+            "Cardiotoxicité cytotoxicité nausées/vomissements",
+            "Cardiotoxicité, hématotoxicité, alopécie",
+            "Cardiomyopathie dilatée, vomissements, hématotoxicité",
+            "cardiomyopathie dilatée, toxicité médullaire (cytopénie), phanères (alopécie)",
+            "Cardiaque ; hématologique avec cytopénie ; alopécie"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

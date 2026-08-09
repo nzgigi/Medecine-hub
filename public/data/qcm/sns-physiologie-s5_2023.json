@@ -1,0 +1,220 @@
+{
+  "matiere": "Système neurosensoriel – Physiologie",
+  "slug": "sns-physiologie-s5",
+  "annee": 2023,
+  "title": "Système neurosensoriel – Physiologie - 2023",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les spécificités des différentes régions associatives du cerveau, il est exact que :",
+          "choix": [
+            "A) il existe des projections directes des noyaux thalamiques spécifiques du thalamus sur le cortex pariétal associatif",
+            "B) la prosopagnosie (incapacité de reconnaissance des visages) survient fréquemment en cas de lésion vasculaire du cortex visuel associatif",
+            "C) le carrefour temporo-pariéto-occipital intègre les informations du système limbique pour discerner si une expérience est nouvelle ou correspond à une expérience déjà réalisée",
+            "D) le carrefour temporo-pariéto-occipital gauche est impliqué dans la construction des praxies idéatoires et praxies idéo-motrices alors que le carrefour temporo-pariéto-occipital droit est impliqué dans la construction des praxies constructives",
+            "E) lors de la construction d'une représentation mentale d'un objet, le cortex occipital primaire code sa couleur, sa forme et le cortex occipital associatif code ses caractéristiques tridimensionnelles"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’organisation fonctionnelle du réflexe myotatique et de son utilisation en pratique clinique, il est exact que :",
+          "choix": [
+            "A) lors du raccourcissement musculaire, la zone équatoriale des fuseaux neuro-musculaires sera elle aussi raccourcie grâce à la coactivation des motoneurones alpha et gamma",
+            "B) la présence de réflexes ostéotendineux vifs et polycinétiques évoque une lésion chronique du premier motoneurone au niveau du cortex moteur ou du tractus pyramidal",
+            "C) l’étude des réflexes ostéotendineux permet d’orienter la localisation d’un trouble moteur vers une lésion du 1er motoneurone ou du 2éme motoneurone",
+            "D) au cours d’une étude électromyographique réalisée dans le cadre d’un déficit de la force motrice, la présence de potentiels d’unités motrices géants pendant une contraction sous-maximale évoque une pathologie musculaire",
+            "E) le réflexe d'étirement implique une voie monosynaptique, les fibres afférentes de type Ia établissant des connexions directes sur les motoneurones alpha"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le rôle du cortex dans le contrôle du mouvement volontaire et dans la génération des commandes motrices, il est exact que :",
+          "choix": [
+            "A) l’aire de représentation somatotopique des muscles du pied sur le cortex moteur primaire est plus petite que la surface de représentation des muscles de la main car il y a moins de muscles au niveau du pied",
+            "B) il existe des projections réciproques des cellules pyramidales de la couche VI du cortex moteur primaire vers le thalamus",
+            "C) la majorité des axones corticospinaux du cortex moteur primaire se terminent sur les interneurones spinaux dans la région intermédiaire de la moelle épinière",
+            "D) les neurones miroirs sont impliqués dans les processus d’apprentissage basés sur l’observation et l’imitation",
+            "E) le tractus cortico-spinal (pyramidal) est principalement responsable de l’activation des muscles posturaux"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’organisation fonctionnelle des noyaux gris centraux et les différentes structures qui les composent, il est exact que :",
+          "choix": [
+            "A) les medium spiny neurons ont des récepteurs membranaires dopaminergiques de type D1 et D2 ainsi que des récepteurs cholinergiques de type muscarinique",
+            "B) la voie hyperdirecte permet une connexion directe entre le cortex moteur et le thalamus moteur",
+            "C) la voie indirecte a une action excitatrice tonique sur les neurones des noyaux de sortie (globus pallidus interne et substance noire pars reticulata) qui se traduit par une inhibition du thalamus moteur",
+            "D) les projections dopaminergiques issues de la substance noire pars compacta vont avoir un effet facilitateur sur la voie directe au travers de son action sur des récepteurs de type D1 des medium spiny neurons (MSN) et un effet inhibiteur sur la voie indirecte en se fixant sur les récepteurs D2 des MSN",
+            "E) la boucle limbique impliquée dans le circuit de la récompense lie le noyau accumbens (striatum ventral) au cortex orbito-frontal, amygdale, hippocampe et cortex cingulaire antérieur"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’organisation et les fonctions des différentes parties du cervelet, il est exact que :",
+          "choix": [
+            "A) l’activation des fuseaux neuromusculaires, des organes tendineux de Golgi, des récepteurs péri-articulaires et des récepteurs cutanés est transmise au spino-cérébellum par les tractus spinocérébelleux",
+            "B) lors de l’exécution d’un mouvement programmé, si un obstacle imprévu est détecté, le cervelet intermédiaire a la capacité d’envoyer au cortex moteur un signal d’erreur permettant de modifier la vitesse, l’amplitude ou encore la direction du mouvement en cours pour en adapter la trajectoire",
+            "C) une fibre moussue peut moduler la décharge des neurones des noyaux cérébelleux profonds soit directement au moyen de synapses excitatrices via des collatérales, soit indirectement via des projections sur les cellules de Purkinje qui sont inhibitrices",
+            "D) les axones des cellules de Purkinje du vestibulo-cerebellum se projettent directement sur les noyaux vestibulaires du tronc cérébral, sans relai dans les noyaux cérébelleux profonds",
+            "E) le cérébro-cérébellum participe à la correction et à l’amélioration de la précision des gestes à long terme par un mécanisme d’apprentissage sensori-moteur mettant en jeu un mécanisme de dépression à long terme au niveau synaptique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la douleur, il est exact que :",
+          "choix": [
+            "A) le phénomène d’allodynie se produit dans une zone d’anesthésie",
+            "B) la douleur précoce épicritique aigue est liée à la stimulation des fibres afférentes myélinisées Adelta alors que la douleur protopathique secondaire tardive est transmise par les fibres afférentes C non-myélinisées et de conduction plus lente",
+            "C) l’activation des ﬁbres aﬀérentes myélinisées de gros calibre à conduction rapide (alpha et beta) va inhiber les interneurones inhibiteurs enképhalinergiques de la corne dorsale de la moelle épinière, ce qui facilitera la transmission du message douloureux par des fibres Aδ et C au niveau du neurone nociceptif",
+            "D) l'hyperalgésie se traduit par le fait qu'un stimulus cutané mécanique non douloureux sera perçu comme douloureux",
+            "E) la substance P, le glutamate, la sérotonine et la somatostatine sont des neuromédiateurs excitateurs facilitant la décharge des neurones nociceptifs de la corne dorsale de la moelle épinière et donc la transmission de la douleur"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En ce qui concerne le sommeil et les systèmes de l’éveil, il est exact que :",
+          "choix": [
+            "A) les cellules ganglionnaires rétiniennes sont des photorécepteurs détectant les changements de luminosité qui augmentent leur fréquence de décharge à la tombée de la nuit",
+            "B) l’effet de la “pression du sommeil” peut être retardé par l’absorption de caféine en raison de son action antagoniste sur les récepteurs à l’adénosine",
+            "C) la noradrénaline libérée par les neurones du locus coeruleus est un neuromédiateur impliqué dans les systèmes éveillants",
+            "D) le système hypocrétine/orexine stabilise les états d’éveil en renforçant les systèmes cholinergiques et aminergiques",
+            "E) la survenue sur l’EEG de fuseaux de sommeil et de complexes K permet d'identifier la transition vers le sommeil paradoxal en début de nuit"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les processus mnésiques, il est exact que :",
+          "choix": [
+            "A) les informations stockées dans la mémoire procédurale peuvent être oubliées par inutilisation",
+            "B) l'amygdale permet d’attribuer une connotation émotionnelle à l’information reçue, ce qui facilite la mémorisation de cette information",
+            "C) le processus d'oubli est pathologique, en lien avec un processus neurodégénératif sur le circuit de Papez",
+            "D) le calepin visuospatial utilisé dans la mémoire à court terme permet de créer des images mentales temporaires d’objets visuels et de l'emplacement d'objets dans l'espace puis de manipuler ces images mentales afin d’effectuer rapidement une tâche complexe",
+            "E) l’engramme est le substrat physique de la mémoire dans les circuits nerveux et dépend de modifications synaptiques"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des phénomènes de dépression et potentiation à long terme (DLT et PLT) impliqués dans la plasticité synaptique, il est exact que :",
+          "choix": [
+            "A) le phénomène de DLT est associé à une diminution de l’entrée du Na+ dans l’élément post-synaptique permettant une internalisation des récepteurs AMPA par endocytose",
+            "B) l’augmentation de la sensibilité au glutamate liée à l’augmentation du nombre de récepteurs AMPA exprimés sur la membrane post-synaptique représente le principal mécanisme moléculaire impliqué dans le phénomène de PLT",
+            "C) expérimentalement, la fréquence et la durée de la stimulation appliquées sur le neurone présynaptique pour induire des changements de force synaptique auront une influence à la fois sur la quantité de neurotransmetteur libéré et sur l'amplitude de la réponse post-synaptique",
+            "D) un phénomène de PLT peut être induit expérimentalement par un train de stimuli électriques à haute fréquence durant 10 secondes",
+            "E) l'induction de phénomènes de PLT ou DLT au niveau synaptique conduit progressivement à des changements d’efficacité synaptique durables à la base des mécanismes de plasticité cérébrale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les thermorécepteurs cutanés et leurs fonctions, il est exact que :",
+          "choix": [
+            "A) les thermorécepteurs au chaud jouent un rôle dans la signalisation de la douleur liée à la chaleur",
+            "B) certains récepteurs au froid contribuent à la sensation douloureuse liée à une température trop élevée par une activation paradoxale",
+            "C) certains thermorécepteurs peuvent être activés par des substance chimiques telles que la capsaïcine ou le menthol",
+            "D) les fibres afférentes des thermorécepteurs sont de petit calibre, soit myélinisées (de type Aδ), soit non myélinisées (de type C)",
+            "E) les corps cellulaires des neurones de premier ordre de la voie de la sensibilité thermique sont situés au niveau des ganglions spinaux des racines postérieures et les corps cellulaires des neurones de deuxième ordre sont situés dans la corne dorsale de la moelle"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

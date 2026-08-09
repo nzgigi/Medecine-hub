@@ -1,0 +1,454 @@
+{
+  "matiere": "Génétique médicale",
+  "slug": "genetique-medicale-s4",
+  "annee": 2025,
+  "title": "Génétique médicale - 2025",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez un jeune patient en consultation de génétique pour le bilan d’une maladie métabolique. La mère a débuté une nouvelle grossesse et le couple se pose la question d’un risque de récidive de cette pathologie pour la grossesse en cours.\nAfin d’estimer le risque de récurrence, quels sont les moyens dont vous disposez pour déterminer le mode de transmission de la pathologie de cet enfant :",
+          "choix": [
+            "A) L’absence d’antécédent familial vous permet d’affirmer une transmission autosomique récessive",
+            "B) La présence d’antécédents familiaux peut faire évoquer un mode de transmission de la pathologie",
+            "C) Un diagnostic précis d’une pathologie peut vous donner le mode de transmission",
+            "D) Une transmission verticale évoque une pathologie autosomique récessive",
+            "E) L’identification lors des analyses génétiques de la cause de la pathologie permet de préciser le mode de transmission"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous faites un prélèvement sanguin chez cet enfant pour l’analyse les séquences codantes d’un panel de gènes impliqués dans les maladies métaboliques. Le résultat de cette analyse est c.[1161T>A];[=] (p.[Tyr387Ter];[=]) dans le gène DGFSM dont les mutations sont connues pour donner une pathologie métabolique de transmission autosomique récessive:",
+          "choix": [
+            "A) Ce résultat vous permet de poser un diagnostic chez cet enfant",
+            "B) Il s’agit d’une variation nonsens présente à l’état hétérozygote",
+            "C) Le risque de récidive de la pathologie métabolique pour l’enfant à venir est de 50 %",
+            "D) Le risque de récidive de la pathologie métabolique pour l’enfant à venir est de 25 %",
+            "E) Il est possible qu’une seconde mutation intronique à distance des séquences codantes n’ait pas été détectée par la technique utilisée"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La présence d’une variation à l’état hétérozygote ne vous permet pas de poser le diagnostic de cette maladie métabolique de transmission autosomique récessive. Vous décidez de poursuivre les analyses par un séquençage complet du génome en trio :",
+          "choix": [
+            "A) Il est alors nécessaire de prélever les parents",
+            "B) Vous devez vous assurer du souhait ou non des parents d’avoir connaissance d’éventuels résultats incidents sans lien avec la pathologie de l’enfant.",
+            "C) Cette analyse permettra de détecter des variations introniques ou des variations régulatrices du gène DGFSM non vues sur l’analyse du panel",
+            "D) Vous recherchez en parallèle des mutations dans d’autres gènes qui pourraient expliquer le tableau clinique de cet enfant",
+            "E) L’analyse pourra être demandée en urgence en raison de la grossesse en cours"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’analyse du génome permet de retrouver dans le gène DGFSM, en plus de la variation non-sens déjà identifiée, la variation c.1238-56G>C à l’état hétérozygote :",
+          "choix": [
+            "A) Cette variation est une variation intronique",
+            "B) L’utilisation d’outils bio-informatique permet d’évaluer les conséquences de cette variation sur l’épissage",
+            "C) Une analyse de l’ARNm pourrait permettre de démontrer une altération de l’épissage",
+            "D) Il s’agit probablement d’une variation faux sens à l’état hétérozygote",
+            "E) Cette variation est non codante et ne peut donc pas être pathogène"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments seront en faveur d’un effet pathogène de cette variation :",
+          "choix": [
+            "A) Présente à une fréquence importante dans la population générale avec beaucoup d’homozygotes",
+            "B) Un résultat génétique stipulant c.[1161T>A;1238-56G>C];[=]",
+            "C) La description de cette variation dans les bases de données de mutations pathogènes du gène DGFSM",
+            "D) Une analyse de l’ARNm démontrant une altération de l’épissage",
+            "E) Des anomalies aux dosages métaboliques similaires à celles observées en cas de mutation du gène DFGSM"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295478260-94c2758cad4e28",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation Mme D., âgée de 23 ans, accompagnée de son conjoint M. T., âgé de 22 ans. Vous ne notez pas d’antécédents personnels particuliers chez les deux membres du couple. Mme D. est actuellement enceinte de 12 semaines d'aménorrhée (SA). L’échographie du 1er trimestre retrouve une grossesse bi-choriale bi-amniotique avec deux fœtus (A et B) sans anomalie notable, avec des clartés nucales mesurées à 1,5mm et 2,5mm respectivement.",
+          "choix": [
+            "A) Vous proposez le dosage des marqueurs sériques du premier trimestre pour calculer le risque combiné du 1er",
+            "B) Vous proposez d’emblée un dépistage prénatal non invasif (DPNI) pour la trisomie 21",
+            "C) Vous proposez d’emblée un diagnostic invasif par biopsie de trophoblaste",
+            "D) Mme D. étant jeune, le risque de trisomie 21 est faible, il n’y a pas d’indication à réaliser de dépistage chez elle",
+            "E) Mme D. peut refuser de participer au dépistage prénatal de la trisomie 21"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le DPNI réalisé du fait de la grossesse gémellaire revient positif pour la trisomie 21",
+          "choix": [
+            "A) Vous proposez une confirmation diagnostique par un prélèvement invasif chez les deux fœtus",
+            "B) Vous proposez une confirmation diagnostique par un prélèvement invasif chez le fœtus A seulement dans un premier temps",
+            "C) Vous proposez une confirmation diagnostique par un prélèvement invasif chez le fœtus B seulement dans un premier temps",
+            "D) Il n’est pas nécessaire de confirmer le diagnostic, les deux fœtus sont atteints et une interruption médicale de grossesse (IMG) peut être indiquée d’emblée",
+            "E) Vous rassurez le couple, il s’agit probablement d’un faux positif"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Des caryotypes sont réalisés à partir des prélèvements de liquide amniotique des deux fœtus.\nLe caryotype du fœtus A est le suivant : 46,XY\nLe caryotype du fœtus B est le suivant : 47,XX,+21",
+          "choix": [
+            "A) Le fœtus A présente une trisomie 21",
+            "B) Le fœtus B présente une trisomie 21",
+            "C) Le fœtus B est une fille",
+            "D) Le couple peut formuler une demande d’IMG sélective auprès du comité d’éthique de l’établissement",
+            "E) Le couple peut formuler une demande d’IMG sélective auprès du centre pluridisciplinaire de diagnostic prénatal de l’établissement"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le couple demande une IMG sélective du fœtus B, atteint de trisomie 21. Ils vous interrogent sur le risque de récurrence lors d’une prochaine grossesse.",
+          "choix": [
+            "A) Ce risque est faible, celui de la population générale",
+            "B) Le risque de récurrence est estimé à environ 1%",
+            "C) La réalisation des caryotype parentaux permettrait de préciser le risque de récurrence",
+            "D) Lors d’une prochaine grossesse, un DPNI est indiqué d’emblée",
+            "E) Lors d’une prochaine grossesse, un diagnostic invasif est indiqué d’emblée"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295480810-56828bb652b0b",
+      "type": "SQI",
+      "title": "SQI 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des SNVs",
+          "choix": [
+            "A) Elles correspondent à des variations ponctuelles de la séquence de l’ADN",
+            "B) Elles sont caractérisées par une position très précise dans le génome de référence",
+            "C) Il en existe plusieurs millions dans le génome d’un individu",
+            "D) La majorité sont responsables de maladies génétiques",
+            "E) La plupart sont situées dans l’ADN codant d’un individu"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une maladie de transmission autosomique dominante est caractérisée par",
+          "choix": [
+            "A) Un gène situé sur l’un des chromosomes 1 à 22",
+            "B) Un risque de transmission de 25%",
+            "C) Un risque de transmission de 50%",
+            "D) Des individus atteints homozygotes pour le variant causal",
+            "E) Des individus atteints hétérozygotes pour le variant causal"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les maladies suivantes, laquelle (lesquelles) sont de transmission autosomique récessive",
+          "choix": [
+            "A) La trisomie 21",
+            "B) L’achondroplasie",
+            "C) La dystrophie myotonique de Steinert",
+            "D) Le syndrome de Prader Willi",
+            "E) La mucoviscidose"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des prédispositions génétiques aux cancers",
+          "choix": [
+            "A) Un âge de survenue précoce est évocateur d’une prédisposition génétique",
+            "B) L’absence d’antécédents familiaux permet d’écarter une prédisposition génétique",
+            "C) Certains types de tumeurs peuvent faire évoquer une prédisposition génétique",
+            "D) Une analyse génétique ne retrouvant pas de variant pathogène dans un gène de prédisposition aux cancers permet d’exclure une prédisposition génétique",
+            "E) Une analyse génétique ne retrouvant pas de variant pathogène dans un gène de prédisposition aux cancers ne permet pas d’exclure une prédisposition génétique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des variants de structure (SVs)",
+          "choix": [
+            "A) Une inversion est un SV équilibré",
+            "B) Une inversion est un SV déséquilibré",
+            "C) Une duplication est un SV équilibré",
+            "D) Une duplication est un SV déséquilibré",
+            "E) Une translocation robertsonienne est un SV équilibré"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome CHARGE, lesquels de ces signes font partie des signes pivots ?",
+          "choix": [
+            "A) Colobome",
+            "B) Atrésie des choanes",
+            "C) Ataxie",
+            "D) Scrotum en châle",
+            "E) Anomalies des oreilles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans une famille, un grand-père présente un tremblement intentionnel et une ataxie d’apparition tardive. Sa fille est asymptomatique, mais son petit-fils de 5 ans présente un retard du développement, des troubles du spectre autistique et une hyperlaxité articulaire. On suspecte un syndrome de l'X fragile. Quelle est l’explication la plus probable de cette situation ?",
+          "choix": [
+            "A) Transmission autosomique récessive",
+            "B) Transmission autosomique dominante",
+            "C) Transmission liée à l’X avec anticipation",
+            "D) Transmission mitochondriale",
+            "E) Mosaïcisme germinal"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions ci-dessous laquelle/lesquelles est/sont correcte(s)",
+          "choix": [
+            "A) L’expressivité variable des pathologies monogéniques peut être un challenge pour le conseil génétique",
+            "B) Les pathologies non monogéniques peuvent être un challenge pour le conseil génétique",
+            "C) L’errance diagnostique peut être un challenge pour le conseil génétique",
+            "D) Le conseil génétique concerne uniquement le patient chez qui la pathologie génétique a été identifiée",
+            "E) Le conseil génétique peut permettre la mise en place de traitement préventif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions ci-dessous laquelle/lesquelles est/sont correcte(s)",
+          "choix": [
+            "A) La loi de Hardy-Weinberg permet d’estimer la fréquence des porteurs hétérozygotes d’une pathologie récessive dont l’on connait la prévalence",
+            "B) L’insularité peut être un facteur de risque de pathologies autosomiques récessives",
+            "C) Les pathologies géniques touchant le globule rouge sont moins fréquentes dans les populations exposées au paludisme.",
+            "D) Être porteur hétérozygote d’une mutation dans un gène autosomique récessif peut avoir des effets bénéfiques pour la personne porteuse",
+            "E) La fréquence des pathologies génétiques peut est variable en fonction des origines géographiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions ci-dessous laquelle/lesquelles est/sont correcte(s)",
+          "choix": [
+            "A) La présence d’une transmission père-fils permet d’exclure une pathologie liée à l’ADN mitochondrial",
+            "B) La présence d’une transmission père-fils permet d’exclure une pathologie liée à l’X",
+            "C) La présence d’une transmission père-fils permet d’exclure une pathologie autosomique dominante",
+            "D) La présence d’une transmission père-fils rend moins probable une pathologie autosomique récessive",
+            "E) La présence d’une transmission père-fille permet d’exclure une pathologie liée à l’X"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du diagnostic préimplantatoire (DPI), cochez la (les) réponse(s) exacte(s)",
+          "choix": [
+            "A) Il peut être réalisé dans une majorité des CHU en France",
+            "B) Il est effectué à partir de l’ADN circulant dans le sang maternel",
+            "C) Il est possible d’effectuer un DPI sans qu’un diagnostic génétique n’ait été posé chez le cas index",
+            "D) Il peut concerner une anomalie chromosomique",
+            "E) La maladie de Huntington est une indication fréquente de DPI"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prescription d’un examen génétique chez un individu symptomatique en France",
+          "choix": [
+            "A) Elle peut être faite par un·e médecin non spécialiste de génétique",
+            "B) Elle doit toujours être validée par un comité pluridisciplinaire",
+            "C) Elle nécessite une information claire et loyale à la personne testée",
+            "D) Elle est encadrée par le Code de la santé publique",
+            "E) Elle est librement accessible à toute personne majeure en auto-prescription"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

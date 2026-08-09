@@ -1,0 +1,473 @@
+{
+  "matiere": "Radiologie",
+  "slug": "radiologie-s10",
+  "annee": 2024,
+  "title": "Radiologie - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un patient de 54 ans consulte aux urgences pour une douleur lombaire droite importante sans fièvre. Vous retrouvez à l’interrogatoire plusieurs épisodes de douleurs lombaires depuis quelques années, tous de moindre intensité.\nVous effectuez un scanner dont l’image suivante est extraite",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous effectuez un scanner dont l’image suivante est extraite",
+          "choix": [
+            "A) Il s’agit d’un scanner injecté au temps portal",
+            "B) Il s’agit d’une reconstruction dans un plan coronal",
+            "C) Le scanner aurait nécessairement dû être injecté",
+            "D) Il existe une importante dilatation des voies excrétrices droites",
+            "E) Le scanner permet d'expliquer la symptomatologie clinique ayant motivé la consultation aux urgences"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q1.png?v=1786299755374"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A propos de ce patient, et en fonction du scanner réalisé, quel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Colique néphrétique droite",
+            "Colique nephretique droite",
+            "Colique néphrétique droite lithiasique",
+            "Colique nephretique lithiasique droite",
+            "Colique néphrétique sur lithiase urétérale droite",
+            "Colique néphrétique droite obstructive",
+            "Colique néphrétique droite sur lithiase urétérale",
+            "Colique néphrétique obstructive droite",
+            "Colique néphrétique sur calcul urétéral droit",
+            "Colique nephretique sur lithiase urétérale droite",
+            "Colique néphrétique droite d'origine lithiasique",
+            "Colique néphrétique droite sur lithiase",
+            "Colique nephretique aigue droite",
+            "colique néphrétique sur lithiase urinaire droite",
+            "Colique Néphrétrique droite",
+            "Colique néphrétique sur lithiase dans l'uretère droit",
+            "Colite nephretique",
+            "Colique néphretique droite",
+            "Colique nephrétique droite",
+            "Colique nephretique ( lithiase ureterale droite )",
+            "Colique nephretique droite sur lithiase",
+            "Crise nephretique due a une lithiase urétérale droite",
+            "Colique nephretique avec lithiase droite",
+            "Colite néphrétique simple droite",
+            "Lithiase uretere droit compliquee d'une colique nephretique et d'une dilatation pyeocalicielle droite sans signe de",
+            "complication infectieuse",
+            "Colique néphrétique droite sur migration lithiasique",
+            "Colique néphrétique droite avec dilatation des voies excrétrices sus jacente",
+            "Colique nephrétique lithiasique droite",
+            "Obstruction urétérale droite lithiasique",
+            "Colique néphrétique obstructive lithiasique droite",
+            "Colique nephretique sur lithiase des voies excretrices droites",
+            "Colique nephretique droite sur lithiase urinaire",
+            "colique néphrétique droite avec dilatation des cavités pyélo-calicielles (obstructive)",
+            "Colique nephretique droite sur lithiase des voies excretrices",
+            "Colique néphrétique secondaire à une lithiase urétérale droite",
+            "colique nephretique droite",
+            "colique néphrétique obstructive par calcul urétéral droit",
+            "Colique néphrétique lithiasique droite par calcul dans l'uretère",
+            "Colique nephretique droite obstructive",
+            "Colique nephretique droite sur lithiase d’allure calcique",
+            "Colique nephrétique droite sur calcul urétéral",
+            "Lithiase urétérale droite induisant une crise de colique nephretique droite",
+            "Colique nephétique droite",
+            "Colique néphrétique lithiasique obstructive droite",
+            "Colique néphrétique droite avec dilatation pyélocalicielle",
+            "Colite néphrétique droite",
+            "Colique néphrétique avec lithiase urétérale droite",
+            "Colique néphrétique lithiasique droite avec dilatation des voies excrétrices",
+            "Colique néphrétique droite sur lithiase lombaire",
+            "Colique néphrétique droite sur lithiase urétérale obstructive",
+            "Néphropathie obstructive, avec dilatation pyelocalicienne sur lithiase urétherale droite",
+            "Lithiase ureterale lombaire droite (colique nephretique)",
+            "Colique nephritique lithiasique droite",
+            "Colite néphrétique sur lithiase urétérale droite",
+            "Colique néphrétique de l'uretère droit",
+            "Colique nephretique droite avec dilatation pyelocalicielle"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A quelle structure anatomique correspond la flèche orange ?",
+          "choix": [
+            "A) La prostate",
+            "B) Le colon transverse",
+            "C) Le sigmoïde",
+            "D) La vessie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q3.png?v=1786299757874"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299758044-993fbb29bc8ea",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un jeune homme de 23 ans consulte pour un dyspnée. A l’interrogatoire, vous relevez des sueurs nocturnes. Il se dit fatigué et dit avoir perdu 3 kg en 1 mois. Il n’a aucun antécédant.\nVous demandez une radiographie du thorax.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Un jeune homme de 23 ans consulte pour un dyspnée. A l’interrogatoire, vous relevez des sueurs nocturnes. Il se dit fatigué et dit avoir perdu 3 kg en 1 mois. Il n’a aucun antécédant.\nVous demandez une radiographie du thorax.\nPointez sur la radiographie l’anomalie pouvant expliquer la symptomatologie.",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 1,
+          "zones": [
+            {
+              "x": 0.5617559523809523,
+              "y": 0.41073753720238093,
+              "radius": 0.25,
+              "label": "zap anomalie"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q4.png?v=1786299758298"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous complétez la caractérisation des anomalies observées sur la radiographie par la réalisation d’un scanner. Quelles sont les deux propositions vraies ?",
+          "choix": [
+            "A) Le scanner est réalisé après injection de produit de contraste",
+            "B) Il s’agit d’une reconstruction en fenêtre parenchymateuse",
+            "C) Le scanner montre de volumineuses adénomégalies confluentes situées principalement dans le médiastin postérieur",
+            "D) Le syndrome de masse est responsable d’une sténose de la bronche souche gauche",
+            "E) Le scanner montre une embolie pulmonaire proximale bilatérale"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q5.png?v=1786299758518"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous ?",
+          "choix": [],
+          "reponses": [
+            "lymphome",
+            "Lymphome de Hodgkin",
+            "Lymphome de hodgkin",
+            "Thymome",
+            "Lymphome hodgkinien",
+            "Tumeur médiastinale",
+            "Lymphome Hodgkinien",
+            "Lymphome thymique",
+            "Thymone",
+            "Lymphome de hogkin",
+            "Syndrome de masse tumorale",
+            "Tumeur mediastinale",
+            "Lymphome malin hodgkinien",
+            "Un lymphome",
+            "Lymphome de Hogdkin",
+            "Lymphome de hodking",
+            "Cancer mediastinal",
+            "Tumeur",
+            "Lymphome (de Hodgkin ?)",
+            "Lymphome hodgkinien médiastinal",
+            "Masse mediastinale cancereuse",
+            "Lymphome malin",
+            "Lymphome de Hodgkins",
+            "Maladie de hodgkin",
+            "Hémopathie avec des adénopathies médiastinales",
+            "Lymphome de hodgkin avec syndrome de masse",
+            "Lymphome de Hogkin",
+            "tumeur médiastinale",
+            "Thymome (lymphome T)",
+            "Processus tumoral envahisant le médiastin",
+            "Lymphome hodgkinien avec volumineuses adénopathies médiastinales",
+            "Lymphomes médiastinaux",
+            "Neoplasie (lymphome)",
+            "Lymphome non hodgkinien",
+            "Lymphome de Hodking",
+            "Lymphome B hodgkinien",
+            "Syndrome tumoral du médiastin moyen (probable Lymphome)",
+            "Adenopathie mediastinale cancereuse, lymphome",
+            "Lymphome ganglionnaire",
+            "Lymphome de Hogking",
+            "Masse mediastinale lié à un lymphome",
+            "Tumeur du médiastin antéro-supérieur",
+            "Lymphome (de Hodgkin)",
+            "Lymphome de hodking médiastinal"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299760087-d3f7dca753c77",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un homme de 64 ans, agriculteur de profession, consulte pour des douleurs de l'épaule droite d'horaire mécanique. À l'examen clinique, il présente une limitation des amplitudes articulaires.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Question 1 QF Quels sont les deux examens de première intention à demander pour l’exploration de ces douleurs ?",
+          "choix": [
+            "A) Un scanner sans injection de produit de contraste",
+            "B) Un scanner avec injection de produit de contraste",
+            "C) Une échographie de l’épaule",
+            "D) Des radiographies du rachis cervical",
+            "E) Une IRM de l’épaule",
+            "F) Un arthro scanner de l’épaule",
+            "G) Une scintigraphie au Technétium",
+            "H) Des radiographies de l’épaule de face et de profil",
+            "I) Une radiographie du thorax"
+          ],
+          "reponses": [
+            "C",
+            "H"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Voici la radiographie réalisée. Quelles sont les 3 propositions justes ?",
+          "choix": [
+            "A) La radiographie montre une disparition de l’espace sous acromial",
+            "B) La radiographie montre des ostéophytes de la glène",
+            "C) La radiographie montre une ostéolyse de la tête humérale",
+            "D) La radiographie montre un pincement de l’interligne articulaire gleno-huméral",
+            "E) La radiographie montre des calcifications périarticulaires en faveur d’un rhumatisme à apatite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q8.png?v=1786299760635"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Omarthrose excentrée",
+            "Omarthrose excentrée droite",
+            "Omarthrose droite excentrée",
+            "Omarthrose excentree",
+            "omarthrose excentrée droite",
+            "Omarthrose excentrée sur rupture des tendons de la coiffe des rotateurs",
+            "Omarthrose excentrée de l'épaule droite",
+            "Omarthose centré",
+            "Perte de l'espace sous acromial : omarthrose excentrée",
+            "Omarthrose (arthrose de l'épaule) excentrée",
+            "Omarthrose excentrée avec neo articulation huméro-acromiale",
+            "Omarthrose excentrée de l‘articulation gléno-humérale droite (sur probable rupture de la coiffe des rotateurs)",
+            "Omarthrose excentrée sur rupture coiffe des rotateurs",
+            "Omarthrose droite excentrée (par rupture des tendons de la coiffe)",
+            "Omarthrose centrée de l'épaule droite",
+            "Omarthrose exentrée",
+            "Arthrose excentrée de l'épaule droite",
+            "Omarthrose excentrée avec rupture de la coiffe",
+            "Subluxation excentrée de la tête humérale avec rupture de la coiffe des rotateurs",
+            "Omarthrose excentrée sur rupture des muscles de la coiffe"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299761483-bdd9a2eb113c6",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous réalisez un scanner dont voici les images. Quel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Pneumopéritoine",
+            "Pneumoperitoine",
+            "Pneumo-péritoine",
+            "Pneumo-peritoine",
+            "Pneumoperitoine sur perforation gastrique",
+            "Pneumo peritoine",
+            "Pneumoperitoine sur perforation d'organe creux",
+            "Pneumoperitoire",
+            "Pneumoperitoine sur Ulcere gastrique perforé",
+            "Ulcère perforé avec pneumopéritoine",
+            "Pneumoperitoine, sur perforation gastrique",
+            "Pneumoperitoine sur probable rupture d'ulcere gastrique",
+            "Pneumopéritoine sur organe perforé",
+            "Pneumopéritoine sur ulcère gastrique perforé",
+            "Pneumoperitoine libre",
+            "Pneumo-peritonite",
+            "Pneumopéritonite",
+            "Pneumpéritoine",
+            "Pneumopéritoine sur perforation d'ulcère gastrique",
+            "Rupture gastrique avec pneumopéritoine",
+            "pneumoperitoine",
+            "Pneumoperitoine sur rupture d'organe creux",
+            "Péritonite avec pneumopéritoine",
+            "Hemopneumoperitoine sur perforation d’estomac (frequemment sur ulcere gastrique)",
+            "Pneumoperitoïne",
+            "Perforation gastrique compliqué d'un pneumoperitoine",
+            "pneumopéritoine non cloisonné avec lame d'épanchement liquidien (perforation organe creux)",
+            "Ulcère gastrique perforé avec pneumopéritoine",
+            "Pneumopéritoine sur perforation gastrique",
+            "Pneumopéritoine sur rupture de la paroi gastrique",
+            "Pneumopéritoine sur ulcère perforé",
+            "Pneumo péritoine du à une perforation gastrique",
+            "Pneumoperitoine (sur rupture d anse intrstinale)",
+            "Pneumopéritoine (perforation organe creux)",
+            "Pneumopéritoine par rupture organe creux",
+            "Pneumopéritoine massif",
+            "Pneumoperitoine sur rupture d'ulcere gastrique",
+            "Pneumopéritoine sur perforation d'organe creux (estomac)",
+            "Pneumopéritoine sur perforation d'organe creux",
+            "Perforation gastrique avec pneumopéritoine",
+            "Syndrome occlusif"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q10.png?v=1786299761849"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une femme de 60 ans vient aux urgences, amenée par son mari, pour douleurs abdominales très intenses. Elle n’a pas d’antécédents particuliers. Cliniquement, la douleur prédomine nettement en épigastrique. La patiente présente une contracture abdominale généralisée et une EVA à 9/10.\nVous décidez de faire un scanner.\nQuelles sont les propositions justes :",
+          "choix": [
+            "A) Le scanner peut être différé au lendemain car la suspicion clinique n’est pas une urgence",
+            "B) Devant ce tableau clinique d’irritation péritonéale, le scanner doit être réalisé le plus rapidement possible",
+            "C) Vous suspectez la perforation d’un ulcère gastrique, l’endoscopie doit être réalisée en première intention",
+            "D) Le scanner sera préférablement réalisé avec injection de produit de contraste"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez aux urgences un enfant de 3 ans pour une dyspnée de survenue brutale suivant un épisode de toux alors que les parents prenaient l’apéritif. Vous observez une dyspnée expiratoire associée à un wheezing. Voici la radiographie réalisée. Il est précisé que la radiographie a été réalisée en expiration.\nQuelles sont les 2 propositions vraies ?",
+          "choix": [
+            "A) La radiographie montre une hyperclarté de l’hémichamps pulmonaire droit",
+            "B) La radiographie montre un pneumothorax droit",
+            "C) Vous suspectez un corps étranger tracheal",
+            "D) Vous suspectez un corps étranger bronchique proximal droit",
+            "E) La radiographie montre un piégeage aérique à gauche"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q12.png?v=1786299763803"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation avec ses parents un enfant de 13 ans. Il vous apporte des radiographies de la cheville réalisée pour l’exploration de douleur dans les suites d’une chute à l’école. Quelles est la réponse juste ?",
+          "choix": [
+            "A) La radiographie montre une lésion ostéolytique de l’extrémité distale de la fibula",
+            "B) La radiographie montre une lésion ostéolytique avec liseré de sclérose périphérique",
+            "C) La radiographie montre des appositions périostées",
+            "D) La radiographie montre un envahissement des parties molles",
+            "E) La radiographie montre une lésion osseuse tumorale d’allure très agressive"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q13.jpg?v=1786299764265"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Un homme de 43 ans consulte après la réalisation d’une IRM que vous aviez demandée devant des lombalgies évoluant depuis 6 semaine avec radiculalgies droites de topographie S1. Sur les imageries présentées, placez sur la séquence axiale, l’anomalie responsable de la radiculalgie.",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "zones": [
+            {
+              "x": 0.6912202380952381,
+              "y": 0.400390625,
+              "radius": 0.045,
+              "label": "ZAP Anomalie responsable radiculalgie"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s10/2024/q14.png?v=1786299764694"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

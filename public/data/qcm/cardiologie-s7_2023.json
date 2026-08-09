@@ -1,0 +1,1072 @@
+{
+  "matiere": "Cardiologie",
+  "slug": "cardiologie-s7",
+  "annee": 2023,
+  "title": "Cardiologie - 2023",
+  "total_questions": 42,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mme A, 78 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un cancer du sein traité par tumorectomie à l’âge de 68 ans et à une gonathrose bilatérale. Elle est traitée pour une HTA depuis l’âge de 60 ans (association valsartan et hydrochlorothiazide). Elle est en surpoids (IMC à 28 kg/m2).\nLes anomalies auscultatoires vous conduisent à suspecter un rétrécissement aortique serré.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est(sont) la(les) anomalie(s) de l’examen physique habituellement en rapport avec cette valvulopathie (QRM)?",
+          "choix": [
+            "A) Souffle systolique",
+            "B) Timbre râpeux",
+            "C) Éclat du B2",
+            "D) Élargissement de la pression différentielle",
+            "E) Souffle irradiant vers les carotides"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l’étiologie la plus probable du rétrécissement aortique de cette patiente (QRU)?",
+          "choix": [
+            "A) Dégénératif",
+            "B) Bicuspidie",
+            "C) Post radique",
+            "D) Post rhumatismal",
+            "E) Congénital"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) résultat(s) est(sont) attendu(s) de l’échocardiographie transthoracique dans cette pathologie (QRM)?",
+          "choix": [
+            "A) Présence d’une hypertrophie ventriculaire gauche",
+            "B) Présence d’une insuffisance mitrale fonctionnelle",
+            "C) Dilatation des cavités cardiaques droites",
+            "D) Augmentation du gradient transvalvulaire aortique",
+            "E) Diminution de la surface valvulaire aortique"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les données de l’échocardiographie confirment la présence d’un rétrécissement aortique serré. Quel(s) traitement(s) pouvez-vous raisonnablement discuter chez cette patiente (QRM)?",
+          "choix": [
+            "A) Remplacement valvulaire aortique chirurgical par bioprothèse",
+            "B) Remplacement valvulaire aortique chirurgical par prothèse mécanique",
+            "C) Valvuloplastie aortique au ballon pour un traitement définitif.",
+            "D) Mise en place d’une bioprothèse par technique transcathéter",
+            "E) Traitement médical de 1ère intention avec majoration du traitement diurétique"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) examen(s) complémentaire(s) demandez-vous pour compléter le bilan pré-thérapeutique (QRM)?",
+          "choix": [
+            "A) Coronarographie",
+            "B) Epreuve fonctionnelle respiratoire.",
+            "C) Score calcique valvulaire",
+            "D) Echographie doppler des troncs supra-aortiques",
+            "E) Coroscanner"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme A. bénéficie d’un remplacement valvulaire percutané avec implantation d’une bioprothèse Edwards. Quelle(s) est(sont) la(les) propositions juste(s) concernant ce type de prothèse (QRM)?",
+          "choix": [
+            "A) Un traitement anticoagulant oral à vie est justifié par la présence de la bioprothèse .",
+            "B) Une consultation dentaire est à programmer au moins 1 fois par an.",
+            "C) Mme A. est une patiente désormais considérée à haut risque d’endocardite.",
+            "D) Ce type de prothèse présente un risque de dégénérescence.",
+            "E) Ce type de prothèse présente un risque de thrombose."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294738741-fc61b847937a",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant. Son état s'aggrave progressivement et il est maintenant essoufflé pour ses activités quotidiennes, ranger son garage et préparer les repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur thoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail, sans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de l'examen est sans particularité.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les deux diagnostics à évoquer dans ce contexte (2 réponses valides)?",
+          "choix": [
+            "A) Broncho-Pneumopathie Chronique Obstructive.",
+            "B) Embolie pulmonaire.",
+            "C) Asthme.",
+            "D) Insuffisance mitrale.",
+            "E) Insuffisance cardiaque."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le stade de sévérité de cette dyspnée selon la classification de la New York Heart Association (QRU)?",
+          "choix": [
+            "A) NYHA 0.",
+            "B) NYHA 1.",
+            "C) NYHA 2.",
+            "D) NYHA 3.",
+            "E) NYHA 4."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les examens suivants, lequel (lesquels) vous paraît (paraissent) nécessaire(s) en première intention?",
+          "choix": [
+            "A) Une échographie cardiaque trans-oesophagienne",
+            "B) Un scanner cardiaque",
+            "C) Un bilan biologique comportant FNS, Ionogramme sanguin, TSH, NT-ProBNP",
+            "D) Un IRM cardiaque",
+            "E) Un électrocardiogramme"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La fonction rénale est normale sans désordre électrolytique, le BNP est à 195 pg/mL, l'Hb glyquée à 8.5 % et il n'existe ni anémie, ni hyperleucocytose.\nL'ECG est soumis à votre interprétation (QRM).\nParmi ces réponses, laquelle ou lesquelles sont justes sur cet ECG?",
+          "choix": [
+            "A) Fibrillation atriale.",
+            "B) Séquelle d'infarctus antérieur.",
+            "C) Déviation axiale hypergauche.",
+            "D) Hypertrophie ventriculaire gauche.",
+            "E) Rythme sinusal."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/cardiologie-s7/2023/q10.jpg?v=1786294740866"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La radiographie du thorax est soumise à votre interprétation.\nQuelle anomalie identifiez-vous sur cette radiographie du thorax (QRU)?",
+          "choix": [
+            "A) Dilatation de l'aorte.",
+            "B) Epanchement pleural.",
+            "C) Syndrome interstitiel.",
+            "D) Syndrome alvéolaire.",
+            "E) APneumopathie bilatérale."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/cardiologie-s7/2023/q11.png?v=1786294741775"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant ces anomalies, vous vous orientez vers une étiologie cardiaque dominante à la dyspnée. Quel nouvel examen complémentaire doit-être réalisé (QRU)?",
+          "choix": [
+            "A) Scanner thoracique.",
+            "B) Coronarographie",
+            "C) IRM thoracique.",
+            "D) Ventriculographie isotopique.",
+            "E) Echocardiographie transœsophagienne."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L'échocardiographie est soumise à votre interprétation :\nCOMPTE-RENDU :\nAkinésie de la paroi antérieure\nAbsence de thrombus intra-cavitaire\nFraction d'éjection VG : 25 %\nAbsence de valvulopathie\nAbsence d'épanchement péricardique\nPAPS estimée à 40 mmHg\nCavité droite non dilatée\nQuel est le mécanisme de cette défaillance cardiaque (QRU)?",
+          "choix": [
+            "A) Insuffisance cardiaque à fraction d'éjection préservée.",
+            "B) Insuffisance cardiaque à fraction d'éjection réduite.",
+            "C) Tamponnade.",
+            "D) Insuffisance cardiaque droite isolée.",
+            "E) Insuffisance cardiaque à fraction d'éjection intermédiaire."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/cardiologie-s7/2023/q13.png?v=1786294743229"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294744288-bd49a0c2d0f148",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "M B 69 ans se présente aux urgences pour une douleur au mollet gauche, apparue depuis environ une semaine. La douleur est présente au repos, mais est accentuée par la marche. Les antécédents de ce patient sont une hypertension artérielle traitée par Irbesartan et hydrochlorothiazide. Il a fumé de l’âge de 20 ans à l’âge de 55 ansenviron un paquet par jour, puis il a arrêté suite à un syndrome coronaire aigu pour lequel il a bénéﬁcié de la pose d’un stent dans l’IVA (il y a 15 ans). Il a été opéré il y a un mois d’une prothèse totale de genou droit à cause d’une arthrose. Il prend actuellement 100mg d’aspirine.\nIl est en bon état général, de poids stable. Il pèse 82Kg et mesure 178cm de taille. A l’examen clinique il ne présente pas d’oedème du membre douloureux ni de circulation collatérale superﬁcielle, les pouls distaux sontprésents. Le reste de l’examen est sans particularité.\nLa pression artérielle est de 132/80 mmHg, la FC 80bpm.\nLa clairance est de 80ml/min. Hb 14,2 g/dl ; GB 4,5 G/L, plaquettes 330 G/L.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est (sont) le (les) facteur(s) de risque de thrombose veineuse profonde de ce patient ?",
+          "choix": [
+            "A) L'âge.",
+            "B) Le tabagisme.",
+            "C) L'hypertension.",
+            "D) L'intervention chirurgicale.",
+            "E) Le syndrome coronaire."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans la suspicion d’une thrombose veineuse profonde, quel examen demandez-vous en première intention dans ce contexte ?",
+          "choix": [
+            "A) D-dimères.",
+            "B) Angioscanner des membres inférieurs.",
+            "C) Echo-doppler des membres inférieurs.",
+            "D) Indice de pression systolique à la cheville (IPS).",
+            "E) Angio-IRM."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les d-dimères sont 800UI/ml (VN < 500UI/ml).\nL’échographie veineuse confirme la présence d’une thrombose veineuse profonde poplitée gauche.\nQuel(s) traitement(s) pourriez-vous mettre en place ?",
+          "choix": [
+            "A) HBPM avec chevauchement AVK.",
+            "B) HBPM avec chevauchement Rivaroxaban.",
+            "C) Rivaroxaban seul.",
+            "D) Arrêt de l’aspirine.",
+            "E) Arrêt de l’antihypertenseur."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous choisissez de démarrer un traitement par HBPM. Quel facteur est déterminant pour le choix de la dose ?",
+          "choix": [
+            "A) La fonction hépatique.",
+            "B) Le niveau d'antiXa.",
+            "C) Le poids.",
+            "D) La taille.",
+            "E) Le taux de plaquettes."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel bilan demandez-vous pour ce patient ?",
+          "choix": [
+            "A) Dosage antithrombine, protéine C, protéine S.",
+            "B) Recherche mutation du facteur V (LEIDEN).",
+            "C) Dosage facteur II.",
+            "D) Scanner thoraco-abdo-pelvien.",
+            "E) P.S.A."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le monitoring biologique que vous mettez en place pour ce patient ?",
+          "choix": [
+            "A) Surveillance des plaquettes deux fois par semaine.",
+            "B) Surveillance du taux d'anti-Xa une fois par semaine.",
+            "C) Surveillance de la fonction rénale une fois par semaine.",
+            "D) Surveillance de la numération une fois par mois.",
+            "E) Surveillance de la fonction rénale une fois par mois."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quatre jours après le démarrage du traitement, pendant que le patient est sous HBPM, il présente une dyspnée aigue. La pression artérielle est de 125/78mmHg.\nQuel examen vous permet de confirmer la présence d’une embolie pulmonaire ?",
+          "choix": [
+            "A) Angioscanner.",
+            "B) D-dimères.",
+            "C) Echographie cardiaque.",
+            "D) Radiographie du thorax.",
+            "E) Echo-doppler des membres inférieurs."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’angioscanner confirme la présence d’une embolie pulmonaire.\nQuel(s) est (sont) le(s) paramètre(s) utile(s) pour en stratifier la gravité ?",
+          "choix": [
+            "A) Présence de thrombus proximal.",
+            "B) Atteinte de >50% du lit vasculaire pulmonaire.",
+            "C) L'âge.",
+            "D) La pression artérielle.",
+            "E) La présence d'un cancer."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294749047-1db23560426d98",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Mr C, chauﬀeur routier de 34 ans, se présente aux Urgences à 20 h pour une douleur thoracique évoluant depuis 18h. Il est suivi au plan cardiologique car on lui a découvert un souﬄe au cours d’un bilan eﬀectué par la médecine du travail associé à une « dilatation de l’aorte ». Il fume 10 cigarettes par jour depuis l’âge de 25 ans. Sa douleur est permanente, néanmoins calmée en antéflexion. Il a présenté une rhinopharyngite il y a 3 semaines. Sa température est de 38,1°. L’examen physique montre un souffle systolodiastolique au bord gauche du sternum. Sa tension artérielle est mesurée à 148/80, sa fréquence cardiaque à 80/min. L’ECG est normal.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les éléments suivants de l’interrogatoire ou de l’examen physique (déjà recueillis ou supplémentaires), citez les 5 propositions qui orientent vers le diagnostic de dissection aortique ?",
+          "choix": [
+            "A) Présence d’une bicuspidie aortique dans les antécédents.",
+            "B) Présence d’une insuffisance mitrale dans les antécédents.",
+            "C) Douleur de siège rétrosternal.",
+            "D) Irradiation dans les mâchoires.",
+            "E) Caractère migratoire de la douleur.",
+            "F) Intensité très élevée de la douleur.",
+            "G) Caractère constrictif.",
+            "H) Début très brutal.",
+            "I) Douleur inspiratoire.",
+            "J) Présence d’une asymétrie tensionnelle.",
+            "K) Présence d’une fièvre."
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F",
+            "H",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous évoquez donc le diagnostic de dissection aortique. Quels sont les 3 examens complémentaires que pouvez demander en urgence et qui vous permettent de faire le diagnostic avec une sensibilité et une spécificité élevées (3 réponses valides)?",
+          "choix": [
+            "A) Echographie trans thoracique",
+            "B) Echographie transoesophagienne",
+            "C) Scanner thoracique",
+            "D) IRM",
+            "E) Radiographie du thorax",
+            "F) ECG",
+            "G) Dosage de la troponine",
+            "H) Dosage de la CRP",
+            "I) dosage du BNP",
+            "J) Coronarographie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Si le diagnostic de dissection aortique est écarté, quel est le diagnostic le plus probable (QROC)?",
+          "choix": [],
+          "reponses": [
+            "péricardite aiguë",
+            "péricardite virale",
+            "Péricardite virale",
+            "pericardite virale",
+            "péricardite aiguë virale",
+            "péricardite aigue virale",
+            "pericardite aigue virale",
+            "pericardite aigu",
+            "Pericardite virale",
+            "péricardite post infection virale",
+            "Péricardite aiguë virale",
+            "percardite aigue",
+            "Péricardite aiguë infectieuse",
+            "Pericardite aigue virale",
+            "Péricardite aigue virale",
+            "pericardite post-infectieuse",
+            "Péricartite virale"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294753009-ba004a38e8d8f",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "Un patient avec une insuffisance cardiaque à fraction d’éjection réduite est encore essoufflé malgré la majoration de son IEC et du béta-bloquant à la dose maximale tolérée, de la furosémide à 80 mg/j et de la spironolactone à 50 mg/j.\nLa TA est à 135/65 mmHg et la FC à 90/min.\nLa créatininémie et la kaliémie demeurent normales.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelle(s) modification(s) médicamenteuse(s) envisagez-vous en priorité (5 réponses valides)?",
+          "choix": [
+            "A) Rajouter de l'hydrochlorothiazide 25 mg, 1/2 cp/j.",
+            "B) Réduire le lasilix à 40 mg par jour.",
+            "C) Remplacer le ramipril par une association sacubitril/valsartan à dose croissante.",
+            "D) Remplacer le ramipril par une association de sacubitril/valsartan 49/51 mg 2 cp/j.",
+            "E) Remplacer le ramipril par une association de sacubitril/valsartan 97/103 mg 2 cp/j.",
+            "F) Rajouter de l'ivabradine 5 mg, 2 cp/j.",
+            "G) Rajouter de l’ivbradine à 7,5mg, 2 cp/j.",
+            "H) Réduire sa ration en sel si trop importante.",
+            "I) Augmenter sa ration en sel si pas assez importante.",
+            "J) Rajouter du diltiazem ou du verapamil.",
+            "K) Rajouter un inhibiteur SGLT2 (Glifozine).",
+            "L) Enlever le béta-bloquant.",
+            "M) Arrêter la spirololactone.",
+            "N) Proposer une transplantation cardiaque.",
+            "O) Proposer une assistance cardiaque mécanique de longue durée.",
+            "P) Rajouter de la digoxine.",
+            "Q) Traiter avec de la dobutamine.",
+            "R) Proposer une réadaptation cardiovasculaire."
+          ],
+          "reponses": [
+            "C",
+            "F",
+            "H",
+            "K",
+            "R"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "3 ans plus tard, le patient qui est maintenant traité à la posologie de 97 mg de sacubitril/103 mg de valsartan, 2 cp/j, reste asymptomatique, l’ECG est non modifié et le dernier contrôle échocardiographique retrouve une FE à 50 %. Il vous interroge sur l’intérêt du traitement électrique de son insuffisance cardiaque après avoir consulté internet. Que proposez-vous à cet égard (QROC - 2 à 3 mots)?",
+          "choix": [],
+          "reponses": [
+            "pas d'indication",
+            "aucune indication",
+            "pas d'intérêt",
+            "aucun intérêt",
+            "non indiqué",
+            "Non indiqué",
+            "pas necessaire",
+            "Pas indiqué",
+            "pas besoin",
+            "pas de traitement electrique",
+            "pas indiqué",
+            "pas encore necessaire",
+            "pas utile",
+            "non nécessaire",
+            "non car asymptomatique",
+            "non necessaire",
+            "ne rien faire",
+            "pas nécessaire",
+            "Pas de traitement",
+            "Ne rien faire",
+            "pas indiqué ici",
+            "inutile FEVG >35, QRS fin",
+            "pas adapté",
+            "Non recommandé chez lui",
+            "absence d'indication",
+            "Non indiquée",
+            "rien, pas d'indication",
+            "rien car asymptomatique et FE>35%",
+            "pas indiquée pour le moment",
+            "refuser car non adapté pour le patient",
+            "continuer le traitement",
+            "FE encore elevé donc pas proposé",
+            "la FE est à 50% pas necessaire dans son cas",
+            "Déconseille car stable",
+            "deconseillé si asymptomatique",
+            "Sans intérêt",
+            "Pas adapté",
+            "pas encore envisageable",
+            "non utile",
+            "poursuite du traitement",
+            "non car FE restaureée",
+            "continuer les traitements médicamenteux",
+            "rien FEVG > 45% asymptomathique",
+            "Pas d’intérêts",
+            "pas de traitement électrique",
+            "pas d'assistance électrique",
+            "surveillance clinique",
+            "Non recommandé",
+            "Poursuite du traitement",
+            "continuer le traitement actuel",
+            "abstention (ECG, FE normal et asymptomatique)",
+            "pas d’intérêt si asymptomatique",
+            "Non indiqué ici",
+            "je déconseille",
+            "Aucun changement",
+            "non adapté",
+            "pas d'indication à ce traitement",
+            "non necessaire car stable",
+            "Non nécessaire pour le moment au vu de la FE conservée et l'absence de symptomes",
+            "peu d'interet si asymptomatique",
+            "Inutile ici",
+            "interêt si FE diminuée",
+            "déconseillé si asymptomatique",
+            "Pas de traitement électrique",
+            "Non recommandé car FE conservée",
+            "pas traitement electrique",
+            "sans interet",
+            "ne pas faire",
+            "hors critères",
+            "non indication",
+            "pas utile ici",
+            "non necessaire surveillance",
+            "inutile car asymptomatique",
+            "pour le moment asymptomatique avec le traitement medical",
+            "Le patient n'a pas les indications",
+            "pas dans indication",
+            "Non car asymptomatique",
+            "Abstention thérapeutique",
+            "pas de nécessité",
+            "attendre (FE preservée + asymptomatique)",
+            "Aucun intérer",
+            "pas nécesssaire (bonne évolution) mais adaptation ventriculaire possible",
+            "DAI non indiqué",
+            "poursuivre ce traitement",
+            "abstention-surveillance",
+            "non indiqué : asymptomatique",
+            "inutile FE 50%",
+            "non recommandé",
+            "Inutile FE correct",
+            "inutile avant 30%",
+            "aucun traitement électrique",
+            "pas interessant",
+            "Inutile en l'état",
+            "Aucun benefice attendu",
+            "traitement médical seulement",
+            "Aucun traitement électrique",
+            "Pas nécessaire",
+            "abstention thérapeutique",
+            "traitement pas justifié",
+            "non indiqué (FE>30%)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quand faudrait-il indiquer une éventuelle transplantation cardiaque (3 réponses valides)?",
+          "choix": [
+            "A) Si la fraction d’éjection devenait inférieure à 25-30%.",
+            "B) Quand les résistances artérielles pulmonaires sont supérieure à 5 Unités Wood.",
+            "C) Si le patient était symptomatique stade NYHA 3 et 4 et qu’il venait à présenter plusieurs décompensations au cours de l’année précédente.",
+            "D) Lorsque la VO2 est inférieur à 10 mL/min/kg sous béta-bloquant.",
+            "E) Lorsque le test de marche des 6 minutes est supérieur à 450 m."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294771579-6c2d4f14876f8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 28,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du rétrécissement aortique, quelle est la proposition fausse? (QRU)",
+          "choix": [
+            "A) La cause dégénérative est la plus fréquente après 70 ans.",
+            "B) Le rétrécissement aortique est responsable d'une élévation de la post-charge.",
+            "C) Il s'associe fréquemment à une hypertrophie du ventricule gauche.",
+            "D) Il s'associe fréquemment à une dilatation du ventricule gauche.",
+            "E) Il s'associe à un risque de troubles de conduction auriculo-ventriculaire."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic de l’insuffisance cardiaque à fraction d’éjection préservée. Quelles réponses sont justes (QRM)?",
+          "choix": [
+            "A) Le NT-ProBNP est élevé à plus de 125 pg/ml.",
+            "B) La fraction d’éjection du ventricule gauche est inférieure à 50%.",
+            "C) La fraction d’éjection du ventricule gauche est supérieure à 50%.",
+            "D) L’échographie cardiaque trans-thoracique doit retrouver une anomalie structurelle pour confirmer le diagnostic.",
+            "E) L’échocardiographie trans-œsophagienne est indispensable pour mesurer l’épaisseur du myocarde."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient symptomatique avec une insuffisance cardiaque à fraction d ’éjection réduite d’origine ischémique, quel(s) traitement(s) médicamenteux peut (peuvent) figurer sur votre ordonnance (QRM)?",
+          "choix": [
+            "A) Glifozine (Inhibiteurs SGLT2)",
+            "B) IEC ou association Sacubitril - Valsartan.",
+            "C) Bêtabloquant.",
+            "D) Antagonistes minéralo-corticoïdes",
+            "E) Statines et aspirine."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans l'insuffisance cardiaque aiguë, parmi les facteurs suivants aggravant l'insuffisance cardiaque, lequel ou lesquels ne l'est ou ne le sont pas (QRM)?",
+          "choix": [
+            "A) Ecart de régime",
+            "B) Rythme sinusal à 90/mn",
+            "C) Polyglobulie",
+            "D) Syndrome coronarien aigu",
+            "E) Prise d'inhibiteur calcique bradycardisant de type Verapamyl"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le processus d’athérosclérose donnez la ou les réponses justes (QRM):",
+          "choix": [
+            "A) L’athérosclérose concerne l’intima des artères de gros et moyen calibre.",
+            "B) Une accumulation de HDL-c est responsable de la constitution du cœur lipidique.",
+            "C) La plaque d’athérome peut se rompre sans symptômes cliniques.",
+            "D) Les plaques peuvent évoluer et donner des sténoses.",
+            "E) Le contrôle des facteurs de risque permet généralement la stabilisation des plaques d’athérome."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs de risque des maladies vasculaires donnez la ou les réponses justes (QRM):",
+          "choix": [
+            "A) Le score de Framingham est le score de référence pour le calcul du risque en Europe.",
+            "B) SCORE 2 est un score de calcul du risque utilisé en prévention secondaire.",
+            "C) SCORE 2 inclut le diabète.",
+            "D) En prévention secondaire la cible du LDL est au moins < à 0,55g/l.",
+            "E) Les statines sont la thérapeutique clé du traitement des dyslipidémies."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les douleurs thoraciques aiguës, donnez la ou les réponses fausses (QRM).",
+          "choix": [
+            "A) Toute douleur thoracique aiguë doit être considérée comme une urgence jusqu'à preuve du contraire.",
+            "B) La douleur de dissection aortique est généralement migratrice.",
+            "C) Les douleurs de péricardite aiguë sont augmentées par l'expiration.",
+            "D) Dans les syndromes coronaires chroniques, la douleur d'angor peut durer plus de 30 minutes.",
+            "E) Devant une douleur thoracique, l'examen de première intention est la radiographie du thorax."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 35,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la physiopathologie de l’athérosclérose, donnez la réponse juste (QRU):",
+          "choix": [
+            "A) La plaque d’athérome vulnérable comporte un corps lipidique et une chape fibreuse fine.",
+            "B) L’inflammation n’influence pas les phénomènes de rupture de plaque.",
+            "C) Les complications aiguës symptomatiques des plaques d’athérome peuvent être la conséquence d’érosion endothéliale, de rupture ou de fissuration.",
+            "D) Le phénomène d’athérosclérose commence généralement à un âge avancé.",
+            "E) L’athérosclérose peut toucher les artères coronaires mais aussi pulmonaires"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 8
+        },
+        {
+          "id": 36,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mr Z vient vous revoir en consultation. Il avait déjà consulté il y a 8 jours en raison d’une dysphagie.\nIl s’agissait d’une angine virale avec test streptococcique négatif. Le bilan biologique retrouvait simplement une CRP à 150. Le traitement instauré a comporté des antalgiques simples.\nCette nuit il a été réveillé par une douleur brutale intense thoracique sans irradiation. La douleur a été calmé par du paracétamol. Elle revient depuis peu. Elle est augmentée quand il inspire.\nIl a pris sa température qui est à 38°. L’examen physique vous parait normal notamment l’auscultation. La gorge est encore un peu rouge.\nQuel est le diagnostic le plus probable ? (2 à 3 mots) QROC",
+          "choix": [],
+          "reponses": [
+            "péricardite aiguë",
+            "péricardite virale",
+            "péricardite aiguë virale",
+            "péricardite d'origine virale",
+            "Péricardite virale aiguë",
+            "Péricardite post-virale",
+            "pericardite virale aigue",
+            "pericardite post virale",
+            "péricardite aiguë viral",
+            "pericardite post-virose",
+            "pericardite post viral",
+            "péricardite post infection virale",
+            "Péricardite aigu",
+            "Péricardite infectieuse virale",
+            "péricardite post-virale",
+            "pericardite post infection virale",
+            "pericardite aigu",
+            "Péricardite virale aigue",
+            "pericaedite virale",
+            "Péricardite viral",
+            "pericardite origine virale",
+            "péricardite aigu virale",
+            "pericardite post-infection virale"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au stade de claudication intermittente, quels sont les deux risques principaux du patient à cinq ans (Question à réponse précisée)?",
+          "choix": [
+            "A) Accident vasculaire cérébral.",
+            "B) Amputation.",
+            "C) Perte de vue.",
+            "D) Infarctus du myocarde.",
+            "E) Ischémie aigüe de membres."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 38,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Comment confirme-t-on un diagnostic d'artériopathie oblitérante des membres inférieurs lors d'un bilan pour claudication intermittente ?\nQuelle est la réponse exacte (QRU)?",
+          "choix": [
+            "A) La clinique suffit.",
+            "B) Il faut effectuer un angio-IRM des membres inférieurs.",
+            "C) Il faut calculer le rapport entre pression artérielle à la cheville et pression humérale.",
+            "D) Il faut mesurer la cholestérolémie.",
+            "E) Il faut effectuer un angioscanner des membres inférieurs."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Donnez la ou les réponse(s) juste(s) (QRM).\nLe bloc auriculo-ventriculaire du second degré:",
+          "choix": [
+            "A) comporte des ondes P bloquées et des ondes P conduites.",
+            "B) n’est jamais une indication de stimulateur cardiaque.",
+            "C) se divise en 2 grand sous-types.",
+            "D) est toujours situé en aval du faisceau de His.",
+            "E) ne peut être responsable de syncopes (car il n’y a pas de pause prolongée dans ce type de bloc AV)."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Donnez la ou les réponse(s) juste(s) (QRM).\nLa dysfonction sinusale:",
+          "choix": [
+            "A) peut être responsable de syncopes ou lipothymies.",
+            "B) nécessite toujours un stimulateur cardiaque.",
+            "C) est parfois causée par des médications cardiotropes.",
+            "D) est liée a une atteinte organique du nœud auriculo-ventriculaire chez le sujet âgé.",
+            "E) peut donner une mort subite."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 41,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Chez ce patient qui se plaint de palpitations et dont l'ECG est le suivant, quel diagnostic retenez-vous (2 mots)?",
+          "choix": [],
+          "reponses": [
+            "Flutter auriculaire",
+            "Fluter auriculaire",
+            "Flutter atrial",
+            "Fluter atrial",
+            "flutter atriale",
+            "flutter",
+            "flutter commun",
+            "Flutter",
+            "Flutter atriale",
+            "Flutter typique",
+            "Flutter commun",
+            "flutter typique",
+            "flutter attrial"
+          ],
+          "correctionExplanation": "",
+          "order": 14,
+          "images": [
+            "/images/qcm/cardiologie-s7/2023/q41.png?v=1786294788069"
+          ]
+        },
+        {
+          "id": 42,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mr. Z. est âgé de 70 ans. Il est traité pour un diabète de type 2 depuis 5 ans par Metformine. Ce diabète est mal équilibré . Il est également traité pour Hypertension artérielle par une association diurétique - inhibiteur de l'enzyme de conversion.\nIl refuse le traitement par statine malgré une dyslipidémie sévère.\nIl vient vous consulter en raison d'un essoufflement à l'effort apparu depuis 3 semaines.\nCet essoufflement apparaît après 500 mètres de marche y compris à plat et disparaît à l'arrêt de l'effort.\nL'examen physique est normal en dehors d'un souffle carotidien droit.\nQuel est le diagnostic le plus probable devant cet essoufflement? (2 à 5 mots)",
+          "choix": [],
+          "reponses": [
+            "Maladie coronaire stable",
+            "syndrome coronarien chronique",
+            "angine de poitrine",
+            "angine de poitrine stable",
+            "angor stable",
+            "angor d'effort",
+            "Angor stable",
+            "Angor d'effort",
+            "angor d’effort",
+            "syndrome coronaire chronique",
+            "angor d'effort stable",
+            "angor chronique stable",
+            "angor stable avec dyspné effort",
+            "angor d'effort ischemique",
+            "angor d'effort artherosclerotique",
+            "cardipathie ischemique atheromateuse",
+            "Angor d'effort ischemique",
+            "maladie athéromateuse causant un angor chronique",
+            "angore stable",
+            "Angor d'effort stable",
+            "insuffisance cardiaque angor d'effort",
+            "stenose coronaire atheromateuse",
+            "Angor d’effort",
+            "plaque d'atherome stenosante",
+            "angor stable d'effort",
+            "obstruction coronarienne",
+            "sténose athéromateuse de la coronaire",
+            "angor chronique",
+            "ischémie myocardique d'effort",
+            "Insuffisance cardiaque sur cardiopathie ischémique",
+            "dyspnée par angor d'effort",
+            "insuffisance cardiaque ischémique",
+            "angor stable ( douleur atypique diabete)",
+            "Syndrome coronaire chronique",
+            "angor stable atheromateux",
+            "angor stable (athérome)",
+            "angor sable",
+            "Angor stable d'effort",
+            "angor d’effort stable",
+            "atherome arteres coronaires",
+            "Angor d'effort sur Rétrecissement Aortique",
+            "angor stable sur dyslidémie",
+            "angor stable d’effort",
+            "angor stable sur athérosclérose coronaire",
+            "Angor stable (ischémie silencieuse)",
+            "angor d'effort ischémie myocardique",
+            "angor d’effort sur athérome"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,621 @@
+{
+  "matiere": "Handicap et soins palliatifs",
+  "slug": "handicap-soins-palliatifs-s9",
+  "annee": 2023,
+  "title": "Handicap et soins palliatifs - 2023",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la gonarthrose, quelle réponse est juste :",
+          "choix": [
+            "A) L'assouplissement et le renforcement musculaire des membres inférieurs ne sont pas utiles à la prise en charge de la gonarthrose.",
+            "B) La correction d'un genu varum pourra faire partie de la prise en charge d'une gonarthrose fémoro-tibiale interne.",
+            "C) La correction d'un genu varum pourra faire partie de la prise en charge d'une gonarthrose fémoro-tibiale externe.",
+            "D) Une prise en charge chirurgicale sera souvent recommandée en première intention.",
+            "E) Vous devrez conseiller au patient présentant une gonarthrose de stopper l'ensemble de ses activités physique pour éviter d'aggraver la chondropathie."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Citer une échelle permettant d'évaluer la spasticité",
+          "choix": [],
+          "reponses": [
+            "Ashworth",
+            "Aschworth",
+            "Tardieu",
+            "Echelle d'Ashworth",
+            "Echelle de Tardieu",
+            "MAS",
+            "Modified Ashworth Scale",
+            "Apsworth",
+            "apworth",
+            "Asworth",
+            "echelle ashworth",
+            "asworth",
+            "échelle d'Asworth",
+            "arthworth",
+            "apsworth",
+            "Echelle d'Aschworth",
+            "echelle de Ashworth",
+            "échelle de Ashworth",
+            "hashworth",
+            "Ashworth modifié",
+            "Apworth modifiée",
+            "échelle de spasticité d'Ashworth",
+            "Arshworth",
+            "ashwoth",
+            "Asmworth",
+            "Echelle Ashworth",
+            "aschwoth",
+            "l'echelle d ashworth",
+            "Anshwort",
+            "PENN",
+            "échelle d'Apsworth modifiée",
+            "échelle de Asworth",
+            "échelle d'asthworth",
+            "echelle de ashworth",
+            "Echelle de Aschworth",
+            "harshworth",
+            "echelle d'Aschworth",
+            "Échelle d'Aschworth",
+            "ainsworth",
+            "astworth",
+            "Echelle Ashworth modifiée",
+            "Echelle d'Aschwortz",
+            "échelle ashworth",
+            "Echelle de Penn",
+            "échelle d'asworth",
+            "echelle d'asworth",
+            "echelle Aschworth",
+            "hapsworth",
+            "l'echelle d'Arsworth",
+            "Échelle modifiée d’Ashworth",
+            "Tardieux",
+            "Penn",
+            "Echelle de spasticité d'Aschwort",
+            "echelle d'Asworth, echelle de spasticité de Penn"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les éléments suivant concernant les complications secondaires à un AVC, lequel(lesquels) est(sont) juste(s) ?",
+          "choix": [
+            "A) L'aggravation brutale du déficit neurologique secondaire à un AVC ischémique doit faire évoquer une transformation hémorragique",
+            "B) Les rétractions musculaires avec limitations des amplitudes articulaires sont dues à l'hypotonie musculaire",
+            "C) En cas d'aphasie, les troubles de la déglutition sont toujours présents",
+            "D) L'hypertonie spastique survient généralement dans les premiers jours post-AVC",
+            "E) L'hypertonie spastique peut être à l'origine de douleurs de l'épaule parétique"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation M Z., 69 ans qui a présenté un AVC ischémique il y a 5 ans avec hémiparésie droite séquellaire. Il rapporte des douleurs du membre inférieur gauche, des chutes par accrochage du pied droit et une limitation de son périmètre de marche à 100m. Il a dû arrêter ses activités favorites comme le ping pong et les sorties en VTT.\nCliniquement vous retrouvez un clonus inépuisable de la cheville droite, un déficit musculaire à 2/5 au membre supérieur et 3/5 au membre inférieur droits.\nParmi les données de cet énoncé laquelle (ou lesquelles) est (sont) sont des restrictions de participation ?",
+          "choix": [
+            "A) Hypertonie spastique",
+            "B) Déficit musculaire de l'hémicorps droit",
+            "C) Arrêt de la pratique du ping pong",
+            "D) Limitation du périmètre de marche",
+            "E) Douleur du membre inférieur gauche"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prescription de la rééducation, indiquez quelle(s) est(sont) la(les) proposition(s) vraie(s) ?",
+          "choix": [
+            "A) En milieu hospitalier ou en Soins Médicaux et de Réadaptation (anciens SSR), la kinésithérapie doit être prescrite par le médecin",
+            "B) Le podo-orthésiste peut confectionner des chaussures orthopédiques",
+            "C) Suite à la réalisation d'un bilan, l'orthophoniste peut choisir de réaliser la rééducation ou pas",
+            "D) L'ergothérapie libérale peut être prise en charge par la Prestation de Compensation du Handicap.",
+            "E) Le nombre de séance de kinésithérapie doit figurer sur l'ordonnance"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la douleur",
+          "choix": [
+            "A) Toutes les douleurs avec une EVA supérieures à 7 doivent être traitées avec des opioides",
+            "B) Un DN4 positif est suffisant pour poser un diagnostic de douleur neuropathique",
+            "C) Les paliers de l’OMS sont validés dans les douleurs du cancer",
+            "D) Les douleurs neuropathiques sont essentiellement centrales",
+            "E) La douleur neuropathique est une douleur continue"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les mécanismes de contrôle de la douleur :",
+          "choix": [
+            "A) L’activation des fibres Aδ inhibe les réponses des neurones nociceptifs non spécifiques à des stimulations nociceptives",
+            "B) L’activation des fibres A\u0000 inhibe les réponses des neurones nociceptifs spécifiques à des stimulations nociceptives",
+            "C) Les controles inhibiteurs descendants issus de la medulla rostro-ventrale sont soit des controles serotoninergiques, soit des controles noradrenergiques",
+            "D) Les voies descendantes serotoninergiques et/ou adrénergiques exercent un contrôle inhibiteur sur les neurones nociceptifs spécifiques de la corne dorsale de la moelle epinière",
+            "E) Les controles inhibiteurs diffus induits par une stimulation nociceptives sont sous-tendus par une boucle de rétroaction spino-bulbo-spinale"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En pédiatrie :",
+          "choix": [
+            "A) La douleur neuropathique de l’enfant peut être evaluée par une version spécifique du DN4",
+            "B) L’auto évaluation de la douleur de l’enfant n’est possible qu’a partir de l’âge de 12 ans",
+            "C) Les puéricultrices seules sont seules habilitées à utiliser les échelles d’hetero evaluation pour les enfants de moins de un an.",
+            "D) Les anti-inflammatoires ont l’AMM à partir de 3 ans chez l’enfant",
+            "E) Le Paracétamol s’administre toujours par voie rectale chez les nourrisons de moins de un an."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En pédiatrie :",
+          "choix": [
+            "A) L’atonie psycho-motrice est un comportement qui signe un sur dosage médicamenteux",
+            "B) La douleur chronique est une douleur qui perdure plus de 6 mois après l’évènement initial",
+            "C) La nalbuphine a l’AMM à partir de l’age de 3 mois",
+            "D) Le Fentanyl est contre indiqué chez l’enfant de moins de 15 ans",
+            "E) Les Morphiniques de Palier 3 peuvent être adminisitrés en première intention en cas de douleurs intenses"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la disposition légale prioritaire pour respecter l’autonomie décisionnelle des patients inconscients en réanimation ?",
+          "choix": [],
+          "reponses": [
+            "Directives anticipées",
+            "directive anticipée",
+            "les directives anticipées",
+            "directives anticipees",
+            "Directive anticipée",
+            "directives anticipés",
+            "directive anticipé",
+            "recherche de directives anticipées",
+            "Les directives anticipées",
+            "directive anticipee",
+            "directive anticipe",
+            "directions anticipées",
+            "les directives anticipés",
+            "directives anticipées (loi clayes leonnetti)",
+            "Directives anticipées de réanimation",
+            "Chercher des directives anticipées",
+            "directive anticipees",
+            "consulter les directives anticipées ou à défaut la personne de confiance",
+            "les directives anticipés du patient",
+            "Directives anticipees",
+            "Directives Anticipees",
+            "rechercher des directives anticipees",
+            "Directives anticipés",
+            "la directive anticipée",
+            "Directive anticipées",
+            "respect des directives anticipées",
+            "suivre les directives anticipees",
+            "dirrectives anticipees"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295900144-54a88b505df3",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Monsieur H. 68 ans, présente un cancer de l’apex du poumon droit. Il a déjà bénéficié d’une chimiothérapie et de radiothérapie complémentaire. Il se plaint de douleur cotée à 8/10 sur l’EVA. Ces douleurs sont de deux types :\nUne douleur localisée au niveau de l’épaule droite et du thorax à recrudescence nocturne avec un réveil vers 3 heures du matin et impossibilité de se rendormir avant 5 heures du matin. Ces douleurs sont augmentées lors des mouvements du bras, il ne peut plus porter de poids ;\nDes douleurs localisées au niveau du bras droit, qui irradient sur le bord interne du bras et de l’avant-bras droit vers l’auriculaire. Il s’agit de sensation de fourmillement permanent, de décharge électrique, d’engourdissement. Ces douleurs le gênent pour s’endormir, pour lire. Elles l’agacent, entraînant une certaine irritabilité.\nComme autre antécédent on note : un alcoolisme sevré en 2008, un tabagisme sevré en 2014, une hypertension artérielle.\nSon traitement actuel :\nperindopril (Coversyl) 2.5 mg/j\nParacetamol/codeine (500 mg/30 mg) 2cp X 3 par jour\nKetoprofene 100 mg matin et soir\nOmeprazole 20 mg par jour.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle est l’analyse sémiologique des douleurs présentées par MR H. ? QRM",
+          "choix": [
+            "A) Douleur neuropathique périphérique",
+            "B) Douleur nociceptive inflammatoire",
+            "C) Douleur neuropathique centrale",
+            "D) Douleur nociceptive mécanique",
+            "E) Douleur psychogène"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments en faveur d’une douleur neuropathique ?",
+          "choix": [
+            "A) Cancer de l’apex du poumon",
+            "B) Territoire systématisé de la douleur",
+            "C) Irritabilité et trouble du sommeil",
+            "D) Descriptif des douleurs",
+            "E) Intensité de la douleur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles échelles d’évaluation de la douleur vous paraissent utiles chez Mr H. ?",
+          "choix": [
+            "A) Questionnaire DN4",
+            "B) Echelle anxiete et depression",
+            "C) Echelle algoplus",
+            "D) Echelle Doloplus",
+            "E) EVA"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’état clinique précédent s’aggrave encore, notamment sur le plan des douleurs et de l'état de forme avec la nécessité d'introduire des opiacés.\nLes effets indésirables des opioïdes sont :",
+          "choix": [
+            "A) La constipation",
+            "B) Le myosis",
+            "C) Le prurit",
+            "D) Les nausées/vomissements",
+            "E) Les troubles attentionnels"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les directives anticipées en réanimation",
+          "choix": [
+            "A) Leur rédaction est obligatoire",
+            "B) Elles sont conservées sur un registre informatique national sécurisé",
+            "C) Leur recherche est obligatoire par les soignants",
+            "D) Il est impossible de passer outre pour les médecins",
+            "E) Une réunion collégiale est nécessaire à la décision pour passer outre une directive anticipée"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En réanimation chez le patient inconscient, la décision de limitation et d’arrêt des traitements intervient après une procédure collégiale. Cette dernière inclut :",
+          "choix": [
+            "A) Le médecin en charge du patient",
+            "B) L’infirmière en charge du patient",
+            "C) L’aide-soignante en charge du patient",
+            "D) Un autre médecin",
+            "E) L’interne du service"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295906026-d5068aad3b1848",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mr R, âgé de 52 ans, garde forestier, a fait un malaise sur son lieu de travail avec dans les suites l’apparition d’une paralysie de l’hémicorps droit et un mutisme. A l’arrivée aux urgences, le diagnostic d’accident vasculaire cérébral (AVC) ischémique sylvien gauche est posé. Il est transféré en service de neurologie. A l’examen clinique on trouve à droite une paralysie faciale, une parésie flasque du membre supérieur et du membre inférieur, un signe de Babinski et une anesthésie au tact de l’hémicorps. La compréhension des ordres simples est respectée. Le patient est incapable de produire un son. Dans les antécédents on retrouve un tabagisme sévère, une bronchopneumopathie obstructive (BPCO). M. R. est célibataire, sans enfant et il vit seul dans un appartement au 2ème étage sans ascenseur.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les 3 déficiences qu’il présente ?",
+          "choix": [
+            "A) Un AVC Sylvien Gauche.",
+            "B) Une paralysie faciale.",
+            "C) Une aphasie.",
+            "D) Une hémiplégie droite.",
+            "E) Une BPCO."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant ce tableau clinique, quels sont les 3 objectifs prioritaires de la prise en charge kinésithérapique ?",
+          "choix": [
+            "A) Entretien des amplitudes articulaires des membres supérieurs et inférieurs droits.",
+            "B) Lutte contre la spasticité des membres supérieurs et inférieurs.",
+            "C) Renforcement musculaire contre résistance maximale des membres supérieur et inférieur droits.",
+            "D) Aide à l’expectoration et lutte contre l’encombrement bronchique.",
+            "E) Acquisition d'un équilibre assis et des transferts."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Votre patient est ensuite transféré en service de MPR. Après 1 mois d’hospitalisation, il sort pour rejoindre son domicile. Il présente une hypertonie spastique du triceps sural droit, un équin de cheville mesuré à 10° (en position genou tendu), des troubles de la sensibilité épicritique et proprioceptive, un déficit moteur du membre supérieur droit qui se positionne spontanément en flexion de coude, de poignet et des doigts. Malgré une légère parésie du membre inférieur droit, il a retrouvé des capacités de marche sur terrain plat (périmètre de 500m) et un bon équilibre debout. L’équilibre monopodal à droite est impossible. La marche sur terrain accidenté est difficile. Il a des difficultés pour réaliser la majeure partie des actes de la vie quotidienne comme se laver, s’habiller. Il ne pourra plus réaliser sa passion : le tir à l’arc. Il présente encore un manque du mot majeur, associé à un agrammatisme et à des perturbations phonétiques. La compréhension des ordres simples et semicomplexes est satisfaisante, difficile pour les ordres complexes. Concernant son trouble du langage, il s’agit d’un tableau :\n(réponse unique)",
+          "choix": [
+            "A) D’aphasie globale ou mixte.",
+            "B) D’aphasie de conduction.",
+            "C) D’aphasie de Broca.",
+            "D) D’aphasie de Wernicke.",
+            "E) D’aphasie anomique."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A ce stade, quelles est(sont) la (les) limitation(s) d’activité(s) qu'il présente ?",
+          "choix": [
+            "A) Impossibilité de reprendre le tir à l’arc.",
+            "B) Equin mesuré à 10° de la cheville droite.",
+            "C) Une difficulté pour les déplacements en terrain irrégulier.",
+            "D) Impossibilité de reprendre son activité de garde forestier",
+            "E) Difficultés pour la toilette et l’habillage."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Indiquez l’ (les) échelle(s) qui permet(tent) d’évaluer les limitations d’activités de ce patient :",
+          "choix": [
+            "A) Mesure d’Indépendance fonctionnelle.",
+            "B) Testing Moteur MRC.",
+            "C) Batterie d’Aphasie Montréal-Toulouse.",
+            "D) Index de Barthel.",
+            "E) MiniMental State Examination (MMSE)."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En position assise au bord du lit, il peut ne peut pas étendre le genou droit dans sa totalité de manière volontaire alors qu’il y arrive en décubitus latéral. Il n’y a pas de spasticité lors de l’étirement rapide du quadriceps droit ou des ischio-jambiers et pas de limitation articulaire lors de l’extension passive. Quelle est la proposition vraie :",
+          "choix": [
+            "A) L’échelle Medical Research Council (MRC) n’est pas utilisable dans son cas pour évaluer la déficience motrice du quadriceps.",
+            "B) Le quadriceps droit est coté à 1 / 5 au testing moteur MRC.",
+            "C) Le quadriceps droit est coté à 2 / 5 au testing moteur MRC.",
+            "D) Le quadriceps droit est coté à 3 / 5 au testing moteur MRC.",
+            "E) Le quadriceps droit est coté à 4 / 5 au testing moteur MRC."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295911110-4e2c5e2da1139",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Madame X.... a 62 ans est à la retraite, elle était aide soignante. Elle mesure 1,55m et pèse 85 kg. Elle se plaint depuis plusieurs mois d'une douleur inguinale gauche irradiant jusqu'au genou sur à la face externe de la cuisse. La douleur apparaît après un temps de marche de l'ordre de 30 mn ; elle est bien calmée par le repos et la prise de paracétamol. Cette patiente vient vous consulter car elle commence à être gêner pour lasser ses chaussures ou pour aller faire ces courses.\nLa palpation du rachis est non douloureuse. L'indice de schober est à +9 cm. La flexion de la hanche gauche est à 100° (110 à droite), l'extension à 0° (+10° à droite), l'abduction est de 30° (identique à droite), les rotations médiales et latérales sont à 30° (identiques à droite) et sont légèrement douloureuses.\nL’examen de la marche montre une forte asymétrie du pas avec un temps d'appui beaucoup plus court sur le membre inférieur gauche que sur le membre inférieur droit. Par ailleurs vous notez une inclinaison du tronc vers la gauche lors de l'appui sur le membre inférieur gauche et vers l’avant en fin d’appui du membre inférieur gauche.\nLe bilan biologique retrouve une CRP à 1.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "\"L’examen de la marche montre une forte asymétrie du pas avec un temps d'appui beaucoup plus court sur le membre inférieur gauche que sur le membre inférieur droit.\" Quelle nom de boiterie vous évoque ce tableau?",
+          "choix": [],
+          "reponses": [
+            "boiterie d'esquive",
+            "esquive",
+            "d'esquive",
+            "d’esquive",
+            "Boiterie d'esquive gauche",
+            "boiterie d'esquive de la douleur",
+            "boiterie esquive",
+            "boiterie d'esquive antalgique",
+            "boterie d'esquive"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Au regard de ces différents éléments, quel est le diagnostic que vous proposez?",
+          "choix": [],
+          "reponses": [
+            "coxarthrose gauche",
+            "arthrose de hanche gauche",
+            "arthrose de la hanche gauche",
+            "coxarthrose",
+            "Coxarthrose",
+            "arthrose de hanche",
+            "coxarthose gauche",
+            "Coxarthrose/arthrose de hanche gauche avec deficit du moyen fessier gauche (Trendelenburg) et du quadriceps gauche",
+            "(salutation",
+            "arthrose hanche gauche",
+            "arthrose coxofemorale gauche",
+            "arthrose coxo-fémorale",
+            "Arthrose de hanche",
+            "arthrose coxo femorale",
+            "Arthrose de hanche / coxarthrose",
+            "arthrose coxo-fémoral",
+            "coxarthrose de hanche gauche",
+            "arthorse de la hanche gauche",
+            "coxarthrose de la hanche gauche",
+            "arthrose coxo-fémorale gauche",
+            "Coxoarthrose",
+            "coxarthrose gauche débutante",
+            "Arthrose",
+            "clxarthrose"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 8 éléments que vous retenez en faveur du diagnostic d'arthrose de hanche gauche ?",
+          "choix": [
+            "A) Douleur mécanique",
+            "B) Douleur inflammatoire",
+            "C) Douleur à l'appui responsable d'une boiterie d'esquive : asymétrie d'appui",
+            "D) Une limitation de l'amplitude articulaire de la hanche en extension",
+            "E) L'absence de syndrome inflammatoire sur le bilan biologique",
+            "F) Hypertonie des adducteurs de hanche responsable de la boiterie de Trendelenburg",
+            "G) L'âge du patient",
+            "H) Le sexe du patient",
+            "I) Le morphotype du patient",
+            "J) Le rachis est mobile et non douloureux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "maxReponses": 8,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

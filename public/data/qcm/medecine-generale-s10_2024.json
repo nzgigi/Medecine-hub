@@ -1,0 +1,508 @@
+{
+  "matiere": "Médecine générale",
+  "slug": "medecine-generale-s10",
+  "annee": 2024,
+  "title": "Médecine générale - 2024",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mme I, 52 ans vient pour la première fois vous voir au cabinet de médecine générale pour renouvellement de son traitement de substitution aux opiacés. Elle est originaire du Nigeria, vit en France depuis 9 ans et parle assez bien français. Elle ne sait pas lire ni écrire. Elle vit actuellement en foyer d’hébergement d’urgence (nuit à nuit, fermé en journée), où elle partage sa chambre avec une autre femme. Elle n’a pas accès à une cuisine. Elle n'est pas marié et a un fils de 20 ans qui vit au Nigeria;\nElle avait jusqu’à présent été prise en charge à la Permanence d’Accès aux Soins de Santé puis dans un Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA). Elle bénéficie de l’Aide Médicale d’Etat.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 3 propositions justes ?",
+          "choix": [
+            "A) Madame I a pu être prise en charge à la PASS car elle est bénéficiaire de l’Aide Médicale d’Etat",
+            "B) Madame I a pu être prise en charge à la CSAPA car elle est bénéficiaire de l’Aide Médicale d’Etat",
+            "C) Vous profitez de cette première consultation pour faire le point sur ses antécédents",
+            "D) Vous profitez de cette consultation pour faire le point sur les examens de dépistages réalisés et ses vaccinations",
+            "E) Vous proposez à Mme I de contrôler son poids, sa taille, et sa TA"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Madame I vous explique ne pas avoir d’ATCD spécifique, si ce n’est un taux de sucre retrouvé élevé lors de son passage à la PASS. Ses dépistages ne sont pas à jour. Madame I a été vaccinée contre le DTP à son arrivée en France.\nLa patiente est asymptomatique. Elle pèse 78 kg et mesure 1m59. Sa tension artérielle est de 140/80.\nQuelles est la proposition juste ?",
+          "choix": [
+            "A) Vous posez le diagnostic d’hypertension artérielle",
+            "B) Vous calculez son IMC qui est à 30.9 : Madame I est en situation de surpoids",
+            "C) Vous prescrivez à Madame I une prise de sang pour contrôler son taux de sucre et son bilan lipidique",
+            "D) D’après les recommandations, Madame I devrait réaliser deux tests de dépistage de cancer pour être à jour : le test HPV et la mammographie",
+            "E) Concernant les vaccinations, il n'est pas nécessaire de vérifier le statut sérologique de Madame I concernant l’hépatite B : la vaccination anti-HBV n'est pas recommandée pour elle"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En fouillant dans la pile de documents que vous donne Mme I, vous retrouvez une prise de sang récente qui retrouve une HbA1c à 11.7%. Vous appelez votre confrère diabétologue qui vous conseille de mettre en place un traitement par insuline lente et des surveillances glycémiques.\nQuelle est la réponse juste ?",
+          "choix": [
+            "A) Vous prescrivez un traitement par insuline lente après avoir expliqué à la patiente comment réaliser les injections",
+            "B) Vous lui prescrivez un appareil pour les surveillances glycémiques et lui demandez de noter chaque jour ses glycémies à jeun dans un carnet de surveillance glycémique",
+            "C) Vous lui expliquez qu’il est important de limiter les sucres et les plats industriels, et de privilégier les repas préparés maison, à base de légumes frais",
+            "D) Vous lui dites de contacter un infirmier pour qu’il passe à domicile réaliser les injections d’insuline et les surveillances glycémiques en lui donnant la prescription nécessaire (soins infirmiers, matériel de surveillance et insuline)",
+            "E) Vous faites une demande d’admission en LHSS (Lits Haltes Soins de Santé) afin d’initier le traitement par insuline."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "A,B : niveau de littératie en santé bas, difficulté de la réalisation de ces soins seule dans son centre d’hébergement\nC : Conseils non applicables dans le cas de cette patiente (hébergement sans cuisine, limites financières)\nD : Vous contactez directement l’IDE ou le centre d’hébergement pour vous assurer de la possibilité du passage d’IDE dans ce centre fermé la journée. Sinon risque qu'elle ne parvienne pas à le faire seule.",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une fois la question du diabète cloturée, vous remettez à Madame I une ordonnance de Methadone pour 28 jours. En fin de consultation, vous demandez à Madame A sa carte vitale. Elle vous tend une carte blanche, sans puce avec écrit Aide Médicale d’Etat. Quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Vous refusez les patients qui n’ont pas de carte vitale dans votre cabinet",
+            "B) Cette patiente n’étant pas française, elle ne peut pas avoir de droits à la Couverture Santé Solidaire (CSS)",
+            "C) Etant en situation irrégulière en France mais présente depuis plus de 3 mois sur le territoire, elle peut bénéficier de l’Aide Médicale d’Etat",
+            "D) Vous vérifiez que son AME est à jour et réalisez une feuille de soin qui vous permettra d’être rémunéré pour la consultation",
+            "E) Vous dites à Mme I de bien prendre RDV sur votre plateforme de RDV en ligne pour son renouvellement dans 28 jours"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "A : Il est illégal de refuser une personne bénéficiant de l’AME\nB : Une CSS est parfois possible pour des personnes étrangères (demandeurs d’asile, …)\nE : Patiente qui ne sait pas lire ni écrire, vous lui proposez le prochain RDV",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "28 jours plus tard, alors que Madame I avait RDV avec vous, elle ne se présente pas au cabinet.\nQuels obstacles à la continuité des soins identifiés au premier RDV peuvent expliquer ce RDV manqué ? 5 réponses justes",
+          "choix": [
+            "A) Méconnaissance du système de soin : elle ne sait pas qu'il est important de prévenir quand on ne peut pas venir ou comment procéder",
+            "B) Rupture de droits : fin de validité de son AME",
+            "C) Pathologie psychiatrique sévère",
+            "D) Barrière linguistique et culturelle",
+            "E) Déficit intellectuel",
+            "F) Difficultés d’accessibilité territoriale (transports, orientation géographique)",
+            "G) Nomadisme : elle a été envoyée dans un foyer à Montpellier",
+            "H) Priorisation de problématiques sociales urgentes : elle doit trouver à manger pour ses enfants",
+            "I) Troubles cognitifs",
+            "J) Priorisation administrative : elle est convoquée à la préfecture pour renouveler son titre de séjour"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "A : Ne savait pas comment annuler son RDV par exemple\nB : AME valable 1 an et à renouveler\nC : Pas de patho psy identifié\nD Incompréhension sur la date du RDV par exemple\nE : rien ne le laisse évoquer\nF : a pu changer de lieu d’hébergement\nG : changement de lieux de vie\nH : Madame I n'a pas d'enfant\nI : rien ne laisse pense que Mme I a des troubles cognitifs\nJ : Mme I bénéficie de l'AME, elle est donc en situation irrégulière et n'a donc pas de titre de séjour",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296995971-8367a26141291",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous êtes médecin généraliste et vous recevez en consultation au mois de septembre la petite Anna, âgée de 3 mois, accompagnée de sa mère. Elle est née à terme, à 40 SA. Elle est allaitée exclusivement depuis sa naissance. Sa croissance staturo-pondérale est satisfaisante. Son père est originaire du Gabon, et sa mère de Paris. Ils envisagent de rendre visite à la famille paternelle d’ici quelques mois.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Sa mère vous questionne sur les bénéfices reconnus de l’allaitement maternel pour l’enfant.\nQuelles sont les 3 réponses exactes concernant les bénéfices de l'allaitement ?",
+          "choix": [
+            "A) Diminution des allergies et de l’asthme",
+            "B) Diminution du risque de malocclusion dentaire",
+            "C) Diminution du risque de mort subite du nourrisson",
+            "D) Diminution du risque de retard de croissance",
+            "E) Diminution du risque d'hémopathie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sa mère vous interroge ensuite sur le calendrier vaccinal. A 2 mois, Anna a reçu deux vaccinations : contre le pneumocoque; contre la diphtérie, le tétanos, la poliomyélite, l’haemophilus, l’hépatite B.\nQuelle(s) est/sont le(s) vaccination(s) recommandée(s) manquante(s) ?",
+          "choix": [
+            "A) Méningocoque B",
+            "B) Méningocoque C",
+            "C) Rougeole, oreillons, rubéole",
+            "D) Grippe",
+            "E) Rotavirus"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle maladie aurait pu être prévenue par une vaccination à 1 mois ? (1 mot attendu)",
+          "choix": [],
+          "reponses": [
+            "tuberculose",
+            "Tuberculose (BCG)",
+            "Tuberculose (bcg)"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Sa mère souhaite reprendre le travail dans un mois et souhaite stopper l’allaitement maternel. Elle souhaiterait débuter la diversification alimentaire mais aimerait votre avis concernant l’introduction de certains aliments comme l’arachide car elle en est allergique.\nQue lui répondez-vous concernant la diversification alimentaire ?",
+          "choix": [
+            "A) Vous lui recommandez d’attendre l’âge de 4 mois pour débuter la diversification alimentaire",
+            "B) Vous lui conseillez de différer l’introduction de l’arachide",
+            "C) Vous lui conseillez d’attendre l’âge d’un an pour introduire les protéines",
+            "D) Vous lui conseillez de ne pas ajouter de sel ou de matières grasses dans les purées",
+            "E) Vous lui proposez de remplacer le lait maternel par du lait de vache"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous examinez ensuite Anna. Quelles acquisitions du développement psychomoteur vous attendez-vous à trouver ? 2 réponses attendues",
+          "choix": [
+            "A) Porte un objet à sa bouche",
+            "B) Tient sa tête",
+            "C) Pince pouce-doigt",
+            "D) Vocalise ou gazouille",
+            "E) Se tourne lorsqu’on l’appelle"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296997142-708774e34e8f6",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes médecin généraliste et voyez en visite pour la première fois Mme V. il s’agit d’une patiente âgée de 84 ans présente une BPCO sévère associée à une dyspnée au moindre effort ainsi qu’une hypertension artérielle essentielle et un syndrome dépressif. On retrouve aussi des troubles cognitifs dysexécutifs d’origine vasculaire (dernier MMS à 24). Ses traitements sont : Sertraline 50 mg x2/j, Irbesartan 300 mg/j et une triple thérapie pour sa BPCO incluant un corticoïde inhalé et 2 bronchodilatateurs de longue durée d’action. Elle a besoin d’une aide totale pour la réalisation de son hygiène corporelle, ainsi que l’habillage et le déshabillage. Elle est continente et reste autonome pour les déplacements à l’intérieur du domicile, les transferts et parvient à s’alimenter seule. Elle a récemment présenté 2 chutes, sans traumatisme grave associé. C’est son époux autonome et maintenant âgé de 85 ans qui gère la toilette de sa femme, son habillage ainsi que les courses, la cuisine, la gestion du budget ainsi que la prise des médicaments du couple.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A partir des éléments de l’énoncé, quelles sont les réponses vraies concernant l’évaluation de cette patiente ? (2 réponses attendues)",
+          "choix": [
+            "A) L’échelle Instrumental Activities of Daily Living (IADL) est cotée à 3,5/6",
+            "B) L’échelle Activities of Daily Linving (ADL) est cotée à 6/6",
+            "C) Vous diagnostiquez une fragilité selon les critères de Fried",
+            "D) Vous diagnostiquez un état de dépendance",
+            "E) Vous retrouvez une capacité diminuée à effectuer les gestes courants de la vie quotidienne"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelle(s) aide(s) financière(s) et quelle(s) prise(s) en charge(s) financée(s) pouvez-vous proposer à cette patiente ? (4 réponses attendues)",
+          "choix": [
+            "A) Allocation personnalisée d’autonomie",
+            "B) Prestation de compensation du handicap",
+            "C) Allocation aux adultes handicapés",
+            "D) Portage des repas à domicile",
+            "E) Kinésithérapeute à domicile pour la toilette de Madame",
+            "F) Ergothérapeute pour l’aménagement du domicile",
+            "G) Psychomotricienne pour l’aménagement du domicile",
+            "H) Psychologue à domicile pour rééducation cognitive",
+            "I) Auxiliaires de vie",
+            "J) Télé-assistance"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "I",
+            "J"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’époux de Mme V vous exprime être régulièrement embarrassé par le comportement de sa femme et n’ose plus sortir avec elle, il s’est isolé de ses amis et n’a plus le temps de s’occuper de lui. Il vous dit avoir abandonné tout suivi médical depuis 5 ans et dit avoir perdu le contrôle de sa vie depuis qu’il doit s’occupe de son épouse en permanence. Vous retrouvez un score élevé à l’échelle de Zarit (fardeau élevé). Quel diagnostic évoquez-vous pour Mr V ?",
+          "choix": [],
+          "reponses": [
+            "Epuisement",
+            "Epuisement aidant",
+            "Souffrance aidant",
+            "Epuisement de l’aidant",
+            "Aidant épuisé",
+            "Epuisement de l'aidant principal",
+            "Épuisement de l'aidant principal",
+            "Epuissement de l'aidant",
+            "Syndrome d'épuisement de l'aidant",
+            "Épuissement de l'aidant",
+            "Épuisement de l'accompagnant",
+            "Syndrome de l'aidant épuisé",
+            "Epuisement de la personne aidante",
+            "Syndrome d‘épuisement de l'aidant",
+            "Syndrome de l epuisement de l aidant",
+            "Syndrome d'épuisement de l'aidant principal",
+            "Syndrome epuisement de l'aidant",
+            "Epuissement de l'aidant principal",
+            "Syndrome d'epuisement",
+            "Epuisement de l'aidant prinicipal",
+            "Syndrome d’épuisement de l'aidant",
+            "Epuise.ment de l'aidant",
+            "Epuisement de l'aidant familial",
+            "Syndrome d'epuisement de l'aidant"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296999076-dec0280701765",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation une patiente de 36 ans. Elle n'a pas d'antécédent médico-chirurgical notable, elle ne consomme aucun toxique. Elle vous consulte car elle ressent de l'anxiété depuis une promotion professionnelle obtenue il y a deux mois. Ses amies trouvent qu'elle s'inquiète trop et lui ont recommandé de consulter. Elle n'est pas triste mais elle a du mal à s'endormir car elle rumine en envisageant toutes les mauvaises évolutions possibles de ses dossiers. Ses préoccupations sont centrées sur le travail. Elle continue pour autant à y aller. Elle a peur de faire des attaques de paniques à force bien qu'elle n'en ai jamais eu.\nQuelle(s) est/sont la ou les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Un trouble de la personnalité évitante",
+            "B) Un trouble d'anxiété généralisé (TAG)",
+            "C) Un trouble d'anxiété sociale (TAS)",
+            "D) Un trouble de l'adaptation (TA)",
+            "E) Un trouble de stress aigu (TSA)"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez en consultation un patient de 34 ans qui présente depuis 3 semaines une tristesse quotidienne. Il se sent très fatigué mais pour autant il n'arrive pas à dormir. Il a du mal à se concentrer au travail, n'a pas réussi à y aller la veille et il se sent très coupable de cette situation. Il n'a aucun antécédent médico-chirurgical notable et il ne consomme aucun toxique. Quel est à ce stable l'élément essentiel à envisager ?",
+          "choix": [
+            "A) L'introduction d'un traitement par antidépresseur de type ISRS",
+            "B) La réalisation d'une IRM cérébrale",
+            "C) La recherche d'idées suicidaires",
+            "D) L'addressage en urgences auprès d'un médecin psychiatre",
+            "E) L'introduction d'un traitement anxyolitique par BENZODIAZEPINE de courte durée d'action"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des inégalités sociales de santé, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Elles correspondent aux différences systématiques dans le domaine de la santé observées entre les groupes sociaux",
+            "B) Elles ne concernent que les populations en situation de précarité",
+            "C) En France, l’espérance de vie d’un cadre est environ similaire à celle d’un ouvrier",
+            "D) Les inégalités sociales ont tendance à diminuer sur les trente dernières années",
+            "E) Réponse E",
+            "F) Les ISS résultent d’une inégalité de distribution d’une multitude de déterminants sociaux, économiques, culturels et environnementaux"
+          ],
+          "reponses": [
+            "A",
+            "F"
+          ],
+          "correctionExplanation": "1 Vrai\n2 Faux Concerne toute la population selon un gradient social continu\n3 Faux L’espérance de vie d’un cadre > à celle d’un ouvrier\n4 Faux Aucune tendance a diminuer même si l’espérance de vie a augmenté ds tous les groupes sociaux\n5 Vrai Multifactoriel",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous êtes médecin en cabinet de médecine générale et recevez régulièrement des nouveaux patients. Quels sont les éléments importants à recueillir à l’interrogatoire, lors de la première consultation dans votre cabinet, afin de repérer les personnes en situation de précarité ? 3 réponses attendues",
+          "choix": [
+            "A) Le lieu de naissance",
+            "B) L’hébergement",
+            "C) Le score EPICES",
+            "D) La situation familiale",
+            "E) Le type de couverture médicale (mutuelle privée, droits de base, Couverture Santé Solidaire ou CSS, Aide Médicale d’Etat ou AME, …)"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Score EPICES non faisable en pratique de médecine générale\nLieu de naissance : peu discriminant",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en cabinet de médecine générale un patient de 48 ans, qui présente une douleur de la jambe gauche de survenue brutale dans un contexte d'hyperthermie.\nIl est suivi pour un diabète de type 2 sous metformine 850mg 1 comprimé matin midi et soir, une allergie saisonnière traitée par desloratadine 5mg 1 comprimé le soir, un trouble anxieux traité par Paroxétine 20mg 1 comprimé le matin.\nIl s'est automédiqué depuis 5 jours par Paracétamol 1 gramme 1 comprimé trois fois par jour et Kétoprofène LP 100mg 1 comprimé matin et soir.\nVous suspectez une dermohypodermite aigüe bactérienne.\nQuel(s) peut/peuvent être le(les) médicaments responsable(s) d'une aggravation de la symptomatologie ?",
+          "choix": [
+            "A) Kétoprofène",
+            "B) Paracétamol",
+            "C) Desloratadine",
+            "D) Metformine",
+            "E) Paroxétine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous revoyez en consultation de médecine générale un patient de 65 ans. Il n'a pas d'antécédent notable, ne prend aucun traitement.\nVous avez posé le diagnostic d'hypertension artérielle (HTA) systolique. Il consulte ce jour pour aborder les résultats de l'analyse biologique sanguine que vous lui avez prescrite.\nL'analyse comprenait une numération formule sanguine, une exploration des anomalies lipidiques, un ionogramme sanguin, une dosage de la glycémie à jeun, de la créatininémie (avec estimation du débit de filtration glomérulaire), une recherche de protéinurie sur échantillon. La seule anomalie est une hypercholestérolémie à 2,40 G/L (norme du laboratoire < 2 G/L).\nDurant cette consultation, quel examen réalisez-vous en cabinet pour compléter votre bilan de première intention pour ce patient atteint d'HTA ? (1 mot attendu)",
+          "choix": [],
+          "reponses": [
+            "électrocardiogramme",
+            "ECG",
+            "electro-cardiogramme",
+            "electro cardiogramme",
+            "Electrocardiograme",
+            "electrocardiograme"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez en cabinet de médecine générale Théo un enfant de 23 mois. Il est amené par son père pour une éruption.\nA l'interrogatoire, vous notez un contage d'un cas similaire il y a 14 jours. Son père vous précise que son enfant est fébrile depuis 48 heures, fatigué et qu'il se gratte beaucoup.\nA l'examen, vous objectivez une température à 38°C bien tolérée. L'éruption se caractérise pas une association de maculopapules et de quelques vésicules disséminées touchant la face le thorax. Il présente un énanthème buccal.\nQuel est votre diagnostic ? (1 mot attendu)",
+          "choix": [],
+          "reponses": [
+            "Varicelle"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste et évaluez au domicile Mr S. Il s’agit d’un patient âgé de 88 ans, on retrouve dans ses antécédents une hypothyroïdie substituée, une fibrillation auriculaire, un antécédent d’adénocarcinome prostatique en rémission à la suite d’un traitement par hormonothérapie et radiothérapie. Ses traitements actuels sont Lévothyroxine sodique 75 ug/j et apixaban 5 mg matin et soir, Amlodipine 10 mg, Tamsulosine LP 0,4 mg. Ce patient est pleinement autonome pour l’ensemble des activités de la vie quotidienne. Il a présenté une chute le mois dernier en se levant de son lit sans traumatisme associé. Son examen clinique retrouve une tension a 100/60mmhg, l’auscultation cardiopulmonaire est normale, il n’y a pas d’œdèmes des membres inférieurs, sa saturation en oxygène est à 96%AA. Vous observez dans le carnet du patient des tension artérielle mesurées régulièrement avec une moyenne à 104/62 mmHg sur le dernier mois.\nQuelle prise en charge proposez vous pour Mr V ? (4 réponses attendues)",
+          "choix": [
+            "A) Vous proposez l’arrêt du traitement anti-hypertenseur",
+            "B) Une réévaluation de l’indication de la Tamsulosine LP 0,4 mg s’impose du fait du risque d’hypotension orthostatique associé à ce médicament",
+            "C) Vous proposez l’arrêt de l’Apixaban en cas d’hypotension orthostatique",
+            "D) Une évaluation gériatrique standardisé pluriprofessionnelle peut être proposée en ambulatoire pour réaliser une évaluation globale",
+            "E) Une évaluation des capacités intrinsèques peut être réalisée au sein d’une maison de santé pluriprofessionnelle pour réaliser une évaluation globale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous reprenez le suivi d'un adolescent de 13 ans qui vient d'emménager à Toulouse. Voici les vaccinations présentes dans son carnet de santé depuis sa naissance :\n- 3 injections distinctes d'un vaccin contre la diphtérie, le tétanos, la poliomyélite, la coqueluche, l'haemophilius influenzae, le VHB à 2, 4 et 11 mois\n- 1 injection d'un vaccin contre la diphtérie, le tétanos, la poliomyélite, la coqueluche à 6 ans\n- 3 injections d'un vaccin contre le pneumocoque à 2, 4 et 11 mois\n- 1 injection d'un vaccin contre la rougeole, la rubeole, les oreillons (ROR) à 13 mois\n- 1 injection d'un vaccin contre le papillomavirus à 12 ans\nQuelles autres vaccinations devaient vous prévoir à court et moyen terme pour qu'il soit à jour de ses vaccinations selon les recommandations en vigueur ?",
+          "choix": [
+            "A) Un vaccin contre le ROR",
+            "B) Un vaccin contre le papillomavirus",
+            "C) Un vaccin contre le méningocoque C",
+            "D) Un injection contre la diphtérie tétanos poliomyelite",
+            "E) Un vaccin contre le VHA"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste et êtes appelé au domicile de Mr T, 84 ans qui présente de la fièvre, une asthénie, une anorexie depuis 24 heures. Il s’agit d’un patient pleinement autonome, aidant principal de son épouse atteinte d’une maladie d’Alzheimer et vivant au domicile. Son principal antécédent est constitué par une hypertension artérielle traitée par hydrochlorothiazide 12,5 mg + Ramipril 5 mg. Mr V est pleinement conscient et orienté et vous répond de manière adaptée. Vous retrouvez un foyer de crépitants en base gauche compatible avec une pneumopathie basale gauche. Il sature a 95%AA, sa tension est correcte a 132/70mmhg, sa fréquence respiratoire est à 20, sa fréquence cardiaque à 105, il n’a pas de signe de décompensation cardiaque.\nIl est très angoissé à l’idée d’être hospitalisé et de devoir laisser sa femme seule à la maison.\nQuelle prise en charge mettez-vous en place ?",
+          "choix": [
+            "A) Il existe des critères indiquant une hospitalisation en soins intensifs",
+            "B) Antibiothérapie par Amoxicilline- acide clavulanique pendant 7 jours",
+            "C) Antibiothérapie par céfotaxime + lévofloxacine pendant 7 jours",
+            "D) Antibiothérapie par clarithromycine pendant 14 jours",
+            "E) Antibiothérapie par Amoxicilline pendant 10 jours",
+            "F) Réponse F"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,410 @@
+{
+  "matiere": "Tissu sanguin – Immunologie",
+  "slug": "ts-immunologie-s6",
+  "annee": 2025,
+  "title": "Tissu sanguin – Immunologie - 2025",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du déficit immunitaire commun variable (DICV) :",
+          "choix": [
+            "A) Il est associé à une diminution marquée des IgG et des IgA",
+            "B) Il peut entraîner une augmentation du risque de lymphome",
+            "C) Il se manifeste fréquemment dès la petite enfance",
+            "D) Des troubles auto-immuns sont fréquemment associés",
+            "E) Il a une origine monogénique bien connue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’asplénie et l’hyposplénie :",
+          "choix": [
+            "A) Elles augmentent le risque d’infections sévères à Streptococcus pneumoniae, Haemophilus influenzae et Neisseria meningitidis",
+            "B) La vaccination anti-pneumococcique est recommandée chez ces patients",
+            "C) L’asplénie entraîne des altérations de l’immunité innée et adaptative",
+            "D) La splénectomie entraine un déficit immunitaire primitif",
+            "E) L’asplénie favorise la survenue de lymphopénie T CD4+"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la physiopathologie des maladies auto-immunes :",
+          "choix": [
+            "A) Les critères de Witebsky permettent d’établir la nature auto-immune d’une maladie.",
+            "B) Les auto-anticorps peuvent avoir une action directe sur la cellule cible en se liant à l’antigène sur la membrane cellulaire.",
+            "C) Les auto-anticorps peuvent stimuler la fonction de leur antigène cible.",
+            "D) Les auto-anticorps peuvent être de simple biomarqueurs",
+            "E) Les auto-anticorps sont les principaux marqueurs immunologiques des maladies auto-immunes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos de l’échappement tumoral à la réponse immunitaire :",
+          "choix": [
+            "A) La tumeur peut diminuer l’expression du CMH I pour échapper aux lymphocytes T CD8⁺",
+            "B) L’expression de PD-L1 par les cellules tumorales inhibe l’activité des LT effecteurs",
+            "C) L’environnement tumoral favorise le recrutement de Treg immunosuppresseurs",
+            "D) Les cellules tumorales produisent des anticorps anti-lymphocytaires pour neutraliser l’immunité",
+            "E) L’échappement tumoral est précoce, dès le début de la tumorigénèse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’Immunité anti-tumorale :",
+          "choix": [
+            "A) Les anticorps jouent un rôle anti-tumoral indispensable",
+            "B) Les lymphocytes T CD4+ Th1 sont des effecteurs essentiels",
+            "C) L’IL-12 est importante pour permettre l’induction d’une réponse Th17",
+            "D) Les lymphocytes NK sont activés par la reconnaissance des antigènes associés aux tumeurs",
+            "E) La cytotoxicité est un mécanisme anti-tumoral majeur des lymphocytes T CD8+"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la maturation du système immunitaire chez le nourrisson :",
+          "choix": [
+            "A) Les lymphocytes T sont déjà présents en quantité dans le thymus dès la naissance",
+            "B) Les IgM maternels passent la barrière placentaire et sont détectables chez le nourrisson à la naissance",
+            "C) Le développement des réponses humorales est complet dès les premiers mois de vie",
+            "D) Les lymphocytes B fœtaux sont fonctionnels et capables de produire des anticorps",
+            "E) La réponse humorale thymo-indépendante n’est pas mature jusqu’à l’âge de 2 ans"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des différences immunitaires entre les sexes :",
+          "choix": [
+            "A) Les femmes présentent généralement une réponse immunitaire plus forte et plus rapide que les hommes",
+            "B) Les hommes ont une susceptibilité accrue aux infections virales et bactériennes",
+            "C) Les femmes sont plus sujettes aux maladies auto-immunes en raison de leur réponse immunitaire plus active",
+            "D) Les différences hormonales, en particulier l’effet des œstrogènes, modulent la réponse immunitaire",
+            "E) Les femmes ont un risque plus faible de cancer en raison d’une meilleure surveillance immunitaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos d’une gammapathie monoclonale :",
+          "choix": [
+            "A) son étiologie la plus fréquente est le myélome multiple",
+            "B) elle peut s’observer au cours d’une infection",
+            "C) un signe d’alerte peut être une thrombopénie",
+            "D) un signe d’alerte peut être un tassement vertébral",
+            "E) sa fréquence dans la population augmente avec l’âge"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du diagnostic d’une gammapathie monoclonale :",
+          "choix": [
+            "A) il requiert un dosage des immunoglobulines IgG, IgA et IgM",
+            "B) en cas de présence d’un pic à l’électrophorèse, la recherche d’une infiltration plasmocytaire dans la moelle osseuse est inutile",
+            "C) le dosage des chaînes légères libres sériques est indiqué uniquement en cas d’atteinte rénale",
+            "D) le bilan initial doit inclure une numération formule sanguine et une exploration de la fonction rénale",
+            "E) l’immunofixation sérique est plus sensible que l’électrophorèse, et à ce titre peut détecter des composants monoclonaux peu abondants"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des hypersensibilités:",
+          "choix": [
+            "A) Le dosage des IgE totales circulantes permet d’identifier le ou les allergènes responsables des symptômes d’allergie de type I chez un patient.",
+            "B) Dans l’hypersensibilité de type IV, les tests cutanés doivent être lus environ 1 heure après administration de l’allergène.",
+            "C) Dans l’hypersensibilité de type I, un test cutané positif chez un patient pour un allergène donné indique que ce patient est sensibilisé vis-à-vis de cet allergène.",
+            "D) Il existe des hypersensibilités non allergiques pour lesquelles aucun mécanisme immunologique n’a été identifié.",
+            "E) Chez un patient, la présence d’IgE spécifiques d’un allergène indique que ce patient est allergique à cet allergène."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Tryptase et anaphylaxie :",
+          "choix": [
+            "A) Le dosage de la tryptase totale doit être réalisé en urgence devant une suspicion d’anaphylaxie, avant de début le traitement du choc.",
+            "B) Le diagnostic d’une anaphylaxie peut être posé sur la base de symptômes cliniques.",
+            "C) Les allergies médicamenteuses IgE-dépendantes sont en général peu sévères.",
+            "D) La tryptase contenue dans les granules des mastocytes est sous forme tétramérique.",
+            "E) L’hyper alpha tryptasémie héréditaire est très rare (environ 1 individu sur 10 000) en Europe."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la vaccination et des vaccins anti-infectieux:",
+          "choix": [
+            "A) La vaccination contre l’hépatite A fait partie des vaccinations obligatoires en France, à réaliser dans les 18 premiers mois de l’enfant.",
+            "B) La vaccination contre les méningocoques ACWY est obligatoire chez le nourrisson depuis le 1er Janvier 2025",
+            "C) La vaccination contre le zona ne peut pas être réalisée chez les personnes âgées de plus 65 ans",
+            "D) En 2025, la vaccination contre la COVID n’est plus recommandée chez les personnes âgées de plus 65 ans",
+            "E) En 2025, La vaccination anti-VRS est recommandée chez la femme enceinte."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des thérapies ciblées",
+          "choix": [
+            "A) Les Immunoglobulines (Ig) polyvalentes (ou IVIg) utilisées en thérapeutique humaine en France sont des médicaments à base d’Ig polyclonales humaines",
+            "B) Les Immunoglobulines (Ig) polyvalentes (ou IVIg) sont produites par génie génétique.",
+            "C) La plupart des Anticorps monoclonaux thérapeutiques sont produits sur la base structurale de l’isotype IgG3 humain",
+            "D) Les Anticorps monoclonaux thérapeutiques peuvent être la cible d’une réponse immunitaire du patient traité, pouvant amoindrir leurs efficacités.",
+            "E) L’etanercept est une protéine de fusion comportant une portion Fab d’IgG"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des thérapies ciblées:",
+          "choix": [
+            "A) Les inhibiteurs de tyrosine Kinase sont des médicaments à base d’Ac pénétrant la cellule, et ciblant les voies de transduction cellulaires activatrices.",
+            "B) Le test in vitro de dépistage de l’infection tuberculeuse (type Quantiferon®) est recommandé préalablement à l’instauration de tout traitement par anticorps monoclonaux thérapeutiques anti-TNFalpha",
+            "C) Un anticorps monoclonal thérapeutique ne peut être administré que par voie intraveineuse",
+            "D) En 2025, il n’existe plus sur le marché français d’AcMoTh ciblant le SARS-Cov-2",
+            "E) Le tebentafusp est une protéine de fusion utilisant un TCR recombinant"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des thérapeutiques immunosuppressives :",
+          "choix": [
+            "A) Les corticoïdes sont des médicaments encore très fréquemment utilisés dans les associations d’immunosuppresseurs en greffe d’organe",
+            "B) Les sérums anti-lymphocytaires (SAL) de type Thymoglobuline® sont des médicaments à base d’anticorps monoclonaux humains anti-lymphocyte T.",
+            "C) Le bortezomib effectue son activité immunosuppressive par inhibition du protéasome.",
+            "D) La majorité des inhibiteurs de calcineurine utilisés en France sont des Ac monoclonaux thérapeutiques",
+            "E) Le rituximab peut être utilisé comme médicament anti-cancéreux, mais aussi comme molécule immunosuppressive pour traiter notamment le rejet de greffe d’organe."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans quelles maladies rencontre-t-on un syndrome sec auto-immun?",
+          "choix": [
+            "A) artérite à cellules géantes",
+            "B) purpura rhumatoïde",
+            "C) maladie de Gougerot-Sjogren",
+            "D) sclérodermie systémique",
+            "E) vascularite associée aux ANCA"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les anomalies de l'hémogramme suivantes, lesquelles sont plus suggestives d'une collagénose que d'une vascularite primitive?",
+          "choix": [
+            "A) hyperleucocytose à polynucléaires neutrophiles",
+            "B) thrombopénie",
+            "C) anémie microcytaire",
+            "D) éosinophilie",
+            "E) neutropénie"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "parmi les anticorps suivants, lequel est le plus spécifique de la granulomatose avec polyangéite?",
+          "choix": [
+            "A) ACAN",
+            "B) ANCA",
+            "C) facteur rhumatoïde",
+            "D) anti ARN polymérase III",
+            "E) anti proteinase 3"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les anticorps suivants, lesquels sont évocateurs de lupus systémique?",
+          "choix": [
+            "A) facteurs rhumatoïdes",
+            "B) anti-Sm",
+            "C) anti RNP",
+            "D) anti DNA",
+            "E) antimyéloperoxydase"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les anomalies biologiques suivantes, lesquelles rencontre-t-ton volontiers au cours de la maladie de Gougerot-Sjögren?",
+          "choix": [
+            "A) lymphocytose",
+            "B) neutropénie",
+            "C) hypogammaglobulinémie",
+            "D) biopsie des glandes salivaires accessoires de grade III ou IV de la classification de Chisholm",
+            "E) anticorps anti SSA/antiSSB"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,649 @@
+{
+  "matiere": "Santé, société, humanité",
+  "slug": "sante-societe-humanite-s4",
+  "annee": 2025,
+  "title": "Santé, société, humanité - 2025",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la notion de « contre attitudes » que le médecin peut développer envers son patient, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elles ne sont jamais positives",
+            "B) C'est une notion assez proche de la notion de contre-transfert décrite par la psychanalyse",
+            "C) Il vaut mieux que le médecin n'y prête pas attention",
+            "D) Elles peuvent rendre plus difficile la relation médecin-malade",
+            "E) Elles sont spécifiques à un médecin et à un patient donné"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’éducation thérapeutique, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L’éducation thérapeutique est un processus centré sur le patient",
+            "B) L’éducation thérapeutique est un processus centré sur la maladie",
+            "C) La qualité de vie est un élément important de l’éducation thérapeutique",
+            "D) L’information est une des activités d’éducation thérapeutique",
+            "E) Les activités d’éducation thérapeutique portent uniquement sur l’acceptation des contraintes par le patient"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le consentement du patient est un préalable à tout entretien médical",
+            "B) Quand le patient donne son consentement, le médecin est certain d'avoir obtenu son engagement dans la relation",
+            "C) Pour parvenir à une bonne alliance thérapeutique, le médecin doit prendre en compte les particularités socio-culturelles de son patient",
+            "D) Quand un patient présente des résistances, le médecin peut les faire évoluer",
+            "E) L'empathie a un effet apaisant sur l'anxiété du patient"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les activités possibles en éducation thérapeutique, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Une sensibilisation",
+            "B) Un coaching",
+            "C) Une information",
+            "D) Un apprentissage",
+            "E) Un entrainement du patient aux entretiens motivationnels"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les facteurs suivants, lequel(lesquels) peut(vent) influencer les représentations que le patient a de sa maladie ?",
+          "choix": [
+            "A) Son histoire familiale",
+            "B) Sa personnalité",
+            "C) Sa situation migratoire",
+            "D) Ses croyances",
+            "E) Une pathologie psychiatrique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La relation médecin-malade implique exclusivement le médecin et son patient",
+            "B) Si le médecin est tolérant, la relation médecin-malade n'est pas influencée par la culture de son patient",
+            "C) Grâce au paiement de l'acte, le médecin et le patient sont à égalité dans la relation médecin-malade",
+            "D) Quand un patient est particulièrement vulnérable, cela peut influencer la relation médecin-malade",
+            "E) Dans la relation médecin-malade, le médecin est le plus souvent en position d'infériorité car il dépend financièrement du patient"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’annonce d’une maladie grave, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L’essentiel c’est d’annoncer rapidement ce qu’il en est, quitte à improviser",
+            "B) L’entourage doit être systématiquement associé à l’annonce",
+            "C) Avant l’annonce, le médecin doit s’informer sur ce que sait déjà le patient",
+            "D) Pour son annonce, le médecin peut s’appuyer sur les explications qu’il donne sur les différents examens effectués",
+            "E) Une fois l’annonce faite, il n’est pas nécessaire que le médecin donne un nouveau rendez-vous à ce sujet à son patient, il faut le laisser tranquille"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La psychologie de la santé décrit, chez un patient qui fait face à une maladie, un processus de « transaction ». A propos de ce processus, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La transaction, c’est tout ce qui change dans la vie d’une personne à cause de sa maladie",
+            "B) La transaction ce sont les efforts que fait la personne pour s’ajuster aux stress liés à sa maladie",
+            "C) Dans le processus de transaction, une mesure objective de la situation de stress prédit mieux l’état de santé ultérieur que le stress perçu par le patient lui-même",
+            "D) Le contrôle perçu correspond au sentiment qu’a le patient d’être dominé et contrôlé par le pouvoir médical",
+            "E) Un patient qui a un bon soutien social perçu adoptera plus facilement des changements de style de vie nécessaires à sa prise en charge"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’empathie, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) C'est la même chose que la sympathie",
+            "B) C'est la capacité de comprendre l'autre",
+            "C) Elle vient polluer la relation médecin-malade",
+            "D) Elle vient enrichir la relation médecin malade",
+            "E) La relation médecin-malade gagnera à ce que le médecin soit attentif à ses ressentis empathiques"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’annonce d’une maladie grave, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Quand elle concerne un enfant, mieux vaut ne délivrer l'information qu'à ses parents",
+            "B) Quand un adulte souhaite que son entourage soit présent lors de l'annonce, il faut lui expliquer que la loi l'interdit",
+            "C) Pour que le médecin ne soit pas perturbé par ses émotions, le mieux est qu'il utilise un protocole d'annonce toujours identique",
+            "D) Une fois l'annonce faite, mieux vaut ne pas y revenir et passer à autre chose",
+            "E) L'environnement dans lequel se fait l'annonce doit être soigneusement aménagé"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les enjeux des formes de coopération entre les acteurs du soin en France, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Promouvoir la sécurité des soins",
+            "B) Améliorer l’accessibilité et la qualité des soins",
+            "C) Développer la flexibilité des organisations de travail",
+            "D) Développer l’attractivité des professions",
+            "E) Modifier l’image sociale des professions"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la feuille de route du numérique en santé 2023-2027, indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Un des axes porte sur la prévention",
+            "B) Elle a vocation à améliorer la prise en charge des personnes grâce au numérique",
+            "C) Un de ses objectifs porte sur l’amélioration de l’accès à la santé pour les personnes et les professionnels qui les orientent",
+            "D) Elle propose de déployer un cadre propice pour le développement des usages et de l’innovation numériques en santé",
+            "E) Elle insiste sur la nécessité de renforcer la vigilance cyber dans les établissements"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Concernant la confidentialité des données, comment se nomme le règlement relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données sur le territoire de l’Union européenne ?",
+          "choix": [],
+          "reponses": [
+            "Règlement Général sur la Protection des Données",
+            "Règlement Général Protection Données",
+            "RGPD",
+            "RCPD",
+            "Règlement Général de Protection des Données (RGPD)",
+            "RPD",
+            "RPPD",
+            "reglement de confidencialite et de protection des donnees de sante",
+            "RDPG",
+            "Regelement General Utilisation des donnees",
+            "RDCP",
+            "RGPD (Règlement Général de Protection des Données)",
+            "RPS règlement de la protection des données",
+            "RGD",
+            "RGPD (règlement général sur la protection des données)",
+            "Réglement Général Protection Données (RGPD)",
+            "Reglement Protections des Donnees Confidentielles",
+            "Réglement Général de Protection des Données de Santé",
+            "RGPD : règlement général relatif à la protection des données",
+            "le RGPD",
+            "Reglement General sur la Protection des Donnees",
+            "Reglement general de la protection des données",
+            "Réglement Général de la Protection des Données",
+            "Règlement de Protection des Données Privées Numériques",
+            "reglement general de protection des donnees",
+            "Règlement Général de Protection des données",
+            "Règlement général de protection des données",
+            "RGPD (règlement géneral de la protection des données)",
+            "RGPD : règlement général de protection des données",
+            "Reglement General de Protection des Donnees (RGPD)",
+            "Protection de Données de Santé",
+            "Règlement de protection des données de santé",
+            "loi de protection des donées",
+            "RGPD (reglement général sur la protection des donnees)"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, indiquez celle(s) qui figure(nt) parmi les objectifs du dossier patient :",
+          "choix": [
+            "A) Être un aide-mémoire pour les professionnels de santé",
+            "B) Contribuer à la coordination des actions de soin",
+            "C) Permettre une traçabilité des actions réalisées",
+            "D) Faciliter le recueil d’informations standardisées",
+            "E) Communiquer avec des systèmes d’alerte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’écoute client, indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le focus group est un outil d’écoute client",
+            "B) Le questionnaire de satisfaction est un outil d’écoute client",
+            "C) Les réclamations sont un outil d’écoute client",
+            "D) Les boites à idées sont un outil d’écoute client",
+            "E) Les patients traceurs peuvent représenter un outil d’écoute client"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La HAS est en charge :",
+          "choix": [
+            "A) De l'accréditation des établissements de santé",
+            "B) De la certification des médecins",
+            "C) Du pilotage des IQSS",
+            "D) De la certification ISO",
+            "E) De la centralisation des déclarations d'EIG et de leur exploitation"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’un des principes d’une démarche qualité repose sur le « PDCA ». Concernant la signification de ce sigle, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L’étape P vise à programmer la qualité « voulue » par l’équipe de soins",
+            "B) D pour Définir l’objectif",
+            "C) C pour Classifier",
+            "D) A pour Améliorer",
+            "E) Le PDCA est également appelé Roue de Leming"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les EPP, indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Il s’agit d’évaluation des pratiques professionnelles",
+            "B) Elles n’existent qu’en cancérologie",
+            "C) Elles s’appuient sur des référentiels de bonnes pratiques",
+            "D) Elles amènent des actions d’améliorations",
+            "E) Elles évaluent les pratiques d’un groupe de professionnels"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur l’éthique médicale, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elle s'est développée suite au procès de Nuremberg",
+            "B) Elle est structurée en France autour de différentes entités institutionnelles",
+            "C) Elle recoupe toujours le droit",
+            "D) Elle s'oppose à la déontologie",
+            "E) Elle a inspiré le code de santé publique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Laquelle(lesquelles) des caractéristiques suivantes peut(peuvent) être attribuée(s) à l’éthique déontologique :",
+          "choix": [
+            "A) C'est la morale du devoir",
+            "B) Elle est singulière",
+            "C) Elle est intemporelle et universelle",
+            "D) Kant en est le principal auteur",
+            "E) Elle attribue une valeur à l'action a postériori à partir de la finalité de celle-ci"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La réflexion éthique n'est utile que pour les questions de bioéthique : génétique, médecine prédictive, procréation médicalement assistée",
+            "B) L'essor de l'éthique médicale est consécutif aux progrès techniques et scientifiques",
+            "C) La philosophie n'est pas utile à la réflexion éthique",
+            "D) En éthique téléologique le bienfondé de la finalité donne la moralité de l'action a postériori",
+            "E) La gestation pour autrui serait tolérée par l'éthique minimaliste de Ruwen Ogien"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le principisme anglosaxon, indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) C'est une théorie philosophique développée au 18ème siècle",
+            "B) C'est une théorie procédurale",
+            "C) Elle repose sur 3 principes",
+            "D) La bienfaisance est un de ses principes",
+            "E) La liberté est un de ses principes"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur les inégalités sociales de santé (ISS), indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elles correspondent aux différences systématiques dans le domaine de la santé observées entre les groupes sociaux",
+            "B) Elles ne concernent que les populations en situation de précarité",
+            "C) En France, l'espérance de vie d'un cadre est environ similaire à celle d'un ouvrier",
+            "D) Les inégalités sociales ont tendance à diminuer sur les trente dernières années",
+            "E) Les ISS résultent d'une inégalité de distribution d'une multitude de déterminants sociaux, économiques, culturels et environnementaux"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les risques d’exposition aux rayonnements ionisants sur la population, on constate un excès de risque de cancer quand la dose efficace dépasse :",
+          "choix": [
+            "A) 20 mSv",
+            "B) 50 mSv",
+            "C) 10 mSv",
+            "D) 100 mSv",
+            "E) 1 mSv"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 24
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le risque d’apparition d’un cancer lié à la radio-exposition, lors des examens de radiologie diagnostique, est :",
+          "choix": [
+            "A) Précoce",
+            "B) Déterministe",
+            "C) Stochastique",
+            "D) Tardif",
+            "E) Estimé selon une relation linéaire sans seuil"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A Toulouse, l’exposition naturelle aux rayonnements ionisants :",
+          "choix": [
+            "A) Est due au radon",
+            "B) Représente une fraction négligeable de l’exposition totale",
+            "C) Tient compte des retombées radioactives de l’accident de Tchernobyl",
+            "D) Est principalement liée au tritium",
+            "E) L’exposition tellurique est liée à l’uranium, au thorium et au radon présents dans le sol"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 26
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les 3 plus grandes sources d’irradiation médicale à l’heure actuelle en France sont :",
+          "choix": [
+            "A) L’ultrasonographie",
+            "B) La tomodensitométrie X",
+            "C) L’imagerie de résonnance magnétique nucléaire",
+            "D) La radiothérapie externe",
+            "E) La tomographie par Emission de Positons"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 27
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300119824-cd65a53efe1dc8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Madame B, 52 ans vient pour la première fois vous voir au cabinet de médecine générale pour renouvellement de son traitement de substitution aux opiacés. Elle est originaire du Nigeria, vit en France depuis 9 ans et parle assez bien français. Elle ne sait pas lire ni écrire. Elle vit actuellement en foyer d’hébergement d’urgence (nuit à nuit, fermé en journée), où elle partage sa chambre avec une autre femme. Elle n’a pas accès à une cuisine.\nElle avait jusqu’à présent été prise en charge à la Permanence d’Accès aux Soins de Santé puis dans un Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA). Elle bénéficie de l’Aide Médicale d’Etat.\nIndiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Madame B a pu être prise en charge à la PASS car elle est bénéficiaire de l'Aide Médicale d'Etat",
+            "B) Madame B ne peut plus être prise en charge en CSAPA car elle est bénéficiaire de l'Aide Médicale d'Etat",
+            "C) Madame B ne peut pas aller à la pharmacie du quartier récupérer ses traitements car elle est bénéficiaire de l'Aide Médicale d'Etat",
+            "D) Vous profitez de cette consultation pour faire le point sur ses antécédents, les examens de dépistages réalisés et ses vaccinations",
+            "E) Vous proposez à Madame B de contrôler son poids, sa taille, et sa TA"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Madame B vous explique ne pas avoir d’ATCD spécifique, si ce n’est un taux de sucre retrouvé élevé lors de son passage à la PASS. Ses dépistages ne sont pas à jour.\nEn fouillant dans la pile de documents que vous donne Madame B, vous retrouvez une prise de sang récente qui retrouve une HbA1c à 11,7%. Vous appelez votre confrère diabétologue qui vous conseille de mettre en place un traitement par insuline lente et des surveillances glycémiques.\nIndiquez la réponse exacte :",
+          "choix": [
+            "A) Vous prescrivez un traitement par insuline lente après avoir expliqué à la patiente comment réaliser les injections",
+            "B) Vous lui prescrivez un appareil pour les surveillances glycémiques et lui demandez de noter chaque jour ses glycémies à jeun dans un carnet de surveillance glycémique",
+            "C) Vous lui expliquez qu'il est important de limiter les sucres et les plats industriels, et de privilégier les repas préparés maison, à base de légumes frais",
+            "D) Vous lui dites de contacter un infirmier pour qu'il passe à domicile réaliser les injections d'insuline et les surveillances glycémiques",
+            "E) Vous faites une demande d'admission en LHSS (Lits Haltes Soins de Santé) afin d'initier le traitement par insuline"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une fois la question du diabète clôturée, vous remettez à Madame B une ordonnance de Méthadone pour 28 jours. En fin de consultation, vous demandez à Madame B sa carte vitale. Elle vous tend une carte blanche, sans puce avec écrit Aide Médicale d’Etat (AME). Indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Vous refusez les patients qui n'ont pas de carte vitale dans votre cabinet",
+            "B) Cette patiente n'étant pas française, elle ne peut pas avoir de droits à la Couverture Santé Solidaire (CSS)",
+            "C) Etant en situation irrégulière en France mais présente depuis plus de 3 mois sur le territoire, elle peut bénéficier de l'Aide Médicale d'Etat",
+            "D) Vous vérifiez que son AME est à jour et réalisez une feuille de soin qui vous permettra d'être rémunéré pour la consultation",
+            "E) Vous dites à Mme B de bien prendre RDV sur Doctolib dans 28 jours pour son renouvellement"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

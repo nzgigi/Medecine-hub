@@ -1,0 +1,612 @@
+{
+  "matiere": "Agents infectieux – Parasitologie",
+  "slug": "ai-parasitologie-s6",
+  "annee": 2024,
+  "title": "Agents infectieux – Parasitologie - 2024",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Karine, 12 ans est adressée en consultation pour une lésion dans le cou apparue depuis 1 mois. Elle n’a pas d’antécédents particuliers et vit en région lyonnaise. Vous la voyez après un échec de traitement antibiotique (Erythromycine). La lésion est arrondie, bien délimitée, légèrement inflammatoire en périphérie et mesure 3 cm de diamètre.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous en priorité ?",
+          "choix": [
+            "A) Candidose",
+            "B) Epidermophytie",
+            "C) Gale",
+            "D) Leishmaniose",
+            "E) Pédiculose (poux)"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/ai-parasitologie-s6/2024/q1.png?v=1786293841442"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le 1er diagnostic à évoquer est une dermatophytie. Quel(s) est (sont) le(s) élément(s) pertinent(s) à inclure dans l’interrogatoire pour conforter cette hypothèse ?",
+          "choix": [
+            "A) Est-ce que la lésion s’étend en périphérie ?",
+            "B) Existe-t-il d’autres lésions similaires ?",
+            "C) Y a-t-il un animal au domicile ?",
+            "D) Y a-t-il un terrain diabétique ?",
+            "E) Y a-t-il d’autres cas dans la famille ?"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sa petite sœur de 2 ans présente une plaque érythémato-squameuse, arrondie, bien délimitée sur le bras. La famille a fait l’acquisition d’un jeune chat depuis 2 mois. Quel(s) examen(s) vous permettra (permettront) de confirmer le diagnostic de dermatophytie ?",
+          "choix": [
+            "A) Formule numération sanguine",
+            "B) Biopsie cutanée avec examen direct et culture sur milieu spécifique",
+            "C) Prélèvement de squames avec examen direct et culture sur milieu spécifique",
+            "D) Recherche d’antigène circulant dermatophytique",
+            "E) Sérologie (recherche d’anticorps anti-dermatophyte)"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l'agent pathogène le plus probablement en cause ?",
+          "choix": [
+            "A) Microsporum canis",
+            "B) Trichophyton mentagrophytes",
+            "C) Trichophyton rubrum",
+            "D) Trichophyton soudanense",
+            "E) Trichophyton violaceum"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de dermatophytie à Microsporum canis est confirmé. Quel(s) traitement(s) pouvez-vous prescrire à Karine ?",
+          "choix": [
+            "A) Corticoïdes en application locale",
+            "B) Imidazolé en application locale",
+            "C) Imidazolé par voie orale",
+            "D) Terbinafine en application locale",
+            "E) Terbinafine par voie orale"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le contexte, quelle(s) est(sont) la(les) proposition(s) vraie(s) ?",
+          "choix": [
+            "A) Le chat doit impérativement être montré au vétérinaire",
+            "B) Le chat peut être porteur sain",
+            "C) La contamination implique obligatoirement un contact direct avec le chat",
+            "D) La petite sœur a pu se contaminer au contact de Karine",
+            "E) La petite sœur peut être traitée de la même manière sans être prélevée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) lésion(s) clinique(s) dans laquelle (lesquelles) Microsporum canis est classiquement impliqué ?",
+          "choix": [
+            "A) Dermite séborrhéique",
+            "B) Onyxis des pieds",
+            "C) Otite dermatophytique",
+            "D) Teigne tondante à grandes plaques chez l’adulte",
+            "E) Teigne tondante à grandes plaques chez l’enfant"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293844299-9e3b97c74cbc48",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Monsieur X, 25 ans, vient vous voir en consultation, car il a retrouvé dans son pyjama, un élément inquiétant. Il ne l’a malheureusement pas conservé mais vous en montre une photo et une vidéo prises avec son téléphone.\nLien de la vidéo : /servefc/1218517",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous?",
+          "choix": [
+            "A) Anguillulose",
+            "B) Anisakidose",
+            "C) Ascaridiose",
+            "D) Oxyurose",
+            "E) Téniasis"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/ai-parasitologie-s6/2024/q8.png?v=1786293844649"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Compte-tenu des circonstances de découverte de la maladie, quelle en est l’espèce responsable ?",
+          "choix": [
+            "A) Taenia saginata",
+            "B) Taenia solium"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous interrogez le patient sur ses habitudes de vie. Quel(s) élément(s) retrouvé(s) à l’interrogatoire est (sont) compatible(s) avec le diagnostic ?",
+          "choix": [
+            "A) Bain en rivière au Sénégal",
+            "B) Consommation de côte de porc à Toulouse",
+            "C) Consommation de sushi à Toulouse",
+            "D) Consommation de tartare de bœuf à Toulouse",
+            "E) Marche en sandale ouverte en Inde"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel délai minimum entre le repas contaminant et l’extériorisation du parasite est compatible avec le diagnostic ?",
+          "choix": [
+            "A) 7 jours",
+            "B) 2 semaines",
+            "C) 1 mois",
+            "D) 3 mois",
+            "E) 6 mois"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il y a 3 mois, Monsieur X, était au mariage de son cousin. Dans la famille, plusieurs cas similaires ont été déclarés. Quelle(s) information(s) donner au patient sur sa maladie ?",
+          "choix": [
+            "A) Contamination par consommation de viande de bœuf peu cuite",
+            "B) Localisation du parasite dans le côlon",
+            "C) Risque de complication neurologique (neurocysticercose)",
+            "D) Risque de dissémination en cas d’immunodépression",
+            "E) Transmission interhumaine possible"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La nièce de Monsieur X, 5 ans, présente un prurit anal vespéral. Quel(s) parasite(s) provoque(nt) ce symptôme ?",
+          "choix": [
+            "A) Entamoeba histolytica",
+            "B) Enterobius vermicularis",
+            "C) Giardia intestinalis",
+            "D) Strongyloides stercoralis",
+            "E) Taenia saginata"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Compte-tenu du menu ci-dessous, quelle(s) autre(s) parasitose(s) aurai(en)t pu contracter Monsieur X, à ce mariage ?\nMenu\n6 huitres de Quiberon\nTartare de truite des Alpes sur son lit de cresson\n--------------\nTournedos Rossini de bœuf d'Auvergne\nPurée de pomme de terre truffée des Cévennes\n---------------\nPlateau de fromages au lait cru métropolitains\nPièce montée tropicale (choux à la crème mangue-passion)",
+          "choix": [
+            "A) Amoebose",
+            "B) Anisakidose",
+            "C) Cryptosporidiose",
+            "D) Distomatose (Fasciolose)",
+            "E) Toxoplasmose"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293847305-608866eb6b2068",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) à propos de la pneumocystose ?",
+          "choix": [
+            "A) C’est une infection du patient immunodéprimé exclusivement",
+            "B) Le diagnostic repose sur la sérologie",
+            "C) Le réservoir de Pneumocystis jirovecii est strictement humain",
+            "D) Le scanner thoracique montre des images nodulaires",
+            "E) Le traitement de 1ère intention est l’amphotéricine B"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant Aspergillus, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Aspergillus est une levure",
+            "B) Aspergillus n’est pas cultivable",
+            "C) La forme filament d’Aspergillus a des propriétés invasives",
+            "D) Les infections sévères à Aspergillus concernent les patients immunodéprimés",
+            "E) Il faut isoler les malades en raison du risque de transmission interhumaine d’Aspergillus"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les candidémies, quelle(s) est (sont) la (les) proposition(s) vraie(s) ?",
+          "choix": [
+            "A) Elles sont associées à une mortalité de plus de 20 %",
+            "B) Elles surviennent principalement chez le patient immunodéprimé",
+            "C) Le traitement de 1ère intention est le fluconazole",
+            "D) Elles sont favorisées par une antibiothérapie antibactérienne large spectre",
+            "E) Le diagnostic repose sur la sérologie"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les symptômes de la toxoplasmose, indiquez la (les) proposition(s) exacte(s) :",
+          "choix": [
+            "A) La primo-infection est symptomatique dans plus de 80 % des cas",
+            "B) Les formes symptomatiques associent classiquement fièvre, asthénie et adénopathies",
+            "C) Chez le patient infecté par le VIH, la forme la plus fréquente est oculaire",
+            "D) En cas d’atteinte congénitale, la forme infraclinique est la plus fréquente",
+            "E) Le risque de toxoplasmose cérébrale au cours de l'infection à VIH survient pour un taux de CD4 inférieur à 200 éléments/mm3"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’interprétation de la sérologie toxoplasmose, indiquez la (les) proposition(s) exacte(s) :",
+          "choix": [
+            "A) Les IgG sont plus précoces que les IgM",
+            "B) Les IgG passent la barrière placentaire",
+            "C) Les IgM passent la barrière placentaire",
+            "D) C’est l’apparition des IgM qui signe la séroconversion toxoplasmique",
+            "E) Les anticorps IgG persistent toute la vie"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la trichomonose, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La trichomonose est une maladie strictement humaine due à un protozoaire flagellé",
+            "B) Chez la femme, la trichomonose peut être à l’origine d’une vulvovaginite associée à des leucorrhées spumeuses nauséabondes",
+            "C) La trichomonose n’est pas considérée comme une infection sexuellement transmissible car elle est liée à un déséquilibre de la flore vaginale",
+            "D) Chez le sujet masculin, la trichomonose est le plus souvent asymptomatique",
+            "E) Le diagnostic biologique de la trichomonose repose sur la recherche d’anticorps spécifiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) anomalie(s) hématologique(s), non spécifique(s), que l'on peut observer au cours de la leishmaniose viscérale en phase d'état ?",
+          "choix": [
+            "A) Thrombopénie",
+            "B) Anémie normocytaire",
+            "C) Lymphocytose",
+            "D) Pancytopénie",
+            "E) Eosinophilie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un étudiant se présente aux urgences avec une diarrhée, une fièvre importante à 40°C depuis 2 jours ainsi que des vomissements. A l'interrogatoire, vous apprenez qu'il vient de faire un séjour touristique au Cameroun et qu'il est de retour en France depuis 15 jours. Durant ce séjour, il s'est baigné à plusieurs reprises dans des rivières et a consommé beaucoup\nde poissons d’eau douce pêchés localement. Il affirme avoir correctement suivi une prophylaxie du paludisme mais ne se souvient plus de la molécule.\nQuel est le premier diagnostic parasitologique à évoquer dans ce contexte ?",
+          "choix": [
+            "A) Ascaridiose",
+            "B) Schistosomose (bilharziose) à Schistosoma mansoni",
+            "C) Tæniasis à Taenia saginata",
+            "D) Paludisme",
+            "E) Strongyloïdose (anguillulose)"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic biologique du paludisme, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il s’agit d’un diagnostic d’urgence",
+            "B) Des techniques de biologie moléculaire peuvent être réalisées en première intention",
+            "C) Le diagnostic repose sur la sérologie",
+            "D) Les tests immunochromatographiques (TDR) sont largement utilisés",
+            "E) La parasitémie est obtenue en réalisant un test immunochromatographique (TDR)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "critiques": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les schistosomoses, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) La contamination est transcutanée",
+            "B) Elles s’accompagnent d’une hyperéosinophilie",
+            "C) L’Homme est un hôte intermédiaire",
+            "D) L’atteinte peut être digestive ou urinaire",
+            "E) Le traitement de référence est l’ivermectine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) parasite(s) est (sont) responsable(s) d’hyperéosinophilie ?",
+          "choix": [
+            "A) Anisakis",
+            "B) Entamoeba histolytica",
+            "C) Leishmania infantum",
+            "D) Schistosoma mansoni",
+            "E) Strongyloïdes stercoralis"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans quelle(s) parasitose(s), peut-on retrouver du sang dans les selles ?",
+          "choix": [
+            "A) Amoebose",
+            "B) Cryptosporidiose",
+            "C) Microsporidiose",
+            "D) Oxyurose",
+            "E) Schistosomose à Schistosoma haematobium"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant Cryptococcus neoformans, quelle(s) est (sont) la (les) proposition(s) vraie(s) ?",
+          "choix": [
+            "A) Les excréments de renard constituent le principal réservoir",
+            "B) La voie principale de contamination est digestive",
+            "C) C’est une levure encapsulée à tropisme cérébral",
+            "D) Le diagnostic repose sur la mise en évidence d’anticorps spécifiques",
+            "E) Le diagnostic repose sur la mise en évidence d’antigènes spécifiques"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des pédiculoses, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Le pou de corps est l’agent de la phtiriase inguinale (infection à « morpions »)",
+            "B) Le pou de tête est hématophage et peut servir de vecteur pour des infections bactériennes (Bartonnella quintana)",
+            "C) Le traitement des poux de tête repose, en première intention, sur l’utilisation de dérivés siliconés",
+            "D) Dans le cas des pédiculoses du cuir chevelu, une 2ème application de traitement pédiculicide doit être conseillée environ 8 jours après la 1ère",
+            "E) Il existe de nombreuses résistances à la Diméticone, entrainant de fréquents échecs thérapeutiques chez les enfants atteints de pédiculose du cuir chevelu"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (lesquelles) se rapporte(nt) à la gale ?",
+          "choix": [
+            "A) Le sillon cutané est une caractéristique clinique",
+            "B) Le diagnostic biologique repose sur la sérologie",
+            "C) C’est une ectoparasitose",
+            "D) Elle n’est observée qu’en cas de manque d’hygiène",
+            "E) Elle est due à Cimex lectularius"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) à propos de la giardiose ?",
+          "choix": [
+            "A) Elle doit être évoquée en cas de diarrhées",
+            "B) L’Homme se contamine par ingestion de kystes",
+            "C) Giardia intestinalis est hématophage",
+            "D) Le diagnostic repose sur la biologie moléculaire",
+            "E) Le diagnostic repose sur la sérologie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

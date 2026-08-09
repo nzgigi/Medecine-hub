@@ -1,0 +1,466 @@
+{
+  "matiere": "Génétique médicale",
+  "slug": "genetique-medicale-s4",
+  "annee": 2024,
+  "title": "Génétique médicale - 2024",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la CGH array",
+          "choix": [
+            "A) Sa résolution est supérieure au caryotype, allant jusqu’à 10 à 100 Mb.",
+            "B) Elle permet la détection des variants de structure déséquilibrés.",
+            "C) Elle permet la détection des variants de structure équilibrés.",
+            "D) Elle permet la détection de variants ponctuels.",
+            "E) Elle repose sur la compétition d’hybridation de l’ADN du patient avec l’ADN d’un témoin sur une puce représentant des milliers de régions génomiques."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le syndrome de Turner",
+          "choix": [
+            "A) En anténatal, il peut être détecté devant une augmentation de la clarté nucale et un retard de croissance intra-utérin.",
+            "B) Une insuffisance ovarienne prématurée est quasi constante dans ce syndrome.",
+            "C) Un trouble du développement intellectuel est quasi constant dans ce syndrome.",
+            "D) Une atteinte cardiovasculaire, en particulier une coarctation de l’aorte, est retrouvée dans la moitié des cas.",
+            "E) Une formule chromosomique 45,X/46,XX correspond à un syndrome de Turner en mosaïque."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’hérédité monogénique ou mendélienne",
+          "choix": [
+            "A) Un individu hétérozygote pour un variant pathogène associé à un phénotype dominant a un risque de 50% de transmission à sa descendance.",
+            "B) Dans l’hérédité autosomique dominante, les garçons sont souvent plus atteints que les filles.",
+            "C) La pénétrance incomplète est fréquente dans les pathologies de transmission autosomique récessive.",
+            "D) Un individu homozygote pour un variant pathogène associé à un phénotype récessif a un risque de 50% de transmission à sa descendance.",
+            "E) Dans les pathologies autosomiques dominantes, une expressivité variable est fréquente."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic préimplantatoire (DPI) en France.",
+          "choix": [
+            "A) Il est accessible dans la plupart des centres ayant un laboratoire de génétique.",
+            "B) Les indications sont les mêmes que pour le diagnostic prénatal.",
+            "C) Il existe une liste définie d’indications.",
+            "D) Le délai moyen entre la constitution du dossier et la première tentative d’implantation est actuellement d’environ 3 à 6 mois.",
+            "E) Le délai moyen entre la constitution du dossier et la première tentative d’implantation est actuellement d’environ 18 à 24 mois."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le promoteur d’un gène :",
+          "choix": [
+            "A) Est une séquence d’ARN",
+            "B) Correspond à une séquence située en amont de l’unité de transcription du gène",
+            "C) Est située dans le premier exon du gène",
+            "D) Est la cible spécifique de plusieurs protéines ;",
+            "E) Joue un rôle clé dans la réplication de l’ADN."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des mutations de novo",
+          "choix": [
+            "A) Chaque gamète d’un individu en porte plusieurs milliers",
+            "B) Elles sont à l’origine de la plupart des cas sporadiques de maladies récessives",
+            "C) Elles ne sont pas détectées dans l’ADN des parents de l’individu qui en est porteur",
+            "D) Leur fréquence peut augmenter avec l’âge dans la lignée germinale des hommes",
+            "E) Elles peuvent être transmises à la génération suivante par l’individu qui en est porteur"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un couple asymptomatique vous sollicite pour un conseil génétique car leur premier enfant est atteint du syndrome d’Angelman, un trouble du neurodéveloppement lié à un locus du chromosome 15 qui est soumis à une empreinte génomique parentale d’origine paternelle. Vous devez connaitre le type d’anomalie affectant ce locus pour préciser votre conseil génétique car",
+          "choix": [
+            "A) Dans le cas d’une disomie 15 uniparentale le risque de récurrence serait élevé",
+            "B) Le père peut être porteur sain d’une mutation causale du syndrome d’Angelman",
+            "C) Le couple peut avoir, selon l’anomalie causale, un risque de 50% d’avoir un autre enfant atteint",
+            "D) Le risque de récurrence pourrait être considérablement abaissé si la mère du cas index a un autre enfant avec un autre conjoint",
+            "E) Dans le cas d’une délétion de novo du locus en 15q le risque de récurrence serait très faible"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un couple bien portant consulte car Monsieur a son père qui est décédé des suites d’une hémophilie B sévère. Le couple est inquiet pour leur descendance d’autant que Madame vient de débuter une grossesse. A l’interrogatoire vous apprenez qu’il existe deux autres cas d’hémophilie dans la famille de Monsieur. A partir de ces informations vous dressez l’arbre généalogique ci-dessous\nVos connaissances sur la transmission récessive liée à l’X de l’hémophilie B vous permettent",
+          "choix": [
+            "A) De rassurer le couple de consultants sur le risque de récurrence de l’hémophilie B dans sa descendance",
+            "B) D’évaluer à 50% le risque que III-3 ait un fils atteint avec un conjoint non apparenté",
+            "C) De déduire que c’est la grand-mère paternelle du proposant qui est à l’origine de la transmission familiale de l’hémophilie B",
+            "D) D’évaluer à 12,5 % (1/8) le risque pour IV-1 d’avoir un enfant atteint",
+            "E) D’évaluer à 50% le risque que III-3 ait une fille atteinte si le père est III-1"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/genetique-medicale-s4/2024/q8.png?v=1786295454151"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une jeune femme enceinte vous sollicite pour un conseil génétique car son frère vient de l’informer du diagnostic de mucoviscidose porté chez son fils âgé de 2 mois. Bien que le génotype du cas index ne soit pas encore identifiée vous décidez de lui prescrire ainsi qu’à son conjoint un test génétique recherchant les mutations les plus fréquentes du gène CFTR. Sachant que l’incidence de la mucoviscidose est de 1/3600 et que la sensibilité du test est de 90%, vous pouvez calculer en fonction des résultats du test (test positif si une mutation est identifiée) la probabilité a posteriori pour l’enfant à naître du couple d’être atteint de mucoviscidose",
+          "choix": [
+            "A) Probabilité inférieure au risque général (1/3600) si les deux tests du couple sont négatifs",
+            "B) Probabilité de 50% si les deux tests du couple sont positifs",
+            "C) Probabilité de 1/24 si le test est négatif pour la proposante mais positif pour son conjoint",
+            "D) Probabilité de 1/120 si le test est positif pour la proposante mais négatif pour son conjoint",
+            "E) La probabilité sera inférieure au risque a priori du couple (risque avant le résultat du test) si le test est positif pour la proposante mais négatif pour son conjoint"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un couple consulte pour avoir un conseil génétique à propos du risque de récurrence d’une affection malformative congénitale dont est atteint sévèrement leur premier enfant et dont la cause n’a pu être identifiée. Dans ce contexte, la valeur du risque est fondée sur des bases empiriques (« risque empirique »), cela signifie",
+          "choix": [
+            "A) Que ce risque de récurrence s’applique à une affection dont les causes peuvent être diverses",
+            "B) Que ce risque repose sur un nombre très limité d’observations",
+            "C) Que ce risque n’exclut pas la possibilité d’une affection de transmission mendélienne",
+            "D) Que ce risque peut être affiné par la prise en compte du contexte familial",
+            "E) Que la naissance d’un autre enfant atteint ne peut être prévenue chez ce couple"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les variations ponctuelles, choisir la ou les proposition(s) vraie(s)",
+          "choix": [
+            "A) Elles sont classées comme bénignes (classe 1), de signification inconnues (classe 2) ou pathogènes (classe 3)",
+            "B) Une variation non-stop va entraîner un allongement de la protéine",
+            "C) p.Gly234Ter est une variation non-sens",
+            "D) Les variations situées en -1, -2, +1 et +2 vont affecter les sites consensus d’épissage",
+            "E) Une variation entraînant un décalage du cadre de lecture va modifier la séquence de plusieurs acides aminés par rapport à la protéine normale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les méthodes d’analyse du génome, choisir la ou les proposition(s) vraie(s)",
+          "choix": [
+            "A) Le séquençage d’exome cherche à séquencer l’ensemble des exons du génome en une seule analyse",
+            "B) Il est possible de réanalyser des données d’un séquençage d’exome plusieurs années après sa réalisation",
+            "C) Le séquençage de génome peut permettre de mettre en évidence des translocations chromosomiques équilibrées et déséquilibrées.",
+            "D) Le séquençage d’un panel de gène nécessite une étape de capture",
+            "E) Un séquençage d’exome permet d’identifier ~3.5 millions de variations chez un individu"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les variations ponctuelles, choisir la ou les proposition(s) vraie(s)",
+          "choix": [
+            "A) Une variation faux-sens entraîne l’apparition d’un codon stop prématuré",
+            "B) Une variation synonyme entraîne une variation de la séquence d’acides aminés de la protéine",
+            "C) Une mutation constitutionnelle est présente dans toutes les cellules",
+            "D) Les variations entrainant une perte de fonction de la protéine sont toujours situées dans les régions codantes",
+            "E) La variation c.375-12_375-13del est une variation intronique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les méthodes d’analyse du génome, choisir la ou les proposition(s) vraie(s)",
+          "choix": [
+            "A) L’analyse par panel retrouve moins de données incidentales que l’approche par séquençage d’exome",
+            "B) Des approches semi-quantitatives (comme la MLPA) peuvent compléter le séquençage Sanger dans l’analyse d’un gène",
+            "C) Le séquençage Sanger est l’approche de choix pour les enquêtes familiales de variations ponctuelles",
+            "D) La profondeur de lecture est le % de la cible à séquencer effectivement séquencée",
+            "E) Le séquençage de génome est plus performant que le séquençage d’exome dans l’identification des variations pathogènes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les méthodes d’analyse du génome, choisir la ou les proposition(s) vraie(s)",
+          "choix": [
+            "A) La profondeur de lecture est le nombre de fois qu’une base est lue lors du séquençage haut débit",
+            "B) Le séquençage d’exome permet de retrouver des variations d’épissage non visibles par séquençage de génome",
+            "C) Le séquençage Sanger permet une analyse qualitative (identification des variations ponctuelles) et quantitative (identification des délétions/duplications d’exons)",
+            "D) Le nombre de variants obtenus après séquençages d’exome est de l’ordre de 20.000 à 25.000",
+            "E) Le séquençage d’exome permet d’analyser convenablement l’ensemble des exons du génome"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295465143-c230bca49fe72",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous rencontrez un enfant (V.2) suivi pour un trouble du développement intellectuel dans le cadre d’un syndrome de l’X fragile. Les parents vous présentent un compte rendu montrant que V.2 est hémizygote pour une mutation complète du gène FMR1(>200 CGG). La mère est porteuse d’une prémutation à 90 CGG et d’un allèle normal (30 CGG). Cette prémutation a été également mise en évidence chez III.4. L’enfant V.3 a 15 mois et est a priori asymptomatique.\nUne grossesse est en cours au sein du couple parental.\nLa famille n’a pas d’information sur l’enquête parentale. L’enfant V.6 vient de naître et présente un syndrome polymalformatif incluant une cardiopathie complexe, une atrésie des choanes bilatérales, une surdité et une malformation oculaire.",
+          "choix": [
+            "A) Si le fœtus V.4 est de sexe féminin, elle n’est pas à risque d’avoir des symptômes en rapport avec une mutation complète.",
+            "B) Si le fœtus V.4 est de sexe masculin, il y a une chance sur deux pour qu’il ait hérité l’allèle normal de sa mère (30 CGG).",
+            "C) IV.4 a un risque de présenter une maladie neurologique de l’adulte appelée FXTAS.",
+            "D) La prescription de la recherche du syndrome de l’X fragile chez V.3 doit être réservée à une équipe pluridisciplinaire dans le cadre d’un diagnostic présymptomatique.",
+            "E) Le fait que V.2 soit symptomatique s’explique par un biais d’inactivation de l’X."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/genetique-medicale-s4/2024/q16.png?v=1786295465402"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous rencontrez un enfant (V.2) suivi pour un trouble du développement intellectuel dans le cadre d’un syndrome de l’X fragile. Les parents vous présentent un compte rendu montrant que V.2 est hémizygote pour une mutation complète du gène FMR1(>200 CGG). La mère est porteuse d’une prémutation à 90 CGG et d’un allèle normal (30 CGG). Cette prémutation a été également mise en évidence chez III.4.\nLa famille n’a pas d’information sur l’enquête parentale. L’enfant V.6 vient de naître et présente un syndrome polymalformatif incluant une cardiopathie complexe, une atrésie des choanes bilatérales, une surdité et une malformation oculaire.",
+          "choix": [
+            "A) Le tableau clinique de V.6 est compatible avec un syndrome de l’X fragile.",
+            "B) L’insuffisance ovarienne prématurée de III.4 est une manifestation clinique décrite des prémutations du gène",
+            "C) La prémutation étant héritée de III.4, III.3 n’est pas à risque de développer une maladie neurologique de l’adulte liée aux prémutations du gène",
+            "D) Si II.3 n’est pas porteuse de la prémutation du gène FMR1, on peut rassurer III.6 et sa descendance: ils ne sont pas porteurs de la prémutation.",
+            "E) Le lien de parenté entre III.3 et III.4 augmente le risque de maladie liée à l’X dans la fratrie de V.2."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/genetique-medicale-s4/2024/q17.png?v=1786295465904"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295466361-4cc369dd06bdd",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation Mme A. dans le cadre de sa première grossesse. Elle et son conjoint n’ont pas d’antécédents familiaux notables. Vous l’informez sur le dépistage combiné de la trisomie 21.",
+          "choix": [
+            "A) Il est obligatoire.",
+            "B) Il est réalisé au moment de l’échographie du 1er trimestre",
+            "C) Il comprend la mesure du périmètre crânien du fœtus.",
+            "D) Il comprend la mesure de marqueurs sériques : β-hCG et PAPP-A",
+            "E) Il est rendu sous forme d’un résultat positif ou négatif."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’échographie du premier trimestre réalisée à 11SA+4jours est sans particularité, la clarté nucale est mesurée à 1,9mm, le dépistage combiné retrouve un risque à 1/250.",
+          "choix": [
+            "A) La clarté nucale est normale.",
+            "B) La clarté nucale est augmentée.",
+            "C) Mme A n’est pas dans le groupe à risque augmenté de trisomie 21, il n’y a pas d’indication à réaliser des analyses génétiques.",
+            "D) Mme A est dans le groupe à risque augmenté de trisomie 21, un dépistage prénatal non invasif (DPNI) est indiqué.",
+            "E) Mme A est dans le groupe à risque augmenté de trisomie 21, un prélèvement invasif pour réaliser un caryotype est indiqué."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme A. est désormais à 13SA. Elle a été informée du risque augmenté de trisomie 21 et souhaite réaliser un DPNI. Celui-ci retrouve le résultat suivant. Elle ne souhaite pas poursuivre la grossesse et souhaite réaliser une interruption médicale de grossesse (IMG).",
+          "choix": [
+            "A) Une confirmation diagnostique par un prélèvement invasif est nécessaire.",
+            "B) La demande d’IMG est recevable car la trisomie 21 est sur la liste des affections pour lesquelles l’IMG est acceptée.",
+            "C) Le DPNI aurait pu mettre en évidence d’autres anomalies chromosomiques, par exemple une trisomie 18.",
+            "D) Le consentement de son conjoint est nécessaire pour interrompre la grossesse.",
+            "E) L’IMG doit avoir lieu avant 16SA."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/genetique-medicale-s4/2024/q20.png?v=1786295467786"
+          ],
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une confirmation du résultat a été réalisée par FISH et caryotype à partir d’un prélèvement de liquide amniotique. Le caryotype retrouve la formule chromosomique suivante : 47,XX,+21.",
+          "choix": [
+            "A) Il s’agit d’un fœtus masculin.",
+            "B) Il s’agit d’un fœtus féminin.",
+            "C) Le fœtus est porteur d’une trisomie 21 libre et homogène.",
+            "D) Le prélèvement des parents pour réaliser un caryotype chez eux est nécessaire.",
+            "E) En cas de nouvelle grossesse, le risque de récurrence est celui de la population générale."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

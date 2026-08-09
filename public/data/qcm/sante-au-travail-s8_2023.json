@@ -1,0 +1,346 @@
+{
+  "matiere": "Santé au travail",
+  "slug": "sante-au-travail-s8",
+  "annee": 2023,
+  "title": "Santé au travail - 2023",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes le médecin traitant de Monsieur R. , 56 ans. Il est actuellement en arrêt maladie pour une lombosciatique non compliquée depuis 10 jours. Ce jour, vous prolongez son arrêt de deux semaines car ses douleurs restent invalidantes malgré les séances de kinésithérapie.\nIl vous rapporte être cariste dans une usine de production de pièces automobiles, il aurait déjà eu des épisodes comme celui-ci dans le passé ayant nécessité des arrêts de travail courts.\nIl trouve la durée de cet arrêt de travail insuffisante.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous lui conseillez de consulter son médecin du travail. Quelle(s) est(sont) la(les) réponses juste(s)?",
+          "choix": [
+            "A) Une visite peut être demandée au service de santé au travail directement par le patient à tout moment.",
+            "B) Cette visite sera étiquetée visite de pré-reprise car elle aura lieu pendant son arrêt de travail.",
+            "C) Le médecin du travail pourra prolonger l’arrêt de travail s’il le juge insuffisant.",
+            "D) Cette visite avec le médecin du travail pourra donner lieu à des préconisations d’adaptation de poste à l’employeur.",
+            "E) Monsieur R quitte votre cabinet, et en fin de journée vous décidez d’envoyer un courrier d’adressage au médecin du travail en lui précisant l’état de santé de votre patient sans l'avoir averti"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la visite de pré-reprise, quelle(s) est(sont) la(les) réponses juste(s)?",
+          "choix": [
+            "A) La visite de pré-reprise peut être demandée par le médecin conseil de l'assurance maladie",
+            "B) La visite de pré-reprise peut être demandée par le médecin traitant",
+            "C) La visite de pré-reprise peut être demandée par le médecin du travail",
+            "D) La visite de pré-reprise peut être demandée par le médecin inspecteur du travail",
+            "E) La visite de pré-reprise peut être demandée lorsque l'arrêt de travail dépasse 30 jours"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le collègue et ami de monsieur R. lui rapporte que son chef d’équipe s’inquiète de son absence, ses arrêts précédents n’ayant duré que quelques jours. Concernant l’employeur, quelle(s) est(sont) la(les) réponses\njuste(s)?",
+          "choix": [
+            "A) L'employeur n’a pas le droit de contacter un salarié lors de son arrêt de travail et ce quelque soit sa durée",
+            "B) Une visite de pré-reprise peut être demandée par l’employeur.",
+            "C) L'employeur est responsable de l’évaluation des risques professionnels dans son entreprise.",
+            "D) Les préconisations émises par le médecin du travail à l’employeur doivent respecter le secret médical.",
+            "E) Les préconisations formulées par le médecin du travail devront systématiquement être mise en œuvre par l’employeur"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur R. a pu bénéficier d’une visite avec son médecin du travail. La reprise a eu lieu avec une préconisation concernant le port de charge lourde. Il aura été en arrêt sur une durée totale de 31 jours sans lien avec un accident du travail ou une maladie professionnelle. Quelle(s) est(sont) la(les) réponses juste(s) concernant la visite de reprise ?",
+          "choix": [
+            "A) Monsieur R. doit en bénéficier au vu de la durée de son arrêt maladie.",
+            "B) La visite de reprise doit être demandée par le médecin traitant à la fin de l’arrêt de travail",
+            "C) La visite de reprise doit être réalisée dans un délai de 8 jours à compter de la reprise du travail.",
+            "D) Le but de la visite de reprise est d'évaluer si l’état de santé du salarié est compatible avec le poste de travail après l’arrêt maladie",
+            "E) Une aptitude avec restriction ou une inaptitude médicale peut être prononcée par le médecin du travail lors d'une visite de reprise"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "De manière générale, à l’issu d’une visite de pré-reprise ou de reprise, quelle(s) est(sont) la(les) réponses juste(s) ?",
+          "choix": [
+            "A) Un changement de poste de travail peut être envisagé.",
+            "B) Un aménagement ergonomique du poste de travail peut être envisagé.",
+            "C) Une invalidité peut être demandée au médecin du travail",
+            "D) Un temps partiel thérapeutique peut être prescrit par le médecin du travail.",
+            "E) Un temps partiel thérapeutique doit faire obligatoirement suite à un arrêt maladie."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les visites en santé au travail et les dispositifs de maintien dans l'emploi, quelle(s) est(sont) la(les) réponses juste(s) ?",
+          "choix": [
+            "A) Un rendez-vous de liaison entre le salarié et son employeur lors d'un arrêt de travail peut faire l'objet d'une discussion de visite de pré-reprise",
+            "B) La reconnaissance en qualité de travailleur handicapé est un obstacle au maintien dans l'emploi",
+            "C) La reconnaissance en qualité de travailleur handicapé est attribué par le médecin consell de l'assurance maladie",
+            "D) La reconnaissance en qualité de travailleur handicapé peut permettre l'obtention d'aides financières pour l'entreprise lors d'aménagement de postes de travail",
+            "E) Le temps partiel thérapeutique n'est pas limité dans le temps"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299988019-655f59f24c321",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Médecin du travail dans un service interentreprise, vous avez remarqué que plusieurs salariés d’une imprimerie se plaignaient d'acouphènes et de baisses de l'audition",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Dans le but d'éviter aux nouveaux salariés recrutés de présenter un jour la même symptomatologie, vous décidez de réaliser une mesure du bruit pour évaluer l’exposition au bruit dans cette entreprise, quel est le temps ou niveau de prévention?",
+          "choix": [],
+          "reponses": [
+            "primaire",
+            "prévention primaire",
+            "prevention primaire",
+            "Primaire",
+            "Prévention primaire",
+            "premier",
+            "Niveau 1 de prévention primaire",
+            "prévention primaire (1er temps)",
+            "preevntion primaire",
+            "Prévention Primaire",
+            "niveau 1",
+            "prévention primaire pour les nouveaux salariés",
+            "Prévention primo-secondaire"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la réponse inexacte ou fausse ?",
+          "choix": [
+            "A) La métrologie est la science de la mesure.",
+            "B) La métrologie permet de mesurer un large panel de paramètres physiques (bruits, lumières), chimique ou biologique.",
+            "C) Les expositions sont mesurées autant au niveau de l’environnement extérieur qu'au niveau individuel (sang, cheveux, urine,...).",
+            "D) La biométrologie est la mesure dans le milieu intérieur (organisme humain)",
+            "E) Une métrologie conforme à la réglementation permet de s’assurer de l'absence totale de risque pour la santé du salarié."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les quatre principales maladies professionnelles respiratoires?",
+          "choix": [
+            "A) le cancer bronchique primitif",
+            "B) le mésothéliome péritonéal",
+            "C) l'asthme",
+            "D) la bronchopneumopathie chronique obstructive",
+            "E) les alvéolites allergiques extrinsèque",
+            "F) le syndrome de dysfonctionnement des cordes vocales",
+            "G) la rhinite",
+            "H) la sarcoidose",
+            "I) la tuberculose",
+            "J) la médiastinite"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299989401-6c1ae7b05cc16",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne de médecine du travail en stage dans un service de santé au travail interentreprise, vous recevez madame S. , 45 ans, dans le cadre de sa visite périodique. Elle avait été vue pour la dernière fois il y a 5 ans.\nElle occupe un poste de secrétaire de direction dans une entreprise du tertiaire, elle n’est pas exposée à des risques particuliers nécessitant un suivi individuel renforcé.\nElle vous rapporte au milieu de la consultation que sa demande de RQTH (reconnaissance en qualité de travailleur handicapé) pour un trouble bipolaire vient d’être acceptée.\nConcernant la visite périodique en santé au travail, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
+          "choix": [
+            "A) La périodicité du suivi jusqu’ici (avant la reconnaissance en RQTH) est conforme à la réglementation concernant notre patiente",
+            "B) Cette visite est une visite d’information et de prévention.",
+            "C) Elle est assurée en général par un(e) infirmier(e) en santé au travail",
+            "D) La rythmicité de la visite d'information et de prévention peut être modifiée par un travail de nuit",
+            "E) La rythmicité de la visite d'information et de prévention est maintenant de 3 ans car la patiente est reconnue en qualité de travailleur handicapé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Madame S. vous interroge car elle ne comprend pas pourquoi son époux, ouvrier du BTP exposé à l'amiante, est convoqué en visite de médecine du travail tous les 2 ans. Vous lui expliquez que c'est lié au fait de son exposition à un risque professionnel particulier cancérogène. Quelle(s) est(sont) le(s) réponse(s) juste(s)?",
+          "choix": [
+            "A) Son époux bénéficie d’un suivi périodique au moins tous les 4 ans avec le médecin du travail.",
+            "B) Son époux doit être convoqué actuellement tous les deux ans car il bénéficie de visites intermédiaires réalisées par un(e) infirmier(e) en santé au travail (IDEST).",
+            "C) Le médecin du travail formule systématiquement une aptitude au poste à l'issue de ses visites réalisées par ses soins",
+            "D) La fiche d'aptitude est remise à l’employeur avec éventuellement des préconisations sur le poste du travail en les justifiant avec des informations sur la pathologie en question.",
+            "E) Son époux, juste avant son départ à la retraite, pourra bénéficier d’une visite de fin d’exposition (fin de carrière) afin de mettre en place un suivi post-exposition à l’amiante."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Madame S. vous questionne sur le rôle d’un service de santé au travail (SST) et de ses visites, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
+          "choix": [
+            "A) Les SST ont pour mission de conseiller les employeurs et les travailleurs pour éviter toute altération de la santé de ces derniers du fait de leur travail.",
+            "B) Toute entreprise doit adhérer à un SST dès qu’elle emploie au minimum de 10 salariés.",
+            "C) Les SST ont une action préventive qui s’articule autour d’action en milieu de travail (sur le terrain) et de suivi de la santé des salariés par des visites",
+            "D) Les visites périodiques médicales s’inscrivent dans une démarche de prévention primaire, secondaire et tertiaire",
+            "E) Les actions sur le terrain telles que l'évaluation des risques professionnels et la mise en place de moyens de protection collective et individuelle font partie de la prévention primaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la voie d'exposition principale pour la santé concernant l'exposition aux facteurs environnementaux?",
+          "choix": [
+            "A) voie digestive",
+            "B) voie cutanée",
+            "C) voie transplacentaire",
+            "D) voie respiratoire",
+            "E) voie muqueuse"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment s'appelle le principe d'acceptation automatique de reconnaissance en accident du travail (2 mots)",
+          "choix": [],
+          "reponses": [
+            "présomption d'imputabilité",
+            "présomption d'origine",
+            "présomption d’imputabilité",
+            "presomption d'imputabilité",
+            "presomption d'imputabilite",
+            "présomption imputabilité",
+            "Présomption d’imputabilité",
+            "présomption d’origine",
+            "presomption d'origine",
+            "Présomption imputabilité",
+            "presomption d’imputabilité",
+            "présomption d‘imputabilité",
+            "presomption d origine",
+            "Presomption d'imputabilité",
+            "presomption imputabilite",
+            "présemption d'imputabilité",
+            "Presomption d'origine",
+            "présomption d'imputabilité",
+            "presemption imputabilite",
+            "Présomption origine",
+            "présemption d’origine",
+            "presonption d'imputabilité",
+            "presemption d'imputabilité",
+            "présomption d'imputabilite",
+            "presomption d’imputabilite",
+            "Présemption d'imputabilité",
+            "principe de présomption d'imputabilité",
+            "presomption origine",
+            "Présomption de causalité",
+            "preseomption d'imputabilite",
+            "Présomption d’origine"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,385 @@
+{
+  "matiere": "Biochimie",
+  "slug": "biochimie-s3",
+  "annee": 2025,
+  "title": "Biochimie - 2025",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La voie de signalisation du récepteur de l’insuline s’exerce grâce à :",
+          "choix": [
+            "A) Des récepteurs de type protéine kinase",
+            "B) Des récepteurs de type protéine G hétérotrimérique",
+            "C) Des petites protéines G",
+            "D) La régulation d’une phosphodiestérase",
+            "E) La régulation d’une adénylate cyclase"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la néoglucogenèse :",
+          "choix": [
+            "A) C’est un métabolisme actif dans tous les tissus",
+            "B) Son rôle est le maintien de la glycémie",
+            "C) Elle est induite par l’insuline",
+            "D) Elle peut utiliser certains acides aminés, du glycérol ou du lactate comme substrats",
+            "E) La première réaction de cette voie métabolique implique une pyruvate carboxylase mitochondriale."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des transporteurs GLUT :",
+          "choix": [
+            "A) Ce sont des transporteurs actifs du glucose dans les cellules",
+            "B) Le GLUT4 est exprimé majoritairement au niveau du foie",
+            "C) En présence d’insuline, le GLUT4 est séquestré dans des vésicules intracellulaires.",
+            "D) Au niveau musculaire, l’action de l’insuline sur le GLUT-4 conduit à l’augmentation de la captation du glucose",
+            "E) Le GLUT2 est sollicité pour réguler l’insulinosécretion au niveau pancréatique"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient présente un déficit génétique en lipoprotéine lipase (LPL). On réalise une exploration approfondie des lipides et lipoprotéines sériques. On observe et on propose:",
+          "choix": [
+            "A) Une hypertriglycéridémie",
+            "B) Une accumulation de chylomicrons circulants",
+            "C) Une lactescence du sérum",
+            "D) Une augmentation de HDL circulantes",
+            "E) On recommande un régime pauvre en graisse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos des lipoprotéines, indiquez le caractère vrai ou faux des affirmations suivantes :",
+          "choix": [
+            "A) Les chylomicrons sont produits par le foie",
+            "B) Les VLDL sont très riches en cholestérol estérifié",
+            "C) Les HDL sont les plus grosses de toutes les lipoprotéines",
+            "D) Le transport des triglycérides du foie vers les tissus est assuré notamment par les VLDL",
+            "E) Les HDL épurent les tissus des acides gras qu’ils contiennent et les ramènent au foie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Béta-oxydation des acides gras :",
+          "choix": [
+            "A) C’est une voie métabolique finement régulée par des effecteurs allostériques",
+            "B) C’est une voie catalytique activée directement par l’insuline",
+            "C) Elle se déroule dans les mitochondries",
+            "D) Elle nécessite l’activation préalable de l’acide gras en acyl-CoA",
+            "E) Elle aboutit directement à la génération d’ATP à chaque étape de l’hélice de Lynen"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La synthèse endogène des acides gras :",
+          "choix": [
+            "A) Est une voie métabolique activée en cas de régime hyperlipidique",
+            "B) Nécessite du FADH2 à la 2ème et à la 4ème étape",
+            "C) Nécessite la synthèse du malonyl-CoA pour être enclenchée",
+            "D) Permet de générer deux acides gras en parallèle",
+            "E) Aboutit à la synthèse d’acide palmitique"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours du jeûne :",
+          "choix": [
+            "A) La lipolyse adipocytaire est activée",
+            "B) La glycogénolyse hépatique est inhibée",
+            "C) La béta-oxydation des acides gras au niveau du foie alimente la cétogenèse",
+            "D) La protéolyse musculaire alimente la néoglucogenèse hépatique",
+            "E) La synthèse de glutamine par le muscle alimente l’ammoniogenèse rénale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La biosynthèse de novo du cholestérol",
+          "choix": [
+            "A) Se déroule dans le foie essentiellement, et en moindre quantité dans les tissus périphériques",
+            "B) Est à l’origine des 4/5ème du cholestérol endogène",
+            "C) Est inhibée par l’insuline au niveau du foie",
+            "D) Est régulée de façon transcriptionnelle au niveau de l’HMG-CoA réductase",
+            "E) Est inhibée pharmacologiquement par les Statines®"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du devenir des acides aminés :",
+          "choix": [
+            "A) Par désamination, ils peuvent être précurseurs d’hormones stéroïdes",
+            "B) L’oxydation de leur chaine carbonée peut produire des intermédiaires du cycle de Krebs",
+            "C) Par décarboxylation, ils sont précurseurs de neuromédiateurs tels que la sérotonine et le GABA",
+            "D) En s’associant, ils sont les précurseurs de la myoglobine",
+            "E) L’ammoniac, produit de leur catabolisme, est toxique et transformé par l’ammoniogenèse en urée pour être éliminé."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du devenir des protéines :",
+          "choix": [
+            "A) Tous les acides aminés protéinogènes sont présents dans l’alimentation",
+            "B) Les acides aminés utilisés par la cellule peuvent provenir des protéines endogènes",
+            "C) Les acides aminés libérés après action des protéases lysosomales peuvent être réutilisés par la cellule",
+            "D) Le protéasome, volumineux complexe enzymatique, assure la synthèse protéique",
+            "E) Une carence en un acide aminé essentiel comme la leucine aura des conséquences sur la synthèse protéique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les résultats du dépistage néonatal d’un nouveau-né mettent en évidence un taux de phénylalanine quatre fois supérieur à la normale. L’enfant est pris en charge au CHU, les analyses biologiques confirment une phénylcétonurie. Parmi les propositions suivantes, lesquelles sont vraies :",
+          "choix": [
+            "A) Cette maladie se transmet selon un mode autosomique dominant.",
+            "B) Cette maladie est caractérisée principalement par une synthèse endogène accrue de phénylalanine.",
+            "C) La concentration sanguine de phénylalanine est augmentée chez cet enfant.",
+            "D) Sans traitement, l’accumulation de phénylalanine entraîne un retard mental et des troubles du comportement chez les patients.",
+            "E) Il n’existe aujourd’hui aucun traitement pour cette maladie."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du catabolisme des acides aminés :",
+          "choix": [
+            "A) Il débute par une étape de désamination des acides aminés.",
+            "B) Les aminotransférases catalysent des réactions d’échange d’azote entre des acides aminés et des amines biogènes.",
+            "C) La désamination oxydative se déroule exclusivement dans le rein.",
+            "D) L’uréogenèse est une voie métabolique exclusivement hépatique.",
+            "E) L’ammoniogénèse est une voie métabolique qui est très active en période post-prandiale."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours d’un exercice physique",
+          "choix": [
+            "A) Le quotient respiratoire (QR) correspond au ratio VO2/VCO2 (consommation d’O2/production de CO2).",
+            "B) Au niveau des tissus périphériques, les besoins en glucose augmentent avec l’intensité de l’exercice.",
+            "C) Le lactate produit par les fibres musculaires glycolytiques peut être recapté dans les fibres oxydatives.",
+            "D) En absence de toute prise alimentaire dans les 3 heures qui précèdent le début d’un exercice physique de haute intensité, il existe une hyperinsulinémie dès le début de l’exercice.",
+            "E) Au début d’un exercice physique, on note une augmentation de l’hormone de croissance, GH, qui est fonction de la puissance relative de l’exercice."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Exercice physique et santé",
+          "choix": [
+            "A) L’exercice physique est une thérapeutique non médicamenteuse qui peut être prescrite sur ordonnance.",
+            "B) La pratique régulière d’un exercice d’endurance augmente la synthèse de l’apoB100.",
+            "C) La sédentarité est définie comme l’absence de pratique d’une activité sportive quotidienne.",
+            "D) La contraction musculaire favorise la captation du glucose par le muscle.",
+            "E) Chez les patients suspects de présenter une maladie de Mc Ardle, il est fréquent de poser le diagnostic de cette maladie par l’élévation considérable de lactate qu’ils présentent à l’exercice."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294587937-ff0922b5cf177",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Marie M., 27 ans, consulte son médecin traitant pour un désir de grossesse. Elle est suivie pour une endométriose (présence de glandes ou de stroma endométrial en position ectopique, c’est-à-dire en dehors de la cavité utérine). Elle fume 3 à 4 cigarettes par jour depuis l’âge de 18 ans.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "D’après les données épidémiologiques tirées de la cohorte NAHNES (National Health and Nutrition Examination Survey) entre 1999–2006 présentées dans la figure 1, quelles vitamines ont un effet « bénéfique » vis-à-vis de l’endométriose ?",
+          "choix": [
+            "A) Vitamine A",
+            "B) Vitamine B9",
+            "C) Vitamine B12",
+            "D) Vitamine C",
+            "E) Vitamine E"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/biochimie-s3/2025/q16.png?v=1786294588072"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le risque majeur d’un déficit en vitamine B9 en début de grossesse ?",
+          "choix": [
+            "A) anémie maternelle",
+            "B) défaut de vision crépusculaire maternelle",
+            "C) défaut de fermeture du tube neural",
+            "D) hypocalcémie foetale",
+            "E) dermatite entéropathique du nouveau né"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les rôles métaboliques des vitamines :",
+          "choix": [
+            "A) La vitamine B1 est nécessaire au métabolisme du glucose",
+            "B) L’hyperhomocystéinémie peut être corrigée par un apport en vitamine B2",
+            "C) La vitamine C permet de produire une matrice extracellulaire de bonne qualité",
+            "D) La vitamine D est le précurseur de la synthèse endogène des acides rétinoïques",
+            "E) La vitamine B6 permet la synthèse hépatique de la cystéine à partir d’homocystéine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

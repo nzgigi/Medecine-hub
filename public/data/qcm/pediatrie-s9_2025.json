@@ -1,0 +1,553 @@
+{
+  "matiere": "Pédiatrie",
+  "slug": "pediatrie-s9",
+  "annee": 2025,
+  "title": "Pédiatrie - 2025",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une petite fille âgée de 6 semaines est amenée aux urgences pédiatriques dans un contexte de toux sèche, évoluant par quintes. Dans ses antécédents, on note une naissance à terme, sans facteur de risque d’infection néonatale bactérienne précoce. Poids de naissance 2900 g.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les réponses suivantes concernant la coqueluche citez les deux justes :",
+          "choix": [
+            "A) Le seul germe responsable est Bordetella pertussis",
+            "B) Il s’agit d’une infection bactérienne avec un bacille GRAM positif",
+            "C) La durée d’incubation est très rapide, environ 48h",
+            "D) La contagiosité peut durer jusqu’à 3 semaines après le début des signes cliniques",
+            "E) Le germe responsable libère des toxines à tropisme respiratoire et neurologique"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La coqueluche peut-être à l'origine de différentes complications, parmi les suivantes citez les 5 items justes.",
+          "choix": [
+            "A) Fracture de côtes",
+            "B) Hémorragies digestives",
+            "C) Prolapsus",
+            "D) Syndrome de Guillain Barré",
+            "E) Pyélonéphrite aigue",
+            "F) Infarctus du myocarde",
+            "G) Insuffisance hépatique aiguë",
+            "H) Arrêt cardio-respiratoire",
+            "I) Pneumothorax",
+            "J) Emphysème médiastinal",
+            "K) ulcère cutané"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "H",
+            "I",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’examen complémentaire permettant de faire le diagnostic de coqueluche ?",
+          "choix": [],
+          "reponses": [
+            "PCR naso-pharyngée",
+            "PCR coqueluche nasopharyngée",
+            "PCR Bordetella nasopharyngée",
+            "PCR coqueluche",
+            "PCR pharyngée",
+            "PCR bordetella pertussis",
+            "PCR nasopharyngée",
+            "PCR Bordetella",
+            "PCR Bordetella Pertussis",
+            "PCR Bordetella pertussis",
+            "PCR nasopharyngé",
+            "PCR bordetella",
+            "PCR rhinopharyngée",
+            "PCR sur prélèvement nasopharyngé",
+            "pcr bordetella pertussis",
+            "PCR coqueluche sur écouvillon nasopharyngé",
+            "PCR sur prélèvement naso-pharyngé",
+            "PCR nasopharynx",
+            "PCR sur écouvillon naso-pharyngé",
+            "PCR Bordella pertussis",
+            "PCR BORDETELLA PERTUSSIS",
+            "PCR sur prelevement naso pharyngé",
+            "PCR naso-pharyngée bordetella pertussis",
+            "PCR coqueluche sur secrétions nasopharyngés",
+            "écouvillonage naso-pharyngé avec PCR bordetella pertussis",
+            "PCR bordella pertussis",
+            "test PCR rhinopharyngé",
+            "PCR sur prelevement nasopharyngé",
+            "PCR bordetella pertussis sur écouvillon nasopharyngé",
+            "PCR recherchant bordetella pertusis",
+            "PCR bordatella pertuissis",
+            "PCR nasopharyngee",
+            "PCR naso pharyngé",
+            "PCR Bordatella",
+            "PCR bordetella pertussi",
+            "PCR naso pharyngée",
+            "PCR sur écouvillonage nasopharyngé",
+            "pcr bortedella pertussi",
+            "pcr bortedella pertussis",
+            "PCR bordetella pertusius",
+            "PCR b pertussis"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297294609-1b9a2f85af8c7",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un enfant de 2 ans et 6 mois, à jour de ses vaccinations obligatoires, se présente aux urgences pédiatriques pour une toux fébrile depuis 3 jours. La fièvre est à 39°5 C, sans signe de mauvaise tolérance.\nLes paramètres vitaux à l’accueil sont : FC 145 bpm, SpO2 96%, FR 20/min, PA normale. L’auscultation pulmonaire retrouve des crépitants en base droite, on suspecte une pneumopathie infectieuse.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Citez l’examen complémentaire permettant de confirmer le diagnostic de pneumopathie ?",
+          "choix": [
+            "A) TDM thoracique",
+            "B) Dosage CRP",
+            "C) Cyto-bactériologie des crachats",
+            "D) Radiographie thoracique de face",
+            "E) Grill costal"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La radiographie thoracique de face montre une pneumopathie de la base droite.\nQuels sont les critères de gravité d’une pneumopathie aiguë chez l’enfant ?",
+          "choix": [
+            "A) L’âge < 12 mois",
+            "B) La présence de troubles hémodynamiques",
+            "C) L’apparition de sueurs",
+            "D) Une fièvre > 39°C",
+            "E) Un épanchement pleural associé"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 2 agents infectieux les plus fréquemment impliqués dans les pneumopathies d’un enfant de 2 ans et demi ?",
+          "choix": [
+            "A) Virus influenzae",
+            "B) Mycoplasme",
+            "C) Pneumocoque",
+            "D) Candida",
+            "E) Staphylocoque"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il s’agit d’une pneumopathie à pneumocoque. Quels sont les éléments cliniques qui peuvent orienter vers cette étiologie ?",
+          "choix": [
+            "A) Début progressif",
+            "B) Etat général altéré",
+            "C) Opacités mal limitées et bilatérales présentes à la radiographie thoracique",
+            "D) Mauvaise tolérance clinique",
+            "E) Absence de syndrome inflammatoire biologique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel traitement antibiotique proposez-vous à cet enfant ?",
+          "choix": [
+            "A) Amoxicilline 50mg/kg/j",
+            "B) Amoxicilline 75mg/kg/j",
+            "C) Amoxicilline 100mg/kg/j",
+            "D) Amoxicilline/Acide Clavulanique 80mg/kg/j",
+            "E) Azithromycine 20mg/kg/j"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297295734-555c7e39f50af8",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un garçon de 4 ans est amené en consultation par ses parents pour une diarrhée. Il n’a pas d’antécédent personnel particulier.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Au delà de quelle durée (en semaines), caractérise-t-on de chronique une diarrhée ?",
+          "choix": [],
+          "reponses": [
+            "3",
+            "3 semaines",
+            "3semaines",
+            "Trois",
+            "trois semaines",
+            "trois"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspecterez une pathologie organique si :",
+          "choix": [
+            "A) Si l’enfant a des selles la nuit",
+            "B) Les parents rapportent la présence d’aliments non digérés dans les selles",
+            "C) Les selles sont malodorantes",
+            "D) Il a des traces de selles dans la culotte",
+            "E) Il a un retard de croissance staturo-pondérale"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il a 3 selles molles par jour depuis 6 mois,Les selles sont non glairo-sanglantes. Son poids est de 12 kg, sa taille de 100 cm Quelle(s) est (sont) la (les) pathologie(s) à rechercher ?",
+          "choix": [
+            "A) Mucoviscidose",
+            "B) Allergie aux protéines du lait de vache",
+            "C) Maladie cœliaque",
+            "D) Diarrhée fonctionnelle",
+            "E) Intolérance au lactose"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez une maladie cœliaque.\nParmi les examens suivants quels sont les deux que vous demandez-vous en 1ère intention ?",
+          "choix": [
+            "A) IgG anti-transglutaminase",
+            "B) IgA anti-transglutaminase",
+            "C) IgA totales",
+            "D) IgG anti-endomysium",
+            "E) IgA anti-endomysium"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La maladie cœliaque est confirmée\nParmi les suivants, quels sont les 3 céréales qui contiennent du gluten ?",
+          "choix": [
+            "A) Blé",
+            "B) Orge",
+            "C) Maïs",
+            "D) Riz",
+            "E) Seigle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297297007-7eaa80d03a3f9",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quels sont les 2 signes cliniques en faveur d’une laryngite sous-glottique ?",
+          "choix": [
+            "A) Forte fièvre",
+            "B) Début nocturne",
+            "C) Antécédent identique il y a 1 an",
+            "D) Cornage",
+            "E) Sibilants entendus à l’auscultation"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les résultats suivants concernant l’analyse du Liquide céphalorachidien, citez deux résultats en faveur d’une méningite bactérienne",
+          "choix": [
+            "A) Protéinorachie à 0,4g/l",
+            "B) Présence de 50 lymphocytes par mm3",
+            "C) Rapport Glycorachie/Glycémie égal à 0,2",
+            "D) Prédominance de polynucléaires",
+            "E) Présence de 30 hématies par mm3"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En cas d’anaphylaxie chez un enfant de 2 ans, quelle est la voie d’administration en première intention de la thérapeutique d’urgence ?",
+          "choix": [],
+          "reponses": [
+            "intra musculaire",
+            "intramusculaire",
+            "intra-musculaire",
+            "IM",
+            "Intramusculaire",
+            "Intra-musculaire",
+            "voie intramusculaire",
+            "Intamusculaire",
+            "voie intra musculaire",
+            "injection intra-musculaire",
+            "Voie intra-musculaire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous voyez un enfant de 23 mois qui présente une fièvre depuis 5 jours avec une éruption maculo-papuleuse, une chéilite, une conjonctivite, une adénopathie cervicale unilatérale de 3 cm. Vous suspectez une maladie de Kawasaki. Quel autre critère majeur recherchez-vous à l’examen clinique :",
+          "choix": [],
+          "reponses": [
+            "Atteinte des extrémités",
+            "Oedème des extrémités",
+            "Oedème dos des mains et des pieds",
+            "Erythème des paumes et plantes",
+            "Erythème palmo-plantaire",
+            "Erythème des extrémités",
+            "oedèmes des extrémités",
+            "oedeme des mains",
+            "oedeme des pieds et des mains",
+            "Œdèmes des mains",
+            "oedemes des extremités",
+            "oedeme des extremites",
+            "desquamation des extremités (mains et pieds) et predominance eruption au niveau du siege",
+            "oedème des extremités",
+            "oedème et desquamation des extrémités",
+            "atteinte des extrémités (oedème, érythème et desquamation)",
+            "oedeme face dorsale des mains et des pieds",
+            "oedèmes des extrémités des membres",
+            "Eruption et oedèmes des extrémités",
+            "oedemes des extremités des membres",
+            "oedèmes des mains et des pieds",
+            "odème des mains",
+            "Oedèmes au dos des mains et pieds",
+            "Oedeme des extremités",
+            "oedeme du dos de la main"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une enfant de 1 an est amenée par sa maman aux urgences pédiatriques car elle a remarqué des taches sur la peau. Quel est votre diagnostic sémiologique sur la photo présentée ?",
+          "choix": [
+            "A) Ecchymose",
+            "B) Granulome",
+            "C) Purpura pétéchial",
+            "D) Purpura ecchymotique",
+            "E) Vibice"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/pediatrie-s9/2025/q18.png?v=1786297300637"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un nourrisson âgé de 4 semaines est amené par ses parents en urgence en raison de survenue de vomissements de lait, en jet, survenant 1h après la prise des biberons depuis 48h.\nQuel diagnostic devez-vous éliminer en première intention ?",
+          "choix": [
+            "A) Allergie aux protéines du lait de vache",
+            "B) Reflux gastro-oesophagien pathologique",
+            "C) Sténose hypertrophique du pylore",
+            "D) Gastro-entérite aigue",
+            "E) Malrotation intestinale"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors d’une Exploration Fonctionnelle Respiratoire, quels sont les arguments en faveur du diagnostic d’asthme ?",
+          "choix": [
+            "A) Réversibilité après bronchodilatateur",
+            "B) Volume Expiré Maximum Seconde (VEMS) / Capacité Vitale > 0,9",
+            "C) VEMS > 120%",
+            "D) Capacité Pulmonaire Totale <80%",
+            "E) Chute du VEMS de 15 % par rapport à la valeur basale à l’exercice"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La déficience intellectuelle ou trouble du développement intellectuel",
+          "choix": [
+            "A) Nécessite pour être affirmée une évaluation du fonctionnement adaptatif",
+            "B) Peut débuter à l’âge adulte",
+            "C) Représente 10 % de la population générale",
+            "D) Nécessite un score de quotient intellectuel inférieur à 70 (+ ou – moins 5)",
+            "E) Peut-être secondaire à une consommation d’alcool pendant la grossesse"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les crises fébriles ou crises hyperthermiques sont distinguées entre crises simples et complexes\nParmi les items suivants, dire celui ou ceux en faveur d’une crise complexe",
+          "choix": [
+            "A) Crise d’une durée de 5 min",
+            "B) Crise généralisée",
+            "C) Crise suivie d’un déficit hémicorporel",
+            "D) Crise survenant chez un enfant de 13 mois",
+            "E) Crises avec plusieurs récidives dans les 24 premières heures"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les fractures de l’enfant, quelles sont les affirmations vraies ?",
+          "choix": [
+            "A) Elles prédominent aux membres inférieurs",
+            "B) Une maltraitance doit être évoquée en cas de fracture survenant avant l’âge de la marche",
+            "C) En cas de traitement orthopédique après réduction d’une fracture déplacée, le membre est immobilisé dans la position inverse de celle qui a provoqué la fracture",
+            "D) L’épiphysiodèse post-traumatique est une complication à redouter après une fracture en bois vert",
+            "E) Le périoste est impliqué dans le remodelage des fractures"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "A : elles prédominent aux membres supérieurs\nD : L’épiphysiodèse post-traumatique est une complication à redouter après une fracture décollement épiphysaire. Les fractures en bois vert n’intéressent pas le cartilage de croissance",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

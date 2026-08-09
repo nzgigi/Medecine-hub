@@ -1,0 +1,471 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s6",
+  "annee": 2024,
+  "title": "Pharmacologie médicale - 2024",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une femme âgée de 35 ans, présente depuis 4 jours, une dysurie, des brûlures mictionnelles, une pollakiurie et une hématurie macroscopique. Elle déclare avoir souffert de 3 infections urinaires dans les 8 derniers mois.\nDès le début des symptômes (4 jours auparavant), suspectant une infection urinaire, elle a débuté sans avis médical, un traitement antibiotique par ciprofloxacine stocké dans son armoire à pharmacie.\nElle prend par ailleurs depuis plusieurs semaines de la fluoxétine pour un syndrome dépressif.\nConcernant les médicaments de cette patiente, quelle(s) proposition(s) est(sont) exacte(s) ? :",
+          "choix": [
+            "A) La ciprofloxacine est une Béta-lactamine",
+            "B) La fluoxétine est une antidépresseur imipraminique",
+            "C) La ciprofloxacine est une quinolone",
+            "D) La fluoxétine augmente la concentration intra synaptique de sérotonine",
+            "E) La ciprofloxacine est un antibiotique à faible risque d’antibiorésistance"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les caractéristiques de cet antibiotique, laquelle ou lesquelles sont exactes ? :",
+          "choix": [
+            "A) Mauvaise absorption digestive faisant privilégier l’administration par voie intraveineuse",
+            "B) Demi-vie de l’ordre de 15 heures",
+            "C) Diffusion limitée aux voies urinaires",
+            "D) Elimination par voie rénale",
+            "E) Métabolisation hépatique"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, quel est celui ou quels sont ceux de la fluoxétine ? :",
+          "choix": [
+            "A) Réaction allergique",
+            "B) Sécheresse buccale",
+            "C) Saignements",
+            "D) Rétention urinaire",
+            "E) Tremblements"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, quel est celui ou quels sont attendus avec la ciprofloxacine ?:",
+          "choix": [
+            "A) Coloration des dents après exposition intra-utérine",
+            "B) Photosensibilisation",
+            "C) Allongement de l’espace QT",
+            "D) Tendinites",
+            "E) Syndrome confusionnel"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous revoyez cette patiente 4 mois plus tard avec un tableau de pyélonéphrite pour lequel vous prescrivez de la ceftriaxone. Concernant ce médicament, quelle est (ou sont) la (les) propositions exactes ?:",
+          "choix": [
+            "A) Prescription par voie intraveineuse une seule fois par jour",
+            "B) Possibilité d’allergie croisée avec les pénicillines",
+            "C) Les diarrhées sont plus fréquentes qu’avec les autres antibiotiques de la même classe du fait de son élimination biliaire",
+            "D) Risque d’interaction médicamenteuse car il s’agit d’un inhibiteur des CYP3A4",
+            "E) Bonne diffusion tissulaire au niveau osseux"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Afin de réaliser une prescription dans le cadre du bon usage des antibiotiques, vous vous êtes appuyé sur les éléments suivants pour cette prescription de ceftriaxone :",
+          "choix": [
+            "A) Prise en compte de la fonction rénale",
+            "B) Spectre antibactérien le plus large possible",
+            "C) Identification du germe",
+            "D) Connaissance des antécédents médicaux",
+            "E) Durée de traitement la plus courte possible"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "critiques": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299594290-d2f6e573888168",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la codéine et le tramadol, la(es)quelle(s) est(sont) exacte(s) ? :",
+          "choix": [
+            "A) Le tramadol est un antalgique opioïde de palier 2 de l’OMS",
+            "B) Le tramadol est un antagoniste des récepteurs opioïdes mu",
+            "C) L’utilisation de tramadol peut entraîner une dépression respiratoire",
+            "D) En 2024, la codéine est inscrite sur la liste des substances interdites de l’agence mondiale antidopage",
+            "E) En 2024, le tramadol est inscrit sur la liste des substances interdites de l’agence mondiale antidopage"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le mécanisme d'action des inhibiteurs des α-glucosidases, la(es)quelle(s) est(sont) exacte(s) ?:",
+          "choix": [
+            "A) Diminuer l'absorption du glucose au niveau digestif",
+            "B) Augmenter la production de glucose",
+            "C) Bloquer l'enzyme digestive qui permet l'absorption du glucose",
+            "D) Diminuer la résistance à l'insuline",
+            "E) Augmenter la sécrétion d'insuline"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les hormones thyroïdiennes de synthèse, la(es)quelle(s) est(sont) exacte(s) ?:",
+          "choix": [
+            "A) Leur introduction peut aggraver ou démasquer une cardiopathie",
+            "B) La demi-vie de la lévothyroxine est de 24 heures",
+            "C) Leurs propriétés pharmacologiques sont les mêmes que celles des hormones naturelles",
+            "D) La lévothyroxine correspond à la T3",
+            "E) Il existe un risque d’interaction médicamenteuse avec la carbamazépine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes , lesquelles sont exactes ? :",
+          "choix": [
+            "A) L’exposition prénatale au diethylstilbestrol augmente le risque de cancer",
+            "B) L’exposition prénatale au diethylstilbestrol augmente le risque de fausse couche pour les femmes ayant été exposées in utero",
+            "C) Les anticoagulants agissant sur la vitamine K sont à préférer à l’héparine pendant la grossesse",
+            "D) Les antagonistes des récepteurs de l’angiotensine peuvent être utilisés pour traiter l’hypertension gravidique",
+            "E) Les anti-inflammatoires non stéroïdiens sont contre-indiqués à partir du début du 6eme mois de grossesse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des risques liés à la prise d’un oestroprogestatif :",
+          "choix": [
+            "A) Son efficacité peut être diminuée lors de la prise concomitante de millepertuis",
+            "B) Son efficacité peut être diminuée lors de la prise concomitante d’un inhibiteur enzymatique comme le fluconazole",
+            "C) Elle est plus efficace qu’ un progestatif seul",
+            "D) Elle est contre-indiquée en cas d’hypertension artérielle sévère",
+            "E) Il faut suspendre la prise en cas d’immobilisation prolongée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la contraception médicamenteuse d’urgence:",
+          "choix": [
+            "A) Il peut s’agir d’une dose élevée d’estrogène",
+            "B) Il peut s’agir d’une dose élevée de progestatif",
+            "C) Il peut s’agir d’un modulateur des récepteurs de la progestérone",
+            "D) Il peut exister un risque d’inefficacité chez les patientes traitées par un médicament antirétroviral",
+            "E) Elle n’est plus efficace après une durée de 5 jours suivant le rapport non protégé"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, lesquels attribueriez-vous aux progestatifs ?",
+          "choix": [
+            "A) Métrorragies",
+            "B) Sècheresse cutanée",
+            "C) Méningiome",
+            "D) Fièvre",
+            "E) Augmentation de la densité minérale osseuse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des anti androgènes :",
+          "choix": [
+            "A) Les analogues de LHRH, utilisés en continu, diminuent la production de testostérone.",
+            "B) La cyprotérone est un progestatif anti-androgène",
+            "C) On peut réduire la production de testostérone en inhibant certains enzymes participant à la synthèse de DHEA",
+            "D) Le finastéride, indiqué dans le traitement de l’hypertrophie bénigne de la prostate, peut provoquer une alopécie",
+            "E) La prise d’anti-androgènes pendant la grossesse expose à un risque de virilisation du fœtus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des effets sur l’hémostase de l’association ethinylestradiol-gestodene:",
+          "choix": [
+            "A) Elle augmente le risque d’accident vasculaire cérébral",
+            "B) Elle multiplie par 2 le risque de thrombose veineuse par rapport à des femmes ne prenant pas de contraception",
+            "C) Elle multiplie par 4 le nombre de thrombose veineuse par rapport à des femmes ne prenant pas de contraception",
+            "D) Elle multiplie par 2 le risque de thrombose par rapport au risque d’une femme enceinte",
+            "E) C’est la contraception la moins risquée en matière de risque thrombogène"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des estrogènes :",
+          "choix": [
+            "A) Ils augmentent la synthèse protéique",
+            "B) Ils agissent majoritairement au niveau de récepteurs nucléaires",
+            "C) Ils peuvent entrainer une rétention hydrosodée",
+            "D) Ils augmentent l’activité des ostéoclastes",
+            "E) Ils peuvent entrainer une cholestase hépatique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’exposition prénatale aux médicaments psychotropes :",
+          "choix": [
+            "A) Les benzodiazépines traversent le placenta",
+            "B) Le syndrome de sevrage aux benzodiazépines se traduit par une hypotonie et une somnolence du nouveau-né",
+            "C) Le valproate augmente le risque de troubles du neurodéveloppement",
+            "D) Le valproate augmente le risque d’anomalie de fermeture du tube neural",
+            "E) Un syndrome d’imprégnation à la méthadone peut être traité par des doses dégressives de morphine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle est exacte ?",
+          "choix": [
+            "A) Les inhibiteurs de protéases inhibent la maturation des protéines virales",
+            "B) Le ritonavir est un puissant inducteur du CYP 3A4",
+            "C) Les inhibiteurs de protéases bloquent la transcriptase inverse",
+            "D) La stratégie de prophylaxie pré-exposition au VIH (PReP) associe au moins 4 médicaments antirétroviraux, dont deux inhibiteurs nucléosidiques de la transcriptase inverse",
+            "E) Le ritonavir est un analogue nucléotidique"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les médicaments ayant une activité sur les infections virales, quelle est la réponse exacte ?",
+          "choix": [
+            "A) Les analogues nucléosidiques empêchent la maturation des protéines virales",
+            "B) Les inhibiteurs de neuraminidases sont particulièrement destinés à lutter contre les infections à herpes virus",
+            "C) Les inhibiteurs de l’intégrase empêchent la maturation des protéines virales",
+            "D) La plupart des médicaments antiviraux directs sont virustatiques",
+            "E) L’aciclovir et le ganciclovir bloquent la transcriptase inverse des virus herpes"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant le vaccin contre le virus de la grippe, quelle est la proposition exacte ?",
+          "choix": [
+            "A) La vaccination avec un vaccin antigrippal permet une protection pour au moins 10 ans",
+            "B) Il s’agit d’un vaccin préparé à partir de virus inactivé tué",
+            "C) La vaccination contre la grippe nécessite une injection de rappel à un mois",
+            "D) Il s’agit d’un vaccin préparé à partir de fragments antigéniques de type polysaccharidiques",
+            "E) Chaque année l’Organisation Mondiale de la Santé sélectionne les souches virales (influenza A et B) circulantes dans les deux hémisphères pour la préparation des vaccins utilisés pendant les épidémies de grippe hivernale"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des propositions suivantes, laquelle (ou lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) L’effet inducteur enzymatique d’un médicament est en général spécifique d’une iso-enzyme de la famille des cytochromes P450",
+            "B) Les interactions pharmacodynamiques sont plus fréquentes que les interactions pharmacocinétiques dans la pratique médicale",
+            "C) L’effet inhibiteur enzymatique d’un médicament s’installe en général 2 à 3 semaines après le début de la prise médicamenteuse",
+            "D) La spiramycine est un inhibiteur du cytochrome CYP 3A4",
+            "E) La rifampicine est un inhibiteur du cytochrome CYP 3A4"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du médicament nirmatrelvir/ritonavir PAXLOVID° indiqué dans la COVID-19, parmi les propositions suivantes, laquelle (ou lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Le ritonavir est inhibiteur du cytochrome CYP 3A4.",
+            "B) Le ritonavir est utilisé pour ralentir le métabolisme du nirmatrelvir.",
+            "C) Comme le ritonavir est associé avec le nirmatrelvir, il n’induit pas d’interaction pharmacocinétique avec les autres médicaments.",
+            "D) L’association nirmaltrelvir/ritonavir + colchicine majore le risque de pancytopénie.",
+            "E) L’association nirmaltrelvir/ritonavir + simvastatine ne majore pas le risque de rhabdomyolyse."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

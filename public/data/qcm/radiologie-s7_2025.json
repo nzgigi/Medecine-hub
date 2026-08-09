@@ -1,0 +1,366 @@
+{
+  "matiere": "Radiologie",
+  "slug": "radiologie-s7",
+  "annee": 2025,
+  "title": "Radiologie - 2025",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez en consultation en homme de 65 ans pour des douleurs de l’hallux droit survenues deux jours auparavant. A l’examen clinique, l’articulation métacarpo-phalangienne du premier rayon est rouge, chaude, douloureuse. Il n’a pas de fièvre. Il n’a pas d’antécédents.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel examen complémentaire d’imagerie demandez-vous en première intention.",
+          "choix": [],
+          "reponses": [
+            "radiographies du pied",
+            "rx du pied",
+            "radiographie du pied droit",
+            "radiographie du pied",
+            "radiologie",
+            "radiographie pied",
+            "Radiographie du pied",
+            "radiographie pied droit",
+            "Radiographie du pied droit",
+            "radiographie du pieds",
+            "une radiographie du pied",
+            "radiologie face dorsale pied ciblee hallux",
+            "Radiographie de face du pied droit"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici la radiographie du pied. Quelles sont les réponses justes ?",
+          "choix": [
+            "A) Il existe des érosions para articulaires des articulations métatarso phalangiennes du premier et du cinquième rayon",
+            "B) Il existe une opacité dense juxta articulaire en regard de l’articulation métatarso phalangienne du premier rayon",
+            "C) La flèche A désigne le sésamoïde médial",
+            "D) La flèche B désigne l’os cuboïde",
+            "E) Il existe un pincement articulaire marqué de la MTP du 1 associé à une ostéosclérose sous chondrale et des ostéophytes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q2.png?v=1786299800834"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous ?",
+          "choix": [
+            "A) L’ostéolyse distale doit faire suspecter des acrométastases",
+            "B) La présence d’ostéophyte est évocatrice d’une arthrose métatarso phalangienne",
+            "C) La déminéralisation pommelée diffuse doit faire évoque un syndrome douloureux régional complexe Le pincement diffus de l’articulation doit faire évoquer une arthrite septique",
+            "D) L’opacité dense en regard de l’articulation métatarso phalangienne est évocatrice d’un tophus goutteux",
+            "E) Réponse E"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Entourez sur la radiographie le tophus goutteux responsable des manifestations cliniques",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 4,
+          "zones": [
+            {
+              "x": 0.35342261904761907,
+              "y": 0.28724888392857145,
+              "radius": 0.05,
+              "label": "ZAP"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q4.png?v=1786299801339"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le patient revient car les douleurs persistent. Vous suspectez une arthrite septique. Quel est l’examen le plus pertinent pour le diagnostic d’épanchement articulaire ?",
+          "choix": [],
+          "reponses": [
+            "Echographie",
+            "échographie",
+            "Échographie",
+            "l'échographie",
+            "échographie articulaire",
+            "échograpie articulaire",
+            "echographie de l'articulation",
+            "echographie articulaire"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299801701-6d404aa5ba9c",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez aux urgences un jeune homme de 17 ans pour un traumatisme du genou après une chute en ski. Il présente une impotence fonctionnelle. Tous les pouls sont présents.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Des radiographies sont réalisées. Entourez la zone pathologique\nzap",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 1,
+          "zones": [
+            {
+              "x": 0.8340773809523809,
+              "y": 0.5149042038690477,
+              "radius": 0.1
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q6.jpg?v=1786299801967"
+          ],
+          "correctionImage": "/images/qcm/radiologie-s7/2025/q6_correction.jpg?v=1786299802131"
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Nommez l'anomalie présente sur ce cliché ?",
+          "choix": [],
+          "reponses": [
+            "Hémarthrose",
+            "Epanchement articulaire",
+            "hemarthrose",
+            "Hemarthrose",
+            "épanchement articulaire",
+            "hemartrose",
+            "épanchement de genou a contenu sanguin",
+            "hémarthrose / épanchement",
+            "hemarthose / epanchement articulaire",
+            "hemarthose",
+            "epanchement",
+            "épanchement articulaire / hémarthrose",
+            "Épanchement (hémarthrose)",
+            "épanchement",
+            "epanchement hemarthrosique",
+            "hémarthrose du genou",
+            "opacité ( hémarthose)"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q7.jpg?v=1786299802227"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient consulte 1 mois après le traumatisme. Il persiste des douleurs à la palpation du compartiment latéral. Vous observez un tiroir antérieur. Vous demandez une IRM dont voici des images.\nQuelles sont les 4 propositions justes ?",
+          "choix": [
+            "A) Il existe un œdème du plateau tibial latéral",
+            "B) Il existe un œdème du plateau tibial médial",
+            "C) La flèche A désigne le ligament croisé antérieur",
+            "D) La flèche B désigne le ménisque médial",
+            "E) La flèche C désigne le ligament collatéral latéral",
+            "F) La flèche D désigne le ligament patellaire",
+            "G) Le ligament croisé antérieur est en hypersignal",
+            "H) Le ligament croisé postérieur est en hypersignal",
+            "I) Il n'y a pas d'épanchement articulaire",
+            "J) Il existe un œdème de la tête de la fibula",
+            "K) Les images sont extraites d’une séquence avec saturation du signal de la graisse"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "G",
+            "K"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q8.png?v=1786299802899"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299803329-abbb362b10f248",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Vous réalisez une échographie pour l'exploration de douleurs de l’hypocondre droit sans perturbation du bilan hépatique. Vous décrivez une image hyperéchogène avec cône d’ombre postérieur, déclive compatible avec une lithiase vésiculaire. Entourez sur l'image échographique suivante la lithiase vésiculaire.",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 1,
+          "zones": [
+            {
+              "x": 0.5379464285714286,
+              "y": 0.27978515625,
+              "radius": 0.03,
+              "label": "ZAP"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q9.png?v=1786299803701"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez en consultation une patiente qui a réalisé une échographie hépatique devant des douleurs de l’hypochondre droit sans perturbation du bilan hépatique. Voici un extrait du compte rendu de votre confrère radiologue.\n« le foie est de taille normale de contour régulier. Il n’y a pas de dilatation des voies biliaires intra ou extra hépatique. La vésicule biliaire est de paroi fine, de contenu liquidien alithiasique. Il existe :\n- dans le segment 6 une formation nodulaire mesurée à 12 mm anéchogène avec renforcement postérieur des échos compatible avec …..\n- dans le segment 8 en sous capsulaire une formation nodulaire mesurée à 23 mm hyperéchogène avec renforcement postérieur des échos compatible avec ….. »\nQuelle est la nature de la lésion située dans le segment 6 hépatique ?",
+          "choix": [],
+          "reponses": [
+            "Liquidienne",
+            "kystique",
+            "kyste",
+            "kyste liquidien",
+            "hydrique",
+            "Kyste",
+            "Kyste liquidien",
+            "un kyste",
+            "liquide",
+            "kyste hépatique",
+            "Kyste hépatique",
+            "kyste hepatique",
+            "liquidien",
+            "un kyste liquidien",
+            "kyste simple",
+            "un kyste hépatique",
+            "lésion kystique",
+            "nature liquidienne",
+            "kyste hydrique",
+            "Kystique (hydrique)",
+            "nature hydrique",
+            "lesion kystique",
+            "kyste de nature hydrique",
+            "liquidienne/kyste",
+            "Kyste liquidien hépatique",
+            "kystique (hydrique)",
+            "Liquidienne (kystique)",
+            "liquidienne kystique",
+            "kyste liquidien hepatique",
+            "Un kyste hydrique",
+            "Liquide",
+            "lésion kystique à contenu liquidien",
+            "kystique liquidienne",
+            "kystique hydrique",
+            "kystique (liquidienne)",
+            "hydrique (kyste)",
+            "kyste hydrique hépatique",
+            "kystique liquidien",
+            "lésion liquidienne",
+            "Kyste hepatique",
+            "kyste hépathique",
+            "kyste liquide"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous demandez un scanner du thorax pour un homme de 49 ans présentant une dyspnée avec douleur thoracique. Quelles sont les 3 propositions justes",
+          "choix": [
+            "A) La flèche A désigne la veine cave supérieure",
+            "B) La flèche B désigne le tronc de l’artère pulmonaire",
+            "C) La flèche C désigne la bronche souche gauche",
+            "D) Il existe un thrombus dans l’artère pulmonaire droite",
+            "E) Le scanner est présenté en fenêtre parenchymateuse"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q11.jpg?v=1786299805826"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 53 ans consulte pour des douleurs chroniques de l’épaule droite sans notion traumatique. A l’examen clinique, vous n’observez pas de limitations active ou passive des mobilités articulaires. Quelles sont les réponses justes ?",
+          "choix": [
+            "A) Il existe une diminution de la hauteur de l’espace sous acromial",
+            "B) Vous suspectez une rupture complète des tendons de la coiffe des rotateurs",
+            "C) La radiographie est compatible avec un rhumatisme à apatite",
+            "D) Il existe une arthrose acromio-claviculaire à l’origine du tableau clinique",
+            "E) Il existe une opacité dense en projection de l’espace sous acromial"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q12.png?v=1786299806262"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation en homme de 59 ans pour des douleurs lombaires droites faisant suspecter une colique néphrétique. Voici deux images extraites de son scanner.\nQuelles sont les propositions justes ?",
+          "choix": [
+            "A) Le scanner est réalisé avec injection de produit de contraste au temps tardif.",
+            "B) Il existe une dilatation pyelocalicielle gauche",
+            "C) La lésion située au pôle supérieur du rein gauche est de nature graisseuse",
+            "D) La lésion située au pôle inférieur du rein gauche est de nature liquidienne",
+            "E) L’image B est une reconstruction dans le plan sagittal"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/radiologie-s7/2025/q13.png?v=1786299806650"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

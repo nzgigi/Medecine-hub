@@ -1,0 +1,486 @@
+{
+  "matiere": "Médecine générale",
+  "slug": "medecine-generale-s10",
+  "annee": 2025,
+  "title": "Médecine générale - 2025",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 72 ans vous consulte à votre cabinet de médecine générale.\nIl est traité depuis 5 mois par prednisone en dose progressivement décroissante pour une pseudo polyarthrite rhizomélique.\nIl se plaint de prise de poids et de perte de force musculaire.\nVous constatez qu'il n'a pas d'analyse biologique sanguine et décidez d'en prescrire une. Que doit elle contenir ? 3 réponses attendues",
+          "choix": [
+            "A) Exploration des anomalies lipidiques",
+            "B) Parathormone (PTH)",
+            "C) Hba1c",
+            "D) Kaliémie",
+            "E) Glycémie à jeun"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le LDL-c est mesuré à 1,90 g/L, la glycémie 1,02g/L. Il n'a pas de trouble électrolytique. La clairance est mesurée à 59mL/min. Que vous manque-t-il pour calculer son score SCORE OP2 ? 3 réponses attendues",
+          "choix": [
+            "A) Valeur cholestérol total",
+            "B) Valeur triglycérides",
+            "C) Statut concernant le tabagisme",
+            "D) Valeurs de tension artérielle",
+            "E) La notion d'antécédent familial de premier degré CV précoce : < 50 ans chez l'homme et < 60 ans chez la femme"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous évaluez son risque cardio-vasculaire : il est à risque élevé. Quelle est la valeur seuil maximale en g/L de son LDL à viser ?",
+          "choix": [],
+          "reponses": [
+            "0,70",
+            "0.7",
+            "0.70",
+            "0,7",
+            "0,7 g/L",
+            "0,7 g/l",
+            "0,70 g/L",
+            "0,7g/L",
+            "0,70g/L",
+            "0,70 g/l",
+            "0.7g/L",
+            "<0,7 g/L"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez finalement introduit un traitement médicamenteux par statines. Lors d'une réévaluation clinique, il vous dit avoir l'impression de perdre en autonomie à son domicile.\nA l'interrogatoire, il n'a pas de plainte mnésique, n'a pas de signe en faveur d'un épisode dépressif.\nParmi les tests ou échelles suivants, lesquels vous semblent pertinents dans son cas lors de cette consultation ?",
+          "choix": [
+            "A) Mini Mental State Examination (MMSE)",
+            "B) Activities of Daily Living (ADL)",
+            "C) Instrumental Activities of Daily Living (IADL)",
+            "D) Appui unipodal",
+            "E) mini Geriatric Depression Scale (GDS)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "En visite à domicile, vous évaluez le risque de chute. Pointez deux éléments à risque de chute dans son salon.",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "zones": [
+            {
+              "x": 0.4174107142857143,
+              "y": 0.5044875372023809,
+              "radius": 0.13,
+              "label": "Facteur de risque de chute 1"
+            },
+            {
+              "x": 0.3638392857142857,
+              "y": 0.5312732514880952,
+              "radius": 0.115,
+              "label": "Facteur de risque de chute 2"
+            }
+          ],
+          "images": [
+            "/images/qcm/medecine-generale-s10/2025/q5.png?v=1786297009092"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297009401-40923c4005c278",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez en consultation de médecine générale en octobre, un homme de 65 ans.\nVous le voyez ce jour pour son suivi accompagné de sa femme.\nSes pathologies sont : une maladie athéromateuse responsable d’un AVC ischémique en 2021 sans séquelle, une HTA essentielle, une épisode dépressif compliqué d’insomnie.\nSes antécédents sont : une prématurité, deux pneumopathies à l’âge de 20 et 22 ans, un polytraumatisme à la suite d’un accident de scooter à 60 ans.\nIl présente un tabagisme actif à 30 PA, une consommation d’alcool à 2 verres de vin par jour depuis 10 ans.\nSon traitement comprend : Atorvastatine 40mg 1/jour, Acide Acétylsalicylique 75mg 1/jour, Enalapril + Hydrochlorothiazide 20 mg/12,5mg 1/jour, Mirtazapine 15 mg 2/jour.\nIl présente une toux chronique qu’il identifie être surtout invalidante le matin notamment de décembre à mars depuis plusieurs années. Il n’en jamais parlé parce qu’il sait très bien que « c’est lié au tabac mais n’arrive pas à arrêter ».\nL’auscultation cardio-pulmonaire est sans particularité, la tension est contrôlée à 130/80mmHg.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les arguments de l’énoncé qui vous font suspecter une BPCO ? (4 réponses attendues)",
+          "choix": [
+            "A) L'âge",
+            "B) Le sexe",
+            "C) Les comorbidités",
+            "D) Le traumatisme thoracique",
+            "E) Les antécédents de pneumopathie",
+            "F) Le tabagisme",
+            "G) La toux chronique",
+            "H) La polymédication",
+            "I) La normalité de l'auscultation pulmonaire",
+            "J) La prématurité",
+            "K) L'exogénose chronique"
+          ],
+          "reponses": [
+            "A",
+            "F",
+            "G",
+            "J"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Votre maison de santé pluriprofessionnelle est équipée d’un spiromètre et vous proposez au patient de réaliser cet examen afin de caractériser sa pathologie bronchique.\nQue recherchez-vous pour affirmer le diagnostic de BPCO ? (4 mots)",
+          "choix": [],
+          "reponses": [
+            "Trouble ventilatoire obstructif persistant"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelques années plus tard, il vous consulte pour une majoration depuis quelques jours de sa dyspnée avec augmentation de la toux et des expectorations non purulentes de couleur blanchâtre. Son dernier VEMS est à 70%. Il est stable sur le plan hémodynamique : TA 125/85mmHg, FC : 90, SaO2 95%, FR 17/min, T° 37°. Son auscultation retrouve des ronchis diffus.\nQue contient votre prise en charge ? (2 réponses attendues)",
+          "choix": [
+            "A) Une antibiothérapie par pénicilline après ECBC",
+            "B) Une majoration du traitement par bronchodilatateur de courte durée d’action",
+            "C) Une oxygénothérapie avec objectif de SaO2 > 96 %",
+            "D) La mise en place de corticostéroïdes inhalés",
+            "E) Une réévaluation à 48h"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297010343-5d4cc8cb22c46",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un homme de 55 ans consulte au printemps pour dyspnée à l’effort et toux avec expectorations glaireuses non sanglantes depuis 5 jours.\nIl est suivi pour une BPCO stade II, son dernier VEMS est à 70% .\nIl est tabagique à 35 PA.\nA l’examen : il est apyrétique, l’auscultation objective quelques sibilants et des ronchi diffus des deux champs avec un murmure vésiculaire présent et symétrique. Les constantes sont : FR 16/min, FC 89/min, TA 145/85mmHg, SaO2 98% en AA.\nQuel est le diagnostic le plus probable sur l’épisode actuel ?",
+          "choix": [
+            "A) Exacerbation de BPCO",
+            "B) Asthme surajouté",
+            "C) Adénocarcinome bronchique",
+            "D) Pneumopathie aigue communautaire",
+            "E) Sarcoïdose"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une jeune fille de 17 ans consulte en médecine générale pour le suivi de son asthme, traité par traitement inhalé à la demande.\nElle n’a pas d’autre antécédent.\nElle rapporte des symptômes diurnes et nocturnes environ deux fois par semaine.\nQu’allez-vous utiliser à l’interrogatoire pour statuer sur le contrôle de son asthme ?",
+          "choix": [],
+          "reponses": [
+            "Test de contrôle de l'asthme",
+            "Test contrôle asthme",
+            "ACT",
+            "Questionnaire ACT",
+            "Asthma Control Test"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un nourrisson est amené par son père en consultation de médecine générale pour l’examen de la deuxième semaine. L’interrogatoire et l’examen clinique menés permettent de noter que le nourrisson est en bonne santé.\nParmi les propositions ci-dessous, que devez vous évaluer puis noter de manière systématique dans le carnet de santé ?",
+          "choix": [
+            "A) Temps de recoloration cutanée < 3 secondes",
+            "B) Pouls fémoraux perçus et symétriques",
+            "C) Fréquence cardiaque",
+            "D) Tension artérielle",
+            "E) Recherche d'un souffle cardiaque"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En visite au domicile d’une patiente de 88 ans, vous souhaitez l’accompagner dans son vieillissement à domicile et décidez de mettre en place des aides.\nElle vit seule dans un appartement de plein pied au rez-de-chaussée.\nDepuis 3 mois elle souffre d’une gonarthrose qui a nettement limité son périmètre de marche. Elle maintient l’achat de ses courses alimentaires grâce à la superette à côté de son immeuble et cuisine ses repas seule, même si elle vous dit devoir faire attention à ce qu’elle achète pour ne pas dépasser sa pension de retraite.\nElle vous dit être surtout gênée lorsqu’elle doit faire de flexion de genou de plus de 90° dans les activités de la vie quotidienne, notamment l'habillage et la toilette.\nQuelles sont vos actions ?",
+          "choix": [
+            "A) Rédaction du formulaire pour demande d’allocation personnalisée d'autonomie",
+            "B) Prescription de séances de rééducation à domicile",
+            "C) Prescription de soins infirmiers à domicile",
+            "D) Prescription d'un lit médicalisé et matelas anti-escarre",
+            "E) Rédaction d'un certificat pour mise en place d'un portage de repas"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez un patient de 42 ans ayant été victime d'agression il y a 2 mois.\nVous notez lors de la consultation une anxiété et une insomnie en lien avec un épisode de stress post traumatique.\nIl vous demande une aide médicamenteuse.\nQuelle classe pharmacologique est à éviter dans cette situation ?",
+          "choix": [],
+          "reponses": [
+            "BZD",
+            "Benzodiazépine",
+            "Benzodiazépines"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un homme de 28 ans vous consulte pour mise à jour de ses vaccinations. Il n'a pas reçu de vaccin depuis l'âge de 14 ans.\nQuel type de vaccin lui recommandez vous ?",
+          "choix": [
+            "A) Anti-Diphtérie Tétanos Poliomyélite Coqueluche (DTCaP)",
+            "B) Anti-Diphtérie Tétanos Poliomyélite (DTP)",
+            "C) Anti-diphtérie (dose réduite) Tétanos Poliomyélite Coqueluche (dTCaP)",
+            "D) Anti-diphtérie (dose réduite) Tétanos Poliomyélite (dTP)",
+            "E) Anti-Diphtérie Tétanos Poliomyélite Coqueluche Haemophilus Influenzae Virus Hépatite B (DTCaPHibHépatiteB)"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 55 ans ayant présenté un infactus du myocarde il y a 3 ans vous consulte en médecine générale pour son suivi trimestrielle.\nIl ne se plaint d'aucun signe fonctionnel. L'examen clinique cardio-vasculaire est sans anomalie franche.\nLe LDLc est à 0.75 g/L sur la dernière biologie. La clairance via la formule du CKD EPI est à 91 ml/min. La glycémie à jeun est à 1,04 g/L. Il n'a de cytolyse hépatique.\nVous décidez de majorer son traitement\nQue doit contenir l'évaluation biologique à 3 mois ? 2 réponses attendues.",
+          "choix": [
+            "A) Exploration des anomalies lipidiques",
+            "B) TGO TGP",
+            "C) Créatininémie et clairance",
+            "D) CPK",
+            "E) Glycémie à jeun"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste et évaluez au domicile Mr S. Il s’agit d’un patient âgé de 88 ans, on retrouve dans ses antécédents une hypothyroïdie substituée, une fibrillation auriculaire, un antécédent d’adénocarcinome prostatique en rémission à la suite d’un traitement par hormonothérapie et radiothérapie.\nSes traitements actuels sont Lévothyroxine sodique 75 ug/j et apixaban 5 mg matin et soir, Amlodipine 10 mg, Tamsulosine LP 0,4 mg.\nCe patient est pleinement autonome pour l’ensemble des activités de la vie quotidienne. Il a présenté une chute le mois dernier en se levant de son lit sans traumatisme associé.\nSon examen clinique retrouve une tension a 100/60mmhg, l’auscultation cardiopulmonaire est normale, il n’y a pas d’œdèmes des membres inférieurs, sa saturation en oxygène est à 96%AA. Vous observez dans le carnet du patient des tension artérielle mesurées régulièrement avec une moyenne à 104/62 mmHg sur le dernier mois.\nQuelle prise en charge proposez vous pour Mr V ? ( 3 réponses attendues)",
+          "choix": [
+            "A) Arrêt du traitement anti-hypertenseur",
+            "B) Majoration de la Tamsulosine LP 0,4 mg",
+            "C) Arrêt de l’Apixaban en cas d’hypotension orthostatique",
+            "D) Evaluation gériatrique standardisé pluriprofessionnelle en ambulatoire",
+            "E) Evaluation des capacités intrinsèques"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en médecine générale un patient de 66 que vous connaissez pour le suivi d'une BPCO post-tabagique. Ses dernières EFR le placent à un stade gold IV. Il consulte ce jour pour une majoration de sa dyspnée associée une majoration de ses expectorations qu'il trouve de couleurs verdâtres. La température est à 38.3°, il présente des ronchi diffus à l'auscultation. Quel(s) est/sont le(s) critère(s) qui participerai(en)t à justifier la prescription d'une antibiothérapie ?",
+          "choix": [
+            "A) Stade Gold IV",
+            "B) Expectoration purulente",
+            "C) Ronchi à l'auscultation",
+            "D) Age > 65 ans",
+            "E) Majoration de la dyspnée"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation une patiente de 36 ans. Elle n'a pas d'antécédent médico-chirurgical notable, elle ne consomme aucun toxique. Elle vous consulte car elle ressent de l'anxiété depuis une promotion professionnelle obtenue il y a deux mois. Ses amies trouvent qu'elle s'inquiète trop et lui ont recommandé de consulter. Elle n'est pas triste mais elle a du mal à s'endormir car elle rumine en envisageant toutes les mauvaises évolutions possibles de ses dossiers. Ses préoccupations sont centrées sur le travail. Elle continue pour autant à y aller. Elle a peur de faire des attaques de paniques à force bien qu'elle n'en ai jamais eu.\nQuelle(s) est/sont la ou les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Un trouble de la personnalité évitante",
+            "B) Un trouble d'anxiété généralisé (TAG)",
+            "C) Un trouble d'anxiété sociale (TAS)",
+            "D) Un trouble de l'adaptation (TA)",
+            "E) Un trouble de stress aigu (TSA)"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297013893-3cbd9d8b9a0ec",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez en consultation pour la première fois Mme S, une femme de 56 ans. Elle est Ukrainienne et est arrivée en France il y a 3 mois. Elle a perdu son mari il y a peu et a demandé l'asile en France. Elle n'a actuellement pas de logement stable, appelle le 115 tous les jours pour avoir une place d'hébergement d'urgence.\nElle présente comme seul antécédent personnel une cure de varices en 2017. Dans sa famille, son père était diabétique (découvert vers 60 ans) et a fait un infarctus du myocarde à 75 ans.\nElle arrive très inquiète à votre cabinet : elle présente depuis plusieurs semaines une asthénie et des sensations vertigineuses. Elle explique également qu'elle urine très souvent et boit de plus en plus depuis 15 jours environ.\nQuel diagnostic évoquez vous en premier lieu ?",
+          "choix": [],
+          "reponses": [
+            "Diabète de type 2",
+            "DT2",
+            "Diabète type 2",
+            "Diabète type deux",
+            "Diabète de type deux"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous vous rendez compte que Madame S n'a pas de carte vitale ni d'attestation de droits. Elle devrait pouvoir bénéficier de :",
+          "choix": [
+            "A) L'Aide Médicale d'Etat",
+            "B) La Complémentaire Santé Solidaire",
+            "C) D'une Protection Universelle Maladie, associée à une complémentaire privée",
+            "D) Aucune couverture médicale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "Etant demandeuse d'asile, depuis 3 mois dans le territoire, et sans ressources, elle peut bénéficier de la CSS. L'AME est uniquement pour les personnes en situation irrégulières sur le territoire.",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Elle vous explique qu'elle a été reçue dans une association récemment, et qu'une prise de sang a été réalisée. Elle présente une GAJ à 2,3 et une HbA1c à 11,2. Elle ne présente pas de cétonurie. Que lui proposez-vous ?",
+          "choix": [
+            "A) Vous lui prescrivez de la metformine à dose progressivement augmentée et recontrôlez le bilan à 3 mois.",
+            "B) Sur conseil de votre correspondant diabétologue, vous lui prescrivez de la metformine et de l'insuline lente.",
+            "C) Madame n'ayant pas de droit, vous appelez la Permanence d'Accès aux Droits de santé, qui vous propose un RDV dans 3 semaines.",
+            "D) Vous remplissez une demande en Lits Halte Soins Santé afin de pouvoir introduire l'insuline dans de bonnes conditions.",
+            "E) Vous l'orientez vers les urgences afin qu'elle soit hospitalisée en diabétologie au plus vite."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "Dans ce cas, il y a besoin d'introduire de l'insuline, mais :\n- Cela ne peut être prescrit sur une ordonnance classique (Madame n'a pas de droits et devra donc régler la pharmacie)\n- Cela ne peut se faire chez une patiente à la rue.\nL'idéal est donc de négocier un RDV très rapide à la PASS en expliquant la situation afin d'avoir les prescriptions adaptées sur des ordonnances PASS et de demander un séjour rapide en LHSS pour introduire l'insuline.\nPas de critère d'urgence absolu pour une orientation aux urgences, notamment chez une personne sans droit qui risque de devoir régler son séjour hospitalier.",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Plus d'un mois plus tard, Madame S revient vous voir en consultation. Elle bénéficie maintenant d'une CSS. Un traitement par insuline lente a été introduit aux LHSS. Vous vous intéressez maintenant à l'évaluation des complications du diabète.",
+          "choix": [
+            "A) Vous l'orientez vers le gastro-entérologue afin de réaliser une endoscopie.",
+            "B) Vous lui prescrivez une prise de sang et une analyse d'urines où vous contrôlez la créatinine sanguine et la microalbuminurie.",
+            "C) Vous réalisez un ECG et l'orientez éventuellement vers un cardiologue pour un bilan cardio-vasculaire.",
+            "D) Vous examinez les pieds de Madame S. Elle ne fait pas d'erreur au monofilament et les pouls périphériques des membres inférieurs sont bien perçus et symétriques : elle semble avoir un pied diabétique de gradation 0.",
+            "E) Vous l'orientez vers l'ophtalmologue afin de réaliser un fond d'oeil."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "évaluation de la gradation du pied diabétique : item de rang B",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle molécule de première intention souhaiteriez vous ajouter pour la prise en charge de son diabète ?",
+          "choix": [],
+          "reponses": [
+            "Metformine"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

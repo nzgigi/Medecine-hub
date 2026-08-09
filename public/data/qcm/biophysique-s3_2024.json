@@ -1,0 +1,233 @@
+{
+  "matiere": "Biophysique",
+  "slug": "biophysique-s3",
+  "annee": 2024,
+  "title": "Biophysique - 2024",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "L’étude EPI-CT publiée en Lancet Oncology en 2022 apporte une contribution unique en communiquant l’évidence en termes de risque de cancers liés à des faibles doses d’irradiation en exploration médicale diagnostique par tomodensitométrie (TDM ou CT en anglais) pour une population pédiatrique ou des jeunes de moins de 22 ans.\nVoici le résumé de cette publication :\n\" L’étude européenne EPI-CT quantifie le risque de cancer encéphalique suite à la réalisation d’une TDM chez une population de moins de 22 ans.\nMéthodes : Base de données de 9 centres Européens. Patients éligibles : au moins une TDM avant l’âge de 22 ans documentée entre 1977 et 2014, absence d’antécédents de cancer, ou de tumeur encéphalique bénigne, toujours vivants et sans cancer 5 ans après la première TDM réalisée. Les patients ont été sélectionnés des 276 hôpitaux. Des données des registres nationaux ont permis de récupérer des renseignements de survie et de survenue de cancer de l’encéphale. Le risque relatif de développer un cancer per 100 mGy de dose absorbée à l’encéphale a été calculé selon un modèle linéaire de dose réponse. L’objectif principal a été d’enregistrer les dates de diagnostic des survenues de cancer de l’encéphale après les 5 ans depuis le premier examen TDM. Résultats : 658 752 sujets ont été éligibles pour l’étude. Il y avait 368 721 (56%) hommes et 290031 (44%) femmes. Pour une période médiane de suivi de 5.6 ans (2.4-10.1) sont apparus 165 cancers de l’encéphale, incluant 121 (73%) gliomes. La dose moyenne cumulée à l’encéphale a été de 47.4 mGy (écart type 60.9) pour tous les individus étudiés et de 76 mGy pour les sujets avec survenue de cancer de l’encéphale. Une relation linéaire dose-réponse a été observée pour tous les cancers de l’encéphale (RR per 100 mGy 1.27[95% CI 0·51–2·69]) et pour les gliomes séparément (RR per 100 mGy 1·11 [0·36–2·59]).\nInterprétation : La relation linéaire dose réponse pour le risque de cancer de l’encéphale et l’exposition aux rayonnements ionisants de la TDM dans cette étude multicentrique comportant des évaluations de doses individuelles souligne la nécessité de respecter le bon usage des indications de TDM en population pédiatrique et des adultes jeunes et l’utilisation des doses aussi basses que raisonnablement possible.\"",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le risque d’apparition d’un cancer de l’encéphale liée à la radioexposition lors d’une tomodensitométrie pour la population de cette étude est :",
+          "choix": [
+            "A) Précoce",
+            "B) Déterministe",
+            "C) Stochastique",
+            "D) Tardif",
+            "E) En relation linéaire sans seuil"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La conclusion de l’article souligne la nécessité de respecter les critères de radioprotections suivants :",
+          "choix": [
+            "A) Justification",
+            "B) Optimisation",
+            "C) Limitation",
+            "D) Règlementation",
+            "E) Non Opposition"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans cet article les doses mesurées et présentées représentent :",
+          "choix": [
+            "A) Des doses absorbées",
+            "B) Des doses équivalentes",
+            "C) Des doses efficaces",
+            "D) Des débits de dose",
+            "E) Des index de doses en TDM"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Afin de diminuer la dose absorbée et la dose équivalente lors d’un scanner pédiatrique, sont recommandés :",
+          "choix": [
+            "A) Ajuster les kV en fonction de la taille des enfants",
+            "B) Une acquisition en mode hélicoïdal",
+            "C) Une modulation de l’intensité en mAs",
+            "D) Respecter des protocoles adaptés aux poids et taille des enfants",
+            "E) Réaliser au moins une tomodensitométrie par an"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est selon vous l’examen d’imagerie médicale qui délivre le débit de dose le plus important",
+          "choix": [
+            "A) L’imagerie par résonance magnétique abdominale",
+            "B) Une radiographie panoramique dentaire",
+            "C) Une tomodensitométrie cérébrale",
+            "D) Une échographie abdominale",
+            "E) Une tomodensitométrie thoraco-abdomino-pelvienne"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les facteurs impliqués dans la cancérogenèse radio-induite pourraient être",
+          "choix": [
+            "A) La dose absorbée",
+            "B) Le débit de dose",
+            "C) La radiosensibilité du tissu",
+            "D) L’activation des proto oncogènes",
+            "E) L’activation des gènes suppresseurs de tumeurs"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les différences entre les effets déterministes et les effets stochastiques sont :",
+          "choix": [
+            "A) L’existence d’une dose seuil",
+            "B) La période de latence",
+            "C) La réversibilité des effets",
+            "D) La prévalence des cancers de toute cause",
+            "E) Les unités de mesures en radioprotection"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294719160-e472d941b91898",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies à propos de cette image du crâne où une hypo-densité occupe le territoire de l'artère cérébrale moyenne droite ?",
+          "choix": [
+            "A) c'est une IRM",
+            "B) c'est un scanner",
+            "C) cette image est normale",
+            "D) le patient est probablement hémiplégique du côté droit du corps avec cette tumeur cérébrale",
+            "E) le patient est probablement hémiplégique du côté gauche du corps avec cet accident vasculaire cérébral"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/biophysique-s3/2024/q8.png?v=1786294719384"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies à propos de ces 2 examens de l'épaule ?",
+          "choix": [
+            "A) A est une radiographie",
+            "B) B est un scanner",
+            "C) B est une IRM",
+            "D) la graisse est hyper-intense sur B",
+            "E) les corticales osseuses sont hypo-intenses sur B"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/biophysique-s3/2024/q9.png?v=1786294719927"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles propositions sont vraies à propos de cette mammographie ?",
+          "choix": [
+            "A) c'est une radiographie en effet Compton avec des RX de haute énergie",
+            "B) c'est une radiographie en effet photo-électrique avec des RX de basse énergie",
+            "C) l'effet Compton dépose plus de dose que l'effet photo-électrique",
+            "D) l'effet Compton dépose moins de dose que l'effet photoélectrique",
+            "E) la graisse est hypo-dense"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/biophysique-s3/2024/q10.jpg?v=1786294720612"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

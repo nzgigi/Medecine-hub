@@ -1,0 +1,314 @@
+{
+  "matiere": "Lecture critique d'article (LCA)",
+  "slug": "lca-s10",
+  "annee": 2025,
+  "title": "Lecture critique d'article (LCA) - 2025",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les raisons invoquées par les auteurs pour mener cette étude, citez la ou les propositions exactes (une ou plusieurs réponses exactes) :",
+          "choix": [
+            "A) Les approches pharmacologiques constituent la pierre angulaire de la prise en charge de l’obésité chez l’adolescent",
+            "B) L’obésité chez l’enfant et l’adolescent s’accompagne d’une augmentation du risque de dépression et de comportements suicidaires",
+            "C) Des données de pharmacovigilance depuis la commercialisation des agonistes du récepteur GLP1 ont identifié des centaines de cas de passage à l’acte suicidaire ou de suicides suite à la prise de ces médicaments",
+            "D) Les essais cliniques des agonistes du récepteur GLP1 suggèrent un effet potentiellement protecteur pour la dépression dans la population adolescente",
+            "E) Le profil neuropsychiatrique des effets indésirables des GLP1R est bien établi avec un risque augmenté d’idées suicidaires"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments agonistes du récepteur au glucagon-like peptide-1 (GLP1R), quelle est ou quelles sont les propositions exactes :",
+          "choix": [
+            "A) Ces médicaments sont des incrétinomimétiques, c’est-à-dire qu’ils agissent comme le GLP-1, hormone physiologique exerçant plusieurs effets sur la régulation du glucose et de l’appétit",
+            "B) Les récepteurs au GLP1 sont retrouvés au niveau du pancréas et au niveau du cerveau",
+            "C) Les GLP1R (exenatide, liraglutide, dulaglutide, semaglutide) indiqués dans la prise en charge du diabète de type 2 s'administrent par voie sous-cutanée à une fréquence variable selon les molécules, en association avec d’autres antidiabétiques oraux ou de l’insuline",
+            "D) Le sémaglutide et le liraglutide ont obtenu une AMM spécifique dans la prise en charge de l’obésité chez l’adolescent en Europe et aux Etats Unis",
+            "E) Les GLP1R sont des incrétinomimétiques en inhibant l'enzyme responsable de la dégradation des incrétines telles que le GLP1, entrainant un maintien de la concentration en GLP1"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel est l’objectif principal du travail présenté dans l’article (une seule réponse exacte)?",
+          "choix": [
+            "A) Vérifier si le traitement par GLP1R augmente le risque de suicide avéré chez l’adolescent diabétique",
+            "B) Vérifier si le traitement par GLP1R augmente le risque d’idées suicidaires ou de tentatives de suicide chez l’adolescent obèse, à l’exception des adolescents diabétiques",
+            "C) Evaluer l’efficacité en vie réelle d’un traitement par GLP1R sur la perte de poids et le maintien à long terme sur la perte de poids chez l’adolescent obèse avec un Indice de Masse Corporelle (BMI) supérieur au 95ème percentile de la population de même âge et sexe.",
+            "D) Comparer le risque de suicide avéré chez l’adolescent obèse selon l’exposition aux GLP1R ou autres médicaments utilisés pour la perte de poids",
+            "E) Comparer le risque d’idées suicidaires ou de tentatives de suicide chez l’adolescent obèse selon l’exposition aux GLP1R comparée à une prise en charge hygiéno-diététique (lifestyle intervention)"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) proposition(s) choisir parmi les suivantes pour qualifier cette étude ? (citer une ou plusieurs réponses exactes)?",
+          "choix": [
+            "A) Etude interventionnelle multicentrique internationale",
+            "B) Etude de cohorte exposé-non exposé",
+            "C) Etude observationnelle",
+            "D) Essai comparatif randomisé prospectif",
+            "E) Etude cas-témoin nichée dans une cohorte"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la population de l’étude, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Les adolescents inclus dans l’étude ont été sollicités et le consentement de leurs parents a été obtenu pour participer à cette étude",
+            "B) Les données utilisées sont issues d’une base de données internationale mutualisant les données de santé électroniques (EHR) de différentes structures d’assurance maladie dans le monde.",
+            "C) La source de données utilisée comportait au moment de l’extraction des données sur plus de 147 millions de patients de moins de 18 ans issus de 17 pays, ce qui assure une puissance confortable pour étudier le risque d’idées suicidaires et de tentatives de suicide.",
+            "D) La population de l’étude a été sélectionnée parmi les patients, âgés entre 12 et 18 ans avec un diagnostic d’obésité renseigné dans la base de données entre décembre 2019 jusqu’à juin 2024",
+            "E) Selon les éléments précisés dans la méthode, la définition de l’obésité pour sélectionner les sujets dans la base de données reposait sur la définition standardisée utilisée dans les essais cliniques, c’est-à-dire un indice de masse corporelle (BMI) supérieur au 95ème percentile de la population d’âge et de sexe identique."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La cohorte de l’étude a été reconstituée à partir des données enregistrées dans la base TriNetX. Quelle est ou quelles sont les propositions exactes concernant cette construction?",
+          "choix": [
+            "A) Les sujets exposés aux GLP1R devaient avoir un diagnostic d’obésité enregistré dans la base de données avant l’âge de 12 ans",
+            "B) Tous les sujets avec un diagnostic d’obésité devaient avoir une durée d’observation d’au moins 12 mois sans prise en charge de l’obésité avant leur entrée dans la cohorte",
+            "C) Les sujets exposés aux GLP1R étaient définis comme les sujets ayant au moins une prescription d’un GLP1R en même temps qu’un diagnostic d’obésité ou bien avec un diagnostic d’obésité dans les 12 mois précédents",
+            "D) Les sujets non exposés étaient définis dans la base de données comme les sujets ayant au moins une prise en charge hygiéno-diététique (lifestyle intervention), identifiée par des codes spécifiques dans la base de données en même temps qu’un diagnostic d’obésité ou bien avec un diagnostic d’obésité dans les 12 mois précédents",
+            "E) Les adolescents avec un diagnostic d’obésité ont été recherché dans la base de données TriNetX à partir de décembre 2019, permettant d’avoir au moins 12 mois d’observation avant la date index du premier patient incluable, c’est-à-dire à partir de la première date d’AMM pour l’obésité chez l’adolescent donnée par la FDA en décembre 2020"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les auteurs décrivent les variables à l’inclusion (baseline characteristics) dont ils ont tenu compte pour comparer le risque d’idées suicidaires ou de tentatives de suicide entre les sujets exposés ou non aux GLP1R. Quelle est ou quelles sont les propositions exactes concernant ces variables ?",
+          "choix": [
+            "A) Parmi les variables démographiques enregistrées dans l'étude, les caractéristiques raciales et ethniques soulèvent des questions éthiques et ne devraient pas être prises en compte dans cette étude",
+            "B) Les comorbidités telles que diabète ou pathologies psychiatriques ont été identifiées à partir de codes diagnostiques basés sur la classification internationale des maladies 10ème révision (ICD10)",
+            "C) L’identification de ces caractéristiques à l’inclusion a permis d’exclure de l’étude les sujets ayant déjà eu des comportements suicidaires enregistrés ou présentant une comorbidité dépressive",
+            "D) Toutes ces caractéristiques ont été incluses comme variables d’ajustement dans le modèle permettant d'estimer le risque relatif (hazard ratio, HR) pour évaluer l’association entre exposition aux GLP1R et idées suicidaires et tentatives de suicide",
+            "E) La prise en compte de ces variables dans la comparaison exposé-non exposé est pertinente, puisque certaines de ces variables peuvent être des facteurs de confusion potentiels"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les auteurs ont utilisé un appariement sur score de propension entre les deux groupes comparés (1ère prescription de GLP1R ou 1ère prise en charge hygiéno-diététique). Comme indiqué dans l’article, l’appariement sur le score de propension (PSM) s’est appuyé sur un modèle intégrant toutes les variables disponibles à l’inclusion dans la base de données. Quelle est ou quelles sont les propositions exactes concernant cet appariement ?",
+          "choix": [
+            "A) Chaque adolescent exposé (GLP1R) a été apparié à un adolescent non exposé (lifestyle) avec un score de propension d’être exposé proche (caliper distance)",
+            "B) L’appariement par le score de propension permet de minimiser le biais d’information",
+            "C) L’appariement par le score de propension permet de minimiser le biais de sélection",
+            "D) L’appariement par le score de propension permet de minimiser le biais d’attrition",
+            "E) L’appariement par le score de propension permet de supprimer la confusion résiduelle"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les critères de jugement choisis par les auteurs dans cette étude, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le critère de jugement principal est un critère combiné",
+            "B) Le critère de jugement principal est défini comme la survenue de tentatives de suicide ou de décès par suicide",
+            "C) Les codes de la classification internationale des maladies (ICD-10) utilisés pour identifier les idées suicidaires ont été validés pour leur capacité à identifier correctement ce type d’évènement",
+            "D) Le critère de jugement principal peut être considéré comme pertinent, mais aurait pu inclure également les décès par suicide",
+            "E) La fréquence attendue en population adolescente du critère de jugement principal choisi dans cette étude a permis d’estimer la taille minimale de la cohorte à reconstituer dans la base de données TriNetX"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La table « baseline characteristics » (page 1311) présente les informations relatives à la population de l’étude. Citez la ou les propositions exactes concernant ces données.",
+          "choix": [
+            "A) L’appariement par le score de propension permet d’augmenter la puissance de la comparaison exposé-non exposé",
+            "B) La distribution des caractéristiques raciales et ethniques suggèrent que la population adolescente obèse inclue dans cette analyse est représentative de cette population dans les pays participants à TriNetX (USA et Europe)",
+            "C) Les adolescents obèses exposés à un traitement par GLP1R présentent un profil de comorbidités et une obésité plus sévère que le groupe lifestyle intervention, suggérant un biais de sélection important dans la comparaison exposé-non exposé",
+            "D) L’appariement par le score de propension permet d’équilibrer les caractéristiques sur les comorbidités psychiatriques et les antécédents d’idées suicidaires ou de tentatives de suicide entre les groupes GLP1R et non-GLP1R",
+            "E) La cohorte finale après appariement sur le score de propension concerne des adolescents avec une obésité grave puisque ils sont en moyenne au dessus du 98ème percentile avec un indice de masse corporelle à 41 en moyenne"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la population incluse dans les analyses présentées dans cet article, citez la ou les propositions exactes :",
+          "choix": [
+            "A) L’analyse statistique explorant l’association entre GLP1R et idées suicidaires ou tentatives de suicide a porté sur 4052 patients",
+            "B) La présentation du flow chart suggère que les patients non exposés aux GLP1R à l’inclusion dans la cohorte appariée sur le score de propension n’ont jamais été exposés ultérieurement (dans le suivi de l’étude) à ces médicaments",
+            "C) L’analyse statistique explorant l’association entre GLP1R et idées suicidaires ou tentatives de suicide a porté sur 6912 patients",
+            "D) Les patients traités par GLP1R non indiqués pour le traitement de l’obésité ont été exclus puisque ceci relève d’un mésusage",
+            "E) La présentation du flow chart suggère que tous les patients traités par GLP1R ont eu une prise en charge hygiéno-diététique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les résultats concernant les différents critères de jugement explorés dans l’étude dans les 12 mois suivant la date index sont présentés dans la figure 1 et dans le texte page 1310. Comment interprétez-vous ces résultats (une ou plusieurs propositions justes) ?",
+          "choix": [
+            "A) Le risque d'idées suicidaires ou de tentative de suicide est réduit de 33% en faveur du groupe GLP1R par rapport au groupe témoin non exposé",
+            "B) L’association entre GLP1R et tentatives de suicide n’est pas significative probablement par manque de puissance",
+            "C) La différence de risque d’idées suicidaires ou de tentative de suicide est de 0,9% en faveur du groupe GLP1R par rapport au groupe témoin non exposé",
+            "D) L’association entre GLP1R et infections respiratoires (URTI) n’est pas significative probablement par manque de puissance",
+            "E) L’association entre GLP1R et troubles gastro-intestinaux (GI symptoms) est significative en défaveur des GLP1R, ce qui renforce la robustesse de la comparaison, les GLP1R étant bien connus comme pourvoyeurs de ces effets indésirables attendus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les résultats additionnels présentés dans la figure 3 et dans le texte détaillent l’estimation du risque selon le sexe; la race/ethnie ; sémaglutive ou liraglutide ; la comorbidité diabétique ; l’absence de chirurgie bariatrique, ou bien globalement selon la variation de la durée de suivi pour la mesure des évènements. Quels sont les items que vous retenez pour l’interprétation de ces informations (une ou plusieurs propositions exactes) :",
+          "choix": [
+            "A) La multiplication de ces analyses augmente le risque alpha (conclure à tort à une différence qui n’existe pas), elles n’ont donc aucun intérêt pour interpréter les résultats de cette étude",
+            "B) Faire varier la durée du suivi pour la mesure de la survenue de l’évènement peut être intéressant puisque dans cette étude, nous n’avons pas d’information sur la période à risque « suicidaire » après initiation d’une prise en charge",
+            "C) Les résultats observés dans l’analyse stratifiée par sous-groupes (figure 3 A) ne permettent pas d’identifier de profil à risque, les associations devenant toutes non significatives selon les catégories possiblement par manque de puissance",
+            "D) Ces résultats permettent de s’assurer que l’analyse sur le critère de jugement principal de l’étude est robuste lorsque on fait varier la durée de suivi ou selon les catégories de patients",
+            "E) L’analyse supplémentaire en avançant d’un an la date index pour les adolescents inclus dans la cohorte appariée sur le score de propension pour comparer l’incidence des tentatives de suicide ou des idées suicidaires suggère que le risque de ces évènements est similaire avant l’initiation d’un traitement par GLP1R"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les limites et les avantages de cette étude, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Malgré l’appariement par score de propension, on ne peut éliminer un biais d’indication, en raison des mises en garde sur la surveillance des idées suicidaires avec le liraglutide émises par la FDA pendant le temps de l’étude",
+            "B) Compte tenu de la taille de l’étude et de la nature multicentrique et internationale de la base de données, les résultats de cette étude peuvent être transposés à la population adolescente obèse de tous les pays ayant accès à ces médicaments",
+            "C) Les caractéristiques des patients présentés dans l’étude suggèrent que les données proviennent majoritairement des états unis. Sachant les difficultés d’accès et les tensions d’approvisionnement pour ces médicaments depuis l’obtention d’AMM dans l’obésité, les résultats de cette étude devraient être confirmés dans d’autres populations",
+            "D) La valeur exacte de l’indice de masse corporelle permettant de caractériser l’obésité par rapport aux valeurs attendues pour le sexe et l’âge est un facteur de confusion majeur à prendre en compte dans cette analyse",
+            "E) Une des limites majeures de l’étude concerne le choix comme comparateur de référence des adolescents « never users « (jamais exposés)"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la généralisation des résultats de cette étude, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Cette étude confirme que la prescription de GLP1R chez l’adolescent obèse permet de limiter le risque suicidaire dans cette population vulnérable",
+            "B) Les résultats de cette étude sont difficilement généralisables à l’ensemble de la population des 17 pays contributifs à la base de données TriNetX puisque il n’y aucune information disponible sur l’origine géographique des adolescents inclus (pour des raisons de confidentialité)",
+            "C) Les résultats de cette étude sont cohérents avec les données de la littérature",
+            "D) Cette étude confirme que le risque d’idées suicidaires est constant au cours du temps dans la prise en charge des adolescents obèses",
+            "E) Les résultats de cette étude permettent de lever les recommandations de suivi des idées suicidaires au cours du traitement énoncées par la FDA pour le liraglutide"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

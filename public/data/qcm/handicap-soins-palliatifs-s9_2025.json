@@ -1,0 +1,673 @@
+{
+  "matiere": "Handicap et soins palliatifs",
+  "slug": "handicap-soins-palliatifs-s9",
+  "annee": 2025,
+  "title": "Handicap et soins palliatifs - 2025",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mme Y … vient vous voir pour une douleur de la cheville. Il y a 5 semaines, elle a présenté une entorse des ligaments latéraux externes de la cheville Droite. Elle a bénéficié d’un traitement orthopédique par botte plâtrée pendant 3 semaines. A l’ablation du plâtre et malgré une prise en charge par kinésithérapeute l’appui n’a pu être repris et la patiente est douloureuse. La patiente décrit des douleurs permanentes avec un renforcement nocturne à type de décharge électrique. A l’examen clinique vous notez un œdème de la cheville avec une augmentation de la température locale et une peau suintante de sueur chez une patiente anxieuse.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les diagnostics que vous pouvez évoquer ?",
+          "choix": [
+            "A) Une arthrite septique",
+            "B) Une fracture des os du pieds",
+            "C) Une para-ostéoarthropathie neurogène",
+            "D) Un syndrome douloureux régional complexe",
+            "E) Une thrombophlébite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le bilan biologique retrouve une CRP à 2 et une NFS avec 5000 leucocytes. La radiographie du pied et le doppler veineux sont sans anomalies. Dans ce contexte quel est le diagnostic le plus probable.",
+          "choix": [
+            "A) Une fracture des os du pieds",
+            "B) Une arthrite septique",
+            "C) Un syndrome douloureux régional complexe de type 1",
+            "D) Une thrombophlébite",
+            "E) Un syndrome douloureux régional complexe de type 2"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous pensez à un syndrome douloureux régional complexe de type 1. Dans ce contexte quels sont les examens paracliniques indispensables ?",
+          "choix": [
+            "A) IRM",
+            "B) Scintigraphie Osseuse",
+            "C) EMG",
+            "D) TDM",
+            "E) Aucun"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le contexte d'un syndrome douloureux régional complexe (SDRC) quelles sont les propositions vraies?",
+          "choix": [
+            "A) L’IRM est sensible, peu spécifique, peu accessible",
+            "B) La biologie retrouve une augmentation de la CRP",
+            "C) La scintigraphie est positive précocement",
+            "D) Les signes radiologiques sont retardés",
+            "E) La TDM est spécifique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les caractéristiques habituelles d'un syndrome douloureux régional complexe de type 1?",
+          "choix": [
+            "A) Douleur de type neuropathique disproportionnée par rapport au traumatisme initial",
+            "B) recherche d'une compression nerveuse",
+            "C) signes cliniques de dysfonctionnement du système nerveux autonome",
+            "D) nécessité d'examens d'imagerie pour confirmer le diagnostic",
+            "E) localisation préférentielles aux membres"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les objectifs du traitement d’un syndrome douloureux régional complexe (SDRC) sont :",
+          "choix": [
+            "A) soulager la douleur",
+            "B) raccourcir l'évolution",
+            "C) maintenir une mobilité active",
+            "D) améliorer le pronostic",
+            "E) préparer une chirurgie réparatrice"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les traitements envisageables dans le cadre d’un syndrome douloureux régional complexe (SDRC)?",
+          "choix": [
+            "A) antalgique de palier I",
+            "B) antalgique de palier II",
+            "C) antalgique de palier III",
+            "D) prégabaline",
+            "E) duloxétine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez de la kinésithérapie. Quelles sont les mentions indispensables devant figurer sur cette ordonnance ?",
+          "choix": [
+            "A) Séances de kinésithérapie",
+            "B) Syndrome douloureux régional complexe de type 1",
+            "C) Nombre de séances",
+            "D) Douleur de la cheville droite",
+            "E) Techniques de rééducation à utiliser"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296004793-1bc9b375177498",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En tant que médecin de l’Equipe Mobile de Soins Palliatifs, vous rencontrez pour la première fois dans le service d’oncologie Mr P. âgé de 83 ans qui présente des douleurs abdominales diffuses, des vomissements et un retard de selles de 5 jours dans un contexte de carcinome neuro-endocrine peu différencié du rectum avec carcinose péritonéale. Il est apyrétique. Il est à jeun depuis 3 jours. Une voie veineuse périphérique a été posée, ainsi qu’une hydratation. Il vous précise qu’il n’arrive plus à dormir à cause des douleurs. Ces douleurs sont permanentes. Le patient les évalue avec l’échelle numérique à 7/10.\nQuel diagnostic évoquez-vous en priorité à ce stade ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome occlusif",
+            "Occlusion",
+            "Occlusion digestive",
+            "Occlusion intestinale",
+            "syndrome occlusif sur carcinose péritonéale",
+            "syndrome oclusif",
+            "Syndrome occlusif sur carcinose péritonéale",
+            "occlusion digestive sur carcinose péritonéale",
+            "occlusion sur carcinose péritonéale",
+            "syndrome occlusif sur carcinose peritoneale",
+            "occlusion intestinale sur carcinose péritonéale",
+            "symdorme occlusif sur carcinose peritonéale",
+            "occlusion sur carcinose",
+            "occlusion sur carcinose péritoneale",
+            "Syndrome occlusif sur carcinose péritonéal",
+            "occclusion digestive",
+            "syndrome occlusif sur carcinose peritonéale",
+            "syndrome occlusif chez un patient avec carcinose péritonéale dans un contexte de carcinome neuroendocrine peu différencié",
+            "du rectum",
+            "occlusion digestive sur carcinose peritonéale",
+            "syndrome occlusif sur carcinose peritoneal",
+            "occlusion intestinale due à une carcinose péritonéale",
+            "Occlusion sur carcinose peritonéale",
+            "Occlusion digestive sur carcinose péritonéale",
+            "sybdrome occlusif",
+            "syndrome occusif",
+            "Syndrome occlusif bas"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le bilan biologique retrouve une légère cholestase. L’imagerie met en évidence une progression de sa néoplasie au niveau hépatique et péritonéal.\nDevant la symptomatologie clinique, une occlusion intestinale en lien avec une carcinose péritonéale est donc suspectée. A propos du traitement médical d’une occlusion intestinale (1 réponse vraie attendue) :",
+          "choix": [
+            "A) Le traitement médical comporte une corticothérapie à forte dose et un anti sécrétoire anticholinergique.",
+            "B) Le traitement symptomatique des vomissements n’est à mettre en place que si ces symptômes persistent 24h après l’introduction de la corticothérapie.",
+            "C) La pose d’une sonde nasogastrique est contre-indiquée chez ce patient qui a une progression péritonéale.",
+            "D) Après 48h sans reprise du transit, il faut envisager un traitement laxatif de type lavement.",
+            "E) Le patient doit être mis à jeun et toute hydratation doit être arrêtée."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "maxReponses": 1,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parallèlement à l’introduction du traitement médical de l’occlusion intestinale, vous souhaitez mettre en place une analgésie multimodale chez ce patient. Quelle est la réponse juste ?",
+          "choix": [
+            "A) Introduction d’un patch de Fentanyl et d’un antispasmodique par voie per os",
+            "B) Introduction de Paracétamol et d’une pompe à Morphine par voie intraveineuse",
+            "C) Introduction de Paracétamol seul par voie intraveineuse",
+            "D) Introduction de Paracétamol et de Tramadol par voie intraveineuse",
+            "E) Introduction de Paracétamol et de Morphine par voie per os"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296007766-a6fa17508ac068",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Mme M. âgée de 66 ans présente un carcinome canalaire infiltrant mammaire gauche avec de nombreuses métastases synchrones au niveau pulmonaire. Le diagnostic a été porté à la suite du bilan d’une tuméfaction mammaire gauche douloureuse. Elle bénéficie actuellement d’une première ligne de chimiothérapie. Elle est OMS 1 et pèse 60 kg.\nElle n’a pas d’autre antécédent. Son traitement comporte du PARACETAMOL 1 gramme matin, midi et soir et lui permet de contrôler ses douleurs.\nElle est mariée et a trois enfants. Elle est retraitée, ancienne secrétaire médicale.\nLors d’une consultation de suivi avec son oncologue référent, elle le questionne sur la place des soins palliatifs dans son parcours de soin après avoir discuté avec ses anciens collègues (2 réponses vraies attendues).",
+          "choix": [
+            "A) Les soins palliatifs sont des soins actifs et continus ayant une approche globale du patient.",
+            "B) Les soins palliatifs ne peuvent être prodigués que par une équipe spécialisée en soins palliatifs.",
+            "C) Les soins palliatifs ne sont accessibles qu’aux patients de moins de 65 ans.",
+            "D) Une prise en charge palliative peut s’effectuer à domicile.",
+            "E) Mme M. ne peut pas bénéficier de soins palliatifs tant qu’elle poursuit sa chimiothérapie."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’issue de la consultation, son oncologue référent lui propose de rencontrer l’Equipe Mobile de Soins Palliatifs lors de sa prochaine hospitalisation de jour où elle y réalise sa chimiothérapie.\nA propos de la démarche palliative :",
+          "choix": [
+            "A) L’oncologue a obligatoirement utilisé l’outil « Pallia 10 » avant de solliciter l’Equipe Mobile de Soins Palliatifs",
+            "B) L’arrêt de la chimiothérapie ne s’envisagera que si l’imagerie de réévaluation de Mme M. montre une progression du cancer",
+            "C) Le recours à une radiothérapie n’est pas pertinent si Mme M. ne bénéficie plus de traitements spécifiques pour son cancer",
+            "D) A l’apparition d’un nouveau symptôme, l’oncologue doit hospitaliser en urgence Mme M.",
+            "E) L’oncologue peut demander conseil à l’Equipe Mobile de Soins Palliatifs pour la rédaction de prescriptions anticipées personnalisées pour Mme M. qui seront disponibles à domicile"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Mme M. souhaite qu’une de ses filles, qui est sa personne de confiance, soit présente lors de l’entretien avec l’Equipe Mobile de Soins Palliatifs.\nA propos de la personne de confiance (3 réponses vraies attendues) :",
+          "choix": [
+            "A) Elle doit être obligatoirement un membre de la famille.",
+            "B) Elle n’est pas nécessairement la personne à prévenir en cas d’urgence.",
+            "C) Elle peut assister aux consultations et entretiens médicaux.",
+            "D) Si la patiente ne peut plus s’exprimer, le témoignage de la personne de confiance prévaut sur les directives anticipées si elles ont été rédigées.",
+            "E) Elle peut être désignée même si le patient est sous tutelle avec l'autorisation du juge ou du conseil de famille s'il a été constitué."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296009010-449c8f266931e",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 67 ans, suivi depuis 3 ans pour un carcinome épidermoïde pharyngé métastatique au niveau ganglionnaire, pulmonaire et osseux, est accueilli sur une unité de soins palliatifs depuis une semaine. Des limitations ont été posées et discutées avec le patient, pour qui il est déraisonnable d’envisager une quelconque prise en charge réanimatoire, invasive ou non.\nIl manifeste une anxiété importante, difficile à soulager par différents moyens médicamenteux ou non médicamenteux. Elle est en lien avec un risque de « mourir étouffé » en raison de la progression loco-régionale de son cancer et d’une dyspnée qui se majore petit à petit.\nIl présente par ailleurs des douleurs importantes, en particulier osseuses, nécessitant un traitement par opioïdes forts dont les posologies sont réadaptées régulièrement. Ces douleurs sont décuplées lors des soins et de la toilette. Le patient demande s’il n’y a vraiment rien d’autre à faire pour le soulager de ces symptômes qui lui sont très pénibles.\nL’équipe se questionne sur la pertinence d’une sédation pour ce patient.\nParmi les propositions suivantes, quelles sont les 5 qui sont correctes à propos des indications et de la mise en place d’une sédation dans cette situation ?",
+          "choix": [
+            "A) A. Une sédation intermittente lors des soins pourrait se discuter.",
+            "B) B. Il est pertinent d’anticiper la possibilité d’une sédation en urgence si une détresse respiratoire asphyxique survenait.",
+            "C) C. L’anxiété ne peut pas être un motif retenu pour envisager une sédation.",
+            "D) D. Le caractère insupportable d'une souffrance est évalué de façon objective par le médecin.",
+            "E) E. En dehors du cas de la sédation profonde et continue maintenue jusqu’au décès, il n’est pas utile de proposer un temps de réflexion collégiale pour envisager une sédation.",
+            "F) F. En France, il est possible depuis la loi de 2016 de bénéficier d'une sédation profonde et continue maintenue jusqu'au décès, selon certains critères encadrés par la loi.",
+            "G) G. La procédure collégiale, dans le contexte d’une possible sédation profonde et continue maintenue jusqu’au décès, doit réunir un collège de médecins ainsi que la personne de confiance désignée par le patient.",
+            "H) H. Il n'existe pas d'échelle validée pour évaluer la profondeur de la sédation d'un patient.",
+            "I) I. Le midazolam, de par sa demi-vie courte, n’a pas sa place pour la mise en place d'une sédation.",
+            "J) J. La mise en place d’une sédation permettrait de se passer des antalgiques, notamment des opioïdes forts.",
+            "K) K. Si une sédation était mise en place, il faudrait questionner le reste des traitements et envisager de retirer ceux qui pourraient induire un maintien artificiel en vie.",
+            "L) L. L’accompagnement des proches et des soignants est important pendant le temps que dure une sédation maintenue jusqu’au décès."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "F",
+            "K",
+            "L"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En souhaitant soulager une souffrance réfractaire, il est parfois nécessaire de majorer les posologies de certains traitements (opioïdes notamment), au risque d’abréger la vie du patient. A quel principe cela fait-il référence (2 mots) ?",
+          "choix": [],
+          "reponses": [
+            "Double effet",
+            "Double-effet",
+            "Double Effet",
+            "Double-Effet",
+            "double effet",
+            "double-effet",
+            "DOUBLE EFFET",
+            "DOUBLE-EFFET",
+            "double Effet",
+            "double-Effet",
+            "effet double",
+            "principe du double effet",
+            "principe de double effet",
+            "double-éffet"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos des pratiques sédatives et des pratiques telles que l’euthanasie et le suicide assisté, quelles sont les propositions exactes parmi les suivantes ?",
+          "choix": [
+            "A) A. Dans la mesure où la sédation s’accompagne par définition d’un raccourcissement de la durée de vie du patient, elle peut être assimilable à une euthanasie.",
+            "B) B. Dans le cas d’une sédation comme d’une euthanasie, le résultat escompté est le décès du patient.",
+            "C) C. L’intention est un critère-clef pour distinguer sédation et euthanasie ou suicide assisté.",
+            "D) D. La sédation se définit comme la recherche, par des moyens médicamenteux, d’une diminution de la vigilance.",
+            "E) E. En France, à la différence de l’euthanasie, le suicide assisté est actuellement autorisé dans certaines situations encadrées par la loi."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296011783-c5e41b179f3468",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les antalgiques suivants, quels sont ceux appartenant aux antalgiques de palier 2 selon la classification de l'OMS (3 réponses vraies attendues) ?",
+          "choix": [
+            "A) Le Nefopam",
+            "B) Le Tramadol",
+            "C) L'Hydromorphone",
+            "D) La codéine",
+            "E) Le Pentazocine",
+            "F) La Buprenorphine",
+            "G) La poudre d'opium",
+            "H) Le Fentanyl",
+            "I) Le Paracetamol"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Dans le cadre d'une douleur neuropathique périphérique localisée, quel traitement est indiqué en première intention, en dehors de la neurostimulation électrique transcutanée (ou TENS) ou des traitements per os ?",
+          "choix": [],
+          "reponses": [
+            "Emplâtre de lidocaïne",
+            "Emplâtre de lidocaine",
+            "Emplatre de lidocaïne",
+            "Emplatre de lidocaine",
+            "emplâtre de lidocaïne",
+            "emplâtre de lidocaïne",
+            "emplâtre de lidocaine",
+            "emplatre de lidocaïne",
+            "patch de lidocaine",
+            "lidocaine",
+            "patch lidocaine",
+            "lidocaïne",
+            "emplâtres de lidocaïne",
+            "patch de lidocaïne",
+            "Patch de lidocaïne",
+            "emplatres de lidocaïne",
+            "Patch de lidocaine",
+            "patch lidocaïne",
+            "patch de Versatis",
+            "empatement de lidocaine",
+            "emplatre à la lidocaine",
+            "patch versatis",
+            "patch lidocaïne (anesthésie locale)",
+            "Patch de Lidocaine (Versatis)",
+            "empatement de lidocaïne",
+            "lidocaine anesthesiant local",
+            "anesthésique local (lidoicaine)",
+            "emplatre de lidocaine versatis",
+            "emplatre à la lidocaïne",
+            "emplatre de lydocaine",
+            "patch de lidocaïne transdermique",
+            "Patch lidocaïne",
+            "Emplâtre lidocaine",
+            "Versatis patch",
+            "patch lidocaïné",
+            "emplatrement de lidocaine",
+            "lidocaïne locale en patch",
+            "emplatrement de lidocaïne",
+            "patch de versatis",
+            "Patch de licodaïne"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'obstination déraisonnable :",
+          "choix": [
+            "A) Elle est définie en référence à un acte pouvant paraitre inutile, disproportionné ou qui n'a d'autre effet que le seul maintien artificiel de la vie",
+            "B) Elle ne concerne pas les examens radiologiques ou biologiques.",
+            "C) Dans le cas d'une discussion médicale à propos de Limitation ou arrêt de traitements (LAT), il n'est pas nécessaire de rechercher la volonté du patient.",
+            "D) Tous les cas de discussion de Limitations ou arrêts de thérapeutiques (LAT) nécessitent légalement la mise en place d'une procédure collégiale"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi la liste d'effets indésirables suivants, lequel n’est pas lié aux traitements opioïdes ?",
+          "choix": [
+            "A) L’apparition d’une confusion",
+            "B) L’apparition d'une somnolence",
+            "C) L’apparition d'une constipation",
+            "D) L'apparition d'une anémie",
+            "E) L’apparition d'une bradypnée",
+            "F) L’apparition d'une dysurie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des différentes trajectoires de fin de vie :",
+          "choix": [
+            "A) Selon le type de pathologie, il existe 3 trajectoires de fin de vie : « déclin rapide », « déclin graduel » ou « déclin lent »",
+            "B) Une maladie neurodégénérative suit classiquement la trajectoire de type « déclin rapide »",
+            "C) En contexte d'insuffisance cardiaque, la trajectoire est ponctuée d'événements aigus récurrents, avec un temps de récupération entre chaque épisode.",
+            "D) Chez les patients présentant une démence de type Alzheimer, les crises d'épilepsie sont la cause principale de mortalité.",
+            "E) Les patients souffrant d’une sclérose latérale amyotrophique (SLA) sont marqués notamment par une atteinte progressive mais réversible des muscles respiratoires."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) aide(s) la Maison Départementale des Personnes Handicapées (MDPH) va pouvoir donner à un patient de 35 ans ayant une SEP évoluée si il en a besoin ?",
+          "choix": [
+            "A) une carte Inclusion Mobilité lui permettant de se garer sur un emplacement réservé.",
+            "B) une prise en charge des transports pour se rendre chez son kinésithérapeute ou son orthophoniste.",
+            "C) une reconnaissance de qualité de travailleur handicapé",
+            "D) Une aide financière pour aménager sa salle de bains et pour améliorer l'accessibilité de son domicile",
+            "E) La prise en charge d'un lit médicalisé si cela devient nécessaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En ce qui concerne la gonarthrose, quelles sont les 3 réponses vraies ?",
+          "choix": [
+            "A) C'est la localisation la plus fréquente d'arthrose périphérique",
+            "B) L'antécédent personnel de lésion ligamentaire est un facteur de risque",
+            "C) La gêne fonctionnelle peut être évaluée par le score de WOMAC",
+            "D) Une ponction articulaire pour analyse du liquide synovial est indispensable au diagnostic",
+            "E) La présence d'un épanchement intra-articulaire doit faire évoquer un diagnostic différentiel"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 67 ans est hospitalisé après un AVC ischémique sylvien gauche. À l’examen, on note une hémiplégie droite, des troubles de la déglutition, et une aphasie. Parmi les éléments suivants, lesquels sont des complications possibles d’un AVC ischémique ?",
+          "choix": [
+            "A) Escarres",
+            "B) Pneumopathie d’inhalation",
+            "C) Spasticité des membres parétiques",
+            "D) Thrombose veineuse profonde",
+            "E) Hépatite auto-immune"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les mécanisme de troubles vésico-sphinctériens suivant, cocher les 2 mécanismes qui peuvent expliquer une dysurie",
+          "choix": [
+            "A) Trouble de la production d'urine",
+            "B) Trouble de la capacité vésicale",
+            "C) Hyperactivité du détrusor",
+            "D) Hypocontractilité du détrusor",
+            "E) Obstruction sous-vésicale"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 27,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous examinez un patient de 54 ans ayant présenté il y a 1 mois un AVC ischémique sylvien superficiel droit. Lors de la stimulation cutanée bilatérale, il ne perçoit pas le stimulus du côté gauche, alors qu'il est perçu correctement lors de la stimulation unilatérale. Vous lui faites lire une phrase, il commence au milieu de la phrase et la termine correctement. Comment se nomme la déficience présentée par le patient ?",
+          "choix": [],
+          "reponses": [
+            "Négligence spatiale unilatérale",
+            "Héminégligence",
+            "NSU",
+            "Négligence unilatérale",
+            "Négligence spatiale unilatérale gauche",
+            "Héminégligence gauche",
+            "NSU gauche",
+            "Négligence unilatérale gauche",
+            "héminégligeance",
+            "hémi-négligence",
+            "Héminégligeance",
+            "heminegligeance",
+            "Héminégligeance gauche",
+            "heminégligeance",
+            "hemi negligence",
+            "hemi-négligence",
+            "héminégligance",
+            "hémi négligeance gauche",
+            "héminéglicence",
+            "héminégligance gauche",
+            "Syndrome d’Anton-Babinski",
+            "héminegligeance",
+            "syndrome d'héminégligence",
+            "hémi négligence",
+            "Négligence unilatérale (héminégligence)",
+            "syndrome anton babinski",
+            "negligeance gauche",
+            "héminégligeance gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

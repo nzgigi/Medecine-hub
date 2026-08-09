@@ -1,0 +1,293 @@
+{
+  "matiere": "Rein et voies urinaires – Urologie",
+  "slug": "rvu-urologie-s6",
+  "annee": 2023,
+  "title": "Rein et voies urinaires – Urologie - 2023",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient cirrhotique en décompensation, avec de l’ascite, est en état d’anasarque. Sa natrémie est mesurée à 113 mmol/L, l’osmolalité est à 231 mosmol/kg.\nConcernant l’hyponatrémie :",
+          "choix": [
+            "A) Elle reflète une hyperhydratation intracellulaire.",
+            "B) Elle reflète une déshydratation globale.",
+            "C) On peut la caractériser comme une « hyponatrémie de dilution »",
+            "D) On peut la caractériser comme une « hyponatrémie de déplétion »",
+            "E) Elle se corrigera après une restriction hydrique et sodée, associée à un diurétique de type anti-aldostérone."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299956418-89a3026bd2ff",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez aux urgences une femme de 42 ans pour hématurie.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le seuil d'hématies au-delà duquel on peut poser le diagnostic positif d’hématurie sur un ECBU (à l'examen cytologique quantitatif des urines)",
+          "choix": [
+            "A) ≥ 1 hématie/mm3",
+            "B) ≥ 10 hématies/mm3",
+            "C) ≥ 100 hématies/mm3",
+            "D) ≥ 1000 hématies/mm3",
+            "E) Il n'existe pas de seuil diagnostique de l'hématurie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquelle des affirmations suivantes concernant l'hématurie sont exactes ?",
+          "choix": [
+            "A) Une hématurie urologique correspond à une lésion du parenchyme rénal ou de l'arbre urinaire saignement d'origine vasculaire",
+            "B) Une hématurie néphrologique correspond à un saignement d'origine vasculaire",
+            "C) Une hématurie macroscopique est toujours visible à l'œil nu",
+            "D) Une hématurie microscopique est un diagnostic biologique",
+            "E) Les hématurie néphrologique sont souvent d'origine glomérulaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquelles des caractéristiques suivantes de l'hématurie sont en faveur d'une origine urologique de celle-ci ?",
+          "choix": [
+            "A) Existence de caillots",
+            "B) Fièvre",
+            "C) Brûlures mictionnelles",
+            "D) Urines rosées",
+            "E) Œdème des membres inférieurs"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquelles des affirmations suivantes concernant la valeur localisatrice d'une hématurie macroscopique sont vraies ?",
+          "choix": [
+            "A) Une hématurie initiale est en faveur d'une origine vésicale",
+            "B) Une hématurie terminale est en faveur d'une origine rénale",
+            "C) Une hématurie terminale est en faveur d'une origine vésicale",
+            "D) Une hématurie totale n'a pas de valeur localisatrice si l'hématurie est abondante",
+            "E) Les hématurie rénales sont toujours totales"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles étiologies peut-on évoquer face a une hématurie de type urologique ?",
+          "choix": [
+            "A) Une infection urinaire",
+            "B) Une tumeur du rein",
+            "C) Une tumeur de la vessie",
+            "D) Une Lithiase vésiculaire",
+            "E) Un traumatisme du rein"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelques minutes après son arrivée aux urgences, la patiente n'arrive plus à uriner. Elle a une douleur sus-pubienne importante. Les dernières urines émises contiennent majoritairement des caillots. Quel diagnostic évoquez-vous ?",
+          "choix": [
+            "A) Endométriose",
+            "B) Rupture utérine",
+            "C) Cystite",
+            "D) Caillotage vésical",
+            "E) Grossesse extra-utérine"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299958211-7716e2bd1abae",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquels des symptômes suivants sont des symptômes de la phase de stockage des urines ?",
+          "choix": [
+            "A) Urgenturie",
+            "B) Pollakiurie",
+            "C) Gouttes retardataires",
+            "D) Sensation de vidange complète",
+            "E) Nycturie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquels des propositions suivantes concernant les mécanismes d'incontinence urinaire sont exactes ?",
+          "choix": [
+            "A) Un jet d’urine par le méat urétral pendant l’eﬀort, mais qui s’arrête dès que l’eﬀort est terminé évoque une incontinence urinaire mixte.",
+            "B) En cas d'incontinence urinaire à l'effort, il n'y a classiquement pas de fuite en position allongée.",
+            "C) En cas d'incontinence par urgenturie, la sensation de besoin est absente",
+            "D) Pour objectiver une incontinence urinaire à l'eﬀort, on demande au patient de tousser et on voit un jet d’urine s’échapper par le méat",
+            "E) En cas d'incontinence à l'effort, le patient surpris par le besoin urgent, ne peut pas se retenir et vide toute sa vessie."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les causes grave d’IU par urgenturie à rechercher ?",
+          "choix": [
+            "A) l'obésité",
+            "B) une tumeur de vessie",
+            "C) la ménopause",
+            "D) une infection urinaire",
+            "E) une neurovessie"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquelles des définitions suivantes sont exactes ?",
+          "choix": [
+            "A) Une polyurie est une augmentation du nombre de mictions par 24 heures",
+            "B) Une incontinence urinaire est une miction complète involontaire",
+            "C) Une énurésie est une fuite involontaire nocturne",
+            "D) Le patient présentant une nycturie se réveille plusieurs fois par nuit pour aller uriner",
+            "E) Une urgenturie est un désir soudain impérieux et irrépressible d'uriner"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquels des signes cliniques suivants permettent de différencier une rétention d'urine d'une anurie ?",
+          "choix": [
+            "A) existence d'une hypertrophie prostatique",
+            "B) existence d'une vessie vide",
+            "C) existence d'un globe vésical",
+            "D) existence de fuites d'urine",
+            "E) Existence d'une douleur sus-pubienne"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments de gravité en cas de rétention d'urine ?",
+          "choix": [
+            "A) Volume prostatique supérieur à 100 cc",
+            "B) Insuﬃsance rénale aiguë",
+            "C) Hématurie a vacuo",
+            "D) Vessie claquée",
+            "E) Syndrome de levée d'obstacle"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

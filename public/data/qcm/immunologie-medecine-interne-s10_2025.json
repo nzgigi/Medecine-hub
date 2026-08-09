@@ -1,0 +1,683 @@
+{
+  "matiere": "Immunologie et médecine interne",
+  "slug": "immunologie-medecine-interne-s10",
+  "annee": 2025,
+  "title": "Immunologie et médecine interne - 2025",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les complications ophtalmologiques de l'ACG, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) la complication la plus fréquente et typique est la neuropathie optique rétrobulbaire",
+            "B) elles peuvent survenir de façon totalement imprévisible",
+            "C) lorsque la perte de vision est installée, la récupération est généralement mauvaise malgré le traitement par corticoïdes",
+            "D) la survenue d'une amaurose transitoire chez un patient suspect d'ACG impose un traitement immédiat même si le diagnostic d'ACG n'est pas encore confirmé",
+            "E) la présence d'une PPR est associée à un risque plus élevé de complication ophtalmologique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "maladie de Takayasu: Parmi les affirmations suivantes, lesquelles sont exactes?",
+          "choix": [
+            "A) la maladie peut débuter à n'importe quel âge",
+            "B) la maladie épargne les artères carotidiennes et leurs branches",
+            "C) la maladie peut être responsable de coarctation aortique",
+            "D) la maladie peut être responsable d'hypertension artérielle réno-vasculaire",
+            "E) la maladie peut être responsable de glomérulonéphrite aigue"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les manifestations suivantes, lesquelles peuvent être provoquées par un lupus systémique?",
+          "choix": [
+            "A) péricardite aigue",
+            "B) atteintes diverses du système nerveux central",
+            "C) endocardite (non infectieuse)",
+            "D) polyarthrite",
+            "E) atteintes diverses du système nerveux périphérique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les vascularites, quelle affirmation est fausse?",
+          "choix": [
+            "A) les vascularites associées aux ANCA touchent les petits vaisseaux",
+            "B) le purpura rhumatoïde (vascularite à IgA) est caractérisé par la présence de facteurs rhumatoïdes",
+            "C) l'apparition d'une multinévrite chez un patient présentant un asthme récent corticodépendant et une éosinophilie fait évoquer une granulomatose éosinophilique avec polyangéite",
+            "D) la granulomatose avec polyangéite peut être responsable de nodules pulmonaires excavés",
+            "E) une vascularite à IgA peut être responsable d'hémorragie digestive"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le rituximab, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) il s'agit d'un anticorps monoclonal dirigé contre le TNF (tumor necrosis factor)",
+            "B) le rituximab peut être à l'origine de réactions sévères lors de la perfusion",
+            "C) le rituximab empêche l'élévation de la CRP",
+            "D) le rituximab masque la fièvre",
+            "E) il convient de vacciner les patients traités par rituximab contre le pneumocoque, la grippe et le coronavirus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "quelle est la cible moléculaire du tocilizumab",
+          "choix": [],
+          "reponses": [
+            "récepteur de l'interleukine 6",
+            "récepteur de l'IL6",
+            "récepteur de l'IL-6",
+            "récepteur de l'interleukine-6",
+            "récepteur de l'interleukine 6",
+            "IL6-R",
+            "IL-6R",
+            "récepteur IL6",
+            "recepteur de l'interleukine 6",
+            "recepteur IL6",
+            "recepteur de l'IL6",
+            "récepteur de IL-6",
+            "recepteur de l'interlekine 6",
+            "recepteur interleukine 6",
+            "recepteur a l’interleukine 6",
+            "Recepteur a interleukine 6",
+            "Récepteur interleukine 6",
+            "anti R IL6",
+            "Interleukines 6 récepteur",
+            "récepteur Il6",
+            "IL-6-R",
+            "Récepteur à l'Interleukine 6",
+            "récepteur IL-6",
+            "récepteur IL 6",
+            "récepteur de l’IL6",
+            "Recepteur interleukine 6"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "parmi les auto-anticorps suivants, lequel ne désigne pas un anti-phospholipide?",
+          "choix": [
+            "A) anti topoisomérase",
+            "B) anticoagulant circulant de type lupique",
+            "C) anticardiolipine",
+            "D) anti-beta2-glycoprotéine-1"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les paramètres suivants, lesquels ont une influence sur la vitesse de sédimentation érythrocytaire (VS)",
+          "choix": [
+            "A) taux d'hémoglobine",
+            "B) taux de plaquettes",
+            "C) présence d'une gammapathie monoclonale",
+            "D) hypergammaglobulinémie polyclonale",
+            "E) Indice de masse corporelle du patient"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels peuvent empêcher ou retarder une élévation de la C-reactive protéine?",
+          "choix": [
+            "A) paracétamol",
+            "B) prednisone",
+            "C) hydrocortisone à dose substitutive (20 mg par jour) chez un patient insuffisant surrénalien",
+            "D) tocilizumab",
+            "E) AINS"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "parmi les pathologies non infectieuses suivantes, certaines se révèlent par une fièvre prolongée de façon non rare. Lesquelles (2 réponses exactes)",
+          "choix": [
+            "A) Artérite à cellules géantes",
+            "B) maladie de Goougerot-Sjögren (syndrome sec primaire)",
+            "C) myélome",
+            "D) lymphome de haut grade",
+            "E) syndrome des antiphospholipides"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296659022-43cb76bf6262c8",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Une patiente de 32 ans vous consulte pour des polyarthralgies inflammatoires des mains, poignets, genoux, chevilles. Elle se plaint également d’avoir tous les doigts des mains qui deviennent blancs, puis bleus, lorsqu’il fait frais.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez une maladie auto-immune. Vers quel type de maladie auto-immune vous orientez-vous au vu de ces éléments (QRU) ?",
+          "choix": [
+            "A) Une maladie auto-immune spécifique d’organe",
+            "B) Une connectivite",
+            "C) Une vascularite",
+            "D) Une granulomatose",
+            "E) Une maladie auto-inflammatoire systémique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments vous orienteraient vers une connectivite en particulier (QRM) ?",
+          "choix": [
+            "A) Une xérostomie, pour une sclérodermie systémique",
+            "B) Un verspertilio, pour un syndrome de Sjögren",
+            "C) Des ulcères digitaux, pour une sclérodermie",
+            "D) Une diminution de force musculaire pour une myosite auto-immune",
+            "E) Un pyrosis après les repas, pour une sclérodermie systémique"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’hémogramme montre : Hb 10 g/dL, VGM 105 fL, plaquettes 350 G/L, polynucléaires neutrophiles 4 G/L, polynucléaires éosinophiles 0,4 G/L, polynucléaires basophiles 0 G/L, lymphocytes 1 G/L, monocytes 0,3 G/L. Quel est le diagnostic le plus probable dans ce contexte pour expliquer cet hémogramme (QRU) ?",
+          "choix": [
+            "A) Inflammation",
+            "B) Microangiopathie thrombotique",
+            "C) Syndrome d’Evans",
+            "D) Hémolyse auto-immune",
+            "E) Insuffisance rénale"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel bilan immunologique vous paraît opportun en première intention (QRM) ?",
+          "choix": [
+            "A) Recherche d’anticorps antinucléaires",
+            "B) Recherche d’ANCA",
+            "C) Test de Coombs (test direct à l’antiglobuline)",
+            "D) Dosage du complément sérique",
+            "E) Dosage pondéral des immunoglobulines sériques"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des anticorps antinucléaires (QRM)",
+          "choix": [
+            "A) Le seuil de significativité clinique est de 1/40",
+            "B) L’aspect de la fluorescence est utile dans l’interprétation du test",
+            "C) Les anticorps anti-SSA sont spécifiques du lupus systémique",
+            "D) Les anticorps anti-Scl70 sont évocateurs de sclérodermie systémique",
+            "E) Les anticorps anti-RNP s’observent dans les connectivites mixtes et le lupus systémique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous concluez à un lupus systémique avec anémie hémolytique auto-immune et polyarthrite. Vous proposez en première intention (2 réponses exactes) ?",
+          "choix": [
+            "A) traitement par hydroxychloroquine",
+            "B) traitement par cyclophosphamide intraveineux",
+            "C) plasmaphérèses",
+            "D) corticothérapie (par exemple: prednisone 1 mg/kg)",
+            "E) tocilizumab"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296660198-f4cf44f26c2fa8",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Laura âgée de 22 ans est vue en consultation pour l’apparition depuis 1 mois d’arthralgies au niveau des mains . Elle n’a jamais été malade et elle n'a aucun antécédent personnel ou familial. Ces arthralgies siègent Exclusivement au niveau des petites articulations des doigts.\nElle pèse 60 kg pour 170 cm. La TA est à 12/7 mm Hg.\nElle n’a pas de fièvre. Son examen clinique montre des articulations des mains légèrement inflammatoires mais non déformées. Personne ne le lui en avait déjà signalé mais à l'auscultation cardiaque, vous entendez un léger souffle cardiaque.\nA l’interrogatoire, Elle vous dit que depuis l'adolescence, elle prend facilement des coups de soleil pour des expositions au soleil minimes. Elle ne prend aucun traitement sauf une pilule œstroprogestative qui a été introduite il y a trois mois. Elle a remarqué qu'elle avait depuis quelques temps la bouche plus sèche.\nVous lui avez fait faire des radiographies des mains et elles sont normales\nLe bilan biologique montre:\n- FNS : leucocytes 5.2 G/L, Hémoglobine 12,5g/ dl, Plaquettes : 115 G/ L\nPNN 4,2 et 0,82 lymphocytes G/L. Le TCA est 42 pour un témoin à 30 s.\nLa CRP à 4 (N :5). Les facteurs rhumatoïdes sont négatifs.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous pensez que le tableau actuel est compatible avec?",
+          "choix": [
+            "A) une spondylarthrite ankylosante",
+            "B) une polymyosite",
+            "C) un lupus cutanéo-articulaire",
+            "D) un rhumatisme psoriasique",
+            "E) une maladie de Lyme"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Si vous évoquez un lupus quels seraient les arguments cutanés caractéristiques ?",
+          "choix": [
+            "A) un érythème photo-distribué",
+            "B) un lupus pernio",
+            "C) un syndrome de Raynaud",
+            "D) des engelures des mains déclenchées par le froid",
+            "E) des calcifications sous-cutanées"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Si vous évoquiez une maladie de Gougerot Sjogren quels seraient les arguments cliniques ?",
+          "choix": [
+            "A) une xérostomie",
+            "B) une xérophtalmie",
+            "C) des arthralgies destructrices",
+            "D) une prédominance féminine",
+            "E) une sècheresse vaginale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre du diagnostic d’un lupus quels sont les arguments cliniques ?",
+          "choix": [
+            "A) les aphtes buccaux ne sont pas classiques au cours d’une poussée lupique",
+            "B) une perte de cheveux est un signe de poussée lupique",
+            "C) le syndrome sec est exceptionnel au cours du lupus",
+            "D) l’introduction d’une pilule oestro-progestative peut déclencher une poussée lupique",
+            "E) la survenue chez une femme jeune est atypique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Si vous pensez que cette patiente peut avoir un lupus quels sont les caractéristiques de l’atteinte articulaire ?",
+          "choix": [
+            "A) elle est symétrique au niveau des mains",
+            "B) elle est rare",
+            "C) Il existe en général une destruction articulaire",
+            "D) elle touche le plus souvent les grosses articulations",
+            "E) elle s'associe le plus souvent à une augmentation significative de la CRP"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours d’un poussée lupique quelles sont les anomalies biologiques qui sont caractéristiques ?",
+          "choix": [
+            "A) une lymphopénie",
+            "B) une hyperéosinophilie à 2 G / L",
+            "C) une augmentation de la VS dissociée d’une CRP normale",
+            "D) une Hypertriglycéridémie",
+            "E) une hypergammaglobulinémie polyclonale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous pensez que cette patiente fait une poussée lupique quels sont les arguments biologiques auto-immuns qui vont vous aider à confirmer le diagnostic ?",
+          "choix": [
+            "A) des FAN (ACAN) positifs avec des anti-DNA natifs positifs",
+            "B) des FAN (ACAN) positifs avec des anti-SM",
+            "C) une augmentation du C3 et du C4",
+            "D) des FAN (ACAN) à 1/40 mouchetés fins",
+            "E) des ANCA de type MPO à titre fort"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous retenez chez cette patiente le diagnostic de poussée lupique cutanéo articulaire quels sont les conseils et les traitements que vous allez lui proposer ?",
+          "choix": [
+            "A) une photoprotection",
+            "B) la mise sous antipaludéens de synthèse de type hydroxychloroquine",
+            "C) la mise sous colchicine",
+            "D) l’arrêt des oestroprogestatifs",
+            "E) des séances de kinésithérapie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296662269-51715e654310f8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous prenez en charge un patient de 60 ans, qui présente depuis 10 ans maintenant un asthme cortico dépendant, cet asthme est associé à une polypose naso-sinusienne. Depuis 2 mois il présente une altération de l'état général avec une perte de 5 kilos, un purpura vasculaire des membres inférieurs. Depuis 5 jours il présente un pied tombant en rapport avec une mononévrite du sciatique polité externe droit. Son bilan biologique met en évidence un syndrome inflammatoire associé à une hyperéosinophilie à 1,7 G/L. Vous évoquez le diagnostic de granulomatose éosinophilique avec polyangéite.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Choisir parmi les propositions suivantes celles qui sont associées aux caractéristiques cliniques sémiologiques d'un purpura vasculaire ? (5 réponses valides)",
+          "choix": [
+            "A) lésions cutanées érythémateuses",
+            "B) lésions cutanées ne s’effaçant pas à la vitropression",
+            "C) lésions cutanée crouteuses",
+            "D) lésions cutanées déclives",
+            "E) Présence d’un signe de Nikolsky",
+            "F) lésions cutanées érythémato-squameuses, bien limitées",
+            "G) lésions cutanées développées principalement sur les zones sièges de frottements récurrents",
+            "H) lésions cutanées qui se décollent 'en linge mouillé'",
+            "I) lésions cutanées prédominant aux membres inférieurs",
+            "J) lésions cutanées s’accompagnant de douleurs à type de paresthésies",
+            "K) lésions cutanées en bouquet de petites vésicules roses qui laissent place à une érosion",
+            "L) lésions cutanées infiltrées, parfois nécrotiques",
+            "M) lésions cutanées rouges-violacées"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "I",
+            "L",
+            "M"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel bilan immunologique prescrivez-vous?",
+          "choix": [],
+          "reponses": [
+            "ANCA antiMPO",
+            "ANCA anti-MPO",
+            "pANCA anti-MPO",
+            "pANCA anti MPO",
+            "ANCA anti MPO",
+            "p-ANCA anti-MPO",
+            "recherche pANCA anti-MPO",
+            "dosage des ANCA anti-MPO",
+            "dosage des pANCA anti-MPO",
+            "recherche d'ANCA anti-MPO",
+            "ANCA, anti-MPO",
+            "ANCA anticorps anti MPO",
+            "ANCA de type MPO",
+            "anticorps anti MPO",
+            "ANCA (anti-MPO)",
+            "pANCA type MPO",
+            "ANCA (pANCA anti MPO)",
+            "pANCA, Ac anti MPO",
+            "on cherche les p-ANCA anti-MPO",
+            "Anticorps p-ANCA anti-MPO",
+            "p anca anti MPO",
+            "dosage des ANCA anti MPO",
+            "ANCA avec Ac anti MPO",
+            "anticorp ANCA et abti MPO",
+            "pANCA antiMPO",
+            "ANCA anticorps anti-MPO anticorps anti-PR3",
+            "anticorps anti-cytoplasme des polynucléaires neutrophiles (MPO)",
+            "recherhe des ANCA ( anti-MPO)",
+            "ANCA de type anticorps anti-MPO",
+            "recherche ANCA type MPO",
+            "recherche des ANCA (anti MPO particulièrement)",
+            "recherche d'anticorps anti-MPO (pANCA)",
+            "Dosage p-ANCA et anti MPO",
+            "ancticorps anti cytoplasme des polynucleaire neutrophile",
+            "Recherche d'ANCA (pANCA anti-MPO)",
+            "recherche ANCA (MPO)",
+            "ANCA ( anticorps anti MPO)",
+            "ANCA peri nucléaire (anti MPO)",
+            "ANCA et ac anti MPO",
+            "recherche d'ANCA (p-ANCA MPO)",
+            "ANCA / anti-MPO (plus spécifiques pour faire le diagnostic differentiel avec la granulomatose avec polyangéite)",
+            "cANCA anti-MPO",
+            "Recherche de p-ANCA anti-MPO",
+            "ANCA (anticorps anti-MPO)",
+            "dosage des ANCA de type anti MPO",
+            "pANCA, anti-MPO",
+            "dosage des ANCA (anti MPO)",
+            "ANCA, Ac anti-MPO",
+            "dosage des anticorps anti-pANCA anti-MPO",
+            "p ANCA, anti MPO",
+            "ANCA (anti MPO)",
+            "pANCA, anti MPO",
+            "Dosage des pANCA (Ac anti MPO)",
+            "Dosage ANCA type MPO",
+            "pANCA (anticorps anti-MPO)",
+            "ANCA anti-mpo",
+            "ANCA + anticorps anti-MPO",
+            "recherche ANCA (pANCA anti MPO) par IFI",
+            "dosage anticorps cytoplamisque anti-MPO",
+            "recherche ANCA anti-MPO",
+            "recherche d‘ANCA (MPO)",
+            "recherche d’ANCA (anti-MPO)",
+            "ANCA, Anti MPO",
+            "ANCA (anti-PR3 et anti-MPO)",
+            "ANCA avec Ac anti-MPO",
+            "recherche de pANCA anti MPO",
+            "recherche d’anticorps ANCA anti-MPO",
+            "recherche d'ANCA (notamment immunofluo pour recherche pANCA et anti MPO)",
+            "Recherche ANCA (probablement pANCA anti-MPO)",
+            "anca anti MPO",
+            "pANCA et Anticorps anti-MPO",
+            "ANCA avec anticorps anti-MPO",
+            "pAnca anti MPO",
+            "dosage pANCA (anti MPO)",
+            "recherche d'ANCA anti MPO",
+            "Dosage des ANCA (pANCA anti-MPO)",
+            "Dosage des ANCA (recherche pANCA anti MPO)",
+            "Recherche et dosage d‘ANCA : pANCA anti MPO",
+            "ANCA type MPO",
+            "dosage anticorps ANCA anti MPO",
+            "recherche des ANCA anti MPO",
+            "recherche d'anticorps anti MPO",
+            "ACAN anti MPO",
+            "ANCA ,recherche des anticorps anti MPO",
+            "ANCA ( anti MPO )",
+            "ANCA (pANCA, anti-MPO)",
+            "p ANCA anti MPO",
+            "recherche p-ANCA anti MPO",
+            "Dosage des ANCA avec Ac anti-MPO",
+            "recherche p-anca anti mpo",
+            "ANCA anticorps anti myeloperoxydase (MPO)",
+            "recherche ANCA anti MPO",
+            "Dosage des ANCA (anti MPO)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lequel peuvent être utilisés pour le traitement de cette granulomateuse eosinophilique avec polyangéite ?",
+          "choix": [
+            "A) adalimumab",
+            "B) colchicine",
+            "C) cyclophosphamide",
+            "D) tocilizumab",
+            "E) abatacept"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

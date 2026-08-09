@@ -1,0 +1,702 @@
+{
+  "matiere": "Sémiologie générale",
+  "slug": "semiologie-generale-s3",
+  "annee": 2023,
+  "title": "Sémiologie générale - 2023",
+  "total_questions": 33,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de l’occlusion de l’intestin grêle",
+          "choix": [
+            "A) Les douleurs abdominales sont rapidement progressives",
+            "B) Les vomissements sont souvent précoces",
+            "C) Le tympanisme est latéral",
+            "D) Le toucher rectal est toujours anormal",
+            "E) Le ventre peut être plat"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen abdominal",
+          "choix": [
+            "A) Une douleur en fosse iliaque droite est toujours une appendicite",
+            "B) La palpation des orifices herniaires doit être systématique",
+            "C) Une hernie ombilicale douloureuse et irréductible est une urgence chirurgicale",
+            "D) Une douleur à la palpation du cul de sac de douglas signe une irritation péritonéale",
+            "E) La région abdominale douloureuse doit être palpée en fin d'examen si possible"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le syndrome occlusif",
+          "choix": [
+            "A) Se caractérise par la triade : Diarrhées, douleurs abdominales, météorisme",
+            "B) En cas d’occlusion d’origine colique les vomissements peuvent être plus tardifs",
+            "C) En cas d’occluions d’origine grêlique les niveaux sont plus haut que larges",
+            "D) Il existe deux mécanismes d’occlusion : par strangulation et par obstruction",
+            "E) A l’ASP le grêle est reconnaissable par ces haustrations typiques"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen sénologique",
+          "choix": [
+            "A) Il comprend toujours un temps les bras le long du corps (ou les mains sur les hanches) et un temps les bras levés",
+            "B) À l’inspection un méplat ou une rétraction sont signes évocateurs d’une tumeur du sein",
+            "C) Il ne doit être réalisé que sur une patiente debout",
+            "D) L’examen des aires ganglionnaires à la recherche d’adénopathies suspectes est primordial",
+            "E) La recherche d'un écoulement mamelonnaire fait partie de cet examen"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen gynécologique",
+          "choix": [
+            "A) Les ménorragies sont des saignements d’origine génitale en dehors de règles",
+            "B) Le TR permet l’examen des paramètres",
+            "C) Une cystocèle est un prolapsus de la vessie sur la face antérieur du vagin",
+            "D) Un prolapsus de stade IV est localisé au dessus des replis hyménéaux",
+            "E) La colposcopie est un examen du col et du vagin avec un microscope"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen gynécologique",
+          "choix": [
+            "A) Il ne doit être réalisée qu’avec l’accord de la patiente",
+            "B) L’examen au speculum doit préférentiellement être réalisée avant le TV",
+            "C) Une douleur dans le cul de sac vaginal postérieur correspondant à une douleur du cul de sac de douglas",
+            "D) Le TR est systématique en gynécologie",
+            "E) Le TV est bimanuel, avec une main pour la palpation abdominale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300126882-a6f408f79814d",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez aux urgences une femme de 31 ans pour des douleurs pelviennes et métrorragies.\nElle est G2P1 et est porteuse d’un dispositif intra utérin au cuivre.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recherchez particulièrement à l’interrogatoire (plusieurs réponses justes)",
+          "choix": [
+            "A) La date de ses dernières règles",
+            "B) Nausées, Vomissement",
+            "C) Polyurie, polydipsie",
+            "D) Des idées délirantes",
+            "E) Localisation de la douleur pelvienne, intensité EVA, Mode d’apparition"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle décrit des métrorragies de sang marron depuis quelques jours.\nA l’examen clinique vous allez rechercher (plusieurs réponses justes)",
+          "choix": [
+            "A) Des signes de choc hypotension tachycardie",
+            "B) Une douleur à la mobilisation utérine au toucher vaginal",
+            "C) Une douleur déclenchée par l’alimentation",
+            "D) Une douleur à la palpation du cul de sac de douglas au toucher vaginal",
+            "E) Une hyperthermie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez examiné la patiente et constatez une défense en fosse iliaque droite,\nConcernant le syndrome péritonéal",
+          "choix": [
+            "A) Pour rechercher un syndrome péritonéal la palpation abdominale doit être réalisée sur un patient en décubitus latéral",
+            "B) La défense est une douleur provoquée par la palpation abdominale et entraînant une contraction réflexe de la paroi",
+            "C) Une contraction permanente et invincible de la paroi évoque une péritonite généralisée",
+            "D) La défense n’a pas de valeur localisatrice",
+            "E) La défense et la contracture sont des signes de gravite qui doivent faire discuter une indication chirurgicale en urgence"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle n’a pas eu de règles depuis plus de 2 mois, elle est apyrétique\nVotre principale hypothèse diagnostique est (une seule bonne réponse) :",
+          "choix": [
+            "A) Une appendicite aigue",
+            "B) Une colique néphrétique",
+            "C) Un cancer du col de l’utérus",
+            "D) Une grossesse extra utérine",
+            "E) Une infection au SARS-CoV-2"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre demande d’examens complémentaires comprendra : (plusieurs réponse possible)",
+          "choix": [
+            "A) Une radiographie thoracique",
+            "B) Un bilan biologique comprenant une Numération formule sanguine",
+            "C) Un bilan biologique comprenant un dosage des b HCG",
+            "D) Une lipasemie",
+            "E) Une troponine"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes de gravité recherchez-vous ?",
+          "choix": [
+            "A) Une hypotension",
+            "B) Une bradycardie",
+            "C) Une contracture",
+            "D) Une oligo-anurie",
+            "E) Une augmentation de l’abondance des pertes"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300128800-7c07663375c628",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes cliniques suivants, lequel n’entre pas dans la définition d’une altération de l’état général ?",
+          "choix": [
+            "A) Fatigue",
+            "B) Amaigrissement",
+            "C) Fièvre",
+            "D) Douleurs diffuses",
+            "E) Perte d’appétit"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la température corporelle, quelles sont les affirmations vraies ?",
+          "choix": [
+            "A) Toute élévation au delà de 38° est pathologique",
+            "B) Une fièvre à 40° est toujours d’origine bactérienne",
+            "C) La fièvre est toujours indicatrice d’une cause infectieuse",
+            "D) une hyperthermie accompagnée de frissons ‘à claquer des dents’ est fortement évocatrice de bactériémie",
+            "E) les progestatifs contraceptifs peuvent être responsables d’hyperthermie"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une perte de poids avec appétit conservé, on évoque prioritairement (affirmations vraies)",
+          "choix": [
+            "A) Une anorexie mentale",
+            "B) Une hyperthyroïdie",
+            "C) Un syndrome de malabsorption",
+            "D) Un cancer métastatique",
+            "E) Un diabète insulinoprive (type I)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la fatigue, quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) Présente dès le réveil, elle peut être d’origine psychique",
+            "B) Apparaissant en cours de journée, elle évoque plutôt une cause organique",
+            "C) Accompagnée d’une perte de poids, elle n’est pas d’origine psychique",
+            "D) Elle est fréquemment due à une mauvaise hygiène de vie",
+            "E) Elle peut accompagner n’importe quelle défaillance sérieuse d’organe"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une douleur à type de colique (réponses exactes)",
+          "choix": [
+            "A) Est ressentie comme un ‘coup de poignard’",
+            "B) Evolue par spasmes successifs",
+            "C) Peut se voir en cas de lithiase des voies urinaires",
+            "D) Peut se voir en cas de lithiase de la voie biliaire principale",
+            "E) Peut se voir en cas de péricardite"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une douleur d’origine pleurale typique: (affirmations vraies)",
+          "choix": [
+            "A) Est rétro-sternale",
+            "B) Augmente à l’expiration",
+            "C) Est ressentie comme une brûlure",
+            "D) Est ressentie comme un point de côté",
+            "E) Est aggravée par la toux"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les oedèmes généralisés (anasarque), ils peuvent être dus à :",
+          "choix": [
+            "A) Une protéinurie de 1 g/24 heures",
+            "B) Une insuffisance cardiaque gauche",
+            "C) Une phlébite de la veine iliaque droite",
+            "D) Une insuffisance rénale au stade de dialyse",
+            "E) Un taux d’albumine à 37 g/L"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une bandelette urinaire avec : protéinurie ++++, hématurie absence, nitrites absence, leucocytes absence évoque (réponses exactes):",
+          "choix": [
+            "A) Une infection urinaire basse (cystite)",
+            "B) Un diabète sucré",
+            "C) Une atteinte glomérulaire",
+            "D) Un syndrome néphrotique",
+            "E) Une infection urinaire haute (pyélonéphrite)"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une douleur du flanc droit peut être due à (trois réponses exactes):",
+          "choix": [
+            "A) Une colique néphrétique",
+            "B) Une pleurésie",
+            "C) Un zona",
+            "D) Une pancréatite aigue",
+            "E) Un obstacle de la voir biliaire principale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour définir un trouble mental, quelles sont les critères nécessaires ?",
+          "choix": [
+            "A) Critères sémiologiques avec évaluation de la sévérité des symptômes",
+            "B) Critères d’évolution dans le temps des symptômes",
+            "C) Critères de localisation anatomique cérébrale",
+            "D) Critères évaluant l’impact fonctionnel psychologique et social",
+            "E) Critères électroencéphalographiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les hallucinations, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) Ce sont des perceptions déformées avec objet à percevoir",
+            "B) Elles peuvent être sensorielles, mais jamais gustatives",
+            "C) Une hallucination intrapsychique est dite psychosensorielle",
+            "D) L’automatisme mental est de la perte de l’usage privé de la pensée",
+            "E) Une hallucinose est une hallucination critiquée"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une douleur est dite projetée lorsque (1 réponse exacte) :",
+          "choix": [
+            "A) Elle provoque des ‘lancements’ aigus",
+            "B) Elle suit un trajet bien précis",
+            "C) Elle change sans cesse de localisation",
+            "D) Elle est ressentie à distance de la structure anatomique responsable de la douleur",
+            "E) Aucune de ces affirmations n’est exacte"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On désigne par le terme ‘signes de pancarte’ (réponses exactes)",
+          "choix": [
+            "A) La température corporelle",
+            "B) Le fréquence cardiaque",
+            "C) La fréquence respiratoire",
+            "D) La tension artérielle couché",
+            "E) La diurèse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un choc hémorragique se traduit typiquement par :",
+          "choix": [
+            "A) Une cyanose généralisée",
+            "B) Une tachycardie",
+            "C) Une soif intense",
+            "D) Un ictère",
+            "E) De la fièvre"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cette patiente est confuse avec une natrémie à 160 mmol/L, une créatininémie modérément diminuée (DFG 70 ml/mn). Que peut-on dire ? (2 réponses vraies)",
+          "choix": [
+            "A) Elle est en déficit hydrique",
+            "B) Elle est en surcharge hydro-sodée",
+            "C) Il faut lui apporter prioritairement un soluté glucosé par voie intraveineuse",
+            "D) Il faut lui apporter prioritairement un soluté salin",
+            "E) Il faut lui donner un diurétique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15,
+          "critiques": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300136919-6117483568e558",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez aux urgences d'une patiente de 85 ans, vivant seule chez elle, car elle a été retrouvée au sol avec une conscience altérée par son aide ménagère.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évaluez cliniquement l'état d'hydratation de la patiente. Parmi les signes cliniques suivants, quels sont ceux qui vous orienteront vers une déshydratation extracellulaire, responsable d'hypovolémie efficace?",
+          "choix": [
+            "A) une tension artérielle à 120/70 couchée",
+            "B) des marbrures aux genoux",
+            "C) la présence d'un globe vésical",
+            "D) une oligurie",
+            "E) des râles crépitants aux deux bases pulmonaires"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente ne sait pas dire où elle se trouve, et croit être en 2020 pendant la période de confinement. Ceci indique:",
+          "choix": [
+            "A) la possibilité d'une démence",
+            "B) un état confusionnel",
+            "C) de rechercher un fécalome par un scanner abdominal",
+            "D) de rechercher un globe urinaire par un scanner abdominal",
+            "E) de contrôler la natrémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente a une température à 38,5 et se plaint de l'abdomen. En faveur de la présence d'un globe urinaire, vous recherchez:",
+          "choix": [
+            "A) une contraction réflexe localisée à la palpation en fosse iliaque droite",
+            "B) une matité des flancs",
+            "C) une douleur sus-pubienne à la palpation",
+            "D) une matité sus-pubienne à la percussion",
+            "E) une abolition des bruits hydroaériques"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Son bilan biologique montre:\nglobules blancs 14 G/L; polynucléaires neutrophiles: 11 G/L; lymphocytes: 1,2 G/L; hémoglobine 9 g/dl; VGM: 70 µ3; plaquettes:\n540 G/L; créatininémie: 125 µmol/L.\nQuelles sont les affirmations exactes?",
+          "choix": [
+            "A) ce bilan est en faveur d'un déficit de l'immunité",
+            "B) il faut doser la ferritinémie",
+            "C) l'anémie est probablement due à l'insuffisance rénale",
+            "D) l'hémogramme est en faveur d' une infection à germes pyogènes (bacilles gram négatifs ou cocci gram positifs)",
+            "E) la thrombocytose peut être dûe à une carence en fer ou à un état inflammatoire"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les mesures destinées à limiter le risque iatrogène, il vous parait important de:",
+          "choix": [
+            "A) perfuser quotidiennement une ration de 1.5 à 2 litres de soluté salé (NaCl à 9 /1000)",
+            "B) garder la patiente au lit strict avec des barrières au moins les 5 premiers jours d'hospitalisation",
+            "C) garder une voie veineuse tout au long de l'hospitalisation afin de pouvoir répondre à tout moment à une situation d'urgence inattendue",
+            "D) si la natrémie est normale, d'assurer une ration hydrique (ou de soluté glucosé) de l'ordre de 1.5 litres par 24h",
+            "E) de rechercher une hypotension orthostatique dès que la patiente pourra être verticalisée ou mise au INDISPENSABLE fauteuil"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Malgré des soins adaptés et la résolution d'une infection urinaire fébrile, la patiente garde une désorientation temporospatiale. Son état de conscience est est tout à fait normal. Vous soupçonnez une démence. Quels tests pouvez vous faire en tant qu'étudiant hospitalier pour mieux préciser cette hypothèse diagnostique?",
+          "choix": [
+            "A) un score de Glasgow",
+            "B) un test de l'horloge",
+            "C) un MMS (mini mental status)",
+            "D) un score SOFA",
+            "E) un examen clinique neurologique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

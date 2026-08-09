@@ -1,0 +1,687 @@
+{
+  "matiere": "Maladies transmissibles",
+  "slug": "maladies-transmissibles-s8",
+  "annee": 2024,
+  "title": "Maladies transmissibles - 2024",
+  "total_questions": 28,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un homme de 50 ans sans domicile fixe est hospitalisé aux urgences de votre hôpital depuis 24 heures pour une altération de l’état général. Il vous rapporte depuis 1 mois une asthénie inhabituelle associée à une impression de perte de poids non mesurée et à la majoration d’une toux ancienne. Il est tabagique depuis 30 ans et boit 2 litres de bière par jour. Il ne se connait pas d’antécédent médical ou chirurgical en dehors d’une goutte traitée par colchicine au besoin. L’examen physique montre : Taille 175 cm, poids 45 kg, IMC 14,5, température 38,3°C, TA 120/80, Fc 110 bpm, FR 25/minutes, SaO2 91% en air ambiant. L’auscultation cardio-pulmonaire est normale. Le reste de l’examen est sans particularité.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez ce patient présentant une toux, quels sont les éléments évocateurs de tuberculose maladie (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Patient sans domicile fixe",
+            "B) Traitement par colchicine",
+            "C) Symptomatologie d’évolution progressive",
+            "D) Patient dénutri",
+            "E) Auscultation pulmonaire normale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Il y a des facteurs de risque importants impliqués dans la survenue de la tuberculose : la dénutrition, des conditions socio-économiques défavorables (pauvreté, précarité, milieu carcéral), les migrants en provenance d’une zone de forte endémie, une immunodépression acquise (VIH/SIDA, immunodépression liée à une maladie et/ou la prise d’im- munosuppresseurs, les biothérapies anti-TNFα, la corticothérapie au long cours).\nL’évolution progressive de la symptomatologie est compatible avec une tuberculose. Retenir que le délai moyen de diagnostic d’une tuberculose en France est de 3 mois après le début des symptômes. Une symptomatologie d’évolution aigue est donc peu évocatrice de tuberculose.\nLa colchicine est un traitement anti-inflammatoire mais pas immunosuppresseur.\nL’auscultation pulmonaire au cours de la tuberculose est variable, et peut être normale, n’apportant pas d’élément d’orientation.",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une radiographie thoracique de face est réalisée. Parmi les radiographies suivantes, quelles sont les 3 ayant un pattern compatible avec une tuberculose maladie ?",
+          "choix": [
+            "A) Radio A",
+            "B) Radio B",
+            "C) Radio C",
+            "D) Radio D",
+            "E) Radio E"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "A, C : lésions apicales, excavée en C et probablement en A\nE : Aspect de miliaire\nB : Aspect de PFLA\nD : Aspect de condensation alvéolaire lobe inférieur",
+          "order": 2,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q2.png?v=1786296962974"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La radiographie confirme une suspicion de tuberculose maladie avec une lésion excavée du lobe supérieur droit. Quels sont parmi les propositions suivantes les 2 examens complémentaires à réaliser pour confirmer le diagnostic ?",
+          "choix": [
+            "A) Test de dépistage rapide moléculaire (PCR) de la tuberculose sur une expectoration",
+            "B) Examen direct microscopique par coloration de Gram d’une expectoration",
+            "C) IDR à la tuberculine",
+            "D) Culture d’une expectoration sur milieu de Lowenstein-Jensen",
+            "E) Biopsie d’une glande salivaire accessoire"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Sur un prélèvement respiratoire (expectoration spontanée ou induite, ou LBA, ou tubage – de moins en moins réalisés) :\nExamen direct par coloration de Ziehl ou à l’Auramine, PCR, culture.\nL’IDR à la tuberculine et l’IGRA sont des tests diagnostiques de l’infection tuberculeuse latente, très rarement des tuberculoses maladies extra-respiratoires. Leur négativité n’exclue pas le diagnostic de tuberculose maladie, leur positivité ne l’affirme pas (témoigne d’un contact antérieur).",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le diagnostic de tuberculose pulmonaire bacillifère est prouvé par l’examen direct de 3 expectorations spontanées. La PCR est positive et ne montre pas de mutation de résistance aux principaux antituberculeux. Vous expliquez au patient les principaux élements du traitement anti-tuberculeux. Parmi ces éléments, vous faites attention à l’informer qu’un des antibiotiques utilisés colorera ses urines en orange. Quel est cet antibiotique ?",
+          "choix": [],
+          "reponses": [
+            "Rifampicine",
+            "Rifampycine",
+            "Riphampicine",
+            "Rimfampicine",
+            "Rifampiscine",
+            "rifamycine",
+            "rifampycine"
+          ],
+          "correctionExplanation": "Coloration des liquides biologiques en orange (utilisée comme un marqueur d’observance au traitement) è Informer les patients que ce n’est pas un effet secondaire, mais l’excrétion normale dans les urines, les larmes…",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous prescrivez le traitement anti-tuberculeux. Concernant les molécules utilisées et leurs durées théoriques, quelles sont les 2 modalités principales ?",
+          "choix": [
+            "A) 2 mois de pyrazinamide et d’éthambutol",
+            "B) 2 mois de rifampicine et ethambutol",
+            "C) 6 mois de rifampicine et isoniazide",
+            "D) 6 mois de pyrazinamide et isoniazide",
+            "E) 6 mois de rifampicine et pyrazinamide"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q5.png?v=1786296964170"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous continuez les explications concernant les modalités d’administration des antituberculeux. Parmi les propositions suivantes lesquelles sont justes (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Traitement associé à une supplémentation en vitamine K",
+            "B) Traitement à prendre pendant le repas",
+            "C) Traitement à prendre en une prise par jour",
+            "D) Traitement associé à une corticothérapie Pour les tuberculoses sensibles sur les données génotypiques initiales, la multithérapie antibiotique est prise en une seule prise orale quotidienne, à jeun 1 heure avant ou 2 heures après le repas (optimisation de l’absorption). Adjonction de Vitamine B6 pour la prévention systématique de la neuropathie périphérique causée par l’isoniazide. Le traitement adjuvant par corticothérapie est systématique d’emblée en cas de tuberculose neuro-méningée et peut être proposé en cas d’atteinte péricardique. AS discuter en cas de miliaire, de signes de gravité, de compression mécanique (ex : obstruction bronchique chez l’enfant)."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un traitement par Rifampicine, Isoniazide, Ethambutol et Pyrazinamide est débuté en une prise par jour à jeun.\nConcernant les potentielles toxicités et limites d’utilisation de ces molécules, et leur surveillance, quelles sont les propositions justes (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Le pyrazinamide peut être responsable de neuropathie optique nécessitant une surveillance ophtalmologique",
+            "B) Le pyrazinamide est responsable d’une hyperuricémie dont le dosage peut être un marqueur d’observance",
+            "C) L’isoniazide, la rifampicine et le pyrazinamide peuvent induire une cytolyse hépatique imposant une surveillance régulière des paramètres biologiques hépatiques",
+            "D) L’isoniazide est un puissant inducteur enzymatique responsables d’interactions médicamenteuses",
+            "E) La rifampicine peut être associée à une toxicité oto-cochléaire nécessitant une surveillance par audiogramme"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "A : Isoniazide\nD : Rifampicine\nE : Aminoglycosides",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les principes de prise en charge et d’isolement du patient quelles sont les 3 propositions justes ?",
+          "choix": [
+            "A) Précautions complémentaires Air pour le soignant entrant dans la chambre",
+            "B) Précautions complémentaires Air pour le patient en déplacement hors de sa chambre",
+            "C) Signalement nominatif de la tuberculose en préfecture",
+            "D) Déclaration obligatoire de la tuberculose à l’ARS",
+            "E) Prise en charge à 100%"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Hospitalisation en chambre individuelle avec des précautions complémentaires AIR : porte fermée, chambre à pression négative, à défaut aération suﬃsante de la chambre, déplacements du malade en dehors de la chambre, limités au maximum. Tout personnel soignant ou visiteur doit porter un masque type FFP2 pour tout séjour dans la chambre, le malade doit également porter un masque de protection type chirurgical lors des visites, ou en cas de déplacement.\nLa déclaration se fait dans les plus brefs délais par voie électronique via le portail e-DO, pour être transmise directement à l’Agence Régionale de Santé. L’ARS attribue ensuite le dossier au CLAT sur le portail e-DO.",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296965366-3c92dde0ac459",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Une patiente de 47 ans se présente aux urgences pour des vomissements fébriles.\nCette patiente est mère de 3 enfants, commerçante, d’origine bulgare, et elle est rentrée il y a un mois d’un voyage en Bulgarie. Elle a pour principal antécédent une sarcoïdose avec atteinte cardiaque dernièrement équilibrée sous le traitement suivant :\nazathioprine 50 mg matin et soir, prednisone 15 mg par jour, acide acétylsalicylique 75 mg par jour, bisoprolol 5 mg matin et soir, furosémide 80 mg par jour, spironolactone 50 mg par jour, pantoprazole 20 mg par jour.\nElle rapporte l’apparition depuis quelques semaines d’une asthénie, depuis 7 jours d’une fièvre jusqu’à 39°C, de céphalées, et depuis la veille de vomissements alimentaires en jet. Depuis ce jour, elle a l’impression de moins bien sentir la partie droite de son visage et voit double.\nAux urgences, ses constantes sont les suivantes : température 38,7°C, fréquence cardiaque 80 bpm, tension artérielle 110/70 mmHg, fréquence respiratoire 18/min, saturation 97% en air ambiant.\nA l’examen clinique, vous retrouvez une patiente prostrée, somnolente, avec une raideur nucale, l’examen des paires crâniennes retrouve une paralysie oculomotrice dans l’élévation, l’adduction et l’abaissement de l’œil droit, et une hypoesthésie de l’hémiface droite. Il n’y a pas d’autre anomalie neurologique à l’examen. L’auscultation cardiopulmonaire est sans anomalie, il n’y a pas de signe de décompensation cardiaque. L’abdomen est souple, dépressible, sensible en épigastre.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous évoquez une infection neuro-méningée. Dans quel ordre effectuez-vous les examens suivants ?",
+          "choix": [
+            "A) Hémocultures – ponction lombaire – scanner cérébral",
+            "B) Hémocultures – scanner cérébral – ponction lombaire",
+            "C) Hémocultures – scanner cérébral – pas de ponction lombaire qui est d’emblée contre-indiquée",
+            "D) Scanner cérébral – hémocultures – ponction lombaire",
+            "E) Scanner cérébral – hémocultures – pas de ponction lombaire qui est d’emblée contre-indiquée"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "Cette patiente présente un tableau de méningo-encéphalite aiguë. Les signes de focalisation neurologique (paralysie oculomotrice et hypoesthésie d’une hémiface, évocatrices d’une atteinte des nerfs III et V) nécessitent de réaliser une imagerie cérébrale rapide (scanner cérébral SPC) avant la réalisation de la ponction lombaire, pour s’assurer de l’absence\nde processus intracrânien à risque d’engagement. Les hémocultures doivent être réalisées avant le scanner pour débuter ensuite un traitement anti-infectieux probabiliste sans attendre la réalisation de la ponction lombaire. L’acide\nacétylsalicylique ne contre-indique pas la ponction lombaire.",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "De façon générale, parmi les éléments suivants lesquels sont des contre-indications à la réalisation d’une ponction lombaire d’emblée devant un tableau de méningite ? (QRP 3 réponses attendues)",
+          "choix": [
+            "A) Instabilité hémodynamique",
+            "B) Syndrome cérébelleux",
+            "C) Taux de plaquettes à 130 G/L",
+            "D) Traitement anti-agrégant plaquettaire",
+            "E) Déficit moteur du membre supérieur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Les contre-indications à la PL dans tous les cas, et contre-indications à la PL d’emblée sans imagerie préalable, sont à connaître : cf encadré du Pilly page 68.",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez demandé un scanner cérébral avant la réalisation de la ponction lombaire. Devant ce tableau de méningo-encéphalite, vous avez donc débuté un traitement anti-infectieux probabiliste après la réalisation des hémocultures, par CEFOTAXIME, AMOXICILLINE et ACICLOVIR, à doses méningées.\nLe scanner cérébral ne retrouve pas d’anomalie. Vous réalisez donc la ponction lombaire. Quels éléments demandez-vous sur la ponction lombaire ?",
+          "choix": [
+            "A) Protéinorachie, glycorachie",
+            "B) Examen direct et culture bactériologique",
+            "C) PCR HSV",
+            "D) Recherche d’anticorps anti-HSV",
+            "E) PCR Listeria"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Les examens à demander systématiquement sur la ponction lombaire sont devant un tableau de méningo-encéphalite chez un patient immunodéprimé:\nLa biochimie : protéinorachie, glycorachie +/_ lactatorachie\nLa cytologie\nL’examen direct et culture bactériologique. Les PCR spécifiques bactériennes (méningocoque, pneumocoque) sont demandées en 2ème intention en cas de culture négative ou d’antibiothérapie préalable, la PCR Listeria est demandée en cas de tableau clinique et/ou terrain compatibles.\nLes PCR virales HSV-1 et VZV. La sérologie HSV n’a aucun intérêt pratique ni dans le LCS ni dans le sang.\nA noter qu’en cas d’immunodépression, ce qui est le cas de cette patiente sous azathioprine et corticothérapie, il est nécessaire d’ajouter devant tout tableau de méningite lymphocytaire ou méningoencéphalite à liquide clair une recherche de cryptocoque (par examen direct avec coloration à l’encre de Chine + antigène cryptocoque dans le sang et le LCS + une culture mycologique).",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Voici les résultats de la ponction lombaire :\nLiquide macroscopiquement clair\nCytologie : hématies 5/mm3, éléments nucléés 720/mm3, dont 65% de lymphocytes et 35% de PNN\nBiochimie : protéinorachie 1,9 g/L, rapport glycorachie sur glycémie à 0,4, lactatorachie à 3,5 mmol/L\nExamen direct bactériologique négatif\nLa culture bactériologique, la PCR HSV-1 et la PCR Listeria sont en cours. Vous décidez d’adapter le traitement anti-infectieux suite à ces résultats. En quoi va à présent consister le traitement ?",
+          "choix": [
+            "A) Céfotaxime seule",
+            "B) Céfotaxime et amoxicilline",
+            "C) Aciclovir seul",
+            "D) Aciclovir et céfotaxime",
+            "E) Aciclovir et amoxicilline"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "La formule du LCS à prédominance lymphocytaire / panachée, et l’absence d’hypoglycorachie franche, n’orientent pas vers une méningoencéphalite d’origine bactérienne liée au pneumocoque ou méningocoque, d’où l’arrêt de la céfotaxime. Devant un tableau de méningo-encéphalite à liquide clair, il est indispensable que le traitement probabiliste couvre l’HSV-1 et Listeria monocytogenes, d’où le traitement par aciclovir et amoxicilline. La formule panachée ne permet pas d’orienter vers l’une ou l’autre des étiologies. Une hypoglycorachie aurait pu orienter plutôt vers la Listeria, une normoglycorachie plutôt vers HSV-1, ne modifiant cependant pas le traitement probabiliste le temps des premiers résultats microbiologiques.",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Devant ce tableau de méningo-encéphalite à liquide clair, non encore documentée, vous avez adapté le traitement par aciclovir et amoxicilline à doses méningées. Quels autres examens complémentaires indispensables demandez-vous dès que possible ? (QRP 2 réponses attendues)",
+          "choix": [
+            "A) IRM encéphalique avec injection de gadolinium",
+            "B) Echographie cardiaque trans-thoracique",
+            "C) Scanner thoracique",
+            "D) Electro-encéphalogramme",
+            "E) Biopsie cérébrale"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Toute méningoencéphalite à liquide clair nécessite la réalisation d’un bilan complémentaire par IRM cérébrale pour préciser les atteintes encéphaliques, et d’un EEG devant la prostration pour ne pas méconnaître une comitialité infra-clinique nécessitant un traitement anti-épileptique.",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’IRM encéphalique avec injection de gadolinium montre une lésion du tronc cérébral en hypersignal FLAIR expliquant les anomalies des nerfs crâniens III et V (images ci-dessous).\nL’électroencéphalogramme ne retrouve pas d’anomalie épileptique.\nFinalement, les hémocultures se positivent à Listeria monocytogenes. La PCR HSV-1 sur le LCS est négative, la PCR Listeria est positive. Le diagnostic retenu est celui d’une méningo-encéphalite à Listeria chez cette patiente immunodéprimée. Vous arrêtez le traitement par aciclovir et vous poursuivez l’amoxicilline à dose méningée.\nQuel antibiotique ajoutez-vous à l’amoxicilline ?",
+          "choix": [
+            "A) Gentamicine",
+            "B) Ceftriaxone",
+            "C) Cotrimoxazole",
+            "D) Doxycycline",
+            "E) Vancomycine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": ": Une fois le diagnostic de méningite ou méningo-encéphalite à Listeria monocytogenes confirmé, une bithérapie d’amoxicilline et de gentamicine est le traitement de référence. En cas d’allergie à la pénicilline, l’alternative à l’amoxicilline est le cotrimoxazole",
+          "order": 6,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q14.jpg?v=1786296967150"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En cas de négativité des recherches microbiologiques d’HSV, de cryptocoque et de Listeria, quelle autre étiologie infectieuse auriez-vous dû évoquer devant ce tableau ? (QROC 1 à 3 mots)",
+          "choix": [],
+          "reponses": [
+            "Tuberculose",
+            "Tuberculose neuro-méningée",
+            "Tuberculose neuroméningée",
+            "Tuberculose encéphalique",
+            "Tuberculose méningée",
+            "Tuberculose neurologique",
+            "BK",
+            "Bacille de Koch",
+            "Mycobacterium tuberculosis",
+            "Mycobactérie",
+            "Mycobactéries",
+            "Mycobactérie tuberculeuse",
+            "Tuberculose neuro méningée",
+            "Tuberculose neuro-meningée",
+            "Méningo-encéphalite tuberculeuse",
+            "Tuberculose neuro méningé",
+            "Tuberculosis",
+            "Tubeeculose",
+            "Tuberculose neuro-meningee",
+            "Tuberculose cérébrale",
+            "Neuro-tuberculose",
+            "Tuberculose neuro meningee",
+            "Méningite Tuberculeuse",
+            "Méningo encéphalite tuberculeuse",
+            "Méningite tuberculeuse",
+            "Tuberculose neuro meningée",
+            "Meningoencéphalite tuberculeuse"
+          ],
+          "correctionExplanation": "Les principales causes de méningo-encéphalite infectieuse à liquide clair à évoquer en priorité sont HSV-1, Listeria monocytogenes, et la tuberculose neuro-méningée. En cas d’immunodépression, une cryptocoque neuroméningée doit également être recherchée. Chez cette patiente immunodéprimée, cette étiologie aurait été à évoquer absolument en cas de négativité du bilan microbiologique de 1ère intention. Dans ce cas, une culture mycobactériologique du LCS est demandée (également si possible une PCR BK), et un traitement anti-tuberculeux d’épreuve est discuté même en cas de négativité des prélèvements. Les éléments évocateurs sont une installation subaiguë, le contexte épidémiologique (origine géographique, contage, etc…). Le LCS est habituellement lymphocytaire ou panaché avec une hypoglycorachie. L’IRM cérébrale peut montrer des tuberculomes.",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296968896-f0e48a2080f16",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un patient de 32 ans est admis aux urgences pour une détresse respiratoire aiguë. Il est connu pour vivre avec le VIH depuis 10 ans mais est perdu de vue sans traitement depuis 5 ans. Il se dit essoufflé depuis 3 semaines avec une toux sèche, l’essoufflement s’étant aggravé depuis quelques jours pour maintenant être au moindre effort. Il a par ailleurs des difficultés à s’alimenter du fait de douleurs rétro-sternales lors de la déglutition. A l’examen : Température 38,5°C, TA 120/80, Fc 130 bpm, FR 30/minutes, SaO2 85% en air ambiant. L’auscultation pulmonaire est normale. Le reste de l’examen montre une polyadénopathie inguino-axillaire et une candidose orale floride.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un scanner thoracique est réalisé en urgence. Au vu du pattern radiologique, quelle infection opportuniste vous semble la\nplus probable (un seul mot)?",
+          "choix": [],
+          "reponses": [
+            "Pneumocystose",
+            "Pneumocystis",
+            "Pneumocystis jiroveci",
+            "Pneumocytose",
+            "Pneomcystose",
+            "Pneumnocystose",
+            "Pneumocyctose",
+            "Pneumocyscose",
+            "Pneumocystose pulmonaire"
+          ],
+          "correctionExplanation": "Pattern de syndrome interstitiel diffus dans un contexte d’infection par le VIH avec un retentissement immunitaire marqué du fait de la probable candidose oro-pharyngée (candidose orale + dysphagie).",
+          "order": 1,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q16.png?v=1786296969067"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous évoquez une pneumocystose compliquant l’évolution d’une infection par le VIH non traitée. Parmi les examens complémentaires suivants, quels sont les 6 à prescrire en 1ère intention chez ce patient ?",
+          "choix": [
+            "A) Charge virale VIH sanguine",
+            "B) Immunophénotypage lymphocytaire T CD4 dans le sang",
+            "C) Sérologie VHB",
+            "D) Sérologie VHC",
+            "E) Sérologie syphilis",
+            "F) Antigénurie pneumocoque",
+            "G) Myélogramme sternal",
+            "H) PCR Pneumocystis sur expectoration induite",
+            "I) Hémocultures mycologiques",
+            "J) IRM cérébrale",
+            "K) Anuscopie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "H"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une pneumocystose est évoquée. Quel traitement antibiotique proposez-vous en 1ère intention ?",
+          "choix": [
+            "A) Metronidazole",
+            "B) Albendazole",
+            "C) Cotrimoxazole",
+            "D) Ganciclovir",
+            "E) Amphotéricine B"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296970146-a3c3b48c48d268",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le vecteur de Borrelia burgdorferi (un mot)?",
+          "choix": [],
+          "reponses": [
+            "tique",
+            "Tiques",
+            "Ixodes",
+            "Ixode",
+            "La tique",
+            "Tique Ixodes",
+            "Tique ixones",
+            "Ixiodes",
+            "La Tique",
+            "Tyque",
+            "La tique ixodes",
+            "ixode",
+            "la tique",
+            "ixodes",
+            "tiques"
+          ],
+          "correctionExplanation": "les tiques dures du type Ixodes sont l’agent vecteur de la Borreliose de Lyme",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle situation parmi les suivantes est à risque de transmission de la rage en France ?",
+          "choix": [
+            "A) Morsure de chien errant autochtone",
+            "B) Morsure de chat autochtone",
+            "C) Morsure de chauve-souris",
+            "D) Morsure de renard",
+            "E) Morsure de rat"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "la France est indemne de rage chez les mammifères terrestres, seuls les animaux récemment importés (+++ chien) sont pris en compte pour une prophylaxie éventuelle.",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 réponses exactes concernant la prévention du tétanos ?",
+          "choix": [
+            "A) Un sujet de 40 ans, immunocompétent, ayant reçu son dernier rappel de vaccination antitétanique 15 ans auparavant ne nécessite pas d’injection de rappel en cas de plaie de la main, souillée par de la terre",
+            "B) Un sujet de 78 ans, immunocompétent, ayant reçu son dernier rappel de vaccination antitétanique à l’âge de 65 ans ne nécessite pas d’injection de rappel en cas de plaie de la main, souillée par de la terre",
+            "C) Un sujet de 78 ans, immunocompétent, ayant reçu son dernier rappel de vaccination antitétanique à l’âge de 65 ans ne nécessite pas d’injection de rappel en cas de plaie simple de la jambe",
+            "D) L’administration d’immunoglobulines antitétaniques est systématiquement recommandée en association au rappel vaccinal chez un sujet non à jour de sa vaccination",
+            "E) L’administration d’une dose de vaccin antitétanique, sans adjonction d’immunoglobulines antitétaniques, est recommandée en cas de plaie simple du bras, chez un sujet adulte de 50 ans dont la dernière injection de vaccin antitétanique remonte à l’âge de 20 ans"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q21.png?v=1786296971815"
+          ]
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment pouvez-vous interpréter les résultats sérologiques suivants d’une infection VIH ? (une ou plusieurs réponses possibles)\nSérologie VIH ELISA combinée de 4e génération : positive\nWestern-blot VIH : négatif",
+          "choix": [
+            "A) Infection VIH confirmée",
+            "B) Infection VIH exclue",
+            "C) Infection VIH au stade de primo-infection",
+            "D) Infection VIH au stade SIDA",
+            "E) Faux positif de l’ELISA"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q22.png?v=1786296972296"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles vaccinations sont contre-indiquées en cas d’infection VIH chez un sujet non traité par antirétroviraux ayant des lymphocytes T CD4 à 100/µL ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) BCG",
+            "B) Rougeole-Oreillons-Rubéole",
+            "C) Méningocoque",
+            "D) Pneumocoque",
+            "E) Fièvre Jaune"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "BCG contre-indiqué quel que soit le statut immunitaire ; tous les vaccins vivants contre-indiqués si CD4<200/mm3",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles situations parmi les suivantes justifient un traitement post-exposition au VIH par antiviraux ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Rapport anal réceptif sans préservatif avec un partenaire de statut inconnu pour le VIH",
+            "B) Piqure avec une aiguille creuse IV de toxicomane retrouvée au sol",
+            "C) Piqure avec une aiguille creuse souillée de sang après injection IV à un patient vivant avec le VIH ayant une charge virale <50 copies/mL",
+            "D) Fellation insertive sans préservatif avec un partenaire de statut inconnu pour le VIH",
+            "E) Rapport anal réceptif sans préservatif avec un partenaire vivant avec le VIH ayant une charge virale <50 copies/mL"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "pas de transmission si personne source vivant avec le VIH sous traitement ARV avec CV<50 copies/mL. Pas de TPE pour rapport oro-génitaux (sauf à discuter pour fellation réceptive avec éjaculation et personnes source VVIH et virémique).\nVIH fragile dans le milieu extérieur (ici pas de risque avec aiguille retrouvée au sol), TPE uniquement si sang frais sur aiguille et personne source VVIH non traité ou avec facteurs de risque",
+          "order": 6
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels examens à visée diagnostique prescrivez-vous en bilan d’une adénopathie cervicale isolée ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Sérologie Streptococcique",
+            "B) Sérologie Toxoplasmose",
+            "C) Sérologie Borreliose de Lyme",
+            "D) Sérologie Bartonella henselae",
+            "E) Sérologie HSV"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "rechercher une primo-infection à Toxoplasma gondii, une maladie des griffes du chat.",
+          "order": 7
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une patiente de 34 ans sans antécédent consulte son médecin généraliste en raison de quintes de toux évoluant depuis 15 jours, sans fièvre, avec parfois des vomissements provoqués par les quintes. Vous avez demandé une PCR Bordetella pertussis au laboratoire qui s’est avérée positive. Parmi les propositions suivantes, quelles sont les 3 antibiothérapies potentiellement recommandées ? (QRP 3 réponses attendues)",
+          "choix": [
+            "A) Cotrimoxazole",
+            "B) Amoxicilline",
+            "C) Azithromycine",
+            "D) Clarithromycine",
+            "E) Lévofloxacine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "L’antibiothérapie de première intention consiste en un macrolide (azithromycine 3 jours ou clarithromycine 7 jours). En cas d’allergie ou de contre-indication aux macrolides, l’alternative est le cotrimoxazole 14 jours. Le but principal de l’antibiothérapie est la réduction de la contagiosité et de la durée des symptômes.",
+          "order": 8
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous voyez en consultation dans votre cabinet de médecine générale un homme de 35 ans, qui présente depuis une quinzaine de jours les lésions cutanées suivantes (photos ci-dessous). Il n’a pas d’antécédent médical particulier hormis une urétrite à gonocoque il y a un an. Il ne prend pas de traitement au long cours. Il n’a pas de fièvre, pas d’autre lésion sur le reste du corps, les lésions ne sont pas douloureuses ni prurigineuses\nQuelle est votre principale hypothèse diagnostique ?",
+          "choix": [
+            "A) Primo-infection VIH",
+            "B) Gale",
+            "C) Infection à virus Coxsackie",
+            "D) Endocardite d’Osler",
+            "E) Syphilis secondaire"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Les maculo-papules palmo-plantaires non prurigineuses sont une manifestation cutanée typique de syphilis secondaire. Il est important devant de telles lésions de poser la question de rapports sexuels à risque. Une sérologie syphilis avec dosage du VDRL s’impose.",
+          "order": 9,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q27.jpg?v=1786296974151",
+            "/images/qcm/maladies-transmissibles-s8/2024/q27_1.jpg?v=1786296974538"
+          ]
+        },
+        {
+          "id": 28,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous êtes aux urgences pédiatriques et un petit garçon de 8 ans se présente pour une lésion du cuir chevelu évoluant depuis une dizaine de jours d’aspect squameuse.\nQuel diagnostic évoquez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Teigne tondante",
+            "Teigne",
+            "Teigne du cuir chevelu",
+            "Teigne microsporique",
+            "teigne microsporique",
+            "Teigne microscopique",
+            "Teignes tondantes",
+            "Teigne microphytique",
+            "Teigne à dermatophyte",
+            "Teigne dermatophytique",
+            "Teignes",
+            "Teigne tondante microscopique",
+            "Teigne a dermatophyte",
+            "Teigne tondante microsporique",
+            "Teigne microsporum",
+            "Teigne (dermatophytes)",
+            "Teigne tondante a dermatophyte",
+            "Teigne dermatophytique à Microsporum",
+            "Teigne trichophytique",
+            "teigne trichophytique",
+            "Teigne à T. Microsporidium",
+            "Teigne tondante du cuir chevelu",
+            "Dermatophytie à teignes microsporiques",
+            "Teigne dermatophyte",
+            "Teigne a dermatophyte (microsporum)",
+            "Teigne mycrosporique",
+            "Teigne (dermatophytose)",
+            "Teigne de dermatophyte",
+            "Teigne microsporique a dermatophyte",
+            "Teigne microsporique à dermatophytes",
+            "Teigne à Microsporum",
+            "Teigne a dermatophyte",
+            "Teigne microsporidique",
+            "Teigne trycophytique",
+            "Teigne microphyton",
+            "Dermatophyte teigne",
+            "Dermatophyte microsporique",
+            "Teignes microscopique",
+            "Teigne à microsporium",
+            "Teigne a dermatophytes",
+            "Teigne dermatophytique microsporique",
+            "Teignes microsporiques",
+            "Infection à Tryphotium microsporum",
+            "teigne dermatophytes",
+            "teigne tondante microsporidique",
+            "teigne trichophyton microscopique",
+            "Teigne mocrosporitique",
+            "Pellade/teigne"
+          ],
+          "correctionExplanation": "Toutes atteintes du cuir chevelu crouteuses, squameuses ou pustuleuses est une teigne jusqu’à preuve du contraire",
+          "order": 10,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2024/q28.jpg?v=1786296974986"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

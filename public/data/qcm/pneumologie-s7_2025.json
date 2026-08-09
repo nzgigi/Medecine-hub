@@ -1,0 +1,607 @@
+{
+  "matiere": "Pneumologie",
+  "slug": "pneumologie-s7",
+  "annee": 2025,
+  "title": "Pneumologie - 2025",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 50 ans vient aux urgences pour dyspnée. Parmi les éléments suivants, quels sont les 4 éléments de l'examen clinique qui vous orientent vers une exacerbation de BPCO?",
+          "choix": [
+            "A) Tabagisme à 5 paquets/année",
+            "B) Fièvre",
+            "C) Sibilants",
+            "D) Oedèmes des membres inférieurs",
+            "E) Augmentation de l'expectoration",
+            "F) Eclat du B2 à l'auscultation",
+            "G) tachycardie irrégulière",
+            "H) trouble ventilatoire obstructif connu",
+            "I) Saturation à 88%",
+            "J) Expectoration purulente"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "H",
+            "J"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une exacerbation de BPCO est finalement diagnostiquée. Il n'y a pas de signes de gravité. Parmi les suggestions suivantes, quels sont les 3 nécessaires pour cette exacerbation?",
+          "choix": [
+            "A) Hospitalisation",
+            "B) Pose de perfusion",
+            "C) Bronchodilatateur de courte durée d'action",
+            "D) Bronchodilatateur de longue durée d'action",
+            "E) Sevrage tabagique",
+            "F) Education thérapeutique",
+            "G) Corticoïde systémique",
+            "H) Corticoïde inhalé",
+            "I) Kinésithérapie de rééducation ventilatoire",
+            "J) Suivi avec le débit expiratoire de pointe"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "F"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le critère qui ferait prescrire des antibiotiques en cas d'exacerbation de BPCO chez un patient ayant une BPCO modérée?",
+          "choix": [],
+          "reponses": [
+            "purulence de l'expectoration",
+            "expectoration purulente",
+            "expectorations purulentes",
+            "expectoration franchement purulente",
+            "Expectorations purulentes",
+            "crachats purulents",
+            "purulence des expectorations",
+            "purulence",
+            "expectorations franchement purulentes",
+            "purulence des crachats",
+            "purulence des exacerbations",
+            "expectorations purulentes verdatres",
+            "exacerbations franchement purulentes",
+            "augmentation de la purulence des crachats",
+            "Purulence des expectorations",
+            "expectorations verdatres",
+            "Expectorations franchement purulentes",
+            "expectorations franchement purulantes",
+            "expectoration purulante",
+            "Expectoration franchement purulente",
+            "franche purulence des crachats",
+            "expectorations purrulentes",
+            "toux purulente",
+            "Crachats purulents",
+            "expectoration très purulente",
+            "majoration des secrétions purulentes",
+            "la purulence de l'expectoration",
+            "la purulence des crachats",
+            "mauvaise tolerance hemodynamique avec expectorations purulentes",
+            "expextorations purulentes",
+            "purulence franche des expectorations",
+            "la purulence des expectorations",
+            "modification de la purulence des expectorations",
+            "expectorations vertes purulentes",
+            "une majoration de l'expectoration franchement purulente et verdâtre",
+            "purulence verdatre des expectorations",
+            "purulente",
+            "expectoration purulente (vert)",
+            "expoctorations verdâtres",
+            "Augmentation de la purulence des expectorations",
+            "Expectoriations purulentes",
+            "purulence des exeptorations",
+            "caractere purulent des expectorations",
+            "expectorations purulente",
+            "crachat purulent",
+            "majoration de la purulence des expectorations",
+            "majoration de la purulence des crachats",
+            "Purulence des expectoarations",
+            "couleur verte des expectorations",
+            "expectorations verdâtres",
+            "Expectorations à purulence verdâtre",
+            "augmentation de la purulence des expectorations",
+            "franche purulence des expectorations",
+            "expectorations purulentes infectieuses",
+            "expectoration très purulantes",
+            "expectorations purulentes franchement verdâtres",
+            "purulence des expectoriations",
+            "franche purulence des exacerbations",
+            "Caractère purulent des exacerbations",
+            "expectorations purulentes et verdatres",
+            "une augmentation de la purulence des expectorations",
+            "expectoration purulentes",
+            "présence expectoration verdâtres",
+            "Expectoration purulentes",
+            "Crachat purulent"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299652216-d090de95874d2",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les diagnostics différentiels d’un asthme avec spirométrie et imagerie normale ?",
+          "choix": [
+            "A) Dysfonction des cordes vocales",
+            "B) Bronchopneumopathie chronique obstructive (BPCO)",
+            "C) Syndrome d’hyperventilation",
+            "D) Dilatations de bronches",
+            "E) Mucoviscidose"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Dans l'hémoptysie, quels sont les 3 examens à réaliser en priorité aux urgences?",
+          "choix": [
+            "A) Endoscopie bronchique",
+            "B) Radio de thorax",
+            "C) D-Dimères",
+            "D) Scanner thoracique avec injection au temps artériel",
+            "E) Gazmétrie artérielle"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les données biologiques d’épanchement pleural suivantes, quel est celui qui correspond à un transudat ?",
+          "choix": [
+            "A) Protides pleuraux 30 g/l, LDH 250 UI/l",
+            "B) Protides pleuraux 37 g/l, LDH 450 UI/l",
+            "C) Protides pleuraux 28 g/l, LDH 200 UI/l",
+            "D) Protides pleuraux 25 g/l, LDH 350 UI/l",
+            "E) Protides pleuraux 20 g/l, LDH 150 UI/l"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A partir de combien d’exacerbation(s) par an, un patient avec BPCO est classé dans le groupe E de GOLD ?",
+          "choix": [
+            "A) 0",
+            "B) 1",
+            "C) 2",
+            "D) 3",
+            "E) 4"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En dessous de quelle valeur de pO2 (en mmHg) est définie une insuffisance respiratoire chronique ?",
+          "choix": [],
+          "reponses": [
+            "70"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les réponses suivantes, quelles sont les réponses vraies?",
+          "choix": [
+            "A) Il existe des dilatations des bronches",
+            "B) Il existe une condensation alvéolaire basale gauche",
+            "C) Il existe un épanchement pleural gauche",
+            "D) Il existe un épaississement pleural droit",
+            "E) Une scissure est visible à droite et à gauche"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 6,
+          "images": [
+            "/images/qcm/pneumologie-s7/2025/q9.png?v=1786299654188"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les critères suivants, quels sont ceux qui sont à faible risque de malignité en cas de nodule sur le scanner ?",
+          "choix": [
+            "A) Ne siège pas dans les lobes supérieurs",
+            "B) Taille élevée",
+            "C) Contours lisses",
+            "D) Attraction des structures de voisinage",
+            "E) Progression en taille ou en volume"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "D’après la spirométrie jointe, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) Le VEMS/CVF est à 88%",
+            "B) Il existe un trouble ventilatoire obstructif",
+            "C) Il n'existe pas de réversibilité significative",
+            "D) Le VEMS est en-dessous de la norme",
+            "E) La CV et la CVF sont différentes en valeurs brutes"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/pneumologie-s7/2025/q11.jpg?v=1786299655320"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A partir de quelle largeur (en cm) du pneumothorax est-il nécessaire de discuter d’un drainage ?",
+          "choix": [],
+          "reponses": [
+            "2"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les suivants, quels sont les 3 examens à réaliser en cas de tableau d'asthme?",
+          "choix": [
+            "A) Radio de thorax",
+            "B) Spirométrie",
+            "C) Scanner thoracique",
+            "D) Bilan allergologique",
+            "E) Pléthysmographie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299655891-95c76b71599d6",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient de 34 ans, d’origine portugaise en France depuis sa naissance, non fumeur, vous consulte car depuis 3 mois, il présente une toux sèche, une dyspnée progressive avec des douleurs articulaires et une fatigue générale. Il rapporte également une éruption cutanée discrète sur le visage.\nIl a des antécédents de rupture des ligaments croisés opérée il y’a 6 mois suite à un accident de ski.\nIl ne prend pas de traitement. Il n'a pas d'allergies.\nÀ l'examen, on note des adénomégalies cervicales bilatérales.\n1/ Quel diagnostic clinique évoquez-vous pour intégrer l’ensemble du tableau clinique ?",
+          "choix": [
+            "A) Asthme",
+            "B) Embolie pulmonaire",
+            "C) Sarcoïdose",
+            "D) Polyarthrite rhumatoïde",
+            "E) Fibrose pulmonaire idiopathique"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "La sarcoïdose (dyspnée, toux sèche, douleurs articulaires, adénomégalies, éruption cutanée sotn des signes qui orientent vers cette pathologie plutôt que d’autres affections respiratoires ou infectieuses, il n’y a pas d’adénomégalies dans la PR.",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "2/ Une sarcoïdose est suspectée. Quelle exploration complémentaire serait la plus appropriée en première intention devant ce tableau clinique ?",
+          "choix": [
+            "A) Biopsie pulmonaire échoguidée",
+            "B) Radiographie thoracique",
+            "C) Fibroscopie bronchique",
+            "D) Électrocardiogramme",
+            "E) Dosage sanguin de l’enzyme de conversion de l’angiotensine",
+            "F) Dosage sanguin de la calcémie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "La radiographie thoracique est l'examen de première ligne dans le diagnostic de la sarcoïdose, permettant d’observer les adénopathies médiastinales typiques ou des lésions pulmonaires et de stadifier radiographiquement la maladie.",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "3/ Voici sa radiographie thoracique. Quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Il présente un élargissement du médiastin moyen",
+            "B) Il présente deux opacités périphériques",
+            "C) Il y'a un épanchement pleural gauche",
+            "D) Il présente des adénomégalies médiastinales bilatérales",
+            "E) Le médiastin est dévié"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/pneumologie-s7/2025/q16.png?v=1786299656623"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "4/ Sur la radiographie thoracique, quels sont les aspects les plus évocateurs de la sarcoïdose ?",
+          "choix": [
+            "A) Opacités en verre dépoli",
+            "B) Bronchectasies",
+            "C) Condensations pulmonaires diffuses",
+            "D) Adénomégalies médiastinales bilatérales",
+            "E) Micronodules diffus ou en clusters",
+            "F) Epanchement pleural bilatéral"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Les adénomégalies médiastinales bilatérales sont un signe clé de la sarcoïdose. Le micronodules sont volontiers très fréquemment retrouvés.\nAttention le terme adénopathie est un terme histopathologique. Le terme adénomégalie est un terme descriptif radiologique.",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "5/ Quelle est la cellule clé la plus impliquée dans la formation des granulomes dans la sarcoïdose ?",
+          "choix": [
+            "A) Macrophages",
+            "B) Lymphocytes B",
+            "C) Lymphocytes T",
+            "D) Polynucléaires neutrophiles",
+            "E) Eosinophiles"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Les lymphocytes T et dans une moindre mesure les macrophages (d’où le ‘la plus impliquée' et 'clé’)",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "6/ Quel serait le traitement de première ligne pour ce patient ?",
+          "choix": [
+            "A) Corticostéroïdes",
+            "B) Antituberculeux",
+            "C) Antibiotiques",
+            "D) Antifongiques",
+            "E) Immunosuppresseur type METHOREXATE"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "Le traitement de première ligne dans la sarcoïdose sont les corticostéroïdes, qui permettent de réduire l’inflammation et les granulomes. Le METHOTREXATE est envisagé en seconde intention ou si contre-indication à la corticothérapie.",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299657406-7bfaae516da1e",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez Mr M. âgé de 33 ans pour dyspnée d’aggravation progressive depuis 1 an.\nAntécédents : aucun.\nTraitements habituels : aucun\nMode de vie : vit en appartement au rez-de-chaussée, pas d'activité physique. Opticien.\nTabagisme actif à 35PA.\nAbsence d’allergie connue.\nHistoire de la maladie : il présente depuis 1 an une dyspnée d’effort sans toux associée. Il rapporte des épisodes de dyspnée paroxystique nocturne.\nIl a consulté un cardiologue il y a un mois qui ne retrouve rien d’anormal à l’échographie cardiaque. Le poids est stable.\nA noter que depuis l’enfance, il décrit des épisodes peu fréquents de plusieurs minutes de dyspnée sifflante, toux et oppression thoracique résolutive sous bronchodilatateur de courte durée d’action.\nParmi les éléments suivants de l’interrogatoire, lequel(lesquelles) pourrait (pourraient) vous orienter vers un asthme ?",
+          "choix": [
+            "A) La consommation tabagique",
+            "B) La présence de symptômes respiratoires nocturnes",
+            "C) L'âge de début",
+            "D) Le caractère fluctuant des symptômes respiratoires",
+            "E) La présence d'épisodes de sifflement expiratoire."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Votre interrogatoire retrouve effectivement des éléments évocateurs d’un asthme.\nQuelle est l’auscultation habituelle d’un patient asthmatique à l’état stable, à distance d’une exacerbation ?",
+          "choix": [],
+          "reponses": [
+            "Auscultation normale",
+            "Normale",
+            "normale",
+            "auscultation normale"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous réalisez des Explorations Fonctionnelles Respiratoires.\nConcernant cette EFR, quelle(s) est (sont) la (les) réponse(s) juste(s) ?",
+          "choix": [
+            "A) Il n’y a pas de trouble ventilatoire obstructif.",
+            "B) Le VEMS est normal.",
+            "C) Il existe une réversibilité significative",
+            "D) Ces résultats doivent être complétés par un test à la métacholine",
+            "E) S’il existait une CPT, alors l’examen ne pourrait être une spirométrie"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/pneumologie-s7/2025/q22.jpg?v=1786299658364"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La spirométrie retrouve un trouble ventilatoire obstructif (TVO) réversible.\nQue pouvez-vous conclure à l’issue de votre consultation ?",
+          "choix": [
+            "A) Le diagnostic de BPCO est confirmé",
+            "B) Les épisodes de majoration de la dyspnée sont compatibles avec des symptômes d’asthme",
+            "C) Un traitement inhalé comprenant un CSI (CorticoStéroïdes Inhalés) doit être prescrit",
+            "D) Un traitement bronchodilatateur de longue durée d’action seul peut être prescrit",
+            "E) Sous traitement de fond par CSI, il n’y a pas de nécessité de remettre un plan d’action au patient du fait de la régression prévisible des crises"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le diagnostic d’asthme est confirmé.\nVous proposez au patient de débuter un traitement inhalé associant un CSI à faible dose et un bronchodilatateur de longue durée d’action ainsi qu’un traitement bronchodilatateur de secours.\nVous lui remettez une ordonnance de suivi du Débit Expiratoire de Pointe (DEP).\nQuel facteur majeur d'exacerbation retrouvez-vous dans son observation ?",
+          "choix": [],
+          "reponses": [
+            "Tabagisme",
+            "Le tabac",
+            "addiction tabagique",
+            "Tabac",
+            "Patient tabagique",
+            "Intoxication tabagique"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr M. revient vous voir quelques mois plus tard dans les suites d’une hospitalisation pour, selon le compte rendu qu’il vous apporte, une insuffisance respiratoire aiguë secondaire à une exacerbation d’asthme.\nIl vous demande votre avis sur ce diagnostic car il est très inquiet depuis la sortie d’hospitalisation.\nVous lisez attentivement le compte rendu.\nVous précisez au patient que l’épisode d’exacerbation qu’il a eu était effectivement sévère.\nParmi les signes suivants observés à l’arrivée rapportés dans le compte rendu, quelle(s) est (sont) celui (ceux) qui est (sont) témoin(s) de sévérité d’une exacerbation d’asthme ?",
+          "choix": [
+            "A) La saturation en oxygène à 91 % en air ambiant",
+            "B) La préférence de la position allongée plutôt qu’assise",
+            "C) La fréquence respiratoire à 20 cycles /min.",
+            "D) L’agitation",
+            "E) La présence de râles sibilants"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’évolution clinique a été rapidement favorable sous traitement.\nParmi les traitements suivants, le(s)quel(s) est (sont) indiqué(s) systématiquement dans l’exacerbation d’asthme sévère?",
+          "choix": [
+            "A) L’adrénaline",
+            "B) Les Bêta-2 mimétiques inhalés à forte dose",
+            "C) La corticothérapie systémique",
+            "D) Une antibiothérapie",
+            "E) Un antitussif"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

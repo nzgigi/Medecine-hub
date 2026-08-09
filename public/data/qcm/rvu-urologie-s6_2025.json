@@ -1,0 +1,298 @@
+{
+  "matiere": "Rein et voies urinaires – Urologie",
+  "slug": "rvu-urologie-s6",
+  "annee": 2025,
+  "title": "Rein et voies urinaires – Urologie - 2025",
+  "total_questions": 12,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les causes possibles de Rétention Aigue d'Urine chez l’homme ?",
+          "choix": [
+            "A) Fécalome",
+            "B) Sténose urétérale",
+            "C) Hypertrophie bénigne de la prostate",
+            "D) Prostatite aiguë",
+            "E) Atonie vésicale médicamenteuse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans l’incontinence urinaire de l’adulte, quelle(s) proposition(s) est(sont) correcte(s) ?",
+          "choix": [
+            "A) Les fuites nocturnes dominent le tableau",
+            "B) Elle peut être différenciée d’une miction par regorgement par le contexte clinique",
+            "C) Elle touche uniquement les femmes",
+            "D) L’incontinence peut engager le pronostic vital",
+            "E) La présence de gouttes retardataires est pathognomonique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’hématurie, quelles propositions sont exactes ?",
+          "choix": [
+            "A) Une hématurie est toujours pathologique, quelle que soit sa forme",
+            "B) Une hématurie terminale suggère une origine prostatique",
+            "C) La bandelette urinaire permet de différencier hémoglobine et myoglobine",
+            "D) La présence de caillots oriente vers une origine urologique",
+            "E) Une hématurie isolée sans douleur ne doit pas être négligée"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos de l’épreuve des 3 verres utilisée pour l’analyse d’une hématurie macroscopique, lesquelles des propositions suivantes sont exactes ?",
+          "choix": [
+            "A) Elle permet de différencier une hématurie initiale, terminale ou totale",
+            "B) Une hématurie initiale oriente vers une atteinte vésicale",
+            "C) Une hématurie totale est typique d’une atteinte urétrale",
+            "D) Cette épreuve est inutile en cas d'hématurie microscopique",
+            "E) Elle permet d’identifier les faux positifs liés à des pigments alimentaires"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments cliniques et paracliniques orientent vers une colique néphrétique ?",
+          "choix": [
+            "A) Une fièvre supérieure à 38,5° est évocatrice",
+            "B) Douleur brutale, unilatérale, irradiant vers les OGE",
+            "C) Agitation du patient, nausées et vomissements",
+            "D) Présence d’une hématurie microscopique à la BU",
+            "E) Une douleur à l’ébranlement de la fosse lombaire est pathognomonique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les caractéristiques d’une colique néphrétique dite « compliquée » ?",
+          "choix": [
+            "A) Oligo-anurie associée",
+            "B) Présence de fièvre ou frissons",
+            "C) Colique récidivante chez un sujet jeune sans comorbidité",
+            "D) Présence d’un rein unique ou transplantation rénale",
+            "E) Survenue d'un vomissement"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299975991-6ecceafaef38",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Monsieur L., 72 ans, se présente aux urgences pour une douleur hypogastrique intense et une impossibilité à uriner depuis 10 heures. Il a des antécédents d’hypertrophie bénigne de la prostate (HBP) connue, traitée par alpha-bloquant qu’il a arrêté il y a un mois. Il rapporte des épisodes récents de pollakiurie, de nycturie, un jet urinaire affaibli, et des gouttes terminales.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les symptômes du bas appareil urinaire (SBAU) chez cet homme, lesquelles des propositions suivantes sont exactes ?",
+          "choix": [
+            "A) La pollakiurie est un symptôme de la phase mictionnelle",
+            "B) La nycturie est un symptôme de la phase de remplissage",
+            "C) L’interruption du jet est un signe de la phase post-mictionnelle",
+            "D) L’urgenturie est un symptôme de la phase de remplissage",
+            "E) La dysurie est un symptôme de la phase mictionnelle"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est votre principale hypothèse concernant l'épisode actuel ?",
+          "choix": [],
+          "reponses": [
+            "rétention aiguë d'urine",
+            "rétention d'urine aiguë",
+            "rétention urinaire aiguë",
+            "rétention d'urine",
+            "rétention urinaire",
+            "retention aigue urinaire",
+            "rétention aigue d'urines",
+            "retention urinaire aigu",
+            "retention aigue d'urines",
+            "rétention aiguë d'urines",
+            "rétention urinaire liée a une hypertrophie de la prostate",
+            "retention d urine du à l'HBP",
+            "retention aigu d'urine",
+            "retention aigu d urine",
+            "Rétention aigue d'urine (par majoration de l'hypertrophie de la prostate dù à l'arret du traitement)",
+            "rétension aigue d’urine causée par l’hypertrophie prostatique",
+            "Retention aigue d'urine par hypertrophie benigne de la prostate",
+            "retension aigue d'urine",
+            "rétention aigüe d'urine sur récidive d'HBP",
+            "RAU",
+            "Rétention aigue urinaire",
+            "rétention aigu d'urine",
+            "rétention aiguë d'urine avec miction par regorgement",
+            "retention urinaire aigue par hypertrophie benigne de la prostate exacerbe par l arret du traitement",
+            "Rétention Aigue Urinaire",
+            "retention aigue durine",
+            "rétention aigue d'urine sur recidive de l'HBP post arrêt du traitement",
+            "Rétention aiguë d'urine par compression urétrale (prostate hypertrophique sans traitement)",
+            "Rétention Aigu d'Urine suite à l‘HBP",
+            "Globe vésical (Rétention aigüe d'urine)",
+            "Retention aigue urinaire",
+            "rétention aigu urinaire",
+            "retention aigue",
+            "fuites urinaires par regorgement dû à une rétention aigue d'urines",
+            "rétension urinaire aigue",
+            "Retention aigue d'urine sur hypertrophie benigne de la prostate",
+            "une retention aigue d'urine par compression de l'uretre par la prostate",
+            "Rétention aigue d'urine dûe à une hypertrophie bénigne de la prostate",
+            "Retention urinaire aigu"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous vous apprêtez à réaliser un examen clinique pour confirmer votre diagnostic. Que vous attendez-vous à trouver ? (ne pas décrire en détail ce que vous observerez, mais simplement donner le nom du signe clinique en 2 mots)",
+          "choix": [],
+          "reponses": [
+            "Globe vésical",
+            "globe urinaire",
+            "Globe urinaire",
+            "globe vesicale",
+            "globe vésicale",
+            "Globe Urinaire",
+            "Globe vésicale",
+            "globbe vesicale",
+            "touche rectal prostate hypertrophie globe urinaire",
+            "globe suspubien",
+            "lobe vésicale"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la sonde urétro-vésicale utilisée pour ce patient, quelles affirmations sont exactes ?",
+          "choix": [
+            "A) La sonde est posée sous anesthésie générale en urgence",
+            "B) Il est conseillé d’utiliser un lubrifiant anesthésiant pour réduire les douleurs",
+            "C) Le ballonnet est gonflé avec du sérum physiologique",
+            "D) Il faut utiliser une asepsie rigoureuse et un système clos",
+            "E) Le sondage urétro-vésical est contre-indiqué en cas de prostatite aiguë"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) complication(s) peut-on redouter après le sondage en urgence ?",
+          "choix": [
+            "A) Une hypotension orthostatique",
+            "B) Une hémorragie vésicale à vacuo",
+            "C) Une infection urinaire nosocomiale",
+            "D) Une lésion traumatique de l’urètre",
+            "E) Une dilatation urétérale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles précautions doit-on prendre lors du drainage d’un globe vésical ?",
+          "choix": [
+            "A) Surveiller la diurèse",
+            "B) Réhydrater abondamment avant tout drainage",
+            "C) Réaliser un clampage tous les 400 mL",
+            "D) Éviter tout drainage si le patient est anticoagulé",
+            "E) Prévenir le syndrome de levée d’obstacle"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,230 @@
+{
+  "matiere": "Biophysique",
+  "slug": "biophysique-s3",
+  "annee": 2025,
+  "title": "Biophysique - 2025",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "cocher les propositions justes concernant cette image thoracique",
+          "choix": [
+            "A) Proposition 1 : c'est une IRM du thorax",
+            "B) Proposition 2 : c'est une radio pulmonaire de face",
+            "C) Proposition 3 : c'est une radio de rachis de face",
+            "D) Proposition 4 : elle est faite en effet Compton au moyen de rayons X de haute énergie",
+            "E) Proposition 5 : elle est faite en effet photoélectrique au moyen de rayons X de basse énergie"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/biophysique-s3/2025/q1.png?v=1786294724823"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "cocher les propositions justes concernant cette imagerie rachidienne lombaire",
+          "choix": [
+            "A) Proposition 1 : c'est une IRM du rachis lombaire",
+            "B) Proposition 2 : c'est une radio de rachis lombaire de profil",
+            "C) Proposition 3 : elle est réalisée en effet Compton au moyen de RX de haute énergie",
+            "D) Proposition 4 : on voit les racines nerveuses",
+            "E) Proposition 5 : on voit les disques intervertébraux"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/biophysique-s3/2025/q2.png?v=1786294725232"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "cocher les propositions justes concernant cette imagerie rachidienne lombaire",
+          "choix": [
+            "A) Proposition 1 : c'est une IRM du rachis lombaire",
+            "B) Proposition 2 : c'est une radio de rachis lombaire de profil",
+            "C) Proposition 3 : elle est réalisée en effet Compton au moyen de RX de haute énergie",
+            "D) Proposition 4 : on voit les racines nerveuses",
+            "E) Proposition 5 : on voit les disques intervertébraux"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/biophysique-s3/2025/q3.png?v=1786294725797"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294726450-7fcfbf7f8e70d8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Exposition de la population aux rayonnements ionisants due aux actes d’imagerie médicale diagnostique réalisés en France en 2017\nCe rapport d’exposition de la population française aux rayonnements ionisants en lien avec des actes d’imagerie médicale diagnostique est publiée est disponible sur le site de l’IRSN (Rapport EXPRI 2019). Voici quelques extraits :\nLa proportion d’individus exposés dans la population française croît avec l’âge, de 15% pour les enfants, à 70% pour les femmes de 65 ans en 2017 et de 55% pour les hommes de 65 ans en 2017. Lorsque la dose efficace totale calculée pour 2017 est rapportée au nombre des patients on obtient une dise efficace individuelle cumulée moyenne d’environ 3,4 mSv. La distribution de la dose est extrêmement hétérogène ; une différence très nette est observée entre hommes et femmes en termes de dose efficace individuelle cumulée : les hommes ont reçu en moyenne environ 1 mSv de plus que les femmes en 2017. L’analyse des différents centiles confirme que la distribution de dose efficace des hommes est nettement décalée vers les doses élevées par rapport à celles des femmes. Cette constatation est à mettre en relation avec le nombre moyen d’actes de TDM (abdomen, pelvis, tête et cou) et de médecine nucléaire (TEP/TDM, TEP corps entier) par patient qui est plus élevé chez les hommes. L’analyse concerne que les actes de scanographie diagnostique (ne sont pas pris en compte ni les actes en radiologie interventionnelle ou cardiologie interventionnelle, ni les scanners de planification en radiothérapie)….Il n’y avait pas de différence entre les deux sexes pour les exploration d’imagerie dentaire. Cette étude d’intéresse aussi aux patients ayant cumulé une dose efficace de plus de 100 mSv , et pour cette situation il existe un consensus entre les différentes organisations internationales comme la CIPR ou l’UNSCEAR pour considérer qu’au-delà de cette valeur de dose efficace le risque….lié aux rayonnements ionisants est avéré. L’âge moyen des patients « 100 mSv+ » est d’environ 62 ans et cette population est majoritairement masculine. Il y a aussi une population jeune dans ce groupe. Un effectif national de 30 000 patients a été exposé à une dose efficace cumulée de plus de 100 mSv en 2017 en raison des scanners multiples. Cette population semble être en augmentation régulière et rapide depuis 2012. L’essentiel de cette population est âgé, cependant un quart a moins de 55 ans. La question des éventuels effets radio-induits à long terme se pose donc pour cette population spécifique. Ces patients sont suivis pour des pathologies lourdes et que les examens scanner sont indispensables pour leur prise en charge.\nDes investigations spécifiques seraient nécessaires pour le confirmer et pour éventuellement mettre en évidence des examens injustifiées ou redondants. La prise en compte d’autres modalités d’actes diagnostiques permettrait d’affiner la description de cette population de patients fortement exposées aux examens médicaux impliquant les rayonnements ionisants.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les organismes nationaux impliqués dans la radioprotection sont :",
+          "choix": [
+            "A) ASN",
+            "B) CIPR",
+            "C) IRSN",
+            "D) UNSCEAR",
+            "E) ICRU"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La dose efficace",
+          "choix": [
+            "A) s’exprime en Sievert",
+            "B) C’est la dose absorbée par unité de masse",
+            "C) C’est une grandeur physique",
+            "D) Prend en compte la sensibilité du tissu irradié",
+            "E) C’est une grandeur de radioprotection"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Risques radiologiques de la population lors de l’imagerie diagnostique:",
+          "choix": [
+            "A) Les risques analysés dans l’article concernent la radiologie conventionnelle, dentaire, scanners, médecine nucléaire",
+            "B) La radiologie interventionnelle thérapeutique et la radiothérapie exposent à des effets déterministes",
+            "C) La dose efficace est un synonyme de la dose absorbée",
+            "D) Cet article évoque le risque d’effets déterministes",
+            "E) Cet article évoque le risque d’effets stochastiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans cet article on évoque plus d’actes radiologiques et de médecine nucléaire chez les hommes ce qui implique probablement :",
+          "choix": [
+            "A) Que les hommes ont réalisé plus de TDM thoraco abdomino-pelviennes que les femmes",
+            "B) Que les hommes ont réalisés plus de radiographies panoramiques dentaires que les femmes",
+            "C) Qu’ils y avaient plus d’enfants de sexe masculin ayant eu des scanners/ explorations en médecine nucléaire",
+            "D) Que les hommes ont eu plus d’explorations par IRM que les femmes",
+            "E) Que les hommes ont fait plus de TEP/ TDM corps entier"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’ordre décroissante correcte des doses efficaces des examens radiologiques pour la population pédiatrique et adulte pourrait être",
+          "choix": [
+            "A) Radiographie thoracique > Radiographie dentaire > Radiographie de la colonne vertébrale > Scanner thoraco-abdomino pelvien avec produit de contraste",
+            "B) Scanner abdomino pelvien avec produit de contraste > radiographie de la colonne vertébrale> échographie du genou > radiographie dentaire",
+            "C) Scanner abdominal néonatal > scanner abdominal adulte > radiographie thoracique > radiographie dentaire",
+            "D) Scanner abdominal > IRM corps entier > scanner encéphalique en population pédiatrique",
+            "E) Scanner abdominal > scanner thoracique > radiographie de l’avant-bras en population pédiatrique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le dernier paragraphe de l’article évoque les principes de:",
+          "choix": [
+            "A) Limitation",
+            "B) Justification",
+            "C) Optimisation",
+            "D) Equivalence",
+            "E) Non-opposition"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La dose efficace individuelle cumulée moyenne publiée dans cet article est d’environ 3,4 mSv",
+          "choix": [
+            "A) C’est supérieur à l’irradiation naturelle annuelle en France",
+            "B) Ne tient pas compte de la radiothérapie externe",
+            "C) La réalisation des examens de résonance magnétique contribue à cette dose efficace",
+            "D) L’irradiation médicale diagnostique est inférieure à l’irradiation naturelle liées aux rayonnements cosmiques et telluriques (Ra-22, etc)",
+            "E) Cette irradiation est considérée comme négligeable pour la population pédiatrique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}
