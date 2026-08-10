@@ -44,9 +44,43 @@ export const metadata: Metadata = {
     ],
   },
 
+  twitter: {
+    card: "summary_large_image",
+    title: "Medecine Hub - QCM gratuits DFASM1 et DFASM2",
+    description:
+      "Révisez gratuitement vos examens de médecine avec des centaines de QCM d'annales classés par matière et par année.",
+    images: ["/brand/banner-v2.png"],
+  },
+
+  alternates: {
+    canonical: "/",
+  },
+
   verification: {
     google: "4kICAnwJ5y9gXJwfENfEFY6KXSvW_mh2qZ0WZuylnhM",
   },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://medecinehub.fr/#website",
+      url: "https://medecinehub.fr",
+      name: "Medecine Hub",
+      description:
+        "QCM gratuits d'annales de médecine (DFASM1, DFASM2) classés par matière et par année.",
+      inLanguage: "fr-FR",
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://medecinehub.fr/#organization",
+      name: "Medecine Hub",
+      url: "https://medecinehub.fr",
+      logo: "https://medecinehub.fr/brand/pfp-v2.png",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -56,6 +90,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${inter.className} bg-stone-50 text-stone-950 antialiased dark:bg-[#151512] dark:text-stone-100`}
       >
