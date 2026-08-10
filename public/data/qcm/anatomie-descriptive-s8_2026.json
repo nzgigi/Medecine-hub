@@ -1,0 +1,356 @@
+{
+  "matiere": "Anatomie descriptive",
+  "slug": "anatomie-descriptive-s8",
+  "annee": 2026,
+  "title": "Anatomie descriptive - 2026",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mlle L., 24 ans, sans antécédents notables hormis une appendicectomie à l'âge de 12 ans, se présente aux urgences pour une douleur pelvienne aiguë brutale en fosse iliaque droite, apparue il y a 3 heures. La douleur est décrite comme très intense, cotée à 8/10, accompagnée de nausées. Elle signale également de légères métrorragies depuis le matin. Elle est porteuse d’un DIU au cuivre posé il y a 2 ans. Ses dernières règles remontent à 3 semaines.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les éléments suivants, lequel est le plus en faveur d'une torsion d'annexe plutôt que d'une Grossesse Extra-Utérine ?",
+          "choix": [
+            "A) La présence d'un DIU au cuivre.",
+            "B) Le caractère brutal et paroxystique de la douleur.",
+            "C) L'existence de métrorragies.",
+            "D) L'âge de la patiente.",
+            "E) La localisation de la douleur en fosse iliaque droite."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'examen clinique retrouve une défense en fosse iliaque droite. Le toucher vaginal est très douloureux, notamment à la mobilisation utérine. La température est à 37,6°C.\nQue demandez-vous comme examen(s) complémentaire(s) ?",
+          "choix": [
+            "A) Réaliser un test de grossesse urinaire ou plasmatique (β-hCG).",
+            "B) Demander une Echographie pelvienne",
+            "C) Demander une IRM pelvienne",
+            "D) Demander un scanner abdominal injecté",
+            "E) Réaliser un prélèvement vaginal"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les résultats sont : β-hCG négatifs (< 2 UI/L), CRP à 8 mg/L, Leucocytes à 11 000/mm³.\nQuels diagnostics deviennent alors les plus probables ?",
+          "choix": [
+            "A) Salpingite aiguë sur DIU.",
+            "B) Rupture de kyste folliculaire.",
+            "C) Torsion d'annexe.",
+            "D) Fausse couche spontanée précoce",
+            "E) Appendicite aiguë."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous pratiquez une échographie pelvienne par voie endovaginale. Quels signes échographiques directs seraient en faveur d'une torsion d'annexe ?",
+          "choix": [
+            "A) Présence d'un épanchement dans le cul-de-sac de Douglas.",
+            "B) Visualisation du DIU correctement positionné.",
+            "C) Augmentation du volume ovarien avec œdème du stroma.",
+            "D) Visualisation du \"signe de la spire\" (whirlpool sign) au Doppler au niveau du pédicule.",
+            "E) Ovaire positionné entre l’utérus et la vessie"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370215630-6965f5a448675",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous êtes interne de garde aux urgences de l’Hôpital des Enfants. L'infirmière de l'IAO (IDE d'Accueil et d'Orientation) vous explique qu'une mère emmène un petit garçon âgé de 3 mois, sans antécédents notables.\nDepuis 24 heures, il présente des accès de pleurs avec pâleur et hypotonie, pouvant s'accompagner de vomissements alimentaires. Dans l'intervalle, il redevient asymptomatique. Mais depuis ce soir, sont apparues des selles avec du sang, inquiétant la génitrice qui a décidé de vous l'emmener.\nÀ l'accueil, le patient est apyrétique, mais cerné et asthénique. Le TRC est de 2 secondes. Il est tachycarde (190/min), légèrement tachypnéique (40/min), avec une TA normale et une saturation transcutanée à 95% sous air ambiant.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "À l’examen clinique vous trouvez une masse dans le flanc droit qui est douloureuse à la palpation. De plus l'enfant émet par l’anus durant l’examen une substance ayant un aspect en gelée de groseille. Quel diagnostic suspectez-vous en priorité grâce à l'anamnèse et à votre examen clinique ?",
+          "choix": [
+            "A) Une encéphalite.",
+            "B) Un diverticule de Meckel.",
+            "C) Une invagination intestinale aiguë (IIA) idiopathique.",
+            "D) Une tumeur du flanc droit.",
+            "E) Une invagination intestinale aiguë (IIA) secondaire."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’IIA se définit par la pénétration d’un segment intestinal dans la lumière du segment qui lui est immédiatement adjacent en aval par un mécanisme de retournement en « doigt de gant ». Complétez le schéma suivant représentant la région anatomique d’intérêt de cette pathologie.",
+          "choix": [
+            "A) Le chiffre 1 représente l’Artère iléo-caeco-appendiculo-bicolique.",
+            "B) Le chiffre 2 représente l’artère mésentérique supérieure qui vascularise l’intestin grêle, le colon droit, et les 2/3 proximaux du colon transverse.",
+            "C) Le chiffre 3 représente l’artère mésentérique inférieure qui vascularise la totalité du colon transverse, le colon gauche et le colon sigmoïde.",
+            "D) Le chiffre 4 représente le sens de l’invagination intestinale aiguë.",
+            "E) Le chiffre 5 représente l’hypertrophie des plaques de Peyer (groupement de follicules lymphoïdes situés entre muqueuse et sous-muqueuse de l’intestin grêle), à l’origine du mécanisme d’IIA."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/anatomie-descriptive-s8/2026/q6.webp?v=1786370217661"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le radiologue réalise donc une échographie abdominale. Quelles propositions sont exactes ?",
+          "choix": [
+            "A) L’examen est normal, il s’agit probablement d’une banale gastro-entérite.",
+            "B) Vous retrouvez une image de boudin d’invagination en coupe transversale.",
+            "C) Vous identifiez une structure digestive borgne avec signes inflammatoires.",
+            "D) Vous reconnaissez au moins un ganglion.",
+            "E) Vous identifiez un pylore hypertrophique."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/anatomie-descriptive-s8/2026/q7.webp?v=1786370218102"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez brillamment posé le diagnostic d’invagination intestinale aiguë iléo-colique. Le radiologue ayant réalisé l'imagerie ne vous fait part d’aucun signe de gravité. Quelle sera la suite de la prise en charge ?",
+          "choix": [
+            "A) Prise en charge chirurgicale immédiate.",
+            "B) Administration d’antalgiques et retour à domicile.",
+            "C) Indication à un scanner abdomino-pelvien.",
+            "D) Lavement opaque par voie haute en présence du chirurgien.",
+            "E) Lavement opaque par voie basse en présence du chirurgien."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370218476-59a13f7ce7c87",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Vous êtes de garde aux urgences et accueillez un monsieur obèse qui se tient la poitrine après une violente douleur survenue alors qu’il jardinait. Il vous décrit une douleur qui opprime le thorax, qu’elle est connue, ancienne, mais qu’elle apparaissait alors qu’il fessait des efforts plus intenses.\nIl vous apprend que c’est un ancien tabagique (40 paquets-années) et qu’il prend du KARDEGIC et du LARCAN pour un problème de « tension ».",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic suspectez-vous?",
+          "choix": [
+            "A) Myocardite",
+            "B) Syndrome coronarien aigu",
+            "C) Embolie pulmonaire.",
+            "D) Cholécystite aigue.",
+            "E) Pancréatite aigue."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une origine coronarienne à cette symptomatologie, l’externe qui vous accompagne vous questionne sur l’anatomie des artères coronaires.",
+          "choix": [
+            "A) Dans 25% des cas, l’artère coronaire droite irrigue le nœud sino atrial.",
+            "B) L’artère circonflexe est une terminale de l’artère coronaire gauche.",
+            "C) L’artère interventriculaire postérieure contourne l’apex du cœur pour rejoindre l’artère interventriculaire antérieure et s’y anastomose à plein canal.",
+            "D) Le noeud atrio-ventriculaire est vascularisé par l’artère coronaire gauche.",
+            "E) L’artère coronaire droite vascularise le septum inter-atrial et le ¼ inf du septum interventriculaire."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous faites en urgence un ECG et recherchez un trouble du rythme cardiaque.\nVotre externe vous demande quels sont les rapports entre les artères coronaires et le système cardionecteur. Vous lui expliquez alors que :",
+          "choix": [
+            "A) Le nœud atrioventriculaire est situé à proximité de la cuspide septale de la valve atrioventriculaire droite.",
+            "B) Le nœud sino-atrial est situé à proximité l’abouchement de la veine cave caudale.",
+            "C) La branche gauche du faisceau atrioventriculaire passe entre la partie membraneuse et la partie musculaire du septum interventriculaire.",
+            "D) Il n’y a aucun rapport entre la vascularisation et l’innervation intrinsèque du cœur.",
+            "E) La branche droite du faisceau atrioventriculaire décrit sur le septum interventriculaire une courbure à concavité caudale."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le malade s’aggrave et il décrit une douleur violente qu’il perçoit au niveau du poignet gauche. Comment expliquez-vous cela à votre étudiant ?",
+          "choix": [
+            "A) C’est certainement une blessure d’un des faisceaux du plexus brachial secondaire à l’effort.",
+            "B) Le malade simule, il s’agit d’une hystérie.",
+            "C) Le malade fait probablement un accident vasculaire cérébral droit.",
+            "D) Il faut suspecter une pathologie orthopédique.",
+            "E) Il s’agit d’une douleur rapportée."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370220891-c2573a5f227998",
+      "type": "DP",
+      "title": "Mini DP 4",
+      "description": "Une patiente de 45 ans se présente à votre consultation. Elle n’a pas d’antécédents notables. Elle présente des cervicalgies d’horaire mixte s’aggravant progressivement à l’origine d’une asthénie importante. Il n’existe pas d’anorexie ou d’amaigrissement récent.\nRécemment elle est tombée la nuit en voulant aller aux toilettes car « je ne sentais plus le sol sous mes pieds ».\nAlors qu’elle aime les randonnées en montagne, elle décrit des difficultés à réaliser plus de 10 minutes de marche en terrain plat sans devoir s’arrêter pour récupérer des forces. Cela fait un an que cela dure et à tendance à s’aggraver petit à petit.\nElle décrit également des paresthésies brutales dans les 4 membres lorsqu’elle plie le cou.\nExamen clinique neurologique :\nExamen de la marche : Démarche talonnante.\nPas de déficit moteur aux 4 membres\nRéflexes bicipital et stylo-radial normaux aux 2 membres supérieurs\nRéflexe tricipital légèrement vif de manière bilatérale.\nRéflexes achilléens et patellaires franchement pathologiques de manière bilatérale.\nHypoesthésie au toucher avec niveau sensitif au niveau cervical et des mains.\nHypopallesthésie dans le même territoire\nTrouble de la sensibilité arthrokinétique bilatérale.\nPas d’atteinte thermo-algique aux 4 membres.\nPaires crâniennes intègres\nFonctions supérieures intègres",
+      "order": 4,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes cliniques êtes-vous susceptibles de retrouver et qui vous orienteraient vers un syndrome pyramidal ?",
+          "choix": [
+            "A) Une abolition des réflexes cutanés abdominaux",
+            "B) Une amyotrophie des membres inférieurs",
+            "C) Des réflexes cutanés plantaires en extension lente reproductible",
+            "D) Une trépidation épileptoïde des mollets à l’extension de cheville",
+            "E) Une anesthésie en selle"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle ataxie présente la patiente ?",
+          "choix": [
+            "A) Ataxie cérébelleuse",
+            "B) Ataxie proprioceptive",
+            "C) Ataxie frontale",
+            "D) Ataxie cérébelleuse",
+            "E) Ataxie pyramidale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles affirmations sont vraies concernant son examen sensitif ?",
+          "choix": [
+            "A) La patiente présente un syndrome cordonnal postérieur",
+            "B) Le signe de Lhermitte signe une atteinte des voies spino-thalamiques",
+            "C) L’hypopallesthésie signifie que les fibres de la sensibilité lemniscale sont atteintes.",
+            "D) Les tractus graciles et cunéiformes sont lésés.",
+            "E) L’absence de déficit thermo-algique aux membres inférieurs signifie que les portions antérieures des cordons latéraux sont encore fonctionnelles."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les affirmations vraies concernant l’anatomie de la moelle spinale ?",
+          "choix": [
+            "A) Au niveau cervical, le tractus cortico-spinal latéral est en avant des voies sensitives spino-thalamiques.",
+            "B) Les corps cellulaires des motoneurones se situent dans la corne antérieure de la moelle spinale.",
+            "C) Le tractus cortico-spinal ne présente pas d’organisation somatotopique",
+            "D) L’atteintes des cordons postérieurs est à l’origine de l’hypopallesthésie",
+            "E) 80% des fibres du tractus cortico-spinal sont véhiculées par le tractus cortico-spinal ventral"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

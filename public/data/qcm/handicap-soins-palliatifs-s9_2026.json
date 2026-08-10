@@ -1,0 +1,455 @@
+{
+  "matiere": "Handicap et soins palliatifs",
+  "slug": "handicap-soins-palliatifs-s9",
+  "annee": 2026,
+  "title": "Handicap et soins palliatifs - 2026",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes l’oncologue de monsieur D., âgé de 63 ans, que vous suivez depuis 2 mois pour un adénocarcinome de la queue du pancréas, d’emblée métastatique au niveau hépatique (plusieurs nodules identifiés sur le scanner initial). Une première ligne de chimiothérapie a été débutée rapidement.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prise en charge globale initiale de ce patient, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) On ne peut pas parler de soins palliatifs tant que se poursuivent les traitements oncologiques spécifiques (tels que les chimiothérapies, immunothérapies ou thérapies ciblées).",
+            "B) La notion de « soins palliatifs précoces » est contradictoire en elle-même.",
+            "C) Il existe des outils et des scores, tels que Pallia10, pour repérer les patients pouvant bénéficier de l’intervention d’une équipe mobile de soins palliatifs.",
+            "D) Il est pertinent de mettre en œuvre dès le début de prise en charge, une planification anticipée des soins, afin de questionner et travailler à la qualité de vie du patient.",
+            "E) Vous proposez au patient de rédiger des directives anticipées qui sont valables 3 ans."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ce patient présente depuis quelques semaines des douleurs épigastriques avec irradiation vers l'hypocondre droit et le dos, à type de coup de poignard. Elles sont mal soulagées par la prise de Paracétamol et de Tramadol que vous lui aviez prescrit initialement. Vous l’avez mis depuis une dizaine de jours sous Fentanyl transdermique (opioïde fort) 12 µg/h, 1 patch à changer tous les 3 jours, associé à la possibilité d'interdoses d'Actiskénan (sulfate de morphine à libération immédiate) 5 mg toutes les 4 h en cas de recrudescence douloureuse. Après une relative amélioration antalgique, les douleurs se sont à nouveau accentuées avec actuellement 5 à 6 interdoses consommées chaque jour. En dehors de ces douleurs, il vous décrit une constipation qui le gêne de plus en plus malgré un régime hygiéno-diététique adapté, des sueurs survenant surtout le soir, et une sécheresse buccale.\nConcernant l'adaptation de son traitement antalgique, quelles propositions vous paraissent pertinentes parmi les suivantes ?",
+          "choix": [
+            "A) Majoration des posologies du Fentanyl transdermique et de l'Actiskénan (Sulfate de Morphine à libération immédiate) tous les 3 jours jusqu'à amélioration des douleurs.",
+            "B) Maintien du Fentanyl transdermique à même posologie mais à changer tous les deux jours au lieu de tous les trois jours avec ajout de Néfopam 3 x par jour.",
+            "C) Relais du Fentanyl transdermique par du Chlorydrate de Morphine ou de l’Oxycodone par voie IV, avec réévaluation rapprochée et un nouveau relais vers la voie orale dès qu’un équilibre antalgique est obtenu.",
+            "D) Maintien du Fentanyl transdermique à même posologie avec ajout de Fentanyl transmuqueux (en lieu et place de l'Actiskénan), pour mieux gérer les accès douloureux.",
+            "E) Relais du Fentanyl transdermique par du Sulfate de Morphine ou de l’Oxycodone à libération prolongée (associé à des interdoses), avec réévaluation rapprochée et adaptation des posologies."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient préférant rester à domicile, vous avez opté pour un relais du Fentanyl transdermique par du Sulfate de Morphine à libération prolongée (Skenan LP 20 mg matin et soir), avec poursuite des interdoses d'Actiskénan 5 mg toutes les 4 h si recrudescence des douleurs.\nQuelques mois plus tard, malheureusement la maladie continue d’évoluer et une carcinose péritonéale se développe. L’état général du patient se dégrade, avec désormais un statut OMS à 3. Une ascite se constitue, la constipation est plus marquée, des nausées peuvent survenir. Peu après, il se présente aux urgences pour un tableau d’occlusion digestive avec distension abdominale, arrêt des matières et des gaz depuis la veille au soir, quelques nausées et un épisode de vomissement peu abondant.\nA propos de l’occlusion de ce patient, quelles sont les deux réponses vraies ?",
+          "choix": [
+            "A) Un scanner abdominopelvien est particulièrement intéressant pour rechercher la cause et situer un éventuel syndrome jonctionnel.",
+            "B) Cliniquement, il s'agit d'un tableau d'occlusion digestive haute, probablement sur compression de la masse tumorale primitive.",
+            "C) Il est nécessaire d’organiser un transfert au bloc opératoire en urgence.",
+            "D) La prise en charge médicale implique la mise en place systématique d'une sonde nasogastrique en déclive.",
+            "E) Les opioïdes forts peuvent causer une occlusion fonctionnelle."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il s’agit d’une occlusion digestive basse sur carcinose péritonéale, confirmée par le scanner.\nLequel des traitements suivants est contre-indiqué dans ce contexte ?",
+          "choix": [
+            "A) METOCLORAMIDE (PRIMPERAN) I.V.",
+            "B) METHYLPREDNISOLONE (SOLUMEDROL) I.V.",
+            "C) CHLORYDRATE DE MORPHINE par voie I.V.",
+            "D) HALDOL injectable",
+            "E) Anticholinergique par voie I.V. (METHYLBROMURE DE SCOPOLAMINE)"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395762562-455812262bdec",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un homme de 35 ans consulte pour une lombalgie aiguë apparue après avoir porté une charge lourde. L’examen clinique ne retrouve ni fièvre, ni déficit sensitivo-moteur, ni réveil nocturne, ni signe fonctionnel urinaire.\nQuels sont les 2 éléments qui correspondent aux diagnostics les plus probables ou à la conduite à tenir adaptée dans cette situation ?",
+          "choix": [
+            "A) Il s'agit très probablement d'une lombalgie mécanique",
+            "B) L’origine étant traumatique, il faut faire une IRM en urgence",
+            "C) La reprise précoce des activités est recommandée",
+            "D) Au vu du tableau, une cure courte de corticoïdes par voie orale est recommandée",
+            "E) La situation est fortement évocatrice d’un mal de Pott"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une femme de 62 ans, en surpoids, consulte pour une douleur du genou droit évoluant depuis plusieurs mois. La douleur survient surtout à la marche et s’accompagne d’une gêne fonctionnelle assez franche (limitation du périmètre de marche, difficulté dans la descente des escaliers, manque d’endurance lorsqu’elle fait du ménage ou ses courses). L’examen retrouve une douleur à la palpation de l’interligne fémoro-tibial externe, un signe du rabot, une diminution de l’extension active et passive du genou, sans érythème ou chaleur localisée.\nQuel est l’examen complémentaire de première intention à réaliser pour confirmer le diagnostic le plus probable ?",
+          "choix": [
+            "A) Imagerie en coupe du genou (IRM ou tomodensitométrie si contre-indication)",
+            "B) Radiographie du genou en charge",
+            "C) Bilan biologique avec mesure de la protéine C réactive",
+            "D) Échographie du genou",
+            "E) Aucun, le diagnostic est purement clinique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "M. D. est un patient paraplégique AIS A de niveau sensitivo-moteur T10. Il est adressé par son médecin traitant et se présente en bilan urodynamique pour la première fois.\nLe patient présente une pollakiurie, une incontinence urinaire par urgenturie, il nécessite le port de protection tous les jours et toutes les nuits, mais se plaint également d’une sensation de vidange incomplète avec des difficulté à uriner et notamment la nécessité de réaliser la Manœuvre de Crédé.\nAvec l’ensemble de ces éléments, quel est LE diagnostic que vous vous attendez à retrouver à la suite de votre bilan urodynamique, permettant d’expliquer l’ensemble de ses symptômes ?",
+          "choix": [],
+          "reponses": [
+            "Dyssinergie vésico-sphinctérienne"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la Classification internationale du fonctionnement (CIF)",
+          "choix": [
+            "A) La déficience est l’élément déterminant du handicap",
+            "B) Les activités et la participation sont classées dans le même chapitre",
+            "C) Les facteurs environnementaux sont pris en compte",
+            "D) Les facteurs personnels sont pris en compte",
+            "E) Le handicap est défini par comparaison à une norme sociale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les items suivants, lesquels sont vrais ?",
+          "choix": [
+            "A) L'innervation sympathique du bas appareil urinaire est assurée par le nerf hypogastrique",
+            "B) L'innervation parasympathique du bas appareil urinaire est assurée par le nerf pelvien",
+            "C) L’initiation d’un traitement anticholinergique permettra d’améliorer les symptômes de la phase de miction",
+            "D) Une débimétrie est un examen simple, peu coûteux, permettant le diagnostic de l’hyperactivité détrusorienne",
+            "E) Une débimétrie polyphasique permet de poser le diagnostic de contraction non inhibée du détrusor"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395764040-18ef7cd48ba01",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez en consultation un patient de 40 ans qui rapporte un antécédent de SEP évoluant depuis plusieurs années, sous la forme de multiples poussées avec une assez bonne récupération vous dit-il.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 7 fonctions organiques directement liées à la SEP que vous allez cibler lors de votre interrogatoire ?",
+          "choix": [
+            "A) Fonction auditive",
+            "B) Fonction cardiaque",
+            "C) Fonction respiratoire",
+            "D) Fonction vésico-sphinctérienne",
+            "E) Fonction génito-sexuelle",
+            "F) Fonction visuelle",
+            "G) Fonction des glandes endocrines",
+            "H) Fonction motrice",
+            "I) Fonction sensitive",
+            "J) Fonctions cognitives",
+            "K) Fonction de déglutition"
+          ],
+          "reponses": [
+            "D",
+            "E",
+            "F",
+            "H",
+            "I",
+            "J",
+            "K"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle échelle spécifique utilisez-vous pour évaluer la situation clinique du patient ?",
+          "choix": [],
+          "reponses": [
+            "Expanded Disability Status Scale (EDSS)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il vous apprend qu’il se plaint de dysurie et d’impériosités urinaires. Quels sont les 3 examens paracliniques réalisez-vous en première intention ?",
+          "choix": [
+            "A) Uroscanner",
+            "B) Bilan-Uro-Dynamique",
+            "C) Calendrier mictionnel sur 3 jours",
+            "D) Débitmétrie",
+            "E) Echographie vésico-rénale avec recherche de résidus"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395765128-a0813b3ff1a61",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous accueillez un patient âgé de 52 ans, garde forestier, qui a fait un malaise sur son lieu de travail avec dans les suites l’apparition d’une paralysie de l’hémicorps droit et un mutisme. A l’arrivée aux Urgences, le diagnostic d’accident vasculaire cérébral (AVC) ischémique sylvien gauche est posé. Il est transféré en service de neurologie. A l’examen clinique, on trouve à droite une paralysie faciale, une parésie flasque du membre supérieur et du membre inférieur, des réflexes ostéotendineux vifs, un signe de Babinski et une anesthésie au tact de l’hémicorps. La compréhension des ordres simples est respectée. Le patient est incapable de produire un son. Dans les antécédents on retrouve un tabagisme important, une bronchopneumopathie obstructive (BPCO). Il est célibataire, sans enfant et il vit seul dans un appartement au 2ème étage sans ascenseur.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Selon la Classification Internationale du Fonctionnement, quelles sont les déficiences qu’il présente ?",
+          "choix": [
+            "A) Un AVC sylvien gauche",
+            "B) Une paralysie faciale droite",
+            "C) Une aphasie",
+            "D) Une hémiplégie droite",
+            "E) Une BPCO"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Dans la mesure où il est essentiellement alité, vous souhaitez prévenir la survenue d’escarre: quelles sont les 3 attitudes à adopter ?",
+          "choix": [
+            "A) Vous calculez le risque d’escarre grâce à une échelle validée telle que le score de Norton",
+            "B) Vous demandez la surveillance pluri-quotidienne des points d’appui",
+            "C) En cas de rougeur sur un point d’appui, vous prescrivez la réalisation de massage appuyé pour drainage veineux",
+            "D) En cas de rougeur persistante sur le talon droit, vous demandez la mise en décharge complète et totale",
+            "E) A ce stade de prévention, la surveillance des apports caloriques et protidiques n’est pas indiquée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il est ensuite transféré en service de Médecine Physique et de Réadaptation (MPR). Après 1 mois d’hospitalisation, il sort pour rejoindre son domicile. Il présente une hypertonie spastique du triceps sural droit, un équin de cheville mesuré à 10° (en position genou tendu), des troubles de la sensibilité épicritique et proprioceptive, un déficit moteur du membre supérieur droit qui se positionne spontanément en flexion de coude, de poignet et des doigts. Malgré une légère parésie du membre inférieur droit, il a retrouvé des capacités de marche sur terrain plat (périmètre de 500m) et un bon équilibre debout. L’équilibre monopodal à droite est impossible. La marche sur terrain accidenté est difficile. Il a des difficultés pour réaliser la majeure partie des actes de la vie quotidienne comme se laver, s’habiller. Il ne pourra plus réaliser sa passion, le tir à l’arc. Il présente encore un manque du mot majeur, associé à un agrammatisme et à une dysarthrie. La compréhension des ordres simples et semi-complexes est satisfaisante, difficile pour les ordres complexes.\nA ce stade, quelles sont les 2 limitations d'activités qu'il présente ?",
+          "choix": [
+            "A) Impossibilité de reprendre le tir à l’arc",
+            "B) Equin mesuré à 10° de la cheville droite",
+            "C) Une difficulté pour les déplacements en terrains irréguliers",
+            "D) Impossibilité de reprendre son activité de garde forestier",
+            "E) Difficulté pour la toilette et l'habillage"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La prise en charge de ce pied varus équin spastique peut être assurée grâce à :",
+          "choix": [
+            "A) Une orthèse suro-pédieuse postérieure faite sur mesure (grand appareillage)",
+            "B) Un releveur de cheville antérieur de série (petit appareillage)",
+            "C) Des injections intra-musculaire de toxine botulique",
+            "D) Une chaussure orthopédique faite par un podo-orthésiste (grand appareillage)",
+            "E) Des séances de kinésithérapie pour étirer les muscles spastiques et travailler activement les muscles antagonistes si possible"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395766536-1c47b07d293cb8",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mme M., âgée de 54 ans présente une néoplasie mammaire gauche avec des métastases osseuses au niveau de L3 et de la crête iliaque gauche. Son traitement antalgique actuel par voie orale comprend : Paracétamol 1 g x 3/jour, opioïdes forts à libération prolongée et à libération immédiate, une corticothérapie à 1mg/kg/jour et Nefopam 3 cp/jour. Elle bénéficie également de séances de sophrologie.\nDe quel type d’analgésie s’agit-il ?",
+          "choix": [],
+          "reponses": [
+            "Analgésie multimodale"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "M. P., âgé de 35 ans présente un carcinome épidermoïde du tiers supérieur de l'œsophage avec des métastases hépatiques. Il est OMS1. Il pèse 60 kg pour 1m75. Dans un contexte de douleurs épigastriques intenses, le patient s’est vu prescrire d’emblée par son médecin traitant un opioïde à libération prolongée par voie orale de 50 mg matin et soir avec un intervalle de 12h entre les deux prises. Le lendemain après-midi, son épouse appelle le médecin traitant car elle trouve son mari somnolent avec une respiration irrégulière.\nParmi les 5 items suivant données les 2 réponses justes concernant Mr P.:",
+          "choix": [
+            "A) Le patient n’aurait pas dû bénéficier d’une titration avec un opioïde à libération prolongée.",
+            "B) Vous organisez une hospitalisation d’urgence pour M. P.",
+            "C) La présence d’un myosis à l’examen physique confirme le surdosage en opioïdes.",
+            "D) Le surdosage en opioïdes de M. P. est dû à un mésusage des opioïdes.",
+            "E) Les mesures de surveillance vont principalement reposer sur des échelles de sédation et de la respiration."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme A, âgée de 73 ans présente un cancer du cardia métastatique au niveau pulmonaire en arrêt en situation palliative exclusive depuis plusieurs mois. Elle est hospitalisée depuis deux semaines dans un contexte d’altération de l’état général et de chutes à répétition à domicile. Depuis 48h, elle présente des troubles de la vigilance fluctuant et un encombrement bronchique. L’équipe se questionne sur l’arrêt de l’hydratation artificielle dans ce contexte. Sa fille, personne de confiance de la patiente, est informée de l’altération clinique de sa mère, elle dit prendre acte de ces informations mais questionne la date de la prochaine séance de chimiothérapie.\nConcernant l’accompagnement de Mme A. et de son entourage :",
+          "choix": [
+            "A) Dans la situation de Mme A., l’hydratation artificielle peut être considérée comme un traitement de maintien artificiel en vie.",
+            "B) Dans la situation de Mme A., au titre du refus d’obstination déraisonnable, l’hydratation peut être arrêtée sans mise en œuvre d’une procédure collégiale.",
+            "C) La fille de Mme A. présente un mécanisme psycho-adaptatif.",
+            "D) Un soutien psychologique peut être proposé à la fille de Mme A.",
+            "E) Il est important de poursuivre l’entretien médical avec la fille jusqu’à ce qu’elle entende que sa mère va mourir."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous prenez en charge dans votre service Mr Y. 85 ans pour prise en charge palliative exclusive d’un adénocarcinome pulmonaire métastasé au niveau pleural, péritonéal et osseux. Il présente ce jour une désaturation à 80% en air ambiant alors qu’il était eupnéique jusqu’à présent. Sa saturation s’améliore à 93% avec une oxygénothérapie à 3l/min. Le reste des paramètres vitaux sont corrects.Vous n’avez pas d’éléments pour un point d’appel infectieux à l’examen clinique ou sur le bilan biologique réalisé en urgence. Vous demandez un angioscanner thoracique car vous suspectez une embolie pulmonaire. Cette imagerie élimine une embolie pulmonaire mais met en évidence une lymphangite carcinomateuse. Quel traitement ne doit pas être initié dans ce contexte ?",
+          "choix": [
+            "A) un antibiotique",
+            "B) un bronchodilatateur",
+            "C) un diurétique thiazidique",
+            "D) une corticothérapie",
+            "E) une benzodiazépine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme B. est hospitalisé dans votre service pour prise en charge palliative exclusive d’un adénocarcinome colique multimétastasé (gastrique, hépatique, pulmonaire). Elle présente des douleurs abdominales intenses et une dégradation de son état général qui s’accentue depuis plusieurs jours. Aujourd’hui, lors de votre visite médicale, la patiente exprime le souhait d’accéder à une sédation profonde et continue maintenue jusqu’au décès (SPCMJD). Votre externe vous questionne sur cette sédation :",
+          "choix": [
+            "A) Elle est inscrite dans le cadre légal depuis la loi Léonetti du 22 avril 2005.",
+            "B) Le traitement de première intention pour la mettre en place est le Midazolam.",
+            "C) Elle nécessite la réalisation en amont d’une procédure collégiale.",
+            "D) Une SPCMJD ne peut être réaliser que si le patient est en capacité d’en réaliser la demande.",
+            "E) L’échelle de vigilance-agitation de Richmond permet d’évaluer la profondeur de la sédation."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,598 @@
+{
+  "matiere": "ORL, CMF et ophtalmologie",
+  "slug": "orl-cmf-ophtalmologie-s8",
+  "annee": 2026,
+  "title": "ORL, CMF et ophtalmologie - 2026",
+  "total_questions": 28,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes médecin urgentiste et vous recevez un patient de 70 ans qui se présente aux urgences pour une épistaxis brutale unilatérale survenue depuis 30 minutes.\nIl explique que le saignement a commencé spontanément, principalement par la narine gauche. Il a tenté de le stopper en se mouchant et en se penchant en arrière, sans succès.\nIl est hypertendu traité par IEC, travaillait comme ancien ébéniste, et retraité depuis 10 ans.\nIl est pâle mais conscient, avec une fréquence cardiaque de 95 bpm.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la vascularisation des fosses nasales ? (Plusieurs réponses possibles)",
+          "choix": [
+            "A) Elle dépend exclusivement du système carotidien externe",
+            "B) L’artère sphénopalatine est la principale artère des fosses nasales",
+            "C) L’artère ethmoïdale antérieure provient de la carotide interne",
+            "D) Le plexus de Kiesselbach ou tache vasculaire est une zone d’anastomose artérielle",
+            "E) L’artère faciale contribue à la vascularisation de la muqueuse nasale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle est la conduite à tenir en première intention devant cette épistaxis ? (Plusieurs réponses possibles)",
+          "choix": [
+            "A) Faire asseoir le patient, tête légèrement penchée en avant",
+            "B) Faire comprimer les ailes du nez pendant 10 minutes",
+            "C) Installer le patient en décubitus dorsal",
+            "D) Réaliser un méchage antéropostérieur",
+            "E) Mesurer la pression artérielle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le saignement persiste après 10 minutes de compression.\nMalgré la compression nasale, l’hémorragie continue, avec un écoulement sanguin postérieur visible en oropharyngé. L’examen au spéculum nasal montre l'absence de lésion antérieure identifiable.\nQuelle est la prise en charge immédiate adaptée à cette situation ? (une seule réponse possible)",
+          "choix": [
+            "A) Réaliser un méchage antérieur",
+            "B) Réaliser un méchage postérieur",
+            "C) Expliquer au patient d’attendre que cela passe",
+            "D) Proposer une cautérisation chimique au nitrate d'argent",
+            "E) Effectuer un tamponnement nasal par sonde à double ballonnet"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’épistaxis s’amende après un méchage antérieur unilatéral.\nA l’interrogatoire, il décrit des saignements modérés mais récidivants depuis plusieurs semaines, avec une sensation de nez bouché du même côté. L’examen clinique retrouve un saignement actif au niveau de la fosse nasale gauche, et un écoulement sanguinolent postérieur. Vous revoyez le patient 48 heures après pour le déméchage.\nVous réalisez une nasofibroscopie qui retrouve une masse bourgeonnante, saignant au contact envahissant la fosse nasale gauche.\nQuel diagnostic évoquez-vous chez ce patient en priorité chez ce patient ?",
+          "choix": [
+            "A) Un carcinome épidermoide",
+            "B) Un adénocarcinome",
+            "C) Un sarcome",
+            "D) Un lymphome",
+            "E) Un mélanome muqueux"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels symptômes peuvent être retrouvés chez les patients atteints d’un adénocarcinome éthmoïdal ?",
+          "choix": [
+            "A) Une obstruction nasale unilatérale",
+            "B) Une épistaxis unilatérale",
+            "C) Une diplopie",
+            "D) Une exophtalmie unilatérale",
+            "E) Une dyspnée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les adénocarcinomes ethmoidaux :",
+          "choix": [
+            "A) L’exposition aux poussières de bois est un facteur de risque reconnu",
+            "B) L’exposition au nickel est un facteur de risque reconnu",
+            "C) L’exposition au tabac est un facteur de risque reconnu",
+            "D) C’est une maladie à déclaration obligatoire",
+            "E) C’est une maladie professionnelle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395896822-ecb8f9f0096178",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel est l’aspect en acoumétrie d’une surdité de transmission unilatérale ?",
+          "choix": [
+            "A) Weber latéralisé du côté pathologique",
+            "B) Weber latéralisé du côté sain",
+            "C) épreuve de Rinne négative",
+            "D) épreuve de Rinne positive",
+            "E) même profil à l’épreuve de Rinne qu’une oreille normale"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos du nerf facial, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il s'agit d'un nerf crânien",
+            "B) Il traverse l'angle ponto-cérébelleux",
+            "C) Il innerve le muscle du stapes",
+            "D) Il est totalement extra-pétreux",
+            "E) Il participe au goût"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Que recherchez-vous sur le scanner en faveur d'une otospongiose ?",
+          "choix": [
+            "A) Hypodensité de l'oreille moyenne",
+            "B) Hypodensité préstapédienne",
+            "C) Épaississement platinaire",
+            "D) Émoussement du mur de la logette",
+            "E) Lyse des osselets"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous examinez un patient pour vertiges. Il présente un test de Romberg à droite, une marche en étoile à droite, un nystagmus gauche spontané. Il est exact que :",
+          "choix": [
+            "A) Il peut s’agir d’un VPPB du canal semi-circulaire postérieur droit",
+            "B) Il peut s’agir d’une névrite vestibulaire gauche",
+            "C) Il peut s’agir d’un AVC du tronc cérébral droit",
+            "D) Il peut s’agir d’un hydrops cochléo-vestibulaire gauche",
+            "E) Il peut s’agir d’un schwannome vestibulaire gauche"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A propos de l’otoscopie suivante, quel diagnostic évoquez-vous et de quel côté ?",
+          "choix": [],
+          "reponses": [
+            "Cholestéatome gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2026/q11.webp?v=1786395898696"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395898388-b162432026ae7",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du décollement de rétine rhegmatogène",
+          "choix": [
+            "A) Son traitement est uniquement chirurgical",
+            "B) Les signes fonctionnels classiques peuvent inclure : phosphènes, métamorphopsies, baisse d’acuité visuelle avec « rideau tombant »",
+            "C) Le laser prophylactique sur des déchirures rétiniennes peut parfois éviter de recourir à la chirurgie en cas de rétine non décollée",
+            "D) Le risque de décollement de rétine diminue si un myope se faire opérer de chirurgie réfractive",
+            "E) Les déchirure rétiniennes sont souvent douloureuses"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la réponse vraie concernant la définition de la myopie ?",
+          "choix": [
+            "A) Il s’agit d’un œil qui n’est pas assez convergent ou trop court par rapport à sa convergence : l’image se forme virtuellement en arrière de la rétine.",
+            "B) ll s’agit d’un œil trop convergent ou trop long par rapport à sa convergence : l’image se forme virtuellement en avant de la rétine.",
+            "C) Il s’agit d’un œil qui n’est pas assez convergent ou trop court par rapport à sa convergence : l’image se forme virtuellement en avant de la rétine.",
+            "D) Il s’agit d’un œil trop convergent ou trop long par rapport à sa convergence : l’image se forme virtuellement en arrière de la rétine.",
+            "E) Il s’agit de la perte d’accomodation du cristallin avec l’âge, responsable d’une baisse de vision de près."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A propos de ce fond d’œil, quel est le diagnostic le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "Occlusion de la veine centrale de la rétine"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2026/q14.webp?v=1786395899634"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la rétinopathie diabétique :",
+          "choix": [
+            "A) Les principaux facteurs de risques sont l’ancienneté du diabète, le déséquilibre du diabète et l’hypertension artérielle associée",
+            "B) L’œdème rétinien est essentiellement lié à l’occlusion capillaire",
+            "C) L’hémorragie intra-vitréenne, le décollement de rétine exsudatif et le glaucome néovasculaire sont des complications de la rétinopathie diabétique",
+            "D) Chez un diabétique de type 2 de diagnostic récent, il y a presque 20% de risque d’avoir une rétinopathie diabétique au fond d’œil",
+            "E) En cas de rétinopathie diabétique non proliférante sévère, il faut rapidement et drastiquement équilibrer le diabète pour éviter les complications"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos des baisses d’acuité visuelle, 3 bonnes réponses attendues.",
+          "choix": [
+            "A) Les endophtalmies sont des complications redoutées plusieurs mois après la chirurgie de cataracte",
+            "B) La DMLA néovasculaire donne une baisse d’acuité visuelle rapidement progressive, des fois assez brutale",
+            "C) Une baisse d’acuité visuelle avec un fond d’œil non accessible impose la réalisation d’une échographie en mode B",
+            "D) Devant un œdème papillaire bilatéral, il convient d’éliminer une hypertension artérielle maligne en premier lieu puis une hypertension intracrânienne par une imagerie cérébrale",
+            "E) Une hémianopsie latéral homonyme gauche peut être dû la compression sur le chiasma d’un adénome hypophysaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395899957-cc9fa282a9a8f",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Monsieur B, 75 ans, sans antécédent général ni ophtalmologique, consulte\nà votre cabinet d’ophtalmologie pour une baisse de vision progressive des\ndeux yeux. Ses yeux sont blancs et indolores. Il ne prend pas de traitement\npar voie générale ni de collyres oculaires.\nVoici une photographie de son examen à la lampe à fente de l’œil gauche.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant cette image, cochez les réponses vraies :",
+          "choix": [
+            "A) Il s’agit d’une opacification du cristallin.",
+            "B) Cette pathologie peut être responsable d’une diplopie binoculaire.",
+            "C) Cette pathologie donne généralement une baisse de vision progressive, prédominant sur la vision de loin.",
+            "D) Devant cette pathologie, l’échographie en mode B permet de calculer la puissance réfractive de la cornée nécessaire au calcul d’implant.",
+            "E) L’échographie en mode A permet de mesurer la longueur axiale de l’œil."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ce patient a donc une cataracte cortico-nucléaire. A propos du traitement de cette affection, cochez les réponses vraies :",
+          "choix": [
+            "A) La prise en charge de cette pathologie est médicamenteuse, et consiste en un traitement par corticoides à forte dose.",
+            "B) La prise en charge de cette pathologie est chirurgicale, et implique la mise en place d’un implant intraoculaire, dont la puissance est calculée à l’aide de la kératométrie et de la longueur axiale de l’oeil.",
+            "C) La chirurgie de cataracte est la chirurgie la plus réalisée en France.",
+            "D) L’exophtalmie correspond à une infection intra oculaire post opératoire sévère, qui peut compromettre définitivement la fonction visuelle.",
+            "E) En cas d’infection intra-oculaire post-opératoire sévère, la prise en charge doit être rapide, et consiste en une antibiothérapie locale intravitréenne et générale en hospitalisation, parfois associée à une vitrectomie postérieure."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre du bilan de cette cataracte, vous mesurez la pression intra-oculaire du patient, et la retrouvez à 25 mmHg aux deux yeux.",
+          "choix": [
+            "A) Devant cette découverte, vous réalisez un bilan avec un champ visuel et un OCT.",
+            "B) Sur l’OCT, vous vous attendez à trouver un œdème maculaire.",
+            "C) Vous devez rechercher un glaucome primitif à angle ouvert, qui correspond à une neuropathie optique progressive. Il peut être considéré comme une maladie neurodégénérative.",
+            "D) Le glaucome primitif est généralement détecté rapidement, car les patients se plaignent de douleur et de baisse de vision.",
+            "E) Les éléments suivants sont des facteurs de risque de glaucome primitif à angle ouvert : l’âge, la myopie, l’ethnie (patients mélanodermes)."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous réalisez des examens complémentaires chez votre patient, et posez le diagnostic de glaucome primitf à angle ouvert. Vous réflechissez à la prise en charge thérapeutique.",
+          "choix": [
+            "A) Une des options thérapeutiques consiste à baisser la tension du patient, une autre option peut reposer sur des injections intra-vitréennes.",
+            "B) La baisse de la pression intra-oculaire est également bénéfique dans les glaucomes primitifs à angle ouvert à pression normale.",
+            "C) La trabéculoplastie sélective au laser consiste en une photocoagulation sélective de l’angle irido-cornéen, pour augmenter l’élimination de l’humeur aqueuse au niveau du trabéculum. Son effet est souvent modeste et peu durable, mais peut constituer une option thérapeutique.",
+            "D) Le traitement médicamenteux peut reposer sur des collyres qui augmentent l’élimination de l’humeur aqueuse comme les bétabloquants, ou des collyres qui diminuent la production de l’humeur aqueuse comme les prostaglandines.",
+            "E) Le traitement peut être également chirurgical, et consiste en une vitrectomie, qui consiste en une fistulisation sous-conjonctivale de l’humeur aqueuse."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395901270-8b6a95ec4725c",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous voyez en consultation de chirurgie maxillo-faciale un homme de 40 ans, sans antécédent particulier, fumeur à hauteur de 1 paquet par jour depuis ses 17 ans, peu actif. Il se plaint d’une tuméfaction jugale gauche, débutant depuis 6 mois, d’augmentation progressive, non douloureuse, mais gênante depuis son augmentation de taille. A l’examen clinique, vous retrouvez une lésion bien délimitée, nodulaire, en regard de l’angle mandibulaire gauche, sans adhérence au plan profond, sans placard inflammatoire. La palpation endobuccale ne retrouve pas de douleur, pas d’induration. Le massage des glandes salivaires retrouve un écoulement clair à l’ostium des Sténon et des Wharton. La palpation cervicale ne retrouve pas d’adénomégalie suspecte. L’examen des paires craniennes est sans particularité, avec notamment l’absence d’hypoesthésie, l’absence de paralysie faciale, l’absence de trouble oculomoteur. Dans le cadre du bilan diagnostique, vous prescrivez notamment une échographie, une TDM, une IRM, et vous pratiquez dans le même temps une cytoponction.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions, Quelles sont les 3 propositions justes",
+          "choix": [
+            "A) La TDM avec injection de produit de contraste est l’examen de référence dans le bilan de cette tuméfaction parotidienne",
+            "B) L’echographie est l’examen de référence dans le bilan de cette tuméfaction parotidienne",
+            "C) Une cytoponction négative permet un diagnostic de certitude",
+            "D) Une biopsie doit être proposée avant proposition thérapeutique",
+            "E) Vous pensez en premier lieu à une tumeur maligne",
+            "F) L’adénome pléomorphe fait partie de vos hypothèses diagnostiques",
+            "G) Le cystadénolymphome fait partie de vos hypothèses diagnostiques",
+            "H) Le carcinome adénoide kystique fait partie de vos hypothèses diagnostiques",
+            "I) Une sialadénite lithiasique fait partie de vos hypothèses diagnostiques",
+            "J) Une sialadénose de type Amylose fait partie de vos hypothèses diagnostiques"
+          ],
+          "reponses": [
+            "F",
+            "G",
+            "H"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’IRM fait état d’une lésion en hyposignal T1, hypersignal T2, et se réhausse après injection de produit de contraste. La cytoponction est en faveur d’une lésion non maligne. Quelle est votre principale hypothèse diagnostique ?",
+          "choix": [],
+          "reponses": [
+            "Adénome pléomorphe"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les complications post opératoires qu’il faut évoquer avec le patient ?",
+          "choix": [
+            "A) Paralysie faciale",
+            "B) Syndrome de Frey",
+            "C) Syndrome de Gougerot Sjogrën",
+            "D) Lithiase parotidienne",
+            "E) Fistule salivaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395902355-86272af30f4778",
+      "type": "SQI",
+      "title": "SQI 3",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les deux examens paracliniques obligatoires dans le bilan diagnostique d'une tumeur des VADS ?",
+          "choix": [
+            "A) panendoscopie",
+            "B) IRM",
+            "C) TEP scanner",
+            "D) scanner massif facial, cervicale et thoracique injecté",
+            "E) scanner crânien non injecté"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l'examen qui vous permettra de confirmer le caractère collecté ou non d'une cellulite mandibulaire d'origine dentaire ?",
+          "choix": [
+            "A) TEP scanner",
+            "B) Scintigraphie",
+            "C) Panoramique dentaire",
+            "D) Cône Beam",
+            "E) Scanner du massif facial avec injection de produit de contraste"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la traumatologie maxillofaciale, cochez les réponses vraies",
+          "choix": [
+            "A) L'examen paraclinique de référence est le panoramique dentaire",
+            "B) Il n'est pas nécessaire d'examiner le patient si on a une bonne imagerie",
+            "C) Une fracture de l'orbite provoque un trouble de l'articulé dentaire",
+            "D) Un hématome du plancher buccal peut-être une urgence vitale",
+            "E) Une limitation d'ouverture buccale et un trouble de l'articulé dentaire font évoquer une fracture de la mandibule"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de cette iconographie, cochez les réponses vraies",
+          "choix": [
+            "A) On observe une sinusite maxillaire gauche",
+            "B) Il s'agit d'une fracture blow-out à hauteur du plancher de l'orbite gauche",
+            "C) Il s'agit d'une fracture en trappe du plancher de l'orbite droit",
+            "D) C'est une urgence chirurgicale",
+            "E) On s'attend à une limitation douloureuse du regard vers le haut au niveau de l'oeil gauche"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2026/q27.webp?v=1786395903953"
+          ]
+        },
+        {
+          "id": 28,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Indiquer le numéro des dents fracturées (au niveau MAXILLAIRES UNIQUEMENT)",
+          "choix": [],
+          "reponses": [
+            "11 21 22"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2026/q28.webp?v=1786395904312"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

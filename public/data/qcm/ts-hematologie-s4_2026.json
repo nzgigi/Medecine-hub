@@ -1,0 +1,224 @@
+{
+  "matiere": "Tissu sanguin – Hématologie",
+  "slug": "ts-hematologie-s4",
+  "annee": 2026,
+  "title": "Tissu sanguin – Hématologie - 2026",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'hématopoïèse:",
+          "choix": [
+            "A) est soutenue par des cellules souches exprimant le CD34.",
+            "B) est soutenue par des cellules souches capables d'autorenouvellement et de différenciation.",
+            "C) a lieu dans la moelle épinière.",
+            "D) est régulée par des cytokines comme l'EPO et le G-CSF.",
+            "E) est explorée par un bilan biochimique sanguin incluant un ionogramme."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Donner la ou les réponse(s) vraie(s):",
+          "choix": [
+            "A) Chez un adulte, un taux de polynucléaires neutrophiles à 0,9G/L correspond à une neutropénie",
+            "B) Chez un adulte, un taux de monocytes à 1,6G/L correspond à une monocytopénie",
+            "C) Les polynucléaires éosinophiles ne présentent pas de granulations",
+            "D) Les polynucléaires neutrophiles interviennent dans l'immunité innée.",
+            "E) Les polynucléaires basophiles sont impliqués dans l'allergie"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour respecter la compatibilité ABO lors d’une transfusion de Concentré de Globules Rouges (CGR) à un individu de groupe A, quelle est (quelles sont) la (les) proposition(s) exacte(s)",
+          "choix": [
+            "A) On ne doit transfuser que des CGR de groupe A",
+            "B) On ne doit transfuser que des CGR de groupe O",
+            "C) On peut transfuser des CGR de groupe A ou de groupe AB",
+            "D) On peut transfuser des CGR de groupe O, de groupe A ou de groupe AB",
+            "E) On peut transfuser des CGR de groupe O ou de groupe A"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les érythrocytes et la lignée érythroblastique, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Le taux sanguin d’érythropoïétine diminue en réponse à l’hypoxie tissulaire.",
+            "B) Le récepteur de l’érythropoïétine est exprimé à la surface des précurseurs érythroïdes médullaires.",
+            "C) Le réticulocyte est une cellule nucléée.",
+            "D) Le fer de l’hémoglobine est sous forme ferrique (Fe3⁺) lors de la fixation de l’oxygène.",
+            "E) La glycolyse intra-érythrocytaire est la seule source d’ATP de l’érythrocyte."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le métabolisme du fer, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Le fer héminique est mieux absorbé que le fer non héminique.",
+            "B) La ferritine est la protéine de transport du fer.",
+            "C) L’hepcidine diminue l’absorption intestinale du fer.",
+            "D) Le fer sérique est un bon reflet des réserves en fer.",
+            "E) L’hème est constitué de fer et de globine."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les items suivants, quelle(s) est(sont) la(les) bonne(s) réponse(s) ?",
+          "choix": [
+            "A) Les lymphocytes sont des cellules du système immunitaire adaptatif.",
+            "B) Ils possèdent une forte activité de phagocytose.",
+            "C) Le taux normal de lymphocytes chez l'adulte est compris entre 1,5 et 4 G/L.",
+            "D) Au microscope (frottis sanguin), les lymphocytes B et T sont facilement distinguables par leur morphologie.",
+            "E) Le sang est leur principal compartiment fonctionnel."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396531069-706d3424d1ba88",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la production des plaquettes et l’hémostase primaire, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) La polyploïdisation du mégacaryocyte, partie intégrante du processus de différenciation, est due à un échec de la cytokinèse.",
+            "B) Le système des membranes de démarcation qui se développe au cours de la différentiation du mégacaryocyte est à l’origine des proplaquettes puis des plaquettes.",
+            "C) Une thrombopénie correspond à un compte plaquettaire inférieur à 150 G/L et peut s’observer suite à un défaut de maturation des mégacaryocytes ou à une consommation plaquettaire.",
+            "D) Le facteur de von Willebrand possède un domaine de liaison au facteur tissulaire.",
+            "E) Le fibrinogène se lie à l’intégrine GpIIb-IIIa, appelée également aIIbb3, sur des plaquettes au repos."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la coagulation, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) L’exposition des phosphatidylsérines à la surface des plaquettes activées nécessite l’action d’une scramblase qui peut être mutée dans une pathologie héréditaire rare entrainant des saignements.",
+            "B) Une hémophilie correspond à un déficit constitutionnel en facteur X.",
+            "C) Les facteurs II, VII, IX et X sont dépendants de la vitamine K.",
+            "D) La thrombine est une protéase capable de cliver le fibrinogène mais également d’activer les plaquettes et d'activer certains facteurs de coagulation, notamment les facteurs V, VIII et XIII.",
+            "E) L’antithrombine est le cofacteur des héparines."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la coagulation, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le facteur XIII est une protéase qui stabilise le polymère de fibrine.",
+            "B) Le mode optimal de génération de thrombine est la coopération entre une cellule portant le facteur tissulaire et les plaquettes activées.",
+            "C) Le facteur tissulaire est le cofacteur du facteur VIIa.",
+            "D) Un déficit en antithrombine conduit à un risque hémorragique.",
+            "E) La protéine C activée, en présence de son cofacteur la protéine S, inactive les facteurs Va et VIIIa."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la fibrinolyse, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) L'action du t-PA (activateur tissulaire du plasminogène) sur le plasminogène est catalysée par la fibrine.",
+            "B) Un taux plasmatique élevé de D-Dimère traduit la présence de fibrine, par exemple la formation d'un thrombus veineux.",
+            "C) La plasmine clive la thrombine.",
+            "D) Le TAFI (thrombin activatable fibrinolysis inhibitor) inhibe l’action de la plasmine.",
+            "E) L'alpha2-antiplasmine accélère la transformation du plasminogène en plasmine."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

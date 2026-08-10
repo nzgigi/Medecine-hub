@@ -1,0 +1,231 @@
+{
+  "matiere": "Biophysique",
+  "slug": "biophysique-s3",
+  "annee": 2026,
+  "title": "Biophysique - 2026",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Par rapport au parenchyme cérébral, le signal de l'os cortical est",
+          "choix": [
+            "A) hyperdense au scanner",
+            "B) hypodense en IRM pondérée en T1",
+            "C) hypo-intense en IRM pondérée en T2",
+            "D) hyperfixant en scintigraphie osseuse",
+            "E) hyperéchogène en échographie transfontanellaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que montre cette coupe du cerveau ?",
+          "choix": [
+            "A) une lésion hyperintense sur une image pondérée en T2",
+            "B) une lésion prenant le contraste sur un scanner",
+            "C) une lésion prenant le contraste sur une IRM pondérée en T1",
+            "D) une lésion prenant le contraste sur une IRM pondérée en T2",
+            "E) une lésion entourée d'oedème hypo-intense sur une IRM pondérée en T1"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/biophysique-s3/2026/q2.webp?v=1786395662591"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "De quelle nature est cette image du cerveau ?",
+          "choix": [
+            "A) Une IRM parce que la graisse est hyperintense",
+            "B) Un scanner parce que la graisse est hypodense",
+            "C) Un scanner parce que l'os est hyperdense",
+            "D) Une IRM pondérée en T2 parce que la substance blanche est grise et que la substance grise est blanche",
+            "E) Une IRM pondérée en T1 parce que la substance blanche est blanche et que la substance grise est grise"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/biophysique-s3/2026/q3.webp?v=1786395662911"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395662683-8c9e5504503248",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un article publié en 2019 concernant la radio exposition en population pédiatrique suite à la réalisation des examens par tomodensitométrie (TDM = scanner) publié dans le journal « Pediatric Radiology » (Goodman TR et al., Pediatric Radiology (2019) 49 :469-478) précise :\n« Les rayonnements ionisants sont présents tout autour de nous.\nDifférents types de rayonnements existent sous forme de rayonnements électromagnétiques​​​​​, comme par exemple, les rayonnements X​​​​​​​ de freinage, contenant de l’énergie permettant de​​​​​​​ déplacer les électrons​​​​​​​ de leurs couches​​​​​​​ péri-nucléaires, réalisant une ionisation​​​​​​​.\nLes effets délétères des rayonnements résultent de leur capacité d’ionisation​​​​​​​.\nLes effets des rayonnements ionisants sur le corps humain peuvent être​​​​​​​ séparés en 2 catégories : déterministes et stochastiques.\nLes effets déterministes ​​​​​​​ apparaissant au-dessus d’une dose seuil​​​​​​​ et déterminent l’apparition de phénomènes de type érythème, épilation cutanée, cataracte ou nécrose tissulaire​​​​​​​.\nLes effets délétères déterministes peuvent être évités lors de l’imagerie médicale diagnostique.​​​​​Pourtant ils ont été décrits​​​​​​​ dans des études sur le scanner.\nLes effets stochastiques sont le résultat de dommages produits au niveau des chromosomes​​​​​​​ et peuvent déterminer une probabilité d’anomalies congénitales​​​​​​​ et un potentiel​​​​​​​ risque de carcinogenèse​​​​​​​.Les effets stochastiques n’ont pas​​​​​​​ de dose seuil​​​​​​​ mais le risque d’apparition augmente avec les doses​​​​​​​.Ils sont le résultat de mutations au niveau cellulaire et chromosomique​​​​​​​.En raison de la période de latence longue, les​​​​​​​ cancers solides induits par les rayonnements​​​​​​​ ne se manifestent pas pendant des décennies ;​​​​​​​ c'est pour cette raison que les effets de l'irradiation​​​​​​​ et le risque associé au cancer chez la population pédiatrique est plus élevée que chez l'adulte​​​​​​​.\nDes études faites chez les​​​​​​​ survivants des bombes atomiques montrent que le risque d'apparition de leucémie​​​​​​​ aiguë et chronique augmente si l'exposition a été faite à des âges jeunes​​​​​​​.\nSuite à une étude de suivi de patients atteints de spondylarthrite ankylosante traitée avec des rayonnements X à visée thérapeutique, les auteurs notifient une corrélation entre le risque de développer une leucémie et l'âge au moment du traitement​​​​​​​.\nUne relation entre l'âge d'exposition aux rayonnement ionisants et l'apparition d'autres cancers solides ou leucémies a été rapportée​​​​​​​.\nLa figure suivante montre le risque attribuable de mortalité par des cancers solides liés à l'âge d'exposition pour 10,000 personnes exposées à une dose corps entier de 10 mSv.\nIl a été décrit que les risques apparaissent à des doses efficaces faibles​​​​​​​ situés entre 0 et 100 mSv​​​​​​​ ; dans ce contexte cela justifie de mettre en place​​​​​​​ des interventions pour réduire la dose reçue au scanner en radiologie pédiatrique​​​​​​​ en se basant sur des principes​​​​​​​ de type ALARA.\nParmi les modifications​​​​​​​ de doses​​​​​​​ administrées lors de la réalisation des scanners​​​​​​​ sont : réglages des kilovolts​​​​​​​ et introduction des reconstructions de type itératif​​​​​​​ afin de produire des images de meilleure qualité à des doses plus faibles​​​​​​​.\nIl est fortement recommandé d'utiliser des explorations scanographiques seulement si absolument nécessaires​​​​​​​ et éviter de faire plusieurs acquisitions scanographiques en même temps​​​​​​​ sur un seul examen​​​​​​​.\nD'autres alternatives non irradiantes sont fortement recommandées : l'ultrasonographie et l'IRM pour l’évaluation de la population pédiatrique​​​​​​​.\nAfin de réduire la dose efficace il faut utiliser des valeurs de mAs adaptées à l'âge et au poids​​​​​​​. Chez l'enfant de 5 ans​​​​​​​ les doses efficaces d'un scanner corps entier ont été réduites de 33 mSv en 2001 à 9 mSv en 2012​​​​​​​.\nAvec la technologie de modulation de dose​​​​​​​ à l'heure actuelle les doses efficaces d'un scanner thoraco-abdominal chez l’enfant ont pu être réduites de 50 à 0.4 mSv​​​​​​​.\nL'hypothèse actuelle​​​​​​​ de relation​​​​​​​ entre la radioactivité et le risque​​​​​​​ d’effets stochastiques suit un modèle​​​​​​​ linéaire sans seuil​​​​​​​. L’optimisation des doses pédiatriques pour le scanner​​​​​​​ est un processus continu​​​​​​​. La mesure des doses efficaces n'est pas facile à réaliser​​​​​​​ et nécessite un partenariat entre les spécialistes​​​​​​​ des technologies instrumentales, des physiciens médicaux, ​​​​​​​des cliniciens et des autorités réglementaires​​​​​​​ pour optimiser cette démarche. »",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les effets suite à l’exposition aux rayonnements X de freinage lors de la réalisation d’une TDM en population pédiatrique sont :",
+          "choix": [
+            "A) Précoces",
+            "B) Déterministes",
+            "C) Stochastiques",
+            "D) Tardifs",
+            "E) Suivent un modèle linéaire sans seuil"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’exposition naturelle externe aux rayonnements ionisants",
+          "choix": [
+            "A) Est due à l’exposition aux rayonnements cosmiques",
+            "B) Représente une fraction négligeable",
+            "C) L’exposition aux rayonnements cosmiques diminue avec l’altitude",
+            "D) Est principalement liée au tritium",
+            "E) L’exposition tellurique est liée à l’uranium, au thorium et au radon présents dans le sol"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le principe ALARA correspond au principe de :",
+          "choix": [
+            "A) Justification",
+            "B) Optimisation",
+            "C) Limitation",
+            "D) Réglementation",
+            "E) Bonnes pratiques"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les effets déterministes et stochastiques des radiations ionisantes en imagerie :",
+          "choix": [
+            "A) les lésions radio-induites de l’ADN sont spécifiques de la nature de l’examen d’imagerie",
+            "B) toutes les lésions radio-induites entrainent une anomalie chromosomique",
+            "C) le risque des effets stochastiques augmente avec la dose",
+            "D) les effets aigus comme l’érythème apparaissent au dessus d’un seuil de dose efficace",
+            "E) la radiologie interventionnelle peut occasionner des effets radiologiques précoces"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la Figure représentant le risque attribuable de mortalité par des cancers solides liés à l'âge d'exposition pour 10,000 personnes exposées à une dose corps entier de 10 mSv, les affirmations correctes sont les suivantes :",
+          "choix": [
+            "A) le risque de mortalité liée au cancer est le plus important chez le nouveau-né et l’enfant et diminue de plus de 4 fois à l’âge adulte en population masculine",
+            "B) l’incidence des cancers solides est plus élevée chez les femmes et plus importante chez l’enfant fille que chez les garçons",
+            "C) le risque de survenue et de mortalité est plus élevée en population pédiatrique en raison de la radiosensibilité des cellules en renouvellement et division",
+            "D) le risque de mortalité en lien avec le dose de 10mSv devient négligeable dans la population de plus de 70 ans indépendamment du sexe",
+            "E) les risques de survenue de cancer et de mortalité en lien avec l’imagerie diagnostique et pour 10 mSv restent très faibles"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les facteurs qui peuvent être modulés pour optimiser la réalisation d’une TDM en population pédiatrique sont :",
+          "choix": [
+            "A) le poids et la taille",
+            "B) les mAs",
+            "C) le champ de vue (field of view)",
+            "D) la modulation en intensité",
+            "E) les algorithmes de reconstruction"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Identifiez les affirmations correctes concernant des examens d’imagerie qui sont énumérés dans l’ordre décroissant de dose efficace :",
+          "choix": [
+            "A) IRM hépatique > échographie épaule > TDM abdominale > TDM crâne",
+            "B) TDM abdominale enfant> TDM abdominale adulte > TDM cervicale adulte> IRM des genoux",
+            "C) TDM corps entier> IRM corps entier> Radiographie thoracique",
+            "D) Radiographie panoramique dentaire> mammographie>TDM cervicale",
+            "E) TDM thoraco-abdomino-pelvienne enfant> TDM abdominale adulte> mammographie> radiographie de la main"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

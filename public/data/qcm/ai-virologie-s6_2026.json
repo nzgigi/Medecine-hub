@@ -1,0 +1,389 @@
+{
+  "matiere": "Agents infectieux – Virologie",
+  "slug": "ai-virologie-s6",
+  "annee": 2026,
+  "title": "Agents infectieux – Virologie - 2026",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Une femme de 27 ans, G1P0, consulte à 22 SA pour une consultation de suivi de grossesse. La grossesse évoluait normalement jusque-là.\nDepuis une dizaine de jours, la patiente décrit un syndrome pseudo-grippal associant asthénie, fébricule et adénopathies cervicales.\nLe bilan biologique réalisé le jour de la consultation montre :\n- CMV IgM positives\n- CMV IgG positives à faible titre\n- Avidité IgG CMV = 25% (Avidité faible)\nAu premier trimestre, les sérologies montraient :\n- Rubéole : IgG positives\n- Toxoplasmose : IgG négatives\n- VIH : négatif\n- CMV : IgG négatives\nCes résultats sont en faveur d'une primo-infection à CMV datant de moins de 3 mois, possiblement survenue au cours du premier trimestre de la grossesse.\nUne échographie fœtale met en évidence :\n- retard de croissance intra-utérin\n- ventriculomégalie modérée\nUne amniocentèse avec PCR CMV est proposée. le résultat est positif.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les virus suivants, le(s)quel(s) est(sont) responsable(s) d'infections congénitales ?",
+          "choix": [
+            "A) CMV",
+            "B) Virus de la Rubéole",
+            "C) Parvovirus B19",
+            "D) Le virus de la Rougeole",
+            "E) Streptocoque du groupe B"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'infection congénitale à CMV, quelle(s) est(sont) la(es) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il s'agit de l'infection congénitale virale la plus rare.",
+            "B) La majorité des nouveau-nés infectés sont asymptomatiques à la naissance.",
+            "C) Une infection maternelle au premier trimestre est associée à un risque plus élevé de séquelles.",
+            "D) Les complications, lorsqu'elles surviennent, sont de types neurosensorielles (ex : surdité).",
+            "E) Le CMV se transmet essentiellement par voie respiratoire."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic d'infection congénitale à CMV, quelle(s) est(sont) la(es) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) La PCR CMV sur liquide amniotique permet de confirmer l’infection fœtale.",
+            "B) L’amniocentèse doit être réalisée au moins 6 à 7 semaines après l’infection maternelle.",
+            "C) L’échographie fœtale peut montrer des anomalies cérébrales.",
+            "D) La sérologie maternelle seule permet d’affirmer l’infection fœtale.",
+            "E) La PCR urinaire chez le nouveau-né permet le diagnostic postnatal."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prévention des infections virales congénitales, quelle(s) est(sont) la(es) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L'immunité contre la rubéole doit être vérifiée en début de grossesse.",
+            "B) Le vaccin contre la Rubéole peut être administré pendant la grossesse.",
+            "C) Des mesures d’hygiène sont recommandées pour prévenir l’infection à CMV.",
+            "D) Le traitement précoce par Acyclovir permet de réduire le risque de transmission du virus B19 au premier trimestre de grossesse.",
+            "E) Il existe un vaccin efficace contre le CMV utilisé en routine."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic et la prévention de la transmission périnatale du HIV et du HBV, quelle(s) est(sont) la(es) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Le dépistage de l’antigène HBs est obligatoire pendant la grossesse.",
+            "B) Le dépistage du HIV est recommandé chez toutes les femmes enceintes.",
+            "C) La traitement antirétroviral est interrompu le temps de la grossesse.",
+            "D) L’administration d’immunoglobulines anti‑HBV au nouveau‑né associée à la vaccination anti-HBV est recommandée si la mère est porteuse de l'Ag HBs.",
+            "E) Le diagnostic de l'infection par le HIV, réalisé à la naissance chez le nouveau-né, repose sur la détection d'anticorps anti-HIV par sérologie virale."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la transmission néonatale du virus HSV, quelle(s) est(sont) la(es) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Le dépistage systématique par sérologie HSV est recommandé chez toutes les femmes enceintes.",
+            "B) La transmission se fait principalement pendant l’accouchement, avec un risque plus élevé en cas de primo-infection maternelle en fin de grossesse.",
+            "C) Une césarienne est recommandée en présence de lésions herpétiques génitales actives au moment du travail.",
+            "D) Un traitement antiviral par aciclovir peut être utilisé en fin de grossesse chez certaines patientes.",
+            "E) Le diagnostic de l'infection chez le nouveau-né est réalisé par écouvillonnage des muqueuses d'entrée du virus (oeil, gorge et vulve) avec recherche de l'ADN viral par PCR."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395381263-0ef45e671e2f28",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Clarisse 3 ans est accompagnée à la consultation par son père qui vous explique qu'elle est fébrile depuis deux jours et qu'elle présente des boutons qui la démangent sur les bras et le torse. A l'examen clinique vous observez des vésicules remplies de liquide clair, présentes sur plusieurs parties du corps au niveau de la peau uniquement. La température est mesurée à 38,5°c et l'état général est conservé. Le carnet de santé atteste que l'enfant est à jour de ses vaccinations obligatoires.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) diagnostic(s) évoquez-vous devant ce tableau clinique ?",
+          "choix": [
+            "A) La rougeole",
+            "B) Une primo-infection à Herpès Simplex",
+            "C) Une infection à entérovirus",
+            "D) Une varicelle, primo-infection par le VZV",
+            "E) Une rubéole"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle est votre conduite à tenir si vous voulez confirmer le diagnostic de varicelle ?",
+          "choix": [
+            "A) Vous prescrivez une sérologie VZV à la recherche des IgG et vous proposez un traitement par aciclovir",
+            "B) Vous prélevez du liquide vésiculaire par grattage avec un écouvillon afin de réaliser une PCR VZV",
+            "C) Si le diagnostic est confirmé, vous vérifiez l'immunité (sérologie VZV) de la mère de Clarisse qui est enceinte de son deuxième enfant",
+            "D) Vous prescrivez une PCR VZV dans le sang en raison des risques de complications",
+            "E) Le virus VZV est présent dans la gorge et le virus se transmet par voie aérienne"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le père de Clarisse vous demande si elle va guérir et quels sont les risques d'évolution ?",
+          "choix": [
+            "A) La varicelle peut se compliquer d'atteinte du système nerveux central",
+            "B) Le valganciclovir est prescrit chez tous les enfants afin de prévenir les réactivations futures de type Zona",
+            "C) La kératoconjonctivite est une complication du VZV",
+            "D) Le VZV est responsable du zona qui est une éruption généralisée survenant plusieurs années après la varicelle",
+            "E) La varicelle guérit spontanément et aucune réactivation n'est à craindre"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les moyens de prévention des infections virales de l'enfant ?",
+          "choix": [
+            "A) Le vaccin contre HHV6 prévient l'exanthème subit du nourrisson",
+            "B) Le port du masque est recommandé afin de limiter la transmission de l'HSV",
+            "C) Le vaccin contre la varicelle n'est pas recommandé en France chez l'ensemble des enfants",
+            "D) Le vaccin contre la rougeole est un vaccin à virus inactivé obligatoire chez l'enfant",
+            "E) L'isolement est peu efficace en raison de la contagiosité élevée avant les premiers signes cliniques"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Clarisse est ramenée en consultation 6 mois plus tard pour une éruption maculopapuleuse accompagnée de fièvre. Quelles sont vos hypothèses diagnostiques virales ?",
+          "choix": [
+            "A) Vous évoquez la rougeole ou la rubéole en première intention",
+            "B) Vous évoquez une primo-infection à HSV",
+            "C) La primo-infection à CMV ou à EBV peut être responsable de ce type d'éruption",
+            "D) Il peut s'agir d'une primo-infection à virus B19 ou à HHV6",
+            "E) Il peut s'agir d'une infection à entérovirus"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment mettez-vous en évidence le virus responsable de cette éruption ?",
+          "choix": [
+            "A) Recherche directe du virus au niveau de la gorge ou du sang",
+            "B) Recherche directe du virus par grattage des lésions cutanées",
+            "C) Sérologies virales CMV, EBV, B19",
+            "D) Sérologie de la rougeole et de la rubéole si la vaccination est incomplète",
+            "E) Vous demandez une PCR HSV dans la gorge et dans le sang"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395382812-9d061c42ef3a5",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Interprétez la sérologie de dépistage du virus de l'hépatite B de Mr Z.\nAg HBs: négatif\nAc anti-HBc: négatif\nAc anti-HBs: positif",
+          "choix": [
+            "A) Mr Z. n'est pas immunisé pour le VHB",
+            "B) Mr Z. a été vacciné contre le VHB",
+            "C) Mr Z. a été infecté par le VHB et est guéri",
+            "D) Mr Z. est infecté chroniquement par le VHB",
+            "E) Mr Z. fait une hépatite B aiguë"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Citez les virus à transmission aérienne",
+          "choix": [
+            "A) VRS (virus respiratoire syncytial)",
+            "B) Rougeole",
+            "C) Hépatite E",
+            "D) Rhinovirus",
+            "E) Dengue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le virus de la grippe",
+          "choix": [
+            "A) C'est un virus à ARN monobrin qui évolue peu au cours du temps",
+            "B) C'est une virus à ARN segmenté",
+            "C) Il évolue par mutation uniquement",
+            "D) Le traitement repose sur l'utilisation d'anti-protéase",
+            "E) La prévention repose sur la vaccination mais celle-ci est contre-indiquée au cours de la grossesse"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les Papillomavirus humains",
+          "choix": [
+            "A) Le diagnostic de l'infection repose sur la sérologie",
+            "B) Ils infectent les cellules basales des épithélium cutanéo-muqueux",
+            "C) Ils ont responsables de lésions anogénitales bénignes",
+            "D) Tous les cancers du col de l'utérus sont induits par les HPV",
+            "E) A partir de 30 ans, le dépistage du cancer du col, repose sur un test régulier de détection des HPV"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dengue",
+          "choix": [
+            "A) La transmission est aérienne",
+            "B) La transmission se fait par les tiques",
+            "C) La clinique comprend souvent fièvre, asthénie, myalgies",
+            "D) Des manifestions hémorragiques sont possibles",
+            "E) Le traitement est uniquement symptomatique"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les virus responsables d'atteinte du système nerveux central (SNC)",
+          "choix": [
+            "A) Les méningites à entérovirus sont fréquentes en pédiatrie",
+            "B) Les rotavirus sont une cause fréquente d'infection du SNC",
+            "C) La méningite à entérovirus doit être traitée en urgence par de l'aciclovir",
+            "D) La méningo-encéphalite herpétique n'est pas traitée, le pronostic est favorable",
+            "E) Le diagnostic d'une méningite à entérovirus repose sur la sérologie"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

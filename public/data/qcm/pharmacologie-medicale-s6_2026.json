@@ -1,0 +1,498 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s6",
+  "annee": 2026,
+  "title": "Pharmacologie médicale - 2026",
+  "total_questions": 24,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la metformine, parmi les propositions suivantes, la(les)quelle(s) est (sont) vraie(s) ?",
+          "choix": [
+            "A) La metformine inhibe les canaux potassiques ATP-dépendants des cellules β pancréatiques",
+            "B) L’hypoglycémie est un effet indésirable fréquent de la metformine",
+            "C) La metformine est contre-indiquée en cas d’insuffisance rénale chronique sévère (débit de filtration glomérulaire < 30 mL/min/1,73m²)",
+            "D) La metformine réduit l’absorption digestive de la vitamine B12 et de l’acide folique",
+            "E) La rifampicine induit une diminution du métabolisme de la metformine"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments utilisés chez le diabétique, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Les sulfamides hypoglycémiants ont démontré leur « effectiveness » chez le diabétique de type 2",
+            "B) L’insuline a une action catabolisante sur les métabolismes glucidique, lipidique et protéique",
+            "C) Les gliptines diminuent l’insulinorésistance",
+            "D) Les incrétinomimétiques augmentent la sensation de satiété",
+            "E) Les glifozines agissent en majorant la glucosurie"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) le ou les éléments(s) à prendre en compte dans le cadre de la prescription et du bon usage et des antibiotiques ?",
+          "choix": [
+            "A) Prise en compte de la fonction rénale",
+            "B) Spectre antibactérien le plus large possible",
+            "C) Identification du germe",
+            "D) Connaissance des antécédents médicaux",
+            "E) Coût de l’antibiotique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, quel est celui ou quels sont attendus avec la ciprofloxacine ?",
+          "choix": [
+            "A) Coloration des dents après exposition intra-utérine",
+            "B) Photosensibilisation",
+            "C) Allongement de l’espace QT",
+            "D) Tendinites",
+            "E) Syndrome confusionnel"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la période de contraception obligatoire lors de l’utilisation de l’Alitretinoïne ?",
+          "choix": [
+            "A) Uniquement pendant la prise",
+            "B) Pendant la prise et jusqu'à 1 mois après",
+            "C) Pendant la prise et jusqu'à 3 mois après",
+            "D) Pendant la prise et jusqu'à 1 an après",
+            "E) Pendant la prise et jusqu'à 3 ans après"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les oestrogènes :",
+          "choix": [
+            "A) Stimulent la prolifération cellulaire des cellules de l’endomètre",
+            "B) Sont synthétisées par le corps jaune",
+            "C) Augmentent la synthèse des facteurs de la Coagulation II, VII, IX, X et XII",
+            "D) Diminuent la fixation du calcium au niveau de l’os",
+            "E) Augmentent la teneur en eau de la glaire cervicale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants lesquels attribueriez-vous aux progestatifs ?",
+          "choix": [
+            "A) Métrorragies",
+            "B) Sécheresse cutanée",
+            "C) Méningiome",
+            "D) Modification de l’humeur",
+            "E) Thrombose veineuse profonde"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le dopage :",
+          "choix": [
+            "A) Le dopage peut concerner des sportifs amateurs",
+            "B) Le dopage est défini en premier lieu par les enjeux éthiques et d’équité sportive",
+            "C) La liste des substances interdites de l’Agence mondiale antidopage (AMA) est révisée tous les 5 ans",
+            "D) Le salbutamol inhalé est systématiquement interdit",
+            "E) Les stéroïdes anabolisants peuvent induire une gynécomastie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les récepteurs suivants, indiquez celui ou ceux sur lequel agit le delta-9-tetra-hydrocannabinol (THC) ?",
+          "choix": [
+            "A) Récepteur CB1",
+            "B) Récepteur D2",
+            "C) Récepteur CB2",
+            "D) Récepteur alpha-adrénergique",
+            "E) Récepteur au GABA"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les antiviraux, indiquez la ou les réponses exactes parmi les suivantes :",
+          "choix": [
+            "A) Les analogues nucléosidiques empêchent la maturation des protéines virales",
+            "B) Les inhibiteurs de l’intégrase empêchent la maturation des protéines virales",
+            "C) La plupart des médicaments antiviraux directs sont virustatiques",
+            "D) L’aciclovir et le ganciclovir bloquent la transcriptase inverse des virus herpes",
+            "E) Le ritonavir bloque la pénétration du virus dans la cellule hôte"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la variabilité de la réponse vaccinale, citez la ou les réponses exactes:",
+          "choix": [
+            "A) Elle dépend de l’âge du sujet vacciné",
+            "B) Un vaccin vivant atténué entraine une réponse immune importante au détriment d’un profil de sécurité plus défavorable",
+            "C) L’adsorption sur un adjuvant de type phosphate d’aluminium permet d’augmenter la réponse immune",
+            "D) L’administration d’un vaccin par voie intraveineuse inhibe la réponse immune",
+            "E) La réponse vaccinale est constante quel que soit le statut immunitaire du sujet vacciné"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les effets indésirables, laquelle (ou lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Les diurétiques peuvent déterminer des hyponatrémies",
+            "B) Les inhibiteurs de la recapture de la sérotonine peuvent déterminer des hyponatrémies",
+            "C) Les AINS favorisent la survenue d’insuffisance rénale aiguë fonctionnelle",
+            "D) La chronologie de l’effet indésirable (délai, évolution) n’intervient pas dans l’analyse de l’imputabilité en pharmacovigilance.",
+            "E) La sémiologie de l’effet indésirable (délai, évolution) n’intervient pas dans l’analyse de l’imputabilité en pharmacovigilance."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants des antipsychotiques, lequel (ou lesquelles) est (sont) généralement associé(s) à l’effet antagoniste dopaminergique D2 ?",
+          "choix": [
+            "A) Akathisie",
+            "B) Saignement",
+            "C) Hyperprolactinémie",
+            "D) Dystonie aiguë",
+            "E) Mydriase"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’ordonnance suivante : Ibuprofène, ramipril, dapagliflozine (iSGLT2), hydrochlorothiazide, névivolol, hydroxyzine (anti-H1 1ère Génération), tramadol, laquelle (ou lesquelles) des propositions suivantes est (sont) exacte(s) ?",
+          "choix": [
+            "A) Il existe une interaction pharmacodynamique par antagonisme d’effet entre l’ibuprofène et le ramipril",
+            "B) Il existe une interaction pharmacodynamique par addition d’effet hypernatrémiant entre la dapagliflozine et l’hydrochlorothiazide.",
+            "C) Il existe une interaction pharmacodynamique par antagonisme d’effet entre le névivolol et le l’hydroxyzine.",
+            "D) L’association du névivolol au tramadol majore le risque de syndrome sérotoninergique connu avec le tramadol",
+            "E) La quadruple association Ibuprofène, ramipril, dapagliflozine, hydrochlorothiazide majore le risque d’insuffisance rénale fonctionnelle."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les effets indésirables médicamenteux suivants, laquelle (ou lesquelles) des propositions est (sont) exacte(s) ?",
+          "choix": [
+            "A) Une hypoglycémie peut être déterminé par l’association semaglutide (agoniste GLP1) et insuline.",
+            "B) Le ramipril est pourvoyeur d’angioœdème Bradykinique.",
+            "C) Le décollement bulleux de la peau est un des symptômes du syndrome de Lyell et Stevens-Johnson.",
+            "D) Le syndrome extrapyramidal associé à la prise de neuroleptique se manifeste par une xérostomie.",
+            "E) Les AINS et les biphosphonates sont pourvoyeurs d’ulcères digestifs."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les risques liés à l’association entre clarithromycine et simvastatine, parmi les propositions suivantes, lesquels sont exactes ?",
+          "choix": [
+            "A) Une inefficacité de la clarythromycine",
+            "B) Une inefficacité de la simvastatine",
+            "C) Une rhabdomyolyse",
+            "D) Une agranulocytose",
+            "E) Il n’y aucune interaction médicamenteuse"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’amitriptyline est un antidépresseur tricyclique. Il inhibe la recapture de la sérotonine et de la noradrénaline mais possède également des propriétés pharmacologiques latérales. Parmi les propositions suivantes, lesquelles représentent des effets indésirables « attendus » de l’amitriptyline ?",
+          "choix": [
+            "A) Il est psychostimulant",
+            "B) Il peut entraîner la survenue de troubles sexuels",
+            "C) Il est bradycardisant",
+            "D) Il peut provoquer des crises de glaucome aigu",
+            "E) Il peut provoquer la survenue de diarrhées"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les hormones thyroïdiennes de synthèse, parmi les propositions suivantes, laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) La lévothyroxine est le principal médicament",
+            "B) Il s’agit de médicament à marge thérapeutique étroite",
+            "C) Leur demi-vie est courte (quelques heures)",
+            "D) Ils doivent être pris de préférence à jeun",
+            "E) Ce sont des potentialisateurs de l’action des catécholamines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396018175-79b86373b2f308",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes médecin généraliste, et vous recevez en consultation Mme Rose, jeune femme de 27 ans, pour sa contraception hormonale.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les situations suivantes, lesquelles constituent une contre-indication à l’utilisation d’une contraception oestro-progestative chez Mme Rose ?",
+          "choix": [
+            "A) Antécédent de thrombose",
+            "B) Migraine avec aura",
+            "C) IMC >30 kg/m2",
+            "D) Endométriose",
+            "E) Hyperthyroïdie"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle vous dit qu’elle fume 5 à 10 cigarettes par jour depuis une dizaine d’années. Vous lui expliquez qu’il existe un risque de thrombose veineuse.\nConcernant ce risque de thrombose veineuse :",
+          "choix": [
+            "A) Il est plus élevé avec les pilules oestro-progestatives de 3eme génération qu'avec les pilules oestro-progestatives de 2eme génération",
+            "B) Le risque des pilules oestro-progestatives de 3eme génération est 2 fois plus élevé que celui inhérent à une grossesse",
+            "C) Le risque de thrombose veineuse augmente avec l’âge",
+            "D) Le risque des pilules à la drospirénone est le plus faible",
+            "E) Le risque des pilules contenant un progestatif seul est équivalent à celui des pilules oestro-progestatives de 2eme génération"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous la revoyez un an plus tard, elle parle d’un projet de grossesse, mais s’inquiète car sa mère lui a appris qu’elle avait pris du distilbène pendant sa grossesse.\nQuels sont les risques à long terme de l’exposition prénatale au distilbène ?",
+          "choix": [
+            "A) Augmentation du risque de cancer chez les femmes qui l’ont consommé",
+            "B) Risque d’adénocarcinome du vagin chez les filles exposées in utero",
+            "C) Risque d’accouchement prématuré chez les filles exposées in utero",
+            "D) Risque d’anomalies génitales chez les fils DES",
+            "E) Risque d’anomalies génitales chez les petits fils DES"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre de ce projet de grossesse, elle souhaite connaitre les médicaments connus pour être de grands tératogènes.\nParmi les médicaments suivants, le(s)quel(s) lui mentionnez vous ?",
+          "choix": [
+            "A) Rétinoïdes",
+            "B) AINS",
+            "C) Inhibiteurs de l’Enzyme de Conversion",
+            "D) Valproate",
+            "E) Antivitamine K"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous lui parlez aussi du valproate en tant que médicament pouvant induire des troubles du neurodéveloppement.\nQuel est le pourcentage d’enfants exposés in utero au valproate qui présentent des troubles du neuro-développement ?",
+          "choix": [
+            "A) 2-3%",
+            "B) 4-7%",
+            "C) 11%",
+            "D) 30%",
+            "E) 30-40%"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous envisagez pour Mme Rose une prescription d’acide folique à 0.4 mg/jour.\nL’administration d’acide folique à cette posologie :",
+          "choix": [
+            "A) Permet de diminuer le risque de fausses couches",
+            "B) Permet de diminuer le risque de malformation congénitale",
+            "C) Doit être réalisée au premier et deuxième trimestre de la grossesse",
+            "D) Doit être réalisée avant la grossesse et au début de la grossesse",
+            "E) N’est recommandé que chez les femmes traitées par médicaments antiépileptiques"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

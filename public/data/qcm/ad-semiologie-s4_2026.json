@@ -1,0 +1,435 @@
+{
+  "matiere": "Appareil digestif – Sémiologie",
+  "slug": "ad-semiologie-s4",
+  "annee": 2026,
+  "title": "Appareil digestif – Sémiologie - 2026",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’ulcère gastro-duodénal perforé",
+          "choix": [
+            "A) 1-Il se caractérise par une douleur brutale",
+            "B) L’examen clinique retrouve un ventre de bois",
+            "C) Il y a une perte de la matité hépatique",
+            "D) La douleur est de faible intensité et non permanente",
+            "E) Le traitement chirurgical consiste à suturer l’ulcère et à réaliser un lavage abondant de la cavité péritonéale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "le syndrome occlusif",
+          "choix": [
+            "A) Se défini par un arrêt des matières et des gaz depuis 48 heures",
+            "B) Une occlusion fonctionnelle peut se définir comme un iléus reflexe",
+            "C) Une pancréatite aiguë peut engendrer un iléus reflexe",
+            "D) Une sigmoïdite aiguë peut engendrer un iléus reflexe",
+            "E) Une salpingite aiguë peut engendrer un iléus reflexe"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le syndrome occlusif :",
+          "choix": [
+            "A) une occlusion organique est secondaire à un obstacle",
+            "B) Un cancer du côlon engendre le plus souvent une occlusion par strangulation",
+            "C) Une hernie inguinale étranglée peut engendrer un syndrome occlusif organique",
+            "D) Un patient avec un antécédant de chirurgie de l’appendicite à un risque d’avoir une occlusion sur bride",
+            "E) Un cancer du côlon gauche en occlusion peut engendrer une perforation du caecum"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la péritonite",
+          "choix": [
+            "A) il en existe 3 types",
+            "B) La primaire est spontanée",
+            "C) La perforation d’ulcère est une péritonite par diffusion",
+            "D) L’appendicite donne des péritonites par diffusion",
+            "E) Une cholécystite ne se complique jamais de péritonite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes cliniques de la péritonite quels sont les items vrais",
+          "choix": [
+            "A) Une douleur à début brutal en en faveur d’une perforation",
+            "B) Une douleur à début brutal en en faveur d’une diffusion",
+            "C) Il y n’a jamais de vomissement",
+            "D) Il peut y avoir un iléus reflexe",
+            "E) Le toucher rectal est douloureux"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le pneumopéritoine",
+          "choix": [
+            "A) se voit aux examens d’imagerie comme un croissant d’air gazeux sous phrénique",
+            "B) se caractérise par la perte de la matité pré hépatique",
+            "C) l’étiologie est le plus souvent la perforation d’un organe creux",
+            "D) Une salpingite aigue donne toujours un pneumopéritoine",
+            "E) Une perforation du caecum ne donne pas lieu à un pneumoperitoine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La pancréatite aiguë :",
+          "choix": [
+            "A) peut donner un iléus reflexe",
+            "B) présente une douleur à irradiation dorsale",
+            "C) le bilan hépatique permet de faire le diagnostic",
+            "D) le dosage de la lipasémie permet de faire le diagnostic",
+            "E) la migration lithiasique est une étiologie fréquente"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "les cause de péritonite par diffusion sont :",
+          "choix": [
+            "A) la perforation diastasique du caecum",
+            "B) la cholécystite aigue lithiasique",
+            "C) l’inflamation du diverticule de meckel",
+            "D) la salpingite aigue",
+            "E) Perforatin d'ulcére duodenal"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les examens radiologiques lors d’un syndrome occlusif :",
+          "choix": [
+            "A) Les niveaux hydro-aériques donne le niveau de l’occlusion",
+            "B) Les niveaux hydro-aériques donne le diagnostic d’occlusion",
+            "C) Lors d’une occlusion haute les niveaux hydro-aériques sont périphériques",
+            "D) Lors d’une occlusion basse les niveaux hydro-aériques sont hauts que larges",
+            "E) Un iléus biliaire est une occlusion secondaire à l’obstruction de la lumière intestinale par un calcul biliaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la projection des douleurs abdominales",
+          "choix": [
+            "A) Une douleur de l’hypochondre droit oriente vers une origine biliaire",
+            "B) Une douleur épigastrique oriente en priorité vers une douleur d’origine ovarienne ou annexielle",
+            "C) Une douleur en fosse iliaque droite peut orienter vers une appendicite aigue",
+            "D) Une douleur en fosse iliaque gauche peut orienter vers une sigmoïdite aigue diverticulaire",
+            "E) Une douleur épigastrique avec irradiation dorsale est évocatrice d’une pancréatite aiguë"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La percussion",
+          "choix": [
+            "A) L’abdomen est globalement tympanique",
+            "B) la vessie pleine est Tympanique lors de la percussion",
+            "C) La percussion permet d’estimer la flèche hépatique",
+            "D) La présence d’une ascite entraine une matité déclive",
+            "E) Un patient en occlusion intestinale sur un fécalome présente un abdomen tympanique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "l’examen clinique",
+          "choix": [
+            "A) La palpation débute au niveau du point le plus douloureux",
+            "B) La palpation débute à distance du point douloureux",
+            "C) Le bord inferieur du foie est palpable surtout à l’expiration",
+            "D) Le bord inferieur du foie est palpable surtout à",
+            "E) Il n’est pas nécessaire de palper les orifices herniaires"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’interrogatoire :",
+          "choix": [
+            "A) la notion de voyage récent peut orienter le diagnostic en cas de diarrhée fébrile",
+            "B) en cas de douleur épigastrique brutale ou chronique il faut recherche la prise d’anti-inflammatoire non stéroïdiens",
+            "C) Les douleurs de colique hépatique souviennent le plus souvent en post prandial",
+            "D) Chez la femme en âge de procréer la notion de contraception ou de date des dernières règles est à rechercher devant toute douleur abdominale",
+            "E) Un antécédant de chirurgie abdominale peur orienter le diagnostic devant un syndrome occlusif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La maladie lithiasique de la vésicule biliaire :",
+          "choix": [
+            "A) peut se compliquer d’une cholécystite aigue",
+            "B) peut se compliquer d’une péritonite",
+            "C) peut se compliquer d’une angiocholite lithiasique",
+            "D) peut se compliquer d’un ulcère gastro-duodénal",
+            "E) se complique toujours"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les occlusions d’origine colique :",
+          "choix": [
+            "A) il faut réaliser un toucher rectal lors de l’examen physique",
+            "B) Les sigmoïdites diverticulaire n’engendre jamais de syndrome occlusif",
+            "C) Une altération de l’état général associé doit faire rechercher un cancer du côlon",
+            "D) il faut réaliser une coloscopie à distance",
+            "E) en cas de rectorragie il faut évoquer un cancer du colon"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395336508-e4b1b42d9a5fa",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la sémiologie de l'oesophage",
+          "choix": [
+            "A) La dysphagie est une sensation de douleur lors de la déglutition.",
+            "B) Le pyrosis est une sensation de brûlure traçante ascendante rétrosternale dont le point de départ est épigastrique.",
+            "C) La dyspepsie est une pathologie organique caractérisée par un inconfort digestif au niveau de la région épigastrique.",
+            "D) Une régurgitation est une remontée active du contenu gastrique jusqu’au pharynx.",
+            "E) Le diverticule de Zenker est une cause de dysphagie de type mécanique."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la sémiologie de l'oesophage",
+          "choix": [
+            "A) Environ 10% de la population a un épisode de reflux gastro-oesophagien par semaine.",
+            "B) L'hypotonie transitoire du sphincter inférieur de l'oesophage est une cause de dysphagie.",
+            "C) Un repas hypercalorique favorise la survenue d'un épisode de de reflux gastro-oesophagien.",
+            "D) Le bilan paraclinique d'une dysphagie après 50 ans comprend classiquement une pHmétrie oesophagienne des 24h.",
+            "E) L'hémorragie digestive est un mode de révélation du reflux gastro-oesophagien."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'insuffisance hépatocellulaire :",
+          "choix": [
+            "A) La présence d'une somnolence est un marqueur de gravité au cours d'une insuffisance hépatocellulaire aiguë.",
+            "B) L'ictère n'est jamais présent au cours d'une insuffisance hépatocellulaire aiguë.",
+            "C) Un taux de prothrombine inférieur à 50% est un marqueur de gravité de l'insuffisance hépatocellulaire.",
+            "D) L'hyperglycémie est classiquement observée au cours d'une insuffisance hépatocellulaire aiguë sévère.",
+            "E) L'encéphalopathie hépatique est de gravité variable, allant du ralentissement psycho-moteur au coma."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'ascite :",
+          "choix": [
+            "A) Une ascite pauvre en protides (< 25 g/l) est caractéristique de la cirrhose (due à la perte de fenestration des sinusoïdes) ou du syndrome néphrotique",
+            "B) L'ascite de grade I est perceptible à l'examen clinique et caractérisée par une matité des fosses iliaques.",
+            "C) Le seuil diagnostique de l'infection du liquide d'ascite, liée à une translocation bactérienne, est un taux de polynucléaires neutrophiles > 750/mm³",
+            "D) Toute première poussée d'ascite impose une ponction exploratrice, réalisée à droite à la jonction deux tiers interne et tiers externe entre l'épine iliaque antérosupérieure et l'ombilic.",
+            "E) L'ascite riche en protides signe une maladie du péritoine."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des perturbations du bilan hépatique :",
+          "choix": [
+            "A) Devant une cholestase ictérique, l'examen de première intention à réaliser est un scanner abdomino-pelvien.",
+            "B) Une cholestase ictérique avec dilatation harmonieuse des voies biliaires peut être la conséquence d'une lithiase de la voie biliaire principale.",
+            "C) La maladie de Gilbert est une cause fréquente d'ictère à bilirubine conjuguée.",
+            "D) L'ictère devient cliniquement visible quand la bilirubine totale dépasse 50 μmol/l.",
+            "E) En cas de cholestase ictérique, les selles peuvent être décolorées et les urines foncées."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

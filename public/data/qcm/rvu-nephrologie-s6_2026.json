@@ -1,0 +1,330 @@
+{
+  "matiere": "Rein et voies urinaires – Néphrologie",
+  "slug": "rvu-nephrologie-s6",
+  "annee": 2026,
+  "title": "Rein et voies urinaires – Néphrologie - 2026",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un patient de 80 ans est retrouvé altéré au domicile, et adressé aux urgences. Il est fébrile à 40°C, sa fréquence cardiaque est à 125/min, sa fréquence respiratoire à 20/min, sa pression artérielle à 95/65 mmHg. Ses genoux sont discrètement marbrés.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous réalisez une gazométrie artérielle en air ambiant qui montre les éléments suivants : pH 7.36, pO2 105 mmHg, pCO2 22 mmHg, bicarbonates 10 mmol/L. Quelle est votre interprétation ?",
+          "choix": [
+            "A) Les bicarbonates artériels se situent normalement entre 15 et 35 mmol/L.",
+            "B) Il s’agit d’une alcalémie décompensée.",
+            "C) L’acidémie est d’origine respiratoire car la PCO2 est élevée.",
+            "D) L’acidémie est d’origine métabolique car les bicarbonates sont bas.",
+            "E) Le patient est en hyperventilation alvéolaire."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le ionogramme est le suivant : Na 135 mmol/L, K 5 mmol/L, Chlore 90 mmol/L, Bicarbonates 10 mmol/L. Glycémie 5 mmol/L.\nQuelles sont les réponses exactes :",
+          "choix": [
+            "A) Le trou anionique est calculé comme suit [Na+] + [K+] - [HCO3-] - [Cl-].",
+            "B) Le trou anionique est calculé comme suit [Na+] - [K+] + [HCO3-] - [Cl-].",
+            "C) Le trou anionique est normal (12 mmol/L).",
+            "D) Le trou anionique est augmenté (40 mmol/L).",
+            "E) Il faut calculer le trou anionique urinaire dans cette situation."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez le reste des informations : lactates négatifs, cétones négatives. Par contre, la créatinine est à 550 µmol/L alors qu’elle était à 120 µmol/L il y a 2 semaines. Sa diurèse est à 200 mL sur les dernières 24h.",
+          "choix": [
+            "A) Ceci peut s'expliquer par le vieillissement rénal.",
+            "B) La situation actuelle est pertinente pour estimer le débit de filtration glomérulaire.",
+            "C) Le patient présente une insuffisance rénale aiguë sévère, qui peut expliquer l'augmentation du trou anionique plasmatique.",
+            "D) Le patient est oligo-anurique.",
+            "E) La nycturie est un signe de gravité."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une échographie rénale est réalisée : le patient présente deux reins de 8 cm, sans dilatation des cavités pyélocalicielles, avec une mauvaise différenciation corticomédullaire. Quelles sont les conclusions valides ?",
+          "choix": [
+            "A) La cause la plus probable du problème est un globe vésical.",
+            "B) L'insuffisance rénale n'est pas de cause obstructive.",
+            "C) Le patient présente des gros reins.",
+            "D) L'atrophie rénale suggère que le patient présente une insuffisance rénale chronique sous-jacente.",
+            "E) L'échographie rénale est indiquée uniquement en cas d'anurie"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes associés suivants, lesquels sont en faveur d'une insuffisance rénale chronique ?",
+          "choix": [
+            "A) La présence d'une anémie microcytaire régénérative",
+            "B) La présence d'une anémie normocytaire arégénérative",
+            "C) La présence d'une hypocalcémie",
+            "D) Une hyperkaliémie",
+            "E) Une hypernatrémie"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396186216-9d56c79eec1448",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Lors d'un contrôle en médecine du travail, une patiente de 35 ans a réalisé la bandelette urinaire que voici.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les anomalies présentées par la patiente ?",
+          "choix": [
+            "A) Glucosurie",
+            "B) Hématurie",
+            "C) Protéinurie",
+            "D) Leucocyturie",
+            "E) Acidose d'origine rénale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous vous intéressez en particulier à cette hématurie.",
+          "choix": [
+            "A) Une hématurie microscopique est définie par la présence d’hématies > 5 /mm3",
+            "B) Elle est macroscopique dès qu’elle est détectée à la bandelette",
+            "C) La présence de cylindres orientera vers une cause urologique",
+            "D) L’absence de caillots orientera vers une cause néphrologique",
+            "E) La bandelette peut être faussée par une myoglobinurie"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la leucocyturie :",
+          "choix": [
+            "A) Vous allez la confirmer en réalisant un ECBU (examen cytobactériologique des urines)",
+            "B) Elle est définie par la présence de globules blancs ≥ 10.7/mm3",
+            "C) L'association avec des nitrites suggère la présence d'entérobactéries",
+            "D) La présence de bactéries dès 15 /mm3 suggère une infection urinaire",
+            "E) Il peut y avoir une contamination gynécologique lors du prélèvement urinaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La protéinurie sur la bandelette est > 3 g/l",
+          "choix": [
+            "A) Pour la confirmer, il faut réaliser un rapport protéinurie sur créatininurie sur échantillon en g/g",
+            "B) Vous avez assez d'éléments pour affirmer que le patient présente une albuminurie pathologique",
+            "C) Le tableau est compatible avec une protéinurie de surcharge (excès de chaînes légères)",
+            "D) Ceci est en faveur d'une microalbuminurie",
+            "E) Si la patiente est diabétique, l'augmentation de l'albuminurie est corrélée à une augmentation de son risque de mortalité cardiovasculaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est diabétique connue. Son albumine est à 25 g/L. Vous constatez des œdèmes. Quelles informations pouvez-vous d’ores et déjà lui donner sur sa situation rénale ?",
+          "choix": [
+            "A) Elle présente un syndrome interstitiel",
+            "B) Son tableau est compatible avec un syndrome hémolytique et urémique",
+            "C) Son tableau est compatible avec un syndrome néphrotique",
+            "D) Si le tableau évolue depuis plus de trois jours, on parle de glomérulonéphrite chronique",
+            "E) La présence d'une hypertension artérielle est un argument sémiologique en faveur d'une atteinte glomérulaire"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396189627-5c2b3d4f79d95",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les situations dites d’hypovolémie efficace ou hypovolémie relative ?",
+          "choix": [
+            "A) Gastro-entérite aiguë",
+            "B) Syndrome cardio-rénal",
+            "C) Syndrome hépato-rénal",
+            "D) Syndrome néphrotique",
+            "E) Hypernatrémie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours d’un SIADH, quelles sont les anomalies constatées ?",
+          "choix": [
+            "A) Syndrome polyuro-polydipsique",
+            "B) Hyponatrémie",
+            "C) Hyperosmolalité plasmatique",
+            "D) Osmolalité urinaire élevée",
+            "E) Déficit en ADH"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une hyponatrémie correspond à une situation",
+          "choix": [
+            "A) d’hyperhydratation intra-cellulaire",
+            "B) de déficit en sodium",
+            "C) d’hypo-osmolalité plasmatique",
+            "D) d’excès de sodium",
+            "E) de gain d’eau ou bilan hydrique positif"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En cas d’insuffisance rénale fonctionnelle, ou d’hypoperfusion rénale, les urines seront",
+          "choix": [
+            "A) riches en sodium",
+            "B) pauvres en sodium",
+            "C) riches en potassium, comparé au sodium (Na/K < 1)",
+            "D) pauvres en urée, témoignant d’une réabsorption d’eau",
+            "E) très diluées"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les conséquences d’un défaut de fonctionnement du tube proximal ou syndrome de Fanconi ?",
+          "choix": [
+            "A) Glycosurie",
+            "B) Acidose métabolique à trou anionique normal et trou anionique urinaire positif",
+            "C) Défaut de réabsorption des bicarbonates",
+            "D) Fuite rénale de phosphore",
+            "E) Hyperkaliémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

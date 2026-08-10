@@ -1,0 +1,449 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s5",
+  "annee": 2026,
+  "title": "Pharmacologie médicale - 2026",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A quoi correspond la dénomination antidépresseur tricyclique ?",
+          "choix": [
+            "A) Il s’agit d’un médicament qui augmente la production de dopamine.",
+            "B) il s’agit d’un médicament indiqué dans le traitement pharmacologique de la dépression",
+            "C) il s’agit d’un médicament dont l’action sur l’humeur est immédiate.",
+            "D) Ce médicament inhibe la recapture de la sérotonine et de la noradrénaline.",
+            "E) il s’agit d’un médicament indiqué uniquement pour les troubles anxieux."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Citer parmi les suivantes, les caractéristiques des médicaments utilisés dans la prise en charge de la dépression (propositions justes):",
+          "choix": [
+            "A) Les médicaments agissant sur la recapture de la sérotonine et de la noradrénaline ont un effet d’amélioration de l’humeur obtenu dès la première semaine de traitement",
+            "B) En cas d’interruption brutale d’un traitement par un inhibiteur sélectif de recapture de la sérotonine, les patients peuvent présenter un syndrome sérotoninergique",
+            "C) Les effets pharmacodynamiques des antidépresseurs reposent sur une théorie de dysfonctionnement des récepteurs de la sérotonine et de la noradrénaline",
+            "D) En cas d’interruption brutale d’un traitement par un inhibiteur sélectif de recapture de la sérotonine, les patients peuvent présenter un syndrome de sevrage",
+            "E) Les IMAO (inhibiteurs de la mono-amine oxydase) sont des antidépresseurs de première intention pour tout épisode dépressif caractérisé"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel effet psychoactif est associé à la consommation de delta-9-tetra-hydrocannabinol (THC) ?",
+          "choix": [
+            "A) Dépression respiratoire",
+            "B) Amnésie totale",
+            "C) Hyperactivité",
+            "D) Euphorie",
+            "E) Augmentation de la vigilance"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments antiépileptiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Les médicaments antiépileptiques augmentent la neurotransmission dopaminergique",
+            "B) Certains médicaments antiépileptiques potentialisent l’action gabaergique en agissant comme antagoniste des récepteurs GABA A",
+            "C) Certains médicaments antiépileptiques modulent la conductance ionique des membranes",
+            "D) Certains médicaments antiépileptiques diminuent l’excitabilité neuronale en bloquant les canaux calciques de type L",
+            "E) certains médicaments antiépileptiques de première génération sont utilisés dans les céphalées migraineuses"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments antiépileptiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) L’acide valproique peut être prescrit à la femme en âge de procréer uniquement en deuxième intention",
+            "B) les médicaments antiépileptiques augmentent la neurotransmission glutamaergique",
+            "C) les effets indésirables de type ralentissement psychique et sédation sont doses dépendants.",
+            "D) les médicaments antiépileptiques de deuxième génération provoquent plus fréquemment des effets indésirables ophtalmologiques que ceux de première génération",
+            "E) Les médicaments antiépileptiques sont tératogènes et le risque est similaire quel que soit la dose."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments normothymiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) le lithium est un modulateur de la neuroplasticité",
+            "B) la demi vie du lithium est de 6 heures",
+            "C) le lithium a une élimination rénale",
+            "D) le lithium n’est pas tératogène",
+            "E) avant la prescription de lithium, il est conseillé de réaliser un ionogramme"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le lithium , quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Il est le seul médicament normothymique",
+            "B) la réabsorption du lithium au niveau tubulaire s’effectue en compétition avec celle du sodium",
+            "C) il est éliminé par voie hépatique",
+            "D) il ne doit pas être prescrit avec les diurétiques et les AINS du fait d’un risque d’hyperlithiémie",
+            "E) il peut être responsable de diabète insipide"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les benzodiazépines, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Elles diminuent la latence d’endormissement mais perturbent l’architecture du sommeil",
+            "B) elles possèdent des propriétés antidépressives",
+            "C) elles sont agonistes des récepteurs sérotoninergiques",
+            "D) elles peuvent induire une amnésie antérograde",
+            "E) l’insuffisance respiratoire sévère constitue une contre indication"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les benzodiazépines, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Elles possèdent des propriétés myorelaxantes",
+            "B) elles modulent la réponse au GABA en diminuant la fréquence d’ouverture du canal chlore",
+            "C) elles potentialisent l’action glutamaergique en agissant sur les récepteurs NMDA",
+            "D) leur métabolisation comprend souvent une oxydation et une glucuronogonjugaison",
+            "E) les benzodiazépines à demi vie courte sont à privilégier comme hypnotiques"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le système GABAergique, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) il est peu systématisé et largement distribué à l’ensemble du système nerveux central",
+            "B) Il comprend à la fois des récepteurs ionotropes et des récepteurs métabotropes couplés à des proteines G.",
+            "C) l’oxybate de sodium ou GHB est un agoniste du récepteur GABA-B",
+            "D) le propofol utilisé comme anesthesique général est un agoniste GABA-A",
+            "E) les benzodiazépines sont des modulateurs allostériques du GABA-A"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments des troubles mnésiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) les médicaments antimuscariniques peuvent améliorer les fonctions cognitives",
+            "B) les médicaments anticholinesterasiques améliorent peu les échelles cognitives dans les essais cliniques",
+            "C) Le Lecanemab, qui est un anticorps monoclonal dirigé contre la proteine amyloide, a obtenu l’AMM de l’EMA dans la maladie d’Alzheimer",
+            "D) Le Lecanemab peut provoquer comme effet indésirable des hémorragies cérébrales",
+            "E) les benzodiazépines peuvent aggraver des troubles cognitifs"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments du traitement de la crise de migraine, quelles sont les propositions exactes?",
+          "choix": [
+            "A) Les triptans sont des antagonistes des récepteurs 5HT1B/D",
+            "B) Les triptans et les dérivés ergotés sont contre-indiqués chez les patients ayant une hypertension artérielle non contrôlée",
+            "C) Les antalgiques opioïdes sont des médicaments recommandés en cas d'échec des AINS / triptans",
+            "D) Les triptans peuvent provoquer la survenue d'un syndrome sérotoninergique associant confusion, myoclonies et troubles végétatifs",
+            "E) Les AINS sont utilisables chez la femme enceinte migraineuse tout au long de la grossesse"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments du traitement de fond de la migraine, quelles sont les propositions exactes?",
+          "choix": [
+            "A) L'amytriptyline est un médicament pourvoyeur de constipation, rétention urinaire et sécheresse buccale",
+            "B) La flunarizine est le médicament de première intention",
+            "C) Les anticorps anti-CGRP sont des médicaments dénués d'effets indésirables cardiovasculaires",
+            "D) Le propranol peut provoquer des limitations à l'effort du fait de ses propriétés bronchoconstrictrice et bradycardisante.",
+            "E) Le topiramate est un neuroleptique caché"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments des systèmes dopaminergiques, laquelle (ou lesquelles) est (sont) exacte(s) :",
+          "choix": [
+            "A) Le methylphénidate est un agoniste dopaminergiques D2 agissant sur la voie dopaminergique mésocorticale",
+            "B) Le methylphénidate est un médicament sympathomimétique indirect.",
+            "C) Le methylphénidate exerce une modulation pré-synaptique de la transmission dopaminergique.",
+            "D) Le méthylphénidate peut provoquer l’apparition ou une aggravation de tics moteurs ou verbaux.",
+            "E) Le métabolite de la lisdexamfétamine est un inhibiteur de la recapture de la dopamine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, lequel (ou lesquels) est (sont) généralement associé(s) aux agonistes dopaminergiques D2 non ergotés ?",
+          "choix": [
+            "A) Xérostomie",
+            "B) Saignement",
+            "C) Mydriase",
+            "D) Prise de poids",
+            "E) Addiction comportementale de type jeu pathologique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments causant un syndrome parkinsonien, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) Le métoclopramide",
+            "B) L’ondansétron",
+            "C) L’halopéridol",
+            "D) Le methylphénidate",
+            "E) Les morphiniques"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants des antipsychotiques, lequel (ou lesquelles) est (sont) généralement associé(s) à l’effet antagoniste muscarinique ?",
+          "choix": [
+            "A) Gynécomastie",
+            "B) Mydriase",
+            "C) Akathisie",
+            "D) Prise de poids",
+            "E) Agranulocytose"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les antimétabolites, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Ils agissent principalement pendant la phase S du cycle cellulaire",
+            "B) Le méthotrexate est un analogue de l’acide folique",
+            "C) Le 5-fluoro-uracile agit comme faux substrat de l’ADN",
+            "D) Ils inhibent la topo-isomérase II",
+            "E) Ils peuvent être utilisés comme radiosensibilisants"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des médicaments cytotoxiques classiques, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les agents alkylants agissent par formation de liaisons covalentes avec l’ADN",
+            "B) Les dérivés du platine (cisplatine, carboplatine) s’éliminent principalement par voie rénale",
+            "C) Les anthracyclines intercalent leur structure plane entre les brins d’ADN",
+            "D) Les taxanes inhibent la dimérisation de la tubuline",
+            "E) Les alcaloïdes de la pervenche bloquent la dépolymérisation de la tubuline"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anesthésiques locaux :",
+          "choix": [
+            "A) La péridurale est une anesthésie locale",
+            "B) Les halogénés sont utilisés pour les anesthésies locales",
+            "C) L’adjonction d’adrénaline permet d’augmenter l’absorption systémique",
+            "D) Ils ont le même mécanisme d’action que les médicaments bloqueurs des canaux potassiques",
+            "E) Ils entrainent des effets indésirables neurologiques"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anesthésiques généraux :",
+          "choix": [
+            "A) Chronologiquement, les graisses constituent les tissus dans lesquels ils diffusent en premier",
+            "B) Le desflurane est un gaz halogéné",
+            "C) Leur puissance est corrélée à leur liposolubilité",
+            "D) Ils sont pro-émétisants",
+            "E) Ils augmentent le tonus parasympathique"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les récepteurs suivants, indiquez celui ou ceux sur lequel agit le delta-9-tetra-hydrocannabinol (THC) ?",
+          "choix": [
+            "A) Récepteur CB1",
+            "B) Récepteur D2",
+            "C) Récepteur CB2",
+            "D) Récepteur alpha-adrénergique",
+            "E) Récepteur au GABA"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

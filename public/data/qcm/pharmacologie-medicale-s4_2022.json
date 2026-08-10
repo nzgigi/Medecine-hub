@@ -1,0 +1,218 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s4",
+  "annee": 2022,
+  "title": "Pharmacologie médicale - 2022",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’association warfarine+kétoconazole quelle(s) est(sont) la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elle peut entrainer un surdosage de l’anticoagulant",
+            "B) Elle peut entrainer des effets hémorragqiques",
+            "C) C’est une contre-indication",
+            "D) Elle peut entrainer un sous-dosage de l’anticoagulant",
+            "E) Elle peut entraîner un surdosage en kétokonazole"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les antitussifs centraux, quelle(s) est(sont) la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Les médicaments contenant de la codéine sont contre-indiqués chez les enfants de moins de 12 ans",
+            "B) Les médicaments opioïdes sous forme de sirop sont disponibles sans ordonnance",
+            "C) L’association d’un sirop à base de codéine avec un anti-histaminique H1 majore le risque de somnolence",
+            "D) Les sirops à base de codéine peuvent être prescrits à la femme enceinte en début de grossesse",
+            "E) Les propriétés atropiniques des anti-H1 au niveau broncho-pulmonaire constituent un effet recherché dans le traitement de la toux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les glucocorticoides, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) ils possèdent une activité anti inflammatoire et antiallergique",
+            "B) ils sont immunosuppresseurs",
+            "C) ils diminuent la synthèse de phospholipase A2",
+            "D) Ils sont indiqués dans la prévention du rejet de greffe",
+            "E) Ils sont contre indiqués chez le prématuré en détresse respiratoire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lequel (lesquels) peuvent induire (ou aggraver) un ulcère digestif ?",
+          "choix": [
+            "A) Biphosphonates",
+            "B) Sels de Calcium",
+            "C) Les coxibs",
+            "D) Les atropiniques",
+            "E) Toutes les réponses sont vraies"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs de variation des effets pharmacologiques, parmi les propositions suivantes quelle(s) est (sont) la (les)\nproposition(s) exacte(s) ?",
+          "choix": [
+            "A) La barrière hématoencéphalique est mature dès la naissance",
+            "B) La non-observance médicamenteuse est souvent sous-estimée",
+            "C) La majorité des modifications génétiques dans le polymorphisme génétique est expliquée par des SNP (single Nucleotide Polymorphism)",
+            "D) Le CYP2D6 présente un fort polymorphisme génétique",
+            "E) Le calcul de la posologie d’un médicament éliminé par voie rénale doit toujours être réalisé avec la formule du CKD-EPI car c’est celle qui estime le mieux la fonction rénale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anticalcineurines quelles sont les propositions exactes ?",
+          "choix": [
+            "A) ils inhibent l’activité de la protéine mTOR en formant un complexe avec FKBP12",
+            "B) la néphrotoxicité du tacrolimus peut être prédite par le génotypage du gène codant pour CYP3A5",
+            "C) ils diminuent la synthèse de l’IL2",
+            "D) le tacrolimus est imputé dans la survenue de troubles visuels et psychiatriques",
+            "E) On associe ciclosporine et tacrolimus dans la prévention du rejet de greffe"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les biphosphonates quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) ils augmentent la densité osseuse de patientes ostéoporotiques",
+            "B) ils peuvent déterminer un ulcère œsophagien",
+            "C) certains sont indiqués dans le traitement de la maladie de Paget",
+            "D) leur demi-vie osseuse est identique à la demi-vie plasmatique",
+            "E) les formes injectables sont à haut risque d’ostéonécrose de la mâchoire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le paracétamol, lesquelles sont exactes ?",
+          "choix": [
+            "A) C’est un promédicament métabolisé en acétaminophène",
+            "B) Il est antiagrégant plaquettaire",
+            "C) Utilisé en association à la codéine, c’est un médicament à prescription médicale obligatoire",
+            "D) Son mécanisme d’action implique l’inhibition d’un canal calcique neuronal, le TRPA1",
+            "E) A posologie équivalentes les formes injectables sont plus efficaces que les formes orales"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système opioïde, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) La morphine agit sur les deux composantes de la douleur (discriminative et émotionnelle)",
+            "B) La morphine augmente le seuil douloureux et augmente la tolérance à la douleur",
+            "C) La constipation provoquée par la morphine est transitoire car soumise à tolérance",
+            "D) il existe 3 types de récepteurs opioïdes α  et β  et γ",
+            "E) La tolérance est responsable de l’hyperalgésie aux opioïdes"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, lequel (lesquels) est (sont) des effets indésirables des anti histaminiques H1?",
+          "choix": [
+            "A) Troubles du rythme cardiaque",
+            "B) Sècheresse buccale",
+            "C) Ulcère duodénal",
+            "D) Hypotension artérielle",
+            "E) Pneumopathies"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

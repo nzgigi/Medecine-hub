@@ -1,0 +1,840 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s10",
+  "annee": 2026,
+  "title": "Pharmacologie médicale - 2026",
+  "total_questions": 41,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Madame X, 50 ans, consulte parce qu'elle s'est brûlée la main en cuisinant. La brûlure est légère peu étendue et peu profonde.\nSes antécédents comprennent un AIT il y a 15 ans pour lequel elle reçoit Kardégic 75 mg, un syndrome dépressif depuis 15 ans pour lequel elle reçoit duloxétine.\nElle vient d'arriver dans la région.\nElle fume 2 paquets/jour de cigarettes depuis 25 ans.\nElle vit seule, est divorcée depuis 20 ans, en invalidité pour des lombalgies chroniques. Elle est mère de deux enfants âgés de 25 et 30 ans.\nElle reste cependant active avec de la marche quotidienne, de la gymnastique en salle.\nElle fait attention à ce qu'elle mange, cuisine et évite tous les aliments gras salés sucrés compte tenu de ses antécédents familiaux : grand-mère maternelle décédée à 52 ans d'un infarctus du myocarde.\nÀ l'examen poids 60 kg pour 1,58 m patiente asymptomatique (hormis au niveau de la brûlure) ; PA à 120/70 mmHg, pouls à 65/min auscultation cardiopulmonaire normale\nVous avez prescrit un pansement pour sa brûlure et des antalgiques simples et lui remettez une ordonnance pour faire des analyses complémentaires dans le cadre du bilan de prévention qui reviennent 15 jours plus tard : glycémie à jeun : 0.95 g/L ; kaliémie 4 mmol/l créatininémie 65 µmol/l, DFG 75 ml/min. Triglycérides 2,9 g/l ; HDL cholestérol 0,60 g/l ; LDL cholestérol : 1,80 g/l ; NFS normale avec hémoglobine à 14,5 g/dl",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les 4 facteurs de risque cardiovasculaire identifiés chez cette patiente ?",
+          "choix": [
+            "A) Son âge.",
+            "B) Un tabagisme actif.",
+            "C) Un syndrome dépressif traité.",
+            "D) Sa situation sociale.",
+            "E) Une activité physique réduite.",
+            "F) Les lombalgies chroniques.",
+            "G) Des grossesses à un jeune âge",
+            "H) Une insuffisance rénale stade 3.",
+            "I) Une dyslipidémie mixte.",
+            "J) Un HDL bas.",
+            "K) Décès précoce de sa grand-mère."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "I"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle classe thérapeutique à visée hypolipémiante allez-vous utiliser chez elle en sachant qu'elle suit un régime méditerranéen à la lettre ?",
+          "choix": [],
+          "reponses": [
+            "Des statines"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous débutez une statine chez cette patiente que vous revoyez un mois plus tard.\nQuels sont les éléments que vous avez demandés dans le cadre de la surveillance du traitement en prévision de cette consultation ?",
+          "choix": [
+            "A) Les ALAT.",
+            "B) Les ASAT.",
+            "C) Une glycémie à jeun.",
+            "D) Des CPK.",
+            "E) Un contrôle du cholestérol total, triglycérides, HDL et LDL cholestérol."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370260570-9ebea24da09ee",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mme B, 82 ans, vit seule et consulte à nouveau dans votre cabinet de médecine générale pour asthénie, anorexie, nausées et chutes depuis 5 jours. Elle est traitée pour hypertension artérielle et insuffisance cardiaque légère par ramipril, spironolactone et furosémide. Vous avez prescrit de l’ibuprofène il y a une semaine pour des lombalgies. À l’examen, elle est un peu confuse, sa pression artérielle est à 96/58 mmHg. La créatininémie est à 240 µmol/L contre 110 µmol/L 3 mois plus tôt, avec kaliémie à 6,1 mmol/L.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments de ce tableau doivent faire évoquer en priorité une iatrogénie médicamenteuse?",
+          "choix": [
+            "A) Âge avancé.",
+            "B) Association récente d’un AINS au traitement chronique.",
+            "C) Association IEC + diurétique + anti-aldostérone.",
+            "D) Normalité antérieure de la fonction rénale excluant une iatrogénie.",
+            "E) Le FUROSEMIDE est un diurétique hyperkaliémiant."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 complications iatrogènes que vous suspectez en priorité ?",
+          "choix": [
+            "A) Une hyponatrémie de dilution isolée.",
+            "B) Une insuffisance rénale aiguë fonctionnelle.",
+            "C) Une rhabdomyolyse sous statine.",
+            "D) Une hyperkaliémie iatrogène.",
+            "E) Une nécrose tubulaire aiguë."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que faites-vous dans un premier temps ?",
+          "choix": [
+            "A) Arrêt de l’ibuprofène.",
+            "B) Suspension temporaire du ramipril et de la spironolactone.",
+            "C) Réhydratation adaptée et surveillance clinique/biologique rapprochée.",
+            "D) Arrêt des AINS mais poursuite du RAMIPRIL, et FUROSEMIDE.",
+            "E) ECG afin de s’assurer de l’absence de retentissement électrique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 facteurs qui ont probablement favorisé cet événement ?",
+          "choix": [
+            "A) Une déshydratation possible.",
+            "B) Une banalisation de la prescription d’AINS.",
+            "C) Une automédication",
+            "D) Une polymédication.",
+            "E) L’absence d’accès aux soins."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment aurait-on pu prévenir cet épisode ?",
+          "choix": [
+            "A) Eviter les AINS dans la lombalgie commune.",
+            "B) Remettre en question la pertinence du FUROSEMIDE.",
+            "C) Contrôler créatininémie et kaliémie après modification thérapeutique à risque.",
+            "D) Interdire définitivement tout antalgique.",
+            "E) Mieux partager l’information entre prescripteurs et pharmacien."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Comment envisagez-vous la suite de la prise en charge ? Donnez les 2 réponses exactes",
+          "choix": [
+            "A) Arrêt de tous les médicaments néphrotoxiques et retour à domicile avec consultation dans 1 mois.",
+            "B) Arrêt de tous les médicaments néphrotoxiques, retour à domicile avec une biologie de contrôle et consultation dans 2 semaines.",
+            "C) Lui demander de prendre sa voiture afin de se rendre aux urgences.",
+            "D) Appeler le SMUR pour un transfert scopé aux urgences.",
+            "E) Débuter du gluconate de calcium."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Après prise en charge l’évolution clinique et biologique s’améliore: l’état confusionnel régresse, la fonction rénale et sa kaliémie se sont normalisées, et vous avez pu reprendre un traitement optimal. Quelques mois plus tard, elle revient avec l’ECG suivant. Quel trouble du rythme idenfiez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Fibrillation atriale."
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Comment poursuivez vous votre prise en charge, en sachant que sa créatininémie est à 120 µmol/l ?",
+          "choix": [
+            "A) Introduction immédiate d'amiodarone.",
+            "B) Introduction immédiate d'un bêtabloquant.",
+            "C) Introduction immédiate d'un antiagrégant plaquettaire.",
+            "D) Introduction immédiate d'un anticoagulant oral direct.",
+            "E) Introduction immédiate d'un traitement par anti vitamine K."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370269416-fc3dd5001df52",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "M. B., 50 ans, est artisan menuisier. Il a un diabète de type 2 (DT2) diagnostiqué il y a 8 ans, une hypertension artérielle (HTA) traitée depuis 10 ans, un tabagisme actif (15 PA) et il présente une sédentarité importante. Son père est décédé d'un infarctus du myocarde à 55 ans.\nSon traitement actuel comprend Metformine 1000 mg : 1 comprimé 2 fois par jour et Ramipril 10 mg : 1 comprimé par jour. A l’examen : Poids : 102 kg, Taille : 1,78 m (IMC = 32,2 kg/m²). Pression artérielle : 145/88 mmHg. Auscultation cardiopulmonaire normale\nSes données biologiques sont les suivantes :\nHbA1c : 8,2 % (dernière mesure à 7,8 % il y a 6 mois).\nCréatininémie : 135 µmol/l.\nDébit de Filtration Glomérulaire (DFG) : 52 ml/min/1,73m² (formule CKD-EPI).\nRapport Albumine/Créatinine urinaire (RAC) : 250 mg/g.\nLDL-cholestérol à 1,30 g/l.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le stade de la maladie rénale chronique (MRC) de M. B., quelle est, quelles sont les réponses exactes selon les critères HAS ?",
+          "choix": [
+            "A) Stade 2.",
+            "B) Stade 3A.",
+            "C) Stade 3B.",
+            "D) Stade 4.",
+            "E) Cette classification nécessite la présence de marqueurs d'atteinte rénale persistant depuis plus de 3 mois."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l'objectif d'HbA1c cible recommandé par la HAS pour ce patient ?",
+          "choix": [
+            "A) ≤ 6,5 %.",
+            "B) ≤ 7,0 %.",
+            "C) ≤ 7,5 %.",
+            "D) ≤ 8,0 %.",
+            "E) ≤ 9,0 %."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 4 mesures non médicamenteuses qui doivent être renforcées chez ce patient ?",
+          "choix": [
+            "A) Prescription d'une activité physique adaptée de type endurance et renforcement musculaire.",
+            "B) Diminution du temps total de sédentarité.",
+            "C) Sevrage tabagique systématique",
+            "D) Objectif de perte de poids d'au moins 5 % pour une amélioration métabolique.",
+            "E) Prescription d'un régime de jeune intermittent."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant la prescription du traitement par metformine chez M. B, quelles sont les 2 réponses exactes ?",
+          "choix": [
+            "A) Arrêt immédiat de la metformine en raison du risque d'acidose lactique.",
+            "B) Poursuite de la dose actuelle (2000 mg/jour) sans modification.",
+            "C) Diminution de la dose à 1000 mg/jour et surveillance étroite.",
+            "D) Maintien possible de la metformine tant que le DFGe est > 30 ml/min/1,73m².",
+            "E) Contre-indication absolue dès que le DFGe est < 45 ml/min/1,73m² si le patient présente des troubles digestifs lors de la prise de la metformine."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Selon les recommandations HAS 2024 de diabétologie, quel traitement doit être proposé en priorité en ajout de la metformine compte tenu des comorbidités de M. B. ?",
+          "choix": [
+            "A) Un inhibiteur de la DPP-4.",
+            "B) Un sulfamide hypoglycémiant.",
+            "C) Un inhibiteur du SGLT2.",
+            "D) Un analogue du GLP-1.",
+            "E) De l'insuline basale d'emblée."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 effets indésirables parfois associés à la prise des inhibiteurs du SGLT2 en association à la metformine et mentionnés dans le RCP ?",
+          "choix": [
+            "A) Infection urinaire.",
+            "B) Balanite.",
+            "C) Hypoglycémie sévère.",
+            "D) Aggravation d’une insuffisance cardiaque à fraction d’éjection réduite.",
+            "E) Acidocétose diabétique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient présente des douleurs arthrosiques et vous lui prescrivez un antalgique inscrit sur liste II.\nÀ propos des éléments de prescription, quelles sont les trois réponses exactes ?",
+          "choix": [
+            "A) La durée de validité de l'ordonnance est de 12 mois.",
+            "B) Le renouvellement de l'ordonnance est possible sauf mention contraire.",
+            "C) Il faut utiliser une ordonnance bi-zone.",
+            "D) La prise en charge par l'assurance maladie est de 30 % pour les médicaments inscrits en liste II.",
+            "E) La mention du numéro RPPS du médecin sur l'ordonnance reste indispensable."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient au cours des années a finalement développé une insuffisance rénale sévère et doit recevoir un traitement par érythropoïétine : quelle est, quelles sont la(les) réponse(s) exacte(s) concernant les modalités de prescription ?",
+          "choix": [
+            "A) Elle s'effectue sur une ordonnance sécurisée.",
+            "B) Elle s'effectue sur une ordonnance d'exception.",
+            "C) La prescription initiale est hospitalière.",
+            "D) La prescription initiale pourrait être d'une durée maximale de 1 an.",
+            "E) La prescription initiale n'est possible que par un néphrologue."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370271717-072f15aa260138",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Mme B, 57 ans, consulte pour la première fois car elle arrive dans la région. Elle a une hypertension artérielle (HTA) depuis cinq ans traitée par ramipril : 5 mg/jour. On retrouve la notion d'une HTA familiale chez ses parents. Elle ne fume pas, n'a pas de diabète ou de dyslipidémie connue. Elle reste asymptomatique et les pressions artérielles (PA) sont à 160/90 mmHg à votre cabinet. Elle apporte de l'automesure tensionnelle bien faite avec une moyenne à 145/90 mmHg. Vous ne retrouvez aucun facteur de résistance à son HTA. Elle pèse 65 kg pour 1,70 m. L'ECG et la fonction rénale sont normales.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 éléments de la stratégie proposée selon les dernières recommandations européennes sur l'HTA ?",
+          "choix": [
+            "A) Vous décidez d'intensifier le traitement antihypertenseur.",
+            "B) Vous gardez la même posologie de ramipril et axez votre effort sur les mesures hygiénodiététiques.",
+            "C) Vous augmentez la posologie du ramipril à 10 mg/jour.",
+            "D) Vous gardez la même posologie de ramipril et vous rajoutez un antagoniste calcique.",
+            "E) Vous gardez la même posologie de ramipril et vous rajoutez un diurétique thiazidique."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente est finalement traitée par une bithérapie ramipril 5 mg et amlodipine 10 mg. Elle vous dit que depuis quelques temps elle présente une toux sèche. L'examen clinique est normal. Que faites-vous ? Donner les 2 bonnes réponses",
+          "choix": [
+            "A) Vous suspectez une toux sous IEC.",
+            "B) Vous réduisez la dose de ramipril.",
+            "C) Vous arrêtez le ramipril que vous remplacez par du périndopril.",
+            "D) Vous arrêtez le ramipril que vous remplacez par candésartan.",
+            "E) Vous arrêtez le ramipril et vous augmentez la posologie de l'inhibiteur calcique."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente est finalement traitée pour son HTA par amlodipine 10 mg et valsartan 160 mg/jour. Après trois ans sous ce traitement, les PA se déséquilibrent à nouveau. L'automesure tensionnelle le confirme avec une moyenne à 155/90 mmHg. Le déséquilibre tensionnel s'est progressivement instauré. La fonction rénale reste normale. La patiente est asymptomatique. Vous ne retrouvez pas de facteur de déséquilibre de son HTA et le poids reste stable. Que prescrivez-vous en vous basant sur les recommandations sur l'HTA ?",
+          "choix": [
+            "A) Un diurétique thiazidique.",
+            "B) Un diurétique de l'anse.",
+            "C) Un bêtabloquant.",
+            "D) La spironolactone.",
+            "E) Un alpha bloquant."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un bon contrôle tensionnel est finalement obtenu sous trithérapie mais deux ans plus tard, elle est à nouveau victime d'une réascension des pressions artérielles (PA) avec au cabinet médical des valeurs à 170/100 mmHg et une moyenne des PA en automesure à 158/70 mmHg. Comment analysez-vous la situation ?",
+          "choix": [
+            "A) 1 Il s'agit d'une HTA déséquilibrée.",
+            "B) Il s'agit d'une HTA blouse blanche",
+            "C) Il s'agit d'une HTA résistante.",
+            "D) Il s'agit d'une HTA ambulatoire.",
+            "E) Il s'agit d'une HTA systolique pure."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle stratégie adoptez-vous ?",
+          "choix": [
+            "A) Vous faites une recherche d'HTA secondaire.",
+            "B) Vous faites un bilan du retentissement avec une recherche d'atteinte d'organe cible.",
+            "C) Vous faites à nouveau une recherche de facteur de résistance à l'HTA.",
+            "D) Vous insistez particulièrement sur l'enquête à l'égard de l'observance des traitements.",
+            "E) Vous considérez que le traitement étant déjà important à cet âge, il faut privilégier la diététique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L'enquête étiologique de l'HTA reste négative avec un angioscanner des artères rénales et des surrénales normal, une fonction rénale normale, et l'absence d'hyperaldostéronisme primaire. Quelles sont les 2 classes d’antihypertenseurs qui sont classiquement recommandées à ce stade selon les recommandations européennes chez cette patiente sous trithérapie antihypertensive ?",
+          "choix": [
+            "A) La spironolactone.",
+            "B) Un bêtabloquant.",
+            "C) Un diurétique de l'anse.",
+            "D) Un inhibiteur des SGL T2.",
+            "E) Un analogue du GLP-1."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente poursuit son traitement médical antihypertenseur. Trois ans plus tard, elle consulte pour des céphalées modérées depuis une semaine. Son mode de vie a changé puisqu'elle a divorcé. Elle a des problèmes de revenus et a dû recommencer à travailler malgré son âge en faisant des ménages. À l'examen les PA prises à plusieurs reprises au cabinet après quelques minutes de repos sont à 210/120-220/100-223/112 mmHg. Elle précise qu'elle ne prend plus son traitement depuis déjà quelques mois. Vous souhaitez écarter l'hypothèse d'une HTA maligne. Quelles sont les 5 réponses exactes ?",
+          "choix": [
+            "A) Vous l'hospitalisez.",
+            "B) Vous faites doser l'haptoglobine.",
+            "C) Vous faites doser les CPK.",
+            "D) Vous demandez un fond d'œil.",
+            "E) Vous demander un ECG.",
+            "F) Vous demandez une échocardiographie d'effort.",
+            "G) Vous demandez un scanner cérébral."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370273810-8b009129f895b",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "Parmi des affirmations suivantes concernant les opioides, laquelle ou lesquelles sont exactes ?",
+      "order": 5,
+      "questions": [
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant les opioides, laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Le fentanyl est 40 fois plus puissant que la morphine",
+            "B) Le tramadol a la même puissance que la codéine",
+            "C) L’oxycodone est moins puissante que la morphine",
+            "D) La buprénorphine est un agoniste partiel",
+            "E) Le tramadol est un promédicament"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 28,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les antalgiques indiqués dans les douleurs neuropathiques, laquelle sont vraies ? 2 réponses vraies",
+          "choix": [
+            "A) nefopam",
+            "B) AINS",
+            "C) paracetamol",
+            "D) pregabaline",
+            "E) capsaicine"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant les effets indésirables des opioides, laquelle est fausse ?",
+          "choix": [
+            "A) diarrhée",
+            "B) hyperalgésie",
+            "C) myosis",
+            "D) nausée",
+            "E) somnolence"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 30,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelles sont les conditions de bioéquivalence nécessaires pour qu’un médicament soit considéré comme générique ?",
+          "choix": [],
+          "reponses": [
+            "AUC entre 80-125%"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 31,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la bioéquivalence des médicaments génériques, quelle proposition est exacte ?",
+          "choix": [
+            "A) Elle est démontrée par des études chez des patients malades",
+            "B) Elle repose sur la comparaison du Tmax uniquement",
+            "C) Elle est définie pour la plupart des médicaments par un intervalle de confiance du ratio ASC et Cmax compris entre 80 et 125 %",
+            "D) Elle garantit une stricte équivalence clinique entre deux génériques",
+            "E) La réalisation d’essais cliniques de phase 3 est toujours obligatoire pour démontrer la bioéquivalence entre 2 médicaments"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments biosimilaires, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Ils sont strictement identiques au médicament biologique de référence",
+            "B) Ils nécessitent la démonstration d’une efficacité et d’une sécurité équivalentes",
+            "C) Leur substitution est automatique en cours de traitement",
+            "D) Ils ont la même dose et le même schéma d’administration que le médicament de référence",
+            "E) Leur production est plus complexe que celle des médicaments chimiques"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 33,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Tous les effets indésirables suivants sont liés aux propriétés glucocorticoïdes des corticostéroïdes sauf un, lequel ?",
+          "choix": [
+            "A) Effet hyperglycémiant",
+            "B) Perte musculaire",
+            "C) Suppression de l’axe hypothalamo-hypophyso-surrénalien",
+            "D) Hypokaliémie",
+            "E) Hypercatabolisme"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 34,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient de 75 ans avec plusieurs antécédents cardiovasculaires est traité au niveau médicamenteux par amlodipine, aspirine (Kardégic 75), atorvastatine, ésoméprazole, dapagliflozine hydrochlorothiazide, diazépam et ramipril. Il présente un œdème bilatéral des membres inférieurs, mou, indolore, sans dyspnée ni prise de poids. Parmi les médicaments de l’ordonnance, quel médicament est le plus susceptible d’avoir induit l’œdème ?",
+          "choix": [],
+          "reponses": [
+            "almodipine"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 45 ans décrit une somnolence diurne sous antihistaminique H1 de 2ème génération (type cétirizine) au long cours. Que faites-vous ?",
+          "choix": [
+            "A) Vous recherchez une tendance à l’automédication",
+            "B) Vous proposez une prise unique pendant le déjeuner",
+            "C) Vous cherchez un traitement concomitant par benzodiazépine.",
+            "D) Vous proposez un changement pour un antihistaminique H1 de 1ère génération",
+            "E) Vous proposez un remplacement par un antihistaminique H2"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 36,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels vont favoriser la survenue d’hyperkaliémie sous spironolactone ? 2 réponses justes",
+          "choix": [
+            "A) AINS",
+            "B) Laxatifs",
+            "C) Corticoïdes",
+            "D) Inhibiteurs de l’enzyme de conversion",
+            "E) Furosémide"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 37,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes lesquelles sont justes (2 réponses justes)",
+          "choix": [
+            "A) L’acide valproïque est le thymorégulateur de choix chez la femme enceinte atteinte d’un trouble bipolaire.",
+            "B) Un hémogramme doit être réalisé régulièrement lors de la prescription du neuroleptique clozapine.",
+            "C) L’efficacité des antidépresseurs imipraminiques(ou tricyclique) doit être estimée 3 mois après le début de la prescription.",
+            "D) Les antidépresseurs imipraminiques sont à l’origine de syndromes sérotoninergiques comme les inhibiteurs de la recapture de la sérotonine.",
+            "E) En général, lors de la prescription d’un antidépresseur inhibiteur de la recapture de la sérotonine et de la noradrénaline type venlafaxine, il est recommandé de prescrire une benzodiazépine pour éviter la levée d’inhibition."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 38,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un sujet de 75 ans est traité par paroxétine 20 mg par jour pour un épisode dépressif majeur. Quel trouble ionique, généralement réversible à l'arrêt de ce médicament, est susceptible de survenir ? (réponse en un à cinq mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "hyponatremie"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du surdosage avec les benzodiazépines lesquelles des propositions suivantes sont justes",
+          "choix": [
+            "A) En cas de surdosage en benzodiazépine, le pronostic vital est engagé",
+            "B) Un antidote est disponible, il s’agit de la naloxone (Narcan)",
+            "C) Un antidote est disponible, il s’agit du flumazénil (Anexate)",
+            "D) Le surdosage se manifeste par un état d’agitation",
+            "E) Le surdosage se manifeste par une somnolence pouvant aller jusqu’au coma"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Soit l’ordonnance suivante:\n- ofloxacine 200mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- bisoprolol 5mg 1 fois par jour\n- domperidone 10mg 3 fois par jour\nParmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) La domperidone a des propriétés antiémétiques par antagonisme de récepteurs dopaminergiques dans le tronc cérébral",
+            "B) L’ofloxacine est un inhibiteur enzymatique source d'interaction médicamenteuse dans cette ordonnance",
+            "C) Tous les médicaments de l’ordonnance entrainent des troubles du rythme cardiaque",
+            "D) L'hydrochlorothiazide peut induire une hypokaliémie par inhibition du cotransport Na+/K+/2 Cl- au niveau la branche descendante de l'anse de Henlé",
+            "E) Cette ordonnance expose à des photosensibilisations"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 41,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) les propositions exactes :",
+          "choix": [
+            "A) La prise en charge d’un trouble de l’usage de la cocaïne s’appuie essentiellement sur l’utilisation de buprénorphine comme médicament de substitution",
+            "B) La voie d’administration inhalée (fumée) augmente le potentiel de dépendance d’une substance",
+            "C) La cocaïne est un puissant vasoconstricteur",
+            "D) Le risque d’accident vasculaire cérébral est élevé chez les usagers de cocaïne",
+            "E) La consommation de cannabis réduit les risques cardiovasculaires en particulier les risques d'AVC ischémiques."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

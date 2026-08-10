@@ -1,0 +1,753 @@
+{
+  "matiere": "Biopathologie tissulaire",
+  "slug": "biopathologie-tissulaire-s6",
+  "annee": 2026,
+  "title": "Biopathologie tissulaire - 2026",
+  "total_questions": 36,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les maladies qui exposent à un risque accru de cancer du côlon ?",
+          "choix": [
+            "A) La tuberculose intestinale",
+            "B) Le syndrome de Lynch",
+            "C) Les colites inflammatoires chroniques",
+            "D) La polypose adénomateuse familiale",
+            "E) Le syndrome du côlon irritable"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les critères suivants, quels sont ceux qui sont incompatibles avec le diagnostic de carcinome in situ ?",
+          "choix": [
+            "A) Mitoses atypiques",
+            "B) Présence de métastases ganglionnaires",
+            "C) Présence de foyers de nécrose",
+            "D) Franchissement de la membrane basale",
+            "E) Présence d’atypies cytonucléaires marquées"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont parmi les propositions suivantes, celles qui vont être observées sur la biopsie bronchique d’un patient atteint d’une bronchite aigue ?",
+          "choix": [
+            "A) des polynucléaires neutrophiles",
+            "B) une importante fibrose du chorion",
+            "C) des cellules épithélio-giganto-cellulaires",
+            "D) une vasodilatation vasculaire",
+            "E) un œdème du chorion"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les étiologies possibles de la stéatose ?",
+          "choix": [
+            "A) l’alcool",
+            "B) le surpoids",
+            "C) l’hypercholestérolémie",
+            "D) les médicaments",
+            "E) les maladies auto-immunes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes concernant la carcinose péritonéale ?",
+          "choix": [
+            "A) Elle correspond à la dissémination par voie sanguine d’un cancer dans le péritoine",
+            "B) Elle correspond à la dissémination d’un cancer dans la cavité péritonéale",
+            "C) Elle est une complication classique des mélanomes cutanés",
+            "D) Elle concerne généralement les cancers de la cavité abdominale",
+            "E) Elle peut concerner les cancers de l’ovaire"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’amylose, quelles sont les propositions justes parmi les suivantes ?",
+          "choix": [
+            "A) elle peut être due à la mutation de certains gènes",
+            "B) elle peut être due à l’élévation du taux sérique de la protéines SAA (Serum Amyloid A) dans des infections chroniques",
+            "C) elle est toujours héréditaire",
+            "D) le typage de l’amylose permettra d’adapter le traitement",
+            "E) le traitement peut stabiliser la maladie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, lesquelles peuvent s’accompagner de granulomes épithélio-giganto-cellulaires?",
+          "choix": [
+            "A) Tuberculose",
+            "B) Sarcoïdose",
+            "C) Maladie de Crohn",
+            "D) Cirrhose",
+            "E) Pneumonie franche lobaire aigue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la nécrose caséeuse, quelles sont les propositions justes ?",
+          "choix": [
+            "A) c’est une nécrose tissulaire caractéristique de la tuberculose",
+            "B) c’est une nécrose tissulaire purulente",
+            "C) c’est un processus de mort cellulaire par apoptose",
+            "D) elle peut se calcifier",
+            "E) elle peut se liquéfier et s’éliminer dans un conduit de drainage"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, lesquelles correspondent à l’évolution purulente d’une réaction inflammatoire aigue ?",
+          "choix": [
+            "A) pustule",
+            "B) empyème",
+            "C) péricardite constrictive",
+            "D) abcès",
+            "E) phlegmon"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une coloscopie retrouve des centaines de polypes adénomateux dans tout le côlon. Quel diagnostic proposez-vous ?",
+          "choix": [
+            "A) une polypose réactionnelle inflammatoire",
+            "B) une colite inflammatoire chronique",
+            "C) un syndrome de Lynch",
+            "D) une polypose adénomateuse familiale",
+            "E) des adénomes multiples sans prédisposition génétique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes à propos du mélanome cutané?",
+          "choix": [
+            "A) Le stade T est basé sur le niveau d’infiltration dermique ou hypodermique",
+            "B) La mesure de son épaisseur selon l’indice de Breslow est déterminante pour sa prise en charge",
+            "C) Le statut ulcéré ou non ulcéré de la tumeur est essentiel à la classification pTNM",
+            "D) Il est toujours porteur d’une mutation du gène BRAF",
+            "E) Il est de bon pronostic lorsqu’il est in situ"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes à propos des tumeurs?",
+          "choix": [
+            "A) Une tumeur bénigne est caractérisée par une bonne différenciation et une croissance lente",
+            "B) Une tumeur bénigne ne donne jamais de métastase",
+            "C) Une tumeur maligne est généralement mal limitée",
+            "D) Une tumeur maligne invasive ne récidive jamais si l’exérèse initiale est complète",
+            "E) Un lipome peut se transformer en liposarcome en absence de traitement"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des léiomyomes utérins, quelles sont les propositions justes?",
+          "choix": [
+            "A) Il s’agit d’une tumeur rare",
+            "B) Ils peuvent se transformer en léiomyosarcome avec le temps",
+            "C) Il s’agit d’une prolifération de cellules fusiformes sans atypie",
+            "D) Ils sont plus fréquemment observés chez des patientes en péri-ménopause ou ménopausées",
+            "E) Ils peuvent conduire à une hystérectomie selon les signes fonctionnels"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cancer du col utérin, quelles sont les propositions justes?",
+          "choix": [
+            "A) Il s’agit le plus souvent d’un adénocarcinome",
+            "B) Il est dû à une infection par un HPV",
+            "C) On peut en faire le diagnostic sur un frottis cervico-utérin",
+            "D) On peut faire le diagnostic de carcinome infiltrant sur un frottis cervico-utérin",
+            "E) Le traitement consiste toujours en une hystérectomie"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes à propos de la technique d’immunohistochimie sur coupes en paraffine?",
+          "choix": [
+            "A) Permet de rechercher l’expression de certaines cibles thérapeutiques dans un cancer",
+            "B) Permet de rattacher une métastase osseuse à un cancer primitif de prostate si le marquage anti-PSA est positif",
+            "C) Permet de typer précisément un lymphome",
+            "D) Est utilisée pour rechercher des micrométastases dans un ganglion sentinelle",
+            "E) Permet de rattacher une métastase ganglionnaire à un mélanome si le marquage anti-cytokératine est positif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cocher les anomalies moléculaires qui sont recherchées dans les cancers correspondants.",
+          "choix": [
+            "A) Mutation du gène BRAF dans le mélanome",
+            "B) Amplification du gène BRAF dans le mélanome",
+            "C) Mutation du gène EGFR dans le carcinome bronchique non à petites cellules",
+            "D) Amplification du gène HER2 dans le carcinome mammaire",
+            "E) Mutation du gène des récepteurs aux oestrogènes dans le carcinome mammaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cocher les propositions justes à propos de la réparation et de ses conséquences.",
+          "choix": [
+            "A) la fibrose est un processus cicatriciel s’accompagnant toujours de complications",
+            "B) la fibrose s’accompagne en général d’une diminution de la quantité de tissu noble",
+            "C) la fibrose peut être systématisée et respecter l’architecture de l’organe",
+            "D) la cheloïde est une anomalie de la réparation au niveau cutané",
+            "E) la fibrose mutilante du foie lors d’une cirrhose est bien visualisée par la coloration de Perls"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cocher les propositions justes à propos des maladies inflammatoires chroniques de l’intestin.",
+          "choix": [
+            "A) la maladie de Crohn peut toucher tout le tube digestif",
+            "B) la maladie de Crohn se caractérise par une atteinte continue sans intervalles de muqueuse saine",
+            "C) la maladie de Crohn se caractérise par une atteinte discontinue avec intervalles de muqueuse saine",
+            "D) la présence de polynucléaires neutrophiles est un signe d’activité",
+            "E) la présence de granulomes épithélioïdes dans la paroi digestive est un bon signe en faveur d’une rectocolite hémorragique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395638271-77b75cfc5cb7d",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un homme de 75 ans se présente aux urgences pour fièvre et céphalées temporales.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l’interrogatoire, il se plaint également de douleurs siégeant aux racines des membres et les examens biologiques réalisés en urgence révèlent un syndrome inflammatoire (CRP et VS élevées). Quelle est l’hypothèse diagnostique la plus probable?",
+          "choix": [
+            "A) Polyarthrite inflammatoire",
+            "B) Infection pulmonaire",
+            "C) Artérite à cellules géantes",
+            "D) Lymphome",
+            "E) Accident vasculaire cérébral"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une artérite à cellules géantes. Quel(s) est (sont) l’ (les) examen (s) qui permet(tent) de confirmer votre hypothèse ?",
+          "choix": [
+            "A) Scanner",
+            "B) Echo-doppler des artères temporales",
+            "C) Biopsie de l’artère temporale",
+            "D) Dosage du marqueur de Horton",
+            "E) Bilan auto-immun"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les localisations possibles de l’artérite à cellules géantes ?",
+          "choix": [
+            "A) Artère centrale de la rétine",
+            "B) Glomérule rénal",
+            "C) Artériole bronchique",
+            "D) Artère carotidienne",
+            "E) Artère temporale"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le risque majeur de l’artérite à cellules géantes ?",
+          "choix": [
+            "A) Claudication intermittente de la mâchoire",
+            "B) Hyperesthésie du cuir chevelu",
+            "C) Cécité",
+            "D) Dysgueusie",
+            "E) Infarctus du myocarde"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments histologiques en faveur d’une artérite à cellules géantes?",
+          "choix": [
+            "A) Nécrose purulente de la paroi artérielle",
+            "B) Granulome épithelio-giganto-cellulaire dans la paroi artérielle",
+            "C) Présence de cristaux de cholestérol dans la paroi artérielle",
+            "D) Atteinte de toute l’épaisseur de la paroi artérielle",
+            "E) Cellules spumeuses dans la paroi artérielle"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les cellules impliquées dans la physiopathologie de l’artérite à cellules géantes?",
+          "choix": [
+            "A) Polynucléaires neutrophiles",
+            "B) Plaquettes",
+            "C) Macrophages",
+            "D) Mastocytes",
+            "E) Lymphocytes"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395640651-3f32898298f7b",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Une patiente de 32 ans, sans antécédent notable, consulte son médecin généraliste pour une formation nodulaire de 2 cm du sein gauche. Ce nodule est non douloureux et elle ne présente aucun autre symptôme.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles hypothèses diagnostiques pouvez-vous évoquer ?",
+          "choix": [
+            "A) Une tumeur bénigne de type fibro-adénome",
+            "B) Une tumeur maligne de type adénome",
+            "C) Un abcès",
+            "D) Un carcinome mammaire",
+            "E) Un adénocarcinome bénin"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous faites préciser l’histoire de la maladie par votre patiente. Elle vous affirme que ce nodule n’existait pas il y a 6 mois et a rapidement évolué. Quelle est alors votre hypothèse diagnostique principale ?",
+          "choix": [
+            "A) Une tumeur bénigne de type fibro-adénome",
+            "B) Une tumeur maligne de type adénome",
+            "C) Un abcès",
+            "D) Un carcinome mammaire",
+            "E) Un adénocarcinome bénin"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une biopsie sous échographie est réalisée et le pathologiste conclut :\n« Adénocarcinome mammaire de grade II d’Elston et Ellis, RE+, RP+, sans surexpression de HER2, avec index de prolifération à 5% »\nQuelles sont les propositions justes ?",
+          "choix": [
+            "A) Adénocarcinome signifie tumeur épithéliale maligne kératinisante",
+            "B) Adénocarcinome signifie tumeur épithéliale maligne glandulaire",
+            "C) Le grade permet d’évaluer le potentiel agressif de la tumeur",
+            "D) RE+ signifie « Risque Evolutif positif »",
+            "E) HER2 est une cible thérapeutique lorsqu’il est surexprimé"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle a bénéficié d’une exérèse chirurgicale de la tumeur et d’une procédure du ganglion sentinelle. Quelles sont les propositions justes ?",
+          "choix": [
+            "A) Le pathologiste doit encrer les berges chirurgicales de la tumeur du sein avant la recoupe macroscopique",
+            "B) Le pathologiste doit préciser dans son compte-rendu la qualité de l’exérèse de la tumeur",
+            "C) Le pathologiste doit préciser dans son compte-rendu le stade de la tumeur",
+            "D) L’exérèse chirurgicale peut être minimale car les adénocarcinomes mammaires ont un faible potentiel évolutif et ne récidivent jamais",
+            "E) L’absence de métastase dans le ganglion sentinelle contre-indique le curage ganglionnaire axillaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la recherche de la surexpression de HER2, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Elle se fait par immunohistochimie",
+            "B) Cette surexpression est nucléaire",
+            "C) Dans les cas où le résultat de l’immunohistochimie est douteux, on utilise la technique de FISH",
+            "D) La technique de FISH recherche la mutation ponctuelle à l’origine de la surexpression",
+            "E) Si HER2 est surexprimé, la patiente peut bénéficier d’une thérapie ciblée par un anticorps monoclonal"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente étant jeune, qu’allez-vous lui proposer en parallèle de la prise en charge de son cancer ?",
+          "choix": [
+            "A) une consultation oncogénétique qui pourra indiquer la recherche d’une mutation constitutionnelle du gène HER2",
+            "B) une consultation oncogénétique qui pourra indiquer la recherche d’une mutation constitutionnelle des gènes BRCA1 et BRCA2",
+            "C) rien",
+            "D) une consultation oncogénétique à la recherche d’une mutation constitutionnelle prédisposant au cancer qui ne nécessite pas de consentement éclairé de la patiente",
+            "E) une consultation oncogénétique à la recherche des antécédents personnels et familiaux de cancer"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395643279-45c98413509368",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Une patiente de 65 ans, ancienne fumeuse, sans antécédent notable, ni traitement au long cours, est hospitalisée pour bilan d’hémoptysie. La radiographie thoracique montre une opacité lobaire inférieure droite et des adénopathies médiastinales. L’examen clinique met en évidence une adénopathie sus-claviculaire droite. Une biopsie ganglionnaire est réalisée qui révèle la présence de massifs de grandes cellules avec noyaux hyperchromatiques, irréguliers, anisocytose et squames de kératine.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 31,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant de tels aspects histologiques, quel est le diagnostic porté par le pathologiste ?",
+          "choix": [
+            "A) métastase ganglionnaire d’un mélanome",
+            "B) métastase ganglionnaire d’un carcinome épidermoïde/malpighien",
+            "C) métastase ganglionnaire d’un adénocarcinome",
+            "D) infection à cytomégalovirus",
+            "E) lymphome"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Compte-tenu du résultat de la biopsie ganglionnaire, un carcinome épidermoïde d’origine bronchique est suspecté. Une lobectomie droite inférieure est programmée. Lors de cette intervention, le chirurgien adresse au pathologiste la recoupe bronchique du lobe pulmonaire en extemporané. Quelles sont les propositions justes ?",
+          "choix": [
+            "A) cette recoupe bronchique est adressée au pathologiste à l’état frais",
+            "B) pour cet examen, le pathologiste va rapidement congeler cette recoupe bronchique puis la couper et la colorer",
+            "C) le résultat de cet examen extemporané est susceptible de changer le cours de l’intervention si le pathologiste retrouve des lésions de carcinome sur cette recoupe",
+            "D) le résultat de cet examen extemporané est donné au chirurgien dans un temps rapide, idéalement moins de 20 minutes",
+            "E) un examen extemporané est d’une très grande fiabilité et n’est pas contrôlé a posteriori"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une fois l’intervention chirurgicale terminée, cette recoupe bronchique est fixée, incluse en paraffine, coupée et contrôlée par le pathologiste qui confirme le diagnostic donné en extemporané : présence de lésions de carcinome épidermoïde in situ. Quelles sont les propositions justes ?",
+          "choix": [
+            "A) ce carcinome épidermoïde in situ correspond à une lésion cancéreuse non invasive",
+            "B) ce carcinome épidermoïde in situ est survenu de novo sans étape préalable",
+            "C) ce carcinome épidermoïde in situ est survenu sur des lésions de dysplasie",
+            "D) dans le contexte de notre patiente, une étape préalable de métaplasie glandulaire a précédé le carcinome",
+            "E) dans le contexte de notre patiente, une étape préalable de métaplasie malpighienne a précédé le carcinome"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En dehors du contexte de notre patiente, parmi les sites anatomiques suivants, quels sont ceux qui peuvent être le siège de lésions dysplasiques ?",
+          "choix": [
+            "A) col utérin",
+            "B) myomètre",
+            "C) épiderme",
+            "D) voies aérodigestives supérieures",
+            "E) côlon"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 35,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Chez notre patiente, dans la conclusion histopathologique qui suit l’examen de sa pièce opératoire, le pathologiste va utiliser une classification qui permet de rendre compte du niveau d’extension de la tumeur. Laquelle ?",
+          "choix": [
+            "A) TGM",
+            "B) FIGO",
+            "C) pTNM",
+            "D) Elston et Ellis",
+            "E) Gleason"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Connaissez-vous d’autres types de tumeur maligne bronchopulmonaire ?",
+          "choix": [
+            "A) Adénome papillaire",
+            "B) Adénocarcinome",
+            "C) Angiome",
+            "D) Thymome",
+            "E) Carcinome neuro-endocrine"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

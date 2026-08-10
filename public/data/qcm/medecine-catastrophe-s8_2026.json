@@ -1,0 +1,409 @@
+{
+  "matiere": "Médecine de catastrophe",
+  "slug": "medecine-catastrophe-s8",
+  "annee": 2026,
+  "title": "Médecine de catastrophe - 2026",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q1 – Quelles réactions ne rentrent pas dans le cadre du stress adapté ?",
+          "choix": [
+            "A) Mobilisation de l’attention et de la vigilance",
+            "B) Comportements automates",
+            "C) Agitation motrice",
+            "D) Majoration des capacités de passages à l’acte",
+            "E) Sidération"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Q3 – A quel principe de l’aide humanitaire correspond le fait d’apporter l’aide sans discrimination, en fonction des besoins ?",
+          "choix": [
+            "A) Principe d’humanité",
+            "B) Principe d’impartialité",
+            "C) Principe de neutralité",
+            "D) Principe d’indépendance",
+            "E) Principe de résilience"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Q4 – QROC : Quels sont les 2 principaux objectifs de l’initiative EMT (Emergency Medical Team) de l’OMS ?",
+          "choix": [],
+          "reponses": [
+            "cooperation harmonisation"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Q5 – QROC : Quelles sont les 4 phases du cycle de la catastrophe ?",
+          "choix": [],
+          "reponses": [
+            "catastrophe - réponse adaptative - rémission - norme évoluée"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q6 – Parmi les propositions suivantes, lesquelles font partie des prérequis indispensable d’une unité/d’un centre de vaccination en contexte pandémique ?",
+          "choix": [
+            "A) Triage",
+            "B) Enregistrement",
+            "C) Information",
+            "D) Consultation médicale",
+            "E) Surveillance"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q7 – Quels éléments font partie de la définition de la médecine en milieu isolé (selon la SOFRAMMI) ?",
+          "choix": [
+            "A) Nécessité d’adaptation",
+            "B) Inadéquation moyens/besoins",
+            "C) Défaut d’accès à un plateau technique médical",
+            "D) Exercice récurrent ou durable",
+            "E) Nécessité de stratégies opérationnelles spécifiques"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q8 - En cas d’attentat terroriste, dans quelle(s) zone(s) peuvent intervenir les personnels du SAMU ?",
+          "choix": [
+            "A) Zone de combat",
+            "B) Zone contrôlée",
+            "C) Zone de soutien",
+            "D) Zone de contact",
+            "E) Zone de reprise"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q2 - Concernant le defusing psychologique, quelles propositions sont correctes :",
+          "choix": [
+            "A) L’entretien est idéalement individuel",
+            "B) L’intervention ne doit pas être trop précoce",
+            "C) L’objectif est de diminuer les états de stress ou de dissociation péri-traumatique",
+            "D) Le defusing doit réécrire la situation selon les indications du psychologue",
+            "E) Il s’inscrit dans une prise en charge plus globale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370239842-2e324020853c48",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un AVP survient sur le périphérique de Toulouse, impliquant un poids lourd de transport de matières dangereuses, transportant les déchets radioactifs de l’unité de médecine nucléaire du CHU. De nombreuses victimes sont impliquées.\nLes détections montrent une radioactivité élevée sur place, mais aucune matière dangereuse n’est sortie du camion.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Q1 – Vous êtes le premier médecin SMUR sur place. Lors de votre triage START, vous prenez en charge le chauffeur du poids lourd, qui présente une plaie hémorragique à la cuisse, sans autre plainte fonctionnelle. Quel est le premier geste à réaliser parmi les propositions suivantes ?",
+          "choix": [
+            "A) Mise en place du bracelet SINUS",
+            "B) Décontamination sèche",
+            "C) Décontamination approfondie",
+            "D) Pose d’un pansement compressif",
+            "E) Pose d’un garrot"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q2 – Vous réalisez une prise en charge par l’algorithme SAFE-MARCHE-RYAN. Vous prenez en charge une seconde victime, qui présente une plaie thoracique soufflante, associée à une détresse respiratoire et une abolition des pouls radiaux. Vous suspectez un hémo-pneumothorax compressif. Quelles actions mettez-vous en place ?",
+          "choix": [
+            "A) Position demi-assise",
+            "B) Oxygénation",
+            "C) Pansement 3 cotés",
+            "D) Valve d’Ascherman",
+            "E) Exsufflation à l’aiguille"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q3 – Quelles actions sont comprises dans le E de l’acronyme RYAN ?",
+          "choix": [
+            "A) Prévention de l’hypothermie",
+            "B) Mise en condition du patient",
+            "C) Antalgie",
+            "D) Passage du bilan",
+            "E) Préparation de l’évacuation"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Erreur de rédaction",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q4 – Vous avez la confirmation que les victimes n’ont pas été exposées directement à des substances radioactives. Parmi les propositions suivantes, lesquelles sont vraies :",
+          "choix": [
+            "A) Il s’agit d’un accident radiologique",
+            "B) Il s’agit d’un accident nucléaire",
+            "C) Ce patient est considéré comme contaminé",
+            "D) Ce patient est potentiellement contaminant",
+            "E) Ce patient est considéré comme irradié"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q5 – Concernant la chaine de secours et la décontamination en contexte NRC, quelles propositions sont vraies :",
+          "choix": [
+            "A) La décontamination d’urgence est réalisée à l’arrivée au poste médical avancé",
+            "B) Le poste médical avancé est situé à la sortie de la chaine de décontamination approfondie",
+            "C) La décontamination d’urgence est une décontamination sèche",
+            "D) La décontamination d’urgence est une décontamination humide",
+            "E) Les patients triés en extrême-urgence doivent être évacués du point de rassemblement des victimes vers l’hôpital, sans passer par la chaine de décontamination"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q6 – Un dénombrement par le système SINUS est mis en place. Quels sont les principaux objectifs du dénombrement ?",
+          "choix": [
+            "A) Coordination des opérations",
+            "B) Anticipation des moyens nécessaires",
+            "C) Traçabilité des soins",
+            "D) Identification judiciaire et médicolégale",
+            "E) Information des médias"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370243330-9cad879498d8f8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Lors des championnats du monde du pain au chocolat, un extrémiste toulousain hurle « Hasta la Chocolatine siempre ! » et fonce sur la foule avec une voiture bélier, avant de sortir et de tirer sur la foule.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q1 - Vous êtes le premier médecin SMUR sur place. Quel est votre rôle ?",
+          "choix": [
+            "A) Commencer le damage-control",
+            "B) Passer un bilan d’ambiance en régulation",
+            "C) Devenir Directeur des Secours Médicaux",
+            "D) Organiser les secours",
+            "E) Faire commencer le triage des victimes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Q2 - La préfecture déclenche un plan d’urgence pour l’organisation des secours en pré-hospitalier. Lequel ?",
+          "choix": [
+            "A) ORSEC NOVI",
+            "B) ORSEC AMAVI",
+            "C) ORSAN BIOTOX",
+            "D) ORSAN ALPHA",
+            "E) Plan zonal de mobilisation des moyens"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q3 - Vous commencez le triage en utilisant le START-ABC. Quelles sont les catégories existantes dans cette échelle ?",
+          "choix": [
+            "A) T1 – Priorité chirurgicale",
+            "B) Invalide différé – Geste de Secours secondaire",
+            "C) Extrême urgence – Evacuation immédiate",
+            "D) P3 – Valide, traitement différable",
+            "E) Décédé – Pas de prise en charge immédiate"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q4 - Parmi les patients suivants, lequel/lesquels sont triés invalides prioritaires ?",
+          "choix": [
+            "A) Homme 53 ans, plaie abdominale hémorragique, ne marche pas, Glasgow 13, FC 132, FR 28",
+            "B) Femme 27 ans, traumatisme cranien avec plaie de scalp hémorragique, Glasgow 5, FC 103, FR 18",
+            "C) Homme 42 ans, entorse de cheville droite, ne marche pas, conscient, FC 105, FR 22",
+            "D) Femme 93 ans, douleur thoracique constrictive et dyspnée d’effort brutale, ne marche pas, FC 45, FR 19",
+            "E) Enfant 5 ans, amputation transmétacarpienne gauche non hémorragique, marche, conscient, FC 119, FR 29"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q5 - Parmi les patients suivants, lequel/lesquels sont triés invalides différés ?",
+          "choix": [
+            "A) Homme 53 ans, plaie abdominale hémorragique, ne marche pas, Glasgow 13, FC 132, FR 28",
+            "B) Homme 53 ans, plaie abdominale hémorragique, ne marche pas, Glasgow 13, FC 132, FR 28",
+            "C) Homme 42 ans, entorse de cheville droite, ne marche pas, conscient, FC 105, FR 22",
+            "D) Femme 93 ans, douleur thoracique constrictive et dyspnée d’effort brutale, ne marche pas, FC 45, FR 19",
+            "E) Enfant 5 ans, amputation transmétacarpienne gauche non hémorragique, marche, conscient, FC 119, FR 29"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q6 - Parmi les patients suivants, lequel/lesquels sont triés valides ?",
+          "choix": [
+            "A) Homme 53 ans, plaie abdominale hémorragique, ne marche pas, Glasgow 13, FC 132, FR 28",
+            "B) Femme 27 ans, traumatisme cranien avec plaie de scalp hémorragique, Glasgow 5, FC 103, FR 18",
+            "C) Homme 42 ans, entorse de cheville droite, ne marche pas, conscient, FC 105, FR 22",
+            "D) Femme 93 ans, douleur thoracique constrictive et dyspnée d’effort brutale, ne marche pas, FC 45, FR 19",
+            "E) Enfant 5 ans, amputation transmétacarpienne gauche non hémorragique, marche, conscient, FC 119, FR 29"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

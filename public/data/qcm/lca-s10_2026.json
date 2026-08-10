@@ -1,0 +1,316 @@
+{
+  "matiere": "Lecture critique d'article (LCA)",
+  "slug": "lca-s10",
+  "annee": 2026,
+  "title": "Lecture critique d'article (LCA) - 2026",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Répondez aux questions suivantes relatives à l'article : Opioid prescriptions are associated with hepatic encephalopathy in a national cohort of patients with compensated cirrhosis\nA Moon et al. Alimentary Pharmacology & Therapeutics. 2020\nOuvrir le fichier PDF dans un nouvel onglet",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, quelle est celle ou quelles sont celles qui justifient la réalisation de l’étude ?",
+          "choix": [
+            "A) L’encéphalopathie est une complication rare de la cirrhose",
+            "B) Les données de la littérature concernaient en particulier des sujets âgés",
+            "C) Les données de la littérature sont discordantes quant au risque d’encéphalopathie des opioïdes",
+            "D) Les études précédentes n’évaluaient pas l’effet de la durée de l’exposition aux opioïdes sur le risque d’encéphalopathie",
+            "E) Un mécanisme pharmacologique sous-jacent pourrait expliquer la survenue d’encéphalopathie hépatique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la contribution des auteurs, l’éthique et la réglementation de la recherche, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) Au moins un des auteurs a un conflit d’intérêt avec des laboratoires pharmaceutiques",
+            "B) La source de financement implique un laboratoire pharmaceutique",
+            "C) Le consentement des patients a été individuellement obtenu",
+            "D) Le projet de recherche a été approuvé par un comité d’éthique national",
+            "E) L’un des auteurs est employé d’un laboratoire commercialisant un opioïde aux Etats-Unis"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la source de données mobilisée et la nature des données utilisées, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) La base IQVIA contient les codes diagnostics des maladies",
+            "B) La base IQVIA contient les données de remboursement des prescriptions de médicaments",
+            "C) La base IQVIA contient les données du registre du cirrhose",
+            "D) La base IQVIA est une organisation publique de gestion des remboursements de soins de santé",
+            "E) La base IQVIA est représentative des données de consommation de santé aux Etats-Unis"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est (sont) le(s) critère(s) d’éligibilité à l’inclusion dans l’étude ?",
+          "choix": [
+            "A) Avoir au moins 2 codes diagnostic de cirrhose",
+            "B) Avoir plus de 65 ans",
+            "C) Avoir une cirrhose d’origine virale",
+            "D) Avoir un antécédent de décompensation de cirrhose",
+            "E) Être bénéficiaire de l’assurance maladie concernée depuis au moins 12 mois avant le diagnostic de cirrhose"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le schéma d’étude et les analyses statistiques, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) L’analyse statistique prenait en compte les patients pouvant avoir eu une exposition antérieure aux opioïdes",
+            "B) Le groupe de référence concernait les patients avec une exposition de 1 à 89 jours aux opioïdes",
+            "C) Le schéma d’étude est de type cas-témoin",
+            "D) Les encéphalopathies hépatiques survenues 2 ans après la 1ère prescription d’opioïdes n’ont pas été prises en compte dans l’analyse",
+            "E) L’une des analyses prenait en compte l’usage concomitant de benzodiazépines"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la définition du critère de jugement principal et de l’exposition, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) La définition du critère de jugement prenait en compte des médicaments traceurs de la prise en charge de l’encéphalopathie hépatique",
+            "B) Les évènements de type encéphalopathie hépatique identifiés dans les 6 premiers mois après le diagnostic de cirrhose ont été pris en compte",
+            "C) L’exposition médicamenteuse a été catégorisée en fonction de la durée d’exposition",
+            "D) Les groupes d’exposition ont été définis sur une période 6 mois",
+            "E) Les groupes d’exposition étaient pris en compte en tant que variable binaire dans l’analyse statistique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les analyses statistiques, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) Le début du suivi (T0) est à la date du 1er diagnostic de cirrhose",
+            "B) Le début de la période d’observation est décalé d’une période de 6 mois (période landmark)",
+            "C) Les auteurs ont planifié de faire varier la période landmark (à 3 et 9 mois)",
+            "D) Les auteurs ont utilisé l’exposition aux anti-dépresseurs tricycliques comme contrôle positif sans information sur l’indication réelle de ces traitements",
+            "E) Les analyses ont été ajustées sur un score de propension"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les analyses de sensibilité ou complémentaires, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) Les analyses de sensibilité permettent de préjuger de la robustesse du résultat principal vis-à-vis de choix arbitraires pris dans cette analyse (ex. jalon ou période landmark fixé à 6 mois)",
+            "B) Des contrôles positifs ont été utilisés pour s’assurer de l’identification réelle d’une augmentation de risque d’encéphalopathie hépatique avec certains médicaments (=statistiquement significative)",
+            "C) Des contrôles négatifs ont été utilisés pour s’assurer de l’absence d’identification réelle d’un risque d’encéphalopathie hépatique avec certains médicaments (= association non statistiquement significative)",
+            "D) Un score de propension intégrant diverses variables d’ajustement a été utilisé",
+            "E) L’une des analyses a restreint la population d’étude aux évènements survenus chez les patients non exposés aux opioïdes dans les 6 mois avant le diagnostic de cirrhose"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats du tableau 1, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) Il n’y avait pas de différence statistique sur la région d’origine des patients",
+            "B) Les patients exposés de façon chronique aux opioïdes étaient statiquement plus dépressifs que les autres",
+            "C) Les patients exposés de façon chronique aux opioïdes étaient statiquement plus exposés aux opioïdes avant le diagnostic de cirrhose que les autres",
+            "D) Les patients non exposés aux opioïdes étaient statiquement moins utilisateurs de benzodiazépines que les autres",
+            "E) Quel que soit le groupe d’exposition aux opioïdes, les patients avaient un âge médian similaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats de cette étude, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) La durée médiane d’exposition aux opioïdes dans le groupe « short-term » était inférieur à 7 jours",
+            "B) Sur la figure 3, les taux d’incidence cumulée selon les groupes d’exposition sont superposables",
+            "C) Le taux d’incidence d’encéphalopathie hépatique est rapporté pour 1000 patients-années",
+            "D) Moins de 10 cas d’encéphalopathie hépatique ont été identifiés, tous groupes d’exposition confondus",
+            "E) On observe un déséquilibre des effectifs en fonction de l’utilisation ou non d’opioïdes"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats du tableau 2, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) Dans l’analyse concernant les patients exposés par ailleurs aux benzodiazépines, le risque d’encéphalopathie hépatique chez les patients exposés « short-term » aux opioïdes est statistiquement supérieur au risque observé dans l’analyse principale",
+            "B) L’utilisation concomitante de gabapentine n’augmente pas de façon significative le risque d’encéphalopathie hépatique chez les patients exposés de façon chronique aux opioïdes par rapport au risque observé dans l’analyse principale",
+            "C) L’exposition aux statines entraine une augmentation statistiquement significative du risque d’encéphalopathie hépatique",
+            "D) Dans l’analyse principale, il n’y a pas d’augmentation statistiquement significative du risque d’encéphalopathie hépatique chez les patients exposés « short-term » aux opioïdes comparativement aux patients non exposés",
+            "E) Dans l’analyse principale, on observe une augmentation de 83% du risque d’encéphalopathie hépatique chez les patients exposés de façon chronique aux opioïdes comparativement aux patients non exposés"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les éléments qui pourraient faire douter de la véracité de l’association entre opioïdes et encéphalopathie hépatique, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) Le nombre important d’évènements observés",
+            "B) Les mécanismes physiopathologiques potentiels ne sont pas exposés",
+            "C) Un potentiel biais d’indication entre les groupes de traitements",
+            "D) Une incohérence des analyses statistiques avec contrôle négatif / positif",
+            "E) Une confusion résiduelle ne peut être écartée"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le message relatif au risque d’encéphalopathie hépatique sous opioïdes, quelle est ou quelles sont les affirmations exacte(s) ?",
+          "choix": [
+            "A) Le résultat des analyses utilisant des contrôles positifs (ex. benzodiazépine, gabapentine…) permet d’être réassurant sur la capacité à détecter une augmentation de risque liée aux opioïdes",
+            "B) La surveillance des patients doit être renforcée pour détecter précocement une encéphalopathie hépatique",
+            "C) Le risque concerne une population de patients à cirrhose compensée",
+            "D) Le risque existe, que les patients soient exposés de façon short term ou chronique",
+            "E) Le risque semble influencé par la sévérité de la cirrhose sous-jacente"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, quelle est ou quelles sont les forces de l’étude ?",
+          "choix": [
+            "A) La réitération des analyses dans un autre pays",
+            "B) La réalisation d’analyses de « vérification » d’association (avec exposition positive) ou d’absence d’association (avec exposition négative), sous l’hypothèse que la structure de confusion est superposable entre ces expositions et celle aux opioïdes",
+            "C) La comparaison de deux stratégies thérapeutiques de prise en charge de la douleur (short-term et chronique) entre elles",
+            "D) Un enregistrement prospectif des évènements d’intérêt dans la base de données",
+            "E) Un faible nombre d’évènements d’intérêt identifié"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, quelle est ou quelles sont les limites de l’étude ?",
+          "choix": [
+            "A) La comparaison versus un groupe de patients ne recevant pas d’opioïdes",
+            "B) L’approche méthodologique ne permet pas d’évaluer la causalité de l’association",
+            "C) La source de données utilisée ne permet pas d’identifier précisément le stade de cirrhose",
+            "D) Un biais de classement peut exister sur les évènements (confusion sous opioïdes non codée comme une encéphalopathie hépatique)",
+            "E) Une période arbitraire d’exposition fixée à 6 mois"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

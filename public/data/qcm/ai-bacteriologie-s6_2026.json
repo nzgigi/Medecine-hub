@@ -1,0 +1,698 @@
+{
+  "matiere": "Agents infectieux – Bactériologie",
+  "slug": "ai-bacteriologie-s6",
+  "annee": 2026,
+  "title": "Agents infectieux – Bactériologie - 2026",
+  "total_questions": 35,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la principale différence entre la transformation et la transduction ?",
+          "choix": [
+            "A) La transformation implique l’absorption d’ADN libre, tandis que la transduction utilise un bactériophage comme vecteur.",
+            "B) La transformation nécessite un contact cellulaire direct, contrairement à la transduction.",
+            "C) La transformation et la transduction sont deux noms pour le même processus.",
+            "D) La transformation ne concerne que les bactéries Gram+, tandis que la transduction ne concerne que les bactéries Gram-."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la principale différence entre les parois des bactéries Gram+ et Gram– ?",
+          "choix": [
+            "A) Les Gram+ ont une membrane externe, les Gram– non",
+            "B) Les Gram+ ont une couche épaisse de peptidoglycane, les Gram– une couche fine et une membrane externe",
+            "C) Les Gram– ont une capsule, les Gram+ non",
+            "D) Les Gram+ ont des lipopolysaccharides (LPS), les Gram– non"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces propositions concernant le microbiote humain, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) le microbiote permet le développement et l'éducation du système immunitaire",
+            "B) les bactéries majoritaires du microbiote intestinal sont aéro-anaérobies facultatives",
+            "C) la majorité des espèces bactériennes qu’héberge chaque individu adulte dans son côlon lui sont spécifiques",
+            "D) l’alimentation, la prise d’antibiotiques et l’hygiène jouent un rôle majeur dans la composition du microbiote",
+            "E) la prise de laitage et en particulier de yaourts fortifie le microbiote intestinal"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes concernant les infections nosocomiales ?",
+          "choix": [
+            "A) L’antibioprophylaxie permet de diminuer le nombre d’infections nosocomiales",
+            "B) La chirurgie robotisée permet dans tous les cas de diminuer le nombre d’infections nosocomiales",
+            "C) Le respect des précautions d’hygiène standards permet de diminuer le nombre d’infections nosocomiales",
+            "D) Le maintien d’un cathéter périphérique n’a pas d’effet sur le risque d’infection nosocomiale",
+            "E) Des vaccins sont en cours de développement pour diminuer le nombre d’infections nosocomiales"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes concernant les infections nosocomiales ?",
+          "choix": [
+            "A) Le nombre d’infections nosocomiales est d’environ 750 000 par an en France",
+            "B) Le nombre d’infections nosocomiales est d’environ 75 000 par an en France",
+            "C) Le délai communément admis pour considérer une infection comme nosocomiale est de 48 heures après l’admission",
+            "D) Le délai communément admis pour considérer une infection comme nosocomiale est de 72 heures après l’admission",
+            "E) Une infection nosocomiale peut parfois apparaitre dans les mois suivant une intervention chirurgicale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes ? La résistance bactérienne :",
+          "choix": [
+            "A) apparaît plus ou moins rapidement selon les bactéries et les antibiotiques",
+            "B) peut reposer sur la modification des porines",
+            "C) est liée à des mutations chromosomiques exclusivement",
+            "D) peut être médiée par des enzymes inactivatrices qui détruisent les antibiotiques",
+            "E) n’implique toujours qu’un seul mécanisme de résistance à la fois"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes concernant l’évaluation de la sensibilité aux antibiotiques ?",
+          "choix": [
+            "A) Est toujours évaluée par détermination directe d’une valeur de CMI",
+            "B) La CMI est la plus petite concentration d’antibiotique permettant de tuer les bactéries",
+            "C) La liste des antibiotiques à tester est définie dans un référentiel",
+            "D) La technique de diffusion en milieu gélosée repose sur la mesure de diamètres d’inhibition",
+            "E) le rapport CMB/CMI permet de classer les antibiotiques bactéricides/bactériostatiques"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les antibiotiques suivants, lesquels sont actifs sur la synthèse du peptidoglycane ?",
+          "choix": [
+            "A) amoxicilline",
+            "B) érythromycine",
+            "C) amikacine",
+            "D) vancomycine",
+            "E) ciprofloxacine"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les familles d'antibiotiques suivantes, quelle(s) est/sont celle(s) actives sur les bactéries à développement intracellulaire ?",
+          "choix": [
+            "A) Fluoroquinolones",
+            "B) Céphalosporines",
+            "C) Macrolides",
+            "D) Glycopeptides",
+            "E) Tétracyclines"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les antibiotiques suivants, lequel(s) est/sont efficace(s) contre une souche de Staphylococcus aureus résistante à la méticilline ?",
+          "choix": [
+            "A) Amoxicilline",
+            "B) Amoxicilline + acide clavulanique",
+            "C) Vancomycine",
+            "D) Ceftriaxone",
+            "E) Méropénème"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la tuberculose, quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ?",
+          "choix": [
+            "A) Toutes les personnes infectées développent des signes cliniques",
+            "B) Lors du début de l'infection, la zone infectée est souvent circonscrite et s'arrête aux ganglions du hile pulmonaire",
+            "C) La tuberculose est très contagieuse par voie aérienne suite à un contact prolongé avec un malade",
+            "D) La tuberculose est uniquement une infection pulmonaire",
+            "E) La précarité, la vie en collectivité et la dénutrition sont des facteurs de risque de tuberculose"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant Mycobacterium tuberculosis et le diagnostic de la tuberculose, indiquez celle(s) qui est (sont) exacte(s) ?",
+          "choix": [
+            "A) C’est un bacille à Gram négatif",
+            "B) C’est un bacille acido-alcoolo-résistant (BAAR) à la coloration spécifique de Ziehl-Neelsen",
+            "C) Il faut habituellement 2 à 8 semaines pour obtenir une culture de la bactérie en milieux liquides ou gélosés spécifiques",
+            "D) Il faut multiplier les prélèvements respiratoires car l’excrétion de la bactérie est hétérogène au cours du temps : au moins un prélèvement par jour pendant 3 jours d’expectorations ou de tubages gastriques",
+            "E) Le diagnostic peut être réalisé par recherche d’anticorps spécifiques (sérologie)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la Borréliose de Lyme due à Borrelia burgdorferi, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) le risque de transmission de la bactérie à l’homme augmente avec la durée d'attachement de la tique",
+            "B) la morsure de tique passe rarement inaperçue car la morsure est douloureuse",
+            "C) les patients développent les formes cliniques des stades secondaires et tertiaires qu’en l’absence de traitement antibiotique bien conduit lors de de l’érythème migrant (phase primaire)",
+            "D) le diagnostic bactériologique est nécessaire à tous les stades cliniques",
+            "E) une sérologie positive signe une borréliose de Lyme active"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les espèces bactériennes suivantes responsables de zoonoses, laquelle est responsable de nombreuses formes cliniques, allant du syndrome grippal à l’atteinte multiviscérale (rénale, hépatique, méningée ou pulmonaire) et présente une répartition mondiale à dominante tropicale, avec survie aisée dans le milieu extérieur (eau douce, sols boueux), et comme principal réservoir les rongeurs (en particulier les rats) ?",
+          "choix": [
+            "A) Pasteurella multocida",
+            "B) Bartonella henselae",
+            "C) Leptospira interrogans",
+            "D) Francisella tularensis",
+            "E) Coxiella burnetii"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles recommandations faut-il donner à un patient pour un recueil urinaire optimal en vue d’un Examen CytoBactériologique des Urines (ECBU) ?",
+          "choix": [
+            "A) recueil du premier jet d’urine",
+            "B) recueil urinaire après stase de 4h",
+            "C) nettoyage avec antiseptique des organes génitaux externes",
+            "D) lavage des mains",
+            "E) miction dans pot stérile"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments sont à prendre en compte pour l’interprétation d’un Examen CytoBactériologique des Urines (ECBU) ?",
+          "choix": [
+            "A) nombre de bactérie(s) isolée(s)",
+            "B) identification du (des) bactéries(s) isolée(s)",
+            "C) quantification des hématies",
+            "D) quantification des leucocytes",
+            "E) quantification du (des) bactéries (s) isolée(s)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les bactéries fréquemment responsables d’infection urinaire communautaire parmi les suivantes ?",
+          "choix": [
+            "A) Enterococcus",
+            "B) Staphylococcus aureus",
+            "C) Lactobacillus",
+            "D) Acinetobacter baumannii",
+            "E) Les Entérobactéries comme Escherichia coli"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente se présente en consultation pour cervicite suite à des rapports sexuels non protégés. Quelle(s) bactérie(s) suspectez-vous ?",
+          "choix": [
+            "A) Neisseria gonorrhoeae",
+            "B) Escherichia coli",
+            "C) Gardnerella vaginalis",
+            "D) Chlamydia trachomatis",
+            "E) Treponema pallidum"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) mode(s) de dépistage d’infection sexuellement transmissible devez-vous réaliser chez une patiente de 25 ans ayant eu des rapports sexuels non protégés avec un nouveau partenaire 2 mois auparavant mais ne présentant pas de symptômes ?",
+          "choix": [
+            "A) Un prélèvement vaginal doit être réalisé pour rechercher Neisseria gonorrhoeae et Chlamydia trachomatis par culture",
+            "B) Un prélèvement vaginal doit être réalisé pour rechercher Neisseria gonorrhoeae et Chlamydia trachomatis par PCR",
+            "C) Un prélèvement sanguin doit être réalisé pour faire une sérologie Chlamydia trachomatis",
+            "D) Un prélèvement sanguin doit être réalisé pour faire une sérologie syphilis",
+            "E) Un prélèvement sanguin doit être réalisé pour rechercher Treponema pallidum par culture"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments permettant de porter, devant une leucorrhée, le diagnostic de vaginose bactérienne ?",
+          "choix": [
+            "A) Présence de polynucléaires à l'examen microscopique du prélèvement vaginal",
+            "B) Diminution du pH vaginal",
+            "C) Présence de cellules indicatrices à la coloration de Gram",
+            "D) Score de vaginose (Nugent) > 6",
+            "E) Absence de signes inflammatoires à l'examen vaginal"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient se présente en consultation pour une ulcération indolore au niveau du gland deux semaines après des rapports sexuels non protégés. Quelle(s) bactérie(s) suspectez-vous ?",
+          "choix": [
+            "A) Neisseria gonorrhoeae",
+            "B) Escherichia coli",
+            "C) Mycoplasma genitalium",
+            "D) Chlamydia trachomatis",
+            "E) Treponema pallidum"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ? La coqueluche est une infection :",
+          "choix": [
+            "A) respiratoire très contagieuse causée par la bactérie Bordetella pertussis",
+            "B) grave et potentiellement létale chez le nourrisson de <6 mois",
+            "C) dont la bactérie responsable a un réservoir environnemental",
+            "D) dont le diagnostic microbiologique est basé sur la sérologie",
+            "E) dont l’immunité naturelle et vaccinale est définitive"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mme D, 62 ans, est hospitalisée depuis 3 semaines dans le service de chirurgie traumatologie et a bénéficié de deux traitements antibiotiques par amoxicilline-acide clavulanique puis par ceftriaxone et ciprofloxacine pour une infection ostéoarticulaire de la jambe droite suite à un accident de la voie publique. Elle présente une diarrhée avec un peu de sang depuis 24h. Quelle bactérie est la plus probablement responsable de cette diarrhée ?",
+          "choix": [
+            "A) Campylobacter jejuni",
+            "B) Yersinia enterocolitica",
+            "C) Salmonella Typhimurium",
+            "D) Shigella sonnei",
+            "E) Clostridium difficile toxinogène"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant Clostridium difficile et ses infections, quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ?",
+          "choix": [
+            "A) Clostridium difficile est un bacille à Gram positif anaérobie",
+            "B) Clostridium difficile produit des spores résistantes aux antibiotiques et aux agents chimiques tels que l'alcool, comme tous les Clostridium",
+            "C) Toutes les souches de Clostridium difficile sont pathogènes et toxinogènes",
+            "D) Des précautions d'hygiène complémentaires de type contact sont nécessaires autour des patients hospitalisés infectés",
+            "E) Après prise en charge du patient, le lavage des mains doit se faire uniquement avec une solution hydroalcoolique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 24
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant Helicobacter pylori, quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ?",
+          "choix": [
+            "A) son réservoir est environnemental",
+            "B) chez l’homme, cette bactérie colonise exclusivement la muqueuse gastrique",
+            "C) la contamination se fait généralement pendant l’enfance, mais l’infection persiste toute la vie tant qu’il n’y a pas d’éradication",
+            "D) cette bactérie a un rôle majeur dans le développement de l'ulcère gastroduodénal",
+            "E) cette bactérie a un rôle dans la carcinogénèse de certains cancers de l’estomac"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ? Les Salmonelles mineures ?",
+          "choix": [
+            "A) sont des bactéries pathogènes opportunistes",
+            "B) sont des bacilles à Gram positif",
+            "C) sont principalement responsables de colites pseudomembraneuses",
+            "D) contaminent l’homme par ingestion d’eau de boisson ou d’aliments contaminés",
+            "E) leur réservoir est essentiellement animal"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 26
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de Listeria monocytogenes, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) c’est un cocci à Gram négatif",
+            "B) elle est naturellement résistante aux céphalosporines de 3ème génération",
+            "C) elle est responsable d’infections materno-foetales",
+            "D) elle est responsable de méningo-encéphalites chez les personnes âgées et les immunodéprimés",
+            "E) elle contamine les patients par voie digestive"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 27
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bactéries suivantes, quelle(s) est/sont celle(s) principalement responsables de méningites communautaires chez l’adulte ?",
+          "choix": [
+            "A) Neisseria meningitidis",
+            "B) Streptococcus pneumoniae",
+            "C) Escherichia coli",
+            "D) Staphylococcus aureus",
+            "E) Streptococcus agalactiae (groupe B)"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 28
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la/les réponse(s) exacte(s) à propos du pneumocoque ?",
+          "choix": [
+            "A) responsable de pneumopathies franches lobaires aiguës",
+            "B) responsable d’infections invasives à déclaration obligatoire",
+            "C) également appelé Mycoplasma pneumoniae",
+            "D) naturellement résistant aux céphalosporines de 3ème génération",
+            "E) un cocci à Gram positif en diplocoques ou courtes chaînettes"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 29
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les méningites, lesquelles sont le plus souvent évitables par les vaccinations obligatoires dès le plus jeune âge ?",
+          "choix": [
+            "A) méningite à méningocoque du groupe B",
+            "B) méningite à méningocoque du groupe C",
+            "C) méningite à Listeria monocytogenes",
+            "D) méningite à pneumocoque",
+            "E) méningite à Haemophilus influenzae type b"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 30
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des hémocultures, quelle(s) est (sont) la/les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Les hémocultures sont toujours monomicrobiennes",
+            "B) La positivité des hémocultures est décelée par la détection de la production de CO2 dans les automates dédiés",
+            "C) Il est recommandé de prélever une seule paire de flacons pour un épisode fébrile",
+            "D) Une hémoculture positive à Staphylococcus aureus est généralement considérée comme une contamination",
+            "E) Des hémocultures négatives permettent d’exclure une endocardite"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 31
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bactéries suivantes, lesquelles sont les deux principales impliquées dans les infections de la peau et des tissus mous ?",
+          "choix": [
+            "A) Streptococcus agalactiae",
+            "B) Staphylococcus epidermidis",
+            "C) Escherichia coli",
+            "D) Streptococcus pyogenes",
+            "E) Staphylococcus aureus"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 32
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bactéries suivantes, lesquelles font partie de la flore cutanée résidente stable ?",
+          "choix": [
+            "A) Staphylocoques à coagulase négative",
+            "B) Escherichia coli",
+            "C) Streptococcus pyogenes",
+            "D) Cutibacterium acnes",
+            "E) Corynebacterium diphteriae"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 33
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, quelle(s) est (sont) celle(s) qui concerne(nt) les angines bactériennes érythémateuses ou érythémato-pultacées ?",
+          "choix": [
+            "A) Elles sont plus fréquentes que les angines virales",
+            "B) Elles nécessitent systématiquement la culture d’un prélèvement des amygdales ou de la paroi postérieure du pharynx pour les différencier des angines virales",
+            "C) Elles sont essentiellement dues au Streptococcus pyogenes",
+            "D) Elles doivent être traitées par antibiothérapie afin de diminuer la transmission aérienne de la bactérie responsable",
+            "E) Elles sont traitées par amoxicilline en l’absence de contre-indication"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 34
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la légionellose, quel(s) est (sont) la (les) affirmation(s) exacte(s) ?",
+          "choix": [
+            "A) le diagnostic microbiologique repose sur la recherche d’antigène spécifique Legionella pneumophila sérogroupe 1 dans les urines",
+            "B) le diagnostic microbiologique repose sur la PCR spécifique Legionella dans les sécrétions respiratoires",
+            "C) le diagnostic microbiologique repose sur la culture à partir des sécrétions respiratoires",
+            "D) les patients se contaminent uniquement par l’intermédiaire d’aérosols d’eau chaude sanitaire contaminée",
+            "E) les facteurs de risques de légionellose sont notamment un âge supérieur à 50 ans, le tabac, un diabète, un cancer, ainsi que les thérapies par corticoïdes ou immunosuppresseurs"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 35
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

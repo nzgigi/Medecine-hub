@@ -1,0 +1,196 @@
+{
+  "matiere": "Anglais",
+  "slug": "anglais-s8",
+  "annee": 2026,
+  "title": "Anglais - 2026",
+  "total_questions": 9,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Introduction:\nOuvrir le fichier PDF dans un nouvel onglet",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q1 - Why is this study considered a robust one?",
+          "choix": [
+            "A) Statistics achieved more than 80% power.",
+            "B) This open-label trial will be appropriate for an early-stage trial to show safety and to explore within-subject changes due to treatment.",
+            "C) A multi-arm phase III trial can measure multiple treatments or dosages against the same control group.",
+            "D) This study enabled the accurate determination of the specific side effects of pembrolizumab.",
+            "E) It combines many sturdy criteria, being a phase III, 1:1, open-label, Active-Controlled Trial (ACT) with random allocation across 192 sites."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q2 - Do we have grounds to criticise this study?",
+          "choix": [
+            "A) The study was sponsored by a large pharmaceutical company.",
+            "B) A set of paid-by Merck employees designed the trial.",
+            "C) The duration of the study may not be long enough to appreciate patients’ outcomes.",
+            "D) High- and low-risk patients (risk assessment basis) were included.",
+            "E) Adverse Events (AEs) of more severe grades were more commonly reported in the treatment arm."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q3 - Which inclusion criterion/ criteria can be criticised?",
+          "choix": [
+            "A) Cancer had recently been diagnosed.",
+            "B) Cancer stage could be advanced.",
+            "C) All inclusion criteria are not detailed in this manuscript.",
+            "D) Cancer primary site was always the pharynx.",
+            "E) The number of participants was not even in all groups."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q4 - What specific limitation(s) should be highlighted?",
+          "choix": [
+            "A) The efficacy & safety of pembrolizumab administered at the different stages of therapy remain difficult to determine",
+            "B) Sample sizes were small in some subgroups, making the efficacy of perioperative pembrolizumab in the subgroup of participants with a CPS < 1 impossible to confirm.",
+            "C) The baseline characteristics of the global population were not comparable between the two groups.",
+            "D) The dose of radiation and the use of cisplatin were ultimately determined by the investigator according to their local guidelines",
+            "E) Randomised Clinical Trials (RCTs) have designers hide actual results from researchers"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q5 - Which of the following statement(s) is (are) true?",
+          "choix": [
+            "A) The monitoring period for Adverse Events (AEs) was longer in the pembrolizumab arm.",
+            "B) At publication time, follow-up was still ongoing, weakening inferences or potential generalisation results.",
+            "C) Median therapy was 3 times longer in the control group (9 months), while close to 3 months in the pembrolizumab group.",
+            "D) For the CPS-10 population, median event-free survival was close to 60 months in the pembrolizumab arm compared to almost 1/3 of that time in the control group.",
+            "E) 36 months was the initial cut-off date for reaching primary endpoints"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q6 - Select the correct statement(s) about figures in the following list.",
+          "choix": [
+            "A) The sample size was planned such that the CPS-10 population would provide the trial with approximately 94.9% power",
+            "B) After 66 months, participants in any (PD-L1 CPS ≥ 10 and PD-L1 CPS ≥ 1) active group fared better (alive & event free) than the control arm by at least 13 points each.",
+            "C) After 66 months, participants in any (PD-L1 CPS ≥ 10 and PD-L1 CPS ≥ 1) active group fared better (alive & event free) than the control arm by at least 13 points each.",
+            "D) Discontinuation due to AEs and SAEs occurred twice more in the active group than in the control group",
+            "E) Conventional treatment made of surgery plus radiotherapy - with & without cisplatin- ends up in relapse in 1/3 patients within 12 months & less than a third will still be event free after 5 years"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q7 - Select the data - only if detailed in the article.",
+          "choix": [
+            "A) The 2 cycles of neo-adjuvant pembrolizumab were injected 3 weeks apart, before initiating the 15 cycles of pembrolizumab.",
+            "B) The study cut-off date was in late summer 2024.",
+            "C) The study randomised patients for 58 months.",
+            "D) Follow-up lasted 7 years across 24 countries.",
+            "E) Patients were 79% male, with a smoking (71%) and/ or alcohol-use (69%) history."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q8 - Fill in the diagram (issued with the article) with 2 data (arrows 1 & 2):",
+          "choix": [
+            "A) 1- immunotherapy 3 cycles + radiotherapy +/ cisplatin 2 - radiotherapy +/- cisplatin",
+            "B) 1-Pembrolizumab 3 cycles + radiotherapy +/ chemotherapy 2 - Radiotherapy +/- chemotherapy",
+            "C) 1 - Pembrolizumab 3 cycles 2 - radiotherapy",
+            "D) 1 - pembrozilumab 3 cycles + radiotherapy 2 - Low-Dose RadioTherapy",
+            "E) 1 - pembrozilumab 2 cycles + radiotherapy 2 - standard radiotherapy"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/anglais-s8/2026/q8.webp?v=1786395428348"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Q9 - (language command question) At the beginning of the “Results” section (page 40), we read: “Less than 5% of all the participants had a CPS of less than 1.” The underlined word (\"less\"), from a grammar perspective, would advantageously be replaced by…",
+          "choix": [
+            "A) Fewer",
+            "B) More",
+            "C) Both",
+            "D) The least",
+            "E) None of these options, as“less” is the only grammatical possibility."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

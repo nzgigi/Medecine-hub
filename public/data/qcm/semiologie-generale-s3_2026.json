@@ -1,0 +1,425 @@
+{
+  "matiere": "Sémiologie générale",
+  "slug": "semiologie-generale-s3",
+  "annee": 2026,
+  "title": "Sémiologie générale - 2026",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez aux urgences un homme de 50 ans en raison d’un amaigrissement de 10 kg en 6 mois (il est passé de 74 à 64 kg pour 1m74). Vous menez l’interrogatoire pour essayer de déterminer l’origine de ses symptômes.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les signes suivants à rechercher chez ce patient, lesquels sont des signes généraux ?",
+          "choix": [
+            "A) Perte d’appétit",
+            "B) Fièvre",
+            "C) Tristesse de l’humeur",
+            "D) Anxiété",
+            "E) Palpitations"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il décrit des selles plus fréquentes que lorsqu’il était en bonne santé. Vous cherchez à savoir s’il a des douleurs d’origine digestive. Vous retiendrez l’existence de douleurs d’origine digestive si vous constatez (plusieurs réponses justes):",
+          "choix": [
+            "A) Des douleurs permanentes dans la région lombaire",
+            "B) Une douleur à type de torsion le long du cadre colique",
+            "C) Une douleur déclenchée par l’alimentation",
+            "D) Une douleur sus-pubienne déclenchée par la palpation ou la percussion",
+            "E) Un point de côté basi-thoracique augmentant à l’inspiration et irradiant à l’épaule gauche"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez examiné le patient et constatez l’existence d’une masse palpable et indolore du creux épigastrique. Vous envisagez en priorité (une seule bonne réponse) :",
+          "choix": [
+            "A) Un cancer hépatique",
+            "B) Un cancer colique",
+            "C) Un cancer pancréatique",
+            "D) Une appendicite aigue",
+            "E) Un cancer gastrique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient a été hospitalisé et la décision a été prise de le nourrir en mettant en place des perfusions intraveineuse. Alors que vous attendez un examen d’imagerie, il présente brutalement des frissons à claquer des dents. Ceci vous fait évoquer prioritairement :",
+          "choix": [
+            "A) Une bactériémie",
+            "B) Le début d’une pneumopathie à pneumocoque",
+            "C) Une fièvre d’origine médicamenteuse",
+            "D) Un début de grippe",
+            "E) Une infection du cathéter de perfusion"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Son état clinique s’altère rapidement, en quelques heures s’installe un choc septique. Celui-ci se caractérise par :",
+          "choix": [
+            "A) Une hypotension réfractaire au remplissage vasculaire",
+            "B) Une bradycardie",
+            "C) Des poussées hypertensives incontrôlables",
+            "D) Une oligo-anurie",
+            "E) Une acidose métabolique"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396374514-37034fc2bb8f",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une fièvre à 40° d’installation rapide avec des frissons intenses, « à claquer des dents », vous évoquez prioritairement (plusieurs réponses possibles):",
+          "choix": [
+            "A) Une rhinopharyngite virale car cela est fréquent",
+            "B) une bactériémie",
+            "C) une pyélonéphrite (infection haute des voies urinaires) en présence de pollakiurie et brûlures mictionnelles",
+            "D) une infection des voies biliaires en présence de douleurs du flanc droit",
+            "E) un infarctus myocardique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Des douleurs du membre inférieur peuvent faire évoquer",
+          "choix": [
+            "A) une sciatique S1 en cas de douleurs de la crête tibiale",
+            "B) une artériopathie oblitérante en cas de douleurs du mollet apparaissant à la marche",
+            "C) une souffrance de l’articulation coxo-fémorale en cas de douleurs ressenties dans le genou (douleur projetée)",
+            "D) une artériopathie oblitérante des membres inférieurs en cas de douleur apparaissant à la station debout, naissant dans la fesse irradiant à la face postérieure de la cuisse et de la jambe et se terminant sous le pied",
+            "E) une métastase osseuse devant une douleur permanente du tibia majorée lors de la mise en charge"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les réflexes achilléens peuvent se rechercher :",
+          "choix": [
+            "A) debout",
+            "B) en décubitus dorsal",
+            "C) à genoux sur une chaise",
+            "D) en décubitus latéral",
+            "E) assis sur la table d’examen, les pieds ballants"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes appelé en urgence pour prendre en charge un apiculteur de 40 ans qui vient d’être piqué par une guêpe. Sa famille vous informe qu'il se sait allergique aux venins d'hyménoptère. A votre arrivée vous trouvez un patient obnubilé avec une tension artérielle à 60/30 mmHg une fréquence cardiaque à 140 / mn une dyspnée inspiratoire avec tirage et un rash cutané. Quels sont les propositions vraies",
+          "choix": [
+            "A) Vous commencez par faire préciser au patient ses antécédents familiaux",
+            "B) Le pronostic vital immédiat de ce patient est en jeu",
+            "C) Ce patient présente des signes de gravité hémodynamique",
+            "D) le bruit auscultatoire associé à une dyspnée inspiratoire sont des sibilants",
+            "E) Ce patient présente un signe de gravité de l’appareil neurologique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’appareil urinaire, quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) l’incontinence urinaire correspond à l’émission de plus de 3 litres d’urine par 24h",
+            "B) une douleur sus-pubienne doit faire évoquer une rétention aigue d’urine",
+            "C) une matité sus-pubienne doit faire évoquer un globe vésical",
+            "D) un globe vésical s’accompagne toujours d’une anurie",
+            "E) une rétention chronique d’urine peut s’accompagner de mictions involontaires (dites « par regorgement »)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les diagnostics suivants, quels sont ceux qui peuvent expliquer un amaigrissement à appétit conservé :",
+          "choix": [
+            "A) une hyperthyroïdie",
+            "B) une diabète insulino-dépendant",
+            "C) un cancer polymétastatique",
+            "D) une téniase (ver solitaire",
+            "E) une maladie inflammatoire des muscles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dyspnée,",
+          "choix": [
+            "A) elle est expiratoire au cours de la crise d’asthme",
+            "B) elle est inspiratoire en cas d’œdème laryngé",
+            "C) une insuffisance cardiaque peut provoquer une dyspnée avec râles sibillants chez le sujet âgé",
+            "D) elle s’explique toujours par une maladie du cœur ou des poumons",
+            "E) au-delà d’une fréquence de 16 / minute, il s’agit d’un critère de gravité d’une infection"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une chute chez un sujet âgé que vous voyez pour la première fois, il faut toujours :",
+          "choix": [
+            "A) s’assurer qu’elle n’a pas perdu connaissance",
+            "B) prendre la tension couché",
+            "C) prendre la tension debout",
+            "D) faire un électrocardiogramme",
+            "E) faire un examen physique général"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez un patient qui est âgé de 60 ans, fatigué, fébrile à 38°2 et qui a perdu 5 kg sur le mois dernier. Vous découvrez\nson bilan biologique qui retrouve :\nHb 7 g/dl, VGM 72 µ3\nPlaquettes 500 000/mm3\nLeucocytes 12 000\nCRP à 70 mg/l\nFibrinogène à 5,2 g/l",
+          "choix": [
+            "A) ce patient présente une altération de l’état général",
+            "B) ce patient présente une anémie macrocytaire",
+            "C) vous suspectez chez ce monsieur une carence martiale",
+            "D) ce patient présente un syndrome inflammatoire biologique",
+            "E) ce patient présente une leucocytose"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "douleur thoracique : parmi les caractéristiques suivantes, lesquelles vous évoquent une origine pleurale (plusieurs réponses justes):",
+          "choix": [
+            "A) Douleur à type de point de côté",
+            "B) Douleur survenant exclusivement à l’effort",
+            "C) Une douleur augmentée par la respiration",
+            "D) Douleur exacerbée par la toux",
+            "E) Irradiation au flanc droit"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affections suivantes, lesquelles peuvent être responsables de douleur thoracique basi-thoracique latérale droite :",
+          "choix": [
+            "A) Une occlusion digestive",
+            "B) Un cancer bronchique",
+            "C) Une métastase osseuse",
+            "D) Une fracture de côte",
+            "E) Un cancer pleural"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une douleur ressentie à l’épaule gauche peut correspondre à :",
+          "choix": [
+            "A) Une inflammation de l’articulation de l’épaule",
+            "B) Une crise d’angor",
+            "C) Une pathologie de la tête du pancréas",
+            "D) Une pathologie de la rate",
+            "E) Un cancer de la base du poumon gauche"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments font suspecter un syndrome glomérulaire (glomérulonéphrite)?",
+          "choix": [
+            "A) Douleur lombaire",
+            "B) Leucocyturie isolée",
+            "C) Protéinurie abondante",
+            "D) Hématurie microscopique",
+            "E) Glycosurie"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les douleurs, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) une douleur à type de de colique désigne une douleur d'origine colique",
+            "B) une douleur de viscère plein a un caractère positionnel",
+            "C) la douleur neuropathique peut se traduire par une allodynie",
+            "D) la douleur neuropathique peut se traduire par des paresthésies",
+            "E) la douleur neuropathique est généralement sensible au paracétamol"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les pathologies suivantes, lesquelles sont à l'origine d'oedèmes généralisés?",
+          "choix": [
+            "A) insuffisance rénale au stade de dialyse",
+            "B) syndrome néphrotique",
+            "C) cirrhose hépatique",
+            "D) phlébite du mollet sans embolie pulmonaire",
+            "E) insuffisance cardiaque gauche"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

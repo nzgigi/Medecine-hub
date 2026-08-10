@@ -1,0 +1,375 @@
+{
+  "matiere": "Tissu sanguin – Hématologie",
+  "slug": "ts-hematologie-s6",
+  "annee": 2026,
+  "title": "Tissu sanguin – Hématologie - 2026",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "M. Simon, âgé de 32 ans, est suivi pour une Hémophilie A mineure (taux de Facteur VIII à 15 %). Suite à un accident de ski, il présente une fracture du tibia plâtrée. À J5 de l'immobilisation, il consulte pour une douleur intense et un gonflement du mollet gauche.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Lors de son admission pour la fracture, son bilan d'hémostase de base montrait un allongement isolé du TCA (Temps de Céphaline Activée) avec un TP (Taux de Prothrombine) normal, et sa NFS (numération formule sanguine) montrait une numération plaquettaire normale. Comment interprétez-vous ce profil biologique ?",
+          "choix": [
+            "A) Ce bilan traduit un déficit sévère en Vitamine K.",
+            "B) Ce bilan est en accord avec une anomalie de l'hémostase primaire.",
+            "C) Ce bilan traduit une anomalie de la voie intrinsèque de la coagulation.",
+            "D) Ce profil est typique d'une insuffisance hépatocellulaire débutante.",
+            "E) Le TP est normal car le Facteur VIII intervient uniquement dans l'interaction avec le facteur tissulaire."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "On suspecte une Thrombose Veineuse Profonde (TVP) avec une probabilité clinique jugée \"faible\" selon le score de Wells. Quel examen biologique est le plus approprié pour exclure le diagnostic sans recourir immédiatement à l'imagerie ?",
+          "choix": [
+            "A) Le dosage du fibrinogène.",
+            "B) Le dosage de l'activité anti-Xa.",
+            "C) Le dosage des produits de dégradation de la fibrine.",
+            "D) Le dosage des D-dimères (valeur prédictive négative > 95 %).",
+            "E) Une nouvelle mesure du TCA pour voir s'il s'est raccourci."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de TVP est confirmé. Compte tenu de son hémophilie (risque de saignement), vous choisissez de débuter un traitement par Héparine Non Fractionnée (HNF) par voie intraveineuse plutôt qu'une HBPM. Quel est(sont) le(s) principal(aux) avantage(s) de l'HNF dans ce contexte de risque hémorragique ?",
+          "choix": [
+            "A) Elle ne nécessite aucune surveillance biologique.",
+            "B) Elle est administrée par voie orale, ce qui est plus confortable.",
+            "C) Elle n'entraîne jamais de baisse des plaquettes.",
+            "D) Son effet est immédiatement réversible par un antidote spécifique : le Sulfate de Protamine.",
+            "E) En cas, d'insuffisance rénale, elle fait partie des rares anticoagulants à pouvoir être prescrits."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À J8 du traitement, ses plaquettes chutent brutalement de 250 G/L à 90 G/L. Vous suspectez une Thrombopénie Induite par l'Héparine (TIH) de type 2. Quelle est la conduite à tenir immédiate ?",
+          "choix": [
+            "A) Transfuser des plaquettes en urgence.",
+            "B) Augmenter la dose d'héparine pour dissoudre le caillot.",
+            "C) Passer simplement de l'HNF au Fondaparinux.",
+            "D) Attendre 48h pour confirmer la baisse sur un second prélèvement.",
+            "E) Arrêter immédiatement toute forme d'héparine."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Après résolution de l'épisode aigu, un relais par AVK (Warfarine/Coumadine®) est instauré. Quel paramètre biologique est utilisé pour ajuster la dose et surveiller l'efficacité du traitement ?",
+          "choix": [
+            "A) Le TCA ratio.",
+            "B) L'INR (International Normalized Ratio), avec une cible entre 2,0 et 3,0.",
+            "C) Le taux de prothrombine (TP) exprimé en secondes.",
+            "D) L'activité anti-Xa.",
+            "E) Le dosage pondéral du fibrinogène."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors d'un contrôle, M. Simon présente un INR à 5,2. Il ne présente aucun saignement. Selon les recommandations (pour une cible d'INR à 2,5), quelle(s) est (sont) la(les) mesure(s) correctrice(s) ?",
+          "choix": [
+            "A) Saut d'une prise d'AVK sans apport de Vitamine K, puis reprise à dose réduite.",
+            "B) Hospitalisation systématique en réanimation.",
+            "C) Administration immédiate de concentrés de complexe prothrombinique (PPSB).",
+            "D) Injection intraveineuse de 10 mg de Vitamine K.",
+            "E) Relayer par AOD dès que l'INR le permettra."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396549579-7651c6612ab91",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Monsieur L., 72 ans, réalise un bilan biologique systématique avant une chirurgie de la cataracte. Il est totalement asymptomatique.\nL'hémogramme montre : Hémoglobine 14,2 g/dL, Plaquettes 210 G/L, Leucocytes 18 G/L, Lymphocytes 12 G/L, PNN 4,5 G/L.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment interprétez-vous cette anomalie de la lignée blanche ?",
+          "choix": [
+            "A) Il s'agit d'une hyperlymphocytose car les lymphocytes sont > 4 G/L.",
+            "B) C'est une réaction normale liée à l'âge du patient.",
+            "C) L'anomalie est ici isolée au vu des autres paramètres de l'hémogramme.",
+            "D) Une hyperleucocytose est présente car les leucocytes sont > 10 G/L.",
+            "E) Il s'agit d'une lymphopénie modérée."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les 2 examens biologiques fondamentaux devant cette anomalie de l’hémogramme ?",
+          "choix": [
+            "A) Sérologies",
+            "B) Cytologie (morphologie des cellules)",
+            "C) Bilan d’hémostase",
+            "D) Immunofixation",
+            "E) Immunophénotypage par cytométrie en flux"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que recherchez-vous sur le frottis sanguin ?",
+          "choix": [
+            "A) La présence de blastes (cellules immatures).",
+            "B) Le caractère polymorphe de l'hyperlymphocytose.",
+            "C) Le caractère monomorphe de l'hyperlymphocytose.",
+            "D) La présence de rouleaux d’hématies.",
+            "E) Une myélémie associée."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’examen microscopique met en évidence des lymphocytes d’aspect matures et monomorphes, évocateur d’une leucémie lymphoïde chronique (LLC). Quel examen est indispensable pour confirmer le diagnostic de Leucémie Lymphoïde Chronique ?",
+          "choix": [
+            "A) Une ponction lombaire.",
+            "B) Un immunophénotypage des lymphocytes par cytométrie en flux.",
+            "C) Un myélogramme systématique.",
+            "D) Une biopsie ganglionnaire d'emblée.",
+            "E) Une sérologie EBV."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des hyperlymphocytoses, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Chez l'enfant, le taux de lymphocytes est physiologiquement plus élevé que chez l'adulte.",
+            "B) Une hyperlymphocytose peut être le reflet d'une pathologie maligne.",
+            "C) Une hyperlymphocytose peut être le reflet d'une pathologie d'une réaction bénigne (infectieuse).",
+            "D) Un myélogramme doit être prescrit devant toute hyperlymphocytose.",
+            "E) Une hyperlymphocytose isolée et modérée est une urgence thérapeutique immédiate."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les causes d'hyperlymphocytose, quelles affirmations sont vraies ?",
+          "choix": [
+            "A) Le syndrome mononucléosique se caractérise par la présence de grands lymphocytes hyperbasophiles polymorphes.",
+            "B) La leucémie lymphoïde chronique (LLC) est la cause la plus fréquente d'hyperlymphocytose chez l’enfant.",
+            "C) Une infection par Bordetella pertussis (coqueluche) peut entraîner une hyperlymphocytose de type mature.",
+            "D) Une hyperlymphocytose réactionnelle à une infection virale (type MNI) est le plus souvent monomorphe.",
+            "E) Les hyperlymphocytoses d’origine infectieuse sont chroniques."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396554189-f7bd2c1c49a118",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Mme J., 22 ans, vient en consultation pour fatigue depuis 1 mois associée à un essoufflement. Elle ne présente pas d’antécédent particulier. Elle est actuellement sous pilule oestro-progestative depuis 5 ans.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) autre(s) signe(s) clinique(s) est (sont) à rechercher devant ce tableau clinique?",
+          "choix": [
+            "A) Pâleur cutanéo-muqueuse",
+            "B) Eruption papuleuse",
+            "C) Tachycardie",
+            "D) Bradycardie",
+            "E) Saignement extériorisé"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous mettez en évidence une pâleur cutanéo-muqueuse, une tachycardie à 120 bpm. Quel est l'examen à prescrire en 1er lieu dans ce contexte?",
+          "choix": [
+            "A) Une protéinurie des 24h",
+            "B) Une Numération Formule Sanguine",
+            "C) Un antibiogramme",
+            "D) Un électrocardiogramme",
+            "E) Un scanner thoracique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les résultats de la Numération Formule Sanguine montrent\nGlobules Rouges : 3.1 T/L\nHématocrite : 30%\nHémoglobine : 9g/dL\nVGM : 70fL\nCCMH : 27g/dL\nTCMH : 25 pg/GR\nPlaquettes : 420 G/L\nLeucocytes : 5G/L\nFormule normale sans anomalies\nQuelles est (sont) la (les) proposition(s) vraie(s)?",
+          "choix": [
+            "A) Le taux d'hémoglobine signe une anémie",
+            "B) Le VGM est augmenté et traduit une macrocytose",
+            "C) Le bilan évoque une polyglobulie microcytaire",
+            "D) Le bilan évoque une anémie microcytaire hypochrome",
+            "E) Le bilan évoque une anémie normocytaire régénérative"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique met en évidence une anémie microcytaire hypochrome, quelle(s) est (sont) l' (les) hypothèse(s) diagnostiques?",
+          "choix": [
+            "A) Anémie par carence en fer",
+            "B) Anémie par carence en vitamine B12",
+            "C) Anémie inflammatoire",
+            "D) Anémie par envahissement médullaire",
+            "E) Drépanocytose"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant ces hypothèses diagnostiques vous prescrivez un bilan biochimique qui met en évidence :\nFerritine : 6 ng/mL (Valeurs normales : 20-400ng/mL)\nCRP : < 5mg/L\nQuel est votre diagnostic?",
+          "choix": [
+            "A) Lupus érythémateux disséminé",
+            "B) Carence martiale",
+            "C) Infection fongique à Cryptococcus",
+            "D) Carence en folates",
+            "E) Thalassémie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant une anémie microcytaire associée à une carence martiale, quelle est la cause la plus probable chez cette patiente jeune?",
+          "choix": [
+            "A) Intoxication alcoolique",
+            "B) Saignement gynécologique",
+            "C) Leucémie aiguë",
+            "D) Infection chronique",
+            "E) Insuffisance cardiaque"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

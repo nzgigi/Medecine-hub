@@ -1,0 +1,509 @@
+{
+  "matiere": "Gastro-entérologie",
+  "slug": "gastroenterologie-s7",
+  "annee": 2026,
+  "title": "Gastro-entérologie - 2026",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "Vous aurez à cocher ou à écrire \"la ou les réponses exactes\"",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les paramètres biologiques pouvant rentrer dans le cadre du diagnostic d’hémochromatose primitive ?",
+          "choix": [
+            "A) Ferritinémie élevée",
+            "B) Coefficient de saturation de la transferrine < 45%",
+            "C) Mutation hétérozygote du gène HFE de type H63D",
+            "D) Coefficient de saturation de la transferrine > 45%",
+            "E) Mutation homozygote du gène HFE de type C282Y"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du syndrome d’angiocholite, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Le syndrome associe successivement dans le temps : fièvre, douleur puis ictère",
+            "B) Le syndrome associe successivement dans le temps : douleur, puis fièvre puis ictère",
+            "C) Le syndrome associe successivement dans le temps : ictère, puis douleur puis Fièvre",
+            "D) Peut-être dû à un calcul de la voie biliaire principale",
+            "E) Peut-être dû à un calcul du canal cystique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’Ulcère Duodénal, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) un des facteurs de risque est l’infection à hélicobacter pylori",
+            "B) un des facteurs de risque est la prise d’anti-inflammatoires non stéroïdiens",
+            "C) le risque de dégénérescence est de 10% à 5 ans",
+            "D) Se manifeste typiquement par une crampe épigastrique avec « faim douloureuse \"",
+            "E) le traitement repose sur la prise d’inhibiteurs de la pompe à proton associée ou non à un traitement éradicateur de l’hélicobacter pylori"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affections suivantes lesquelles sont responsables d’un ictère cholestatique ?",
+          "choix": [
+            "A) Pancréatite chronique calcifiante alcoolique",
+            "B) Maladie de Gilbert",
+            "C) Cancer de la queue du pancréas",
+            "D) Tumeur de l’ampoule de Vater",
+            "E) lithiase du cholédoque"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quels sont les deux histologies principales du cancer de l’œsophage ?",
+          "choix": [],
+          "reponses": [
+            "Carcinome épidermoïde"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quels sont les deux causes principales d’une pancréatite aiguë ?",
+          "choix": [],
+          "reponses": [
+            "Lithiase biliaire"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "vous êtes amené à examiner deux membres d’une famille qui présentent une diarrhée aiguë après avoir mangé tous les deux au même restaurant. Vous suspectez une diarrhée aiguë d’origine bactérienne et plus précisément à Staphylocoque doré. Quel sera le délai entre le repas contaminant et le début des symptômes ?",
+          "choix": [
+            "A) 1 semaine",
+            "B) 3 jours",
+            "C) 48 heures",
+            "D) 24 heures",
+            "E) 4 heures"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les caractéristiques suivantes laquelle ne s’applique pas à la rectocolite hémorragique (RCH) ?",
+          "choix": [
+            "A) Atteinte exclusive du rectum et du côlon",
+            "B) Symptômes avec rectorragies",
+            "C) Présence de fistules ano-périnéales",
+            "D) Lésions anatomiques continues sans intervalle de muqueuse saine",
+            "E) Peut s’associer à une érythème noueux en cas de poussée"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les éléments ci-dessous, lesquels font partie du tableau clinique, biologique et anatomopathologique de la maladie cœliaque chez l’adulte ? (4 réponses exactes)",
+          "choix": [
+            "A) Se caractérise par une diarrhée chronique avec syndrome de malabsorption",
+            "B) Positivité des anticorps anti-transglutaminase de type IgG",
+            "C) Atrophie totale ou sub-totale de la muqueuse duodénale à la biopsie",
+            "D) Peut s’associer à une ostéoporose",
+            "E) Peut s’associer à une thyroïdite auto-immune"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos des complications du reflux gastro-œsophagien (2 réponses exactes)",
+          "choix": [
+            "A) œsophagite peptique",
+            "B) Cardiospasme",
+            "C) Diverticule de Zenker",
+            "D) Endobrachyoesophage",
+            "E) Oesophagite mycotique"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395706150-047c091906c89",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Monsieur B, 58 ans, est admis aux urgences pour un vomissement de sang rouge de moyenne abondance. De plus, il rapporte une asthénie et des « yeux jaunes » depuis 15 jours, qui l’ont amené à baisser sa consommation d’alcool. En effet, il avoue une consommation d’alcool quotidienne de l’ordre de 4 à 5 verres de vin par repas et un à deux apéritifs depuis plus de 20 ans. Ses autres antécédents sont : tabagisme actif 25 paquet-année, diabète de type 2, HTA, insuffisance coronarienne (mise en place de 2 stents coronaires). Son traitement actuel comprend : de la Metformine, de l’Amlodipine, du Bisoprolol et de l’Aspégic 75 mg.\nA l’arrivée aux urgences, les paramètres vitaux sont les suivants : TA 100/60 mmHg, fréquence cardiaque à 90 bpm. A l’examen clinique, on note une érythrose palmaire, des angiomes stellaires du tronc et du visage, des œdèmes des membres inférieurs, un ictère cutanéo-muqueux, une circulation veineuse collatérale abdominale au niveau des flancs et une ascite de moyenne abondance (abdomen tendu avec matité des flancs à la percussion). L’auscultation cardiaque est régulière, sans souffle. L’auscultation pulmonaire est normale. Le bilan biologique est le suivant : hémoglobine 8 g/dL, créatinine 45 µmol/L, urée 25 mmol/L, ASAT 158 UI/L, ALAT 80 UI/L, bilirubine totale 120 µmol/l, bilirubine conjuguée 80 µmol/l, Taux de Prothrombine 45%, plaquettes 100 G/L.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est votre hypothèse diagnostique principale en ce qui concerne la cause de l’hémorragie digestive haute (hématémèse) chez de patient?",
+          "choix": [],
+          "reponses": [
+            "Rupture de varices oesophagiennes"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez une cirrhose comme maladie causale, quels sont les 6 éléments parmi les réponses énoncées ci-dessous les plus pertinents pour justifier votre hypothèse diagnostique principale ?",
+          "choix": [
+            "A) Consommation d'alcool depuis plus de 20 ans",
+            "B) Age du patient",
+            "C) Examen pulmonaire normal",
+            "D) Auscultation cardiaque normale",
+            "E) Taux d'hémoglobine à 8 g/dL",
+            "F) Taux de prothrombine à 45%",
+            "G) ALAT > 50 UI/L",
+            "H) Angiomes stellaires",
+            "I) Ictère cutanéo-muqueux",
+            "J) Ascite",
+            "K) Diabète de type 2",
+            "L) Circulation veineuse collatérale abdominale"
+          ],
+          "reponses": [
+            "A",
+            "F",
+            "H",
+            "I",
+            "J",
+            "L"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il s’agit donc probablement d’une rupture de varices œsophagiennes chez un patient atteint de cirrhose d’origine alcoolique. Quelle prise en charge proposez-vous dans les premières 24 heures ?",
+          "choix": [
+            "A) Hospitalisation milieu de soins intensifs",
+            "B) Endoscopie oeso-gastro-duodénale dans les 12 heures",
+            "C) Initiation d’un traitement par béta bloquants",
+            "D) Transfusion de culots globulaires rouges pour atteindre une cible de 12 g/dL d’hémoglobine sanguine",
+            "E) Initiation d’un traitement par somatostatine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395707561-d9da44f4a51cc8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez aux urgences une patiente de 65 ans qui consulte car elle présente depuis 24h des douleurs abdominales intenses et des frissons. Ce matin, elle a remarqué que ses urines étaient foncées et son teint jaune. Ses antécédents sont : HTA, dyslipidémie, hypothyroïdie. Son traitement habituel est : PERINDOPRIL, HYDROCHLOROTHIAZIDE, ATORVASTATINE, LEVOTHYROX, FENOFIBRATE. Elle ne présente pas d’intoxication éthylo-tabagique. Elle vit au domicile avec son époux, ils n'ont pas eu d'enfant. Elle pèse 98 kg pour 1m58.\nA l’arrivée aux urgences, ses paramètres sont les suivants : TA 110/80 mmHg, FC 110 bpm, T°39,7, SpO2 96% en air ambiant.\nSon bilan biologique est le suivant : Hémoglobine 12,4 g/dl, plaquettes 198 G/l, leucocytes 9 G/l, ionogramme normal, ASAT 45 UI/L, ALAT 112 UI/L, PAL 465 UI/L, GGT 578 UI/L, bilirubine totale 110 micromol/L, bilirubine directe 93 micromol/L, TP 85%, CRP 78 mg/L, Lipasémie 50 UI/L..\nA l’examen clinique, la patiente présente un ictère cutanéo-muqueux. La palpation abdominale est sensible en hypochondre droit sans défense. Il n’y a pas d’hépato-splénomégalie. Il n’y a pas de signe de décompensation cardiaque droite ou gauche.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel examen demandez-vous en première intention ?",
+          "choix": [],
+          "reponses": [
+            "Echographie abdominale"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous demandez donc une échographie abdominale et celle-ci met en évidence un foie de morphologie normale, d’échostructure homogène, avec dilatation de la voie biliaire principale à 17 mm ainsi qu'une dilatation des voies biliaires intra-hépatiques. La vésicule biliaire présente des parois fines et on note quelques éléments hyperéchogènes typiques de calculs biliaires. Le pancréas ne présente pas d’anomalie morphologique. Vous demandez un scanner abdomino-pelvien complémentaire avec injection de produit de contraste qui met en évidence un calcul de 8 mm du bas cholédoque.",
+          "choix": [
+            "A) Cholécystite aiguë lithiasique",
+            "B) Angiocholite aiguë lithiasique",
+            "C) Insuffisance hépatique",
+            "D) Colique hépatique simple",
+            "E) Pancréatite aiguë"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Citez 3 des facteurs de risque de lithiase biliaire cholestérique présents chez cette patiente",
+          "choix": [
+            "A) Le sexe féminin",
+            "B) HTA",
+            "C) Hypothyroïdie",
+            "D) Surpoids",
+            "E) traitement par fibrate",
+            "F) Nutrition parentérale",
+            "G) Grossesses multiple"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous diagnostiquez une angiocholite aiguë lithiasique. Quelles sont les 3 principales complications de l’angiocholite ?",
+          "choix": [
+            "A) Abcès hépatiques",
+            "B) Syndrome néphrotique",
+            "C) Insuffisance hépatique",
+            "D) Choc septique",
+            "E) Défaillance multiviscérale, en particulier rénale pouvant conduire au décès"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle procédure thérapeutique non chirurgicale allez-vous organiser en urgence ?",
+          "choix": [],
+          "reponses": [
+            "CPRE"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il est donc réalisé une CPRE avec sphinctérotomie et extraction du calcul cholédocien: quelle sera le traitement ultérieur à appliquer?",
+          "choix": [
+            "A) Acides biliaires per os",
+            "B) Pas de traitement complémentaire",
+            "C) Cholécystectomie",
+            "D) Arrêt du traitement par FENOFIBRATE",
+            "E) Nouvelle CPRE à 3 mois"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395709766-581121116eae",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Une patiente de 75 ans se présente à votre consultation pour des rectorragies avec du sang rouge mêlé aux selles et ce évoluant depuis deux mois. Elle est en surpoids (IMC : 28), hypertendue et diabétique non insulinodépendante, elle est traitée pour ces deux pathologies. Compte tenu d’une hypercholestérolémie à LDL et des antécédents familiaux au plan cardiovasculaire elle est aussi traitée aspirine à faible dose au long cours. Au plan chirurgical on note une hystérectomie, une prothèse totale de hanche et une chirurgie de la cataracte. L’examen de l’abdomen est normal, le toucher rectal ramène du sang rouge sur le doigtier mais pas de masse palpable. Elle se sent fatiguée et essoufflée, avec des crampes des mollets en montant les escaliers. Vous la trouvez pâle, l’examen cardio-vasculaire est normal.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les causes possibles du syndrome hémorragique ?",
+          "choix": [
+            "A) Ulcère duodénal",
+            "B) Cancer du côlon gauche",
+            "C) Diverticules du côlon sigmoïde",
+            "D) Cancer du haut rectum",
+            "E) Œsophagite peptique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel bilan biologique sanguin allez-vous faire pratiquer pour confirmer le retentissement des rectorragies sous forme d’une anémie ?",
+          "choix": [
+            "A) Dosage du taux de prothrombine",
+            "B) Ferritine",
+            "C) Vitamine B12",
+            "D) Formule numération",
+            "E) Coefficient de saturation de la transferrine"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il existe effectivement une anémie microcytaire ferriprive par saignement chronique d’origine digestive (rectorragies). Quel est l’examen à pratiquer pour étayer votre hypothèse ?",
+          "choix": [
+            "A) Scanner thoraco-abdomino-pelvien avec injection d’iode",
+            "B) TEP scanner FDG",
+            "C) Coloscopie totale sous anesthésie générale",
+            "D) IRM pelvienne",
+            "E) Examen de l'intestin grêle par Vidéocapsule endoscopique"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La coloscopie permet de mettre en évidence une tumeur bourgeonnante suspecte et hémi-circonférentielle au niveau du côlon sigmoïde : quelle est l’histologie de cette tumeur et quelle peut être la lésion précancéreuse à partie de laquelle ce type de tumeur se développe ?",
+          "choix": [
+            "A) Diverticulose sigmoïdienne",
+            "B) Carcinome épidermoïde",
+            "C) Polype adénomateux colique",
+            "D) Polype juvénile",
+            "E) Adénocarcinome"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels est l’examen principal à réaliser pour le bilan d’extension et quel sera le traitement principal de cette tumeur ?",
+          "choix": [
+            "A) Scanner thoraco-abdomino-pelvien avec injection d’iode",
+            "B) Echographie hépatique",
+            "C) Radiothérapie externe",
+            "D) Curiethérapie",
+            "E) Chirurgie d’exérèse (colectomie segmentaire)"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les deux enfants de cette patiente ont respectivement 48 et 50 ans. Ils vous posent le problème d’un éventuel dépistage en ce qui les concerne (ils n’ont pas de symptômes digestifs) : que leur proposez-vous ?",
+          "choix": [
+            "A) Test de recherche de sang dans les selles tous les 2 ans",
+            "B) Pas de dépistage",
+            "C) Coloscopie totale tous les 5 à 7 ans",
+            "D) Recto-sigmoïdoscopie tous les 3 ans",
+            "E) Toucher rectal tous les ans"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

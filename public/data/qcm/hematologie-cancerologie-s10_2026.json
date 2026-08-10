@@ -1,0 +1,836 @@
+{
+  "matiere": "Hématologie et cancérologie",
+  "slug": "hematologie-cancerologie-s10",
+  "annee": 2026,
+  "title": "Hématologie et cancérologie - 2026",
+  "total_questions": 41,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs de risque de cancers, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le tabac est le premier facteur de risque évitable de mortalité par cancer",
+            "B) Il existe un seuil de consommation d’alcool en dessous duquel le risque de cancer est nul",
+            "C) L’amiante est le facteur de risque essentiel du mésothéliome pleural",
+            "D) Helicobacter pylori est responsable de la majorité des cancers de l’estomac",
+            "E) La pollution atmosphérique n’a aucun impact démontré sur le risque de cancer"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment qualifiez-vous une chimiothérapie délivrée après chirurgie R0 d'une tumeur solide",
+          "choix": [],
+          "reponses": [
+            "Chimiothérapie adjuvante"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le critère principal d’évaluation de l’efficacité d’un dépistage organisé ?",
+          "choix": [
+            "A) L’augmentation de la survie après diagnostic",
+            "B) La diminution de l’incidence",
+            "C) La réduction de la mortalité spécifique",
+            "D) Le nombre de tests positifs",
+            "E) La détection de lésions bénignes"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Madame R., 62 ans, est suivie pour un adénocarcinome du côlon gauche diagnostiqué devant des douleurs abdominales, une altération du transit et une perte de poids de 6 kg en 3 mois.\nLe bilan d’extension met en évidence plusieurs métastases hépatiques bilatérales non résécables. Le statut moléculaire tumoral retrouve une mutation de KRAS.\nAprès discussion en RCP, un traitement systémique de première ligne par FOLFOX associé au bevacizumab est instauré.\nConcernant le bevacizumab, quelles sont les 3 propositions exactes ?",
+          "choix": [
+            "A) C’est une thérapie ciblée",
+            "B) C’est un inhibiteur de tyrosine kinase",
+            "C) C’est un anticorps anti-angiogénique",
+            "D) Peut être responsable d’une hypertension artérielle",
+            "E) Peut donner un rash acnéiforme"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "M. R., 57 ans, consulte pour une dysphagie progressive et une odynophagie évoluant depuis 2 mois, associées à une adénopathie latéro-cervicale droite de 3 cm, dure, indolore. L’examen ORL au nasofibroscope montre une lésion ulcéro-bourgeonnante de la loge amygdalienne droite. La biopsie confirme un carcinome épidermoïde. Le bilan diagnostique conclut à un stade cT2N2bM0.\nConcernant la démarche diagnostique et la prise en charge de ce patient, quelles propositions sont exactes ?",
+          "choix": [
+            "A) Un bilan dentaire pré-radiothérapie est indispensable avant tout traitement par irradiation",
+            "B) La recherche du statut HPV (p16 en immunohistochimie) est recommandée pour ce carcinome oropharyngé et a une valeur pronostique chez ce patient non fumeur",
+            "C) La radiothérapie conformationnelle avec modulation d’intensité (RCMI/IMRT) est la technique de référence pour réduire la dose aux glandes salivaires et limiter la xérostomie",
+            "D) La TDM prescrite doit être cervico-thoracique",
+            "E) Une panendoscopie des VADS sous anesthésie générale est inutile si le bilan TDM est complet"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme L., 59 ans, ménopausée, vient de bénéficier d’une tumorectomie du sein gauche pour un carcinome canalaire infiltrant pT1c (15 mm) pN0, grade SBR II, RH+, HER2 négatif, marges saines. Elle est adressée en consultation de radiothérapie. Elle n’a pas reçu de chimiothérapie. Elle pose de nombreuses questions sur le déroulement du traitement, ses contraintes et ses effets secondaires. Elle fume 4 cigarettes par jour depuis 10 ans.\nParmi les propositions suivantes concernant la radiothérapie adjuvante de cette patiente, lesquelles sont exactes ?",
+          "choix": [
+            "A) Le traitement standard s’étale sur plusieurs semaines à raison de 5 séances par semaine, chaque séance durant quelques minutes sur la table de traitement",
+            "B) La radiodermite est l’effet secondaire aigu le plus fréquent ; elle apparaît progressivement en cours de traitement et régresse spontanément en 3 à 4 semaines après la fin de l’irradiation",
+            "C) Une interruption non programmée de 5 jours en cours de traitement n’a pas d’impact sur les chances de contrôle local tumoral",
+            "D) La radiothérapie du sein peut induire des effets secondaires tardifs, notamment une fibrose sous-cutanée, un lymphœdème en cas d’irradiation ganglionnaire, et un risque cardiaque majoré en cas d’irradiation du sein gauche",
+            "E) La poursuite du tabagisme pendant et après le traitement augmente les risques de toxicité aigüe, toxicité tardive et de rechute"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant l’utilisation des marqueurs tumoraux en oncologie, quelle est la proposition vraie ?",
+          "choix": [
+            "A) Un CA-125 élevé chez une patiente de 48 ans, avec fatigue persistante, douleurs pelviennes diffuses et un ballonnement abdominal depuis 2 mois permet de poser le diagnostic de cancer de l’ovaire et d’initier un traitement sans autre examen complémentaire",
+            "B) Certains marqueurs tumoraux sériques peuvent s’élever, au dessus de la norme, en cas d’affections non cancéreuses",
+            "C) Le CA15.3 est un marqueur tumoral validé à la fois pour le dépistage, le diagnostic et le suivi d’un cancer du sein",
+            "D) L’AFP (alpha-fœtoprotéine) est spécifique du carcinome hépatocellulaire : un taux élevé signe le diagnostic sans nécessiter de confirmation histologique, quelle que soit sa valeur",
+            "E) Le dosage du PSA est inutile pour le dépistage du cancer de la prostate"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le dispositif d’annonce et le Programme personnalisé de soins (PPS), laquelle est exacte ?",
+          "choix": [
+            "A) Le PPS doit être remis obligatoirement au patient lors de la consultation médicale d’annonce, avant même que la décision de traitement soit prise en réunion de concertation pluridisciplinaire (RCP)",
+            "B) Le dispositif d’annonce comprend quatre temps distincts : la consultation médicale d’annonce, la consultation paramédicale de soutien assurée par l’IDEC, l’accès à une équipe de soins de support, et l’articulation avec la médecine de ville (médecin traitant)",
+            "C) Le PPS a valeur de contrat thérapeutique signé conjointement par le patient et le médecin spécialiste ; sa modification ultérieure nécessite impérativement une nouvelle RCP",
+            "D) La consultation paramédicale d’annonce réalisée par l’IDE a pour rôle principal de reformuler les résultats anatomopathologiques au patient de façon simplifiée",
+            "E) Le dispositif d’annonce est une obligation réglementaire applicable uniquement dans les établissements autorisés en cancérologie disposant d’un label INCa"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mme P., 54 ans, va recevoir un traitement par chimiothérapie contenant une anthracycline pour un cancer du sein.\nIndiquer la toxicité spéficique aux anthracylines (et commune aux anti-HER2)",
+          "choix": [],
+          "reponses": [
+            "cardiopathie dilatée"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les analyses non morphologiques des tumeurs, lesquelles sont vraies ?",
+          "choix": [
+            "A) L’immunohistochimie utilise une réaction immunologique antigène-anticorps pour identifier et localiser des protéines au niveau des cellules, par exemple tumorales, d’un prélèvement",
+            "B) La surexpression de HER2 en hybridation in situ a une valeur pronostique pour les cancers du sein",
+            "C) L’expression des récepteurs hormonaux en immunohistochimie pour les cancers du sein a une valeur théranostique, permettant l’accès à une hormonothérapie",
+            "D) Une mutation activatrice de l’EGFR, détectée en immunohistochimie, a une valeur théranostique donnant accès à un inhibiteur de tyrosine accès",
+            "E) Ces analyses peuvent être d’une aide au diagnostic morphologique par la recherche par exemple d’expression de protéines ou de mutations géniques d’intérêt pour les tumeurs solides en général"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395776519-1bbd49d2e136c8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Madame L., 48 ans, consulte pour des douleurs abdominales intermittentes associées à une altération récente du transit avec épisodes de constipation alternant avec diarrhée depuis 4 mois. Elle rapporte également une fatigue inhabituelle.\nAntécédents personnels\n- Cancer de l’endomètre traité à l’âge de 44 ans\n- Tabagisme sevré à 20 PA\n- IMC : 27 kg/m²\nAntécédents familiaux\n- Une tante maternelle atteinte d’un cancer ovarien à 52 ans\n- Un oncle maternel traité pour un cancer colorectal à 50 ans\n- Deux enfants de 20 et 23 ans, sans antécédent\nUne coloscopie met en évidence :\n- une tumeur sténosante du côlon droit,\n- deux polypes sessiles de 8 mm et 15 mm du côlon transverse, réséqués complètement.\nL’analyse anatomopathologique conclut à :\n- un adénocarcinome colique invasif moyennement différencié,\n- deux adénomes tubuleux en dysplasie de bas grade.\nL’immunohistochimie montre une perte d’expression de MLH1 et PMS2, en faveur d’un phénotype dMMR.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les polypes adénomateux retrouvés chez cette patiente quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Il s'agit de lésions néoplasiques",
+            "B) Ces lésions restent intra-épithéliales",
+            "C) Il s'agit d'emblée d'un cancer invasif",
+            "D) Leur évolution peut conduire à un adénocarcinome",
+            "E) Leur développement nécessite obligatoirement une néoangiogénèse",
+            "F) Ils sont porteurs d'une mutation BRAF",
+            "G) Ils peuvent être porteurs d'une mutation K-RAS",
+            "H) Ils peuvent être à l'origine de saignements dans les selles",
+            "I) ils peuvent à terme conduire à un carcinome épidermoïde",
+            "J) Présents de manière isolée, ils représentent un risque accru de survenue du cancer colo-rectal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "H",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le phénotype dMMR d'une tumeur colique constitue un facteur prédictif de réponse à quelle classe de médicament utilisés en cancérologie ?",
+          "choix": [],
+          "reponses": [
+            "immunotherapie"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments orientent chez cette patiente vers un syndrome de Lynch ?",
+          "choix": [
+            "A) L’âge de survenue de cancer colorectal",
+            "B) L’antécédent personnel de cancer de l’endomètre",
+            "C) Le phénotype dMMR tumoral",
+            "D) La présence des adénomes coliques",
+            "E) Les antécédents familiaux de cancers digestifs et gynécologiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395777588-3a62067f513b1",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez en consultation un jeune patient de 23 ans. Il a présenté récemment un syndrome de masse testiculaire suspect et a bénéficié d’une orchidectomie par l’un de vos confrères chirurgien urologue. Il vous est adressé en consultation d’oncologie médicale.\nLe patient ne présente aucun antécédent médical particulier en dehors d’une cryptorchidie opérée dans la petite enfance. Il mesure 175 cm pour 67 kg.\nL’anatomopathologie retrouve une tumeur germinale composée à 60% de séminome ; à 20% de tumeur vitelline et à 20% de carcinome embryonnaire.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Il s’agit d’une tumeur germinale séminomateuse étant donné la présence d’un contingent de séminome majoritaire",
+            "B) Ces tumeurs présentent un risque d’extension lymphophile aux ganglions rétropéritonéaux.",
+            "C) Ces tumeurs présentent un risque d’extension hématogène notamment aux poumons.",
+            "D) Son antécédent de cryptorchidie peut être considéré comme un facteur de risque à ce type de tumeur",
+            "E) L’âge de ce patient est atypique pour ce type de tumeur."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle mesure doit être impérativement proposée à ce jeune patient avant orchidectomie ?",
+          "choix": [],
+          "reponses": [
+            "CECOS"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels marqueurs tumoraux sont nécessaires au bilan de cette pathologie tumorale :",
+          "choix": [
+            "A) CA 125",
+            "B) ACE",
+            "C) AFP",
+            "D) LDH",
+            "E) Sous unité B de l'HCG"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel examen complémentaire vous paraît indispensable avant de proposer une thérapeutique à ce patient ?",
+          "choix": [],
+          "reponses": [
+            "TDM TAP (bilan d'extension)"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le TDM montre une maladie métastatique sur le plan pulmonaire et ganglionnaire rétropéritonéal. En RCP, il est validé la réalisation d’une chimiothérapie par BEP (Bléomycine ; Etoposide et Cisplatine). A propos de la toxicité de ces traitements :",
+          "choix": [
+            "A) Néphrotoxicité du Cisplatine",
+            "B) Toxicité pulmonaire de la Bléomycine",
+            "C) Ototoxicité de l’Etoposide",
+            "D) Toxicité cardiaque de la Bléomycine",
+            "E) Syndrome cholinergique à l’Etoposide"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’issue du premier cycle de chimiothérapie, votre présente une fièvre à 40°C avec frissons. Vous faites réaliser une biologie retrouvant des neutrophiles à 0,2 G/L. Devant ce diagnostic de neutropénie fébrile ; quelle est votre conduite ?",
+          "choix": [
+            "A) Antibiothérapie différée le temps d’une documentation microbiologique",
+            "B) Antibiothérapie large spectre couvrant le Pseudomonas aeruginosa (ex : Tazocilline)",
+            "C) Aminoside en cas de signe de mauvaise tolérance hémodynamique",
+            "D) Glycopeptide en cas de suspicion d’atteinte d’une voie veineuse",
+            "E) Fluoroquinolones en cas de suspicion d’atteinte d’une voie veineuse"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395779145-38f4005d376348",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez aux urgences Monsieur L. 67 ans, pour asthénie et dyspnée.\nTerrain : vit au domicile avec son épouse, trois enfants, tabagisme sevré estimé à 50 paquets-années, consommation d’alcool occasionnelle, un chien.\nAntécédents : cardiopathie ischémique stentée il y a 3 ans, reflux gastro-oesophagien, hypertension artérielle, arthrose.\nTraitements : Kardégic, Bisoprolol, Triatec, Kétoprofène\nIl rapporte en effet une asthénie évoluant depuis environ une semaine et, depuis quelques jours, il présente une dyspnée, d’aggravation progressive, avec la survenue d’un malaise le matin même, sans perte de connaissance.\nA l’examen clinique :\nPression artérielle 110/68 mmHg, Saturation en oxygène 90% en air ambiant, température 36,7°C, fréquence cardiaque 112 bpm, fréquence respiratoire 24/minute\nOMS 3\nPâleur cutanéo-muqueuse\nAuscultation pulmonaire : légère diminution du murmure vésiculaire en base droite, pas de bruits surajoutés, dyspnée NYHA III, tirage respiratoire\nbruits du cœur réguliers, présence d’un reflux hépato-jugulaire, oedèmes des membres inférieurs modérés, bilatéraux, blancs et prenant le godet\nAbdomen souple dépressible indolore, pas d’hépatosplénomégalie, douleur épigastrique reproduite à la palpation",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) examen(s) demandez-vous en première intention ?",
+          "choix": [
+            "A) Scanner thoracique",
+            "B) Radiographie thoracique",
+            "C) ECG",
+            "D) Bilan sanguin",
+            "E) Test d’effort"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’ECG montre un rythme sinusal, tachycarde à 115 bpm, pas de troubles de la conduction, QRS fins, axe du cœur normal, pas de troubles de la repolarisation.\nLa radiographie thoracique met en évidence la présence d’une cardiomégalie. Il n’y a pas d’opacité anormale en dehors d’un léger émoussement du cul-de-sac pleural droit. Il n’y a pas d’autres anomalies.\nLes résultats du bilan sanguin sont les suivants:\nHémoglobine 5,8 g/dl, VGM 106 fl, plaquettes 358 G/L, leucocytes 5,3 G/L, polynucléaires neutrophiles 2,9 G/L, polynucléaires éosinophiles 0,15 G/L, polynucléaires basophiles 0,03 G/L, lymphocytes 1,6 G/L, monocytes 0,4 G/L\nNatrémie 133 mmol/L, kaliémie 3,6 mmol/L, créatininémie 98 µmol/L, DFG 67 ml/min\nCRP 3 mg/l\nDe manière générale, à propos de l’anémie, quelles sont les 3 réponses justes ?",
+          "choix": [
+            "A) Le taux d’hémoglobine peut être surestimé en cas de déshydratation",
+            "B) Le taux d’hémoglobine peut être surestimé en cas d’hémodilution",
+            "C) L’anémie est généralement moins bien tolérée lorsqu’elle s’installe lentement",
+            "D) L’anémie peut se manifester par un tableau de décompensation cardiaque ou respiratoire",
+            "E) L’anémie peut se manifester par une asthénie isolée"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du bilan sanguin de Monsieur L., quelle(s) est(sont) la (les) réponse(s) juste(s) :",
+          "choix": [
+            "A) Les résultats du bilan sanguin peuvent expliquer l’ensemble de la symptomatologie présentée par le patient",
+            "B) La présence d’une thrombopénie aurait pu faire éliminer une origine périphérique",
+            "C) Le dosage des réticulocytes n’est pas nécessaire au vu de la profondeur de l’anémie",
+            "D) Il manque le dosage des réticulocytes pour interpréter l’anémie",
+            "E) Le bilan est en faveur d’une thalassémie"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez un complément du bilan de Monsieur L. :\nRéticulocytes 220 G/L\nQuelle est la réponse juste :",
+          "choix": [
+            "A) Le bilan est en faveur d’un syndrome myélodysplasique",
+            "B) Le bilan est en faveur d’une carence martiale",
+            "C) Le bilan est en faveur d’une anémie d’origine périphérique",
+            "D) Le bilan est en faveur d’une anémie d’origine centrale",
+            "E) Le taux de réticulocytes est ininterprétable du fait de l’insuffisance cardiaque"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au vu de ces résultats, comment complétez-vous votre interrogatoire et examen clinique?",
+          "choix": [
+            "A) Recherche d’un voyage récent à l’étranger",
+            "B) Recherche d’un saignement digestif",
+            "C) Recherche d’une valve mécanique",
+            "D) Recherche d’une koïlonychie",
+            "E) Réalisation d’un toucher rectal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "De manière générale, à propos des anémies de mécanisme hémolytique, quelles sont les 3 réponses justes ?",
+          "choix": [
+            "A) Une bilirubine conjuguée augmentée et une haptoglobine effondrée sont évocateurs",
+            "B) Le test direct à l’antiglobuline est un examen essentiel dans la démarche diagnostique",
+            "C) Le frottis sanguin est un examen essentiel dans la démarche diagnostique",
+            "D) Une microangiopathie thrombotique (MAT) doit être éliminée devant la présence d’une thrombocytose",
+            "E) La recherche de schizocytes doit être demandée en cas de suspicion de MAT"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Retour à Monsieur L. :\nA l’interrogatoire, il vous rapporte avoir présenté plusieurs épisodes de selles noires et malodorantes sur la dernière semaine.\nVous obtenez le reste du bilan sanguin :\nBilan hépatique : gGT 25 UI/L, TGO 25 UI/M, TGP 34 UI/L, PAL 93 UI/L, bilirubine 13 µmol/L\nLDH 171 UI/L (N : 85-227), haptoglobine 1,3 g/L (N : 0,5-2,2)\nRAI négative\nQuelle est votre principale hypothèse diagnostique concernant l’anémie?",
+          "choix": [
+            "A) Anémie par carence martiale",
+            "B) Anémie secondaire à une insuffisance rénale aiguë",
+            "C) Anémie hémolytique auto-immune",
+            "D) Anémie par hémodilution",
+            "E) Anémie secondaire à une hémorragie digestive"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que proposez-vous comme prise en charge globale pour Monsieur L. ?",
+          "choix": [
+            "A) Organisation d’une fibroscopie oeso-gastroduodénale dans les 3 semaines qui suivent",
+            "B) Diurétiques de l’anse",
+            "C) Transfusion de concentrés érythrocytaires",
+            "D) Corticothérapie",
+            "E) Inhibiteurs de la pompe à protons par voie IVSE"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395782381-bee95f3a70abf",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la thrombopénie induite par l'héparine (TIH), quelles propositions sont exactes ?",
+          "choix": [
+            "A) Classiquement, elle peut survenir entre le 5ème et le 21ème jour après l'introduction d'un traitement par héparine",
+            "B) Elle est liée à la production d'anticorps de type IgA dirigés contre le complexe héparine-facteur 4 plaquettaire",
+            "C) La chute des plaquettes >50% de la numération de base est un critère majeur du score 4T",
+            "D) Un test de dépistage rapide est indispensable pour éliminer le diagnostic de TIH lorsque la probabilité clinique est forte",
+            "E) Le Danaparoïde est une alternative thérapeutique possible en cas de TIH confirmée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 29,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 75 ans, traité par AVK pour une fibrillation atriale non emboligène (INR cible entre 2 et 3), présente une hématurie macroscopique abondante avec une instabilité hémodynamique (TA 85/50 mmHg). Son INR est mesuré à 5,5.\nÉvaluez les propositions suivantes:",
+          "choix": [
+            "A) Vous administrez 2mg de vitamine K per os",
+            "B) Vous administrez en urgence du concentré de complexe prothrombinique (CCP-PPSB)",
+            "C) L'objectif thérapeutique immédiat est d'atteindre un INR<1,5",
+            "D) Vous administrez du plasma frais congelé pour neutraliser l'AVK",
+            "E) Vous estimez que l'hémorragique ne met pas en jeu le pronostic vital : vous assurez une hémostase locale et corriger le surdosage"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 30,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Pour un patient de 80 ans dont la probabilité clinique de thrombose veineuse profonde est faible, quel seuil de positivité des D-dimères utilisez-vous pour exclure le diagnostic ?",
+          "choix": [
+            "A) 160 ng /mL",
+            "B) 250 ng/mL",
+            "C) 500 ng/mL",
+            "D) 800 ng/mL",
+            "E) 1000 ng/mL"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 31,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel facteur de la coagulation synthétisé par le foie permet de différencier biologiquement une insuffisance hépatocellulaire d'une carence en vitamine K ?",
+          "choix": [],
+          "reponses": [
+            "V = 5"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la recherche d'un anticoagulant circulant de type lupique (ACC) ; quelles propositions sont exactes ?",
+          "choix": [
+            "A) Un ACC se caractérise par un allongement isolé du temps de Quick (diminution du TP) contrastant avec un TCA strictement normal",
+            "B) Biologiquement, un ACC se définit par un allongement des tests de coagulation dépendant des phospholipides, tels que le TCA sensibilisé et le test de venin de vipère Russell",
+            "C) La présence d'un traitement par héparine ou par Anticoagulants Oraux Directs (AOD) n'interfère jamais avec la recherche biologique d'un ACC",
+            "D) Une seule positivité biologique associée à un événement clinique suffit à poser de manière définitive le diagnostic de Syndrome des Antiphospholipides (SAPL)",
+            "E) Paradoxalement, l'ACC allonge le TCA in vitro mais s'associe in vivo à un risque thrombotique"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395783734-b55b2c1ab5443",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "Un patient de 70 ans se présente avec une asthénie intense qui se majore depuis 15 jours et un épistaxis. Vous réalisez un hémogramme dont voici les résultats : hémoglobine 7,5 g/dL, VGM 102 fL, leucocytes 2,300 G/L, polynucléaires neutrophiles 0,400 G/L, blastes 55 %, plaquettes 33 G/L, réticulocytes 53 G/L.",
+      "order": 6,
+      "questions": [
+        {
+          "id": 33,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle pathologie évoquez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Leucémie aigue"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 34,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Que recherchez-vous à l'interrogatoire pour connaître l’étiologie de cette maladie ? (5 propositions justes)",
+          "choix": [
+            "A) Un antécédent de chimiothérapie pour un cancer antérieur",
+            "B) Un antécédent de radiothérapie pour un cancer antérieur",
+            "C) Un antécédent de leucémie lymphoïde chronique de stade A non traitée",
+            "D) Une alimentation riche en graisses",
+            "E) Une exposition professionnelle aux radiations ionisantes",
+            "F) Un traitement anticoagulant oral direct",
+            "G) Un antécédent de syndrome myélodysplasique",
+            "H) Un antécédent de lymphome folliculaire non traité",
+            "I) Un antécédent de syndrome myéloprolifératif",
+            "J) Une drépanocytose sans traitement de fond"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E",
+            "G",
+            "I"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 35,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez complété le bilan et recevez ces résultats :\nHémostase : TP 45 %, fibrinogène 0,5 g/L\nMyélogramme : moelle riche de grade 3, infiltrée par 58 % de blastes comportant des corps d’Auer en fagot\nCaryotype : mise en évidence d'une translocation t(15;17)\nQuel diagnostic retenez-vous ?",
+          "choix": [
+            "A) Leucémie aiguë lymphoblastique",
+            "B) Leucémie myéloïde chronique",
+            "C) Leucémie aiguë promyélocytaire (LAM3)",
+            "D) Leucémie aiguë myélomonocytaire",
+            "E) Leucémie aiguë myéloïde à chromosome de Philadelphie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395784587-a2a970361f3a18",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Madame R. 21 ans consulte pour état pseudo-grippal et angine. Elle n’a pas d’antécédent notable. Un hémogramme a déjà été réalisé, dont voici les résultats :\nHémoglobine 12.8 g/dL, VGM 90fL, Plaquettes 198 G/L, Leucocytes 15 G/L.\nFormule leucocytaire: polynucléaires neutrophiles 3.7 G/L, polynucléaires éosinophiles 0.1 G/L, polynucléaires basophiles 0 G/L, lymphocytes 8 G/L, monocytes 1.2 G/L, cellules mononucléées hyperbasophiles 2 G/L.",
+      "order": 7,
+      "questions": [
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est(sont) l’(les) anomalie(s) visible(s) sur cet hémogramme ?",
+          "choix": [
+            "A) Une hyperlymphocytose",
+            "B) Une thrombopénie",
+            "C) Une anémie",
+            "D) Une hyperleucocytose",
+            "E) Une monocytose"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A quoi correspondent ces cellules mononucléées hyperbasophiles ?",
+          "choix": [
+            "A) Des monocytes activés",
+            "B) De la myélémie",
+            "C) Des blastes",
+            "D) Des lymphocytes T activés",
+            "E) Des cellules lymphomateuses"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 38,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’existence d’une hyperlymphocytose avec présence de cellules mononucléées hyperbasophiles doit vous orienter vers un diagnostic : lequel ?",
+          "choix": [
+            "A) Une leucémie aiguë myéloïde",
+            "B) Une leucémie lymphoïde chronique",
+            "C) Une helminthiase",
+            "D) Un syndrome myéloprolifératif",
+            "E) Un syndrome mononucléosique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) le(s) élément(s) pertinent(s) à rechercher à l’interrogatoire dans ce contexte ?",
+          "choix": [
+            "A) Nouvelle relation amoureuse",
+            "B) Rapport sexuel à risque récent",
+            "C) Introduction récente d’un nouveau médicament",
+            "D) Consommation de viande crue",
+            "E) Présence d’un chat dans l’entourage"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle vous dit avoir un nouvel amoureux. Quel(s) examen(s) biologique(s) vous semble(nt) le(s) plus pertinent(s) pour explorer la maladie de votre patient ?",
+          "choix": [
+            "A) Un ionogramme sanguin",
+            "B) Un examen cyto-bactériologique urinaire",
+            "C) Un immunophénotypage lymphocytaire",
+            "D) Une électrophorèse des protides",
+            "E) Une sérologie EBV"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 41,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l’examen clinique, elle présente une angine érythémato-pultacée, de multiples adénopathies souples et centimétriques, et une splénomégalie modérée. La sérologie que vous avez prescrite montre la présence d’IgM anti-VCA et l’absence d’IgG anti-EBNA. Quel est votre diagnostic final ?",
+          "choix": [
+            "A) Angine à streptocoque",
+            "B) Angine herpétique",
+            "C) Mononucléose infectieuse",
+            "D) Primo-infection à VIH",
+            "E) Primo-infection à CMV"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

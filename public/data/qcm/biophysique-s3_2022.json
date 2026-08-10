@@ -1,0 +1,232 @@
+{
+  "matiere": "Biophysique",
+  "slug": "biophysique-s3",
+  "annee": 2022,
+  "title": "Biophysique - 2022",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel est cet examen ?",
+          "choix": [
+            "A) une radio",
+            "B) un scanner",
+            "C) une scintigraphie",
+            "D) une imagerie de transmission",
+            "E) une imagerie d'émission"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/biophysique-s3/2022/q1.png?v=1786395651737"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici un examen d'imagerie médicale réalisé sans injection de produit de contraste chez un patient présentant depuis quelques\nheures une hémiplégie droite d'installation brutale",
+          "choix": [
+            "A) il s'agit d'une IRM",
+            "B) il s'agit d'un scanner",
+            "C) l'hyperdensité anormale est du côté gauche du patient",
+            "D) il s'agit d'un hématome",
+            "E) il s'agit d'une prise de contraste tumorale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/biophysique-s3/2022/q2.png?v=1786395652144"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez ce patient présentant une sclérose en plaques les 2 premières images d'IRM ont été acquises en même temps avec des\nTE différents.\nLa 3ème (avec les flèches jaunes pointant les plus petites lésions) est une séquence FLAIR",
+          "choix": [
+            "A) toutes ces images étudient le tissu cérébral en pondération T2",
+            "B) la séquence FLAIR profite du long T1 du liquide cérébrospinal pour atténuer son signal et le rendre hypo-intense",
+            "C) en séquence pondérée en T2 la substance blanche est plus intense que la substance grise (présente dans le ruban cortical sur ce niveau de coupe)",
+            "D) les plaques lésionnelles sont détectées par leur court T2",
+            "E) la résolution spatiale de cet examen est millimétrique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/biophysique-s3/2022/q3.png?v=1786395652602"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395652456-c8a574d9b44df",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Une publication récente du journal « European Radiology » apporte des arguments pouvant justifier le suivi des doses effectives\nreçues par les patients lors de la réalisation des examens radiologiques exposant aux radiations ionisantes.\n(Patient cumulative radiation exposure- the potential for unintended consequences, Colin Walsh et al. ; European Radiology, 2020,\n30 :4434-4437)\n«…Les risques stochastiques associés à la dose cumulative des examens d’imagerie font partie du passé du patient et ne\ndevraient pas influencer la justification des radio-expositions liées aux examens radiologiques de l’avenir. En effet, la relation\nentre la radio-exposition et le risque de cancer est basée sur un modèle linéaire sans seuil qui prédit le nombre des cancers radio-\ninduits en fonction de la dose d’irradiation reçue. Mais ce modèle reste spéculatif, et génère le doute qu’une radio-exposition à\nune dose basse pourrait produire une vulnérabilité biologique qui augmenterait le risque de développement d’un cancer….\n… Ce qui est plus important est la justification de l’examen radiologique et le jugement sur le risque radiologique de l’examen\ncourant de radiologie….\n… Quand un patient a besoin en prospectif de nombreux examens d’imagerie nécessaires pour une décision médicale, l’historique\ndes doses devraient être pris en considération afin de positionner en priorité des modalités d’imagerie non ionisantes, avec une\ninformation diagnostique équivalente….\n… La connaissance des doses cumulatives est pertinente pour les risques encourus sur les tissus superficiels : le tissu cutané et les\ncheveux. Ceci a été démontré pour certains examens de type angiographie et TDM (Scanner X) de perfusion. »",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les organismes nationaux et internationaux impliqués dans la radioprotection sont :",
+          "choix": [
+            "A) ASN",
+            "B) OMS",
+            "C) IRSN",
+            "D) IAEA",
+            "E) EMA"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le risque d'apparition d'un cancer lié à la radio exposition lors des examens de radiologie diagnostique est",
+          "choix": [
+            "A) Précoce",
+            "B) Déterministe",
+            "C) Stochastique",
+            "D) Tardif",
+            "E) En relation linéaire sans seuil"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la mesure de grandeurs de risque de cancer lié à un TDM X, il s'agit de :",
+          "choix": [
+            "A) La dose absorbée",
+            "B) La dose équivalente",
+            "C) La dose efficace",
+            "D) L'unité de mesure est le Gy",
+            "E) L'unité de mesure est le Sv"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En observant des cohortes de personnes exposées (adultes) on constate que le risque de cancer augmente de manière\nsignificative quand la dose effective cumulée dépasse :",
+          "choix": [
+            "A) 200 mSv",
+            "B) 20 mSv",
+            "C) 10 mSv",
+            "D) 50 mSv",
+            "E) 1 mSv"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les 3 principales sources d'irradiation naturelle à l'heure actuelle en France sont :",
+          "choix": [
+            "A) L'émanation de radon dans le sol",
+            "B) Les rayonnements cosmiques",
+            "C) Les particules émises des centrales nucléaires",
+            "D) L'exposition médicale (les sources d'irradiation liées au radiodiagnostic)",
+            "E) Les rayonnements telluriques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour un TDM la dose d’irradiation délivrée dépend de :",
+          "choix": [
+            "A) de la tension accélératrice des électrons",
+            "B) de l’intensité du courant dans le tube (mAs)",
+            "C) de la superposition des coupes",
+            "D) de l’âge et de la taille du patient",
+            "E) est négligeable pour les nouveaux-nés"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la recommandation “ As low as reasonably achievable”, à quels principes de radioprotection répond-elle ?:",
+          "choix": [
+            "A) Limitation",
+            "B) Justification",
+            "C) Optimisation",
+            "D) Equivalence",
+            "E) Règlementation"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

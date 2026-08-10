@@ -1,0 +1,397 @@
+{
+  "matiere": "Appareil respiratoire – Physiologie",
+  "slug": "ar-physiologie-s3",
+  "annee": 2026,
+  "title": "Appareil respiratoire – Physiologie - 2026",
+  "total_questions": 19,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la ventilation pulmonaire, il est exact que :",
+          "choix": [
+            "A) La durée de l’expiration est deux fois plus longue que la durée de l’inspiration.",
+            "B) En fin d’inspiration, la pression alvéolaire est supérieure à la pression atmosphérique.",
+            "C) Lors de l’inspiration forcée, la contraction du diaphragme permet une augmentation d’une dizaine de cm du diamètre thoracique vertical.",
+            "D) Lors d’une expiration forcée, la contraction des muscles expiratoires augmente la pression intrapulmonaire, ce qui entraîne un mouvement d’air vers l’extérieur du poumon.",
+            "E) Les muscles abdominaux interviennent lors d’une inspiration forcée, en complément du diaphragme."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les explorations de la fonction ventilatoire, il est exact que :",
+          "choix": [
+            "A) La technique de rinçage de l’azote par l’inhalation d’oxygène permet de mesurer la capacité résiduelle fonctionnelle (CRF).",
+            "B) La capacité pulmonaire totale (CPT) correspond au plus grand volume d’air mobilisé lors d’une inspiration forcée et une expiration forcée.",
+            "C) L’interprétation des résultats de pléthysmographie se fait par comparaison à des théoriques obtenues sur un échantillon de population de même âge, genre et taille que le patient.",
+            "D) La réalisation d’une spirométrie avec mesure de la CRF associée, permet de mettre en évidence une insuffisance ventilatoire de type restrictif si l’on observe une diminution de la capacité pulmonaire totale (CPT).",
+            "E) Sur une boucle débit-volume, une diminution du VEMS associé à une diminution du coefficient de Tiffeneau est en faveur d’une insuffisance ventilatoire de type mixte."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’élasticité pulmonaire, il est exact que :",
+          "choix": [
+            "A) En cas de rupture de la solidarité thoraco-pulmonaire, le volume de relaxation du thorax est supérieur à la capacité pulmonaire totale (CPT).",
+            "B) La force élastique de la paroi thoracique étant opposée à la force élastique pulmonaire, seule l’intégrité de la plèvre permet la transmission des mouvements du thorax aux poumons.",
+            "C) Plus la variation de pression exercée sur un corps nécessaire pour augmenter son volume est importante, plus l’élastance de ce corps est importante.",
+            "D) Plus la pente des variations de volumes d’un corps en fonction des variations de pressions est faible, plus la compliance de ce corps est importante.",
+            "E) Le surfactant pulmonaire est composé à 80 % de phospholipides, ce qui lui confère ses propriétés d’agent tensio-actif, permettant la diminution de la tension superficielle au sein des alvéoles."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résistances des voies aériennes, il est exact que :",
+          "choix": [
+            "A) Les résistances dynamiques, liées au passage de l’air dans les voies respiratoires, peuvent être augmentées dans certaines pathologies.",
+            "B) L’écoulement de l’air est laminaire essentiellement dans les voies respiratoires supérieures.",
+            "C) Les résistances dynamiques dans les voies aériennes inférieures (bronchioles) sont importantes en raison de leur faible diamètre.",
+            "D) Chez un sujet debout, les phénomènes mécaniques de traction sur le parenchyme pulmonaire sont à l’origine d’une augmentation des résistances des voies aériennes au sommet du poumon par rapport à la base.",
+            "E) Un médicament bétabloquant (antagoniste béta-adrénergique) peut favoriser une bronchoconstriction chez certains patients et donc entraîner une augmentation des résistances dynamiques."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la ventilation alvéolaire, il est exact que :",
+          "choix": [
+            "A) L’espace mort alvéolaire correspond à un territoire alvéolaire non ventilé.",
+            "B) L’espace mort anatomique peut être augmenté par la réalisation d’une trachéotomie.",
+            "C) Lors d’une hyperventilation, pour augmenter le renouvellement de l’air alvéolaire, il est plus efficace d’augmenter le volume courant que la fréquence respiratoire.",
+            "D) En position debout, la base du poumon est mieux ventilée et mieux perfusée.",
+            "E) Le rapport ventilation-perfusion, chez un sujet couché, est plus élevé au sommet du poumon par rapport à la base du poumon."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les échanges alvéolo-capillaires, il est exact que :",
+          "choix": [
+            "A) La PAO2 est d’environ 100 mmHg alors que dans la trachée la PO2 est d’environ 150 mmHg.",
+            "B) Dans l’artère pulmonaire, la pression partielle en CO2 est plus élevée que la pression partielle en O2.",
+            "C) L’ablation d’un lobe pulmonaire chez un patient entraîne une diminution de la surface d’échange entre les alvéoles et les capillaires.",
+            "D) Le CO2 a une diffusibilité vingt fois supérieure à celle de l’O2.",
+            "E) Chez un sujet sain, à l’exercice, le transfert d’O2 de l’alvéole vers le capillaire est beaucoup plus rapide car le temps de transit du sang dans les capillaires pulmonaires est beaucoup plus rapide."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la capacité de diffusion du CO, il est exact que :",
+          "choix": [
+            "A) La capacité de diffusion pulmonaire d’un gaz (DL), correspond à la résistance que rencontre ce gaz lors du passage de la membrane alvéolo-capillaire.",
+            "B) Le CO est utilisé pour mesurer la diffusion alvéolo-capillaire car il permet de s’affranchir de la pression partielle de ce gaz dans le capillaire sanguin.",
+            "C) La mesure de la capacité de diffusion pulmonaire d’un gaz (DL) par l’inhalation de CO, nécessite que le patient réalise une inspiration profonde puis une apnée d’environ 10s.",
+            "D) Un taux élevé de carboxyhémoglobine chez un fumeur, peut surestimer la capacité de diffusion de la membrane alvéolo-capillaire lors d’une mesure de la DLCO.",
+            "E) Le calcul du coefficient de perméabilité (ou coefficient de Krogh) permet de s’affranchir d’une éventuelle baisse du volume alvéolaire."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le rapport ventilation-perfusion, il est exact que :",
+          "choix": [
+            "A) Chez un sujet debout, le rapport ventilation-perfusion, est plus faible à la base qu’au sommet du poumon car la ventilation pulmonaire baisse plus à la base du poumon par rapport au sommet que le débit sanguin.",
+            "B) Chez un sujet debout, la PACO2 est plus faible à la base qu’au sommet du poumon car le débit sanguin de perfusion est plus important à la base du poumon par rapport au sommet.",
+            "C) Lors d’un effet shunt, le rapport ventilation-perfusion a tendance à diminuer.",
+            "D) L’effet espace mort peut être majoré lors d’une thrombose des capillaires pulmonaires.",
+            "E) Les différences de rapport ventilation-perfusion entre le sommet et la base du poumon sont diminuées en position couchée par rapport à la position debout."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le transport de l’oxygène (O2) par le sang, il est exact que :",
+          "choix": [
+            "A) 10 grammes hémoglobine peut fixer au maximum 13,9 ml d’O2.",
+            "B) Dans le sang artériel normal d’un sujet jeune en bonne santé, la PaO2 est d’environ 100 mmHg.",
+            "C) La quantité d’O2 dissous dans un litre de sang est de 3 ml d’O2.",
+            "D) En cas d’anémie isolée à 7,5 g hémoglobine /100 ml de sang, la saturation de l’hémoglobine en O2 sera diminuée d’environ 50 %.",
+            "E) En cas d’anémie isolée à 7,5 g hémoglobine /100 ml, le contenu en oxygène de 100 ml de sang sera environ de 10 ml d'O2."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le transport de l’oxygène (O2) par le sang, il est exact que :",
+          "choix": [
+            "A) Plus la PCO2 est élevée, plus l’hémoglobine fixe de l’O2.",
+            "B) Plus la température est élevée, moins il y a d’O2 fixée sur l’hémoglobine et moins il y a d’O2 dissous.",
+            "C) Une diminution de l’affinité de l’hémoglobine pour l’O2 est défavorable aux échanges tissulaires.",
+            "D) Une augmentation de l’affinité de l’hémoglobine pour l’O2 est défavorable aux échanges pulmonaires.",
+            "E) Les taux de 2,3 diphosphoglycérate intra-érythrocytaires diminuent l’affinité de l’hémoglobine pour l’O2."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le transport des gaz par le sang chez un sujet sain au repos, il est exact que :",
+          "choix": [
+            "A) L'oxygène est transporté en majeure partie lié à l'hémoglobine.",
+            "B) 100 ml de sang artériel contiennent environ 20 ml d’O2.",
+            "C) 100 ml de sang veineux mêlé contiennent environ 5 ml d’O2.",
+            "D) 100 ml de sang artériel contiennent environ 54 ml CO2.",
+            "E) Le sang veineux mêlé contient davantage d’O2 que lorsque ce sujet fait un exercice physique intense."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la saturation en O2 de l’hémoglobine dans le sang artériel, il est exact que :",
+          "choix": [
+            "A) Au niveau de la mer, elle est chez l’Homme de 95-97%.",
+            "B) Au sommet du Mont Blanc, elle est chez l’Homme d’ordre de 80%.",
+            "C) Au sommet du Mont Blanc, elle est chez l’Homme d’ordre de 50%.",
+            "D) A 2000 m d’altitude, elle est moins importante chez la souris que chez l’Homme.",
+            "E) Elle est plus importante chez le poisson des glaces que chez les poissons des mers chaudes car la solubilité de l’O2 diminue quand la température augmente."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’analyse de l’équilibre acido-basique des gaz du sang artériel prélevé chez un patient, il est exact que :",
+          "choix": [
+            "A) Un pH = 7,25 et une PaCO2 à 30 mm Hg est compatible avec une acidose respiratoire.",
+            "B) Un pH = 7,25 et une PaCO2 > 60 mmHg est compatible avec une acidose respiratoire.",
+            "C) Un pH = 7,25 et une PaCO2 > 60 mmHg est compatible avec une ponction veineuse et non artérielle.",
+            "D) Un pH = 7,38, une PaCO2 = 60 mmHg et des bicarbonates = 35 mM correspond à une acidose respiratoire compensée.",
+            "E) Un pH = 7,50, une PaCO2 =40 mmHg et des bicarbonates = 35 mM correspond à une alcalose métabolique non compensée."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les voies aériennes supérieures, il est exact que :",
+          "choix": [
+            "A) C’est le 1er filtre humidificateur de l’arbre respiratoire.",
+            "B) Il existe en moyenne une distance de 1,5 à 2 mm entre les deux feuillets de l’épithélium au niveau des fosses nasales.",
+            "C) Si l’on supprime unilatéralement 2 des 3 cornets d’une fosse nasale, le confort respiratoire augmente car la résistance des voies aériennes diminue.",
+            "D) Des concentrations importantes de monoxyde d’azote dans les sinus paranasaux contribuent à leur défense anti-infectieuse.",
+            "E) Dans la maladie des cils immobiles, les concentrations importantes de monoxyde d’azote dans les sinus paranasaux permettent de compenser l’absence de battement ciliaire."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’extraction de l’O2 dans les tissus, il est exact que :",
+          "choix": [
+            "A) Au repos, l’extraction de l’O2 dans la circulation coronaire est d’environ 30%.",
+            "B) La consommation en O2 des muscles squelettiques ne travaillant pas au cours d’un exercice augmente.",
+            "C) Au cours d’un exercice physique maximal, l’extraction de l’O2 augmente de plus de deux fois par rapport au repos.",
+            "D) L’abondance en mitochondrie des muscles squelettiques influence l’extraction périphérique de l’O2.",
+            "E) La consommation en O2 au cours d’un exercice maximal augmente d’un facteur 10 à 20 par rapport à l’état de repos."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il est exact, suite à un entraînement intense en endurance de 2 mois, que l’on constate :",
+          "choix": [
+            "A) Une diminution de la fréquence cardiaque de repos.",
+            "B) Une hypertrophie excentrique ventriculaire gauche.",
+            "C) Une augmentation du volume d’éjection systolique de repos due à une hyperactivité du système orthosympathique au repos.",
+            "D) Une augmentation de l’extraction périphérique d’O2 due à une augmentation de la densité capillaire et de l’abondance des mitochondries du muscle squelettique.",
+            "E) Une augmentation de la capacité vitale et du VEMS."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les chémorécepteurs centraux et le contrôle de la ventilation, il est exact que :",
+          "choix": [
+            "A) Ils sont situés près de la face ventrale du bulbe, à proximité de l’émergence des 9ème et 10ème paires crâniennes.",
+            "B) Ils sont entourés par le liquide extracellulaire dont la composition dépend surtout du liquide céphalo-rachidien.",
+            "C) Ils répondent aux variations de la PO2 du liquide céphalo-rachidien.",
+            "D) Le CO2 contenu dans le sang contrôle la ventilation principalement par son effet sur le pH du liquide céphalo-rachidien.",
+            "E) Ils sont stimulés par l’augmentation de la PCO2 du liquide céphalo-rachidien et par l’augmentation du pH du liquide céphalo-rachidien."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les chémorécepteurs périphériques, il est exact que :",
+          "choix": [
+            "A) Ils sont situés au niveau des sinus carotidiens et de la crosse aortique.",
+            "B) Ils régulent également la pression sanguine artérielle.",
+            "C) Ils répondent à l’augmentation de la PO2 artérielle.",
+            "D) Le neurotransmetteur entre la cellule portant les chémorécepteurs périphériques et les neurones acheminant le signal vers les centres nerveux est l’acétylcholine.",
+            "E) Ils sont plus importants que les chémorécepteurs centraux dans la réponse au CO2."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les bronches et la fonction de clairance mucociliaire en physiologie, il est exact que :",
+          "choix": [
+            "A) Le travail nécessaire pour vaincre la résistance des voies aériennes est supérieur à celui nécessaire pour vaincre les forces élastiques des poumons.",
+            "B) 80% résistance intrathoracique se situent au niveau de la trachée et des bronches.",
+            "C) Le mucus sécrété par les glandes sous-muqueuses piège et permet d’éliminer les aérocontaminants.",
+            "D) L’épithélium bronchique sécrète le liquide péri-ciliaire dans lequel battent les cils.",
+            "E) La mucoviscidose est due à une mutation du gène CFTR à l’origine d’une augmentation de la viscosité du mucus."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

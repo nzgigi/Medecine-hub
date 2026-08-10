@@ -1,0 +1,598 @@
+{
+  "matiere": "Santé, société, humanité",
+  "slug": "sante-societe-humanite-s4",
+  "annee": 2026,
+  "title": "Santé, société, humanité - 2026",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La relation médecin-malade concerne exclusivement le médecin et son patient",
+            "B) Si le médecin est tolérant, la relation médecin-malade n'est pas influencée par la culture de son patient",
+            "C) Grâce au paiement de l'acte, le médecin et le patient sont à égalité dans la relation médecin-malade",
+            "D) Quand un patient est particulièrement vulnérable, cela peut influencer la relation médecin-malade",
+            "E) Dans la relation médecin-malade, le médecin est le plus souvent en position d'infériorité car il dépend financièrement du patient"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’annonce d’une maladie grave, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L’essentiel c’est d’annoncer rapidement ce qu’il en est, quitte à improviser",
+            "B) L’entourage doit être systématiquement associé à l’annonce",
+            "C) Avant l’annonce, le médecin doit s’informer sur ce que sait déjà le patient",
+            "D) Pour son annonce, le médecin peut s’appuyer sur les explications qu’il donne sur les différents examens effectués",
+            "E) Une fois l’annonce faite, il n’est pas nécessaire que le médecin donne un nouveau rendez-vous à ce sujet à son patient, il faut le laisser tranquille"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les différents types de relations médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Dans la relation consensuelle, le patient accepte les soins",
+            "B) Dans la relation coopérative, le médecin n'a pas besoin de convaincre son patient de la nécessité de sa coopération",
+            "C) Dans la relation participative, le patient est en position d'acteur privilégié de sa guérison",
+            "D) Dans la relation participative, le médecin doit ignorer les représentations du patient concernant sa maladie",
+            "E) L'alliance thérapeutique permet une collaboration active entre le médecin et son patient"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les activités possibles en éducation thérapeutique, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Une sensibilisation",
+            "B) Un coaching",
+            "C) Une information",
+            "D) Un apprentissage",
+            "E) Un entrainement du patient aux entretiens motivationnels"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les facteurs suivants, lequel(lesquels) peut(vent) influencer les représentations que le patient a de sa maladie ?",
+          "choix": [
+            "A) Son histoire familiale",
+            "B) Sa personnalité",
+            "C) Sa situation transculturelle",
+            "D) Ses croyances",
+            "E) Une pathologie psychiatrique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’entretien motivationnel, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le but de l'entretien motivationnel est de convaincre le patient de changer",
+            "B) L'entretien motivationnel s'appuie sur un renforcement du sentiment d'efficacité personnelle du patient",
+            "C) La motivation au changement du patient est impossible à modifier",
+            "D) Le médecin doit explorer avec le patient les comportements pouvant constituer une alternative aux comportements problèmes",
+            "E) L'entretien motivationnel s'appuie sur la suggestion"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du processus de « transaction », décrit en psychologie de la santé lorsqu’un sujet fait face à une maladie, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La transaction, c’est tout ce qui change dans la vie d’une personne à cause de sa maladie",
+            "B) La transaction ce sont les efforts que fait la personne pour s’ajuster aux stress liés à sa maladie",
+            "C) Dans le processus de transaction, une mesure objective de la situation de stress prédit mieux l’état de santé ultérieur que le stress perçu par le patient lui-même",
+            "D) Le contrôle perçu correspond au sentiment qu’a le patient d’être dominé et contrôlé par le pouvoir médical",
+            "E) Un patient qui a un bon soutien social perçu adoptera plus facilement des changements de style de vie nécessaires"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des réflexions que peut se faire le médecin confronté à une résistance d’un patient dans la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) « Mon patient résiste volontairement à mes préconisations »",
+            "B) « Pour faire céder sa résistance, je dois lui faire part de ma déception face à ce manque de confiance »",
+            "C) « Je dois garder mon calme »",
+            "D) « La résistance est une réaction naturelle à un changement »",
+            "E) « Je vais réfléchir avec mon patient aux valeurs qui favorisent peut-être cette résistance »"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’annonce d’une maladie grave, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Quand elle concerne un enfant, mieux vaut ne délivrer l'information qu'à ses parents",
+            "B) Quand un adulte souhaite que son entourage soit présent lors de l'annonce, il faut lui expliquer que la loi l'interdit",
+            "C) Pour que le médecin ne soit pas perturbé par ses émotions, le mieux est qu'il utilise un protocole d'annonce toujours identique",
+            "D) Une fois l'annonce faite, mieux vaut ne pas y revenir et passer à autre chose",
+            "E) L'environnement dans lequel se fait l'annonce doit être soigneusement aménagé"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la relation médecin-malade, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le consentement du patient est un préalable à tout entretien médical",
+            "B) Quand le patient donne son consentement, le médecin est certain d'avoir obtenu son engagement dans la relation",
+            "C) Pour parvenir à une bonne alliance thérapeutique, le médecin doit prendre en compte les particularités socio-culturelles de son patient",
+            "D) Quand un patient présente des résistances, le médecin peut les faire évoluer",
+            "E) L'empathie a un effet apaisant sur l'anxiété du patient"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la démographie médicale en France, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) En 2020, le numerus clausus a été remplacé par le numerus apertus",
+            "B) Entre 2010 et 2025, la part des médecins inscrits au Conseil de l’Ordre et exerçant une activité régulière a diminué",
+            "C) La pyramide des âges des médecins en activité en 2025 montre une symétrie parfaite entre les hommes et les femmes",
+            "D) L’étude de la densité départementale des médecins en activité au 1er janvier 2025 met en évidence des différences importantes entre les départements",
+            "E) Selon les projections de densité de la DREES, la densité des médecins généralistes en France devrait progresser à partir de 2025"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos de l’intégration du numérique dans le parcours de soins, laquelle de ces propositions est exacte :",
+          "choix": [
+            "A) L’Espace Numérique de Santé (ENS) figure parmi les trois plateformes numériques déployées au niveau national",
+            "B) La feuille de route du numérique en santé 2023-2027 prévoit de supprimer le Health Data Hub (HDH ou plateforme des données de santé)",
+            "C) La feuille de route du numérique en santé 2023-2027 se décline en 18 axes prioritaires",
+            "D) L’agence du Numérique en santé (ANS) a été supprimée en 2025, ses missions sont désormais assurées par la Direction Générale de l’Offre de Soins (DGOS)",
+            "E) Le déploiement du Dossier Médical Partagé (DMP) a été stoppé définitivement en raison d’une cyber-attaque"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment se nomme l’identifiant unique et pérenne permettant de sécuriser le référencement des données de santé des usagers en France ?",
+          "choix": [],
+          "reponses": [
+            "Identifiant National de Santé ou INS"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes caractérisant un dossier patient informatisé, indiquez la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Il a vocation à faciliter la coordination des soins entre les professionnels de santé",
+            "B) Comparativement à un « dossier papier », il offre la possibilité d’un accès au dossier à distance",
+            "C) Il permet d’identifier des accès illicites au dossier du patient",
+            "D) Il facilite la mise en œuvre de travaux de recherche clinique",
+            "E) Son utilisation par les professionnels de santé doit être accompagnée par des actions de formation"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les définitions de l’éthique et de la morale, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La morale est l'application en situation des principes éthiques",
+            "B) Morale et éthique ont la même signification",
+            "C) Morale et éthique recoupent toujours le droit",
+            "D) Morale et éthique s'opposent à la déontologie",
+            "E) La morale repose sur des principes universels"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les caractéristiques suivantes quelles sont les 3 qui peuvent être attribuées à l’éthique téléologique ?",
+          "choix": [
+            "A) C'est la morale du bien",
+            "B) Elle est singulière",
+            "C) Elle est intemporelle",
+            "D) Kant en est le principal auteur",
+            "E) Le bienfondé de l'action dépend de sa finalité"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la gestation pour autrui, indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elle constituerait pour Kant une instrumentalisation du corps de la femme",
+            "B) Les éthiques déontologiques s'y opposent",
+            "C) Elle est actuellement interdite en France",
+            "D) Elle est tolérée par l'éthique minimaliste de Ruwen Ogien",
+            "E) Elle est rendue possible en France par la liberté de disposer de son corps"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le principisme anglosaxon, indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) C'est une théorie philosophique développée au 18ème siècle",
+            "B) C'est la théorie de John Stuart Mills",
+            "C) Elle repose sur 3 principes",
+            "D) La bienfaisance est un de ses principes",
+            "E) La liberté est un de ses principes"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Monsieur B, 48 ans, est arrivé en France il y a 5 mois. Il est en situation irrégulière et sans ressource. A quelle couverture maladie Monsieur B peut prétendre ?",
+          "choix": [],
+          "reponses": [
+            "AME ou Aide Médicale d’Etat"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste et recevez Madame A, femme nigériane de 32 ans que vous suivez depuis 2 ans. Vous lui avez diagnostiqué une hyperthyroïdie il y a 6 mois, pour laquelle vous lui prescrivez un traitement de substitution. Elle n’est pas venue vous voir depuis 3 mois et n’a pas fait son premier bilan de contrôle. Elle vous explique en effet ne pas avoir eu de réponse à sa demande de renouvellement de sa CSS et être actuellement en rupture de droits. Elle vous avoue avoir arrêté son traitement il y a 15 jours faute de couverture maladie.\nQuelle est la prise en charge la plus adaptée ?",
+          "choix": [
+            "A) Vous lui prescrivez son traitement et une prise de sang en lui rappelant l’importance de reprendre le suivi",
+            "B) Vous l’orientez vers la PASS",
+            "C) Vous l’orientez vers les urgences",
+            "D) Vous l’orientez vers les LHSS (Lits Halte Soins de Santé)",
+            "E) Vous l’orientez vers son assistante sociale pour réaliser une demande de CSS et lui dites de revenir vous voir ensuite pour reprendre le suivi"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous êtes médecin en cabinet de médecine générale et recevez régulièrement des nouveaux patients. Quels sont les 4 éléments à recueillir systématiquement à l’interrogatoire, lors de la première consultation, afin de repérer les personnes en situation de précarité ?",
+          "choix": [
+            "A) L'adresse",
+            "B) La profession",
+            "C) Les revenus",
+            "D) La maîtrise du français (oral et écrit)",
+            "E) Le type de couverture médicale (mutuelle privée, droits de base, Couverture Santé Solidaire ou CSS, Aide Médicale d'Etat ou AME, …)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin à la PASS (Permanence d’Accès aux Soins de Santé) et recevez en consultation un homme bulgare de 59 ans. Il n’a pas de droit ouvert à la sécurité sociale. Il vous explique qu’il présente un syndrome polyuro-polydipsique s’intensifiant depuis quelques mois. Indiquez la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) La PASS est un service gratuit pour les patients sans droit ou avec des droits incomplets",
+            "B) Vous suspectez un diabète : vous lui prescrivez une prise de sang à réaliser dans un laboratoire près de chez lui dès demain, à jeun, et lui redonnez un RDV en suivant",
+            "C) Vous suspectez un diabète : vous demandez aux infirmier(es) de la PASS de réaliser une prise de sang pour confirmer votre diagnostic",
+            "D) Vous orientez ce patient vers l'assistante sociale du service afin de l'aider à trouver une solution durable concernant la prise en charge de ses soins",
+            "E) Son HbA1c étant à 13%, vous le gardez hospitalisé à la PASS pour introduire une insulinothérapie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les inégalités sociales de santé, indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elles montrent que chaque catégorie sociale présente un niveau de mortalité et de morbidité plus faible que le groupe social inférieur",
+            "B) Elles s'expliquent par une différence de ressources pour vivre sainement en fonction du niveau social, mais aussi une différence d'exposition aux risques pour la santé et une susceptibilité différentielle",
+            "C) Elles ont été vérifiées pour les cancers, les maladies cardio-vasculaires et la santé dentaire mais pas sur l'espérance de vie",
+            "D) Le non-recours aux soins correspond aux situations de besoin de soins avérés (ressentis ou non), mais non satisfaits",
+            "E) Le renoncement aux soins correspond aux situations de besoins de soins ressentis (avérés ou non) mais non satisfaits"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans un service d’urgences, le chef de service suit différents indicateurs. Il existe plusieurs types d’indicateurs. De quels types s’agit-il ?",
+          "choix": [
+            "A) Le délai d'attente avant de voir un médecin après l'arrivée est un indicateur de processus",
+            "B) La proportion de patients revenus aux urgences dans les 48H suivant leur sortie est un indicateur de structure",
+            "C) Parmi les patients âgés ayant fait l'objet d'un diagnostic de fracture du col du fémur, la proportion de patients opérés dans les 48h (correspondant à la recommandation de la société savante d'orthopédie pour réduire la mortalité de ces patients fragiles) est un indicateur de résultat",
+            "D) Le nombre de médecins par lit d'UHCD disponible est un indicateur de structure",
+            "E) L'appréciation par les patients de la possibilité de poser toutes leurs questions aux médecins est un PROMS"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 24
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une équipe se réunit régulièrement afin d’arriver à un consensus sur la proposition thérapeutique à formuler à un patient. De quelle méthode d’EPP s’agit-il ?",
+          "choix": [
+            "A) RMM",
+            "B) RCP",
+            "C) REMED",
+            "D) REX",
+            "E) Chemin clinique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La HAS est en charge :",
+          "choix": [
+            "A) Des indicateurs nationaux qualité demandés annuellement à tous les établissements de santé (IQSS)",
+            "B) Des recommandations de bonne pratique",
+            "C) Des vigilances sanitaires",
+            "D) De l'accréditation des établissements de santé",
+            "E) De la certification des professionnels de santé"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 26
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la certification des établissements de santé, laquelle (lesquelles) de ces propositions est (sont) exacte(s) :",
+          "choix": [
+            "A) Elle est gérée par l'AFNOR",
+            "B) La certification est réalisée dans les établissements de santé volontaires",
+            "C) Les experts évaluant l'établissement sont des professionnels de santé",
+            "D) Elle est fondée sur un référentiel concentré sur les aspects relatifs au fonctionnement des équipes (par exemple la coordination des équipes de soins et la maitrise des risques), et seulement sur les points en lien avec les pratiques des équipes",
+            "E) Certains critères font l'objet d'exigences renforcées conditionnant la certification"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 27
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le Sievert :",
+          "choix": [
+            "A) Est une grandeur dosimétrique utilisée en radioprotection",
+            "B) Décrit la dose absorbée",
+            "C) Décrit un risque",
+            "D) Est une mesure de quantité de radioactivité",
+            "E) L'exposition annuelle en France est aux environ de 2mSv /an"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 28
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la radioprotection, indiquer la(es) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L'UNSCEAR est l’organisme des Nations Unies chargé également de la surveillance de la cohorte des survivants de Hiroshima et Nagasaki",
+            "B) L'ASN-R est chargée du contrôle des activités nucléaires en France y compris dans le domaine médical",
+            "C) L'AIEA contribue à l'utilisation pacifique dans le monde des découvertes de la radioactivité",
+            "D) L'échelle INES sert à décrire la gravité des accidents nucléaires",
+            "E) Il est important de noter qu'un score à 0 sur l'échelle ASN SFRO ne signifie pas l'absence d'évènement et que le score d'un évènement peut évoluer dans le temps"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 29
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les modes d’irradiation : Par rapport à un organisme, une source radioactive peut être :",
+          "choix": [
+            "A) Externe",
+            "B) Sur la peau",
+            "C) Interne",
+            "D) Incluse dans une voie métabolique",
+            "E) \" Fixée \" de manière irréversible dans l'organisme"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 30
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,202 @@
+{
+  "matiere": "Système neurosensoriel – Psychiatrie",
+  "slug": "sns-psychiatrie-s5",
+  "annee": 2026,
+  "title": "Système neurosensoriel – Psychiatrie - 2026",
+  "total_questions": 9,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les trois grands groupes de signes cliniques du TDAH ?",
+          "choix": [
+            "A) Les difficultés scolaires",
+            "B) L'hyperactivité",
+            "C) Le déficit de l'attention",
+            "D) L'impulsivité",
+            "E) Le déficit de la communication"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le TDAH, quelles sont les réponses justes ?",
+          "choix": [
+            "A) Il s’agit d’un diagnostic qui s’établit cliniquement",
+            "B) Les troubles doivent être présents pendant plus de 6 mois",
+            "C) Il est possible de présenter un TDAH en plus d’autres troubles du neurodéveloppement",
+            "D) Le TDAH évolue dans plus de la moitié des cas à l’âge adulte vers une schizophrénie",
+            "E) Il s’agit d’un trouble plus fréquemment retrouvé chez les garçons"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le développement des enfants, quelles sont les réponses justes ?",
+          "choix": [
+            "A) Un enfant avec un trouble du spectre de l’autisme peut présenter une régression dans son développement",
+            "B) Le fait qu’un enfant ne dise aucun mot à 18 mois doit être un signe d’inquiétude",
+            "C) Le fait qu’un enfant marche à 12 mois constitue un retard de développement",
+            "D) Un enfant de 9 mois peut être capable de tenir assis sans appui",
+            "E) Un enfant de 2 mois peut être capable de suivre avec les yeux"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396507949-890ea521e6572",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous accueillez en consultation la jeune M, âgée de 12 ans, ainsi que ses parents. Ce sont les parents qui demandent la consultation et M est très en colère d’être là. Elle vous fixe du regard, mais ne répond à vos questions que par oui ou par non. Les parents expliquent les difficultés de leur fille, présentes depuis plusieurs mois : il s’agit en particulier de crises importantes de colère dans des moments de frustration, de difficultés de concentration pendant les cours, ainsi que de difficultés alimentaires. Les parents notent que ces changements sont arrivés brutalement, après un épisode de harcèlement scolaire, principalement des moqueries sur le physique. M est en effet scolarisée en 5ème, sans difficultés dans les apprentissages. Vous poursuivez votre entretien pour affiner votre évaluation clinique.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Face aux difficultés de leur fille, les parents vous disent que des membres de leur entourage leur ont parlé d’un trouble du spectre de l’autisme et demandent s’il s’agit du diagnostic que vous envisagez. Que pouvez-vous leur répondre ?",
+          "choix": [
+            "A) La présentation de M pendant votre entretien peut en effet évoquer le déficit de la communication et des interactions sociales retrouvé dans les troubles du spectre de l’autisme.",
+            "B) Avec les informations dont vous disposez, la présence des crises de colère dans les moments de frustration peut en effet évoquer l’intolérance au changement retrouvée dans les troubles du spectre de l’autisme.",
+            "C) L’absence de difficultés scolaires est ici un argument suffisant pour écarter un diagnostic de trouble du spectre de l’autisme.",
+            "D) Il vous faudrait plus d’informations, notamment sur le développement et la petite enfance de M, pour pouvoir répondre.",
+            "E) Il est impossible de répondre sans faire passer des tests psychométriques spécialisés à M."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous interrogez les parents sur le développement et la petite enfance de M : elle n’a pas présenté de retard de développement et avait des facilités dans les relations sociales jusqu’à l’épisode de harcèlement, après lequel elle s’est considérablement repliée. Quelle réponse donnez-vous sur la question du trouble du spectre de l’autisme ?",
+          "choix": [
+            "A) Il est très probable, car M présente des difficultés de communication et une intolérance forte à la frustration.",
+            "B) Il est probable, à condition que les troubles alimentaires présentés par M soient liés à une forte sélectivité alimentaire.",
+            "C) Il est peu probable, mais M devrait revenir consulter d’ici un an car il pourrait apparaître plus tardivement.",
+            "D) Il est très peu probable, principalement par rapport à la cinétique d’apparition des troubles et l’absence de retard dans le développement précoce.",
+            "E) Il est très peu probable, mais devant ce tableau atypique, vous aurez besoin de réaliser un test de QI pour écarter définitivement l’hypothèse."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les parents de M sont également très surpris par ses crises de colère, qui peuvent parfois aller jusqu’à des jets d’objets dans la maison. En revanche, M ne présente pas de telles difficultés en dehors du domicile. En prenant en compte les informations que vous avez jusqu’à présent, que pouvez-vous dire de ces crises ?",
+          "choix": [
+            "A) Elles vous font évoquer un TDAH.",
+            "B) Elles vous font évoquer un diagnostic de trouble des conduites.",
+            "C) Elles sont sans importance.",
+            "D) Elles nécessitent une hospitalisation.",
+            "E) Elles ne sont pas nécessairement liées à un trouble pédopsychiatrique."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Finalement, au fil de l’entretien, vous comprenez que M présente une tristesse importante de l’humeur depuis l’épisode de harcèlement, qu’elle a très peur de se rendre au collège. Les épisodes de crise au domicile sont liés à de très fortes angoisses. Vous décidez d’explorer la question de l’humeur à la recherche d’un épisode dépressif caractérisé.",
+          "choix": [
+            "A) Les enfants et adolescents ne peuvent pas présenter d’épisodes dépressifs caractérisés.",
+            "B) Les difficultés alimentaires pourraient rentrer dans le cadre d’un épisode dépressif caractérisé.",
+            "C) Si vous suspectez un épisode dépressif caractérisé, il vous faudra interroger la présence d’idées suicidaires.",
+            "D) Il est risqué de demander à M si elle présente des idées suicidaires.",
+            "E) Il sera peut-être plus facile dans un premier temps pour M de parler des idées suicidaires sans ses parents."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous décidez d’interroger plus spécifiquement les difficultés alimentaires de M. Elle vous explique se trouver trop grosse et cherche absolument à maigrir. Les parents vous expliquent que son poids est trop bas pour son âge et que M ne mange presque plus rien pendant les repas. M n’a pas encore eu ses premières règles. Quelles sont les réponses justes concernant ces informations ?",
+          "choix": [
+            "A) M est trop jeune pour qu’un diagnostic de trouble du comportement alimentaire soit posé.",
+            "B) La dénutrition peut expliquer que M n’ait toujours pas eu ses règles.",
+            "C) Il est possible que M perde plus de cheveux du fait de ses difficultés alimentaires.",
+            "D) La perception déformée que M a de son corps constitue un des critères diagnostiques de l’anorexie mentale.",
+            "E) M présente un diagnostic de dépression : elle ne peut pas présenter également un diagnostic de trouble du comportement alimentaire."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous cherchez à préciser le diagnostic de trouble du comportement alimentaire. Les parents expliquent que M a d’abord exclu certains types d’aliments puis a diminué ses prises alimentaires. Elle ne se fait pas vomir, ne présente pas d’hyperactivité physique ni d’épisodes d’hyperphagie. Quel diagnostic retenez-vous parmi les suivants ?",
+          "choix": [
+            "A) Une anorexie mentale",
+            "B) Une anorexie mentale restrictive",
+            "C) Une anorexie mentale hyperphagique",
+            "D) Une anorexie mentale purgative",
+            "E) Une anorexie-boulimie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

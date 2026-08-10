@@ -1,0 +1,465 @@
+{
+  "matiere": "Génétique médicale",
+  "slug": "genetique-medicale-s4",
+  "annee": 2026,
+  "title": "Génétique médicale - 2026",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel est le mode de transmission le plus probable sur l’arbre ci-dessous ?",
+          "choix": [
+            "A) Transmission autosomique récessive",
+            "B) Transmission autosomique dominante",
+            "C) Transmission récessive liée à l’X",
+            "D) Transmission liée à l’ADN mitochondrial",
+            "E) Transmission dominante liée à l’X"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/genetique-medicale-s4/2026/q1.webp?v=1786395717418"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle ou lesquelles sont exacte(s) ?",
+          "choix": [
+            "A) Les variations de novo sont la cause la moins fréquente de troubles du développement intellectuel en France",
+            "B) Les variations de novo sont la cause la plus fréquente de troubles du développement intellectuel en France",
+            "C) Le nombre de variants de novo augmente avec l’âge maternel",
+            "D) Le nombre de variants de novo augmente avec l’âge paternel",
+            "E) Les mutations de novo peuvent être impliquées dans des maladies récessives"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le risque de transmission pour un patient avec une mutation survenue de novo d’une pathologie autosomique dominante, laquelle ou lesquelles sont exacte(s) ?",
+          "choix": [
+            "A) Le risque de transmission est de 50% pour ses filles uniquement",
+            "B) Le risque de transmission est de 50% pour ses garçons uniquement",
+            "C) Le risque de transmission est de 50% pour ses filles et ses garçons",
+            "D) Le risque de transmission est a priori nul si la mutation est en mosaïque chez lui",
+            "E) Aucune des réponses ci-dessus n’est exacte"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la drépanocytose, laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Son mode de transmission est autosomique dominant",
+            "B) Son mode de transmission est autosomique récessif",
+            "C) Sa prévalence est plus grande dans les régions où le paludisme est fréquent",
+            "D) Sa prévalence est plus faible dans les régions où le paludisme est fréquent",
+            "E) Elle constitue un exemple de pathologie génétique où il existe un avantage sélectif des hétérozygotes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la prescription d’analyses génétiques chez des personnes symptomatiques, laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Elle est réservée aux médecins exerçant dans un service de génétique",
+            "B) Elle peut être réalisée par un·e conseillèr·e en génétique",
+            "C) Elle peut être réalisée par un·e spécialiste d’organe formé·e en génétique",
+            "D) Son indication est restreinte aux couples ayant un projet de grossesse",
+            "E) Contrairement au diagnostic présymptomatique, elle ne nécessite pas le consentement préalable du patient"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les découvertes fortuites, laquelle ou lesquelles sont exacte(s) ?",
+          "choix": [
+            "A) Elles sont obligatoirement rendues aux patients",
+            "B) Elles doivent être discutées en amont de la signature du consentement",
+            "C) Elles sont restreintes aux pathologies pouvant bénéficier d’un traitement",
+            "D) Elles nécessitent souvent une collaboration multidisciplinaire",
+            "E) Aucune des réponses ci-dessus n’est exacte"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395718679-f3cb5c7f841e6",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos de la nomenclature des variations de séquence. Cochez la(les) proposition(s) juste(s)",
+          "choix": [
+            "A) La dénomination p.(Ala758Ile) indique que l’impact sur la protéine n’a pas été étudié",
+            "B) Le résultat p.(=) indique qu’aucun changement protéique secondaire à la variation nucléotidique n’est attendu",
+            "C) La variation c.4072-8_4084del indique la présence d’une délétion débutant dans un intron et se terminant dans un exon",
+            "D) La variation protéique p.(Lys4Serfs*9) est secondaire à une variation nucléotidique décalant le cadre de lecture",
+            "E) La variation c.[His632Ala];[His632Ala] est une variation faux-sens homozygote"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des méthodes d’analyses du génome. Cochez la(les) proposition(s) juste(s)",
+          "choix": [
+            "A) Il existe en France une organisation mise en place pour la prescription et la réalisation du séquençage du génome à visée diagnostique en première intention",
+            "B) Le séquençage d’exome ne permet de séquencer que les 10 % du génome correspondant aux séquences codantes.",
+            "C) Le séquençage d’exome détecte mieux les variations exoniques que le séquençage de génome",
+            "D) Pour la réalisation d’un séquençage d’un panel de gènes, il est fréquent d’utiliser une étape de capture",
+            "E) Le séquençage du génome est capable de mettre en évidence des remaniements chromosomiques de type translocations réciproques équilibrées ou déséquilibrées"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Donnez le ou les exemples de maladies classiquement monogéniques",
+          "choix": [
+            "A) Diabète de type 2",
+            "B) Mucoviscidose",
+            "C) Cancer du poumon",
+            "D) Obésité",
+            "E) Syndrome de Prader-Willi"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les variations pathogènes des gènes BRCA1 et BRCA2 sont principalement associées une prédisposition à",
+          "choix": [
+            "A) Cancer du poumon",
+            "B) Cancer du sein et de l’ovaire",
+            "C) Cancer du foie",
+            "D) Cancer du cerveau",
+            "E) Cancer de la vessie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395719979-2381be3894d11",
+      "type": "SQI",
+      "title": "SQI 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos de l'organisation du génome humain",
+          "choix": [
+            "A) La taille totale du génome nucléaire est d'environ 3,2 Gb.",
+            "B) Les régions codantes (exons) représentent environ 10 % de l'ADN total.",
+            "C) L'ADN mitochondrial est une molécule circulaire d'environ 1,6 Mb.",
+            "D) On dénombre plus de 20 000 gènes codants dans le génome humain.",
+            "E) Un nucléotide associe une base azotée, un sucre et un groupement phosphate."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les aneuploïdies autosomiques, laquelle est exacte ?",
+          "choix": [
+            "A) Elles correspondent à un nombre anormal de lots haploïdes entiers.",
+            "B) Les trisomies des autosomes sont toutes viables à l'état homogène.",
+            "C) Seules les trisomies 13, 18 et 21 sont viables à l'état homogène chez l’être humain.",
+            "D) Une monosomie autosomique homogène est généralement viable.",
+            "E) Le syndrome de Klinefelter est une aneuploïdie autosomique."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des inversions chromosomiques, laquelle (ou lesquelles) de ces propositions est/sont correcte(s) ?",
+          "choix": [
+            "A) Une inversion péricentrique n'inclut pas le centromère.",
+            "B) Une inversion paracentrique inclut obligatoirement le centromère.",
+            "C) Elles sont considérées comme des remaniements déséquilibrés.",
+            "D) Elles nécessitent deux points de cassure.",
+            "E) Elles peuvent être associées à un autre variant de structure."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle est la définition d'une mosaïque en cytogénétique ?",
+          "choix": [
+            "A) Une anomalie chromosomique présente dans toutes les cellules de l'individu.",
+            "B) Une anomalie chromosomique qui survient au cours d'une division mitotique après la fécondation.",
+            "C) Une anomalie chromosomique transmise par un des parents.",
+            "D) Une anomalie chromosomique qui touche uniquement les autosomes.",
+            "E) Une anomalie qui n'est visible que par technique de FISH."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395721161-68f06ca4d2d8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez en consultation Mme. Gautier et M. Turpin en consultation. Le couple n’a pas d’antécédent personnel ni familial particulier, ils ont un enfant en bonne santé. Mme Gautier est actuellement enceinte à 13 SA. L’échographie du 1er trimestre n’a pas mis en évidence d’anomalie, la clarté nucale a été mesurée à 2,5mm. Le dépistage combiné de la trisomie 21 retrouve un risque à 1/43.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment interprétez-vous vous ce risque ?",
+          "choix": [
+            "A) Le risque est faible.",
+            "B) Le risque est augmenté.",
+            "C) Le risque est très élevé.",
+            "D) Un test sur l’ADN libre circulant (DPNI) est indiqué en 1re intention.",
+            "E) Un prélèvement invasif pour confirmation diagnostique est indiqué en 1re intention."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant ce risque, vous proposez un prélèvement invasif pour confirmation diagnostic. Quel prélèvement et quel examen proposez-vous en 1re intention ?",
+          "choix": [
+            "A) Une choriocentèse",
+            "B) Une cordocentèse",
+            "C) Le séquençage de l’exome en trio",
+            "D) Un caryotype fœtal",
+            "E) Le risque de fausse couche lié à un prélèvement invasif est estimé à 5 %"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le caryotype retrouve le résultat suivant : 47,XXY",
+          "choix": [
+            "A) Le diagnostic de trisomie 21 est confirmé.",
+            "B) Il s’agit d’un fœtus de sexe masculin.",
+            "C) Il s’agit probablement d’une donnée incidente.",
+            "D) Si le couple en fait la demande, une interruption médicale de grossesse (IMG) est recevable dans ce contexte.",
+            "E) Un caryotype des parents est indiqué."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous expliquer au couple que le caryotype retrouve un syndrome de Klinefelter. À propos de ce syndrome.",
+          "choix": [
+            "A) Le phénotype est le plus souvent normal à la naissance.",
+            "B) Il s'accompagne classiquement d'une grande taille et d'un hypogonadisme à la puberté.",
+            "C) L'infertilité par azoospermie est quasi constante à l'âge adulte.",
+            "D) Il n'y a généralement pas de trouble du développement intellectuel associé.",
+            "E) Une atteinte cardiovasculaire est retrouvée chez environ la moitié des patients."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395722549-e1245a872852a",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous allez prendre en charge dans votre cabinet de médecine générale Nathan, un garçon de 7 ans chez qui un syndrome de Jerwell Lange Nielsen a récemment été confirmé moléculairement.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces sites, lesquels peuvent contenir des informations sur les maladies rares en français et validées par des experts",
+          "choix": [
+            "A) Orphanet",
+            "B) Genereviews",
+            "C) OMIM",
+            "D) Référentiels PNDS sur le site de la HAS",
+            "E) Doctissimo"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Via Orphanet, vous trouvez les informations ci-dessous sur cette pathologie. D’après les informations ci-dessus laquelle ou lesquelles affirmations sont exactes ?\nSyndrome de Jervell et Lange-Nielsen",
+          "choix": [
+            "A) Le risque de transmission à la descendance d’une personne atteinte de la pathologie est faible.",
+            "B) Le syndrome de Jerwell Lange Niel est une pathologie rare",
+            "C) La surdité associée à ce syndrome engage le pronostic vital",
+            "D) Ce syndrome doit être suspecté chez toute personne présentant une surdité",
+            "E) Ce syndrome peut amener à réaliser un ECG dans le cadre d’un bilan étiologique de surdité de perception profonde bilatérale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/genetique-medicale-s4/2026/q20.webp?v=1786395723490"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au décours de la consultation, la mère vous apprend qu’elle a eu ce matin un test de grossesse positif, et s’inquiète du risque de récidive du syndrome de Jerwell Lange Niel pour le fœtus. Vous l’orientez rapidement en consultation de conseil génétique. Laquelle ou lesquelles des propositions ci-dessous est ou sont exacte(s) ?",
+          "choix": [
+            "A) Il est important de savoir si le conjoint actuel est aussi le père de Nathan pour préciser le conseil génétique.",
+            "B) Si le couple demande un diagnostic prénatal, il faudra forcément présenter la demande auprès d’un CPDPN.",
+            "C) En cas de demande d’interruption dans le cadre d’une grossesse gémellaire monozygote avec un diagnostic prénatal défavorable, l’interruption se fera sur les deux fœtus.",
+            "D) Pour d’autres grossesses, le couple ne pourra pas s’orienter vers une demande de diagnostic pré-implantatoire car il n’y a pas de centre de DPI à Toulouse.",
+            "E) Si un DPNI d’exclusion du variant paternel est réalisé et revient défavorable (variant présent) alors le risque pour le fœtus d’être atteint de la maladie sera de 25%."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,458 @@
+{
+  "matiere": "Biochimie",
+  "slug": "biochimie-s3",
+  "annee": 2022,
+  "title": "Biochimie - 2022",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’orosomucoïde.",
+          "choix": [
+            "A) C’est une a1-glycoprotéine basique.",
+            "B) C’est une glycoprotéine riche en acides sialiques.",
+            "C) C’est une glycoprotéine principalement synthétisée par le foie.",
+            "D) Elle peut avoir un rôle de transporteur de composés lipophiles.",
+            "E) Sa concentration circulante diminue dans les états inflammatoires."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des marqueurs tumoraux sériques.",
+          "choix": [
+            "A) Le CA 15-3 peut se révéler anormalement élevé dans les cancers du sein, de l’ovaire et de l’utérus.",
+            "B) Le PSA est utilisé uniquement à visée pronostique et pour le suivi du patient atteint d’un cancer prostatique.",
+            "C) Le CA 125 est utilisé comme test de dépistage du cancer de l’ovaire.",
+            "D) Le CA 19-9 possède une valeur pronostique dans l’adénocarcinome du pancréas et le cholangiocarcinome.",
+            "E) L’ACE, associé au dosage de la hCG, participe au diagnostic des cancers testiculaires."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'acétyl-CoA.",
+          "choix": [
+            "A) Il peut être formé dans la matrice des peroxysomes à partir de certains acyl- CoA.",
+            "B) Il peut être formé à l’extérieur des mitochondries par l’ATP-citrate lyase.",
+            "C) Il peut servir à la production d'HMG-CoA dans les mitochondries du foie pour produire des corps cétoniques.",
+            "D) Il peut servir à la production d'HMG-CoA dans les mitochondries du foie pour produire du cholestérol.",
+            "E) Il peut être produit dans les mitochondries du foie à partir de l'acétoacétate qui a circulé dans le sang."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du métabolisme des HDL.",
+          "choix": [
+            "A) Le passage d’une forme discoïdale à une forme sphérique des HDL correspond à un enrichissement en triglycérides (TG).",
+            "B) La transformation de pré-beta-HDL en HDL3 nécessite l’action d’une LCAT.",
+            "C) Les HDL peuvent échanger des TG avec les VLDL.",
+            "D) L’échange de TG est assuré par la protéine PCSK9.",
+            "E) Les HDL sont hydrolysées par la lipase pancréatique."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En considérant les protéines plasmatiques suivantes :\nUne protéine 1 qui participe au processus de la coagulation\nUne protéine 2 responsable de la pression oncotique\nUne protéine 3 dont les taux sont effondrés lors d’une hémolyse intravasculaire",
+          "choix": [
+            "A) La protéine 1 peut être la fibrine qui migre dans la zone des béta-2 globulines en électrophorèse capillaire.",
+            "B) La protéine 2 peut être la ferritine.",
+            "C) La protéine 2 peut diminuer dans les états inflammatoires.",
+            "D) La protéine 3 peut être l’haptoglobine qui migre dans la zone des alpha-2 globulines en électrophorèse capillaire.",
+            "E) La concentration circulante de la protéine 3 diminue dans les états inflammatoires."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’ammoniac:",
+          "choix": [
+            "A) Il est produit lors des premières étapes du catabolisme des acides aminés.",
+            "B) Il traverse la barrière hémato-méningée.",
+            "C) Les organes qui participent à son élimination sont le foie, le rein et l’intestin.",
+            "D) Trois molécules d’azote sont éliminées à chaque tour de cycle de l’urée.",
+            "E) Il est transporté dans le sang par l’albumine."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des marqueurs tumoraux sériques.",
+          "choix": [
+            "A) L’AFP peut se révéler anormalement élevé chez les patients atteints de carcinome hépatocellulaire ou de cancer du testicule.",
+            "B) La hCG peut être utilisée dans le dépistage des cancers du placenta chez les femmes à risque.",
+            "C) La sensibilité et la spécificité de la plupart des marqueurs tumoraux sériques permettent de les utiliser principalement pour dépister les cancers.",
+            "D) L’ACE peut être anormalement élevé en présence de cancer colorectal, du sein et des poumons.",
+            "E) Pour détecter un cancer, la sensibilité analytique de la radiographie est généralement plus grande que celle du dosage sérique des marqueurs tumoraux."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du transporteur GLUT4:",
+          "choix": [
+            "A) En présence d’insuline il est séquestré dans des vésicules intracellulaires.",
+            "B) C’est un transporteur actif du glucose dans les cellules.",
+            "C) Il est exprimé majoritairement au niveau des cellules beta-pancréatiques.",
+            "D) L’action de l’insuline sur GLUT4 au niveau musculaire s’accompagne d’une diminution du métabolisme du glucose au niveau hépatique.",
+            "E) Le défaut de captation du glucose par les cellules est une première étape dans le développement du diabète de type 2."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le déficit en deshydrogénase des acyl-CoA à chaîne longue (VLCAD) est une maladie autosomique récessive rare.",
+          "choix": [
+            "A) Cette maladie affecte la beta-oxydation des acides gras tels que l’acide hexacosanoïque (C26:0).",
+            "B) Ses manifestations apparaissent lorsque les apports glucidiques du patient deviennent très insuffisants.",
+            "C) Elle se traduit biologiquement par une accumulation des acides gras ramifiés (acides phytanique et pristanique).",
+            "D) Elle se traduit biologiquement par une accumulation (par exemple dans le plasma) d’acylcarnitines à chaîne courte, c’est-à-dire en C4.",
+            "E) Sa prise en charge repose sur un régime alimentaire pauvre en graisses ordinaires et enrichi en triglycérides à chaîne moyenne."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le métabolisme de l’hème :",
+          "choix": [
+            "A) Les précurseurs de la synthèse de l’hème sont la glycine et le succinyl- CoA.",
+            "B) L’hème fait partie de la structure de l’hémoglobine.",
+            "C) Les porphyries sont des maladies liées à un défaut génétique de la synthèse de l’hème.",
+            "D) Une hémolyse aiguë s’accompagne d’une hyperbilirubinémie non conjuguée.",
+            "E) L’ictère est un signe d’hyperbilirubinémie conjuguée ou non conjuguée."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un enfant de sexe masculin né en Afrique se présente à la consultation avec des signes d'anémie hémolytique aiguë et un\nictère suite à l’ingestion de fèves.",
+          "choix": [
+            "A) Vous suspectez un déficit en Glucose 6-phosphate déshydrogénase.",
+            "B) L’anémie hémolytique est due à une réduction des capacités de lutte contre le stress oxydant.",
+            "C) Les cofacteurs des enzymes de détoxification des radicaux libres sont le NADH et le NADPH.",
+            "D) La voie des pentoses phosphates est particulièrement impliquée dans la production de NADPH et de ribose-5P.",
+            "E) Cette sensibilité à l’ingestion de fèves autorise un traitement médicamenteux par sulfamides."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la structure des lipoprotéines sériques.",
+          "choix": [
+            "A) La couche périphérique contient des apolipoprotéines amphipathiques.",
+            "B) Tous les glycérolipides sont situés sur la couche périphérique.",
+            "C) Tous les glycérolipides sont localisés dans le noyau-cœur.",
+            "D) La couche périphérique comporte une double couche de cholestérol et de phospholipides.",
+            "E) Les acyl-esters de cholestérol sont localisés exclusivement dans le noyau-coeur."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du métabolisme lipidique.",
+          "choix": [
+            "A) En période de jeûne, la synthèse d’acides gras est freinée par la chute de la disponibilité en glucose (donc, par le manque en citrate et en insuline).",
+            "B) En période de jeûne, les acyl-CoA libérés par la lipolyse activent l’acétyl-CoA carboxylase.",
+            "C) En période de jeûne, les mitochondries du foie produisent du beta-hydroxybutyrate.",
+            "D) En période de jeûne, les mitochondries du foie transforment le beta- hydroxybutyrate et l’acétoacétate en acétyl-CoA.",
+            "E) En période post-prandiale, le malonyl-CoA active la carnitine palmitoyl-transférase I (CPT I) et stimule la beta-oxydation."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’action cellulaire de l’insuline s’exerce au travers :",
+          "choix": [
+            "A) De récepteurs de type protéine kinase.",
+            "B) De récepteurs de type protéine G hétérotrimérique.",
+            "C) De petites protéines G.",
+            "D) D’une phosphodiestérase.",
+            "E) De l’adénylate cyclase."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Origine des acides gras.",
+          "choix": [
+            "A) Dans l’intestin, l’acide palmitique peut provenir des triglycérides alimentaires via l'action de la lipase pancréatique.",
+            "B) L’acide palmitique libéré dans le sang circulant peut provenir des triglycérides des VLDL via l'action de la lipoprotéine lipase.",
+            "C) Dans l’adipocyte, l’acide palmitique peut être synthétisé à partir de glycérol.",
+            "D) Dans l’hépatocyte, l’acide palmitique peut provenir des esters de cholestérol des LDL via l'action de la lipase acide lysosomale.",
+            "E) Dans le myocyte, l’acide palmitique peut provenir des glycérophospholipides via l'action de la phospholipase D."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un de vos patients vous diagnostiquez un diabète de type 1. D’un point de vue physiopathologique :",
+          "choix": [
+            "A) Vous observez un déficit en insuline et C-peptide sérique.",
+            "B) Vous observez un déficit d’activité de la PKA au niveau cellulaire.",
+            "C) Le taux de fructose 2,6-diphosphate hépatique est augmenté.",
+            "D) La néoglucogenèse hépatique est augmentée.",
+            "E) La glycogénolyse hépatique est augmentée."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une jeune femme vous consulte pour amaigrissement rapide. Elle signale pourtant manger et boire beaucoup et indique se\nréveiller plusieurs fois dans la nuit pour aller aux toilettes. L’examen clinique est normal. La glycémie à jeun que vous lui\nprescrivez est à 1,85 g/l (valeurs de référence : 0,7-1,1 g/l). Que préconisez-vous ?",
+          "choix": [
+            "A) Vous contrôlez la glycémie à jeun.",
+            "B) Vous recherchez une glycosurie.",
+            "C) Vous recherchez une cétonurie.",
+            "D) Vous demandez un dosage d’insuline.",
+            "E) Vous demandez un dosage de glucagon."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Biosynthèse des acides gras.",
+          "choix": [
+            "A) La conversion de l’acétyl-CoA en malonyl-CoA constitue l’étape limitante et régulée de la biosynthèse des acides gras.",
+            "B) Chacune des 7 réactions de la biosynthèse des acides gras est catalysée par une enzyme bien spécifique, impliquant ainsi 7 gènes différents.",
+            "C) Le citrate qui sort de la mitochondrie est un inhibiteur allostérique de l'acétyl-CoA carboxylase.",
+            "D) La biosynthèse des acides gras nécessite la production, notamment par la voie des pentoses phosphates, de coenzymes nicotiniques réduits.",
+            "E) L’insuline permet de déphosphoryler et d’activer l'acétyl-CoA carboxylase."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395599371-d6e03c1a852088",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "La petite Anasthasia est née le 13 janvier 2022 à la maternité de Toulouse. Quelques jours après sa naissance, la petite fille est\namenée aux urgences par ses parents à la suite de plusieurs vomissements. A son arrivée, elle est hypotonique, dans un état de\nsomnolence. De plus, ses parents décrivent des mouvements anormaux de leur bébé au cours des dernières 24h. L’interne qui\nl’examine veut prescrire un bilan biologique.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la leucinose :",
+          "choix": [
+            "A) Le tableau neurologique des patients est principalement dû à la neurotoxicité de l’isoleucine.",
+            "B) Le traitement d’urgence inclut l’arrêt immédiat de l’apport protéique.",
+            "C) Une perfusion de glucose est généralement faite aux patients pour stopper le catabolisme protéique endogène.",
+            "D) Le patient devra suivre un régime pauvre en acides aminés ramifiés tout au long de sa vie.",
+            "E) Il n’est pas utile de suivre cliniquement et biologiquement le patient de façon régulière."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "D’après ces résultats, quel diagnostic pouvez-vous évoquer ?",
+          "choix": [
+            "A) Phénylcétonurie",
+            "B) Leucinose",
+            "C) Maladie de Paget",
+            "D) Alloisoleucinose",
+            "E) Homocystinurie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan métabolique est maintenant terminé, le diagnostic d’une leucinose est confirmé. Parmi les résultats suivants,\nle(s)quel(s) est(sont) attendu(s) et cohérent(s) avec cette pathologie :",
+          "choix": [
+            "A) La chromatographie des acides organiques urinaires révèle une augmentation des 3 acides alpha-cétoniques correspondant aux 3 acides aminés non catabolisés.",
+            "B) Une ammoniémie très augmentée.",
+            "C) Un taux d’acide méthylmalonique très augmenté dans les urines.",
+            "D) Un taux de sérine plasmatique supérieure à la normale.",
+            "E) Une activité enzymatique de la BCKDH (« Branched Chain KetoAcid Dehydrogenase ») effondrée."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) examen(s) pourriez-vous lui conseiller de faire pour rechercher une maladie métabolique ?",
+          "choix": [
+            "A) Électrophorèse des protéines sériques.",
+            "B) Chromatographie des acides aminés plasmatiques.",
+            "C) Chromatographie des acides organiques urinaires.",
+            "D) Recherche de sang dans les selles.",
+            "E) Ammoniémie."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

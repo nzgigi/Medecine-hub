@@ -1,0 +1,479 @@
+{
+  "matiere": "Gynécologie-obstétrique",
+  "slug": "gynecologie-obstetrique-s9",
+  "annee": 2026,
+  "title": "Gynécologie-obstétrique - 2026",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Mademoiselle K. , 23 ans, consulte car elle présente des troubles sexuels. Elle se plaint de douleurs pendant les rapports sexuels en décrivant des douleurs dans le bas du ventre très intenses, l’obligeant parfois à arrêter les rapports, alors que la pénétration se fait initialement avec facilité.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Sur le plan sémiologique, comment qualifiez-vous cette symptomatologie sexuelle (2 mots attendus) ?",
+          "choix": [],
+          "reponses": [
+            "Dyspareunie profonde"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Au cours de votre interrogatoire, vous apprenez que la patiente présente également des dysménorrhées et une pollakiurie cataméniale. Elle n'a pas de signe fonctionnel digestif. Quels sont les 3 pathologies qui pourraient expliquer l’ensemble de ce tableau clinique ?",
+          "choix": [
+            "A) Vaginisme",
+            "B) Cystite",
+            "C) Adénomyose",
+            "D) Infection génitale haute",
+            "E) Endométriose pelvienne profonde",
+            "F) Fibromyalgie",
+            "G) Endométriose pelvienne superficielle",
+            "H) Neuropathie pudendale",
+            "I) Malformation congénitale",
+            "J) MICI",
+            "K) Syndrome douloureux vésical"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Citez les examens paracliniques qui pourraient permettre de faire un diagnostic d’endométriose pelvienne profonde chez cette patiente au vu de ses symptômes :",
+          "choix": [
+            "A) Echographie pelvienne par voie abdominale et endovaginale",
+            "B) Echographie endorectale",
+            "C) Scanner abdominopelvien",
+            "D) IRM abdominopelvienne",
+            "E) Coelioscopie"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395749562-a5eb94082bb3c8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous accueillez aux urgences gynécologiques une femme de 20 ans, sans antécédents, fumeuse, présentant une douleur en fosse iliaque droite depuis 2 jours. Elle vous informe qu’elle a eu des rapports sexuels avec un nouveau partenaire récemment. Vous suspectez une infection sexuellement transmissible (IST)",
+          "choix": [
+            "A) Son âge est un facteur de risque d’IST",
+            "B) L’IST la plus fréquente est le gonocoque",
+            "C) Le Chlamydia trachomatis est un bacille à Gram négatif intracellulaire obligatoire, dont le pic d’incidence est entre 15 et 34 ans chez la femme",
+            "D) Si le bilan biologique de cette patiente est normale, le diagnostic d’IST peut être éliminé",
+            "E) Le traitement du Chlamydia Trachomatis repose sur une céphalosporine de 3e génération"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le cancer du sein, quelles sont les réponses vraies :",
+          "choix": [
+            "A) Le cancer du sein est le 2e cancer le plus fréquent chez la femme après le cancer du poumon et est responsable de plus de 12000 décès par an",
+            "B) Son incidence était de 61 200 cas en 2023",
+            "C) Les gènes BRCA 1 et 2 sont impliqués dans 1 à 2 % des cancers du sein",
+            "D) Chez les patientes porteuses d’une mutation génétique BRCA 1 ou 2, une mastectomie totale bilatérale peut être proposée à partir de 30 ans",
+            "E) La découverte d’un cancer du sein chez un homme est une indication de consultation oncogénétique, peu importe l’âge du diagnostic"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels ont les facteurs de risque du cancer du sein, cocher les réponses vraies :",
+          "choix": [
+            "A) La durée d’exposition hormonale longue (ménarche jeune, ménopause tardive)",
+            "B) L’absence d’allaitement",
+            "C) L’obésité",
+            "D) L’alcool",
+            "E) Le haut niveau socio-économique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’IVG médicamenteuse, cochez les réponses vraies :",
+          "choix": [
+            "A) Elle est possible jusqu’à 9SA",
+            "B) La patiente souhaitant une contraception oestroprogestative après l’IVG pourra la débuter le jour ou le lendemain de la prise de misoprostol",
+            "C) Dans le cadre d’une IVG médicamenteuse, la patiente recevra en premier le misoprostol, puis la mifépristone",
+            "D) Le risque d’échec se situe autour de 10%",
+            "E) Le contrôle biologique du succès de l’IVG médicamenteuse est une baisse > 80% du dosage initial de l’hCG sérique à 15 jours de l’IVG"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les réponses suivantes, sélectionnez les 3 virus à risque de malformation fœtale:",
+          "choix": [
+            "A) Toxoplasmose",
+            "B) Rubéole",
+            "C) Varicelle",
+            "D) Syphilis",
+            "E) Cytomégalovirus"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les réponses suivantes, sélectionnez les 3 facteurs de risque de cancer du col de l’utérus:",
+          "choix": [
+            "A) Papillomavirus oncogène",
+            "B) Tabac",
+            "C) Nulliparité",
+            "D) Age précoce du premier rapport sexuel",
+            "E) Haut niveau socio-économique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant le cancer de l’endomètre, quelle est la proposition vraie :",
+          "choix": [
+            "A) Le cancer de l’endomètre est un cancer hormonodépendant",
+            "B) Le cancer de l’endomètre est le deuxième cancer gynécologique le plus fréquent après le cancer du col de l’utérus",
+            "C) La multiparité et l’âge tardif de ménarche sont des facteurs de risque",
+            "D) Le type histologique le plus fréquent est le carcinome épidermoïde",
+            "E) Le dosage du CA 125 fait parti du bilan de première intention"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les infections urinaires en cours de grossesse, cochez la proposition vraie :",
+          "choix": [
+            "A) La colonisation urinaire gravidique est définie par une bactériurie asymptomatique >= 10^5 UFC /mL, quelle que soit la bactérie",
+            "B) La cystite aigue est définie par des signes fonctionnels urinaires associés à une bactériurie >= 10^4 pour la plupart des bactéries sauf E Coli, quelle que soit la leucocyturie",
+            "C) En cas de cystique aigue, un traitement sera débuté uniquement après réception de l’antibiogramme",
+            "D) En cas de suspicion de pyélonéphrite, le scanner des voies urinaires fait parti du bilan diagnostique de première intention",
+            "E) Le traitement probabiliste des pyélonéphrite est l’AMOXICILLINE 1g 3 fois par jour pendant 10 à 14 jours"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quels sont les trois critères biologiques diagnostiques du HELLP syndrome :",
+          "choix": [],
+          "reponses": [
+            "Anémie hémolytique, Cytolyse hépatique, Thrombopénie"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le traitement de première intention d’une crise d’éclampsie ?",
+          "choix": [],
+          "reponses": [
+            "Sulfate de Magnésium IV"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395753964-813e22de52336",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes médecin généraliste en cabinet et vous recevez une patiente de 35 ans, que vous connaissez bien. Elle n’a pas d’antécédent particulier. Elle vous apprend qu’elle est enceinte. Elle a réalisé son échographie de datation la semaine dernière qui retrouve une grossesse intra-utérine évolutive. Elle est aujourd’hui à 10 semaines d’aménorrhées .",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les suivants, quels sont les examens biologiques obligatoires au premier trimestre, cochez la ou les bonne(s) réponse(s) :",
+          "choix": [
+            "A) Groupe sanguin, deux déterminations",
+            "B) Numération formule sanguine",
+            "C) Recherche d’Agglutinines Irrégulières",
+            "D) Sérologies syphilitique, rubéole, toxoplasmose, VIH",
+            "E) TSH"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre patiente est de groupe sanguin O négatif. Les sérologies de début de grossesse pour la syphilis, le VIH, l’hépatite B et C sont négatives. Elle n’est pas immunisée contre la rubéole ni contre la toxoplasmose.",
+          "choix": [
+            "A) Vous lui proposez de réaliser le génotypage rhésus fœtal à partir de 11 semaines d’aménorrhée",
+            "B) Si le génotypage rhésus fœtal à 11 semaines d’aménorrhée est négatif, la patiente n’aura pas besoin de recevoir d’immunoprophylaxie en cours de grossesse pour prévenir le risque d’allo immunisation",
+            "C) Vous lui proposez une vaccination ROR en cours de grossesse étant donné qu’elle n’est pas immunisée",
+            "D) Vous lui prescrivez une surveillance de sérologie toxoplasmose tous les mois jusqu’à 20 semaines d’aménorrhée, le risque après ce terme étant nul",
+            "E) Vous lui prescrivez une glycémie à jeun en dépistage du diabète gestationnel"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le dépistage du diabète gestationnel, quels sont les deux facteurs de risque vrais parmi les suivants:",
+          "choix": [
+            "A) Age maternel > 35 ans",
+            "B) IMC > 30 kg / m²",
+            "C) Antécédent de diabète chez les apparentés au premier degré",
+            "D) Antécédent personnel de diabète de type 2",
+            "E) Antécédent d’enfant macrosome sur une précédente grossesse"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’échographie du premier trimestre et le dépistage de trisomie 21, cochez la ou les bonne(s) réponse(s) :",
+          "choix": [
+            "A) L’échographie du premier trimestre sert à dater la grossesse et doit être réalisée entre 11 et 13 + 6 semaines d’aménorrhées",
+            "B) Le calcul du risque combiné de trisomie 21 au premier trimestre comprend : l’âge maternel, la mesure de la clarté nucale au premier trimestre et les marqueurs sériques du premier trimestre : alpha-FP et BHCG",
+            "C) En cas de risque combiné à 1/1500, on proposera à la patiente de réaliser un diagnostic pré natal non invasif (DPNI)",
+            "D) En cas de risque combiné à 1/23, on proposera à la patiente de réaliser un caryotype fœtal",
+            "E) En cas de DPNI positif, suffit pour confirmer une anomalie génétique et ne nécessite par de contrôle de caryotype fœtal"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395755056-d74071cdaf9f1",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous êtes le gynécologue de garde dans un centre hospitalier. Vous recevez en consultation une patiente de 62 ans, obèse, G0P0, ménopausée depuis l’âge de 55 ans, avec une prise de traitement hormonal substitutif de la ménopause pendant 5 ans. Elle n’a pas d’antécédent chirurgicaux. Elle vient vous voir car depuis 2 mois, elle a présenté 3 épisodes de métrorragies. Elle n’a pas vu de gynécologue depuis 10 ans, n’est pas à jour de ses dépistages.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant cette patiente :",
+          "choix": [
+            "A) Toutes métrorragies post ménopausique est un cancer du col de l’utérus jusqu’à preuve du contraire",
+            "B) En cas d’examen clinique normal, vous rassurez la patiente et lui demander de reconsulter si cela persiste plus de 3 mois",
+            "C) Si son traitement hormonal de la ménopause ne comportait que des œstrogènes, son risque de cancer de l’endomètre est augmenté.",
+            "D) L’obésité est un facteur de risque du cancer de l’endomètre",
+            "E) Devant la suspicion d’un cancer du col de l’utérus, vous lui faites une colposcopie en urgence"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez donc un cancer de l’endomètre, car toute métrorragie post ménopausique est un cancer de l’endomètre jusqu’à preuve du contraire.\nConcernant les examens complémentaires, cochez les 4 bonnes réponses:",
+          "choix": [
+            "A) Vous lui prescrivez une échographie pelvienne car il s’agit de l’examen d’imagerie de première intention dans ce contexte",
+            "B) Vous réaliser un examen clinique au spéculum",
+            "C) Vous réaliser une biopsie de l’endomètre car si elle est négative, vous pouvez rassurer la patiente et arrêter les explorations",
+            "D) Vous faites un toucher vaginal",
+            "E) Vous lui proposez de la mettre à jour de son dépistage du cancer du col de l’utérus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous lui avez donc fait une échographie retrouvant un endomètre mesuré à 8mm. La biopsie de l’endomètre est négative. Vous l’avez donc opéré et vous avez réalisé une hystéroscopie avec biopsies dirigées. Il s’agit d’un carcinome endométrioïde.\nConcernant le bilan d’extension, quelles sont les réponses vraies :",
+          "choix": [
+            "A) L’IRM abdominopelvienne est un examen indispensable dans le bilan d’extension locorégional",
+            "B) Le scanner thoraco-abdomino-pelvien permet de déterminer le stade FIGO",
+            "C) Le stade FIGO guidera la prise en charge thérapeutique",
+            "D) La scintigraphie osseuse fait partie du bilan d’extension",
+            "E) Les marqueurs biologiques CA 125, CA15-3 et CA 19-9, font partie du bilan d’extension"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Votre patiente avait un cancer de l’endomètre de bas grade, FIGO IB, traité par hystérectomie totale et annexectomie par coelioscopie. Elle revient vous voir 5 ans plus tard pour un mamelon gauche ombiliqué depuis 5 mois avec un nodule induré de 1cm, sans douleurs. Elle a un volume mammaire de 95C.\nConcernant cette lésion mammaire, cochez la réponse exacte :",
+          "choix": [
+            "A) Vous faites l’examen mammaire par inspection, palpation bilatérale et des aires axillaires",
+            "B) Vous lui prescrivez une échographie mammaire en première intention afin de caractériser la masse",
+            "C) Le radiologue vous donnera une classification ACR sur le compte rendu d’échographie qui guidera la conduite à tenir",
+            "D) Vous lui prescrivez également une IRM mammaire dans les examens complémentaires",
+            "E) Vous rassurez la patiente, le risque de cancer du sein est très faible dans son cas"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous la revoyez 10 jours plus tard avec les résultats de sa mammographie qui met en évidence une lésion rétro aréolaire de 15mm spiculée, classée ACR5. Cochez la ou les bonne(s) réponse(s) :",
+          "choix": [
+            "A) Vous rassurez la patiente et lui prévoyez une mammographie de contrôle dans 3 à 6 mois",
+            "B) Vous lui prévoyez une micro-biopsie de la lésion mammaire",
+            "C) En cas de biopsie retrouvant un cancer, elle devra avoir de manière systématique une échographie des aires axillaires dans le bilan de cette lésion.",
+            "D) En cas de biopsie retrouvant une cancer, elle devra avoir de manière systématique bilan d’extension à la recherche de métastase par TDM TAP et scintigraphie osseuse",
+            "E) En cas de biopsie retrouvant une cancer, elle devra avoir de manière systématique bilan d’extension à la recherche de métastase par TEP"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous la revoyez 15 jours plus tard avec les résultats de la biopsie qui retrouve un carcinome canalaire infiltrant de grade I, récepteurs hormonaux positifs à 100%, HER2 négatif, Ki67 10%. L’échographie axillaire est sans adénopathie suspecte.\nConcernant les traitements, cochez la ou les bonne(s) réponse(s) :",
+          "choix": [
+            "A) Vous l’informez qu’elle sera opérée par mastectomie partielle sans geste axillaire",
+            "B) En cas de mastectomie partielle, cette patiente n’aura pas besoin de radiothérapie complémentaire",
+            "C) Vous l’informez qu’elle aura également une thérapie ciblée par TRASTUZUMAB",
+            "D) Vous l’informez qu’elle aura également une chimiothérapie adjuvante",
+            "E) Vous l’informez qu’elle aura également une hormonothérapie par anti aromatase"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

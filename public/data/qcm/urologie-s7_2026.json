@@ -1,0 +1,325 @@
+{
+  "matiere": "Urologie",
+  "slug": "urologie-s7",
+  "annee": 2026,
+  "title": "Urologie - 2026",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes médecin généraliste et vous recevez en consultation un patient de 28 ans sans antécédent et sans traitement habituel.\nIl est peintre en bâtiment et vous rapporte une consommation régulière de cannabis.\nIl vient vous voir ce jour en consultation pour une augmentation du volume scrotal latéralisé à gauche.\nL’examen clinique des organes génitaux externes retrouve un testicule gauche pierreux, indolore. Le reste de l’examen clinique est sans particularité",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Question 1 : dans ce contexte, qui est le diagnostic étiologique principal que vous évoquez ?",
+          "choix": [],
+          "reponses": [
+            "Tumeur du testicule gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez une tumeur du testicule gauche.\nQuestion 2: Parmi les propositions suivantes, lesquelles semblent pertinentes dans ce contexte ?\n6 réponses justes",
+          "choix": [
+            "A) Réalisation d’une IRM Testiculaire pour bilan d’extension local",
+            "B) Réalisation TDM Thoraco-abdomino-pelvienne pour bilan d’extension à distance",
+            "C) Dosage des marqueurs testiculaires : AFP, HCG total et LDH",
+            "D) Echographie testiculaire",
+            "E) PSA total",
+            "F) Adressage du patient au CECOS",
+            "G) Biopsie testiculaire dès que possible",
+            "H) Adressage du patient en urologie pour discuter une prise en charge chirurgicale urgente",
+            "I) Examen clinique approfondi des aires ganglionnaires"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "F",
+            "H",
+            "I"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous confirmez la présence d'une tumeur du testicule gauche par échographie, avec un bilan d'extension par scanner et des marqueurs normaux.\nQuestion 3 : Quelle prise en charge est alors recommandée ?",
+          "choix": [
+            "A) Biopsie testiculaire gauche",
+            "B) Orchidectomie gauche par voie scrotale",
+            "C) Orchidectomie gauche par voie inguinale",
+            "D) Biopsie testiculaire droite pour rechercher une lésion contro-latérale",
+            "E) Chimiothérapie dans un premier temps avant chirurgie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370771592-6dadac226d1f1",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un patient de 70 ans se présente à votre consultation d'urologie car il dit uriner rouge.\nIl a pour antécédents une bronchopneumopathie chronique obstructive, un tabagisme actif depuis plus de 50 ans estimé à 20 cigarettes/jour, une hypertension artérielle.\nIl ne prend pas de traitement anticoagulant ou antiagrégant.\nSes constantes sont les suivantes : PA 130/70 mmHg, FC : 100/min, SaO2 : 98% en AA, Température : 37,1°C, EVA : 9/10.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Question 1 : Concernant l’hématurie, Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Le diagnostic positif repose sur la couleur des urines",
+            "B) Une hématurie est définie sur l'examen cytologique quantitative des urines lors d'un ECBU avec un taux d'hématies > 10 hématies/mm³",
+            "C) Une hématurie macroscopique caillotante est le plus souvent d'origine néphrologique",
+            "D) Une hématurie macroscopique terminale est plutôt d'origine vésicale",
+            "E) Un diagnostic différentiel peut être une coloration urinaire liée à une prise médicamenteuse de rifampicine"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Question 2 : Quelques examens complémentaires de première intention devez-vous lui proposer ?",
+          "choix": [
+            "A) ECBU avec analyse quantitative et qualitative",
+            "B) Bilan biologique avec créatininémie et numération – formule sanguine",
+            "C) Biopsie rénale",
+            "D) Echographie réno-vésico-prostatique",
+            "E) Débitmétrie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient vous explique qu’il émet des caillots de sang par voie naturelle depuis plusieurs semaines.\nVous suspectez une origine urologique à cette hématurie macroscopique.\nDFG à 85 mL/min\nQuestion 3 : Parmi les réponses suivantes, lesquelles devez-vous proposer à votre patient lors de cette consultation ?",
+          "choix": [
+            "A) Urétrocystoscopie",
+            "B) Prescription d’une TDM abomino-pelvienne sans injection de produit de contraste",
+            "C) Cytologies urinaires à envoyer en anatomopathologie",
+            "D) Prescription d’une uro-IRM",
+            "E) Hémocultures"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous faites la fibroscopie urétrovésicale lors de cette consultation d'urologie.\nLors de l'exploration, vous visualisez cette image.\nVous suspectez une tumeur de la vessie.\nQuestion 4 : Concernant les propositions suivantes, quelle est celle que vous faites au patient pour avancer dans son diagnostic ?",
+          "choix": [
+            "A) Biopsie de la lésion lors de la fibroscopie à la consultation",
+            "B) Biopsies de la lésion par voie radiologique",
+            "C) Il s'agit d'un cancer de la vessie il faut réaliser une cystectomie",
+            "D) Résection transurétrale endoscopique sous anesthésie générale au bloc opératoire",
+            "E) Surveillance de cette lésion qui n'a pas l'air très agressive"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/urologie-s7/2026/q7.webp?v=1786370772822",
+            "/images/qcm/urologie-s7/2026/q7_1.webp?v=1786370772905"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Question 5 : Concernant la résection transurétrale endoscopique de la vessie, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Il s'agit d'un geste à visée diagnostique uniquement",
+            "B) La résection doit être complète si cela est possible",
+            "C) La résection doit être suffisamment profonde pour avoir une analyse de la graisse extravésicale",
+            "D) Elle permet d'évaluer le stade et le grade tumoral",
+            "E) En cas de tumeur de vessie n’infiltrant pas le muscle, elle permet de déterminer les examens et les traitements complémentaires nécessaires"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Question 6 : concernant les résultats anatomopathologiques, quel est le type histologique le plus fréquemment retrouvé ?",
+          "choix": [
+            "A) Carcinome épidermoïde",
+            "B) Adénocarcinome",
+            "C) Carcinome urothélial",
+            "D) Sarcome",
+            "E) Carcinome neuroendocrine"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Question 7 : concernant le bilan d'extension, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Pour les tumeurs de la vessie n'infiltrant pas le muscle, il faut vérifier l'absence de localisation tumorale dans le haut-appareil urinaire par la réalisation d’un uro-scanner",
+            "B) Pour les tumeurs de la vessie infiltrant le muscle, il faut réaliser un scanner thoraco-abdomino-pelvien à la recherche de lésion à distance.",
+            "C) Une des complications fréquentes des tumeurs vésicales est l'obstruction urétrale",
+            "D) Une scintigraphie osseuse et un scanner cérébral peuvent être proposés pour le bilan d'extension de tumeur de vessie n’infiltrant pas le muscle",
+            "E) En cas de maladie infiltrant le muscle localisé à la vessie, traitement de référence est la cystectomie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370773516-6064e6df360908",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez à la consultation un patient de 75 ans sans antécédent et sans traitement habituel.\nIl vous explique que depuis maintenant plusieurs mois il a des « problèmes » pour uriner avec une sensation de vidange incomplète, la nécessité de réaliser des efforts de poussée abdominale pour bien vider sa vessie, la présence de gouttes retardataires, et 1 à 2 levers nocturnes.\nQuestion 5. Quelle pathologie urologie fréquente suspectez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Hypertrophie bénigne de la prostate"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un couple de patient de 60 ans se présente à votre consultation dans le but de réaliser une transplantation rénale avec donneur vivant de l'époux à sa femme.\nQuestion 2 : Quel(s) est (sont) les avantages de la transplantation rénale avec un donneur vivant en comparaison avec un donneur décédé ?",
+          "choix": [
+            "A) La possibilité de réaliser une greffe HLA incompatible",
+            "B) Meilleure survie à long terme de l’organe transplanté",
+            "C) Moins de complications chirurgicales",
+            "D) Réalisation d’une transplantation préemptive",
+            "E) La greffe peut être réalisée dès que le patient commence la dialyse"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 33 ans sans antécédent vient voir en consultation dans un contexte de suspicion d'infertilité primaire.\nIl recherche quelques informations sur le spermogramme.\nQuestion 1 : Quelle(s) est (sont) les normes et anomalies du spermogramme ?",
+          "choix": [
+            "A) Un délai d’abstinence de 24 heures est nécessaire avant réalisation d’un spermogramme",
+            "B) Une vitalité supérieure à 54%",
+            "C) Un volume éjaculé supérieur à 3 mL",
+            "D) Une concentration spermatique supérieure à 16 millions/mL",
+            "E) Un pourcentage de formes normales supérieur à 4% (selon les critères stricts)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 32 ans se présente aux urgences pour une douleur lombaire droite irradiant aux organes génitaux externes droits, sans fièvre, avec des paramètres de surveillance sans particularité. Vous évoquez une colique néphrétique droite.\nQuestion 3: Concernant la colique néphrétique, quelle(s) est (sont) les propositions exactes ?\n3 propositions justes",
+          "choix": [
+            "A) Il représente 1 à 2% des consultations dans les services d’urgence",
+            "B) Une colique néphrétique se définit par la mise en tension brutale de la voie excrétrice supérieure par un calcul urinaire",
+            "C) Une immobilisation prolongée en est un facteur favorisant",
+            "D) Le diagnostic de la colique néphrétique repose essentiellement sur l’examen clinique",
+            "E) En cas de colique néphrétique simple, le délai de réalisation des examens radiologiques complémentaires est de 6 à 12h."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 63 ans se présente à votre consultation d'urologie pour discuter du dépistage du cancer de la prostate.\nVous commencez votre consultation par rechercher les facteurs de risque du cancer de la prostate par un interrogatoire poussé.\nQuestion 4 : Quel(s) est (sont) le(s) facteur(s) de risque du cancer de la prostate ?",
+          "choix": [
+            "A) L’âge",
+            "B) Le tabac",
+            "C) L’alcool",
+            "D) L’origine antillaise",
+            "E) Les antécédents familiaux"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

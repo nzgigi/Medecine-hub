@@ -1,0 +1,435 @@
+{
+  "matiere": "Tissu sanguin – Immunologie",
+  "slug": "ts-immunologie-s6",
+  "annee": 2026,
+  "title": "Tissu sanguin – Immunologie - 2026",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du déficit immunitaire commun variable (DICV) :",
+          "choix": [
+            "A) Il est associé à une diminution marquée des IgG et des IgA.",
+            "B) Il peut entraîner une augmentation du risque de lymphome.",
+            "C) Il se manifeste fréquemment dès la petite enfance.",
+            "D) Des troubles auto-immuns sont fréquemment associés.",
+            "E) Il a une origine monogénique bien connue."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du déficit sélectif en IgA :",
+          "choix": [
+            "A) Il est généralement très symptomatique.",
+            "B) Il est associé à un risque accru d’infections opportunistes.",
+            "C) Il est rarissime.",
+            "D) Il est souvent diagnostiqué à l’âge adulte.",
+            "E) l est fréquemment diagnostiqué de manière fortuite"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’immunité anti-tumorale :",
+          "choix": [
+            "A) Les anticorps jouent un rôle anti-tumoral majeur.",
+            "B) Les lymphocytes T CD8+ sont des effecteurs essentiels.",
+            "C) L’IL-12 est importante pour permettre l’induction d’une réponse Th17.",
+            "D) Les lymphocytes NK sont activés par la reconnaissance des antigènes associés aux tumeurs.",
+            "E) La cytotoxicité est un mécanisme anti-tumoral fondamental des lymphocytes T CD8+"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la vaccination et des vaccins anti-infectieux :",
+          "choix": [
+            "A) La vaccination contre l’hépatite B fait partie des 11 vaccins obligatoires en France.",
+            "B) La vaccination contre le COVID n’est plus recommandée en 2026 pour les personnes âgées de plus de 65 ans.",
+            "C) La vaccination contre le rotavirus est obligatoire en 2026 pour les nourrissons.",
+            "D) La vaccination contre la grippe n’est pas recommandée chez l’enfant sans comorbidité.",
+            "E) La vaccination par le ROR est obligatoire en France pour les nouveau-nés nés en 2026"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des adjuvants vaccinaux :",
+          "choix": [
+            "A) Les adjuvants vaccinaux sont principalement composés d’antigènes vaccinaux.",
+            "B) Les sels d’aluminium sont les adjuvants vaccinaux les plus utilisés en France.",
+            "C) Les vaccins vivants atténués sont ceux qui ont le plus besoin d’adjuvants",
+            "D) Dans un vaccin, on peut utiliser des liposomes comme agent adjuvant.",
+            "E) L’utilisation d’adjuvant est obligatoire pour la réalisation d’un vaccin."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les hypersensibilités - cocher la ou les proposition(s) exacte(s) :",
+          "choix": [
+            "A) Le dosage des IgE totales circulantes permet d’identifier le ou les allergènes responsables.",
+            "B) Dans l’hypersensibilité de type IV, les tests cutanés doivent être lus environ 1 heure après administration de l’allergène.",
+            "C) Dans l’hypersensibilité de type I, un test cutané positif indique que le patient est sensibilisé.",
+            "D) Il existe des hypersensibilités non allergiques pour lesquelles aucun mécanisme immunologique n’a été identifié.",
+            "E) Chez un patient, la présence d’IgE spécifiques d’un allergène indique qu’il est allergique."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la rupture de tolérance immunitaire :",
+          "choix": [
+            "A) Le mimétisme moléculaire implique des homologies de structure entre des agents infectieux et des auto-antigènes",
+            "B) Certaines bactéries du microbiote intestinal peuvent moduler l’expression de différents gènes impliqués dans les maladies auto-immunes.",
+            "C) Les rayons UV ont un rôle pro-inflammatoire sur l’ensemble du système immunitaire via la synthèse de vitamine D.",
+            "D) Certains médicaments comme le TNF alpha peuvent induire le développement de maladies auto-immunes.",
+            "E) Le tabac fait partie des facteurs de risques environnementaux pouvant expliquer le développement de maladies auto-immunes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du développement des maladies auto-immunes :",
+          "choix": [
+            "A) La fréquence des maladies auto-immunes est similaire entre les hommes et les femmes.",
+            "B) La plupart des maladies auto-immunes se manifestent chez les jeunes enfants.",
+            "C) L’augmentation du taux d’œstrogènes pendant la grossesse peut conduire à l’amélioration transitoire de certaines maladies auto-immunes.",
+            "D) Les hormones sexuelles jouent un rôle sur le développement des maladies auto-immunes.",
+            "E) Les chromosomes sexuels ne sont pas impliqués dans le développement des maladies auto-immunes."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des déficits immunitaires secondaires :",
+          "choix": [
+            "A) La splénectomie prédispose aux infections fulminantes à pneumocoque.",
+            "B) Les anticorps thérapeutiques anti-TNFa entrainent une immunosuppression globale.",
+            "C) La sarcoidose peut s’accompagner d’un déficit immunitaire secondaire.",
+            "D) La plupart des maladies auto-immunes entrainent une susceptibilité infectieuse.",
+            "E) La prévention médicamenteuse du rejet de greffe entraine un risque carcinogène, pas infectieux."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des immunoglobulines thérapeutiques polyvalentes (IVIg) :",
+          "choix": [
+            "A) Elles sont utilisées pour leurs propriétés immunosubstitutives et immunomodulatrices.",
+            "B) Elles sont des médicaments dérivés du sang stables.",
+            "C) Elles contiennent en moyenne la même concentration d’IgG, d’IgA, d’IgM et d’IgE que le plasma d’un adulte sain.",
+            "D) Elles sont utilisées pour la sérothérapie anti-infectieuse.",
+            "E) Elles suivent la législation des produits de transfusion."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’immunothérapie anti-tumorale :",
+          "choix": [
+            "A) Les anticorps anti-CD20 bloquent l’activation des lymphocytes B en se fixant sur le BCR.",
+            "B) Il existe des protocoles de vaccination anti-tumorale prophylactiques.",
+            "C) Les anticorps thérapeutiques anti-PD1 ont une action activatrice des lymphocytes T.",
+            "D) Les cellules CAR-T sont basées sur des lymphocytes T modifiés du patient",
+            "E) Les immunothérapies par inhibiteurs de point de contrôle immunitaire induisent de nombreux effets secondaires de nature immunologique."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos d’une gammapathie monoclonale :",
+          "choix": [
+            "A) Son étiologie la plus fréquente est le myélome multiple.",
+            "B) Elle peut s’observer au cours d’une infection.",
+            "C) Un signe d’alerte peut être une thrombopénie.",
+            "D) Un signe d’alerte peut être un tassement vertébral.",
+            "E) Sa fréquence dans la population augmente avec l’âge."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du diagnostic d’une gammapathie monoclonale :",
+          "choix": [
+            "A) Il requiert un dosage des immunoglobulines IgG, IgA et IgM.",
+            "B) En cas de pic à l’électrophorèse, la recherche d’une infiltration plasmocytaire est inutile.",
+            "C) Le dosage des chaînes légères libres sériques est indiqué uniquement en cas d’atteinte rénale.",
+            "D) Le bilan initial doit inclure une numération formule sanguine et une exploration de la fonction rénale.",
+            "E) L’immunofixation sérique est plus sensible que l’électrophorèse."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système immunitaire du sujet âgé :",
+          "choix": [
+            "A) Il présente une lymphopénie T importante.",
+            "B) Il présente une hypergammaglobulinémie.",
+            "C) Il présente un déficit immunitaire relatif, associé à une inflammation chronique sub-clinique.",
+            "D) On observe une augmentation de la diversité du répertoire des lymphocytes adaptatifs.",
+            "E) On observe une inversion du rapport entre les lymphocytes T naifs et mémoires."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des hypersensibilités :",
+          "choix": [
+            "A) Les hypersensibilités peuvent être à médiation cellulaire ou humorale.",
+            "B) Une anémie hémolytique due à des IgG dirigées contre un antigène membranaire érythrocytaire fait partie des hypersensibilités de type III.",
+            "C) L’hypersensibilité de type IV est principalement médiée par des lymphocytes T.",
+            "D) Des dépôts tissulaires de complexes immuns à IgG sont caractéristiques de l’hypersensibilité de type II.",
+            "E) L’hypersensibilité de type I est celle la plus souvent en cause dans l’anaphylaxie."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396650817-50e09f66b0878",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez une patiente de 75 ans en raison d'un syndrome inflammatoire inexpliqué. Depuis 2 mois, elle a perdu l'appétit et elle a mal à la tête. Son médecin a fait une CRP qui est élevée à 200 mg/L.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l'affirmation exacte?",
+          "choix": [
+            "A) une telle élévation de la CRP exclue une vascularite",
+            "B) la céphalée n'est pas une manifestation de vascularite",
+            "C) le tableau évoque un lupus systémique",
+            "D) le tableau évoque prioritairement une artérite à cellules géantes",
+            "E) le tableau évoque prioritairement une maladie de Gougerot"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une artérite à cellules géantes. Quel marqueur biologique d'auto-immunité demandez vous pour confirmer cette maladie?",
+          "choix": [
+            "A) facteurs rhumatoïdes",
+            "B) ACAN",
+            "C) consommation du complément",
+            "D) ANCA",
+            "E) il n'y a pas de marqueur biologique spécifique de cette maladie"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre du diagnostic différentiel, comme vous envisagez la possibilité d'autres diagnostics, vous demandez:",
+          "choix": [
+            "A) recherche de protéinurie",
+            "B) créatininémie",
+            "C) recherche d'ACAN",
+            "D) dosage des antiPR3",
+            "E) hémocultures pour recherche d'endocardite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "vous réexaminez plus attentivement la patiente et trouvez l'anomalie clinique suivante. Vous concluez à:",
+          "choix": [
+            "A) granulomatose avec polyangéite",
+            "B) polyangéite microscopique",
+            "C) purpura rhumatoïde",
+            "D) lupus systémique",
+            "E) artérite à cellules géantes"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/ts-immunologie-s6/2026/q19.webp?v=1786396654941"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les anomalies biologiques suivantes, lesquelles vous paraissent improbables chez cette patiente?",
+          "choix": [
+            "A) neutropénie",
+            "B) thrombopénie",
+            "C) anémie inflammatoire",
+            "D) syndrome néphrotique",
+            "E) élévation de la créatininémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez fait une biopsie de l'artère temporale. Vous vous attendez à trouver:",
+          "choix": [
+            "A) une nécrose de la paroi vasculaire",
+            "B) des dépôts d'IgA dans la paroi vasculaire",
+            "C) un infiltrat inflammatoire de la paroi vasculaire avec des cellules géantes",
+            "D) des dépôts athéromateux infiltrant les trois tuniques de la paroi vasculaire",
+            "E) aucune de ces propositions"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

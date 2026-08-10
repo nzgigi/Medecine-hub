@@ -1,0 +1,633 @@
+{
+  "matiere": "Histologie",
+  "slug": "histologie-s4",
+  "annee": 2026,
+  "title": "Histologie - 2026",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de ce schéma sur la structure histologique de la cloison inter-alvéolaire",
+          "choix": [
+            "A) La légende 1 correspond à un macrophage alvéolaire",
+            "B) La légende 2 correspond à un pore de Kohn",
+            "C) La légende 3 correspond à un pneumocyte de type I",
+            "D) La légende 4 correspond au septum intra-épithélial",
+            "E) La légende 5 correspond à l’épithélium alvéolaire cylindrique simple"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q1.webp?v=1786395803447"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'appareil respiratoire",
+          "choix": [
+            "A) Les bronchioles terminales contiennent des cellules caliciformes",
+            "B) Les pneumocytes de type I couvrent 90% de la surface alvéolaire",
+            "C) L'emphysème résulte d'une fragmentation des fibres élastiques",
+            "D) Les glandes de Bowman sécrètent un mucus acide visqueux",
+            "E) La muqueuse olfactive est localisée uniquement au niveau du plancher des fosses nasales"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'appareil respiratoire",
+          "choix": [
+            "A) La plèvre est une séreuse tapissé par un mésothélium qui est un épithélium pavimenteux simple",
+            "B) Les anneaux cartilagineux de la trachée sont complets et fermés en arrière",
+            "C) Dans les bronches cartilagineuses, l'épithélium devient malpighien aux bronches sus-lobulaires",
+            "D) Les glandes séro-muqueuses disparaissent complètement dans les bronches cartilagineuses",
+            "E) Dans les bronches cartilagineuses, les fibres musculaires lisses du muscle de Reissessen s’agencent selon une orientation spiralée bidirectionnelle"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la vascularisation cardiaque",
+          "choix": [
+            "A) Les légendes 5, 6 et 7 correspondent respectivement à l’intima, la média et l’adventice",
+            "B) Les légendes 5, 6 et 7 correspondent respectivement à l’endocarde, la média et l’épicarde",
+            "C) La légende 1 correspond à une branche de l’artère coronaire",
+            "D) Les légendes 2, 3 et 4 correspondent respectivement à l’artère perforante, les artères myocardiques et les artérioles terminales",
+            "E) Les légendes 2, 3 et 4 correspondent respectivement à l’artère coronaire, les artérioles et les veinules post-capillaires"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q4.webp?v=1786395804826"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil cardio-vasculaire",
+          "choix": [
+            "A) Les cellules endothéliales sont très aplaties et tapissent l’ensemble du système vasculaire",
+            "B) La structure générale des grosses veines est identique à celle des artères (intima, média et adventice)",
+            "C) Des vésicules de pinocytose sont visibles dans le cytoplasme des cellules endothéliales par microscopie optique",
+            "D) Les capillaires discontinus reposent sur une membrane basale continue",
+            "E) Il existe 3 types d'artères : élastiques, musculaires et artérioles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil cardio-vasculaire",
+          "choix": [
+            "A) La limitante élastique interne est visible sur une coupe d'artère musculaire après coloration Hémalun/Eosine",
+            "B) Les capillaires sont dépourvus d’endothélium et se composent uniquement d’une membrane basale et de péricytes",
+            "C) Les artérioles possèdent une média très épaisse avec de nombreuses couches de cellules musculaires lisses, comme les grosses artères musculaires",
+            "D) Les veines possèdent une intima pluristratifiée pavimenteuse, alors que les artères ont une intima simple",
+            "E) Au niveau du cœur, le myocarde est composé de cardiomyocytes contractiles, anastomosés et reliés entre eux au niveau des disques intercalaires"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la moelle osseuse hématopoïétique",
+          "choix": [
+            "A) La moelle osseuse hématopoïétique est un organe lymphoïde primaire pour les lymphocytes B",
+            "B) Le stroma de la moelle osseuse hématopoïétique contient des fibres de réticuline (collagène III) visibles en imprégnation argentique",
+            "C) Les adipocytes de la moelle osseuse hématopoïétique sont proportionnels à la richesse en cellules myéloïdes",
+            "D) La biopsie ostéo-médullaire permet d'évaluer la trame de réticuline par imprégnation argentique",
+            "E) Les mégacaryocytes libèrent les plaquettes par fragmentation de prolongements cytoplasmiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du thymus",
+          "choix": [
+            "A) Le thymus est un organe lympho-épithélial bilobé, blanc-brillant, situé au niveau du médiastin antéro-supérieur",
+            "B) Le cortex contient principalement des cellules épithéliales réticulaires globuleuses",
+            "C) Les veinules post-capillaires à endothélium haut permettent la sortie des thymocytes matures",
+            "D) Les artères thymiques pénètrent directement par le cortex périphérique",
+            "E) Les corpuscules de Hassall sont spécifiquement observés au niveau du cortex"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du ganglion lymphatique",
+          "choix": [
+            "A) Le paracortex est riche en lymphocytes T et contient des veinules post-capillaires à endothélium haut",
+            "B) La médullaire contient de nombreux follicules secondaires",
+            "C) Le sinus sous-capsulaire (ou marginal) reçoit la lymphe des vaisseaux lymphatiques afférents",
+            "D) Le centre germinatif des ganglions lymphatiques est constitué de 2 zones : la zone fertile basale et la zone du manteau",
+            "E) Les ganglions lymphatiques sont particulièrement nombreux au niveau du système nerveux central"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la rate",
+          "choix": [
+            "A) La pulpe rouge représente 10% du volume splénique",
+            "B) La zone marginale sépare la pulpe blanche de la pulpe rouge et est pauvre en macrophages",
+            "C) En microscopie optique, après coloration à l’hémalun éosine, la pulpe blanche apparait plus foncée que la pulpe rouge",
+            "D) Le manchon lymphoïde de la pulpe blanche est composé d’une gaine lymphoïde périartérielle riche en lymphocytes T et d’une pulpe blanche périphérique riche en lymphocytes B",
+            "E) Les capillaires sinusoides spléniques ont une paroi continue"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la cavité buccale",
+          "choix": [
+            "A) La muqueuse buccale est tapissée par un épithélium cubique simple",
+            "B) La parotide est une glande salivaire principales séreuse pure",
+            "C) Au niveau de la langue, les papilles caliciformes sont disposées le long du V lingual et sont entourées d’un vallum",
+            "D) Le vermillon de la lèvre possède des annexes sudoripares et sébacées",
+            "E) Les papilles filiformes possèdent de nombreux bourgeons du goût"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil digestif",
+          "choix": [
+            "A) La paroi de l’œsophage est tapissé de nombreux replis pour favoriser le passage des nutriments dans le sang",
+            "B) La jonction œsogastrique sépare deux muqueuses glandulaires identiques",
+            "C) Dans le duodénum, les glandes de Brünner sont situées dans la sous-muqueuse",
+            "D) L'intestin grêle possède comme structure d'augmentation de surface les sinus de Morgagni",
+            "E) Le côlon se caractérise par une sous muqueuse glandulaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil digestif",
+          "choix": [
+            "A) La sous-muqueuse du tube digestif proprement dit contient les plexus nerveux de Auerbach",
+            "B) La musculeuse de l’estomac est constituée de 2 couches : une circulaire interne et une longitudinale externe",
+            "C) Le côlon ne possède pas de villosités",
+            "D) Les papilles fongiformes sont les plus nombreuses de la langue",
+            "E) Le tube digestif proprement dit comprend successivement l’œsophage, l’estomac, l’intestin grêle, le gros intestin, le rectum puis le canal anal"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil digestif",
+          "choix": [
+            "A) Dans l'intestin grêle, les cellules de Paneth sont situées au fond des cryptes de Lieberkühn",
+            "B) Les cellules bordantes de l’estomac sécrètent l’acide chlorhydrique et le facteur intrinsèque",
+            "C) La langue est constituée de fibres musculaires lisses",
+            "D) L’épithélium de l’œsophage est prismatique simple",
+            "E) Les villosités intestinales sont absentes du jéjunum"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du pancréas",
+          "choix": [
+            "A) Les cellules alpha des îlots de Langerhans sécrètent l’insuline",
+            "B) Les cellules centro-acineuses marquent le début du canal intercalaire",
+            "C) Le pancréas est une glande amphicrine, à la fois exocrine et endocrine",
+            "D) Le canal de Wirsung est le canal principal du pancréas",
+            "E) Les îlots de Langerhans sont situés uniquement dans la tête du pancréas"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du foie",
+          "choix": [
+            "A) Le sang circule de la veine centro-lobulaire vers l’espace porte",
+            "B) Les hépatocytes n’ont qu’une seule face fonctionnelle",
+            "C) Les cellules de Kupffer sont des hépatocytes spécialisés dans la sécrétion de bile",
+            "D) Les espaces portes contiennent une branche de la veine porte, une branche de l’artère hépatique et une branche du canal biliaire",
+            "E) La bile circule dans le même sens que le sang"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de ce schéma représentant un espace porte ou espace de Kiernan",
+          "choix": [
+            "A) La légende 1 correspond à un canal biliaire interlobulaire",
+            "B) La légende 2 correspond à une artère interlobulaire",
+            "C) La légende 3 correspond à une veine interlobulaire",
+            "D) La légende 4 correspond à un canal biliaire interlobulaire",
+            "E) La légende 5 correspond à une hématie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q17.webp?v=1786395811044"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395811094-a38c252a9237c",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil génital féminin et de la glande mammaire :",
+          "choix": [
+            "A) La photographie de microscopie optique montre une glande mammaire lactescente.",
+            "B) Sur la photographie de microscopie optique on observe des acini.",
+            "C) Les acini correspondent à la portion sécrétrice de la glande mammaire.",
+            "D) Les 14 premiers jours du cycle génital féminin correspondent aux 14 derniers jours de la folliculogénèse.",
+            "E) L’ampoule est le lieu de la fécondation."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q18.webp?v=1786395812434"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil génital féminin :",
+          "choix": [
+            "A) A propos de l’endomètre, pendant la phase proliférative, la région fonctionnelle se reconstruit.",
+            "B) A propos de l’endomètre, en phase sécrétoire intermédiaire, le chorion devient fibreux dense.",
+            "C) A propos du col de l’utérus, dans la période ovulatoire, le mucus secrété par le col de l’utérus est épais.",
+            "D) A propos du col de l’utérus, la zone de transformation est une région du col résistante à l’infection par le Papillomavirus (HPV).",
+            "E) La zone de transformation est une zone de métaplasie malpighienne."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil génital féminin et de la glande mammaire :",
+          "choix": [
+            "A) La photographie de microscopie optique montre un épithélium muci secrétant.",
+            "B) La photographie de microscopie optique montre un épithélium qui correspond à celui de la trompe.",
+            "C) Les ovulations successives sont à l’origine de cicatrices observables macroscopiquement à la surface de l’ovaire.",
+            "D) Les cellules de la granulosa secrètent des œstrogènes.",
+            "E) De nouveaux follicules primordiaux naissent tout au long de la période d’activité génitale."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q20.webp?v=1786395813330"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil génital féminin et de la glande mammaire :",
+          "choix": [
+            "A) A propos de la glande mammaire, les cellules épithéliales luminales des alvéoles secrètent le lait.",
+            "B) A propos de l’endomètre, pendant les menstruations, les métalloprotéases participent à la rupture des membranes vasculaires.",
+            "C) La zone de pression du follicule sur la paroi de l’ovaire a pour conséquence une altération de la vascularisation de cette région.",
+            "D) En cas d’adénocarcinome de l’utérus l’analyse macroscopique des paramètres permet de rechercher des métastases ganglionnaires.",
+            "E) Les kystes fonctionnels de l’ovaire correspondent à des follicules en cours de dégénérescence."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des glandes endocrines :",
+          "choix": [
+            "A) La photographie de microscopie optique représente une glande thyroïde.",
+            "B) Sur cette photographie de microscopie optique, l’annotation 1 montre un thyréocyte.",
+            "C) Sur cette photographie de microscopie optique, l’annotation 3 montre une cellule C.",
+            "D) Sur cette photographie de microscopie optique, l’annotation 2 montre la substance colloïde.",
+            "E) La photographie de microscopie optique représente une hyperthyroïdie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q22.webp?v=1786395814636"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la thyroïde :",
+          "choix": [
+            "A) Les cellules vésiculaires (thyréocytes) sécrètent la thyroxine (T4).",
+            "B) La thyroïde nait d’un diverticule endodermique qui se forme à la base de la langue.",
+            "C) Les cellules C proviennent de la crête neurale.",
+            "D) Un goitre peut être la conséquence d’une augmentation du nombre de vésicules dans la thyroïde.",
+            "E) Les cellules C visualisables en immunohistochimies se localisent entre les thyréocytes et la membrane basale de la vésicule."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des glandes endocrines :",
+          "choix": [
+            "A) A propos de la neurohypophyse, les corps de Herring correspondent à des évaginations de la membrane du neurone ou s’accumulent les secrétions hormonales (ex vasopressine).",
+            "B) A propos de l’adénohypophyse, elle est constitué d’ilot de cellules épithéliales endocrines.",
+            "C) Le prolactinome correspond à une tumeur de la post/neuro hypophyse.",
+            "D) A propos de la surrénale, la région glomérulée est constitué d’amas arrondis.",
+            "E) A propos de la surrénale, la région glomérulée secrète les minéralocorticoïdes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos l’oreille :",
+          "choix": [
+            "A) Ce schéma représente le labyrinthe membraneux.",
+            "B) Sur ce schéma, les régions en noir correspondent aux régions sensorielles.",
+            "C) Le labyrinthe membraneux contient de l’endolymphe.",
+            "D) A propos de l’organe de corti, lors de l’ondulation de la membrane basilaire, les microvillosités des cellules sensorielles vont s’incliner au contact de la membrane tectoriale entrainant l’ouverture des canaux ioniques et un changement de polarité de la membrane.",
+            "E) Dans les macules les microvillosités des cellules sensorielles sont incluses dans un gel qui contient des otolithes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q25.webp?v=1786395816281"
+          ]
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’œil :",
+          "choix": [
+            "A) Lorsque le système trabéculaire du limbe devient moins perméable l’humeur aqueuse n’est plus éliminée pouvant entrainer un glaucome chronique.",
+            "B) Lorsque le cristallin vieillit les protéines (ex cristalline) s’agrègent entrainant une opacification du cristallin qui contribue à la cataracte.",
+            "C) Lors de l’accommodation (vision de près) le muscle ciliaire se dilate.",
+            "D) Les cellules externes pigmentées de la rétine contiennent des grains de mélanine.",
+            "E) Les expansions réceptrices des photorécepteurs contiennent des disques membranaires empilés."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil urinaire et de l’appareil génital male :",
+          "choix": [
+            "A) L’urothélium présente un nombre d’assise cellulaire plus important quand la vessie est pleine.",
+            "B) L’observation de globules rouges déformés dans les urines est en faveur d’une lésion rénale.",
+            "C) Les cellules les plus superficielles de l’urothélium, les cellules dites en ombrelle, ont une surface apicale qui peut augmenter de taille participant à l’adaptation de la paroi vésicale au remplissage.",
+            "D) Les cellules de Leydig forment des ilots dans le tissu conjonctif du testicule autour des tubes séminifères.",
+            "E) Les corps caverneux comprennent des lacs sanguins séparés par du tissu conjonctif et des cellules musculaires lisses."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein :",
+          "choix": [
+            "A) Sur ce schéma, l’annotation 1 montre une pyramide de Ferrein.",
+            "B) Sur ce schéma, l’annotation 3 montre la substance corticale.",
+            "C) Sur ce schéma, les anses de de Henlé se localisent dans les parties annoté 1 et 2.",
+            "D) Sur ce schéma, les corpuscules rénaux se trouvent dans la région annoté 3.",
+            "E) Les pyramides de Ferrein contiennent les glomérules vasculaires."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q28.webp?v=1786395818021"
+          ]
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein :",
+          "choix": [
+            "A) Sur ce schéma, l’annotation 1 montre un corpuscule rénal.",
+            "B) Sur ce schéma, l’annotation 2 montre le tubule contourné proximal.",
+            "C) Sur ce schéma, l’annotation 3 montre l’anse de henlé.",
+            "D) Les pieds des podocytes sont reliés entre eux par un diaphragme de néphrine.",
+            "E) La membrane basale glomérulaire correspond à la fusion de la membrane basale des capillaires et du feuillet viscéral."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "images": [
+            "/images/qcm/histologie-s4/2026/q29.webp?v=1786395818654"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

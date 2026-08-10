@@ -1,0 +1,618 @@
+{
+  "matiere": "Néphrologie",
+  "slug": "nephrologie-s10",
+  "annee": 2026,
+  "title": "Néphrologie - 2026",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez en consultation de néphrologie une patiente de 58 ans qui a pour antécédents notables un diabète de type II depuis 15 ans, une hypertension artérielle, une angioplastie de l’artère fémorale gauche il y a 2 ans, un cancer du sein traité par chirurgie, chimio et radiothérapie il y a 6 ans. Elle est enseignante, mère de 2 enfants, tabagique à 25 PA.\nCliniquement, sa tension est à 147/75 mmHg, sa fréquence cardiaque à 76 bpm, sa saturation à 98 % en air ambiant. Son poids est de 96 kg. Elle vous présente un bilan avec une créatininémie à 180 µmol/l soit un DFG à 34 ml/min (36 ml/min il y a 3 mois) une protéinurie à 0,8 g/g de créatininurie avec une albuminurie à 675 mg/g de créatininurie. Vous remarquez une anémie à 10,2 g/dL. L’ECBU montre : hématies GR/mm3, leucocytes GB 0/mm3. L'échographie des reins retrouve des reins de 10 cm avec une dédifférenciation corticomédullaire et un kyste bosniak 1 sur le rein droit.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le diagnostic le plus probable au vu des éléments présentés ?",
+          "choix": [
+            "A) Néphropathie héréditaire",
+            "B) Néphro-angiosclérose",
+            "C) Néphropathie diabétique",
+            "D) Néphropathie interstitielle chronique",
+            "E) Glomérulonéphrite rapidement progressive"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Précisez les 2 éléments les plus pertinents relatifs au caractère chronique de l’insuffisance rénale:",
+          "choix": [
+            "A) DFG inferieur à 60 ml/min depuis plus de 3 mois",
+            "B) présence d’un kyste bosniak 1 sur le rein droit",
+            "C) Absence d’hématurie",
+            "D) Absence de leucocyturie",
+            "E) Présence d’une anémie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour mémoire le DFG est à 34 ml/min et l’albuminurie à 675 mg/g de créatininurie. Quels sont les stades présentés par la patiente ?",
+          "choix": [
+            "A) Maladie rénale chronique stade 4",
+            "B) Maladie rénale chronique stade 3",
+            "C) Maladie rénale chronique stade 4",
+            "D) Albuminurie modérément augmentée A2",
+            "E) Albuminurie augmentée A3"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 facteurs de risques d’insuffisance rénale chronique identifiés chez cette patiente ?",
+          "choix": [
+            "A) HTA",
+            "B) Diabète",
+            "C) Radiothérapie du sein",
+            "D) Alcool",
+            "E) AOMI"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 complications potentielles de la maladie rénale chronique qu’elle est susceptible de présenter ?",
+          "choix": [
+            "A) Hypophosphorémie",
+            "B) Calcifications vasculaires",
+            "C) Hypercalcémie",
+            "D) Hyperparathyroïdie primaire",
+            "E) Hypertrophie ventriculaire gauche"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’ordonnance de la patiente comprend actuellement : AMLODIPINE 10 mg, URAPIDIL 60 mg, Aspirine 75 mg, PANTOPRAZOLE 20 mg, Insuline. Quels sont les thérapeutiques à envisager chez elle au vu de sa maladie rénale chronique avec albuminurie augmentée ?",
+          "choix": [
+            "A) Un arrêt du tabac",
+            "B) Un néphroprotecteur de type IEC ou ARA2",
+            "C) Un bétabloquant",
+            "D) Un iSGLT2",
+            "E) Un diurétique thiazidique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment allez vous encadrer votre prescription d'IEC ou ARA2 ?",
+          "choix": [
+            "A) Vous réalisez un ionogramme de contrôle dans 12 heures",
+            "B) Vous réalisez un ionogramme de contrôle dans 10 jours",
+            "C) Vous stoppez le traitement si la kaliémie est à 5 mmol/l",
+            "D) Vous informez la patiente qu’elle devra stopper le traitement en cas de diarrhée",
+            "E) La patiente devra réaliser une automesure tensionnelle au domicile dans une semaine"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le reste du bilan retrouve des bicarbonates à 19 mmol/l, une calcémie 2,07 mmol/l, une anémie à 9,5 g/dl arégénérative mais un coefficient de saturation de la transferrine abaissé à 8 %. Vous envisagez de supplémenter la patiente. Quels sont vos objectifs ?",
+          "choix": [
+            "A) Obtenir un coefficient de saturation de la transferrine > 20 % et une ferritinémie > 100 ng/ml avant de débuter de l’érythropoïétine",
+            "B) Obtenir un coefficient de saturation de la transferrine > 50 % et une ferritinémie > 400 ng/ml avant de débuter de l’érythropoïétine",
+            "C) Maintenir un taux d’hémoglobine entre 9 et 13 g/dL",
+            "D) Obtenir des bicarbonates > 20 mmol/L",
+            "E) Normaliser la calcémie et maintenir la phosphatémie inférieure à 1,5 mmol/L"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395880754-6fd6d3d604f808",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous prenez en charge un patient de 70 ans, arrivé dans le service il y a 48 heures pour une insuffisance rénale aiguë. Il ne présente pas d'antécédents médicaux connus, ni de traitement de fond. Son dernier bilan biologique il y a 4 mois montrait une créatininémie à 120 µmol/l. Le bilan du jour révèle une créatininémie à 280 µmol/l, une urée à 20 mmol/L. L’ECBU montre : hématies 4 éléments/mm3, leucocytes 9 éléments/mm3. Natriurèse à 65 mmol/L, kaliurèse à 25 mmol/L. L’échographie rénale dédouane un obstacle.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous objectivez une insuffisance rénale. Quelles sont les 3 propositions qui correspondent le mieux à la situation ?",
+          "choix": [
+            "A) Une insuffisance rénale chronique car la créatininémie était déjà anormale il y a plus de 3 mois",
+            "B) Une insuffisance rénale aiguë sur chronique",
+            "C) Le rapport urée/créatinine dans le sang est en faveur d’une atteinte organique",
+            "D) Le chiffre de leucocyturie évoque une atteinte interstitielle",
+            "E) Le rapport Na/K est en faveur d’une atteinte organique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous soupçonnez une nécrose tubulaire aiguë. Quels sont les arguments qui iraient dans le sens de ce diagnostic ?",
+          "choix": [
+            "A) La fréquence parmi les causes d’IRA organiques",
+            "B) Une exposition aux sels de platine, aux aminosides, aux produits de contraste iodés",
+            "C) La présence de signes extra-rénaux, notamment un purpura",
+            "D) Un collapsus vasculaire dans les jours précédents, avec oligurie initiale",
+            "E) La présence d’une protéinurie autour de 1 g/g de créatininurie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le reste de la biologie vous parvient: kaliémie à 4,2 mmol/l, réserve alcaline à 23 mmol/l, calcémie à 3,2 mmol/l. Quels sont les 3 symptômes à rechercher au vu des anomalies ?",
+          "choix": [
+            "A) Confusion",
+            "B) Nausées et vomissements",
+            "C) Diarrhées",
+            "D) Polyuropolydipsie par diabète insipide",
+            "E) Paralysie flasque"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous menez une enquête concernant l’hypercalcémie. Le phosphore est normal. La parathormone est basse. Quels sont les 2 examens complémentaires les plus pertinents ?",
+          "choix": [
+            "A) Une électrophorèse des protéines avec immunofixation",
+            "B) Une échographie cervicale",
+            "C) Un dosage de PTH-rp",
+            "D) Une scintigraphie au MIBI",
+            "E) Un dosage de la 1,25 OH vitamine D"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 3 mesures thérapeutiques que vous mettez en place ?",
+          "choix": [
+            "A) Perfusion de glucosé 2,5%",
+            "B) Perfusion de soluté salé 0,9%",
+            "C) Biphosphonate",
+            "D) Diurétique thiazidique",
+            "E) Dialyse aiguë dans les formes graves avec un bain pauvre en calcium"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient est suspect de myélome. Le ratio protéinurie/créatininurie est à 4 g/g, le ratio albuminurie/créatininurie à 0,2 g/g. La bandelette urinaire est négative. Quelles sont les 2 propositions correctes ?",
+          "choix": [
+            "A) Il s’agit d’un syndrome de Fanconi car le patient en présente tous les stigmates biologiques.",
+            "B) Il s’agit d’une néphropathie à cylindres myélomateux car la protéinurie est de haut débit.",
+            "C) L’insuffisance rénale est liée à la précipitation intra tubulaire des chaînes légères d'immunoglobuline monoclonale avec la myologlobine",
+            "D) Les analyses urinaires suggèrent une amylose rénale touchant le secteur glomérulaire",
+            "E) La bandelette urinaire est négative car l’albuminurie est faible"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs favorisants la précipitation des chaînes légères, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Exposition aux produits de contraste iodé",
+            "B) Hypercalcémie",
+            "C) Prise d'anti-inflammatoires non stéroïdiens",
+            "D) Prise de diurétique",
+            "E) Infection urinaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les critères qui vous feraient envisager la dialyse aiguë chez le patient ?",
+          "choix": [
+            "A) Hyperkaliémie avec signes ECG",
+            "B) Hypercalcémie avec signes neurologiques",
+            "C) Hypokaliémie menaçante",
+            "D) Alcalose métabolique",
+            "E) Hyponatrémie ne répondant pas aux diurétiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395884410-a7eefa8ce5aaf",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez aux Urgences Mme S, 25 ans, pour des céphalées. Elle ne prend aucun traitement. Elle ne présente aucun antécédent. Elle vous informe néanmoins qu’elle a déjà consulté son médecin traitant il y a 2 semaines, qui a mis en évidence une hypertension artérielle à 160/96mmHg, contrôlée à 2 reprises au cabinet. Elle est actuellement à 220/130 mmHg.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les examens complémentaires suivants, quels sont les 5 les plus pertinents pour apprécier le retentissement de cette hypertension ?",
+          "choix": [
+            "A) lipase",
+            "B) ECG",
+            "C) radiographie thoracique",
+            "D) échographie rénale",
+            "E) créatinine",
+            "F) fond d’œil",
+            "G) scanner cérébral non injecté",
+            "H) ECBU",
+            "I) TSH",
+            "J) haptoglobine",
+            "K) cortisol",
+            "L) rapport rénine/aldostérone"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "F",
+            "G",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous confirmez qu’il présente une HTA maligne avec retentissement cérébral et ophtalmologique. Les examens concernant le cœur, le rein, et le secteur hématologique sont normaux. La saturation du patient est à 100% en air ambiant. ?\nQuelles sont les 3 mesures thérapeutiques que vous adoptez dans les 30 premières minutes",
+          "choix": [
+            "A) betabloquant per os",
+            "B) diurétique de l'anse per os",
+            "C) diurétique thiazidique",
+            "D) benzodizépine",
+            "E) ibuprofène",
+            "F) inhibiteur calcique IV",
+            "G) soluté NaCl 0,9%",
+            "H) soluté glycosé 2,5%",
+            "I) soluté bicarbonate de sodium",
+            "J) paracétamol"
+          ],
+          "reponses": [
+            "F",
+            "G",
+            "J"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La patiente n’a aucun facteur de risque cardio-vasculaire. Vous réalisez un doppler des artères rénales qui retrouve des sténoses distales bilatérales avec aspect en « collier de perles ».\nQuel est le diagnostic final ?",
+          "choix": [],
+          "reponses": [
+            "sténose fibrodysplasique des artères rénales"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395885963-dd15a63b7e5a58",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez un patient de 25 ans, hypertendu à 160/50 mmHg. Il présente une insuffisance rénale lentement évolutive depuis 2 ans. La bandelette urinaire montre GR à 150/mm3, et une protéinurie à 1,5 g/g de créatininurie. Il décrit un épisode d’hématurie indolore, 3 jours après une angine, événement qui s’était déjà produit il y a environ 5 ans.\nQuelle est la néphropathie la plus probable présentée par ce patient ?",
+          "choix": [],
+          "reponses": [
+            "néphropathie à dépôts mésangiaux d'IgA"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 80 ans est hospitalisée dans le service pour le bilan d’une HTA, des urines bouillon sale, et une insuffisance rénale d’installation brutale 3 semaines après un érysipèle. La biopsie rénale montre une prolifération endocapillaire. En immunofluorescence, il y a des dépôts de complément (C3).\nQuelles sont les propositions compatibles avec cette présentation clinique ?",
+          "choix": [
+            "A) Syndrome de glomérulonéphrite rapidement progressive",
+            "B) Syndrome néphritique",
+            "C) Syndrome d’hématurie macroscopique récidivante",
+            "D) Glomérulonéphrite nécrosante pauci-immune",
+            "E) Glomérulonéphrite aiguë post-infectieuse"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez un patient à votre cabinet qui présente de volumineux œdèmes bilatéraux des membres inférieurs.\nQuelles sont les réponses justes ?",
+          "choix": [
+            "A) Il existe très probablement une diminution de l’excrétion rénale d’eau et de sodium",
+            "B) Il faut rechercher les maladies à l’origine d’une augmentation de la pression oncotique plasmatique",
+            "C) Chez les patients insuffisants cardiaques droits, la formation des œdèmes est expliquée par l’hypervolémie au sein du secteur vasculaire",
+            "D) Il est important de rechercher des signes de cirrhose hépatique",
+            "E) Si le patient est déjà sous diurétiques de l’anse, l’utilisation de diurétiques d’action distale n’aura probablement aucun intérêt"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez un patient insuffisant rénal chronique de stade V hémodialysé : il vous pose la question de la transplantation d’organes.\nQuelles sont les réponses justes ?",
+          "choix": [
+            "A) L’agence de la biomédecine gère la liste nationale des malades en attente de transplantation",
+            "B) L’attribution des organes obéit à des règles répondant aux principes d’utilité et de justice",
+            "C) Il n’y a pas de critère de priorité dépendant de l’urgence de la transplantation, le critère temporel principal étant la durée d’attente sur la liste",
+            "D) Il n’est pas possible d’avoir recours à des donneurs décédés après arrêt circulatoire",
+            "E) Il est possible d’arrêter l’immunosuppression après plus de 10 ans de greffe"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 65 ans est adressé à la consultation dans le cadre d’une polykystose rénale autosomique dominante, il est en maladie rénale avancée stade 5 et proche de la mise en dialyse. Son fils âgé de 35 ans a réalisé une échographie qui retrouve un kyste sur chaque rein.\nChoisir les 2 propositions correctes",
+          "choix": [
+            "A) La polykystose est la plus rare des maladies génétiques rénales",
+            "B) Si le père est porteur d’une mutation PKD1 alors le fils sera porteur d’une mutation PKD1",
+            "C) Comme le fils n’a pas beaucoup de kystes, il ne développera pas la maladie",
+            "D) Il faut réaliser un angio scanner cérébral à la recherche d’un anévrysme cérébral chez le père",
+            "E) Les kystes peuvent se compliquer d’infection, même en l’absence de germe à l’ECBU"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous menez une enquête devant un patient de 55 ans chez qui vous suspectez une néphropathie interstitielle chronique.\nQuelles sont les 2 propositions cohérentes ?",
+          "choix": [
+            "A) La biopsie rénale devrait retrouver une infiltration interstitielle par des cellules mononucléées, alors que les glomérules sont le plus souvent intacts.",
+            "B) Ces néphropathies évoluent le plus souvent rapidement vers l’insuffisance rénale chronique terminale",
+            "C) Il faut rechercher la prise répétée d’AINS",
+            "D) Il faut rechercher un syndrome de Gougerot-Sjögren",
+            "E) Dans les causes obstructives, la levée de l’obstacle chronique permettra de récupérer ad integrum, quel que soit le délai de survenue."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous êtes néphrologue de garde et l’urgentiste vous appelle pour une insuffisance rénale aiguë chez un patient de 75 ans.\nQuelle est la réponse juste ?",
+          "choix": [
+            "A) En cas d’insuffisance rénale aiguë obstructive, le patient sera anurique.",
+            "B) Dans l’insuffisance rénale aiguë fonctionnelle, il existe une augmentation de la pression de perfusion.",
+            "C) Si le patient est sous inhibiteur de l’enzyme de conversion, l’insuffisance rénale aiguë fonctionnelle sera plus sévère",
+            "D) L'insuffisance rénale aiguë n'influence ni la durée d'hospitalisation ni la mortalité",
+            "E) Dans la nécrose tubulaire aiguë ischémique, il existe une diminution de la pression intratubulaire due à la nécrose des cellules tubulaires"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 85 ans est admis aux urgences pour confusion et le bilan biologique met en évidence une hypernatrémie à 155 mmol/l.\nVous vous posez la question d’un test de restriction hydrique.",
+          "choix": [
+            "A) Sa réalisation doit être effectuée dans les 6 premières heures",
+            "B) Il faut mesurer la glycémie pour confirmer la nature hyperosmolaire de ce trouble de l’hydratation",
+            "C) En l’absence de diabète insipide, l’hyperosmolarité doit stimuler la sécrétion d’ADH et l’osmolarité urinaire doit augmenter",
+            "D) L’injection de ddAVP (Minirin) permet de différencier diabète insipide central et néphrogénique",
+            "E) Il consiste à réduire la quantité d’eau à 200mL par jour pour couvrir les pertes insensibles."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 28,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du syndrome hémolytique et urémique typique, choisir la proposition exacte",
+          "choix": [
+            "A) le SHU de l'enfant est un purpura thrombotique idiopathique",
+            "B) Elle est liée à une infection chronique par une entérobactérie productrice de toxines “Shiga-like” entraînant une coagulation intra-vasculaire disséminée.",
+            "C) Le tableau est principalement neurologique avec des hallucinations.",
+            "D) Il est classiquement précédé par un épisode de diarrhées fébriles, potentiellement glairo-sanglantes.",
+            "E) La biopsie rénale est indispensable et mettra en évidence de thrombi intra-glomérulaires/artériolaires et une mésangiolyse."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 29,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient se présente avec une douleur lombaire gauche brutale et une poussée hypertensive. Les LDH sont élevées ainsi que la kaliémie. Vous visionnez une coupe de son scanner abdomino-pelvien injecté en coupe axiale.\nQuel est le diagnostic le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "Infarctus rénal gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 10,
+          "images": [
+            "/images/qcm/nephrologie-s10/2026/q29.webp?v=1786395890472"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}
