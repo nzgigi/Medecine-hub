@@ -1,0 +1,225 @@
+{
+  "matiere": "Système neurosensoriel – Biophysique",
+  "slug": "sns-biophysique-s5",
+  "annee": 2026,
+  "title": "Système neurosensoriel – Biophysique - 2026",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système optique suivant représentant l’objet AB et son image A’B’ à travers une lentille,",
+          "choix": [
+            "A) Il contient une lentille divergente",
+            "B) F correspond au foyer objet de la lentille",
+            "C) L’image représentée est réelle, renversée et agrandie",
+            "D) Cette lentille est convexe",
+            "E) Cette lentille pourrait être utilisée pour corriger une myopie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/sns-biophysique-s5/2026/q1.webp?v=1786396411580"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'oeil et la vision,",
+          "choix": [
+            "A) L’œil comprend 4 dioptres successifs centrés",
+            "B) Les différents dioptres de l’œil sont convergents",
+            "C) L'oeil peut être assimilé à une seule lentille convergente d’une puissance de 42 dioptries",
+            "D) Dans un œil emmétrope, l’image d’un objet ponctuel situé à l’infini se forme sur la rétine",
+            "E) Le punctum remotum correspond au point de l’axe optique conjugué du plan de la rétine pour l’œil au repos"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’astigmatisme,",
+          "choix": [
+            "A) Il s’agit d’une forme d’amétropie dans laquelle l’image d’un point n’est plus un point",
+            "B) Ce trouble est en lien avec un défaut de sphéricité du dioptre oculaire",
+            "C) Dans un astigmatisme régulier, il y a formation de 2 focales perpendiculaires entre elles",
+            "D) Des verres dérivés de plan-cylindre peuvent être utilisés pour corriger ce type de défaut de vision",
+            "E) Un sujet peut être en même temps myope et astigmate mais pas presbyte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) concernant le photorécepteur ?",
+          "choix": [
+            "A) Il est hyperpolarisé à la lumière.",
+            "B) La concentration intracellulaire du GMPc est plus élevée à l’obscurité.",
+            "C) La libération synaptique du glutamate augmente à la lumière.",
+            "D) Il est le siège d’une variation graduée de son potentiel de membrane.",
+            "E) Les canaux sodium s’ouvrent à la lumière."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les neurones suivants, quel(s) est (sont) celui (ceux) ayant un champ récepteur à symétrie circulaire ?",
+          "choix": [
+            "A) Cellule bipolaire de la rétine",
+            "B) Cellule ganglionnaire de la rétine",
+            "C) Neurone du ganglion géniculé latéral",
+            "D) Neurone de la couche IVC du cortex visuel primaire",
+            "E) Neurone de la zone des tâches des couches II-III du cortex visuel primaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) l’(les) indice(s) monoculaire(s) de perception de la profondeur parmi les propositions suivantes ?",
+          "choix": [
+            "A) La stéréopsie",
+            "B) La convergence oculomotrice",
+            "C) La convergence des parallèles",
+            "D) La dimension apparente des objets",
+            "E) La distance verticale des objets par rapport à l’horizon"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les ondes sonores,",
+          "choix": [
+            "A) Elles ne peuvent se déplacer que dans un milieu élastique",
+            "B) Les ondes sonores sont des ondes progressives",
+            "C) L’intensité acoustique de l’onde est liée à l’amplitude de sa variation de pression",
+            "D) La fréquence d’une onde ne dépend pas du milieu traversé",
+            "E) Une onde de fréquence 10 kHz correspond à un son aigu"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la tonie d’un son,",
+          "choix": [
+            "A) Elle correspond à la sensation sonore plus ou moins grave ou plus ou moins aiguë",
+            "B) Elle est principalement liée à l’amplitude du son",
+            "C) Une certaine durée du son est nécessaire pour l’apprécier",
+            "D) Les sons audibles chez l’humain ont des fréquences de l’ordre de 16 Hz à 20 kHz",
+            "E) La bande de fréquence audible diminue avec l’âge surtout dans les aiguës"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la perception d’un son,",
+          "choix": [
+            "A) Le seuil de douleur lors de la perception d’un son est de 120 dB, quelle que soit la fréquence du son",
+            "B) Un effet de masque désigne l'élévation du seuil d'audition d'un son par l'audition simultanée d'un autre son de puissance acoustique supérieure",
+            "C) Une élévation du seuil d'audition après audition d'un son suffisamment intense peut apparaitre, celle-ci étant plus marquée pour les fréquences inférieures à celle du son \"fatiguant\"",
+            "D) Le timbre est un paramètre subjectif lié à la structure complexe des sons et à l'analyse harmonique",
+            "E) Le timbre d’un son est directement lié à la fréquence fondamentale de l’onde"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’audition,",
+          "choix": [
+            "A) Une surdité de transmission pure peut correspondre à un dysfonctionnement au niveau de l’oreille externe",
+            "B) Une surdité de perception pure peut correspondre à un dysfonctionnement au niveau du tympan",
+            "C) Les explorations en conduction aérienne peuvent permettre de mettre en évidence des surdités de transmission ou de perception",
+            "D) Les explorations en conduction osseuse peuvent permettre de mettre en évidence des surdités de transmission",
+            "E) Une surdité de perception pure affecte principalement la conduction aérienne et les sons graves"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,852 @@
+{
+  "matiere": "Neurologie et neurochirurgie",
+  "slug": "neurologie-neurochirurgie-s9",
+  "annee": 2026,
+  "title": "Neurologie et neurochirurgie - 2026",
+  "total_questions": 42,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une femme de 25 ans, gauchère, présente aux urgences devant la survenue des paresthésies de type fourmillements dans les membres supérieurs sur plusieurs jours. De plus, elle a l’impression de décharge électrique très brève le long de la colonne vertébrale lorsqu’elle hoche sa tête vers l’avant. Elle n’a pas d’antécédents médicaux et elle n’a jamais présenté un évènement neurologique antérieur.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel signe clinique présente-elle ?",
+          "choix": [],
+          "reponses": [
+            "Signe de Lhermitte (ou Lhermitte)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une myélite et réalisez une IRM médullaire (clichés ci-dessous).\nQuelle est votre interprétation de cette IRM médullaire ?",
+          "choix": [
+            "A) L’hypersignal médullaire est étendu",
+            "B) L’hypersignal médullaire est localisé en T5",
+            "C) L’hypersignal touche les cordons postérieurs de la moelle épinière",
+            "D) L’hypersignal correspond aux symptômes cliniques de la patiente",
+            "E) La séquence IRM médullaire en coupe sagittale est une séquence T2",
+            "F) L’IRM est normale",
+            "G) La séquence en coupe sagittale est une séquence T1 avec injection de Gadolinium",
+            "H) Il existe une compression medullaire cervicale",
+            "I) Les résultats de cette IRM confirment le diagnostic de SEP"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2026/q2.webp?v=1786370308374",
+            "/images/qcm/neurologie-neurochirurgie-s9/2026/q2_1.webp?v=1786370308493"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez une pathologie inflammatoire. Comment complétez-vous le bilan étiologique ? (une seule réponse attendue)",
+          "choix": [
+            "A) Vous demandez une IRM cérébrale avec injection de gadolinium",
+            "B) Vous demandez un scanner cérébral",
+            "C) Vous réalisez des potentiels évoqués motrices",
+            "D) Vous réalisez un electroneuromyographie",
+            "E) Vous demandez un scanner thoracique"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370308723-e0c4a616d8f938",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "Une femme de 58 ans vous consulte pour un ptosis droit. Elle présente des antécédents d’hypertension artérielle et suit un traitement par candesartan. Elle avait remarqué une chute légère de la paupière droite il y a 2 ans mais n’avait pas consulté. Depuis 1 an, l’affaissement de la paupière droite est plus marqué, surtout le soir ou son œil est presque totalement fermé. Elle n’a aucune douleur et ne se plaint pas de diplopie. Lorsque vous l’examinez, vous n’observez aucun trouble oculomoteur. L’acuité visuelle est normale. Les pupilles sont intermédiaires, symétriques et réactive. Pas d’enophtalmie. Vous notez une ptose minime de l’œil droit, sans autre anomalie à l’examen clinique. En fin de consultation, vous remarquez que le ptosis droit est plus marqué.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est le diagnostic le plus vraisemblable ? (1 seule réponse attendue)",
+          "choix": [
+            "A) Dissection carotidienne droite",
+            "B) Anévrisme communiquant postérieur droit",
+            "C) Myathénie",
+            "D) Mononeuropathie ischémique",
+            "E) Polyradiculonévrite aigue"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les examens complémentaires suivant, lesquels prescrivez-vous ?",
+          "choix": [
+            "A) Ponction lombaire",
+            "B) Electroneuromyographie",
+            "C) IRM cérébrale",
+            "D) Angiographie rétinienne",
+            "E) Anticorps anti-récepteurs de l'acétylcholine",
+            "F) Vitesse de sédimentation",
+            "G) Scanner de l’orbite",
+            "H) Angioscanner ou angio-IRM des artères cérébrales",
+            "I) IRM médullaire",
+            "J) Hémoglobine glyquée",
+            "K) hémocultures",
+            "L) Scanner Thoracique"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "L"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle anomalie recherchez-vous à l’électroneuromyogramme (ENMG) en faveur du diagnostic de myasthénie ? (Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "Décrément"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370309604-c357eb9469ed18",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un patient de 55 ans, droitier, se présente aux urgences pour une céphalée spontanée de survenue brutale, évoluant depuis 2 h. Elle s’associe avec une vision double. Il a pour facteurs de risque un tabagisme actif à 25 paquets/années et une hypertension artérielle traitée par amlodipine 5 mg., L’examen clinique retrouve une tension artérielle à 190/100 un pouls régulier à 80 / minutes et une paralysie oculomotrice de l’œil droit associant une paralysie de l’élévation et de l’abaissement de l’œil et une mydriase aréactive à la lumière.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est la cause de la paralysie oculomotrice du patient ? (1 seule réponse)",
+          "choix": [
+            "A) Atteinte du nerf oculomoteur (III) D",
+            "B) Atteinte du nerf trochléaire (IV) D",
+            "C) Atteinte du nerf abducens (VI) D",
+            "D) Hypertension intracrânienne",
+            "E) Ophtalmoplégie internucléaire"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle dans la liste suivante la cause responsable de l’état neurologique du patient ? (une seule réponse attendue)",
+          "choix": [
+            "A) Migraine Ophtalmique",
+            "B) Hémorragie intra parenchymateuse capsulothalamique D",
+            "C) Hémorragie sous-arachnoïdienne (HSA) anévrysmale",
+            "D) Infarctus de la fossette latérale du bulbe (Syndrome de Wallenberg)",
+            "E) Meningoencéphalite aigue"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels autres signes cliniques peuvent révéler une HSA ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Un syndrome pyramidal",
+            "B) Une paralysie du VI",
+            "C) Une hémiparésie peut compliquer la rupture d’un anevrysme de l’artère cérébrale moyenne",
+            "D) Une paraparésie peut compliquer la rupture d’un anévrysme de l’artère communicante antérieure",
+            "E) Un coma brutal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les réponses vraies concernant les examens complémentaires visant à affirmer l’hémorragie sous-arachnoïdienne (HSA) et sa cause ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Le scanner cérébral sans injection de produit de contraste permet de faire le plus souvent le diagnostic positif d’HSA",
+            "B) Un scanner cérébral normal n’exclue pas le diagnostic d’HSA.",
+            "C) Une ponction lombaire doit être réalisée en cas d’imagerie cérébrale normale.",
+            "D) Une IRM cérébrale est recommandée si le scanner est normal plus de 24 h le début des symptômes",
+            "E) L’examen parenchymateux sera complété par un angioscanner et/ou une angio IRM et/ou une artériographie cérébrale à la recherche de la cause sous-jacente."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels résultats de l’analyse du liquide cérébrospinal (LCS) orientent vers le diagnostic d’HSA?",
+          "choix": [
+            "A) Rapport erythrocytes/leucocytes superposable à celui du sang",
+            "B) Pression du LCS élevée",
+            "C) Surnageant xantochromique",
+            "D) Liquide coagulable et de moins en moins sanglant au fur et à mesure du recueil.",
+            "E) Hypoglycorachie"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le scanner confirme la présence de sang dans les espaces sous-arachnoidiens, l’angioscanner retrouve une image d’addition opacifiée aux temps artériels précoces évocatrice d’un anévrysme rompu. Au vue de la présentation clinique, quelle est la localisation la plus probable de cet anévrysme ? (une seule réponse)",
+          "choix": [
+            "A) Première branche de division de l’artère cérébrale moyenne D",
+            "B) Segment V4 de l’artère vertébrale G",
+            "C) Terminaison de la carotide interne D intracrânienne",
+            "D) Artère communicante antérieure",
+            "E) Artère méningée moyenne"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous retenez le diagnostic d’HSA par rupture anévrysmale. Quels sont les éléments de la prise en charge thérapeutique (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Intubation systématique et transfert en réanimation",
+            "B) Prévention des thromboses veineuses",
+            "C) Contrôle de la pression artérielle",
+            "D) Traitement de la rupture anévrysmale responsable du saignement",
+            "E) Prévention de l’ischémie cérébrale retardée"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370311679-dd76bf08e0c3a",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous êtes médecin aux urgences et recevez une patiente de 65 ans pour des troubles de la vigilance depuis quelques heures.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous l’examinez dès son arrivée en box. Concernant l’examen clinique d’un coma, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Une réponse à la stimulation douloureuse avec une décérébration fait évoquer une souffrance du tronc cérébral.",
+            "B) Devant une mydriase aréactive unilatérale, il faut évoquer un engagement temporal.",
+            "C) Une skew deviation fait évoquer une lésion hémisphérique.",
+            "D) Un myosis aréactif peut faire évoquer un coma toxique.",
+            "E) Le coma est défini par un score de Glasgow inférieur à 10."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’examen clinique, la patiente présente des sueurs profuses et des signes d’irritation pyramidale. Elle est somnolente mais réveillable à la stimulation. Vous évoquez en premier lieu une hypoglycémie. Parmi les propositions suivantes, lesquelles sont exactes? (plusieurs réponses attendues)",
+          "choix": [
+            "A) Un seuil de 0.6 g/L est retenu pour le diagnostic d’hypoglycémie chez un patient non diabétique.",
+            "B) Les premiers symptômes en lien avec une hypoglycémie peuvent être des troubles sensitifs, visuels ou des troubles moteurs comme une hémiparésie.",
+            "C) Une hypoglycémie sévère peut être à l’origine de convulsions.",
+            "D) Le traitement du coma hypoglycémique repose sur l’injection de G30%.",
+            "E) Le traitement du coma hypoglycémique repose sur l’injection de G10%."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Finalement, la glycémie est normale à 0.9 g/L mais par contre la patiente devient fébrile à 38.5°C. Elle a également des difficultés pour exécuter les ordres simples et dénommer les objets qu’il y a autour d’elle. Quelle est l’urgence diagnostique et thérapeutique que vous évoquez ?",
+          "choix": [],
+          "reponses": [
+            "Méningo-encéphalite herpétique (ou encéphalite herpétique)"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Devant ce trouble de la vigilance fébrile brutal, quels examens complémentaires faut-il réaliser en urgence ? (2 reponses vraies attendues)",
+          "choix": [
+            "A) Un bilan biologique avec ionogramme sanguin, fonction rénale, fonction hépatique, NFS et bilan d’hémostase.",
+            "B) Une sérologie HSV dans le sang.",
+            "C) Un EEG.",
+            "D) Une ponction lombaire en l’absence d’hypertension intracrânienne confirmée par exemple à l’aide d’un scanner cérébral sans injection de produit de contraste",
+            "E) Une ponction lombaire en urgence."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le bilan biologique sanguin ne retrouve pas d’anomalie particulière. Voici l’IRM cérébrale réalisée en urgence. Quelles sont les réponses vraies ? (2 réponses vraies attendues)",
+          "choix": [
+            "A) Il s’agit d’une séquence T1 en coupe axiale car le LCS apparait noir.",
+            "B) On retrouve un hypersignal au niveau des régions pariétales droites.",
+            "C) Cette image est fortement évocatrice d’une méningo-encéphalite herpétique.",
+            "D) Il s’agit d’une séquence d’IRM FLAIR en coupe axiale",
+            "E) Cette image pourrait être retrouvée chez un patient présentant un infarctus cérébral dans le territoire de l’artère cérébrale moyenne droite."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2026/q18.webp?v=1786370313014"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les anomalies au niveau de l’analyse du LCS qui orienteraient vers une méningo-encéphalite herpétique ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Une pléiocytose à prédominance neutrophiles.",
+            "B) Une PCR HSV positive dans le LCS.",
+            "C) Une hyperprotéinorachie modérée à 1 g/L.",
+            "D) Une normo-glycorachie.",
+            "E) Un liquide clair."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’analyse du LCS retrouve un liquide clair, une protéinorachie à 0.8 g/L, 25 EN/mm3. La PCR HSV est toujours en attente. Quelle est la prise en charge que vous instaurez dans l’attente des résultats définitifs de la PL ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) ACICLOVIR 10 mg/kg toutes les 8h en IV pendant 21 jours.",
+            "B) KEPPRA en systématique en prévention de crise d’épilepsie.",
+            "C) Hydratation IV par NaCl devant le risque de nécrose tubulaire aiguë.",
+            "D) Méthylprednisolone 1 g par jour en IV pendant 3 jours.",
+            "E) LOVENOX 4000 UI par jour."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370313505-5fd3f2bfdd324",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Un patient de 25 ans se présente aux urgences pour une douleur faciale évoluant depuis une heure. Il n’a pas d’antécédent particulier en dehors d’un tabagisme actif de 5 à 10 cigarettes par jour et il n’a jamais eu de douleur faciale ou de céphalée jusqu’à maintenant. La douleur, localisée en région temporale droite, a atteint une intensité de 10/10 en une trentaine de minutes. Le patient décrit la douleur comme une compression intense ou une sensation de broiement. Vous remarquez que le patient ne tient pas en place et à l’examen clinique vous notez un ptosis droit et un myosis droit.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le diagnostic syndromique ?",
+          "choix": [
+            "A) Un syndrome de Claude Bernard Horner droit",
+            "B) Une paralysie du IIIème nerf crânien droit",
+            "C) Une paralysie du IVème nerf crânien droit",
+            "D) Une neuropathie trigéminée droite",
+            "E) Un syndrome de Wallenberg droit"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic étiologique doit être évoqué en priorité ?",
+          "choix": [
+            "A) Un AVC du tronc cérébral",
+            "B) Une rupture d’anévrysme de la terminaison carotidienne droite",
+            "C) Une rupture d’anévrysme de la terminaison carotidienne gauche",
+            "D) Une dissection carotidienne droite",
+            "E) Une dissection vertébrale gauche"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel examen complémentaire demandez-vous en urgence ?",
+          "choix": [],
+          "reponses": [
+            "Angioscanner des troncs supra-aortiques/Angioscanner carotidien/Angioscanner cérébral/IRM cérébrale injectée/Angio-RM des troncs supra-aortiques"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Cet examen est normal. La douleur a cédé au bout d’une heure et demi et le patient repart des urgences avec une ordonnance de paracétamol 1g et d’ibuprofène 400 mg en cas de récidive. Il revient aux urgences 5 jours plus tard car la même douleur a récidivé chaque jour pendant un heure à une heure et demi, vers 17h. Aujourd’hui, la douleur est arrivée deux fois, à 8h du matin puis à 17h. Le paracétamol et l’ibuprofène ne semblent pas avoir été efficaces car les crises de douleur n’ont pas cédé plus rapidement.\nQuel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Algie vasculaire de la face/algie vasculaire de la face droite/AVF/AVF droite"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les trois bons critères diagnostics de cette maladie ?",
+          "choix": [
+            "A) Douleur sévère à très sévère, unilatérale, orbitaire, sus-orbitaire et/ou temporale.",
+            "B) Durée de la douleur de 15 à 180 minutes.",
+            "C) Un signe/symptôme végétatif du même côté que la douleur et/ou une impression d’impatience ou une agitation.",
+            "D) Aggravation de la douleur par l’activité physique.",
+            "E) Photophobie et phonophobie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les deux traitements de crise de cette maladie ?",
+          "choix": [
+            "A) Oxygénothérapie à Haut Débit au Masque Facial",
+            "B) Sumatriptan Injectable en sous cutané",
+            "C) Carbamazepine per os",
+            "D) Zolmitriptan en comprimé per os",
+            "E) Oxygénothérapie à bas débit aux lunettes nasales"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les deux informations importantes que vous délivrez au patient ?",
+          "choix": [
+            "A) Le traitement de crise empêche les crises suivantes de survenir",
+            "B) Le sevrage tabagique permet la guérison",
+            "C) Un traitement de fond permet de réduire la fréquence et la sévérité des crises",
+            "D) Un traitement de fond permettra de faire disparaitre les crises",
+            "E) La consommation d’alcool est à éviter"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370314992-fdd46af8c74c3",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la maladie d’Alzheimer, quelles sont les réponses justes ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Le premier symptôme évocateur peut être un trouble de la mémoire antérograde.",
+            "B) La maladie peut se manifester en premier par un trouble du langage avec manque du mot.",
+            "C) Le patient est le plus souvent conscient de ses difficultés.",
+            "D) Le trouble de la mémoire dans la maladie d’Alzheimer est lié principalement à un trouble de la récupération de l’information.",
+            "E) Les patients décrivent des oublis des faits récents (ex : la journée de la veille)."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les pathologies responsables de troubles cognitifs qui seraient potentiellement curables ? (une ou plusieurs réponses attendue)",
+          "choix": [
+            "A) Une hyperthyroïdie",
+            "B) Une infection par la syphilis",
+            "C) Un hématome sous-dural chronique",
+            "D) Une dépression",
+            "E) Une encéphalite auto-immune"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient se présente à la consultation pour un trouble de la marche évoluant depuis environ 18 mois, en lien avec un syndrome extrapyramidal discret. Sur les tests de débrouillage cognitif, le MMS est à 20. Il a parfois l’impression qu’une petite souris a couru à côté de lui. Vous évoquez le diagnostic de maladie à corps de Lewy diffus. Parmi les éléments suivants, le ou lesquels sont en faveur de ce diagnostic ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) présence d’un syndrome extra-pyramidal",
+            "B) présence d’un signe de Babinski",
+            "C) existence d’hallucinations visuelles ou auditives",
+            "D) présence d’une paralysie oculomotrice",
+            "E) Aggravation des symptomes par la prise de neuroloeptiques"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 31,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une patiente de 28 ans, sans antécédent notable ni traitement, se présente aux urgences pour céphalées intenses. A 7h30, alors qu’elle prenait une douche, elle a ressenti une céphalée intense, brutale, inhabituelle et holocrânienne. Elle s’était réveillée à 07h asymptomatique. A l’examen clinique, la patiente est vigile, orientée et cohérente. Elle présente une céphalée intense évaluée à 8/10. Elle ne présente aucun déficit focalisé. Ses constantes sont les suivantes : TA=140/88 ; FC=72 bpm ; température= 37.1°C\nQuel examen complémentaire à visée diagnostique prescrivez-vous en urgence ? (Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "scanner cérébral/scanner cérébral sans injection/scanner cérébral non injecté"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 32,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les signes cliniques suivants, lesquels peuvent s’intégrer dans le cadre d’un syndrome de Wallenberg droit ?",
+          "choix": [
+            "A) ptosis droit",
+            "B) hémiplégie gauche",
+            "C) syndrome cérébelleux gauche",
+            "D) paralysie de l’hémi-voile droit",
+            "E) paralysie périphérique gauche"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 35 ans consulte aux urgences pour un épisode de paresthésies de l’hémiface et du membre supérieur gauches d’installation brutale, régressif en 10 minutes. A son admission aux urgences, son examen neurologique est normal.\nQuelles sont vos hypothèse diagnostiques ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Poussée de Sclérose en plaque",
+            "B) Accident ischémique transitoire",
+            "C) Aura migraineuse",
+            "D) Crise d’épilepsie partielle simple",
+            "E) Polyradiculonévrite aigue"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 34,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un homme de 45 ans se présente aux urgences pour une céphalée intense inhabituelle\nParmi les symptômes suivant lequel a la plus grande valeur diagnostique en faveur d’une hémorragie sous-arachnoïdienne ? (Une seule réponse attendue)",
+          "choix": [
+            "A) vomissements",
+            "B) phonophobie",
+            "C) fièvre",
+            "D) céphalée explosive",
+            "E) localisation occipitale de la céphalée"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 35,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel médicament doit alerter votre attention sur l’ordonnance d’un patient de 52 ans qui vient vous voir pour une suspicion de syndrome parkinsonien ? (une seule réponse exacte)",
+          "choix": [
+            "A) Amlodipine",
+            "B) Métoclopramide",
+            "C) Metformine",
+            "D) Propanolol",
+            "E) Aspirine"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 36,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le tremblement laquelle est exacte ? (une seule réponse correcte)",
+          "choix": [
+            "A) Une oscillation rythmique volontaire",
+            "B) Une oscillation rythmique involontaire",
+            "C) Un mouvement lent et proximal",
+            "D) Uniquement présent au repos",
+            "E) Uniquement présent pendant une action"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 68 ans a présenté de façon brutale une aphasie. L’IRM cérébrale réalisée en urgence est présentée ci-dessous (diffusion à gauche ; ADC à droite).\nParmi les propositions suivantes, quelle (quelles) cause(s) potentielle(s) à cet AVC devez-vous rechercher ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) une sténose athéromateuse de la carotide interne gauche",
+            "B) une dissection de la carotide interne droite",
+            "C) une microangiopathie liée à l’HTA",
+            "D) une fibrillation atriale",
+            "E) une malformation arterio-veineuse cérébrale"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2026/q37.webp?v=1786370318646",
+            "/images/qcm/neurologie-neurochirurgie-s9/2026/q37_1.webp?v=1786370318720"
+          ]
+        },
+        {
+          "id": 38,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un homme de 58 ans se présente à la consultation pour des douleurs des membres inférieurs et une gene à la marche. Ces douleurs ont une topographie radiculaire S1 bilatérales et touchent également les régions périnéales. Elles sont augmentées par les efforts de toux. Il décrit également des difficultés pour uriner. Vous retrouvez à l’examen clinique une anesthésie en selle et les ROT rotuliens et achiléens sont abolis. Le patient est incapable de marcher sur la pointe des pieds.\nQuel syndrome clinique évoquez-vous ? ((Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "syndrome de la queue de cheval (ou queue de cheval)"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 39,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont parmi les propositions suivantes les trois facteurs favorisant des crises comitiales chez un patient épileptique?",
+          "choix": [
+            "A) Manque de sommeil",
+            "B) Prise d’alcool",
+            "C) Prise de benzodiazépines",
+            "D) Sevrage brutal en tabac",
+            "E) Fièvre"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 40,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Interne de garde, vous êtes appelé par l’infirmière du service de neurologie pour un patient de 32 ans hospitalisé depuis le jour meme pour l’exploration d’un malaise avec perte de connaissance. Il présente à 22h un nouveau malaise avec perte de connaissance et des mouvements anormaux. A votre arrivée, le patient est inconscient avec des mouvements tonico-cloniques bilatéraux. L’infirmière vous rapporte que cet épisode dure depuis 7 minutes.\nQuel est votre diagnostic ? ((Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "Etat de mal Epileptique/ Etat de Mal Epileptique Généralisé/ Etat de Mal Tonico-Clonique/Etat de Mal Epileptique Tonico-Clonique"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 41,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont parmi les propositions suivantes, les réponses vraies concernant les tumeurs intra-crâniennes malignes de l’adulte ?",
+          "choix": [
+            "A) Les tumeurs cérébrales malignes représentent 1/3 des tumeurs intracrâniennes primitives.",
+            "B) Les cancers du sein et du poumon sont à l’origine de plus de la moitié des métastases cérébrales.",
+            "C) Le diagnostic de méningite tumorale est suspecté devant une atteinte d’un ou plusieurs nerfs crâniens, rapidement progressive associés à des douleurs rachidiennes et/ou radiculaires et une aréflexie.",
+            "D) L’âge et l’état fonctionnel des patients au moment du diagnostic mesuré par l’Indice de Karnofsky sont les facteurs pronostiques cliniques principaux.",
+            "E) Les gliomes malins sont très sensibles à la chimiothérapie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 42,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un homme de 68 ans consulte pour une faiblesse des membres inférieurs évoluant depuis 1 mois, d’aggravation progressive. Il décrit des douleurs dorsales inhabituelles et a observé des difficultés à uriner depuis quelques semaines. A l’examen clinique, il présente un déficit moteur bilatéral et symétrique des membres inférieurs sans déficit des membres supérieurs. Il existe une hypoesthesie polymodale des membres inférieurs, de la région périnéale et de l’abdomen jusqu’à l’ombilic. Il existe un signe de Babinski bilatéral.\nParmi les propositions suivantes, quelles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) Le patient présente un tableau clinique de polyradiculonévrite",
+            "B) Le patient présente un syndrome medullaire de niveau T10",
+            "C) Il s’agit d’un syndrome de l’hémimoelle",
+            "D) La sensibilité thermique est altérée aux membres inférieurs",
+            "E) Les réflexes ostéo-tendineux des membres inférieurs sont vifs"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

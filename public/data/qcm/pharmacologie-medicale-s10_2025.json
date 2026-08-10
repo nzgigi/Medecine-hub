@@ -1,0 +1,951 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s10",
+  "annee": 2025,
+  "title": "Pharmacologie médicale - 2025",
+  "total_questions": 41,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant les AINS, laquelle est exacte (QRU),",
+          "choix": [
+            "A) Ils entrainent une rétention hydrosodée",
+            "B) Ils augmentent la filtration glomérulaire lorsqu’ils sont associés à des IEC.",
+            "C) Ils ont un effet antiagrégant",
+            "D) Ils réduisent la pression sanguine artérielle",
+            "E) Ils sont contre indiqués à partir du 3 ieme mois de grossesse"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant le nefopam, quelle(s) est (sont) la (les) proposition(s) exacte(s) ? (QRM)",
+          "choix": [
+            "A) Il entraine une hypertension artérielle",
+            "B) Il entraine une rétention urinaire",
+            "C) Il entraine des hallucinations",
+            "D) Il entraine une tachycardie",
+            "E) il peut est utilisé comme antidépresseur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant le bon usage des opioides, laquelle est exacte (QRU),",
+          "choix": [
+            "A) ils sont indiqués en première intention dans les douleurs neuropathiques sévères",
+            "B) ils peuvent être associés à des antidiarrhéiques",
+            "C) Ils doivent être préférentiellement prescrits sous forme à libération immédiate",
+            "D) Ils sont associés à des antalgiques de paliers 1 dans le cadre de l’analgésie multimodale",
+            "E) L’hyperalgésie des opioïdes nécessitent une augmentation des doses"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments pendant la grossesse lesquelles sont vraies ? (QRP 3 réponses justes)",
+          "choix": [
+            "A) L’enalapril est un anti-hypertenseur utilisable pour traiter l’hypertension gravidique",
+            "B) Le diclofenac est foetotoxique",
+            "C) Apres avoir été traité par acitretine, on ne peut envisager une grossesse qu’après 3 mois de contraception efficace après la dernière prise",
+            "D) La prise régulière pendant la grossesse de benzodiazépines, à posologie normale, peut entrainer un syndrome de sevrage du nouveau-né.",
+            "E) L’exposition prénatale au valproate est associé à une plus grande fréquence de troubles du développement de l’enfant."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du Syndrome DRESS (drug reaction with eosinophilia and systemic symptoms), parmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ? (QRM)",
+          "choix": [
+            "A) Le syndrome DRESS peut mimer une infection virale aiguë comme la primo-infection à EBV.",
+            "B) Le délai d’apparition par rapport à l’introduction du médicament suspect est plus court que dans les autres toxidermies retardées.",
+            "C) Une myocardite peut s’intégrer dans un diagnostic de DRESS.",
+            "D) L’allopurinol est un des médicaments les plus pourvoyeurs de DRESS.",
+            "E) La carbamazépine est un des médicaments les plus pourvoyeurs de DRESS."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les inhibiteurs du SGLT2, laquelle est correcte ? QRU",
+          "choix": [
+            "A) Ils augmentent la réabsorption rénale du glucose au niveau du tube contourné proximal.",
+            "B) Ils sont contre-indiqués chez tous les patients présentant une insuffisance cardiaque.",
+            "C) Ils peuvent entraîner une hypoglycémie sévère lorsqu’ils sont utilisés en monothérapie.",
+            "D) Ils peuvent augmenter le risque d’hypotension chez les patients sous diurétiques.",
+            "E) Ils interagissent fortement avec les AINS en augmentant le risque d’hépatotoxicité."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Soit l’ordonnance suivante:\n- ofloxacine 200mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- bisoprolol 5mg 1 fois par jour\n- domperidone 10mg 3 fois par jour\nParmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ? (QRP 3 réponses vraies)",
+          "choix": [
+            "A) La domperidone a des propriétés antiémétiques par antagonisme de récepteurs dopaminergiques D2",
+            "B) L’ofloxacine est un inhibiteur enzymatique source d'interaction médicamenteuse dans cette ordonnance",
+            "C) Tous les médicaments de l’ordonnance allongent l’intervalle QT à l’électrocardiogramme.",
+            "D) L’ofloxacine est le traitement de première intention des infections dues aux streptocoques",
+            "E) Cette ordonnance expose à des photosensibilisations."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "QROC - Vous voyez en consultation une patiente de 45 ans pour un usage problématique de benzodiazépines, avec dans ces antécédents, des épisodes de convulsions lors de tentatives de sevrage par la patiente elle-même. Ce jour, elle vous rapporte consommer de l’alprazolam 0,5 mg 2 comprimés par prise 4 fois par jour, de l’oxazepam 50 mg à deux comprimés par jour, avec parfois un supplémentaire au coucher. Elle ne présente pas d’autre utilisation problématique, pas de comorbidité psychiatrique particulière en dehors de sa consommation de benzodiazépines. Elle a des antécédents de convulsions lors des précédentes tentatives de sevrage. Quelle benzodiazépine à demi-vie longue recommandez-vous pour initier un sevrage sécurisé ?",
+          "choix": [],
+          "reponses": [
+            "diazépam",
+            "diazepam",
+            "Diazepam",
+            "Valium",
+            "valium"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) les propositions exactes (QRM) :",
+          "choix": [
+            "A) La prise en charge d’un trouble de l’usage de la cocaïne s’appuie essentiellement sur l’utilisation de buprénorphine comme médicament de substitution",
+            "B) La voie d’administration inhalée (fumée) augmente le potentiel de dépendance d’une substance",
+            "C) La cocaïne est un puissant vasoconstricteur",
+            "D) Le risque d’accident vasculaire cérébral est élevé chez les usagers de cocaïne",
+            "E) L’association d’une benzodiazépine à un traitement de substitution par méthadone augmente le risque de dépression respiratoire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel effet indésirable ORL fréquent est associé à l’utilisation prolongée de corticoïdes inhalés sans rinçage buccal (QROC)?",
+          "choix": [],
+          "reponses": [
+            "Candidose oropharyngée",
+            "candidose buccale",
+            "candidose",
+            "Candidose buccale",
+            "candidose orale",
+            "Candidose",
+            "mycose buccale (candida)",
+            "Candidose oro-pharyngée",
+            "mucite et candidose orale",
+            "mucites, candidoses",
+            "candidose buccal",
+            "mycose buccale type candidose",
+            "candidose buccale muguet",
+            "candidose oral",
+            "mycose bucale (candida)",
+            "Candidose orale",
+            "Candidose buccale et oesophagienne",
+            "mycose buccale / candidose"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle (lesquelles) sont juste(s) ? (QRM)",
+          "choix": [
+            "A) Le lithium a un intérêt comme traitement prophylactique du trouble bipolaire de l’humeur",
+            "B) Le dosage de la calcémie est nécessaire lors de la prescription de lithium pour surveiller le risque d’hypocalcémie.",
+            "C) Il existe un risque de surdosage en lithium en cas d’hypernatrémie.",
+            "D) Le suivi thérapeutique pharmacologique du lithium permet de prévenir les effets indésirables dose-dépendants.",
+            "E) Lors du suivi thérapeutique pharmacologique du lithium forme LP, la cible de la concentration mesurée à la 12e heure après l'administration vespérale doit être de 0,8 à 1,2 mmol/L."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle (lesquelles) sont juste(s) (QRP)?",
+          "choix": [
+            "A) La clozapine est indiquée dans la schizophrénie résistante après échec de deux antipsychotiques de classe différente.",
+            "B) La principale complication hématologique associée à l'utilisation de la clozapine est la polyglobulie.",
+            "C) Chez l’adulte, les inhibiteurs de la recapture de la sérotonine comme la fluoxétine sont indiqués dans les épisodes dépressifs majeurs (c’est-à-dire caractérisés) et les troubles obsessionnels compulsifs.",
+            "D) Les troubles de la libido sont des effets indésirables peu fréquents (≥ 1/1 000 à < 1/100) avec les inhibiteurs de la recapture de la sérotonine comme la fluoxétine.",
+            "E) Le méthylphénidate est une option thérapeutique pour les adultes atteints de TDAH après échec d’une prise en charge non médicamenteuse (psychothérapie)."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "QROC : Citer l’acronymes nécessaires pour justifier la mention « non substituable » lorsqu’un médicament présente un index thérapeutique étroit",
+          "choix": [],
+          "reponses": [
+            "MTE",
+            "MTE (marge thérapeutique étroite)",
+            "MTE (marge therapeutique étroite)",
+            "marge therapeutique étroite (MTE)",
+            "MTE marge therapeutique etroite",
+            "MTE ( marge therapeutique etroite)",
+            "EFG CIF MTE",
+            "CIF MTE EFG (contre indicqtion formelle, marge therapeutique étroite, enfant de moins de 6ans)",
+            "CIF, MTE, NGS",
+            "MTE (marge therapeutique etroite)",
+            "MTE marge thérapeutique étroite"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QCM : Concernant les médicaments génériques, biosimilaires et hybrides, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Un médicament biosimilaire doit avoir une évaluation de son efficacité clinique par rapport au médicament biologique de référence par des études appropriées",
+            "B) Pour obtenir son autorisation de mise sur le marché, un médicament génériques doit toujours valider sa bioéquivalence par rapport au princeps avec des études appropriées",
+            "C) Un médicament hybride peut ne pas présenter les mêmes indications thérapeutiques que le médicament de référence",
+            "D) La protection du brevet des médicaments biologiques peut aller jusqu’à 25 ans",
+            "E) Un médicament biologique de référence peut être substitué par un biosimilaire comme l’est un médicament générique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle (lesquelles) sont juste(s) ? (QRM)",
+          "choix": [
+            "A) Les benzodiazépines, en inhibant la transmission GABAergique, permettent de diminuer l’hyperexcitabilité neuronale associée à l’anxiété.",
+            "B) Les benzodiazépines ont 7 propriétés pharmacodynamiques. Elles sont anxiolytiques, hypnotiques, sédatives, anticonvulsivantes, myorelaxantes, orexigènes et amnésiantes.",
+            "C) Les benzodiazépines constituent le traitement médicamenteux de fond du trouble panique.",
+            "D) Les benzodiazépines à longue demi-vie sont les benzodiazépines de choix chez la personne âgée.",
+            "E) La prise de benzodiazépines contre-indique la conduite automobile du fait du risque de somnolence au volant."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297402432-102510cde73258",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Madame, âgée de 75 ans se présente d’elle-même aux urgences car son médecin traitant est absent pour des malaises et des tremblements répétitifs depuis une semaine en ﬁn de matinée et elle s’inquiète. Elle est diabétique de type 2 depuis 20 ans avec une rétinopathie diabétique simple ; elle ne fume pas, a une hypertension artérielle. Son traitement actuel comprend : metformine 1000 mg : 1 comprimé matin midi et soir, gliclazide LM 60 mg : 1 comprimé le matin, ramipril 10 mg : 1 comprimé le matin, indapamide LP 1,5 mg : 1 comprimé le matin. À l'arrivée, la patiente est consciente, répond très bien aux questions mais décrit des tremblements importants, il n'y a pas de signe de décompensation cardiaque. Le reste de l’examen clinique est normal. L'infirmière d’accueil fait une glycémie capillaire qui est à 0,55 g/l.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est l'hypothèse diagnostique la plus probable pour expliquer ses malaises ?",
+          "choix": [],
+          "reponses": [
+            "Hypoglycémie.",
+            "malaises hypoglycémiques.",
+            "Hypoglycémie liée au traitement.",
+            "Hypoglycémie liée aux sulfamides hypoglycémiants.",
+            "Hypoglycémie par le gliclazide.",
+            "hypoglycémie iatrogène",
+            "hypoglycémies",
+            "Hypoglycémie iatrogène",
+            "malaise hypoglycémique",
+            "hypoglycémie médicamenteuse",
+            "hypoglycemie iatrogene",
+            "Hypoglycémies",
+            "hypoglycémie iatrogène (gliclazide)",
+            "hypoglycemies",
+            "hypoglycémie iatrogénique",
+            "Hypoglycémie (causée par gliclazide)",
+            "hypoglycémie par gliclazide",
+            "malaise sur hypoglycémie",
+            "hypoglycemie medicamenteuse",
+            "hypoglycemies iatrogènes (probablement gliclazide)",
+            "hypoglycémique",
+            "hypoglycémie sous gliclazide",
+            "malaise hypoglycemique",
+            "hypoglycémies secondaires au glicazide",
+            "hypoglycémie sévère",
+            "hypoglycémie iatrogène (glicazide)",
+            "hyporglycémie",
+            "Hypoglycémie due au Glicazide",
+            "Hypoglycémie médicamenteuse",
+            "hypoglicemie iatrogene",
+            "hypogylcémie",
+            "Hypoglycemie iatrogène",
+            "Hypoglycémie iatrogene",
+            "hypoglycemie au sulfamide",
+            "hypoglycémie sur gliclazide",
+            "hypoglycémie par surdosage en gliclazide",
+            "Hypoglycémie sur polymédication antidiabétique",
+            "hypoglycemie sur iatrogenie",
+            "hypoglycemie induite par le glicazide",
+            "malaises hypoglycémiques en lien avec la prise de sulfamide hypoglycémiant",
+            "hypoglycémies sous sulfamides",
+            "hypoglicémie induite par gliclazide",
+            "hypoglycémie (surement iatrogène)",
+            "Hypoglycémie (iatrogène)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 8 éléments de la stratégie thérapeutique que vous adoptez ?",
+          "choix": [
+            "A) Apporter du saccharose par voie orale.",
+            "B) Perfuser du sérum glucosé.",
+            "C) Arrêter l'indapamide.",
+            "D) Arrêter le ramipril.",
+            "E) Arrêter le gliclazide.",
+            "F) Confirmer le résultat de la glycémie capillaire par une glycémie veineuse.",
+            "G) Interroger la patiente sur un changement récent de posologie des traitements.",
+            "H) Interroger l'entourage sur les modalités de gestion du traitement à domicile.",
+            "I) Rechercher un amaigrissement récent.",
+            "J) Savoir si elle connait son HbA1c.",
+            "K) Évaluer la fonction rénale.",
+            "L) Organiser un retour immédiat de la patiente au domicile."
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K"
+          ],
+          "maxReponses": 8,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous demandez une évaluation de la fonction rénale qui révèle une créatininémie à 150 µmol/l soit un DFG à 45 ml/min : le rapport albuminurie/créatininurie est à 400 mg/g. Une cause obstructive est écartée. L'hémoglobine glyquée est à 7,1 %. Vous décidez une adaptation thérapeutique de son traitement.\nQuelles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) Arrêter le gliclazide.",
+            "B) Réduire la dose de metformine.",
+            "C) Ajouter un Sartan.",
+            "D) Mettre en place un traitement par inhibiteurs des SGLT2.",
+            "E) Mettre en place un traitement par analogues du GLP-1."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297405593-b6f86bb1c5aa88",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Madame C, 58 ans vient pour un renouvellement d’ordonnance. Elle est diabétique de type 2 depuis 15 ans. Elle vient d’arriver dans la région. Elle était sans emploi 10 ans avant sa mise à la retraite et revient vivre chez sa ﬁlle, faute de moyens ﬁnanciers. Dans ses antécédents, pas d’allergie ou d’asthme. Notion d’un diabète gestationnel et d’une toxémie gravidique à l’âge de 30 ans lors de son unique grossesse avec une fille qui va bien, née par voie basse et pesant à terme 4.5 kg. Elle ne fume pas et n’a pas de dyslipidémie. Elle relate un syndrome dépressif ancien qui s’est majoré suite à son divorce récent et une insomnie ancienne qui s’est aggravée à cette occasion. Ses PA sont à 125/75 mmHg son poids de 100 kg pour 1.50 m. l’examen clinique est normal. L’ECG est normal. Son traitement comprend : metformine 1000 mg 1 comprimé matin, midi et soir, lorazépam 1 mg et venlafaxine 75 mg par jour.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 4 facteurs de risque cardiovasculaires que vous identifiez chez elle ?",
+          "choix": [
+            "A) Son âge.",
+            "B) Le fait d’être une femme.",
+            "C) Le tabagisme.",
+            "D) La dépression ancienne.",
+            "E) La toxémie gravidique.",
+            "F) Les troubles du sommeil",
+            "G) La précarité."
+          ],
+          "reponses": [
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’HbA1c est à 8.5 %, la créatininémie à 130 µmol/l avec un DFG à 75 ml/min. En la réinterrogeant, les mesures hygiéno-diététiques sont assez bien respectées et le poids est stable depuis au moins 2 ans.\nQuels sont les 2 examens prioritaires dont vous avez besoin pour guider le choix de la stratégie thérapeutique ultérieure ?",
+          "choix": [
+            "A) Un fond d’œil.",
+            "B) Le rapport protéinurie/créatininurie.",
+            "C) Le rapport albuminurie/créatininurie.",
+            "D) Un E.C.G.",
+            "E) Une échographie rénale."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous décidez d’introduire un analogue du GLP1 : pourquoi ?\nDonnez les 4 réponses exactes.",
+          "choix": [
+            "A) Cette classe thérapeutique est indiquée dans le diabète de type 2.",
+            "B) Cette classe thérapeutique est préférentiellement utilisée chez le patient diabétique de type 2 obèse.",
+            "C) Cette classe thérapeutique ne provoque pas en général d’hypoglycémie en association avec la metformine.",
+            "D) Cette classe thérapeutique a l’AMM en bithérapie avec la metformine.",
+            "E) Son administration est facile par voie orale hebdomadaire."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les mécanismes d’action des analogues du GLP1 ?\nQuelle(s) est(sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Stimule la sécrétion d’insuline.",
+            "B) Diminue la sécrétion de glucagon.",
+            "C) Augmente la production hépatique de glucose.",
+            "D) Stimule la vidange gastrique.",
+            "E) Augmente la satiété."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente échappe au suivi et vous la revoyez 10 ans plus tard, Elle a arrêté son analogue du GLP1 car elle n’aime pas les injections ; Elle a perdu 10 kg sur plusieurs années. Elle est très isolée et pleure en consultation. Elle prend metformine 850 mg matin et soir, perindopril 4 mg matin, amlodipine 10 mg matin, lorazepam 1 mg le soir et rosuvastatine 10 mg le matin. La PA est à 130/70 mmHg le poids est de 90 kg l'examen clinique reste normal. Elle a développé une maladie rénale chronique avec un DFG à 45 ml/min et une protéinurie. Le néphrologue a conclu à une néphropathie glomérulaire liée au diabète qui est resté très déséquilibré pendant des années avec une HbA1c aux alentours de 8 % faute de prise de traitement régulier.\nQue lui proposez-vous ?",
+          "choix": [
+            "A) Évaluation de l'observance à l'égard des traitements pris.",
+            "B) Proposition d'éducation thérapeutique.",
+            "C) Lui proposer de rencontrer l'assistante sociale.",
+            "D) Lui imposer une prise en charge psychologique.",
+            "E) Augmenter la dose de metformine.",
+            "F) Introduction d'un inhibiteur des SGLT2 en la prévenant des effets indésirables potentiels.",
+            "G) Mettre en place d'emblée une insulinothérapie.",
+            "H) La revoir à court terme pour évaluer l'efficacité du traitement.",
+            "I) Demander une hémoglobine glyquée à trois mois.",
+            "J) Prendre un avis diabétologique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "F",
+            "H",
+            "I",
+            "J"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant la prescription de la benzodiazépine lorazépam, quelles sont les 2 aﬃrmations exactes, en sachant que c'est une benzodiazépine anxiolytique ?",
+          "choix": [
+            "A) La prescription de cette benzodiazépine est limitée à 12 semaines.",
+            "B) Un conditionnement des comprimés pour trois mois est possible.",
+            "C) Il est possible de se la procurer en automédication.",
+            "D) Il est possible pour un interne de rédiger l'ordonnance pour effectuer la délivrance.",
+            "E) La délivrance de cette molécule qui est sur liste 1 pour deux mois est possible, même si le médecin n’a précisé la durée de la prescription en bas de l'ordonnance."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Imaginons qu’un médicament de l’insuﬃsance rénale bénéﬁcie d’une autorisation d’accès précoce. Concernant l'autorisation d'accès précoce (AAP) pour un médicament et ses modalités en général, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les demandes d’AAP peuvent être déposées par les laboratoires pharmaceutiques.",
+            "B) Les demandes d’AAP peuvent être déposées par des médecins prescripteurs.",
+            "C) Ces AAP peuvent concerner un médicament qui dispose d’une AMM pour une autre indication que celle demandée.",
+            "D) L’APP n’oblige pas le laboratoire à déposer une demande d’AMM ultérieure.",
+            "E) Un médicament qui bénéficie d’une AAP est destiné à une maladie grave."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297408523-51eec57edb45b",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "M T 78 ans est hypertendu traité. Il a comme antécédent un accident vasculaire cérébral ischémique. Il décrit depuis un an un angor d’eﬀort stade 1. Le scanner coronaire a mis en évidence une sténose d’environ 65% de la coronaire droite sur son deuxième segment. IL a un diabète de type 2. Sa fonction rénale est déﬁnie par une créatininémie à 120 µmol/l et une clairance de la créatinine de 40 ml/min. Il reçoit un traitement par Acide acétylsalicylique 75 mg : un sachet par jour, Amlodipine 5 mg : une gélule par jour, Indapamide 1.5 mg LP : un comprimé par jour, Irbesartan 300 mg : un comprimé par jour, Atorvastatine 80 mg : un comprimé par jour. Il est traité pour son diabète par metformine et du Gliclazide : un sulfamide hypoglycémiant.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le traitement par Atorvastatine, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) L’Atorvastatine réduit le risque d’infarctus du myocarde.",
+            "B) L’Atorvastatine réduit le risque de décès d’origine cardiovasculaire.",
+            "C) L’Atorvastatine réduit le risque d’accident vasculaire cérébral.",
+            "D) L’objectif chez ce patient est un LDL cholestérol inférieur à 0.55 g/l.",
+            "E) L’Atorvastatine requiert une surveillance des transaminases."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le LDL cholestérol est à 1.60 g/l. La mesure ambulatoire de la pression artérielle montre une moyenne des PA diurnes de 167/78 mm Hg et nocturne 168/80 mm Hg. Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il faut évaluer l’observance médicamenteuse.",
+            "B) Il faut rechercher une interaction médicamenteuse.",
+            "C) Il faut rechercher des troubles mnésiques.",
+            "D) L’HTA n’est pas contrôlée.",
+            "E) Il faut rechercher une hypotension orthostatique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient prend 4 à 5 fois par semaine du Diclofénac en raison de lombalgies. Le Diclofénac est un antiinﬂammatoire non stéroïdien. Concernant le Diclofénac, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il favorise une hypokaliémie.",
+            "B) Il provoque une rétention hydrosodée.",
+            "C) Il augmente le risque d’hémorragie digestive.",
+            "D) Il favorise une hyponatrémie.",
+            "E) Il peut provoquer une insuffisance rénale."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient décrit des diarrhées et des épisodes d’hypoglycémie.\nQuelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Les diarrhées sont un effet indésirable très fréquent de la Metformine.",
+            "B) Les diarrhées sont un effet indésirable très fréquent du Gliclazide.",
+            "C) Les hypoglycémies sont un effet indésirable fréquent de la Metformine.",
+            "D) Les hypoglycémies sont un effet indésirable fréquent du Gliclazide.",
+            "E) La posologie de Metformine doit être adaptée à la fonction rénale."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient présente des troubles mnésiques dans le cadre d’une atteinte vasculaire. Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La présence de troubles mnésiques chez la personne âgée est associée à une augmentation du risque iatrogène.",
+            "B) Au stade des troubles mnésiques, le traitement de l’hypertension artérielle perd son intérêt pour réduire le risque de démence vasculaire chez la personne âgée.",
+            "C) Au stade des troubles mnésiques chez la personne âgée, le traitement par statine perd son intérêt pour réduire le risque d’accident cardiovasculaire.",
+            "D) La présence de troubles mnésiques chez la personne âgée doit conduire à réduire le nombre de médicaments pour tenir compte de l’altération des facultés cognitives.",
+            "E) La présence de troubles mnésiques chez la personne âgée doit être prise en compte dans l’organisation de l’administration des médicaments."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors d’une consultation pour renouveler son ordonnance, vous observez un rythme cardiaque irrégulier associé selon l’électrocardiogramme à une ﬁbrillation auriculaire avec une fréquence ventriculaire de 82 battements par minute. Vous envisagez un traitement par Apixaban. Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Le risque embolique associé à la fibrillation auriculaire dépend de l’âge.",
+            "B) Le risque embolique associé à la fibrillation auriculaire dépend de la présence de trouble cognitif.",
+            "C) Le risque embolique associé à la fibrillation auriculaire dépend de la présence d’une hypertension artérielle.",
+            "D) Le risque embolique associé à la fibrillation auriculaire dépend de la présence d’un diabète.",
+            "E) Le risque embolique associé à la fibrillation auriculaire dépend de la fonction rénale."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez de l’Apixaban pour prévenir le risque d’accident vasculaire cérébral dans ce contexte de ﬁbrillation auriculaire. Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Avant de prescrire de l’Apixaban, il faut connaitre le poids de ce patient.",
+            "B) Avant de prescrire de l’Apixaban, il faut connaitre la créatininémie de ce patient.",
+            "C) Avant de prescrire de l’Apixaban, il faut déterminer le débit de filtration glomérulaire de ce patient.",
+            "D) L’Apixaban dispose d’un agent antagoniste qui peut être injecté en cas d’hémorragie menaçant le pronostic vital.",
+            "E) L’Apixaban dispose d’un agent antagoniste qui peut être injecté en cas d’hémorragie menaçant le pronostic fonctionnel."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient a maintenant 81 ans. Lui et son entourage signalent des épisodes de lipothymies le matin au lever et en sortant de table après le repas de midi. La recherche d’une hypotension orthostatique est positive. Il reçoit un traitement par Irbesartan, Amlodipine, Indapamide, apixaban metformine, Rosuvastatine et Alfuzosine: un alpha bloquant. Ce dernier médicament est donné pour une hypertrophie bénigne de prostate. Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) L’Irbesartan peut favoriser l’hypotension orthostatique.",
+            "B) L’Amlodipine peut favoriser l’hypotension orthostatique.",
+            "C) L’Alfuzosine peut favoriser l’hypotension orthostatique.",
+            "D) La Rosuvastatine peut favoriser l’hypotension orthostatique.",
+            "E) Compte tenu de l’antécédent d’accident vasculaire cérébral, il faut conserver l’objectif d’un contrôle de l’hypertension artérielle en visant une moyenne en automesure inférieure à 120/80 mm Hg."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297411223-6251a8061077a8",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Me O 30 ans a un antécédent de migraine avec aura. Elle a aussi un antécédent d’hypertension artérielle gravidique survenue il y a 10 ans.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle présente des pressions artérielles mesurées en moyenne à 162/94 mm Hg en médecine du travail : quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Le dépistage de l’hypertension artérielle peut être fait par des pharmaciens.",
+            "B) Le dépistage de l’hypertension artérielle peut être fait par un médecin de santé au travail.",
+            "C) Le dépistage de l’hypertension artérielle peut être fait par une infirmière.",
+            "D) Le dépistage de l’hypertension artérielle peut être fait par un médecin généraliste.",
+            "E) Le dépistage de l’hypertension artérielle peut être fait par un médecin non spécialiste des maladies cardiovasculaires."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est adressée à son médecin traitant qui diagnostique une hypertension artérielle sur la base de pressions artérielles de consultation mesurées en moyenne à 152/104 mmHg. Le caractère permanent de l’hypertension artérielle est conﬁrmé par une automesure tensionnelle : moyenne d’un relevé de 18 mesures à 145/98 mm Hg. La patiente reçoit une contraception oestroprogestative : quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La contraception oestro-progestative peut provoquer une augmentation de la pression artérielle.",
+            "B) La contraception oestro-progestative n’est pas recommandée chez cette patiente compte tenu de son hypertension artérielle.",
+            "C) La contraception oestro-progestative n’est pas à utiliser chez cette patiente compte tenu de son antécédent de migraine avec aura.",
+            "D) La contraception par pilule microprogestative n’est pas recommandée chez cette patiente compte tenu de son hypertension artérielle.",
+            "E) La contraception oestro-progestative n’est pas à utiliser chez cette patiente compte tenu de son antécédent d’hypertension artérielle gravidique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous envisagez d’installer un traitement un inhibiteur d’enzyme de conversion : le Perindopril Vous mettez en place les mesures pour limiter le risque iatrogène : : quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Vous devez informer la patiente du risque de malformation pour le bébé en cas de grossesse sous inhibiteur d’enzyme de conversion.",
+            "B) Vous devez conditionner la prescription de Perindopril à l’utilisation d’une méthode de contraception efficace.",
+            "C) Vous devez conditionner la prescription de Perindopril à la réalisation d’un test de grossesse urinaire négatif.",
+            "D) Vous devez conditionner la prescription de Perindopril à la réalisation d’un test de grossesse sanguin négatif.",
+            "E) Il ne faut pas informer la patiente du risque de toux pour réduire le risque d’un effet nocebo."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente vous informe d’un projet de grossesse. Vous envisagez l’installation d’un traitement bétabloquant par Labétalol à la place du traitement par Perindopril que la patiente prenait jusqu’alors : Vous envisagez les mesures à prendre pour limiter le risque iatrogène : quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il ne faut pas prescrire le Labetalol si la patiente est asthmatique.",
+            "B) Il ne faut pas prescrire le Labetalol si la patiente à une fréquence cardiaque avant traitement inférieur à 50 battements par minute.",
+            "C) Il faut rechercher une hypotension orthostatique avant de le prescrire.",
+            "D) Il faut rechercher une hypotension orthostatique après son administration.",
+            "E) Il faut avoir recherché un paragangliome avant sa prescription compte tenu du jeune âge de la patiente et de l'effet vasoconstricteur de la molécule."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente a présenté une thrombose veineuse du membre inférieur au décours de l’accouchement et cette thrombose a récidivé un an après sans facteur déclenchant. Elle reçoit actuellement un traitement préventif par Apixaban 2.5 mg matin et soir : quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) L’Apixaban est un anticoagulant dont le mécanisme d’action repose sur l’inhibition de la synthèse de facteur de la coagulation par le foie.",
+            "B) L’Apixaban est éliminé en partie par le rein.",
+            "C) La posologie d’Apixaban doit être ajustée en référence à un temps de coagulation du plasma du patient.",
+            "D) Il est parfois nécessaire de prescrire à la fois de l’Apixaban et de la Warfarine.",
+            "E) Le mécanisme d’action de l’Apixaban repose sur l’inhibition de la thrombine."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan de l’hypertension artérielle chez cette femme jeune a mis en évidence un hyperaldostéronisme primaire. Concernant le traitement antihypertenseur, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La spironolactone est indiquée car elle bloque le récepteur de l’aldostérone.",
+            "B) La spironolactone peut entrainer des mastodynies.",
+            "C) La spironolactone peut entrainer des métrorragies.",
+            "D) La spironolactone est contre indiquée en cas de grossesse.",
+            "E) La spironolactone est contre indiquée en cas de cancer du sein."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un an après la patiente doit bénéficier d’une cholécystectomie. Concernant le traitement par Apixaban, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il faut l’interrompre et faire un relai par de la warfarine.",
+            "B) Il faut l’interrompre au moins 48 heures avant la chirurgie.",
+            "C) Il faut l’interrompre et faire un relai par du fondaparinux à posologie curative.",
+            "D) Il faut l’interrompre et faire un relai par de l’enoxaparine à posologie curative.",
+            "E) Il faut l’interrompre et faire un relai par du dabigatran à la posologie de 110 mg matin et soir."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 41,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique réalisé chez cette patiente qui a maintenant 45 ans montre un cholestérol total à 7.24 mmol/l (2.80 g/l), un HDL cholestérol à 1.03 mmol/ (0.40 g/l) et un LDL cholestérol à 4.9 mmol/l (1.90 g/l). La pression artérielle est notée à 152/90 mm Hg. Elle fume environ 5 cigarettes par jour. Le risque cardiovasculaire est estimé élevé. Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La décision de proposer un traitement par statine prend en compte l’âge.",
+            "B) La décision de proposer un traitement par statine prend en compte le tabagisme.",
+            "C) La décision de proposer un traitement par statine prend en compte la pression artérielle.",
+            "D) La décision de proposer un traitement par statine prend en compte l’antécédent de phlébite.",
+            "E) La décision de prescrire un traitement par statine prend en compte le choix du patient, éclairé par l’information délivrée par le médecin."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

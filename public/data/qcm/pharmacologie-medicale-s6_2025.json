@@ -1,0 +1,463 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s6",
+  "annee": 2025,
+  "title": "Pharmacologie médicale - 2025",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En tant que médecin généraliste, vous recevez en consultation Mme D., 22 ans, qui souhaite une contraception hormonale. Elle ne présente pas d’antécédents médicaux particuliers, et fume en moyenne 5 cigarettes par jour. Concernant la contraception hormonale, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
+          "choix": [
+            "A) L’implant contraceptif contient de l’ethinylestradiol seul, libéré dans l’organisme pendant 3 ans",
+            "B) Les contraceptifs contenant de la drospirenone exposent au risque d’hypokaliemie",
+            "C) La « pilule » oestro-progestative dite « de 3eme génération » présente plus de risque thromboembolique que celle de 2eme génération",
+            "D) Le diethylstilbestrol est l’œstrogène de synthèse le plus présent dans les pilules oestroprogestatives",
+            "E) les antirétroviraux peuvent diminuer l’efficacité des contraceptifs oraux"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous décidez de lui prescrire une pilule oestro-progestative.\nConcernant les propriétés pharmacologiques des œstrogènes, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
+          "choix": [
+            "A) Ils augmentent l’agrégation plaquettaire",
+            "B) Ils sont anabolisants",
+            "C) Ils favorisent l’ostéoporose",
+            "D) Ils diminuent la sécrétion de prolactine",
+            "E) Ils améliorent la trophicité de la muqueuse vaginale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Connaissant la pharmacodynamie des estrogènes et des progestatifs, quel(s) est(sont) l'(es) effet(s) indésirable(s) potentiel(s) au(x)quel(s) peut s’attendre Mme D. suite à cette prescription ?",
+          "choix": [
+            "A) hyperpigmentation de la peau",
+            "B) perte de poids",
+            "C) hypotension arterielle",
+            "D) thrombose veineuse",
+            "E) augmentation des triglycérides sanguins"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En raison du tabagisme de Mme D, vous souhaitez prendre en compte le risque thrombotique de cette patiente. Concernant le risque de thrombose et la contraception, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
+          "choix": [
+            "A) il est accru sous oestroprogestatif",
+            "B) Les pilules de quatrième génération présentent deux fois moins de risque de thrombose que les autres pilules",
+            "C) Seules les formes orales de contraceptifs présentent ce risque",
+            "D) Ce risque est plus important la première année d’utilisation des contraceptifs œstroprogestatifs",
+            "E) Il peut être fatal dans un à deux pour cent des cas"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’efficacité de la contraception oestro-progestative étant liée à la régularité de la prise, vous indiquez à Mme D. la possibilité de contraception d’urgence en cas d’oubli de prise et de rapport non protégé pouvant conduire à une grossesse non désirée.\nConcernant les contraceptifs d’urgence :",
+          "choix": [
+            "A) Un des principes actifs utilisés est un antagoniste des récepteurs aux œstrogènes",
+            "B) Ils doivent être pris tous les jours après le rapport sexuel non protégé jusqu’aux règles suivantes",
+            "C) Ils peuvent agir sur l’ovulation",
+            "D) Pour garantir son efficacité, l’ulipristal doit être immédiatement associé à une contraception oestroprogestative",
+            "E) ils doivent être pris le plus rapidement possible après le rapport non protégé"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Si la grossesse persiste, il faudra évaluer le risque lié à la prise potentielle de médicaments par Mme D. Concernant l’évaluation du risque d’un médicament pris par une femme enceinte :",
+          "choix": [
+            "A) un médicament pris avant la grossesse peut entraîner des effets sur l’enfant à naître",
+            "B) les antagonistes des recepteurs de l’angiotensine2 (-sartan) sont les antihypertenseurs de choix chez la femme enceinte",
+            "C) un médicament pris au huitième mois de grossesse peut entraîner un syndrome d’imprégnation du nouveau-né",
+            "D) la prise maternelle chronique de benzodiazépines à posologie normale peut entraîner un syndrome de sevrage nouveau-né",
+            "E) les anti-inflammatoires non stéroïdiens sont responsables d’anomalies de fermeture du tube neural"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299604313-6d72eea0730ed8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) concernant les glinides ?",
+          "choix": [
+            "A) Ils agissent par inhibition des canaux potassiques ATP-dépendants",
+            "B) Ils augmentent le risque d’hyperglycémie",
+            "C) Ils se lient de façon importante aux protéines plasmatiques",
+            "D) Ils peuvent entrainer une perte de poids",
+            "E) Il s’agit de la classe de médicament de choix chez la femme enceinte diabétique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments utilisés chez le diabétique, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Les sulfamides hypoglycémiants agissent en réduisant l’absorption digestive du glucose",
+            "B) Tous les médicaments utilisés dans le traitement du diabète peuvent entrainer une hypoglycémie",
+            "C) Les incrétinomimétiques augmentent la sensation de satiété",
+            "D) Les neuroleptiques antipsychotiques sont fréquemment à l’origine d’hypoglycémies",
+            "E) La codéine (mais pas le tramadol) peut favoriser la survenue d’hypoglycémies, notamment chez le diabétique traité"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, quel est celui ou quels sont ceux attendus avec la ciprofloxacine ?",
+          "choix": [
+            "A) Coloration des dents après exposition intra-utérine",
+            "B) Photosensibilisation",
+            "C) Allongement de l’espace QT",
+            "D) Tendinites",
+            "E) Syndrome confusionnel"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) le ou les éléments(s) à prendre en compte dans le cadre de la prescription et du bon usage et des antibiotiques ?",
+          "choix": [
+            "A) Prise en compte de la fonction rénale du patient",
+            "B) Spectre antibactérien le plus large possible",
+            "C) Identification du germe",
+            "D) Connaissance des antécédents médicaux",
+            "E) Coût de l’antibiotique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est(sont) la(es) proposition(s) correcte(s) concernant l’exercice médical dans le cadre du sport de compétition ?",
+          "choix": [
+            "A) Dans le cas d’un athlète professionnel atteint d’une pathologie chronique nécessitant un traitement médicamenteux, le choix thérapeutique est restreint aux médicaments non interdits",
+            "B) Si le patient ne fait pas partie d’une équipe sportive professionnelle, la prescription de médicaments listés par l’Agence mondiale antidopage (AMA) est autorisée sans condition",
+            "C) Un médecin amené à déceler des signes évoquant une pratique de dopage est tenu de refuser la délivrance d'un certificat médical de non-contre-indication à la pratique sportive",
+            "D) L’Antenne Médicale de Prévention du Dopage et des conduites dopantes (AMPD) du CHU de Toulouse a une mission d’information, de prévention, d’orientation et de prise en soins des sportifs ayant utilisé des substances dopantes",
+            "E) L’Autorisation d’Usage à des fins Thérapeutiques est déclarée au centre régional de Pharmacovigilance du lieu d’exercice"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des anti androgènes :",
+          "choix": [
+            "A) Les analogues de LHRH, utilisés en continu, diminuent la production de testostérone",
+            "B) L’acetate de cyproterone expose au risque de meningiome",
+            "C) On peut réduire la production de testostérone en inhibant certaines enzymes participant à la transformation de progestatifs en androgènes.",
+            "D) Le finastéride, indiqué dans le traitement de l’hypertrophie bénigne de la prostate, peut provoquer une alopécie",
+            "E) La prise d’anti-androgènes pendant la grossesse expose à un risque de virilisation du fœtus."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diethylstilbestrol :",
+          "choix": [
+            "A) est un estrogène de synthèse",
+            "B) Est indiqué aujourd’hui pour prévenir le risque de fausse couche spontanée",
+            "C) Augmente la survenue de carcinomes chez la femme",
+            "D) diminue la prematurité",
+            "E) Peut entraîner des effets indésirables sur les descendants des patientes ayant pris le médicament pendant leur grossesse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la lévothyroxine, la(es)quelle(s) est(sont) exacte(s) ?",
+          "choix": [
+            "A) Il s’agit d’un médicament à marge thérapeutique étroite",
+            "B) Sa demi-vie est de 6 à 7 semaines",
+            "C) Son absorption digestive est modifiée par l’alimentation",
+            "D) La lévothyroxine a un effet inotrope et chronotrope positif",
+            "E) La lévothyroxine est contre-indiquée pendant la grossesse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments atropiniques, la(es)quelle(s) est(sont) exacte(s) ?",
+          "choix": [
+            "A) Ils sont agonistes des récepteurs muscariniques",
+            "B) Ils peuvent provoquer la survenue de crise de glaucome",
+            "C) Ils sont vasoconstricteurs",
+            "D) Ils sont à l’origine de diarrhées",
+            "E) Il s’agit notamment des antidépresseurs tricycliques"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le syndrome sérotoninergique, la(es)quelle(s) est(sont) exacte(s) ?",
+          "choix": [
+            "A) Il est caractérisé par une triade clinique : hyperthermie, hyperréfléxie et agitation.",
+            "B) L’association triptan et tramadol augmente le risque de survenue",
+            "C) Les neuroleptiques augmentent le risque de survenue",
+            "D) L’antidote est le flumazénil",
+            "E) Il s’agit d’un effet indésirable dose-dépendant"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces médicaments, le(s)quel(s) est(sont) inhibiteur(s) du cytochrome 3A4 ?",
+          "choix": [
+            "A) Millepertuis",
+            "B) Carbamazépine",
+            "C) Spiramycine",
+            "D) Clarithromycine",
+            "E) Pravastatine"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du médicament nirmatrelvir/ritonavir PAXLOVID° indiqué dans la COVID-19, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
+          "choix": [
+            "A) Le ritonavir est utilisé pour ralentir le métabolisme du nirmatrelvir",
+            "B) Le ritonavir est inhibiteur du cytochrome CYP 3A4",
+            "C) Comme le ritonavir est associé avec le nirmatrelvir, il n’induit pas d’interaction pharmacocinétique avec les autres médicaments",
+            "D) L’association nirmaltrelvir/ritonavir + colchicine majore le risque de pancytopénie",
+            "E) L’association nirmaltrelvir/ritonavir + simvastatine réduit le risque de rhabdomyolyse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (ou lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) La spironolactone expose à des troubles du rythme par son effet hypokaliémiant",
+            "B) La bronchoconstriction est un effet sympathomimétique des beta 2 agonistes",
+            "C) Les antidépresseurs sont à l’origine d’hyponatrémie par sécrétion inappropriée d'hormone antidiurétique (SIADH)",
+            "D) Les anti-inflammatoires non stéroïdiens (AINS) sont des médicaments photosensibilisants",
+            "E) Le sevrage rapide en benzodiazépines expose à un abaissement du seuil de convulsion"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle est exacte ? (une seule réponse)",
+          "choix": [
+            "A) Les inhibiteurs de protéases inhibent la maturation des protéines virales",
+            "B) Les inhibiteurs de neuraminidases sont particulièrement destinés à lutter contre les infections à herpes virus",
+            "C) les inhibiteurs de protéases bloquent la transcriptase inverse",
+            "D) La stratégie de prophylaxie pré-exposition au VIH (PReP) associe au moins 4 médicaments antirétroviraux",
+            "E) Le ritonavir est un analogue nucléotidique"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La réponse vaccinale est dépendante de plusieurs facteurs. Citez celui ou ceux qui contribue(nt) à renforcer la réponse vaccinale :",
+          "choix": [
+            "A) L’utilisation d’un vaccin constitué d’antigènes polysaccharidiques couplés à un vecteur protéique",
+            "B) L’administration par voie sous cutanée ou intradermique",
+            "C) L’administration par voie intraveineuse",
+            "D) L’utilisation d’une forte dose d’antigène",
+            "E) La préparation du vaccin adsorbé sur du phosphate d’aluminium"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les effets indésirables médicamenteux, laquelle (ou lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Les diurétiques peuvent déterminer des hyponatrémies",
+            "B) Les inhibiteurs de la recapture de la sérotonine peuvent déterminer des hyponatrémies",
+            "C) Les AINS favorisent la survenue d’insuffisance rénale aiguë fonctionnelle",
+            "D) La chronologie de l’effet indésirable (délai, évolution) n’intervient pas dans l’analyse de l’imputabilité en pharmacovigilance.",
+            "E) La sémiologie de l’effet indésirable (délai, évolution) n’intervient pas dans l’analyse de l’imputabilité en pharmacovigilance."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,351 @@
+{
+  "matiere": "Gériatrie",
+  "slug": "geriatrie-s7",
+  "annee": 2023,
+  "title": "Gériatrie - 2023",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez aux urgences une patiente de 80 ans pour des troubles du comportement d’apparition brutale.\nDans les antécédents de cette patiente on retient : une incontinence urinaire occasionnelle, une HTA, une hypothyroïdie et une insuffisance rénale chronique avec un DFG à 50 mL/min.\nSon traitement comprends : LEVOTHYROX 125 µg, TAMSULOSINE LP 0.4 mg, PERINDOPRIL 4 mg.\nVous interrogez sa fille. Elle vous explique que la patiente vit seule à domicile, qu’elle bénéficie d’une aide-ménagère 2h par semaine auto financé, c’est fille qui fait les courses, qui s’occupe de la gestion administrative depuis environ 6 mois. La patiente reste autonome pour la préparation des repas.\nElle est également autonome pour les actes de la vie quotidienne avec un ADL que vous évaluez à 5,5/6.\nVous apprenez que la patiente présente depuis 24h, de troubles du sommeil, elle va sonner chez les voisins la nuit, avec des hallucinations visuelles. Elle présente une désorientation avec une agitation inhabituelle.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel diagnostic suspectez vous en premier intention :",
+          "choix": [
+            "A) Une maladie d’Alzheimer",
+            "B) Une maladie à corps de Lewy",
+            "C) Un syndrome confusionnel",
+            "D) Un syndrome dépressif",
+            "E) Un accident vasculaire cérébral"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les constantes à l’arrivée sont : TA 14/8, FC 95 bpm, température : 39°C, SaO2 : 92%. La patiente est calme dans le box des urgences. Votre examen clinique neurologique ne retrouve pas de déficit sensitivo-moteur. L’examen cardiologique est sans particularité. A l’auscultation pulmonaire, vous retrouvez un foyer en base droite. Vous pensez à un syndrome confusionnel. Quel bilan biologique demandez vous en première intention ? (3 réponses exactes)",
+          "choix": [
+            "A) Un bilan hépatique",
+            "B) Une calcémie",
+            "C) Une glycémie capillaire",
+            "D) Une CRP",
+            "E) Des D dimères"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique retrouve une déshydratation extra cellulaire (Na 155 mmol/L) avec une insuffisance rénale aigue d’allure fonctionnelle (DFG 30 mL/min) avec un syndrome inflammatoire biologique important (hyperleucocytose è 25 G/L et CRP à 230 mg/L). Quelle est votre prise en charge initiale ? (3 réponses exactes)",
+          "choix": [
+            "A) Mise en place d’une antibiothérapie adaptée",
+            "B) Mise en place d’une réhydratation parentérale associée à une stimulation de la boisson per os.",
+            "C) Vous mettez la patiente dans le couloir des urgences pour la surveiller",
+            "D) Vous mettez en place une contention physique",
+            "E) Vous mettez en place une surveillance des constantes vitales et de la conscience fréquente et régulière"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est hospitalisée en gériatrie. L’évolution est favorable. Il persiste cependant une désorientation temporo-spatiale. Dans le service la patiente a besoin d’une aide à la toilette et à l’habillage. Elle marche sans aide technique. Elle mange seule. Elle reste incontinente urinaire de manière occasionnelle. Concernant son état actuel, quelle est la réponse exacte ?",
+          "choix": [
+            "A) Son ADL est à 1/6",
+            "B) Vous estimez son iADL à 7/8",
+            "C) Les items des iADL comprennent entre autre les soins corporels, l’habillement",
+            "D) Les items des ADL comprennent entre autre la capacité à utiliser un téléphone, faire ses courses",
+            "E) Les items des ADL comprennent entre autre la continence"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous revoyez la patiente en consultation 6 mois sa sortie d’hospitalisation. La fille vous rapporte l’apparition de troubles de la mémoire. Son autonomie ne s’est pas modifiée depuis sa sortie d’hospitalisation. Vous décidez d’organiser la réalisation d’une IRM cérébrale. Vous demandez cette examen dans le but de :",
+          "choix": [
+            "A) De rechercher un processus expansif intracrânien",
+            "B) De rechercher des lésions vasculaires ischémiques et hémorragiques avec une séquence T1",
+            "C) D'évaluer visuellement l'atrophie des hippocampes avec une séquence T2",
+            "D) D’évaluer une atrophie cortico sous corticale et sa topographie",
+            "E) De rechercher une cause curable de démence comme une hydrocéphalie"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente a réalisé l’imagerie suivante dont voici l’image :\nQuelles sont les propositions vraies : (2 réponses exactes)",
+          "choix": [
+            "A) Il s’agit d’un scanner cérébral sans injection de produit de contraste",
+            "B) Il s’agit d’un scanner cérébral avec injection de contraste",
+            "C) Vous constatez un hématome extra dural",
+            "D) Vous la présence additionnelle de quelques zones spontanément hyper denses au sein de l’hématome sous-dural chronique, traduisant la présence d’un re saignement récent",
+            "E) Vous concluez à une maladie d’Alzheimer"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/geriatrie-s7/2023/q6.png?v=1786295506977"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’évolution de son hématome sous dural chronique est favorable. Vous revoyez la patiente en consultation avec une résorption complète de celui-ci. L’IRM retrouve une atrophie cortico sous corticale prédominant en temporal interne avec un score de SCHELTENS à 4 bilatéral et le bilan neuropsychologique retrouve un trouble de la mémoire épisodique. Vous concluez à une Maladie d’Alzheimer. Concernant votre prise en charge non médicamenteuse, quelles propositions sont exactes : (2 réponses exactes)",
+          "choix": [
+            "A) Vous prescrivez des séances de réhabilitation cognitives via les Equipes Spécialisées Alzheimer",
+            "B) Vous recherchez des déficiences sensorielles à traiter",
+            "C) Il n’est pas nécessaire de faire de suivi nutritionnel",
+            "D) Vous réalisez la demande d’affection longue durée ALD 32",
+            "E) Vous demandez une un soutien financier via la Prestation de Compensation du Handicap (PCH) au vue de son âge"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295508530-a8670548fe7d5",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez aux urgences madame P. 92 ans aux urgences dans les suites d’une chute. Il s’agit d’une patiente qui vit en EHPAD. Dans ses antécédents on retrouve : une trouble neurocognitif majeur à un stade sévère dans le cadre d’une maladie à corps de Léwy, une cardiopathie ischémique stentée, une gonarthrose, un diabète insulino dépendant.\nSon traitement comprend : HYDROCHLOROTHIAZIDE 12,5, PERINDOPRIL8 mg, BISOPROLOL 10 mg, LASILIX 125 mg, INSULINE lente 12 UI le matin, KARDEGIC 75 mg, DOLIPRANE 1g, TRAMADOL 50 si douleurs.\nL’EHPAD vous explique les circonstances de la chute : la patiente a été retrouvé sur le sol mouillé de la salle de bain. L’aide-soignante l’a entendu tomber et a pu immédiatement aider à la relever. Il n’y a pas eu de perte de connaissance. La patiente a dit avoir une sensation de vertige au moment de la chute. L’EHPAD vous explique c’est la 5ème chute de cette patiente en 2 mois.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "parmi les facteurs prédisposants de la chute, lesquels vous retenez chez cette patiente ?\n(6 réponses attendues)",
+          "choix": [
+            "A) Son âge",
+            "B) Son sexe",
+            "C) Son lieu de vie en EHPAD",
+            "D) Son traitement par psychotrope",
+            "E) Son traitement par bétabloquant",
+            "F) Son traitement par diurétique",
+            "G) Son trouble neurocognitif",
+            "H) Son trouble visuel",
+            "I) Son arthrose",
+            "J) L’environnement inadapté (sol mouillé)",
+            "K) Vous suspectez une hypotension orthostatique",
+            "L) Vous suspectez un AVC ou un AIT"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E",
+            "F",
+            "G",
+            "I"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A l’examen clinique, la patiente présente une rétropulsion avec une station debout est très difficile avec aides humaines, la patiente est très angoissée et vous dit qu’elle va tomber. L’examen de la marche retrouve une marche à petits pas glissés, en appui talonnier sans déroulement du pas au sol avec élargissement du polygone de sustentation. Le scanner cérébral et le bilan radiologique ne retrouvent pas d’anomalie. A quoi pensez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome post chute",
+            "syndrome post-chute",
+            "Syndrome post-chute",
+            "un syndrome post-chute",
+            "un syndrome post chute",
+            "syndrome poste chute",
+            "Syndrome de chute avec angoisse a la reprise de la marche",
+            "syndrome postchute",
+            "astasie abasie = syndrome post chute",
+            "syndrôme post chute",
+            "syndrom post-chute",
+            "syndrome post-chute (désadaptation psycho-motrice)",
+            "A un syndrome post -chute",
+            "syndrome post chutte",
+            "syndrome post chûte",
+            "syndrome post chutes"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "concernant le syndrome post chute, quelles propositions sont vraies :",
+          "choix": [
+            "A) Il s’agit d’une urgence",
+            "B) Le pronostic fonctionnel est bon",
+            "C) La prise en charge passe par une prise en charge ré éducationnelle",
+            "D) La prise en charge passe par une prise en charge psychologique",
+            "E) Il est corrélé au caractère traumatisant ou fréquent de la chute"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295513761-24ccdfc252e6e",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dénutrition quelles propositions sont vraies (3 propositions vraies) :",
+          "choix": [
+            "A) Elle se définit par la présence d’au moins 2 critère phénotypique ET au moins d’1 critère étiologique",
+            "B) Parmi les critères phénotypiques il y a la perte de poids ≥ 5% en 1 mois OU ≥ 10% en 6 mois",
+            "C) La sarcopénie se détermine par la réduction de la force musculaire ou par la réduction de la masse musculaire",
+            "D) Parmi les critères étiologiques on retrouve une situation pathologique avec ou sans syndrome inflammatoire",
+            "E) Parmi les critères de la dénutrition sévère on retrouve un IMC inférieur à 20 kg/m²"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les critères de fragilité selon Fried, quelles propositions sont vraies :",
+          "choix": [
+            "A) Si le patient présente un seul critère il est robuste",
+            "B) Si le patient présente trois critères il est fragile",
+            "C) Parmi les critères on retrouve une perte de poids volontaire dans la dernière année",
+            "D) Parmi les critères on retrouve une vitesse de marche diminuée",
+            "E) La force musculaire se mesure par hand grip"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions lesquelles font parties des principales causes de dépendance iatrogène liée à l’hospitalisation :",
+          "choix": [
+            "A) Le syndrome d’immobilisation",
+            "B) La constipation",
+            "C) Les chutes",
+            "D) Les troubles cognitifs",
+            "E) La dénutrition"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les troubles de la marche, quelle proposition est vraie :",
+          "choix": [
+            "A) La marche ataxique pseudo-ébrieuse est d’origine vestibulaire",
+            "B) La marche spastique avec fauchage est d’origine L4-L5 ou SPE",
+            "C) La marche parétique dandinante est d’origine pyramidale bilatérale",
+            "D) La marche apraxique (petits pas traînants collés au sol) peut être liée à une hydrocéphalie à pression normale",
+            "E) La marche avec boiterie déficitaire est d’origine ostéo articulaire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A partir de combien de classes thérapeutiques parle-t-on de polymédication :",
+          "choix": [],
+          "reponses": [
+            "5",
+            "cinq",
+            "5 classes therapeutiques",
+            "à partir de 5",
+            "5 classes",
+            "a partir de 5",
+            "5 classes thérapeutiques",
+            "Cinq",
+            "> ou = 5"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

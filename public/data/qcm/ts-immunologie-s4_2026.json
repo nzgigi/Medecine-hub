@@ -1,0 +1,415 @@
+{
+  "matiere": "Tissu sanguin – Immunologie",
+  "slug": "ts-immunologie-s4",
+  "annee": 2026,
+  "title": "Tissu sanguin – Immunologie - 2026",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la structure des Immunoglobulines (Ig):",
+          "choix": [
+            "A) Il existe 2 types de chaines légères",
+            "B) Les chaines lourdes et légères d’une Ig sont identiques 2 à 2",
+            "C) Le paratope est le site de fixation à l’antigène",
+            "D) Le fragment Fc définit les isotypes d’Ig",
+            "E) Les IgM peuvent être dimériques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la réponse immunitaire anti-virale:",
+          "choix": [
+            "A) Elle fait intervenir les IFN de type 1",
+            "B) Elle fait intervenir les lymphocytes cytotoxiques",
+            "C) Le TNF alpha est une cytokine-clé de l’immunité anti-virale",
+            "D) Les lymphocytes T CD4+ et T CD8+ sont activés dans les ganglions drainants",
+            "E) Les anticorps ne jouent aucun rôle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des antigènes:",
+          "choix": [
+            "A) Les protéines sont généralement plus antigéniques que les polysaccharides",
+            "B) Plus une structure moléculaire est complexe, plus elle a de chances d’être antigénique",
+            "C) Par définition, un antigène est immunogène",
+            "D) Un xéno-antigène définit un antigène de la même espèce que l’individu considéré",
+            "E) Les récepteurs à l’antigène se lient à une petite portion d’un antigène, appelée épitope antigénique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système HLA:",
+          "choix": [
+            "A) C’est un système multi-allélique",
+            "B) C’est un système monogénique",
+            "C) Il existe des gènes HLA de classe I et de classe II",
+            "D) Les molécules HLA présentent des antigènes apprêtés aux lymphocytes T",
+            "E) L’apprêtement de l’antigène n’est pas indispensable à la présentation aux lymphocytes T"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système HLA :",
+          "choix": [
+            "A) Le polymorphisme du HLA est assuré par des mécanismes de réarrangements de segments géniques",
+            "B) Les molécules HLA sont nécessaires à la présentation antigénique aux lymphocytes T et B",
+            "C) Les molécules du HLA de classe I et de classe II sont codées par des gènes sur le même chromosome",
+            "D) La combinaison des allèles HLA sur un chromosome définit un haplotype",
+            "E) Les molécules HLA de classe I et de classe II présentent les mêmes peptides aux lymphocytes T"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des fonctions des immunoglobulines (Ig) :",
+          "choix": [
+            "A) Les IgM activent le complément par la voie classique",
+            "B) Les IgG sont transportées au travers du placenta dans le sang fœtal",
+            "C) Les Ig reconnaissent les antigènes présentés par les molécules du système HLA",
+            "D) Les fonctions d’opsonisation et d’ADCC dépendent du domaine constant.",
+            "E) La neutralisation est un élément majeur de la défense contre les helminthes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des cytokines de l’inflammation :",
+          "choix": [
+            "A) Les principales sont l’IL-1beta, l’IL-6 et le TNFalpha",
+            "B) Leur mode d’action est exclusivement endocrine",
+            "C) Elles agissent localement sur l’endothélium vasculaire",
+            "D) Elles sont produites spécifiquement en réponse à une infection virale",
+            "E) Elles induisent la synthèse hépatique des protéines de la phase aigüe de l’inflammation"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des récepteurs antigèniques (BCR et TCR) :",
+          "choix": [
+            "A) Ils sont exprimés par les progéniteurs lymphoides dans la moelle osseuse",
+            "B) Ils sont toujours associés à un module de transduction",
+            "C) Leur structure est caractérisée par la présence de domaines variables",
+            "D) Il existe un gène codant pour le BCR, et un pour le TCR",
+            "E) Ils présentent un polymorphisme allélique important"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système du Complément:",
+          "choix": [
+            "A) Les fractions du complément ont une synthèse hépatique",
+            "B) La voie classique d’activation du complément est dépendante des anticorps",
+            "C) Les cytokines inflammatoires augmentent la synthèse des fractions du complément",
+            "D) Il existe 2 voies d’activation du complément",
+            "E) Les fragments C3a et C5a solubles constituent des anaphylatoxines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des polynucléaires neutrophiles:",
+          "choix": [
+            "A) Ce sont des cellules phagocytaires",
+            "B) Ils circulent dans le sang et les organes lymphoides",
+            "C) Ce sont des cellules présentatrices d’antigène professionnelles",
+            "D) Ils sont impliqués dans la tolérance centrale des lymphocytes T",
+            "E) Ils ne produisent pas de cytokines inflammatoires"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des récepteurs de l’immunité innée:",
+          "choix": [
+            "A) Ils sont identiques aux récepteurs spécifiques des antigènes",
+            "B) Ce sont des récepteurs spécifiques de molécules microbiennes conservées",
+            "C) Ces récepteurs sont les produits de réarrangements de segments géniques",
+            "D) Leur activation participe à l’induction d’une réponse inflammatoire",
+            "E) Ils sont exprimés principalement par les cellules de l’immunité innée"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’activation des lymphocytes T :",
+          "choix": [
+            "A) Les lymphocytes T naifs sont activés dans les ganglions lymphatiques",
+            "B) L’activation des lymphocytes T naifs nécessitent 2 signaux",
+            "C) La co-stimulation peut remplacer le signal 1",
+            "D) La reconnaissance antigénique en absence de co-stimulation entraine une anergie",
+            "E) Les lymphocytes T naifs sont activés exclusivement par des cellules présentatrices d’antigène professionnelles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la polarisation des lymphocytes T :",
+          "choix": [
+            "A) La voie Th1 est principalement anti-virale",
+            "B) Les helminthes induisent des réponses Th2",
+            "C) Les virus induisent principalement des lymphocytes T CD4+ Th17",
+            "D) L’IL-4 est nécessaire pour induire des réponses Th2",
+            "E) L’IL-1 est une des principales cytokines produites par les lymphocytes Th1"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des anticorps :",
+          "choix": [
+            "A) Les anticorps circulants sont oligoclonaux chez un sujet sain",
+            "B) Ils sont produits par les mastocytes",
+            "C) L’électrophorèse des protéines sériques permet le dosage des gamma-globulines",
+            "D) Les IgA sont abondantes dans les muqueuses",
+            "E) Les IgG constituent la majorité des anticorps sériques"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la tolérance périphérique:",
+          "choix": [
+            "A) Elle se déroule dans les organes lymphoides primaires",
+            "B) Les lymphocytes T régulateurs sont principalement de phénotype CD8+",
+            "C) T-bet est un facteur de transcription essentiel des lymphocytes T régulateurs CD4+",
+            "D) Il existe des lymphocytes T régulateurs naturels d’origine thymique",
+            "E) L’absence de co-stimulation des lymphocytes T naifs contribue à la tolérance périphérique"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la dynamique de la réponse immunitaire :",
+          "choix": [
+            "A) Les anticorps produits au cours d’une réponse immunitaire disparaissent au cours de la phase de contraction de cette réponse.",
+            "B) La majorité des lymphocytes effecteurs produits au cours d’une réponse immunitaire est éliminée lors de la phase de contraction.",
+            "C) Les lymphocytes mémoires spécifiques d’un antigène pré-existent à la première introduction de cet antigène.",
+            "D) La fréquence clonale des lymphocytes mémoires est largement inférieure à celle des lymphocytes naifs.",
+            "E) Il existe des macrophages mémoires."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la réponse humorale :",
+          "choix": [
+            "A) Les IgG sont produites dès les premiers jours d’une réponse immunitaire primaire",
+            "B) La maturation d’affinité des anticorps ne se produit que lors des réponses lymphocytaires B Thymo-dépendantes",
+            "C) On n’observe pas de commutation isotypique au cours d’une réponse immunitaire primaire",
+            "D) Un même plasmocyte peut produire des anticorps de différentes spécificités",
+            "E) Le pneumocoque induit une réponse des lymphocytes B de la zone marginale de la rate"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les éléments suivant font partie des barrières non spécifiques contre les micro-organismes pathogènes :",
+          "choix": [
+            "A) Le mucus intestinal",
+            "B) Le système du complément",
+            "C) Les polynucléaires neutrophiles",
+            "D) La flore bactérienne commensale",
+            "E) Le PH acide de l’estomac"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’activation des lymphocytes B :",
+          "choix": [
+            "A) L’activation des lymphocytes B par des antigènes protéiques est thymo-indépendante",
+            "B) L’interaction entre un lymphocyte B et un lymphocyte T se déroule dans les organes lymphoides secondaires",
+            "C) Les antigènes polysaccharidiques constitués de motifs répétés sont des antigènes thymo-indépendants.",
+            "D) Les lymphocytes B ne prolifèrent pas lors de l’activation par un antigène.",
+            "E) Les lymphocytes T CD8+ peuvent coopérer avec les lymphocytes B pour induire leur différenciation en plasmocyte."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des hypermutations somatiques :",
+          "choix": [
+            "A) Elles se produisent dans les plasmocytes",
+            "B) Elles permettent la maturation d’affinité des anticorps",
+            "C) Elles se produisent dans la moelle osseuse",
+            "D) Elles ciblent les domaines variables des Immunoglobulines",
+            "E) Elles sont dépendantes des interactions entre lymphocytes B et T"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

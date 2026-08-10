@@ -1,0 +1,371 @@
+{
+  "matiere": "Tissu sanguin – Hématologie",
+  "slug": "ts-hematologie-s6",
+  "annee": 2023,
+  "title": "Tissu sanguin – Hématologie - 2023",
+  "total_questions": 17,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes remplaçant en médecine générale et êtes contactés par un laboratoire d’analyses biologiques car Mme Ginette Alban, née le 06/07/1955 a réalisé une NFS qui identifie une hémoglobine à 6 g/dL. Les taux de plaquettes et leucocytes sont normaux.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels symptômes parmi les suivants sont dus à l’anémie ?",
+          "choix": [
+            "A) Pâleur cutanéo-muqueuse",
+            "B) Dyspnée d’effort",
+            "C) Douleur abdominale en barre",
+            "D) Palpitations",
+            "E) Hémorragie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les critères biologiques vous permettant de caractériser l’anémie ?",
+          "choix": [
+            "A) Le volume globulaire moyen",
+            "B) La teneur corpusculaire moyenne en hémoglobine",
+            "C) L’hématocrite",
+            "D) Le taux de réticulocytes",
+            "E) Le volume plaquettaire moyen"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme Alban présente un VGM à 105 fL et un taux de réticulocytes à 320 G/L. Quelles sont les propositions exactes parmi les suivantes ?",
+          "choix": [
+            "A) Il s’agit d’une anémie macrocytaire arégénérative.",
+            "B) Il s’agit d’une anémie macrocytaire régénérative.",
+            "C) Ce type d’anémie peut se voir en cas de carence en fer non-supplémentée.",
+            "D) Ce type d’anémie peut se voir en cas de carence en folates non-supplémentée.",
+            "E) Ce type d’anémie peut se voir en cas d’hémolyse intra-vasculaire."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une erreur s’était en fait glissée dans le compte-rendu du laboratoire. Les réticulocytes sont en réalité à 32 G/L. Quels sont, parmi les éléments suivants, les symptômes vous orientant vers une cause centrale de l’anémie ?",
+          "choix": [
+            "A) Une fragilité des phanères",
+            "B) Une splénomégalie",
+            "C) Une hémorragie",
+            "D) Des adénopathies",
+            "E) Une insuffisance rénale chronique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels seraient les critères de gravité d'une anémie, parmi les suivants ?",
+          "choix": [
+            "A) Une instabilité hémodynamique",
+            "B) Un trouble de la vigilance",
+            "C) Une asthénie",
+            "D) Le taux d’hémoglobine inférieur à 7 g/dL",
+            "E) Une douleur médio-thoracique constrictive"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300451749-39b7eef56655b",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Une patiente de 76 ans doit être opérée d’une prothèse totale de hanche",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En prévision d’une éventuelle transfusion de concentrés de globules rouges (CGR) à l’occasion de cette intervention, vous devez prescrire un bilan immunohématologique : Quel(s) examen(s) est (sont) à réaliser obligatoirement :",
+          "choix": [
+            "A) Une détermination de phénotypage érythrocytaire ABO-RH1 et RH-KEL1",
+            "B) Deux déterminations de phénotypage érythrocytaire ABO-RH1 et RH-KEL1",
+            "C) Une recherche d’anticorps irréguliers (RAI)",
+            "D) Une numération formule sanguine",
+            "E) Une épreuve directe de compatibilité au laboratoire"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Suite aux saignements per-opératoires, l’hémoglobine passe de 10 à 8 g/dL et justifie la transfusion de deux CGR. La patiente est de groupe O D+C+E-c-e+K- et sa RAI réalisée 15 jours auparavant est négative.\nConcernant la prescription de CGR, quelle est (quelles sont) la (ou les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Elle peut être faite par toute infirmière (IDE) du bloc opératoire",
+            "B) La qualification phénotypé RH-KEL doit être demandée",
+            "C) La durée de validité de la RAI peut être étendue à 21 jours",
+            "D) Elle doit être accompagnée des résultats de RAI",
+            "E) Elle doit être accompagnée des résultats des deux déterminations de phénotypage érythrocytaire ABO-RH1 et RH-KEL1"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le contrôle ultime pré-transfusionnel (CUPT), quelle est (quelles sont) la (ou les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Le CUPT doit être réalisé par l’IDE qui va réaliser la transfusion",
+            "B) Le contrôle de concordance d’identité ne peut pas être réalisé chez une patiente endormie",
+            "C) Le contrôle de compatibilité ABO est obligatoire",
+            "D) La présence d’une agglutination chez la patiente absente au niveau de la poche interdit la transfusion",
+            "E) Le test de compatibilité ABO doit être conservé 4 heures après sa réalisation avant d’être jeté"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours du passage du deuxième CGR, des signes d’intolérance apparaissent : fièvre, hypotension artérielle et urines rouges. Parmi les propositions suivantes, concernant votre conduite à tenir immédiate, laquelle (ou lesquelles) est (ou sont) exacte(s) :",
+          "choix": [
+            "A) Arrêter la transfusion",
+            "B) Réduire le débit de transfusion",
+            "C) Prévenir l’Etablissement Français du Sang",
+            "D) Signaler l’incident au correspondant d’hémovigilance de l’Etablissement",
+            "E) Prescrire un bilan d’hémolyse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les LDH sont élevées et l’haptoglobine effondrée. Concernant les causes possibles de cet effet indésirable, laquelle parmi ces propositions vous parait la plus probable :",
+          "choix": [
+            "A) Réaction transfusionnelle hémolytique aigue",
+            "B) Œdème pulmonaire lésionnel (TRALI)",
+            "C) Œdème pulmonaire de surcharge (TACO)",
+            "D) Anaphylaxie",
+            "E) Infection bactérienne"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le résultat du test de compatibilité ABO réalisé avant la transfusion du deuxième CGR aurait dû interdire sa transfusion chez cette patiente de groupe O car il montrait une incompatibilité ABO. Concernant les résultats de ce test, quelle est (ou quelles sont) celui (ou ceux) compatible(s) avec cette affirmation chez cette patiente :",
+          "choix": [
+            "A) Agglutination avec le réactif anti-A présent chez le receveur et absent au niveau de la poche",
+            "B) Agglutination avec le réactif anti-B présent chez le receveur et absent au niveau de la poche",
+            "C) Agglutination avec le réactif anti-B présent au niveau de la poche et absent chez le receveur",
+            "D) Agglutination avec le réactif anti-A présent au niveau de la poche et absent chez le receveur",
+            "E) Agglutination avec les réactifs anti A et anti B au niveau de la poche et agglutination seulement avec le réactif anti A chez le receveur"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300453848-7ad20519eec0b8",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous débutez votre garde aux urgences gynécologiques et prenez en charge une première patiente de 34 ans pour des saignements utérins abondants évoluant depuis 4 semaines. En même temps que vous l’interrogez pour estimer notamment le degré d’urgence, l’infirmière prélève plusieurs tubes pour un bilan sanguin et fait un HemoCue® dont le résultat inscrit l’hémoglobine à environ 5 g/dL.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que demandez-vous à l’interrogatoire ?",
+          "choix": [
+            "A) Est-ce la première fois que ce type de saignement se produit ?",
+            "B) Connaissez-vous votre groupe sanguin ?",
+            "C) Appréhendez-vous d’être endormie ?",
+            "D) Quel est votre traitement habituel ?",
+            "E) Est-ce que d’autre(s) membre(s) de votre famille saigne(nt) facilement ?"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous apprenez qu’elle n’a aucun antécédent chirurgical, qu’elle n’a jamais pu avoir d’enfants et qu’elle saigne très facilement « depuis toujours ». D’ailleurs, sa gynécologue lui avait prescrit de longue date un microprogestatif afin de tarir complètement ses règles.\nQuel(s) examen(s) complémentaire(s) demandez-vous à partir des tubes prélevés par l’infirmière ?",
+          "choix": [
+            "A) En fait, aucun examen complémentaire n’est nécessaire car il s’agit d’une femme jeune sans antécédent chirurgical ni même obstétrical.",
+            "B) Une numération formule sanguine avec numération plaquettaire.",
+            "C) Deux déterminations du groupe sanguin, RAI.",
+            "D) Un bilan d’hémostase standard avec TP, TCA et fibrinogène.",
+            "E) Le dosage des D-dimères."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Seule la numération formule sanguine est anormale avec l’hémoglobine mesurée à 5,4 g/dL et la numération plaquettaire diminuée à 104 G/L. Le bilan d’hémostase standard, quant à lui, s’avère normal pour cette patiente du groupe sanguin O. Qu’en pensez-vous ?",
+          "choix": [
+            "A) Vous vous y attendiez puisqu’il s’agit d’une femme jeune sans antécédent chirurgical. Vous arrêtez-là vos explorations.",
+            "B) Vous êtes conforté dans votre suspicion selon laquelle il s’agit d’un trouble de l’hémostase primaire. Vous poursuivez les explorations.",
+            "C) En urgence, vous faites contrôler le bilan d’hémostase standard sur un nouveau prélèvement.",
+            "D) Vous allez devoir arrêter le comprimé microprogestatif afin de démasquer le trouble de l’hémostase sous-jacent.",
+            "E) Vous faites contrôler la numération plaquettaire sur le frottis sanguin."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Afin de prendre en charge cette patiente de façon optimale, vous prévoyez des explorations complémentaires en hémostase en urgence.\nA quelle(s) exploration(s) devez-vous penser ?",
+          "choix": [
+            "A) Le taux de prothrombine.",
+            "B) L’exploration du facteur Willebrand associée à la mesure du facteur VIII.",
+            "C) Le temps d’occlusion plaquettaire en présence d’ADP.",
+            "D) L’agrégation plaquettaire standard en présence des principaux agonistes plaquettaires.",
+            "E) Le temps de céphaline activé"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il s’avère que la patiente était connue pour une maladie de Willebrand de type 1, en rupture de suivi médical, depuis 20 ans environ ; vous décidez de l’orienter vers la consultation, une fois cet épisode aigu résolu.\nLa deuxième patiente que vous recevez est âgée de 27 ans et accompagnée par son conjoint pour une suspicion de fausse couche spontanée précoce à son domicile le matin. Il s’agirait du 4ème épisode similaire pour cette patiente.\nQuelles explorations demandez-vous ?",
+          "choix": [
+            "A) Une numération formule sanguine, groupe sanguin, RAI.",
+            "B) Un bilan hormonal avec LH, FSH.",
+            "C) Un bilan d’hémostase standard.",
+            "D) Un bilan de thrombophilie.",
+            "E) Une agrégation plaquettaire standard aux principaux agonistes plaquettaires."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 5
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant la mortalité obstétricale, vous suspectez un syndrome des anti-phospholipides (SAPL).\nConcernant le SAPL en général, quelles sont les affirmations vraies parmi les propositions suivantes ?",
+          "choix": [
+            "A) Le patiente doit présenter des thromboses artérielles et veineuses.",
+            "B) Le bilan d’hémostase peut montrer la présence d’un anticoagulant circulant de type lupique.",
+            "C) L’exploration du bilan immunologique n’est pas systématique car les anticorps anti-β2GP1 et anti-cardiolipines peuvent parfois être absents.",
+            "D) La persistance à 12 semaines d’intervalle de ces paramètres biologiques définit le SAPL.",
+            "E) La prise en charge de la maladie thromboembolique veineuse dans le SAPL repose sur le traitement anticoagulant au long cours par AVK."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

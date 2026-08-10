@@ -1,0 +1,619 @@
+{
+  "matiere": "Agents infectieux – Parasitologie",
+  "slug": "ai-parasitologie-s6",
+  "annee": 2026,
+  "title": "Agents infectieux – Parasitologie - 2026",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "M. D., 35 ans se présente auprès de son médecin généraliste avec une diarrhée et une fièvre à 39°C depuis 2 jours. A l'interrogatoire, vous apprenez qu'il revient d'un séjour touristique au Cameroun depuis 20 jours. Il précise qu'il y va régulièrement (1 fois par an en moyenne).",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans ce contexte, quel est le premier diagnostic parasitologique à évoquer ?",
+          "choix": [
+            "A) Anguillulose",
+            "B) Paludisme",
+            "C) Schistosomose (bilharziose)",
+            "D) Amibiase digestive",
+            "E) Giardiose"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un bilan biologique est prescrit. La recherche de paludisme est négative.\nLa numération formule sanguine donne les résultats suivants :\nHémoglobine : 135 g/L (N : 130 - 170g/L)\nPlaquettes : 315 G/L (N : 150 - 450 G/L)\nLeucocytes : 6 G/L dont : (N : 4 - 10 G/L)\nPolynucléaires neutrophiles : 2,5 G/L (N : 2 - 7,5 G/L)\nPolynucléaires éosinophiles : 1,2 G/L (N : < 0,5 G/L)\nLymphocytes : 2 G/L (N : 1 - 4 G/L)\nMonocytes : 0,3 G/L (N : 0,2 - 1 G/L)\nQuelle(s) est (sont) la (les) parasite(s) pouvant être responsable(s) de l’anomalie observée sur la numération formule sanguine de M. D. ?",
+          "choix": [
+            "A) Entamoeba histolytica",
+            "B) Strongyloides stercoralis",
+            "C) Ankylostome",
+            "D) Giardia intestinalis",
+            "E) Schistosoma mansoni"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous interrogez le patient sur ses habitudes lors de ses séjours au Cameroun. Quel(s) élément(s) retrouvé(s) à l'interrogatoire serai(en)t compatible(s) avec un diagnostic de schistosomose à Schistosoma mansoni ?",
+          "choix": [
+            "A) Consommation de viande peu cuite",
+            "B) Consommation de crudités mal lavées",
+            "C) Consommation de poisson",
+            "D) Baignade en eau douce",
+            "E) Mauvaise hygiène des mains"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de l'interrogatoire, M.D. déclare consommer régulièrement de la viande de boeuf peu cuite.\nQuel(s) parasite(s) peut (peuvent) être transmis par consommation de viande de bœuf peu cuite ?",
+          "choix": [
+            "A) Taenia solium",
+            "B) Strongyloides stercoralis",
+            "C) Taenia saginata",
+            "D) Ascaris lumbricoides",
+            "E) Toxoplasma gondii"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez un bilan biologique parasitologique. Quelle(s) est (sont) la (les) réponses(s) exacte(s) ?",
+          "choix": [
+            "A) Une sérologie est adaptée pour le diagnostic de la bilharziose et de la giardiose",
+            "B) Une sérologie est adaptée pour le diagnostic de l’oxyurose et de l’anguillulose",
+            "C) Un examen parasitologique des selles est adapté pour le diagnostic de la giardiose",
+            "D) La recherche de larves rhabditoïdes dans les selles est adaptée pour le diagnostic de la bilharziose",
+            "E) La PCR sur sang est adaptée pour le diagnostic de téniasis à Taenia saginata"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Lors de la consultation, M.D. vous parle également de sa fille de 3 ans qui se plaint de démangeaisons anales, prédominantes à l'heure du coucher. Quel parasite faut-il évoquer devant ce symptôme?",
+          "choix": [
+            "A) Entamoeba histolytica",
+            "B) Giardia intestinalis",
+            "C) Enterobius vermicularis",
+            "D) Strongyloides stercoralis",
+            "E) Schistosoma mansoni"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dix ans plus tard, M. D., en insuffisance rénale terminale, est en attente d'une greffe de rein.\nConcernant la prise en charge de M. D., quelle(s) est (sont) la (les) parasitoses à rechercher avant l’instauration d’un traitement immunosuppresseur ?",
+          "choix": [
+            "A) La bilharziose",
+            "B) L'anguillulose",
+            "C) L'ankylostomose",
+            "D) L'ascaridiose",
+            "E) Aucune parasitose, le dernier voyage de M. D. au Cameroun datant de 10 ans"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395368178-e0e1347861a3d8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Madame R., 26 ans, se présente en consultation pour un prurit diffus évoluant depuis environ 4 semaines. Elle décrit des démangeaisons très intenses, prédominant le soir et la nuit, avec un retentissement important sur le sommeil.\nElle ne rapporte pas de fièvre ni de prise médicamenteuse récente. Elle est infirmière dans un service d’urgence et vit avec son mari et son jeune fils de 14 mois. Elle précise que son mari se plaint également de démangeaisons depuis 10 jours.\nÀ l’examen clinique, on observe des papules érythémateuses au niveau des poignets et des lésions de grattage diffuses.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans ce contexte, quel est le diagnostic à évoquer ?",
+          "choix": [
+            "A) Dermatite atopique",
+            "B) Gale commune (scabiose)",
+            "C) Larva currens dû à une strongyloïdose",
+            "D) Piqûres dues à des poux de corps (pédiculose)",
+            "E) Œdème de Calabar dû à une loase"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une gale commune de l’adulte (scabiose). Quel(s) élément(s) clinique(s) et biologique(s) est (sont) compatible(s) avec cette ectoparasitose ?",
+          "choix": [
+            "A) Prurit nocturne et intense",
+            "B) Prurit chez plusieurs personnes de l’entourage",
+            "C) Eosinophilie sanguine",
+            "D) Lésions uniquement au niveau du haut du dos",
+            "E) Atteinte du cuir chevelu"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la transmission de la gale, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Transmission par contact cutané prolongé",
+            "B) Transmission sexuelle",
+            "C) Transmission par voie aérienne",
+            "D) Transmission indirecte par le linge",
+            "E) Transmission uniquement chez les personnes immunodéprimées"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic de la gale commune, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La présence de sillons cutanés est pathognomonique de la scabiose",
+            "B) Un prélèvement pour diagnostic parasitologique peut être réalisé par grattage des lésions",
+            "C) Une sérologie est nécessaire",
+            "D) Une biopsie cutanée est nécessaire pour affirmer le diagnostic",
+            "E) Un examen dermatoscopique peut aider au diagnostic"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de gale commune est retenu. La patiente s’interroge sur la prise en charge de cette pathologie.\nConcernant le traitement de la gale pour cette famille, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Seules les personnes symptomatiques doivent être traitées",
+            "B) Le traitement par ivermectine par voie orale est l’alternative la plus adaptée pour traiter l’ensemble de la famille (elle-même, son mari et son fils)",
+            "C) Le traitement est dispensé en cure unique",
+            "D) L’application de diméticone sur les lésions est indiquée dans le traitement de la gale",
+            "E) La perméthrine en crème est une alternative thérapeutique possible"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) préconisée(s) pour un traitement optimal de la scabiose ?",
+          "choix": [
+            "A) Traitement de toute la famille simultanément",
+            "B) Lavage du linge en machine à 40°C",
+            "C) Recherche de maladies bactériennes (Bartonella sp.) transmises par le parasite",
+            "D) Désinfection du linge non lavable en le plaçant dans un sac plastique hermétique avec un acaricide",
+            "E) Utilisation de solution hydro-alcoolique en prévention de la transmission"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours de la discussion, la patiente évoque une forme de gale qu’elle a vue sur internet : la gale crouteuse. Elle est très inquiète de l’évolution de ses lésions vers cette forme.\nConcernant la gale hyperkératosique, quelle(s) proposition(s) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Elle peut toucher le visage et le cuir chevelu",
+            "B) Elle est peu contagieuse",
+            "C) Elle est caractérisée par une infestation massive",
+            "D) Elle touche surtout les sujets immunodéprimés",
+            "E) Elle est toujours associée à un prurit très intense"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395370062-33e44863eb3a58",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les parasitoses suivantes, quelle(s) est (sont) celle(s) dont la transmission est vectorielle ?",
+          "choix": [
+            "A) Leishmaniose à Leishmania sp.",
+            "B) Anguillulose à Strongyloides stercoralis",
+            "C) Anisakiose à Anisakis sp.",
+            "D) Amoebose à Entamoeba histolytica",
+            "E) Paludisme à Plasmodium falciparum"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) concernant Cryptosporidium sp. ?",
+          "choix": [
+            "A) Cryptosporidium sp. peut être à l’origine de méningo-encéphalite chez le patient immunodéprimé",
+            "B) Cryptosporidium sp. peut entrainer des diarrhées aigües spontanément résolutives chez le patient immunocompétent",
+            "C) La recherche de Cryptosporidium sp. peut est effectuée par un examen parasitologique des selles classique",
+            "D) La résolution d’une cryptosporidiose peut passer par la restauration de l’immunité du patient",
+            "E) Chez le patient immunodéprimé, Cryptosporidium sp. entraine de fréquentes rechutes"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant la pédiculose corporelle, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Elle prédomine chez l’enfant",
+            "B) Les poux adultes pondent leurs lentes au niveau des poils pubiens",
+            "C) Les poux du corps peuvent être vecteurs de maladies bactériennes telle que la « fièvre des tranchées » dont l’agent est Bartonella quintana",
+            "D) Elle constitue une infection associée à la grande précarité et à la promiscuité",
+            "E) Elle est essentiellement transmise par l’intermédiaire des vêtements contaminés"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la trichomonose, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La trichomonose est une maladie strictement humaine due à un protozoaire flagellé",
+            "B) La trichomonose est une infection sexuellement transmissible",
+            "C) Chez la femme, la trichomonose est le plus souvent asymptomatique",
+            "D) Chez l’homme, la trichomonose est le plus souvent asymptomatique",
+            "E) Le diagnostic biologique de la trichomonose repose sur la recherche d’anticorps spécifiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) parasitose(s) dont la contamination est orale ?",
+          "choix": [
+            "A) Amoebose",
+            "B) Ankylostomoses",
+            "C) Giardiose",
+            "D) Bilharziose",
+            "E) Trichocéphalose"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la femme enceinte séronégative pour la toxoplasmose, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) La séroprévalence de la toxoplasmose en France augmente",
+            "B) La surveillance sérologique doit être mensuelle",
+            "C) Un contrôle sérologique doit être fait 1 mois après l’accouchement",
+            "D) Une séroconversion au cours du troisième trimestre doit conduire à une interruption de grossesse",
+            "E) Parmi les règles hygiéno-diététiques, il convient de proscrire la consommation d’œufs"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est (sont) le(s) test(s) que vous pouvez prescrire pour faire un diagnostic de paludisme ?",
+          "choix": [
+            "A) Recherche d’antigène parasitaire par test de diagnostic rapide (TDR)",
+            "B) Recherche d’anticorps spécifique du parasite par test ELISA",
+            "C) Recherche de parasites dans les globules rouges à partir d’un frottis sanguin",
+            "D) Recherche de parasites extracellulaire à partir d’un frottis sanguin",
+            "E) Recherche d’ADN du parasite par la technique LAMP"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces affirmations laquelle(lesquelles) est(sont) vraie(s) concernant le traitement du paludisme ?",
+          "choix": [
+            "A) Actuellement les traitements contre le paludisme utilisent quasi systématiquement une bithérapie",
+            "B) La plupart des stratégies thérapeutiques utilisent un dérivé de l’artémisinine",
+            "C) Les résistances de Plasmodium falciparum concernent uniquement le continent asiatique",
+            "D) En l’absence de résistance, un traitement correctement suivi guéri définitivement un accès palustre à P. falciparum.",
+            "E) Au cours du cycle parasitaire de P. falciparum chez l’Homme, les parasites intra-hépatiques sont plus sensibles au traitement que les parasites intra-érythrocytaires."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des candidémies, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La létalité est de 10 à 20 %",
+            "B) Candida tropicalis est l’espèce la plus fréquemment isolée",
+            "C) Le traitement de première intention est le voriconazole",
+            "D) L’antibiothérapie large spectre est un facteur de risque",
+            "E) Le diagnostic repose sur la sérologie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel est(sont) le(s) champignon(s) cultivable(s) ?",
+          "choix": [
+            "A) Candida albicans",
+            "B) Pneumocystis jirovecii",
+            "C) Cryptococcus neoformans",
+            "D) Malassezia sp.",
+            "E) Microsporum canis"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Le diagnostic de la cryptococcose neuro-méningée nécessite la réalisation d’une ponction lombaire",
+            "B) Les méningo-encéphalites à Cryptococcus sp sont d’apparition très brutale",
+            "C) Les signes cliniques neurologiques sont liés à une augmentation de la pression intra-crânienne du LCR",
+            "D) Une atteinte multiviscérale est possible chez les patients immunodéprimés",
+            "E) La corticothérapie est utilisée pour abaisser l’inflammation cérébrale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) concernant la pneumocystose ?",
+          "choix": [
+            "A) Le scanner thoracique retrouve habituellement des lésions en « verre dépoli », diffuses et bilatérales",
+            "B) La transmission de Pneumocystis jirovecii est inter-humaine",
+            "C) Les corticothérapies accentuent le risque de développer une pneumocystose",
+            "D) Les corticoïdes peuvent être utilisés en traitement adjuvant pour les pneumocystoses sévères",
+            "E) La pneumocystose est uniquement observée chez des patients immunodéprimés"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des échinocandines, quelle(s) est(sont) les proposition(s) exacte(s) :",
+          "choix": [
+            "A) Elles ciblent la production d’ergostérol par la cellule fongique",
+            "B) Elles ont beaucoup d’interactions médicamenteuses",
+            "C) Elles sont fongicides sur les levures du genre Candida",
+            "D) Elles sont généralement bien tolérées",
+            "E) Elles sont indiquées dans le traitement des candidémies"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est (sont) l’(les) association(s) correcte(s) entre facteur de risque et infection fongique ?",
+          "choix": [
+            "A) Cathéter périphérique et cryptococcose neuroméningée",
+            "B) Allogreffe de Moelle et aspergillose invasive",
+            "C) Infection par le VIH et candidose œsophagienne",
+            "D) Chirurgie digestive et candidémie",
+            "E) Adulte âgé et Pityriasis versicolor"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les onychomycoses à dermatophytes, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Elles se situent le plus souvent au niveau des orteils",
+            "B) Elles sont généralement associées à un périonyxis",
+            "C) Elles peuvent être associées à un intertrigo des petits plis",
+            "D) Le traitement nécessite toujours un antifongique systémique",
+            "E) Des réactions allergiques type eczéma-like peuvent être associées à distance de la lésion"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions concernant le genre Aspergillus, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il peut être responsable d’infections localisées ou invasives",
+            "B) Aspergillus flavus est l’espèce la plus fréquente",
+            "C) Un nombre de CD4 < 200 éléments/mm3 est un facteur de risque majeur d’aspergillose invasive",
+            "D) Le genre Aspergillus peut être responsable d’allergie",
+            "E) L’eau constitue le principal réservoir environnemental"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

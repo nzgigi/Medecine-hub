@@ -1,0 +1,674 @@
+{
+  "matiere": "Gynécologie-obstétrique",
+  "slug": "gynecologie-obstetrique-s9",
+  "annee": 2023,
+  "title": "Gynécologie-obstétrique - 2023",
+  "total_questions": 28,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes le gynécologue de garde à la maternité, vous recevez  Mme G qui se présente à 30 SA pour des contractions utérines régulières depuis 3 heures.\nIl s’agit d’une patiente de 27 ans, diabétique de type 1 depuis l’âge de 15 ans, sans allergie médicamenteuse, G1P0. Sa grossesse était d’évolution normale jusqu’à ce jour.\nL’examen gynécologique ne retrouve ni métrorragie ni perte de liquide. Le toucher vaginal retrouve un col court, ouvert à 1 doigt.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est votre principale hypothèse diagnostique ?",
+          "choix": [],
+          "reponses": [
+            "menace d'accouchement prématuré",
+            "menace accouchement prématuré",
+            "menace d accouchement prématuré",
+            "menace d'accouchement premature",
+            "menace accouchement premature",
+            "menace d accouchement premature",
+            "Menace d'accouchement prématurée",
+            "MAP",
+            "menace d'acouchement prématuré",
+            "menace d'accouchement prématurée",
+            "Menace d'acouchement premature",
+            "menance d'accouchement prematuré",
+            "menace d'accouchement prematurée",
+            "menace d'accouchment premature",
+            "menace accouchement prematuree",
+            "menance d'accouchement prématuré",
+            "menace daccouchement prématuré",
+            "menace d'acouchement prematuré",
+            "Menace accouchement prématurée",
+            "menace d accouchement prematurée",
+            "Menace d'acouchement prématuré",
+            "Menace d'accouchement prépaturée",
+            "menace d’accouchement prématurée"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’infirmière vous rapporte les constantes de mme G : température 38,6°C, fréquence cardiaque 95 bpm, tension artérielle 125/85 mmHg.\nQuels examens complémentaires doivent être réalisés en première intention ?",
+          "choix": [
+            "A) Électro cardiotocographie externe",
+            "B) Échographie du col utérin",
+            "C) NFS CRP",
+            "D) BU, ECBU et prélèvement vaginal",
+            "E) Hémocultures"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’électrocardiotocographie retrouve un rythme cardiaque fœtal normal et des contractions utérines toutes les 3 minutes. L'échographie met en évidence un col utérin à 12 mm, l’échographie obstétricale est sans particularité par ailleurs. La bandelette urinaire retrouve une leucocyturie et des nitrites.\nQuel est le principal facteur de risque de menace d’accouchement prématuré que présente cette patiente ?",
+          "choix": [],
+          "reponses": [
+            "pyélonéphrite aigue gravidique",
+            "pyélonéphrite aigue",
+            "infection urinaire gravidique",
+            "infection urinaire",
+            "pyelonephrite aigue gravidique",
+            "pyelonephrite aigue",
+            "pyélonéphrite",
+            "pyelonephrite",
+            "Pyélonéphrite gravidique",
+            "Pyélonéphrite",
+            "pyélonephrite",
+            "infection urinaire pyélonéphrite",
+            "PNA",
+            "fièvre sur pyélonéphrite aigue",
+            "diabète compliqué d’infection urinaire",
+            "infection urinaire haute",
+            "facteur de risque infectieux",
+            "la fièvre et le contexte infectieux probable",
+            "infection : pyélonéphrite",
+            "infectieux (probable pyelonephrite)",
+            "infection urinaire avec hyperthermie",
+            "infection urinaire avec fièvre",
+            "pyelonéphrite",
+            "fièvre sur infection urinaire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle est votre conduite à tenir ?",
+          "choix": [
+            "A) Hospitalisation dans une maternité niveau 3",
+            "B) Tocolyse",
+            "C) Corticothérapie par Betaméthasone",
+            "D) Sulfate de magnésium",
+            "E) Antibiothérapie par amoxicilline acide clavulanique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous décidez de mettre en place un traitement symptomatique par tocolyse, quels sont les agents tocolytiques à votre disposition ?",
+          "choix": [
+            "A) Inhibiteurs de l’enzyme de conversion",
+            "B) Beta bloquants",
+            "C) Inhibiteurs calciques",
+            "D) Antagonistes de l'ocytocine",
+            "E) Agonistes de l'ocytocine"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous décidez d’une tocolyse par nifedipine (inhibiteur calcique), quels en sont les effets indésirables les plus fréquents ?",
+          "choix": [
+            "A) Diarrhée",
+            "B) Acrosyndrome",
+            "C) Vertiges",
+            "D) Hypokaliémie",
+            "E) Céphalées"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est hospitalisée dans une maternité niveau 3, reçoit une corticothérapie, une tocolyse et une antibiothérapie. Malgré les mesures mises en place, la patiente présente des contractions utérines régulières et le col se modifie : le toucher vaginal met en évidence un col effacé, dilaté à 5 cm, le rythme cardiaque foetal ne présente pas d’anomalie.\nQue décidez-vous ?",
+          "choix": [
+            "A) Poursuite de la tocolyse par nifédipine pour 48 heures supplémentaires.",
+            "B) Mise sous antagonistes de l’ocytocine par voie veineuse",
+            "C) Césarienne en urgence",
+            "D) Appel du pédiatre de garde",
+            "E) Passage en salle d’accouchement"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295714623-83972aa2c1542",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Madame L, âgée de 18 ans se présente en urgence à votre cabinet car elle a eu un rapport non protégé il y a 4 jours. Elle vous explique avoir eu un accident de préservatif avec son copain et craindre d’être enceinte.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Est-il encore temps de lui donner une contraception d’urgence ?",
+          "choix": [],
+          "reponses": [
+            "Oui",
+            "oui par acétate d'ullipristal",
+            "vrai",
+            "oui (pose de DIU, Acetate d'Ullipristal)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que pouvez-vous lui proposer dans ce contexte ? (1 ou plusieurs propositions possibles)",
+          "choix": [
+            "A) Acétate d’ulipristal 30 mg",
+            "B) Levornorgestrel 1,5 mg",
+            "C) Désogestrel 75 μg",
+            "D) DIU hormonal",
+            "E) DIU au cuivre"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Elle choisit de prendre l’acétate d’ulipristal sur vos conseils et a réalisé ses examens biologiques. Les bHCG plasmatiques de contrôle à 15 jours sont négatifs et le bilan IST est également négatif.\nElle revient vous voir 6 mois plus tard car elle souhaite arrêter les préservatifs avec son copain et prendre une contraception hormonale. Elle vous questionne sur l’efficacité des différentes méthodes contraceptive hormonale.\nQuel indicateur permet d’évaluer l’efficacité d’une méthode contraceptive ?",
+          "choix": [],
+          "reponses": [
+            "Indice de Pearl",
+            "Pearl",
+            "indice de pearls",
+            "indice de Pearls",
+            "Indice de Pearls",
+            "Pearls",
+            "indice Pearls",
+            "score pearl",
+            "index de pearl",
+            "L'indice de pearl",
+            "index de Pearl",
+            "indive de Pearls",
+            "l’indice de Pearl"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Avant de lui prescrire une contraception hormonale, vous réalisez un interrogatoire détaillé.\nElle présente comme principal antécédent médical une appendicectomie à l’âge de 7 ans. Elle ne présente aucun antécédent familial.\nElle ne fume pas.\nElle a des cycles réguliers et quelques dysménorrhées soulagées par antalgiques simples.\nA l’examen clinique, la tension artérielle est mesurée à 120 / 70 mm Hg. Elle pèse 50 kg pour 1m63 (IMC 18,8). L’examen mammaire et gynécologique est sans particularité.\nQuelle contraception hormonale pouvez-vous lui proposer ? (1 ou plusieurs propositions possibles)",
+          "choix": [
+            "A) Contraception oestro-progestative",
+            "B) Implant sous cutané",
+            "C) Pilule au désogestrel",
+            "D) DIU au levonorgestrel",
+            "E) DIU au cuivre"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les différentes voies d’administration disponibles ?",
+          "choix": [
+            "A) Voie orale",
+            "B) Voie sous cutanée (implant)",
+            "C) Voie transdermique (patch)",
+            "D) Dispositif intra-utérin",
+            "E) Voie vaginale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle opte finalement pour la voie orale. La contraception oestro-progestative comprend deux types de molécules : un estrogène et un progestatif.\nQuelle association devez-vous lui prescrire en 1ère intention selon les recommandations ? (1 ou plusieurs propositions possibles)",
+          "choix": [
+            "A) Une contraception oestro-progestative dite de 1ère génération",
+            "B) Une contraception oestro-progestative dite de 2èmegénération contenant de l'éthynilestradiol et lévonorgestrel",
+            "C) Une contraception oestro-progestative dite de 2èmegénération contenant de l'éthynilestradiol et norgestimate",
+            "D) Une contraception oestro-progestative dite de 3ème génération",
+            "E) Une contraception oestro-progestative contenant de l'éthynilestradiol et drospirénone"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous prescrivez une contraception dite de 2ème génération contenant de l'éthynilestradiol et lévonorgestrel.\nQuel bilan complémentaire proposez-vous dans ce cas ?",
+          "choix": [
+            "A) Bilan rénal et hépatique à 3 mois",
+            "B) Bilan rénal et hépatique avant l’initiation du traitement",
+            "C) Bilan métabolique avant l’initiation du traitement",
+            "D) Bilan métabolique à 3 mois",
+            "E) Frottis cervico-vaginal"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Elle revient vous voir à 3 mois avec une de ses amies. Son bilan métabolique à 3 mois est strictement normal. Elle est ravie de sa nouvelle contraception, elle a moins de dysménorrhées et d’acné du coup elle a parlé de vous à toutes ses amies.\nSon amie Madame M est âgée de 20 ans. Elle n’a pas d’antécédent médical en dehors de l’exérèse de dents de sagesse et des migraines avec aura. Dans sa famille, son père est diabétique de type II.\nElle n’a pas de traitement, elle ne fume pas.\nElle pèse 72 kg pour 1m65 (IMC 26,7).\nQuel élément contre-indique la contraception oestro-progestative ?",
+          "choix": [],
+          "reponses": [
+            "Migraines avec aura",
+            "Migraine avec aura",
+            "Migraines avec auras",
+            "Migraine avec auras",
+            "les migraines avec aura",
+            "Les migraines avec aura",
+            "l’antécédent personnel de migraine avec aura",
+            "Aura migraineuse",
+            "migriane avec aura"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295725094-97c824c185a408",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez une patiente de 25 ans aux urgences pour douleur pelvienne droite. Elle est G1P0 ne prend pas de contraception. Ses dernières règles datent de 2 semaines. On retrouve dans ses antécédents une appendicectomie dans l'enfance.\nElle décrit une douleur pelvienne droite depuis quelques jours plus importante ce jour ce qui a motivé sa venue aux urgences. Il n'y a pas de trouble du transit associé ni de signe fonctionnel urinaire. A l'examen vous retrouvez un défense en fosse iliaque droite, elle n'a pas de douleur à l'ébranlement lombaire.\nLes constantes sont : TA 12/8 FC : 95 bpm Température : 38,5°",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est le principal diagnostic à évoquer devant ce tableau",
+          "choix": [],
+          "reponses": [
+            "SALPINGITE",
+            "SALPINGITE",
+            "SALPINGITE AIGUE",
+            "ABCES TUBO OVARIEN",
+            "infection génitale haute",
+            "infection genitale haute",
+            "Infection génitale haute",
+            "Salpingite droite",
+            "IGH",
+            "salpingite aigue droite",
+            "Salpyngite",
+            "salpingite compliquée",
+            "Infection Génitale Haute",
+            "Salpyngite droite",
+            "salpyngite droite",
+            "infection genitale haute (salpingite)",
+            "abcès tubo-ovarien",
+            "infection génitale haute droite",
+            "salpyngite",
+            "infection genitale haute compliqué",
+            "Pyosalpinx",
+            "salpingite droite"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels éléments cliniques et paracliniques réalisez-vous en priorité pour avancer dans le diagnostic ? (4 réponses attendues)",
+          "choix": [
+            "A) béta HCG",
+            "B) NFS, plaquettes, CRP",
+            "C) sérologies des IST",
+            "D) recherche d'une douleur à la mobilisation utérine",
+            "E) recherche de métrorragies",
+            "F) Echographie pelvienne voie abdominale et endovaginale",
+            "G) TDM abdomino pelvien"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "F"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A l'examen elle a une franche douleur à la mobilisation utérine. Elle a une biologie retrouvant des leucocytes à 15 000 g/dL et une CRP à 150, les béta HCG sont négatifs. A l'échographie vous retrouvez un abcès tubo ovarien droit de 20*40mm.\nParmi les propositions suivantes lesquelles peuvent faire partie de votre prise en charge ? (5 réponses)",
+          "choix": [
+            "A) Antibiothérapie par DOXYXYCLINE METRONIDAZOLE CEFTRIAXONE",
+            "B) Antibiothérapie par DOXYXYCLINE METRONIDAZOLE CEFTRIAXONE GENTAMICINE",
+            "C) Coelioscopie pour drainage de l'abcès",
+            "D) Ponction échoguidée de l'abcès",
+            "E) Laparotomie pour drainage de l'abcès",
+            "F) sérologie IST en cas de PCR CHLAMYDIAE ou GONOCOQUE positive",
+            "G) Dépistage du ou des partenaires en cas de PCR CHLAMYDIAE ou GONOCOQUE positive"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "F",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295730430-c24d8788b37c68",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Face à des métrorragies chez une patiente ménopausée, quel est le premier diagnostic à rechercher ?",
+          "choix": [],
+          "reponses": [
+            "Cancer de l’endomètre",
+            "Cancer endométrial",
+            "Adénocarcinome endométrial",
+            "le cancer de l'endomètre",
+            "néoplasie de l'endomètre",
+            "cancer du corps utérin",
+            "cancer endomètre",
+            "tumeur de l'endomètre",
+            "cancer du corps de l'uterus",
+            "cancer du corps de l uterus",
+            "Neoplasie du corps uterin",
+            "cancer de endomètre",
+            "tumeur endometriale",
+            "tumeur de l’endometre",
+            "cancer endometre",
+            "tumeur de l'endométre",
+            "cancer du corps de l’utérus (de l’endomètre)",
+            "Cancer endomètre",
+            "Cancer du corps de l'utérus",
+            "adénocarcinome de l'endomètre",
+            "cancer de l'endomètre (du corps uterin)",
+            "un cancer de l'endomètre",
+            "cancer du corps de l'utérus"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A quoi devez-vous penser en priorité devant une patiente en âge de procréer présentant les symptômes suivants : douleurs abdominales, métrorragies, retard de règles ?",
+          "choix": [],
+          "reponses": [
+            "Grossesse extra utérine",
+            "GEU",
+            "Grossesse ectopique",
+            "Grossesse extra-utérine",
+            "grossesse extra uterine",
+            "grossesse extra-uterine",
+            "grossese extra uterine",
+            "grossesse extra urérine",
+            "grosesse extra-utérine",
+            "grosse extra uterine",
+            "Grossesse Extra Uterine",
+            "Grossesse extra-uterine",
+            "grossesse (extra uterine)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Après quelle durée peut-on parler d’infertilité lorsqu’un couple rencontre des difficultés à concevoir malgré des rapports non protégés réguliers selon l'OMS ? (choisissez un chiffre en nombre de mois)",
+          "choix": [
+            "A) 6",
+            "B) 8",
+            "C) 10",
+            "D) 12",
+            "E) 14",
+            "F) 24"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La dysménorrhée est un des symptôme évocateur d’endométriose",
+          "choix": [
+            "A) Elle se définit par une douleur au moment des rapports",
+            "B) Elle se définit par des règles abondantes",
+            "C) Elle se définit par des douleurs pelviennes inter cycle",
+            "D) Elle se définit par des douleurs en période de règles",
+            "E) Elle se définit par des règles espacées et de courte durée"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Bassin obstétrical et accouchement normal",
+          "choix": [
+            "A) L’excavation pelvienne a la forme d’un cylindre coudé",
+            "B) Le détroit supérieur à classiquement la forme d’un cœur de carte à jouer, il est limité en arrière par le promontoire",
+            "C) L’accouchement prématuré se définit par un accouchement avant 39 SA",
+            "D) Parmi les étapes du travail, on note dans l’ordre la dilatation cervicale, la délivrance et l’expulsion du placenta",
+            "E) Une fois le col complétement ouvert, et sous l’effet des contractions, le mobile fœtal traverse d’abord le détroit supérieur (engagement) puis l’excavation pelvienne, le détroit inférieur et le périnée."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les causes de ménorragies organiques les plus fréquentes ?",
+          "choix": [
+            "A) Endométriose pelvienne profonde",
+            "B) Utérus fibromateux",
+            "C) Hyperplasie ou polype endométrial",
+            "D) Kyste ovarien fonctionnel",
+            "E) Adénomyose"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le syndrome pré menstruel",
+          "choix": [
+            "A) Nécessite une exploration par une échographie en début de cycle pour établir le diagnostic positif",
+            "B) Est fréquent, bénin et correspond à des troubles cycliques",
+            "C) On retrouve fréquemment une tension mammaire, un ballonnement abdominal et une irritabilité après les règles",
+            "D) Le traitement repose sur des mesures hygiéno-diététiques et éventuellement un traitement hormonal",
+            "E) Il existe une forme psychiatrique cyclique qui peut nécessiter un avis spécialisé"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Troubles psychiques grossesse et post partum",
+          "choix": [
+            "A) Le post partum blues est précoce, non pathologique et fréquent (jusqu’à 50 % des femmes)",
+            "B) Les facteurs de risque de dépression du post partum à rechercher sont par exemple : une hémorragie de la délivrance sévère, un antécédent personnel d’hospitalisation en psychiatrie, ou encore un isolement familial",
+            "C) La psychose puerpérale peut se révéler par des idées délirantes centrées sur l’enfant dès la première semaine post partum.",
+            "D) La dépression du post partum doit être recherchée à la visite post natale et les facteurs de risques peuvent être identifiés dès l’entretien pré natal du 4° mois.",
+            "E) La dépression du post partum concerne jusqu’à 15% des femmes ayant accouché mais récidive peu lors des grossesses ultérieures."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cancer du sein",
+          "choix": [
+            "A) Parmi les facteurs de risques de cancer du sein, on relève l’allaitement maternel, l’exposition longue aux hormones, le traitement hormonal de la ménopause.",
+            "B) Une mutation BRCA1/2 favorise la survenue des cancers du sein et de l’ovaire.",
+            "C) A la palpation mammaire, il n’est pas toujours nécessaire de palper l’aire ganglionnaire axillaire lorsque la palpation du sein homolatéral est normale.",
+            "D) La prescription d’une mammographie en cas d’anomalie à l’examen clinique doit être bilatérale avec 2 incidences par sein.",
+            "E) En cas d’examen classé ACR 4, un contrôle dans 4 à 6 mois devra être réalisé."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'IVG :",
+          "choix": [
+            "A) La prescription d’une contraception dans les suites d’une IVG devra débuter le premier jour des prochaines règles de la patiente.",
+            "B) Le dépistage des IST n’est systématique qu’avant une IVG chirurgicale du fait d’une augmentation du risque d’infection génitale haute.",
+            "C) Le groupage sanguin de la patiente doit être obligatoirement connu lors d’une IVG pour la réalisation d’une prophylaxie anti-D en cas de rhésus positif.",
+            "D) Le principal évènement indésirable au décours d’une IVG médicamenteuse est la survenue de douleurs. La prescription d’AINS est recommandée dans ce cas.",
+            "E) Le principe d’une IVG médicamenteuse repose sur l’administration d’un anti-progestérone (Mifépristone) et d’un analogue des prostaglandines (Misoprostol)."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

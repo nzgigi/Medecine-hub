@@ -1,0 +1,201 @@
+{
+  "matiere": "Anglais",
+  "slug": "anglais-s8",
+  "annee": 2025,
+  "title": "Anglais - 2025",
+  "total_questions": 9,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "1. Answer the set of questions about the following article:\nDocument 1 - “Proton Pump Inhibitor use increases mortality and hepatic decompensation in liver cirrhosis\" tablet device – suggested time: 40mn\nOf note: Proton Pump Inhibitor will be referred to as PPI",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Possible reason(s) to explain the higher mortality & increased occurrence of hepatic events with PPI could include",
+          "choix": [
+            "A) Modification of gut PH, causing gut dysbiosis",
+            "B) Reduced hepatic clearance of PPI in the liver by cytochrome CYP450",
+            "C) PPIs limit the defense mechanism of hydrochloric acid",
+            "D) Increased risk of pathological bacterial translocation",
+            "E) PPIs break down all the ingested food, stopping the production of all stomach acid"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Limitation(s) identified in the text include(s):",
+          "choix": [
+            "A) Selection bias where this is a single-center study, with unclear user definition",
+            "B) large sample size used",
+            "C) Overgeneralisation as the study ignores the potential benefits of PPIs",
+            "D) Transparency Concerns include no funding disclosure",
+            "E) unclear cause of death"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What was/ were the criterion/- ia used to define PPI users in the study of hospitalised cirrhotic patients?",
+          "choix": [
+            "A) PPI use for at least 3 months prior to index admission",
+            "B) Cumulative Defined Daily Dose (cDDD) ≥ 28 within the landmark period",
+            "C) Patients with a PPI prescribed only after the landmark period",
+            "D) No PPI prescribed during the landmark period",
+            "E) PPI-prescribed patients with unclear indications"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Table 2 - In the 6-month landmark cohort, what was NOT/ were NOT the adjusted hazard ratios (aHRs) for overall mortality in PPI users compared to non-users?",
+          "choix": [
+            "A) aHR of 1.36, P = 0.143",
+            "B) aHR of 2.10, P = 0.009",
+            "C) aHR of 3.44, P = 0.003",
+            "D) aHR of 2.08, P = 0.011",
+            "E) aHR = 2.27, P = 0.038"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "neutralized": [
+            "E"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "In the study of patients with decompensated liver cirrhosis, what was/ were the Relative Risks (aRRs) of hospitalisation for hepatic decompensation in PPI users compared to non-users?",
+          "choix": [
+            "A) aRR = 1.36, P = 0.143",
+            "B) aRR = 1.61, P < 0.001",
+            "C) aRR = 2.27, P = 0.038",
+            "D) aRR = 3.44, P = 0.003",
+            "E) aRR = 1.91, P < 0.001"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What type of study is this?",
+          "choix": [
+            "A) Cohort study",
+            "B) Retrospective study",
+            "C) Case-control study",
+            "D) Cross-sectional study",
+            "E) Large population prospective study"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What is/ are the main measure (s) of association for the primary outcome?",
+          "choix": [
+            "A) Relative Risk (RR)",
+            "B) Odds Ratio (OR)",
+            "C) Hazard Ratio (HR)",
+            "D) Incidence Rate Ratio (IRR)",
+            "E) adjusted Hazard Ratio (aHR)"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "neutralized": [
+            "C"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What is a/ are key potential residual confounder(s) not fully addressed?",
+          "choix": [
+            "A) Smoking",
+            "B) Antibiotic use",
+            "C) Sarcopenia",
+            "D) Statin use",
+            "E) Obesity"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What is/ are the main take-home message(s) for clinical practice?",
+          "choix": [
+            "A) PPIs are protective in cirrhosis",
+            "B) PPIs should not be used long-term in cirrhosis",
+            "C) PPI use should be regularly reviewed and minimised when not indicated",
+            "D) PPI use is not associated with any risks",
+            "E) PPI can be considered an option for patients waiting for orthotopic liver transplantation."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,922 @@
+{
+  "matiere": "Hématologie et cancérologie",
+  "slug": "hematologie-cancerologie-s10",
+  "annee": 2023,
+  "title": "Hématologie et cancérologie - 2023",
+  "total_questions": 39,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un patient de 23 ans vient à votre cabinet, pour l'auto-palpation d'une adénomégalie cervicale jugulo-carotidienne médiane droite de 2 x 3 cm\nIl n'a aucun ATCD médico-chirurgical, pas de traitement.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels paramètres cliniques vous orient-ils vers une cause infectieuse?",
+          "choix": [
+            "A) La douleur locale",
+            "B) Une lymphangite",
+            "C) Une récente morsure d'animal",
+            "D) Une compression veineuse ou artérielle locale",
+            "E) Un fébricule à 37.7°C"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels cancers sont possibles chez ce patient?",
+          "choix": [
+            "A) Un mélanome",
+            "B) Un lymphome Hodgkinien",
+            "C) Un cancer ORL",
+            "D) Un myélome",
+            "E) Un sarcome"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Du coup, le patient a peur....Quel argument de non malignité peut-on lui présenter pour le rassurer?",
+          "choix": [
+            "A) Aucun",
+            "B) Le ganglion est indolore",
+            "C) Le ganglion est unique",
+            "D) Il n'est pas fumeur",
+            "E) Il est vacciné contre HPV, le Covid, la grippe"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel bilan proposez -vous après votre consultation, sachant que l'examen clinique ne retrouve pas d'autre adénopathie et pas d'hépato-splénomégalie?",
+          "choix": [
+            "A) Scanner TAP injecté",
+            "B) Sérologies: EBV, CMV, toxo",
+            "C) Hémogramme",
+            "D) LDH",
+            "E) IRM de la sphère ORL"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan sanguin revient normal. Le scanner par contre retrouve des adénomégalies de 4-5 cm médiastinales et rétro-péritonéales: quels diagnostics sont possibles?",
+          "choix": [
+            "A) Lymphome B diffus à grandes cellules",
+            "B) LLC",
+            "C) Lymphome T",
+            "D) Lymphome de Hodgkin",
+            "E) Cancer du testicule"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une biopsie sous échographie en cervical retrouve un aspect compatible avec un lymphome Hodgkinien. Quels grands principes de prise en charge sont appropriés?",
+          "choix": [
+            "A) Prélèvement de sperme avant traitement",
+            "B) Pose de porte-cathéter",
+            "C) Prise en charge à 100% (ALD30)",
+            "D) Conseil onco-génétique pour ses frères et soeurs",
+            "E) Chimiothérapie sans radiothérapie car forme disséminée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296034170-8e1b20e81f9ed",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un patient de 74 ans vient d’avoir le diagnostic de cancer du pancréas devant un tableau de douleurs abdominales épigastriques, amaigrissement de 10% de son poids en 2 mois, asthénie et anorexie se majorant depuis 3 mois (actuellement IP OMS 1).\nIl s’agit d’un ancien ouvrier, vivant en milieu semi-rural, marié sans enfant, en situation financière précaire.\nIl présente un tabagisme estimé à 40 paquets-années, un DNID depuis 7 ans, une HTA équilibrée sous monothérapie.\nSur le plan familial, il a 3 sœurs âgés de 70 à 82 ans ; sa sœur aînée a eu un cancer du sein à 78 ans (elle est toujours « sous traitement hormonal »). Parmi ses 8 neveux et nièces, un neveu est décédé récemment d’un cancer du poumon à 59 ans (fumeur) et une nièce eu un cancer du col de l’utérus (« dû au virus »).\nLe bilan complet qu’il vient de réaliser permet de conclure à un adénocarcinome du pancréas métastatique d’emblée au niveau hépatique, ganglionnaire rétropéritonéal et pulmonaire.\nLe traitement standard à lui proposer est une chimiothérapie visant à ralentir l’évolution de la maladie (pas de traitement « curatif » possible dans ces conditions) ; ce traitement a été discuté et validé en RCP (Réunion de Concertation Pluridisciplinaire)\nIl est adressé en « consultation d’annonce » à l’oncologue pour sa prise en charge et la mise en route de la chimiothérapie :",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le dispositif d'annonce",
+          "choix": [
+            "A) Correspond à la consultation médicale où le diagnostic de cancer sera annoncé au patient et dont le durée doit être fixée à une heure (+/- 10 minutes)",
+            "B) Evite au patient le passage par une temps de « sidération » à l’annonce de la maladie",
+            "C) Permet au patient de mieux adhérer au projet thérapeutique proposé",
+            "D) Doit systématiquement adresser le patient vers l’assistante sociale pour faire un bilan social",
+            "E) N’implique pas directement le médecin traitant"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les soins de support",
+          "choix": [
+            "A) Doivent être évalués dès le début de la prise en charge",
+            "B) Doivent être évalués au cours de la prise en charge",
+            "C) Se délivrent uniquement sur prescription hospitalière",
+            "D) Sont réalisables en même temps qu’une chimiothérapie « lourde »",
+            "E) Ne sont justifiés qu’en situation palliative"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le programme personnalisé de soins PPS",
+          "choix": [
+            "A) Correspond aux détails de « la posologie & des modalités des traitements prescrits et des effets secondaires attendus » précisés au médecin traitant",
+            "B) Doit être remis au patient",
+            "C) Est validé en RCP",
+            "D) Ne concerne que le traitement initial (primo-traitement) ; il reste possible mais non obligatoire en cas de rechute",
+            "E) Doit être remis à la « personne de confiance » désignée par le patient"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au terme de 3 mois de traitement la situation se dégrade avec une majoration nette de l’altération de l’état général (IP OMS 3), des hépatalgies intenses et une douleur exquise en regard de T12 (sans signe neurologique déficitaire), des perturbations biologiques…\nLa progression rapide de la maladie, malgré la chimiothérapie, est confirmée par le scanner qui objective la progression de taille des lésions connues et l’apparition de nouveaux sites tumoraux dont une métastase vertébrale lytique de T12 pour laquelle aucun traitement neuro-chirurgical n’est indiqué.\nUne équilibration antalgique par voie IV débutée en urgence en hospitalisation améliore les douleurs (sans contrôler suffisamment la douleur dorsale) mais l’état général reste précaire (IP OMS3) ; l’espérance de vie semble limitée au vue de la vitesse de progression de la maladie et de la résistance à la chimiothérapie réalisée.\nVous refaites le point sur la situation palliative du patient :\nVous proposez une irradiation de la vertèbre",
+          "choix": [
+            "A) Le type de radiothérapie envisagé est une curiethérapie",
+            "B) La dose délivrée se calculera en Joule",
+            "C) Le type de rayon utilisé pourra être des photons",
+            "D) Le but du traitement est antalgique",
+            "E) Le but du traitement est une « stérilisation » de la métastase quitte à prendre un risque de toxicité médullaire"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prise en charge actuelle du patient",
+          "choix": [
+            "A) Une nouvelle chimiothérapie devra être proposée car le patient est demandeur et n’est pas prêt à envisager l’arrêt des traitements spécifiques",
+            "B) Seule la personne de confiance devra être informée de la gravité de la situation ; aucune notion de gravité ne devra être évoquée au patient afin de ne pas le démoraliser",
+            "C) Le patient doit être adressé en unité de soins palliatifs",
+            "D) Le patient pourrait avoir une prise en charge à domicile avec un service d’hospitalisation à domicile",
+            "E) Le médecin traitant pourra être déchargé de la prise en charge du patient à domicile si un réseau de soins palliatifs ou une équipe d’appui se met en place pour intervenir à domicile"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le cancer du pancréas",
+          "choix": [
+            "A) Est plus souvent un adénocarcinome qu’une tumeur neuro-endocrine",
+            "B) Doit être déclaré en maladie professionnelle chez ce patient du fait de son exposition au cours de son métier aux agents de type : Poussières de bois, formaldéhyde (formol), composés du chrome",
+            "C) Aurait dû faire l’objet d’un dépistage organisé du fait de son ATCD de tabagisme",
+            "D) Doit mener à la recherche d’un syndrome de prédisposition génétique tumoral du fait des ATCD familiaux",
+            "E) S’accompagne d’un risque majeur de maladie veineuse thrombo-embolique même à l’absence d’antécédents personnels de thrombose"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296037476-3c49e742179188",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Vous avez prescrit à Me T, âgée de 65 ans, une mammographie car vous avez palpé une masse dure dans le quadrant supéro-externe de son sein droit d’environ 25-30 mm de diamètre. Elle revient vous voir en consultation avec les images ci-dessous.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez un cancer du sein. Parmi les propositions suivantes, lesquelles sont vraies ?",
+          "choix": [
+            "A) Seule une histologie, obtenue par exemple par biopsie, apportera un diagnostic de certitude",
+            "B) Le programme national de dépistage organisé du cancer du sein en France ne s'adresse pas aux femmes d'âge compris entre 60 et 70 ans",
+            "C) Le cancer du sein est le plus fréquent des cancers féminins en France après le cancer bronchique",
+            "D) La majorité des cancers du sein sont diagnostiqués après 50 ans",
+            "E) Les cancers du sein peuvent être héréditaires et s'intégrer dans un syndrome de Lynch"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Deux biopsies sont réalisées sous échographie : l’une au niveau de la tumeur mammaire primitive et l’autre au niveau d’un ganglion axillaire droit. Il s’agit d’un carcinome canalaire infitrant de grade 3. Résultats des analyses en immunohistochimie :\nRE50%+++, RP40%++ et HER2 ++. Pas d’amplification de HER2 en hybridation in situ. Le ganglion est métastatique.\nParmi les propositions suivantes concernant l’immunohistochimie, lesquelles sont vraies ?",
+          "choix": [
+            "A) Elle utilise une réaction immunologique antigène-anticorps pour identifier et localiser des protéines au niveau des cellules, par exemple tumorales, d’un prélèvement",
+            "B) L’analyse des marquages en immunohistochimie peut être qualitative ou quantitative",
+            "C) Elle peut être d’une aide au diagnostic morphologique par la recherche d’expression de protéines d’intérêt pour les tumeurs solides en général",
+            "D) L’expression des récepteurs hormonaux en immunohistochimie pour les cancers du sein a une valeur théranostique, permettant l’accès à une hormonothérapie",
+            "E) La surexpression de HER2 en immunohistochimie a une valeur pronostique pour les cancers du sein"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant HER2, quelle est la proposition vraie parmi les suivantes ?",
+          "choix": [
+            "A) L’amplification d’un gène tel que HER2 se recherche par une technique de séquençage moléculaire",
+            "B) HER2 est un récepteur nucléaire à activité tyrosine kinase",
+            "C) La surexpression de la protéine HER2 ne peut se détecter que dans les cancers du sein",
+            "D) Il s’agit de la cible thérapeutique d’un « mab » ou anticorps monoclonal comme le trastuzumab",
+            "E) Il s’agit d’un anti-oncogène"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de cancer du sein est donc posé avec certitude. Vous demandez un bilan d’extension à distance\nParmi les propositions suivantes, lesquelles sont vraies ?",
+          "choix": [
+            "A) Vous demandez un bilan d’extension afin de vous assurer de l’absence de métastase et d’avoir un projet thérapeutique curatif",
+            "B) La classification TNM a une valeur pronostique pour les cancers du sein et pour toutes les autres tumeurs solides",
+            "C) La classification TNM est indispensable avant toute décision thérapeutique en oncologie",
+            "D) Une tumeur dite Mx est métastatique",
+            "E) Le parenchyme pulmonaire et hépatique ainsi que le squelette osseux sont des sites très fréquents de métastases des cancers su sein"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan d’extension (scintigraphie osseuse et scanner thoraco-abodomino-pelvien) dédouane toutes métastases à distance. Quels traitements seront proposés à cette patiente ?",
+          "choix": [
+            "A) Une chirurgie du sein et exérèse de ganglions axillaires droits",
+            "B) Une radiothérapie externe du sein, systématique lorsque ce dernier est conservé",
+            "C) Une thérapie anti-HER2 comme du trastuzumab",
+            "D) Une hormonothérapie",
+            "E) Un soutien psychologique si nécessaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Après l’acte chirurgical, il est décidé d’un traitement complémentaire par radiothérapie et hormonothérapie.\nConcernant cette hormonothérapie, quelles sont les propositions justes parmi les suivantes ?",
+          "choix": [
+            "A) Elle aura pour but de réduire le risque de rechute métastatique tout comme les cytotoxiques lorsqu’ils sont indiqués",
+            "B) Il s’agira d’une hormonothérapie néoadjuvante",
+            "C) Elle aura pour but de réduire le risque de rechute locale (soit dans le sein) tout comme la radiothérapie de la glande mammaire",
+            "D) Il pourra s’agir plus sûrement du Tamoxifène que d’une anti-aromatase car cette patiente est ménopausée",
+            "E) La décision de ce traitement complémentaire doit être prise en RCP (réunion de concertation pluridisciplinaire)"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296040437-c21ed805418778",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle maladie évoquez-vous devant l’hémogramme suivant :\nHémoglobine 7.5 g/dL, VGM 102 fL, leucocytes 2.3 G/L, polynucléaires neutrophiles 0.4 G/L, blastes 55%, plaquettes 33 G/L, réticulocytes 53 G/L.",
+          "choix": [],
+          "reponses": [
+            "Leucémie aiguë",
+            "leucémie aigu (myeloide ou lymphoide)",
+            "leucémie aïgu",
+            "leucémie aigu",
+            "Leucémie aiguë avec pancytopénie"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A l’interrogatoire, que recherchez-vous pour connaître l’étiologie de cette maladie ? (5 propositions justes)",
+          "choix": [
+            "A) Un antécédent de chimiothérapie pour un cancer antérieur",
+            "B) Un antécédent de radiothérapie pour un cancer antérieur",
+            "C) Un antécédent de leucémie lymphoïde chronique de stade A non traitée",
+            "D) Une alimentation riche en graisses",
+            "E) Une exposition professionnelle aux radiations ionisantes",
+            "F) Un traitement anticoagulant oral direct",
+            "G) Un antécédent de syndrome myélodysplasique",
+            "H) Un antécédent de lymphome folliculaire non traité",
+            "I) Un antécédent de syndrome myéloprolifératif",
+            "J) Une drépanocytose sans traitement de fond"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E",
+            "G",
+            "I"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez les résultats suivants :\nHémostase : TP 45%, fibrinogène 0.5 g/L\nMyélogramme : moelle de grade 3, 58% de blastes comportant des corps d’Auer en fagot\nCaryotype : mise en évidence de la translocation t(15;17) générant le transcrit de fusion PML::RARA.\nDe quelle catégorie de leucémie s’agit-il ?",
+          "choix": [
+            "A) Leucémie aiguë lymphoblastique",
+            "B) Leucémie myéloïde chronique",
+            "C) Leucémie aiguë promyélocytaire (LAM3)",
+            "D) Leucémie aiguë myélomonocytaire",
+            "E) Leucémie aiguë myéloïde à chromosome de Philadelphie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296042180-e7112dc63c0488",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "Un homme de 64 ans consulte aux urgences pour des troubles du transit avec distension abdominale depuis un mois. A l’examen clinique, il présente une augmentation du volume abdominal avec une matité diffuse. Le toucher rectal met en évidence une masse indurée. L’échographie abdomino-pelvienne faite aux urgences montre une suspicion de carcinose péritonéale diffuse. Parmi ses antécédents familiaux, on retrouve un cancer de l’endomètre chez une sœur à 50 ans et un cancer du côlon chez son cousin à 49 ans.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant ce tableau, quelle est l’étiologie la plus fréquente de carcinose péritonéale ?",
+          "choix": [],
+          "reponses": [
+            "cancer colorectal, cancer rectum, cancer colon",
+            "cancer colorectal",
+            "cancer colo-rectal",
+            "Cancer colorectal",
+            "Cancer colo-rectal",
+            "cancer colo rectal",
+            "Cancer colo rectal",
+            "cancer colo-rectal métastatique",
+            "carcinome colorectal",
+            "cancer colon-rectum",
+            "adénocarcinome colo-rectal",
+            "métastase d‘un cancer colo-rectal",
+            "cancer colo rectale",
+            "métatase cancer colo-rectal",
+            "cancer colorectal métastatique",
+            "Tumeur colo-rectale",
+            "metastase de cancer colorectal",
+            "dissémination lymphatique d'un cancer colo-rectal",
+            "cancer colorectal ( syndrome de Lynch? )",
+            "cancer colorectale"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous proposez une recto-sigmoïdoscopie. L’examen retrouve une tumeur du rectum et la biopsie confirme l’existence d’un adénocarcinome lieberkühnien de phénotype dMMR (MSI). Quel est le bilan d’extension proposé au patient ?",
+          "choix": [
+            "A) Un dosage des marqueurs Ca 125 et Ca 15.3",
+            "B) Un scanner cérébral",
+            "C) Une IRM thoraco-abdomino-pelvienne",
+            "D) Une coloscopie totale",
+            "E) Une radiographie de thorax"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant l’oncogénétique, quelles sont les réponses correctes (6 bonnes réponses sont attendues) :",
+          "choix": [
+            "A) L'histoire familiale du patient est évocatrice d'un Syndrome de Lynch",
+            "B) Le phénotype MMR peut être sporadique ou être lié à un Syndrome de Lynch",
+            "C) Une recherche de mutation constitutionnelle d’un gène MMR doit être lancée en prévenant le patient de se rendre en consultation d’oncogénétique si une mutation est identifiée",
+            "D) En cas de mutation constitutionnelle avérée d’un gène du système MMR (système mismatch repair) chez le patient, le risque de transmission à ses enfants serait de 50 %",
+            "E) Le syndrome de Lynch majore le risque de survenue de plusieurs cancers dont le cancer de l’endomètre, le cancer des voies urinaires ou les cancers digestifs",
+            "F) Le dépistage du cancer colorectal des personnes atteintes d’un syndrome de Lynch comporte un examen de sang occulte dans les selles tous les trois ans et une coloscopie tous les dix ans",
+            "G) Le dépistage du cancer colorectal des personnes atteintes d’un syndrome de Lynch doit commencer à partir de l’âge de 40 ans",
+            "H) L’objectif du dépistage des cancers colorectaux est de diminuer la mortalité par cancer colorectal",
+            "I) Le syndrome de Lynch est présent dans 30 % des cancers colorectaux",
+            "J) La surveillance colorectale des syndromes de Lynch repose sur la réalisation de chromo-endoscopies à des intervalles rapprochés"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E",
+            "H",
+            "J"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296044825-2653c29562a5c",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous avez vu en consultation il y a quelques semaines un patient de 18 ans pour un prurit nu depuis 2 mois dont le bilan allergologique est revenu négatif. Depuis, il décrit l'apparition de sueurs nocturnes associées à une majoration de l'asthénie. Vous faites réaliser une biopsie d'une adénopathie médiastinale : par téléphone, l'anatomopathologiste vous indique la présence de quelques cellules de très grande taille au noyau volumineux binucléolé exprimant CD30 et CD15.\nQuel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Maladie de Hodgkin",
+            "Lymphome de Hodgkin",
+            "Hodgkin",
+            "Lymphome Hodgkinien",
+            "Lymphome Hogkinien",
+            "lymphome de Hogkin",
+            "lymphome de hodkin",
+            "lymphome de hogdkin",
+            "lymphome de hodking",
+            "lymphome de hodgekin",
+            "Lymohome de Hodgkin",
+            "lymphome hodkinien",
+            "Lymphome de Hodgkins",
+            "Lymphome de Hogdkin",
+            "lymphome de Hodgkins",
+            "lymphome de hodkinge",
+            "lymphome hodgkin",
+            "maladie de Hogkin",
+            "lymphome Hodgkin",
+            "Lymphome de Hoghkin"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici les résultats de l'hémogramme de Mr A., 45 ans, sans antécédent, réalisé en raison d'une asthénie modérée :\nHémoglobine : 14,5 g/dL\nVGM : 90 fL\nTCMH : 30 pg\nCCMH : 31 g/dL\nPlaquettes : 300 G/L\nLeucocytes : 6,9 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 1,5 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 2,1 G/L\n- Monocytes : 0,5 G/L\nDevant ces résultats, quel(s) élement(s) recherchez-vous à l'interrogatoire ?",
+          "choix": [
+            "A) un voyage hors de France métropolitaine",
+            "B) la présence d'animaux domestiques",
+            "C) des antécédents d'atopie",
+            "D) un prurit",
+            "E) la prise de nouveaux médicaments"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr A., 67 ans, est adressé en consultation devant la découverte d'un myélome multiple suite à l'exploration d'un pic monoclonal de type IgG kappa à l’électrophorèse des protéines sériques.\nParmi les examens suivants, lequel (lesquels) demandez-vous pour pouvoir décider de la prise en charge thérapeutique ?",
+          "choix": [
+            "A) une calcémie",
+            "B) un scanner cérébral",
+            "C) une créatininémie",
+            "D) un scanner corps entier low dose",
+            "E) un immunophénotypage lymphocytaire dans le sang"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr B. 34 ans consulte pour la découverte récente d'un lymphome B diffus à grandes cellules devant l'apparition d'adénopathies associées à des sueurs nocturnes .\nQuel(s) examen(s) demandez-vous pour le bilan d'extension ?",
+          "choix": [
+            "A) un scanner cervico-thoraco-abdomino-pelvien",
+            "B) une tomographie par émission de positons",
+            "C) une scintigraphie osseuse",
+            "D) un scanner cérébral",
+            "E) une IRM cérébrale"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un homme de 33 ans consulte pour une tuméfaction cervicale gauche associée à une altération de l'état général avec fièvre vespérale et sueurs nocturnes depuis 1 mois. L'examen clinique est normal en dehors de multiples adénopathies cervicales, sus-claviculaires et axillaires. La plus volumineuse, basi-cervicale gauche, mesure 4 cm de grand axe. L'hémogramme et le ionogramme sont normaux.\nQuel examen à visée diagnostique demandez-vous ?",
+          "choix": [
+            "A) un myélogramme",
+            "B) une biopsie ganglionnaire",
+            "C) un scanner thoraco-abdomino-pelvien",
+            "D) une biopsie ostéo-médullaire",
+            "E) une échographie cervicale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 30,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mme A., 65 ans, sans antécédent, consulte pour la découverte sur un bilan de ville fait à titre systématique d’une anomalie de l'hémogramme dont voici les résultats :\nHémoglobine :14,5 g/dL\nVGM : 90 fL\nTCMH : 30 pg\nCCMH : 30 g/dL\nPlaquettes : 300 G/L\nLeucocytes : 15,4 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 0 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 12,1 G/L\n- Monocytes : 0,5 G/L\nQuestion 1 : Quelle pathologie suspectez-vous ?",
+          "choix": [
+            "A) une leucémie aiguë myéloide",
+            "B) une leucémie myéloide chronique",
+            "C) une leucémie aiguë lymphoblastique",
+            "D) une leucémie lymphoïde chronique",
+            "E) une infection bactérienne"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les éléments suivants, lequel (lesquels) peut (peuvent) faire suspecter une leucémie aiguë chez un adulte ?",
+          "choix": [
+            "A) une pancytopénie",
+            "B) la présence de cellules immatures sur le frottis sanguin",
+            "C) une anémie régénérative",
+            "D) une thrombocytose",
+            "E) une polynucléose"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme A., 62 ans, consulte pour une fatigue inhabituelle présente depuis maintenant 3 semaines. Dans ses antécédents, on retient une hypertension traitée par Atenolol.\nVoici les résultats de l'hémogramme :\nHémoglobine :10,5 g/dL\nVGM :76 fL\nTCMH :25 pg\nCCMH :26 g/dL\nPlaquettes : 500 G/L\nLeucocytes : 5,4 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 0 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 2,1 G/L\n- Monocytes : 0,5 G/L\nQuestion 1 : Quelle(s) est (sont) l'(les) anomalie(s) présente(s) sur l'hémogramme ?",
+          "choix": [
+            "A) une anémie",
+            "B) une thrombopénie",
+            "C) une thrombocytose",
+            "D) une macrocytose",
+            "E) une neutropénie"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les situations suivantes, laquelle (lesquelles) est (sont) à l'origine d'une anémie microcytaire ?",
+          "choix": [
+            "A) la carence en vitamine B12",
+            "B) la carence martiale",
+            "C) le syndrome inflammatoire",
+            "D) la thalassémie",
+            "E) la carence en vitamine B9"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 34,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le mode de transmission des mutations des gènes BRCA1 et BRCA2, prédisposant aux cancers du sein et de l'ovaire ?",
+          "choix": [],
+          "reponses": [
+            "autosomique dominante",
+            "autosomique dominant",
+            "Autosomique dominant",
+            "transmission autosomique dominante",
+            "Hereditaire autosomique dominant",
+            "Transmission autosomique dominante",
+            "autosomique dominant avec penetrance variable",
+            "autosomique dominant à pénétrance incomplète",
+            "Autonsomique dominant"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 35,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Citer les deux spécificités de la cardiotoxicité des anthracyclines ?",
+          "choix": [],
+          "reponses": [
+            "dose cumulative ou irréversible",
+            "Nouvelle réponse acceptée",
+            "Nouvelle réponse acceptée",
+            "dose cumulative et irréversible",
+            "cumulative et irréversible",
+            "dose dépendante et irréversible",
+            "dose dépendante, irréversible",
+            "cumulative, irréversible",
+            "dose cumulative irréversible",
+            "dose dependante, irreversible",
+            "cumulative, dose-dépendante",
+            "cumulative, dose dépendante",
+            "dose cumulative, irréversible",
+            "dose cumulative, irrevesible",
+            "irréversible, dose-dépendante",
+            "cardiotoxicite dose cumulative et duree dependante",
+            "dose-dépendante, irreversible",
+            "dose cumulative et non réversible",
+            "irréversible dose cumulative",
+            "cumulative, dose dépendant",
+            "cardiomyopathie dilatée dose dépendante et dose cumulative",
+            "irreversible et dose dépendante",
+            "Dose dépendante, cululative",
+            "cardiomyopathie dilatée irréversible, dose cumulée",
+            "dose cumulative et irreversible",
+            "cumulative irreversible",
+            "donne des cardiomyopathies dilatées doses dépendantes et cumulatives necessite de faire une ETT en pré-traitement",
+            "(médicament dexrasoxane)",
+            "dose cumulée et atteinte irréversible",
+            "dose dépendant / irréversible",
+            "toxicité cumulative et irréversible",
+            "irréversible et effet cumulatif",
+            "dose-dépendante, dose cumulée totale",
+            "Dose cumulative, irréversible",
+            "Dose-dépendante et irréversible",
+            "dose dépendant et irréversible",
+            "Cumulative Irréversible",
+            "cumulative et irreversible",
+            "irreversible et cumulative",
+            "dose cumulative //irreversible",
+            "toxicité cumulative, irreversible",
+            "dose cumulative, irreversible",
+            "cardiopathie dilaté, irreversible, dose dependante",
+            "cumulative, dose dependante, non réversible",
+            "cardiotoxicité dose dependante et irreversible",
+            "dose-cumulative, fibrose myocardique irréversible",
+            "Dose-dépendante irréversible",
+            "irreversible et dose cumulative",
+            "dose dependante et irreversible",
+            "irréversible , dose dépendante",
+            "dose dépendante irréversible",
+            "dose cumulativé, irréversible",
+            "Irréversible et dose cumulative",
+            "dose-dependante et cumulative",
+            "Cardiomyopathie dilatée irréversible, dose cumulative",
+            "Cumulative et irréversible",
+            "irréversible, dose dépendante",
+            "dose cumulative et toxicité irreversible",
+            "Cardiotoxicité cumulative et irréversible",
+            "irreversible dose dependante",
+            "cardiomyopathie dilatée dose-cumulative et irréversible",
+            "dose cumulée et irreversible",
+            "irreversible, dose dépendant",
+            "Cardiopathie dilatée dose cumulative irréversible"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les marqueurs sanguins tumoraux",
+          "choix": [
+            "A) Le CA 15-3 est utilisé pour le diagnostic dans les cancers du sein",
+            "B) Les BHCG sanguins font partie des éléments de diagnostic dans les tumeurs germinales malignes testiculaires",
+            "C) Les PSA sont utilisés pour le diagnostic du cancer de la prostate",
+            "D) Les PSA sont utilisés pour le suivi des cancers de la prostate pendant et après traitement",
+            "E) Pour les cancers bronchiques, il n’y pas de marqueurs sanguins mais on peut réaliser dans certains cas des biopsies liquides (analyse de l’ADN tumoral circulant)"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 65 ans, OMS 1, présente un adénocarcinome bronchique de stade 3Binopérable avec une fonction respiratoire dans les limites de la normale. Biologie moléculaire négative, PDL1 20%. Il présente une indication de radiothérapie ( 60 Gy ) concomittante à la chimiothérapie ( platine-navelbine) suivie d’immunothérapie.",
+          "choix": [
+            "A) Le traitement de radiothérapie utilise des rayons X et la modulation d’intensité",
+            "B) Le fractionnement conventionnel de radiothérapie est de 2 Grays / fraction quotidienne",
+            "C) Le fractionnement conventionnel de radiothérapie est de 1Grays / fraction quotidienne",
+            "D) Les effets secondaires aigus de la radiothérapie sont réversibles. Ils sont dans ce cas cutanés et oesophagiens et apparaissent à la 3ème semaine de traitement Proposition 4",
+            "E) Le cisplatine est peu émétisant"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 52 ans présente un cancer épidermoïde de la base de langue. Il est classé, après bilan d’extension, TNM T3 N1 M0",
+          "choix": [
+            "A) Le stade T3 signifie que sa lésion est étendue aux organes adjacents",
+            "B) Le stade M0 est défini sur l’absence de métastases hépatiques au scanner abdominal",
+            "C) Le stade M0 est défini sur l’absence de métastases pulmonaires au scanner thoracique",
+            "D) Un facteur de prédisposition au cancers épidermoïdes oropharyngés peut-être une intoxication alcoolo-tabagique",
+            "E) Un facteur de prédisposition aux cancers épidermoïdes oropharyngés peut être une infection virale à HPV"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 39,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant le bilan qui doit être demandé avant un traitement par chimiothérapie, quelle est la proposition fausse parmi les suivantes ?",
+          "choix": [
+            "A) Une exploration fonctionnelle respiratoire avant traitement par bléomycine",
+            "B) Une voie d’abord veineux centrale est indispensable avant l’administration des anthracyclines",
+            "C) Un hémogramme récent est fortement recommandé",
+            "D) Une échographie cardiaque est indispensable avant l’administration d’un taxane, dont la cardiotoxicité est dose cumulative",
+            "E) Il faut s’assurer qu’une femme non ménopausée ne soit pas enceinte"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

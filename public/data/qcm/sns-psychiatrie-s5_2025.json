@@ -1,0 +1,413 @@
+{
+  "matiere": "Système neurosensoriel – Psychiatrie",
+  "slug": "sns-psychiatrie-s5",
+  "annee": 2025,
+  "title": "Système neurosensoriel – Psychiatrie - 2025",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez à votre consultation le jeune J., âgé de 3 ans, amené par ses parents sur les conseils de sa maîtresse. En effet, depuis la rentrée, J. joue la plupart du temps seul dans la cour et ne se montre pas intéressé quand des camarades viennent le solliciter. L’arrivée et le départ de l’école, ainsi que les changements d’activité en classe, sont par ailleurs régulièrement source de pleurs et de cris.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes cliniques retrouvez-vous dans cet énoncé ?",
+          "choix": [
+            "A) Des hallucinations acoustico-verbales.",
+            "B) Un déficit des interactions sociales.",
+            "C) Une impulsivité.",
+            "D) Des idées suicidaires.",
+            "E) Une intolérance au changement."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez chez cet enfant un trouble du spectre de l’autisme (TSA). Concernant votre démarche diagnostique, quelles\nsont les réponses vraies ?",
+          "choix": [
+            "A) Les informations dont vous disposez à ce stade sont suffisantes pour poser un diagnostic de trouble du spectre de l’autisme.",
+            "B) Le trouble du spectre de l’autisme est un diagnostic exclusivement clinique.",
+            "C) Le trouble du spectre de l’autisme est un trouble du neurodéveloppement, il n’est donc pas utile de chercher des informations sur l’histoire familiale.",
+            "D) L’observation de la manière dont J. s’occupe et joue peut fournir des informations cliniques.",
+            "E) J. est suffisamment âgé pour qu'un diagnostic de trouble du spectre de l'autisme puisse être posé."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes cliniques suivants, lesquels pourraient également vous faire évoquer un diagnostic de trouble du spectre de l’autisme si vous les retrouviez à l’examen ?",
+          "choix": [
+            "A) L’absence de plainte douloureuse dans des situations où l’enfant semble se faire mal.",
+            "B) Un retard d'acquisition du langage.",
+            "C) Un intérêt marqué pour les objets d’une certaine couleur.",
+            "D) Une tristesse de l'humeur.",
+            "E) La présence d'un pointage proto-déclaratif."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans votre bureau, J. ne vous regarde pas quand vous l’interpellez, ne vous sourit pas, ne parle pas. Il répète cependant son prénom à plusieurs reprises, en chantonnant. Quel signe clinique évoquez-vous parmi les propositions suivantes ?",
+          "choix": [
+            "A) Une agitation psychomotrice.",
+            "B) Une inversion pronominale.",
+            "C) Des stéréotypies verbales.",
+            "D) Une bizarrerie de contact.",
+            "E) Un déficit de l'attention."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les acquisitions développementales, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) À son âge, J. devrait normalement formuler des phrases associant 4 à 5 mots.",
+            "B) L'acquisition de la marche se fait habituellement entre 12 et 18 mois.",
+            "C) La perte de certaines acquisitions développementales est possible, et doit faire évoquer un trouble du spectre de l'autisme.",
+            "D) L'âge développemental de J. est inférieur à son âge chronologique.",
+            "E) Les acquisitions développementales s’évaluent sur plusieurs dimensions, parmi lesquelles la motricité, le langage ou la sensorialité."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques années plus tard, J. a bien grandi. La prise en charge pluridisciplinaire lui a permis de poursuivre ses acquisitions et une scolarisation en milieu ordinaire a été possible. Il est actuellement en classe de CM1 mais l’école interpelle de nouveau les parents sur des troubles du comportement en classe. Les parents expliquent qu’ils sont également épuisés et vous indiquent qu’à la maison, leur fils est « intenable ». Parmi les propositions suivantes, lesquelles sont vraies ?",
+          "choix": [
+            "A) Il est possible que J. présente un TDAH comorbide de son TSA.",
+            "B) Le TDAH regroupe des signes d’hyperactivité, d’impulsivité, et de déficit de l’attention.",
+            "C) Le fait que les troubles surviennent à l’école et à la maison est en faveur de l’hypothèse d’un TDAH.",
+            "D) Le fait de ne pas laisser l’interlocuteur finir sa question avant de proposer une réponse est un signe pouvant évoquer un TDAH.",
+            "E) Les symptômes du TDAH peuvent mettre les enfants en situation de difficulté, voire d’échec scolaire."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300408759-97c8bdc6f62da8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la sémiologie de l'anorexie mentale, cochez les réponses vraies :",
+          "choix": [
+            "A) On appelle dysmorphophobies les angoisses liées à une perception modifiée de la forme de son corps.",
+            "B) L'aménorrhée est un des critères diagnostiques du DSM-5 pour l'anorexie mentale.",
+            "C) La restriction des quantités alimentaires est le seul facteur à l'origine de la perte de poids dans l'anorexie mentale.",
+            "D) Les cheveux et les ongles peuvent être fragilisés.",
+            "E) Il peut exister de fausses croyances autour de certains aliments, qui augmentent les angoisses liées aux repas."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "La perte de poids peut s'expliquer par une restriction alimentaire ainsi que le recours à des comportements compensatoires.",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’épisode dépressif caractérisé et les idées suicidaires chez les adolescents, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) Chez les adolescents, une forte irritabilité peut remplacer la tristesse observée habituellement dans les épisodes dépressifs.",
+            "B) Il est possible de ressentir une forme de dépression de l’humeur normale à l’adolescence : c’est la sévérité et le retentissement des troubles qu’il faut évaluer pour poser le diagnostic.",
+            "C) Si un parent s’inquiète d’un fléchissement de l’humeur d’un adolescent, mais que celui-ci dit que tout va bien, alors le diagnostic d’épisode dépressif peut être écarté.",
+            "D) La majoration chez un adolescent de conduites de mise en danger doit faire évoquer l’installation d’idées suicidaires.",
+            "E) Il est dangereux de demander à un adolescent s’il a des idées suicidaires."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une adolescente de 17 ans vient à votre consultation. Elle vous explique que, dans des moments de tension, il lui arrive de manger jusqu’à en avoir mal au ventre et ce sans arriver à se contrôler. Elle culpabilise d’ailleurs beaucoup car ces situations se répètent depuis plusieurs mois. Les crises sont suivies à chaque fois de vomissements, ce qui fait qu’elle garde un poids normal. Par ailleurs, les prises alimentaires se font sans difficulté le reste du temps.\nDans ce contexte, quel diagnostic évoquez-vous en priorité ?",
+          "choix": [
+            "A) Une anorexie mentale hyperphagique.",
+            "B) Une boulimie.",
+            "C) Un trouble anxieux généralisé.",
+            "D) Des accès hyperphagiques.",
+            "E) Un trouble du comportement alimentaire non spécifié."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'épisode maniaque se caractérise par :",
+          "choix": [
+            "A) Une exaltation de l'humeur",
+            "B) Pendant une durée inférieure à 7 jours",
+            "C) Une indifférence affective",
+            "D) Une labilité émotionnelle",
+            "E) Une insomnie avec fatigue persistante",
+            "F) Une désinhibition",
+            "G) Une augmentation de l'estime de soi",
+            "H) Un automatisme mental"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "F",
+            "G"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels symptômes peuvent se retrouver dans un épisode maniaque ?",
+          "choix": [
+            "A) Agitation",
+            "B) Hyperactivité",
+            "C) Bradypsychie",
+            "D) Compulsion de nettoyage",
+            "E) Fuite des idées",
+            "F) Idées délirantes",
+            "G) Irritabilité",
+            "H) Anorexie",
+            "I) Hyperphagie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'euphorie ...",
+          "choix": [
+            "A) Est un état pathologique",
+            "B) Peut-être vécu dans un épisode maniaque",
+            "C) Est une émotion",
+            "D) Est un affect",
+            "E) Peut-être vécu dans la discordance affective"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300412042-5dd8caa0049da8",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Paul, 19 ans, consulte son médecin généraliste accompagné par ses deux parents, visiblement très inquiets. Il ne sortait plus de sa chambre étudiante depuis un mois et ne va plus en cours de son BTS. Les parents ont été alertés par la scolarité et du fait de propos étranges rapportés par une de ses amies depuis une dizaine de jours. Lors de la consultation, Paul ne vous regarde pas, il porte des lunettes noires et garde son casque audio, il parle à voix basse : \"Je suis surveillée, ils me manipulent, ils ont piraté mon ordinateur. Je suis en danger, je l'ai vu quand mon amie a appelé mes parents, elle est dans le coup ! La CIA a détraqué le WIFI, je reçois des flux d’informations depuis l'espace. Elon Musk me teste et ça pourrait avoir de grave conséquences, il en veut à ma famille.\"",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel.s thème.s retrouvez-vous dans l'analyse sémiologique de cette expérience ?",
+          "choix": [
+            "A) Jalousie",
+            "B) Persécution",
+            "C) Influence",
+            "D) Référence",
+            "E) Grandeur"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles propositions sont vraies concernant les idées délirantes ?",
+          "choix": [
+            "A) Délirer c'est avoir plusieurs personnalités",
+            "B) Le délire est croyance erronée fondée sur une déduction incorrecte concernant la réalité extérieure",
+            "C) Il est important de prouver au patient que ses croyances sont erronées pour le ramener à la réalité",
+            "D) Il existe des délires collectifs",
+            "E) Toutes les personnes qui délirent présentent des hallucinations"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez ensuite Paul seul, il se confie à vous : \"je sais que je peux vous faire confiance docteur, mes parents ont été enlevés, ce sont des sosies robotiques qui ont été envoyés pour les remplacer. Je l'ai compris à l'expression bizarre de mon père quand il m'a dit qu'il fallait aller voir le médecin, il y avait quelque chose de machiavélique dans son regard. Et il y a aussi ces micros qu'ils m'ont greffé dans les dents... c'est pour enregistrer tout ce que je pense et ce que je dis, ça résonne dans ma tête, et ils me donnent des ordres.\"\nVous lui demandez de préciser : \"Elon Musk me dit de me lever le matin, de prendre mon petit déjeuner, d'aller à la douche, et Donald Trump commente tout ce que je fais, il est très dénigrant, si je ne fais pas ce qu'il dit, je sens des décharges électriques dans mes organes génitaux\".\nComment qualifiez-vous le.s mécanisme.s de ces idées délirantes ?",
+          "choix": [
+            "A) Intuitif",
+            "B) Interprétatif",
+            "C) Hallucinatoire",
+            "D) Illusoire",
+            "E) Imaginatif"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez ensuite Paul seul, il se confie à vous : \"je sais que je peux vous faire confiance docteur, mes parents ont été enlevés, ce sont des sosies robotiques qui ont été envoyés pour les remplacer. Je l'ai compris à l'expression bizarre de mon père quand il m'a dit qu'il fallait aller voir le médecin, il y avait quelque chose de machiavélique dans son regard. Et il y a aussi ces micros qu'ils m'ont greffé dans les dents... c'est pour enregistrer tout ce que je pense et ce que je dis, ça résonne dans ma tête, et ils me donnent des ordres.\"\nVous lui demandez de préciser : \"Elon Musk me dit de me lever le matin, de prendre mon petit déjeuner, d'aller à la douche, et Donald Trump commente tout ce que je fais, il est très dénigrant, si je ne fais pas ce qu'il dit, je sens des décharges électriques dans mes organes génitaux\".\nQuels sont les symptômes hallucinatoires que vous repérez ?",
+          "choix": [
+            "A) Hallucinations tactiles",
+            "B) Hallucinations visuelles",
+            "C) Automatisme mental",
+            "D) Hallucinations acoustico-verbales",
+            "E) Syndrome d'influence"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les hallucinations visuelles sont fréquentes dans :",
+          "choix": [
+            "A) Les pathologies psychiatriques",
+            "B) Les pathologies neurologiques",
+            "C) Le syndrome confusionnel",
+            "D) Syndrome de sevrage alcoolique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 5,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous proposez à Paul d'organiser une hospitalisation de quelques jours en psychiatrie afin d'avoir un avis spécialisé et de mettre en place un traitement adéquat. Il s'y oppose fermement, rétorquant que, comme chacun sait, \"l'hôpital est contrôlé par Big Pharma et la CIA, que c'est une condamnation à mort\". Il ne comprend pas pourquoi être hospitalisé et demande à ce que vous l'aidiez à obtenir l'asile politique en Suède pour se protéger.\nQuels éléments sémiologiques permettent de compléter l'évaluation de son expérience délirante ?",
+          "choix": [
+            "A) Critique partielle",
+            "B) Délire congruent à l'humeur",
+            "C) Discordance idéo-affective",
+            "D) Adhésion totale",
+            "E) Délire aigu",
+            "F) Délire chronique"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "neutralized": [
+            "B"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

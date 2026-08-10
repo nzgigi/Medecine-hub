@@ -1,0 +1,617 @@
+{
+  "matiere": "Appareil respiratoire – Sémiologie",
+  "slug": "ar-semiologie-s3",
+  "annee": 2025,
+  "title": "Appareil respiratoire – Sémiologie - 2025",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les vibrations vocales sont augmentées dans",
+          "choix": [
+            "A) l’épanchement pleural liquidien",
+            "B) le pneumothorax",
+            "C) la condensation alvéolaire",
+            "D) l’emphysème pulmonaire",
+            "E) l’atélectasie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans quel(s) cas peut-on entendre des crépitants",
+          "choix": [
+            "A) Exacerbation d’asthme",
+            "B) Pneumonie infectieuse",
+            "C) Fibrose pulmonaire",
+            "D) Insuffisance cardiaque gauche",
+            "E) Dilatation des bronches"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes cliniques d’hypercapnie?",
+          "choix": [
+            "A) la cyanose",
+            "B) la somnolence",
+            "C) les céphalées",
+            "D) le tirage inter-costal",
+            "E) l’asterixis"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un bruit perçu au temps inspiration est en lien avec une lésion qui siège",
+          "choix": [
+            "A) sur le larynx",
+            "B) sur la trachée",
+            "C) sur la carène",
+            "D) sur les petites bronches (bronches distales)",
+            "E) sur les grosses bronches (bronches proximales"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le diagnostic le plus probable devant une fièvre, toux avec expectoration purulente et condensation alvéolaire systématisée à la radiographie de thorax ?",
+          "choix": [],
+          "reponses": [
+            "Pneumonie",
+            "Pneumopathie",
+            "pneumonie",
+            "pneumopathie",
+            "pneumonie infectieuse",
+            "Pneumonie infectieuse",
+            "pneumopathie infectieuse",
+            "infection pulmonaire",
+            "infection",
+            "Pneumopathie infectieuse",
+            "Infection pulmonaire",
+            "Pneumopathie franche lobaire",
+            "pneumonie par pneumocoque",
+            "infection alveolaire",
+            "pneumonie aigüe",
+            "pneumonie aigu infectieuse",
+            "pneumonie franche lobaire aigue",
+            "Pneumonie aigue",
+            "Pneumonie aiguë",
+            "pneumonie (avec un syndrome alveolaire)",
+            "pneumopathie franche lobaire",
+            "une pneumonie",
+            "pneumonie aigu",
+            "Pneumopathie aiguë",
+            "pneumonie franche lobaire aiguë",
+            "pneumopathie aigue",
+            "PFLA",
+            "Pneumonie franche lobaire"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels diagnostics évoquer en cas de douleur thoracique aux changements de position?",
+          "choix": [
+            "A) péricardite aigue",
+            "B) infarctus du myocarde",
+            "C) dissection aortique",
+            "D) reflux gastro-oesophagien",
+            "E) pleurésie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Sur la radiographie de thorax jointe, quelle est la pathologie visible ?",
+          "choix": [
+            "A) Pleurésie",
+            "B) Pneumonie",
+            "C) Fibrose pulmonaire",
+            "D) Pneumothorax",
+            "E) BPCO"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/ar-semiologie-s3/2025/q7.jpg?v=1786294486650"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Pointer le bouton aortique",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 8,
+          "zones": [
+            {
+              "x": 0.45163690476190477,
+              "y": 0.2738560267857143,
+              "radius": 0.055,
+              "label": "1 bouton aortique"
+            }
+          ],
+          "images": [
+            "/images/qcm/ar-semiologie-s3/2025/q8.jpg?v=1786294487819"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les diagnostics différentiels d’une hémoptysie?",
+          "choix": [
+            "A) saignement de la tâche vasculaire de la cloison nasale",
+            "B) rupture d’une varice oesophagienne",
+            "C) cancer de l’amygdale",
+            "D) cancer bronchique",
+            "E) ulcère gastrique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est l'anomalie auscultatoire?\nLien du contenu audio : https://s.univ.theia.fr/servefc/1499076",
+          "choix": [],
+          "reponses": [
+            "Crépitants",
+            "Crepitants",
+            "Crépitant",
+            "Crepitant",
+            "râles crépitants",
+            "rales crepitants",
+            "Râles crépitants",
+            "rales crépitants",
+            "râle crépitant",
+            "rale crépitant",
+            "Rales crépitants",
+            "rale crepitant",
+            "rales crepitant",
+            "râles crepitants",
+            "souffle crépitant",
+            "Rale crepitant",
+            "Râle crépitant",
+            "râle crepitant",
+            "Râles crepitants",
+            "râles crepitants (bruit de pas dans la neige )",
+            "crêpitant",
+            "rales crepitantes",
+            "rales crépitantes",
+            "crépitantes",
+            "rale crepitants",
+            "rale crêpitant",
+            "Rale crépitant",
+            "Râles Crépitantes",
+            "crépitants inspiratoires",
+            "crêpitants",
+            "souffle crepitant",
+            "râles crépitantes",
+            "crépitants humides",
+            "bruits crépitants",
+            "râle crépitante",
+            "râles crépitant",
+            "bruits crepitants",
+            "souffles crépitants",
+            "Rale Crepitant"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les causes suivantes, quelles sont celles qui peuvent être à l’origine d’une hémoptysie?",
+          "choix": [
+            "A) BPCO post-tabagique",
+            "B) Dilatations des bronches",
+            "C) Cancer bronchique",
+            "D) Cancer de l’oesophage",
+            "E) Tuberculose pleurale"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le frottement pleural",
+          "choix": [
+            "A) Est présent aux 2 temps (inspiratoire et expiratoire)",
+            "B) Persiste en apnée",
+            "C) Est présent plutôt en cas de faible épanchement",
+            "D) S’entend en cas d’épanchement liquidien et gazeux",
+            "E) S’entend surtout à l’apex"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Sur la radiographie de thorax jointe, quelle est l’anomalie visible ?",
+          "choix": [],
+          "reponses": [
+            "atélectasie",
+            "atelectasie",
+            "condensation rétractile",
+            "atéléctasie",
+            "atélectasie droite",
+            "Atéléctasie",
+            "Actelectasie",
+            "Atelectasie systematisee droite",
+            "atelactesie",
+            "atalectésie",
+            "opacité sur le lobe supérieur droit atéléctasie",
+            "Atélectasie lobe supérieur droit et épanchement pleural liquidien de faible abondance droit",
+            "Athélécthasie",
+            "actélectasie",
+            "atélectasie du lobe supérieur droit",
+            "athélectasie",
+            "Athélectasie",
+            "atelectasie droite",
+            "atélestasie",
+            "Atélectasie du lobe supérieur droit",
+            "atéléctasie lobe supérieur droit",
+            "une atélectasie",
+            "Atélectasie droite",
+            "atélectasis",
+            "atelectasie du lobe superieur droit"
+          ],
+          "correctionExplanation": "",
+          "order": 13,
+          "images": [
+            "/images/qcm/ar-semiologie-s3/2025/q13.png?v=1786294501647"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes orientent vers un diagnostic d’embolie pulmonaire en cas de douleur thoracique?",
+          "choix": [
+            "A) Siège basithoracique de la douleur thoracique",
+            "B) Irradiation dans le bras gauche",
+            "C) Présence d’un signe de Homans à l’examen physique",
+            "D) Présence de crépitants en foyer",
+            "E) Pouls grimpant de Malher"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Pointer la ligne de Damoiseau",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 15,
+          "zones": [
+            {
+              "x": 0.23288690476190477,
+              "y": 0.46249534970238093,
+              "radius": 0.115,
+              "label": "1 ligne de Damoiseau"
+            }
+          ],
+          "images": [
+            "/images/qcm/ar-semiologie-s3/2025/q15.png?v=1786294509628"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels diagnostics urgents sont à évoquer devant une douleur thoracique aigue ?",
+          "choix": [
+            "A) Syndrome coronarien aigu",
+            "B) Dissection aortique",
+            "C) Péricardite aigue",
+            "D) Reflux gastro-œsophagien",
+            "E) Embolie pulmonaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les vibrations vocales sont diminuées dans",
+          "choix": [
+            "A) l’épanchement pleural liquidien",
+            "B) le pneumothorax",
+            "C) la condensation alvéolaire",
+            "D) l’emphysème pulmonaire",
+            "E) l’obésité"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Sur le scanner du thorax joint, quelle est l’anomalie visible ?",
+          "choix": [
+            "A) Abcès pulmonaire",
+            "B) Pneumothorax",
+            "C) Dilatation des bronches",
+            "D) Fibrose pulmonaire",
+            "E) Histiocytose"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 18,
+          "images": [
+            "/images/qcm/ar-semiologie-s3/2025/q18.jpg?v=1786294513417"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la signification clinique du signe de Hoover ?",
+          "choix": [
+            "A) Insuffisance respiratoire aigue",
+            "B) Insuffisance cardiaque droite",
+            "C) Syndrome cave supérieur",
+            "D) Distension thoracique",
+            "E) Embolie pulmonaire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les caractéristiques suivantes quelle est celle qui est en faveur d’un asthme?",
+          "choix": [
+            "A) Toux isolée",
+            "B) Dyspnée d’effort",
+            "C) Dyspnée majoritairement nocturne",
+            "D) Bronchorrhée",
+            "E) Douleur basithoracique bilatérale"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Citer la pathologie qui est le plus souvent associée à une bronchorrhée ?",
+          "choix": [],
+          "reponses": [
+            "Dilatation des bronches",
+            "Dilatation de bronche",
+            "DDB",
+            "bronchectasie",
+            "bronchectasies",
+            "dilatation de bronches",
+            "dilatation des bronches ou BPCO",
+            "dilations des bronches",
+            "Dilatation bronchique",
+            "dilatation bronchique"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles pathologies sont associées à une matité ?",
+          "choix": [
+            "A) Asthme",
+            "B) BPCO",
+            "C) Pneumonie",
+            "D) Pleurésie",
+            "E) Emphysème"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles pathologies sont associées aux sibilants ?",
+          "choix": [
+            "A) Asthme",
+            "B) Insuffisance cardiaque",
+            "C) Fibrose pulmonaire",
+            "D) Embolie pulmonaire",
+            "E) BPCO"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Pointer le ventricule droit",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 24,
+          "zones": [
+            {
+              "x": 0.3549107142857143,
+              "y": 0.5535714285714286,
+              "radius": 0.055,
+              "label": "1 ventricule droit"
+            }
+          ],
+          "images": [
+            "/images/qcm/ar-semiologie-s3/2025/q24.jpg?v=1786294521649"
+          ]
+        },
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est l'anomalie auscultatoire?\nLien du contenu audio : https://s.univ.theia.fr/servefc/1499081",
+          "choix": [],
+          "reponses": [
+            "Sibilants",
+            "Sibilant",
+            "râles sibilants",
+            "rales sibilants",
+            "Râles sibilants",
+            "râle sibilant",
+            "sibilances",
+            "sibilance",
+            "rale sibilant",
+            "souffle sibilant",
+            "Sibilance",
+            "râles sibliants",
+            "râles sibilantes",
+            "souffles sibilants",
+            "Rale sibilant",
+            "bruit sibilant",
+            "Sibilances",
+            "cibilants",
+            "rales sibilant",
+            "râle siblant",
+            "sibilant a l'expiration",
+            "c‘est des sibilants",
+            "Sybilant",
+            "rales sibilants expiratoires",
+            "râles cibilants",
+            "sybilants",
+            "respiration sibilante",
+            "sibilantes",
+            "siblitans",
+            "Bruits sibilants",
+            "Souffle sibilant",
+            "Râle sibilant",
+            "rale sibliante",
+            "soufles , sibilants",
+            "sibillants",
+            "Râles Sibilants",
+            "bruits sibilant",
+            "rales sibiliantes",
+            "rale siblant",
+            "sibilant asthme ou BPCO"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

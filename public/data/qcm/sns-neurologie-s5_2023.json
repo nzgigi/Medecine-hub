@@ -1,0 +1,385 @@
+{
+  "matiere": "Système neurosensoriel – Neurologie",
+  "slug": "sns-neurologie-s5",
+  "annee": 2023,
+  "title": "Système neurosensoriel – Neurologie - 2023",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un homme de 52 ans souffre d’une céphalée. La douleur est apparue de façon progressive depuis 15 jours. Elle est permanente.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les caractéristiques de la céphalée en faveur d’une hypertension intracrânienne ?",
+          "choix": [
+            "A) Céphalée prédominant en fin de journée",
+            "B) Céphalée accompagnée de vomissement",
+            "C) Céphalée accompagnée d’une photophobie",
+            "D) Céphalée accompagnée d’une diplopie",
+            "E) Céphalée accompagnée d’un ralentissement de l’idéation"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’examen clinique montre une parésie de l’abduction de l’œil droit. Que concluez-vous ?",
+          "choix": [
+            "A) Atteinte du nerf oculomoteur (III)",
+            "B) Atteinte du nerf abducens (VI)",
+            "C) Atteinte du nerf trochléaire (IV)",
+            "D) Ophtalmoplégie internucléaire",
+            "E) Atteinte de l’aire oculomotrice frontale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous constatez de plus une hémianopsie latérale homonyme droite. Quelle lésion peut expliquer une telle atteinte du champ visuel ?",
+          "choix": [
+            "A) Lésion du nerf optique",
+            "B) Lésion du chiasma optique",
+            "C) Lésion du tractus optique",
+            "D) Lésion des radiations optiques",
+            "E) Lésion du cortex visuel occipital"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quels est le diagnostic compatible avec le tableau clinique ?",
+          "choix": [
+            "A) Tumeur de l’orbite droit",
+            "B) Tumeur de l’orbite gauche",
+            "C) Tumeur occipitale gauche",
+            "D) Tumeur occipitale droite"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici l’IRM cérébrale. Quelles sont les propositons vraies?",
+          "choix": [
+            "A) Il s’agit d’une séquence T2",
+            "B) L'examen est réalisé avec injection de produit de contraste",
+            "C) Le troisième ventricule est visible",
+            "D) Il existe un effet de masse",
+            "E) Il existe un œdème cérébral"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/sns-neurologie-s5/2023/q5.png?v=1786300269048"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300269340-97e884b1622f18",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un homme de 65 ans, fumeur et hypertendu, présente un trouble de l’équilibre apparu brutalement.\nIl marche pieds écartés, avec des pas d’amplitude normale. Debout, immobile, les pieds joints, il est instable, son corps oscillant d’un côté à l’autre. Son déséquilibre n’est pas plus marqué lorsqu’il ferme les yeux.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l’origine du trouble de l’équilibre ?",
+          "choix": [
+            "A) Syndrome vestibulaire périphérique",
+            "B) Syndrome cérébelleux",
+            "C) Syndrome parkinsonien",
+            "D) Syndrome lemniscal",
+            "E) Syndrome pyramidal"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous pensez à un syndrome cérébelleux. Que rechercherez-vous ?",
+          "choix": [
+            "A) Déficit la de force des muscles extenseurs du membre supérieur",
+            "B) Défaut de préhension aveugle",
+            "C) Dysmétrie talon-genou d’un membre inférieur",
+            "D) Hypertonie plastique d’un membre supérieur",
+            "E) Dysarthrie"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il existe une dysmétrie talon genou du côté droit. Quel peut-être le siège de la lésion expliquant ce signe ?",
+          "choix": [
+            "A) Vermis cérébelleux",
+            "B) Hémisphère cérébelleux droit",
+            "C) Hémisphère cérébelleux gauche",
+            "D) Thalamus droit"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est, d’après l’histoire clinique, la cause la plus probable ?",
+          "choix": [
+            "A) Tumeur cérébelleuse",
+            "B) Maladie neurodégénérative",
+            "C) Sclérose en plaques",
+            "D) Accident vasculaire cérébelleux"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici l’IRM (séquence de diffusion). Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) La coupe présentée montre la moelle allongée",
+            "B) La lésion intéresse le vermis cérébelleux",
+            "C) La lésion est au contact du quatrième ventricule",
+            "D) Les caractéristiques de la lésion sont en faveur d’un AVC ischémique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/sns-neurologie-s5/2023/q10.png?v=1786300270582"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300270778-3c4f644debfac",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies concernant le syndrome de polyneuropathie ?",
+          "choix": [
+            "A) Le déficit moteur touche d’abord les muscles proximaux des membres",
+            "B) Les troubles sensitifs ont une topographie en gants et en chaussettes",
+            "C) Les réflexes achilléens sont vifs et polycinétiques",
+            "D) Les réflexes cutanés plantaires sont en flexion",
+            "E) Le tonus musculaire est augmenté"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes peut-on observer dans le syndrome myogène ?",
+          "choix": [
+            "A) Un déficit de la force musculaire",
+            "B) Une hypotonie",
+            "C) Des paresthésies",
+            "D) Des fasciculations",
+            "E) Des réflexes tendineux vifs et polycinétiques"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes peut-on observer dans le syndrome pyramidal ?",
+          "choix": [
+            "A) Un déficit de la force musculaire",
+            "B) Une atrophie musculaire précoce",
+            "C) Une hypertonie plastique",
+            "D) Des réréflexes vifs et polycinétiques",
+            "E) Des réflexes cutanés plantaires en extension"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes peut-on observer dans le syndrome parkinsonien ?",
+          "choix": [
+            "A) Un déficit de la force musculaire",
+            "B) Une hypertonie élastique",
+            "C) Une hypokinésie",
+            "D) Une bradykinésie",
+            "E) Une dysmétrie"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes peut-on observer en cas de lésion du lobe frontal ?",
+          "choix": [
+            "A) Un comportement désinhibé",
+            "B) Des persévérations",
+            "C) Une déviation de la tête et des yeux",
+            "D) Un réflexe de préhension",
+            "E) Un déficit sensitif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes sont en faveur d’une paralysie faciale périphérique plutôt que centrale ?",
+          "choix": [
+            "A) L’affaissement de la commissure labiale",
+            "B) L’effacement des rides du front",
+            "C) L’abaissement du sourcil",
+            "D) La possibilité d'occlure les paupières complètement",
+            "E) L’absence de réflexe fronto-orbiculaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles anomalies peut-on observer en cas de lésion du nerf moteur oculaire commun (III) ?",
+          "choix": [
+            "A) Une mydriase",
+            "B) Une paralysie de l’abduction",
+            "C) Une paralysie de l’adduction dans le regard latéral mais pas en convergence",
+            "D) Une paralysie de l’élévation",
+            "E) Un ptosis"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes observe-t-on dans le syndrome lemniscal ?",
+          "choix": [
+            "A) Un déficit de la sensibilité thermique",
+            "B) Un déficit de la sensibilité douloureuse",
+            "C) Un déficit de la sensibilité tactile épicritique",
+            "D) Un signe de Romberg",
+            "E) Un défaut de préhension aveugle"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

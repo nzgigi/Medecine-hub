@@ -1,0 +1,487 @@
+{
+  "matiere": "Pédiatrie",
+  "slug": "pediatrie-s9",
+  "annee": 2026,
+  "title": "Pédiatrie - 2026",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un garçon de 7 ans consulte pour une croissance pondérale excessive avec un indice de masse corporelle au-dessus de la courbe de l’IOTF 30",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes suivants, lesquels ne sont pas en faveur d’une obésité commune",
+          "choix": [
+            "A) Antécédents familiaux d’obésité",
+            "B) Dysmorphie",
+            "C) Retard statural",
+            "D) Goitre",
+            "E) Retard mental"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’examen clinique retrouve cet aspect au niveau du cou, quel est votre diagnostic",
+          "choix": [],
+          "reponses": [
+            "Acanthosis nigricans"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/pediatrie-s9/2026/q2.webp?v=1786395909793"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Chez ce garçon, parmi les propositions suivantes, quelles sont les 5 complications qui doivent être recherchées ?",
+          "choix": [
+            "A) Asthme d’effort",
+            "B) Syndrome d’apnées du sommeil d’origine centrale",
+            "C) Hypertension intra crânienne",
+            "D) Hypertension artérielle",
+            "E) Insuffisance rénale",
+            "F) Hypothyroïdie",
+            "G) Puberté précoce",
+            "H) Intolérance au glucose",
+            "I) Stéatose hépatique",
+            "J) Hypertriglycéridémie"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "H",
+            "I",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395910005-ffdee0b17f94e",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un enfant consulte aux urgences pour une déformation et une impotence fonctionnelle du bras suite à une chute en vélo.\nConcernant cette radiographie, quelle(s) est(sont) la(les) affirmation(s) vraie(s) ?",
+          "choix": [
+            "A) Il s’agit d’une fracture du condyle externe de l’humérus",
+            "B) Il s’agit d’une fracture articulaire",
+            "C) Il s’agit d’une fracture traversant un cartilage de croissance",
+            "D) Il existe un déplacement en extension",
+            "E) Le traitement de ce type de fractures, lorsqu’elles sont déplacées, est toujours chirurgical"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "A : Il s’agit d’une fracture supra-condylienne de l’humérus\nB et C : Il s’agit d’une fracture métaphysaire\nE : le traitement peut être orthopédique (méthode de Blount) ou chirurgical (broches) en fonction du déplacement et de la réductibilité",
+          "order": 1,
+          "images": [
+            "/images/qcm/pediatrie-s9/2026/q4.webp?v=1786395911185"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un nourrisson est adressé à l'unité d'accueil pédiatrique pour l'enfance en danger (UAPED) suite à la découverte d'ecchymoses au niveau du tronc.\nDans le cadre du bilan initial, un TDM crânien est réalisé.\nQuels sont les signes neuroradiologiques évocateurs de syndrome du bébé secoué ?",
+          "choix": [
+            "A) Fracture du crâne isolée",
+            "B) Hématome extra-dural",
+            "C) Hématomes sous duraux plurifocaux",
+            "D) Rupture des veines ponts",
+            "E) Dysplasie corticale"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un nourrisson de 15 ans dont les parents sont originaires du Cameroun consulte son médecin pour une déformation des membres en genu varum, un rachitisme est suspecté.\nConcernant le rachitisme, quelles sont les propositions vraies",
+          "choix": [
+            "A) Il peut apparaitre à tout âge de la vie",
+            "B) Il est plus fréquent aux périodes de forte croissance",
+            "C) Il est toujours lié à une carence en vitamine D",
+            "D) Le diagnostic est principalement clinique et radiologique",
+            "E) Les phosphatases alcalines sont habituellement élevées"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un enfant de 18 mois consulte son médecin pour une diarrhée fébrile évoluant depuis plusieurs jours.\nQuels éléments évocateurs d’une déshydratation aiguë doivent être recherchés?",
+          "choix": [
+            "A) Perte de poids de 8% depuis 48h",
+            "B) Diminution de la diurèse",
+            "C) Mains froides et marbrures",
+            "D) Tachycardie",
+            "E) Appétit diminué"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un nourrisson de 2 mois est vu aux urgences pour une gêne respiratoire évoluant depuis 24 heures.\nParmi les éléments suivants, quels sont les 3 signes de gravité d’une bronchiolite aiguë ?",
+          "choix": [
+            "A) Tirage intercostal marqué",
+            "B) Saturation en oxygène à 95 % en air ambiant",
+            "C) Apnées",
+            "D) Difficulté alimentaire avec prises < 50 % des apports habituels",
+            "E) Fièvre à 38,5 °C"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un enfant consulte aux urgences pour une lésion cutanée d'évolution progressive.\nParmi les propositions suivantes, quels sont les 3 signes faisant suspecter une dermo-hypodermite bactérienne compliquée chez un enfant ?",
+          "choix": [
+            "A) Extension rapide",
+            "B) Chaleur localisée",
+            "C) Douleur importante",
+            "D) Insensibilité à la douleur",
+            "E) Rash scarlatiniforme"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un nourrisson âgé de 4 semaines est amené par ses parents en urgence en raison de survenue de vomissements de lait, en jet, survenant 1h après la prise des biberons depuis 48h. Quelle étiologie suspectez vous ?",
+          "choix": [
+            "A) Allergie aux protéines du lait de vache",
+            "B) Reflux gastro-oesophagien pathologique",
+            "C) Sténose hypertrophique du pylore",
+            "D) Hypertension intra-crânienne",
+            "E) Malrotation intestinale"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un nourrisson âgée d’1 an est amené par sa mère aux urgences pédiatriques car elle a remarqué des taches sur la peau.\nQuel est votre diagnostic sémiologique sur la photo présentée ?",
+          "choix": [
+            "A) Ecchymose",
+            "B) Granulome",
+            "C) Purpura pétéchial",
+            "D) Purpura ecchymotique",
+            "E) Vibice"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/pediatrie-s9/2026/q11.webp?v=1786395914397"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Lors de l'évaluation d'un nourrisson dans le cadre de l'unité d'accueil pédiatrique pour l'enfance en danger (UAPED), une maltraitance grave est évoquée avec une absence de collaboration de la famille.\nPouvez- vous précisez à qui doit être envoyé le signalement ?",
+          "choix": [],
+          "reponses": [
+            "Procureur de la République"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une fillette de 18 mois présente une fièvre à 40 °C depuis 24h sans autre foyer clinique évident. L’examen cytobactériologique des urines (ECBU) confirme une infection urinaire fébrile.\nEn plus de la CRP, quel autre examen est indispensable?",
+          "choix": [],
+          "reponses": [
+            "Echographie rénale"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395914638-00401e3ffc3c4",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes interne à la maternité du CHU de Toulouse, et vous réalisez la visite des nouveau-nés à J2 de vie avant leur retour à domicile.\nVous entrez dans la chambre d’une petite fille. Elle est née à terme par voie basse instrumentale du fait d’un défaut de progression. La grossesse était sans particularité. Il n’y a pas de facteur de risque d’infection néonatale bactérienne précoce. Elle pèse 3530 g pour une taille de 50 cm. La mère est de groupe O+ et le père A+. Il s’agit de leur premier enfant. Elle bénéficie d’un allaitement maternel.\nVoici les éléments que vous observez à l’examen clinique :",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen clinique en maternité, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’examen de J2 de vie fait partie des examens obligatoires",
+            "B) Le tonus périphérique semble normal, l’enfant est en quadriflexion",
+            "C) Les selles sont noires, vous suspectez un méléna",
+            "D) Vous réalisez un dosage de la numération formule sanguine",
+            "E) Elle présente un hématome lombaire, probablement lié à l’extraction difficile"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "A : dans les 8 premiers jours. C : méconium. E : tâche mongoloïde.",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous remarquez également une coloration jaune des conjonctives\nConcernant l’ictère néonatal, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’ictère du nouveau-né entraine uniquement une coloration jaune des conjonctives",
+            "B) Chez tout nouveau-né avec un ictère, vous réalisez un dosage de la bilirubine sanguine",
+            "C) Si vous choisissez un dosage de la bilirubine transcutanée, celui-ci doit être effectué sur le front et sur le sternum",
+            "D) Alice présente des facteurs de risque d’ictère",
+            "E) Le traitement de l’ictère est la photothérapie"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "A : cutanée et muqueuse. B : dosage systématique de la bilirubine transcutanée. Dosage de la bilirubine sanguine si : FDR d’INBP, terrain favorisant, BTc élevée, signes en faveur d’un ictère pathologique, ictère < 24h et > 10 jours. D : possibilité d’incompatibilité ABO",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le dosage de la bilirubine transcutanée chez cette petite fille, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Si le dosage de la bilirubine transcutanée est élevé, vous demandez un contrôle par la sage-femme au domicile dans 1 semaine",
+            "B) Si le dosage de la bilirubine transcutanée est élevé, vous demandez un dosage de la bilirubine sanguine",
+            "C) Si le dosage de la bilirubine transcutanée est normal, vous ne prévoyez pas de contrôle systématique",
+            "D) Même si le dosage de la bilirubine transcutanée d’Alice est normal, vous demandez un dosage de la bilirubine sanguine",
+            "E) L’ictère néonatal est classiquement un ictère à bilirubine conjuguée"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "A. contrôle avec bilirubine sanguine avant la sortie de maternité. D : que si taux élevé. E : bilirubine libre",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le dosage sanguin de bilirubine totale est normal, elle sort donc de la maternité à J3. Elle est examinée par son pédiatre à 15 jours de vie, et il persiste un ictère conjonctival, en amélioration d’après les parents. Les parents décrivent des selles de couleur normale. Vous prescrivez un bilan sanguin au laboratoire. Vous recevez les résultats le lendemain : hémoglobine 14 g/dl, plaquettes 286 G/L, leucocytes 4.5 G/l, TGO 80 UI/l (N<96), TGP 78 UI/l (N<45), GGT 423 (N<203), bilirubine totale 70 µmol/l, bilirubine conjuguée 65 µmol/l (N < 17 µmol/l).\nConcernant le bilan sanguin, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il s’agit d’un ictère à bilirubine non conjuguée",
+            "B) Vous évoquez en premier une pathologique hémolytique",
+            "C) Alice présente une cholestase néonatale",
+            "D) La cholestase peut être physiologique chez le nouveau-né",
+            "E) Vous recherchez à l’examen clinique une hépatomégalie et une splénomégalie",
+            "F) Vous demandez aux parents de surveiller la coloration des selles"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "F"
+          ],
+          "correctionExplanation": "A : bilirubine conjuguée. B : faux ictère bilirubine conjuguée. D : toujours pathologique",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Les parents vous envoient une photo des selles d’Alice :\nQuel diagnostic suspectez vous ?",
+          "choix": [],
+          "reponses": [
+            "Atrésie des voies biliaires"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/pediatrie-s9/2026/q18.webp?v=1786395916660"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395916362-992137e0f64f88",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Une petite fille de 5 ans est amenée aux urgences pour une éruption généralisée, une rhino-conjonctivite et un bronchospasme de survenue rapide après le repas.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Chez cet enfant citez les 3 items orientant plus particulièrement vers une allergie alimentaire IgE-médiée ?",
+          "choix": [
+            "A) Présence d’une éruption de type eczéma",
+            "B) Survenue d’une chute de la pression artérielle",
+            "C) Présence d’une diarrhée chronique",
+            "D) Survenue brutale et rapide après le repas",
+            "E) Apparition de vomissements"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une anaphylaxie notamment par la constatation d’une réaction brutale, intense, rapidement progressive avec des signes sévères : urticaire généralisée associé à un bronchospasme, une modification du comportement, des vomissements et une chute de la pression artérielle. Parmi les propositions suivantes, quels sont les facteurs de risque d'anaphylaxie ?",
+          "choix": [
+            "A) Allergie alimentaire au lait de chèvre",
+            "B) Présence d’une mastocytose",
+            "C) Âge de 5 ans",
+            "D) Asthme non contrôlé",
+            "E) Présence d’un eczéma"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant le traitement de l’anaphylaxie, parmi les 5 propositions suivantes, quelle est la réponse fausse ?",
+          "choix": [
+            "A) L’adrénaline est le traitement immédiat de première intention",
+            "B) Les corticoïdes systémiques n'ont pas de place à la phase aiguë de l'anaphylaxie",
+            "C) L’adrénaline peut être répétée à 5–10 minutes en cas d'aggravation ou de réponse clinique insuffisante",
+            "D) Un bronchodilatateur de courte durée d'action peut être associé en cas de bronchospasme",
+            "E) La présence d’une tachycardie est une contre-indication absolue à l’adrénaline"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces situations, quels sont celles qui sont des cofacteurs pouvant aggraver une anaphylaxie :",
+          "choix": [
+            "A) Menstruations",
+            "B) Effort",
+            "C) Privation de sommeil",
+            "D) Consommation de boissons sucrées",
+            "E) Prise d’AINS"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l’anamnèse vous suspectez une allergie à la noix de cajou. Parmi les 5 proposition, quelle est la réponse fausse ?",
+          "choix": [
+            "A) Un prick-test à la noix de cajou sera effectué en première intention pour étayer le diagnostic",
+            "B) La positivité isolée du prick-test suffit au diagnostic d’allergie",
+            "C) Lorsque le prick-test est positif, plus la taille de la papule est importante, plus la probabilité d’être allergique à l’aliment testé est élevée",
+            "D) En cas de négativité du prick-test, un dosage d’IgE spécifique à la noix de cajou peut être réalisé en complément",
+            "E) En cas d’allergie confirmée, un projet d’accueil individualisé sera nécessaire pour l’accueil à l’école"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

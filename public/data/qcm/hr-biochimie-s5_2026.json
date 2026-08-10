@@ -1,0 +1,293 @@
+{
+  "matiere": "Hormonologie et reproduction – Biochimie",
+  "slug": "hr-biochimie-s5",
+  "annee": 2026,
+  "title": "Hormonologie et reproduction – Biochimie - 2026",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Une femme de 42 ans, non ménopausée, consulte pour une fatigue évoluant depuis plusieurs mois. Elle travaille comme secrétaire dans un environnement qui lui parait stressant. Elle ne fume pas et passe son temps libre à lire ou regarder la télévision. Elle ne signale pas d’antécédents médicaux personnels.\nElle a noté une prise de poids récente.\nSon père a présenté un infarctus du myocarde à l’âge de 50 ans.\nElle pèse 76 kg et mesure 165 cm, son périmètre abdominal est mesuré à 92 cm. Sa TA est à 132/86 mmHg au bras droit et 128/84 mmHg au bras gauche. L’examen clinique ne révèle par ailleurs aucun élément particulier.\nVous prescrivez un bilan lipidique sanguin dont voici les résultats :",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les facteurs de risque cardiovasculaire présents chez cette patiente ?",
+          "choix": [
+            "A) Antécédent familial de coronaropathie précoce",
+            "B) Age",
+            "C) Syndrome métabolique",
+            "D) Hypertension artérielle",
+            "E) Hypercholestérolémie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment caractérisez-vous le profil lipidique de cette patiente ?",
+          "choix": [
+            "A) Hypercholestérolémie isolée",
+            "B) Dyslipidémie mixte",
+            "C) HypoHDLémie isolée",
+            "D) Hypertriglycéridémie isolée",
+            "E) Dyslipidémie athérogène"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments complémentaires devriez-vous rechercher ?",
+          "choix": [
+            "A) L’existence d’une hypothyroïdie",
+            "B) L’existence d’un syndrome néphrotique",
+            "C) La prise de médicaments pouvant induire une dyslipidémie",
+            "D) Une consommation d’alcool régulière",
+            "E) L’existence d’un diabète sucré"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Comment évaluez-vous le risque cardiovasculaire global à 10 ans de cette patiente en absence de prise en charge ?",
+          "choix": [
+            "A) Risque faible",
+            "B) Risque modéré",
+            "C) Absence de possibilité d’évaluer ce risque en absence de grille SCORE",
+            "D) Risque très élevé",
+            "E) Risque élevé"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395824302-9f4b2aec27662",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Une jeune patiente, sans antécédent cardiaque, vient à votre consultation avec un précèdent bilan biologique demandé en raison d’une fatigue chronique, d’un trouble de la concentration et d’une prise de poids. A l’examen clinique vous détectez la présence d’un petit goitre ferme.\nLe bilan biologique que vous présente la patiente est le suivant : TSH : 6,8 (valeurs de référence 0,35-4,94 µUI/mL) et T4L : 5,7 (7-14,8 ng/L)",
+      "order": 2,
+      "questions": [
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que vous évoque ce bilan :",
+          "choix": [
+            "A) Une hypothyroïdie",
+            "B) Une hyperthyroïdie",
+            "C) Une interférence dans les dosages",
+            "D) Un traitement par amiodarone",
+            "E) Une hypothyroïdie en cours de traitement"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En l’absence de nodule thyroïdien, vous suspectez une origine autoimmune de sa pathologie. Quels anticorps sont alors habituellement présents:",
+          "choix": [
+            "A) Anticorps anti récepteur de la TSH",
+            "B) Anticorps anti thyroperoxydase",
+            "C) Anticorps anti thyroglobuline",
+            "D) Anticorps anti muscle lisse",
+            "E) Anticorps anti cytoplasme des neutrophiles (ANCA)"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la TSH :",
+          "choix": [
+            "A) Elle agit au niveau cellulaire par l’intermédiaire de récepteurs à sept domaines transmembranaires",
+            "B) Son taux n’est pas affecté par l’état de grossesse",
+            "C) C’est une hormone glycoprotéique de structure dimérique",
+            "D) Son dosage à la naissance fait partie du dépistage néonatal obligatoire",
+            "E) Le rétrocontrôle hypophysaire est maintenu chez cette patiente"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la T4L:",
+          "choix": [
+            "A) Son taux sanguin est indépendant des valeurs d’albumine",
+            "B) Il s’agit de l’hormone active via un récepteur nucléaire",
+            "C) C’est une hormone hydrophile",
+            "D) Une discordance entre le taux de TSH et de T4L peut témoigner d’une mauvaise compliance thérapeutique",
+            "E) Une discordance entre le taux de TSH et de T4L se voit en cas de résistance aux hormones thyroïdiennes"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de maladie d’Hashimoto est confirmé chez cette patiente avec un taux d’anticorps anti thyroperoxydase à 150 UI/ml (valeur de référence <35 UI/ml). Que concluez vous:",
+          "choix": [
+            "A) Un traitement par L-thyroxine est à demarrer",
+            "B) Il s'agit d'une pathologie inflammatoire",
+            "C) La baisse du taux d’anticorps antithyroperoxydase en cours de traitement permet d’éviter la destruction du tissu thyroïdien",
+            "D) En cas de grossesse, il faudra assurer des contrôles répétés du bilan thyroïdien même si le traitement a été instauré en amont de la grossesse",
+            "E) En cas de traitement non équilibré pendant la grossesse, le nouveau né pourra présenter un retard intellectuel à la naissance."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395825855-a90decb1b35b8",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Une femme de 34 ans (poids : 90 kg, taille : 168 cm) vous consulte car un examen récent de la glycémie à jeun indique une valeur de 2 g/L (11,1 mM). La patiente vit en couple et indique un désir de grossesse non réalisée depuis plusieurs années. Aucun traitement médicamenteux et aucun antécédent notable n’est rapporté. L’anamnèse révèle que son père est en surpoids et diabétique. Son grand-père paternel décédé aurait été atteint de diabète de type 1 mais elle n’en est pas certaine. Il était en surpoids.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vers quelle(s) pathologie(s) oriente(nt) les éléments de la consultation ?",
+          "choix": [
+            "A) Maladie de Basedow",
+            "B) Diabète secondaire iatrogène",
+            "C) Diabète de type 2",
+            "D) Diabète gestationnel",
+            "E) Obésité"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) pathologie(s) expliquant le tableau clinique sont très probablement à exclure(s) pour cette patiente par les examens complémentaires suivants et les éléments de la consultation ?\nAnti-glutamate décarboxylase (anti-GAD) : négatif\nAnti-islet antigen number 2 (anti IA-2) : négatif\nAnti-ilôts de Langerhans (anti ICA) : négatif\nSéquençage d’ADN génomique : pas de variant pathogène identifié",
+          "choix": [
+            "A) Syndrome de Cushing",
+            "B) Diabète de type 2",
+            "C) Diabètes monogéniques de type MODY",
+            "D) Maladie autoimmune",
+            "E) Diabète de type 1"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) autre(s) examen(s) biologique(s) complémentaire(s) peuvent être suggérés vu le profil de la patiente ?",
+          "choix": [
+            "A) Troponine",
+            "B) Hormone de croissance",
+            "C) Hémoglobine glyquée",
+            "D) Corps cétoniques",
+            "E) C-peptide"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sans prise en charge, quelles complications sont le plus à craindre au vu de sa pathologie?",
+          "choix": [
+            "A) Coma acidocétosique",
+            "B) Hypertriglycéridémie",
+            "C) Insuffisance surrénalienne",
+            "D) Lésions ischémiques des petits vaisseaux",
+            "E) Hypertension artérielle"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

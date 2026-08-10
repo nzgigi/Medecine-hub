@@ -1,0 +1,521 @@
+{
+  "matiere": "Diabétologie, endocrinologie et nutrition",
+  "slug": "diabetologie-endocrinologie-nutrition-s7",
+  "annee": 2026,
+  "title": "Diabétologie, endocrinologie et nutrition - 2026",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'anorexie mentale, cochez les réponses exactes:",
+          "choix": [
+            "A) Le risque de développer une anorexie mentale est plus important chez les apparentés d’une personne atteinte",
+            "B) L’anorexie mentale est le trouble du comportement alimentaire le plus répandu dans chez la population générale",
+            "C) Contrairement à l’anorexie mentale, les hommes ont plus de risque de développer une hyperphagie boulimique que les femmes",
+            "D) Des symptômes dépressifs peuvent apparaitre au cours d'une anorexie mentale",
+            "E) La schizophrénie fait partie des facteurs de vulnérabilités des troubles du comportement alimentaire"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous rencontrez pour la première fois Mme R. 56 ans qui est en demande d'une chirurgie bariatrique. Poids 139 kg pour 1m60 soit un IMC 54.3 kg/m²\nIl s'agit d'une secrétaire médicale, ayant comme antécédents: un cancer du sein traité par mastectomie à l'âge de 48 ans considéré actuellement en rémission, un SAOS appareillé, un diabète de type 2 déséquilibré, et des crises d'hyperphagie boulimique. Dans l'énoncé, quels éléments retenez-vous pour contre indiquer temporairement son projet de chirurgie",
+          "choix": [
+            "A) IMC trop élevé (> 50 kg/m²)",
+            "B) le cancer du sein en rémission",
+            "C) SAOS appareillé",
+            "D) Diabète déséquilibré",
+            "E) Hyperphagie boulimique"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr B est âgé de 83 ans. Il consulte son médecin traitant qui ne l'a pas vu depuis longtemps pour une asthénie. Son médecin constate qu'il a perdu 8 kg en 6 mois, son poids habituel était de 70 kg et il en pèse désormais 62 kg, portant son IMC à 20 kg/m². Il y a également une altération du test de lever de chaise.\nLe bilan biologique est sans particularité, la crp est < 10 mg/l, la NFS retrouve seulement une leucopénie modérée à 3,8 G/l, l'albuminémie est normale.\nSelon les recommandations récentes de la HAS, quels critères faut il prendre en compte pour définir la dénutrition chez ce patient?",
+          "choix": [
+            "A) Son IMC < 22 kg/m²",
+            "B) Sa perte de poids > 10 % en 6 mois",
+            "C) La présence d’une perte de fonction musculaire",
+            "D) L’albumine < 30 g/L hors syndrome inflammatoire",
+            "E) Une CRP < 10 mg/L"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle carence vitaminique peut se compliquer d’un trouble de la vision crépusculaire ?",
+          "choix": [],
+          "reponses": [
+            "Vitamine A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme B est une personne en situation d'obésité de grade 3 (118 kg pour 1,56 m IMC=48,5kg/m²) de 54 ans, quels signes cliniques et/ou signes fonctionnels sont fréquemment retrouvés ?",
+          "choix": [
+            "A) Splénomégalie",
+            "B) Hépatomégalie",
+            "C) Acanthosis nigricans",
+            "D) Dyspnée d'effort",
+            "E) Oedème des membres inférieurs en fin de journée"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395674236-20db810eafb988",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un jeune patient âgé de 18 ans vient vous voir pour une problématique d’excès de poids depuis l’enfance. Il vous apporte son carnet de santé, vous constatez un rebond d’adiposité vers l’âge de 3 ans, âge auquel se sont séparés ses parents.\nIl a comme antécédent principal un retard pubertaire.\nCe jour, son poids est à 120 kg pour 1.75 m (IMC 39.2 kg/m²).\nCliniquement, il présente une obésité de répartition androïde avec un acanthosis nigricans au niveau du cou et des aisselles ainsi que des vergetures rosées au niveau abdominal. Ses constantes sont normales.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles explorations lui proposez-vous en première intention  ?",
+          "choix": [
+            "A) Glycémie à jeun",
+            "B) Test au Dectancyl 2 mg",
+            "C) Bilan hépatique comprenant les transaminases",
+            "D) IRM hypophysaire",
+            "E) Dosage de l’alpha foetoprotéine"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels arguments cliniques font évoquer une obésité d’origine génétique chez ce jeune homme ?",
+          "choix": [
+            "A) Le rebond d’adiposité avant l’âge de 6 ans",
+            "B) La séparation de ses parents précocement",
+            "C) L’acanthosis nigricans",
+            "D) Le retard pubertaire",
+            "E) Le sexe masculin"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Il vient vous voir sur les conseils de son médecin traitant parce qu’il a pris beaucoup de poids ces derniers mois (+25 kg). Vous l’interrogez sur ses habitudes alimentaires : les 3 repas principaux paraissent équilibrés, il n’y a pas de grignotages en journée. En revanche, en fin de soirée, lorsqu’il est seul à la maison, il présente une envie irrépressible de manger, en général des produits sucrés, en très grande quantité, rapidement, mais il lui arrive aussi de terminer les restes sans même prendre le temps de les réchauffer. Il n’arrive pas à s’en empêcher et s’en veut terriblement après.\nQu’est ce que cela vous fait évoquer ?",
+          "choix": [],
+          "reponses": [
+            "hyperphagie boulimique"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la prise en charge la plus adaptée à ce jeune patient ?",
+          "choix": [
+            "A) Interdire de manger des produits trop gras et trop sucrés",
+            "B) Accompagnement diététique pour travailler son comportement alimentaire",
+            "C) Une psychanalyse",
+            "D) Compter les calories et surveiller sa dépense énergétique à l’aide d’une application",
+            "E) Mettre en place une activité physique régulière, au moins 150 min par jour"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez un bilan biologique qui retrouve :\nGlucose à jeun 112 mg/dL\nHbA1c 6,2 %\nTriglycérides 185 mg/dL\nHDL 38 mg/dL\nLDL 142 mg/dL\nTSH 1,8 mUI/L (N 0,3-4,8)\nALAT/ASAT 72/65 U/L (N<30 pour les 2 paramètres)\nGGT 58 U/L\nComment interprétez-vous ce bilan biologique ?",
+          "choix": [
+            "A) Ce patient présente un diabète de type 2",
+            "B) Il présente une dyslipidémie mixte",
+            "C) l’hypothyroïdie explique l’obésité",
+            "D) Devant les perturbations du bilan hépatique, il est pertinent de prescrire une échographie hépatique",
+            "E) Le LDL cholestérol élevé est la conséquence directe de l’obésité"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il se plaint d'une fatigue au réveil parfois accompagnée de céphalées. Il décrit aussi un manque d'attention dans la journée et des ronflements nocturnes entendus par toute la famille.\nVous suspectez un syndrome d'apnées obstructives du sommeil (SAOS). Quels sont les signes à rechercher dans ce contexte ?",
+          "choix": [
+            "A) Des pauses respiratoires perçues par l'entourage durant le sommeil",
+            "B) Une nycturie",
+            "C) Une dysurie",
+            "D) Des chiffres élevés de pression artérielle sanguine",
+            "E) Des troubles cognitifs à type de dyscalculie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il revient vous voir 4 mois plus tard. Il a mis en place une activité physique en salle de sport : il s’y rend 3 fois par semaine : il fait une séance de 50 minutes de vélo elliptique, une séance de 50 minutes de rameur et une dernière séance de 50 minutes de tapis de marche à 9km/heure.\nQue pensez-vous de cette activité physique ?",
+          "choix": [
+            "A) Elle n’est pas suffisante pour perdre du poids",
+            "B) Elle permettra une amélioration de la sensibilité insulinique",
+            "C) Elle permet une augmentation de la dépense énergétique",
+            "D) Elle permet de prévenir la perte musculaire lors de la perte de poids",
+            "E) Elle permet de diminuer l’anxiété"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395677506-15d37f7df8fae",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme S., 68 ans, se présente en consultation avec un tableau clinique et biologique d’hypothyroidie périphérique. Quelle(s) est(sont) les affirmations exactes concernant l’hypothyroïdie périphérique ?",
+          "choix": [
+            "A) Elle est souvent liée à une thyroïdite de Hashimoto",
+            "B) Elle peut être secondaire à un traitement par amiodarone",
+            "C) Elle peut être secondaire à un traitement par spironolactone",
+            "D) Elle peut se traduire par une TSH élevée et une T4 libre restant dans les limites de la normale",
+            "E) Elle est plus fréquente chez les patients présentant un diabète de type 1"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme D., 28 ans consulte pour une aménorrhée secondaire depuis 2 mois et un écoulement laiteux mammaire, bilatéral, spontané. Que recherchez-vous afin d’avancer dans le diagnostic étiologique ?",
+          "choix": [
+            "A) Un traitement par spironolactone",
+            "B) Un traitement par lithium",
+            "C) Un traitement par neuroleptiques",
+            "D) Une grossesse",
+            "E) Une hyperthyroïdie périphérique profonde"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 25 ans se présente en consultation avec une symptomatologie clinique et biologique en faveur d’une hyperthyroidie périphérique. Quelle est l'affirmation exacte ?",
+          "choix": [
+            "A) Un dosage des anticorps anti récepteurs de la TSH permettra d’orienter le diagnostic étiologique.",
+            "B) La présence d’anticorps anti-thyroglobuline permettra d’affirmer le diagnostic de maladie de Basedow",
+            "C) Une T4 libre très élevée, supérieure à 5 fois la normale permettra d’orienter le diagnostic étiologique",
+            "D) Une scintigraphie thyroïdienne doit être réalisée en première intention",
+            "E) L’échographie thyroidienne est le premier examen à réaliser à visée étiologique"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "M. C., 37 ans, consulte pour une asthénie évoluant depuis plusieurs années. Il décrit également des sueurs profuses depuis quelques mois, essentiellement nocturnes l’obligeant à changer ses draps toutes les nuits. Il vous rapporte enfin des céphalées anciennes mais devenant invalidantes depuis quelques mois. Il a comme principal antécédent : un syndrome d’apnées du sommeil appareillé depuis 1 an ainsi qu’une chirurgie d’un canal carpien bilatéral il y a deux ans.\nQuel diagnostic évoquez-vous en priorité ?",
+          "choix": [],
+          "reponses": [
+            "acromégalie"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient de 62 ans consulte pour la découverte sur un bilan biologique systématique de routine d’une calcémie à 2.87 mmol/l (nl de 2,2 à 2,6 mmol/l) avec une parathormone plasmatique à 78 ng/l (normale: 11 à 54 ng/l). Quelle est la pathologie susceptible d’être responsable de cette hypercalcémie ?",
+          "choix": [
+            "A) Ostéomalacie",
+            "B) Hypovitaminose D",
+            "C) Hyperparathyroïdie primaire",
+            "D) Hypothyroïdie périphérique",
+            "E) Cancer de la prostate localisé"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395679441-494fc1b3b840c",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Mme C., 32 ans, consulte en urgence pour un perte de poids récente associée, depuis 48 heures, à l’apparition de vomissements incoercibles et de douleurs abdominales diffuses.\nElle ne prend aucun traitement.\nElle vous explique qu'elle présente, depuis 2 mois, une asthénie intense avec une diminution nette de l’appétit. Elle a perdu 3 kg en 2 mois.\nL’examen clinique retrouve :\nPoids = 52 kgs pour 1,63 m - Tension artérielle = 100/60 mmHg avec fréquence cardiaque = 105/mn - Température = 37.8 °C - Palpation abdominale douloureuse dans son ensemble, pas de défense, bruits hydro-aériques perçus- Pli cutané - Auscultation cardio-pulmonaire normale- Ralentissement psycho-moteur avec examen neurologique normal par ailleurs sans signe de focalisation.\nLe bilan biologique retrouve\nNatrémie = 132 mmol/l (Normale : 135-145 mmol/l)\nKaliémie = 4.2 mmol/l (Normale : 3,5-4.2 mmol/l)\nBilan hépatique normal\nCRP = 12 mg/l (Nl < 5)\nL’électrocardiogramme de repos est sans particularité excepté une tachycardie sinusale à 110/minutes.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est votre hypothèse diagnostique principale ?",
+          "choix": [],
+          "reponses": [
+            "crise d'insuffisance surrénalienne aigue"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous débutez rapidement et sans attendre un traitement par réhydratation et hydrocortisone voie intra-veineuse. Mme C. vous communique des résultats biologiques réalisés quelques jours plus tôt. Parmi les éléments ci-dessous, quels sont les 5 résultats qui confortent votre hypothèse diagnostique ?",
+          "choix": [
+            "A) Cortisolémie à 8h basse",
+            "B) T4l élevée",
+            "C) Pic monoclonal sur l’électrophorèse des protéines sériques",
+            "D) Calcémie totale basse",
+            "E) Cortisolémie après un test à la dexaméthasone 1 mg non freinée",
+            "F) Cortisol salivaire élevé à minuit",
+            "G) Natriurèse élevée",
+            "H) ACTH basse à 18h",
+            "I) TSH basse",
+            "J) Urée et créatinine plasmatique modérément élevés",
+            "K) Glycémie veineuse basse",
+            "L) Amylase élevée",
+            "M) Cortisolémie post-synacthène non stimulée"
+          ],
+          "reponses": [
+            "A",
+            "G",
+            "J",
+            "K",
+            "M"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions ci-dessous, quelles sont celles qui seront déterminantes pour orienter le diagnostic étiologique de cette insuffisance surrénalienne ?",
+          "choix": [
+            "A) Un antécédent de corticothérapie per os au long cours",
+            "B) La présence d'une mélanodermie",
+            "C) Un antécédent personnel de maladie de Basedow",
+            "D) La présence de vergetures",
+            "E) Un antécédent de tuberculose pulmonaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395681139-f8801c3950d968",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "De garde aux urgences, vous recevez M. H., 82 ans, récemment institutionnalisé en maison de retraite du fait de troubles cognitifs. Il présente comme antécédents un diabète de type 2 traité par mesures hygiéno-diététiques (MHD), une hypertension traitée par Hydrochlorothiazide/Irbésartan (diurétique thiazidique/ARA2) et une goutte. Il vous est adressé en urgence pour troubles de la conscience avec obnubilation, d’apparition progressive.\nDepuis 3 jours, il est sous Augmentin (antibiotiques) et Solupred (corticoïdes) pour une bronchite fébrile.\nÀ l’arrivée aux urgences, le lecteur de glycémie indique « HI » (high = glycémie > 6g/L).",
+      "order": 5,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez un coma hyperosmolaire, quel examen paraclinique va vous permettre de faire le diagnostic ?",
+          "choix": [
+            "A) Le ionogramme sanguin",
+            "B) La bandelette urinaire",
+            "C) La gazométrie",
+            "D) L’EEG"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels éléments de l’observation vous ont fait évoquer ce diagnostic ?",
+          "choix": [
+            "A) L’âge",
+            "B) La modalité de traitement du diabète (MHD)",
+            "C) Le sexe masculin",
+            "D) Le traitement par Irbésartan",
+            "E) Le contexte infectieux"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Voici les premiers résultats du bilan biologique :\n- Natrémie 150 mmol/L,\n- Kaliémie 4,7 mmol/L,\n- Urée : 20 mmol/L,\n- Glycémie : 50 mmol/L,\n- Créatininémie : 280 mmol/L,\n- DFG (CKD-epi) : 18,8 mL/min.\nSur la base de ces résultats, quelle est l’osmolalité de ce patient ?",
+          "choix": [
+            "A) 376 mmol/L",
+            "B) 379,4 mmol/L",
+            "C) 376 mOsmol/kg H2O",
+            "D) 379,4 mOsmol/kg H2O"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Après confirmation de votre hypothèse diagnostique, quel est votre prise en charge?",
+          "choix": [
+            "A) Mise en place d’une réhydratation par voie veineuse",
+            "B) Supplémentation par potassium",
+            "C) Mise en place d’une insulinothérapie par voie sous-cutanée",
+            "D) Mise en place d’une anticoagulation préventive",
+            "E) Surveillance régulière de l’acétonémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Après prise en charge, le patient est transféré dans le service de diabétologie. L’HbA1c est à 10%. Vous discutez du traitement et des objectifs glycémiques. Compte tenu du contexte et des recommandations en vigueur, quel est l’objectif d’HbA1c chez ce patient ?",
+          "choix": [
+            "A) < ou égal à 6,5 %",
+            "B) < ou égal à 7 %",
+            "C) < ou égal à 8 %",
+            "D) < 9 % et/ou glycémies capillaires préprandiales entre 1 et 2 g/l",
+            "E) < 10 %"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

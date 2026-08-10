@@ -1,0 +1,785 @@
+{
+  "matiere": "Néphrologie",
+  "slug": "nephrologie-s10",
+  "annee": 2023,
+  "title": "Néphrologie - 2023",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une patiente de 40 ans consulte pour des nausées et des vomissements depuis 1 semaine. Il n’y a pas de signe neurologique. Elle a pour seul antécédent un syndrome dépressif traité par inhibiteur de recapture de la sérotonine (Paroxétine), introduit depuis 3 semaines. Sa pression artérielle est à 125/80 mmHg, la fréquence cardiaque à 83/min, la température à 36,7°C, la saturation à 98%. Elle a un poids stable à 80 kg. L’examen clinique ne retrouve ni marbrures, ni oedèmes.\nLes résultats du bilan biologique sont les suivants : Natrémie 117 mmol/L, kaliémie 3,7 mmol/L, glycémie 5 mmol/L. Créatinine 60 µmol/L. La natriurèse est à 80 mmol/L, la kaliurèse à 20 mmol/L. Osmolalité urinaire à 300 mOsm/kg.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le diagnostic le plus probable pour expliquer l’hyponatrémie ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome de sécrétion inappropriée d’hormone anti-diurétique; SIADH médicamenteux",
+            "SIADH",
+            "siadh",
+            "SiADH",
+            "Sécrétion inappropriée d'ADH",
+            "SIADH iatrogène",
+            "syndrome de sécrétion inappropriée de l'ADH",
+            "sécrétion inappropriée d'ADH",
+            "Sécrétion inappropriée d'hormone antidiurétique",
+            "SIADH sous ISRS",
+            "Sécrétion innapropriée d'ADH",
+            "SIADH iatrogène (lié a l'inhibiteur de recapture de la sérotonine)",
+            "SIADH du à la paroxétine",
+            "secretion innapropriée ADH",
+            "SiADH medicalenteux paroxetine",
+            "sécrétion inaproprié d'ADH",
+            "syndrome inaproprié de secretion de l'ADH",
+            "SIADH via Paroxétine",
+            "Syndrome de secretion inappropriée de l'ADH",
+            "sécrétion innapropriée d'hormone anti-diurétique",
+            "Sécretion inadaptée d'hormone anti-diurétique (SIADH)",
+            "Syndrome de sécrétion innapproprié d'ADH causé par ISRS",
+            "syndrome de sécrétion innaproprié d'hormone anti diurétique",
+            "secretion inaproprié d'Hormone anti diuretique",
+            "SIADH causée par la Paroxetine",
+            "Sécrétion inapproprié d'ADH",
+            "Syndrome innaproprié ADH",
+            "SIADH sur prise de paroxétine",
+            "Sécrétion inappropriée de l'ADH",
+            "syndrome de sécrétion inapropriée d‘hormone antidiurétique (SIADH)",
+            "syndrome de sécrétion inaproprié d'hormone anti-diurétique",
+            "Secretion inappropriée d ADH",
+            "sécrétion inapproprié de l’Hormone Anti Diuretique",
+            "Syndrome de sécrétion inapproprié de l'ADH",
+            "secretion inappropriee d'hormone anti diuretique (SIADH)",
+            "Sécrétion inappropriée d'hormone anti diurétique",
+            "Syndrome de sécrétion inaproprié d’ADH",
+            "syndrome inapproprie de l'adh",
+            "SIADH (paroxetine)",
+            "SIADH iatrogene",
+            "Syndrome de secretion innapropriee d'ADH",
+            "SIADH secretion inappropriee en hormone anti diuretique",
+            "syndrome de sécrétion inapropriée d'hormone anti diurétique",
+            "SIADH médicamenteux dû à la Paroxetine",
+            "SIADH sur prise Paroxétine",
+            "SIADH provoqué par la paroxétine",
+            "syndrome secretion innaproprie hormone anti-diueretique",
+            "SIADH par IRS",
+            "SIADH sur ttt paroxetine",
+            "sécrétion innapropriée d'ADH dû à la paroxétine",
+            "sécrétion inappropriée de l'hormone anti diurétique",
+            "Sécrétion inappropriée d'hormone antidiurétique iatrogène",
+            "Syndrome inapproprié de sécrétion de l’ADH",
+            "SIADH iatrogene (ISRS)",
+            "Syndrome de secretion inapropriée d'ADH",
+            "SIADH secondaire à ISRS",
+            "SIADH hypothalamique post medicamenteuse",
+            "SIADH lié à la paroxetine",
+            "Syndrome de secretion inapproprié d ADH",
+            "siADH",
+            "syndrome de sécrétion inappropriée d'ADH",
+            "SIADH lié à la Paroxétine",
+            "syndrome de secretion innaproprié d'ADH (SIADH)",
+            "Sécrétion inapropriée ADH sur iatrogénie IRS",
+            "syndrome de SIADH"
+          ],
+          "correctionExplanation": "Réponse acceptée : SIADH médicamenteux",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les examens complémentaires suivants, choisissez les 3 les plus pertinents pour préciser le mécanisme de l’hyponatrémie :",
+          "choix": [
+            "A) scanner cérébral",
+            "B) cortisol à 8h",
+            "C) EEG",
+            "D) fond d’œil",
+            "E) TSH",
+            "F) lipase",
+            "G) uricémie",
+            "H) bilan hépatique",
+            "I) facteur V",
+            "J) NFS",
+            "K) urée"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, choisissez les 2 les plus appropriées pour la prise en charge initiale ?",
+          "choix": [
+            "A) hyperhydratation per os",
+            "B) restriction hydrique",
+            "C) introduction d’un diurétique de l’anse",
+            "D) introduction d’un thiazidique",
+            "E) arrêt de l’inhibiteur de recapture de la sérotonine",
+            "F) introduction de spironolactone",
+            "G) régime hyposodé à 2 g/j de sel",
+            "H) perfusion de soluté NaCl 0,9% 1L sur 4h",
+            "I) perfusion de soluté de G5% 1L sur 24h",
+            "J) perfusion de bicarbonates 1L sur 24h",
+            "K) sérum salé hypertonique 3%",
+            "L) test de charge calcique"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297073010-832fda956929f8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mr G, 72 ans, se présente aux urgences, adressé par son médecin traitant pour une protéinurie avec altération de l’état général. Le bilan biologique réalisé en ville retrouve : créatininémie à 120 µmol/L, protidémie à 81 g/L, albumine à 28 g/L, protéinurie à 4 g/g et albuminurie à 15 mg/g. GR: 9/mm3.\nParmi les diagnostics suivants, quel est le seul diagnostic compatible avec la situation ?",
+          "choix": [
+            "A) Une vascularite à ANCA",
+            "B) Une glomérulonéphrite extramembraneuse",
+            "C) Une tubulopathie myélomateuse",
+            "D) Une maladie à lésions glomérulaires minimes",
+            "E) Une néphroangiosclérose"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les facteurs suivants favorisent la précipitation de chaines légères, sauf un : lequel ?",
+          "choix": [
+            "A) l’hypercalcémie",
+            "B) les produits de contraste iodés",
+            "C) l’hyperhydratation intra-cellulaire",
+            "D) les diurétiques",
+            "E) le pH acide des urines"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente est admise pour un syndrome néphrotique. Elle est en anasarque avec une prise de poids de 10 kg. Sur le plan biologique, créatininémie à 80 µmol/L, natrémie à 136 mmol/L.\nEn dehors du traitement étiologique, quelles mesures mettez-vous en place ?",
+          "choix": [
+            "A) Un repos strict au lit",
+            "B) Une restriction hydrique à 500 cc",
+            "C) Une restriction sodée à 4 grammes de sel par jour",
+            "D) Un traitement par diurétiques de l’anse (Furosémide)",
+            "E) Une perfusion d’albumine en intra veineux"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les examens suivants lesquels sont obligatoires dans le bilan pré-greffe?",
+          "choix": [
+            "A) Groupe sanguin ABO du receveur",
+            "B) Sous groupe rhésus du receveur",
+            "C) Groupe HLA des donneurs et receveurs",
+            "D) Recherche d’anticorps anti-HLA chez le donneur",
+            "E) Échographie rénale chez le receveur"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 25 ans vient d’apprendre le diagnostic de polykystose rénale autosomique dominante.\nQuelles sont les atteintes extra-rénales qu’elle est susceptible de présenter ?",
+          "choix": [
+            "A) kystes spléniques",
+            "B) anévrysme de l’aorte",
+            "C) anévrysmes des artères cérébrales",
+            "D) hépatomégalie",
+            "E) hypotension orthostatique"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prenez soin d’un homme de 35 ans hospitalisé pour une détresse respiratoire aiguë le menant en réanimation. Rapidement, vous voyez apparaître : Hémoglobine 8,2 g/dL, plaquettes 50 G/L. Les LDH sont à 2000 (N<245 U/L). L’haptoglobine est effondrée. Le test de Coombs est négatif. La créatininémie est passée de 90 à 150 µmol/L en 48 heures. Le patient devient hypertendu.\nQuels sont les diagnostics à évoquer ?",
+          "choix": [
+            "A) coagulation intra-vasculaire disséminée",
+            "B) syndrome hémolytique et urémique atypique",
+            "C) purpura thrombopénique idiopathique",
+            "D) micro-angiopathie thrombotique sur infection par le virus de la grippe"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 45 ans est référée pour une insuffisance rénale chronique récemment accélérée. La biologie met en évidence une protéinurie de faible rang, une leucocyturie aseptique. Vous soupçonnez une néphrite interstitielle chronique dysimmunitaire. Quels sont les examens complémentaires qui vont vous permettre d’en préciser l’étiologie ?",
+          "choix": [
+            "A) recherche d’anticorps anti PLA2-R",
+            "B) dosage de l’enzyme de conversion",
+            "C) recherche d’ANCA de type MPO",
+            "D) recherche d’anti SSA/SSB",
+            "E) dosage des IgG4"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient est admis pour confusion. La calcémie est à 3,1 mmol/L.\nQuelles sont les complications possibles de ce trouble hydro-électrolytique ?",
+          "choix": [
+            "A) un diabète insipide néphrogénique",
+            "B) un diabète insipide central",
+            "C) une douleur épigastrique évoquant une pancréatite",
+            "D) un allongement du QT",
+            "E) une tachycardie sinusale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient de 22 ans vous consulte en raison de plusieurs symptômes. Il a présenté de la fièvre, et une otite il y a quelques jours, puis du sang dans les urines, visible à l’œil nu pendant plusieurs mictions. A l’examen il n’y a aucun signe remarquable à l’exception d’une tension artérielle mesurée à 2 reprises à 150/95 mmHg. La bandelette urinaire que vous réalisez montre :\nph 5,5 GB 0, GR +++, prot ++.\nQuel est le diagnostic néphrologique le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "Néphropathie à IgA primitive",
+            "Maladie de Berger",
+            "Néphropathie à dépôts mésangiaux d'IgA",
+            "néphropathie à IgA",
+            "Néphropathie à IgA",
+            "nephropathie a IgA",
+            "nephropathie à IgA",
+            "Nephropathie à IgA",
+            "néphropathie a IgA",
+            "glomérulopathie à IgA",
+            "Néphropathie a IgA",
+            "Maladie de Berger (néphropathie à IgA)",
+            "Hématurie macroscopique récidivante sur Maladie de berger",
+            "glomerulonéphrite a IgA primitive",
+            "néphropathie à dépôts d‘IgA",
+            "glomérulonéphrite à IgA",
+            "néphropathie à dépot mésangial primitif d'IgA",
+            "maladie depots mesangiaux d’IgA primitive (berger)",
+            "nephropathie IgA",
+            "Néphropathie à IgA primitve (maladie de Berger)",
+            "Néphropathie à IgA primaire",
+            "nephropathie a iga",
+            "Glomérulonéphrite à IgA",
+            "néphrite a IgA",
+            "nephropathie iga primitive",
+            "néphropathie à dépaux mésangiaux d'IgA",
+            "Glomerulonephrite à IgA primitive (Berger)",
+            "syndrome des hématuries macroscopiques récidivantes (néphropathie à IgA probable)",
+            "glomérulonéphrite à IgA primitive",
+            "hematurie macroscopique recidivante sur probable nephropathie à igA primitive",
+            "néphropathie à IgA primaire (Maladie de berger)",
+            "Nephopathie a IgA (syndrome hématurie macroscopique recidivante)"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez en consultation Mme R 60 ans, diabétique de type 2, qui présente une rétinopathie débutante selon son ophtalmologue. Sa pression artérielle est à 120/80 mmHg. Son bilan sanguin est le suivant : créatinine 110 µmol/L. Protéinurie 1g/g microalbuminurie 800 mg/g. GR : 3 éléments /mm3. GB : 4 éléments /mm3. HbA1c 6%. Quelle mesure thérapeutique allez-vous mettre en place ?",
+          "choix": [],
+          "reponses": [
+            "Néphroprotecteur",
+            "ARA2",
+            "IEC",
+            "traitement anti-protéinurique",
+            "inhibiteur de l'enzyme de conversion",
+            "antagoniste des récepteurs de l'angiotensine 2",
+            "bloqueurs du système rénine angiotensine aldostérone",
+            "bloqueurs du SRAA",
+            "IEC/ARA2",
+            "traitement néphroprotecteur",
+            "IEC ou ARA2",
+            "traitement par IEC",
+            "nephroprotection",
+            "Inhibiteurs de l'enzyme de conversion",
+            "Néphroprotection par IEC",
+            "néphroprotection",
+            "nephroprotection par IEC",
+            "introduction d'IEC",
+            "néphroprotection IEC",
+            "prescription IEC",
+            "nephroprotection (IEC/ARA2)",
+            "traitements nephroprotecteurs et surveillance",
+            "nephroprotecteur (iec/ara2)",
+            "traitement anti protéinurique (IEC)",
+            "IEC ou ARA avec regime hyposodé 5g par jour et hypoprotéiné",
+            "prescription d'un IEC",
+            "bloqueur du systeme rénine angiotensine aldostérone",
+            "Prise de néphroprotecteur IEC ou de sartans",
+            "inhibiteur du SRAA",
+            "IEC + prise en charge FDR",
+            "antagoniste recepteur angiotensine 2 (sartan)",
+            "IEC et mesure de néphroprotection",
+            "inhibiteur de l enzyme de convertion",
+            "antihypertenseur IEC ARA2",
+            "introduction d'IEC à visée de néphroprotection",
+            "Mesures de néphroprotection",
+            "bloqueurs du sraa type IEC",
+            "Néphroprotection par IEC/ARA2",
+            "IEC/ARAII",
+            "IEC et règles hygiénodiététiques",
+            "IEC ou sartans en néphroprotection",
+            "traitement néphroprotecteur ex:IEC",
+            "IEC/ARAII si contre indication",
+            "Néphroprotection par bloqueurs du système rénine-angiotensine",
+            "IEC (nephroprotection)",
+            "Néphroprotection",
+            "Prescription d'un IEC",
+            "controle de la proteinurie IEC/ARA2/iSGLT2",
+            "IEC ARA2",
+            "Prescription d'IEC",
+            "inhibteur de l'enzyme de conversion",
+            "IEC et inhibiteur SGLT2",
+            "Nephroprotection (IEC/glifozine...)",
+            "néphroprotection avec introduction iSGLT2 et IEC ou ARA2 et regle hygieno dietetique",
+            "nephroprotection IEC",
+            "introduction d'un IEC",
+            "nephroprotection avec IEC",
+            "traitement nephroprotecteur avec IEC ou ARA2 et glifozine",
+            "regime hyposodé et IEC",
+            "introduction d’un bloqueur du systeme renine angiotensine comme un IEC",
+            "néphroprotection IEC/ARA2",
+            "inhibiteur du systeme renine angiotensine aldosterone",
+            "Prescription d'un IEC ou ARA2",
+            "traitement antiproteinurique par IEC/ARA2",
+            "IEC ou ARAA2",
+            "néphroprotection IEC ou ARA2",
+            "nephroprotection : IEC restriction protidique",
+            "IEC nephroprotection",
+            "IEC pour nephroprotection",
+            "inhibiteur enzyme de conversion",
+            "IEC (ou ARA2 si intolérance) et gliflozine",
+            "nephroprotection avec iec",
+            "Introduction IEC",
+            "Inhibteur de l'enzyme de conversion",
+            "inhibiteurs enzyme de conversion",
+            "inhibiteur du SRA (IEC/ARA2)",
+            "traitement nephroprotecteur type IEC/sartan",
+            "inhibiteurs de l'enzyme de conversion",
+            "IEC ou ARA2 (anti proteinurique)",
+            "antihypertenseur IEC",
+            "IEC/ARA 2",
+            "inhibiteurs de l'enzyme de conversion ou ARA2",
+            "introduction glifozines, IEC, eviter traitement nephrotoxiques et nephroprotecteur",
+            "nephroprotecteur : IEC",
+            "Inhibiteurs du systeme renine angiotensine type IEC",
+            "IEC/ARA II"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297080593-7990dbffd90e",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Une femme de 75 ans est adressée aux urgences pour douleurs abdominales évoluant depuis quelques jours, et une dyspnée au repos s’aggravant depuis quelques heures. Elle n’a aucun antécédent connu. L’examen clinique retrouve une tension artérielle à 140/95 mmHg, une apyrexie. La saturation est à 100%. En revanche la fréquence respiratoire est à 30/min. Le bilan biologique montre : pH 7.25, pO2 110 mmHg, pCO2 15 mmHg, HCO3 9 mmol/L. Sodium 140 mmol/L, Potassium 6 mmol/L, Chlore 91 mmol/L.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les diagnostics possibles ?",
+          "choix": [
+            "A) Acidose métabolique à trou anionique normal sur pertes digestives en bicarbonates",
+            "B) Acidose métabolique à trou anionique augmenté par une acido-cétose",
+            "C) Acidose respiratoire non compensée",
+            "D) Acidose métabolique à trou anionique augmenté par insuffisance rénale aiguë",
+            "E) Acidose métabolique à trou anionique augmenté par une intoxication"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’ECG réalisé est le suivant\nQuelles sont les mesures thérapeutiques que vous adoptez parmi les suivantes :",
+          "choix": [
+            "A) Perfusion de gluconate de calcium",
+            "B) Perfusion de chlorure de potassium",
+            "C) Perfusion de sulfate de magnésium",
+            "D) Contact de l’équipe spécialisée pour épuration extra-rénale",
+            "E) Protocole insuline-glucose"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/nephrologie-s10/2023/q15.png?v=1786297081051"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente bénéficie rapidement d’un scanner abdomino-pelvien que voici :\nQuelle est votre conclusion ?",
+          "choix": [
+            "A) Kystes parapyéliques bilatéraux",
+            "B) Reins en fer à cheval",
+            "C) Dilatation pyélocalicielle bilatérale",
+            "D) Reins multikystiques",
+            "E) Infarctus rénal bilatéral"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/nephrologie-s10/2023/q16.png?v=1786297081420",
+            "/images/qcm/nephrologie-s10/2023/q16_1.png?v=1786297081518"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est prise en charge par dérivation urologique et pose de sondes endo-urétérales. Quatre heures plus tard, vous êtes appelés par l’infirmière car elle présente les symptômes suivants : tension artérielle 80/40 mmHg, Fc 115/min. Le bilan de contrôle montre: Na 150 mmol/L, K 2,8 mmol/L, glucose 5 mmol/L.\nCe tableau est compatible avec :",
+          "choix": [
+            "A) une déshydratation intracellulaire isolée",
+            "B) une déshydratation globale",
+            "C) une hyperhydratation intracellulaire isolée",
+            "D) une hyperosmolarité plasmatique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la cause de ces anomalies cliniques et biologiques ?",
+          "choix": [],
+          "reponses": [
+            "polyurie de levée d’obstacle ou syndrome de levée d’obstacle",
+            "syndrome de levée d'obstacle",
+            "Syndrome de levée d'obstacle",
+            "syndrome de levee d'obstacle",
+            "syndrome de levé d'obstacle",
+            "syndrome de levée d’obstacle",
+            "syndrome du levée d'obstacle",
+            "polyurie de levée d'obstacle",
+            "Syndrome de levée d’obstacle",
+            "syndrome de lever d'obstacle",
+            "syndrome de la levee d'obstacle",
+            "syndrome de levé d’obstacle",
+            "Syndrome levée d'obstacle",
+            "syndrome de leve d'obstacle",
+            "syndrome de levée d‘obstacle",
+            "syndrome de la levée d'obstacle",
+            "Syndrome de levée d‘obstacle",
+            "syndrome du levé d'obstacle",
+            "syndrome levee d'obstacle",
+            "Syndrome de levé d'obstacle",
+            "Syndrome de levee d’obstacle",
+            "derivation des urines trop rapides",
+            "syndrome de levé d obstacle",
+            "Polyurie osmotique post-levée d’obstacle",
+            "dérivation des urines trop rapide",
+            "polyurie apres lever d'obstacle",
+            "polyurie d'évacuation",
+            "reprise de diurèse trop rapide",
+            "Syndrome de levée d'obstacle avec reprise de la miction excessive",
+            "syndrome de levée d´obstacle",
+            "polyurie de levée d obstacle",
+            "Polyurie de levée d'obstacle",
+            "syndrome de levée d'ostacle",
+            "syndrome de levé d‘obstacle",
+            "syndrome levee obstacle",
+            "syndrome de levée d'obstacle post sonde JJ",
+            "syndrome levée d’obstacle",
+            "syndrome levé d'obstacle",
+            "syndrome de reprise de diurese",
+            "syndrome de levee d'obstacle suite a la derivation des urines",
+            "syndrome de levée obstacle",
+            "syndrome leve obstacle",
+            "Réaction de levée d’obstacle rénal",
+            "Syndrome du levé d'obstacle",
+            "syndrome du levé d'obstacle (dérivation trop rapide)",
+            "syndrome de laché d'obstacle",
+            "deshydratation d'origine renale sur la levee dobstacle",
+            "reponse renale inadaptee a la vidange rapide des urines",
+            "syndrome de levée d obstacle",
+            "syndrome post desobstruction",
+            "Syndrome de levée d'obstacle (diabète insipide néphrogénique)",
+            "Syndrome du levée d'obstacle"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La cause de la dilatation pyélocalicielle présentée par la patiente était un cancer gynécologique. La créatinine est à 140 μmol/L après dérivation des urines. La patiente débute un traitement par chimiothérapie. Après 1 mois de traitement, la créatinine passe à 240 μmol/L. Cette fois-ci l’imagerie est sans particularité, les sondes sont en place, il n’y a pas de dilatation des cavités pyélocalicielles. Vous obtenez les informations complémentaires : urée 40 mmol/L, sodium urinaire < 20 mmol/L, potassium urinaire 60 mmol/L.\nQuelles sont vos conclusions quant à cette nouvelle insuffisance rénale ?",
+          "choix": [
+            "A) elle est aiguë sur chronique",
+            "B) le rapport urée/créatinine est en faveur d’une atteinte fonctionnelle",
+            "C) le rapport Na/K urinaire est en faveur d’une atteinte organique",
+            "D) l’interrogatoire doit rechercher des pertes digestives liées à la chimiothérapie",
+            "E) la prise d’anti-inflammatoires non stéroïdiens peut donner un tableau similaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Malgré la réhydratation et l’arrêt des néphrotoxiques, la créatinine continue de s’aggraver au bout de 3 jours. Vous obtenez les analyses urinaires suivantes: GR: 5/mm3, GB: 0/mm3. Protéinurie : 0,4 g/g de créatininurie. Micro-albuminurie 25 mg/g de créatininurie.\nQuel est le diagnostic compatible avec ce tableau ?",
+          "choix": [
+            "A) néphrite interstitielle aiguë",
+            "B) syndrome de micro-angiopathie thrombotique",
+            "C) glomérulonéphrite extra-membraneuse para-néoplasique",
+            "D) maladie à lésions glomérulaires minimes",
+            "E) nécrose tubulaire aiguë"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297084301-bbad757b936e4",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez en consultation un patient de 65 ans. Il vous présente le bilan suivant : créatinine à 150 μmol/L soit un DFG 41 mL/min/1,73 m2. Il a réalisé une échographie rénale qui dédouane une obstruction.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments vous orienteront vers une maladie rénale chronique?",
+          "choix": [
+            "A) polyglobulie",
+            "B) hypocalcémie",
+            "C) reins bosselés",
+            "D) hyperkaliémie",
+            "E) antécédent de protéinurie découverte à la médecine du travail"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le patient présente une insuffisance rénale aiguë, on lui découvre en même temps une hypertension artérielle. Voici ses analyses urinaires : Protéinurie 2,8 g/g albuminurie 2,5 g/g de créatininurie. GR : 90 éléments /mm3, GB : 4 éléments /mm3. La présentation syndromique évoque une atteinte :",
+          "choix": [
+            "A) vasculaire",
+            "B) interstitielle",
+            "C) tubulaire",
+            "D) glomérulaire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l’interrogatoire, le patient rapporte une asthénie depuis 3 semaines, des arthralgies. Il a remarqué une hyperthermie modérée, auquel s’associe une dyspnée de repos. Il a eu des crachats sanglants. La créatinine est passée de 150 μmol/L à 220 μmol/L en 72h. Vous évoquez :",
+          "choix": [
+            "A) un syndrome néphrotique",
+            "B) un syndrome de glomérulonéphrite rapidement progressive",
+            "C) un syndrome néphritique",
+            "D) un syndrome d’hématurie macroscopique récidivante",
+            "E) un syndrome de glomérulonéphrite chronique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Malgré votre prise en charge, 5 ans plus tard, la fonction rénale s’est dégradée. Le patient revient vous voir avec une créatinine à 350 μmol/L soit un DFG 14mL/min. On note une hémoglobine à 8,8 g/dL, avec une ferritine à 250 ng/mL, des réticulocytes à 40 G/L. Sa calcémie est à 1,80 mmol/L, la parathormone est à 300 pg/mL (N 10-65), la 25 OH vitamine D est à 15 ng/mL (N 20 – 60).\nConcernant l’insuffisance rénale chronique chez ce patient :",
+          "choix": [
+            "A) Elle est de stade IV",
+            "B) Elle explique l’anémie en raison d’un défaut de sécrétion d’EPO",
+            "C) Elle explique l’hyperparathyroïdie primaire",
+            "D) Elle justifie un traitement pour éviter l’ostéomalacie et l’ostéite fibreuse",
+            "E) Elle progressera d’autant plus vite que le patient sera protéinurique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient, en stade V, est très intéressé par une transplantation rénale, mais se pose des questions sur les donneurs d’organes. Vous l’informez de la façon suivante:",
+          "choix": [
+            "A) Une amie d’enfance qui n’est pas du même groupe sanguin que lui ne peut pas lui donner un rein.",
+            "B) Un donneur décédé est obligatoirement en mort cérébrale",
+            "C) La transplantation à partir de donneur vivant peut être réalisée de façon préemptive",
+            "D) La transplantation à partir de donneur vivant offre une meilleure survie à long terme du greffon",
+            "E) Les défunts en état de mort encéphalique sont considérés comme opposés au don par défaut"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Trois mois après la transplantation, le patient est hospitalisé pour une altération de sa fonction rénale. La créatinine plasmatique est passée de 95 à 180 μmol/L. La tension artérielle qui était à 120/80 sous ramipril a augmenté à 160/90 mmHg. Son traitement immunosuppresseur comprend du tacrolimus, du mycophénolate mofétil et des corticoïdes.\nQuels examens prescrivez-vous en première intention ?",
+          "choix": [
+            "A) Une échographie du transplant.",
+            "B) Un Doppler de l’artère du transplant",
+            "C) Un ECBU",
+            "D) Une ponction biopsie rénale",
+            "E) Un dosage du tacrolimus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’échographie et le doppler du transplant sont normaux, le taux sérique de tacrolimus est 7 ng/ml (N 5-10). L’ECBU retrouve GB : 550/mm3, GR : 180/mm3. La CRP est à 80 mg/l. Le patient frissonne et devient fébrile.\nQuel est le diagnostic le plus probable?",
+          "choix": [
+            "A) une cystite",
+            "B) un rejet aigu",
+            "C) une pyélonéphrite du transplant",
+            "D) une infection à BK virus",
+            "E) une thrombose de veine rénale"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

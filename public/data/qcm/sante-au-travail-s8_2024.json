@@ -1,0 +1,353 @@
+{
+  "matiere": "Santé au travail",
+  "slug": "sante-au-travail-s8",
+  "annee": 2024,
+  "title": "Santé au travail - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes médecin du travail dans un service interentreprise et vous êtes consulté par un employeur dans le cadre dune démarche d'évaluation des risques professionnels dans son entreprise",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Parmi les deux modes d'action du médecin du travail, comment s'appelle ce mode qui consiste à évaluer les risques professionnels d'une entreprise?\n(4 à 5 mots attendus)",
+          "choix": [],
+          "reponses": [
+            "Action sur le terrain",
+            "Action en milieu de travail",
+            "Actions sur le terrain",
+            "Evaluation sur le terrain",
+            "évaluation sur le terrain",
+            "Visite sur le terrain",
+            "Evaluation des risques sur terrain",
+            "Mesure sur le terrain",
+            "Analyse de l'environnement du salarié",
+            "Évaluation du terrain professionnel",
+            "Mode action sur le terrain",
+            "Activité sur le terrain",
+            "Evaluation sur terrain des risques",
+            "mode d'action sur le terrain",
+            "action de prévention sur le terrain",
+            "Actions d'évaluation de terrain",
+            "Analyse des risques de terrain",
+            "Evaluation et gestion des risques professionnels sur le terrain",
+            "Action de prevention sur le terrain",
+            "Prevention primaire sur le terrain",
+            "Mesures sur le terrain",
+            "Prevention sur le terrain",
+            "Evaluation des risques sur le terrain",
+            "Prévention primaire sur le terrain",
+            "Action d’évaluation sur le terrain",
+            "Demarche sur le lieu d'entreprise"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la réponse juste?",
+          "choix": [
+            "A) C'est l'employeur qui décide des modalités du suivi individuel de l'état de santé des salariés",
+            "B) C'est l'infirmier en santé au travail qui décide des modalités du suivi individuel de l'état de santé des salariés",
+            "C) C'est le médecin conseil qui décide des modalités du suivi individuel de l'état de santé des salariés",
+            "D) C'est le médecin du travail qui décide des modalités du suivi individuel de l'état de santé des salariés",
+            "E) C'est le médecin inspecteur du travail qui décide des modalités du suivi individuel de l'état de santé des salariés"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les 10 propositions, quelles sont les 5 propositions valides?",
+          "choix": [
+            "A) le médecin du travail assure le suivi individuel de l'état de santé des salariés",
+            "B) le médecin du travail assure la surveillance de la santé des salariés",
+            "C) le médecin du travail réalise l'aptitude médicale du salarié lors de la visite de pré-reprise",
+            "D) le médecin du travail réalise l'aptitude médicale du salarié lors de la visite de reprise",
+            "E) la visite de reprise est une visite facultative faite par l'infirmier en santé au travail",
+            "F) le congé maternité n'impose pas une visite de reprise au retour de la salariée dans l'entreprise",
+            "G) L'employeur a la possibilité d'informer son salarié malgré un arrêt de travail pour la réalisation d'une visite de pré-reprise",
+            "H) L'infirmier en santé au travail ne peut pas assurer seul des visites ou des consultations en santé au travail",
+            "I) L'employeur coordonne l'équipe pluridisciplinaire de santé au travail",
+            "J) Le médecin du travail coordonne l'équipe pluridisciplinaire de santé au travail"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "G",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300000583-ede1e373a43088",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes le médecin traitant de Madame L, 47 ans. Elle est actuellement en arrêt maladie pour une douleur de l'épaule droite non compliquée depuis 1 mois. Ce jour, vous prolongez son arrêt de deux semaines car ses douleurs restent invalidantes malgré les séances de kinésithérapie.\nElle vous rapporte être salariée d'une entreprise de nettoyage de baies vitrées. Elle aurait déjà eu des épisodes similaires dans le passé ayant nécessité des arrêts de travail courts.\nElle trouve la durée de ce nouvel arrêt de travail insuffisante.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous l'orientez vers son médecin du travail pendant son arrêt de travail. Q uelle(s) est(sont) la(les) réponses juste(s)?",
+          "choix": [
+            "A) Une visite peut être demandée au service de santé par le médecin traitant",
+            "B) Cette visite sera étiquetée visite de reprise car elle aura lieu pendant son arrêt de travail.",
+            "C) Cette visite ne peut pas être réalisée car l'arrêt de travail est trop court",
+            "D) Cette visite aura pour but d'informer le médecin du travail sur l'état de santé de Madame L.",
+            "E) Cette visite aura pour but de permettre au médecin du travail de faire d'éventuelles préconisations d'aménagement du poste de travail en vue de la reprise"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la visite de pré-reprise, quelle(s) est(sont) la(les) réponses juste(s)?",
+          "choix": [
+            "A) La visite de pré-reprise peut être demandée par le médecin conseil de l'assurance maladie",
+            "B) La visite de pré-reprise peut être demandée par l'employeur",
+            "C) La visite de pré-reprise peut être demandée par le médecin du travail",
+            "D) La visite de pré-reprise peut être demandée par le médecin inspecteur du travail",
+            "E) La visite de pré-reprise est conseille pour tout arrêt de travail de plus de 30 jours"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La collègue et amie de Madame L. lui rapporte que leur chef d’équipe s’inquiète de son absence, ses arrêts précédents n’ayant duré que quelques jours. Concernant l’employeur et Madame L , quelle(s) est(sont) la(les) réponses juste(s)?",
+          "choix": [
+            "A) L'employeur a le droit de contacter le médecin du travail pour échanger sur la situation professionnelle de Madame L malgré son arrêt de travail",
+            "B) Madame L a le droit de refuser la réalisation d'une visite de pré-reprise",
+            "C) L'employeur n'est pas obligé de faire suivre ses salariés par un service de santé au travail",
+            "D) Les préconisations émises par le médecin du travail à l’employeur doivent respecter le secret médical.",
+            "E) Les préconisations formulées par le médecin du travail devront systématiquement être mise en œuvre par l’employeur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La reprise du travail de Madame L a lieu et son état de santé nécessite une préconisation du médecin du travail concernant les mouvements d'abduction de l'épaule droite. Elle aura été en arrêt sur une durée totale de 51 jours sans lien avec un accident du travail ou une maladie professionnelle. Quelle(s) est(sont) la(les) réponses juste(s) concernant la visite de reprise ?",
+          "choix": [
+            "A) Madame L doit bénéficier d'une visite de reprise eu égard à la durée de son arrêt maladie.",
+            "B) La visite de reprise doit être demandée par le médecin traitant à la fin de l’arrêt de travail",
+            "C) La visite de reprise doit être réalisée dans un délai de 8 jours à compter de la reprise du travail.",
+            "D) La visite de reprise est une visite facultative",
+            "E) Une aptitude avec restriction ou une inaptitude médicale peut être prononcée par le médecin du travail lors d'une visite de reprise"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "De manière générale, à l’issu d’une visite de pré-reprise ou de reprise, quelle(s) est(sont) la(les) réponses juste(s) ?",
+          "choix": [
+            "A) Un changement de poste de travail peut être envisagé.",
+            "B) Un aménagement ergonomique du poste de travail peut être envisagé.",
+            "C) Une invalidité peut être demandée au médecin du travail",
+            "D) Un temps partiel thérapeutique peut être prescrit par le médecin du travail.",
+            "E) Un temps partiel thérapeutique doit faire obligatoirement suite à un arrêt maladie."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les visites en santé au travail et les dispositifs de maintien dans l'emploi, quelle(s) est(sont) la(les) réponses juste(s) ?",
+          "choix": [
+            "A) Un rendez-vous de liaison entre le salarié et son employeur lors d'un arrêt de travail peut faire l'objet d'une discussion de visite de pré-reprise",
+            "B) La reconnaissance en qualité de travailleur handicapé est un obstacle au maintien dans l'emploi",
+            "C) La reconnaissance en qualité de travailleur handicapé est attribué par le médecin consell de l'assurance maladie",
+            "D) La reconnaissance en qualité de travailleur handicapé peut permettre l'obtention d'aides financières pour l'entreprise lors d'aménagement de postes de travail",
+            "E) Le temps partiel thérapeutique n'est pas limité dans le temps"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300002616-89d9d1031b96e8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes interne de médecine du travail en stage dans un service de santé au travail interentreprise, vous recevez Monsieur L. , 55 ans, dans le cadre de sa visite périodique. Il avait été vu pour la dernière fois il y a 5 ans.\nIl occupe un poste d'informaticien dans une entreprise du tertiaire, il n’est pas exposé à des risques particuliers nécessitant un suivi individuel renforcé.\nIl vous rapporte au milieu de la consultation que sa demande de RQTH (reconnaissance en qualité de travailleur handicapé) pour un trouble bipolaire vient d’être acceptée.\nConcernant la visite périodique en santé au travail, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
+          "choix": [
+            "A) La périodicité du suivi jusqu’ici (avant la reconnaissance en RQTH) est conforme à la réglementation concernant notre patiente",
+            "B) Cette visite est une visite d’information et de prévention.",
+            "C) Elle est assurée en général par un(e) infirmier(e) en santé au travail",
+            "D) La rythmicité de la visite d'information et de prévention peut être modifiée par la notion d'une invalidité",
+            "E) La rythmicité de la visite d'information et de prévention est maintenant de 3 ans car la patiente est reconnue en qualité de travailleur handicapé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le médecin du travail, quelle(s) est ou sont les réponses justes?",
+          "choix": [
+            "A) Il exerce selon un mode salarié",
+            "B) Il est soumis au code de santé publique",
+            "C) Il a un rôle essentiellement curatif",
+            "D) L'action du médecin du travail en milieu professionnel est axée sur la prévention",
+            "E) Il détermine la date de guérison ou de consolidation de l'état de santé d'un salarié suite à un accident du travail"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la visite de reprise en santé au travail, quelle est la réponse juste?",
+          "choix": [
+            "A) Elle a lieu suite à tout arrêt de travail dans le cadre d'une maladie professionnelle",
+            "B) Elle a lieu suite à un arrêt de travail de plus de 15 jours dans le cadre d'un accident du travail",
+            "C) Elle a lieu suite à un arrêt de travail de plus de 30 jours dans le cadre d'un arrêt de travail sans lien avec un accident du travail ou avec une maladie professionnelle",
+            "D) Elle est demandée par le médecin du travail",
+            "E) La détermination par le médecin du travail de l'aptitude au poste de travail n'est pas systématique au cours de cette visite"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les réponses valides dans le cadre des démarches d'évaluation et de gestion des risques professionnels par le médecin du travail?",
+          "choix": [
+            "A) La démarche de gestion des risques professionnels ne suit pas toujours le même ordre?",
+            "B) La suppression des dangers fait partie de la démarche de gestion des risques professionnels",
+            "C) L'identification et la caractérisation des dangers fait partie de la démarche d'évaluation des risques professionnels",
+            "D) La limitation des émissions à la source fait partie de la démarche de gestion des risques professionnels",
+            "E) La limitation des émissions à la source fait partie de la démarche d'évaluation des risques professionnels",
+            "F) La limitation de l'exposition des salariés fait partie de la démarche de gestions des risques professionnels",
+            "G) L'évaluation de l'exposition professionnelle des salariés fait partie de la démarche d'évaluation des risques professionnels",
+            "H) L'évaluation de l'efficacité des mesures de préventions fait partie de la démarche d'évaluation des risques professionnels"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "F",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment s'appelle la mesure dans le sang d'un travailleur de son exposition professionnelle à un produit chimique?",
+          "choix": [],
+          "reponses": [
+            "biométrologie",
+            "Métrologie sanguine",
+            "Metrobiologie",
+            "Métrologie biologique",
+            "Métrobiologie",
+            "métrologie sanguine",
+            "Metrologie biologique",
+            "Metrologie sanguine",
+            "Métrologie intrinsèque biologique",
+            "Métrologie (biologique)",
+            "métrologie biologique",
+            "Metrologie biologique d'un salarié",
+            "Bio-métrologie",
+            "metrobiologie sanguine",
+            "Métrologie dosage sanguin du produit chimique",
+            "métrobiologique",
+            "Biométrorologie",
+            "Métrologie biochimique"
+          ],
+          "correctionExplanation": "1 seul mot",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

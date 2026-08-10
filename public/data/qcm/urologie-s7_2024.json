@@ -1,0 +1,390 @@
+{
+  "matiere": "Urologie",
+  "slug": "urologie-s7",
+  "annee": 2024,
+  "title": "Urologie - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la transplantation d’organe (Rang A)",
+          "choix": [
+            "A) En routine, la transplantation rénale est orthotopique.",
+            "B) La greffe rénale permet de sortir un patient de dialyse.",
+            "C) L’ischémie froide correspond à l’absence de vascularisation du transplant avant qu’il soit rincé et refroidi par une solution de préservation.",
+            "D) La transplantation d’organe en France est gérée par l’agence de biomédecine",
+            "E) Actuellement en France il existe une pénurie de greffons"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "1. Quels sont le(s) facteur(s) de risque de cancer de la prostate ?",
+          "choix": [
+            "A) Tabagisme",
+            "B) Un antécédent de cancer de la prostate chez son père à 54 ans.",
+            "C) 3 Cas de cancer du sein au deuxième degré",
+            "D) L’origine afro caribéenne",
+            "E) L’origine européenne"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle traitement ne pouvez vous pas proposer à un patient de 65 ans, en bon état général présentant un cancer de la prostate localisé de risque intermédiaire?",
+          "choix": [],
+          "reponses": [
+            "Hormonothérapie seule",
+            "Hormonothérapie",
+            "Chimiothérapie",
+            "abstention-surveillance",
+            "abstention thérapeutique",
+            "abstention surveillance",
+            "chimiotherapie",
+            "Surveillance active",
+            "surveillance active",
+            "hormonotherapie seule",
+            "Abstention-surveillance",
+            "surveillance simple",
+            "abstention therapeutique",
+            "surveillance",
+            "Castration chimique",
+            "ultrasons",
+            "castration",
+            "androgénothérapie",
+            "la surveillance",
+            "abstention",
+            "surveillance seule",
+            "chimiotherapie systemique",
+            "surveillance abstention",
+            "Chimiothérapie seule",
+            "HIFU",
+            "castration chimique",
+            "absence de surveillance",
+            "traitement systémique type chimiotherapie",
+            "Surveillance Active",
+            "castration médicamenteuse seule",
+            "surveillance-abstention",
+            "absention surveillance",
+            "Abstention",
+            "abstention/surveillance",
+            "Surveillance-Abstention",
+            "Absention surveillance",
+            "abstention de surveillance",
+            "Surveillance",
+            "Hormonotherapie seule",
+            "surveillance seul",
+            "abstention therapeutique/surveillance",
+            "absention-surveillance",
+            "traitement systemique",
+            "Hormothérapie seule",
+            "hormonotherapie",
+            "Abstension surveillance",
+            "absention thérapeutique",
+            "chimiothérapie seule",
+            "Hormonothérapie seule ou définitive",
+            "immunothérapie",
+            "immunotherapie"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos des tumeurs vésicales :",
+          "choix": [
+            "A) Une tumeur vésicale et une tumeur urétérale ont la même origine histologique",
+            "B) La tumeur vésicale est le plus souvent en France un carcinome épidermoïde.",
+            "C) Une cytologie urinaire négative permet d’éliminer un cancer vésical.",
+            "D) Une échographie des voies urinaires normale permet d’éliminer un cancer vésical.",
+            "E) Une tumeur de vessie ne peut donner des symptomes de la phase de stockage."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de la lithiase:",
+          "choix": [
+            "A) Calcul et lithiase sont synonymes.",
+            "B) La colique nephretique est le signe d’une maladie lithiasique.",
+            "C) La colique nephretique est une douleur secondaire à la mise en tension des voies excrétrices supérieures.",
+            "D) En cas de colique nephretique la dilatation des cavités pyélocalicielles est un signe de gravité.",
+            "E) La douleur de colique néphrétique est une douleur lombaire est unilatérale, brutale et intense avec une irradiation antérieure et oblique vers la fosse iliaque et vers les organes génitaux externes."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300906764-525dbfb663893",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous voyez aux urgences Monsieur P, 76 ans.\nIl a présenté des troubles du rythme cardiaque et prend un traitement par coumadine. Il fume depuis qu’il a 15 ans. Il est terrorisé, il a du sang dans les urines. Ce n’est pas la première fois que ça lui arrive mais cette fois ci elles sont « vraiment rouges » et il a l’impression de devoir aller uriner toutes les 5 minutes…à force il a mal au ventre.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Votre externe est assez vif et il vous suggère toute une liste d’étiologie d’hématurie macroscopique, lesquelles sont possibles ? (6 réponses attendues)",
+          "choix": [
+            "A) Infection urinaire",
+            "B) Syndrome de la vessie neurologique",
+            "C) Tumeur du rein",
+            "D) Tumeur de la vessie",
+            "E) Tumeur de la prostate",
+            "F) Lithiase urinaire",
+            "G) Bilharziose urinaire",
+            "H) Dyssynergie vesico sphinctérienne",
+            "I) Fracture du rein"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "I"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il est stable hémodynamiquement, il a expulsé quelques caillots cet après-midi et il est en rétention urinaire. Que faites-vous en urgence ? (5 réponses attendues)",
+          "choix": [
+            "A) Pose de sonde uretro vésicale",
+            "B) Pose de cystocathéter",
+            "C) Décaillotage vésical manuel à la seringue",
+            "D) NFS",
+            "E) Dosage de la créatininémie",
+            "F) Cystoscopie",
+            "G) Mise en place d’irrigations intra vésicales"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’examen d’imagerie le plus performant pour explorer les voies urinaires supérieures ?",
+          "choix": [],
+          "reponses": [
+            "UroTDM",
+            "Uroscanner",
+            "Scanner injecté avec temps tardif",
+            "Scanner injecté 4 temps",
+            "Urotomodensitométrie",
+            "Urotomodensitometrie",
+            "Uro tomodensitométrie",
+            "Uro tomodensitometrie",
+            "Uro TDM",
+            "Uro scanner",
+            "Uro-scanner",
+            "Uro-TDM",
+            "Uro-tomodensitometrie",
+            "Uro-tomodensitométrie",
+            "uroscan",
+            "uro scan",
+            "scanner injecté au temps tardif",
+            "scanner à 4 temps",
+            "Uro scanner en 4 temps",
+            "uroscann",
+            "scanner injecté temps tardif",
+            "uro scanner = TDM abdomino-pelvien injecté au temps tardif",
+            "Uroscanner (temps tardif)",
+            "Uro-TDM (avec produit de contraste)"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300909629-ebca7c03bfd0c8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous voyez en consultation Monsieur P, 66 ans.\nIl est en bon état général.\nIl présente comme principaux antécédents une hypertension artérielle sous beta bloquant et une dyslipidémie sous statine.\nDepuis plusieurs mois, il présente des difficultés mictionnelles. En effet, il se lève plusieurs fois la nuit pour uriner, il doit forcer pour débuter la miction et le jet est devenu faible.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la symptomatologie, à partir des données ci-dessus :",
+          "choix": [
+            "A) Le patient présente des symptômes de la phase de vidange.",
+            "B) Le patient présente des symptômes de la phase de stockage.",
+            "C) Le patient présente des symptômes de la phase post mictionnelle.",
+            "D) Le patient présente une pollakiurie nocturne.",
+            "E) Le patient présente une polyurie nocturne."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour mieux comprendre la symptomatologie du patient que proposez-vous ? (Rang B)",
+          "choix": [
+            "A) Vous lui demandez de faire un calendrier mictionnel.",
+            "B) Vous lui demandez de noter pendant 2 à 3 jours l’heure et le volume de chaque miction.",
+            "C) Vous lui proposez de lui faire un toucher rectal.",
+            "D) Vous lui examinez le périné.",
+            "E) Vous lui examinez le méat uretral."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le calendrier mictionnel est le suivant :\nQu’en dites vous? (2 réponses attendues)",
+          "choix": [
+            "A) Il présente une polyurie.",
+            "B) Il présente une polyurie nocturne.",
+            "C) Il présente une pollakiurie.",
+            "D) Il présente une pollakiurie nocturne.",
+            "E) Il présente un syndrome clinique d’hyperactivité vésicale."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/urologie-s7/2024/q11.png?v=1786300910980"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Suite au calendrier mictionnel:",
+          "choix": [
+            "A) Vous recherchez une tumeur de vessie.",
+            "B) Vous recherchez un syndrome d’apnée du sommeil.",
+            "C) Vous recherchez une potomanie.",
+            "D) Vous recherchez une polydipsie.",
+            "E) Vous recherchez un diabète sucré."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste. Devant les symptômes du patient quel(s) examen(s) supplémentaire(s) proposez-vous de réaliser ?",
+          "choix": [
+            "A) Vous lui proposez un dosage du PSA.",
+            "B) Vous lui faites faire une débitmétrie.",
+            "C) Vous lui faites une mesure du résidu post mictionnel.",
+            "D) Vous lui faites faire un score IIEF5.",
+            "E) Vous lui faites faire un bilan urodynamique."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le toucher rectal est normal.\nConcernant ce patient : (2 réponses attendues)",
+          "choix": [
+            "A) Ses symptômes peuvent être liés à un cancer de la prostate.",
+            "B) Ses symptômes peuvent être liés à une hypertrophie prostatique.",
+            "C) L’hypertrophie prostatique est un facteur de risque de cancer de la prostate.",
+            "D) Le dosage du PSA nous permettra d’exclure un cancer.",
+            "E) A son âge l’hypertrophie bénigne de prostate est symptomatique dans 30% des cas."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

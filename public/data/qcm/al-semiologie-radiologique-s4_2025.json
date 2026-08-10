@@ -1,0 +1,649 @@
+{
+  "matiere": "Appareil locomoteur – Sémiologie radiologique",
+  "slug": "al-semiologie-radiologique-s4",
+  "annee": 2025,
+  "title": "Appareil locomoteur – Sémiologie radiologique - 2025",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels mots sont fréquemment utilisés par les patients pour décrire une douleur neuropathique ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Coup de poignard",
+            "B) Picotements",
+            "C) Fourmillements",
+            "D) Brûlures",
+            "E) Crampes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments permettent d’apprécier l’intensité de la douleur d’un patient ?",
+          "choix": [
+            "A) Quotation de la douleur sur une échelle visuelle analogique",
+            "B) Evaluation du retentissement fonctionnel",
+            "C) Appréciation d'une raideur articulaire",
+            "D) Recherche de craquements articulaires",
+            "E) Evaluation de la consommation en antalgiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) pathologie(s) peut(vent) concerner les structures d'un tendon ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Enthésite",
+            "B) Ténosynovite",
+            "C) Tendinite",
+            "D) Arthrite",
+            "E) Synovite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) situation(s) fait(font) évoquer une instabilité de l’épaule ?",
+          "choix": [
+            "A) Sulcus test positif",
+            "B) Ressaut douloureux de l’épaule",
+            "C) Douleur reproduite en position de l’armé",
+            "D) Cross-arm test positif",
+            "E) Manœuvre de Neer positive"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des amplitudes articulaires de l’épaule quelle(s) est(sont) la(es) proposition(s) juste(s) ?",
+          "choix": [
+            "A) L’amplitude normale de l’antépulsion est de 180°",
+            "B) L’amplitude normale de la rétropulsion est de 20°",
+            "C) L’amplitude normale de l’abduction est de 180°",
+            "D) L’amplitude normale de l’adduction est de 180°",
+            "E) L’amplitude normale de la rotation externe est de 20°"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) test(s) peuvent être utilisés pour sensibiliser l'examen de l'épicondylite latérale ? (une ou plusieurs réponse justes)",
+          "choix": [
+            "A) Fléchir le coude et mettre la main en extension et supination, puis étendre le coude",
+            "B) Fléchir le coude et mettre la main en flexion et pronation, puis étendre le coude",
+            "C) Fléchir le coude et mettre la main en flexion et supination, puis étendre le coude",
+            "D) S'opposer à l'extension du poignet lorsque le coude est étendu",
+            "E) S'opposer à la flexion du poignet lorsque le coude est étendu"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles structures et pathologies peuvent être recherchées à la palpation du compartiment médial du coude ? (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Epicondyle médial pour les épicondylites médiales",
+            "B) Epicondyle médial pour les arrachements osseux",
+            "C) Creux du coude pour la recherche d’un hygroma",
+            "D) Gouttière bicipitale où passe le nerf radial",
+            "E) Gouttière épitrochléo-olécraniene où passe le nerf médian"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les mouvements à réaliser pour apprécier la mobilité du poignet ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Dorsi-flexion",
+            "B) Inclinaison ulnaire",
+            "C) Pronation",
+            "D) Rotation interne",
+            "E) Rétropulsion"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle épineuse vertébrale peut être repérée en regard de la pointe de la scapula ?",
+          "choix": [
+            "A) T2",
+            "B) T4",
+            "C) T6",
+            "D) T8",
+            "E) T10"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle manœuvre permet de rechercher une irritation d’une racine nerveuse lors de son passage dans le foramen intervertébral, à l’étage cervical ?",
+          "choix": [
+            "A) Manœuvre de Léri",
+            "B) Manœuvre de Lasègue",
+            "C) Manœuvre de Vasalva",
+            "D) Manœuvre de compression (« Spurling »)",
+            "E) Manœuvre de Schober"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des empreintes plantaires statiques (examen au podoscope)",
+          "choix": [
+            "A) Le pied plat est un creusement (augmentation de la courbure) de l’arche médiale longitudinale du pied.",
+            "B) Le pied plat est fréquemment associé à un valgus de l’arrière pied.",
+            "C) Le pied plat correspond à un effondrement de la voûte plantaire",
+            "D) Le pied creux est un effondrement de l’arche médiale longitudinale du pied.",
+            "E) Le pied creux est fréquemment associé à un varus de l’arrière-pied."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de l’examen clinique de la cheville et du pied :",
+          "choix": [
+            "A) La recherche du poul tibial postérieur se réalise dans la gouttière rétromalléolaire latérale.",
+            "B) La recherche du poul pédieux (poul tibial antérieur) se réalise dans la gouttière rétromalléolaire médiale.",
+            "C) Le temps de recoloration cutanée s’évalue en mesurant le temps de rétablissement de la coloration cutanée après une pression digitale continue de l’examinateur pendant 5 secondes sur la peau du patient.",
+            "D) Un temps de recoloration cutanée de 4 secondes est physiologique.",
+            "E) Le reflexe ostéo-tendineux achiléen évalue la racine L4."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sémiologie Hanche",
+          "choix": [
+            "A) La hanche est une articulation de type tenon-mortaise.",
+            "B) La hanche comme l’épaule possède un labrum.",
+            "C) Le muscle le plus important pour stabiliser la hanche en appui unipodal est le psoas.",
+            "D) Le groupe musculaire antérieur de hanche permet l’extension de hanche.",
+            "E) Une luxation de hanche s’associe toujours à une rupture du ligament rond."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sémiologie Hanche",
+          "choix": [
+            "A) Une douleur latérale est typique d’une douleur de l’articulation coxo-fémorale.",
+            "B) Une douleur transfixiante irradiant dans la fesse est typique d’une douleur de l’articulation coxo-fémorale.",
+            "C) Une hernie inguinale peut être un diagnostic différentiel de douleur au pli de l’aine.",
+            "D) L’indice algofonctionnel de Pauwels permet d’apprécier la gène fonctionnelle d’une hanche.",
+            "E) Le score de Postel Merle d’Aubigné permet d’apprécier la gène fonctionnelle d’une hanche."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sémiologie Hanche",
+          "choix": [
+            "A) Un flexum de hanche peut être le témoin d’une hanche ankylosée.",
+            "B) Le signe de Trendelenburg traduit une insuffisance du moyen fessier.",
+            "C) Un membre fixé en flexion, abduction et rotation interne est le témoin d’une ankylose de hanche.",
+            "D) Le psoitis peut etre d'origine digestive",
+            "E) L’articulation de la hanche est facilement accessible à la palpation"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sémiologie Hanche",
+          "choix": [
+            "A) Dans le cadre d’une pathologie arthrosique, la rotation interne est l’amplitude articulaire la première limitée.",
+            "B) Un test d’adduction contrariée positif fait évoquer une tendinopathie du gluteus médius",
+            "C) Le test de FABER teste la hanche en flexion, abduction et rotation externe.",
+            "D) En cas de faiblesse du muscle moyen fessier, le test de Tredelenbour retrouve une ascension de l’hémi bassin contro-latéral.",
+            "E) Le test de la cale permet d’estimer une inégalité de longueur des membres inférieurs"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la mobilité articulaire du coude",
+          "choix": [
+            "A) La flexion-extension met en jeu les articulations huméro-radiale et huméro-ulnaire",
+            "B) La perte d’extension est souvent un signe de pathologie intra-articulaire.",
+            "C) Un épanchement articulaire du coude peut limiter l’extension articulaire.",
+            "D) La prono-supination est évaluée coude en extension",
+            "E) La prono-supination est évaluée coude en flexion à 90°",
+            "F) Réponse F"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17,
+          "neutralized": [
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les éléments de la préhension et les différentes prises",
+          "choix": [
+            "A) L’opposition du pouce est un élément fondamental pour la préhension",
+            "B) La concavité en arrière des métacarpiens facilite la préhension des objets dans la paume de la main",
+            "C) La prise pollici-digitale est une prise de précision",
+            "D) La prise de force digito-palmaire sollicite principalement l’index et le majeur",
+            "E) On décrit 3 arches (2 transversales et une longitudinale) au niveau de la paume afin de faciliter la préhension"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une arthrose du genou unicompartimentale fémoro-tibiale médiale peut être due à",
+          "choix": [
+            "A) une méniscectomie",
+            "B) un traumatisme avec fracture du plateau tibial médial",
+            "C) un genou valgum de plus de 10°",
+            "D) un genou varum de plus de 5°",
+            "E) un cal vicieux du fémur en varus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une luxation : donner toutes les réponses exactes",
+          "choix": [
+            "A) Est plus fréquente à l’épaule",
+            "B) Peut s’accompagner d’une fracture",
+            "C) Ne survient que sur prothèse",
+            "D) Est une des complications des prothèses de hanche",
+            "E) Entraine des lésions ligamentaires et capsulaires"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294087105-127e489f291f88",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 21,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez les radiographies rachidiennes suivantes (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Disque intervertébral\n2 Pédicule\n3 Articulation zygapophysaire postérieure 4 Processus épineux\n5 Espace interlamaire",
+          "choix": [
+            "Disque intervertébral",
+            "Pédicule",
+            "Articulation zygapophysaire postérieure",
+            "Processus épineux",
+            "Espace interlamaire"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 1,
+          "items": [
+            {
+              "id": "item-1786294088074-21bf7ad786f1",
+              "label": "1",
+              "correctAnswer": "Disque intervertébral"
+            },
+            {
+              "id": "item-1786294088193-5fa62180d7bf3",
+              "label": "2",
+              "correctAnswer": "Pédicule"
+            },
+            {
+              "id": "item-1786294088318-91aac552e3ebb8",
+              "label": "3",
+              "correctAnswer": "Articulation zygapophysaire postérieure"
+            },
+            {
+              "id": "item-1786294088438-7171738cfcf7d",
+              "label": "4",
+              "correctAnswer": "Processus épineux"
+            },
+            {
+              "id": "item-1786294088557-9938cc37796bd",
+              "label": "5",
+              "correctAnswer": "Espace interlamaire"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q21.png?v=1786294087453"
+          ]
+        },
+        {
+          "id": 22,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez l'IRM suivante (menu déroulant)\nNeutralisée\nÉlément à associer Réponse attendue\n1 Acétabulum (paroi antérieure) 2\n3 Nerf sciatique\n4 Tendon moyen fessier\n5 Muscle grand fessier",
+          "choix": [
+            "Acétabulum (paroi antérieure)",
+            "Nerf sciatique",
+            "Tendon moyen fessier",
+            "Muscle grand fessier",
+            "E) "
+          ],
+          "reponses": [],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 2,
+          "items": [
+            {
+              "id": "item-1786294089125-6f39a1fd06a79",
+              "label": "1",
+              "correctAnswer": "Acétabulum (paroi antérieure)"
+            },
+            {
+              "id": "item-1786294089251-fab59f5d86e34",
+              "label": "3",
+              "correctAnswer": "Nerf sciatique"
+            },
+            {
+              "id": "item-1786294089379-88036a579712d8",
+              "label": "4",
+              "correctAnswer": "Tendon moyen fessier"
+            },
+            {
+              "id": "item-1786294089510-3e89648082949",
+              "label": "5",
+              "correctAnswer": "Muscle grand fessier"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q22.png?v=1786294088576"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez la radiographie suivante (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Scaphoïde\n2 Base du 1er métacarpien 3 Trapèze\n4 Lunatum\n5 Capitatum",
+          "choix": [
+            "Scaphoïde",
+            "Base du 1er métacarpien",
+            "Trapèze",
+            "Lunatum",
+            "Capitatum"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 3,
+          "items": [
+            {
+              "id": "item-1786294090331-8acda3b18a8e",
+              "label": "1",
+              "correctAnswer": "Scaphoïde"
+            },
+            {
+              "id": "item-1786294090465-f085be8708f8e",
+              "label": "2",
+              "correctAnswer": "Base du 1er métacarpien"
+            },
+            {
+              "id": "item-1786294090598-86dda8a90e39",
+              "label": "3",
+              "correctAnswer": "Trapèze"
+            },
+            {
+              "id": "item-1786294090731-60cc51add35d58",
+              "label": "4",
+              "correctAnswer": "Lunatum"
+            },
+            {
+              "id": "item-1786294090872-fd87b3496e462",
+              "label": "5",
+              "correctAnswer": "Capitatum"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q23.png?v=1786294089678"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez l’IRM suivante (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Muscle deltoïde\n2 Muscle trapèze\n3 Muscle petit rond\n4 Epine de la scapula 5 Muscle grand pectoral",
+          "choix": [
+            "Muscle deltoïde",
+            "Muscle trapèze",
+            "Muscle petit rond",
+            "Epine de la scapula",
+            "Muscle grand pectoral"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 4,
+          "items": [
+            {
+              "id": "item-1786294091533-c1c19e36ba6cb",
+              "label": "1",
+              "correctAnswer": "Muscle deltoïde"
+            },
+            {
+              "id": "item-1786294091672-66fe95aad3f0f",
+              "label": "2",
+              "correctAnswer": "Muscle trapèze"
+            },
+            {
+              "id": "item-1786294091832-7be1e678da2598",
+              "label": "3",
+              "correctAnswer": "Muscle petit rond"
+            },
+            {
+              "id": "item-1786294091972-273d1c9281cfb8",
+              "label": "4",
+              "correctAnswer": "Epine de la scapula"
+            },
+            {
+              "id": "item-1786294092121-f003ace306fa68",
+              "label": "5",
+              "correctAnswer": "Muscle grand pectoral"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q24.png?v=1786294090921"
+          ]
+        },
+        {
+          "id": 25,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez l'IRM suivante (menu déroulant)\nÉlément à associer Réponse attendue\n1 Condyle de l'humérus\n2 Tendon du triceps\n3 Muscle brachial\n4 Nerf médian et artère brachiale 5 Nerf ulnaire",
+          "choix": [
+            "Condyle de l'humérus",
+            "Tendon du triceps",
+            "Muscle brachial",
+            "Nerf médian et artère brachiale",
+            "Nerf ulnaire"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "items": [
+            {
+              "id": "item-1786294094070-7f85b1a5de06b8",
+              "label": "1",
+              "correctAnswer": "Condyle de l'humérus"
+            },
+            {
+              "id": "item-1786294094216-20edb0d9f8954",
+              "label": "2",
+              "correctAnswer": "Tendon du triceps"
+            },
+            {
+              "id": "item-1786294094360-9055283a516848",
+              "label": "3",
+              "correctAnswer": "Muscle brachial"
+            },
+            {
+              "id": "item-1786294094505-047b7ccd756c9",
+              "label": "4",
+              "correctAnswer": "Nerf médian et artère brachiale"
+            },
+            {
+              "id": "item-1786294094665-90fac254ada358",
+              "label": "5",
+              "correctAnswer": "Nerf ulnaire"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q25.png?v=1786294093118"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

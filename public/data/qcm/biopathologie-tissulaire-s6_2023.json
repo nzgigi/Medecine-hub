@@ -1,0 +1,748 @@
+{
+  "matiere": "Biopathologie tissulaire",
+  "slug": "biopathologie-tissulaire-s6",
+  "annee": 2023,
+  "title": "Biopathologie tissulaire - 2023",
+  "total_questions": 36,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On découvre chez une patiente de multiples métastases hépatiques d’un adénocarcinome mucisécrétant. Quelles sont les origines possibles de ce cancer ?",
+          "choix": [
+            "A) un mélanome",
+            "B) un cancer de la vessie",
+            "C) un cancer de l’ovaire",
+            "D) un cancer gastrique",
+            "E) un cancer du rectum"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On découvre chez une patiente une carcinose péritonéale. Quelles sont les origines possibles de ce cancer ?",
+          "choix": [
+            "A) un cancer gastrique",
+            "B) un cancer de la thyroïde",
+            "C) un cancer colique",
+            "D) un cancer du pancréas",
+            "E) un cancer de l’ovaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la proposition juste qui s’applique à la prise en charge d’une biopsie tissulaire adressée fixée, à son arrivée dans le service d’Anatomie Pathologique ?",
+          "choix": [
+            "A) elle est mise en cassette et immédiatement coupée",
+            "B) elle est mise en cassette, coupée, colorée et étalée sur lame",
+            "C) elle est mise en cassette, imprégnée et incluse en paraffine, puis coupée, colorée et étalée sur lame",
+            "D) elle est mise en cassette, déshydratée, imprégnée et incluse en paraffine, puis coupée, colorée et étalée sur lame",
+            "E) elle est imprégnée et incluse en paraffine, puis coupée, colorée et étalée sur lame"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes qui s’appliquent à une pièce opératoire d’exérèse cutanée pour tumeur maligne?",
+          "choix": [
+            "A) elle est encrée au niveau des limites d’exérèse avant recoupe macroscopique",
+            "B) elle est recoupée en prenant en compte le repérage dans l’espace fait par le chirurgien, pour mesurer les marges d’exérèse",
+            "C) elle est accompagnée du bon de demande d’examen histopathologique, parvenu anonymisé au laboratoire",
+            "D) elle fait l’objet de prélèvements uniquement ciblés sur la tumeur",
+            "E) lorsque les lames seront interprétées par le pathologiste, le diagnostic le plus probable sera celui d’adénocarcinome"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen microscopique d’une tumeur permet de diagnostiquer un mélanome. Au cours du suivi du patient, une image pulmonaire suspecte est découverte. La biopsie de cette lésion montre sur l’hémalun éosine une prolifération cellulaire maligne indifférenciée. Quels sont les outils de routine que le pathologiste peut mettre en œuvre pour typer plus précisément cette tumeur ?",
+          "choix": [
+            "A) coloration du Fontana",
+            "B) coloration de Perls",
+            "C) étude immunohistochimique à l’aide notamment de marqueurs mélanocytaires",
+            "D) aucun car le diagnostic de tumeur maligne indifférenciée est suffisant pour la prise en charge du patient",
+            "E) étude en microscopie électronique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’examen microscopique d’une tumeur permet de diagnostiquer un mélanome. Au cours du suivi du patient, une image pulmonaire suspecte est découverte. La biopsie de cette lésion montre qu’il s’agit de la métastase du mélanome connu.\nQuelle est la mutation fréquemment retrouvée dans le mélanome, susceptible d’être inhibée par une thérapie ciblée",
+          "choix": [
+            "A) Mutation de KRAS",
+            "B) Mutation de BRAF",
+            "C) Mutation de p53",
+            "D) Mutation de APC",
+            "E) Mutation de MDM2"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles techniques permettent d’établir le statut de HER2 dans un adénocarcinome mammaire?",
+          "choix": [
+            "A) Séquençage",
+            "B) Immunohistochimie",
+            "C) FISH (hybridation fluorescente in situ)",
+            "D) Immunoenzymologie",
+            "E) RT-PCR"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’hyperplasie endométriale, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Il s’agit d’une augmentation du nombre de cellules dans la muqueuse endométriale",
+            "B) C’est une tumeur bénigne fréquente",
+            "C) Elle est souvent secondaire à un déséquilibre hormonal",
+            "D) Elle est caractérisée par la présence d’anisocaryose et de mitoses anormales",
+            "E) Elle est liée à une mutation du gène codant le récepteur aux œstrogènes."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des tumeurs, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Les cellules du stroma tumoral partagent les mêmes anomalies génétiques que les cellules tumorales",
+            "B) Une tumeur bénigne est caractérisée par une bonne différenciation et une croissance lente",
+            "C) Une tumeur bénigne ne donne jamais de métastase",
+            "D) Une tumeur maligne est généralement mal limitée",
+            "E) Une tumeur maligne invasive ne récidive jamais si l’exérèse initiale est complète"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos des tumeurs, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Un papillome est une tumeur bénigne conjonctive",
+            "B) Un angiome est une tumeur bénigne conjonctive",
+            "C) Un léiomyosarcome est une tumeur maligne conjonctive qui dérivent des cellules musculaires striées",
+            "D) Un lipome est souvent caractérisé par une amplification du gène MDM2 que l’on peut mettre en évidence par FISH",
+            "E) Un lipome peut se transformer en liposarcome en absence de traitement."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du dépistage",
+          "choix": [
+            "A) Le but est de détecter un cancer au stade avancé",
+            "B) Le mélanome fait l’objet d’un dépistage organisé",
+            "C) Un dépistage individuel des cancers de la cavité buccale peut être proposé chez les patients à risque",
+            "D) Le dépistage du cancer de la prostate est uniquement clinique",
+            "E) Le test immunologique utilisé dans le dépistage du cancer colorectal est un test peu sensible mais très spécifique pour détecter une tumeur colorectale"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les organes le plus souvent atteints lors d’un cancer du poumon métastatique ?",
+          "choix": [
+            "A) Os",
+            "B) Foie",
+            "C) Rein",
+            "D) Surrénale",
+            "E) Cerveau"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les carcinomes épidermoïdes, quelles sont les réponses justes ?",
+          "choix": [
+            "A) Ils se développent uniquement sur la peau",
+            "B) Ils peuvent se développer à partir de certaines muqueuses comme l’œsophage et la bouche",
+            "C) C’est un cancer fréquent dans la sphère ORL",
+            "D) Ce sont des cancers lymphophiles (qui donnent fréquemment des métastases ganglionnaires)",
+            "E) C’est une maladie purement loco-régionale qui ne donne jamais de métastase viscérale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Qu’est-ce qu’un goître thyroïdien ?",
+          "choix": [
+            "A) Un processus réactionnel à un dysfonctionnement thyroïdien",
+            "B) Une métaplasie conjonctive de la thyroïde",
+            "C) une tumeur cancéreuse",
+            "D) Une lésion pré-cancéreuse",
+            "E) Une hypertrophie thyroïdienne"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les examens complémentaires que le pathologiste peut utiliser sur coupes histologiques pour détecter la présence d’un agent infectieux",
+          "choix": [
+            "A) une étude immunohistochimique",
+            "B) une coloration spéciale type PAS",
+            "C) une hybridation in situ",
+            "D) une étude en PCR",
+            "E) une coloration de Perls"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’amylose est",
+          "choix": [
+            "A) Une surcharge en fibre de collagène",
+            "B) Une surcharge intra-cellulaire de filaments du cytosquelette",
+            "C) Une surcharge extra-cellulaire d’un dépôt protéique insoluble",
+            "D) Bien mise en évidence par la coloration du rouge Congo",
+            "E) Bien mise en évidence par la coloration du trichrome de Masson"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’embolie",
+          "choix": [
+            "A) Correspond au transfert d’un élément étranger dans le sang et à son blocage dans une lumière vasculaire",
+            "B) Est le plus souvent graisseuse",
+            "C) Peut compliquer une thrombose",
+            "D) Peut être à l’origine de la dissémination de la maladie cancéreuse",
+            "E) Peut être d’origine athéromateuse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La maladie de Horton :",
+          "choix": [
+            "A) est une artérite granulomateuse gigantocellulaire",
+            "B) est diagnostiquée à l'aide d'une biopsie de l’artère temporale",
+            "C) peut toucher les trois tuniques d'un vaisseau",
+            "D) atteint uniquement les artères de petit calibre",
+            "E) on trouve le plus souvent des calcifications dans la paroi de l’artère"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294613606-e009ea28d606a",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Une patiente de 27 ans consulte son médecin gynécologue dans le cadre du dépistage du cancer du col utérin.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les types suivants, quels types d’épithélium retrouve-t-on au niveau du col utérin normal?",
+          "choix": [
+            "A) épithélium glandulaire non mucisécrétant",
+            "B) épithélium glandulaire mucisécrétant",
+            "C) épithélium malpighien kératinisé",
+            "D) épithélium malpighien non kératinisé",
+            "E) épithélium transitionnel"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le dépistage du cancer du col utérin, lesquelles sont justes ? (QRM)",
+          "choix": [
+            "A) Il est obligatoire",
+            "B) Il s’adresse à toutes les femmes",
+            "C) Il s’adresse uniquement aux femmes ayant des facteurs de risque",
+            "D) Il est recommandé à toutes les femmes à partir de 25 ans",
+            "E) Il est réalisé par l’examen cytologique du frottis cervico-utérin ou par test HPV sur le frottis, selon l’âge de la patiente"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles lésions le pathologiste peut-il constater sur un frottis cervico-utérin ?",
+          "choix": [
+            "A) Un carcinome malpighien (=épidermoïde) infiltrant",
+            "B) Des koïlocytes",
+            "C) Une inflammation",
+            "D) Des cellules malpighiennes atypiques",
+            "E) Des cellules glandulaires atypiques"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant la présence de cellules malpighiennes atypiques, une biopsie sous colposcopie est réalisée. Comment le médecin gynécologue doit-il faire parvenir la biopsie au pathologiste ?",
+          "choix": [
+            "A) Biopsie fraiche pour cryopréservation",
+            "B) Biopsie fixée en acétone",
+            "C) Biopsie fixée en formol tamponné à 10%",
+            "D) Accompagnée d’une fiche de renseignements, anonymisée",
+            "E) Etalée sur une lame"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant la présence de cellules malpighiennes atypiques, une biopsie sous colposcopie est réalisée. La conclusion du pathologiste est la suivante : « CIN3 ». Parmi les propositions suivantes, lesquelles sont justes ?",
+          "choix": [
+            "A) CIN signifie néoplasie cervicale intra-épithéliale",
+            "B) Le chiffre indique le grade de la lésion",
+            "C) Le chiffre indique le stade de la lésion",
+            "D) Le traitement consiste en une conisation",
+            "E) Un traitement par destruction au laser peut être proposé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’histoire naturelle de ce cancer, quelles sont les propositions justes?",
+          "choix": [
+            "A) 100% des cancers de l’exocol utérin sont associés à une infection par HPV",
+            "B) La séquence de carcinogenèse est la suivante : Epithélium normal/infection HPV/CIN1/CIN2/CIN3/ carcinome malpighien infiltrant",
+            "C) Les protéines E6 et E7 de HPV sont très fortement exprimées dans la phase de CIN1",
+            "D) Les protéines E6 et E7 de HPV sont très fortement exprimées dans la phase de CIN3",
+            "E) L’infection des cellules basales se fait par le génome de HPV sous forme épisomale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294617462-462970f3e24478",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un homme de 58 ans, consulte son médecin pour une hémoptysie depuis une semaine dans un contexte d’altération de l’état général. L’interrogatoire retrouve une consommation tabagique et un antécédent de mélanome opéré il y a 5 ans.\nLe scanner thoracique montre une masse suspecte de 6 cm du lobe inférieur droit.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les hypothèses diagnostiques ?",
+          "choix": [
+            "A) Une pneumopathie franche lobaire aigue",
+            "B) Une métastase du mélanome",
+            "C) Un cancer broncho-pulmonaire primitif",
+            "D) Une embolie pulmonaire",
+            "E) Une sarcoïdose"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une biopsie de la masse pulmonaire est réalisée pour examen anatomopathologique.\nQuelle coloration de première intention le pathologiste va-t-il réaliser ?",
+          "choix": [
+            "A) Une coloration de Masson",
+            "B) Une coloration de Rouge Congo",
+            "C) Une coloration de PAS",
+            "D) Une coloration à l’Hémalun Eosine",
+            "E) Une coloration au Bleu Alcian"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’examen histologique de la biopsie révèle une prolifération tumorale constituée de massifs de cellules cohésives renfermant des globes cornés.\nQuel est votre diagnostic ?",
+          "choix": [
+            "A) Une métastase du mélanome",
+            "B) Un adénocarcinome",
+            "C) Un carcinome épidermoïde",
+            "D) Un lymphome",
+            "E) Un sarcome"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan d’extension ne montre pas d’autre localisation. Une résection chirurgicale par lobectomie inférieure droite avec examen extemporané sur la recoupe bronchique est pratiquée. Quel est le principe de l’examen extemporané ?",
+          "choix": [
+            "A) Il s’agit d’un prélèvement réalisé pendant la chirurgie qui sera analysé rapidement dans les 24h par le pathologiste",
+            "B) Cet examen nécessite une fixation en formol dans un premier temps",
+            "C) Cet examen nécessite une congélation du prélèvement",
+            "D) Les résultats de cet examen peuvent modifier le geste chirurgical",
+            "E) Le résultat donné au chirurgien est un résultat provisoire qui sera contrôlé après fixation du prélèvement"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’analyse de la tumeur sur la pièce opératoire, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Le pathologiste va réaliser un seul prélèvement sur la tumeur",
+            "B) Dans le stade TNM, le « M » renseigne la présence ou non de métastase ganglionnaire",
+            "C) Le grade d’une tumeur est lié au degré de différenciation des cellules tumorales",
+            "D) Une anisocaryose importante et des mitoses nombreuses sont des critères de haut grade",
+            "E) L’analyse des marges d’exérèse n’est pas recommandée pour le cancer du poumon"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des anomalies moléculaires dans le cancer du poumon, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Des mutations inactivatrices du gène EGFR sont retrouvées dans certains cancers non à petites cellules du poumon",
+            "B) La présence d’une mutation du gène EGFR influence le traitement du patient",
+            "C) La présence de mutations du gène EGFR se recherche en immunohistochimie",
+            "D) La recherche de mutation du gène EGFR se recherche par séquençage de l’ADN tumoral",
+            "E) La majorité des cancers du poumon sont liés à une seule anomalie génétique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294620855-d2844c56f7454",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "Homme de 68 ans , porteur d’une hépatite chronique virale B mal traitée, présente une importante ascite. Une ponction d’ascite est réalisée puis une biopsie hépatique est envisagée.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la ponction d’ascite, quelles sont les réponses justes ?",
+          "choix": [
+            "A) Il s’agit avant tout d’une ponction évacuatrice",
+            "B) Cette ponction permet également une analyse cytologique",
+            "C) Elle est réalisée à l’aide d’un trocart de Mallarmé au bloc opératoire",
+            "D) Elle est réalisée par ponction à l’aiguille au lit du malade",
+            "E) Elle nécessite au moins 500 ml pour une analyse cytologique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 32,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Après assèchement de l’ascite, une biopsie hépatique est réalisée qui permet de porter le diagnostic de cirrhose. Concernant la cirrhose, quelle est la proposition juste?",
+          "choix": [
+            "A) C’est une métaplasie",
+            "B) C’est un processus hypertrophique d’adaptation à un stimulus hormonal",
+            "C) Elle est responsable d’une hépatomégalie souple , lisse",
+            "D) C’est une fibrose qui respecte l’architecture du foie",
+            "E) C’est une fibrose mutilante qui s’accompagne d’une régénération nodulaire du parenchyme"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’hépatite virale B , quelles sont les propositions justes ?",
+          "choix": [
+            "A) Non traitées, les hépatites chroniques virales B évoluent vers la cirrhose",
+            "B) Le virus de l’hépatite B est oncogène",
+            "C) Dans l’hépatite chronique virale B, l’inflammation est aigue avec œdème et nombreux polynucléaires , sans lymphocytes",
+            "D) Dans l’hépatite chronique virale B, l’inflammation est riche en lymphocytes et plasmocytes avec de la nécrose des hépatocytes",
+            "E) Le virus de l’hépatite B peut être mis en évidence dans le foie par immunohistochimie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les risques évolutifs d’une cirrhose ?",
+          "choix": [
+            "A) Régression complète dans la majorité des cas",
+            "B) Décompensation oedémato-ascitique",
+            "C) Hypertension portale",
+            "D) Transformation amyloïde des fibres de collagène",
+            "E) Carcinome hépatocellulaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les étiologies suivantes, lesquelles peuvent être responsables d’une cirrhose si la maladie n’est pas traitée?",
+          "choix": [
+            "A) L’hépatite virale chronique C",
+            "B) L’hépatite virale A",
+            "C) Les hépatites chroniques auto-immunes",
+            "D) L’alcool",
+            "E) La maladie de Wilson (surcharge en cuivre)"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les tumeurs hépatiques, quelles sont les réponses justes ?",
+          "choix": [
+            "A) Le carcinome hépatocellulaire est la forme la plus fréquente des tumeurs hépatiques primitives",
+            "B) Le carcinome hépatocellulaire se développe essentiellement sur cirrhose",
+            "C) Le foie est fréquemment le siège de métastase",
+            "D) Une biopsie est utile pour distinguer un carcinome hépatocellulaire d’une métastase",
+            "E) Les cancers digestifs et ceux de la cavité abdominale donnent fréquemment des métastases hépatiques par drainage de la veine porte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,438 @@
+{
+  "matiere": "Tissu sanguin – Immunologie",
+  "slug": "ts-immunologie-s6",
+  "annee": 2023,
+  "title": "Tissu sanguin – Immunologie - 2023",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des déficits immunitaires :",
+          "choix": [
+            "A) Le déficit immunitaire secondaire au sepsis peut persister pendant des années",
+            "B) Le déficit sélectif en IgA est rarissime",
+            "C) Le diagnostic du déficit immunitaire commun variable exige la présence d’une hypogammaglobulinémie persistante",
+            "D) Les patients présentant des neutropénies constituent ce qu’on appelle des « bébés-bulle »",
+            "E) La splénectomie prédispose aux infections sévères à bactéries pyogènes"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’immunothérapie anti-tumorale :",
+          "choix": [
+            "A) Les anticorps anti-CD20 bloquent l’activation des lymphocytes B en se fixant sur le BCR",
+            "B) Il existe des protocoles de vaccination anti-tumorale prophylactiques",
+            "C) Les anticorps thérapeutiques anti-PD1 ont une action activatrice des lymphocytes T",
+            "D) Les cellules CAR-T sont basées sur des lymphocytes T modifiés du patient",
+            "E) Les immunothérapies par inhibiteurs de point de contrôle immunitaire induisent de nombreux effets secondaires de nature immunologique"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Question annulée — énoncé absent de l'export UNESS.",
+          "choix": [
+            "A) Il présente une hyperlymphocytose physiologique",
+            "B) Il présente un défaut de production d’IgG",
+            "C) Il présente un défaut de maturation des réponses humorales anti-pneumococciques",
+            "D) Il présente une neutropénie physiologique",
+            "E) Il présente des réponses Th1 abaissées"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des maladies auto-immunes :",
+          "choix": [
+            "A) Les hommes sont généralement plus atteints par les maladies auto-immunes que les femmes",
+            "B) En dehors de toute pathologie, les femmes et les hommes présentent des différences en nombre absolu de cellules immunes",
+            "C) Des lymphocytes auto-réactifs matures circulants sont présents chez les individus sains et peuvent produire des auto-anticorps",
+            "D) Toutes les maladies auto-immunes peuvent se déclencher à tout âge",
+            "E) Les lymphocytes autoréactifs traversent la barrière placentaire et peuvent être responsable de symptômes néo-nataux"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la transplantation d’organes en France:",
+          "choix": [
+            "A) En France, les greffes d’organes sont le plus souvent faites grâce à une personne donneuse dite « décédée, à cœur arrêté ».",
+            "B) Les traitements immunosuppresseurs ciblant les lymphocytes T permettent de s’affranchir de la compatibilité dans le système ABO.",
+            "C) La recherche d’une identité entre donneur et receveur au niveau des gènes du CMH est le principal obstacle à la greffe d’organe.",
+            "D) L’âge moyen des donneurs d’organes se situe entre 30 et 35 ans.",
+            "E) Le rejet aigu est le plus souvent bien contrôlé par le traitement immunosuppresseur."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la greffe de moelle osseuse en France:",
+          "choix": [
+            "A) Peut être proposée au cours du traitement de certaines leucémies.",
+            "B) La maladie du greffon contre l’hôte est toujours bénigne, sauf dans le cas où donneur et receveur sont des jumeaux monozygotes.",
+            "C) Présente un risque de rejet hyper-aigu.",
+            "D) Pour une allogreffe, la recherche d’un donneur compatible débute en général au sein la fratrie.",
+            "E) Il existe en France un registre de refus du don de moelle osseuse."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos d’une immunoglobuline monoclonale :",
+          "choix": [
+            "A) son étiologie la plus fréquente est le myélome",
+            "B) elle peut s’observer au cours d’un déficit immunitaire acquis",
+            "C) elle est associée à des signes cliniques évocateurs dans la majorité des cas",
+            "D) sa fréquence diminue avec l’âge",
+            "E) un signe d’alerte peut être une insuffisance rénale"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du diagnostic et du suivi biologique d’une immunoglobuline monoclonale :",
+          "choix": [
+            "A) une électrophorèse normale exclut la présence d’une immunoglobuline monoclonale",
+            "B) l’immunofixation est plus sensible que l’électrophorèse",
+            "C) en cas de présence d’un pic à l’électrophorèse, la recherche d’une infiltration plasmocytaire dans la moelle osseuse est inutile",
+            "D) le dosage pondéral des chaînes légères libres est indiqué pour le diagnostic d’un myélome",
+            "E) le suivi se fait par la quantification du pic à l’électrophorèse"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos d’une immunoglobuline monoclonale :",
+          "choix": [
+            "A) elle est produite par un clone de lymphocytes B",
+            "B) elle peut s’observer en l’absence de tout signe clinique",
+            "C) elle peut être constituée d’une chaine légère libre seule",
+            "D) elle est fréquente chez le sujet jeune",
+            "E) il s’agit le plus souvent d’une IgM"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans l’hypersensibilité de type I :",
+          "choix": [
+            "A) Les IgE circulantes ont une demi-vie plasmatique de l’ordre d’une semaine.",
+            "B) Les cellules productrices d’IgE peuvent être localisées dans la moelle osseuse.",
+            "C) Après une phase de sensibilisation à un allergène, l’introduction de cet allergène dans l’organisme peut induire la dégranulation brutale des mastocytes tissulaires.",
+            "D) La présence, chez un individu, d’IgE spécifiques d’un allergène indique que celui-ci est allergique à cet allergène.",
+            "E) L’histamine est un médiateur néoformé de la réaction allergique, et est relarguée de façon retardée par les cellules effectrices."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic de l’allergie, indiquez le caractère vrai ou faux des propositions suivantes :",
+          "choix": [
+            "A) Le dosage des IgE totales peut permettre d’identifier le ou les allergènes responsables des symptômes d’allergie chez un patient",
+            "B) Les tests cutanés, ou « prick-tests », doivent être interprétés environ 15 min après administration de l’allergène.",
+            "C) Un test cutané positif chez un patient pour un allergène donné indique que ce patient est sensibilisé vis-à-vis de cet allergène.",
+            "D) Un test de provocation par voie orale permet d’authentifier une allergie alimentaire.",
+            "E) le dosage quantitatif des IgG spécifiques d’un allergène est indispensable au diagnostic d’une allergie à cet allergène."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des thérapies ciblées:",
+          "choix": [
+            "A) Le sérums anti-lymphocytaire est composé d’Ac polyclonaux animaux, utilisé pour ses propriétés immuno-substitutives.",
+            "B) L’administration d’Ac monoclonaux thérapeutiques anti-TNF nécessite la réalisation préalable chez le patient d’un test Quantiferon® (recommandation HAS).",
+            "C) Le caractère cytotoxique des anticorps monoclonaux thérapeutiques est dépendant de leur isotype.",
+            "D) Les Immunoglobulines thérapeutiques polyvalentes (ou IVIg) sont des médicaments dérivés du sang stables.",
+            "E) Les protéines de fusion, comme l’etanercept, possède une portion Fc d’immunoglobuline."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des thérapies ciblées:",
+          "choix": [
+            "A) Le rituximab est un Ac monoclonal thérapeutique anti-CD20 capable d’induire la cytotoxicité dépendante des Ac (ADCC) des lymphocytes B.",
+            "B) L’immunisation des patients contre les Ac monoclonaux thérapeutique anti-TNF injectés, peut être responsable de résistances au traitement.",
+            "C) Le tebentafusp est un Ac monoclonal thérapeutique ciblant les cellules de mélanome.",
+            "D) Les Ac monoclonaux thérapeutiques anti-PD1, comme le nivolumab, permettent de lever l’inhibition du lymphocyte T.",
+            "E) Les inhibiteurs de tyrosine kinase sont des Ac monoclonaux thérapeutiques qui pénètrent à l’intérieur de la cellule pour inhiber des voies de transduction cellulaire activatrices."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la vaccination et des vaccins anti-infectieux :",
+          "choix": [
+            "A) La vaccination contre la rubéole fait partie des 11 vaccins obligatoires en France, à réaliser dans les 18 premiers mois de l’enfant.",
+            "B) La vaccination contre le tétanos n’est plus recommandée à partir de l’âge de 60 ans.",
+            "C) La vaccination contre le Papillomavirus est recommandée chez les adolescent masculin et féminin.",
+            "D) Il n’existe pas en France de vaccin disponible contre le sérotype B du méningocoque.",
+            "E) La vaccination par le BCG n’est plus obligatoire mais reste recommandée dans certaines régions françaises (Mayotte, Guyane et Ile de France)."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des facteurs prédisposants ou déclenchant une maladie auto-immune :",
+          "choix": [
+            "A) La présence d'un haplotype HLA à risque est systématique chez les patients atteints de maladie auto-immune",
+            "B) Les rayons ultra-violets agissent sur les cellules dendritiques et peuvent être impliqués dans la survenue de maladies auto-immunes",
+            "C) la testostérone est la principale hormone sexuelle agissant sur les cellules immunitaires",
+            "D) Certains médicaments induisent le développement de maladies auto-immunes",
+            "E) il existe des prédispositions génétiques communes à différentes maladies auto-immunes"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300561470-0e5f40e4a8eec",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez une patiente de 50 ans qui se plaint de douleurs inhabituelles dans les mains survenant au froid",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez l'existence d'un phénomène de Raynaud. Comment reconnaissez vous cette maladie?",
+          "choix": [
+            "A) il existe une phase syncopale caractérisée par l'aspect cyanique ('bleu') des doigts",
+            "B) la phase syncopale est suivie d'une phase d'érythème douloureux",
+            "C) les symptômes sont déclenchés ou aggravés par le froid",
+            "D) les symptômes peuvent aussi toucher les cuisses",
+            "E) aucune réponse n'est exacte"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "la patiente éprouve également le besoin de boire abondamment en raison d'une impression permanente de sécheresse buccale. Vous suspectez un syndrome sec auto-immun. Quels symptômes peut on attribuer à cette maladie?",
+          "choix": [
+            "A) présence d'une rougeur oculaire",
+            "B) impression de prurit oculaire",
+            "C) toux sèche",
+            "D) difficulté à déglutir les aliments",
+            "E) larmoiement oculaire au printemps"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez un bilan biologique. Parmi les anomalies suivantes, laquelle ou lesquelles sont habituelles au cours du syndrome sec primaire (maladie de Gougerot)",
+          "choix": [
+            "A) hyperleucocytose à lymphocytes activés",
+            "B) éosinophilie",
+            "C) neutropénie",
+            "D) hypergammaglobulinémie polyclonale",
+            "E) insuffisance rénale rapidement évolutive"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "vous demandez des tests immunologiques. Quels résultats seraient en faveur d'une sclérodermie plutôt que d'un syndrome sec primaire?",
+          "choix": [
+            "A) présence d'ACAN",
+            "B) présence d'anticorps anti-centromères",
+            "C) présence d'anticorps anti SSA",
+            "D) présence d'anticorps anti scl70",
+            "E) présence d'anticorps anti SSB"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel examen supplémentaire demandez vous pour confirmer le syndrome sec auto-immun et qu'en attendez vous?",
+          "choix": [
+            "A) biopsie de glande salivaire accessoire",
+            "B) biopsie de glande sous-maxillaire",
+            "C) présence d'un infiltrat inflammatoire à polynucléaires neutrophiles",
+            "D) présence d'un granulome épithélio-gigangocellulaire sans nécrose caséeuse",
+            "E) infiltrat inflammatoire lymphocytaire de grade III ou IV selon la classification de Chisholm"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voous avez confirmé le syndrome sec auto-immun. Concernant cette maladie, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) cette pathologie est due à la production d'anticorps anti-glandes salivaires accessoires",
+            "B) il s'agit d'une maladie habituellement bénigne",
+            "C) il n'y a pas de complication d'organe en dehors de celles dues au syndrome sec au cours de cette maladie",
+            "D) le phénomène de Raynaud dont souffre la patiente est dû à une vascularite",
+            "E) le phénomène de Raynaud dont souffre la patiente est fréquent au cours du syndrome sec primaire"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

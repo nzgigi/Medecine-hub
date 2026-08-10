@@ -1,0 +1,640 @@
+{
+  "matiere": "Psychiatrie et pédopsychiatrie",
+  "slug": "psychiatrie-pedopsychiatrie-s9",
+  "annee": 2025,
+  "title": "Psychiatrie et pédopsychiatrie - 2025",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Monsieur X. âgé de 56 ans se présente à la consultation d’addictologie adressé par son médecin traitant pour une perturbation du bilan hépatique isolée de façon isolée, découverte de façon fortuite, sans aucun symptôme. Il n’a aucun antécédent. Il exerce la profession de facteur.\nIl vous explique consommer de l’alcool « comme tout le monde ».\nLes résultats sont les suivants :\nASAT 80 (N<35)\nALAT 65 (N<45)\nPhosphatases alcalines 90 (N<110)\nGGT 100 (N<50)",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont vos hypothèses diagnostiques (4 réponses attendues)?",
+          "choix": [
+            "A) Trouble de l’usage de l’alcool",
+            "B) Foie métabolique ou NASH",
+            "C) Hépatites virales",
+            "D) Hépatites médicamenteuses",
+            "E) Pancréatite aigue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle quantité d’alcool contient une unité standard d’alcool ?",
+          "choix": [],
+          "reponses": [
+            "dix grammes",
+            "10 grammes",
+            "10g",
+            "10 g",
+            "10 gramme",
+            "10grammes",
+            "10g d'alcool pur",
+            "10g d‘alcool pur",
+            "10 g alcool pur",
+            "10 grammes d'alcool pur",
+            "10 g d' alcool pur",
+            "10 gramme d'alcool",
+            "10gr/verre",
+            "10 g d'alcool"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 6 principaux éléments d’une intervention brève chez un patient présentant un trouble de l’usage de l’alcool ?",
+          "choix": [
+            "A) Restitution de l’évaluation de la consommation",
+            "B) Recherche des co-addictions associées",
+            "C) Proposer un soutien psychologique",
+            "D) Expliquer l’importance de l’arrêt complet de la consommation",
+            "E) Définir une unité standard d’alcool",
+            "F) Laisser le libre choix au patient concernant ses objectifs de consommations",
+            "G) Proposer une orientation vers une structure spécialisée",
+            "H) Remettre des documents de type flyers",
+            "I) Proposer un autre entretien d’évaluation dans les 48 heures",
+            "J) Contacter un membre de sa famille et l’informer de ces consommations",
+            "K) Échanger avec le patient sur les complications du trouble déjà présentes"
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F",
+            "G",
+            "H",
+            "K"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299729345-ab19489426a008",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la schizophrénie, quelles sont les stratégies de prise en charge à long terme à proposer ?",
+          "choix": [
+            "A) Psychoéducation/ éducation thérapeutique",
+            "B) Remédiation cognitive",
+            "C) Psychothérapie cognitive et comportementale",
+            "D) Antipsychotiques au long cours",
+            "E) Benzodiazépines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans les troubles bipolaire, quelles situations nécessitent une hospitalisation ?",
+          "choix": [
+            "A) Un épisode dépressif co morbide",
+            "B) Un risque suicidaire",
+            "C) Un épisode aigu avec troubles du comportement",
+            "D) Un risque hétéro agressif",
+            "E) Un trouble d’usage de l’alcool co morbide"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi ces critères, trois sont des critères de l’anorexie mentale, lesquels ?",
+          "choix": [
+            "A) Des dysmorphophobies",
+            "B) Une restriction des apports énergétiques conduisant à un poids significativement bas",
+            "C) Une perte de poids de 25% du poids de forme",
+            "D) Une tristesse de l’humeur",
+            "E) Une peur intense de prendre du poids"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle est une indication d’utilisation des benzodiazpines ?",
+          "choix": [
+            "A) Syndrome d’apnée hypopnée obstructif du sommeil",
+            "B) Syndrome des jambes sans repos",
+            "C) Traitement préventif dans le cadre du sevrage à l’alcool",
+            "D) Trouble insomnie Chronique",
+            "E) Hypersomnie idiopathique"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Que recherchez vous dans l'évaluation du risque risque suicidaire, en plus des facteurs de risque et des critères d'urgence?",
+          "choix": [],
+          "reponses": [
+            "Dangerosité",
+            "La dangerosité",
+            "Les éléments de dangerosité",
+            "danger",
+            "dangerosite",
+            "Danger",
+            "Le danger",
+            "critères de dangerosité",
+            "Critères de dangerosité",
+            "le danger",
+            "dangérosité",
+            "dangerosité (R U D)",
+            "dangerosité: accessibilité à des moyens létaux",
+            "la dangerosité, c'est à dire les moyens disponibles a la mise en place du scenario envisagé",
+            "le critère de dangerosité",
+            "la dangerosite",
+            "dangeriosite",
+            "Critères de danger",
+            "Danger (disponibilité des moyens létaux)",
+            "dangeurosité",
+            "criteres de dangerosite",
+            "la dangerosité (moyens létaux à disposition notamment)",
+            "Dangerosite (moyens létaux)",
+            "Dangérosité",
+            "critere de dangerosité",
+            "risque, urgence, dangerosité",
+            "les facteurs de dangerosité",
+            "Dangerosité (accès au moyen létal)",
+            "Risque Urgence Dangerosité",
+            "danger (RUD)",
+            "la dangerosité (moyen letal à disposition...)",
+            "critère de dangerosité",
+            "Dangerosité avec scénarios suicidaires , prise de substance associée",
+            "dangereusité",
+            "La dangerosité du geste",
+            "facteurs de danger",
+            "critères de danger",
+            "Dangerosité (létalité et accessibilité des moyens envisagés)",
+            "criteres de danger",
+            "dangerosite du RUD si moyens accessibles",
+            "danger immédiat",
+            "Dangerosité (moyens à disposition)",
+            "dangerosité (accès au moyen létal)",
+            "danger (risque, danger, urgence)"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment appelle-t-on le pointage servant à l’enfant à montrer pour attirer l’attention d’autrui sur un objet ?",
+          "choix": [],
+          "reponses": [
+            "proto-déclaratif",
+            "pointage proto-déclaratif",
+            "pointage proto déclaratif",
+            "proto-declaratif",
+            "proto déclaratif",
+            "Pointage proto-déclaratif",
+            "pointage protodéclaratif",
+            "protodéclaratif",
+            "Proto déclaratif",
+            "pointage proto declaratif",
+            "pointage proto-declaratif"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les psychostimulants, quelle la réponse exacte ?",
+          "choix": [
+            "A) Le méthylphénidate est un inhibiteur de la recapture de la noradrénaline et, dans une moindre mesure, de la dopamine.",
+            "B) Le méthylphénidate est un inhibiteur de la recapture de la sérotonine et, dans une moindre mesure, de la noradrénaline.",
+            "C) Le méthylphénidate est un inhibiteur de la recapture de la noradrénaline et, dans une moindre mesure, de la sérotonine.",
+            "D) Le méthylphénidate est un inhibiteur de la recapture de la sérotonine et, dans une moindre mesure, de la dopamine.",
+            "E) Le méthylphénidate est un inhibiteur de la recapture de la dopamine et, dans une moindre mesure, de la noradrénaline."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "À propos du développement psychomoteur de l’enfant, quelles sont les deux réponses exactes ?",
+          "choix": [
+            "A) Une absence de mastication des aliments solides à 6 mois constitue une situation anormale.",
+            "B) Un QI total inférieur à 70 correspond à 2 écarts-types sous la moyenne des enfants du même âge.",
+            "C) Les acquisitions correspondent aux performances que l’enfant va progressivement développer et qui nécessiteront un contexte scolaire.",
+            "D) Une propreté diurne non acquise à 24 mois (urines + selles) constitue une situation anormale.",
+            "E) Une absence de périodicité jour/nuit à 6 mois constitue une situation anormale."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des troubles des conduites alimentaires chez l’adolescent, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Une perte de poids rapide (plus de 500 grammes/semaine) chez une adolescente souffrant d'anorexie mentale constitue un critère d’hospitalisation.",
+            "B) Il n’existe pas de traitement pharmacologique spécifique de l’anorexie mentale.",
+            "C) Hyperphosphorémie, hyperkaliémie et hypermagnésémie sont des marqueurs classiques d’un syndrome de renutrition inapproprié.",
+            "D) Le sex-ratio de la boulimie est de 1 homme pour 8 femmes.",
+            "E) Dans l'anorexie mentale, il est recommandé que la psychothérapie choisie se poursuive au moins un an après une amélioration clinique significative."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des troubles du neurodéveloppement, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La présence de tics moteurs multiples et de plusieurs tics vocaux (parfois de type coprolalie) indique un syndrome de Capgras.",
+            "B) Les troubles neurodéveloppementaux ont une prévalence élevée d’environ 20%.",
+            "C) Le TDAH a une prévalence d’environ 1%.",
+            "D) Certaines carences affectives graves, des abus ou des maltraitances peuvent entraîner des troubles réactionnels de l’attachement.",
+            "E) Les troubles du développement intellectuel (TDI) ou handicaps intellectuels sont caractérisés par un déficit global des capacités mentales."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299734642-3a9c88786ad4b8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez à votre consultation, Monsieur T 54 ans que vous suivez pour un trouble bipolaire. Après un première épisode dépressif inaugural à l’âge de 19 ans, il a fait deux autres épisodes dépressifs à l’âge de 20 et 22ans. Puis, il a fait un épisode maniaque à l’âge de 30ans qui a permis de poser le diagnostic. Par la suite, il a fait quatre autres épisodes dépressifs. Le dernier date de 36 mois. Depuis, il est euthymique.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles prises en charge non pharmacologique mettez-vous en place pour le suivi au long cours ?",
+          "choix": [
+            "A) Éducation thérapeutique",
+            "B) Remédiation cognitive",
+            "C) Réadaptation psychosociale",
+            "D) Psychothérapie type TCC",
+            "E) Psychothérapie interpersonnelle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Trois mois plus tard, vous le revoyez en consultation, il vous décrit une somnolence diurne importante avec la nécessité de sieste. Son temps total de sommeil nocturne a aussi augmenté d’après ce qu’il vous rapporte. Il décrit également une fatigue importante. Il décrit des difficultés pour se motiver à faire les activités du quotidien. Il décrit une perte de plaisir. Il se trouve plus ralenti ce que vous constatez à la consultation. Depuis la précédente consultation, vous objectivez une prise de poids de 5Kg avec des comportements d’hyperphagie. Il se plaint de difficulté à se concentrer. Vous le questionnez sur son fonctionnement quotidien, il vous rapporte qu’il a stoppé toutes ses activités extra professionnelles.\nQuelle est votre suspicion diagnostic principal ?",
+          "choix": [
+            "A) Usage de substance psychoactive",
+            "B) Pathologie neurodégénérative type démence fronto-temporale",
+            "C) Hypothyroidie",
+            "D) Episode dépressif caractérisé dans le cadre du trouble bipolaire",
+            "E) Iatrogénie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels diagnostics différentiels sont possibles dans cette situation ?",
+          "choix": [
+            "A) Usage de substance psychoactive",
+            "B) Pathologie neurodégénérative type démence fronto-temporale",
+            "C) Hypothyroidie",
+            "D) Maladie de Cushing",
+            "E) Iatrogénie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre examen clinique et les résultats de la biologie et de l’imagerie vous oriente vers une cause psychiatrique. Vous concluez à épisode dépressif caractérisé dans le cadre du trouble bipolaire.\nQuelles sont les caractéristiques potentielles de l’épisode ?",
+          "choix": [
+            "A) Caractéristique psychotique",
+            "B) Caractéristique anxieuse",
+            "C) Caractéristique saisonnière",
+            "D) Caractéristique du post partum",
+            "E) Caractéristique catatonique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la suite de l’examen clinique, vous retrouvez des idées suicidaires\nQuels éléments prenez-vous en compte ou recherchez- vous pour évaluer le risque suicidaire ?",
+          "choix": [
+            "A) Des antécédents personnels de tentative de suicide",
+            "B) Des antécédents familiaux de tentative de suicide",
+            "C) Des antécédents de maltraitance dans l’enfance",
+            "D) Isolement social",
+            "E) Scénario suicidaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il est bien entouré. Sa famille est très présente. Il décrit comme facteur protecteur ses enfants. Il n’y a pas de scénario.\nQuelle est votre conduite à tenir à cours terme",
+          "choix": [
+            "A) Hospitalisation avec ou sans consentement",
+            "B) Suivi ambulatoire",
+            "C) Mise en place traitement de l’épisode dépressif caractérisé du trouble bipolaire",
+            "D) Mise en place d’un hypnotique",
+            "E) Éducation thérapeutique"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous introduisez un traitement par Olanzapine (ZYPREXA°) (antipsychotique de deuxième génération) en association aux sels\nde lithium (TERALITHE°) qu’il avait déjà.\nA quels les effets secondaires de l’olanzapine devez-vous être vigilant ?",
+          "choix": [
+            "A) Prise de poids",
+            "B) Diabète",
+            "C) Syndrome métabolique",
+            "D) Hyperprolactinémie",
+            "E) Akathisie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299736683-3aae6fc8b38f68",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Monsieur et Madame V., dont vous êtes le médecin généraliste depuis de nombreuses années, viennent vous consulter à propos de leur fils Paul, âgé de 7 ans et demi. Vous connaissez bien Paul, que vous suivez depuis sa naissance. Sa maîtresse, après quelques mois de CP (cours préparatoire), a repéré des difficultés d'apprentissage et de comportement chez cet enfant attachant mais turbulent. Depuis quelque temps, il se décourage un peu par rapport à l'école et se trouve « complètement nul ». À la maison, le moment du coucher est de plus en plus difficile, ce qui crée des désaccords entre les parents sur l'attitude à adopter. Les parents sont convaincus que leur fils est un enfant à haut potentiel intellectuel (HPI) et que c’est ce qui explique ses difficultés scolaires. Ils ont lu beaucoup de choses sur Internet, et sont à la fois inquiets et perdus : ils ne comprennent rien à tous ces termes techniques, ces acronymes, ces démarches administratives à faire… Ils vous posent mille questions !",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les troubles suivants, lequel ou lesquels sont classés parmi les troubles neurodéveloppementaux ?",
+          "choix": [
+            "A) Haut Potentiel Intellectuel (HPI).",
+            "B) Troubles du développement intellectuel (TDI).",
+            "C) Tics.",
+            "D) Troubles obsessionnels compulsifs (TOC).",
+            "E) Troubles de la cognition mathématique."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic et l'étiologie d'un trouble neurodéveloppemental, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) On considère qu’un déficit du développement d’un domaine est spécifique s’il n’est pas mieux expliqué par un autre trouble.",
+            "B) Des tests standardisés dans les différents domaines du développement sont nécessaires pour une plus grande certitude diagnostique.",
+            "C) Chez environ 40% des patients, une anomalie génétique ou une exposition environnementale sont impliquées dans l’étiologie des anomalies du neurodéveloppement.",
+            "D) Les troubles neurodéveloppementaux ne sont qu’exceptionnellement associés entre eux mais sont fréquemment associés à d’autres troubles psychiatriques.",
+            "E) L’exposition à des conditions environnementales adverses est une condition diagnostique nécessaire pour évoquer des troubles réactionnels de l’attachement."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous réalisez un entretien assez long, qui n’est pas facile à mener du fait de l’agitation importante de Paul, qui ne tient littéralement pas en place, manque plusieurs fois de renverser des objets posés sur votre étagère, et tombe deux fois en essayant de sauter sur une chaise depuis votre canapé. Vous parvenez néanmoins à obtenir des informations assez précises sur l’histoire développementale de ce patient, sur sa symptomatologie actuelle et sur son retentissement. Vous comprenez notamment que la maîtresse de Paul a convoqué plusieurs fois ses parents en leur disant qu’il lui était difficile de le canaliser en classe, car ce dernier ne tiendrait pas en place, n’écouterait aucune consigne, et serait incapable de se concentrer sur un exercice.\nQuel trouble neurodéveloppemental évoquez-vous en priorité devant ce tableau clinique ?",
+          "choix": [
+            "A) Trouble spécifique des apprentissages.",
+            "B) Trouble déficit de l’attention/hyperactivité (TDAH).",
+            "C) Trouble de la communication.",
+            "D) Trouble développemental de la coordination.",
+            "E) Troubles du développement intellectuel (TDI)."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "À propos de la définition et de la sémiologie du TDAH, quelles sont les deux propositions exactes ?",
+          "choix": [
+            "A) On retrouve souvent une rapidité d’exécution chez les patients souffrant de TDAH, liée à leur hyperactivité.",
+            "B) Ces patients présentent souvent un manque de motivation pour les activités demandant un effort cognitif durable.",
+            "C) Ces patients ont des facilités à comprendre les consignes mais pas à les suivre.",
+            "D) Les symptômes apparaissent le plus souvent à l’adolescence mais il existe des formes de TDAH qui se déclarent chez l’adulte uniquement.",
+            "E) Ces patients présentent souvent une tendance à la procrastination, qui peut les pénaliser scolairement."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "À propos de la définition et de la sémiologie du TDAH, quelles sont les trois propositions exactes ?",
+          "choix": [
+            "A) Le TDAH se caractérise par un mode persistant d’inattention et d’hyperactivité/impulsivité qui interfère avec le fonctionnement.",
+            "B) Une hyperactivité est souvent observée dans un seul domaine de la vie (familiale, sociale, activités extrascolaires).",
+            "C) L’hyperactivité se caractérise par une activité très productive et efficace, mais excessive et mal contrôlée.",
+            "D) L’impulsivité correspond au fait de faire ou dire directement quelque chose de façon impérieuse, sans en anticiper les conséquences.",
+            "E) On constate souvent des prises de risque chez ces enfants, liées à leur trouble."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos des questionnaires et échelles d’aide au diagnostic pouvant être utilisés dans le TDAH, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) ADHD-Rating scale.",
+            "B) Échelle de Yale-Brown.",
+            "C) Échelle de Hamilton.",
+            "D) Questionnaire de Conners.",
+            "E) ADI-R."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les parents ont fait des recherches sur les traitements du TDAH et vous interrogent sur les médicaments que l’on peut prescrire dans cette indication.\nÀ propos de la prescription des psychostimulants, quelles sont les deux réponses exactes ?",
+          "choix": [
+            "A) Les psychostimulants possèdent, à des degrés divers, des effets orexigènes.",
+            "B) Le Modiodal® est une forme à libération prolongée du méthylphénidate.",
+            "C) Le méthylphénidate à libération immédiate a une durée d’action d’environ 6 heures.",
+            "D) Le modafinil augmente la transmission dopaminergique.",
+            "E) Les psychostimulants sont notamment prescrits pour réduire la somnolence diurne excessive."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

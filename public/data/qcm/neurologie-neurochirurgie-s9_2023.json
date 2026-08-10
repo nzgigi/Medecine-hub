@@ -1,0 +1,1007 @@
+{
+  "matiere": "Neurologie et neurochirurgie",
+  "slug": "neurologie-neurochirurgie-s9",
+  "annee": 2023,
+  "title": "Neurologie et neurochirurgie - 2023",
+  "total_questions": 41,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "M C. 21 ans est admis à 2h du matin au service d’accueil des urgences dans les suites d’un accident de la voie publique.\nCe patient n’a aucun antécédent et ne suit pas de traitement.\nIl a perdu le contrôle de son scooter et a percuté un arbre vers 1h du matin. Il a bu « quelques verres » dans la soirée et ne portait pas de casque. Il ne se souvient pas des suites du traumatisme, les témoins rapportent une perte de connaissance initiale de 2-3 minutes. Il n’y a pas eu de mouvements anormaux.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel score permet de définir la sévérité d’un traumatisme crânien ?",
+          "choix": [],
+          "reponses": [
+            "Score de Glasgow"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les données de l’examen clinique à 2h15 sont les suivantes :\nPA : 135/83 mmHg, FC 65/min, Sat : 99%.\nLes examens cadio-pulmonaires et abdominal sont sans particularité.\nLe patient ouvre les yeux à la demande. Il semble parfois chercher un peu ses mots, mais répond de manière adaptée et orientée à toutes vos questions et serre vos mains à la demande. Vous ne trouvez pas de déficit moteur ou sensitif des membres. L’examen des nerfs crâniens est sans particularité. Il n’y a pas de syndrome cérébelleux.\nComment jugez-vous la sévérité de ce traumatisme crânien ?",
+          "choix": [
+            "A) Le score de Glasgow est à 12 (Y3V4M5), il s’agit d’un traumatisme crânien modéré.",
+            "B) Le score de Glasgow est à 14 (Y3V5M6), il s’agit d’un traumatisme crânien léger.",
+            "C) Il y a un contexte d’alcoolisation, il s’agit d’un traumatisme crânien modéré.",
+            "D) Il y a une haute cinétique, il s’agit d’un traumatisme crânien grave.",
+            "E) La sévérité ne peut être évaluée sur la base de cet examen clinique initial."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’inspection de l’extrémité céphalique du patient révèle une ecchymose retro-auriculaire à gauche (Cf Photo). Il n’y a pas plaie ni de déformation sur le reste du scalp.\nQuels sont les deux propositions vraies au vu de ces derniers éléments cliniques ?",
+          "choix": [
+            "A) Le signe de Battles (ecchymose retro-auriculaire) doit faire redouter une fracture du rocher.",
+            "B) Le signe de Battles (ecchymose retro-auriculaire) doit faire redouter une fracture de l’étage antérieur.",
+            "C) Une otorrhée ou une rhinorrhée de liquide cérébrospinal doit être recherchée en faveur d’une brèche ostéo-méningée.",
+            "D) L’absence de plaie du scalp associée élimine le risque de brèche ostéo-méningée et donc de méningite.",
+            "E) Une antibioprophylaxie est recommandée."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2023/q3.png?v=1786297119645"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il n’y a pas d’otorrhée ou de rhinorrhée. Le score de Glasgow est à 14 (Y3V5M6). Il s’agit d’un traumatisme crânien léger. Le reste de l’examen neurologique est normal.\nIl est 3h du matin (H2 du traumatisme).\nQuelle est la proposition vraie concernant le risque de lésion intracrânienne et la prise en charge de ce patient à ce stade ?",
+          "choix": [
+            "A) Le patient se situe dans le groupe à risque faible ou groupe 1 de la classification de Masters, impliquant une possibilité de retour à domicile sans imagerie après une brève surveillance.",
+            "B) Le patient se situe dans le groupe à risque modéré ou groupe 2 de la classification de Masters, impliquant une surveillance et une TDM à au moins H4.",
+            "C) Le patient se situe dans le groupe à risque modéré ou groupe 2 de la classification de Masters, imposant la TDM immédiate.",
+            "D) Le patient se situe dans le groupe à risque élevé ou groupe 3 de la classification de Masters, impliquant une surveillance et une TDM à au moins H4.",
+            "E) Le patient se situe dans le groupe à risque élevé ou groupe 3 de la classification de Masters, imposant une imagerie immédiate."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous proposez une surveillance clinique horaire et scopée à ce patient en attendant de réaliser une TDM à H6.\nA 4h du matin (H3), l’IDE vous signale une détérioration neurologique de votre patient. Il n’ouvre plus les yeux à la demande, ni à la douleur. La stimulation douloureuse déclenche un gémissement incompréhensible et une flexion stéréotypée des deux membres supérieurs.\nA combien est le score de Glasgow maintenant ?",
+          "choix": [],
+          "reponses": [
+            "6"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen pupillaire révèle cette anomalie (cf Photo). Le réflexe photomoteur est absent.\nQuelles sont les deux propositions exactes vis-à-vis de cette anomalie clinique ?",
+          "choix": [
+            "A) Il s’agit d’une atteinte du nerf oculomoteur ou III gauche.",
+            "B) Il s’agit d’une atteinte du nerf abducens ou VI gauche.",
+            "C) Elle signe un engagement temporal gauche.",
+            "D) Elle signe une hypertension intracrânienne sans valeur localisatrice.",
+            "E) Elle est due à la fracture du rocher."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2023/q6.png?v=1786297120418"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel examen complémentaire demandez-vous en urgence ?",
+          "choix": [
+            "A) Hémoglucotest.",
+            "B) Fond d’œil.",
+            "C) Test de Lancaster.",
+            "D) TDM cérébrale.",
+            "E) IRM cérébrale."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une TDM cérébrale SPC est réalisée en urgence.\n(QRP) Quelles sont la ou les proposition(s) exacte(s) concernant cet examen ?\n3 réponses",
+          "choix": [
+            "A) Il y a une contusion frontale droite de contre-coup.",
+            "B) Il y a un hématome sous-dural fronto-pariétal gauche.",
+            "C) Il y a un hématome extradural temporo-pariétal gauche.",
+            "D) Il y a une contusion temporale gauche.",
+            "E) Il y a une fracture temporo-pariétale droite."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2023/q8.png?v=1786297120905",
+            "/images/qcm/neurologie-neurochirurgie-s9/2023/q8_1.png?v=1786297121082"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297121315-e90b467c0f549",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un homme de 73 ans consulte pour un tremblement.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QRP (2 bonnes réponses)\nQuelles sont les caractéristiques du tremblement compatibles avec une maladie de Parkinson ?",
+          "choix": [
+            "A) Tremblement de la main unilatéral",
+            "B) Tremblement du chef",
+            "C) Tremblement d’action",
+            "D) Tremblement des lèvres",
+            "E) Tremblement de la voix"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QRP (3 bonnes réponses)\nQuelles sont les caractéristiques de la marche dans la maladie de Parkinson ?",
+          "choix": [
+            "A) Marche ralentie",
+            "B) Elargissement du polygone de sustentation",
+            "C) Petits pas",
+            "D) Embardées latérales",
+            "E) Diminution du ballant d’un bras"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QRP (3 bonnes réponses)\nQuels sont les signes pouvant précéder les troubles moteurs dans la maladie de Parkinson ?",
+          "choix": [
+            "A) Hypotension orthostatique",
+            "B) Rêves animés",
+            "C) Paralysie oculo-motrice",
+            "D) Déficit de l’olfaction",
+            "E) Douleur articulaire"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies concernant le syndrome parkinsonien iatrogène ?",
+          "choix": [
+            "A) Peut être provoqué par un neuroleptique",
+            "B) Peut-être provoqué par le métoclopramide",
+            "C) Est le plus souvent asymétrique",
+            "D) Peut s’accompagner de dyskinésies bucco-linguo-faciales",
+            "E) Répond à la L-Dopa"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies concernant la maladie de Parkinson ?",
+          "choix": [
+            "A) Elle est liée à la présence d’agrégats intraneuronaux d’alpha-synucléine",
+            "B) Les lésions neuronales sont limitées à la voie nigro-striatale",
+            "C) Elle est plus fréquente en cas d’exposition aux pesticides",
+            "D) Les dyskinésies de milieu de dose sont des myoclonies",
+            "E) Une camptocormie s’observe lors de la phase de déclin"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous concluez à une maladie de Parkinson. Quels traitements envisagez-vous en première intention ?",
+          "choix": [
+            "A) L-DOPA",
+            "B) Agoniste dopaminergique",
+            "C) IMAO B",
+            "D) Dompéridone",
+            "E) Amantadine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297122664-40e1adb0e283d8",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Une femme de 24 ans consulte pour une céphalée d’apparition récente.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les caractéristiques de la céphalée en faveur d’une migraine ?\nQRP (2 Bonnes réponses)",
+          "choix": [
+            "A) Douleur durant de 6 à 12h",
+            "B) Douleur associée à un larmoiement unilatéral",
+            "C) Douleur aggravée par les efforts physiques",
+            "D) Douleur modérée, en casque, à type de serrement",
+            "E) Douleur quotidienne, continue, aggravée en fin de nuit"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QRP (3 bonnes réponses)\nQuelles sont les caractéristiques de la céphalée en faveur d’une algie vasculaire de la face ?",
+          "choix": [
+            "A) Douleur orbito-frontale tantôt droite, tantôt gauche",
+            "B) Douleur intense associée à une agitation comportementale",
+            "C) Douleur associée à un œdème palpébral unilatéral",
+            "D) Douleur durant de 30 à 90 minutes",
+            "E) Douleur précédée d’un scotome scintillant"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les caractéristiques de la céphalée en faveur d’une céphalée de tension ? QRP 3 bonnes réponses",
+          "choix": [
+            "A) Douleur modérée, en casque",
+            "B) Douleur pulsatile",
+            "C) Associée à des nausées ou des vomissements",
+            "D) Améliorée par l’activité physique",
+            "E) Associée à une douleur des muscles cervicaux"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QRP (2 bonnes réponses)\nQuelles sont les caractéristiques de la céphalée en faveur d’une hypertension intracrânienne ?",
+          "choix": [
+            "A) Douleur n’apparaissant qu’en orthostatisme",
+            "B) Douleur fulgurante répétée en salves de quelques secondes",
+            "C) Douleur associée à une photophobie",
+            "D) Douleur associée à une diplopie",
+            "E) Douleur associée à des éclipses visuelles"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous concluez à une migraine. Quelles sont les propositions vraies concernant cette pathologie ?",
+          "choix": [
+            "A) La migraine touche les femmes 9 fois sur 10",
+            "B) Elle débute avant 40 ans dans 90% des cas",
+            "C) La migraine s’améliore après la ménopause",
+            "D) Les crises font suite à une activation de l’hypothalamus",
+            "E) Les crises peuvent être déclenchées par un trouble du sommeil"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente souffre de sa migraine 10 jours par mois. La moitié des crises sont précédées d’une aura visuelle. Le paracétamol n’a aucune efficacité sur la douleur. Quel(s) traitement(s) envisagez-vous ?",
+          "choix": [
+            "A) Tramadol dès l’apparition de la céphalée",
+            "B) Ibuprofène dès l’apparition de l’aura ou de la céphalée",
+            "C) Triptan dès l’apparition de la céphalée",
+            "D) Propranolol en traitement de fond",
+            "E) Exercice physique régulier"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297124021-99ce24c95dc638",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une femme de 43 ans est admise aux urgences en raison de la survenue soudaine d’une hémiplégie gauche.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous en première intention ?",
+          "choix": [],
+          "reponses": [
+            "Accident vasculaire cérébral (ou AVC)",
+            "AVC",
+            "accident vasculaire cérébral",
+            "Accident vasculaire cérébral",
+            "accident vasculaire cerebral",
+            "avc",
+            "Accident Vasculaire Cérébral",
+            "accident vasculaire cerebrale",
+            "Accident vasculaire cerebral",
+            "AVC sylvien droit",
+            "accident vasculaire cérébrale",
+            "AVC hémisphère droit",
+            "AVC sylvien droit profond",
+            "accident vasculaire cérébral droit",
+            "Accident vasculaire cérébrale",
+            "Avc sylvien droit",
+            "accident vsculaire cérébral",
+            "AVC temporal",
+            "Accident Vasculaire Cérébrale droit",
+            "accident vasculaire cérébral sylvien droit",
+            "avc sylvien droit",
+            "AVC de l'hémisphère droit",
+            "AVC droit",
+            "AVC a droite",
+            "AVC cote droit ( anterieur ou moyen )",
+            "AVC fronto-pariétal droit",
+            "Accident vasculaire cérébral (AVC)",
+            "AVC sylvien profond droit",
+            "AVC de l'hémisphère cérébral droit",
+            "Accident vasculaire cérébral droit",
+            "Accident Vasculaire Cerebral",
+            "AVC artere sylvienne droite profond",
+            "AVC de la capsule interne droite",
+            "AVC (sylvien droit)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels éléments cliniques sont en faveur d’une dissection de la carotide ? (4 bonnes réponses)",
+          "choix": [
+            "A) L’âge",
+            "B) Un tabagisme",
+            "C) Une obésité",
+            "D) La survenue de l’AVC au décours de multiples quintes de toux",
+            "E) Une douleur cervicale",
+            "F) Un syndrome de Claude Bernard-Horner",
+            "G) Une mydriase unilatérale peu réactive",
+            "H) La survenue d’une crise d’épilepsie peu après l’admission aux urgences",
+            "I) Une tension artérielle élevée à 180-100 mmHg"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E",
+            "F"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’IRM, réalisée 5 heures après le début des symptômes, montre, sur la séquence de diffusion, un hypersignal dans le territoire profond de l’artère sylvienne (cérébrale moyenne) droite et, à l’angio-IRM, une occlusion proximale de l’artère sylvienne droite. Quel traitement envisagez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Thrombectomie ou thrombectomie mécanique",
+            "thrombectomie",
+            "thrombectomie mécanique",
+            "trombectomie",
+            "Thrombectomie mécanique",
+            "thrombectomie mecanique",
+            "Trombectomie",
+            "Thrombectomie et aspirine",
+            "thrombolyse et thrombectomie",
+            "thrombectomie endovasculaire",
+            "thrombectomie de l'artère sylvienne droite",
+            "Thrombectomie mecanique",
+            "thrombectomie sur l‘artère sylvienne profonde droite",
+            "aspirine à dose antiagrégante et thrombectomie",
+            "embolectomie artérielle",
+            "aspirine et trombectomie",
+            "Thrombectomie endovasculaire",
+            "Thrombectomie par radio intervention",
+            "thrombectomie + Aspirine",
+            "thrombectomie et aspirine",
+            "Traitement endovasculaire",
+            "trombolyse IV avec thrombectomie",
+            "Thrombectomie, anti agrégant plaquettaire (et thrombolyse si mismatch FLAIR-Diffusion)",
+            "thrombectomie mécanique prise en charge des ACSOS",
+            "thrombectomie artere sylvienne (car < 6h et occlusion proximale) et aspirine (car > 4h30)",
+            "désobstruction artérielle",
+            "Thrombectomie par embolisation",
+            "thrombectomie chirurgicale",
+            "thrombectomie mécanique + aspirine",
+            "thrombolyse plus ou moins accompagnée d’une thrombectomie",
+            "traitement endo-vasculaire par stent retriever et anti aggrégant par aspirine au long cours",
+            "Thrombectomie de l'artère sylvienne droite",
+            "Thrombectomie per cutanée",
+            "thrombolyse thrombectomie",
+            "thrombectomie de l'occlusion proximale de l'artère sylvienne droite",
+            "traitrment chirurgicale par desobstruction par coils retriever",
+            "thrombectomie de l’occlusion proximal",
+            "radiologie interventionnelle avec pose d'un stent intra-artère sylvienne droite",
+            "thrombolyse IV +/- thrombectomie si mistmath avec Flair car un peu >4h30",
+            "thrombectomie de l'artere sylvienne droite",
+            "aspirine + thrombectomie",
+            "embolectomie",
+            "Aspirine + traitement endovasculaire en radiologie interventionelle",
+            "Thrombolyse par rTPase ALTEPLASE 0.9mg/kg IV (si discordance diffusion/perfusion) + Thrombectomie mecanique",
+            "Thrombectomie"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297127314-715fa4ec6ecb",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "Un homme de 20 ans est hospitalisé aux urgences en raison d’une perte de connaissance soudaine, suivie d’une contraction tonique de tout le corps, puis de secousses bilatérales et rythmiques, enfin d’une hypotonie avec respiration bruyante et d’un retour à la conscience progressif.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic devez-vous évoquer en priorité ?",
+          "choix": [],
+          "reponses": [
+            "Crise d’épilepsie généralisée tonico-clonique",
+            "crise d'épilepsie",
+            "crise d'epilepsie",
+            "Crise d'épilepsie",
+            "Crise d'épilepsie tonico-clonique généralisée",
+            "crise d'épilepsie tonico-clonique généralisée",
+            "crise d'épilepsie tonico-clonique",
+            "crise tonico-clonique généralisée",
+            "crise généralisée tonico-clonique",
+            "Crise tonico-clonique généralisée",
+            "crise d'épilepsie généralisée tonico-clonique",
+            "Crise d'épilepsie tonico-clonique",
+            "Crise d'épilepsie généralisée tonico-clonique",
+            "Crise d'épilepsie généralisée",
+            "crise d’épilepsie",
+            "crise tonico-clonique",
+            "Crise épileptique",
+            "Crise tonico-clonique",
+            "crise tonico clonique généralisée",
+            "crise d’épilepsie tonico-clonique",
+            "épilepsie tonico-clonique",
+            "crise épileptique",
+            "Crise d'epilepsie",
+            "Crise d’épilepsie tonico-clonique",
+            "crise d’epilepsie tonico-clonique",
+            "crise d'epilepsie tonico clonique",
+            "crise généralisée tonico clonique",
+            "crise d'epilepsie generalisée tonico-clonique",
+            "crise d'epilepsie généralisée tonico clonique",
+            "Crise épileptique tonico-clonique généralisée",
+            "crise d'epilepsie tonico-clonique",
+            "Crise d’épilepsie",
+            "crise d'épilepsie tonico clonique",
+            "crise d'épilepsie généralisée tonico clonique",
+            "crise tonico clonique",
+            "crise epileptique generalisee tonico-clonique",
+            "Crise tonico-clonique (épilepsie)",
+            "crise d'épilepsie générale tonico-clonique",
+            "crise tonico-clonique generalisé",
+            "crise épilepsie tonico clonique",
+            "crise d'épilepsie généralisée tonioclonique",
+            "crise d'epilepsie tonico clonique generalisee",
+            "crise épileptique tonico-clonique (généralisée)",
+            "crise épileptique tonico clonique généralisée",
+            "crise convulsive généralisée tonico clonique",
+            "crise épileptique tonico-clonique",
+            "crise d’epilepsie tonico clonique",
+            "crise d'epilepsie generalisee tonico clonique",
+            "Crise epileptique généralisée tonico clonique",
+            "crise epilepsie tonico clonique",
+            "crise d'epilepsie tonicoclonique géneralisée",
+            "Crise généralisée tonico-clonique",
+            "crise épileptique généralisée tonicoclonique",
+            "crise d‘épilepsie tonico-clonique",
+            "crise epilepsie tonico-clonique",
+            "crise convulsive tonico clonique généralisée",
+            "Crise tonico clonique généralisée",
+            "crise tonicoclonique d épilepsie",
+            "crise convulsive généralisée tonico-clonique",
+            "Crise d'epilepsie tonico-clonique",
+            "crise d’épilepsie géneralisée tonico-clonique",
+            "crise d'epilepsie tonico clonique généralisée",
+            "crise épilepsie tonico-clonique généralisée",
+            "crise épileptique généralisée",
+            "crise d'eplilepsie généralisée tonico-clonique",
+            "crise d’epilepsie generalisée tonico-clonique",
+            "crise tonico-clonique généralisée épileptique",
+            "crise épileptique tonicoclonique généralisée",
+            "crise tonico-clonique generalisee",
+            "Crise epileptique",
+            "crise d'epilepsie generalisee",
+            "crise d'épilepsie tonico clonique généralisée",
+            "crise tonicoclonique généralisée",
+            "Crise d'épilepsie tonico clonique",
+            "crise epilepsie Tonico clonique generalisée",
+            "crise epileptique tonico clonique generalisée",
+            "crise d'épilepsie généralisée",
+            "Crise épiléptique tonico-clonique",
+            "crise convulsive tonicoclonique",
+            "crise d‘epilepsie generalisée tonico clonique",
+            "crise d épilepsie tonico clonique",
+            "crise epilepsie",
+            "Crise generalisee tonico-clonique",
+            "crise tonico-clonique généralisé",
+            "crise d'epilepsie généralisée",
+            "Crise d‘épilepsie",
+            "crise d'epilepsie generalisee tonico-clonique",
+            "crise d'épilepsie tonicoclonique",
+            "crise convulsive tonico-clonique",
+            "crise d épilepsie tonico clonique généralisée",
+            "Crise convulsive tonico-clonique",
+            "crise d'épilepsie généralisée tonicoclonique",
+            "épilepsie avec crise tonico-clonique généralisée",
+            "crise épilepsie",
+            "crise d'épileptie généralisée tonico-clonique",
+            "une crise d‘épilepsie",
+            "crise comitiale",
+            "crise d épilepsie",
+            "crise épilepsie tonicoclonique",
+            "Crise généralisé tonico clonique",
+            "crise d’épilepsie généralisée",
+            "crise d'epilepsie généralisée tonico-clonique",
+            "Crise d'epilespie tonico clonique",
+            "crise epilepsie generalisee tonico clonique",
+            "crise d'epilpepsie tonico clonique",
+            "crise d'epilepsie tonico-clonique généralisée"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les facteurs qui ont pu favoriser la survenue de cette crise ? (5 bonnes réponses)",
+          "choix": [
+            "A) Dette de sommeil",
+            "B) Miction",
+            "C) Orthostatisme prolongé",
+            "D) Exposition aux écrans",
+            "E) Prise d’alcool",
+            "F) Sevrage en alcool",
+            "G) Prise de benzodiazépine",
+            "H) Sevrage en benzodiazépine"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E",
+            "F",
+            "H"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle manifestation clinique épisodique répétée, antérieure à la crise actuelle, serait en faveur d’une épilepsie idiopathique ?",
+          "choix": [
+            "A) Des myoclonies rythmiques d’un membre supérieur durant 30 secondes",
+            "B) Des myoclonies des 2 bras durant moins d’une seconde",
+            "C) Des paresthésies d’une main étendues au bras en quelques secondes",
+            "D) Un mâchonnement automatique",
+            "E) Une sensation épigastrique ascendante"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297132096-d363f432fb357",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies concernant la myasthénie anti-MuSK ?",
+          "choix": [
+            "A) Les troubles de la déglutition sont moins fréquents que dans les autres formes de myasthénie",
+            "B) Les anticorps anti récepteurs de l’acétylcholine sont absents dans la moitié des cas",
+            "C) L’électroneuromyographie est souvent normale",
+            "D) Un thymome est associé dans 2/3 des cas",
+            "E) Le rituximab (anti-CD20) est très efficace"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QRP (2 bonnes réponses)\nQuelles sont les propositions vraies concernant le syndrome de Guillain-Barré ?",
+          "choix": [
+            "A) Le déficit moteur prédomine à la partie distale des membres",
+            "B) Les anomalies de l’ENMG sont présentes dès l’apparition des symptômes",
+            "C) L’hyperprotéinorachie est retardée de 3 à 10 jours par rapport au début clinique",
+            "D) L’atteinte faciale bilatérale initiale est de mauvais pronostic",
+            "E) Une assistance respiratoire est nécessaire dans 5% des cas"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "QRP (3 bonnes réponses)\nQuelles sont les propositions vraies concernant la sclérose latérale amyotrophique ?",
+          "choix": [
+            "A) Il s’agit d’une neuropathie touchant les fibres nerveuses longueur dépendante",
+            "B) Peut être responsable de troubles sensitifs",
+            "C) Peut être responsable de troubles cognitifs fronto-temporaux troubles cognitifs",
+            "D) Peut être responsable d’un signe de Babinski",
+            "E) Est constamment mortelle"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 30,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic retenez-vous d’après ce scanner cérébral réalisé sans injection de produit de contraste ?",
+          "choix": [
+            "A) Hémorragie méningée",
+            "B) Hématome intracérébral",
+            "C) Hématome extra-dural",
+            "D) Hématome sous-dural"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2023/q30.png?v=1786297133598"
+          ]
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies concernant la sclérose en plaques ?",
+          "choix": [
+            "A) Un jeune âge de début est un facteur de meilleur pronostic",
+            "B) La maladie évolue au début par poussées suivies de rémissions dans 1/3 des cas",
+            "C) La sclérose en plaques est associée à la présence d’anticorps anti-aquaporine4",
+            "D) La sclérose en plaques est associée à un antécédent d’infection par le virus Epstein-Barr",
+            "E) La protéinorachie est >1 g/l dans 25% des cas"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans quels cas faut-il rechercher une amylose chez un patient qui présente une polyneuropathie chronique ?",
+          "choix": [
+            "A) Polyneuropathie démyélinisante",
+            "B) Tremblement des mains",
+            "C) Dysautonomie",
+            "D) Syndrome du canal carpien",
+            "E) Gammapathie monoclonale IgM à activité anti-MAG"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 33,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une femme de 50 ans, tabagique et migraineuse, se présente aux urgences en raison d’une céphalée brutale, intense et persistant depuis son apparition 4 heures avant. Quel diagnostic évoquez-vous en priorité ?",
+          "choix": [
+            "A) Crise de migraine",
+            "B) Syndrome de vasoconstriction cérébrale réversible",
+            "C) Thrombose veineuse cérébrale",
+            "D) Hémorragie sous-arachnoïdienne",
+            "E) Apoplexie pituitaire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies concernant les troubles du sommeil ?",
+          "choix": [
+            "A) L’avance de phase peut être confondue avec l’insomnie d’endormissement",
+            "B) Le syndrome d’apnées du sommeil peut être révélé par une céphalée matinale",
+            "C) L’examen complémentaire de première intention à la recherche d’un syndrome d’apnée du sommeil est la polysomnographie",
+            "D) Le traitement de référence du syndrome d’apnées du sommeil est la ventilation nocturne en pression positive continue",
+            "E) Le syndrome des jambes sans repos peut être dû à une carence martiale"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la physiopathologie des signes cliniques d’une compression médullaire :",
+          "choix": [
+            "A) L’hypopallesthésie signe une atteinte de la voie spino-thalamique.",
+            "B) Les troubles de la sensibilité arthrokinétique traduisent une atteinte de la sensibilité lemniscale",
+            "C) La présence d’un signe de Lhermitte traduit une souffrance des cordons postérieurs de la moëlle épinière",
+            "D) En cas de syndrome centro-médullaire débutant, le syndrome sous-lésionnel sera principalement marqué par une atteinte de la sensibilité extra-lemniscale de manière suspendue aux myélomères touchés par la lésion.",
+            "E) Le syndrome lésionnel traduit une compression de la corne antérieure de la moelle épinière à l’origine de la radiculalgie dans le métamère correspondant."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 36,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous suspectez un syndrome de compression médullaire, Quel est l’examen de référence à demander en 1ère intention ?",
+          "choix": [],
+          "reponses": [
+            "IRM panmédullaire ( panrachidienne, médullaire, médullaire complète sont autorisées)"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 37,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient présentant un syndrome de compression médullaire avec un syndrome rachidien marqué en cervical et une altération de l’état général passe une IRM et le radiologue conclut à une origine compressive extra-durale. Quel est la première étiologie à évoquer?:",
+          "choix": [
+            "A) Hernie discale cervicale",
+            "B) Schwannome cervical",
+            "C) Tumeur osseuse primitive cervicale",
+            "D) Syringomyélie",
+            "E) Métastase vertébro-épidurale"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici l’IRM d’un patient présentant un déficit moteur bilatéral des membres inférieurs avec anesthésie en selle et des troubles de la vidange vésicale.",
+          "choix": [
+            "A) L’IRM montre une atteinte à point de départ intra-dural",
+            "B) L’IRM montre une métastase L5 responsable d’une fracture pathologique avec épidurite compressive sur les racines de la queue de cheval",
+            "C) L’IRM montre une hernie discale lombaire compressive sur les racines de la queue de cheval",
+            "D) On peut s’attendre à retrouver (entre autres) un déficit bilatéral des quadriceps et une hypoesthésie de l’intérieur des cuisses.",
+            "E) On peut s’attendre à retrouver (entre autres) une aréflexie achilléenne et un déficit du muscle extenseur propre de l’hallux de manière bilatérale."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2023/q38.png?v=1786297135720"
+          ]
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les 2 syndromes les plus fréquemment révélateurs d’une tumeur infra-tentorielle ?\nQRP : 2 bonnes réponses",
+          "choix": [
+            "A) Epilepsie",
+            "B) Syndrome d’hypertension intracrânienne",
+            "C) Syndrome caverneux",
+            "D) Syndrome cérébelleux",
+            "E) Syndrome de Parinaud"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 40,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic envisage-t-on en priorité chez un patient de 70 ans qui présente un trouble de la mémoire épisodique depuis plusieurs mois si le test des 5 mots montre un déficit du rappel différé non corrigé par les indices ?",
+          "choix": [],
+          "reponses": [
+            "Maladie d'Alzheimer"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 41,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la principale cause d’AVC ischémique ?",
+          "choix": [],
+          "reponses": [
+            "Athérosclérose"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

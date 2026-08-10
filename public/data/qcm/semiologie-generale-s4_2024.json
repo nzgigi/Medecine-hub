@@ -1,0 +1,432 @@
+{
+  "matiere": "Sémiologie générale",
+  "slug": "semiologie-generale-s4",
+  "annee": 2024,
+  "title": "Sémiologie générale - 2024",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une fièvre à 38°5° d’installation progressive depuis 3 semaines, vous évoquez (plusieurs réponses possibles):",
+          "choix": [
+            "A) un cancer du sang (par exemple, lymphome)",
+            "B) une pneumopathie franche lobaire aigue (pneumocoque)en cas de douleur latérothoracique",
+            "C) une pyélonéphrite (infection haute des voies urinaires) en présence de pollakiurie et brûlures mictionnelles",
+            "D) une infection aigue des voies biliaires en présence de douleurs du flanc droit",
+            "E) une tuberculose"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Des douleurs des membres inférieurs peuvent faire évoquer:",
+          "choix": [
+            "A) une polynévrite en cas de fourmillement des extrémités",
+            "B) une artériopathie oblitérante en cas de douleurs apparaissant à la marche",
+            "C) une souffrance de l’articulation coxo-fémorale en cas de douleurs ressenties à l'aine",
+            "D) une sciatique S1 en cas de douleur apparaissant à la station debout, naissant dans la fesse irradiant à la face postérieure de la cuisse et de la jambe et se terminant sous le pied",
+            "E) une radiculopathie L5 en cas de douleur à la face antérieure de la cuisse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les réflexes rotuliens peuvent se rechercher :",
+          "choix": [
+            "A) debout",
+            "B) en décubitus dorsal",
+            "C) à genoux sur une chaise",
+            "D) en décubitus latéral",
+            "E) assis sur la table d’examen, les pieds ballants"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les bruits cardiaques, quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) un souffle aortique est toujours pathologique",
+            "B) le souffle d’ insuffisance aortique est difficile à entendre",
+            "C) le souffle d’insuffisance mitrale est entendu le long du sternum",
+            "D) le frottement péricardique est entendu au mieux sous le sein gauche",
+            "E) une tachyarythmie est l’anomalie auscultatoire entendu en cas de fibrillation auriculaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’appareil urinaire, quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) la dysurie correspond à l’émission d'urines de couleur anormale",
+            "B) une douleur du flanc droit doit faire évoquer une rétention aigue d’urine",
+            "C) une matité sus-pubienne doit faire évoquer une rétention aigue d'urine",
+            "D) devant un globe vésical il convient de faire un toucher rectal",
+            "E) une pollakiurie correspond à l'émission de plus de 3 litres d'urine par jour"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les diagnostics suivants, quels sont ceux qui peuvent expliquer un amaigrissement par perte d'appétit :",
+          "choix": [
+            "A) une hypothyroïdie",
+            "B) une dépression",
+            "C) un cancer polymétastatique",
+            "D) une téniase (ver solitaire",
+            "E) une maladie infectieuse chronique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dyspnée,",
+          "choix": [
+            "A) elle est sifflante au cours de la crise d’asthme",
+            "B) elle est inspiratoire en cas de corps étranger dans une bronche souche",
+            "C) une insuffisance cardiaque peut provoquer une dyspnée avec râles sibillants chez le sujet âgé",
+            "D) elle peut être provoquée par une anémie",
+            "E) elle peut avoir une cause psychogène"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez un patient qui est âgé de 60 ans, fatigué, température à 37°2 et qui a pris 5 kg sur le mois dernier. Vous découvrez son bilan biologique qui retrouve :\nHb 7 g/dl, VGM 120 µ3\nPlaquettes 200 000/mm3\nLeucocytes 14 000/mm3\nCRP à 70 mg/l\nFibrinogène à 5,2 g/l\nQuelles sont les réponses exactes.",
+          "choix": [
+            "A) ce patient présente une fièvre",
+            "B) ce patient présente une anémie macrocytaire",
+            "C) il y a un syndrome inflammatoire",
+            "D) il y a une thrombopénie",
+            "E) ce patient présente une polynucléose"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "douleur thoracique : parmi les caractéristiques suivantes, lesquelles vous évoquent une origine pleurale (plusieurs réponses justes):",
+          "choix": [
+            "A) Douleur à type de brûlure",
+            "B) Douleur positionnelle",
+            "C) Une douleur augmentée par la respiration",
+            "D) Douleur à type de striction",
+            "E) présence d'un point douloureux exquis à la palpation"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affections suivantes, lesquelles peuvent être responsables de douleur thoracique :",
+          "choix": [
+            "A) tumeur de l'oesophage",
+            "B) Un cancer pleural",
+            "C) Une métastase costale",
+            "D) dissection aortique",
+            "E) embolie pulmonaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr A, 92 ans, grabataire, est hospitalisé pour une pneumopathie bactérienne. L'apyrexie et obtenue en 48h sous antibiotiques, mais on constate une reprise de la fièvre au 7ieme jour du traitement. On recherche:",
+          "choix": [
+            "A) maladie thromboembolique",
+            "B) fièvre induite par les antibiotiques",
+            "C) une hypothyroïdie",
+            "D) une infection de cathéter",
+            "E) une rétention d'urines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une douleur ressentie à l’épaule droite peut correspondre à :",
+          "choix": [
+            "A) Une inflammation de l’articulation omo-humérale",
+            "B) Une crise d’angor",
+            "C) Une inflammation tendineuse",
+            "D) Une pathologie vésiculaire",
+            "E) Un cancer de la base du poumon gauche"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments font suspecter une infection urinaire chez un homme de 78 ans?",
+          "choix": [
+            "A) pollakiurie",
+            "B) dysurie",
+            "C) douleur prostatique au toucher rectal",
+            "D) Hématurie microscopique isolée",
+            "E) Glycosurie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant des vomissements, on peut retrouver une cause:",
+          "choix": [
+            "A) digestive",
+            "B) ORL",
+            "C) neurologique",
+            "D) psychiatrique",
+            "E) médicamenteuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300175668-0ac531f6726d7",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Une patiente de 25 ans G1P1, un accouchement par voie basse en 2021, se rend aux urgences pour des douleurs abdominale et de la fièvre.\nElle est porteuse d’un DIU au cuivre et fume 10 cigarettes par jour.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’interrogatoire vous recherchez cocher la ou les réponses justes :",
+          "choix": [
+            "A) Une anorexie associée à des nausées et des vomissements",
+            "B) Des céphalées avec aura",
+            "C) Des pertes vaginales nauséabondes 1",
+            "D) Des rapports sexuels non protégés",
+            "E) Une pollakiurie et des brulures mictionnelles"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen clinique cocher la ou les réponses justes",
+          "choix": [
+            "A) Un examen gynécologique doit être fait",
+            "B) Un TV permet de rechercher une masse",
+            "C) Une défense en épigastre fait évoquer une étiologie gynécologique",
+            "D) Il est indispensable d'obtenir l'accord de la patiente avant de réaliser un examen pelvien",
+            "E) Les leucorrhées sont toujours signe d’infection"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez examiné la patiente elle est apyrétique, présente une défense en fosse iliaque droite vous constatez des métrorragies de faible abondance",
+          "choix": [
+            "A) La défense en fosse iliaque droite est toujours pathognomonique d'une appendicite",
+            "B) La défense est un signe d'irritation péritonéale",
+            "C) Une contracture abdominale peut précéder une défense",
+            "D) Des ménorragies sont des saignements en dehors des règles",
+            "E) Ces saignements peuvent d'origine endo ou exocervicale",
+            "F) Compte tenu de la présence d'un DIU je ne demande pas de dosage des bhcg"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La prise de sang retrouve : Hb 8 g/ dl Leucocyte : 8 G/l CRP < 2 mg/l, Beta HCG positif 2000 UI/l vous évoquez en première intention ( une seule réponse)",
+          "choix": [
+            "A) Une torsion d’annexe",
+            "B) Une grossesse extra utérine",
+            "C) Une salpingite aigue",
+            "D) Une rupture de kyste hémorragique",
+            "E) Un endométriome"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une grossesse extra utérine quels sont les signes en faveur",
+          "choix": [
+            "A) La contraception par un DIU au cuivre",
+            "B) Un tabagisme actif",
+            "C) Les métrorragies",
+            "D) Un âge < 30 ans",
+            "E) La parité (un accouchement par voie basse)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’échographie vous retrouvez un hémopéritoine massif, la patiente fait un malaise pendant votre échographie",
+          "choix": [
+            "A) Elle fait probablement un choc septique",
+            "B) Vous allez au bloc opératoire en urgence",
+            "C) Vous lui expliquez le risque de salpingectomie",
+            "D) Vous attendez que la patiente soit a jeun pour l’opérer",
+            "E) Toutes les réponses sont fausses"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

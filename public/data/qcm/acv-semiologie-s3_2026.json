@@ -1,0 +1,927 @@
+{
+  "matiere": "Appareil cardio-vasculaire – Sémiologie",
+  "slug": "acv-semiologie-s3",
+  "annee": 2026,
+  "title": "Appareil cardio-vasculaire – Sémiologie - 2026",
+  "total_questions": 45,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 31 ans est admis en urgence pour douleur thoracique avec ascension de troponine sans modification de l’électrocardiogramme :",
+          "choix": [
+            "A) La réalisation d’une échocardiographie permet d’explorer la cinétique segmentaire du ventricule gauche",
+            "B) La réalisation d’une échocardiographie permet de rechercher une cardiomyopathie",
+            "C) La réalisation d’un scanner des artères coronaires permet d’écarter une coronaropathie",
+            "D) La réalisation d’une IRM cardiaque permet de visualiser un œdème myocardique",
+            "E) La réalisation d’une IRM cardiaque permet de différencier un infarctus du myocarde et une myocardite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez le patient présentant une artériopathie athéromateuse des membres inférieurs au stade d’ischémie chronique de repos, parmi les paramètres hémodynamiques suivants, lesquels définissent l’ischémie critique ?",
+          "choix": [
+            "A) Une pression de cheville <70 mmHg",
+            "B) Une pression d’orteil <30 mmHg",
+            "C) Un index de pression systolique à la cheville ≤0,90",
+            "D) Un index de pression systolique à l’orteil ≤0,70",
+            "E) Une pression transcutanée en oxygène (TcPO2) <30 mmHg"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) réponse(s) juste(s) :",
+          "choix": [
+            "A) On diagnostique une hypertension artérielle si la PA est ≥ 135/85 mmHg en automesure",
+            "B) On diagnostique une hypertension artérielle si la PA est ≥ 135/85 mmHg en MAPA diurne",
+            "C) On diagnostique une hypertension artérielle si la PA est ≥ 130/80 mmHg en MAPA sur 24 heures",
+            "D) On diagnostique une hypertension artérielle si la PA est ≥ 140/90 mmHg en MAPA diurne",
+            "E) On diagnostique une hypertension artérielle si la PA est ≥ 140/90 mmHg en MAPA sur 24 heures"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’ischémie myocardique:",
+          "choix": [
+            "A) Se définit comme l’incapacité du cœur à assurer les besoins métaboliques et fonctionnels de l’organisme",
+            "B) Diminue la réserve coronaire",
+            "C) Est à l’origine d’anomalies électriques qui suivent les anomalies de systole",
+            "D) Peut s’explorer par IRM cardiaque",
+            "E) Donne un défaut de perfusion au stress, réversible au repos, en scintigraphie myocardique de perfusion"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les deux principaux facteurs de risque cardiovasculaire associés à l’artériopathie athéromateuse des membres inférieurs ?",
+          "choix": [
+            "A) Le sexe masculin",
+            "B) Une AAMI précoce chez un apparenté au 1er degré",
+            "C) Le tabagisme actif",
+            "D) L’hypertension artérielle",
+            "E) Le diabète"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 75 ans vous est adressé pour bilan de dyspnée d’effort. Vous souhaitez vous assurer de l’absence de valvulopathie ou d’ischémie myocardique. Lesquels de ces examens répondent à ces indications :",
+          "choix": [
+            "A) Un examen clinique",
+            "B) Une échocardiographie de repos",
+            "C) Une échocardiographie d’effort",
+            "D) Une scintigraphie myocardique de perfusion",
+            "E) Un scanner coronaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient présente le bilan d’hémostase suivant :\nTP 44% TCA 39sec (témoin 29sec) Facteur V 86% Facteur X 17%\nFacteur II 23% Fibrinogène 3,1g/L Numération plaquettaire 243 G/L\nParmi les diagnostics suivants quel est le plus vraisemblable ?",
+          "choix": [
+            "A) Bilan d’insuffisance hépatique sévère.",
+            "B) Bilan d’Hémophilie A.",
+            "C) Bilan de coagulopathie intravasculaire disséminée.",
+            "D) Bilan de traitement anticoagulant par Héparine non fractionnée.",
+            "E) Bilan de carence en vitamine K."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une douleur d’un membre inférieur au repos, parmi les caractéristiques suivantes, lesquelles orientent vers une ischémie chronique permanente ?",
+          "choix": [
+            "A) La douleur est à prédominance nocturne",
+            "B) La douleur est améliorée par le mouvement de la jambe",
+            "C) La douleur est améliorée par la position jambe pendante",
+            "D) La douleur est insomniante",
+            "E) La douleur s’associe à une dysesthésie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient présente le bilan d’hémostase suivant :\nTP 38% TCA 39sec (témoin 29sec) Facteur V 40% Facteur X 35%\nFacteur II 32% Fibrinogène 1,6g/L Numération plaquettaire 97 G/L\nParmi les diagnostics suivants quel est le plus vraisemblable ?",
+          "choix": [
+            "A) Bilan d’insuffisance hépatique sévère.",
+            "B) Bilan d’Hémophilie A.",
+            "C) Bilan de coagulopathie intravasculaire disséminée.",
+            "D) Bilan de traitement anticoagulant par Héparine non fractionnée.",
+            "E) Bilan de carence en vitamine K."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le temps de céphaline activé (TCA),",
+          "choix": [
+            "A) Explore la voie exogène de la coagulation, en plus de la voie commune et de la fibrinoformation.",
+            "B) Explore la voie de la phase contact de la coagulation, en plus de la voie commune et de la fibrinoformation.",
+            "C) Peut explorer la plupart des facteurs vitamine K-dépendants.",
+            "D) Sert à suivre un traitement par AVK.",
+            "E) Est allongé en cas de traitement par Héparines non fractionnées (HNF)."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les bruits donner la ou les réponse (s) juste (s).",
+          "choix": [
+            "A) L’espace entre B1 et B2 définit la diastole ventriculaire et la systole auriculaire",
+            "B) B1 correspond à la fermeture des valves aortiques et pulmonaires",
+            "C) B2 correspond à la fermeture des valves atrio-ventriculaires",
+            "D) Des bruits surajoutés B3 et B4 peuvent s’entendre en cas d’insuffisance cardiaque",
+            "E) Un B5 peut-être entendu en cas de communication interventriculaire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suivez un patient de 55 ans qui a présenté un infarctus du myocarde il y a un peu plus d’un an:",
+          "choix": [
+            "A) L’échocardiographie transthoracique permet de mesurer sa fraction d’éjection du ventricule gauche",
+            "B) L’échocardiographie permet de mesurer la déformation de son myocarde",
+            "C) L’IRM cardiaque permet de mesurer la taille de l’infarctus",
+            "D) La scintigraphie myocardique de perfusion permet de dépister une ischémie myocardique",
+            "E) Le scanner cardiaque permet de surveiller son statut coronaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Madame L. est hospitalisée pour suspicion de myocardite aiguë:",
+          "choix": [
+            "A) L’échocardiographie transthoracique permet de faire le diagnostic de myocardite",
+            "B) L’échocardiographie transœsophagienne permet de voir l’œdème myocardique",
+            "C) La scintigraphie myocardique de perfusion permet de voir l’inflammation du myocarde",
+            "D) Le scanner cardiaque permet d’éliminer une coronaropathie",
+            "E) L’IRM cardiaque permet de différencier infarctus et inflammation"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les caractéristiques du souffle et des symptômes des patients avec rétrécissement aortique, donnez, la ou les réponse (s) juste (s).",
+          "choix": [
+            "A) Il peut s’agir d’un angor d’effort",
+            "B) Il peut s’agir d’un essoufflement d’effort",
+            "C) Pour les formes très évoluées l’essoufflement peut s’observer au repos",
+            "D) Il peut y avoir des syncopes à l’effort",
+            "E) Le B2 peut ne plus être entendu"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La scintigraphie cardiaque :",
+          "choix": [
+            "A) Permet une exploration cardiaque au lit du malade",
+            "B) Permet d’explorer la perfusion myocardique",
+            "C) Est utilisée pour sa résolution spatiale",
+            "D) Peut-être réalisée pendant un effort",
+            "E) Est l’examen de référence pour l’exploration du myocarde"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes laquelle ou lesquelles sont juste(s).",
+          "choix": [
+            "A) Le foyer d’auscultation aortique principal est au deuxième espace intercostal droit",
+            "B) Le foyer tricuspidien est dans le creux sus sternal",
+            "C) Le foyer mitral est sous-mamelonnaire au 4-5ème espace intercostal gauche",
+            "D) Le foyer pulmonaire est au deuxième espace intercostal gauche",
+            "E) Le souffle d’insuffisance s’entend au mieux au 4ème espace intercostal droit"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La dyspnée d’origine cardiaque peut être due à:",
+          "choix": [
+            "A) Une ischémie myocardique",
+            "B) Une dysfonction diastolique du ventricule gauche",
+            "C) Une dysfonction systolique du ventricule gauche",
+            "D) Une séquelle d’infarctus du myocarde",
+            "E) Une diminution de la capacité pulmonaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une douleur d’un membre inférieur à l’effort, parmi les caractéristiques suivantes, lesquelles orientent vers une claudication artérielle (ischémie chronique d’effort) ?",
+          "choix": [
+            "A) La douleur débute au mollet",
+            "B) La douleur débute à la fesse et irradie vers le pied",
+            "C) La douleur apparaît dès le premier pas",
+            "D) La douleur régresse rapidement à l’arrêt de l’effort",
+            "E) La douleur est soulagée par l’antéflexion (à vélo par exemple)"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) réponse(s) juste(s) :",
+          "choix": [
+            "A) La pression artérielle augmente à l’effort",
+            "B) La pression artérielle augmente avec l’émotion",
+            "C) La pression artérielle augmente avec la douleur",
+            "D) La pression artérielle est plus élevée l’hiver",
+            "E) La pression artérielle est plus basse en été"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les souffles cardiaques donnez la ou les réponse (s) juste (s)",
+          "choix": [
+            "A) L’insuffisance mitrale s’accompagne d’un souffle diastolique",
+            "B) Le rétrécissement aortique s’accompagne d’un souffle systolique",
+            "C) L’insuffisance aortique s’accompagne d’un souffle diastolique",
+            "D) Le rétrécissement mitral s’accompagne d’un roulement diastolique",
+            "E) L’insuffisance tricuspide s’accompagne d’un souffle systolique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 86 ans vous est adressé pour bilan de souffle systolique à l’auscultation. Parmi les examens suivants, lesquels sont indiqués dans le cadre de l’exploration de ce souffle :",
+          "choix": [
+            "A) Un interrogatoire à la recherche de symptômes",
+            "B) Un examen clinique",
+            "C) Une échocardiographie",
+            "D) Un scanner coronaire",
+            "E) Une scintigraphie myocardique de perfusion"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) règle(s) hygiéno-diététique(s) participe(nt) à la réduction de la pression artérielle ?",
+          "choix": [
+            "A) La réduction du poids en cas de surcharge pondérale",
+            "B) L’arrêt d’une intoxication tabagique",
+            "C) La pratique d’une activité physique régulière et adaptée aux possibilités du patient",
+            "D) Une normalisation de l’apport sodé",
+            "E) Une alimentation privilégiant la consommation de fruits, légumes, et d’aliments peu riches en graisse et saturées."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la radiographie du poumon cardiaque :",
+          "choix": [
+            "A) Le stade 1 de l’hypertension veino-capillaire est marqué par une redistribution du débit sanguin aux sommets.",
+            "B) Le syndrome alvéolaire est plus sévère que le syndrome interstitiel.",
+            "C) Une pression capillaire pulmonaire supérieure à 25mmHg est évocatrice d’un syndrome d’hypertension veino-capillaire de stade 3.",
+            "D) Les lignes horizontales juxta pleurales dans le sinus costo-diaphragmatique ou ligne B de Kerley sont présentent au cours du syndrome interstitiel.",
+            "E) Un épanchement pleural peut être présent au cours du poumon cardiaque."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours de l’inspection on peut mettre en évidence :",
+          "choix": [
+            "A) Des xanthomes qui sont des nodosités jaunâtres traduisant la présence de dépôts lipidiques au niveau des tendons.",
+            "B) Un gérontoxon représenté sous la forme d’un arc sénile formant un cercle blanc grisâtre à la périphérie de la cornée suspect d’athérosclérose.",
+            "C) Un oedème périphérique des membres inférieurs blancs bilatéral, prenant le godet signe d’une insuffisance cardiaque gauche.",
+            "D) Une turgescence jugulaire signe de l’insuffisance cardiaque gauche.",
+            "E) Une cyanose avec les téguments et les muqueuses devenant bleus."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 24
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du foie cardiaque :",
+          "choix": [
+            "A) Il s’agit d’une conséquence de l’insuffisance ventriculaire droite.",
+            "B) On note un gros foie traduisant l’hépatomégalie.",
+            "C) La pression au niveau du foie produit un reflux hépato-jugulaire.",
+            "D) Il régresse sous traitement et réapparait en cas d'aggravation on parle de \"foie accordéon\".",
+            "E) Il est douloureux à la palpation, c’est l’hépatalgie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’ECG d’effort ci-dessous :",
+          "choix": [
+            "A) Le test est positif",
+            "B) Tachycardie à QRS large",
+            "C) Sous-décalage significatif du segment ST en antéro-latéral à l’effort",
+            "D) Fibrillation atriale",
+            "E) Rythme sinusal"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 26,
+          "images": [
+            "/images/qcm/acv-semiologie-s3/2026/q26.webp?v=1786370367325"
+          ]
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’insuffisance cardiaque droite décompensée s’accompagne de (donnez la ou les réponses justes) :",
+          "choix": [
+            "A) Souffle systolique sous-xiphoïdien augmenté à l’inspiration profonde, signe de CARVALHO.",
+            "B) Reflux hépato-jugulaire.",
+            "C) Œdèmes des membres inférieurs.",
+            "D) Hépatomégalie.",
+            "E) Turgescence veineuse visible notamment au niveau du cou."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 27
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours de la percussion on peut mettre en évidence :",
+          "choix": [
+            "A) Un épanchement pleural.",
+            "B) Une ascite.",
+            "C) Des oedèmes des membres inférieurs blancs, prenant le godet signe d’une insuffisance cardiaque gauche.",
+            "D) Une hépatomégalie.",
+            "E) Des râles bronchiques."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 28
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les pathologies suivantes, laquelle (lesquelles) peut (peuvent) induire une surcharge barométrique du ventricule gauche ?",
+          "choix": [
+            "A) Rétrécissement aortique.",
+            "B) Insuffisance mitrale.",
+            "C) Insuffisance aortique.",
+            "D) Hypertension artérielle pulmonaire.",
+            "E) Insuffisance tricuspidienne."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 29
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’athérosclérose, quelle(s) est (sont) la (les) réponse(s) juste(s) ?",
+          "choix": [
+            "A) Débute au niveau de l’intima.",
+            "B) Elle détruit la limitante élastique interne.",
+            "C) La plaque d’athérome est le plus souvent concentrique.",
+            "D) Riche en lipide le plus souvent.",
+            "E) Ne favorise pas la thrombose."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 30
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’ECG ci-dessous :",
+          "choix": [
+            "A) Infarctus inférolatéral",
+            "B) Rythme régulier sinusal",
+            "C) Lésion en miroir",
+            "D) Bloc de branche gauche",
+            "E) ECG évocateur d’une occlusion de l’artère interventriculaire antérieure"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 31,
+          "images": [
+            "/images/qcm/acv-semiologie-s3/2026/q31.webp?v=1786370371353"
+          ]
+        },
+        {
+          "id": 32,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mr 51 ans vient vous consulter pour des douleurs thoraciques gauches apparues depuis 1 mois. Elles durent quelques minutes à l’effort et disparaissant à l’arrêt de l’effort.\nVous suspectez (une réponse juste) :",
+          "choix": [
+            "A) Un infarctus du myocarde ambulatoire.",
+            "B) Un spasme coronaire.",
+            "C) Des douleurs thoraciques psychogènes.",
+            "D) Une angine de poitrine.",
+            "E) L’irradiation d’une douleur de rate."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 32
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’insuffisance ventriculaire gauche :",
+          "choix": [
+            "A) La dyspnée d’effort, l’œdème aigu du poumon et l’asthme cardiaque sont des symptômes de l’insuffisance ventriculaire gauche.",
+            "B) La dyspnée de repos est présente au stade 2 de la NYHA.",
+            "C) La tachycardie est un des premiers signes de l’insuffisance ventriculaire gauche.",
+            "D) Les œdèmes des membres inférieurs et l’hépatomégalie sont des signes insuffisance ventriculaire gauche.",
+            "E) L'insuffisance mitrale fonctionnelle est un signe d’insuffisance ventriculaire gauche."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 33
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des souffles cardiaques:",
+          "choix": [
+            "A) Le souffle d’insuffisance aortique est un souffle de régurgitation systolique avec un timbre râpeux, et rude.",
+            "B) Le souffle d’insuffisance mitrale est systolique en jet de vapeur.",
+            "C) Le souffle du rétrécissement aortique est méso-télé-systolique, se terminant avec le B2 qui peut être modifié et traduit sa sévérité lorsqu’il est aboli.",
+            "D) Le souffle du rétrécissement aortique est maximum au foyer aortique et irradie vers les carotides.",
+            "E) Le rétrécissement pulmonaire est rare, congénital et son souffle est diastolique."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 34
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr Z.R. 25 ans consulte aux urgences pour une douleur de poitrine qui dure depuis 24h.\nVous l’interrogez et l’examinez. Parmi les propositions suivantes, laquelle (lesquelles) vous oriente(nt) vers le diagnostic de péricardite ?\nDonnez la ou les réponses justes.",
+          "choix": [
+            "A) La douleur est augmentée à l’inspiration.",
+            "B) Le patient a eu une infection ORL quelques jours auparavant.",
+            "C) La douleur dure depuis 24h.",
+            "D) Vous constatez un fébricule à 38°.",
+            "E) La douleur est soulagée après une perfusion d’anti-inflammatoire."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 35
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr Z présente une douleur thoracique brutale très intense.\nVous suspectez une dissection aortique devant :",
+          "choix": [
+            "A) L’absence d’un pouls radial.",
+            "B) Une différence de pression artérielle systolique entre bras droit et gauche.",
+            "C) La douleur irradie vers le dos et le bas.",
+            "D) La douleur est calmée par les anti-inflammatoires.",
+            "E) Mr Z est traité habituellement pour une hypertension artérielle."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 36
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Décrivez l’ECG suivant :\nParmi les propositions suivantes concernant ce tracé, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Rythme sinusal",
+            "B) Bloc de branche droite",
+            "C) Fibrillation atriale",
+            "D) SCA ST + antérieur",
+            "E) Infarctus inférieur"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 37,
+          "images": [
+            "/images/qcm/acv-semiologie-s3/2026/q37.webp?v=1786370376312"
+          ]
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les facteurs de risque de thrombose veineuse profonde ?",
+          "choix": [
+            "A) Hypertension artérielle.",
+            "B) Hypercholestérolémie.",
+            "C) Chirurgie de prothèse de hanche.",
+            "D) Cancer actif.",
+            "E) Traitement oestroprogestatif."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 38
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les caractéristiques de la claudication intermittente artérielle ?",
+          "choix": [
+            "A) Douleur à type de crampe.",
+            "B) Présente dès le début de la marche.",
+            "C) Cède rapidement au repos.",
+            "D) Apparaît toujours à la même distance.",
+            "E) S'accompagne d'œdème prenant le godet."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 39
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes faisant soupçonner une embolie pulmonaire en cas de thrombose veineuse profonde ?",
+          "choix": [
+            "A) Dyspnée.",
+            "B) Hémoptysie.",
+            "C) Râles crépitants bilatéraux.",
+            "D) Souffle systolique mitral.",
+            "E) Epistaxis."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 40
+        },
+        {
+          "id": 41,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'anévrisme de l'aorte abdominale peut se compliquer de :",
+          "choix": [
+            "A) Rupture.",
+            "B) Embolie périphérique.",
+            "C) Compression urétérale.",
+            "D) Fistule colique.",
+            "E) Embolie pulmonaire."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 41
+        },
+        {
+          "id": 42,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les caractéristiques du lymphoedème des membres inférieurs chronique ?",
+          "choix": [
+            "A) Dépressible à la digito pression (godet).",
+            "B) Epargne les articulations.",
+            "C) Douloureux.",
+            "D) Impossibilité de pincer la peau.",
+            "E) Amincissement du derme."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 42
+        },
+        {
+          "id": 43,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les acrosyndromes paroxystiques ?",
+          "choix": [
+            "A) Ischémie digitale.",
+            "B) Phénomène de Raynaud.",
+            "C) Erythermalgie.",
+            "D) Engelure.",
+            "E) Syndrome de l'orteil bleu."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 43
+        },
+        {
+          "id": 44,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la valeur seuil de l'indice de pression systolique à la cheville ?",
+          "choix": [
+            "A) ≤ 0.90.",
+            "B) ≤ 0.80.",
+            "C) ≤ 0.70.",
+            "D) ≤ 0.30.",
+            "E) ≤ 1."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 44
+        },
+        {
+          "id": 45,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L'examen qui permet de diagnostiquer la thrombose veineuse profonde des membres inférieurs est :",
+          "choix": [
+            "A) D-dimères.",
+            "B) Echo-doppler.",
+            "C) Phléboscanner.",
+            "D) Angio IRM.",
+            "E) Indice de pression."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 45
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

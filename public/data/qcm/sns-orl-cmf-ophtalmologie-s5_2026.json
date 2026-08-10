@@ -1,0 +1,366 @@
+{
+  "matiere": "Système neurosensoriel – ORL, CMF et ophtalmologie",
+  "slug": "sns-orl-cmf-ophtalmologie-s5",
+  "annee": 2026,
+  "title": "Système neurosensoriel – ORL, CMF et ophtalmologie - 2026",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous rencontrez la jeune Juliette, 2 ans, pour asymétrie du visage depuis 2 jours.\nVoici sa photo :",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments de cette photo et du reste de votre examen seraient en faveur d’une paralysie faciale périphérique gauche, c’est-à-dire qu’il ne seraient pas retrouvée en cas de paralysie faciale centrale (Attention : les signes typiques de paralysies centrales et les signes à la fois présents en cas de paralysie centrale et périphérique sont donc faux) :",
+          "choix": [
+            "A) Défaut de fermeture de l’œil gauche.",
+            "B) Sourcil gauche plus élevé que le droit aux pleurs",
+            "C) Asymétrie du sourire",
+            "D) Signe de Charles Bell gauche",
+            "E) Syndrome cérébelleux."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2026/q1.webp?v=1786370764340"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous réalisez une otoscopie gauche qui est la suivante :\nQuel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Otite moyenne aiguë"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2026/q2.webp?v=1786370764607"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’enfant a des difficultés à la marche et vous suspectez une labyrinthite associée qui serait à l'origine d'un déficit vestibularie gauche harmonieux.\nParmi les suivants, quels signes sont compatibles avec un déficit vestibulaire gauche harmonieux?",
+          "choix": [
+            "A) Nystagmus droit spontané",
+            "B) Nystagmus multidirectionnel",
+            "C) Déviation de la marche à gauche les yeux fermés",
+            "D) Déviation lente de l’œil vers la gauche",
+            "E) Syndrome cérébelleux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370764644-4c84d76a33ff9",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles sont justes :",
+          "choix": [
+            "A) Le patient se plaint d’une diplopie",
+            "B) Le patient se plaint d’une hypoesthésie du V3 droit",
+            "C) Le patient se plaint d’une anosmie",
+            "D) Le patient se plaint d’une baisse d’acuité visuelle",
+            "E) Le patient se plaint d’un trouble de l’articulé dentaire"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles sont justes :",
+          "choix": [
+            "A) Le nerf facial se divise en trois branches sensitives",
+            "B) Le nerf oculomoteur permet l’ouverture de la paupière supérieure",
+            "C) Les mouvements oculomoteurs sont permis grâce aux nerfs III, IV, et VI",
+            "D) Le nerf facial est exclusivement moteur de la face",
+            "E) Les muscles de la mastications (Temporal, Masseter) sont innervés par le nerf V"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen endobuccal, quelles sont les propositions justes :",
+          "choix": [
+            "A) Un contact prématuré molaire à droite est un signe de fracture sous condylienne gauche",
+            "B) La mobilité du palais est un signe de fracture occluso-faciale (type Le Fort)",
+            "C) La première molaire maxillaire gauche d’un enfant de 5 ans est numérotée 65",
+            "D) Le conduit parotidien s’abouche au niveau de la 1ère ou 2ème molaire maxillaire",
+            "E) Du pus à l’orifice du conduit de Sténon est le signe d’une infection de la glande submandibulaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’examen paraclinique le plus pertinent à proposer pour ce patient :",
+          "choix": [
+            "A) Une panoramique dentaire",
+            "B) Une IRM du massif facial",
+            "C) Un Scanner avec injection de produit de contraste du massif facial",
+            "D) Des clichés radiographiques type Hirtz et Blondeau",
+            "E) Un Scanner sans injection de produit de contraste du massif facial"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’oculomotricité, quelles sont les affirmations justes :",
+          "choix": [
+            "A) Le muscle droit inférieur est innervé par le nerf III",
+            "B) Le muscle oblique supérieur est responsable de l’élévation de l’œil",
+            "C) Le muscle droit latéral est innervé par le nerf III",
+            "D) Le muscle droit latéral est responsable de l’abduction de l’œil",
+            "E) Le muscle droit médial est innervé par le nerf III"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370765755-4d7315aa05a1d",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "Cas clinique n°1\nMonsieur F., 60 ans, fume depuis 30 ans 10 cigarettes par jour. Il déclare boire 5 verres de vin par jour.\nSon entourage trouve que depuis quelques mois, sa voix a changé.\nIl rapporte également des douleurs à la déglutition et une difficulté croissante à avaler.\nIl ne présente pas d’autres symptômes.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Calculez la consommation tabagique et alcoolique (g d’alcool/jour) de Monsieur F. (une seule réponse possible)",
+          "choix": [
+            "A) 15 paquet-années et 25g d’alcool/jour",
+            "B) 10 paquet-années et 25g d’alcool/jour",
+            "C) 15 paquet-années et 50g d’alcool/jour",
+            "D) 30 paquet-années et 5g d’alcool/ jour",
+            "E) 5 paquet-années et 50g d’alcool/jour"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les symptômes présents chez Monsieur F. ? (Plusieurs réponses possibles)",
+          "choix": [
+            "A) Odynophagie",
+            "B) Dysphagie",
+            "C) Dyspnée",
+            "D) Hémoptysie",
+            "E) Dysphonie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous réalisez un examen nasofibroscopique à la consultation a Monsieur F devant l’ensemble de ces symptômes. Quelles sont les structures suivantes ?",
+          "choix": [
+            "A) 1. Plancher buccal",
+            "B) 2. Epiglotte",
+            "C) 3. Corde vocale",
+            "D) 4. Trachée",
+            "E) 6. Sinus piriforme"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2026/q11.webp?v=1786370766429",
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2026/q11_1.webp?v=1786370766543"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370766562-f00befc46a52a8",
+      "type": "SQI",
+      "title": "SQI 3",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes externe aux urgences et un patient se plaint de l’apparition brutale d’un flou visuel périphérique. Après avoir demandé une consultation en urgences en ophtalmo, le patient vous est renvoyé sans compte rendu (classique..) mais avec ce champ visuel :",
+          "choix": [
+            "A) Il s’agit d’une hémianopsie bitemporale",
+            "B) Ce champ visuel est un champ visuel cinétique de Goldmann",
+            "C) Il s’agit d’une hémianopsie latérale homonyme gauche",
+            "D) L’ophtalmo a dû se tromper, ce champ visuel sert plutôt au suivi du Glaucome",
+            "E) Je complète mon examen avec une imagerie centrée sur l’hypophyse, devant la forte suspicion d’adénome hypophysaire compressif"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2026/q12.webp?v=1786370767053"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces propositions, quelle(s) sont les réponses vraies :",
+          "choix": [
+            "A) L’échographie en mode B est utile pour le calcul de la puissance de l’implant de cataracte",
+            "B) Les dyschromatopsies acquises de type bleu-jaune sont souvent liées à une toxicité iatrogène en particulier via les antipaludéens de synthèse",
+            "C) Les dyschromatopsies congénitales sont le plus souvent dépistées à l’aide du test de Farnworth.",
+            "D) L’angiographie permet une analyse dynamique de la vascularisation rétinienne",
+            "E) Le diagnostic de Décollement de rétine peut se faire grâce à l’échographie en mode A"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen ophtalmologique chez l’enfant, quelle(s) sont les réponses vraies :",
+          "choix": [
+            "A) Les anomalies visuelles ne sont pas rares chez les enfants jeunes",
+            "B) La vision à 10/10 est généralement atteinte à l’âge de 10 ans",
+            "C) Une leucocorie chez un enfant doit absolument faire rechercher un médulloblastome",
+            "D) Un nystagmus chez l’enfant doit faire rechercher une amblyopie.",
+            "E) La poursuite oculaire est classiquement présente à la naissance."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'anatomie de l'oeil, dire quelles affirmations sont vraies",
+          "choix": [
+            "A) Il est composé de 3 membranes : externe ou cornéosclérale, intermédiaire ou rétine, interne ou uvée",
+            "B) Les bâtonnets sont des photorécepteurs responsables de la vision périphérique et nocturne",
+            "C) Le cristallin avec l'âge perd son pouvoir d'accommodation et s'installe alors l'astigmatisme",
+            "D) Ce champ visuel retrouve une hémianopsie latérale homonyme",
+            "E) Lors d'une mydriase paralytique, le réflexe photomoteur direct est aboli à l'éclairement de l'oeil atteint"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de ce fond d'oeil :",
+          "choix": [
+            "A) C'est un fond d'oeil d'un oeil droit",
+            "B) On peut voir un œdème papillaire",
+            "C) On peut voir des exsudats secs",
+            "D) Si vous trouvez la même image sur l'autre oeil, un hypertension intracrânienne est possible",
+            "E) Il faut examiner la périphérie rétinienne à la recherche d'une déchirure rétinienne"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2026/q16.webp?v=1786370767913"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

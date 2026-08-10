@@ -1,0 +1,654 @@
+{
+  "matiere": "Néphrologie",
+  "slug": "nephrologie-s10",
+  "annee": 2024,
+  "title": "Néphrologie - 2024",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mme X , 65 ans, a peu de suivi médical. Récemment elle a souffert de pertes digestives abondantes (vomissements). Le bilan biologique sanguin fait état d’une créatinine à 250 µmol/L, urée à 35 mmol/L. Le bilan urinaire montre : Na < 20 mmol/L K 60 mmol/L. L’échographie rénale est normale. Vous retrouvez un bilan sanguin datant de l’année dernière où la créatinine était à 130 µmol/L. La bandelette urinaire est négative.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous identifiez une insuffisance rénale. créatinine à 250 µmol/L, urée à 35 mmol/L.\nQuelles sont les propositions vraies ?",
+          "choix": [
+            "A) Il s'agit d'une insuffisance rénale chronique car la créatinine est élevée depuis plus de trois mois",
+            "B) Il s'agit d'une insuffisance rénale aiguë sur chronique",
+            "C) Le rapport Na/K urinaire <1 suggère une cause fonctionnelle",
+            "D) Le rapport urée/créatinine de la patiente est en faveur d’une cause organique",
+            "E) L’estimation du débit de filtration glomérulaire DFG par la formule CKD-EPI est utilisable en aigu"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l’interrogatoire, la patiente signale des crampes diffuses, et des myalgies, avec impossibilité à la marche. Elle a encore vomi, environ 6 fois par jour. Sa tension artérielle est à 90/50 mmHg, son pouls à 110/min. La kaliémie est à 2.2 mmol/L. L’ECG retrouve des ondes T négatives dans tous les territoires et une onde U.\nQuelle est votre proposition de prise en charge ?",
+          "choix": [
+            "A) Supplémentation potassique orale, anti-émétiques, hydratation orale",
+            "B) Chlorure de potassium IV 6 g/h et réhydratation par sérum glucosé",
+            "C) Chlorure de potassium IV 1 g/h et remplissage vasculaire par NaCl 0.9%",
+            "D) Gluconate de calcium et insuline glucose",
+            "E) Perfusion d’albumine et sulfate de magnésium"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Malgré la réhydratation et la correction des troubles digestifs et hémodynamiques, la créatinine continue à être pathologique après 5 jours. Les analyses urinaires sont les suivantes : GB : 7/mm3. GR : 4/mm3. Protéinurie 0.3 g/g de créatininurie. Albuminurie 25 mg/g. Ces résultats évoquent en premier lieu:",
+          "choix": [
+            "A) une néphropathie glomérulaire",
+            "B) une néphropathie vasculaire",
+            "C) Une néphrite interstitielle aiguë",
+            "D) Une nécrose tubulaire aiguë",
+            "E) Une nécrose papillaire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La situation évolue défavorablement. Quels sont les critères qui nécessiteraient une prise en charge en hémodialyse en urgence ?",
+          "choix": [
+            "A) Sodium plasmatique 133 mmol/L.",
+            "B) Hyperuricémie.",
+            "C) pH plasmatique à 7,19 sur la gazométrie",
+            "D) Œdème aigu pulmonaire avec oligurie",
+            "E) Potassium plasmatique 4,8 mmol/L"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente bénéficie d'une réévaluation biologique. La créatinine s’est aggravée jusqu’à 690 µmol/L. Le ionogramme retrouve :\nsodium 140 mmol/L, potassium 5 mmol/L, chlore 110 mmol/L, bicarbonates 10 mmol/L.\nQuelles sont les 3 affirmations justes concernant l’acidose ?",
+          "choix": [
+            "A) Le trou anionique plasmatique est augmenté.",
+            "B) Le trou anionique plasmatique est normal.",
+            "C) Une PCO2 à 25 mmHg (&lt; 36 mmHg) sera en faveur d’une réponse respiratoire adaptée.",
+            "D) Une PCO2 à 55 mmHg sera en faveur d’une acidose mixte.",
+            "E) Le défaut d’élimination des acides par le rein est une explication possible à l’acidose"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le tableau de vomissements, d’acidose métabolique à trou anionique augmenté, et d’insuffisance rénale aiguë grave est compatible avec tous les diagnostics suivants sauf un, lequel ?",
+          "choix": [
+            "A) Choc septique sur pancréatite aiguë",
+            "B) Choc hypovolémique avec cétose de jeûne",
+            "C) Intoxication avec un acide exogène",
+            "D) Perte massive de bicarbonates par le tube digestif",
+            "E) Acido-cétose diabétique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente avait consommé avant son hospitalisation une grande quantité d’anti-inflammatoires non stéroïdiens. Quels sont les mécanismes de toxicité des AINS compatibles avec le tableau de nécrose tubulaire aiguë présenté par la patiente ?",
+          "choix": [
+            "A) Atteinte tubulaire directe",
+            "B) IRA organique faisant suite à une hypoperfusion rénale (mécanisme hémodynamique de l'AINS)",
+            "C) Immuno-allergique",
+            "D) Précipitation intra-tubulaire",
+            "E) Syndrome néphrotique par lésions glomérulaires minimes"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297091516-42672dbc873e",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Une patiente de 45 ans vous consulte pour une prise de poids de 8 kg en quelques semaines. Vous constatez des oedèmes déclives, blancs, mous, prenant le godet.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les pathologies suivantes sont compatibles avec cette présentation clinique sauf une, laquelle ?",
+          "choix": [
+            "A) Syndrome néphrotique",
+            "B) Cirrhose décompensée",
+            "C) Insuffisance cardiaque en poussée",
+            "D) Insuffisance rénale chronique décompensée",
+            "E) Une augmentation des apports alimentaires"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous obtenez les résultats suivants : ECBU GB 0/mm3, GR 80/mm3. Albuminémie 19 g/L. Protéinurie 5 g/g de créatininurie. La créatinine est à 330 µmol/L contre 80 µmol/L il y a 6 mois. Quel est votre diagnostic ?",
+          "choix": [
+            "A) Syndrome néphrotique pur",
+            "B) Syndrome néphrotique impur",
+            "C) Syndrome néphritique",
+            "D) Syndrome d’hématurie microscopique",
+            "E) Syndrome de glomérulonéphrite chronique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente présente un syndrome néphrotique impur. Elle est exposée à toutes les complications suivantes sauf une, laquelle ?",
+          "choix": [
+            "A) Erysipèle",
+            "B) Hyponatrémie de dilution",
+            "C) Algodystrophie",
+            "D) Thrombose artérielle",
+            "E) Embolie pulmonaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente est en hyperhydratation globale avec un syndrome oedémateux et une hyponatrémie débutante. Elle est en insuffisance rénale aiguë oligurique. Quel protocole thérapeutique allez-vous privilégier ?",
+          "choix": [
+            "A) Régime hyposodé, restriction hydrique, et diurétique de type amiloride",
+            "B) Régime normosodé, boissons libres, et diurétique de type thiazidique",
+            "C) Régime hyposodé, restriction hydrique, et diurétique de l’anse type furosémide",
+            "D) Régime hypersodé, restriction hydrique, et diurétique de type spironolactone",
+            "E) Régime hypersodé, et mise en dialyse"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’étiologie de son syndrome néphrotique impur, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Elle peut présenter une glomérulonéphrite extra-membraneuse, car c’est la première cause de syndrome néphrotique de l’adulte",
+            "B) Si le dépistage des ACAN et des anticorps anti-ADN est positif, qu’il y a une consommation du complément, ce tableau peut révéler un lupus",
+            "C) La maladie à lésions glomérulaires minimes touche surtout les femmes de plus de 40 ans",
+            "D) Le dosage des anticorps anti-PLA2R est pertinent chez cette patiente",
+            "E) la recherche de syphilis doit être systématique dans ce contexte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous revoyez la patiente en consultation, deux ans après sa prise en charge initiale. Son bilan retrouve une maladie rénale chronique définie par un DFG estimé à 45 ml/min/1 ,73m2. Sa tension artérielle est à 160/90 mmHg. Son albuminurie est à 750 mg/g. Quelles sont les mesures adéquates en terme de néphroprotection ?",
+          "choix": [
+            "A) introduction d’un IEC pour contrôler à la fois la tension artérielle et la protéinurie",
+            "B) Si l’objectif de tension artérielle n’est pas atteint sous IEC seul, instauration d’un double blocage IEC et ARA2",
+            "C) Si l’objectif de protéinurie n’est pas atteint sous IEC seul, instauration d’une gliflozine (ou inhibiteur de sGLT2)",
+            "D) Arrêt du Tabagisme",
+            "E) restriction protidique autour de 0,8 g/kg/j"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "critiques": [
+            "A",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297092723-446f7033780dc",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une patiente de 75 ans consulte pour asthénie et arthralgies depuis 3 semaines. Elle vous rapporte un fébricule depuis 10 jours. Vous constatez une altération de l’état général avec un amaigrissement de 3 kg. L’interrogatoire révèle une dyspnée, avec quelques crachats hémoptoïques. L’examen clinique met en évidence une tension artérielle à 180/110 mmHg, un purpura déclive, et un souffle systolique au foyer mitral. La bandelette urinaire est la suivante: Sang +++, Prot ++, Nit -. Le bilan sanguin révèle une créatinine à 180 contre 65 il y a 1 mois.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Précisez dans votre réponse quel est le syndrome néphrologique présenté par la patiente.",
+          "choix": [],
+          "reponses": [
+            "glomérulonéphrite rapidement progressive",
+            "GNRP",
+            "Glomerulonephrite rapidement progressive",
+            "Syndrome de glomérulonéphrite rapidement progressive",
+            "Glomérulonéphrite rapidement progressive (GNRP)",
+            "Glomerulonéphrite rapidement progressive",
+            "Syndrome de glomerulonephrite rapidement progressive",
+            "Glomérulonéphrite rapidemment progressive",
+            "Syndrome glomerulaire rapidement progressif",
+            "Glomerulonephrite rapidement progressive (GNRP)",
+            "glomerulonephrite rapidement progressive",
+            "Syndrome glomerulaire rapidement progressif pneumo-rénale",
+            "Syndrome de glomérulonephrite rapidement progressive",
+            "GNRP de type 1 (syndrome pneumo-rénal)",
+            "Syndrome glomerulaire de type Glomerulonephrite rapidement progressive",
+            "GNRP : Glomérulonéphrite rapidement progressive",
+            "Glomérulonéphrite rapidement progresive",
+            "Glomerulonephrite rapidement progressif",
+            "Syndrome glomerulopathie rapidement progressive",
+            "Syndrome de glomerulonéphrite rapidement progressive",
+            "GPA",
+            "GNRP (glomerulonephrite rapidement progressive)",
+            "GNRP (glomerolomephrite rapidement progressive)",
+            "Syndrome de goodpasture",
+            "Glomérulonephrite rapidement progressive (GNRP)",
+            "syndrome de glomérulonéphrite rapidement progressive",
+            "Gromerulonephrite rapidement proliferative",
+            "GNRP glomerulonephrite rapidement progressive",
+            "Glomerulonéphrite rapidement progressive (syndrome glomérulaire)",
+            "Glomérulonephrite rapidement progressive",
+            "Maladie de good-pasture",
+            "Glumérulonéphrite rapidement progressive",
+            "Glomérulonéphrite rapidement progesssive",
+            "GNRP (Glomerulonephropathie rapidement progressive)",
+            "Nephropathie glomerulaire : GNRP (glomerulonephrite rapidement progressive)",
+            "Granulomatose avec polyangéite",
+            "Nephropathie glomerulaire : glomerulonephrite rapidement progressive",
+            "Glomerulo Nephrite Rapidement Progressive",
+            "Glomérulonéphrite rapidement progressive GNRP",
+            "Glomerulonephrite avec polyangeite",
+            "Syndrome de goodpasture / glomerulonephrite rapidement progressive",
+            "Syndrome pneumo-rénal",
+            "Syndrome pneumo renal",
+            "Syndrome pneumo rénal"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les examens suivants, choisissez les 4 les plus pertinents pour arriver au diagnostic étiologique:",
+          "choix": [
+            "A) recherche d’anti-phospholipides",
+            "B) hémocultures",
+            "C) dosage des anti-b2GPI",
+            "D) fond d’œil",
+            "E) dosage des ANCA: anti-MPO, et anti PR3",
+            "F) bilan hépatique",
+            "G) Troponine",
+            "H) échographie cardiaque",
+            "I) lipase",
+            "J) dosage des anti-PLA2R",
+            "K) Electrocardiogramme",
+            "L) dosage des anti-MBG",
+            "M) Electroneuromyogramme"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "H",
+            "L"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez une vascularite à ANCA révélée par un syndrome pneumo-rénal. Concernant la biopsie rénale, quelles sont les deux réponses exactes parmi les propositions suivantes ?",
+          "choix": [
+            "A) La biopsie rénale mettra en évidence une prolifération endo-capillaire",
+            "B) La biopsie rénale mettra en évidence des dépôts immuns mésangiaux",
+            "C) La biopsie rénale mettra en évidence une prolifération extra-capillaire (croissants)",
+            "D) La biopsie rénale nécessite un bilan préalable comprenant groupage, recherche de RAI, et hémostase",
+            "E) La biopsie rénale est possible même si la patiente est sous anti-coagulants."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297094981-a2e35049e88ba8",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le laboratoire vous appelle car la kaliémie du patient dont vous êtes responsable est à 6,5 mmol/L. Le patient ne prend aucun traitement habituel. L’ECG montre des ondes T pointues, et un bloc auriculo-ventriculaire. Quel protocole mettez-vous en œuvre ?",
+          "choix": [
+            "A) Aérosols de salbutamol",
+            "B) résine échangeuse d’ions (Kayexalate) et perfusion de NaCL 0,9%",
+            "C) schéma insuline-glucose",
+            "D) schéma insuline-glucose + gluconate de calcium",
+            "E) schéma insuline-bicarbonate + kayexalate"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les signes cliniques et biologiques suivants, tous sont évocateurs de néphrite interstitielle chronique, sauf un. Lequel ?",
+          "choix": [
+            "A) Leucocyturie",
+            "B) Absence d’hématurie",
+            "C) Altération des fonctions tubulaires : natriurèse obligatoire entraînant une perte de sel",
+            "D) protéinurie de faible débit (< 1 g/g) et composée majoritairement de protéines de bas poids moléculaire",
+            "E) alcalose métabolique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une patiente se présente avec un syndrome poly-uro polydipsique depuis 3 semaines associé à une constipation. La calcémie est à 3 mmol/L, et elle présente une insuffisance rénale aiguë avec une créatinine à 400 umol/L. La PTH est basse. Quels sont les 3 examens que vous demandez en priorité ?",
+          "choix": [
+            "A) Electrophorèse des protéines",
+            "B) 25-OH Vitamine D3",
+            "C) 1, 25-OH Vitamine D3",
+            "D) Scintigraphie osseuse",
+            "E) Scintigraphie au MIBI"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient de 30 ans, vous consulte pour hématurie macroscopique. L’ECBU confirme un taux de GR à 200/mm3. Parmi les arguments suivants, quels sont les 3 qui vous orienteront vers une cause néphrologique ?",
+          "choix": [
+            "A) Caractère total de l’hématurie au long de la miction",
+            "B) Tabagisme à 40 paquets années",
+            "C) Absence de caillots",
+            "D) Antécédents familiaux de surdité et d’atteinte ophtalmologique",
+            "E) Présence de fièvre"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation un patient atteint d’une polykystose hépato-rénale. Parmi les informations que vous lui donnez, lesquelles sont correctes ?",
+          "choix": [
+            "A) il est atteint par la maladie héréditaire rénale la plus fréquente",
+            "B) la mutation lui a probablement été transmise par sa mère, car la transmission est habituellement liée à l’X",
+            "C) Il a un risque augmenté de présenter des anévrysmes de la rétine",
+            "D) Sa maladie s’accompagne volontiers d’hypertension artérielle",
+            "E) Les kystes peuvent s’accompagner de douleur ou être asymptomatiques."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un enfant de 3 ans est amené par ses parents en raison d’une forte asthénie après un épisode digestif étiqueté « gastro-entérite ». La présence d’une pâleur marquée vous fait réaliser un bilan sanguin qui montre une anémie, une thrombopénie et une insuffisance rénale. Vous soupçonnez un syndrome de micro-angiopathie thrombotique (MAT). Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) L’effondrement de l’haptoglobine et la présence de schizocytes seront en faveur d’une MAT",
+            "B) La diminution de la bilirubine et la positivité du test de Coombs seront en faveur d’une MAT",
+            "C) La mise en évidence d’une Shiga toxine dans les selles sera en faveur d’un syndrome hémolytique et urémique typique",
+            "D) on peut retrouver les mêmes anomalies dans l’hypertension artérielle maligne",
+            "E) la MAT résulte d’une occlusion des lumières artériolaires et/ou capillaires par des cristaux de cholestérol"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 35 ans, tabagique, obèse avec un IMC à 35 kg/m2, consulte pour découverte d’une hypertension artérielle et insuffisance rénale chronique de profil vasculaire. La kaliémie est à 3,1 mmol/L. Vous soupçonnez une sténose des artères rénales.",
+          "choix": [
+            "A) L’examen de référence est le doppler des artères rénales, surtout chez cette patiente.",
+            "B) Le terrain évoque une fibrodysplasie des artères rénales.",
+            "C) Vous prescrivez un angio-scanner des artères rénales, quelque soit le stade de l’insuffisance rénale",
+            "D) L’hypokaliémie suggère un hypo-aldostéronisme primaire.",
+            "E) Le traitement de choix sera une angioplastie transluminale des artères rénales."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous informez un patient inscrit sur liste de greffe rénale des modalités de la transplantation. Quelles sont les affirmations correctes ?",
+          "choix": [
+            "A) Les transplantations d’organes sont faites en tenant compte de la compatibilité dans le système des groupes sanguins ABO et rhésus.",
+            "B) la compatibilité dans le système des groupes tissulaires HLA nécessite un typage HLA du donneur et du receveur",
+            "C) la recherche d’anticorps anti-HLA chez le donneur est pertinente.",
+            "D) Les traitements anti-rejets reposent en général sur une association de tacrolimus, everolimus ou acide mycophénolique, et corticoïdes",
+            "E) La transplantation rénale nécessite une néphrectomie des reins propres avant l’implantation du greffon."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mme A, 82 ans, consulte pour une asthénie et un amaigrissement. La patiente rapporte des douleurs généralisées. Il n’y a pas d’œdèmes des membres inférieurs. La créatininémie est à 180 µmol/L, urée à 18 mmol/L. Protidémie à 92 g/L. Albuminémie à 31 g/L. La protéinurie revient à 2,5 g/g avec une albuminurie à 200 mg/g.\nQuelle néphropathie soupçonnez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Néphropathie à cylindres myélomateux",
+            "Néphropathie du myélome",
+            "Tubulopathie myélomateuse",
+            "excès de chaînes légères",
+            "Néphropathie myélomateuse",
+            "Nephropathie myelomateuse",
+            "Nephropathie a cylindre myelomateux",
+            "Néphropathie tubulaire myélomateuse",
+            "Tubulopathie myelomateuse",
+            "Néphropathie à cylindre myélomateux",
+            "Tubulopathie à cylindres myélomateux",
+            "Nephropathie à cylindres myelomateux",
+            "Myelome multiple",
+            "Nephropathie à cylindres myélomateux",
+            "Néphropathie tubulaire à cylindres myélomateux",
+            "Nephropathie à cylindre myelomateux",
+            "Nephropathie tubulaire a cylindre myelomateux",
+            "Néphropathie myélomateuse à chaînes légères",
+            "Nephropathie cylindre myelomateux",
+            "Nephropathie myelomateuse à cylindre",
+            "Néphropathie dans le cadre d'un myélome",
+            "Néphropathie à chaines légères myélomateuse",
+            "Nephropathie à cylindres myelomateux",
+            "Néphropathie tubulo-myélomateuse",
+            "Néphropathie a cylindre myélomateux",
+            "Néphropathie myélomateuse précipitation de chaine légère",
+            "Nephropatie myelomateuse",
+            "tubulopathie à cylindres myélomateux",
+            "Tubulopathie a cylindres myelomateux",
+            "Néphropathie a cylindre myélomatheux",
+            "Myélome",
+            "Myelome à chaines légères",
+            "Tubulopathie à myélome",
+            "Tubulomathie myélomateuse",
+            "Nephropathie tubulo interstitielle du myelome",
+            "tubulopathie myelomateuse",
+            "Néphropathie tubulaire à chaînes légères",
+            "Néphropathie à cylindre myelomateux",
+            "Nephropathie interstitielle a chaine legeres",
+            "Néphropathie tubulo-interstitielle myélomateuse",
+            "néphropathie tubulaire à cylindres myélomateux",
+            "Néphropathie myélomateuse à chaines légères",
+            "Nephropathie tubulaire myelomateuse",
+            "Nephropathie myélomateuse",
+            "Nephropathie a cylindres myelomateux",
+            "Néphropathie a cylindres myélomateux",
+            "Néphropathie tubulaire a cylindres myelomateux",
+            "Myelome",
+            "Myélomateuse",
+            "NCM liée à un myélome",
+            "Néphropathie à cylindres myélome",
+            "Népropathie à cylindres myélomateux",
+            "Tubulonephropathie myelomateuse",
+            "Néphropathie myélomateuse (de surcharge)",
+            "Néphropathie cylindrique myélomateuse"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Mr X, 57 ans, est suivi en psychiatrie depuis de nombreuses années pour une maladie bipolaire. Il a reçu plusieurs lignes de traitement dont des neuroleptiques, du lithium, et des benzodiazépines. Vous êtes sollicité car il présente une déshydratation intra-cellulaire, révélée par un syndrome polyuro-polydipsique. Son osmolalité plasmatique est à 310 mosmol/L, alors que sa glycémie est normale. Son osmolalité urinaire est à 150 mosmol/L.\nVotre réponse doit comporter le nom du tableau présenté par le patient.",
+          "choix": [],
+          "reponses": [
+            "diabète insipide néphrogénique iatrogène",
+            "diabète insipide néphrogénique médicamenteux",
+            "diabète insipide néphrogénique lié au lithium",
+            "Diabete insipide nephrogenique du au lithium",
+            "Diabète insipide néphrogénique (probablement dû à la prise de lithium)",
+            "Diabète insipide iatrogénique",
+            "Diabète insipide iatrogène au lithium",
+            "Diabete insipide (probablement néphrohénique sur prise de lithium)",
+            "Diabète insipide nephrogenique en lien avec lithium",
+            "Diabete insipide nephrogenique par toxicite du lithium",
+            "Diabète insipide néphrogénique sur néphropathie au lithium",
+            "Diabete insipide nephrogenique au neurolpetique",
+            "Diabete insipide au lithium",
+            "Diabète insipide iatrogénique (lithium)"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

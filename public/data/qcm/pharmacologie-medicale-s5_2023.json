@@ -1,0 +1,473 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s5",
+  "annee": 2023,
+  "title": "Pharmacologie médicale - 2023",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments antiépileptiques, quelle(s) proposition(s) est(sont) exacte(s) ? :",
+          "choix": [
+            "A) Les médicaments antiépileptiques augmentent la neurotransmission cholinergique",
+            "B) Certains médicaments antiépileptiques potentialisent l’action gabaergique en agissant comme antagoniste des récepteurs GABA A",
+            "C) Certains médicaments antiépileptiques modulent la conductance ionique des membranes",
+            "D) Les médicaments antiépileptiques de deuxième génération ont des pharmacocinétiques linéaires",
+            "E) Certains médicaments antiépileptiques de première génération sont utilisés comme antalgiques dans les douleurs neurogènes"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le lithium, quelle(s) proposition(s) est(sont) exacte(s) ? :",
+          "choix": [
+            "A) Il est le seul médicament normothymique",
+            "B) La réabsorption du lithium au niveau tubulaire s’effectue en compétition avec celle du sodium",
+            "C) Il est éliminé par voie hépatique",
+            "D) Il ne doit pas être prescrit avec les diurétiques et les AINS du fait d’un risque d’hyperlithiémie",
+            "E) Il peut être responsable de diabète insipide"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments normothymiques, quelle(s) proposition(s) est(sont) exacte(s) ? :",
+          "choix": [
+            "A) le lithium possède des propriétés anxiolytiques",
+            "B) les accès aigues des troubles bipolaires sont traités par lithium",
+            "C) le lithium est éliminé par voie rénale",
+            "D) le lithium agit par le biais des récepteurs dopaminergiques",
+            "E) le lithium a une demi vie courte de l’ordre de 4 heures"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments des troubles mnésiques, quelle(s) proposition(s) est(sont) exacte(s) ?",
+          "choix": [
+            "A) les médicaments antimuscariniques peuvent améliorer les fonctions cognitives",
+            "B) les médicaments anticholinesterasiques améliorent peu les échelles cognitives dans les essais cliniques",
+            "C) l’aducanumab, qui est un anticorps monoclonal dirigé contre la proteine amyloide, a obtenu l’AMM de la FDA dans la maladie d’Alzheimer",
+            "D) l ’aducanumab peut provoquer comme effet indésirable des hémorragies cérébrales",
+            "E) les benzodiazépines peuvent aggraver des troubles cognitifs",
+            "F) Réponse F"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments et le système GABAergique, quelle(s) proposition(s) est(sont) exacte(s) ?",
+          "choix": [
+            "A) le système GABAergique est peu systématisé et largement distribué à l’ensemble du système nerveux central",
+            "B) le système GABAergique comprend à la fois des récepteurs ionotropes et des récepteurs métabotropes couplés à des proteines G",
+            "C) l’oxybate de sodium ou GHB est un agoniste du récepteur GABA-B",
+            "D) le propofol utilisé comme anesthesique général est un agoniste GABA-A",
+            "E) les benzodiazépines sont des modulateurs allostériques du GABA-A"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les antidépresseurs, quelle(s) proposition(s) est(sont) exacte(s) ?",
+          "choix": [
+            "A) Quel que soit le médicament, l’effet sur l’inhibition psychomotrice précède l’effet sur l’humeur",
+            "B) l’inhibition du transporteur de la sérotonine rend compte de l’effet antidépresseur de la fluoxétine",
+            "C) La plupart des antidépresseurs inhibiteurs de la recapture des monoamines cérébrales sont à la fois substrats et inhibiteurs du CYP2D6",
+            "D) Les inhibiteurs de la recapture de la sérotonine sont imputés dans la survenue d’hyponatrémie",
+            "E) l’iproniazide est un inhibiteur compétitif des MAO"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les associations suivantes comportant au moins un antidépresseur, quelle(s) proposition(s) est (sont) illogique(s) ou à risque ?",
+          "choix": [
+            "A) escitalopram – amiodarone",
+            "B) amitriptyline – citalopram",
+            "C) iproniazide – inhibiteur de la recapture de la sérotonine",
+            "D) inhibiteurs de la recapture des monoamines – antibiotique de la famille des macrolides",
+            "E) inhibiteur de la recapture de la sérotonine – dihydropridine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les médicaments antimigraineux de la crise, quelle(s) proposition(s) sont\nexacte(s) ?",
+          "choix": [
+            "A) Le paracétamol est un médicament plus efficace que le placebo",
+            "B) L’utilisation du paracétamol associé à un opiacé dit « faible » expose au risque de céphalées chroniques quotidiennes",
+            "C) la dihydroergotamine par voie orale est un traitement efficace de la crise de migraine",
+            "D) le biduletriptan est un agoniste des récepteurs 5HT1B/D de la sérotonine utilisable dans le traitement de la crise de migraine",
+            "E) le biduletriptan peut être pris au moment de l’aura migraineuse"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les médicaments du traitement de fond de la migraine, quelle(s) proposition(s) sont exacte(s) ?",
+          "choix": [
+            "A) l’efficacité des bêtabloquants est liée à leur cardio-sélectivité",
+            "B) l’amitriptyline à faibles doses est indiquée dans le traitement de fond de la migraine",
+            "C) le topiramate est le seul antiépileptique ayant une AMM pour le traitement de fond de la migraine",
+            "D) la flunarizine a une ½ vie de plus de 19 jours",
+            "E) les anticorps monoclonaux anti-CGRP ont une AMM pour traitement de fond de la migraine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments agissant sur le système cannabinoïde, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le développement clinique de médicaments inhibant le système endocannabinoïde a été limité par des complications graves",
+            "B) Le cannabidiol est à l’origine d’interactions médicamenteuses significatives (notamment via le CYP 3A4)",
+            "C) Il existe de nombreux médicaments disponibles sur le marché agissant sur le système endocannabinoïde",
+            "D) Selon l’OMS, les substances extraites du Cannabis sativa (delta 9 tetrahydrocannabinol, cannabidiol) sont considérées comme présentant un intérêt thérapeutique",
+            "E) Le dronabinol présente des effets similaires à ceux du delta 9 tetrahydrocannabinol"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un vaccin contient les substances actives suivantes : Anatoxine diphtérique, Anatoxine tétanique, Antigènes de Bordetella pertussis, Antigène de surface du virus de l'hépatite B, Virus poliomyélitique inactivé, Polyoside d'Haemophilus influenzae type b conjugué une protéine vectrice. Concernant ce vaccin, quelle est (quelles sont) la (les) proposition(s) exacte(s) ?:",
+          "choix": [
+            "A) Il s’agit d’un vaccin hexavalent",
+            "B) Il protège contre les infections à virus de l’hépatite B",
+            "C) Ce vaccin doit être administré par voie intraveineuse",
+            "D) La vaccination contre le tétanos s’appuie sur l’utilisation du bacille tétanique tué",
+            "E) Il s’agit d’un vaccin vivant atténué"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments antirétroviraux, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Les inhibiteurs de protéases inhibent la maturation des protéines virales",
+            "B) Le ritonavir est un puissant inhibiteur du CYP 3A4",
+            "C) Le ritonavir est utilisé en combinaison avec d’autres antiviraux pour son effet booster",
+            "D) La stratégie de prophylaxie pré-exposition au VIH (PReP) associe deux inhibiteurs Inhibiteurs nucléosidiques de la transcriptase inverse (INTR)",
+            "E) Le ritonavir est un analogue nucléotidique de la transcriptase inverse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, le(s)quel(s) peuve(nt) entrainer des troubles du rythme cardiaque ?",
+          "choix": [
+            "A) Lidocaïne",
+            "B) Chlorpromazine",
+            "C) Métoclopramide",
+            "D) Digoxine",
+            "E) Furosémide"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments de la maladie de Parkinson, quelle est ou quelles sont les propositions exactes ?",
+          "choix": [
+            "A) La L-DOPA est un précurseur de la dopamine capable de traverser la barrière hémato-encéphalique",
+            "B) Les agonistes dopaminergiques D2, comme le pramipexole, réduisent les symptômes moteurs de la maladie de Parkinson (akinésie, tremblement, rigidité)",
+            "C) L’association L-DOPA + pramipexole est illogique d’un point de vue pharmacodynamique",
+            "D) Les agonistes dopaminergiques D2 utilisés dans la maladie de Parkinson favorisent les hypotensions orthostatiques.",
+            "E) Les agonistes dopaminergiques D2 utilisés dans la maladie de Parkinson sont anti-émétiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments neuroleptiques antipsychotiques, quelle est ou quelles sont les propositions exactes ?:",
+          "choix": [
+            "A) Ils réduisent les hallucinations et les délires dans les maladies psychotiques (schizophrénie)",
+            "B) Ils réduisent l’activité dopaminergique sur la voie méso-corticale",
+            "C) Ils ont des propriétés latérales agonistes muscariniques",
+            "D) Ils ont des propriétés latérales alpha-bloquantes",
+            "E) Les antipsychotiques de 2ème génération ont des propriétés latérales antagonistes sérotoninergiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les effets indésirables suivants, lequel (ou lesquelles) est (sont) généralement associé(s) aux antipsychotiques ?",
+          "choix": [
+            "A) Hyperprolactinémie",
+            "B) Hypokaliémie",
+            "C) Syndrome parkinsonien",
+            "D) Diabète",
+            "E) Akathisie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 16
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297570413-7a8ec9c9178a48",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous voyez Mme Maı̈té O. 74 ans en consultation en mai 2022 apparition récente de 2 ganglions en région cervicale. A l’examen clinique vous estimez les dimensions à 10-14-13 mm et 12-14-17 mm et vous constatez une perte de poids de 16 kilos sans régime particulier.\nUne biopsie est pratiquée sur 1 ganglion et est adressée au laboratoire d’anatomo-pathologie.\nUn lymphome B diffus à grandes cellules (LBDGC) est diagnostiqué\nDes examens complémentaires sont alors réalisés comprenant une radiographie du thorax, un PETscan, afin de réaliser une recherche d’atteintes profondes et de bilan d’extension\nEn réunion de concertation pluridisciplinaire le traitement de 8 cures de R-CHOP21 est décidé (Rituximab, Cyclophosphamide, Hydroxydaunorubicine, Oncovin® (Vincristine), Prednisone)",
+      "order": 2,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments anticancéreux de Mme O., parmi les propositions suivantes quelle(s) est (sont) la (les) réponse(s) juste(s) ? :",
+          "choix": [
+            "A) Le rituximab se fixe seulement sur les cellules tumorales portant l’antigène CD20",
+            "B) Le cyclophosphamide se fixe de manière covalente à la double hélice d’ADN",
+            "C) L’hydoxydaunorubicine est une anthracycline",
+            "D) La vincristine inhibe l’assemblage des molécules de tubuline entre elles",
+            "E) La vincristine est un médicament cytostatique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les effets indésirables communs des médicaments cytotoxiques de Mme O, quel(s) est (sont) celui (ceux) attendu(s) ?:",
+          "choix": [
+            "A) Aplasie médullaire",
+            "B) Alopécie",
+            "C) Eruption cutanée",
+            "D) Vomissements",
+            "E) Déminéralisation osseuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prise en charge par le protocole R-CHOP 21 de Mme O, parmi les propositions suivantes quelle(s) est (sont) la (les) réponse(s) juste(s) ?:",
+          "choix": [
+            "A) Les médicaments sont administrés en continu pendant 21 jours",
+            "B) La survenue d’effets indésirables est peu probable après la première administration de la chimiothérapie",
+            "C) La survenue d’effets indésirables peut remettre en cause la poursuite du traitement",
+            "D) Certains effets indésirables vont nécessiter impérativement une prise en charge médicamenteuse",
+            "E) La rémission complète ne peut être déclarée que 5 années après la fin du traitement"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’issue du deuxième cycle de traitement, la patiente présente une hyperthermie à 39,6°C. Vous débutez une antibiothérapie probabiliste associant cefotaxime et amikacine (aminoside)\nConcernant les antibiotiques prescrits, quelle est ou quelles sont (les) réponse(s) juste(s) ?",
+          "choix": [
+            "A) Le cefotaxime est une béta-lactamine",
+            "B) L’amikacine peut être administrée par voie orale",
+            "C) Ces deux médicaments peuvent entrainer des effets indésirables rénaux",
+            "D) Ces deux médicaments exercent leur effet pharmacodynamique en détruisant la paroi bactérienne",
+            "E) Leurs spectres d’activités en font des antibiotiques à haut risque de bactério-résistance"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quel(s) est (sont) le(s) facteur(s) de risque de survenue d’effet indésirable rénal lié aux aminosides ?",
+          "choix": [
+            "A) Insuffisance hépatique",
+            "B) Déshydratation",
+            "C) Réinjection avec concentration sérique au pic élevée",
+            "D) Administration concomitante d’anti-inflammatoires non stéroïdiens",
+            "E) Sujet âgé"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’issue de cette infection bactérienne, Mme O. développe une infection herpétique importante relevant d’un traitement par l'aciclovir.\nParmi les propositions suivantes, quelle est ou quelles sont celles qui sont justes ?",
+          "choix": [
+            "A) l'aciclovir inihibe la réplication virale par action sur l'ADN viral polymerase",
+            "B) l'objectif de ce traitement médicamenteux est l'éradication de l'Herpes virus",
+            "C) l'aciclovir est le pro-médicament du valaciclovir",
+            "D) l'aciclovir est un médicament néphrotoxique",
+            "E) l'aciclovir présente une efficacité contre le zona et la varicelle"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

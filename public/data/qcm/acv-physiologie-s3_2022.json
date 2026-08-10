@@ -1,0 +1,394 @@
+{
+  "matiere": "Appareil cardio-vasculaire – Physiologie",
+  "slug": "acv-physiologie-s3",
+  "annee": 2022,
+  "title": "Appareil cardio-vasculaire – Physiologie - 2022",
+  "total_questions": 19,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le peptide atrial natriurétique, il est exact que :",
+          "choix": [
+            "A) Il est le seul peptide natriurétique connu",
+            "B) Il stimule, comme le monoxyde d’azote, la guanylate cyclase soluble",
+            "C) Il peut être sécrété en réponse à une distension des oreillettes, et il favorise la lipolyse au niveau du tissu adipeux",
+            "D) Il est augmenté au cours de l’insuffisance cardiaque",
+            "E) Il inhibe la sécrétion de rénine"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système rénine angiotensine, il est exact que :",
+          "choix": [
+            "A) La rénine peut être considérée à la fois comme un enzyme et une hormone produite par l’appareil juxta-glomérulaire en réponse à une baisse de la pression sanguine artérielle",
+            "B) L’angiotensine-1 est un peptide de 10 acides animés, actif sur les récepteurs de l’angiotensine-2",
+            "C) L’angiotensinogène est produit par le foie en réponse à une baisse de la pression sanguine artérielle",
+            "D) L’aldostérone est produite par la zone glomérulée de la corticosurrénale, et favorise la réabsorption de sodium au niveau du rein",
+            "E) L’angiotensine-2 est le plus puissant vasoconstricteur artériolaire connu"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la mesure non invasive de la pression sanguine artérielle (PSA) à l’aide d’un brassard au niveau du\nbras chez un sujet assis, il est exact que :",
+          "choix": [
+            "A) Quand la pression dans le brassard est juste inférieure à la PSA diastolique, l’écoulement sanguin dans l’artère humérale est turbulent",
+            "B) Quand la pression dans le brassard est juste inférieure à la PSA systolique, l’écoulement sanguin est turbulent",
+            "C) Quand la pression dans le brassard est égale à la PSA moyenne, l’écoulement sanguin en aval du brassard est entendu sous forme de bruits forts, battants et intermittents",
+            "D) Quand la pression dans le brassard est juste égale à la PSA diastolique, l’écoulement sanguin dans la veine humérale du même bras est interrompu",
+            "E) Le niveau de la PSA est influencé par un exercice physique intense dans les heures qui ont précédé la mesure, ou encore par un stress psychique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la repolarisation du ventricule gauche chez un sujet normal au repos, il est exact que :",
+          "choix": [
+            "A) L’onde T est négative en D1 et D2",
+            "B) L’onde T est positive en V5 et V6",
+            "C) Elle s’effectue dans le même sens que la dépolarisation, c’est à dire de l’endocarde vers l’épicarde",
+            "D) L’onde T a typiquement une forme asymétrique dans les dérivations standards, mais pas dans les dérivations précordiales",
+            "E) Elle masque la repolarisation auriculaire"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des œdèmes, il est exact que :",
+          "choix": [
+            "A) Ils peuvent être observés en cas d’élévation de la pression veineuse, entraînant une élévation de la pression hydrostatique, et faisant apparaître une filtration dépassant la possibilité de réabsorption lymphatique du liquide interstitiel",
+            "B) Ils peuvent être la conséquence d’une diminution de la concentration de protéines dans le milieu interstitiel",
+            "C) L'augmentation de la pression hydrostatique sur le versant artériel des capillaires et de la perméabilité des capillaires participent tous deux à l’œdème d’origine inflammatoire",
+            "D) Un œdème localisé peut être la conséquence d'un défaut de drainage lymphatique",
+            "E) Ils peuvent être observés préférentiellement dans le territoire pulmonaire dans le cadre d'une insuffisance ventriculaire droite isolée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la fonction diastolique du ventricule gauche, il est exact que :",
+          "choix": [
+            "A) Elle peut être étudiée grâce à un Echo-Doppler cardiaque",
+            "B) Normalement, l’amplitude de l’onde A est supérieure à l’amplitude de l’onde E",
+            "C) En cas de dysfonction diastolique modérée, on assiste à une inversion du rapport E/A",
+            "D) Pendant la diastole, le gradient de pression entre l’OG et le VG est maximal en proto-diastole (en début de diastole)",
+            "E) Comme il se produit en diastole, le remplissage du VG est un phénomène « passif » qui ne consomme pas d’énergie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant un exercice physique sur une bicyclette ergométrique chez un champion cycliste de 20 ans :",
+          "choix": [
+            "A) Il se produit une augmentation du débit cardiaque qui peut dépasser 35 litres/min au cours d’un exercice intense",
+            "B) Il ne se produit pas d’augmentation de la pression sanguine artérielle systolique au cours d’un exercice intense grâce à la vasodilatation des muscles travaillant",
+            "C) La vasodilatation dans les territoires musculaires squelettiques est déjà maximale au cours d’un exercice physique modéré",
+            "D) La résistance artériolaire diminue beaucoup plus au niveau des membres inférieurs qu’au niveau des membres supérieurs",
+            "E) La résistance des artérioles rénales augmente davantage au cours d’un exercice physique modéré qu’au cours d’un exercice intense"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours d’un exercice physique réalisé seulement avec les membres supérieurs chez un sujet jeune\nmoyennement sportif :",
+          "choix": [
+            "A) Il se produit une augmentation du débit cardiaque",
+            "B) Il se produit une augmentation de la pression sanguine artérielle systolique",
+            "C) La résistance artériolaire diminue au niveau des membres inférieurs",
+            "D) La résistance artériolaire diminue au niveau des membres supérieurs",
+            "E) La résistance des artérioles mésentériques augmente au prorata de l’intensité de l’exercice"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’innervation orthosympathique destinée au cœur, il est exact que :",
+          "choix": [
+            "A) Elle dépend principalement de l’activité des neurones dont le corps cellulaire est situé au niveau des ganglions para-vertébraux",
+            "B) Son niveau d’activation de base est, en moyenne, plus marquée chez un sujet pratiquant régulièrement un sport d’endurance que chez un sujet non sportif, comme en témoigne la fréquence cardiaque de repos",
+            "C) Elle est moins diffuse que l’innervation parasympathique",
+            "D) Son activation survient en cas de diminution de la tension pariétale au niveau du sinus carotidien qui induit une activation du baroréflexe",
+            "E) Elle exerce au repos une action permanente de réduction de la fréquence cardiaque"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la pression sanguine artérielle d’un sujet normal, il est exact que :",
+          "choix": [
+            "A) La pression différentielle est plus petite au niveau de l’aorte thoracique chez le sujet jeune que chez le sujet agé",
+            "B) En décubitus, la pression sanguine artérielle moyenne au niveau de l’aorte ascendante est supérieure d’environ 30 mmHg à celle mesurée au niveau de l’artère poplitée",
+            "C) En position debout, la pression sanguine artérielle moyenne au niveau de l’aorte ascendante est inférieure d’environ 70 à 80 mmHg à celle mesurée au niveau de l’artère poplitée",
+            "D) La pression artérielle différentielle dépend de la vitesse d’éjection ventriculaire, mais pas de la rigidité des gros troncs artériels",
+            "E) La pression sanguine artérielle influence la physiologie des cellules musculaires lisses de la média par l’intermédiaire de la tension pariétale en application de la loi de Laplace"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la régulation de la pression sanguine artérielle par le baroréflexe, il est exact que :",
+          "choix": [
+            "A) La dénervation des sinus carotidiens provoque une élévation chronique de la pression sanguine artérielle moyenne",
+            "B) Elle fait intervenir l’étirement de mécano-récepteurs situés au niveau des carotides primitives droite et gauche",
+            "C) Le passage de la position couché à la position debout provoque une augmentation du débit cardiaque",
+            "D) En cas baisse de la pression sanguine artérielle, le baroréflexe provoque une activation de la composante orthosympathique du système nerveux végétatif",
+            "E) Elle peut être altérée au cours du diabète, car une neuropathie végétative peut être une complication de cette maladie"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les notions de précharge ou de postcharge, il est exact que :",
+          "choix": [
+            "A) L’administration d’un vasodilatateur artériolaire et veineux permet de diminuer le niveau à la fois de la pré-charge et de la post-charge ventriculaire gauche",
+            "B) L’augmentation chronique de la postcharge ventriculaire gauche favorise l’augmentation de l’épaisseur du myocarde ventriculaire gauche (HVG)",
+            "C) L’administration d’un vasodilatateur artériolaire et veineux permet de diminuer le niveau de la pression sanguine artérielle",
+            "D) La diminution du retour veineux peut réduire le VES en application de loi de Starling",
+            "E) La précharge ou la postcharge du VG influencent directement sa contractilité"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la vasomotricité artérielle et artériolaire, il est exact que :",
+          "choix": [
+            "A) Au cours de la contraction du muscle strié squelettique, le premier et le plus important mécanisme de vasodilatation est d’origine métabolique",
+            "B) L’augmentation du shear stress des cellules endothéliales participe à l’augmentation du débit sanguin tissulaire",
+            "C) Le NO produit par l’endothélium est impliqué dans la vasodilatation",
+            "D) Un doublement du rayon d’une petite artériole produit une diminution des résistances d’un facteur 16",
+            "E) Le doublement du rayon de l’aorte qui survient au cours d’un exercice physique participe l’augmentation du débit cardiaque en diminuant la résistance de ce vaisseau en application de la loi de Poiseuille"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la précharge du ventricule gauche (VG) chez un sujet insuffisant cardiaque par cardiomyopathie\nprimitive, non encore traité, dont la fraction d’éjection (FEVG) est de 20%, il est exact que :",
+          "choix": [
+            "A) Elle est augmentée du fait d’une défaillance de la fonction pompe du VG",
+            "B) Elle correspond aux facteurs qui contribuent au « stress » de la paroi myocardique en fin de diastole",
+            "C) Elle est diminuée du fait d’une altération de la contractilité myocardique",
+            "D) Elle peut être diminuée par l’utilisation de vasodilatateurs artériolaires qui diminuent la post-charge",
+            "E) Elle est directement influencée par la pression du sang dans l’oreillette gauche"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un sujet sain dont la fréquence cardiaque de base est de 70 /min, et à qui on impose brusquement (grâce à un agent\npharmacologique purement bradycardisant mais n’interférant pas avec les récepteurs béta-adrénergiques) une fréquence\ncardiaque de 40 /min, il est exact que :",
+          "choix": [
+            "A) La précharge augmente du fait d’une augmentation du remplissage ventriculaire",
+            "B) La courbe volume-pression ne varie pas car elle est indépendante de la fréquence cardiaque",
+            "C) La contractilité diminue du fait de la bradycardie",
+            "D) La pression sanguine artérielle différentielle augmente",
+            "E) L’augmentation du volume d’éjection systolique « tente » de compenser la baisse de la fréquence cardiaque afin de maintenir la pression sanguine artérielle et le débit cardiaque"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la contractilité du ventricule gauche chez un sujet sain, il est exact que :",
+          "choix": [
+            "A) Elle est indépendante des résistances artériolaires périphériques",
+            "B) Elle correspond aux facteurs qui contribuent au « stress » de la paroi myocardique durant l’éjection systolique",
+            "C) Son augmentation entre 20 et 70 ans est plutôt la conséquence d’une augmentation de la pression artérielle diastolique que d’une augmentation de la rigidité artérielle",
+            "D) Son augmentation favorise, comme la précharge, l’augmentation du volume d’éjection systolique (VES) du ventricule gauche",
+            "E) Son augmentation favorise, comme la précharge, l’augmentation du volume télé- diastolique (VTD) du ventricule gauche"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un sujet sain ayant une fréquence cardiaque de 70/min, il est exact que la pression du sang dans le ventricule gauche :",
+          "choix": [
+            "A) Est d’environ 70-80 mmHg à la fin de la phase de systole isovolumétrique",
+            "B) Atteint environ 120-130 mmHg au moment de l’ouverture de la valve aortique",
+            "C) Est inférieure à la pression dans l’oreillette gauche au moment de l’ouverture de la valve mitrale",
+            "D) Chute rapidement après la fermeture de la valve aortique au cours de la phase de relaxation isovolumétrique",
+            "E) Augmente dès l’ouverture de la valve mitrale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le potentiel d’action du cardiomyocyte, il est vrai que :",
+          "choix": [
+            "A) Sa durée est environ 100 à 300 fois celle d’un neurone",
+            "B) La phase ascendante 0 est due à l’entrée de calcium extra-cellulaire",
+            "C) La phase ascendante 0 est due principalement à la fermeture des canaux potassiques ouverts",
+            "D) Le rôle des canaux sodiques dans la phase ascendante 0 est moins important que pour le déclanchement du potentiel d’action neuronal",
+            "E) La fin du potentiel d’action est la conséquence de la fermeture des canaux sodiques"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’évolution de la circulation, il est exact que :",
+          "choix": [
+            "A) Chez les poissons, le ventricule droit irrigue les branchies et le ventricule gauche la circulation systémique",
+            "B) Chez les poissons, les résistances artériolaires de la grande circulation sont du même niveau que celles des mammifères",
+            "C) Chez les oiseaux, il y a deux oreillettes et un seul ventricule",
+            "D) Les poissons, qui sont des animaux poïkilothermes, ont un métabolisme énergétique environ 5 à 10 fois plus faible que les mammifères ou les oiseaux",
+            "E) Les poissons n’ont en général pas besoin d’hémoglobine pour transporter l’oxygène du fait de leur plus faible métabolisme énergétique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

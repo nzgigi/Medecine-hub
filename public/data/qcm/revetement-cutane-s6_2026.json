@@ -1,0 +1,401 @@
+{
+  "matiere": "Revêtement cutané",
+  "slug": "revetement-cutane-s6",
+  "annee": 2026,
+  "title": "Revêtement cutané - 2026",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les bonnes conditions de réalisation d’une biopsie cutanée en pathologie inflammatoire ?",
+          "choix": [
+            "A) Biopsier si possible une lésion ancienne plutôt que récente",
+            "B) En cas de suspicion d’une vascularite des vaisseaux de taille moyenne de type péri-artérite noueuse, préférer une biopsie au bistouri",
+            "C) En cas de maladie bulleuse, biopsier si possible à cheval bulle/peau « saine » plutôt qu’au centre de la bulle",
+            "D) Biopsier à distance d’un traitement par dermocorticoïdes",
+            "E) Eviter au maximum les zones modifiées par le grattage ou la surinfection"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes concernant l’étude d’une biopsie cutanée par le pathologiste?",
+          "choix": [
+            "A) La coloration du PAS est utile pour diagnostiquer une mycose",
+            "B) L’immunohistochimie sur coupes est indispensable devant une tumeur cutanée maligne peu différenciée",
+            "C) L’acantholyse est la lésion élémentaire de la pemphigoïde bulleuse",
+            "D) Connaître le site de la biopsie est un élément important pour l’analyse d’une biopsie cutanée",
+            "E) Les critères histopathologiques en faveur de la malignité sont les atypies cytonucléaires, les mitoses."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la réponse immunitaire innée et des défenses antimicrobiennes",
+          "choix": [
+            "A) De très nombreuses molécules microbiennes peuvent agir en tant que PAMPs (Pathogen-Associated Molecular Pattern)",
+            "B) La réponse immunitaire innée est une réponse rapide à l’infection par des microorganismes",
+            "C) Les cellules de l’hôte reconnaissent les PAMPs grâce à des récepteurs de danger appelés PRRs (Pattern-Recognition Receptors).",
+            "D) En l’absence de PAMPs, les cellules de l’hôte n’expriment pas de PRRs.",
+            "E) Seuls les macrophages et les polynucléaires neutrophiles peuvent synthétiser des peptides antimicrobiens."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la fonction barrière de l’épiderme",
+          "choix": [
+            "A) Elle repose uniquement sur des protéines spécifiques de la couche cornée",
+            "B) Les défenses antimicrobiennes font partie de la fonction barrière de l'épiderme",
+            "C) Le ciment lipidique extracellulaire est essentiel à l’étanchéité de la couche cornée.",
+            "D) La filaggrine joue un rôle essentiel dans l’hydratation de la couche cornée.",
+            "E) Certaines maladies monogéniques rares cutanées résultent d’une altération de la fonction barrière de l’épiderme liée à la mutation d’un gène exprimé tardivement lors de la différenciation kératinocytaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes. Il s'agit d'un homme de 80 ans pratiquant le golf de longue date",
+          "choix": [
+            "A) Il s’agit d’un lentigo solaire bénin",
+            "B) Il s’agit d’une kératose actinique, pouvant se transformer secondairement en carcinome basocellulaire",
+            "C) Il s’agit d’une kératose actinique, pouvant se transformer secondairement en carcinome épidermoïde",
+            "D) Le port d’une casquette est recommandé lors de la pratique du golf",
+            "E) Ce patient a dépassé son capital solaire, il est déjà trop tard, il n’a plus besoin de se protéger des rayons UV"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2026/q5.webp?v=1786396099417"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’héliodermie et les ultra-violets (UV), quelles propositions exactes ?",
+          "choix": [
+            "A) Parmi les facteurs de vieillissement cutané intrinsèque, on note le phototype, classé selon la classification de Fitzpatrick notamment.",
+            "B) Les UV ont uniquement des effets négatifs sur le corps humain",
+            "C) Parmi les effets négatifs des UV, on note le vieillissement cutané et l’induction de cancers",
+            "D) Les coups de soleil sont surtout causés par les UV-B",
+            "E) Le système de réparation de l’ADN par excision de nucléotides (NER) est le plus important système de réparation des dommages photo-induits."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelles sont les phases évolutives de la cicatrisation normale d’une plaie (dans l'ordre) ?",
+          "choix": [
+            "A) Cicatrisation de 1ère et de 2ème intention",
+            "B) Phase vasculaire, Phase inflammatoire détersive, Phase inflammatoire proliférative, Phase de ré-épidermisation",
+            "C) Phase vasculaire, Phase inflammatoire proliférative, Phase inflammatoire détersive, Phase de ré-épidermisation",
+            "D) Phase vasculaire, Phase inflammatoire détersive, Phase de ré-épidermisation",
+            "E) Phase inflammatoire proliférative, Phase de ré-épidermisation"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes vis-à-vis des greffes de peau ?",
+          "choix": [
+            "A) une greffe de peau mince est prélevée généralement au dermatome",
+            "B) une greffe de peau mince est constituée d’épiderme",
+            "C) une greffe de peau mince est constituée de derme et d’épiderme",
+            "D) une greffe de peau mince nécessite un sous-sol vascularisé pour être posée",
+            "E) une greffe de peau mince peut être expansée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les traitements systémiques en dermatologie: Quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Les rétinoides sont des dérivés de la vitamine A",
+            "B) Les rétinoides sont utilisés dans l’acné",
+            "C) Le méthotrexate est un traitement de l’acné",
+            "D) La ciclosporine inhibe la synthèse de cytokines",
+            "E) Les biothérapies peuvent être des anticorps chimériques ou humanisés"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets biologiques retardés du soleil , on retrouve:",
+          "choix": [
+            "A) L’action calorique",
+            "B) L’héliodermie",
+            "C) L’effet immunosuppresseur",
+            "D) La photocarcinogenèse",
+            "E) L’augmentation du risque de mélanome"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les termes exacts au sujet de ces lésions ?",
+          "choix": [
+            "A) Lésions érythémateuses",
+            "B) Lésions annulaires",
+            "C) Lésions nummulaires",
+            "D) Lésions en cocardes",
+            "E) Lésions papuleuses"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2026/q11.webp?v=1786396108024"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les termes exacts au sujet de ces lésions ?",
+          "choix": [
+            "A) Lésions localisées",
+            "B) Lésions de couleur jaunâtres paraissant rugueuses",
+            "C) Lésions plutôt hyperkératosiques que squameuses",
+            "D) Lésions plutôt squameuses que kératosiques",
+            "E) Présence de fissures cutanées"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2026/q12.webp?v=1786396109583"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes concernant les cheveux et les ongles ?",
+          "choix": [
+            "A) La phase télogène est la phase la plus courte",
+            "B) 80% environ des cheveux sont en phase anagène",
+            "C) Une perturbation du cycle pilaire peut conduire à une alopécie",
+            "D) Le test de la traction permet de déterminer l’ancienneté de l’alopécie",
+            "E) La tablette de l’ongle est formée de kératine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la physiologie cutanée :",
+          "choix": [
+            "A) L’absorption transcutanée augmente avec l’âge",
+            "B) L’absorption transcutanée est augmentée sous la couche d’un bébé (phénomène d’occlusion)",
+            "C) L’absorption transcutanée dépend du site d’application, du rythme et de la durée d’application",
+            "D) En cas d’exposition au froid survient une vasoconstriction cutanée artériolaire qui peut conduire à une ischémie",
+            "E) Le staphylocoque épidermidis appartient à la flore cutanée pathogène"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la photographie du visage de cette jeune patiente, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Présence de lésions inflammatoires à type de pustules",
+            "B) Nombreuses lésions vasculaires à type de télangiectasies",
+            "C) Présence de lésions rétentionnelles à type de comédons ouverts",
+            "D) Le principal diagnostic à évoquer est une acné",
+            "E) Cette dermatose s’accompagne fréquemment de squames grasses des sourcils et du cuir chevelu"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2026/q15.webp?v=1786396114205"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la photographie de cette lésion pigmentée, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Couleur inhomogène",
+            "B) Lésion symétrique",
+            "C) Bords irréguliers",
+            "D) Le principal diagnostic à évoquer est une kératose séborrhéique",
+            "E) Il convient d’évaluer l’évolutivité de la lésion"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16,
+          "images": [
+            "/images/qcm/revetement-cutane-s6/2026/q16.webp?v=1786396115842"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les formes galéniques",
+          "choix": [
+            "A) Les pommades comportent une phase aqueuse prédominante",
+            "B) Les lotions et les solutions sont adaptées pour traiter les zones sèches de la peau glabre",
+            "C) Les crèmes ont un pouvoir hydratant moins important que les pommades",
+            "D) Les crèmes peuvent être utilisées dans les plis",
+            "E) Les gels se liquéfient au contact de la peau"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la définition et les composantes de l’empathie",
+          "choix": [
+            "A) Représente la faculté intuitive de soigner l’autre",
+            "B) Est en rapport avec la présence de neurones miroirs",
+            "C) Comporte une composante cognitive",
+            "D) Comporte une composante émotionnelle",
+            "E) Peut favoriser la qualité de la relation médecin-malade"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

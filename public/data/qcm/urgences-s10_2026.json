@@ -1,0 +1,312 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s10",
+  "annee": 2026,
+  "title": "Urgences - 2026",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une jeune fille de 12 ans se présente aux urgences pour épisode de céphalées évoluant depuis 24 heures.\nQuels sont les éléments évocateurs d'une céphalée primaire de type migraine ?",
+          "choix": [
+            "A) survenue de deux épisodes antérieurs similaires",
+            "B) vomissements associés",
+            "C) céphalées en coup de tonnerre",
+            "D) nystagmus avec dysmétrie à l'examen neurologique",
+            "E) amélioration des céphalées à la prise d'ibuprofène"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant un coma atraumatique, quel est le premier examen paraclinique rapide à réaliser ? (2 mots)",
+          "choix": [],
+          "reponses": [
+            "Glycémie capillaire"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "En cas de dyspnée aigüe inspiratoire chez un nourrisson de moins de 6 mois quels sont 2 les principaux diagnostics à évoquer ? (2 réponses vraies)",
+          "choix": [
+            "A) Achalasie œsophagienne",
+            "B) Bronchiolite",
+            "C) laryngite aigue sous glottique",
+            "D) Pneumopathie infectieuse",
+            "E) angiome sous-glottique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une petite fille de 20 mois est amenée aux urgences pédiatriques pour une crise convulsive. Sa température est à 39.3 °C\nQuels sont les critères de crises fébriles complexes parmi les propositions suivantes ?",
+          "choix": [
+            "A) survenue d'une seconde crise à son arrivée aux urgences.",
+            "B) phase post-critique de 15 minutes",
+            "C) marche acquise à 18 mois, absence de mots",
+            "D) 3ème épisode de crise fébrile en six mois",
+            "E) description initiale de la crise retrouvant une déviation de la tête et des yeux à droite"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles anomalies cliniques peuvent faire évoquer un accident vasculaire cérébral ischémique en première intention ?",
+          "choix": [
+            "A) Une hémiplégie droite associée à une paralysie faciale centrale gauche",
+            "B) Un déficit isolé de la parole d’installation brutale",
+            "C) Une céphalée brutale",
+            "D) Un déficit du membre inférieur gauche isolé associé à des douleurs",
+            "E) Une diplopie binoculaire"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396673797-284029431103b",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez aux urgences dans la nuit Mr A, âgé de 42 ans, fumeur sous Kardégic en prévention primaire. Celui-ci vous rapporte depuis une semaine une sensation de perte de force dans les membres inférieurs, qui s’aggrave selon lui. Il n’est pas douloureux, ne rapporte pas de traumatisme ou chute.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels diagnostics parmi les suivants sont à évoquer devant ce déficit moteur des membres inférieurs chez ce patient ?.",
+          "choix": [
+            "A) Un syndrome de la queue de cheval",
+            "B) Un syndrome de Brown-Séquard",
+            "C) Une myasthénie",
+            "D) Un syndrome de Guillain-Barré",
+            "E) Un AVC ischémique sylvien profond"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En creusant votre examen et interrogatoire, le patient décrit un déficit initialement plutôt présent aux extrémités, qui est petit à petit remonté vers son bassin où il est le plus handicapant, et présente aussi des paresthésies aux membres inférieurs et aux doigts. Ces anomalies ne fluctuent pas sur la journée. Votre examen clinique confirme ce déficit moteur, et vous mettez en évidence une aréflexie tendineuse des membres inférieurs. Vous évoquez un syndrome de Guillain-Barré.\nL’ENMG n’étant pas disponible, vous réalisez une ponction lombaire chez ce patient.\nQuelle anomalie biologique serait en faveur d’un syndrome de Guillain-Barré à la ponction lombaire ? (1 mot)",
+          "choix": [],
+          "reponses": [
+            "dissociation albimunocytologique"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La ponction lombaire est en faveur d’un syndrome de Guillain-Barré. Le patient est hospitalisé en neurologie, et l’ENMG réalisé le lendemain matin confirme la polyradiculonévrite.\nConcernant la prise en charge de ce patient, quels sont les traitements et soins à mettre en place ?",
+          "choix": [
+            "A) Des échanges plasmatiques",
+            "B) Des immunoglobines polyvalentes pendant 5 jours en IV",
+            "C) Une anticoagulation curative",
+            "D) Une rééducation précoce",
+            "E) Une alimentation par sonde nasogastrique même en l'absence de trouble de la déglutition",
+            "F) Un sondage urinaire",
+            "G) Une surveillance clinique assidue de la mécanique respiratoire",
+            "H) Des ENMG répétés lors de l’hospitalisation",
+            "I) Une prévention des attitudes vicieuses avec du nursing régulier",
+            "J) Une nouvelle ponction lombaire à l’issue des traitements pour vérifier la normalisation de l’hyperprotéinorachie",
+            "K) Une prise en charge sociale pour la réadaptation du domicile et du travail en cas de séquelles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "G",
+            "I",
+            "K"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396676909-930790d76e9478",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Une jeune femme de 19 ans est adressée aux urgences à 21h pour intoxication médicamenteuse volontaire.\nElle aurait ingéré vers 19h30 15 cp de paracétamol 1000 mg et 10 comprimés de Lormétazépam 2mg.\nElle pèse 52 kg.\nElle est Glasgow 15, orientée dans le temps et l’espace mais légèrement ralentie. Les pupilles sont intermédiaires et réactives.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quels sont les symptômes aigus (moins de 12h) pouvant être liés à une intoxication au paracétamol ?",
+          "choix": [
+            "A) Nausées",
+            "B) Douleurs abdominales",
+            "C) Insuffisance rénale",
+            "D) Tachycardie",
+            "E) Aucun"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel traitement allez-vous instaurer immédiatement dans ce contexte ?",
+          "choix": [],
+          "reponses": [
+            "N-acétylcystéine"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "De quoi va dépendre le pronostic de cette intoxication ?",
+          "choix": [
+            "A) De la dose supposée ingérée des différents médicaments",
+            "B) Des comorbidités de la patiente",
+            "C) Du délai entre l'intoxication et la prise en charge médicale",
+            "D) De l'apparition de complications",
+            "E) De l'association de l'intoxication avec de l'alcool ou des drogues"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre patiente présente, peu de temps après son arrivée, des signes de troubles de la vigilance avec un Glasgow estimé à 10. Il est alors décidé de réaliser une titration de l’antidote des benzodiazépines : le flumazénil.\nQuelles sont les modalités d’utilisation de cet antidote ?",
+          "choix": [
+            "A) On réalise une dose de charge puis une titration toutes les minutes jusqu'à l'obtention d'un niveau de conscience satisfaisant",
+            "B) La demi-vie de l’antidote est très longue",
+            "C) La dose dépend du poids du patient",
+            "D) Le flumazénil est contre-indiqué en cas de co-intoxication par des antidépresseurs tricycliques",
+            "E) Le principal risque de son utilisation est la convulsion"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Votre prise en charge permet le retour à un état de vigilance normal.\nOn apprend qu’en plus de son intoxication médicamenteuse, elle a mis le feu à la moquette de sa chambre et est restée en contact avec les fumées pendant 20 minutes. Elle présente des vertiges et des nausées. Le dosage de l’HBCO est de 9 % chez cette patiente non fumeuse.\nQuel traitement allons-nous mettre en place en première intention dans ce contexte ?",
+          "choix": [],
+          "reponses": [
+            "oxygénothérapie"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans quel cas il y aura-t-il une indication formelle au caisson hyperbare :",
+          "choix": [
+            "A) Si elle est enceinte",
+            "B) Si elle présente une douleur thoracique",
+            "C) Si elle présente de la suie au niveau des voies aériennes supérieures",
+            "D) Si elle a des antécédents d’épilepsie",
+            "E) Si elle est co-intoxiquée par une autre substance"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’antidote de l’intoxication par les fumées d’incendies ?",
+          "choix": [
+            "A) Naloxone",
+            "B) Glucagon",
+            "C) Fragment Fab antidigitalique",
+            "D) Hydroxocobalamine",
+            "E) oxygène"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

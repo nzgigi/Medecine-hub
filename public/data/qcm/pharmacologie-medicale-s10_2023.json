@@ -1,0 +1,1138 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s10",
+  "annee": 2023,
+  "title": "Pharmacologie médicale - 2023",
+  "total_questions": 41,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant le tramadol, laquelle ou lesquelles sont exactes?",
+          "choix": [
+            "A) Le tramadol donne naissance à des métabolites actifs après métabolisation par le CYP2D6",
+            "B) Le tramadol est un agoniste partiel des récepteurs Mu opioïdes comme la buprénorphine",
+            "C) L’association du tramadol à un antidépresseur inhibiteur de la recapture de la sérotonine est logique",
+            "D) L’association du tramadol au paracétamol est logique",
+            "E) Le tramadol est plus émétisant que la codéine"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant le traitement des douleurs neuropathiques, laquelle est exacte ?",
+          "choix": [
+            "A) Chez un patient à risque de douleur neuropathique, le traitement doit être instauré de manière préventive",
+            "B) La prégabaline est un médicament de première intention",
+            "C) Les inhibiteurs de la recapture de la sérotonine sont à préférer aux antidépresseurs tricycliques",
+            "D) Les emplâtres de lidocaïne sont indiqués dans le traitement des douleurs neuropathiques d’origine centrale",
+            "E) La duloxétine est un pourvoyeur d’hypertension artérielle"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’enzyme responsable de la formation du métabolite hépatotoxique du paracétamol, le NAPQI ?",
+          "choix": [],
+          "reponses": [
+            "CYP2E1",
+            "cytochrome P450 2EI",
+            "CYP450 2E1",
+            "cytochrome 2E1",
+            "Cytochrome P450 2E1",
+            "cytochrome P450 2E1",
+            "2E1",
+            "cytochrome p450 2E1",
+            "CYP 2E1",
+            "CYP1E2"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments génériques, biosimilaires et hybrides, quelle (s) est (sont) la (les) proposition (s) exacte (s) ?",
+          "choix": [
+            "A) Les différences de la biodisponibilité absolue d’un médicament générique par rapport au médicament princeps sont de -20% et +25%",
+            "B) Pour être autorisé à être sur le marché, tous les médicaments génériques doivent valider leur bioéquivalence par rapport au princeps avec des études appropriées",
+            "C) Un médicament hybride peut ne pas présenter les mêmes indications thérapeutiques que le médicament de référence",
+            "D) La protection du brevet des médicaments biologiques peut aller jusqu’à 25 ans",
+            "E) Les médicaments biosimilaires ont une dénomination commune internationale et un nom de spécialité"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quels sont les 3 acronymes nécessaires pour justifier la mention « non substituable » en regard de la ligne de prescription ?",
+          "choix": [],
+          "reponses": [
+            "MTE",
+            "EFG",
+            "CIF",
+            "MTE",
+            "EFG",
+            "CIF",
+            "MTE",
+            "EFG",
+            "CIF",
+            "EFG",
+            "MTE",
+            "CIF",
+            "EFG",
+            "MTE",
+            "CIF",
+            "CIF",
+            "MTE",
+            "EFG",
+            "CIF",
+            "MTE",
+            "EFG",
+            "CIF",
+            "EFG",
+            "MTE",
+            "CIF",
+            "EFG",
+            "MTE",
+            "MTE EFG CIF",
+            "MTE, CIF, EFG",
+            "MTE, EFG, CIF",
+            "MTE CIF EFG",
+            "CIF MTE EFG",
+            "CIF EFG MTE",
+            "CIF, EFG, MTE",
+            "EFG MTE CIF",
+            "MTE, CIF, ETG",
+            "CIF, MTE, EFG",
+            "MTE CIU FG",
+            "MTE, CIF, PGE",
+            "MTE, CIF, CTE",
+            "CIF, GPE, NR",
+            "MTE CIF TGE",
+            "MTE, AE,",
+            "CIF EIG EFT",
+            "MTE, CIF, enfant de moins de 6 ans",
+            "EGT MTE CIF",
+            "enfant, marge thérapeutique etroite,",
+            "CIF, MTE, Enfant de moins de 6 ans sans galénique adapté",
+            "CIF MTE EFT",
+            "CIF/MTE/ECF",
+            "MTE, IE",
+            "MTE (marge thérapeutique étroite), EFG (enfant forme galénique), CIF (contre indication formelle)",
+            "MTE, CIF, EVJ",
+            "CIF, EFG et MTE",
+            "CIF, MTE, GIS",
+            "MTE / chez les enfants / allergies à un excipient",
+            "MTE CIF FGE",
+            "MTE ENG CIF",
+            "RA (reaction allergique au generique) E(chez l'enfant) Mte (médicament marge therapeutique etroite)",
+            "MTE, CIF, EMG",
+            "MTE / CIF / ATE",
+            "mte, efg, cif",
+            "MTE, PED, CIF",
+            "MTE EFG Allergie",
+            "CIF, EGS, MPT",
+            "MTE AE MP",
+            "MET CIF EFG",
+            "CSI MTE ENT",
+            "MTE EFG CIE",
+            "CIF MTE FGP",
+            "EFG, CIF, MTE",
+            "MTE, FGE, CIF",
+            "MTE, CIS, PEA",
+            "MTE, GAE",
+            "MTE (Marge Thérapeutique Etroite), CIF (Contre Indication Formelle), EFG (Pas de galénique différente chez l’enfant de moins",
+            "de 6 ans)",
+            "NSPP NSNR MTE",
+            "MTE CIF PML",
+            "MTE CFG CIF",
+            "MTE PED CIF",
+            "MTE, CIF, enfants de moins de 6 ans",
+            "MTE, PED",
+            "MTE, IFG, DNF",
+            "CIF, MTE et EFG",
+            "CIF, MTG, STD",
+            "MTE, CIF, ETS",
+            "MTE, pédiatrie, allergie à excipient",
+            "MTE, pediatrie et allergie a un excipient",
+            "MTE EGR",
+            "NS MTE",
+            "MTE CIF EGF",
+            "MTE, EEN,",
+            "CIF, ENF, MSU",
+            "allergie excipient, marge therapuetique etroite",
+            "CSI EFG NSG",
+            "MTE (marge therapeutique etroite), EEN (excipient effet notoire) et IPP (indication posologie pediatrique)",
+            "MTE CIF NSE",
+            "MTE, EFG (enfant et forme galénique inadaptée des génériques), CIF (contre indication formelle des exipients de tous les",
+            "génériques)",
+            "EFG CIF MTE",
+            "MTE, Allergie aux excipients, presentation pediatrique",
+            "MTE CIF EFT",
+            "CIF MTE SPD",
+            "EFG, IFG (allergie a un excipient), MTE",
+            "MTE , MNS",
+            "MTE, CIF ou ENG",
+            "CIF, IEG, MTE",
+            "MTE ATE EGI",
+            "MTE , CIF , EFG",
+            "MTE - CIF - EGC",
+            "EFG, MTE, CIF",
+            "MTE EEN SPE",
+            "MTE CIF FGP (forme galenique pediatrique)",
+            "CIF CP",
+            "CIF, MSE, T",
+            "EFG, RAE",
+            "MTE CIF absence d'équivalent posologique",
+            "MTE CIA PED",
+            "MTE, CIF, enfant (pas d‘autre galénique possible)",
+            "CIF MTE EGF",
+            "CIF MTE ENF",
+            "MTE, ETP et MTI",
+            "CFI MTE FGU",
+            "MTE CIF CPE",
+            "MTE GHP HSE",
+            "MTE, CIF, EIF",
+            "MTE, EEN, FPP",
+            "CIF/MTE/EFG",
+            "MTE NIE EEN",
+            "MTE CIF",
+            "(MTE) Marges thérapeutiques étroites / Excipients à effet notoire / Intérêt pédiatrique de la forme galénique",
+            "MTE, CIF, GMN",
+            "MTE / Galénique pédiatrique / ETA",
+            "MTE, CIF et EFG",
+            "MTE EIR EIN",
+            "CIF CME CIT",
+            "CIF, EMP,",
+            "MTE NSP EDG",
+            "MTE NR CFI",
+            "MTE ( marge therapeutique étroite ), FG forme galénique ( en pédiatrie surtout ), EX Excipients ( allergie ... )",
+            "CIF, MTE, EFT",
+            "MTE, EFG ou CIF",
+            "enfant, marge therapeutique etroite, allergie a un des excipients du generique"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du Syndrome DRESS (drug reaction with eosinophilia and systemic symptoms), parmi les affirmations suivantes, lesquelles sont vraie(s) ?",
+          "choix": [
+            "A) Le syndrome DRESS peut mimer une infection virale aiguë comme la primo-infection à EBV.",
+            "B) Le délai d’apparition par rapport à l’introduction du médicament suspect est plus court que dans les autres toxidermies retardées.",
+            "C) Une myocardite peut s’intégrer dans un diagnostic de DRESS.",
+            "D) L’allopurinol est un des médicaments les plus pourvoyeurs de DRESS.",
+            "E) La carbamazépine est un des médicaments les plus pourvoyeurs de DRESS."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant la metformine, laquelle est exacte?",
+          "choix": [
+            "A) Elle entraine une stimulation de la sécrétion d'insuline",
+            "B) L'accumulation de metformine peut conduire à une acidose lactique",
+            "C) Elle entraine une prise de poids",
+            "D) La metformine est néphrotoxique",
+            "E) Elle inhibe la dipeptidylpeptidase-4"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont ) vraie (s) ?",
+          "choix": [
+            "A) En raison des modifications de la pharmacocinétique des médicaments chez la femme enceinte, il existe un risque de surdosage en médicament en fin de grossesse",
+            "B) La majorité des médicaments traversent le placenta",
+            "C) Les AINS sont contre-indiqués au premier trimestre de grossesse car ils augmentent le risque d’anomalie de fermeture du tube neural",
+            "D) Les effets de l’exposition intra-utérine au Diethylstilbestrol touchent plusieurs générations",
+            "E) Un syndrome de sevrage néonatal peut survenir après exposition chronique aux benzodiazépines pendant la vie intra-utérine"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Soit l’ordonnance suivante:\n- ofloxacine 200mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- bisoprolol 5mg 1 fois par jour\n- domperidone 10mg 3 fois par jour\nParmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie (s) ?",
+          "choix": [
+            "A) La domperidone a des propriétés antiémétiques par antagonisme de récepteurs dopaminergiques dans le tronc cérébral",
+            "B) L’ofloxacine est un inhibiteur enzymatique source d'interaction médicamenteuse dans cette ordonnance",
+            "C) Tous les médicaments de l’ordonnance allongent l’intervalle QT à l’électrocardiogramme.",
+            "D) L'hydrochlorothiazide peut induire une hypokaliémie par inhibition du cotransport Na+/K+/2 Cl- au niveau la branche descendante de l'anse de Henlé",
+            "E) Cette ordonnance expose à des photosensibilisations."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle (lesquelles) sont juste (s) ?",
+          "choix": [
+            "A) Les benzodiazépines, en inhibant la transmission GABAergique, permettent de diminuer l’hyperexcitabilité neuronale associée à l’anxiété.",
+            "B) Les benzodiazépines ont 7 propriétés pharmacodynamiques. Elles sont anxiolytiques, hypnotiques, sédatives, anticonvulsivantes, myorelaxantes, orexigènes et amnésiantes.",
+            "C) Les benzodiazépines constituent le traitement médicamenteux de fond du trouble panique.",
+            "D) Les benzodiazépines à longue demi-vie sont les benzodiazépines de choix chez la personne âgée.",
+            "E) La prise de benzodiazépines contre-indique la conduite automobile du fait du risque de somnolence au volant."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle (lesquelles) sont juste(s) ?",
+          "choix": [
+            "A) Le lithium a un intérêt comme traitement prophylactique du trouble bipolaire de l’humeur",
+            "B) Le dosage de la calcémie est nécessaire lors de la prescription de lithium pour surveiller le risque d’hypocalcémie.",
+            "C) Il existe un risque de surdosage en lithium en cas d’hypernatrémie.",
+            "D) Le suivi thérapeutique pharmacologique du lithium permet de prévenir les effets indésirables dose-dépendants.",
+            "E) Lors du suivi thérapeutique pharmacologique du lithium forme LP, la cible de la concentration mesurée à la 12e heure après l'administration vespérale doit être de 0,8 à 1,2 mmol/L."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle (lesquelles) sont juste (s )?",
+          "choix": [
+            "A) L’efficacité des antidépresseurs doit être estimée 3 à 4 semaines après le début de la prescription.",
+            "B) En général, lors de la prescription d’un antidépresseur inhibiteur de la recapture de la sérotonine type fluoxétine, il est recommandé de prescrire une benzodiazépine pour éviter la levée d’inhibition.",
+            "C) Les troubles de la libido sont des effets indésirables peu fréquents (≥ 1/1 000 à < 1/100) avec les Inhibiteurs de la Recapture de la Sérotonine type fluoxétine.",
+            "D) Les symptômes digestifs (nausées, vomissements) sont des effets indésirables fréquents (≥ 1/100 à < 1/10) avec les antidépresseurs inhibiteurs de la recapture de la sérotonine type citalopram mais le plus souvent transitoire.",
+            "E) La prescription d’un antidépresseur est toujours associée à un risque potentiel de virage maniaque."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle est juste ?",
+          "choix": [
+            "A) Les effets indésirables médicamenteux doivent être déclarés au Centre Régional de PharmacoVigilance (CRPV).",
+            "B) Les abus médicamenteux doivent être déclarés aux CRPV.",
+            "C) Les effets indésirables des dispositifs médicaux doivent être déclarés au Centre Régional de PharmacoVigilance (CRPV).",
+            "D) Les effets indésirables médicamenteux doivent obligatoirement être déclarés à l’ARS (Agence Régionale de Santé)",
+            "E) Les effets indésirables médicamenteux doivent obligatoirement être déclarés à la firme fabricante."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle classe médicamenteuse est responsable d’une toux sèche en lien avec l’accumulation de bradykinine et de substance P ?",
+          "choix": [],
+          "reponses": [
+            "IEC",
+            "inhibiteurs de l’enzyme de conversion de l’angiotensine",
+            "Inhibiteurs de l'enzyme de conversion",
+            "inhibiteur de l'enzyme de conversion",
+            "Inhibiteur de l'enzyme de conversion",
+            "inhibiteurs de l'enzyme de conversion",
+            "inhibiteurs de l'enzyme de conversion (IEC)",
+            "inhibiteur enzyme de conversion",
+            "Inhibiteur de l’enzyme de conversion",
+            "Inhibiteurs de l’enzyme de conversion",
+            "Inhibiteurs de l'enzyme de conversion de l'angiotensine",
+            "Inhibiteur enzyme de conversion",
+            "inhibiteur d'enzyme de conversion",
+            "inhibiteur de l'enzyme de conversion IEC",
+            "inhibiteur de l’enzyme de conversion",
+            "Inhibiteurs de l'enzyme de conversation",
+            "inhibiteur enzyme conversion",
+            "inhibiteur de l'enzyme de convertion",
+            "inhibiteur de l’enzyme de conversion IEC",
+            "inhibitur de l'enzyme de conversion",
+            "inhibiteurs de l'enzyme de convertion (IEC)",
+            "inhibiteurs de l enzyme de conversion",
+            "Inhibiteurs de l’Enzyme de Conversion (IEC)",
+            "IEC: Inhibiteur de l'Enzyme de Conversion",
+            "Les inhibiteurs de l'enzyme de conversion",
+            "inhibiteur enzyme de conversion IEC",
+            "inibiteur de l'enzyme de conversion",
+            "IEC (Inhibiteurs de l'enzyme de conversion)",
+            "Inhibiteur de l‘Enzyme de Conversion",
+            "inhibiteurs de l‘enzyme de conversion",
+            "Inhibiteurs enzyme de conversion",
+            "IEC ?",
+            "Inhibiteurs de l’enzyme de conversion (IEC)",
+            "Inhibiteur de l'enzyme de conversion (IEC)",
+            "inhibiteur enzyme de conversion (IEC)",
+            "Inihibiteur de l’enzyme de conversion",
+            "Inhibiteurs de l'Enzyme de Conversion",
+            "IEC ( inhibiteur de l'enzyme de conversion )"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels effets indésirables peut-on redouter lors de la prise d’antipsychotique?",
+          "choix": [
+            "A) Un syndrome extrapyramidal",
+            "B) Une prise de poids",
+            "C) Un diabète secondaire",
+            "D) Une gynécomastie",
+            "E) Une coloration des dents"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297350902-f829bf36a8985",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mlle Ickx, 19 ans, vous consulte pour demander une contraception. Elle est nullipare nulligeste et n'a aucun antécédent personnel ou familial particulier. Elle ne fume pas. Elle reste asymptomatique. Il y a un certain degré d’anxiété. Poids de 50 kg pour 1,70 m, PA à 110/60 mmHg, pouls 70/min auscultation cardiopulmonaire normale. Le reste de l'examen est normal. Elle est étudiante et a de très faibles revenus.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En prenant en compte ces données, vous envisagez avec elle les différents moyens de contraception dont elle pourrait bénéficier : quels sont-ils ?",
+          "choix": [
+            "A) Une contraception œstroprogestative.",
+            "B) Une contraception par microprogestatifs.",
+            "C) Une contraception par spermicides.",
+            "D) L'utilisation de préservatifs.",
+            "E) L'utilisation d'un stérilet."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Elle souhaite finalement prendre une contraception œstroprogestative orale.\nDonnez les 3 réponses exactes :",
+          "choix": [
+            "A) L'indice de Pearl des œstroprogestatifs est meilleur que celui des microprogestatifs .",
+            "B) Le risque thrombo-embolique lié à la prescription d’œstroprogestatifs surpasse le bénéfice attendu chez elle.",
+            "C) Les œstroprogestatifs de seconde génération doublent le risque thrombo-embolique lié à leur prescription par rapport à celui lié à la prescription des œstroprogestatifs de 3e et 4e génération.",
+            "D) La prescription d’œstroprogestatifs de seconde génération augmente le risque thrombo-embolique par rapport à l'absence de contraception.",
+            "E) La HAS recommande la prescription d’œstroprogestatifs de 2e génération."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous rédigez l'ordonnance de la contraception œstroprogestative œstradiol/lévonorgestrel 30 gamma en toute conformité. Quels éléments doivent obligatoirement figurer sur l'ordonnance ?\nDonnez les 2 réponses exactes :",
+          "choix": [
+            "A) Date de rédaction de l'ordonnance.",
+            "B) Numéro de téléphone portable du médecin.",
+            "C) Le poids de la patiente.",
+            "D) La date de naissance de la patiente.",
+            "E) Les modalités de conservation des comprimés."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les modalités de prescription et de délivrance des contraceptifs œstroprogestatifs,\nDonnez-la (les) réponse (s) exacte (s) :",
+          "choix": [
+            "A) Leur prescription peut être réalisée pour 12 mois .",
+            "B) Ils peuvent être délivrés pour trois mois.",
+            "C) Le pharmacien peut délivrer la contraception oestroprogestative pour une durée supplémentaire d’un mois à condition que la prescription date de moins d'un an.",
+            "D) Si le pharmacien délivre la contraception œstroprogestative pour une durée supplémentaire d'un mois, Il doit l’indiquer sur l'original de la prescription.",
+            "E) La contraception oestroprogestative est prise en charge par l'assurance maladie si elle est inscrite sur la liste des spécialités remboursables."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Revue à trois mois de l'introduction de la contraception œstroprogestative, la patiente reste asymptomatique. Le poids est stable. Les PA sont à 150/100 mmHg recontrôlées le lendemain à 155/105 mmHg. Pouls à 70/min, patiente apyrétique, auscultation cardiopulmonaire normale.\nQue devez-vous faire ?\nDonnez-la (les) réponse (s) exacte (s) :",
+          "choix": [
+            "A) Lui demander si elle a des antécédents familiaux d'hypertension artérielle.",
+            "B) Rechercher des facteurs d’élévation de la pression artérielle.",
+            "C) Hospitaliser la patiente.",
+            "D) Demandez un fond d'œil en urgence.",
+            "E) Arrêter la contraception œstroprogestative."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez remplacé la contraception œstroprogestative par une contraception microprogestative désogestrel. Que dites-vous à la patiente ?\nDonnez-la (les) réponse (s) exacte (s) :",
+          "choix": [
+            "A) Prendre le comprimé 1 fois par jour pendant 21 jours avec un arrêt de 7 jours entre chaque plaquette.",
+            "B) Prendre le comprimé à la même heure chaque jour.",
+            "C) Utiliser les 7 jours qui viennent une méthode contraceptive barrière de type préservatifs.",
+            "D) L’informer de la possibilité d'une spanioménorrhée avec ce type de contraception.",
+            "E) En cas d'oubli de la contraception, avec un décalage de la prise excédant 12 heures, et rapport sexuel non protégé, risque de grossesse et utiliser une contraception d’urgence."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente est revue quelques mois plus tard en consultation. Les pressions artérielles recontrôlées à plusieurs reprises sont à 138/100-135/105-140/110 mmHg Elle reste asymptomatique. Elle rapporte des valeurs d'automesure tensionnelle faite de façon académique avec une moyenne à 110/69 mmHg.\nDonnez les 2 réponses exactes :",
+          "choix": [
+            "A) La patiente a une HTA isolée de consultation.",
+            "B) La patiente a une HTA diastolique.",
+            "C) La patiente a un effet blouse blanche.",
+            "D) La patiente a une HTA masquée.",
+            "E) La patiente a une HTA d'activité."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente vient vous voir en urgence parce qu'elle a oublié de prendre sa contraception microprogestative alors qu'elle était en week-end. Elle a oublié 2 comprimés et les a immédiatement pris le lundi matin en plus du comprimé habituellement prévu (elle prend sa contraception le matin). Elle demande une contraception d'urgence.\nÀ propos de la contraception d'urgence et de sa situation, donnez-la (les) réponse (s) exacte (s) :",
+          "choix": [
+            "A) La délivrance par le pharmacien de la contraception d'urgence est possible sans ordonnance.",
+            "B) Si vous choisissez le lévonorgestrel 1,5 mg, son efficacité est fonction de la rapidité de la prise après un rapport sexuel non protégé.",
+            "C) Le lévonorgestrel 1,5 mg empêche l'implantation dans l'utérus de l'ovocyte fécondé.",
+            "D) Si vous choisissez le lévonorgestrel 1,5 mg, la prise du comprimé est unique chez elle.",
+            "E) Vous dites à la patiente qu'elle n'a pas besoin de contraception d'urgence dans la mesure où elle a pris les 2 comprimés dans les 48 heures."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297353643-476c80ca999df",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Mme D, 65 ans, consulte pour un renouvellement d'ordonnance. Elle est hypertendue depuis une quinzaine d'années. Elle ne fume pas. Elle vit seule. Son traitement actuel comprend : ramipril 10 mg : 1 comprimé le matin, nicardipine LP 50 mg : 1 comprimé matin et soir.\nElle est asymptomatique. Poids 85 kg pour 1,60 m. PA 135/80 mmHg, pouls 70/min, examen clinique normal.\nL'ECG est normal.\nVous prenez connaissance des analyses biologiques qui montrent : créatininémie 105 µmol/l DFG 61 ml/min, kaliémie 4 mmol/l, natrémie 140 mmol/l, glycémie à jeun 1,30 g/l, LDL cholestérol 0,50 g/l, triglycérides 1,10 g/l.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez l'apparition d'un diabète : comment confirmer le diagnostic ?\nDonnez la réponse exacte.",
+          "choix": [
+            "A) Vous demandez une HGPO avec 75 g de glucose.",
+            "B) Vous demandez une glycémie 2 heures après le repas.",
+            "C) Vous demandez une autre glycémie à jeun.",
+            "D) Vous demandez une hémoglobine glyquée.",
+            "E) Vous demandez une fructosamine."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le diagnostic de diabète a priori de type 2 est conﬁrmé. Vous mettez en place trois mois de mesures hygiéno-diététiques et l'hémoglobine glyquée que vous demandez à trois mois est à 7,2 %\nVous décidez de débuter un traitement par metformine.\nDonnez la(les) modalité(s) de prescription. Donnez les 3 réponses exactes :",
+          "choix": [
+            "A) Avant de prescrire la metformine, il faut connaître le débit de filtration glomérulaire en Cockcroft.",
+            "B) Avant de prescrire la metformine, il vaut mieux connaître les valeurs de transaminases.",
+            "C) La prescription de metformine est effectuée à posologie croissante pour éviter la constipation.",
+            "D) La prescription de metformine n'est possible que chez un patient ayant une affection longue durée.",
+            "E) L'efficacité du traitement par metformine sera réévaluée à trois mois par une mesure de l'hémoglobine glyquée."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous rédigez l'ordonnance de metformine : quel(s) élément(s) le médecin doit-il obligatoirement faire figurer sur celle-ci ?\nDonnez-la (les) réponse (s) exacte (s) :",
+          "choix": [
+            "A) Le nom, le (s) prénom (s) de la patiente.",
+            "B) L'âge de la patiente.",
+            "C) Le numéro RPPS du médecin.",
+            "D) La date de délivrance du médicament.",
+            "E) Le nombre de boîtes des médicaments."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente est très bien équilibrée pendant cinq ans par metformine avec une hémoglobine glyquée à 6,5 %. Vous la revoyez à cinq ans et constatez un déséquilibre glycémique modéré alors que les mesures hygiéno-diététiques restent suivies et que l'observance du traitement de metformine prescrite à posologie maximale autorisée est bonne. L'hémoglobine glyquée est à 7,2 %. Elle a une rétinopathie diabétique débutante. La créatininémie est à 115 µmol/l soit un DFG en Cockcroft à 55 ml/min. Le rapport albuminurie/créatininurie est à 300 mg/g. Le diagnostic de néphropathie glomérulaire liée au diabète et à l'HTA est retenu et le néphrologue propose l'introduction d'un inhibiteur des SGLT2.\nQuel est son mécanisme d'action principal ?",
+          "choix": [
+            "A) Blocage de la production hépatique de glucose.",
+            "B) Blocage de la néoglucogénèse.",
+            "C) Stimulation de l'insulinosécrétion.",
+            "D) Augmentation de la satiété.",
+            "E) Augmentation de la glycosurie."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 28,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Qu'elle est (sont) l’(les) effet(s) indésirable(s) lié(s) à la classe des inhibiteurs des SGLT2 chez le patient diabétique ?\nDonnez les 2 réponses exactes :",
+          "choix": [
+            "A) Infections génitales.",
+            "B) Prise de poids.",
+            "C) Dégradation de la fonction rénale au long cours.",
+            "D) Acidocétose.",
+            "E) Coma hyperosmolaire."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 29,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Alors que la patiente est traitée par metformine et inhibiteurs des SGPT2, elle est victime de trois épisodes d'infection génitale dans le mois qui suit leur introduction et elle refuse de poursuivre les inhibiteurs des SGLT2. L'hémoglobine glyquée est désormais à 8 %. Vous lui proposez l'introduction d'un analogue du GLP-1 hebdomadaire. Quel(s) est(sont) le(s) mécanisme(s) d'action de cette classe thérapeutique ?\nDonnez les 3 réponses exactes :",
+          "choix": [
+            "A) Stimulation de l'insulinosécrétion de manière glucose-dépendante.",
+            "B) Diminution de la production de glucagon.",
+            "C) Augmentation de la vidange gastrique.",
+            "D) Augmentation de la satiété.",
+            "E) Diminution de l'absorption des glucides complexes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 30,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les arguments justiﬁant l'utilisation d'un analogue du GLP-1 chez elle selon les recommandations HAS 2013 ?\nDonnez les 3 réponses exactes :",
+          "choix": [
+            "A) Patiente avec une obésité.",
+            "B) Patiente dont la valeur d'hémoglobine glyquée > 1 % de la valeur cible.",
+            "C) Patiente chez qui la survenue d'hypoglycémies pourrait être préoccupante.",
+            "D) Patiente qui préfère l'administration orale des médicaments.",
+            "E) Patiente qui préfère l'administration hebdomadaire des médicaments."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297355730-a4f7452c281c78",
+      "type": "DP",
+      "title": "Mini DP 3",
+      "description": "M O 29 ans est admise aux urgences pour une baisse de l’acuité visuelle. Sa pression artérielle est à 230 /128 mm Hg. L’examen de la rétine montre un œdème papillaire et des hémorragies. Le diagnostic d’hypertension maligne est porté. Il n’y pas de signe d’incompétence cardiaque. La patiente n’a pas d’autre symptôme en dehors de maux de tête qu’elle traite par de l’ibuprofène. Elle a un antécédent de migraine sans aura.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que proposez-vous ?\nQuelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Une hospitalisation sans délai.",
+            "B) L’administration d’antihypertenseur par voie parentérale et/ou orale.",
+            "C) L’administration de diurétique.",
+            "D) Un régime sans sel.",
+            "E) Une évaluation de la fonction rénale."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La pression artérielle a été abaissée. L’interrogatoire a révélé que la patiente prenait une contraception à base d’éthynil œstradiol.\nQuelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il faut interrompre la contraception prise par la patiente.",
+            "B) Il faut contre indiquer toute contraception oestroprogestative.",
+            "C) Il faut contre indiquer toute contraception hormonale.",
+            "D) La contraception oestroprogestative n’est pas recommandée en cas d’hypertension artérielle légère.",
+            "E) La migraine sans aura contrindique la contraception oestroprogestative."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’ibuprofène : quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) C’est un anti-inflammatoire non stéroïdien.",
+            "B) Il provoque une rétention hydrosodée.",
+            "C) Il augmente la pression artérielle.",
+            "D) Il provoque une prise de poids.",
+            "E) Il peut augmenter la concentration de potassium dans le sang."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous percevez un souffle au niveau des aires rénales et vous suspectez une sténose de l’artère rénale, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il faut suspecter dans le contexte une lésion dysplasique des artères rénales.",
+            "B) Si le diagnostic de lésion dysplasique des artères rénales est validé, une angioplastie des artères rénales est indiquée car elle permet la guérison de l’hypertension artérielle dans la majorité des cas.",
+            "C) Si le diagnostic de lésion dysplasique des artères rénales est validé, il faudra rechercher des lésions dysplasiques dans d’autres territoires.",
+            "D) Si le diagnostic de lésion dysplasique des artères rénales est validé, il faudra contrindiquer l’administration d’inhibiteur d’enzyme de conversion.",
+            "E) L’examen à envisager en premier lieu pour valider le diagnostic de dysplasie artérielle rénale est l’artériographie."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente vous informe au décours de cette épisode d’un désir de grossesse. Son hypertension artérielle est bien contrôlée par de l’Enalapril et de la Lercanidipine.\nQuelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il faut proposer un traitement par Irbesartan.",
+            "B) Il faut interrompre l’Enalapril.",
+            "C) Il faut interrompre la Lercanidipine.",
+            "D) Il faut envisager un traitement par Labétalol.",
+            "E) Il faut envisager un traitement par Nifédipine."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la perspective de cette grossesse, quels éléments d’information devez-vous donner à la patiente ?",
+          "choix": [
+            "A) La pré-éclampsie peut entrainer un accouchement prématuré.",
+            "B) L’hypertension artérielle est un facteur de risque de pré-éclampsie.",
+            "C) La prééclampsie peut se compliquer au plan rénal pour la mère.",
+            "D) La pré-éclampsie peut se compliquer au plan neurologique pour la mère.",
+            "E) La pré-éclampsie peut compromettre le développement du fœtus."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente a présenté quelque temps après un cancer du sein traité par chirurgie, radiothérapie et chimiothérapie comprenant notamment de l’adriamycine. Elle a développé dans les suites une dysfonction ventriculaire systolique gauche modérée compliquée de ﬁbrillation auriculaire. De plus elle a présenté une maladie thromboembolique veineuse il y a 8 mois dans le cadre de son cancer. Elle est traitée par de l’Apixaban à raison de 5 mg matin et soir. Elle pèse 70 kg pour 170 cm et sa fonction rénale est normale.\nQuelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Dans le contexte un traitement par Warfarine aurait été plus adéquat.",
+            "B) Dans le contexte un traitement par Fluindione aurait été plus adéquat.",
+            "C) L’Apixaban est un anticoagulant oral direct ayant une action d’inhibition du facteur X.",
+            "D) L’Apixaban impose une surveillance de l’INR.",
+            "E) La posologie d’Apixaban doit tenir compte de la fonction rénale."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre du bilan étiologique de cette HTA de la femme jeune, vous suspectez un hyperaldostéronisme primaire ?",
+          "choix": [
+            "A) La recherche d’un hyperaldostéronisme primaire repose sur des dosages de rénine et d’aldostérone.",
+            "B) La spironolactone est le traitement antihypertenseur à privilégier si le diagnostic d’hyperaldostéronisme primaire est validé.",
+            "C) Il est recommandé lorsque le diagnostic d’hyperaldostéronisme primaire est posé de réaliser un scanner surrénalien.",
+            "D) Il est recommandé lorsque le diagnostic d’hyperaldostéronisme primaire est posé de réaliser une scintigraphie au iodo-cholestérol.",
+            "E) La spironolactone est associée à un risque de cancer cutanée."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297358460-ba5ff0d50a8898",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "M O 78 ans a une pression artérielle élevée en consultation. Elle est mesurée à 178/80 mm Hg, 165/84 mm Hg et 170 /84 mm Hg. Il a comme antécédent un tabagisme aux environs de 40 paquets année interrompu il y a vingt ans. Il se plaint d’une douleur dans le mollet gauche à la marche. Vous suspectez une hypertension.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 39,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le bénéfice du traitement de l’hypertension artérielle dont il faut informer le patient ?",
+          "choix": [],
+          "reponses": [
+            "une diminution du risque de morbidité cardiovasculaire",
+            "une diminution du risque d’accident vasculaire cérébral",
+            "une diminution du risque de maladie cardiovasculaire",
+            "une diminution du risque de morbi-mortalité cardiovasculaire",
+            "diminution du risque cardiovasculaire",
+            "Diminution du risque cardiovasculaire",
+            "réduction du risque cardio-vasculaire",
+            "diminution du risque cardio-vasculaire",
+            "réduction du risque cardiovasculaire",
+            "Diminution du risque cardio-vasculaire",
+            "diminution du risque cardio vasculaire",
+            "reduction du risque cardiovasculaire",
+            "diminution du risque d'AVC",
+            "diminution de la mortalité cardio-vasculaire",
+            "diminution du risque de mortalité cardiovasculaire",
+            "Réduction de la mortalité cardiovasculaire",
+            "Réduction du risque cardiovasculaire",
+            "Diminution du risque cardio vasculaire",
+            "Diminution de la morbi-mortalité cardiovasculaire",
+            "Diminution de la mortalité cardio-vasculaire",
+            "diminution de la mortalité cardiovasculaire",
+            "diminution de la mortalite cardio vasculaire",
+            "Diminution du risque de survenue d’évenements cardio-vasculaire dont AOMI",
+            "diminution du risque de survenue d'evenement indesirable cardiovasculaire",
+            "Diminution de la morbi-mortalité cardio-vasculaire et par AVC",
+            "diminue le risque d'AVC",
+            "prevention des complication cardiovasculaires dont aomi",
+            "diminution morbimortalite vasculaire",
+            "prevention des evenements cardiovasculaires",
+            "Diminution du risque d'accident vasculaire cérébral",
+            "Réduction de la survenue d‘évènements cardiovasculaires indésirables voire même de réduire sa mortalité",
+            "Prevention AVC/ accidents cardio vasculaires",
+            "réduction du risque de maladie cardiovasculaire",
+            "baisse de la mortalité cardio vasculaire",
+            "diminution du risque mortalité cardiovasculaire",
+            "diminue la mortalité cardio-vasculaire",
+            "Diminution de la mortalité cardiovasculaire",
+            "Réduction de la morbi-mortalité cardiovasculaire",
+            "Réduction du risque d’AVC",
+            "reduire les complications cardiovasculaires",
+            "diminution morbi mortalité cardiovasculaire",
+            "diminution de la morbi-mortalité cardiovasculaire",
+            "Prévention d'évenements cardiovasculaires",
+            "réduction de la morbimortalité cardiovasculaire (1er facteur de risque d’AVC notamment)",
+            "diminution du risque d'évènements cardio-vasculaires",
+            "diminution de la morbimortalite cardiovasculaire",
+            "diminue le risque d'évènements cardiovasculaires",
+            "baisse mortalité cardiovasculaire",
+            "Diminution fréquence AVC",
+            "diminution important du risque d'AVC",
+            "Réduction du risque de mortalité cardio-vasculaire",
+            "reduction du risque d'accident vasculaire cérébral",
+            "Réduction du risque d’événements cardio-vasculaires",
+            "diminution de la mortalité par AVC",
+            "baisse de la mortalité cardio-vasculaire",
+            "Prévention des maladies cardiovasculaires",
+            "Diminution du risque d'accident cardiovasculaire",
+            "diminution du risque de la survenue de pathologies cardio-vasculaires",
+            "diminution du risque d'évènements cardiovasculaire",
+            "Diminution du risque de pathologies cardio vasculaire",
+            "Reduction de la mortalité cardio vasculaire",
+            "Diminuer morbidité cardio-vasculaire",
+            "réduction mortalité cardiovasculaire",
+            "reduction du risque de maladie vasculaire",
+            "bénéfice sur le risque cardiovasculaire et la mortalité liée",
+            "Baisse de la morbidité cardiovasculaire par baisse de la tension",
+            "Diminution du risque cardio-vasculaire et des evenements cardio-vasculaires",
+            "réduction de la mortalité cardio-vasculaire",
+            "réduction des évènements cardio vasculaires (surtout AOMI pour lui)",
+            "Prévention des complications cardiovasculaire",
+            "réduction des évènements cardio-vasculaires",
+            "baisse morbi-mortalité cardiovasculaire",
+            "Diminution du risque d‘événements cardio-vasculaires",
+            "Prévention du risque d'AVC",
+            "reduction du risque de morbi-mortalité cardiovasculaire",
+            "Diminution du risque d'AVC",
+            "diminution du risque de AVC",
+            "baisse de mortalité cardio-vasculaire",
+            "reduction de la mortalité cardio-vasculaire",
+            "réduction de la mortalité cardio vasculaire",
+            "Diminution de la morbimortalité cardiovasculaire",
+            "protection cardio vasculaire; baisse du risque de mortalite cardio vasculaire",
+            "diminution du risque d'evenements cardiovasculaires",
+            "bénéfice sur la mortalité par évènements cardiovasculaires",
+            "réduction morbimortalité cardiovasculaire",
+            "reduction de la morbi-mortalité cardio-vasculaire",
+            "diminution mortalité cardio-vasculaire"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 40,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous avez établi le diagnostic d’hypertension artérielle. Vous envisagez un traitement médicamenteux par amlodipine.\nParmi les éléments suivants concernant la Amlodipine, quelles sont les 5 réponses exactes ?",
+          "choix": [
+            "A) Ce médicament peut provoquer des œdèmes des membres inférieurs.",
+            "B) Ce médicament peut provoquer des palpitations.",
+            "C) Ce médicament peut provoquer des lipothymies lors du passage de la position assise à la position debout.",
+            "D) Ce médicament est un traitement de l’angor d’effort.",
+            "E) Ce médicament peut améliorer les symptômes dont souffrent les patients ayant un syndrome de Raynaud.",
+            "F) Ce médicament est contre indiqué en cas de bradycardie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 41,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous avez mis en évidence une oblitération de l’artère fémorale superﬁcielle qui explique la claudication à la marche décrite par le patient. Vous envisagez un traitement par acide Acétylsalicylique et statine.\nQuels sont les 11 propositions exactes ?",
+          "choix": [
+            "A) Les statines diminuent la morbidité cardiovasculaire.",
+            "B) L’aspirine n’améliore pas la claudication.",
+            "C) La statine n’améliore pas la claudication.",
+            "D) L’aspirine augmente le risque de saignement notamment digestif.",
+            "E) La statine peut provoquer des douleurs musculaires.",
+            "F) La surveillance de l’efficacité et de la tolérance de la statine va justifier une surveillance biologique.",
+            "G) L’aspirine diminue la capacité des plaquettes à s’activer.",
+            "H) La statine diminue le taux de LDL cholestérol dans le sang.",
+            "I) Le bénéfice procuré par la statine est proportionnel à la réduction du LDL cholestérol.",
+            "J) La statine agit en facilitant la captation du cholestérol par le foie.",
+            "K) La statine est un produit dérivé d’un champignon.",
+            "L) L’administration de statine diminue le risque de diabète.",
+            "M) L’effet protecteur de l’aspirine sur le système cardiovasculaire est dose-dépendant jusqu’ à une dose d’1g par jour."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K"
+          ],
+          "maxReponses": 11,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

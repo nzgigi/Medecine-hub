@@ -1,0 +1,743 @@
+{
+  "matiere": "Agents infectieux – Bactériologie",
+  "slug": "ai-bacteriologie-s6",
+  "annee": 2025,
+  "title": "Agents infectieux – Bactériologie - 2025",
+  "total_questions": 35,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mlle J., 25 ans, se présente aux urgences pour brûlures à la miction et fièvre à 38,5°C. Suite à la réalisation d’une bandelette urinaire qui s’est avérée positive, un Examen Cyto-Bactériologique des Urines (ECBU)lui est prescrit. Quelles recommandations lui donnez-vous pour la réalisation de cet examen ?",
+          "choix": [
+            "A) Nettoyage des organes génitaux externes",
+            "B) Recueil du premier jet d’urine",
+            "C) Prélèvement urines du matin ou après stase de 4h",
+            "D) Miction dans pot stérile",
+            "E) Lavage des mains"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les résultats ci-dessous en faveur d’une infection urinaire ?",
+          "choix": [
+            "A) leucocyturie : 5. 104/ml",
+            "B) bactériurie : 103 UFC/ml Escherichia coli",
+            "C) bactériurie : 103 UFC/ml Lactobacillus rhamnosus",
+            "D) hématurie : 5. 105/ml",
+            "E) leucocyturie : 5. 103/ml"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de l’examen direct (coloration de Gram), le laboratoire met en évidence la présence de nombreux bacilles à Gram négatif. A quelles bactéries pensez-vous ?",
+          "choix": [
+            "A) Listeria monocytogenes",
+            "B) Escherichia coli",
+            "C) Enterobacter cloacae",
+            "D) Staphylococcus saprophyticus",
+            "E) Klebsiella pneumoniae"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293746568-31a483b716db1",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente se présente en consultation pour cervicite suivant des rapports sexuels non protégés. Les bactéries que vous suspectez sont :",
+          "choix": [
+            "A) Neisseria gonorrhoeae",
+            "B) Escherichia coli",
+            "C) Gardnerella vaginalis",
+            "D) Chlamydia trachomatis",
+            "E) Treponema pallidum"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels prélèvements pouvez-vous réaliser pour rechercher les bactéries suspectées ?",
+          "choix": [
+            "A) Des hémocultures",
+            "B) Un prélèvement vaginal",
+            "C) Une urine de milieu de jet",
+            "D) Un prélèvement d’endocol",
+            "E) Un écouvillonnage du méat urinaire"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les analyses utiles pour le diagnostic bactériologique de cette cervicite ?",
+          "choix": [
+            "A) La réalisation du score de Nugent",
+            "B) La mise en culture en milieu gélosé du prélèvement vaginal pour recherche de Chlamydia trachomatis",
+            "C) La mise en culture en milieu gélosé du prélèvement vaginal pour recherche de Neisseria gonorrhoeae",
+            "D) La mise en culture en milieu gélosé du prélèvement urinaire (milieu de jet) pour recherche de Neisseria gonorrhoeae",
+            "E) Des PCR sur le prélèvement urinaire à la recherche de Chlamydia trachomatis et Neisseria gonorrhoeae"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293748236-28d51589a265f",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mme M., 26 ans se présente en consultation de médecine générale pour fièvre, sueurs nocturnes, dyspnée, toux chronique, douleurs thoraciques, quelques hémoptysies, asthénie, anorexie et amaigrissement. L’examen physique découvre de petites adénopathies cervicales.\nElle est originaire de Côte d’Ivoire et est en France depuis un mois. Elle est séropositive pour le VIH et n’est plus traitée pour cette infection.\nQuelle infection bactérienne vous évoque ce tableau clinique ?",
+          "choix": [
+            "A) une pneumopathie à Legionella pneumophila",
+            "B) une pneumopathie à Chlamydophila pneumoniae",
+            "C) une pneumopathie à Mycobacterium tuberculosis",
+            "D) une pneumopathie à Streptococcus pneumoniae",
+            "E) une pneumopathie à Pseudomonas aeruginosa"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ce tableau clinique évoque une pneumopathie à Mycobacterium tuberculosis (tuberculose).\nConcernant la tuberculose, quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ?",
+          "choix": [
+            "A) toutes les personnes infectées développent des signes cliniques",
+            "B) lors du début de l'infection, la zone infectée est souvent circonscrite et s’arrête aux ganglions du hile pulmonaire",
+            "C) la tuberculose est très contagieuse par voie aérienne suite à un contact prolongé avec un malade",
+            "D) la tuberculose est uniquement une infection pulmonaire",
+            "E) le réservoir de Mycobacterium tuberculosisest principalement animal"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant Mycobacterium tuberculosis et le diagnostic de la tuberculose, indiquez celle(s) qui est (sont) exacte(s) :",
+          "choix": [
+            "A) C’est un bacille à Gram négatif",
+            "B) C’est un bacille acido-alcoolo-résistant (BAAR) à la coloration spécifique de Ziehl-Neelsen",
+            "C) Il faut habituellement 2 à 8 semaines pour obtenir une culture de la bactérie en milieux liquides ou gélosés spécifiques",
+            "D) Il faut multiplier les prélèvements respiratoires car l’excrétion de la bactérie est hétérogène au cours du temps : au moins un prélèvement par jour pendant 3 jours d’expectorations ou de tubages gastriques",
+            "E) Le diagnostic peut être réalisé par recherche d’anticorps spécifiques (sérologie)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le traitement standard de la tuberculose, indiquez celle(s) qui est (sont) exacte(s) :",
+          "choix": [
+            "A) il est basé sur une bi antibiothérapie longue en deux temps",
+            "B) il est basé sur une quadri antibiothérapie longue en deux temps",
+            "C) la polyantibiothérapie a pour but une action synergique des antibiotiques sur les différents phénotypes de la bactérie (intracellulaires, extracellulaires, différentes localisations tissulaires)",
+            "D) la polyantibiothérapie a pour but d’éviter l’émergence de mutants résistants responsables de rechute",
+            "E) les quatres principaux antituberculeux sont la rifampicine, l’izoniazide, l’éthambutol et le pyrazinamide"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293751095-1bbcf5e9688008",
+      "type": "DP",
+      "title": "DP 4",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme B. se présente aux urgences pour fièvre. Dans ce contexte, un prélèvement d’hémoculture est prescrit. Concernant les hémocultures, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Un très faible volume de sang inoculé dans chaque flacon d’hémoculture (1-3 mL) permet de détecter de façon très sensible les bactériémies pour un adulte",
+            "B) Il est préférable de prélever toutes les hémocultures en une fois pour limiter les risques de contamination",
+            "C) Un examen direct après coloration de Gram est réalisé au laboratoire sur chaque flacon d’hémoculture reçu, avant incubation dans l’automate",
+            "D) Lors d’un épisode infectieux chez un adulte, il est recommandé de prélever au moins 6 paires de flacons par jour",
+            "E) Lors d’un épisode infectieux chez un adulte, il est recommandé de prélever uniquement une paire de flacons (un flacon aérobie et un flacon anaérobie)"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sur les 2 paires d’hémocultures prélevées pour Mme B, un flacon aérobie se positive. A l’examen direct après coloration de Gram, des bacilles à Gram négatif sont vus.\nParmi les bactéries suivantes, cochez celle(s) qui correspond(ent) à cette description.",
+          "choix": [
+            "A) Staphylococcus aureus",
+            "B) Neisseria meningitidis",
+            "C) Haemophilus influenzae",
+            "D) Streptococcus pneumoniae",
+            "E) Escherichia coli"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’identification de la bactérie cultivée à partir du flacon d’hémoculture de Mme B. donne le résultat : Escherichia coli. Cochez la/les réponse(s) exacte(s) concernant l’interprétation de ce résultat :",
+          "choix": [
+            "A) La porte d’entrée d’une bactériémie à Escherichia coli est souvent urinaire",
+            "B) Un seul flacon d’hémoculture positif à Escherichia coli est généralement considéré comme une contamination",
+            "C) Un seul flacon d’hémoculture positif à Escherichia coli est le signe d’une bactériémie car il s’agit d’un pathogène strict dans ce type de prélèvement",
+            "D) Escherichia coli est fréquemment responsable d’endocardites",
+            "E) Escherichia coli appartient à la famille des entérobactéries"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La souche de Escherichia coli responsable de la bactériémie de Mme B. est productrice de beta-lactamase à spectre élargi (BLSE). Parmi les antibiotiques suivants, lequel reste efficace contre cette bactérie ?",
+          "choix": [
+            "A) Amoxicilline",
+            "B) Vancomycine",
+            "C) Ceftazidime",
+            "D) Ceftriaxone",
+            "E) Méropénème"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293753608-17962757a5855",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bactéries suivantes, quelle(s) est/sont celle(s) responsable(s) de méningites communautaires chez l’enfant et l’adulte :",
+          "choix": [
+            "A) Neisseria meningitidis",
+            "B) Streptococcus pneumoniae",
+            "C) Escherichia coli",
+            "D) Neisseria gonorrhoeae",
+            "E) Pseudomonas aeruginosa"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) affirmation(s) exacte(s) parmi les propositions suivantes ?\nStreptococcus pyogenes :",
+          "choix": [
+            "A) est un cocci à Gram positif en chainettes",
+            "B) est naturellement résistant à l’amoxicilline",
+            "C) est responsable d’angines érythémateuses",
+            "D) est responsable d’infections cutanées, parfois graves comme la dermohypodermite nécrosante",
+            "E) est une bactérie strictement humaine de la flore oropharyngée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, quelle(s) est (sont) celle(s) qui concerne(nt) la bactérie Mycoplasma pneumoniae ?",
+          "choix": [
+            "A) elle est principalement responsable de pneumopathies chez l’enfant et le jeune adulte",
+            "B) elle est à développement intracellulaire",
+            "C) elle est sensible aux bêta-lactamines",
+            "D) le diagnostic bactériologique de son infection peut être réalisé par culture standard sur milieu gélosé",
+            "E) le diagnostic bactériologique de son infection peut être réalisé par PCR"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant Helicobacter pylori, quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ?",
+          "choix": [
+            "A) son réservoir est environnemental",
+            "B) chez l’homme, cette bactérie colonise exclusivement la muqueuse gastrique",
+            "C) la contamination se fait généralement pendant l’enfance, mais l’infection persiste toute la vie tant qu’il n’y a pas d’éradication",
+            "D) cette bactérie a un rôle majeur dans le développement de l'ulcère gastroduodénal",
+            "E) cette bactérie a un rôle dans la carcinogenèse de certains cancers de l’estomac"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La coproculture consiste à rechercher la présence de bactéries entéropathogènes dans les selles.\nOutre les Salmonella, elle peut révéler la présence de :",
+          "choix": [
+            "A) Shigella",
+            "B) Campylobacter",
+            "C) Helicobacter pylori",
+            "D) Staphylococcus aureus",
+            "E) Yersinia enterocolitica"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En cas de suspicion de fièvre typhoïde, quel(s) est (sont) le(s) examen(s) bactériologique(s) à réaliser pour le diagnostic ?",
+          "choix": [
+            "A) Coproculture",
+            "B) Hémoculture",
+            "C) Uroculture",
+            "D) Sérodiagnostic",
+            "E) Prélèvement de gorge"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ? La coqueluche est une infection :",
+          "choix": [
+            "A) respiratoire très contagieuse causée par la bactérie Bordetella pertussis",
+            "B) grave et potentiellement létale chez le nourrisson de <6 mois",
+            "C) dont la bactérie responsable a un réservoir environnemental",
+            "D) dont le diagnostic microbiologique est basé sur la sérologie",
+            "E) dont l’immunité naturelle et vaccinale est définitive"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) parmi les affirmations suivantes ? Le tétanos est une pathologie :",
+          "choix": [
+            "A) de transmission interhumaine",
+            "B) due à un bacille à Gram positif anaérobie",
+            "C) due à une toxine bactérienne",
+            "D) éradiquée en France",
+            "E) due à Clostridium tetani, responsable d’infections nosocomiales principalement"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les espèces bactériennes suivantes responsables de zoonoses, laquelle est responsable de nombreuses formes cliniques, allant du syndrome grippal à l’atteinte multiviscérale (rénale, hépatique, méningée ou pulmonaire) et présente une répartition mondiale à dominante tropicale, avec survie aisée dans le milieu extérieur (eau douce, sols boueux), et comme principal réservoir les rongeurs (en particulier les rats) ?",
+          "choix": [
+            "A) Pasteurella multocida",
+            "B) Bartonella henselae",
+            "C) Leptospira interrogans",
+            "D) Brucella melitensis",
+            "E) Coxiella burnetii"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les Staphylococcus aureus résistant à la méticilline (SARM), quelles sont les réponses exactes :",
+          "choix": [
+            "A) S. aureus est un cocci à Gram positif en amas",
+            "B) La résistance à la méticilline est liée à la présence d’une PLP2a supplémentaire",
+            "C) La détection d’un SARM ne nécessite pas de précautions d’hygiène particulières",
+            "D) La résistance à la méticilline entraîne une résistance à l’ensemble des bêta-lactamines",
+            "E) Le traitement de choix d’une infection systémique à SARM repose sur les glycopeptides"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les plaies chroniques (ulcères, escarres, pied diabétique), quelle(s) est/sont la/les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Elles sont toujours colonisées",
+            "B) Les principales bactéries retrouvées sont : Staphylococcus aureus, Streptococcus pyogenes, les anaérobies",
+            "C) La colonisation dépend du stade de la plaie (phases de nécrose, détersion, rééperdimisation)",
+            "D) Il est recommandé de ne réaliser des prélèvements que si des signes d’infection sont présents",
+            "E) Pour les pieds diabétiques, la réalisation d’un prélèvement dépend du grade de l’infection"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 11
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les infections cutanéo-muqueuses suivantes, quelles sont celles qui peuvent être dues à Staphylococcus aureus ?",
+          "choix": [
+            "A) Dermohypodermite nécrosante",
+            "B) Furoncle",
+            "C) Morsure de chat",
+            "D) Anthrax",
+            "E) Impétigo"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les bactéries suivantes, laquelle ou lesquelles font partie de la flore cutanée résidente stable ?",
+          "choix": [
+            "A) Cutibacterium acnes",
+            "B) Staphylococcus epidermidis",
+            "C) Escherichia coli",
+            "D) Streptococcus pyogenes",
+            "E) Staphylococcus aureus"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les infections nosocomiales, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les affections malignes sont des facteurs de risque d’infection nosocomiale",
+            "B) Le port d’une sonde urinaire est un facteur de risque d’infection nosocomiale",
+            "C) Le port d’un cathéter n’est pas un facteur de risque d’infection nosocomiale",
+            "D) La prolongation de certains traitements médicamenteux est un facteur de risque d’infection nosocomiale",
+            "E) L’antibioprophylaxie permet de limiter la survenue d’infections nosocomiales"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les infections nosocomiales, quelle(s) est/sont la/les proposition(s) exacte(s) ?",
+          "choix": [
+            "A) La prévalence des infections nosocomiales en France est inférieure à 5%",
+            "B) La prévalence des infections nosocomiales en France est comprise entre 5% et 10%",
+            "C) La prévalence des infections nosocomiales en France est supérieure à 10%",
+            "D) Dans la xéno-infection, les microorganismes sont d’origine endogène",
+            "E) Dans l’exo-infection, les microorganismes sont d’origine endogène"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les antibiotiques suivants, lesquels sont actifs sur la synthèse du peptidoglycane ?",
+          "choix": [
+            "A) amoxicilline",
+            "B) érythromycine",
+            "C) amikacine",
+            "D) vancomycine",
+            "E) ciprofloxacine"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes ? Concernant les principes d’une antibiothérapie :",
+          "choix": [
+            "A) La réalisation d’un prélèvement et d’un antibiogramme est toujours nécessaire",
+            "B) L’antibiothérapie probabiliste repose sur les connaissances sur les bactéries, les infections et les mécanismes de résistance",
+            "C) Le choix d’une molécule prend en compte les paramètres pharmacocinétiques/dynamiques de l’antibiotique",
+            "D) Une antibiothérapie documentée est adaptée en fonction des antibiogrammes obtenus",
+            "E) Toute antibiothérapie doit être réévaluée au bout de 72h"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes ? L’évaluation de la sensibilité aux antibiotiques :",
+          "choix": [
+            "A) Est toujours évaluée par détermination directe d’une valeur de CMI",
+            "B) La CMI est la plus petite concentration d’antibiotique permettant de tuer les bactéries",
+            "C) La liste des antibiotiques à tester est définie dans un référentiel",
+            "D) La technique de diffusion en milieu gélosé repose sur la mesure de diamètres d’inhibition",
+            "E) le rapport CMB/CMI permet de classer les antibiotiques en bactéricides ou en bactériostatiques"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions exactes ? La résistance bactérienne :",
+          "choix": [
+            "A) apparaît plus ou moins rapidement selon les bactéries et les antibiotiques",
+            "B) peut reposer sur la modification des porines",
+            "C) est liée à des mutations chromosomiques exclusivement",
+            "D) peut être médiée par des enzymes inactivatrices qui détruisent les antibiotiques",
+            "E) n’implique toujours qu’un seul mécanisme de résistance à la fois"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic bactériologique direct, quelles sont les propositions exactes parmi les affirmations suivantes ?",
+          "choix": [
+            "A) Si une antibiothérapie a été débutée avant la réalisation du prélèvement bactériologique, il y a un risque élevé que la bactérie pathogène ne pousse pas",
+            "B) Le transport du prélèvement jusqu'au laboratoire et son analyse doivent être réalisés dans les plus brefs délais, notamment si des bactéries anaérobies sont suspectées",
+            "C) L'examen direct (état frais, coloration de Gram) peut orienter le choix des milieux ensemencés",
+            "D) La mise en culture du prélèvement n'est pas indispensable pour pouvoir étudier la sensibilité aux antibiotiques de la bactérie responsable de l'infection",
+            "E) Une fois le prélèvement ensemencé, 4h d'incubation à 37°C suffisent pour obtenir une culture abondante de la plupart des bactéries pathogènes pour l'Homme"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces cinq propositions, lesquelles sont vraies ?",
+          "choix": [
+            "A) Les bactéries sont haploïdes. C’est un avantage certain quand on sait que la plupart des mutations sont récessives et donc avec un effet immédiat.",
+            "B) Les principaux antibiotiques sont de puissants mutagènes.",
+            "C) Le temps de génération peut être extrêmement rapide dans des conditions optimales de croissance chez certaines bactéries (20 minutes pour Escherichia coli)",
+            "D) La bactérie se multiplie par scissiparité, il n’y a pas de reproduction sexuelle. Ceci implique que les cellules filles sont génétiquement identiques entre elles. Notion de clone.",
+            "E) Les échanges génétiques s’effectuent par transferts horizontaux (transformation, conjugaison, transduction…)."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

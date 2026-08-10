@@ -1,0 +1,254 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s3",
+  "annee": 2022,
+  "title": "Pharmacologie médicale - 2022",
+  "total_questions": 12,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant la bidulodipine, quelle est ou quelles sont celles exacte(s):",
+          "choix": [
+            "A) Elle diminue la post-charge",
+            "B) Elle a un effet chronotrope négatif",
+            "C) C’est un antihypertenseur",
+            "D) Son association à la simvastatine est à risque d’interaction médicamenteuse pharmacocinétique",
+            "E) Les œdèmes des membres inférieurs sont un de ses effets indésirables fréquents"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants lesquels peuvent induire ou d’aggraver une HTA:",
+          "choix": [
+            "A) Le kétoprofène",
+            "B) Le ramipril",
+            "C) La midodrine",
+            "D) Le bévacizumab",
+            "E) Le losartan"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les antagonistes des récepteurs AT1 de l’angiotensine II, lesquelles\nsont exactes ?:",
+          "choix": [
+            "A) Ils diminuent les concentrations plasmatiques d’angiotensine II",
+            "B) Ils sont inotropes négatifs",
+            "C) Ils diminuent la filtration glomérulaire",
+            "D) Ils sont contre-indiqués chez la femme enceinte",
+            "E) Ils sont hypokaliémiants"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le rivaroxaban, lesquelles sont exactes ?:",
+          "choix": [
+            "A) C’est un anticoagulant anti X",
+            "B) Il est aussi indiqué dans les fibrillations auriculaires liées aux valvulopathies",
+            "C) Il s’administre par voie injectable",
+            "D) C’est un anticoagulant indirect",
+            "E) Il n’est pas métabolisé par le foie"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le ticagrelor, lesquelles sont exactes ?:",
+          "choix": [
+            "A) C’est un anticoagulant",
+            "B) C’est un antagoniste des récepteurs de l’ADP",
+            "C) Il favorise la survenue d’effets indésirables hémorragiques",
+            "D) Il ne peut pas être associé à l’aspirine à faible dose",
+            "E) Il est administré par voie injectable"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des médicaments des bronches, parmi les affirmations suivantes, laquelle (lesquelles) est (sont)\nvraie(s) ?:",
+          "choix": [
+            "A) Le salbutamol est un antagoniste β2-adrénergique utilisé dans le traitement de la crise d'asthme",
+            "B) Le salbutamol est hyperglycémiant par son action β2 adrénergique.",
+            "C) Le salbutamol est à l’origine de tremblement des extrémités par son action β1 adrénergique.",
+            "D) Dans l’asthme, l’ajout d’un corticoïde favorise la désensibilisation des récepteurs β.",
+            "E) Le mepolizumab est un anticorps monoclonal ciblant l’interleukine 5."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des médicaments anti-arythmiques, parmi les affirmations suivantes, laquelle (lesquelles) est (sont)\nvraie(s) ?:",
+          "choix": [
+            "A) Ils sont pro-arythmogènes",
+            "B) La flecaïnide est un anti-arythmique de classe 1 inhibant l’entrée de sodium Na+.",
+            "C) Le raccourcissement et le sous-décalage du segment ST en cupule à l’électrocardiogramme est typique de l’imprégnation à l’amiodarone.",
+            "D) L’amiodarone est moins inotrope négatif que les autres anti-arythmiques.",
+            "E) Le sotalol ajoute à son action bêta-bloquante des propriétés anti-arythmiques par un allongement de la phase 3 du potentiel d'action."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi la liste suivante, quel(s) effet(s) indésirable(s) est(sont) imputables(s) à la prise de spironolactone ?:",
+          "choix": [
+            "A) Ototoxicité",
+            "B) Hypocalcémie",
+            "C) Hyperkaliémie",
+            "D) Gynécomastie",
+            "E) Insuffisance rénale aiguë"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les « -statines » laquelle ou lesquelles sont exactes:",
+          "choix": [
+            "A) Toutes peuvent déterminer des myalgies et/ou une rhabdomyolyse",
+            "B) La simvastatine est un substrat du CYP3A4",
+            "C) Elles augmentent toutes le risque de diabète",
+            "D) Elles augmentent le taux de HDL cholestérol",
+            "E) Leur effet préventif sur la morbidité cardiovasculaire est plus prononcé en prévention secondaire qu’en prévention primaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant le système nerveux autonome, laquelle (lesquelles) est (sont)\nexacte(s) ?:",
+          "choix": [
+            "A) La transmission de l’influx nerveux au niveau les ganglions du système sympathique dépend de l’acétylcholine et de récepteurs nicotiniques",
+            "B) Au niveau de l’œil, la mise en jeu du système sympathique détermine un myosis",
+            "C) La stimulation sympathique induit au niveau cardiaque des effets inotropes, dromotropes et bathmotropes positifs",
+            "D) Les récepteurs alpha1-adrénergiques sont localisés en position présynaptique",
+            "E) Les récepteurs bêta2-adrénergiques sont localisés en position présynaptique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les catécholamines, laquelle (lesquelles) est (sont) exacte(s) ?:",
+          "choix": [
+            "A) La noradrénaline est essentiellement un agoniste alpha-adrénergique",
+            "B) L’adrénaline est le médiateur du système nerveux orthosympathique",
+            "C) L’adrénaline exerce des effets agonistes bêta-adrénergiques à faibles doses",
+            "D) Les effets natriurétiques de la dopamine dépendent des récepteurs alpha-adrénergiques",
+            "E) L’isoprénaline est un antagoniste bêta-adrénergique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi la liste suivante, quel(s) effet(s) indésirable(s) est/sont secondaire(s) à la prise de furosémide ?:",
+          "choix": [
+            "A) Ototoxicité",
+            "B) Réactions d’hypersensibilité cutané",
+            "C) Déshydratation extracellulaire",
+            "D) Gynécomastie",
+            "E) Crise de goutte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

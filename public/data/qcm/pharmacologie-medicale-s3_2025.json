@@ -1,0 +1,482 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s3",
+  "annee": 2025,
+  "title": "Pharmacologie médicale - 2025",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les catécholamines, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) La noradrénaline est essentiellement un agoniste béta adrénergique",
+            "B) L’adrénaline est le médiateur post-synaptique orthosympathique",
+            "C) L’adrénaline exerce des effets béta-adrénergiques à faibles doses",
+            "D) La dopamine exerce des effets natriurétiques en stimulant les récepteurs alpha-adrénergiques",
+            "E) L’isoprénaline est un agoniste bêta-adrénergique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets suivants, lequel (ou lesquels) résulte(nt) de la stimulation des récepteurs bêta-adrénergiques ?",
+          "choix": [
+            "A) Contraction de la paroi vésicale",
+            "B) Vasodilatation",
+            "C) Hyperglycémie",
+            "D) Accélération de la conduction auriculo-ventriculaire",
+            "E) Mydriase"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) l(es)’effet(s) des médicaments parasympatholytiques ?",
+          "choix": [
+            "A) Diminution des sécrétions glandulaires",
+            "B) Augmentation de la fréquence cardiaque",
+            "C) Inhibition des effets du système orthosympathique",
+            "D) Contraction des sphincters digestifs",
+            "E) Stimulation de la motricité intestinale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel médicament est un agoniste des récepteurs muscariniques ?",
+          "choix": [
+            "A) Nicotine",
+            "B) Atropine",
+            "C) Adrénaline",
+            "D) Dobutamine",
+            "E) Pilocarpine"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les « -statines » laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Ce sont des inhibiteurs de l’HMG co-reductase, enzyme clé du métabolisme du cholestérol",
+            "B) Les statines sont des médicaments pourvoyeurs de diabète",
+            "C) Le risque d’effets indésirables musculaires est dose-dépendant",
+            "D) La rosuvastatine est métabolisée par le cytochrome P450 3A4.",
+            "E) L’association aux fibrates majore le risque d’effets indésirables hépatiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la pharmacocinétique et le bon usage des médicaments, quelle(s) est (sont) la (les) bonne(s) réponse(s) ?",
+          "choix": [
+            "A) La biodisponibilité pour une voie donnée quantifie la fraction de la dose de médicament administré qui atteint la circulation systémique et la vitesse à laquelle elle l’atteint",
+            "B) Les médicaments avec une faible biodisponibilité sont à risques de variabilité interindividuelle",
+            "C) L’administration d’une dose de charge permet d’arriver rapidement à une concentration plasmatique cible",
+            "D) Les médicaments à libération prolongée peuvent être écrasés",
+            "E) Les formes à libération prolongée améliorent obligatoirement l’observance du patient au traitement"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lequel ou lesquels est(sont) inhibiteurs du CYP 3A4 ?",
+          "choix": [
+            "A) les inhibiteurs de la recapture de la sérotonine",
+            "B) la carbamazépine",
+            "C) l’amiodarone",
+            "D) le vérapamil",
+            "E) les macrolides à l’exception de la spiramycine"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les inhibiteurs de l’enzyme de conversion (IEC), quelle(s) est (sont) la (les) bonne(s) réponse(s)?",
+          "choix": [
+            "A) Ils augmentent la concentration en bradykinines",
+            "B) Ils ont un effet natriurétiques",
+            "C) Ils sont imputés dans la survenue d’ angioedème",
+            "D) Ils sont indiqués dans l’insuffisance cardiaque car ils augmentent le débit cardiaque",
+            "E) Ils sont contre-indiqués pendant le 3ème trimestre de la grossesse."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant la spironolactone, quelle est celle qui est exacte ?",
+          "choix": [
+            "A) Elle est antagoniste du récepteur à l’angiotensine 2",
+            "B) Elle est agoniste du récepteur de l'aldostérone",
+            "C) Elle est imputée dans la survenue hypernatrémie",
+            "D) Elle est imputée dans la survenue hyperkaliémie",
+            "E) Elle ne détermine pas d’effets indésirables sexuels contrairement à l’éplérénone."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les anticalciques de la famille des dihydropyridines (type amlodipine), quelle(s) est (sont) la (les) bonne(s) réponse(s)?",
+          "choix": [
+            "A) Elles ont une action cardiaque prédominante.",
+            "B) Elles peuvent déterminer des tachycardies",
+            "C) Elles sont imputées dans la survenue d’œdèmes des membres inférieurs.",
+            "D) Elles sont imputées dans la survenue de céphalées",
+            "E) Elles sont contre-indiquées en cas d’hypertension artérielle."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, quelle(s) est (sont) la (les) bonne(s) réponse(s)?",
+          "choix": [
+            "A) La trinitrine est indiquée dans le traitement de la crise d’angor",
+            "B) La trinitrine est indiquée dans le traitement des céphalées chroniques",
+            "C) La biodisponibilité de la trinitrine per os est nulle.",
+            "D) Le sildénafil est un activateur de la guanylate cyclase.",
+            "E) L’association trinitrine + sildénafil est contre-indiquée."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la liste suivante, quel(s) effet(s) indésirable(s) est/sont imputable(s) à la prise de furosémide (diurétique de l’anse) ?",
+          "choix": [
+            "A) Ototoxicité",
+            "B) Hyponatrémie",
+            "C) Hyperkaliémie",
+            "D) Crise de goutte",
+            "E) Hypotension artérielle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’amiodarone, la ou les proposition(s) suivante(s) est (sont) vraie(s) :",
+          "choix": [
+            "A) Son mécanisme d’action principale est de bloquer les récepteurs alpha 1 adrénergiques.",
+            "B) Son mécanisme d’action principale est de bloquer les canaux sodiques voltages dépendant.",
+            "C) Contrairement aux autres antiarythmiques, elle n’est pas arythmogène",
+            "D) Elle présente une demi-vie prolongée, pouvant atteindre plusieurs semaines.",
+            "E) La fonction thyroïdienne doit être surveillée régulièrement lors d’une exposition prolongée"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13,
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la liste suivante, quel(s) effet(s) indésirable(s) est/sont imputable(s) à la prise d’empagliflozine (inhibiteur du SGLT2) ?",
+          "choix": [
+            "A) Infections des voies urinaires",
+            "B) Gangrène de fournier",
+            "C) Hypothyroïdie",
+            "D) Acidocétose euglycémique",
+            "E) Hyponatrémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la warfarine, parmi les affirmations suivantes laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) La warfarine est un anticoagulant direct",
+            "B) La warfarine est un anti-antiagrégant plaquettaire",
+            "C) La warfarine peut être utilisé chez la femme enceinte",
+            "D) La warfarine est administré par voie orale",
+            "E) La warfarine ne nécessite pas de monitoring de l’hémostase"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des antitussifs opiacés, parmi les affirmations suivantes laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Ils sont agonistes des récepteurs μ",
+            "B) Ils peuvent entrainer une dépression respiratoire",
+            "C) Ils n'entrainent pas de dépendance",
+            "D) Ils peuvent être prescrits chez la femme enceinte",
+            "E) Ils sont contre-indiqués chez l'enfant de moins de 12 ans."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297474771-cb5759d56a6bb",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Madame Bocoumédoc, âgée de 70 ans vous consulte 2 jours après son passage aux urgences. En effet, elle a été hospitalisée aux urgences pour une décompensation de son asthme. Le compte-rendu des urgences qu’elle vous apporte indique « Crise d’asthme aiguë d’origine médicamenteuse ».\nLa patiente a beaucoup d’antécédents médicaux : fibrillation auriculaire, une hypertension artérielle, un asthme. Elle a aussi depuis environ 2 semaines des douleurs articulaires importantes qu’elle traite avec un médicament de son ordonnance. Elle vous montre son ordonnance réalisée il y a 10 jours qui contient les médicaments suivants : apixaban, amiodarone, salbutamol, beclométhasone (corticoïde) ramipril, hydrochlorothiazide et ibuprofène (AINS). Parmi les médicaments de son ordonnance, lequel est le plus susceptible d’avoir favorisé cette crise d’asthme aiguë ?",
+          "choix": [
+            "A) Amiodarone",
+            "B) Salbutamol",
+            "C) Ramipril",
+            "D) Hydrochlorothizide",
+            "E) Ibuprofène"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) serait(ent) le(s) mécanisme(s) expliquant cet effet indésirable médicamenteux ?",
+          "choix": [
+            "A) Une interaction pharmacocinétique",
+            "B) Un effet antagoniste des récepteurs beta-adrénergique",
+            "C) Un effet parasympathomimétique",
+            "D) Une inhibition des prostaglandines PGE",
+            "E) Une augmentation de la concentration en bradykinines"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant cet effet indésirable, quelle(s) est (sont) la (les) bonne(s) réponse(s) ?.",
+          "choix": [
+            "A) C’est un effet indésirable attendu",
+            "B) C’est un effet indésirable « grave »",
+            "C) C’est un effet indésirable de type A",
+            "D) Vous devez déclarer l’effet indésirable à la Haute autorité de Santé (HAS)",
+            "E) Selon la méthode française d’imputabilité médicamenteuse, le critère chronologique n’intervient pas dans le calcul de l’imputabilité intrinsèque"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le compte-rendu des urgences indique aussi une insuffisance rénale aiguë fonctionnelle ?.Dans son ordonnance, quel(s) est(sont) le(les) médicament(s) qui de votre point de vue devrait(ent) être suspecté(s) par rapport à cette atteinte de la fonction rénale ?",
+          "choix": [
+            "A) Amiodarone",
+            "B) Salbutamol",
+            "C) Ramipril",
+            "D) Hydrochlorothizide",
+            "E) Ibuprofène"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "critiques": [
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous décidez de revoir cette ordonnance. Vous vous interrogez sur les effets indésirables potentiels des autres médicaments de l’ordonnance. Parmi les affirmations suivantes, quelles sont celles qui sont exactes ?",
+          "choix": [
+            "A) L’ibuprofène aggrave l’hypertension artérielle par une augmentation de la rétention hydrosodée et une vasoconstriction.",
+            "B) L’hydrochlorothiazide et le salbutamol sont hypokaliémiants.",
+            "C) L’association salbutamol + beclométhasone (corticoïdes) aggrave l’asthme au long cours.",
+            "D) Le salbutamol est à l’origine de tremblement des extrémités par son effet agoniste beta2 adrénergique",
+            "E) L’amiodarone est responsable de pneumopathie interstitielle."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente vous explique qu’avant la prise de l’ibuprofène et son passage aux urgences, elle présentait une toux sèche. Cette toux était apparu après sa consultation chez son cardiologue Parmi les médicaments suivants, lequel faut-t-il suspecté en priorité comme responsable de cette toux sèche ?",
+          "choix": [
+            "A) Apixaban",
+            "B) Amiodraone",
+            "C) Salbutamol",
+            "D) Ramipril",
+            "E) Hydrochlorothizide"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "critiques": [
+            "D"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

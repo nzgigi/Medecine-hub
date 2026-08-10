@@ -1,0 +1,371 @@
+{
+  "matiere": "Radiologie",
+  "slug": "radiologie-s10",
+  "annee": 2025,
+  "title": "Radiologie - 2025",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient de 32 ans vient aux urgences pour une douleur épigastrique intense sans fièvre. Il vous explique qu’il est très stressé en ce moment (changement de travail). Il dit avoir des douleurs épigastriques depuis quelques semaines qui se sont majorées brutalement il y a une heure. A l’examen clinique, le patient présente une contracture abdominale.\nQuelle est la réponse vraie ?",
+          "choix": [
+            "A) Un complément de biologie est nécessaire avant de réaliser une imagerie en coupe",
+            "B) Une échographie est nécessaire en urgence",
+            "C) Bien qu’il s’agisse d’une urgence chirurgicale, il est fortement recommandé de réaliser un scanner abdomino-pelvien avant chirurgie si l’état du patient le permet",
+            "D) Il s’agit probablement d’une crise d’anxiété"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous réalisez un scanner :",
+          "choix": [
+            "A) Le scanner est réalisé à un temps excrétoire",
+            "B) Le scanner est réalisé après injection de produit de contraste au temps artériel",
+            "C) Il existe une importante dilatation des voies excrétrices gauches",
+            "D) Le scanner est réalisé après injection de produit de contraste au temps portal",
+            "E) L’image présentée est en fenêtre abdominale"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q2.png?v=1786299767950"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes",
+          "choix": [
+            "A) La flèche 1 désigne le foie",
+            "B) La flèche 2 désigne l’aorte",
+            "C) La flèche 3 désigne le rein droit",
+            "D) La flèche 4 désigne la rate",
+            "E) La flèche 5 désigne la veine cave inférieure"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q3.png?v=1786299768255"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le signe sémiologique pouvant expliquer le tableau clinique présent sur ce scanner ?",
+          "choix": [],
+          "reponses": [
+            "pneumopéritoine",
+            "pneumoperitoine",
+            "pneumo-péritoine",
+            "pneumo péritoine",
+            "Pneumo-péritoine",
+            "tympanisme abdominal causé par le pneumopéritoine",
+            "pneumoperitoine a l'origine de la contrature abdominale tympanique de la percrussion (sur possible rupture d'ulcère)",
+            "Pneumopéritonite",
+            "tympanisme (pneumopéritoine)",
+            "contracture traduit le pneumopéritoine",
+            "pneumopéritoine (perforation d'organe creux)",
+            "contracture sur pneumopéritonite par perforation d'ulcère gastrique",
+            "pneumopéritoine sur perforations",
+            "épanchement aérique",
+            "pneumopéritoine sur perforation organe creux",
+            "pneumopéritoine sur rupture d'organe creux (ulcère gastrique)",
+            "Pneumopéritoine sur perforation",
+            "pneumoperitoine (perforation d’organe creux)",
+            "pneumopéritoine par perforation d'organe creux",
+            "pneumopéritoine avec rupture d‘organe creux",
+            "Pneumopéritoine par perforation gastrique",
+            "Contracture abdominale à cause du pneumopéritoine",
+            "tympanisme sur pneumoperitoine",
+            "contracture abdominale sur pneumopéritoine",
+            "pneumoperitoine sur perforation d'organe creux",
+            "pneumo-peritoine",
+            "pneumopetitoine",
+            "crepitant sous cutanes abdominaux pour pneumoperitoine",
+            "pneumopéritoine sur perforation d'organe creux",
+            "pneumopéritoine (rupture organe creux)",
+            "Pneumopéritoine sur perforation gastrique",
+            "Pneumopéritoine responsable de la contracture abdominale",
+            "contracture sur un pneumoperitoine",
+            "Péritonite par perforation d‘ulcére gastroduodénal",
+            "Pneumoperitoine (peritonite)"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q4.png?v=1786299768664"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le diagnostic le plus probable ?",
+          "choix": [
+            "A) Perforation digestive sur ulcère gastroduodénal",
+            "B) Sigmoïdite aigue perforée",
+            "C) Péritonite appendiculaire",
+            "D) Cholécystite aigue",
+            "E) Pancréatite aigue sévère"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299770228-1633b6c14d9328",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez en consultation une dame de 85 ans tombée la veille de sa hauteur sur les fesses à la maison de retraite. Elle présente des douleurs dorsales ayant motivé la réalisation de clichés radiographiques.\nParmi les propositions suivantes, sélectionnez les trois propositions vraies :",
+          "choix": [
+            "A) Il existe une fracture du plateau supérieur de L1",
+            "B) La radiographie confirme le caractère récent de la fracture du plateau supérieur de L1",
+            "C) Pour dater les fractures, on peut proposer la réalisation d'une IRM",
+            "D) Pour dater les fractures, on peut proposer la comparaison avec des clichés radiographiques antérieurs",
+            "E) Il n'est pas utile pour la prise en charge thérapeutique de dater la fracture",
+            "F) La topographie de la fracture est suspecte d’une fracture pathologique",
+            "G) Il existe un aspect de vertèbre borgne évocateur d'une ostéolyse tumorale",
+            "H) Il y a un recul important du mur postérieur de L1"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q6.png?v=1786299770502"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Une IRM est réalisée quelques jours plus tard devant le caractère très invalidant des douleurs lombaires imposant à la patiente un décubitus dorsal permanent. Sur l'IRM suivante, entourez l'anomalie responsable de la symptomatologie clinique",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 2,
+          "zones": [
+            {
+              "x": 0.4263392857142857,
+              "y": 0.18605840773809523,
+              "radius": 0.025,
+              "label": "ZAP"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q7.png?v=1786299770958"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant la persistance de la symptomatologie douloureuse, malgré un traitement conservateur adapté avec antalgiques et port de corset pendant plus de 3 semaines, la patiente reste allongée avec un risque de complications du décubitus. Quel traitement pouvez-vous proposer ?",
+          "choix": [],
+          "reponses": [
+            "Cimentoplastie",
+            "Vertébroplastie",
+            "cimentoplastie vertébrale",
+            "cimentoplastie vertebrale",
+            "chirurgie (cimentoplastie)",
+            "cémentoplastie",
+            "Cimentoplastie vertébrale",
+            "cimentoplastie de la vertèbre",
+            "prise en charge chirurgicale (cimentoplastie)",
+            "cementoplastie traitement chirurgical",
+            "Traitement chirurgical par cimentoplastie",
+            "anticoagulant pour éviter TVP/EP et ciment dans la vertébre pour soulager les douleurs",
+            "cimentoplastie chirurgicale",
+            "Vertébroplastie avec décompression",
+            "chirurgie avec cimentoplastie",
+            "traitement radio interventionnel (cimentoplastie par exemple)",
+            "cimentation",
+            "Cimentoplastie de L1",
+            "traitement chirurgical de consolidation (cimentoplastie)",
+            "vertebroplastie",
+            "Cimentoplastie, anticoagulation préventive, avis diet pour risque d’escarre, kinésithérapie",
+            "chirurgie de consolidation avec cimentoplastie",
+            "cimentoplastie de la vertebre",
+            "Chirurgie décompressive avec vertébroplastie",
+            "cimentoplastie de la lésion vertébrale",
+            "Cimentage de la vertèbre",
+            "prise en charge chirurgicale par cimentoplastie",
+            "intervention chiurgicale avec cimentoplastie vertebrale",
+            "cimentoplastie vertébre L1",
+            "Reconstruction de la vertébre par ciment (cimentoplastie)",
+            "cimentoplastie de L1"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299772041-add1a300cf919",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez aux urgences un jeune homme de 25 ans pour douleur thoracique et dyspnée. Quel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "pneumothorax complet droit non compressif",
+            "pneumothorax droit complet non compressif",
+            "Pneumothorax droit complet non compressif",
+            "pneumothorax complet non compressif droit",
+            "Pneumothorax complet peu compressif",
+            "pneumothorax non compressif droit",
+            "penumothorax droit complet non compressif",
+            "pneumothorax droit non compressif",
+            "pneumothorax complet droit légèrement compressif",
+            "pneumothorax total droit non compressif",
+            "pneumothorax droit complet avec rétractation pulmonaire hilaire",
+            "pneumothorax droit complet, sans compression médiastinale"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q9.png?v=1786299772434"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez aux urgences un enfant de 3 ans pour une dyspnée aigue alors qu’il jouait dans le jardin. Vous demandez une radiographie. La radiographie présentée est réalisée en expiration. Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) On observe une hyper clarté du poumon droit",
+            "B) On observe une condensation parenchymateuse systématisée du lobe inférieur gauche",
+            "C) Il s'agit d’un syndrome de distension thoracique",
+            "D) La radiographie est évocatrice d’un corps étranger non radio-opaque situé dans la bronche souche droite",
+            "E) On observe un corps étranger en projection de la trachée"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q10.png?v=1786299773084"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez en consultation une patiente de 42 ans qui présente depuis plus de 6 semaines des lombalgies avec radiculalgie irradiant sur la face latérale du pied droit Voici son IRM. Quelles sont les deux réponses vraies ?",
+          "choix": [
+            "A) L’image A est en pondération T1 avec saturation du signal de la graisse",
+            "B) L’image B est en pondération T2 avec saturation du signal de la graisse",
+            "C) L’image C est en pondération T2 avec saturation du signal de la graisse",
+            "D) On observe un œdème de la partie inférieur du corps vertébral de L4",
+            "E) On observe une hernie discale latéralisée à droite à l’étage L5S1"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q11.png?v=1786299773433"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez aux urgences une patiente de 58 ans pour un traumatisme du poignet après une chute. Voici les radiographies :\nQuelles sont les réponses justes ?",
+          "choix": [
+            "A) Il existe une fracture de l’extrémité inférieure de l’ulna",
+            "B) La fracture est extra-articulaire",
+            "C) On observe un déplacement ventral du fragment distal",
+            "D) On observe une horizontalisation de la ligne bistyloïdienne",
+            "E) Il existe une fracture du scaphoïde"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q12.png?v=1786299773760"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Vous recevez aux urgences une femme de 60 ans pour des douleurs lombaires intenses non calmées par les antalgiques de pallier 3. Elle n’a pas d’antécédent. Cliniquement, la douleur prédomine en fosse lombaire droite. La patiente n’a pas de syndrome inflammatoire clinique ou biologique. Entourez sur le scanner l’anomalie responsable de la symptomatologie clinique",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "zones": [
+            {
+              "x": 0.48735119047619047,
+              "y": 0.3572591145833333,
+              "radius": 0.02,
+              "label": "ZAP"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s10/2025/q13.png?v=1786299774086"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

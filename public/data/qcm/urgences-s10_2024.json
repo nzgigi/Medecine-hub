@@ -1,0 +1,365 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s10",
+  "annee": 2024,
+  "title": "Urgences - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin aux urgences et vous recevez un patient de 18 ans pour accident de la voie publique à vélo. Il ne portait pas de casque et a été renversé par une voiture à moyenne cinétique. Le patient présente un important traumatisme de la face. Vous suspectez une fracture de Lefort. Quels éléments de l’examen clinique vous oriente vers une fracture de type Lefort I ?",
+          "choix": [
+            "A) mobilité des zygomas",
+            "B) hypoesthésie dans le territoire du V2",
+            "C) mobilité de l'ensemble du plateau palatin et de l'arcade dentaire supérieure",
+            "D) ecchymose au fond du vestibule supérieur",
+            "E) hématome périorbitaire en lunettes"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant une dyspnée laryngée aigue sans fièvre chez un nourrisson de 4 mois, quel est le diagnostic à évoquer en première intention ?",
+          "choix": [],
+          "reponses": [
+            "angiome sous-glottique",
+            "Angiome sous glottique",
+            "Angiome sous glotique",
+            "Hémangiome sous glottique",
+            "Agiome sous glottique",
+            "Hemangiome sous glottique",
+            "Hémangiome sous-glottique"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez aux urgences une patiente de 68 ans, Mme R., adressée par le SAMU devant un état d’agitation sur la voie publique. Elle a été retrouvée en centre-ville, hurlant en pleine rue que ses voisins voudraient « la tuer », et que « tout ça n’est qu’un complot organisé par Vladimir Poutine ». A son arrivée aux urgences, la priorité est :",
+          "choix": [
+            "A) de caractériser le tableau clinique présenté par la patiente en recherchant des symptômes thymiques et psychotiques.",
+            "B) de réaliser une évaluation rapide des capacités cognitives de la patiente à la recherche d’une pathologie neurodégénérative.",
+            "C) d’apaiser l’état d’agitation de la patiente par une prise en charge pharmacologique.",
+            "D) de réaliser un examen clinique et un bilan paraclinique à la recherche d’une cause non psychiatrique.",
+            "E) d’appeler son entourage pour obtenir des renseignements sur ses antécédents médicaux et son état habituel."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’attaque de panique :",
+          "choix": [
+            "A) un épisode d’attaque de panique peut demeurer unique.",
+            "B) la physiopathologie de l’attaque de panique est bien connue, certaines manifestations physiques étant liées à l’hypocapnie secondaire à l’hyperventilation.",
+            "C) si les attaques de panique se répètent, alors on parle de trouble panique.",
+            "D) les facteurs de risque comprennent des facteurs génétiques, environnementaux et tempéramentaux.",
+            "E) la prise en charge d’attaques de panique répétées sans trouble psychiatrique associé repose sur la thérapie cognitivo- comportementale."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une patiente de 37 ans est amenée aux urgences pour une intoxication médicamenteuse volontaire. Elle a ingéré à 16h30 : 20g de paracétamol (20 comprimés de 1g) et 24 cp de lorazepam (benzodiazépine).\nElle pèse 49kg. Il est actuellement 20h30. Quelles sont les 2 affirmations justes ?",
+          "choix": [
+            "A) on pourrait utiliser comme antidote la N-acétylcystéine",
+            "B) il faut attendre 12h après la prise pour réaliser un dosage de la paracétamolémie et un bilan hépatique",
+            "C) on pourrait utiliser comme antidote la naloxone si la situation clinique le nécessite",
+            "D) elle pourrait présenter les symptômes suivants : somnolence et désaturation",
+            "E) la décontamination digestive par charbon activé semble utile."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300770403-5566462567f2d8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes de garde en SMUR et êtes déclenché pour un patient de 48 ans qui présente un trouble de la vigilance. Le patient a pour antécédent une cardiopathie ischémique avec pose de stent récente. Il a un tabagisme actif à 25 PA et consomme deux à trois bières par jour depuis 2 ans. Il a pour traitement une double anti-agrégation plaquettaire. Le patient se trouve sur son lieu de travail. Il a présenté à 14h une céphalée brutale alors qu’il était au repos. Ses collègues vous raconte qu’il s’est plaint d’une céphalée intense alors que « tout allait bien » et qu’il est devenu rapidement somnolent. A votre arrivée à 14h45, le patient est inconscient. Il a les yeux fermés ; à la stimulation douloureuse, le patient grogne et présente un mouvement d’extension des membres supérieurs. Les paramètres vitaux sont les suivants : TA 176/78, FC 98, Spo2 98%, T 36°7, HGT 0,97",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le score de Glasgow du patient ? (1 chiffre attendu)",
+          "choix": [],
+          "reponses": [
+            "5",
+            "5 Y1 V2 M2"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est votre principale hypothèse diagnostique ?",
+          "choix": [
+            "A) méningite bactérienne",
+            "B) hémorragie sous arachnoïdienne",
+            "C) AVC tronc cérébral",
+            "D) état de mal épileptique",
+            "E) intoxication au monoxyde de carbone"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous décidez d’intuber le patient devant le trouble de la vigilance. Vous suspectez une hémorragie sous arachnoïdienne. Vous accompagnez le patient jusqu’au déchocage. Quel est l’examen à réaliser en première intention pour confirmer le diagnostic ?",
+          "choix": [
+            "A) IRM cérébrale",
+            "B) tomodensitométrie cérébrale",
+            "C) ponction lombaire",
+            "D) électroencéphalogramme",
+            "E) doppler transcrânien"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l’étiologie la plus probable d’hémorragie sous arachnoïdienne chez ce patient ?",
+          "choix": [
+            "A) traumatique",
+            "B) rupture de malformation artério-veineuse",
+            "C) rupture d'anévrisme",
+            "D) péri-mésencéphalique",
+            "E) fistule durale intracrânienne"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient bénéficie d’une pose de dérivation ventriculaire externe et est hospitalisé en réanimation neurochirurgicale. Parmi les items suivants, quels sont les 3 qui font partie des ACSOS ?",
+          "choix": [
+            "A) Hypernatrémie",
+            "B) Hyperglycémie",
+            "C) Hyperprotidémie",
+            "D) Hypercapnie",
+            "E) hyperchlorémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les complications à court terme à redouter chez ce patient ?",
+          "choix": [
+            "A) hydrocéphalie",
+            "B) hypernatrémie",
+            "C) convulsions",
+            "D) vasospasme cérébral",
+            "E) oedème cérébral"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300772234-4a87a790af4648",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un garçon de 3 ans consulte son médecin traitant pour une rhinite évoluant depuis 2 jours. Lors de l’examen le médecin retrouve un pharynx érythémateux et une rhinite claire avec jetage postérieur. La température de l’enfant est à 38,7°C, sa fréquence cardiaque à 110 battements par minute (bpm). Le reste de l’examen est normal, l’enfant a joué dans la salle d’attente, et a mangé correctement sur les derniers repas. Le médecin pose un diagnostic de rhinopharyngite et préconise des lavages de nez et un traitement par paracétamol en cas de ﬁèvre. Alors que l’enfant et ses parents sortent du cabinet médical, le petit garçon fait un malaise avec rupture de contact, révulsion oculaire, trismus, hypertonie de l’ensemble du corps puis secousses des quatre membres.\nCinq minutes après le début du malaise l’enfant présente toujours une absence de réponse à la stimulation et des clonies des quatre membres.\nQuel traitement médicamenteux proposez-vous ? Donnez le nom de la molécule (DCI) et la voie d’administration pour cet enfant de 14kg.",
+          "choix": [],
+          "reponses": [
+            "valium intrarectal",
+            "diazepam intrarectal",
+            "Diazepam intra rectal",
+            "Diazépam intra-rectal",
+            "Diazepam intra-rectal",
+            "Diazépam intrarectal",
+            "Diazépam intra rectal",
+            "Diazépam en intra-rectal",
+            "Diazépam par voie rectale",
+            "Diazepam en intra rectal",
+            "Diazepam intra rectale",
+            "Diazepam intrarectale",
+            "diazépam intra-rectal",
+            "Diazépam par voie intra-rectale",
+            "Diazépam par voie intrarectale",
+            "Diazepam par voie intrarectale",
+            "Diazepam en intra-rectal",
+            "Diazépam voie rectale",
+            "Diazepam intra-rectale",
+            "Valium intra rectal",
+            "Diazepam par voie intra rectale",
+            "Diazépam en intra rectal 0,5 mg/kg (7mg)",
+            "Diazepam intre rectale",
+            "Vallium Intrarectale",
+            "Diazepam intrarectal 7,5 mg",
+            "Diazepam Intra rectal",
+            "Diazépam, voie intra-rectale",
+            "Diazépam par voie intra rectale",
+            "Diazepam 7mg en intrarectal",
+            "Diazepam 7 mg intrarectal",
+            "Diazepam par voie rectal",
+            "DIAZEPAM 7 mg en intra-rectal",
+            "Diazepam (Valium) intra-rectal",
+            "Diazepam voie intra rectale",
+            "Diazepam (benzodiazépine) par voie rectale",
+            "Diazepam intra-rectal (0,5 mg/kg)",
+            "Diazepam intra rectal 7mg",
+            "Diazepam 7mg intra rectal",
+            "Diazépam intra-rectale",
+            "diazépam intra rectal",
+            "Diazepam par voie rectale",
+            "Valium (Benzodiazepine) intra-rectal",
+            "Diazpam intra rectal 5mg",
+            "Valium, par voie intra-rectale",
+            "diazépam intrarectal",
+            "Diazépam voie intrarectale",
+            "Diazépam (Valum) intra-rectal",
+            "Diazepam intra rectal (benzodiazepine)",
+            "Diazepam intrarectal 7mg (0,5mg/kg)",
+            "Diazépam en intrarectale",
+            "Diazépam Intra-rectale",
+            "Diazepam (valium) par voie intrarectal",
+            "Diazepam intraRectale (valium ir)",
+            "Diazépam en intra rectal",
+            "DIAZEPAM INTRA RECTAL",
+            "Diazépam voie intra-rectale",
+            "Diazépam intra-rectal 0,5mg/kg",
+            "Diazépam intra-rectal 7mg",
+            "Diazépam 7 mg intrarectal",
+            "Diazepam , voie rectale"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La crise cède à 2 minutes de l’administration du traitement d’urgence. L’enfant est initialement évalué Glasgow 13, température 39,2°C, FC : 136bpm, pression artérielle 100/65 mmHg, saturation percutanée en oxygène 100%. L’examen ne retrouve pas de syndrome méningé. Quels sont les éléments de votre prise en charge en urgence ? (3 items)",
+          "choix": [
+            "A) mise en position latérale de sécurité",
+            "B) pose d’une voie veineuse périphérique",
+            "C) administration de paracétamol intrarectal",
+            "D) réalisation d'une ponction lombaire",
+            "E) surveillance au cabinet jusqu'à récupération complète puis retour possible à la maison"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 6 éléments qui vous orienteraient vers une crise fébrile complexe ?",
+          "choix": [
+            "A) antécédent de crise convulsive fébrile à 13 mois",
+            "B) antécédent de reflux gastro-œsophagien",
+            "C) antécédent de méningite herpétique à 3 mois de vie",
+            "D) calendrier vaccinal non à jour",
+            "E) persistance de mouvements cloniques pendant 20 minutes",
+            "F) nécessité d’administration d’un traitement antiépileptique d’urgence",
+            "G) phase post critique avec hypotonie et somnolence",
+            "H) déficit post critique du membre supérieur droit",
+            "I) acquisition de la marche à 19 mois",
+            "J) enfant associant deux mots à 21 mois",
+            "K) absence d’acquisition de la propreté nocturne à 3 ans",
+            "L) répétition d’un épisode similaire dans les 12 heures",
+            "M) antécédent de crises convulsives non fébriles",
+            "N) antécédent de convulsions fébriles chez le grand frère"
+          ],
+          "reponses": [
+            "C",
+            "E",
+            "H",
+            "I",
+            "L",
+            "M"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

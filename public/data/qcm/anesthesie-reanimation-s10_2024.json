@@ -1,0 +1,446 @@
+{
+  "matiere": "Anesthésie-réanimation",
+  "slug": "anesthesie-reanimation-s10",
+  "annee": 2024,
+  "title": "Anesthésie-réanimation - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes anesthésiste-réanimateur au déchocage de Purpan.\nVous prenez en charge un patient qui vient d’être ramené par le SAMU suite à un accident de la route. Il s’agit d’un homme de 30 ans, sans antécédent. Son véhicule a fait une sortie de route et est venu s’encastrer dans un platane. Il était conducteur du véhicule et il n’y a pas d’autre victime dans l’accident. La désincarcération a pris 30 minutes.\nVous réalisez un examen clinique.\nIl est conscient et agité. Il a les yeux spontanément ouverts. Il répond aux questions de manière confuse. Il mobilise à la demande ses 4 membres.\nLa tension artérielle est à 80/45 mmHg (PAM 55 mmHg). La fréquence cardiaque est à 110 bpm. L’hémoglobine capillaire est à 11g/dL.\nIl sature à 95% sous masque moyenne concentration à 6L/min d’oxygène. La fréquence respiratoire est à 25/min. L’auscultation retrouve des murmures vésiculaires bilatéraux.\nL’abdomen est douloureux et sa palpation révèle une défense généralisée.\nLe bassin semble stable. L’examen des quatre membres ne retrouve pas de déformation et les pouls périphériques sont bien perçus. Il n’y a pas d’extériorisation de sang.\nLa gazométrie artérielle à l’arrivée est la suivante : pH : 7,35, pO2 : 82 mmHg, pCO2 : 30 mmHg, Bicarbonates : 18 mmol/L, Hémoglobine : 13 g/dL, Glucose : 8 mmol/L, Acide lactique : 3 mmol/L.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les signes de gravités de ce patient (2 réponses valides) :",
+          "choix": [
+            "A) Le score de Glasgow de ce patient est à 10.",
+            "B) Ce patient présente une instabilité hémodynamique.",
+            "C) Ce patient ne présente pas de choc hémorragique car l’hémoglobine capillaire est normale.",
+            "D) Il n’y a pas d’hypoxémie car la pO2 est supérieure à 60 mmHg.",
+            "E) La douleur et la défense abdominale orientent vers un traumatisme abdominal."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez ce patient qui est instable sur le plan hémodynamique et respiratoire, quels examens d’imagerie allez-vous réaliser dès son arrivée ?",
+          "choix": [
+            "A) Une échographie FAST (Focused Assessement by Sonography for Trauma Patient)",
+            "B) Une échographie-doppler des axes vasculaires",
+            "C) Une radiographie du thorax",
+            "D) Une radiographie du bassin",
+            "E) Une radiographie des fémurs"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La radiographie du thorax de face est la suivante :\nLa radiographie du bassin de face est la suivante :\nLa FAST-échographie retrouve un important épanchement liquidien dans le cul de sac de Morrison et dans la loge spléno-rénale gauche.\nQuelle est l’hypothèse la plus probable pour expliquer l’instabilité hémodynamique ? (QRU)",
+          "choix": [
+            "A) Un pneumothorax compressif.",
+            "B) Une fracture du bassin.",
+            "C) Un hémo-péritoine.",
+            "D) Une dissection de l’isthme aortique.",
+            "E) Une acidose lactique."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/anesthesie-reanimation-s10/2024/q3.png?v=1786294152816",
+            "/images/qcm/anesthesie-reanimation-s10/2024/q3_1.png?v=1786294153117"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les grands axes de la prise en charge d’un choc hémorragique (7 réponses valides) :",
+          "choix": [
+            "A) Surveillance scopée.",
+            "B) Pas de transfusion avant le contrôle de la source de saignement.",
+            "C) Remplissage vasculaire par cristalloïdes.",
+            "D) Transfusion de culots globulaires et de plasmas frais congelés dans un ratio 1/1 ou 1/2",
+            "E) Transfusion de plaquettes dès la transfusion du premier culot.",
+            "F) Administration précoce de facteur VIIa recombinant.",
+            "G) Administration d’acide tranexamique",
+            "H) Lutte contre l’hypothermie",
+            "I) Correction d’une hypocalcémie",
+            "J) Bilans biologiques répétés avec numération sanguine et bilan d’hémostase incluant le dosage du fibrinogène"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Le bilan biologique d’entrée retrouve :\nSodium : 139 mmol/L ; Potassium : 3,7 mmol/L ; Chlore : 107 mmol/L ; Bicarbonates : 20 mmol/L ; Urée : 5,1 mmol/L ; Créatinémie : 110 µmol/L ; Calcium : 2,14 mmol/L ; CK totale : 1546 UI/L (Valeur normale < 190 UI/L) ; Myoglobine 2209 ng/mL (Valeur normale < 72) ; Ethanol < 0,1 g/L\nASAT : 205 UI/L ; ALAT : 173 UI/L; Bilirubine : 10,5 µmol/L\nTP : 66% ; TCA : 0,95 ; Fibrinogène : 2,4\nHémoglobine : 11,6 g/dL ; Plaquettes : 112 G/L ; Leucocytes : 12,4 G/L\nLe body-scanner retrouve au niveau cérébral des pétéchies intraparenchymateuses frontales bilatérales et au niveau abdominal une fracture du foie, une fracture de la rate avec hémopéritoine.\nPointez sur cette image l’hémopéritoine.",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "zones": [
+            {
+              "x": 0.2805059523809524,
+              "y": 0.31552269345238093,
+              "radius": 0.095,
+              "label": "Hémopéritoine"
+            },
+            {
+              "x": 0.7120535714285714,
+              "y": 0.37951078869047616,
+              "radius": 0.08,
+              "label": "Hémopéritoine"
+            }
+          ],
+          "images": [
+            "/images/qcm/anesthesie-reanimation-s10/2024/q5.png?v=1786294154189"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La prise en charge consiste en une splénectomie d’hémostase par laparotomie médiane.\nAprès le geste chirurgical, il est transféré en réanimation.\nIl est extubé le lendemain. Il reste hospitalisé pendant 2 semaines avec un contrôle scanographique à 5 jours du traumatisme de la fracture hépatique.\nConcernant la splénectomie, que doit recevoir le patient ?",
+          "choix": [
+            "A) Une éducation thérapeutique",
+            "B) Une antibioprophylaxie par pénicilline en l’absence d’allergie",
+            "C) Une vaccination contre la grippe",
+            "D) Une vaccination contre le pneumocoque",
+            "E) Une vaccination contre le méningocoque"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294155063-ddd7648e0de46",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes l'anesthésiste-réanimateur de garde au déchocage.\nLe service de chirurgie digestive vous contacte car un patient de 83 ans présente une détresse respiratoire avec des épisodes de malaises. Il a été opéré il y a 48h d’une éventration. L’intervention s’est déroulée sans complication. Il présente comme antécédent une HTA, ainsi qu’une cardiopathie hypertrophique avec une altération de la fraction d’éjection. Il est traité habituellement par ramipril, bisoprolol, amlopidine.\nDepuis 24h il présente une hypotension artérielle au lever, ainsi que des marbrures fluctuantes aux genoux. Le bilan du matin met en évident une insuffisance rénale aiguë ainsi qu’une hémoglobine à 13g/dl.\nLe soir à 18h, l’infirmière le découvre polypnéique (FR = 30) avec un balancement thoraco-abdominal dans sa chambre d’hospitalisation. Il ne répond pas à l’appel. Il présente des marbrures sur tout le corps. Sa tension artérielle est imprenable mais un pouls filant est perçu, sa fréquence cardiaque à 45 bpm. L'hémoglobine capillaire est 8 g/dl.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "En quoi consiste votre prise en charge immédiate (7 réponses valides) ?",
+          "choix": [
+            "A) Pose d’une voie centrale immédiate dans le service.",
+            "B) Si remplissage insuffisant, initiation de noradrénaline.",
+            "C) Début du massage cardiaque.",
+            "D) Début d’une oxygénothérapie au masque à haute concentration.",
+            "E) Pose d’une voie veineuse de bon calibre (14Ga) si possible.",
+            "F) Appel de votre confrère chirurgien digestif.",
+            "G) Transfusion dès que possible de culot globulaire O positif.",
+            "H) Réalisation au plus vite d’une TDM à la recherche d'un saignement avant de débuter la transfusion.",
+            "I) L’administration du calcium intraveineux dans ce contexte pourra éventuellement être utile.",
+            "J) La transfusion de plasma frais n’est pas nécessaire dans ce contexte.",
+            "K) Il n’est pas licite de ralentir une prise en charge au bloc opératoire par la pose d’un cathéter artériel.",
+            "L) La mise en place d’une ventilation non invasive semble cohérente dans le contexte.",
+            "M) Vous administrez de l’adrénaline.",
+            "N) Vous débutez une antibiothérapie en urgence."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E",
+            "F",
+            "G",
+            "I",
+            "K"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous en première intention ?",
+          "choix": [],
+          "reponses": [
+            "Choc hémorragique",
+            "Etat de choc hémorragique",
+            "Choc hemorragique",
+            "Etat de choc hemorragique",
+            "Choc hemoragique",
+            "Choc hémorragique post-opératoire",
+            "Choc hémorragique post opératoire",
+            "Choc hémoragique",
+            "Choc hemmoragique",
+            "Choc hémorragique sur saignement post opératoire",
+            "Choc hypovolémique sur hémorragie",
+            "Choc sur hemorragie post operatoire",
+            "Choc hypovolemique hemoragique",
+            "Choc hémorrhagique",
+            "Choc hémorragique (post-opératoire digestif)",
+            "Détresse repiratoire aiguë sur choc hémorragique",
+            "Choc hypovolémique hémorragique",
+            "Choc hypovolemique sur hemorragie post operatoire",
+            "Choc hémorragique secondaire à une complication de son eventration",
+            "Choc hémorragique (secondaire à l’opération)",
+            "Choc hémoragique post-opératoire",
+            "Choc hémorragique sur site opératoire",
+            "Choc hemorragique sur saignement digestif",
+            "État de choc hypovolémique par hémorragie",
+            "Choc hémorragique sur hémorragie digestive",
+            "Choc hemorragique suite a complication de sa chirurgie",
+            "Etat de choc hypovolémique (hémorragique)",
+            "Choc hémorragique sur saignement post operatoire",
+            "Choc hémorragique post operatoire",
+            "Choc hypovolemique hemorragie",
+            "Choc hémorragique (désunion des sutures en post-opératoire)",
+            "Choc hemorragique post-operatoire",
+            "Choc hemorragique post chirurgie",
+            "Choc hémmoragique",
+            "Choc hémorragique post-chirurgie",
+            "Choc hemorragique sur complication chirurgicale",
+            "Choc hémorragique sur saignement intra-abdominal",
+            "Choc hémorragique postopératoire",
+            "Choc hémorragique sur hématome de paroie",
+            "Choc hypovolemique sur hemorragie",
+            "Choc hypovolemique hemorragique",
+            "Choc hemorragique post opératoire",
+            "Choc hemorragique post operatoire",
+            "Choc hemmoragique sur hematome de la paroie",
+            "Choc hemoragique post chirugical",
+            "Choc hemorragique contexte post operatoire"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Votre prise en charge permet d’obtenir une stabilisation relative de la situation. Le patient récupère mais reste comateux. La pression artérielle est à 95/55mmHg avec 4mg/h de noradrénaline. Il a reçu 4 CGR et 4 PFC. Il est nécessaire de garder un remplissage actif pour maintenir la situation.\nVous suspectez une hémorragie venant de la paroi abdominale.\nVous conduisez le patient au bloc opératoire sans exploration supplémentaire. Lors du transfert du lit vers la table opératoire, la respiration du patient devient stertoreuse, anarchique, la pression artérielle est de nouveau imprenable, la saturation en oxygène affiche « absence de signal ». Le moniteur cardiaque affiche quelques QRS épars.\nQuel est votre principale suspicion diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Arrêt cardiaque intra-hospitalier",
+            "Arrêt cardiaque",
+            "Arrêt cardio-respiratoire",
+            "Arret cardio respiratoire",
+            "Arret cardio-respiratoire",
+            "Arrêt cardiorespiratoire",
+            "Arrêt cardio respiratoire",
+            "Arret cardiorespiratoire",
+            "Arret cardiaque",
+            "ACR",
+            "Arrêt cardio-circulatoire",
+            "Arret cardio circulatoire",
+            "Arrêt Cardio Respiratoire",
+            "Arrêt cardiovasculaire",
+            "Arrêt cardio circulatoire",
+            "Arrêt cardio-respiratoire par choc hypovolémique",
+            "Arret cardiocirculatoire",
+            "Arrêt cardio-pulmonaire",
+            "Arrêt cardiocirculatoire (ACR)",
+            "ARret cardio respiratoire",
+            "Arrêt cardio-respiratoire asystolique",
+            "Acr",
+            "Arrêt cardio-respiratoire avec dissociation électro-mécanique",
+            "arret cardiorespiratoire",
+            "Arrêt cardio-respiratoire (ACR)",
+            "Arret cardiaque respiratoire",
+            "Arrêt cardio-respiratoire avec rythme non chocable (dissociation électro-mécanique)",
+            "Arret cardiorespiratoire ACR",
+            "Arret cardiovasculaire",
+            "arret cardiocirculatoire",
+            "Arret cardio-respiratoire (ACR)",
+            "Arret cardio-vasculaire",
+            "Arrêt cardiocirculatoire",
+            "Arrêt cardio respiratoire avec dissociation électro-mécanique",
+            "Arret cardio-circulatoire"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294159854-442495a3502c48",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le choc septique :",
+          "choix": [
+            "A) Le purpura fulminans est sévère seulement lorsqu'il est associé à un état de choc.",
+            "B) Chez l'adulte, les infections pulmonaires sont le plus souvent à l'origine d'état de choc.",
+            "C) Une douleur anormale du site opératoire peut faire évoquer une infection de site opératoire.",
+            "D) Une dermo-hypodermite en état de choc nécessite une prise en charge chirurgicale."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anesthésiques locaux, donner les réponses vraies.",
+          "choix": [
+            "A) Il n’y a pas de dose maximale pour la lidocaïne",
+            "B) Ils empêchent la conduction nerveuse en bloquant les canaux sodiques directement sur la fibre nerveuse",
+            "C) L’anesthésie loco-régionale est représentée par les blocs nerveux périphériques et centraux",
+            "D) Tous les anesthésiques locaux ont une structure moléculaire commune et un mode d’action semblable",
+            "E) L’injection lente et fractionnée permet de se prémunir de leurs effets indésirables"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle anomalie identifiez-vous sur cette radiographie thoracique de face ?",
+          "choix": [
+            "A) Un syndrome interstitiel bilatéral",
+            "B) Un pneumothorax droit non complet",
+            "C) Un pneumothorax droit complet non compressif",
+            "D) Un pneumothorax droit complet compressif",
+            "E) Une déviation de la trachée"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/anesthesie-reanimation-s10/2024/q12.png?v=1786294160280"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Dans le cadre d'une embolie pulmonaire grave suspectée, quel examen permet d'affirmer le diagnostic au chevet du patient ?",
+          "choix": [],
+          "reponses": [
+            "Echographie cardiaque",
+            "Echocardiographie",
+            "Echographie transthoracique",
+            "Echographie trans thoracique",
+            "ETT",
+            "Echographie trans-thoracique",
+            "Echocardiographie transthoracique",
+            "Échographie trans-thoracique",
+            "Echographie cardiaque trans thoracique",
+            "Echographie cardiaque transthoracique",
+            "Échographie cardiaque",
+            "Echographie cardiaque trans-thoracique",
+            "Échographie transthoracique",
+            "Échocardiographie",
+            "Échocardiographie transthoracique",
+            "échographie cardiaque",
+            "Échographie trans thoracique",
+            "Echographie tranthoracique",
+            "Ecographie cardiaque (droite)",
+            "Echocardiographie ETT",
+            "Echographie transthroracique",
+            "Ett",
+            "Echocardiographie trans thoracique",
+            "Echographie trans thoracique ETT",
+            "Échographie cardiaque trans-thoracique",
+            "Échographie cardiaque trans thoracique",
+            "Échographie cardiaque (ventricule droit)",
+            "Echographie cardiaque trans thoracique (ETT)",
+            "Echo-coeur",
+            "Echodoppler thoracique",
+            "Echographie thoracique",
+            "Echocardiographie trans-thoracique",
+            "Échographie cardiaque transthoracique",
+            "Échographie thoracique",
+            "Echographie Trans-Thoracique",
+            "ETT (mise en evidence d'un coeur pulmonaire)",
+            "échographie transthoracique",
+            "Échocardiographie trans-thoracique",
+            "Echograchie cardiaque"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant l’évaluation de la douleur, donner les réponses vraies (2 réponses valides)",
+          "choix": [
+            "A) Les échelles d’auto-évaluation (EVA : échelle visuelle analogique ; EN : échelle numérique) ne sont pas validées pour évaluer les douleurs aigues",
+            "B) Les échelles d’auto-évaluation (EVA : échelle visuelle analogique ; EN : échelle numérique) permettent d’évaluer l’intensité de la douleur",
+            "C) Une douleur évaluée par EN (échelle numérique) à 8/10 est considérée comme une douleur d’une intensité sévère",
+            "D) Une douleur évaluée par EN (échelle numérique) à 6/10 est considérée comme une douleur d’une intensité légère",
+            "E) Les échelles d’auto-évaluation (EVA : échelle visuelle analogique ; EN : échelle numérique) seules sont adaptées pour évaluer les douleurs chroniques"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

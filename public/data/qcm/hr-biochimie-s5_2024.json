@@ -1,0 +1,286 @@
+{
+  "matiere": "Hormonologie et reproduction – Biochimie",
+  "slug": "hr-biochimie-s5",
+  "annee": 2024,
+  "title": "Hormonologie et reproduction – Biochimie - 2024",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le métabolisme des bases puriques et pyrimidiques",
+          "choix": [
+            "A) Les nucléotides puriques sont caractérisés par une biosynthèse complexe régulée par la pyruvate deshydrogénase",
+            "B) Un excès de catabolisme des bases puriques est une cause d’hyperuricémie et de goutte",
+            "C) Certaines hyperuricémies peuvent être secondaires à une suractivité de la PRPP synthétase",
+            "D) L'allopurinol est un traitement de la goutte qui diminue la formation d'acide urique en activant la xanthine oxydase",
+            "E) La formation de lithiase urique peut être limitée par l'ingestion prolongée de d'eau bicarbonatée"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le métabolisme de l’hème",
+          "choix": [
+            "A) La synthèse de l’hème débute dans la mitochondrie par l’association de glycine et de pyruvate",
+            "B) L’activité de l’enzyme ALA synthase hépatique est retro-inhibée par la présence d’hème",
+            "C) L’hème est constitutif des chromoprotéines",
+            "D) Les porphyries sont des affections héréditaires secondaires à des déficits de certaines enzymes du métabolisme de l'hème",
+            "E) En présence d’un ictère à bilirubine conjuguée, on observe des selles décolorées"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Calprotectine fécale et MICI",
+          "choix": [
+            "A) Devant une symptomatologie de troubles digestifs chroniques et une calprotectine fécale < 50 µg/g de selle, vous excluez une origine inflammatoire",
+            "B) Chez un patient atteint de MICI non symptomatique et bien équilibrée par son traitement, un taux de calprotectine fécale à 80 µg/g de selle vous fera redouter une poussée prochaine de sa maladie",
+            "C) Chez un patient atteint de MICI non symptomatique et bien équilibrée par son traitement, un taux de calprotectine fécale à 300 µg/g de selle devra vous conduire à intensifier le traitement",
+            "D) Chez un patient atteint de MICI se plaignant de la réapparition de symptômes digestifs chroniques et ayant un taux de calprotectine fécale à 30 µg/g de selle, vous demandez un contrôle de la calprotectine fécale à distance sur un nouveau prélèvement",
+            "E) Chez un patient atteint de MICI se plaignant de la réapparition de symptômes digestifs chroniques et ayant un taux de calprotectine fécale à 600 µg/g de selle, vous programmez une coloscopie diagnostique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre d’un bilan de diarrhée chronique, vous serez orienté vers une pullulation bactérienne de l’intestin grêle si",
+          "choix": [
+            "A) Vous observé un déficit en vitamine B12",
+            "B) Vous observez une stéatorrhée",
+            "C) Vous observez une ascension de l’hydrogène dans l’air expiré dès 30 minutes après ingestion de glucose",
+            "D) Vous observez une ascension de méthane dans l’air expiré à partir de 120 minutes après ingestion de fructose",
+            "E) Vous observez une diminution du taux d’élastase fécale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors d’une pancréatite aigüe les anomalies biologiques suivantes pourront être retrouvées",
+          "choix": [
+            "A) Augmentation franche de la lipasémie dans tous les cas",
+            "B) Augmentation de la glycémie reflétant la nécrose du pancréas endocrine",
+            "C) Augmentation de la CRP, critère pronostique péjoratif si supérieure à 150 mg/L à 48h",
+            "D) Augmentation de la calcémie liée à une diminution de la magnésémie par hyper catabolisme",
+            "E) Elévation des marqueurs de cholestase en cas d’origine biliaire de la pancréatite aigüe"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ictères et bilirubine",
+          "choix": [
+            "A) Devant une augmentation de bilirubine libre, une hémolyse intravasculaire sera recherchée en complétant le bilan hépatique par une NFS + réticulocytes, ainsi qu’avec le dosage de l’haptoglobine et la LDH",
+            "B) Dans le syndrome de Gilbert lié à la diminution de l’activité glucuronyl transférase hépatique, l’augmentation de la bilirubine conjuguée s’accompagne d’une augmentation de la GGT et de la PAL",
+            "C) L’excrétion de la bilirubine conjuguée vers les voies biliaires se fait par l’intermédiaire d’un récepteur selon un processus saturable",
+            "D) La présence d’un obstacle sur les voies biliaires peut être responsable d‘un ictère à bilirubine libre",
+            "E) Dans l’intestin la bilirubine conjuguée subit des transformations conduisant à la formation de composés qui colorent les selles"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 51 ans consulte pour une asthénie et des arthropathies. Le bilan martial montre une sidérémie à 45 µmol/L (N: 14 - 28 μmol/L), une transferrinémie à 25 µmol/L (N: 25 - 35 µmol/L) et une ferritine à 950 μg/L (N:\n50 - 350 μg/L). La numération globulaire montre une hémoglobine à 15,3 g/dL (N: 13,0 – 17,5 g/dL) avec un volume globulaire moyen et une teneur corpusculaire moyenne en hémoglobine normaux. Quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Le coefficient de saturation de la transferrine est de 50%",
+            "B) Le bilan évoque une surcharge en fer par cytolyse hépatique",
+            "C) Le bilan évoque une anémie hémolytique",
+            "D) Chez ce patient, la surcharge en fer est associée à une hyper-absorption digestive du fer et une augmentation de son relargage des macrophages",
+            "E) Une homozygotie 282Y (gène HFE) confirme votre diagnostic"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du métabolisme du fer, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) La majorité du fer de l’organisme provient du recyclage du fer de l’hémoglobine des globules rouges",
+            "B) Dans la circulation sanguine, le fer est transporté par l’hémosidérine",
+            "C) L’hepcidine est augmentée au cours de l’inflammation",
+            "D) Dans des conditions physiologiques, la transferrine est saturée à 60%",
+            "E) La ferritine est un bon reflet des réserves en fer de l’organisme"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296548142-911025b8a92f8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un homme 86 ans, 1,80 m 62 Kg, présente des fourmillements dans les extrémités. A l’exploration clinique il n’est atteint d’aucune malformation osseuse.\nOn réalise un bilan biologique qui montre :\nCalcium 2,12 mM",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "1/ Au vu de ce bilan, parmi les propositions ci-dessous, indiquez le(s) diagnostic(s) étiologique(s) le(s) plus probable(s):",
+          "choix": [
+            "A) Une hypoparathyroïdie après thyroïdectomie",
+            "B) Une hyperparathyroïdie primaire",
+            "C) Un rachitisme par carence en vitamine D",
+            "D) Une ostéomalacie par carence en vitamine D",
+            "E) Une intoxication à la vitamine D"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "2/ Pour compléter le diagnostic biologique vous pourriez prescrire :",
+          "choix": [
+            "A) Le dosage de la 25 OH vitamine D totale",
+            "B) Le dosage de la 1-25 OH vitamine D totale",
+            "C) Le dosage de la 24-25 OH vitamine D totale",
+            "D) Le dosage du calcium ionisé",
+            "E) Le dosage de la PTH"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "3/ Le laboratoire vous envoie les résultats de la PTH 2e génération pour ce patient :\nPTH 120 ng/mL (VN : 15-65 ng/mL)\nAu vu de ce complément de bilan indiquez le(s) diagnostic(s) étiologique(s) le(s) plus probable(s):",
+          "choix": [
+            "A) Une insuffisance rénale chronique",
+            "B) Une hyperparathyroïdie primaire",
+            "C) Une ostéomalacie par carence en vitamine D",
+            "D) Une intoxication à la vitamine D",
+            "E) Ce dosage est inapproprié et il n’aurait pas dû être demandé"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "4/ Parmi les propositions suivantes concernant le récepteur à la parathormone (PTHR1), indiquez laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Son ligand peut être la PTH 1-84",
+            "B) Son ligand peut être la PTH 7-84",
+            "C) Son ligand peut être la PTHrp",
+            "D) Son ligand peut être le Ca2+",
+            "E) C’est un récepteur appartenant à la famille des récepteurs à tyrosine kinase"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "5/ Parmi les propositions suivantes concernant le remodelage osseux, indiquez laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Lors de la phase de résorption osseuse, l’hormone parathyroïdienne (PTH), est un facteur ostéo-résorbant",
+            "B) Les facteurs ostéo-résorbants agissent directement sur les ostéoclastes en inhibant leur différenciation",
+            "C) Lors de la phase d’initiation du remodelage osseux, les cellules bordantes se rétractent pour libérer l’accès aux ostéoclastes",
+            "D) Lors de la phase de résorption osseuse, les ostéoblastes stoppent leur sécrétion de facteurs paracrines",
+            "E) Lors de la phase de formation osseuse, les ostéoblastes sécrètent le P1NP qui est un marqueur sérique utilisé dans le suivi des traitements inhibiteurs de la résorption osseuse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

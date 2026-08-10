@@ -1,0 +1,653 @@
+{
+  "matiere": "Apprentissage de l'exercice médical",
+  "slug": "apprentissage-exercice-medical-s8",
+  "annee": 2023,
+  "title": "Apprentissage de l'exercice médical - 2023",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez réalisé une étude cas témoins pour étudier l’association en tabagisme et cancer du poumon dont voici les résultats.\nParmi les réponses suivantes, laquelle correspond à l’Odds ratio (rapport des côtes) mesurant l’association entre « être fumeur » et « avoir un cancer du poumon » ?",
+          "choix": [
+            "A) (80/200) / (50/200)",
+            "B) (80x150) / (50x120)",
+            "C) (80/130) / (120/150)",
+            "D) (80/200) – (50/200)",
+            "E) [(80/200) – (50/200)] / (50/200)"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "Dans une étude cas-témoins, on calculera un odds-ratio. Dans cette population, on a 130 malades (M+) et 270 non-malades (M-). On a également 200 exposés (E+) et 200 non-exposés (E-).\nA) Faux, dans une étude de cohorte, cela correspondrait à un risque relatif :\nB) Vrai, c'est le calcul de l'odds ratio :\nC) Faux, cette formule est un distracteur, elle ne correspond pas à une mesure d'association existante\nD) Faux, dans une étude de cohorte, cela correspondrait à une différence de risque (ou augmentation absolue du risque) :\nE) Faux, dans une étude de cohorte, cela correspondrait à une différence relative de risque (ou augmentation relative du risque) :",
+          "order": 1,
+          "images": [
+            "/images/qcm/apprentissage-exercice-medical-s8/2023/q1.png?v=1786294195188"
+          ],
+          "correctionImage": "/images/qcm/apprentissage-exercice-medical-s8/2023/q1_correction.png?v=1786294195555"
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos des biais quels sont les deux propositions vraies",
+          "choix": [
+            "A) Le biais de mémorisation est un biais de sélection",
+            "B) Les biais de classement peuvent être pris en compte par ajustement",
+            "C) L’appariement permet de diminuer les biais de confusion",
+            "D) Le biais du travailleur sain est un biais de sélection",
+            "E) Augmenter la puissance de l’étude permet de diminuer les biais de confusion"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "A Faux. Il s'agit d'un bais de classement\nB Faux. Seul les bais de confusion peuvent être pris en compte par ajustement\nE Faux. Augmenter la puissance augmente la précision mais ne joue pas sur le biais",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Dans une étude de cohorte dont l’objectif est d’évaluer l’effet de l’exposition au plomb in utero sur les performances scolaires des enfants à l’âge 10 ans, les auteurs montrent que la position sociale des parents (niveau d’étude, et catégorie socio-professionnelle) est associée au niveau d’exposition au plomb in utero. Par ailleurs, on s’attend d’après la littérature à ce que la position sociale des parents soit également associée au niveau scolaire des enfants à 10 ans. Quel type de biais peut provoquer la position sociale des parents lorsqu’on estime la force d’association entre le niveau d’exposition au plomb in utero et les performances scolaires à 10 ans ? (réponse en 3 mots maximum)",
+          "choix": [],
+          "reponses": [
+            "confusion",
+            "biais de confusion",
+            "biais confusion",
+            "bias de confusion",
+            "biai de confusion",
+            "biais de confusions"
+          ],
+          "correctionExplanation": "Un facteur pré-existant qui est à la fois associé à l'exposition et au critère de jugement peut provoquer un biais de confusion.",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de l’évaluation en double ou en simple aveugle dans les essais contrôlés randomisés, indiquez quelles sont les trois propositions vraies.",
+          "choix": [
+            "A) L’absence d’évaluation en double aveugle est généralement acceptable si le bras expérimental concerne une molécule administrée per os.",
+            "B) L’absence d’évaluation en double aveugle est acceptable si le bras expérimental est un traitement chirurgical.",
+            "C) Dans le cadre de l’évaluation d’un dispositif médical agissant par stimulations électriques, il est parfois possible de réaliser une évaluation en double aveugle en le comparant à une intervention « SHAM » (qui simule l’intervention expérimentale, mais sans effet physiologique).",
+            "D) Il est possible de faire une évaluation en double aveugle quelle que soit la nature de l’intervention évaluée.",
+            "E) S’il n’est pas possible de réaliser une intervention en double aveugle, il est préférable d’organiser une évaluation du critère de jugement par un évaluateur en aveugle (qui n’a pas participé à l’intervention initiale et ne sait pas dans quels bras se trouve les patients)."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "A) Faux, concernant une molécule administrée per os, on peut généralement faire un essai contre placebo en double aveugle.\nB) Vrai, dans ce cas, l'aveugle n'est pas possible\nC) Vrai, cette parfois possible de faire une intervention SHAM pour certaines interventions non-médicamenteuse (comme la stimulation électrique)\nD) Faux, on ne peut pas toujours mettre en place une évaluation en double aveugle (pour des interventions reposant sur la chirurgie ou impliquant des dispositifs médicaux par exemple)\nE) Vrai, c'est utile dans ce cas d'organiser une évaluation en aveugle du critère de jugement",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment se nomment les établissements de santé privés à but non lucratif, remplissant des missions de service public ?",
+          "choix": [],
+          "reponses": [
+            "ESPIC",
+            "Etablissements de Santé Privés d’Intérêt Collectif",
+            "etablissement de santé privé d’Intérêt collectif",
+            "espic",
+            "établissements de santé privés d'intérêt collectif",
+            "Espic",
+            "Erablissements privés d'intérêt collectif",
+            "Etablissements de Santé Privés d'Interêt Collectif",
+            "Etablissement de santé privé d‘intérêt collectif",
+            "ESPIC (établissements de santé privés d’intérêt collectif)",
+            "ESPIC ( Etablissement de santé privé d'interet collectif)",
+            "établissement privé d'intérêt collectif",
+            "Établissements de santé privés d'intérêts collectifs",
+            "etablissement de sante privé d’interet collectif",
+            "établissements de santé privés d'interêt collectif",
+            "les établissements de santé privés d'intêret collectif (ESPIC)",
+            "etablissement de sante prive d'interet collectif",
+            "établissement de santé privé d'intérêt collectif",
+            "ESPIC (établissement de santé privé à interet collectif)",
+            "ESPIC (etablissements privés d'interet collectif)",
+            "Etablissement de santé privé d’intérêt collectif",
+            "Établissement de santé privé d'intérêt collectif (ESPIC)",
+            "établissement de santé privé d'intérêt collectif (ESPIC)",
+            "Établissement privé de santé (EPS)",
+            "établissements privés d'intérêt collectif",
+            "Établissement de santé privé d'intérêt collectif",
+            "Etablissements de Santé Privés d’Intéret Collectif (ESPIC)",
+            "Etablissement de Santé Privé d‘Interêt Collectif ESPIC"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "En tant que médecin généraliste, vous désirez requérir une téléexpertise auprès d’un confrère dermatologue concernant une lésion de l’avant-bras suspecte chez un de vos patient. Citez les trois réponses justes.",
+          "choix": [
+            "A) Vous devez obtenir l’accord du patient pour réaliser cet acte.",
+            "B) Le patient doit obligatoirement être présent lors de la téléexpertise.",
+            "C) Le généraliste ne sera pas rémunéré par l’assurance maladie pour cet acte.",
+            "D) Le dermatologue sera rémunéré pour cet acte par l’assurance maladie.",
+            "E) Un compte rendu de téléexpertise est obligatoirement rédigé par le médecin dermatologue."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Le patient peut être présent lors d’une TLE mais ce n’est en rien une obligation (B).\nLe médecin requérant (généraliste) et le requis (dermatologue) sont rémunérés (C).",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du conseil national de l’ordre des médecins, quelle est (quelles sont) la (les) réponses exactes :",
+          "choix": [
+            "A) Cette instance est responsable de la rédaction du code du travail",
+            "B) La loi a confié à l’Ordre le rôle de veiller à la probité du corps médical",
+            "C) Le conseil de l’ordre des médecins peut jouer un rôle de conseil juridique en cas de conflit avec un patient",
+            "D) L’ordre des médecins assure un rôle d’instance disciplinaire",
+            "E) C’est l’ordre des médecins qui tient à jour le tableau des médecins autorisés à exercer"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "1. Faux, l’ordre des médecins est chargé de la rédaction du code de déontologie.\n2. Vrai, il s’agit bien de l’une des missions de l’ordre.\n3. Vrai, il s’agit bien de l’une des missions de l’ordre.\n4. Vrai, l’Ordre assure un rôle d’instance disciplinaire pour les médecins qui ne respecteraient pas les principes de la déontologie.\n5. Vrai, vous devez demander votre inscription auprès du conseil départemental de l’Ordre des médecins du lieu où vous envisagez d’exercer",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment se nomme le dispositif de dispense de l’avance des frais par l’assuré ?",
+          "choix": [],
+          "reponses": [
+            "Tiers Payant",
+            "1/3 payant",
+            "tiers payant",
+            "Tiers payant",
+            "tier payant",
+            "tiers-payant",
+            "le tiers payant",
+            "Tiers-payant",
+            "Le tiers payant",
+            "tiaire payant",
+            "dispositif tiers-payant",
+            "le tier payant",
+            "Tier payant"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de la complémentaire santé solidaire (CSS), citer ses 2 conditions d’accès :",
+          "choix": [
+            "A) Résider sur le territoire français depuis plus de 6 mois",
+            "B) Etre affilié au régime de base de l’Assurance Maladie",
+            "C) Etre sans emploi",
+            "D) Avoir des ressources inférieures à un montant fixé"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Correction : Il y a 2 conditions d’accès à la CSS :\nEtre bénéficiaire d’une prise en charge de ses frais de santé par l’Assurance Maladie (c’est-à-dire être affilié au régime de base de l’Assurance Maladie, qui rembourse la part obligatoire des frais de santé)\nAvoir des ressources inférieures à un montant fixé (qui dépend de la composition du foyer)\nLe fait d’être sans emploi n’est pas un critère. Tout dépend du niveau de revenu.\nConcernant le critère de résidence, il est pris en compte pour l’affiliation au régime de base de l’Assurance Maladie. Il faut résider en France de manière stable et régulière, mais il n’y a pas de durée minimale fixée.",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Dans la maîtrise de la transmission croisée de microorganismes dans les lieux de soins, les précautions standard sont essentielles. Parmi les mesures suivantes 3 font partie des précautions standard, lesquelles ?",
+          "choix": [
+            "A) Stérilisation des dispositifs médicaux réutilisables",
+            "B) Port de masque chirurgical par toute personne présentant une toux fébrile",
+            "C) Antibioprophylaxie péri-opératoire conforme au protocole du service pour la patient qui va être opéré",
+            "D) Hygiène des mains dans les 5 grandes circonstances définies par l’OMS",
+            "E) Désinfection régulière du petit matériel médical d’examen clinique (stéthoscope, marteau à réflexes, téléphone DECT…) par essuyage avec un détergent-désinfectant"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de la prévention des infections liées aux cathéters vasculaires périphériques, quelle est (quelles sont) la/ les propositions exactes (1 ou plusieurs justes)",
+          "choix": [
+            "A) Protection du point de pénétration par un pansement stérile semi-perméable transparent",
+            "B) Respect des bonnes indications, en l’absence d’alternative",
+            "C) Changement du cathéter tous les 5 jours",
+            "D) Désinfection de la peau saine au site d’insertion avec un antiseptique aqueux",
+            "E) Surveillance du point de ponction au moins une fois par jour"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Réponse : A, B, E\nRéponse C fausse : il n’y a plus de recommandations pour un changement à un rythme défini et régulier des cathéters y compris périphériques\nRéponse D fausse : sur peau saine, t avant insertion d’un cathéter il faut utiliser un antiseptique alcoolique.",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes portant sur le système de santé Français, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Les lois dites Santé sont votées par le Parlement",
+            "B) La régulation du système de santé Français est, par principe, assurée par l'Etat",
+            "C) Les Lois de financement de la Sécurité Sociale (LFSS) fixent les conditions de l’équilibre financier des régimes sociaux",
+            "D) Le ministère de Santé et de la Prévention, et le ministère des Solidarités, de l’Autonomie et des Personnes handicapées sont en charge des questions de santé",
+            "E) Les ARS constituent des services déconcentrés de l’Etat"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous souhaitez analyser un évènement indésirable survenu récemment dans votre équipe. Pour cela, quelle méthode d’EPP pouvez-vous mobiliser ?",
+          "choix": [
+            "A) Un audit",
+            "B) Une RCP",
+            "C) Une RMM",
+            "D) Une revue de la pertinence des soins"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "RMM = réunion de morbi mortalité",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le décret du 25 novembre 2016 décrit les évènements indésirables graves (EIG). A propos des EIG, indiquez quelle est (quelles sont) la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Pour pouvoir qualifier un événement d’EIG, quel que soit la nature du retentissement clinique, il faut que la situation soit considérée comme inattendue au regard de l’état de santé initial du patient",
+            "B) Seules les situations cliniques considérées comme évitables sont considérées comme des EIG",
+            "C) La mise en jeu du pronostic vital répond à la définition d’un EIG",
+            "D) La survenue probable d’un déficit fonctionnel permanent (handicap) répond à la définition d’un EIG",
+            "E) La prolongation d’hospitalisation répond à la définition d’un EIG"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "A Vrai\nB Faux, le fait que l’evenement soit évitable ou non sera posé apres analyse collective\nC Vrai, de meme qu’un deces, ou un déficit fonctionnel permanent probable\nD Vrai\nE Faux",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez en consultation un patient présentant un tabagisme actif (15 cigarettes par jour). Il vous explique que sa consommation est problématique et qu’il craint le développement d’un cancer du poumon. Il envisage de changer de comportement mais vous explique aussi que la consommation de cigarettes l’aide à diminuer son stress. Selon le modèle Trans théorique de changement :",
+          "choix": [
+            "A) L’ambivalence exprimée par ce patient est caractéristique du stade de collaboration",
+            "B) L’ambivalence exprimée par ce patient est caractéristique du stade de la précontemplation",
+            "C) L’ambivalence exprimée par ce patient est caractéristique du stade de l'action",
+            "D) L’ambivalence exprimée par ce patient est caractéristique du stade de la contemplation",
+            "E) L’ambivalence exprimée par ce patient est caractéristique du stade de la prévention"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "1. Faux, le stade de collaboration n’est pas l’un des 5 stades du modèle Trans théorique de changement (pré\ncontemplation, contemplation, préparation, action, maintien).\n2. Faux, le stade de pré contemplation n’est pas caractérisé par l’ambivalence mais par la résistance à reconnaître le comportement problématique.\n3. Faux, le stade de l’action n’est pas caractérisé par l’ambivalence mais par des modifications importantes du comportement, des expériences et/ou de l’environnement.\n4. Vrai, le stade de ce patient est caractéristique de la contemplation. En effet, celui-ci est caractérisé par une reconnaissance du problème par le patient, par des pensées de modification de comportement et par une ambivalence.\n5. Faux, le stade de prévention n’est pas l’un des 5 stades du modèle Trans théorique de changement (pré contemplation, contemplation, préparation, action, maintien).",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294205283-94bbb7f919ca",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le dépistage des situations de violence, quels sont les items vrais ?",
+          "choix": [
+            "A) Il ne concerne que les patients présentant des facteurs de risque",
+            "B) Il ne concerne, lors d’une consultation de médecine générale, que les situations de violences actuelles",
+            "C) Il est facilité par la présence de documentation et d’affiches de prévention de la violence dans la salle d’attente des praticiens",
+            "D) Le dépistage des violences ne peut-être réalisé que par un médecin généraliste",
+            "E) Les personnes présentant une perte d’autonomie font partie des populations à risque de violence"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la durée pendant laquelle un certificat de décès électronique peut être modifié par le médecin qui l’a rédigé ?",
+          "choix": [],
+          "reponses": [
+            "96",
+            "96h",
+            "96 h",
+            "96 heure",
+            "96 heures",
+            "96heure",
+            "96heures",
+            "96:00",
+            "4 jours"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel syndrome radiologique associe des lésions osseuses multiples d’âges différents chez l’enfant ?",
+          "choix": [],
+          "reponses": [
+            "Le syndrome de Silverman",
+            "syndrome de Silverman",
+            "Silverman",
+            "syndrome Silverman",
+            "Le syndrome de Silvermann",
+            "syndrome de Silvermann",
+            "Silvermann",
+            "syndrome Silvermann"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "dans quel(s) cas un signalement judiciaire peut il être réalisé par le médecin?",
+          "choix": [
+            "A) un majeur vulnérable rapportant des violences sexuelles",
+            "B) un mineur rapportant des violences intrafamiliales",
+            "C) dans tous les cas avec l'accord du patient et en cas de constatation de sévices",
+            "D) dans tous les cas pour les victimes de violence avec armes",
+            "E) une patiente rapportant des violences conjugales présentant un danger immédiat et une situation d'emprise à l'origine d'une contrainte morale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la première partie du certificat de décès, il est précisé :",
+          "choix": [
+            "A) La commune de décès",
+            "B) La date et l'heure du décès",
+            "C) L´existence d´obstacle médico-légal",
+            "D) L´obligation ou non de mise en bière immédiate",
+            "E) Les causes du décès"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre d'une intervention chirurgicale, si un patient se plaint d’avoir été mal informé par son médecin :",
+          "choix": [
+            "A) Le médecin doit apporter la preuve d´avoir informé son patient",
+            "B) Il faut obligatoirement que le patient signe un formulaire attestant qu´il a bien été informé",
+            "C) L´information transmise par le médecin peut-être orale",
+            "D) Le patient doit apporter la preuve qu´il n´a pas été informé par le médecin",
+            "E) Le défaut d´information du médecin ne porte que sur les complications"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant l’ITT dans le cadre d’un certificat de constatation de coups et blessures volontaires :",
+          "choix": [
+            "A) Ce sigle correspond à l’incapacité temporaire de travail",
+            "B) Ce sigle correspond à l’incapacité totale de travail",
+            "C) Elle est utile au médecin conseil pour la reconnaissance en accident du travail",
+            "D) Sa durée correspond à la durée d’arrêt de travail",
+            "E) Elle ne peut être fixée que par un médecin expert"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel item du certificat de décès peut conduire à la réalisation d’une autopsie judiciaire lorsqu’il est coché par le médecin rédigeant ce certificat ?",
+          "choix": [],
+          "reponses": [
+            "obstacle médico-légal",
+            "OML",
+            "obstacle médico-légale",
+            "obstacle médicolégal",
+            "obstacle médico légal",
+            "obstacle médico-légal à l'inhumation",
+            "existence d’un obstacle médico-légal",
+            "existence d'obstacle medico-legal",
+            "Obstacle médicolégal (mort violente ou inexpliquée ou patient non identifiable)",
+            "ostacle médicolégal à l'inhumation",
+            "obstacle médicaux-légal",
+            "obstacle medicolégale",
+            "obtacle medico legale",
+            "obstacle médicol-légal",
+            "Obstacle médico-légal (OML)",
+            "existence d'obstacle médico-légal",
+            "l'existance d'obstacle médico-légal",
+            "Obstacle médico-légal à l'inhumation"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes quel est l’item vrai ?",
+          "choix": [
+            "A) Les rites mortuaires présentent une structure quaternaire",
+            "B) Le personnel hospitalier doit tout mettre en œuvre pour que les actes rituels puissent être réalisés dans des conditions satisfaisantes.",
+            "C) La connaissance du fondement et des rites des principales religions n’a pas d’importante pour le médecin",
+            "D) La confrontation directe à la mort fait, de nos jours, partie du quotidien individuel et collectif",
+            "E) La toilette mortuaire est un rite mortuaire rare dans les sociétés actuelles."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "A) ternaire\nE) quasi universel",
+          "order": 9
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les éléments du dossier médical non communicables au patient, quelle(s) affirmation(s) est/sont exacte(s) :",
+          "choix": [
+            "A) Les notes personnelles d’un médecin en font partie",
+            "B) Ils ne doivent pas figurer dans le dossier médical",
+            "C) Les propos recueillis auprès de tiers qui décrivent le comportement inhabituel du patient sont communicables si un psychiatre s’appuie dessus pour justifier une HDT",
+            "D) Les correspondances entre deux professionnels de santé au sujet du patient ne sont pas communicables car relevant de la note personnelle",
+            "E) En cas de saisie du dossier médical par la justice, les éléments non communicables sont retirés du dossier avant la mise en place du scellé"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’action en responsabilité contre un médecin libéral peut être portée par le patient devant :",
+          "choix": [
+            "A) Une juridiction pénale",
+            "B) Le tribunal administratif",
+            "C) Une juridiction civile",
+            "D) Aucune des juridictions de l’ordre judiciaire",
+            "E) Le conseil de l’Ordre des médecins"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes positifs de la mort que vous pouvez rechercher avant d’établir un certificat de décès ?",
+          "choix": [
+            "A) Un refroidissement du corps",
+            "B) Une anisocorie",
+            "C) Des lividités",
+            "D) une tâche verte abdominale",
+            "E) une rigidité"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les prélèvements pouvant être réalisés lors de la prise en charge d’une femme victime d’un viol il y a quelques heures, quels sont les items vrais?",
+          "choix": [
+            "A) Ils ne peuvent être réalisés que sur réquisition judiciaire",
+            "B) Ils sont à visée médicale et médico-légale",
+            "C) Ils peuvent être réalisés à visée toxicologique, génétique et infectieuse",
+            "D) Ils représentent une urgence médico-légale",
+            "E) Ils peuvent être refusés par la victime"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant l’examen clinique d’une victime de violences sexuelles, quel est l'item vrai?",
+          "choix": [
+            "A) Il ne concerne que la région génitale",
+            "B) L’absence de lésion génito-anale permet d’affirmer l’absence de viol",
+            "C) Une érosion de la fourchette vulvaire postérieure est spécifique d’un rapport sexuel non consenti",
+            "D) La présence de sperme en intravaginal permet d'affirmer qu'il y a eu un viol",
+            "E) Toutes les propositions sont fausses"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sur le plan juridique, en cas d’agression sexuelle sur une personne majeure:",
+          "choix": [
+            "A) Si l’auteur est le conjoint, il s’agit d’une circonstance aggravante",
+            "B) un rapport bucco-génital peut être qualifié de viol",
+            "C) Compte tenu de la gravité des faits, le médecin peut réaliser un signalement au Procureur de la République même sans l’accord de la victime",
+            "D) Le viol est un crime",
+            "E) si la qualification de viol est retenu, le tribunal compétent est le tribunal correctionnel"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

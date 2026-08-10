@@ -1,0 +1,291 @@
+{
+  "matiere": "Gériatrie et vieillissement",
+  "slug": "geriatrie-vieillissement-s9",
+  "annee": 2026,
+  "title": "Gériatrie et vieillissement - 2026",
+  "total_questions": 13,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 90 ans est hospitalisé aux urgences dans le cadre d’un syndrome confusionnel. Cliniquement, l’externe retrouve une masse sus pubienne douloureuse sans défense. Il réalise alors un bladder scan qui retrouve 600mL dans la vessie. Il pose le diagnostic de rétention aiguë d’urines. A propos de cette pathologie, quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) L’urgence est au toucher rectal afin d’éliminer un fécalome",
+            "B) Chez ce patient il faudrait rechercher un obstacle sous vésical comme une hypertrophie bénigne de prostate",
+            "C) La prise de morphinique pourrait être la seule cause de la rétention aiguë d’urines",
+            "D) Un défaut de contractilité vésicale pourrait être expliqué par un caillotage vésical",
+            "E) Dans ce contexte, un ECBU sera prélevé"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez une patiente de 75 ans en consultation de médecine générale. Elle présente une altération de l’état générale depuis plus d’un mois. Sa fille vous rapporte qu’elle a arrêté de manger, qu’elle se réveille très tôt le matin ce qui n’est pas dans son habitude. Elle ne participe plus à son club du 3ème âge car n’y trouve plus de plaisir. De plus, c’est la première fois qu’elle entend sa mère « vouloir en finir », qu’il n’y a « plus d’espoir » et « d’être un poids pour sa famille ». Elle a comme seul antécédent une hypothyroïdie sous LEVOTHYROX 100mcg. Vous posez le diagnostic d’épisode dépressif caractérisé avec caractéristiques mélancoliques après interrogatoire et examen clinique de la patiente. Quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) Les troubles du sommeil décris chez cette patiente sont en faveur du diagnostic posé",
+            "B) Le risque suicidaire est élevé chez cette patiente",
+            "C) Vous décidez de la faire hospitaliser en psychiatrie en urgence",
+            "D) Si l’interrogatoire retrouve un syndrome de Cotard associé (négation d’organe) le diagnostic posé serait moins probable",
+            "E) Ce diagnostic posé si non pris en charge rapidement pourrait décompenser sa pathologie thyroïdienne"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous êtes interne en gériatrie et vous êtes appelés car un de vos patient de 88 ans présente des troubles du sommeil. L’infirmière de nuit vous rapporte que cela fait déjà 2 nuits qu’il ne dort pas avec un retard d’endormissement et se lève tôt. Vous décidez d’introduire une benzodiazépine par SERESTA (oxazépam) 10mg. Après information au patient vous apprenez qu’il n’en a jamais pris auparavant mais il est d’accord pour essayer. Quelles sont les 2 réponses justes ?",
+          "choix": [
+            "A) Cette molécule ne modifie pas l’architecture normal du sommeil",
+            "B) En seconde intention, nous aurions pu essayer la mélatonine",
+            "C) Si le patient poursuit ce traitement quotidiennement pendant plus de 30 jours et que l’arrêt semble indiqué celui-ci devra être progressif",
+            "D) La durée maximale de prescription sera de 12 semaines dans ce contexte",
+            "E) Ce traitement favorise le risque de chute et fracture"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Lors de votre visite dans le service de gériatrie, vous rencontrez un patient de 77 ans qui est hospitalisé dans le cadre d’une chute à domicile avec station au sol prolongée. Le bilan radiographique a retrouvé un tassement vertébral L4. Il reste très douloureux surtout lorsqu’il est assis ce pourquoi il est alité depuis son arrivée dans le service il y a 4 jours. Vous reprenez les antécédents du patient, troubles neurocognitifs majeurs type maladie d’Alzheimer à un stade léger, hypertension artérielle, coxarthrose. Vous reprenez également les prescriptions médicamenteuses du patient : SKENAN (morphinique) LP 10mg deux fois par jour, ACTISKENAN (morphinique) LI 5mg en si besoin, DOLIPRANE trois fois par jour, MACROGOL (laxatif osmotique) un sachet le matin, IRBESARTAN (antihypertenseur) 300mg le matin, GABAPENTINE (antiépileptique) 300mg le soir. La fonction rénale du patient est normale.\nQuel est le changement de traitement indispensable à faire dans ce contexte?",
+          "choix": [
+            "A) Ajout du SERESTA 10 mg(benzodiazépine) en si besoin",
+            "B) Augmentation de la GABAPENTINE",
+            "C) Diminution de la morphine",
+            "D) Introduction d’une anticoagulation préventive",
+            "E) Introduction d’une supplémentation en vitamine D"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous êtes appelé par l’infirmier du service concernant une patiente de 92 ans hospitalisée en gériatrie pour fracture du bassin. Il vous décrit l’apparition d’une lésion cutanée au niveau du talon droit de la patiente. Au vu de l’immobilisation récente de la patiente sur impotence fonctionnelle vous suspectez une escarre. Question : Précisez le stade de cette escarre. 1 seul chiffre",
+          "choix": [],
+          "reponses": [
+            "2"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/geriatrie-vieillissement-s9/2026/q5.webp?v=1786395741295"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395740977-1bf768d5a5a428",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez en consultation de médecine générale une patiente de 94 ans qui présente des gonalgies depuis quelques mois.\nElle présente comme antécédents une hypertension artérielle sous inhibiteur calcique, un diabète de type 2 sous metformine et glycazide, une obésité avec IMC à 31.\nConcernant son mode de vie, elle vit seule au domicile et est autonome pour les activités de base de la vie quotidienne avec un ADL à 6/6 sur l’échelle de Katz. Cependant, du fait des douleurs elle ne sort plus de son domicile car ne peut pas marcher trop longtemps. Elle se déplace avec un déambulateur et a chuté deux fois dans les 6 derniers mois. Elle est ancienne aide-soignante, célibataire sans enfants. Elle n’a pas perdu de poids récemment. La thymie est basse.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez chez cette patiente une gonarthrose. Concernant l’épidémiologie, quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) La gonarthrose est l’arthrose la plus fréquente des membres inférieurs",
+            "B) La gonarthrose symptomatique a une incidence annuelle de 80 pour 100 000 patients",
+            "C) L’antécédent d’hypertension artérielle est un facteur de risque d’arthrose",
+            "D) L’âge, l’IMC de cette patiente sont 2 facteurs de risque d’arthrose",
+            "E) Le compartiment fémoro-tibial médial (interne) est le plus fréquemment touché"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous faites précisez le type de douleur chez cette patiente, il n’y a pas de dérouillage matinal, la douleur est diffuse dans les 2 genoux. Les douleurs sont soulagées par le repos.\nA l’examen clinique, vous retrouvez un genu varum, elle est douloureuse lors de la flexion du genou avec distance fesse talon augmentée. La manœuvre du rabot ne déclenche pas de douleur.\nQuestion 2 : Concernant le diagnostic positif, quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) Une radiographie du genou semble indispensable avant l’introduction d’un antalgiques de palier 1",
+            "B) La radiographie en schuss permet d’évaluer le compartiment antérieur",
+            "C) Les signes radiographiques positifs sont les géodes d’hyperpression, les ostéophytes, et le pincement de l’interligne localisé",
+            "D) La gonarthrose la plus probable chez cette patiente est l’arthrose fémoro-patellaire",
+            "E) Les diagnostics différentiels possibles sont les arthropathies microcristallines ou infectieuses"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cette patiente est donc repartie de votre consultation avec la prescription de clichés radiographiques et d’une ordonnance de traitement antalgique et prise en charge kinésithérapeutique.\nElle consulte malheureusement les urgences 1 mois plus tard après avoir été retrouvée au sol à son domicile par son auxiliaire de vie. Après interrogatoire de l’auxiliaire de vie, celle-ci rapporte que la patiente a finalement participé très peu à la kinésithérapie qui consiste maintenant uniquement à des massages. La patiente mangerait de moins en moins et l’auxiliaire décrit une tristesse de l’humeur franche.\nVous décidez de l’hospitaliser en gériatrie afin de réaliser le bilan de chute.\nVous en profitez pour interroger la patiente sur sa baisse de moral. On retrouve chez cette patiente un ralentissement idéomoteur franc, un isolement, elle n’accompagne plus son auxiliaire de vie à faire les courses. Elle décrit l’apparition d’oublis de rendez-vous. Elle présente également des troubles du sommeil et un sentiment d’inutilité.\nLa patiente rapporte avoir déjà fait un épisode dépressif mais n’a jamais pris de médicament pour ça.\nQuestion 3 : Quel(s) est(sont) le(les) symptôme(s) de la dépression retrouvé(s) chez cette patiente qui sont spécifiques de la personne âgée ?",
+          "choix": [
+            "A) Ralentissement idéo-moteur",
+            "B) Irritabilité",
+            "C) Plainte algique",
+            "D) Sentiment d’inutilité",
+            "E) Plainte mnésique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous faites une échelle « Geriatric Depression Scale » version 4 items qui est à 2. Le risque suicidaire est évalué faible.\nQuestion 4 : Concernant la prise en charge de cet épisode dépressif caractérisé vous décidez d’introduire un inhibiteur sélectif de la recapture de la sérotonine (ISRS), quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) Au vu de la symptomatologie, vous décidez d’associer un traitement psychotrope à l’antidépresseur",
+            "B) L’efficacité du traitement par ISRS sera à évaluer au bout de 4 semaines",
+            "C) Si on observe une rémission des symptômes, l’arrêt de l’antidépresseur sera à prévoir à 6 mois",
+            "D) Un ECG est réalisé pour évaluer en particulier l’allongement du PR",
+            "E) Un contrôle biologique permettrait de vérifier de l’absence d’hyponatrémie"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez donc débuté la SERTRALINE à 25mg le matin puis augmenté progressivement à 100mg par jour. Le bilan biologique de contrôle ne retrouve pas d’hyponatrémie, l’ECG ne retrouve pas de QTc allongé. Elle est ensuite retournée à son domicile.\nCependant depuis quelques jours, la patiente présente une incontinence urinaire, elle appelle votre secrétariat pour reprendre rendez-vous de consultation avec vous.\nQuestion 5 : Votre principale hypothèse est une cause iatrogène, quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) On peut évoquer chez cette patiente une incontinence urinaire transitoire réversible",
+            "B) Les inhibiteurs de la recapture de la sérotonine peuvent donner une incontinence urinaire type urgenturie",
+            "C) Les inhibiteurs de la recapture de la sérotonine peuvent donner une incontinence urinaire d’effort",
+            "D) Dès demain vous prévoyez l’arrêt complet de la SERTRALINE",
+            "E) On doit éliminer une rétention aiguë d’urine dans ce contexte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395742932-6b37a79b3bc77",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez en consultation de suivi gériatrique une femme de 84 ans. Elle a été hospitalisée récemment en gériatrie dans le cadre d’une fracture per trochantérienne gauche sur chute de sa hauteur. Vous notez dans les antécédents une gastrite, une insuffisance cardiaque rythmique, un cancer du sein en rémission. Dans ses traitements vous relevez du PANTOPRAZOLE (inhibiteur de pompe à proton), ELIQUIS (apixaban), BISOPROLOL (beta bloquant), HYDROCHLOROTHIAZIDE (diurétique thiazidique), FORXIGA (dapaglifozine). En lisant le compte rendu d’hospitalisation, vous apprenez qu’elle présente un trouble de la marche persistant sur une gonarthrose bilatérale",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 facteurs de risque de fracture ostéoporotique primitive présents chez cette patiente parmi les réponse suivantes?",
+          "choix": [
+            "A) Le risque de chute",
+            "B) l’âge",
+            "C) l’antécédent de fracture",
+            "D) l’antécédent de cancer du sein",
+            "E) Un ou deux des traitements qu’elle prend"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Qu’est-ce que l’ostéodensitométrie retrouverait pour compléter le diagnostic d’ostéoporose chez cette patiente sans évoquer de score?",
+          "choix": [],
+          "reponses": [
+            "Densité osseuse basse"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les examens biologiques suivants, lesquels sont à réaliser au minimum afin d’éliminer une ostéopathie fragilisante autre que l’ostéoporose primitive?",
+          "choix": [
+            "A) Numération formule sanguine",
+            "B) Bilan hépatique",
+            "C) Bilan d’hémostase",
+            "D) Electrophorèse de l’hémoglobine",
+            "E) TSH",
+            "F) Phosphorémie",
+            "G) Créatininémie",
+            "H) Ferritinémie",
+            "I) Hémoglobine glyqué",
+            "J) Vitamine D",
+            "K) Calcémie"
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F",
+            "G",
+            "J",
+            "K"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

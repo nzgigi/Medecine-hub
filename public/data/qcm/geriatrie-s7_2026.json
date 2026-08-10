@@ -1,0 +1,323 @@
+{
+  "matiere": "Gériatrie",
+  "slug": "geriatrie-s7",
+  "annee": 2026,
+  "title": "Gériatrie - 2026",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes interne aux urgences, dans votre box un patient de 90 ans est admis pour une chute. En effet, il est tombé dans le métro aux Arènes vers 12h, il aurait cogné la tête d’après un témoin, qui l’a ensuite aidé rapidement à se relever.\nIl a comme principal antécédent de l’hypertension artérielle, un AVC ischémique lacunaire, un diabète de type II.\nSes traitements sont de la Metformine, Bisoprolol et de l’acide acétylsalicylique.\nSes constantes aux urgences sont une tension artérielle à 10/6, une fréquence cardiaque à 60 bpm et une saturation en AA à 97%. Sa glycémie est de 1,2 g/L. Il présente une fièvre à 38, 8°C, il tousse.\nL’examen clinique objective un foyer en base droite.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant la chute présentée par le patient, parmi les items suivants quelles sont les affirmations exactes (deux items justes) ?",
+          "choix": [
+            "A) Le sexe du patient est un facteur prédisposant.",
+            "B) La pneumopathie du patient est un facteur précipitant.",
+            "C) La glycémie du patient est un facteur précipitant",
+            "D) La polymédication du patient est un facteur prédisposant.",
+            "E) Ses traitements sont un facteur prédisposant."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous décidez de réaliser des examens paracliniques chez votre patient.\nCes examens comprennent:",
+          "choix": [
+            "A) un électrocardiogramme",
+            "B) un électroencéphalogramme",
+            "C) un scanner cérébral",
+            "D) une échographie cardiaque",
+            "E) un dosage des CPK"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre patient a un ECG sans particularité et un scanner cérébral objectivant une atrophie cortico sous cortical diffuse, une séquelle lacunaire au niveau du thalamus droit. Le patient vous confie que ce n ‘est pas sa première chute mais la troisième cette année.\nQue lui conseillez-vous ?",
+          "choix": [
+            "A) Un bon chaussage tenant bien le pied",
+            "B) De ne plus sortir de chez lui devant le risque de chute élevé",
+            "C) De diminuer voir arrêter son traitement par Bisoprolol",
+            "D) De faire une activité physique adaptée",
+            "E) Un retour au domicile immédiat"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous êtes appelé par l’infirmière 2 heures après votre premier examen car le patient s’agite et crie dans son box des urgences. Il cherche à sortir de son lit.\nQuel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Confusion"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "En effet le patient présente un syndrome confusionnel aigu.\nQuelles mesures allez-vous mettre en place ? (2 items justes)",
+          "choix": [
+            "A) Mettre le patient dans le couloir des urgences pour le surveiller",
+            "B) Installation rapide d’une contention physique",
+            "C) Correction de la pneumopathie par antibiothérapie",
+            "D) Favoriser les repères spatiaux (rappels réguliers)",
+            "E) Si anxiété majeure, introduction à une benzodiazépine de demi vie longue"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous transférez le patient dans un service de gériatrie.\nA l’arrivé le patient est pesé à 74 kg pour une taille de 1,80 m (Indice de masse corporelle à 22.8 kg/m²)\nSon fils vous appelle et vous signale que depuis 1 mois son père mange peu, son poids de forme est de 79 kg, soit une perte de 6.3% du poids du corps\nParmi les items suivants, quelle(s) affirmation(s) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Le patient présente une dénutrition",
+            "B) Il a pour critère phénotypique sa pneumopathie",
+            "C) Il a pour critère étiologique sa perte d’appétit",
+            "D) Il a pour critère phénotypique son indice de masse corporelle",
+            "E) Il a pour critère étiologique sa confusion"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les items suivants, lequel serait un critère suffisant pour classer la dénutrition en dénutrition sévère chez ce patient ?",
+          "choix": [
+            "A) La perte de poids en 1 mois",
+            "B) Si le Mini Nutritional Assessment (MNA) était de 16/30.",
+            "C) Son indice de masse corporelle",
+            "D) Si son albuminémie est de 32 g/L",
+            "E) Si son albuminémie est de 28 g/L"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395731077-4a5ac6578dbca",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes gériatre, vous voyez en consultation Me D. 86 ans. Elle est adressée par son médecin traitant pour bilan gériatrique devant des troubles de la marche.\nVous retrouvez une vitesse de marche qui est en effet ralentie, elle rapporte une asthénie persistante, une tristesse de l’humeur, une perte de poids de 5 kg en 12 mois. Elle sort beaucoup moins de chez elle, le test du hand grip est dans les normes. Elle reste autonome pour les gestes de la vie quotidienne\nConcernant l’évaluation de la fragilité, quelle(s) affirmation(s) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Le syndrome de fragilité est réversible",
+            "B) La patiente a un score de FRIED à 4, elle est donc considérée comme fragile.",
+            "C) La fragilité est un syndrome gériatrique mesurable, qui permet d’appréhender la vulnérabilité du sujet âgé,",
+            "D) La présence d’une altération thymique fait partie des critères de FRIED",
+            "E) Au vu de son score de FRIED, la patiente présente un risque plus important de rentrer en institution."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous prenez en charge une patiente dans le service de gériatrie.\nVous questionnez sa famille concernant son autonomie et ses habitudes de vie.\nElle est incontinente et mange seule. Elle va seule aux toilettes.\nElle va au marché tous les matin faire ses courses. Depuis peu, elle ne conduit plus.\nElle se déplace avec une canne. Elle prend ses médicaments à l’aide d’un pilulier préparé par l’infirmière. Ses lessives sont faites par sa fille. Elle téléphone pendant des heures à ses petits enfants. Ses comptes sont faits désormais par son fils ainé. Elle prépare le repas notamment lors de la venue de ses enfants. Elle mange seule. Elle fait sa toilette seule et s’habille seule.\nElle a une aide ménagère mais essuie la table et range sa table du repas.\nQuel est le score IADL de la patiente ?",
+          "choix": [],
+          "reponses": [
+            "4"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "On vous adresse en consultation de gériatrie Mr C, 83 ans pour des troubles de la marche.\nParmi les 5 items suivants donner les 3 items justes:",
+          "choix": [
+            "A) Si l’examen clinique du patient objective des troubles de la marche alors le patient est à risque de chute.",
+            "B) En cas de marche claudicante, vous recherchez une artériopathie des membres inférieur.",
+            "C) Une astasie est une incapacité à se mettre débout.",
+            "D) En cas de marche pseudo ébrieuse, vous rechercherez préférentiellement une atteinte atteinte pyramidale bilatérale.",
+            "E) La présence d’un steppage serait évocatrice d’une atteinte de la ceinture pelvienne."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez en consultation Mr G. 84 ans, il a été opéré récemment d’un cancer du colon. Il a un poids de 88 kg, une taille à 1m70 soit un indice de masse corporelle à 30.4 kg/m². Il a perdu 10 kg en 6 mois.\nIl habite seul, il ne sort pas de chez lui, il fait un à deux repas par jour. Il présente des troubles de la marche, il n’a pas d’aides a domicile, son fils passe une fois par semaine et lui fait les courses .\nQuelle(s) affirmation(s) sont vraies ?",
+          "choix": [
+            "A) Mr G présente une dénutrition seulement",
+            "B) Mr G présente une dénutrition et une obésité",
+            "C) La perte de poids est probablement favorisé par l’isolement social",
+            "D) L’obésité pouvant favoriser les troubles de la marche, vous préconisez une restriction calorique.",
+            "E) Mr G. est à risque important de sarcopénie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous évaluez en consultation Mr C. 79 ans pour une suspicion de maladie a Corps de Lewy. Parmi les réponses suivantes, laquelle est juste ?",
+          "choix": [
+            "A) Vous rechercher la présence de troubles du comportement en sommeil paradoxal qui font partis des manifestations clinique de la maladie à Corps de Lewy",
+            "B) La présence de troubles neurocognitifs apparaissent secondairement plusieurs années plus tard que les troubles moteurs seraient un argument en faveur d’une maladie a corps de Lewy",
+            "C) La présence d’hallucinations visuelles d’apparition tardives seraient un argument en faveur d’une maladie a corps de Lewy",
+            "D) La maladie à Corps de Lewy est une maladie de Parkinson vieillie.",
+            "E) La maladie à corps de Lewy est une cause rare de troubles neurocognitifs chez les sujets âgés."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395733005-9a9ace9c45b0a",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes médecin généraliste, une patiente de 83 ans avec son fils vous consulte car elle a une plainte mnésique. Son fils vous informe que depuis plus d’un an la patiente répète les phrases, oublie d’aller chez son coiffeur préféré. A l’interrogatoire, la patiente a des difficultés à trouver ses mots.\nElle a n’a pas antécédent notable et ne prend pas de traitement médicamenteux.\nElle ne peut pas vous dire ce qu’elle a effectué hier et mangé ce matin. Son score Mini Mental State Examination que vous évaluez est à 20/30 (orientation 7/10, apprentissage à 3/3, calcul 1/5, rappel à 1/3, langage 6/8 et praxie 1/1).",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les items suivants, quelle(s) affirmation(s) sont vraies ?",
+          "choix": [
+            "A) La patiente présente des troubles de mémoire épisodique.",
+            "B) La maladie d’Alzheimer est dûe à l’association d’une perte neuronale, de plaques tau et une dégénérescence neurofibrillaire riche en amylose.",
+            "C) L’IRM de la patiente objectiverait une atrophie prédominant en région mésencéphalique.",
+            "D) La difficulté à effectuer les gestes de la vie courante entre dans le syndrome aphaso-apraxo-agnosique.",
+            "E) Chez les patients de > 75 ans, les co-lésions (lésions vasculaires dont les micro-hémorragies, lésions de la maladie Alzheimer ,) sont rares."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Votre évaluation retrouve un ADL (activity of daily life) à 6/6, et un IADL (instrumental activity of daily life) à 5/8 devant une nécessité d'aide pour ses traitement, ainsi que pour gérer ses papiers ou factures, alors qu'elle le faisait seule il y a quelques années.\nComment pouvez vous caractériser les troubles neuro cognitif de la patiente au vu de son autonomie",
+          "choix": [],
+          "reponses": [
+            "majeur"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous revoyez la patiente et son fils en consultation un an après avoir confirmer une Maladie Alzheimer par le dosage des biomarqueurs par ponction lombaire. Elle ne peut plus s’habiller seule. Son fils semble épuisé.\nQuelle prise en charge pouvez-vous proposer pour cette patiente ? (7 items attendus)",
+          "choix": [
+            "A) Encourager la marche par des promenades quotidiennes",
+            "B) Rassurer le fils quand à l’évolution favorable de la maladie",
+            "C) Eviter d’amener la patiente aux courses",
+            "D) Prise en charge orthophonique",
+            "E) Remettre au fils les informations sur les hébergements temporaires",
+            "F) Prescription d’un passage infirmier pour la surveillance du poids et l’aide à la toilette",
+            "G) Conseiller aux fils de continuer à réaliser les activités mettant en difficulté la patiente",
+            "H) Prescription de médicaments (neuroleptiques, antidépresseurs tricycliques)",
+            "I) Surveillance nutritionnelle avec mesure du poids une fois par mois",
+            "J) Inscription dans un centre accueil de jour comportant des thérapies non médicamenteuses",
+            "K) Encourager la patiente à maintenir ses activités",
+            "L) Isoler la patiente de ses amis",
+            "M) Informer le fils de l’évolution de la maladie et les conséquences"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E",
+            "F",
+            "J",
+            "K",
+            "M"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

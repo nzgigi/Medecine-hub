@@ -1,0 +1,310 @@
+{
+  "matiere": "Rein et voies urinaires – Urologie",
+  "slug": "rvu-urologie-s6",
+  "annee": 2026,
+  "title": "Rein et voies urinaires – Urologie - 2026",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un homme de 67 ans consulte car depuis plusieurs mois, il se plaint d'une diminution du jet urinaire, de mictions fréquentes et d'une nycturie.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les symptômes du bas appareil urinaire de la phase de remplissage ?",
+          "choix": [
+            "A) Pollakiurie",
+            "B) Nycturie",
+            "C) Urgenturie",
+            "D) Jet faible",
+            "E) Gouttes terminales"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les symptômes du bas appareil urinaire de la phase mictionnelle ?",
+          "choix": [
+            "A) Difficulté à démarrer la miction",
+            "B) Jet faible",
+            "C) Interruption du jet",
+            "D) Nycturie",
+            "E) Nécessité de pousser pour uriner"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les symptômes du bas appareil urinaire de la phase post-mictionnelle ?",
+          "choix": [
+            "A) Gouttes retardataires",
+            "B) Impression de vidange incomplète",
+            "C) Douleur mictionnelle",
+            "D) Urgenturie",
+            "E) Jet faible"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les affirmations exactes concernant l'Incontinence urinaire ?",
+          "choix": [
+            "A) Fuite involontaire d’urine",
+            "B) Toujours liée à l'urgenturie",
+            "C) Toujours permanente",
+            "D) Diagnostic clinique",
+            "E) N'a pas de retentissement social"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A partir de combien de mictions nocturnes parle-t-on de nycturie ?",
+          "choix": [
+            "A) 1 miction",
+            "B) 2 mictions",
+            "C) 3 mictions",
+            "D) 4 mictions",
+            "E) 5 mictions"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les règles du drainage des urines ?",
+          "choix": [
+            "A) Vidange rapide recommandée",
+            "B) Clampage progressif",
+            "C) Surveillance de la diurèse",
+            "D) Doit s'associer à une prévention de la déshydratation",
+            "E) Comporte un risque hémorragique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les complications possibles du drainage ?",
+          "choix": [
+            "A) Hémorragie a vacuo",
+            "B) Colique néphrétique",
+            "C) Déshydratation",
+            "D) Fausse route",
+            "E) Infection"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396210550-6f46860711d078",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un homme de 72 ans consulte aux urgences pour impossibilité brutale d’uriner depuis 12 heures, associée à une douleur sus-pubienne intense. Il rapporte depuis plusieurs mois une diminution du jet urinaire, des mictions fréquentes et une nycturie.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les affirmations exactes concernant la rétention aiguë d’urine ?",
+          "choix": [
+            "A) Elle correspond à une impossibilité totale d’uriner",
+            "B) Elle est toujours indolore",
+            "C) Elle peut être associée à une anurie",
+            "D) Elle est toujours progressive",
+            "E) Elle est souvent liée à un obstacle sous-vésical"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes cliniques de rétention aiguë d'urines ?",
+          "choix": [
+            "A) Globe vésical",
+            "B) masse hypogastrique douloureuse à la palpation",
+            "C) Matité sus-pubienne",
+            "D) voussure hypogastrique",
+            "E) Défense abdominale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les étiologies possibles de rétention aigue d'urines ?",
+          "choix": [
+            "A) Anurie",
+            "B) Hypertrophie bénigne de prostate",
+            "C) Diabète",
+            "D) Médicaments anticholinergiques",
+            "E) Vessie neurologique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous pratiquez un toucher rectal, quelles sont les caractéristiques du toucher rectal normal ?",
+          "choix": [
+            "A) Prostate dure",
+            "B) Taille d’une châtaigne",
+            "C) Indolore",
+            "D) Asymétrique",
+            "E) Sillon médian présent"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les affirmations exactes concernant la prise en charge de la rétention aigue d'urines ?",
+          "choix": [
+            "A) Urgence thérapeutique",
+            "B) Drainage vésical",
+            "C) Aucun examen nécessaire pour le diagnostic",
+            "D) ECBU avant drainage obligatoire",
+            "E) Surveillance de la diurèse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les affirmations exactes concernant le sondage vésical ?",
+          "choix": [
+            "A) Contre-indiquée en cas de prostatite aiguë",
+            "B) Toujours avec une sonde à double courant",
+            "C) Nécessite de l'asepsie",
+            "D) indiquée en cas de globe sur une hypertrophie bénigne de la prostate",
+            "E) Contre-indiquée en cas de diabète"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les affirmations exactes concernant le Cathéter sus-pubien ?",
+          "choix": [
+            "A) Indiqué en cas de prostatite",
+            "B) Indiqué en cas de sténose urétrale",
+            "C) Contre-indiqué si globe",
+            "D) Contre-indiqué si cancer de la vessie",
+            "E) Contre-indiqué si anticoagulants"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

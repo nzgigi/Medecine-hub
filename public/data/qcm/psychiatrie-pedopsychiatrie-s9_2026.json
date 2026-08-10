@@ -1,0 +1,580 @@
+{
+  "matiere": "Psychiatrie et pédopsychiatrie",
+  "slug": "psychiatrie-pedopsychiatrie-s9",
+  "annee": 2026,
+  "title": "Psychiatrie et pédopsychiatrie - 2026",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Monsieur et Madame V., dont vous êtes le médecin généraliste depuis de nombreuses années, viennent vous consulter à propos de leur fils Paul, âgé de 7 ans et demi. Vous connaissez bien Paul, que vous suivez depuis sa naissance. Sa maîtresse, après quelques mois de CP (cours préparatoire), a repéré des difficultés d'apprentissage et de comportement chez cet enfant attachant mais turbulent. Depuis quelque temps, il se décourage un peu par rapport à l'école et se trouve « complètement nul ». À la maison, le moment du coucher est de plus en plus difficile, ce qui crée des désaccords entre les parents sur l'attitude à adopter.\nLes parents sont convaincus que leur fils est un enfant à haut potentiel intellectuel (HPI) et que c’est ce qui explique ses difficultés scolaires. Ils ont lu beaucoup de choses sur Internet, et sont à la fois inquiets et perdus : ils ne comprennent rien à tous ces termes techniques, ces acronymes, ces démarches administratives à faire… Ils vous posent mille questions !",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les troubles suivants, lequel ou lesquels sont classés parmi les troubles neurodéveloppementaux ?",
+          "choix": [
+            "A) Haut Potentiel Intellectuel (HPI).",
+            "B) Troubles du développement intellectuel (TDI).",
+            "C) Tics.",
+            "D) Troubles obsessionnels compulsifs (TOC).",
+            "E) Troubles de la cognition mathématique."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre de leurs recherches sur Internet, les parents de Paul ont trouvé des tas d’informations contradictoires sur les troubles du neurodéveloppement et se posent beaucoup de questions sur la cause de ces troubles.\nConcernant le diagnostic et l'étiologie d'un trouble neurodéveloppemental, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) On considère qu’un déficit du développement d’un domaine est spécifique s’il n’est pas mieux expliqué par un autre trouble.",
+            "B) Des tests standardisés dans les différents domaines du développement sont nécessaires pour une plus grande certitude diagnostique.",
+            "C) Chez environ 40% des patients, une anomalie génétique ou une exposition environnementale sont impliquées dans l’étiologie des anomalies du neurodéveloppement.",
+            "D) Les troubles neurodéveloppementaux ne sont qu’exceptionnellement associés entre eux mais sont fréquemment associés à d’autres troubles psychiatriques.",
+            "E) L’exposition à des conditions environnementales adverses est une condition diagnostique nécessaire pour évoquer des troubles réactionnels de l’attachement."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous réalisez un entretien assez long, qui n’est pas facile à mener du fait de l’agitation importante de Paul, qui ne tient littéralement pas en place, manque plusieurs fois de renverser des objets posés sur votre étagère, et tombe deux fois en essayant de sauter sur une chaise depuis votre canapé. Vous parvenez néanmoins à obtenir des informations assez précises sur l’histoire développementale de ce patient, sur sa symptomatologie actuelle et sur son retentissement. Vous comprenez notamment que la maîtresse de Paul a convoqué plusieurs fois ses parents en leur disant qu’il lui était difficile de le canaliser en classe, car ce dernier ne tiendrait pas en place, n’écouterait aucune consigne, et serait incapable de se concentrer sur un exercice.\nQuel trouble neurodéveloppemental évoquez-vous en priorité devant ce tableau clinique ?",
+          "choix": [
+            "A) Trouble spécifique des apprentissages.",
+            "B) Trouble déficit de l’attention/hyperactivité (TDAH).",
+            "C) Trouble de la communication.",
+            "D) Trouble développemental de la coordination.",
+            "E) Troubles du développement intellectuel (TDI)."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Au cours de la discussion que vous avez avec eux, les parents de Paul vous demandent si le TDAH ne serait pas au fond une forme « d’hyper agilité intellectuelle » ce qui expliquerait pourquoi ils étaient convaincus qu’il présentait un HPI.\nÀ propos de la définition et de la sémiologie du TDAH, quelles sont les deux propositions exactes ?",
+          "choix": [
+            "A) On retrouve souvent une rapidité d’exécution chez les patients souffrant de TDAH, liée à leur hyperactivité.",
+            "B) Ces patients présentent souvent un manque de motivation pour les activités demandant un effort cognitif durable.",
+            "C) Ces patients ont des facilités à comprendre les consignes mais pas à les suivre.",
+            "D) Les symptômes apparaissent le plus souvent à l’adolescence mais il existe des formes de TDAH qui se déclarent chez l’adulte uniquement.",
+            "E) Ces patients présentent souvent une tendance à la procrastination, qui peut les pénaliser scolairement."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les parents de Paul continuent leurs questions sur les symptômes présentés par leur fils, ne comprenant pas bien notamment le lien entre hyperactivité et impulsivité.\nÀ propos de la définition et de la sémiologie du TDAH, quelles sont les deux propositions exactes ?",
+          "choix": [
+            "A) Le TDAH se caractérise par un mode persistant d’inattention et d’hyperactivité/impulsivité qui interfère avec le fonctionnement.",
+            "B) Une hyperactivité est souvent observée dans un seul domaine de la vie (familiale, sociale, activités extrascolaires).",
+            "C) L’hyperactivité se caractérise par une activité très productive et efficace, mais excessive et mal contrôlée.",
+            "D) L’impulsivité correspond au fait de faire ou dire directement quelque chose de façon impérieuse, sans en anticiper les conséquences.",
+            "E) On constate souvent des prises de risque chez ces enfants, indépendantes de leur trouble."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ils vous demandent maintenant quel est le test qui permet de confirmer un diagnostic de TDAH et si Paul va « devoir avoir une prise de sang ».\nÀ propos des questionnaires et échelles d’aide au diagnostic pouvant être utilisés dans le TDAH, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) ADHD-Rating scale.",
+            "B) Échelle de Yale-Brown.",
+            "C) Échelle de Hamilton.",
+            "D) Questionnaire de Conners.",
+            "E) ADI-R."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les parents de Paul avaient entendu parler des traitements du TDAH parce que le fils d’un de leurs amis « prend une pilule pour cette maladie »: ils vous interrogent sur les médicaments que l’on peut prescrire dans cette indication.\nÀ propos de la prescription des psychostimulants, quelles sont les deux réponses exactes ?",
+          "choix": [
+            "A) Les psychostimulants possèdent, à des degrés divers, des effets orexigènes.",
+            "B) Le Modiodal® est une forme à libération prolongée du méthylphénidate.",
+            "C) Le méthylphénidate à libération immédiate a une durée d’action d’environ 6 heures.",
+            "D) Le modafinil augmente la transmission dopaminergique.",
+            "E) Les psychostimulants sont notamment prescrits pour réduire la somnolence diurne excessive."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un peu désemparé par la précision de leurs questions, vous leur faites un schéma pour leur expliquer l’action du méthylphénidate au niveau cérébral.\nConcernant les psychostimulants, quelle la réponse exacte ?",
+          "choix": [
+            "A) Le méthylphénidate est un inhibiteur de la recapture de la noradrénaline et, dans une moindre mesure, de la dopamine.",
+            "B) Le méthylphénidate est un inhibiteur de la recapture de la sérotonine et, dans une moindre mesure, de la noradrénaline.",
+            "C) Le méthylphénidate est un inhibiteur de la recapture de la noradrénaline et, dans une moindre mesure, de la sérotonine.",
+            "D) Le méthylphénidate est un inhibiteur de la recapture de la sérotonine et, dans une moindre mesure, de la dopamine.",
+            "E) Le méthylphénidate est un inhibiteur de la recapture de la dopamine et, dans une moindre mesure, de la noradrénaline."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396062678-7cbd35ecc9f",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Madame X, âgée de 38 ans a été opérée d’une prothèse de hanche gauche dans les suites d’un accident de la voie publique il y a deux ans.\nElle a présenté une infection nosocomiale dans les suites opératoires et a subi une deuxième chirurgie de lavage intra-articulaire et de parage.\nElle a réalisé de multiples séances de kinésithérapie et malgré cela, les douleurs persistaient. Son médecin lui a prescrit de la codéine en trois prises quotidiennes pendant 1 mois. Elle n’avait pas d’amélioration de la douleur et la codéine a été remplacée par du tramadol pendant six mois puis du sulfate de morphine qu’elle prend depuis 1 an.\nDepuis trois mois, son médecin augmente les doses de morphine et la pharmacie l’a alerté car Madame X demande tous les mois d’avancer la délivrance de son traitement. Elle ne ressent plus les effets antalgiques dans la journée, ce qui l’oblige à augmenter les doses. Elle se gratte beaucoup. Elle se dit déprimée et quand elle n’arrive pas à dormir, elle prend deux comprimés de sulfate de morphine en plus. Son médecin vous sollicite pour une prise en charge addictologique.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les six symptômes d’intoxication aux opiacés qui peuvent être rencontrés",
+          "choix": [
+            "A) Un myosis serré",
+            "B) Une Hypertension artérielle",
+            "C) Une bradypnée",
+            "D) Une sensation de bien-être intense",
+            "E) Une somnolence"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le syndrome de sevrage aux opiacés comporte 12 symptômes qui se rencontrent fréquemment chez les patients présentant un trouble de l’usage des opioïdes:",
+          "choix": [
+            "A) Une anorexie",
+            "B) Des douleurs abdominales",
+            "C) Une rhinorrhée",
+            "D) Une hyperphagie",
+            "E) Des baillements",
+            "F) Une bradycardie",
+            "G) Une mydriase",
+            "H) Une irritabilité",
+            "I) Du craving ou une envie irrépressible de consommer",
+            "J) Des diarrhées",
+            "K) Une attaque de panique",
+            "L) Une insomnie",
+            "M) Des contractures musculaires",
+            "N) Une polyurie",
+            "O) Des frissons"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "O"
+          ],
+          "maxReponses": 12,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelles sont les deux classes médicamenteuses qui sont indiquées dans la substitution d’un trouble de l’usage des opioïdes",
+          "choix": [],
+          "reponses": [
+            "Chlorhydrate de méthadone et buprenorphine haut dosage"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396066623-f44a71f867f288",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Mme A, 30 ans, se présente aux urgences, adressée par son médecin traitant car elle présente depuis 20 jours une apparition d’idées suicidaires. Le médecin traitant vous informe qu’elle présente une anhédonie, à la fois de plaisir et de motivation, depuis 3 semaine. A l’examen clinique, vous retrouvez cette anhédonie, prédominant sur la perte de motivation associée à une tristesse de l’humeur. Mme A se plaint d’une somnolence diurne avec des difficultés de concentration. Elle se dit très fatiguée. Elle vous informe qu’elle a tendance à grignoter de manière très fréquente ce qui n’était pas le cas avant la perte de motivation. Elle a pris 5Kg..",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de l’évaluation du risque suicidaire, que recherchez-vous?",
+          "choix": [
+            "A) Un antécédent de suicide dans la famille",
+            "B) Un antécédent de tentative de suicide chez mme A.",
+            "C) Un isolement",
+            "D) Une pathologie psychiatrique",
+            "E) Un trouble d'usage des substance"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les critères qui nécessiteront une hospitalisation lors d’une crise suicidaire ?",
+          "choix": [
+            "A) Risque suicidaire avec un degré d’urgence moyen",
+            "B) Risque suicidaire avec un degré d’urgence élevé",
+            "C) Risque suicidaire avec un degré d’urgence faible ou moyen associé à un trouble psychiatrique décompensés",
+            "D) Existence d’idée suicidaire nécessite une hospitalisation systématique",
+            "E) Risque suicidaire avec un degré d’urgence faible ou moyen associé à un trouble psychiatrique stabilisé"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme A. présente un risque suicide avec un degré d’urgence élevé, vous décidez de l’hospitaliser. Afin de proposer une prise en charge adaptée, vous poursuivez l’examen clinique afin de poser un diagnostic.\nVous suspectez un épisode dépressif caractérisé. Quel(s) diagnostic(s) différentiel(s) recherchez-vous afin de confirmer ou infirmer votre diagnostic ?",
+          "choix": [
+            "A) Un trouble bipolaire",
+            "B) Un trouble d’usage des substances",
+            "C) Un trouble thyroïdien type hypothyroïdie",
+            "D) Un trouble thyroïdien type maladie de Cushing",
+            "E) Un trouble anxieux"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’examen physique est sans particularité et la biologie (NFS, plaquette, ionogramme sang, TSH, Glycémie à jeun, CRP) est sans anomalie.\nVous confirmez un épisode dépressif caractérisé. Quelle stratégie médicamenteuse proposée vous en 1ère intention ?",
+          "choix": [
+            "A) Un antidépresseur type imipraminique",
+            "B) Un antidépresseur type inhibiteur de la monoamine oxydase (IMAO)",
+            "C) Un antidépresseur type inhibiteur sélectif de la recapture de la sérotonine (ISRS)",
+            "D) Un antidépresseur type inhibiteur de la recapture de la sérotonine et de la noradrénaline (IRSNa)",
+            "E) Un antidépresseur type « autres antidépresseurs »"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous optez pour un antidépresseur type inhibiteur sélectif de la recapture de la sérotonine (ISRS). quelles sont les deux contre indications absolues à son utitilisation?",
+          "choix": [
+            "A) Insuffisance hépatique",
+            "B) Association aux IMAO",
+            "C) Grossesse",
+            "D) Allaitement",
+            "E) Hypersensibilité/allergie connue"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles prises en charge non pharmacologique mettez-vous en place pour le suivi au long cours ?",
+          "choix": [
+            "A) Éducation thérapeutique",
+            "B) Remédiation cognitive",
+            "C) Réadaptation psychosociale",
+            "D) Psychothérapie type TCC",
+            "E) Psychothérapie interpersonnelle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396071566-8da488614c778",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pédopsychiatre travaillant au sein du Centre de Ressource Autisme (CRA), vous recevez le jeune Cédric, âgé de 3 ans, dans le cadre d’un adressage par son CMP de secteur en vue de la confirmation d’un diagnostic de trouble du spectre de l’autisme (TSA). Cet enfant et sa famille vont rencontrer plusieurs professionnels du CRA tout au long de la semaine et vous êtes chargé de coordonner cette semaine d’évaluation ainsi que la réunion de synthèse pluridisciplinaire qui devrait permettre de confirmer le diagnostic suspecté et de proposer des grands axes de prise en charge. À la fin de l’entretien d’évaluation, votre interne vous interroge sur les troubles du neurodéveloppement.\nÀ propos des troubles du neurodéveloppement, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La présence de tics moteurs multiples et de plusieurs tics vocaux (parfois de type coprolalie) indique un syndrome de Capgras.",
+            "B) Les troubles neurodéveloppementaux ont une prévalence élevée d’environ 20%.",
+            "C) Le TDAH a une prévalence d’environ 1%.",
+            "D) Certaines carences affectives graves, des abus ou des maltraitances peuvent entraîner des troubles réactionnels de l’attachement.",
+            "E) Les troubles du développement intellectuel (TDI) ou handicaps intellectuels sont caractérisés par un déficit global des capacités mentales."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre de l’hospitalisation dans un service de pédopsychiatrie d’une patiente âgée de 15 ans souffrant d’une anorexie sévère avec un IMC à 12,5 kg/m2, un protocole de renutrition per os est mis en place, incluant des compléments nutritionnels oraux.\nCette patiente, qui continue à se faire vomir, arrive à consommer les trois compléments journaliers prescrits ainsi que la moitié des repas servis chaque jour. Elle reprend dans ce contexte rapidement du poids (2 kg par semaine environ). Un lundi matin, elle signale en fin d’entretien à votre interne se sentir bizarrement un peu fatiguée et avoir du mal à se chausser.\nLe lendemain, la patiente présente des œdèmes francs des pieds, est essoufflée et vous semble assez apathique en entretien. Le bilan biologique retrouve des perturbations du bilan hépatique, des troubles de l’hémostase et du ionogramme plasmatique.\nÀ propos des troubles des conduites alimentaires chez l’adolescent, quelle est la ou quelles sont les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Une perte de poids rapide (plus de 500 grammes/semaine) chez une adolescente souffrant d’anorexie mentale constitue un critère d’hospitalisation.",
+            "B) Il n’existe pas de traitement pharmacologique spécifique de l’anorexie mentale.",
+            "C) Hyperphosphorémie, hyperkaliémie et hypermagnésémie sont des marqueurs classiques d’un syndrome de renutrition inapproprié.",
+            "D) Il est recommandé que la prise en charge initiale s’effectue en hospitalisation.",
+            "E) Dans l’anorexie mentale, il est recommandé que la psychothérapie choisie se poursuive au moins un an après une amélioration clinique significative."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Samuel vous est amené en consultation pour la visite systématique des deux ans. Il n’a aucun antécédent périnatal particulier et les étapes de son développement psychomoteur se sont jusqu’ici déroulées sans problème (il a marché à 14 mois). La mère de Samuel vous signale cependant qu’elle s’inquiète parce qu'il n’utilise encore aucun mot.\nÀ propos du développement psychomoteur de l’enfant, quelles sont les deux réponses exactes ?",
+          "choix": [
+            "A) Une absence de mastication des aliments solides à 6 mois constitue une situation anormale.",
+            "B) Un QI total inférieur à 70 correspond à 2 écarts-types sous la moyenne des enfants du même âge.",
+            "C) Les acquisitions correspondent aux performances que l’enfant va progressivement développer et qui nécessiteront un contexte scolaire.",
+            "D) Une propreté diurne non acquise à 24 mois (urines + selles) constitue une situation anormale.",
+            "E) Une absence de périodicité jour/nuit à 6 mois constitue une situation anormale."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Médecin généraliste travaillant en cabinet libéral, vous recevez début mars 2022 la jeune Lola, 15 ans, accompagnée par ses deux parents. Vous connaissez bien cette famille, et notamment Lola que vous suivez depuis sa naissance. Dès le début de la consultation, ses parents vous disent qu’ils sont très inquiets pour Lola, avec qui la communication est de plus en plus difficile depuis plusieurs mois. Vous comprenez que Lola, qui veut être danseuse, passe de plus en plus de temps à s’entraîner (plus de 10 heures par semaine) et que ses parents ont l’impression de ne plus la voir. Cela est d’autant plus vrai que Lola, excellente élève, passe son temps enfermée dans sa chambre pour travailler, quand elle n’est pas à ses entraînements de danse.\nLola intervient alors pour vous dire qu’elle n’est pas du tout d’accord avec la façon qu’ont ses parents de présenter la situation : elle vous précise par exemple que c’est elle qui s’occupe du dîner pour toute la famille (elle a deux frères plus jeunes qu’elle). « Oui mais elle ne mange jamais rien elle-même, c’est bien la peine de passer autant de temps à cuisiner… » vous précise alors sa mère.\nVous examinez et interrogez Lola et notez les éléments suivants : fréquence cardiaque = 45 bpm ; TA = 95 / 60 mmHg ; température = 36,5 °C ; poids = 38 kg et taille = 158 cm, soit un IMC d’environ 15,3 kg/m2 ; légère acrocyanose digitale, absence de règles (auparavant présentes) depuis 8 mois.\nInterpellé par ce tableau, chez cette patiente pour laquelle vous vous étiez déjà posé la question d’un possible trouble des conduites alimentaires lors de consultations précédentes, vous craignez un diagnostic d’anorexie mentale. Vous consultez son carnet de santé et constatez que Lola pesait, lors de sa dernière visite chez vous en janvier 2022, 50 kg pour une taille de 158 cm (soit un IMC d’environ 20,1 kg/m2).\nÀ propos du diagnostic d’anorexie mentale d’après le DSM-5, quelle la réponse exacte ?",
+          "choix": [
+            "A) Il suppose une augmentation des apports énergétiques par rapport aux besoins conduisant à un poids significativement bas.",
+            "B) Il implique une peur intense de prendre du poids et de devenir gros, malgré un poids normal.",
+            "C) Il nécessite l’association d’une altération de la perception du poids et d’une forte estime de soi, malgré une reconnaissance de la gravité de la maigreur actuelle.",
+            "D) Le type restrictif implique que la perte de poids au cours des 3 derniers mois est essentiellement obtenue par le régime, le jeûne et/ou l’exercice physique excessif.",
+            "E) Le type accès hyperphagique/purgatif implique la présence, au cours des 2 dernières années, de crises d’hyperphagie récurrentes et/ou un recour à des vomissements provoqués ou à des comportements purgatifs"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Interne en pédopsychiatrie, vous recevez en consultation le jeune Tom âgé de 3 ans. Vous l’observez et essayez de lui parler et de jouer un peu avec lui. Vous êtes frappé par le fait qu’il ne lève à aucun moment les yeux vers vous ; il ne regarde pas non plus sa mère lorsqu’elle l’appelle. Il semble en revanche très intéressé par une petite voiture rouge qu’il a attrapée dans votre caisse de jouets : il la regarde de très près et semble absorbé par le mouvement des roues, qu’il fait tourner de façon répétitive, tout en se balançant. Vous lui tendez d’autres jouets qu’il repousse de la main, toujours sans vous regarder.\nComment appelle-t-on le pointage servant à l’enfant à montrer pour attirer l’attention d’autrui sur un objet ?",
+          "choix": [],
+          "reponses": [
+            "proto-déclaratif"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les diagnostics différentiels d’un épisode dépressif ?",
+          "choix": [
+            "A) Troubles de la personnalité état-limite",
+            "B) Trouble anxieux généralisé",
+            "C) TOC",
+            "D) Trouble d’usage des substances",
+            "E) Dysthyroidie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les diagnostics différentiels psychiatrique d’un trouble schizophrénique ?",
+          "choix": [
+            "A) Trouble dépressif",
+            "B) Trouble bipolaire",
+            "C) Trouble délirant persistant",
+            "D) Trouble de stress post traumatique",
+            "E) Trouble du spectre de l’autisme"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 syndromes cardinaux retrouvés dans la schizophrénie ?",
+          "choix": [
+            "A) Syndrome négatif",
+            "B) Syndrome mixte",
+            "C) Syndrome positif",
+            "D) Syndrome de désorganisation",
+            "E) Syndrome de dissociation"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l’indication d’utilisation des hypnotiques ?",
+          "choix": [
+            "A) Syndrome d’apnée hypopnée obstructif du sommeil",
+            "B) Syndrome des jambes sans repos",
+            "C) Trouble insomnie aigüe",
+            "D) Trouble insomnie Chronique",
+            "E) Hypersomnie idiopathique"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 27,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la 3ième partie de l’évaluation de la crise suicidaire, en plus des facteurs de risque et la dangerosité ?",
+          "choix": [],
+          "reponses": [
+            "Urgence"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

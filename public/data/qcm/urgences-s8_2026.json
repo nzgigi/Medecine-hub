@@ -1,0 +1,493 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s8",
+  "annee": 2026,
+  "title": "Urgences - 2026",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 58 ans présente une douleur thoracique constrictive brutale, irradiant au bras gauche ayant débuté au repos. L’électrocardiogramme montre un sus-décalage V2-V4.\nQuelles sont les bonnes réponses ?",
+          "choix": [
+            "A) L’urgence est la désobstruction coronaire.",
+            "B) Le patient présente un angor stable.",
+            "C) La coronarographie est recommandée en 1ère intention si elle est réalisable en < 120 minutes.",
+            "D) La coronarographie est un examen uniquement diagnostic.",
+            "E) La thrombolyse est une alternative à la coronarographie si la douleur thoracique dure depuis plus de 12 heures."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la physiopathologie des syndromes coronariens aigus (SCA), quelles propositions sont exactes ?",
+          "choix": [
+            "A) La rupture d’une plaque d’athérome vulnérable entraîne la formation d’un thrombus pouvant emboliser en distalité",
+            "B) Les SCA résultent d’une progression lente et régulière de la sténose athéroscléreuse",
+            "C) Un thrombus riche en plaquettes, non occlusif, est plutôt associé aux SCA sans sus-décalage du ST",
+            "D) L’ischémie myocardique aiguë peut être favorisée par une augmentation des besoins en oxygène du myocarde",
+            "E) La sténose athéroscléreuse fixe est le mécanisme principal des SCA"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 55 ans est retrouvé inconscient. Les secours rapportent un rythme initial en fibrillation ventriculaire. Après défibrillation, une activité circulatoire spontanée est obtenue. A l'hôpital, il reste comateux.\nQuelles sont les réponses justes ?",
+          "choix": [
+            "A) La fibrillation ventriculaire comme rythme initial est associée à un meilleur pronostic que l'asystolie",
+            "B) Le temps de réanimation sans rétablissement d'une hémodynamique convenable (pouls et pression artérielle stable) définit le temps de no flow",
+            "C) Durant la RCP il est essentiel de s'assurer de la très bonne qualité des compressions en se relayant ou en utilisant du matériel de compression",
+            "D) Les causes cardiaques d'arrêt circulatoire sont multiples incluant diverses cardiomyopathies, des valvulopathies sévères, des troubles du rythme ou de la conduction",
+            "E) La thrombolyse préhospitalière n'est pas recommandée à titre systématique mais réservée au cas par cas, en cas d'infarctus du myocarde ou d'embolie pulmonaire massive avérés ou fortement suspectés."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin SMUR et intervenez auprès d’un patient de 46 ans ayant chuté du toit d’une grange dont la hauteur est évaluée à environ 7 mètres alors qu’il y faisait des travaux. A votre arrivée le patient est agité avec un score de Glasgow évalué à 11. Il présente un traumatisme crânien avec une plaie délabrante de la paupière gauche, une douleur de l’épaule gauche, une défense à la palpation abdominale sans instabilité à la palpation du bassin ainsi qu’une déformation de la cuisse gauche œdématiée, raccourcie et hyperalgique. Il a une fréquence respiratoire à 28 cycles par minutes et une auscultation pulmonaire qui retrouve un murmure vésiculaire présent de manière symétrique. Les paramètres vitaux sont les suivants : fréquence cardiaque à 110, tension artérielle à droite à 99/62, saturation à 97 en AA\nEn quoi consiste votre prise en charge extrahospitalière de ce patient polytraumatisé ?",
+          "choix": [
+            "A) Mise en place d’un monitorage continu",
+            "B) Suture de la plaie de la paupière",
+            "C) Immobilisation de la jambe gauche par traction",
+            "D) Intubation oro-trachéale",
+            "E) Immobilisation par matelas à dépression et collier cervical rigide"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes de garde aux urgences et vous recevez une patiente de 81 ans, opérée il y a 1 mois d’une fracture du col huméral droit par arthroplastie (mise en place d’une prothèse totale de hanche). Elle vous est adressée pour douleur de la hanche droite évoluant depuis 3 jours. À l’interrogatoire vous ne retrouvez pas de nouveau traumatisme récent.\nQuelles étiologies pouvez-vous suspecter ?",
+          "choix": [
+            "A) Une infection du site opératoire",
+            "B) Un retard de consolidation",
+            "C) Une ostéonécrose de la tête fémorale",
+            "D) Une fracture péri-prothétique",
+            "E) Un descellement de la prothèse"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prenez en charge une patiente de 57 ans, qui consulte pour douleur lombaire gauche, associée à une hématurie et une fièvre. La patiente est algique, vous décidez de lui injecter de la morphine. La BU réalisée à son arrivée est positive avec sang, leuco et nitrites. La patiente est dépressive sous venlafaxine. Elle a reçu un traitement par fluoroquinolone il y a 2 mois pour un autre épisode de pyélonéphrite.\nConcernant sa prise en charge :",
+          "choix": [
+            "A) Vous introduisez une antibiothérapie par AUGMENTIN",
+            "B) Vous faîtes prélever un ECBU avant l'antibiothérapie",
+            "C) Vous demandez une imagerie abdominale",
+            "D) En cas d'obstacle sur les voies urinaires, une bi-antibiothérapie per os est nécessaire",
+            "E) En l'absence d'obstacle sur les voies urinaires ou d'abcès, cette pyélonéphrite peut être traitée par Fluoroquinolone per os pendant 7 jours"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous prenez en charge aux urgences un patient de 73 ans BPCO GOLD 4 pour une exacerbation aigue sévère de sa maladie. Le bilan met en évidence une acidose respiratoire mais ne retrouve pas d’étiologie à cette exacerbation.\nParmi les thérapeutiques suivantes, laquelle ne vous semble pas pertinente ?",
+          "choix": [
+            "A) Béta 2 agoniste en nébulisation",
+            "B) Anticholinergique en nébulisation",
+            "C) Oxygénothérapie avec objectif SpO2 92-96 %",
+            "D) Ventilation non invasive",
+            "E) Antibiothérapie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "De garde la nuit, vous êtes appelés en gériatrie pour une patiente de 85 ans qui se plaint de douleur abdominopelvienne depuis 21h. Elle est hospitalisée suite à une chute au domicile ayant révélé un tassement vertébral thoracique bas. Elle est depuis traitée par morphinique. L’infirmière vous informe qu’elle n’a pas uriné depuis la fin de matinée. Vous palpez une voussure au-dessus de la symphyse pubienne.\nQuelle est la proposition juste parmi les suivantes ?",
+          "choix": [
+            "A) L’introduction récente de morphine pourrait avoir provoqué une constipation mais pas une rétention aigue d’urine.",
+            "B) Une imagerie est nécessaire pour confirmer la rétention aigue d’urine",
+            "C) Un bilan biologique pourrait être nécessaire à la recherche d’une hyperkaliémie",
+            "D) Il n’est pas nécessaire de réaliser d’ECBU devant la forte hypothèse iatrogène à cette rétention aiguë d’urine.",
+            "E) La mise en place de laxatifs n’a aucun intérêt pour la prise en charge de la rétention aigue d’urine de cette patiente"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez un patient cirrhotique aux urgences pour douleurs abdominale diffuse et fièvre.\nQuelle est la première cause de péritonite primaire chez le patient cirrhotique ?",
+          "choix": [],
+          "reponses": [
+            "Infection de liquide d'ascite"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez aux urgences ce patient de 23 ans sans ATCD pour une douleur thoracique. La radiographie thoracique est la suivante :\nQuel est votre diagnostic ? (3 mots)",
+          "choix": [],
+          "reponses": [
+            "pneumothorax apical gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 10,
+          "images": [
+            "/images/qcm/urgences-s8/2026/q10.webp?v=1786370407087"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370406984-18f1befcf71d88",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez aux urgences Mme CS, 76 ans, qui présente une fièvre avec des brulures mictionnelles et douleur lombaire gauche évoluant depuis 24 heures. A son arrivée, elle présente les paramètres suivants : tension artérielle = 90/57, fréquence cardiaque = 101 bpm, SpO2 = 95%AA , fréquence respiratoire = 25 mvts/min, T° = 39,4°C. Elle serait anurique depuis 4 heures, et présente des marbrures des 2 genoux.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment définissez-vous l’état de cette patiente ? (1 mot)",
+          "choix": [],
+          "reponses": [
+            "sepsi"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 4 éléments à initier dans l’heure ?",
+          "choix": [
+            "A) Collecter l’ECBU",
+            "B) Collecter les hémocultures",
+            "C) Réaliser une radiographie thoracique",
+            "D) Mettre en place une voie centrale",
+            "E) Doser les lactates",
+            "F) Initier une antibiothérapie probabiliste",
+            "G) Initier un remplissage vasculaire par cristalloïdes",
+            "H) Initier les catécholamines"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "F",
+            "G"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Malgré vos thérapeutiques initiales, la patiente reste hypotendue et les lactates restent élevés à 4 mmol/L. Le scanner des voies urinaires retrouve une dilatation des cavités pyélocalicielles gauches sur un obstacle lithiasique, vous faisant poser le diagnostic de pyélonéphrite obstructive.\nQuelle(s) mesure(s) vous semble(nt) justifiée(s) ?",
+          "choix": [
+            "A) Changement de l’antibiothérapie",
+            "B) Intubation urgente immédiate",
+            "C) Appel au réanimateur de garde",
+            "D) Appel à l’urologue pour discuter dérivation urgente",
+            "E) Introduction de noradrénaline"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370407743-b76f262ddff118",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes médecin généraliste en cabinet, vous recevez Mr C, 31 ans, sans antécédents médico-chirurgicaux. Il consulte devant une constipation inhabituelle depuis 3 jours.\nDevant l’absence de critères de gravité ou d’éléments orientant vers une cause organique évidente, vous conseillez et prescrivez au patient une prise en charge de première intention.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels éléments font partie de la prise en charge primaire d’une constipation simple ?",
+          "choix": [
+            "A) Correction d'un déficit de la ration alimentaire en fibre",
+            "B) Une optimisation des apports hydriques",
+            "C) Une prescription pour la réalisation d’une coloscopie",
+            "D) Des laxatifs stimulants",
+            "E) Des laxatifs par voie rectale"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Deux jours plus tard, après avoir essayé la mise en place de règles hygiénodiétetiques et avoir pris finalement des laxatifs osmotiques, il ne présente toujours pas de selles. Inquiet, il consulte aux urgences.\nVous êtes le médecin le recevant à l’accueil des urgences suite à l’appel de l’infirmière d’accueil et d’orientation.\nIl vous rapporte que la fréquence de ses gazs diminue, il présente une douleur dans l’ensemble du cadre colique, légèrement majorée en fosse iliaque droite à la palpation. Il est apyrétique, normotendu, présente une fréquence cardiaque à 95 bpm, avec une saturation normale. Il côte sa douleur à 5/10 malgré la prise de paracetamol, et rapporte un épisode unique de frisson cette nuit.\nQuels éléments vous font admettre ce patient aux urgences pour de plus amples explorations ?",
+          "choix": [
+            "A) une localisation de la douleur en fosse iliaque droite",
+            "B) une constipation inhabituelle chez un patient jeune sans antécédent",
+            "C) une tachycardie",
+            "D) une douleur ne cédant pas au paracétamol",
+            "E) la diminution des gaz"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le patient est soulagé par antalgiques IV, et le bilan biologique retrouve une hyperleucocytose à 15 G/L associé à une CRP à 132 mg/L. Le reste du bilan est normal; Vous demandez une imagerie abdominale",
+          "choix": [
+            "A) une pneumopathie basale droite",
+            "B) une cholécystite lithiasique",
+            "C) une appendicite abcédée",
+            "D) un globe urinaire",
+            "E) une pyélonéphrite obstructive droite sur lithiase urinaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/urgences-s8/2026/q16.webp?v=1786370408894",
+            "/images/qcm/urgences-s8/2026/q16_1.webp?v=1786370409022",
+            "/images/qcm/urgences-s8/2026/q16_2.webp?v=1786370409106",
+            "/images/qcm/urgences-s8/2026/q16_3.webp?v=1786370409141"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le radiologue vous appelle pour vous informer de l’appendicite abcédée perforée de Mr C, que vous aviez déjà brillamment diagnostiqué à l’imagerie.\nEn quoi consiste votre prise en charge ?",
+          "choix": [
+            "A) Introduction d’amoxicilline IV",
+            "B) Introduction de C3G et Métronidazole",
+            "C) Mise à jeun du patient",
+            "D) Orientation en hépato gastro-entérologie",
+            "E) Appel du chirurgien digestif de garde"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Avant son transfert en chirurgie digestive, l’infirmière vous appelle lors de son tour en zone de surveillance car le patient se dégrade. Il est douloureux, pâle, en sueurs et marbré aux genoux.\nLes paramètres vitaux sont les suivants: PA 84/53 mmHg, FC 130 bpm, Sat 97%.\nLa gazométrie artérielle que vous demandez est la suivant: Ph 7.31, PaO2 84 mmHg, PCO2 32 mmHg, HCO3- 18 mmol/L, lactate à 6 mmol/L.\nQue faites-vous ?",
+          "choix": [
+            "A) Remplissage avec des cristalloïdes",
+            "B) Introduction de vasopresseurs",
+            "C) Surveillance de la diurèse",
+            "D) Antalgie par morphiniques IV",
+            "E) Transfert immédiat en salle opératoire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Après 1,5L de remplissage en 45 minutes avec des cristalloïdes et de l’antalgie, les paramètres vitaux du patient sont les suivants: PA 86/54 mmHg, Sat 99% sous 2L d’O2, FC 118 bpm. Le patient n’a pas uriné depuis son entrée aux urgences.\nQue faites-vous ?",
+          "choix": [
+            "A) Transfert en réanimation",
+            "B) Introduction de vasopresseurs",
+            "C) Dialyse du patient",
+            "D) Mise en place d'une voie veineuse centrale et d'un cathéter artériel",
+            "E) Intubation oro-trachéale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370409971-20fa1a110c81a8",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Le SAMU reçoit un appel à 19h pour Mme E, 42 ans. Elle a présenté un accident de la voie publique, conductrice d’un véhicule léger, avec choc frontal contre un platane. D’après le passager ayant donné l’appel, elle est inconsciente mais respire. Elle n’a pas d’antécédent médical, présente a priori un tabagisme actif (1/2 paquet par jour), fume occasionnellement du cannabis, prend de la cocaïne quotidiennement (prise ce jour vers 16h).",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A l’arrivée de l’équipe médicalisée du SMUR sur place, quels sont les 3 éléments à prioriser ?",
+          "choix": [
+            "A) Evaluer le score de Glasgow",
+            "B) Mesurer l’alcoolémie expirée",
+            "C) Examiner des pupilles",
+            "D) Réaliser un test à l’annexate",
+            "E) Prendre les paramètres vitaux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les paramètres vitaux sont les suivants : SpO2 94 % en air ambiant, Fréquence respiratoire 10/min, Pression artérielle 120/70, pouls 84/min. La patiente n’ouvre pas les yeux à l’appel ni à la douleur. Elle présente un enroulement des 4 membres à la douleur. La pupille gauche est en mydriase aréactive. Elle a un hématome en lunettes.\nQuelle(s) est(sont) les affirmation(s) vraie(s) ?",
+          "choix": [
+            "A) Le score de Glasgow est à 7",
+            "B) La mydriase aréactive est en signe en faveur d’une hypertension intracrânienne",
+            "C) La prise en charge doit comprendre une osmothérapie",
+            "D) Un maintien de l’axe tête-cou-tronc est nécessaire lors de la mobilisation",
+            "E) Il faut rapidement transporter la patiente dans un centre de niveau 1, qui comprend notamment un neurochirurgien de garde"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’osmothérapie a été réalisée et la patiente a été intubée et mise sous ventilation mécanique. Elle reste stable sur le plan hémodynamique et est peu oxygénorequérante. Elle est transférée au déchocage de Purpan.\nQuelles sont les deux affirmations vraies ?",
+          "choix": [
+            "A) Il faut réévaluer les pupilles après l’osmothérapie. Si la mydriase aréactive n’a pas régressé, il est recommandé d’y associer du sérum glucosé hypotonique (G2,5 % ou G5%) afin de diminuer la pression oncotique extracellulaire et faire diminuer l’hypertension intracrânienne.",
+            "B) La cible de pression artérielle systolique pendant la prise en charge de cette patiente doit être de 90mmHg (hypotension permissive).",
+            "C) Une des premières choses à faire à l’arrivée au déchocage est un Doppler transcrânien qui recherche des signes d’hypertension intra-crânienne en étudiant les pressions de l’artère cérébrale moyenne.",
+            "D) Il faut examiner la patiente à la recherche d’autres signes de traumatisme.",
+            "E) La réalisation d’une échographie type « FAST » (Focussed Assesment with Sonography for Trauma) est contre-indiquée car il faut d’abord aller au scanner."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente passe rapidement en mydriase bilatérale aréactive avant l’arrivée au déchocage malgré une perfusion de sérum salé hypertonique (osmothérapie) et contrôle des ACSOS. L’examen à l’arrivée au déchocage ne montre pas d’autres signes de traumatisme et la FAST échographie est normale. Le scanner montre un volumineux hématome sous-dural gauche et des contusions bi-frontales avec engagement sous falcoriel de 17 mm et engagement des amygdales cérébelleuses, ainsi que des possibles lésions axonales diffuses. L’équipe du déchocage prend avis auprès du neurochirurgien de garde.\nQuelle(s) est(sont) les affirmation(s) vraie(s) ?",
+          "choix": [
+            "A) Cette patiente présente des signes de gravité",
+            "B) L’évolution de cette hypertension intracrânienne peut conduire à un arrêt de la perfusion cérébrale, ce qui correspond à une mort encéphalique",
+            "C) Une évacuation chirurgicale peut être proposée à cette patiente en urgence relative (dans les 48h)",
+            "D) Il est obligatoire selon la loi Claeys-Leonneti de 2016 d’opérer cette patiente, les limitations/arrêts des thérapeutiques ne peuvent pas être décidées en urgence",
+            "E) L’entretien avec la famille de la patiente ne doit pas mentionner que le pronostic vital est engagé afin de ne pas inquiéter ses proches sans raison"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

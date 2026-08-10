@@ -1,0 +1,761 @@
+{
+  "matiere": "Maladies transmissibles",
+  "slug": "maladies-transmissibles-s8",
+  "annee": 2023,
+  "title": "Maladies transmissibles - 2023",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes concernant les septicémies/fongémies (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) En cas de septicémie avec des cocci gram + en chainettes à l’examen direct des hémocultures, la Ceftriaxone est l’antibiotique de 1ère intention",
+            "B) En cas de septicémie à Staphylococcus aureus meti-S, la Vancomycine est l’antibiotique de 1ère intention",
+            "C) La négativation des hémocultures sous antibiotiques doit être contrôlée de façon systématique en cas de septicémie à Staphylococcus aureus",
+            "D) Si une seule hémoculture est positive à Staphylococcus aureus sur 4 prélevées au total, il peut s’agir d’une contamination lors du prélèvement",
+            "E) Un fond d’œil est indiqué en cas de fongémie à Candida pour rechercher une endophtalmie"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Des hémocultures à cocci gram + en chainettes orientent vers un Streptocoque, Pneumocoque, ou Entérocoque et l’amoxicilline est l’antibiotique de 1ère intention. Les Enterocoques sont naturellement résistants aux C3G. L’antibiothérapie du SAMS est la péni-M ; les glycopeptides sont indiqués en cas de SAMR.\nUne seule HC positive à S. aureus doit être considérée, à la différence des germes saprophytes de la flore cutanée (SCN). Un bilan d’extension des localisations secondaires est systématique en cas de fongémie, notamment la recherche de localisations oculaires.",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 réponses exactes concernant les infections ORL ?",
+          "choix": [
+            "A) Pneumocoque et Haemophilus influenzae sont les bactéries les plus souvent impliquées dans les sinusites maxillaires",
+            "B) Les Pneumocoques de sensibilité diminuée à la pénicilline nécessitent l’ajout d’acide clavulanique pour restaurer la sensibilité de l’amoxicilline",
+            "C) L’amoxicilline-acide clavulanique est l’antibiothérapie de 1ère intention d’une sinusite maxillaire aiguë non dentaire de l’adulte",
+            "D) Le risque d’otite moyenne aigue justifie une antibiothérapie systématique en cas de rhinopharyngite chez l’enfant de moins de 2 ans",
+            "E) En cas de contre-indication formelle aux beta-lactamines (anaphylaxie), le cotrimoxazole (Sulfamethoxazole- Trimethoprime) est indiqué pour le traitement d’une otite moyenne aigue chez l’enfant"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Le mécanisme de résistance des Pneumocoques de sensibilité diminuée à la pénicilline passe par une modification des PLP mais pas par la production d’une pénicillinase. Les inhibiteurs de beta-lactamase n’ont donc pas d’effet pour restaurer la sensibilité.\nL’amoxicilline est l’antibiotique de 1ère intention dans les sinusites maxillaires aiguës de l’adulte (cible principale Pneumocoque, puis Haemophilus influenzae dont la majorité des souches sont sensibles à l’amoxicilline, Streptococcus pyogenes…).\nLa majorité des rhinopharyngites aigues sont virales et ne justifient pas d’antibiothérapie quelques soit l’âge.\nLes C3G orales sont indiquées en cas d’allergie non grave à la pénicilline, mais en cas de contre-indication formelle aux beta-lactamines du fait d’une anaphylaxie, le cotrimoxazole est l’antibiotique recommandé, malgré la fréquence significative des résistances du Pneumocoque.",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes concernant les tests virologiques pour le dépistage et diagnostic de l’infection VIH (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) La sérologie par test ELISA de 4ème génération détecte les anticorps du VIH-1 et du VIH-2",
+            "B) Le Western-blot est plus sensible que l’ELISA",
+            "C) En cas de test ELISA positif et de Western-blot négatif, il s’agit d’un faux positif du test ELISA",
+            "D) La quantification de l’ARN VIH-1 plasmatique doit être réalisée en cas de suspicion de primo-infection même si le test ELISA est négatif",
+            "E) Un auto-test négatif permet d’exclure une infection VIH en cas d’exposition datant de plus de 3 semaines"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "La sérologie VIH ELISA de 4ème génération détecte de façon couplée les Anticorps anti-VIH-1 et VIH-2 et l’antigène p24 du VIH-1.\nLe Western-blot est plus spécifique mais moins sensible que le test ELISA.\nPour affirmer une fausse positivité du test ELISA, le Western-blot et l’ARN VIH plasmatique doivent être négatifs. Un test ELISA positif avec un Western blot négatif peut correspondre à une primo-infection VIH.\nLes auto-tests VIH, comme les TROD, peuvent manquer de sensibilité en cas d’infection récente de moins de 3 mois.",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 réponses exactes concernant le traitement des infections à HSV / VZV ?",
+          "choix": [
+            "A) L’aciclovir par voie orale est utilisé en 1ère intention dans le traitement de la varicelle",
+            "B) Un zona de l’immunocompétent est une indication à un traitement par valaciclovir systématique",
+            "C) Un zona ophtalmique est une indication à un traitement antiviral par voie générale",
+            "D) L’aciclovir a une mauvaise biodisponibilité orale et doit donc être utilisé par voie IV dans les infections graves à HSV/VZV",
+            "E) L’aciclovir a une toxicité essentiellement hématologique"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Il n’y a pas d’indication à un traitement antiviral systématique de la varicelle.\nDe même, Il n’y a pas d’indication à un traitement antiviral systématique du zona de l’adulte immunocompétent.\nSi un traitement est indiqué (>50 ans, zona ophtalmique), le valaciclovir est l’antiviral de 1ère intention.\nL’aciclovir a une mauvaise biodisponibilité orale et sa prodrogue, le valaciclovir, est donc préféré par voie orale. L’aciclovir doit être utilisé par voie IV dans les infections graves.\nL’aciclovir a principalement une toxicité rénale.",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 réponses exactes concernant les infections urinaires masculines ?",
+          "choix": [
+            "A) Une bandelette urinaire négative a une bonne valeur prédictive négative",
+            "B) Le cefixime (C3G orale) est un antibiotique de 1ère intention pour le traitement probabiliste",
+            "C) Une prise d’amoxicilline-acide clavulanique au cours des 3 derniers mois est un facteur de risque de résistance aux C3G",
+            "D) Le cotrimoxazole (Trimethoprime-Sulfamethoxazole) est en antibiotique à bonne diffusion prostatique",
+            "E) Le Cotrimoxazole (Trimethoprime-Sulfamethoxazole) est un antibiotique de 1ère intention pour le traitement probabiliste"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "La BU a une bonne VPN chez la femme mais pas chez l’homme.\nLes C3G orales ont une faible biodisponibilité par voie orale, et les concentrations sériques obtenues sont insuffisantes pour le traitement des infections urinaires masculines.\nLa prise d’amoxicilline-acide clavulanique, de C3G, ou de fluoroquinolone (antibiotiques particulièrement pourvoyeurs d’antibiorésistance) dans les 3 mois est associée à une augmentation du risque de sélection de bactérie résistante aux C3G (BLSE le plus souvent).\nLe cotrimoxazole, comme les FQ, a une bonne diffusion prostatique.\nMais il n’est pas recommandé en 1ère intention pour le traitement probabiliste du fait de la fréquence importante de résistance d’E. coli. Il ne doit être utilisé que sur les données de l’antibiogramme.",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes cliniques et radiologiques suivants, quel(s) est/sont celui/ceux qui permet(tent) d’affirmer une infection ostéo-articulaire sur une prothèse de genou ?",
+          "choix": [
+            "A) Présence d’un oedème en regard de l’articulation à l’examen clinique",
+            "B) Orifice cutané de fistule en regard de la tubérosité tibiale antérieure",
+            "C) Présence d’un épanchement articulaire à l’échographie",
+            "D) Liseré de descellement de l’implant tibial à la radiologie",
+            "E) Fixation osseuse du traceur (99mTc) sur la scintigraphie osseuse"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "Une fistule cutanée en regard d’une prothèse articulaire sous-jacente est pathognomonique d’une infection ostéo-articulaire chronique.\nLa présence d’un œdème, d’un épanchement, d’un descellement des implants, ou une fixation à la scintigraphie osseuse ne permettent pas d’affirmer pas le caractère septique vs. caractère mécanique.",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous prenez en charge aux urgences une femme de 75 ans pour un sepsis secondaire à une pyélonéphrite aigue sur obstacle lithiasique. Cette patiente est porteuse d’une sonde urinaire à demeure posée au décours d’un AVC ischémique survenu il y a 1 mois et pour lequel elle a été admise en rééducation. Elle a présenté il y a 3 semaines une cystite sur sonde urinaire à E. coli identifiée comme productrice de beta-lactamase de spectre étendu (BLSE) traitée par Ofloxacine. En parallèle de la prise en charge du sepsis et du drainage des urines vous débutez une antibiothérapie par Meropenem et Amikacine. Quelle est la justification chez cette patiente de la prescription d’une carbapeneme dans ce contexte de sepsis ?",
+          "choix": [],
+          "reponses": [
+            "Infection à entérobactérale résistante aux C3G",
+            "Infection à E-BLSE",
+            "E-BLSE",
+            "BLSE",
+            "présence de BLSE",
+            "EBLSE",
+            "E.Coli BLSE",
+            "E.coli productrice de BLSE",
+            "infection par BLSE il y a 3 semaines",
+            "antécédant de BLSE il y a 3 semaines",
+            "antécédent d’infection à BLSE",
+            "infection à BLSE",
+            "EBLSE il y a moins de 3 mois",
+            "antécédent d‘infection à BLSE",
+            "production de BLSE par E.coli",
+            "Antécédent récent de colonisation à BLSE",
+            "antecedent d'infection à EBLSE",
+            "presence E coli beta lactalase spectre etendu",
+            "episode E.coli blse il y a 3 sem",
+            "E.Coli BSLE",
+            "risque de BLSE",
+            "antécédent d'infection à E.coli productrice de BLSE",
+            "antécédent d'infection a BLSE récente",
+            "Active sur les BLSE",
+            "Risque d‘EBLSE",
+            "antécédent récent d'infection à une BLSE",
+            "Patiente en sepsis avec antecedent de BLSE",
+            "antécédent de BLSE < 3 mois",
+            "antécedent de cystite à entérobactérie productrice de beta-lactamase de spectre étendu",
+            "antécédant de cystite à E.coli productrice de BLSE il y a 3 semaines",
+            "Antécédent eblse il y a 3 semaines",
+            "antécédent récent d'infection à E.coli productrice de BLSE",
+            "probable sepsis a E.Coli BLSE",
+            "infection précédente à E.Coli BLSE",
+            "infection récente à une bactérie productrice de BLSE",
+            "antécédent cystite BLSE",
+            "antécédent d'infection à E.Coli productrice de beta lactamase de spectre étendu",
+            "presence de E.coli BLSE",
+            "Antécédent récent de cystite à E.coli producteur de BLSE",
+            "infection il y a 3 semaines à E.coli BLSE",
+            "cystite sur sonde urinaire à E. coli identifiée comme productrice de beta-lactamase de spectre étendu (BLSE) il y a 3",
+            "semaines",
+            "la presence de blse",
+            "infection à BLSE < 3 mois",
+            "Antecedent de BLSE",
+            "antécédent d'infection EBLSE",
+            "atcd de cystite à EBLSE il y a 3 semaines (< 3 mois)",
+            "E Coli a BLSE",
+            "antécédent de BLSE",
+            "cystite à E.coli productrice de BLSE il y a 3 semaines",
+            "gravité + antecedent d'infection a EBLSE < 6 mois",
+            "E.coli BLSE",
+            "infection recente par une bacterie productrice de BLSE",
+            "antécédent de bactérie productrice de beta-lactamase de spectre étendu",
+            "bactéries productrices de BLSE",
+            "facteurs de risque EBLSE",
+            "cystite à E.Coli BLSE traitée par fluoroquinolones",
+            "le sepsis est probablement du a E.coli BLSE et la prescription anterieure de fluoroquinolones impose de couvrir plus large",
+            "avec un carbapeneme (pyelonephrite +sepsis)",
+            "productrice de BLSE",
+            "Infection récente à E-coli resistant (BLSE) et utilisation d'une fluoroquinolone dans les 3 derniers mois.",
+            "E.coli resistante aux c3g",
+            "sepsis à EBLSE",
+            "Prescription d’ofloxacine récente avec suspicion de BLSE",
+            "infection urinaire nosocomiale grave à e. coli productrice de BLSE résistante à la première ligne de traitement",
+            "prendre en compte le risque de BLSE dans le cadre du sepsis et patiente a risque avec une sonde a demeure et une BLSE",
+            "zvec une prise de fluoroquinlone il y a 3 semaines",
+            "blse",
+            "présence de blse",
+            "EBLSE traité par ofloxacine il y a 3 semaines",
+            "Resistance aux C3G due au E Coli BLSE",
+            "haute résistance bactérienne (e coli BLSE)",
+            "récidive infection à BLSE",
+            "Elle a eu un traitement par Ofloxacine sur BLSE recemment : eviter resistance",
+            "antecedent de BLSE",
+            "antécédent d'infection par EBLSE < 3 mois",
+            "antecedent d'infection a E.Coli productrice de BLSE",
+            "pyelonephrite grave a E.Coli BLSE",
+            "Tableau de pyelonephrite grave avec facteur de risque de BLSE resistance aux C3G (traitement par ofloxacine depuis moins",
+            "de 6mois et antecdent d'infection a BLSE)",
+            "Traitée il y a moins de 6 mois par fluoroquinolones pour EBLSE",
+            "infection à EBLSE il y a 3 semaines",
+            "FDR EBLSE : EBLSE recente + ttt par FQ recent = carbapeneme",
+            "antédédent d'infection à entérobactérie productrice de BLSE il y a 3 semaines",
+            "porteuse de BLSE et traitée par fluoroquinolone il y a 3 semaines",
+            "bacterie BLSE",
+            "infection BLSE",
+            "E.coli productrice de BLSE recidivante",
+            "antecedant de BLSE il y a 1 mois",
+            "infection a bacterie secretrice de BLSE recente",
+            "antecedent il y a 3 semaines d‘IU a E. coli BLSE",
+            "E BLSE il y a moins de 3 mois",
+            "E. Coli BLSE",
+            "infection a E Coli BLSE il y a 3 semaines",
+            "antécédent de traitement d'une BSLE E. coli par Ofloxacine",
+            "Bactérie productrice de BLSE",
+            "antécédents d'infection à BLSE",
+            "infection a BLSE dans les 3 mois",
+            "BLSE il y a 3 semaines",
+            "Antécédent d‘infection à EBLSE",
+            "elle a une bacterie productrice de BLSE",
+            "antécedent de présence récente de BLSE",
+            "antécédent d'infection à entérobactérie productrice de BLSE dans les 3 mois",
+            "car BLSE deja traité par ofloxacine",
+            "infection a BLSE recidivante",
+            "antécédant EBLSE",
+            "Ecoli identifiee comme BLSE",
+            "resistance de EBLSE datant de moins de 3 mois",
+            "Infection par une BLSE < 3 mois + traitement par Fluoroquinolone",
+            "E coli BLSE",
+            "antécédent d'infection à EBLSE",
+            "infection il y a moins de 3 mois par bacteries productrices de BLSE",
+            "elle a presenté il y a moins de trois mois une infection à bactérie productrice de BLSE",
+            "infection à E.coli productrice de beta-lactamase de spectre étendu il y a 3 semaine",
+            "antécédant d'infection à E. Coli BLSE",
+            "cystite à BLSE traitée par fluoroquinolone",
+            "BLSE +fluoroquinolone utilisé il y a 3 semaines",
+            "Infection antérieure à bactérie résistante BLSE",
+            "antécédent d'infection par une bactérie productrice de beta-lactamase",
+            "PNA associé à un sepsis et une BLSE est traitée par carbapeneme et amikacine",
+            "patiente porteuse d'une BMR",
+            "BLSE 3 semaine avant",
+            "infection récente e coli blse traitée par fluoroquinolone",
+            "e coli productrice de BLSE multirésistante",
+            "présence d'enterobacterie productrice de BLSE",
+            "présence d'une bactérie productrice BLSE déja traitée par C3G dans les 6 derniers mois",
+            "Infection récente a BLSE",
+            "Portage récent de BLSE et utilisation du fluoroquinolones il y a moins de 3 mois",
+            "traitement recent par ofloxacine pour BLSE",
+            "Fluoroquinolones et infection à BLSE il y a moins de 3 mois",
+            "Antécédent de BLSE dans les 3 derniers mois",
+            "BLSE traité par fluoroquinolone < 3 mois",
+            "E coli productrice de BLSE",
+            "antecedant des germe BLSE",
+            "antecedent de portage de bacterie BLSE chez la patiente",
+            "BLSE traitée par fluoroquinolone il y a 3 semaines",
+            "Bacterie multiresistante et historique de multiples antibiotherapies recentes",
+            "infection recente par BLSE (avec risque de choc septique)",
+            "ATCD de cystite à E. Coli à BLSE",
+            "risque de bacterie resistante car antecedent de blse traite par ofloxacine il y a moins de 3 semaines",
+            "Récidive sur E.coli à BLSE",
+            "E. coli productice de beta-lactamase connue",
+            "E.coli productrice de BLSE deja traitee par fluoroquinolone",
+            "sepsis sur BLSE",
+            "elle a eu une infection à enterobacterie productrice de BLSE dans les 3 mois precedents",
+            "Infection grave BLSE",
+            "présence de BLSE qui est résistant aux beta lactamines",
+            "infection nosocomial a BLSE",
+            "E. coli BLSE",
+            "suspicion de BLSE",
+            "Risque d'EBLSE (BLSE < 3 mois)",
+            "antécédent d'infection à EBLSE il y a 3 semaines",
+            "Traite une infection à BLSE",
+            "sepsis avec plusieurs facteurs de risque de BLSE",
+            "BLSE dans les 3 derniers mois",
+            "antécédent de cystite à E.Coli BLSE",
+            "résistance possible due au traitement d'une BLSE par ofloxacine 3 semaines avant",
+            "il y a un fort risque de EBLSE (infection à une EBLSE < 1mois, traitée en plus par Fluoroquinolones qui sont a risque de",
+            "sélection de résistance) dans un contexte de PNA grave (sepsis) donc bithérapie Carbapeneme-Amikacine",
+            "Cystite à EBLSE il y a 3 semaines",
+            "antécédent récent de colonisation à eb blse+",
+            "Infection récente à BLSE",
+            "antécédent de EBLSE",
+            "eviter les resistances bacteriennes chez une patiente a risque de BLSE et donc pas possible de mettre beta lactamine +",
+            "gravite pas attendre ecbu",
+            "Présence de E. coli à BLSE",
+            "présence d'une BLSE il y a moins de 3 semaines",
+            "Antécédent d'infection à EBLSE"
+          ],
+          "correctionExplanation": "La colonisation ou l’infection connue récente à entérobactérale résistante aux C3G est le seul critère devant un uro-sepsis autorisant la prescription d’une carbapeneme. En cas de choc septique n’importe lequel des autres facteurs de risque d’infection à entérobactérale résistante aux C3G aurait permis cette prescription (exposition à des antibiotiques, infection associée aux soins, voyage dans une zone géographique connue à risque).",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une patiente de 23 ans consulte pour une diarrhée aigue évoluant depuis 24 heures. Elle n’a pas d’antécédent et n’a pas voyagé dans les derniers mois. Elle ne prend aucun traitement. Elle présente en effet depuis hier des douleurs abdominales diffuses avec une accélération du transit avec 5 selles liquides/jour. Il n’y a pas de sang ni de glaire dans les selles. A l’examen : 37,2°C, TA 120/80, Fc 80 bpm, SaO2 100%. L’EVA est à 1/10. L’abdomen est souple mais sensible de manière diffuse sans défense. Le reste de l’examen est normal Elle est la seule dans son entourage à avoir cette symptomatologie. Quel syndrome diarrhéique identifiez-vous chez cette patiente ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome cholériforme",
+            "Diarrhée cholériforme",
+            "syndrome choleriforme",
+            "cholériforme",
+            "choleriforme",
+            "Cholériforme",
+            "Syndrome choleriforme",
+            "syndrome cholérique",
+            "cholerique",
+            "diarrhee choleriforme",
+            "diahrée cholérique",
+            "diarhee choleiforme",
+            "choleiforme",
+            "syndrome choléiforme",
+            "chloréiforme",
+            "syndrome entero-toxinogène (cholériforme)",
+            "diarreique choleriforme",
+            "syndome choleriforme",
+            "syndrome diarrhéique cholériforme",
+            "Choléiriforme",
+            "diarrhée choleriforme",
+            "syndrome choléïforme"
+          ],
+          "correctionExplanation": "Diarrhée liquidienne non glairosanglante sans ﬁèvre",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous voyez en consultation un homme de 45 ans accompagné de son fils de 10 ans. Aucun des deux n’a d’antécédent. Les deux sont à jour de leurs vaccinations. Le père a présenté il y a 1 mois une au décours d’une catarrhe ORL une toux quinteuse sans fièvre qui a durée 3 semaines avant de s’atténuer progressivement. Le fils présente la même symptomatologie depuis 1 semaine. Vous évoquez la coqueluche. Quel moyen pourrait vous permettre de confirmer ce diagnostic ?",
+          "choix": [
+            "A) Aucun",
+            "B) PCR Bordetella sur écouvillonnage naso-pharyngé chez le père",
+            "C) Sérologie chez le père",
+            "D) Sérologie chez le fils",
+            "E) PCR Bordetella sur écouvillonnage naso-pharyngé chez le fils"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Retenir que devant une suspicion clinique de coqueluche, une conﬁrmation est requise, et de façon impérative si une personne à risque a été exposée.\nMoyens diagnostiques : PCR Bordetella sur écouvillonnage naso-pharyngé (alternative : culture sur milieu spécifique)\nChez le cas index si symptômes évoluent < 3 semaines\nSi les symptômes chez le cas index évoluent > 3 semaines è chez un individu contact symptomatique du cas index\nLa sérologie n’est jamais indiquée.",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un homme de 55 ans consulte aux urgences pour une hémoptysie. Il n’a pas d’antécédent médical. Il rapporte avoir de la fièvre trainant depuis 2 mois. Il présente une toux ancienne qui s’est elle aussi majorée depuis quelques semaines, associée à des douleurs basi-thoraciques gauche. Il n’avait jamais présenté d’hémoptysie jusqu’à présent. La radiographie thoracique met en évidence une image nodulaire associée à un épanchement pleural gauche. Vous évoquez un cancer ou une tuberculose. Parmi les propositions suivantes laquelle plaiderait pour une tuberculose ?",
+          "choix": [
+            "A) Nodule situé dans le lobe inférieur",
+            "B) Présence d’une perte de poids",
+            "C) Patient né en France",
+            "D) Patient incarcéré en maison d’arrêt",
+            "E) Patient tabagique actif"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "La tuberculose est une maladie sociale à composante médicale.\nIl y a des facteurs de risque importants impliqués dans la survenue de la tuberculose :\nla dénutrition,\ndes conditions socio-économiques défavorables (pauvreté, précarité, milieu carcéral), les migrants en provenance d’une zone de forte endémie,\net une immunodépression acquise (VIH/SIDA, immunodépression liée à une maladie et/ou la prise\nd’immunosuppresseurs, les biothérapies anti-TNFα, la corticothérapie au long cours).",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296952466-ca6d97df8825c",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous voyez en consultation un homme de 18 ans sans antécédent. Il présente depuis 10 jours une fièvre authentifiée entre 38,5 et 39°C. Il s’est présenté aux Urgences il y a 48 heures. Devant l’absence de signes de gravité et de point d’appel évident il est rentré à domicile avec un traitement symptomatique. Il revient vous voir parce que la fièvre persiste. Il vous montre les résultats de la NFS réalisée aux urgences :\nHémoglobine 13 g/dL\nVGM 92 fL\nPlaquettes 170 G/L\nLeucocytes 14,9 G/L\nFormule leucocytaire:\nPolynucléaires neutrophiles: 4,3 G/L (31%)\nPolynucléaires éosinophiles: 0,1 G/L (1%)\nPolynucléaires basophiles: 0,1 G/L (1%)\nLymphocytes: 3,9 G/L (28%)\nMonocytes: 0,3 G/L (2%)\nCellules mononuclées hyperbasophiles: 5,2 G/L (37%)",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle entité biologique reconnaissez-vous sur cet hémogramme ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome mononucléosique"
+          ],
+          "correctionExplanation": "Proportion > 50 % de cellules mononuclées dans la population leucocytaire et proportion > 10 % de lymphocytes activés\n(taille augmentée, coloration basophile). En pratique, on parle souvent de syndrome mononucléosique dès qu’il y a des lymphocytes hyper-basophiles (activés) sans exiger les pourcentages necéssaires à la déﬁnition.",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La numération formule sanguine identifie un syndrome mononucléosique. Quels sont les 4 éléments anamnestiques et physiques pertinents pour l’orientation étiologique dans ce contexte ?",
+          "choix": [
+            "A) Consommation de viande crue",
+            "B) Baignade en rivière",
+            "C) Présence de vergetures pourpres",
+            "D) Présence d’un souffle valvulaire",
+            "E) Présence d’un érythème migrant",
+            "F) Présence d’adénopathies cervicales postérieures",
+            "G) Présence d’un foyer de crépitants pulmonaire",
+            "H) Morsure animale",
+            "I) Rapports sexuels non protégés",
+            "J) Présence d’un chancre syphilitique"
+          ],
+          "reponses": [
+            "A",
+            "F",
+            "I",
+            "J"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "Devant un syndrome mononucléosique il convient de chercher à l’interrogatoire et l’examen physique des arguments pour\nles principales causes infectieuses : EBV (angine classiquement pseudo-membraneuse, polyadénopathie, splénomégalie),\nCMV (polyadénopathie, splénomégalie), VIH (à évoquer SYSTEMATIQUEMENT, exposition sexuelle, exanthème, pharyngite, polyadénopathie), Toxoplasma (contact avec un chat ou consommation de viande crue, adénopathies surtout cervicales postérieures) et secondairement les causes infectieuses plus rares (hépatites virales, arboviroses, plus rarement infections bactériennes). La syphilis secondaire est une cause de syndrome mononucléosique. La présence d’un chancre syphilitique plaide ici pour la présence d’expositions sexuelles à risque d’IST.",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il a eu plusieurs rapports sexuels non protégés dans les 2 derniers mois. Dans ce contexte quel est l’examen sérologique incontournable et urgent ?",
+          "choix": [
+            "A) Sérologie VIH",
+            "B) Sérologie CMV",
+            "C) Sérologie Toxoplasmose",
+            "D) Sérologie EBV",
+            "E) Sérologie syphilis"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "Le diagnostic de primo-infection par le VIH ayant des conséquences majeures à titre individuel et collectif, c’est ici l’examen incontournable et urgent, même si les autres sérologies seront réalisées).",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296953241-ca5560917739a",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous voyez aux urgences un homme de 40 ans pour une plaie du mollet droit suite à une morsure par le chien de ses voisins alors qu’il faisait du vélo. Il n’a pas d’antécédents significatifs ni d’allergies connues.\nLa plaie fait 8 cm de long, les berges sont contuses, et elle est souillée par un peu de terre.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 réponses exactes concernant le tétanos ?",
+          "choix": [
+            "A) L’agent du tétanos, Clostridium tetani, est une bactérie tellurique",
+            "B) Le tétanos est éradiqué en France",
+            "C) Le tétanos est une toxi-infection bactérienne aiguë",
+            "D) La survenue d’un trismus douloureux fébrile est le signe principal qui doit faire évoquer un tétanos",
+            "E) C’est une maladie contagieuse qui implique la mise en place de précautions complémentaires contact"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Le tétanos est dû à la production de neuro-toxine par Clostridium tetani, bacille gram positif tellurique\nLe trismus est bilatéral, indolore, et sans fièvre.\nIl n’y a pas de transmission interhumaine.",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il a reçu les vaccinations du calendrier vaccinal dans l’enfance et l’adolescence, et sur son carnet de santé, sa dernière vaccination anti-tétanique remonte à l’âge de 25 ans.\nParmi les propositions suivantes, quelles sont les 2 mesures que vous mettez en place pour la prévention du tétanos ?",
+          "choix": [
+            "A) Désinfection de la plaie",
+            "B) Rappel de vaccination anti-tétanique",
+            "C) Injection d’immunoglobulines anti-tétaniques",
+            "D) Séro-vaccination avec rappel de vaccination et injection d’immunoglobulines anti-tétaniques",
+            "E) Pas de rappel vaccinal ni d’injection d’immunoglobulines anti-tétaniques"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Le parage et la désinfection de la plaie sont des mesures systématiques devant toute plaie.\nSujet à jour de sa vaccination anti-tétanique (vaccination initiale et rappel tous les 20 ans entre 25 et 65 ans chez l’adulte non immunodéprimé).\nPas d’indication à un rappel vaccinal ni à une injection d’Ig anti-tétaniques quelle que soit la plaie.\nLui indiquer la date du prochain rappel (à 45 ans dans son cas).",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il est inquiet concernant le risque de rage car le chien était agressif.\nQuelle est la réponse fausse concernant la transmission de la rage ?",
+          "choix": [
+            "A) La salive d’un animal infecté est le liquide biologique le plus souvent vecteur de la rage",
+            "B) Le chien est l’animal le plus souvent impliqué dans la transmission du virus rabique à l’homme",
+            "C) Le chien peut excréter du virus rabique dans sa salive pendant plusieurs mois et constitue donc le réservoir viral principal",
+            "D) Il n’y a pas de rage chez les mammifères terrestres sauvages en France",
+            "E) Les chauves-souris peuvent être un vecteur de la rage en France"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Un chien atteint de rage et excrétant le virus dans sa salive va rapidement présenter des symptômes de rage et décéder.",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est votre attitude concernant le risque de rage pour cette morsure ?",
+          "choix": [
+            "A) Vaccination anti-rabique par schéma court (Zagreb)",
+            "B) Vaccination anti-rabique par schéma long (Essen)",
+            "C) Injection d’immunoglobulines anti-rabique autour de la plaie et à distance",
+            "D) Séro-vaccination anti-rabique",
+            "E) Abstention thérapeutique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Pas de risque de rage en France en cas de morsure par un mammifère terrestre en dehors d’un animal récemment importé d’une zone d’enzootie rabique, ce qui n’est pas le cas ici.",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A quels risques de pathogènes l’expose cette morsure de chien (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Bartonella henselae",
+            "B) Streptococcus sp",
+            "C) Leptospira interrogans",
+            "D) Pasteurella multocida",
+            "E) Borrelia burgdorferi"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "La flore salivaire des chiens comporte des Streptocoques, des anaérobies, et Pasteurella\nL’animal vecteur de Bartonella henselae est le chat\nLes rongeurs sont la source principale de la leptospirose. Le chien peut excréter des Leptospires dans ses urines mais n’est pas contagieux par morsure (à la différence des rongeurs).\nBorrelia burgdorferi est l’agent de la maladie de Lyme transmise par les tiques.",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle antibiothérapie prophylactique proposez-vous à ce patient en 1ère intention ?",
+          "choix": [],
+          "reponses": [
+            "amoxicilline-acide clavulanique"
+          ],
+          "correctionExplanation": "Spectre actif sur la flore salivaire (Streptocoques oraux, anaérobies) et Pasteurella.\nAbsence d’allergie.",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Il n’a pas encore débuté l’antibiothérapie prescrite la veille et revient le lendemain matin avec un écoulement purulent au niveau de la plaie dont le pourtour est oedématié et erythémateux.\nQuel est le pathogène que vous suspectez en priorité ?",
+          "choix": [
+            "A) Bartonella henselae",
+            "B) Leptospira interrogans",
+            "C) Pasteurella multocida",
+            "D) Streptococcus salivarius",
+            "E) Fusobacterium necrophorum"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "L’incubation très courte de cette infection pyogène est très évocatrice d’une Pasteurellose.",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont parmi les propositions suivantes les 2 zoonoses où le chien peut être incriminé, directement ou indirectement ?",
+          "choix": [
+            "A) Bartonellose",
+            "B) Fièvre Q",
+            "C) Echinococcose kystique",
+            "D) Toxoplasmose",
+            "E) Leishmaniose viscérale à L. infantum"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Le chien intervient dans le cycle parasitaire d’Echinococcus granulosus (cycle chien/ovins-porcins) et dans celui des Leishmanioses viscérales à L. infantum (transmission du chien à l’homme par le vecteur phlébotome).",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296955420-b02bdcc8fd2978",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous voyez en consultation au centre de vaccination international de votre service un homme de 40 ans sans antécédent médical en prévision d’un séjour d’une semaine prévu en Inde cet été. Il s’agit d’un séjour itinérant chez l’habitant principalement en zone urbaine.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il est à jour des vaccinations du calendrier vaccinal. Parmi les propositions suivantes quelles sont les 2 vaccinations à recommander en vue de ce voyage ?",
+          "choix": [
+            "A) Fièvre jaune",
+            "B) Hépatite A",
+            "C) Méningocoque",
+            "D) Typhoïde",
+            "E) Rage"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Vaccin contre l’hépatite A et la typhoïde : séjour dans des zones à bas niveau d’hygiène, notamment dans le sous-continent indien.\nVaccin Fièvre jaune : Afrique intertropicale et région amazonienne\nVaccin contre les méningocoques : Afrique subsaharienne « ceinture de la méningite », Personnels médicaux, d’ONG\nVaccin contre la rage : Séjour prolongé ou aventureux et en situation d’isolement dans des zones d’enzootie rabique à haut risque",
+          "order": 1
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle chimioprophylaxie antipaludique recommandez-vous à ce patient en vue de ce voyage ?",
+          "choix": [
+            "A) Aucune",
+            "B) Doxycycline",
+            "C) Atovaquone-Proguanil",
+            "D) Mefloquine",
+            "E) Artenimol-Piperaquine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "Chimioprophylaxie n’est PLUS indiquée pour séjours touristiques « conventionnels » (séjours de moins d’un mois avec nuitées en zone urbaine) d’Asie et d’Amérique tropicale: risque < 1/100000/mois.\nCf https://www.hcsp.fr/explore.cgi/avisrapportsdomaine?clefr=1215\nDans tous les cas, le praticien doit identiﬁer, à partir des caractéristiques du voyage, un niveau de risque de paludisme et le confronter au proﬁl du voyageur, au risque d’eﬀets indésirables graves (EIG) des antipaludiques disponibles, et au choix du patient lui-même ou des parents pour les mineurs (notion de niveau de risque acceptable pour un patient donné) :\nen cas de risque élevé de transmission du paludisme (ex : Afrique subsaharienne, Papouasie), la CPAP est toujours nécessaire. Chez les jeunes enfants, les femmes enceintes et certaines personnes particulièrement fragiles, un niveau de risque très élevé et des contre-indications aux molécules antipaludiques peuvent amener le praticien à déconseiller certains voyages ;\ndans les situations où le risque d’eﬀets secondaires graves est plus important que le risque de transmission du\npaludisme (notamment dans la plupart des régions touristiques d’Asie et d’Amérique du Sud) dans le cadre de séjours conventionnels, il est légitime de ne pas prescrire de CPAP",
+          "order": 2
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient consulte aux Urgences 3 jours après son retour de voyage. Il présente depuis 48 heures de la fièvre à 39,5°C. Il se plaint principalement de douleurs articulaires et musculaires diffuses associées à des céphalées intermittentes rythmées par la fièvre. Il a eu 2 selles molles hier et aujourd’hui. Quel(s) est (sont) le(les) diagnostic(s) compatible(s) avec ces premiers éléments cliniques ?",
+          "choix": [
+            "A) Dengue",
+            "B) Shigellose",
+            "C) Leptospirose",
+            "D) Typhoïde",
+            "E) Schistosomose"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Chez ce patient l’incubation compatible va de 1 à 11 jours (début des symptômes à J11 du début du voyage et J1 du retour de voyage). Le tableau est une fièvre aigue avec arthromyalgies. Ces données sont compatibles avec une arbovirose (< 7 jours le plus souvent), une leptospirose, une rickettsiose ou une fièvre typhoide.\nUne shigellose serait compatible si l’on considère l’incubation (courte) mais le tableau clinique ne l’est pas : une shigellose serait responsable d’une diarrhée aigue (le plus souvent dysenterique), or le patient a eu < 3 selles/jour. L’incubation d’une schistosomose serait > 14 jours.",
+          "order": 3
+        },
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Si le patient présentait une dissociation pouls-température et que vous évoquiez la possibilité d’une typhoïde, quel examen complémentaire serait le plus pertinent à ce stade pour en faire le diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Hémocultures"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les constantes en dehors de la fièvre à 39°C et d’une tachycardie réactionnelle sont normales. L’examen physique est normal en dehors d’un exanthème. Les premiers éléments biologiques montrent :\nHémoglobine 14 g/dL\nVGM 92 fL\nPlaquettes 110 G/L\nLeucocytes 3,5 G/L\nFormule leucocytaire:\nPolynucléaires neutrophiles: 2,5 G/L\nPolynucléaires éosinophiles: 0,1 G/L\nPolynucléaires basophiles: 0,1 G/L\nLymphocytes: 0,8 G/L\nMonocytes: 0,5 G/L\nSodium : 138 mmol/L\nPotassium : 4 mmol/L\nUrée : 5 mg/dL\nCréatininémie 80 micromoles/L\nASAT : 55 UI/L\nALAT: 70 UI/L\nPAL: 120 IU/L\nBilirubine totale 8 mmol/L\nCRP : 12 mg/L\nBandelette urinaire normale\nQuels sont parmi des données cliniques et biologiques présentées par ce patient les 2 éléments plaidant en faveur d’une arbovirose et non d’une leptospirose ?",
+          "choix": [
+            "A) Présence d’un taux de CRP bas",
+            "B) Présence d’une thrombopénie",
+            "C) Présence d’une cytolyse hépatique",
+            "D) Présence d’un exanthème",
+            "E) Présence d’une leucopénie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Le tableau de fièvre algo-éruptive d’incubation courte associée à une thrombopénie est compatible avec une arbovirose, une leptospirose ou une rickettsiose. Les données biologiques différent toutefois avec\nTableau d’allure virale pour les arboviroses : leucopénie et CRP basse\nLeptospirose : Hyperleucocytose et CRP élevée. On s’attendrait dans cette dernière une atteinte rénale, musculaire Rickettsiose : Leucopénie et CRP élevée. On s’attendrait dans cette dernière à une escarre d’inoculation",
+          "order": 5
+        },
+        {
+          "id": 27,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous vous orientez vers une arbovirose et laissez le patient rentrer à domicile avec un traitement symptomatique. Vous le revoyez une semaine plus tard. Les examens complémentaires confirment le diagnostic de dengue. La symptomatologie est rentrée dans l’ordre. Il présente par contre depuis 3 jours des boutons du dos du pied qui le grattent.\nQuelle dermatose évoquez-vous ?",
+          "choix": [
+            "A) Leishmaniose cutanée",
+            "B) Loase",
+            "C) Larva migrans",
+            "D) Schistosome",
+            "E) Prurigo"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Larva migrans cutanée ankylostomienne\nAnkylostoma caninum, zones tropicales\nContact de la peau avec de la terre souillée par fèces d’animaux\nDiagnostic clinique devant contexte, éruption papuleuse suivie sillon serpigineux en zig-zag évoluant de qq cm par jour siégeant aux points de contact avec le sol avec caractère prurigineux\nEvolution bénigne en 2 à 8 semaines par mort in situ de la larve\nIvermectine en DU",
+          "order": 6,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2023/q27.png?v=1786296957058"
+          ]
+        },
+        {
+          "id": 28,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous revoyez le patient à 2 mois de son retour. Il présente depuis son retour des troubles du transit qui se sont accentués depuis 1 mois avec 4 à 5 selles molles ou liquides glaira-sanglantes. Il n’a pas de fièvre. Il a perdu 2 kg depuis 1 mois. L’abdomen est souple et indolore. Il ne prend aucun médicament.\nParmi les microbes suivants, quels sont les 2 potentiellement responsables de ce tableau clinique ?",
+          "choix": [
+            "A) Campylobacter jejuni",
+            "B) Giardia duodenalis",
+            "C) Entemoeba histolytica",
+            "D) Rotavirus",
+            "E) Salmonella Enteritidis"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Ce patient présente une diarrhée chronique au retour de voyage.\nChez l’immunocompétent, les virus et les bactéries enteropathogènes sont responsables de diarrhées aigues, et non chroniques.",
+          "order": 7
+        },
+        {
+          "id": 29,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les examens parasitologiques des selles identifient Giardia duodenalis. Quel traitement proposez-vous à ce patient en 1ère intention ?",
+          "choix": [
+            "A) Ivermectine",
+            "B) Metronidazole",
+            "C) Vancomycine",
+            "D) Praziquantel",
+            "E) Albendazole"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "Molécule Effets indésirables Précautions emploi Efficace sur\nNeuropathie, toxicité cérébelleuse, Giardiose\nMétronidazole Eviter traitement\ntoxicité hématologique Amoebose\nPO / IV prolongé > 3 semaines\nEffet antabuse Trichomonose\nOxyurose\nFlubendazole PO Peu, non absorbé Ankylostomose\nAscaridiose\nAu cours repas, Idem Flubendazole\nsurveillance NFS + + Trichinellose, Echinococcose\nTroubles digestifs, Cytolyse,\nAlbendazole PO transa kystique et alvéolaire, Toxocarose,\nleucopénie, alopécie, céphalées CI 1er trimestre Cysticercose, Filariose, Anguillulose\ngrossesse Et alternative sur Giardia\nAnguillulose\nIvermectine Ankylostomose\nEncéphalopathie A jeûn\nPO Filariose\nGale - pédiculose\nInefficace sur Bilharziose\nschistosomules, Distomatose\nPraziquantel PO Troubles digestifs\nintéractions Taeniasis\nmédicamenteuses Cysticercose",
+          "order": 8
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

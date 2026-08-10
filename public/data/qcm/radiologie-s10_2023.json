@@ -1,0 +1,425 @@
+{
+  "matiere": "Radiologie",
+  "slug": "radiologie-s10",
+  "annee": 2023,
+  "title": "Radiologie - 2023",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un patient de 18 ans consulte aux urgences pour des douleurs du genou droit avec impotence fonctionnelle et des douleurs du poignet gauche dans les suites d’une chute en snow board.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’examen d’imagerie à demander en première intention pour l’exploration de la gonalgie traumatique ?",
+          "choix": [],
+          "reponses": [
+            "Radiographies du genou F+ P",
+            "Radiographies du genou face et profil",
+            "Radiographies du genou face profil",
+            "radiographie face et profil",
+            "Radiographie du genou droit face et profil",
+            "radiographie du genou face profil",
+            "radiographie genou droit face profil",
+            "Radiographie face et profil du genou droit",
+            "radiographie de genou face et profil",
+            "radiographie du genou face et profil",
+            "radiographie de face et de profil du genou droit",
+            "Radio du genou 3 incidences",
+            "Radiographie genou droit (face profil)",
+            "radiographie genou face et profil",
+            "radiographie face profil",
+            "Radiographie de face et de profil du genou",
+            "radiographie de genou face profil",
+            "Radiographie du genoux face et profil",
+            "radiographie du genou droit face/profil",
+            "radiologie genou droit face et profil",
+            "Radiographie standard face et profil",
+            "Radiographie du genou droit face/profil",
+            "radiographie genou droit face + profil",
+            "radiographie de face et profil",
+            "Radio genou droit (2 incidences orthogonales)",
+            "radiographies du genou droit de face et de profil",
+            "radiographies du genou droit face et profil",
+            "Radiographies du genou droit face et profil",
+            "Radiographie du genou droit de face et de profil",
+            "radiographie genou face profil",
+            "radiographie du genou droit face et profil",
+            "radiographie du genou droit en decharge de face et de profil",
+            "radiographie genou droit Face Profil",
+            "radiographie du genou face + profil",
+            "Radio du genou droit face et profil",
+            "radiographie genou droit 2 incidences",
+            "Radiographie du genou droit face-profil",
+            "radiographies standards face profil",
+            "Radiographie face et profil",
+            "Radiographie du genou face + profil",
+            "radiologie face profil",
+            "Radiographie genou droit de face et de profil et déroulé patellaire",
+            "Radiographie face profil genoux droit"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le compte rendu de votre confrère radiologue mentionne :\n« Hemarthrose. Pas de lésion osseuse d’allure traumatique récente »\nQuel est le cliché radiographique correspondant à la description du compte rendu ?",
+          "choix": [
+            "A) A",
+            "B) B",
+            "C) C"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q2.png?v=1786299743592"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous demandez également des radiographies du poignet gauche présentées ci-après. Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) On observe une perte du parallélisme des lignes en projection des bords supérieur et inférieurs des os de la première rangée du carpe.",
+            "B) On observe une luxation ventrale du semilunaire",
+            "C) On observe une fracture de la styloïde ulnaire",
+            "D) On observe une fracture du pisiforme",
+            "E) On observe une fracture de l’hamulus de l’hamatum"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q3.png?v=1786299743952"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous revoyez le patient à 1 mois du traumatisme. Il présente des douleurs du genou droit de rythme mixte et une instabilité. A l’examen clinique, vous authentifiez une douleur à la palpation du plateau tibial latéral et un tiroir antérieur.\nQuel est l’examen d’imagerie le plus pertinent pour l’exploration de cette gonalgie traumatique ?",
+          "choix": [],
+          "reponses": [
+            "IRM DU GENOU",
+            "IRM",
+            "IRM du genou droit",
+            "IRM genou droit",
+            "irm",
+            "IRM genou",
+            "IRM du genoux",
+            "irm du genou droit",
+            "IRM de genou",
+            "IRM genoux droit",
+            "irm genou",
+            "IRM (Imagerie par Raisonnance Magnétique) du genou droit",
+            "Imagerie par résonnance magnétique du genou droit",
+            "IRM du genou droit sequence T2 fatsat non injecté",
+            "Imagerie par raisonnance magnétique",
+            "irm genou droit",
+            "IRM de genou droit",
+            "IRM du genout droit"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici deux images extraites de l’IRM. Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) La flèche 1 désigne le ligament collatéral latéral",
+            "B) La flèche 2 désigne le ménisque médial",
+            "C) La flèche 3 désigne le ligament croisé postérieur",
+            "D) L’image A est dans un plan sagittal, l’image B est dans un plan coronal",
+            "E) Il s’agit de séquences pondérées en T2 avec saturation du signal de la graisse"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q5.png?v=1786299745340"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des images extraites de l’IRM du genou suivante, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) L’IRM montre une rupture du ligament croisé antérieur",
+            "B) L’IRM montre un épanchement articulaire",
+            "C) L’IRM montre œdème du plateau tibial latéral",
+            "D) L’IRM montre une fissure traumatique du ménisque médial",
+            "E) L’IRM montre une rupture du ligament croisé postérieur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q6.png?v=1786299746015"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299746208-393b767f8fc3e8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une jeune femme de 36 ans, consulte aux urgences pour une douleur en fosse lombaire droite de survenue brutale avec irradiation dans les grandes lèvres. Elle n’a pas d’antécédents.\nVous suspectez une colique néphrétique. Elle est apyrétique. Elle reste algique malgré des antalgiques de niveau 2. Vous demandez une imagerie pour confirmer le diagnostic.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les examens suivants, quels sont les 3 examens que vous pouvez demander pour faire le diagnostic ?",
+          "choix": [
+            "A) Scanner sans injection de produits de contraste",
+            "B) Scanner avec injection de produits de contraste au temps portal",
+            "C) Scanner sans et avec injection de produit de contraste au temps artériel",
+            "D) Scanner avec injection de produits de contraste au temps excrétoire",
+            "E) Échographie rénale",
+            "F) Abdomen sans préparation",
+            "G) Cystographie rétrograde",
+            "H) Aucun examen",
+            "I) Scintigraphie DMSA"
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous avez le compte-rendu de l'échographie (Annexe)\nQuelle est la nature de la lésion décrite au pôle inférieur du rein gauche ? « la seconde située au pôle inférieur mesurée à 25 mm hypoéchogène avec renforcement postérieur des échos »",
+          "choix": [],
+          "reponses": [
+            "kystique",
+            "liquidienne",
+            "kyste",
+            "kyste liquidien",
+            "Kyste",
+            "Kyste liquidien",
+            "kyste rénal",
+            "lésion kystique",
+            "Kyste rénal",
+            "hydrique",
+            "liquidien",
+            "Lésion kystique",
+            "kystique liquidienne",
+            "liquidienne kystique",
+            "liquidienne (kyste)",
+            "liquide",
+            "lésion de nature kystique",
+            "kyste renal",
+            "kyste de nature liquidien",
+            "Liquidienne (kystique)",
+            "kyste liquidien renal",
+            "kystique (eau)",
+            "kyste rénal liquidien",
+            "Kyste renal gauche",
+            "kystique hydrique",
+            "Kyste renal",
+            "liquide (kyste)",
+            "liquidienne : kyste",
+            "kystique (liquidien)",
+            "lesion kystique hydrique",
+            "lesion liquidienne kystique",
+            "lesion Kystique",
+            "kyste renale",
+            "liquide, kyste",
+            "lésion kystique renale",
+            "kystique (liquidienne)",
+            "Liquidien",
+            "lesion kystique",
+            "kyste liquidienne",
+            "Lésion liquidienne",
+            "kyste rénal gauche",
+            "Liquidienne probablement kystique",
+            "nature liquidienne, lésion d'allure kystique",
+            "kyste (origine liquidienne)",
+            "eau (liquide)",
+            "nature kystique",
+            "kystique / liquidien",
+            "Kyste ( contenu liquidien )"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Devant la persistance de la symptomatologie clinique, un scanner est demandé. En voici une sélection d’images. Entourez l’anomalie responsable de la dilatation pyelocalicielle sur une des deux images.",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 3,
+          "zones": [
+            {
+              "x": 0.17485119047619047,
+              "y": 0.2410946800595238,
+              "radius": 0.02,
+              "label": "anomalie"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q9.png?v=1786299748574"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299748693-92b311df26c908",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr G, 47 ans, consulte pour une toux grasse évoluant depuis 8 jours. Il est fébrile à 39°. L’auscultation trouve un foyer de crépitants de la base droite\nIl est tabagique sevré à 15 PA.\nQuelles sont les propositions vraies ?",
+          "choix": [
+            "A) Vous suspectez une pneumopathie.",
+            "B) Vous suspectez une bronchite aiguë",
+            "C) Vous ne réalisez pas de bilan d’imagerie.",
+            "D) Vous réalisez une radiographie thoracique",
+            "E) Vous réalisez une radiographie thoracique puis un scanner thoracique"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une radiographie thoracique est réalisée pour une suspicion de pneumopathie chez un patient consultant pour une douleur basithoracique droite fébrile. A propos des critères de qualités de réalisation sur cette radiographie, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) La radiographie est réalisée en position couchée",
+            "B) Le cliché est correctement cadré : il inclut correctement les apex jusqu’aux culs de sac pleuraux latéraux et inférieurs",
+            "C) Le cliché est correctement centré : les clavicules sont symétriques par rapport à la ligne des épineuses",
+            "D) Le cliché est en expiration : nous pouvons compter au moins 12 arcs costaux antérieurs au-dessus de la coupole diaphragmatique droite",
+            "E) Le cliché est correctement contrasté : on peut distinguer le rachis thoracique en arrière du médiastin."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q11.png?v=1786299749195"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sur cette radiographie, vous décrivez : (sélectionnez les propositions justes)",
+          "choix": [
+            "A) Une opacité systématisée avec bronchogramme aérique",
+            "B) Un signe de la silhouette avec effacement du bord droit du cœur",
+            "C) Un signe de la silhouette avec visualisation du bord droit du cœur",
+            "D) Une opacité déclive avec concavité supérieure",
+            "E) Une opacité systématisée rétractile"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q12.png?v=1786299749534"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une radiographie thoracique est réalisée pour une suspicion de pneumopathie chez un patient consultant pour une douleur basithoracique droite fébrile.\nDans quel lobe est située l’anomalie radiographique ?",
+          "choix": [],
+          "reponses": [
+            "lobe moyen",
+            "lobe moyen droit",
+            "moyen",
+            "Lobe moyen droit",
+            "lobe moyen du poumon droit",
+            "Moyen",
+            "moyen droit",
+            "Lobe moyen du poumon droit",
+            "lobe moyen du poulon droit",
+            "lobe moyen (poumon droit)",
+            "lobe moyen poumon droit",
+            "moyen droit (ingula)",
+            "lobe droit moyen"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q13.png?v=1786299749838"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient consulte aux urgences pour dyspnée d’apparition brutale. Une embolie pulmonaire est suspectée. Voici le TDM réalisé. Quelle est la réponse juste ?",
+          "choix": [
+            "A) Le scanner montre une condensation parenchymateuse systématisée avec bronchogramme aérique",
+            "B) Le scanner montre une pneumopathie située dans le lobe moyen",
+            "C) Le scanner montre un infarctus pulmonaire",
+            "D) Le scanner montre un épanchement pleural basal droit",
+            "E) Le scanner montre une embolie pulmonaire droite"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/radiologie-s10/2023/q14.png?v=1786299750530"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

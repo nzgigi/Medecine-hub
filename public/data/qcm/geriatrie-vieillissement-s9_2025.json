@@ -1,0 +1,406 @@
+{
+  "matiere": "Gériatrie et vieillissement",
+  "slug": "geriatrie-vieillissement-s9",
+  "annee": 2025,
+  "title": "Gériatrie et vieillissement - 2025",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Madame O., âgée de 85 ans, est hospitalisée dans votre service de court séjour gériatrique depuis 48 heures devant une décompensation cardiaque faisant suite à un érysipèle de la jambe gauche.\nSes antécédents comprennent une maladie d’Alzheimer à un stade modéré (MMSE 15/30 en avril 2024), une insuffisance cardiaque à fraction d’éjection préservée, un diabète non insulinodépendant, une hypothyroïdie, une hystérectomie à l’âge de 45 ans, des gonalgies. Son traitement consiste en la prise de : BISOPROLOL, RAMIPRIL, METFORMINE, LEVOTHYROXINE, PARACETAMOL.\nElle vit avec son époux dans un appartement. Une auxiliaire de vie vient deux fois par semaine pour l’aider à faire sa toilette. Elle marche de manière précaire avec un rollator 2 roues.\nVous êtes appelés en urgence le matin à la visite par l’aide-soignante qui retrouve Madame O. au sol à côté de son lit, consciente mais très algique. Elle est manifestement tombée en voulant se lever seule pour aller aux toilettes.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Votre examen clinique et vos examens complémentaires vous amènent à diagnostiquer une fracture de la\nbranche ischio-pubienne droite et une fracture du sacrum. Vous donnez cette information à la fille de la patiente, qui se dit très surprise des conséquences fracturaires, sa mère étant tombée de sa hauteur. Vous lui expliquez que (3 réponses attendues) :",
+          "choix": [
+            "A) L’ostéoporose est normale chez le sujet âgé, l’âge étant un facteur de risque d’ostéoporose",
+            "B) Les fractures décrites sont considérées comme sévères",
+            "C) Un T-score ≤ - 2,5 permet de poser l’indication thérapeutique",
+            "D) Il existe des facteurs de risque d'ostéoporose chez Mme O.",
+            "E) Une ostéodensitométrie pourra être proposée"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La fille de Madame O. vous demande s’il ne faudrait pas suspecter une métastase osseuse. Que lui répondez vous ? Quelles sont les 3 réponses vraies ?",
+          "choix": [
+            "A) Il est nécessaire de rechercher une cause d’ostéopathie fragilisante, autre que l’ostéoporose primitive",
+            "B) La carence en vitamine D est une cause à rechercher en priorité",
+            "C) Le bilan biologique ne permettra pas d’orienter le diagnostic vers une cause néoplasique",
+            "D) L’insuffisance rénale chronique est une cause d’ostéopathie fragilisante",
+            "E) L’hypothyroïdie de sa mère est une cause d’ostéopathie fragilisante"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez un traitement par Biphosphonates. Concernant les Biphosphonates, quelle(s) affirmation(s) est/sont vraie(s) ?",
+          "choix": [
+            "A) Il s’agit d’un traitement de seconde intention",
+            "B) Les biphosphonates ont une action ostéoclastique",
+            "C) Il est toujours indispensable de s’assurer de l’absence d’insuffisance rénale aigue et d’hypercalcémie avant son administration",
+            "D) Le syndrome grippal est un effet indésirable très fréquent pour les formes intra veineuse",
+            "E) Le risque de survenue exceptionnelle d’ostéonécrose de mâchoire impose un examen dentaire avant traitement"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Malgré le traitement antalgique, les mobilisations restent difficiles et Madame O. est alitée la plupart de la journée. Elle est installée au fauteuil deux heures par jour, lors des repas. Quels sont les 3 risques auxquels elle est exposée ?",
+          "choix": [
+            "A) Baisse de la force musculaire",
+            "B) Dysautonomie avec hypertension",
+            "C) Attitude de rétropulsion",
+            "D) Risque d’escarre",
+            "E) Aucun, puisque Madame O. n’est pas dénutrie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 mesures dans la liste suivante que vous pourriez mettre en place dans le service pour limiter au maximum le risque d’escarre ?",
+          "choix": [
+            "A) Massage des zones à risque",
+            "B) Matelas à air statique",
+            "C) Matelas à air dynamique",
+            "D) Essayer d’augmenter le temps passer au fauteuil",
+            "E) Limiter les apports protidiques pour éviter la surcharge cardiaque"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelques jours plus tard, lors de la visite, vous êtes de nouveau interpellés dans le couloir par l’équipe soignante, qui après avoir passé du temps avec Madame O., vous confie son sentiment de déclin thymique très franc. Quel est le nom de l'échelle gériatrique permettant de repérer un état dépressif ?",
+          "choix": [],
+          "reponses": [
+            "geriatric depression scale",
+            "GDS",
+            "geriatric depression scale GDS",
+            "geriatric depression scale (GDS)",
+            "GDS (geriatric depression scale)",
+            "GDS (Geriatric Depression Scale)",
+            "GDS Geriatric Depression Scale",
+            "GDS geriatric depression scale",
+            "echelle GDS",
+            "Échelle GDS",
+            "GDS (Geriatric depression scale)",
+            "echelle GDS (geriatric depression scale)",
+            "Echelle GDS",
+            "GDS (échelle de depression gériatrique)",
+            "GDS, geriatric depression scale",
+            "Depression geriatric scale",
+            "GDS ( geriatric depression scale)",
+            "depression geriatric scale",
+            "échelle GDS",
+            "Geriatrique depression scale",
+            "Geriatric Depressive Scale (GDS)",
+            "GSD (Geriatric Scale Depression)",
+            "depressive geriatric scale",
+            "GDS geriatrique depression score"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous vous posez la question de mettre en place un traitement. Quelle est la thérapeutique de première intention ?",
+          "choix": [
+            "A) Benzodiazépines",
+            "B) Antipsychotiques de première génération",
+            "C) Antipsychotiques de deuxième génération",
+            "D) Sismothérapie",
+            "E) Inhibiteurs spécifiques de la recapture de la Sérotonine (ISRS) ou ISRS"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors d’un bilan biologique de contrôle, vous constatez une anémie à 8,2 g/dl. Vous décidez de prescrire la transfusion d’un culot de globules rouges pour le lendemain matin. Concernant la transfusion de culot globulaire chez le sujet âgé :",
+          "choix": [
+            "A) La moindre capacité de réserve fonctionnelle pour supporter l’anémie implique un seuil de définition de l'anémie différent chez le sujet âgé",
+            "B) La prévalence de l'anémie est la même pour tous les sujets âgés",
+            "C) Les diurétiques sont utilisés de manière systématique pour limiter le risque de surcharge",
+            "D) Une instabilité hémodynamique doit être recherchée pour évaluer la tolérance de l'anémie",
+            "E) Le pronostic de l'anémie est défavorable avec l'avancée en âge"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295678185-a2219258192f1",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Madame D. 83 ans, ancienne couturière, atteinte d’une obésité vous consulte pour des douleurs de hanche gauche, à la mobilisation principalement, sans réveil nocturnes, elle rapporte la nécessité d’un dérouillage d’environ un peu moins d’un quart d’heure le matin, cliniquement on retrouve des douleurs inguino- crurale, des troubles de la marche avec une boiterie d’esquive. Quel diagnostic évoquez-vous ?",
+          "choix": [],
+          "reponses": [
+            "coxarthrose de hanche gauche",
+            "arthrose de hanche",
+            "coxarthrose",
+            "arthrose de hanche gauche",
+            "coxarthrose de hanche",
+            "arthrose hanche gauche",
+            "coxarthrose hanche gauche",
+            "coxarthrose hanche",
+            "arthrose hanche",
+            "coxarthrose gauche",
+            "Coxarthrose gauche",
+            "arthrose de la hanche gauche",
+            "arthrose de la hanche",
+            "Arthrose de la hanche gauche",
+            "arthrose coxo-fémorale",
+            "coxarthrose de la hanche gauche",
+            "arthrose coxo fémorale gauche",
+            "arthrose de l'articulation coxo femorale",
+            "coxarhtrose gache",
+            "arthrose coxo fémorale",
+            "coaxarthrose gauche",
+            "Arthrose coxo-fémorale gauche",
+            "Arthrose coxo femorale gauche",
+            "coxathrose",
+            "coxarthose",
+            "Coxartrose",
+            "arthrose coxo-fémorale gauche",
+            "coxarthrose : athrose de hanche",
+            "athrose de hanche gauche",
+            "Arthrose de hanche (coxarthrose)",
+            "arthtrose de hanche gauche",
+            "arthrose coxo femorale gauche",
+            "arthrose de l‘articulation coxo femorale gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant l'arthrose, parmi les affirmations suivantes sélectionnez les 4 réponses vraies :",
+          "choix": [
+            "A) Les cruralgies font parties des diagnostics différentiels de la coxarthrose",
+            "B) Le diabète est un facteur de risque d'arthrose",
+            "C) En cas d’arthrose fémoro- patellaire, la douleur est typiquement majorée en cas de station debout prolongée",
+            "D) L'une des mesures non pharmacologiques pour aider à la prise en charge des coxarthroses est d'utiliser une canne du côté homolatéral à la hanche malade",
+            "E) Les radiographies ne sont pas toujours nécessaires en cas d’arthrose digitale typique",
+            "F) L’arthroscanner est indiqué en cas de suspicion d’ostéonécrose",
+            "G) L’IRM de hanche est indiqué en cas de suspicion d’ostéonécrose",
+            "H) L’injection d’acide hyaluronique en cas de coxarthrose va permettre de ralentir la dégradation du cartilage",
+            "I) Les anti arthrosique d’action lente ont un effet antalgique rapide",
+            "J) L’arthrose digitale prédomine souvent en interphalangien proximal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E",
+            "G"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant l’indication chirurgicale dans les coxarthroses, quel est l’élément dans la liste ci-dessous qui sera le plus décisif dans la décision de poser une prothèse de hanche ?",
+          "choix": [
+            "A) Présence d’un syndrome inflammatoire biologique",
+            "B) Faible impact fonctionnel de la coxarthrose",
+            "C) Signes radiologiques de coxarthrose",
+            "D) Douleur et handicap liés à l’arthrose",
+            "E) Demande de la famille du patient"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295686217-19bc7063a3771",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Monsieur P., 84 ans, présente une incontinence urinaire avec des mictions de petites quantités fréquentes, une incontinence urinaire occasionnelle, il est très constipé. Un bladder scan retrouve un résidu post mictionnel de 412 ml, quel diagnostic évoquez-vous en premier lieu ?",
+          "choix": [
+            "A) Incontinence urinaire d’effort",
+            "B) Incontinence urinaire sur une hyperactivité vésicale",
+            "C) Cancer de la prostate",
+            "D) Rétention aigue avec miction par regorgement",
+            "E) Incontinence urinaire mixte"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Madame Y. 85 ans, est hospitalisée pour une altération de l’état général rapide avec chutes à répétition et syndrome fébrile, il est retrouvé une infection urinaire pour laquelle une antibiothérapie est débutée. Jusque-là, elle vivait seule à domicile, elle faisait 20 minutes de marche quotidienne, elle avait uniquement une petite aide a la toilette par son infirmière libérale. Dans le service on observe une dégradation importante de l’autonomie, avec une marche à petits pas, une anxiété majeure lors des transferts du lit au fauteuil, une rétropulsion importante. Quel diagnostic suspectez-vous ?",
+          "choix": [],
+          "reponses": [
+            "désadaptation psychomotrice",
+            "syndrome post chute",
+            "syndrome post chutes",
+            "syndrome de désadaptation psychomotrice",
+            "syndrome post-chutes",
+            "syndrome de post chute",
+            "syndrome de desadaptation psychomotrice",
+            "syndrome post chute de rétropulsion spontanée",
+            "Syndrome de désadaptation psychomotrice",
+            "un syndrome post-chute",
+            "sybdrome post chute",
+            "syndrome du post chute",
+            "Syndrome post-chute (désadaptation psychomotrice)",
+            "syndrome de désadaptation motrice",
+            "syndrome post-chutte",
+            "Syndrome de désadaptation motrice",
+            "syndrome postchute",
+            "syndrome de desadaptation psychomotrice (syndrome post-chute)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le syndrome d’immobilisation, parmi les 5 items suivant, donnez les 3 réponses exactes :",
+          "choix": [
+            "A) L’immobilisation se définit par un alitement de plus de 5 jours ou une incapacité àa réaliser les transferts lit-fauteuil ou à se mouvoir",
+            "B) L’immobilisation n’a pas de complication chez les sujets âgés si elle est de moins de 24h",
+            "C) L’encombrement bronchique est favorisé par l’immobilisation",
+            "D) L’utilisation d’une compression veineuse en prévention de la thrombose veineuse profonde n’est pas systématique chez les patients alités au long cours",
+            "E) L’immobilisation peut favoriser l’apparition d’une dysautonomie"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dépression du sujet âgé, quelle(s) est/sont la/les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) De manière générale, selon le DSM-5, le diagnostic de la dépression nécessite entre autres la présence de soit une humeur dépressive soit une anhédonie pendant au moins 3 semaines",
+            "B) 40% des résidents en EHPAD sont atteints de dépression",
+            "C) Le risque de décès est moins important chez les sujets âgés en cas de tentative de suicide",
+            "D) L’efficacité des traitements anti dépresseurs doit être réévaluée au bout de 6 à 12 semaines",
+            "E) L’electroconvulsivothérapie est contre indiquée chez les sujets âgés."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les traitements psychotropes chez les sujets âgés, quelle(s) est/sont la/les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Les nausées et les vomissements font partis des principaux effets indésirables possibles des Inhibiteur de la recapture de la sérotonine et de la noradrénaline (IRS-NA).",
+            "B) L’Halopéridol est l’un des antipsychotiques les mieux tolérés chez les sujets âgés.",
+            "C) Les benzodiazépines sont associées à la survenue de syndrome parkinsonien chez les sujets âgés",
+            "D) Les antipsychotiques atypiques de seconde génération ont un meilleur profil de tolérance que ceux de première génération chez les sujets âgés",
+            "E) La Paroxétine est un antipsychotique de première génération"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

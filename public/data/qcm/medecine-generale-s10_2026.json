@@ -1,0 +1,479 @@
+{
+  "matiere": "Médecine générale",
+  "slug": "medecine-generale-s10",
+  "annee": 2026,
+  "title": "Médecine générale - 2026",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le suivi du nourrisson, quels paramètres doivent être systématiquement surveillés ?",
+          "choix": [
+            "A) Poids",
+            "B) Protéinurie",
+            "C) Périmètre crânien",
+            "D) Pression artérielle",
+            "E) Développement psychomoteur"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez un nourrisson de 13 mois en consultation pour virose. Vous en profitez pour vérifier son statut vaccinal.\nQuelles doses doit il avoir reçu à son âge ? 2 réponses exactes",
+          "choix": [
+            "A) 3 doses anti pneumococique",
+            "B) 4 doses anti tétanique",
+            "C) 2 doses anti méningocoque ACWY",
+            "D) 2 doses anti méningocoque B",
+            "E) 2 doses anti rougeole oreillons rubéole"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments doivent faire suspecter un retard du développement psychomoteur ?",
+          "choix": [
+            "A) Absence de marche à 18 mois",
+            "B) Absence de tenue de tête à 4 mois",
+            "C) Absence de la pince pouce index à 9 mois",
+            "D) Absence de mots à 10 mois",
+            "E) Absence de pointage du doigt à 9 mois"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle échelle est utilisée pour évaluer l’autonomie ?",
+          "choix": [
+            "A) Mini nutritionnal assesment",
+            "B) Echelle ADL Activities of daily living",
+            "C) 5 mots de dubois",
+            "D) Test de l'horloge",
+            "E) Mini Mental State Examination"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez un patient de 58 ans. Il n'a pas d'antécédent familial notable. Sur le plan personnel, on note un tabagisme de l'âge de 30 à 42 ans estimé à 12 PA. Dans le cadre d'un temps de prévention en fin de consultation, vous abordez le dépistage des cancers. De quelle stratégie de dépistage organisé aurait il du bénéficier ?",
+          "choix": [
+            "A) Cancer de prostate",
+            "B) Cancer colorectal",
+            "C) Mélanome",
+            "D) Cancer du poumon"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les Inégalités Sociales de Santé (ISS) :",
+          "choix": [
+            "A) Elles correspondent aux différences systématiques dans le domaine de la santé observées entre les groupes sociaux",
+            "B) Elles concernent principalement les pays de l’hémisphère sud",
+            "C) Il existe un gradient social de santé : plus les personnes sont situées au bas de l’échelle sociale, plus elles sont exposées au risque de maladies graves ou de décès prématuré",
+            "D) En France, l’espérance de vie d’un cadre est environ similaire à celle d’un ouvrier",
+            "E) Les ISS résultent d’une inégalité de distribution d’une multitude de déterminants sociaux, économiques, culturels et environnementaux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous recevez un patient au cabinet qui vous décrit une anxiété envahissante depuis plusieurs mois et impactant son quotidien. Quels sont les éléments en faveur d’un diagnostic de trouble anxieux généralisé pour ce patient ? 3 réponses attendus",
+          "choix": [
+            "A) Évolution depuis au moins 6 mois",
+            "B) Fatigue",
+            "C) Hallucinations",
+            "D) Troubles du sommeil",
+            "E) Anhédonie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Concernant le dépistage des troubles visuels de l'enfant, que doit on recherche entre 9 et 15 mois ? un mot attendu",
+          "choix": [],
+          "reponses": [
+            "Amblyopie"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez un nourrisson de 22 mois pour fièvre et prurit. A l'examen vous constatez des vésicules d'âge différents, sur tout le corps et dans la bouche. La température est à 38.2°C. Il n'a pas d'antécédent notable, n'a pas pris de traitement dans les 2 derniers mois. Quelle est votre principale hypothèse diagnostique ? 1 mot attendu",
+          "choix": [],
+          "reponses": [
+            "Herpesviridae"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez une femme de 18 ans, nullipare, sans antécédent notable personnel. Elle vous précise que sa tante maternelle a eu une thrombose veineuse profonde dont le bilan a conduit au diagnostic de cancer du sein récemment.\nElle souhaite une contraception. Elle a une relation stable avec son ami et leur bilan de maladies sexuellement transmissibles est revenu négatif après 6 semaines d'utilisation du préservatif que tout deux jugent désagréable. Ses cycles sont réguliers sans méno ou métrorragies.\nElle souhaite éviter les hormones et vous explique être en difficultés pour l'observance d'un traitement quotidien de part son organisation de vie actuelle.\nDans une démarche centrée patiente, quelles peuvent être les moyens de contraception que vous allez lui proposer ? une ou plusieurs réponse(s) exacte(s).",
+          "choix": [
+            "A) Dispositif intra utérin au cuivre",
+            "B) Poursuite du préservatif",
+            "C) Contraception orale oestroprogestative",
+            "D) Implant contraceptif",
+            "E) Anneau vaginal"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395867980-463b1cef852ae",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Madame B., 48 ans, est suivie pour une hypertension artérielle (HTA) et une dyslipidémie depuis 2 ans. Elle consulte pour une élévation récente de sa pression artérielle (170/95 mmHg de moyenne en automesure tensionnelle). Elle est traitée par un diurétique thiazidique associé à anticalcique et elle prend régulièrement des anti-inflammatoires non stéroïdiens (AINS) pour des douleurs d’arthrose qui se sont aggravé depuis sa récente prise de poids, elle mesure ce jour 1m54 et son poids est de 84kg. Elle est dans une démarche de sevrage tabagique et utilise des patchs nicotiniques mais continue de fumer en moyenne 5 cigarettes par jour actuellement.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels peuvent être responsables d’une élévation de la pression artérielle ?",
+          "choix": [
+            "A) Anti-Inflammatoires Non Stéroïdiens (AINS)",
+            "B) Corticoïdes",
+            "C) Inhibiteur de l'Enzyme de Conversion (IEC)",
+            "D) Contraceptifs œstroprogestatifs",
+            "E) Paracétamol"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’hypertension artérielle de Mme B. quelles sont les affirmations vraies ?",
+          "choix": [
+            "A) Elle présente une HTA résistante",
+            "B) Elle présente une HTA sévère",
+            "C) Il faut évoquer une HTA secondaire endocrinienne",
+            "D) La prise régulière d’AINS est un facteur de résistance",
+            "E) L’HTA est un facteur de risque cardiovasculaire majeur modifiable"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles font partie de la définition de l'HTA résistante ?",
+          "choix": [
+            "A) Une HTA non contrôlée malgré des règles hygiéno-diététiques adaptées",
+            "B) Une HTA non contrôlée malgré une bithérapie antihypertensive à doses optimales",
+            "C) Une HTA non contrôlée malgré une combinaison de traitement incluant un diurétique thiazidique",
+            "D) Elle implique de rechercher des facteurs de résistance",
+            "E) Elle implique de rechercher systématiquement une HTA secondaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le suivi de cette patiente, quelles sont les propositions exactes ?.",
+          "choix": [
+            "A) Une épreuve d’effort doit être programmée si la patiente n’en a jamais eu",
+            "B) Une fois l'objectif tensionnel atteint, un suivi annuel sera suffisant",
+            "C) La recherche d'une hypotension orthostatique ne se fait que lors des modifications du traitement",
+            "D) La créatininémie et la protéinurie seront contrôlées a minima tous les 2 ans",
+            "E) L'ECG est réalisé tous les 3 à 5 ans, sauf en cas de symptômes cardiaques"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les facteurs de risque cardiovasculaire associés chez cette patiente ?",
+          "choix": [
+            "A) Âge",
+            "B) Dyslipidémie",
+            "C) Tabagisme",
+            "D) Obésité",
+            "E) Utilisation de patch de Nicotine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395869811-d8673b7aa1ded",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Monsieur L., 62 ans, consulte pour une dyspnée d’aggravation progressive depuis plusieurs années. Il rapporte une toux chronique avec expectorations matinales. Il est tabagique actif à 40 paquets-années. Il n’a pas d’antécédent respiratoire connu dans l’enfance.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les éléments suivants, lesquels sont en faveur d’une bronchopneumopathie chronique obstructive (BPCO) ?",
+          "choix": [
+            "A) Tabagisme actif important",
+            "B) Dyspnée d’effort progressivement croissante",
+            "C) Variabilité importante des symptômes dans la journée",
+            "D) Toux chronique avec expectoration",
+            "E) Début des symptômes dans l’enfance"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel examen complémentaire permet de confirmer le diagnostic de BPCO ?",
+          "choix": [
+            "A) Radiographie thoracique",
+            "B) Gaz du sang",
+            "C) Spirométrie avec test de réversibilité",
+            "D) Scanner thoracique"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel élément spirométrique permet de différencier l'asthme de la BPCO ?",
+          "choix": [
+            "A) La valeur absolue du VEMS avant bronchodilatateur",
+            "B) La réversibilité de l'obstruction bronchique après bronchodilatateur",
+            "C) La mesure de la CVF",
+            "D) Le rapport VEMS/CVF avant bronchodilatateur",
+            "E) Le débit expiratoire de pointe (DEP) mesuré au repos"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le diagnostic de BPCO est confirmé chez Monsieur L. Parmi les éléments suivants, lesquels sont pris en compte dans l’évaluation de la sévérité d’une BPCO ?",
+          "choix": [
+            "A) La mesure du VEMS",
+            "B) La fréquence des Exacerbations",
+            "C) L’IMC",
+            "D) L’âge de début",
+            "E) Le niveau de dyspnée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les imageries qui pourront être réalisées dans le cadre de la prise en charge de la BPCO de Monsieur L., lesquelles sont exactes ?",
+          "choix": [
+            "A) La radiographie thoracique est l’examen de référence pour poser le diagnostic positif de BPCO",
+            "B) La radiographie thoracique peut révéler des comorbidités",
+            "C) Un TDM thoracique est systématique dans le bilan initial de toute BPCO",
+            "D) En cas d’exacerbation grave avec hospitalisation, une radiographie thoracique est systématique",
+            "E) Un angio-TDM peut être discutée lors d’une exacerbation en cas de suspicion d’embolie pulmonaire"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395871525-096da17d153778",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous rencontrez pour la première fois en visite à domicile, Mme V, âgée de 86 ans. Celle-ci présente une maladie d’Alzheimer diagnostiquée 6 ans plus tôt ainsi qu’une hypertension artérielle essentielle et un épisode dépressif caractérisé.\nSes traitements sont : Sertraline 50 mg x2/j et et Irbesartan 300 mg/j. Elle a besoin d’aide pour la réalisation de son hygiène corporelle, aller aux toilettes, l’habillage et le déshabillage. Elle reste autonome pour les déplacements à l’intérieur du domicile, les transferts et parvient à s’alimenter seule. Elle a récemment présenté 2 chutes, sans traumatisme grave associé. C’est son époux autonome et maintenant âgé de 88 ans qui gère la toilette de sa femme, son habillage ainsi que les courses, la cuisine, la gestion du budget ainsi que la prise des médicaments du couple.\nL’examen clinique de Mme V retrouve une tension a 145/88mmhg, l’auscultation cardiopulmonaire est normale, il n’y a pas d’œdème des membres inférieurs, sa saturation en oxygène est à 96%AA. Elle marche toute seule avec une canne, mais n’arrive pas à faire 5 levers de chaise de manière consécutive. Elle pèse 98kg pour 165cm (IMC à 36). Son mari est content de vous dire qu’elle a perdu 16 kg en 6 mois. Cette perte de poids n’était pas volontaire.\nVous réalisez un MMSE qui est à 11/30. Son time up and go test est pathologique.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le niveau d’autonomie de cette patiente, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) Son ADL (activities of daily living) est à 6/6",
+            "B) Les activités instrumentales de la vie quotidienne sont altérées",
+            "C) Vous évoquez un état de dépendance",
+            "D) Vous proposez la mise en place de l’Allocation personnalisée d’autonomie (APA)",
+            "E) Vous proposez un signalement au procureur de la république pour mettre en place une protection juridique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostique proposez-vous concernant l’état nutritionnel de cette patiente ?",
+          "choix": [],
+          "reponses": [
+            "denutrition severe"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous retrouvez une dénutrition sévère, quelle prise en charge proposez-vous à cette patiente ?",
+          "choix": [
+            "A) Vous proposez un enrichissement de l’alimentation",
+            "B) Vous prescrivez un complément nutritionnel oral",
+            "C) Vous proposez une nutrition parentérale",
+            "D) Vous débutez un traitement anti- hypertenseur",
+            "E) Vous proposez un régime sans sel strict pour limiter l’hypertension",
+            "F) Vous recommandez une limitation du périmètre de marche du fait du risque de chute",
+            "G) Vous proposez un fractionnement des repas",
+            "H) Vous proposez un arrêt les collations pour éviter le grignotage"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

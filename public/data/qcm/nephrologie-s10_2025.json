@@ -1,0 +1,749 @@
+{
+  "matiere": "Néphrologie",
+  "slug": "nephrologie-s10",
+  "annee": 2025,
+  "title": "Néphrologie - 2025",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes appelés pour un patient de 84 ans. Il présente une HTA d’apparition récente, et une insuffisance rénale aiguë à 450 µmol/L. L’échographie rénale est normale. Vous notez à la bandelette : Sang 3+, protéines 3+. Vous récupérez ses antériorités de créatinine : il y a 3 mois, 90 µmol/L, il y a 1 mois, 130 µmol/L, il y a 10 jours 250 µmol/L.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la présentation syndromique de cette insuffisance rénale ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome de glomérulonéphrite rapidement progressive",
+            "GNRP",
+            "Syndrome glomérulaire à type de GNRP",
+            "Syndrome glomérulaire à type de GNRP (glomérulonéphrite rapidement progressive)",
+            "glomérulonéphrite rapidement progressive",
+            "Glomérulonéphrite rapidement progressive",
+            "glomerulonephrite rapidement progressive",
+            "glomerulonéphrite rapidement progressive",
+            "glomérulonephrite rapidement progressive",
+            "syndrome glomérulaire rapidement progressif",
+            "Glomerulonephrite rapidement progressive",
+            "glomérulopathie rapidement progressive",
+            "glomérulonéphrite rapidement progressive (GNRP)",
+            "syndrome glomerulaire rapidement progressif",
+            "glomerulopathie rapidement progressive",
+            "Glomerulonéphrite rapidement progressive",
+            "syndrome de glomérulonéphrite rapidement progressif",
+            "gromérulose rénale rapidement progressive",
+            "Nephropathie glomerulaire rapidement progressive",
+            "syndrome glomerulaire rapidement progessif",
+            "glomérulonéphrite rapidement porgressive",
+            "syndrome de glumerulonephritre rapidement progressif",
+            "gromérulonéphrite rapidement progressive",
+            "glomerulo néphrite rapidement progressive",
+            "gromerulonephrite rapidement progressive",
+            "Glomerulonéphrite rapidement progressive (GNRP)",
+            "Glomerulonephrite rapidemment progressive",
+            "Glomerulonephrite rapidement progressive (GNRP)",
+            "Syndrome glomérulaire rapidement progressif",
+            "néphropathie glomérulaire d'apparition rapidement progressive",
+            "glomérulaire (glomérulonéphrite rapidement progressive)",
+            "glomérulonéphrite rapidement progessive",
+            "Syndrome glomérulaire (glomérulonéphrite rapidement progressive)",
+            "glomérulonéphrite rapidemment progressive",
+            "Glomerulonephrite rapidement progressive GNRP",
+            "GNRP glomerulonéphrite rapidement progressive",
+            "glomérulonéphropathie rapidement progressive (GNRP)",
+            "GNRP : Glomérulonéphropathie Rapidement Progressive",
+            "Glomérulonéphrite rapidemment progressive",
+            "Glomerulonephrite Rapidement Progressive",
+            "GNRP Glomérulonéphrite rapidement progressive",
+            "Glomeruloneprite rapidement progressive",
+            "Insuffisance rénale aigue organique sur glomérulonéphrite rapidement progressive",
+            "glomerulonephrite rapidement progressive ( GNRP)",
+            "glomerulonephrite rapidement progressive GNRP",
+            "syndrome glomérulaire aigu (glomérulonéphrite rapidement progressive)",
+            "Glomérulonéphrite rapidement progressif",
+            "Glomérulonéphrite rapidement progressive (GNRP)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous avez une suspicion de vascularite. Tous les examens complémentaires sont pertinents, sauf 4, lesquels ?",
+          "choix": [
+            "A) Electroneuromyogramme",
+            "B) Scanner thoracique",
+            "C) Biopsie rénale",
+            "D) Dosage des anticorps anti PLA2R",
+            "E) Bilan infectieux dont hémocultures",
+            "F) Echographie cardiaque",
+            "G) Echographie thyroïdienne",
+            "H) HbA1c",
+            "I) Dosage des anticorps anti-MPO, anti-PR3",
+            "J) Dosage des anti-MBG",
+            "K) Dosage du complément",
+            "L) Scanner des sinus"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "G",
+            "H"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous hospitalisez le patient en urgence. Parmi les signes généraux suivants, quels sont les 5 signes les plus évocateurs d’une vascularite liée aux ANCA ?",
+          "choix": [
+            "A) Prurit",
+            "B) Hémoptysie",
+            "C) Rhinite croûteuse",
+            "D) Episclérite",
+            "E) Troubles du rythme cardiaque",
+            "F) Purpura",
+            "G) Aphtes",
+            "H) Ptosis",
+            "I) Xérostomie",
+            "J) Adénopathies"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297105642-80afb83e536d6",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Une patiente de 30 ans sans aucun antécédent se présente pour asthénie. Vous objectivez une tension artérielle à 190/130 mmHg.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous allez mener des examens complémentaires de première intention concernant l’hypertension. Tous les examens suivants sont pertinents sauf un, lequel ?",
+          "choix": [
+            "A) Exploration des anomalies lipidiques",
+            "B) Hémoglobine",
+            "C) Dosage de rénine/aldostérone",
+            "D) Glycémie à jeun",
+            "E) Bandelette urinaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous cherchez à dédouaner une sténose de l’artère rénale. Quels seraient les arguments en faveur d’une fibrodysplasie de la média ?",
+          "choix": [
+            "A) Le terrain de femme jeune",
+            "B) Le caractère bilatéral",
+            "C) Le caractère proximal des lésions, proches de l’ostium, avec dilatation post sténotique",
+            "D) L’absence de facteurs de risque cardio-vasculaires",
+            "E) La fréquence, puisque la fibrodysplasie explique 90% des cas de sténose d’artère rénale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le Doppler des artères rénales est sans particularité, en revanche vous mettez en évidence à l’échographie de nombreux kystes évoquant une polykystose rénale autosomique dominante. Quelles sont les atteintes rénales que la patiente peut présenter ?",
+          "choix": [
+            "A) Kystes ovariens",
+            "B) Anévrysmes des artères rénales",
+            "C) Hépatomégalie",
+            "D) Anévrysmes des artères cérébrales",
+            "E) Hyperthyroïdie"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente présente une protéinurie à 0,8 g/g de créatininurie dont 600 mg/g d’albuminurie. Quelle est la seule proposition correcte ?",
+          "choix": [
+            "A) Il s’agit d’une micro-albuminurie isolée.",
+            "B) Il s’agit d’une protéinurie modérée.",
+            "C) L’albuminurie et la protéinurie sont faibles, c’est physiologique.",
+            "D) L’albuminurie est physiologique, mais protéinurie est pathologique.",
+            "E) L’albuminurie est importante et la protéinurie est pathologique."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est désormais sous traitement par bloqueur du système rénine angiotensine aldostérone, en maladie rénale chronique stade 3B. Quelles mesures adoptez-vous ?",
+          "choix": [
+            "A) Recommander à la patiente de limiter la consommation de sel à 5 g/j",
+            "B) Recommander à la patiente un régime riche en protides pour lutter contre la dénutrition (ex 2 g/kg/j)",
+            "C) Lui dire d’arrêter le traitement néphroprotecteur en cas de gastro-entérite virale",
+            "D) Débuter un traitement par EPO pour que l’hémoglobine soit > 13 g/dL",
+            "E) Veiller à ce que le coefficient de saturation de la transferrine soit > 20% pour éviter la carence martiale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente vous questionne sur la transplantation rénale. Concernant le don d'organe, quelles sont les 2 propositions exactes ?",
+          "choix": [
+            "A) La principale source de donneurs est constituée de donneurs après arrêt circulatoire",
+            "B) Le prélèvement d'organes de donneur en état de mort encéphalique repose sur le principe de consentements présumé",
+            "C) Le taux d'opposition au prélèvement France est estimé à 80 %.",
+            "D) La transplantation rénale avec donneur vivant rend possible les transplantations ABO incompatibles après préparation spécifique du receveur.",
+            "E) Pour que son amie puisse lui donner un rein, il faut apporter la preuve d'un lien affectif étroit et stable avec la patiente depuis plus de 10 ans."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente est finalement transplantée avec succès. Vous la revoyez 6 ans plus tard. Son traitement antirejet comprend du tacrolimus, du mycophénolate et des corticoïdes. Elle présente une insuffisance rénale chronique, une leucocyturie, une protéinurie de faible débit sans albumine. Il n’y a pas d’hématurie, pas d’hypertension artérielle. La biopsie rénale élimine un rejet. Quelle est votre hypothèse diagnostique principale ?",
+          "choix": [
+            "A) Syndrome néphrotique",
+            "B) Syndrome néphritique",
+            "C) Néphropathie à dépôts mésangiaux d’IgA",
+            "D) Néphropathie interstitielle chronique sur toxicité des anti-calcineurines",
+            "E) Néphroangiosclérose"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous constatez une natrémie à 160 mmol/L, possiblement sur un diabète insipide néphrogénique qui complique sa néphropathie interstitielle chronique. Quelles sont les 2 mesures thérapeutiques adaptées dans la circonstance ?",
+          "choix": [
+            "A) Réhydratation par NaCl 0,9%",
+            "B) Remplissage vasculaire par NaCl 0,9%",
+            "C) Réhydratation par sérum glucosé 5%",
+            "D) Augmentation des apports en eau",
+            "E) Restriction sodée"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297107475-bab87f0e54e258",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous êtes amenés à prendre en charge Mme P, âgée de 67 ans, qui a pour antécédent notable une polyarthrite rhumatoïde depuis 30 ans, pour laquelle elle consomme des anti-inflammatoires (AINS). Elle a un diabète de type 2 mal équilibré depuis 20 ans sous Metformine, et une hypertension artérielle sous Hydrochlorothiazide. Elle consulte pour un tableau digestif aigu depuis 5 jours associant vomissements et diarrhées liquides, sans fièvre. L’examen clinique est le suivant: TA 100/60 mmHg, FC 110/min, poids 60kg (- 4 kg en 8 jours). L’abdomen est souple et indolore. On note un pli cutané.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le bilan biologique initial met en évidence : Na 128 mmol/l, Hémoglogine 16 g/dl. Quelles sont les 2 propositions correctes concernant l’état d’hydratation de la patiente ?",
+          "choix": [
+            "A) Elle présente une déshydratation globale (extra-cellulaire et intra-cellulaire).",
+            "B) Elle présente une déshydratation extra-cellulaire et une hyperhydratation intra-cellulaire.",
+            "C) Elle présente une hyperhydratation extra-cellulaire et une déshydratation intra-cellulaire.",
+            "D) Les examens biologiques sont en faveur d’une hémoconcentration.",
+            "E) La variation de poids est peu significative dans le contexte banal de gastro-entérite."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous confirmez une hyponatrémie hypo-osmolaire. Compte-tenu du contexte clinique (perte de poids, hypotension, tachycardie) et médicamenteux quelles sont les 2 propositions vraies concernant la natrémie ?",
+          "choix": [
+            "A) Il s’agit d’une hyponatrémie de dilution",
+            "B) Il s’agit d’une hyponatrémie de déplétion",
+            "C) Il s’agit d’une hyponatrémie par SIADH",
+            "D) Il s’agit d’une hyponatrémie secondaire aux pertes digestives aggravée par la prise de thiazidique",
+            "E) Il s’agit d’une hyponatrémie par reset osmostat"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour mémoire la patiente a des signes de déshydratation extra-cellulaire. Le bilan biologique initial met en évidence : urée 45 mmol/L, créatinine 200 umol/L. Voici les résultats du ionogramme urinaire : Na < 20 mmol/L. K 90 mmol/L. Quelles sont les affirmations vraies ?",
+          "choix": [
+            "A) Le rapport Na/K est en faveur d’une atteinte rénale organique.",
+            "B) L’exposition aux AINS a pu favoriser l’hypoperfusion rénale par vasoconstriction de l’artériole afférente.",
+            "C) Le rapport urée/créatininémie est en faveur d’une insuffisance rénale fonctionnelle.",
+            "D) La natriurèse < 20 mmol/L évoque une insuffisance surrénalienne aiguë.",
+            "E) La patiente étant sous thiazidique, l’utilisation de la fraction d’excrétion de l’urée serait plus pertinente que le rapport Na/K."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente présente une acidose (HCO3- 14 mmol/l). Voici le ionogramme Na 128 mmol/l, K 3 mmol/l, Cl 90 mmol/l, et la gazométrie artérielle : pH=7,32, pO2 110 mmHg, pCO2 25 mmHg.\nQuelles sont les 2 affirmations vraies ?",
+          "choix": [
+            "A) Le trou anionique plasmatique est augmenté, possiblement par accumulation d’acides secondaire à l’insuffisance rénale",
+            "B) Le trou anionique plasmatique est normal",
+            "C) Il s’agit d’une acidose métabolique non compensée par une hyperventilation alvéolaire",
+            "D) Il s’agit d’une acidose métabolique compensée par hypoventilation alvéolaire",
+            "E) La valeur du trou anionique urinaire sera déterminante dans la prise en charge"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Pour mémoire, la patiente présente une polyarthrite et un diabète de type 2. Après 4 jours de prise en charge, les troubles hydroélectrolytiques se sont amendés, mais la patiente garde une insuffisance rénale significative autour de 200 µmol/L, qui s’aggrave de jours en jours. Vous obtenez les résultats des analyse d’urines : protéinurie 6 g/g, albuminurie 50 mg/g, ECBU :\nstérile, GR : 0/mm3, GB 50/mm3.\nQuel est l’examen complémentaire le plus urgent à réaliser parmi les suivants pour progresser sur le mécanisme de l’insuffisance rénale ?",
+          "choix": [
+            "A) HbA1c",
+            "B) Fond d’œil",
+            "C) Recherche de glycosurie",
+            "D) Electrophorèse des protéines + immunofixation",
+            "E) Dosage d’amino-acidurie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez désormais une forte suspicion de tubulopathie myélomateuse.\nQuels sont les facteurs qui ont pu favoriser la précipitation de chaines légères ?",
+          "choix": [
+            "A) La déshydratation extra cellulaire",
+            "B) L’hyponatrémie initiale",
+            "C) Les thiazidiques",
+            "D) Les AINS",
+            "E) Un faible taux de chaînes légères urinaires"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Malgré la prise en charge, la situation rénale se détériore.\nQuelles sont les critères qui justifieront de débuter une dialyse en urgence ?",
+          "choix": [
+            "A) Surcharge hydro-sodée avec retentissement cardio-pulmonaire",
+            "B) Hyperuricémie",
+            "C) Hypernatrémie",
+            "D) Acidose métabolique sévère",
+            "E) Hypokaliémie menaçante"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous scopez la patiente en raison d’une calcémie à 3,8 mmol/L. Que redoutez vous ?",
+          "choix": [
+            "A) Un allongement du QT",
+            "B) Des ondes T amples pointues et symétriques",
+            "C) Une tachycardie sinusale",
+            "D) Un raccourcissement du ST, avec une onde T débutant immédiatement après le QRS",
+            "E) Des extra-systoles"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297109507-28ee33018703f",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une patiente se présente avec une natrémie à 110 mmol/L. Quels sont les 2 signes de gravité que vous devez rechercher pour considérer qu’il s’agit d’une hyponatrémie sévère ?",
+          "choix": [
+            "A) Coma",
+            "B) Céphalées",
+            "C) Comitialité",
+            "D) Bradycardie",
+            "E) Fièvre"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un patient présente de manière chronique une kaliémie entre 5,3 et 5,5 mmol/L. Quelles sont les 2 mesures thérapeutiques à proposer parmi les suivantes ?",
+          "choix": [
+            "A) La prescription d’une résine échangeuse d’ions (Kayexalate)",
+            "B) L’administration de sels de calcium intra-veineux",
+            "C) La prescription d’une séance de dialyse systématique",
+            "D) Une consultation avec la diététicienne pour revoir les apports en potassium",
+            "E) L’administration d’un traitement par insuline – G10%"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant une calcémie à 3 mmol/L et une parathormone à 350 pg/mL (normales 15-65 pg/mL), quel diagnostic unique devez-vous évoquer ?",
+          "choix": [
+            "A) Métastases osseuses",
+            "B) Intoxication à la vitamine A",
+            "C) Prise de diurétiques thiazidiques",
+            "D) Hyperparathyroïdie secondaire",
+            "E) Hyperparathyroïdie primitive"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente consulte pour des urines très rouges. Vous soupçonnez une hématurie. Dans quel unique cas la bandelette urinaire vous confirmera le diagnostic ?",
+          "choix": [
+            "A) La prise de métronidazole",
+            "B) Un syndrome d’Alport symptomatique au niveau rénal",
+            "C) La consommation de betteraves",
+            "D) La prise de traitement anticoagulant oral",
+            "E) L’exposition à la rifampicine"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Énoncé : Un patient de 50 ans, sans antécédents particuliers personnels, a consulté pour une violente douleur lombaire droite, assortie d’une hématurie macroscopique. Vous ne retrouvez pas de facteur de risque à l’interrogatoire. Un doppler vous confirme la présence d’une thrombose de la veine rénale droite. Le bilan étiologique réalisé aux urgences retrouve une créatinine à 80 mmol/L, une protéinurie à 6 g/g dont 5 g/g d’albuminurie, une albuminémie à 15 g/L, ainsi qu’une hématurie microscopique à 40 éléments / mm3.\nQuelle est votre principale hypothèse sur la cause de ce syndrome néphrotique ?",
+          "choix": [],
+          "reponses": [
+            "Glomérulonéphrite extra-membraneuse",
+            "GEM",
+            "glomérulonéphrite extramembraneuse",
+            "glomérulopathie extra-membraneuse",
+            "glomérulopathie extra membraneuse",
+            "glomerulopathie extra membraneuse",
+            "glomerulonephrite extramembraneuse",
+            "Glomérulopathie extra membraneuse",
+            "Glomérulonéphrite extramembraneuse",
+            "Glomérulonéphrite extra-membranneuse",
+            "glomeruloneprthite extra membraneuse",
+            "Glomérulonéphrite extra membraneuse anticorps anti-PLA2R",
+            "Gromérulonéphrite extra-membraneuse",
+            "glomerulopathie extra membraneuse GEM",
+            "Glomerulonephrite extra membraneuse (GEM)",
+            "Glomerulopathie extramembraneuse",
+            "glomérulopathie extra-membraneuse primitive",
+            "Glomérulopathie extra-membraneuse",
+            "Glomeruloneprhite extra membraneuse",
+            "gromérulonéphrite extra-membraneuse",
+            "Glomérulophrite extra membraneuse",
+            "glomérulopathie extramembraneuse",
+            "GEM glomérulonéphrite extra-membraneuse",
+            "glomerulonephrite extramembraneuse (GEM)",
+            "GEM (glomérulo-néphropathie extra membraneuse)",
+            "Glomérolunéphrite extra-membraneuse",
+            "glomerulonephrite extra-membraneuse (GEM)",
+            "glomerulonéphrite extra-membraneuse (GEM)",
+            "glomerulonephrite extra membraneuse primaire",
+            "Glomérulonéphrite extra-membraneuse (GEM)",
+            "Glomérolonéprhite extra membraneuse",
+            "glomérulonéphite extra membraneuse",
+            "glomérulonéphrite extra-membraneuse (GEM)"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les œdèmes généralisés :",
+          "choix": [
+            "A) La formation des œdèmes généralisés nécessite deux étapes (altération de l’hémodynamique capillaire et rétention hydrosodée).",
+            "B) L’un des facteurs favorisant la formation des œdèmes est la diminution de la pression oncotique.",
+            "C) Lors du syndrome néphrotique, la baisse de la pression oncotique est responsable d’une hypovolémie efficace, elle-même responsable d’une activation du SRAA (système rénine-angiotensine aldostérone) et donc d’une rétention hydrosodée.",
+            "D) Lors de l’insuffisance cardiaque, l’excrétion de sodium et d’eau augmente ce qui est responsable d’une hypervolémie.",
+            "E) Lors de la cirrhose, la situation d’hypovolémie efficace résulte de différents mécanismes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prise en charge de la néphropathie diabétique :",
+          "choix": [
+            "A) Le contrôle glycémique optimal est surveillé via l’Hba1c dont la cible est la même pour tout le monde.",
+            "B) Il est indiqué de prescrire un IEC en association avec un ARA2 afin de contrôler la tension artérielle (chez les patients diabétiques et hypertendus).",
+            "C) Si le contrôle tensionnel n’est pas optimal, il est indiqué d’associé un diurétique à l’ARA2 car il potentialise l’effet anti-hypertenseur et anti-protéinurique.",
+            "D) Il est indiqué de prescrire un IEC (ou ARA2) afin de contrôler l’albuminurie dès le stade A2.",
+            "E) Les inhibiteurs de SGLT2 sont recommandés dans le diabète de type 1 et 2."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les vascularites :",
+          "choix": [
+            "A) Les anticorps anti-nucléaires (ACAN) peuvent être de 3 types (anti-PR3, anti-MPO et anti-MBG).",
+            "B) Les ANCA sont responsables d’une activation des polynucléaires neutrophiles alors impliqués dans la nécrose de la paroi des petits vaisseaux.",
+            "C) Sur la biopsie rénale, en microscopie optique, la lésion principale caractéristique est une prolifération extra-capillaire.",
+            "D) Les vascularites à ANCA sont classiquement associées à des dépôts abondants d’immunoglobulines dans les glomérules.",
+            "E) Il faut débuter en urgence le traitement d’attaque qui sera suivi d’un traitement d’entretien."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la néphropathie lupique :",
+          "choix": [
+            "A) même si la fonction rénale est normale, l'existence d'une protéinurie isolée à 1 g/g est une indication de biopsie rénale",
+            "B) Les classes III et IV sont des glomérulonéphrites prolifératives qui nécessitent des corticoïdes et des immunosuppresseurs.",
+            "C) L'immunofluorescence typique du lupus est constituée de dépôts mésangiaux d'IgA monotypiques.",
+            "D) La classe V correspond à une glomérulonéphrite extra-membraneuse.",
+            "E) La classe VI est la plus fréquente."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 29,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Énoncé : Vous recevez en consultation un patient de 24 ans pour exploration d’une insuffisance rénale découverte lors d’un bilan d’HTA. Il n’a pas d’antécédent mais vous signale avoir présenté un épisode d’hématurie macroscopique après un épisode infectieux ORL. L’analyse de première intention que vous réalisez retrouve une créatinine à 120 mmol/L, une protéinurie à 1,2 g/g dont 1,0 g/g d’albuminurie ainsi qu’une hématurie microscopique à 90 éléments / mm3.\nQuelle être votre principale hypothèse sur sa maladie rénale ?",
+          "choix": [],
+          "reponses": [
+            "Néphropathie à IgA",
+            "Maladie de Berger",
+            "Glomérulonéphrite à dépôts mésangiaux d’IgA",
+            "néphropathie à dépôts mésangiaux d'IgA",
+            "glomerulonephrite a IgA",
+            "néphropathie glomérulaire à IgA primitive",
+            "nephropathie a igA (maladie de berger)",
+            "néphropathie à IgA (maladie de Berger)",
+            "Nephropatie a IgA (syndrome d'hematurie macroscopique recidivante)",
+            "Glomérulonéphrite aiguë à IgA",
+            "Vascularite a IgA (Maladie de berger)",
+            "glomérulonéphrite",
+            "néphropathie à dépots mesangiaux d'Ig A",
+            "glomerulopathie a depot d'IgA",
+            "néphropathie à IgA (maladie de Berger)",
+            "néphropathie a IgA (maladie de Berger)",
+            "nephropathie à depots d'IgA",
+            "nephropatie à IgA",
+            "néphropathie à Ig A",
+            "Nephropathie à dépots IgA (Maladie de Berger)",
+            "néphropathie à depôt mésangliaux d'IgA",
+            "Nephropathie à IgA (type maladie de berger)",
+            "néphropathie à IgA primitive",
+            "néphropathie glomérulaire à IgA",
+            "néphropathie à dépots mésangiaux d'IgA",
+            "Néphropathie à dépot d'IgA",
+            "néphropathie à IgA (maladie de berger)",
+            "Nephropathie a depot IgA",
+            "vascularite à IgA primitive",
+            "glomérulonéphrite à IgA",
+            "Glomerulonephrite à IgA",
+            "nephropathie à dépôts mésangiaux d'IgA",
+            "nephorpathie a igA",
+            "Néphropathie à IgA (Berger)",
+            "Néphropathie a IgA primitive",
+            "Syndrome d'hématurie macroscopique récidivante (néphropatie à IgA)",
+            "nephropathie à IgA (maladie de berger)",
+            "néphropatie à IgA",
+            "néphropathie à dépôt d'IgA",
+            "Neohropathie primitive à IgA",
+            "Hématurie macroscopique recidivante Maladie de Berger à IgA",
+            "nephropathie à igA (maladie de Berger)",
+            "néphropathie à dépôts d'IgA (maladie de Berger)",
+            "maladie de Berger (nephropathie à IgA)",
+            "nephropathie à IgA (purpura rhumatoïde)",
+            "Nephropathie à IgA (maladie de Berger)",
+            "glomerulopathie à IgA",
+            "Maladie de Berger (Nephropathie a IgA)",
+            "Néphropathie à IgA (maladie de Berger)",
+            "Maladie de Berger (Néphropathie IgA primitive)",
+            "Néphropathie à IgA, maladie de Berger",
+            "Néphropathie à IgA primitive",
+            "nephropathie a depot d'IgA",
+            "Néphropathie à dépôts d'IgA mésangiaux (Maladie de Berger)",
+            "néphropathie primitive à IgA",
+            "Néphropathie primitive à IgA",
+            "néphropathie à igA primitive",
+            "glomérulopathie igA",
+            "néphropathie à IgA, maladie de Berger",
+            "nephropathie à depots mesangiaux d’IgA",
+            "nephropathie à IgA (maladie de Berger)",
+            "glomérulopathie à IgA",
+            "Glomérulonéphrite à IgA",
+            "glomérulonéphrite a IgA",
+            "Maladie de Berger (Néphropathie à IgA)",
+            "Néphropathie à IgA (Maladie de Berger)"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

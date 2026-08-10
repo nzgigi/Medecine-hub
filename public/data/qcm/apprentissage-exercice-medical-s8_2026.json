@@ -1,0 +1,496 @@
+{
+  "matiere": "Apprentissage de l'exercice médical",
+  "slug": "apprentissage-exercice-medical-s8",
+  "annee": 2026,
+  "title": "Apprentissage de l'exercice médical - 2026",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le dépistage des situations de violence, quelle(s) est/ont la ou les proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il ne concerne que les patients présentant des facteurs de risque",
+            "B) Une exposition actuelle ou passée à des violences doit être recherchée au même titre que les antécédents médico-chirurgicaux du patient",
+            "C) Il est facilité par la présence de documentation et d’affiches de prévention de la violence dans la salle d’attente des praticiens",
+            "D) Les patients ayant un statut socio-économique élevé font partie des populations les plus à risque de violence",
+            "E) Les patients présentant une pathologie psychiatrique font partie des populations à risque de violence"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’ITT dans le cadre d’un certificat de coups et blessures volontaires, quelle(s) est/ont la ou les proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Elle correspond à la durée de l’incapacité totale de travail",
+            "B) Elle est utile au magistrat pour qualifier l’infraction pénale",
+            "C) Elle correspond à la durée de l’incapacité temporaire totale",
+            "D) Elle correspond à la durée d’arrêt de travail",
+            "E) Elle prend en compte le retentissement psychologique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est/sont la ou les condition(s) suffisante(s) pour pouvoir déroger au secret médical dans le cadre d’un signalement judiciaire pour violences au sein du couple ?",
+          "choix": [
+            "A) La victime est mineure",
+            "B) La victime n’est pas en mesure de se protéger en raison d’une pathologie mentale",
+            "C) La victime est d’accord pour ce signalement",
+            "D) Il existe un danger immédiat et une situation d’emprise",
+            "E) La victime a plus de 60 ans"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le devoir d’information au patient, quelle(s) est/ont la ou les proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Il est inscrit dans la loi du 4 mars 2002",
+            "B) L’urgence vitale est une exception au devoir d’information",
+            "C) Il ne s’applique pas aux patients mineurs",
+            "D) En matière de chirurgie esthétique, l’information doit être accompagnée de la remise d’un devis détaillé",
+            "E) En cas de défaut d’information au patient, le médecin risque des sanctions par le son conseil de l’ordre des médecins"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant l'examen clinique d'une victime de violences sexuelles, quelle est la proposition exacte (une seule réponse attendue)",
+          "choix": [
+            "A) Il ne concerne que la région génitale",
+            "B) L’absence de lésion génito-anale permet d’affirmer l’absence de viol",
+            "C) Une érosion de la fourchette vulvaire postérieure est spécifique d’un rapport sexuel non consenti",
+            "D) La présence de sperme en intravaginal est une preuve de viol",
+            "E) Toutes les propositions sont fausses"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lors de votre exercice médical, vous êtes amené à réaliser l'examen d'un cadavre en vue de la réalisation de son certificat de décès. Quel(s) élément(s) peut/peuvent vous permettre de diagnostiquer le décès ?",
+          "choix": [
+            "A) Un arrêt cardio-respiratoire",
+            "B) La présence de lésions traumatiques",
+            "C) La présence d’une rigidité cadavérique",
+            "D) La présence de lividités",
+            "E) Une anisocorie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient décède aux urgences après une chute d’un toit dans le cadre de l’exercice de son travail de couvreur. Vous diagnostiquez un traumatisme crânien majeur au body-scanner réalisé à l’arrivée aux urgences, responsable à lui seul du décès. Lors de la rédaction du certificat de décès, cochez-vous l’obstacle médico-légal dans ce contexte ?",
+          "choix": [],
+          "reponses": [
+            "oui"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 volets du certificat de décès",
+          "choix": [
+            "A) Le volet administratif",
+            "B) Le volet judiciaire",
+            "C) Le volet médical",
+            "D) Le volet médical complémentaire",
+            "E) Le volet médico-légal"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous êtes médecin aux urgences, et une jeune fille de 8 ans se présente dans votre service avec ses parents. Elle rapporte que, la veille, un voisin âgé de 13 ans aurait « mis ses doigts dans sa culotte » et « qu’il aurait rentré ses doigts devant ». Elle se plaint de douleurs vulvaires, et un léger saignement aurait été constaté après les faits. Les parents vous précisent qu’ils ne vont pas déposer plainte au commissariat et qu’ils veulent « régler cette histoire eux même ». Qu’est-il essentiel de faire dans ce cas ?",
+          "choix": [],
+          "reponses": [
+            "signalement au procureur de la république"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est(sont) la(les) proposition(s) exacte(s) concernant la responsabilité pénale du médecin ?",
+          "choix": [
+            "A) Elle peut être engagée en cas de non-assistance à personne en péril",
+            "B) Elle peut être engagée en cas de violation du secret professionnel",
+            "C) Sa mise en cause permet la réparation des dommages causés à autrui",
+            "D) Sa mise en cause fait encourir au médecin un blâme ou un avertissement",
+            "E) Sa mise en cause peut faire encourir au médecin une peine de prison avec sursis"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre de la responsabilité disciplinaire, quelle(s) est(sont) la(les) sanction(s) encourue(s) par le médecin ?",
+          "choix": [
+            "A) L'avertissement",
+            "B) La peine d'amende",
+            "C) Le blâme",
+            "D) La peine de prison",
+            "E) L'interdiction temporaire d'exercer"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le secret médical, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Ne s'applique plus après la mort du patient",
+            "B) Peut être opposé aux proches et à la famille",
+            "C) Peut être opposé à la personne de confiance",
+            "D) Le médecin peut y déroger dans le cadre d'une réquisition judiciaire",
+            "E) En cas de son non-respect par le personnel infirmier, il peut y avoir une sanction disciplinaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395439158-d25e3b1b068348",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est l’année de mise en place de la réforme de la Protection Universelle Maladie (PUMA) en France ? (mettre uniquement l'année, sous format 4 chiffres 'XXXX', il est inutile de mettre 'en' devant l'année)",
+          "choix": [],
+          "reponses": [
+            "2016 (absolument pas pertinent)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous conduisez une étude cherchant à évaluer si les patients ayant une ichtyose congénitale (maladie dermatologique rare, dont les symptômes sont présents dès la naissance) ont un risque cardio-vasculaire plus élevé que la population générale. Vous recrutez 150 patients avec une ichtyose congénitale et 150 patients se rendant en consultation pour un dépistage de mélanome. Vous étudiez ensuite les dossiers cliniques de ces patients afin de déterminer s' ils ont eu des évènements cardiovasculaires. De quel type d’étude s’agit-t’il ?",
+          "choix": [
+            "A) Une étude transversale",
+            "B) Une étude cas-témoins",
+            "C) Une cohorte rétrospective de type exposés / non-exposés",
+            "D) Une cohorte prospective de types exposés / non-exposés",
+            "E) Une étude cas-témoins nichée dans une cohorte"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Il s'agit d’une cohorte rétrospective, les patients ne sont pas inclus selon la survenue de l'événement d'intérêt mais selon leur statut exposé ou non exposé.",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans une étude de cohorte prospective cherchant à déterminer si l’indice de masse corporelle (IMC) est un facteur de risque d’infarctus du myocarde, la puissance de l’étude dépend de … (indiquez quelles sont les propositions vraies) :",
+          "choix": [
+            "A) La force de l’association",
+            "B) Le nombre de participants dans la cohorte",
+            "C) Le nombre de cas d’infarctus du myocarde",
+            "D) La spécificité de l’association",
+            "E) L'écart type de la distribution de l’IMC"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "proposition D : La spécificité est un critère de bradford hill qui permet de juger de la causalité de l’association (indépendamment de la notion de puissance).",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Question issue de l’article Zhong H, Wang J, Yang R, et al.. Lancet Oncol. P, 2026.\nDans cet essai clinique randomisé contrôlé comparant deux groupes de patients atteints d'un cancer du poumon, les patients ont été traités soit par \"Benmelstobart et Anlotinib\", soit par \"Pembrolizumab et placebo\". Les courbes de survie sont représentés ci-dessous :\nIndiquez quelles sont les propositions vraies concernant la survie :",
+          "choix": [
+            "A) La médiane de survie du groupe \"Pembrolizumab et placebo\" est comprise entre 6 et 9 mois",
+            "B) Les perdus de vus sont censurés à la date des dernières nouvelles",
+            "C) Le groupe \"Benmelstobart et Anlotinib\" a une incidence instantanée égale à 0,70 fois celle du groupe \"Pembrolizumab et placebo\"",
+            "D) L’hypothèse des risques proportionnels signifie que le Hazard ratio est constant sur toute la durée de l’étude",
+            "E) Le nombre de sujets à risque est constant au cours du suivi"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Proposition 5 : au cours du suivi, les patients censurés ainsi que les patients ayant eu l'événement ne sont plus \"à risque\"",
+          "order": 4,
+          "images": [
+            "/images/qcm/apprentissage-exercice-medical-s8/2026/q16.webp?v=1786395441791"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment s’appelle la proportion du nombre de cas d’une maladie à un instant donné ?",
+          "choix": [],
+          "reponses": [
+            "prevalence"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La différence entre erreur et violation est souvent mal comprise. Parmi les situations suivantes, 4 peuvent etre qualifiées de violation, lesquelles ?",
+          "choix": [
+            "A) Un soignant ne vérifie pas l’identité du patient avant un soin car il le connaît bien.",
+            "B) Une prescription est mal retranscrite dans le dossier de soins à cause d’une confusion entre deux médicaments au nom proche.",
+            "C) Un soignant désactive une alarme de pompe à perfusion pour ne pas que le malade soit dérangé pendant quelques minutes, le temps de pouvoir dormir, car il vient de faire connaitre son impossibilité à dormir dans l'environnement bruyant.",
+            "D) Une interne prescrit un médicament à la mauvaise posologie après avoir mal retranscrit l’ordonnance de ville",
+            "E) Un professionnel n'applique pas le double contrôle demandé avant une administration médicamenteuse, de facon à gagner un peu de temps car “le service n'est vraiment pas calme”.",
+            "F) Un soignant passe rapidement dans une chambre en oubliant une hygiène des mains après avoir été appelé en urgence, puis s’en rend compte après coup.",
+            "G) Un dossier patient est mal renseigné parce qu’une case a été cochée par inadvertance.",
+            "H) Un soignant déroge à la procédure en laissant la barrière de lit abaissée chez une patiente agitée, car elle estime que cela la calme et facilite la relation."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E",
+            "H"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "Une erreur correspond à un écart non intentionnel, non volontaire à une pratique souhaitable)\npar exemple à une mauvaise lecture d’un résultat, une confusion de patient, ou une erreur de dose médicamenteuse sans intention de contourner la règle.\nUne violation correspond à une non réalisation faite sciemment, un non-respect délibéré d’un protocole, d’une procédure ou d’une recommandation, par exemple “faire comme d’habitude” en sautant une vérification obligatoire. Pour mémoire la violation est cependant réalisée la plupart du temps sans intention de nuire",
+          "order": 6
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’organisation du système de santé en France, la(es)quelle(s) de ces propositions est(sont) exacte(s) ?",
+          "choix": [
+            "A) Le Parlement vote tous les ans la Loi de financement de la Sécurité Sociale (LFSS)",
+            "B) Des structures d’appui peuvent être consultées en amont d’une loi Santé",
+            "C) La Direction Générale de la Santé (DGS) coordonne la politique nationale de santé publique",
+            "D) Santé Publique France (SPF) est une structure d’appui du Ministère en charge de la Santé",
+            "E) La Direction de la Sécurité Sociale (DSS) assure la tutelle des organismes de Sécurité Sociale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mme A, 85 ans, est dans un box aux urgences suite à une chute à domicile. En voulant raccrocher ses rideaux, elle a chuté de la chaise sur laquelle elle était montée. Elle ne présente ni antécédents ni signes cliniques particuliers hormis une douleur au bras. Vous êtes déjà en poste et venez de quitter le box précédent. Vous devez l’examiner. A propos de votre hygiène des mains avant sa prise en charge, il faut utiliser préférentiellement (indiquez la réponse exacte) :",
+          "choix": [
+            "A) l’eau et un savon doux",
+            "B) l’eau et un savon antiseptique",
+            "C) le détergent désinfectant",
+            "D) l’eau oxygénée",
+            "E) une solution hydroalcoolique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "La friction par solution hydroalcoolique est la technique de référence.",
+          "order": 8
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme H, résidente d’EHPAD est transférée dans votre service suite à un malaise. L’Equipe opérationnelle d'hygiene vous appelle pour vous prévenir que cette patiente est porteuse d’une entérobactérie productrice de carbapénémase. Parmi les propositions ci-dessous, 3 relèvent des précautions complémentaires, lesquelles ?",
+          "choix": [
+            "A) Elle doit être placée en chambre seule",
+            "B) Vous devez informer la patiente de son portage d’entérobactérie productrice de carbapénémase",
+            "C) Vous devez porter un masque avant de rentrer dans la chambre",
+            "D) Vous devez faire une hygiène des mains à l’eau et au savon en sortant de la chambre",
+            "E) Vous devez respecter les précautions standard"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "C : BHRe = portage digestif\nD : lavage des mains uniquement requis pour Clostridioides difficile et la gale.\nE : les précautions complémentaires sont à appliquer en complément des précautions standard.",
+          "order": 9
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez en consultation un patient de 28 ans pour une rhinite chronique associée à un prurit oculaire dans le cadre d’une allergie saisonnière. Vous profitez de cette consultation pour discuter prévention et vous découvrez que ce patient présente une consommation chronique et régulière de protoxyde d’azote. Il consomme dans un cadre festif, mais également plusieurs fois par semaine, seul à son domicile. Le patient vous explique qu’il apprécie les effets du protoxyde d’azote et le considère comme une substance inoffensive. Malgré les risques associés que vous lui exposez, il affirme que sa consommation est trop faible pour entraîner des effets indésirables significatifs. Pour l’instant, il n’envisage pas de modifier son comportement. Vous identifiez un risque majeur lié à ses consommations, puisqu’il lui est déjà arrivé à plusieurs reprises de conduire après usage.\nSelon le modèle Trans théorique de changement les éléments exprimés dans cet énoncé sont caractéristiques de :",
+          "choix": [
+            "A) Du stade de l’évitement cognitif précoce",
+            "B) Du stade la pré contemplation",
+            "C) Du stade de la minimisation",
+            "D) Du stade de la contemplation",
+            "E) Du stade de la circonspection"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "A. Faux, le stade de l’évitement cognitif précoce n’est pas l’un des 5 stades du modèle Trans théorique de changement (pré contemplation, contemplation, préparation, action, maintien).\nB. Vrai, le stade pré contemplation est caractérisé par la résistance à reconnaître le comportement problématique.\nC. Faux, le stade de l’inertie motivationnelle n’est pas l’un des 5 stades du modèle Trans théorique de changement (pré contemplation, contemplation, préparation, action, maintien).\nD. Faux, le stade la contemplation est un stade avec prise de conscience du problème et ambivalence : le patient reconnaît les risques, voit des avantages et des inconvénients à la consommation, et envisage un changement mais sans passage à l’acte\nE. Faux, le stade de l’inconfort comportemental latent n’est pas l’un des 5 stades du modèle Trans théorique de changement (pré contemplation, contemplation, préparation, action, maintien).",
+          "order": 10
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Mise en situation: Un médecin généraliste souhaite mettre en place des téléconsultations pour le suivi de ses patients. A propos du cadre éthique et des bonnes pratiques de téléconsultation selon la HAS, indiquez laquelle (lesquelles) des propositions suivantes est (sont) exacte(s) (3 réponses vraies):",
+          "choix": [
+            "A) Le médecin n'est pas responsable de l'évaluation de la pertinence du recours à la téléconsultation pour le patient",
+            "B) Le patient doit être préalablement informé et donner son consentement éclairé",
+            "C) Il est indispensable de vérifier la capacité du patient à bénéficier d'une telle consultation à distance",
+            "D) Le praticien doit obligatoirement imposer la présence d'un professionnel de santé accompagnant à chaque téléconsultation",
+            "E) Le praticien doit s'assurer de la disponibilité des données médicales du patient"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Faux : Le professionnel de santé reste responsable de l'évaluation de la pertinence de cet acte\nVrai\nVrai\nFaux : Il faut prévoir la présence d'un professionnel de santé accompagnant uniquement \"le cas échéant\", ce n'est pas une obligation systématique\nVrai",
+          "order": 11
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Il existe différents types de barrières pour sécuriser les soins. Parmi eux, la check-list au bloc opératoire, quand elle permet d’identifier une erreur de coté avant l’intervention est une barriere de ….. (1 seul mot attendu)",
+          "choix": [],
+          "reponses": [
+            "recupération"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mise en situation : Un médecin généraliste travaillant en Maison de Santé Pluriprofessionnelle (MSP) souhaite partager le dossier numérique d'un patient complexe avec l'infirmière et le kinésithérapeute de la structure pour coordonner sa prise en charge.\nA propos des règles du partage des données de santé entre professionnels, indiquez laquelle (lesquelles) des propositions suivantes est (sont) exacte(s) :",
+          "choix": [
+            "A) Ces professionnels exerçant dans la même structure de soins coordonnés (MSP) constituent une \"équipe de soins\" au sens du code de la santé publique",
+            "B) Le partage d'informations relatives au patient au sein de cette équipe de soins nécessite le recueil préalable de son consentement écrit",
+            "C) L'assistante sociale de la MSP est considérée par le code de la santé publique comme un \"professionnel de santé\" au même titre que l'infirmière",
+            "D) Le \"responsable de traitement\" du dossier patient informatisé, c'est-à-dire la personne qui détermine la finalité et les moyens du traitement, est la CNIL",
+            "E) Le remplacement des informations identifiantes du patient par une information non identifiante, comme un numéro aléatoire, s'appelle la pseudonymisation"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "Vrai\nFaux : Le partage d'informations entre professionnels de la même équipe de soins est permis par défaut, sous réserve que le patient ait été informé et sauf opposition de sa part (pas d'obligation de consentement écrit systématique)\nFaux : Les assistantes sociales, tout comme les psychologues, ne sont pas considérées comme des professionnels de santé par le code de la santé publique (bien qu'elles puissent intégrer l'équipe de soins)\nFaux : Le responsable de traitement est la personne physique ou morale qui met en place le système (par exemple le médecin de la MSP ou le coordonnateur de la MSP). La CNIL est l'autorité régulatrice indépendante.\nVrai\nL’équipe de soins selon le CSP est définie par un ensemble de professionnels qui participe directement (acte diagnostique, thérapeutique, de soulagement de la douleur…) ou qui coordonne ces actes. Donc je pensais « action de coordination » des soins IDE et kiné en écrivant cette question.",
+          "order": 13
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

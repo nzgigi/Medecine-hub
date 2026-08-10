@@ -1,0 +1,466 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s3",
+  "annee": 2024,
+  "title": "Pharmacologie médicale - 2024",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système nerveux autonome :",
+          "choix": [
+            "A) L’adrénaline est un agoniste des récepteurs muscariniques",
+            "B) Le système nerveux parasympathique est mis en jeu lors de situation de stress",
+            "C) La stimulation des récepteurs du système nerveux parasympathique induit une vasoconstriction",
+            "D) La stimulation des récepteurs du système nerveux orthosympathique induit un effet dromotrope positif",
+            "E) Le baroréflexe permet de modifier la fréquence cardiaque pour assurer la régulation de la pression artérielle"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments du système adrénergique, laquelle (ou lesquelles) est(sont) exacte(s) ?",
+          "choix": [
+            "A) Les agonistes alpha1-adrénergiques augmentent la pression sanguine artérielle en agissant sur des récepteurs postsynaptiques",
+            "B) La stimulation des récepteurs beta2 adrénergiques entraine une vasodilatation",
+            "C) Les agonistes alpha2 adrénergiques diminuent le tonus orthosympathique",
+            "D) L’adrénaline entraine une stimulation préférentielle des récepteurs béta à faible dose et des récepteurs alpha à forte dose",
+            "E) L’isoprénaline agit à la fois sur les récepteurs alpha1, les récepteurs béta 1 et les récepteurs béta 2"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système nerveux parasympathique :",
+          "choix": [
+            "A) L’atropine est un antagoniste des récepteurs nicotiniques",
+            "B) Au niveau de la synapse ganglionnaire, la neurotransmission met en jeu la stimulation des récepteurs nicotiniques par l’acétylcholine",
+            "C) L’acétylcholine entraine un effet chronotrope positif",
+            "D) Les récepteurs nicotiniques sont exprimés au niveau du cœur et des vaisseaux",
+            "E) L’acétylcholine est un agoniste des récepteurs muscariniques"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets suivants des catécholamines, lequel (ou lesquels) est (sont) déterminé(s) par des effets beta-adrénergiques ?",
+          "choix": [
+            "A) Augmentation de la fréquence cardiaque",
+            "B) Augmentation de la sécrétion de rénine",
+            "C) Lipolyse",
+            "D) Contractions utérines",
+            "E) Hypoglycémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les inhibiteurs de l’enzyme de conversion de l’angiotensine I, lesquelles sont exactes ?",
+          "choix": [
+            "A) Ils se fixent de façon compétitive sur récepteur AT1",
+            "B) Ils augmentent la concentration plasmatique de la rénine",
+            "C) Ils sont imputés dans la survenue d’angioedèmes bradykiniques",
+            "D) Leur association aux AINS augmente le risque d’insuffisance rénale",
+            "E) Ils sont hyperkaliémiants."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant la trinitrine, quelle est celle qui est exacte ?",
+          "choix": [
+            "A) Elle possède 3 radicaux NO",
+            "B) Elle est imputée dans la survenue de céphalées",
+            "C) Elle est indiquée dans le traitement de l’HTA",
+            "D) Sa biodisponibilité élevée permet une administration orale",
+            "E) A fortes doses, elle détermine une activation du baroréflexe"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant le vérapamil, quelles sont celles qui sont exactes ?",
+          "choix": [
+            "A) Il diminue la pente de dépolarisation spontanée des cellules du tissu nodal",
+            "B) Il peut démasquer une insuffisance cardiaque",
+            "C) Il peut être associé à un dérivé nitré",
+            "D) Il peut être associé à un bêtabloquant",
+            "E) Il est fréquemment imputé dans la survenue de constipation"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les dihydropyridines, quelle est celle qui est exacte ?",
+          "choix": [
+            "A) Elles sont bradycardisantes",
+            "B) Elles sont contre-indiquées en association aux bêtabloquants",
+            "C) Elles peuvent induire ou aggraver une insuffisance cardiaque",
+            "D) Elles sont imputées dans la survenue d’œdèmes des membres inférieurs",
+            "E) Elles sont imputées dans la survenue d’une atrophie gingivale"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la pharmacocinétique et le bon usage des médicaments, quelle(s) est (sont) la (les) bonne(s) réponse(s) ?",
+          "choix": [
+            "A) La biodisponibilité par voie orale permet de calculer la bioéquivalence de dose lors du passage d’une voie intraveineuse à la voie orale",
+            "B) Les médicaments avec une faible biodisponibilité sont à risques de variabilité interindividuelle",
+            "C) Les médicaments à forme à libération prolongée peuvent être pulvérisés",
+            "D) La quantité de principe actif reste la même que le comprimé soit pulvérisé ou non.",
+            "E) Les formes à libération prolongée améliorent obligatoirement l’observance du patient au traitement."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la pharmacocinétique et le bon usage des médicaments, quelle(s) est (sont) la (les) bonne(s) réponse(s) ?",
+          "choix": [
+            "A) Lors d’une administration répétée avec cumul de dose, l’état d’équilibre est obtenu après 5 demi-vies",
+            "B) L’administration d’une dose de charge permet d’arriver rapidement à une concentration plasmatique cible",
+            "C) Le volume apparent de distribution est différent suivant la voie d’administration du médicament",
+            "D) La métabolisation pré-systémique peut s’effectuer au niveau des entérocytes",
+            "E) Les médicaments « –azolés » sont de puissants inhibiteurs enzymatiques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rivaroxaban, la ou les proposition(s) suivante(s) est (sont) vraie(s) :",
+          "choix": [
+            "A) C’est un anticoagulant anti facteur II",
+            "B) Il est indiqué dans les valvulopathies",
+            "C) Il est administré par voie orale",
+            "D) C’est un anticoagulant direct",
+            "E) Il n’est pas métabolisé par le foie"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du clopidogrel, la ou les proposition(s) suivante(s) est (sont) vraie(s) :",
+          "choix": [
+            "A) C’est un anti-antiagrégant plaquettaire",
+            "B) C’est un inhibiteur des récepteurs à l’ADP",
+            "C) Il favorise les effets indésirables hémorragiques",
+            "D) Il est utilisé en association avec l’aspirine à faible dose",
+            "E) Il est administré par voie injectable"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des « -statines » la ou les proposition(s) suivante(s) est (sont) vraie(s) :",
+          "choix": [
+            "A) La pravastatine est métabolisée par le cytochrome P450 3A4.",
+            "B) Ce sont des médicaments agonistes des PPAR alpha.",
+            "C) La rosuvastatine diminue la morbi-mortalité cardiovasculaire.",
+            "D) Ces médicaments peuvent déterminer des effets indésirables musculaires.",
+            "E) Les statines possèdent des effets pléiotropes."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Son père s’inquiète des effets indésirables du salbutamol. Quels sont les effets indésirables du salbutamol ?",
+          "choix": [
+            "A) Tremblement périphériques des extrémités",
+            "B) Hyperkaliémie",
+            "C) Hypoglycémie",
+            "D) Tachycardie sinusale",
+            "E) Mydriase"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 14,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du mécanisme d’action des diurétiques, la ou les proposition(s) suivante(s) est (sont) vraie(s) :",
+          "choix": [
+            "A) Les diurétiques de l’anse de Henlé empêchent la réabsorption de sodium en inhibant le co-transporteur NaCl",
+            "B) Les diurétiques thiazidiques empêchent la réabsorption de sodium en inhibant le co-transporteur Na-K-2Cl",
+            "C) La spironolactone empêche la réabsorption de sodium en bloquant le récepteur à l’aldostérone au niveau du tube contourné proximal.",
+            "D) L’acetazolamide empêche la réabsorption de sodium en inhibant l’anhydrase carbonique",
+            "E) Le mannitol augmente la pression osmotique"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les médicaments de l’asthme, la ou les proposition(s) suivante(s) est (sont) vraie(s) :",
+          "choix": [
+            "A) Le salbutamol est un agoniste Beta2 adrénergique d’action moyenne et de durée prolongée.",
+            "B) Chez l’enfant, le salbutamol peut être administré à l’aide d’une chambre d’inhalation.",
+            "C) Les corticoïdes favorisent la désensibilisation aux agonistes Beta2 adrénergiques.",
+            "D) Les atropiniques utilisés par voie inhalée dans l’asthme ne déterminent pas d’effets indésirables INACCEPTABLE systémiques.",
+            "E) Le montelukast est à l’origine de symptôme dépressifs."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297460833-d090caa7caccd",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur B, âgée de 75 ans est hospitalisé pour un accident vasculaire cérébral hémorragique. Il présente comme antécédents une fibrillation auriculaire, une hypertension artérielle, un asthme et des douleurs d’arthroses. Vous constatez un surdosage en warfarine (INR à 5,6 ; norme = 2-3). Dans ce contexte, vous décidez de revoir son ordonnance (vous n’avez pas d’information sur la date d’initiation de ces médicaments) :\namiodarone, warfarine, hydrochlorothiazide, ramipril, salbutamol, miconazole (« -Azolés »), ibuprofène (AINS). Vous suspectez une interaction médicamenteuse avec la warfarine à l’origine du déséquilibre de l’iNR. Dans son ordonnance, quel(s) est(sont) le(les) médicament(s) qui de votre point de vue devrait(ent) être suspecté(s) en priorité ?",
+          "choix": [
+            "A) Amiodarone",
+            "B) Hydrochlorothiazide",
+            "C) Ramipril",
+            "D) Salbutamol",
+            "E) Miconazole"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) serait(ent) le(s) mécanisme(s) de cette(ces) intéraction(s) ?",
+          "choix": [
+            "A) Interaction pharmacodynamique",
+            "B) Interaction pharmacocinétique",
+            "C) Modification de l’élimination rénale",
+            "D) Effet inhibiteur enzymatique",
+            "E) Effet inducteur enzymatique"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic est donc un accident vasculaire cérébral hémorragique suite à un surdosage en warfarine. Concernant cet effet indésirable :",
+          "choix": [
+            "A) C’est un effet indésirable attendu",
+            "B) C’est un effet indésirable « grave »",
+            "C) C’est un effet indésirable de type A",
+            "D) Vous devez déclarer l’effet indésirable à la Haute autorité de Santé (HAS)",
+            "E) Selon la méthode française d’imputabilité médicamenteuse, le critère bibliographique n’intervient pas dans le calcul de l’imputabilité intrinsèque"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours de la prise en charge hospitalière, le patient présente une insuffisance rénale fonctionnelle ? Dans son ordonnance, quel(s) est(sont) le(les) médicament(s) qui de votre point de vue devrait(ent) être suspecté(s) par rapport à cette atteinte de la fonction rénale ?",
+          "choix": [
+            "A) Amiodarone",
+            "B) Hydrochlorothiazide",
+            "C) Ramipril",
+            "D) Miconazole",
+            "E) Ibuprofène"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient s’améliore cliniquement et ne garde pas de handicap majeur de son accident vasculaire cérébral. Le patient se plaint cependant d’une toux persistante. Votre examen clinique pulmonaire et l’imagerie thoracique ne retrouvent aucune anomalie. Il vous explique que la toux était présente avant son hospitalisation. La toux est apparue environ 1 semaine après avoir consulté son cardiologue pour modifier ses médicaments . D’après les éléments disponibles, parmi les médicaments de son ordonnance lequel est le plus susceptible d’avoir induit cette toux ?",
+          "choix": [
+            "A) Warfarine",
+            "B) Amiodarone",
+            "C) Hydrochlorothiazide",
+            "D) Ramipril",
+            "E) Salbutamol"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Finalement, le médicament responsable cette toux est changé. Ce nouvel effet indésirable, vous pousse à revoir encore l’ordonnance médicamenteuse. Vous vous interrogez sur les effets indésirables potentiels des autres médicaments de l’ordonnance. Parmi les affirmations suivantes, quelles sont celles qui sont exactes ?",
+          "choix": [
+            "A) L’ibuprofène peut favoriser une crise d’’asthme chez ce patient par son action d’inhibition des prostaglandines.",
+            "B) L’ibuprofène aggrave l’hypertension artérielle par une augmentation de la rétention hydrosodée et une vasoconstriction.",
+            "C) Le salbutamol peut induire des troubles du rythme cardiaque par son effet agoniste beta2 adrénergique.",
+            "D) L’amiodarone est à l’origine de pneumopathies interstitielles",
+            "E) L’hydrochlorothiazide et le salbutamol sont hypokaliémiants."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

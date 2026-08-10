@@ -1,0 +1,465 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s4",
+  "annee": 2026,
+  "title": "Pharmacologie médicale - 2026",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mr Allergy 70 ans vient vous consulter pour la première fois et dans un contexte d’une recrudescence d’épisodes de rhinites allergiques. En dehors de la rhinite allergique, les antécédents médicaux de Mr Allergy sont les suivants : une goutte, un ulcère gastrique et une hypertension artérielle (HTA). Il vient de subir une petite intervention chirurgicale, une extraction dentaire, il y a 10 jours et a reçu une prescription de tramadol en prévision des douleurs dentaires.\nDepuis mi-Avril 2026, il présente régulièrement un écoulement nasal, des démangeaisons, un prurit important et des larmoiements oculaires, ainsi que des éternuements. Il a déjà eu ce type de symptômes depuis son enfance. Il y a plusieurs années son ancien médecin généraliste l’avait traité par hydroxyzine mais il s’était plaint d’une somnolence excessive. Devant le tableau de rhinite allergique saisonnière, vous prescrivez de la cétirizine.\nSon ordonnance actuelle comprend les médicaments suivants et vous décidez de revoir son ordonnance :\nEsoméprazole\nRamipril\nHydrochlorothiazide\nColchicine\nAspirine (dose anti-inflammatoire)\nTramadol\nCétirizine",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la cétirizine que vous avez prescrite, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Elle agit en inhibant la synthèse de phospholipase A2",
+            "B) Son mécanisme d’action principal est le même que l’hydroxyzine.",
+            "C) Vous prescrivez la cétirizine plutôt que l’hydroxyzine car elle possède des propriétés atropiniques que ne possède pas l’hydroxyzine.",
+            "D) Vous prescrivez la cétirizine plutôt que l’hydroxyzine car la cétirizine passe moins la barrière hémato-encéphalique que l’hydroxyzine.",
+            "E) La cétirizine réduit moins la sécrétion acide gastrique que l’hydroxyzine."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous réfléchissez à arrêter l’aspirine, la(les)quelle(s) des propositions suivantes est(sont) vraie(s) :",
+          "choix": [
+            "A) L’aspirine augmente la clairance rénale de l’acide urique.",
+            "B) L’aspirine n’est pas un médicament de la goutte (crise ou traitement de fond).",
+            "C) L’aspirine entraine une pharmacodépendance.",
+            "D) Le mécanisme d’action de l’aspirine est opposé à celui du tramadol",
+            "E) L’association de l’aspirine avec l’hydrochlorothiazide et le ramipril majore le risque d’insuffisance rénale aiguë fonctionnelle."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La prescription du tramadol vous inquiète à cause des effets indésirables potentiels. La(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Le potentiel addictif du tramadol dépend de l’effet agoniste sur les récepteurs opioïdes mu.",
+            "B) Le tramadol possède des propriétés inhibitrices de la recapture de la sérotonine.",
+            "C) Il y a un risque d’interaction pharmacocinétique avec les médicaments inhibiteurs du cytochrome CYP3A4",
+            "D) Le tramadol est émétisant",
+            "E) Le tramadol peut entrainer des hypoglycémies."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous craignez un surdosage en colchicine. La(les)quelle(s) des propositions est (sont) vraie(s) ?",
+          "choix": [
+            "A) Il est conseillé de débuter à faible dose la colchicine pour réduire le risque de surdosage.",
+            "B) L’ordonnance ne contient aucun médicament interagissant avec la colchicine au niveau du cytochrome CYP 3A4.",
+            "C) La diarrhée est un signe précoce de surdosage en colchicine",
+            "D) Une pancytopénie peut être la conséquence d’un surdosage",
+            "E) L’évolution clinique n’est jamais fatale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le risque d’ulcère digestif chez ce patient et sa prévention, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) L’aspirine n’augmente pas le risque d’ulcère digestif contrairement aux autres AINS.",
+            "B) L’ésoméprazole est un inhibiteur de la pompe à proton indiqué dans le traitement des ulcères digestifs déterminés par les AINS.",
+            "C) La cétirizine est une alternative à l’ésoméprazole dans le traitement des ulcères digestifs déterminés par les AINS.",
+            "D) L'ésoméprazole est l'isomère lévogyre de l'oméprazole.",
+            "E) L’ésoméprazole expose à un risque de crise de goutte"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La pression sanguine artérielle du patient n’est pas stabilisée. Parmi les médicaments de l’ordonnance, lequel peut favoriser une augmentation de la pression sanguine artérielle ?",
+          "choix": [
+            "A) Esoméprazole",
+            "B) Hydrochlorothiazide",
+            "C) Colchicine",
+            "D) Aspirine",
+            "E) Tramadol"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395967584-ae40d8d719d818",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les opioïdes, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) La tolérance correspond à une diminution progressive d’efficacité nécessitant souvent une augmentation de dose.",
+            "B) L’hyperalgésie induite par les opioïdes est améliorée par l’augmentation de la dose d’opioïde.",
+            "C) La buprénorphine est un agoniste partiel des récepteurs mu",
+            "D) Le syndrome de sevrage peut comporter mydriase, frissons, rhinorrhée et tachycardie.",
+            "E) Le fentanyl est un antagoniste des récepteurs mu."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets pharmacodynamiques de la morphine, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) La morphine augmente le seuil douloureux et la tolérance à la douleur.",
+            "B) La morphine provoque une mydriase.",
+            "C) La morphine peut entraîner une dépression respiratoire.",
+            "D) La morphine diminue le péristaltisme colique et peut entraîner une constipation.",
+            "E) La morphine augmente les résistances périphériques et provoque une hypertension."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces effets indésirables, lesquel(s) est(sont) imputable(s) aux glucocorticoïdes :",
+          "choix": [
+            "A) Hyperglycémie",
+            "B) Ostéoporose",
+            "C) Rétention hydrosodée et HTA",
+            "D) Risque d’insuffisance surrénalienne en cas d’arrêt brutal",
+            "E) Diminution du risque infectieux"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le paracétamol, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) La cible rendant compte de l’effet antalgique est le récepteur µ",
+            "B) Il augmente le risque thrombogène",
+            "C) Il est anti-inflammatoire à fortes doses",
+            "D) Lors de surdosage, il est néphrotoxique",
+            "E) C’est l’antalgique de première intention chez la femme enceinte"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les AINS, quelle(s) proposition(s) est(sont) vraie(s) :",
+          "choix": [
+            "A) Ils stimulent la synthèse des prostaglandines",
+            "B) A faible dose, l’aspirine exerce un effet anticoagulant",
+            "C) Les effets indésirables cardio-vasculaires d’un AINS sont d’autant plus importants que l’inhibition de la COX-2 est prédominante par rapport à celle de la COX-1",
+            "D) Ils sont contre-indiqués en association au paracétamol",
+            "E) Ils sont contre-indiqués à partir du 6ème mois de grossesse"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les mécanismes d’action des immunosuppresseurs, quelle est (sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) La ciclosporine inhibe la production d’IL2 par les lymphocytes T",
+            "B) Le rituximab est un anticorps inhibant la production des lymphocytes T",
+            "C) Le mycophénolate mofétil est un inhibiteur de la synthèse de novo des bases puriques",
+            "D) L’évérolimus est un anti-calcineurine",
+            "E) Le tacrolimus est un inhibiteur de mTOR"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs de variation des effets pharmacologiques liés au patient, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Chez le nouveau-né, la métabolisation hépatique est augmentée",
+            "B) Chez le sujet âgé, la barrière hémato-méningée présente les mêmes propriétés que chez le sujet adulte jeune",
+            "C) Chez le nourrisson, les fonctions enzymatiques sont immatures",
+            "D) Chez le sujet âgé, la fonction rénale diminue",
+            "E) La perméabilité de la barrière hémato-encéphalique est augmentée chez le nouveau-né"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les sites d’action spécifique des substances à potentiel addictif, quelle est ou quelles sont la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) L’augmentation de l’activité dopaminergique au niveau du système nerveux central explique le potentiel addictif des substances stimulantes",
+            "B) La cocaïne agit en bloquant la recapture de la dopamine",
+            "C) Le tabac entraine une dépendance via la nicotine qui agit sur le récepteur au GABA",
+            "D) Le LSD est une substance psychédélique qui agit sur le système sérotoninergique",
+            "E) Une substance antagoniste des récepteurs opioïdes mu présente en théorie un potentiel addictif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels peuvent entrainer une photosensibilisation:",
+          "choix": [
+            "A) Kétoprofène",
+            "B) Paracétamol",
+            "C) Tétracyclines",
+            "D) Amoxicilline",
+            "E) Amiodarone"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels peuvent déterminer un syndrome de Stevens-Johnson",
+          "choix": [
+            "A) Lamotrigine",
+            "B) Morphine",
+            "C) Aspirine",
+            "D) Allopurinol",
+            "E) Paracétamol"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments antiémétiques, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Les neuroleptiques type métoclopramide sont antiémétiques par leur propriété antagoniste compétitif des récepteurs D2.",
+            "B) Les « sétrons » type ondansétron sont antiémétiques par leur propriété antagoniste compétitif des récepteurs D2.",
+            "C) Les neuroleptiques type métoclopramide augmentent le risque de troubles du rythme cardiaque.",
+            "D) Les « sétrons » type ondansétron augmentent le risque de troubles du rythme cardiaque.",
+            "E) Les antihistaminiques H1 de 1ère génération possèdent des propriétés antiémétiques par leur propriétés atropiniques."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le ou les médicament(s) suivant(s) est (sont) émétisant(s) :",
+          "choix": [
+            "A) Les glucocorticoïdes",
+            "B) La morphine",
+            "C) Les cytotoxiques",
+            "D) Les inhibiteurs de la recapture de la sérotonine type fluoxétine",
+            "E) Les agonistes dopaminergiques D2"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments qui agissent sur l’os, parmi les propositions suivantes, la(les)quelle(s) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Le calcitriol vitamine D augmente l’absorption intestinale du calcium et du phosphate.",
+            "B) Il n’y a pas de risque de surdosage en vitamine D chez les nourrissons",
+            "C) Les biphosphonates augmentent l’apoptose des ostéoblastes",
+            "D) Le dénosumab est un anticorps activateur de la résorption osseuse",
+            "E) Toutes les héparines exposent à un risque d’ostéoporose"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prévention des effets indésirables des biphosphonates, parmi les propositions suivantes, la(les)quelle(s) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Pour réduire les effets indésirables, il faut prendre à jeun et avec un grand verre d’eau le biphosphonate.",
+            "B) Pour réduire les effets indésirables, il faut s’allonger sur un lit pendant 30 minutes après la prise du biphosphonate.",
+            "C) Un bon état dentaire et buccal prévient la survenue d’ostéonécroses de la mâchoire avec les biphosphonates",
+            "D) Il est conseillé de prendre un Inhibiteur de la pompe à proton pour réduire le risque d’ulcère digestif avec les biphosphonates",
+            "E) La prise de corticoïdes réduit le risque de fracture induite par les biphosphonates."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des médicaments de la goutte, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Les AINS sont des médicaments de la crise de goutte.",
+            "B) Les glucocorticoïdes aggravent la crise de goutte",
+            "C) L’allopurinol a un effet inhibiteur de la xanthine oxydase",
+            "D) Le febuxostat a un effet inhibiteur de l’uricase",
+            "E) L’allopurinol est un médicament du traitement de fond de la goutte."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le ou les médicament(s) suivant(s) cause(nt) ou aggrave(nt) une hyperuricémie :",
+          "choix": [
+            "A) Les cytotoxiques",
+            "B) Les diurétiques de l’anse",
+            "C) Les diurétiques thiazidiques",
+            "D) Le probénécide",
+            "E) La ciclosporine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

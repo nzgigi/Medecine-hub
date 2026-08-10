@@ -1,0 +1,218 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s3",
+  "annee": 2023,
+  "title": "Pharmacologie médicale - 2023",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants lesquels sont susceptibles d’induire ou d’aggraver une insuffisance cardiaque:",
+          "choix": [
+            "A) Les anti-inflammatoires non-stéroïdiens",
+            "B) Le vérapamil",
+            "C) L’amlodipine",
+            "D) Les inhibiteurs de l’enzyme de conversion de l’angiotensine I",
+            "E) Le trastuzumab"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, quelle est la ou quelles sont les affirmations exactes:",
+          "choix": [
+            "A) La trinitrine est un activateur de la NO synthase endothéliale",
+            "B) Le riociguat est un inhibiteur de la guanylate cyclase",
+            "C) La trinitrine peut être associé aux inhibiteurs de la PDE5 tel que le sildénafil",
+            "D) Le sildénafil peut déterminer des anomalies de la vision des couleurs",
+            "E) Le bosentan est un agoniste des récepteurs de type A de l’endothéline"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les antagonistes des récepteurs AT1 de l’angiotensine II, lesquelles sont exactes ?:",
+          "choix": [
+            "A) Ils sont des modificateurs allostériques négatifs du récepteur AT1",
+            "B) Ils augmentent la concentration plasmatique de l’angiotensine II",
+            "C) Ils sont imputés dans la survenue d’angioedèmes",
+            "D) Leur association aux IEC est sans risque",
+            "E) Ils sont hypokaliémiants"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les « -statines », quelle est ou quelles sont celles exacte(s):",
+          "choix": [
+            "A) Ce sont des inhibiteurs compétitifs de l’HMG-CoA réductase",
+            "B) Elles diminuent le taux plasmatique de triglycérides",
+            "C) Toutes diminuent le risque de morbidité et de mortalité cardiovasculaire",
+            "D) La simvastatine est métabolisée par le CYP3A4",
+            "E) Elles sont imputées dans la survenue de diabète sucré"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments de la toux :",
+          "choix": [
+            "A) Ils sont indiqués pour le traitement des toux grasses productives",
+            "B) La pholcodine a été retirée du marché du fait du risque d’allergie croisée avec la pénicilline",
+            "C) Les médicaments antitussifs opiacés associés aux antihistaminiques H1 font l’objet d’un usage détourné chez les jeunes",
+            "D) Les médicaments opioïdes sous forme de sirop sont listés",
+            "E) Les médicaments à base de codéine sont déconseillés au cours de l’allaitement"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments du système adrénergique, laquelle (ou lesquelles) est(sont) exacte(s) ?:",
+          "choix": [
+            "A) Les agonistes des récepteurs alpha1-adrénergiques augmentent la pression sanguine artérielle en agissant sur des récepteurs présynaptiques",
+            "B) La stimulation des récepteurs bêta2-adrénergiques entraine une vasodilatation",
+            "C) Les agonistes des récepteurs alpha2-adrénergiques sont sympathomimétiques",
+            "D) L’adrénaline entraine une stimulation préférentielle des récepteurs bêta-adrénergiques à faible dose et des récepteurs alpha-adrénergiques à forte dose",
+            "E) L’isoprénaline agit à la fois sur les récepteurs alpha1-adrénergiques, les récepteurs bêta1- et bêta 2-adrénergiques"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets suivants des catécholamines, lequel (ou lesquels) est (sont) déterminé(s) par des effets bêta-adrénergiques ?:",
+          "choix": [
+            "A) Vasoconstriction",
+            "B) Tachycardie",
+            "C) Lipolyse",
+            "D) Contractions utérines",
+            "E) Bronchodilatation"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des médicaments des bronches, parmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ?:",
+          "choix": [
+            "A) Les agonistes des récepteurs β2-adrénergiques inhibent l’action des mastocytes et des médiateurs de l’inflammation",
+            "B) L’effet bronchodilatateur des agonistes des récepteurs β2-adrénergiques est dégradé par la prise concomitante de corticoïdes.",
+            "C) Les agonistes des récepteurs β2 adrénergiques favorisent les hypoglycémies",
+            "D) Les agonistes des récepteurs β2 adrénergiques sont pourvoyeurs de tachycardie sinusale et/ou de troubles du rythme cardiaque",
+            "E) Le montelukast est un anticorps monoclonal employé pour ses propriétés immunomodulatrices dans l’asthme sévère."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du vérapamil, parmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s)?:",
+          "choix": [
+            "A) Son action passe préférentiellement par une inhibition des canaux sodique voltage dépendant.",
+            "B) Il est inotrope négatif.",
+            "C) Il est chronotrope positif.",
+            "D) Il est dromotrope positif.",
+            "E) Il est antiarythmique."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi la liste suivante, quel(s) effet(s) indésirable(s) est/sont secondaire(s) à la prise de diurétiques de l’anse ?:",
+          "choix": [
+            "A) Hyperkaliémie",
+            "B) Hyponatrémie",
+            "C) Gynécomastie",
+            "D) Ototoxicité",
+            "E) Insuffisance rénale aiguë"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

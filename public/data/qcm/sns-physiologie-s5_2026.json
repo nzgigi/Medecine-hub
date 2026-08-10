@@ -1,0 +1,219 @@
+{
+  "matiere": "Système neurosensoriel – Physiologie",
+  "slug": "sns-physiologie-s5",
+  "annee": 2026,
+  "title": "Système neurosensoriel – Physiologie - 2026",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos d'un stimulus mécanique appliqué sur la peau, il est exact que :",
+          "choix": [
+            "A) l’acuité perceptive de ce stimulus est diminuée par le phénomène d’inhibition latérale",
+            "B) l'intensité du stimulus est codée par la fréquence de décharge du neurone afférent primaire",
+            "C) durant la phase d’installation du stimulus, seuls les neurones afférents primaires connectés à des mécanorécepteurs à adaptation rapide sont activés",
+            "D) il peut provoquer l'ouverture de canaux Na+-dépendants inclus dans la membrane des fibres nerveuses constitutives des mécanorécepteurs cutanés, qui vont permettre l’émission de potentiels d’action sur le bout axonal périphérique du neurone afférent primaire",
+            "E) s'il s'agit d'un stimulus persistant et constant au cours du temps, il peut être codé de manière continue par des mécanorécepteurs toniques à adaptation lente"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la douleur, il est exact que :",
+          "choix": [
+            "A) le phénomène d’hyperalgésie correspond à une augmentation du seuil de la douleur",
+            "B) la douleur précoce épicritique aigue est liée à la stimulation des fibres afférentes myélinisées Aδ alors que la douleur protopathique secondaire tardive est transmise par les fibres afférentes C non-myélinisées et de conduction plus lente",
+            "C) l’activation des fibres afférentes myélinisées de gros calibre inhibe les interneurones inhibiteurs enképhalinergiques de la corne dorsale de la moelle épinière, ce qui facilite la transmission du message douloureux",
+            "D) l'allodynie se traduit par le fait qu'un stimulus cutané mécanique non douloureux est perçu comme douloureux",
+            "E) au niveau de la corne dorsale de la moelle épinière, la substance P agit comme un neuromédiateur dans la synapse entre la fibre C et le neurone nociceptif"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la fréquence de décharge des motoneurones alpha des muscles extenseurs antigravitaires, il est exact que :",
+          "choix": [
+            "A) elle est modulable directement par les afférences Ia en provenance des fuseaux neuromusculaires de ces même muscles",
+            "B) elle peut être augmentée indirectement par une augmentation de l’inhibition pré-synaptique Ia liée aux structures supra-spinales",
+            "C) elle est augmentée lors de la stimulation des fibres A delta et des fibres C homolatérales de la plante du pied",
+            "D) elle peut être modulée indirectement par les motoneurones gamma qui eux-mêmes modulent la sensibilité du fuseau neuromusculaire à l’étirement",
+            "E) elle peut être augmentée par l'activation de la formation réticulée bulbaire"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du programme moteur mis en jeu lorsqu’un sujet veut saisir un verre posé sur une table devant lui, il est exact que :",
+          "choix": [
+            "A) il contient des ajustements posturaux anticipés",
+            "B) il est élaboré exclusivement par le cortex prémoteur",
+            "C) la boucle cortico-ponto-cérébelleuse permet d’affiner les aspects temporels du mouvement",
+            "D) un programme moteur distinct est élaboré pour chaque muscle mis en jeu",
+            "E) le carrefour temporo-pariétal-occipital permet d’obtenir une représentation multisensorielle du corps dans l’espace indispensable à l’élaboration d’un programme moteur adapté"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des noyaux gris centraux, il est exact que :",
+          "choix": [
+            "A) le striatum contient des neurones de projections, nommés Medium Spiny neurones, ayant un effet excitateur sur la substance noire pars-reticulata",
+            "B) les projections des neurones de la substance noire pars-reticulata sont modulées par le globus pallidus interne et le noyau sous-thalamique",
+            "C) les projections dopaminergiques issues de la substance noire pars compacta vont avoir un effet facilitateur sur l’activité des Medium Spiny Neurones (MSN) de la voie directe au travers de son action sur des récepteurs de type D1 et un effet inhibiteur sur les récepteurs de type D2 des MSN (voie indirecte)",
+            "D) les connexions entre le striatum et le système limbique via le noyau accumbens et l'amygdale jouent un rôle majeur dans la régulation du comportement et la motivation mise en jeu pour agir",
+            "E) il existe une projection indirecte du putamen vers le noyau sous-thalamique via le globus pallidus externe"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En ce qui concerne le sommeil et les systèmes de l’éveil, il est exact que :",
+          "choix": [
+            "A) une lésion expérimentale de l’hypothalamus antérieur et des noyaux supra-chiasmatiques entraine une désynchronisation des horloges biologiques",
+            "B) l’effet de la “pression du sommeil” peut être retardé par l’absorption de mélatonine en raison de son action antagoniste sur les récepteurs à l’adénosine",
+            "C) la noradrénaline libérée par les neurones du locus coeruleus est un neuromédiateur impliqué dans les systèmes éveillants",
+            "D) le système hypocrétine/orexine stabilise les états d’éveil en renforçant les systèmes cholinergiques et aminergiques",
+            "E) un rythme alpha sur l’enregistrement EEG caractérise l’état de sommeil lent profond N3"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la genèse des émotions, il est exact que :",
+          "choix": [
+            "A) l'association d'une connotation négative ou positive à une expérience visuelle, auditive, somesthésique, olfactive ou gustative se produit dans l'amygdale",
+            "B) les projections indirectes de l’amygdale vers le cortex cingulaire antérieur vont permettre d’orienter l’attention sur le stimulus",
+            "C) la présence d’un stimulus perçu comme agréable va déclencher l’activation du striatum ventral qui fait partie du circuit de la récompense",
+            "D) les réactions viscérales et émotionnelles face à un danger dépendent de la voie inconsciente et se déclenchent après l’analyse corticale du stimulus émotionnel",
+            "E) les phobies correspondent à une réponse comportementale inadaptée (pathologique) et durable secondaire à un dysfonctionnement du contrôle exercé par le cortex préfrontal sur un type de conditionnement émotionnel durable"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les processus mnésiques, il est exact que :",
+          "choix": [
+            "A) les informations stockées dans la mémoire procédurale peuvent être oubliées par inutilisation",
+            "B) l'amygdale permet d’attribuer une connotation émotionnelle à l’information reçue, ce qui facilite la mémorisation de cette information",
+            "C) le processus d'oubli est pathologique, en lien avec un processus neurodégénératif sur le circuit de Papez",
+            "D) le calepin visuospatial utilisé dans la mémoire à court terme permet de créer des images mentales temporaires d’objets visuels et de l'emplacement d'objets dans l'espace puis de manipuler ces images mentales afin d’effectuer rapidement une tâche complexe",
+            "E) l’engramme est le substrat physique de la mémoire dans les circuits nerveux et dépend de modifications synaptiques"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du langage, il est exact que :",
+          "choix": [
+            "A) chez la plupart des individus, la syntaxe et la grammaire du langage oral sont gérées au niveau du cortex frontal associatif gauche",
+            "B) chez la plupart des individus, la prosodie du langage (contenu non verbal) est principalement sous la dépendance de l’hémisphère gauche",
+            "C) lors de la lecture à haute voix, c’est le gyrus angulaire du cortex temporo-occipital qui associe l’image visuelle du mot lu à sa forme sonore",
+            "D) les aires de Broca et de Wernicke se situent dans l’hémisphère droit pour la majorité des gauchers",
+            "E) chez 25% des gauchers ou ambidextres, il n’y a pas de franche dominance hémisphérique d’un hémisphère sur l’autre pour le langage"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les fonctions des régions associatives du cortex cérébral chez un sujet droitier, il est exact que :",
+          "choix": [
+            "A) le cortex pariétal associatif gauche est impliqué dans les praxies gestuelles permettant de s’habiller (se boutonner, attacher ses lacets) en association avec le cortex temporal et le cortex occipital",
+            "B) le cortex temporal associatif gauche est impliqué dans la reconnaissance des visages (prosopagnosie)",
+            "C) le carrefour temporo-pariéto-occipital intègre les informations du système limbique pour discerner si une expérience est nouvelle ou correspond à une expérience déjà réalisée",
+            "D) le carrefour temporo-pariéto-occipital gauche est impliqué dans les activités gestuelles intentionnelles (praxies idéatoires et idéo-motrices)",
+            "E) quand on joue aux échecs, il y a la construction d’une représentation mentale des pièces du jeu mettant en jeu le réseau pariéto-frontal"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

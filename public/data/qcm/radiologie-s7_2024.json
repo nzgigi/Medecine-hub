@@ -1,0 +1,426 @@
+{
+  "matiere": "Radiologie",
+  "slug": "radiologie-s7",
+  "annee": 2024,
+  "title": "Radiologie - 2024",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une femme de 35 ans, suivie pour une tumeur hépatocytaire bégnine, réalise une I.R.M.\nSur le compte rendu de l’IRM, il est décrit : « Il existe au pôle supérieur du rein droit, une lésion nodulaire de 20 mm en hypersignal T1, en hypersignal T2, avec chute du signal sur la séquence T2 FATSAT ». Préciser la nature de la lésion.",
+          "choix": [],
+          "reponses": [
+            "graisseuse",
+            "graisse",
+            "lésion graisseuse",
+            "graisseux",
+            "Graisse",
+            "nature graisseuse",
+            "Nature graisseuse",
+            "lesion graisseuse",
+            "graisseusse",
+            "nodule graisseux",
+            "Nodule graisseux",
+            "Lésion graisseuse",
+            "lesion de nature graisseuse",
+            "lésion nodulaire graisseuse",
+            "tumeur graisseuse",
+            "angiomyolipome",
+            "Angiomyolipome"
+          ],
+          "correctionExplanation": "graisseuse",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente de 39 ans consulte pour la présence sciatalgie droite. La symptomatologie dure depuis huit semaines. Vous demandez un examen complémentaire. Quelle est la proposition vraie ?",
+          "choix": [
+            "A) La figure A montre une acquisition en pondération T1 avec saturation du signal de la graisse",
+            "B) La figure B montre une acquisition en pondération T2 sans saturation du signal de la graisse",
+            "C) La figure C montre une acquisition en pondération T2 sans saturation du signal de la graisse",
+            "D) Il existe une majoration du signal liquidien du disque intervertébral en L5S1 évocateur de discopathie",
+            "E) La hernie L5S1 est à l’origine d’une compression des racines L4 droite en foraminal."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q2.png?v=1786299789761"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Voici quatre clichés radiographiques. Associez chaque cliché à la légende qui correspond (menu déroulant)\nÉlément à associer Réponse attendue\nA Lipohémarthrose\nB Pneumarthrose\nC Absence d'épanchement\nD Hémarthrose",
+          "choix": [
+            "Lipohémarthrose",
+            "Pneumarthrose",
+            "Absence d'épanchement",
+            "Hémarthrose",
+            "E) "
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 3,
+          "items": [
+            {
+              "id": "item-1786299790276-967062cfa176d8",
+              "label": "A",
+              "correctAnswer": "Lipohémarthrose"
+            },
+            {
+              "id": "item-1786299790342-d9ce22c9cc2e7",
+              "label": "B",
+              "correctAnswer": "Pneumarthrose"
+            },
+            {
+              "id": "item-1786299790409-6b2e54bf70c1b",
+              "label": "C",
+              "correctAnswer": "Absence d'épanchement"
+            },
+            {
+              "id": "item-1786299790475-76761f608ab358",
+              "label": "D",
+              "correctAnswer": "Hémarthrose"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q3.png?v=1786299790055",
+            "/images/qcm/radiologie-s7/2024/q3_1.png?v=1786299790254"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Un homme de 62 ans réalise un examen tomodensitométrie pour le bilan d’une perturbation du bilan hépatique. Quelles sont les deux propositions justes ?",
+          "choix": [
+            "A) Il existe une dilatation des voies biliaires intra hépatiques",
+            "B) L’examen est réalisé après injection de produits de contraste au temps portal.",
+            "C) Il existe de nombreuses formations nodulaires hyperdenses par rapport au parenchyme hépatique",
+            "D) Le diagnostic de localisations secondaires hépatiques est le plus probable",
+            "E) La flèche 1 désigne un pneumopéritoine"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q4.png?v=1786299790686"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes :",
+          "choix": [
+            "A) Il existe un pneumothorax droit",
+            "B) Il existe un syndrome de masse pulmonaire droit",
+            "C) Il existe une condensation parenchymateuses lobaire inférieure droite",
+            "D) Le bord externe de la plèvre pulmonaire à droite est séparé de la paroi par un croissant gazeux clair avasculaire",
+            "E) Il existe un épanchement pleural liquidien droit"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q5.png?v=1786299791040"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299791229-ab9b083d7b1c7",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une femme de 42 ans consulte pour une douleur lombaire droite de survenue brutale, irradiant dans les grandes lèvres. Elle ne présente aucun antécédent.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Voici les résultats du bilan d’imagerie que vous avez demandé. À partir des propositions suivantes, quelles sont celles que vous pouvez retenir pour la description de ces examens d’imagerie ? (deux réponses justes)",
+          "choix": [
+            "A) L’ASP a été réalisé en position debout afin de mieux dégager la région lombaire.",
+            "B) Il existe une dilatation pyelocalicielle du rein gauche",
+            "C) Il existe une tumeur solide au pôle inférieur du rein gauche",
+            "D) Il existe un amincissement du cortex rénal de manière bilatéral suspect d’insuffisance rénale chronique",
+            "E) Il existe une formation nodulaire rénale gauche anéchogène avec atténuation postérieure des échos",
+            "F) Il existe plusieurs lithiases en projection du groupe caliciel supérieur du rein droit",
+            "G) Il existe une lithiase en projection de l’uretère lombaire droit",
+            "H) Il n’y a pas de dilatation du pyelon du rein gauche",
+            "I) Il existe un épanchement liquidien péri rénal à droite"
+          ],
+          "reponses": [
+            "A",
+            "G",
+            "H"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q6.png?v=1786299791543"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la nature de la lésion du pôle inférieur du rein gauche ?",
+          "choix": [],
+          "reponses": [
+            "kystique",
+            "liquidienne",
+            "Kystique",
+            "Liquidienne",
+            "kyste",
+            "kyste liquidien",
+            "Kyste liquidien",
+            "liquidien",
+            "liquide",
+            "Kyste",
+            "liquidienne kystique",
+            "liquidienne (kyste)",
+            "kystique (liquidien)",
+            "lésion liquidienne",
+            "Liquide",
+            "kystique liquidienne",
+            "kystique anéchogène",
+            "kyste rénal",
+            "kyste liquidien, anéchogène avec renforcement postérieur",
+            "Nature liquidienne",
+            "lésion liquidienne kystique",
+            "liquidiene",
+            "liquidienne (kystique)",
+            "kyste de nature liquidienne",
+            "nature liquidienne",
+            "liquidien (kystique)",
+            "lesion liquidienne",
+            "Kyste liquidien (lésion anéchogène avec renforcement postérieur)",
+            "liquide kystique",
+            "lesion kystique",
+            "kyste simple",
+            "liquidienne, kystique",
+            "Liquidien",
+            "nature kystique",
+            "nature liquidienne, kystique",
+            "Kystique (anéchogène avec renforcement posterieur des ondes)",
+            "hydrique",
+            "kyste hydrique",
+            "Hydrique",
+            "aqueuse",
+            "eau",
+            "kysthe",
+            "kyste rénal hydrique",
+            "Hydrique (kyste)",
+            "Lesion hydrique",
+            "Hydrique Kyste",
+            "hydrique (kyste)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Indiquez l’anomalie responsable de la symptomatologie clinique",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 3,
+          "zones": [
+            {
+              "x": 0.3444940476190476,
+              "y": 0.5268322172619048,
+              "radius": 0.02,
+              "label": "REPONSE"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q8.png?v=1786299793846"
+          ],
+          "correctionImage": "/images/qcm/radiologie-s7/2024/q8_correction.png?v=1786299793964"
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299794008-e3db3b6fbcd2c",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un jeune homme de 17 ans, présente des douleurs du genou gauche à trois semaines d’une chute en skateboard. Le cliché radiographique réalisé le jour du traumatisme montrait une hémarthrose.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’examen le plus pertinent pour compléter l’exploration de cette gonalgie ?",
+          "choix": [],
+          "reponses": [
+            "IRM",
+            "IRM du genou",
+            "IRM du genou gauche",
+            "une IRM",
+            "IRM genou",
+            "irm genou",
+            "IRM genoux gauche",
+            "IRM genou gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À partir des images extraites de l’IRM du genou gauche, quelles sont les propositions justes ?",
+          "choix": [
+            "A) Il s’agit d’une IRM en séquence pondérée T2 avec saturation du signal de la graisseion 1",
+            "B) On observe un épanchement articulaire",
+            "C) La flèche 1 désigne un œdème de la partie postérieure du plateau tibial médial",
+            "D) La flèche 2 désigne le ligament croisé postérieur",
+            "E) La flèche 3 désigne la segment moyen du ménisque médial"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q10.png?v=1786299794632"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "À l’examen clinique, vous observez une douleur à la palpation du plateau tibial latéral. Vous n’observez pas de laxité latérale, mais vous observez la présence d’un tiroir antérieur.\nIndiquez l’anomalie pouvant être à l’origine de cette laxité antérieure ?",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 3,
+          "zones": [
+            {
+              "x": 0.546875,
+              "y": 0.2619512648809524,
+              "radius": 0.06,
+              "label": "REPONSE"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q11.png?v=1786299794912"
+          ],
+          "correctionImage": "/images/qcm/radiologie-s7/2024/q11_correction.png?v=1786299795043"
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299795044-18fdc6af126ad8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un homme de 59 ans consulte pour des douleurs du bord latéral du poignet droit dans les suites d’une chute de sa hauteur. Des radiographies sont réalisées, vous est présenté le cliché de face.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses vraies :",
+          "choix": [
+            "A) La flèche 1 désigne le pisiforme",
+            "B) La flèche 2 désigne l'hamalus de l'hamatum",
+            "C) Il existe une fracture du scaphoïde",
+            "D) Il existe un arrachement osseux en regard de la styloïde ulnaire",
+            "E) Le cliché radiographique ne montre pas de lésion osseuse traumatique récente"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q12.png?v=1786299795502"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic faites-vous sur ce cliché radiographique ?",
+          "choix": [],
+          "reponses": [
+            "chondrocalcinose",
+            "chondrocalcinose du ligament triangulaire",
+            "chrondrocalcinose",
+            "Chondrocalcinose du ligament triangulaire du carpe",
+            "chondro calcinose",
+            "chondrocalcinose (pathologie microcristalline)",
+            "chondrocalcinose (calcification du ligament triangulaire)",
+            "chondrocalcinose ligament triangulaire carpe",
+            "chondrocalcinose du carpe",
+            "chondrocalcinose ulnaire",
+            "chondrocalcinose du ligament triangulaire de l'ulna",
+            "chondrocalcynose",
+            "chondracalcinose en regard de la styloide ulnaire"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q13.png?v=1786299796361"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Indiquez l’anomalie évocatrice du diagnostic fait à la question 2.",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 3,
+          "zones": [
+            {
+              "x": 0.3549107142857143,
+              "y": 0.16078404017857142,
+              "radius": 0.035,
+              "label": "REPONSE"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2024/q14.png?v=1786299796911"
+          ],
+          "correctionImage": "/images/qcm/radiologie-s7/2024/q14_correction.png?v=1786299797030"
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

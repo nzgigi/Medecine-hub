@@ -1,0 +1,743 @@
+{
+  "matiere": "Gastro-entérologie",
+  "slug": "gastroenterologie-s7",
+  "annee": 2024,
+  "title": "Gastro-entérologie - 2024",
+  "total_questions": 28,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mr V., 53 ans, consulte aux urgences pour des douleurs épigastriques d'apparition brutales ce matin à 8h30 puis secondairement généralisées. Il a des antécédents de lombalgies chroniques et est tabagique actif. Il n'a pas de fièvre associé. La prise des constantes retrouvent une fréquence cardiaque à 100 bpm et une TA à 12/7. L'examen clinique retrouve une contracture abdominale avec une disparition de la matité pré hépatique.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez vous en première intention ? (0ne best)",
+          "choix": [
+            "A) Péritonite d'origine biliaire",
+            "B) Péritonite sur ulcère perforé",
+            "C) péritonite d'origine diverticulaire",
+            "D) Péritonite sur perforation grêlique",
+            "E) Proposition 5"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une péritonite sur un ulcère perforé. Quels examens complémentaires réalisez vous en urgence ?",
+          "choix": [
+            "A) Echographie abdominale",
+            "B) Scanner abdomino-pelvien injecté",
+            "C) Bilan biologique comprenant NFS CRP ionogramme sanguin créatininémie bilan d'hémostase RAI",
+            "D) FOGD",
+            "E) Sérologie Helicobacter Pylori"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "critiques": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous réalisez un scanner Abdomino Pelvien et un bilan biologique qui sont en faveur d'une péritonite sur un ulcère perforé. Quelles sont vos thérapeutiques en urgence ?",
+          "choix": [
+            "A) Mise en place d'une sonde naso-gastrique",
+            "B) Mise en place d'une antibiothérapie",
+            "C) Mise en place d'inhibiteurs de la pompe à protons par voie intra-veineuse",
+            "D) Chirurgie en urgence",
+            "E) Traitement par alginate"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient est opéré en urgence. Quelles seront les mesures à prendre par la suite ?",
+          "choix": [
+            "A) Éradication d'Helicobacter Pylori si présent",
+            "B) Poursuite des IPP à vie",
+            "C) Régime sans résidus",
+            "D) Arrêt des facteurs favorisants (tabac, AINS)",
+            "E) Endoscopie à distance de l'épisode aiguë"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295280329-6965abeb514ca8",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Une femme de 76 ans vient consulter car devant un tableau d’asthénie et essoufflement a l’effort, on a mis en évidence une anémie microcytaire ferriprive avec un taux d’hémoglobine à 6g/dl. Elle n’a pas d’antécédents particuliers en dehors d’une prothèse de hanche. Elle n’a pas d’antécédents familiaux notable. Elle mesure 1,60 m et pèse 48 kg. À l’examen clinique, vous mettez en évidence une masse dure, mobile et non douloureuse de la fosse iliaque droite. Le reste de l’examen clinique et normal.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est l’hypothèse diagnostic la plus probable ?",
+          "choix": [
+            "A) Un Plastron appendiculaire.",
+            "B) Volumineux kyste de l’ovaire",
+            "C) Une hernie de la ligne blanche externe",
+            "D) Une tumeur du colon droit",
+            "E) Un Anévrisme de l’artère iliaque"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez fait pratiquer une coloscopie complète qui révèle une tumeur du côlon ascendant bourgeonnante et ulcérée. Les biopsies montrent un adénocarcinome.\nQuels examens complémentaires demandez-vous avant toute décision thérapeutique ?",
+          "choix": [
+            "A) Un Pet-scan.",
+            "B) Dosage de l’antigène carcino-embryonnaire",
+            "C) I.R.M. pelvienne",
+            "D) Scanner TAP injecté",
+            "E) Scanner cérébral"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le TDM TAP est réalisé, sur cette coupe axiale, on objective",
+          "choix": [
+            "A) Le côlon visible est dilaté, le grêle n’est pas dilaté",
+            "B) Il y a d’importantes bulles de pneumopéritoine en faveur d’une perforation",
+            "C) Sur le parenchyme hépatique visible il n’y a pas de métastases",
+            "D) Il existe une sténose d’allure tumorale du côlon ascendant",
+            "E) Il existe un épanchement liquidien et des signes de carcinose péritonéale sur cette coupe"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/gastroenterologie-s7/2024/q7.png?v=1786295281796"
+          ],
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le bilan que vous avez fait réaliser montre que la tumeur est volumineuse, non métastatique, et qu’elle n’envahit pas les organes de voisinage. Vous avez pu corriger l’anémie. Quelles sont les propositions thérapeutiques ?",
+          "choix": [
+            "A) Chimiothérapie néoadjuvante, du fait du volume de la tumeur",
+            "B) Chimiothérapie, seul du fait de l’âge de la patiente",
+            "C) Colectomie droite, avec curage ganglionnaire du bord droit de l’axe vasculaire mésentérique supérieur",
+            "D) Iléostomie de dérivation dans un premier temps",
+            "E) Colectomie, subtotale"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295283194-407f9a5d4d6e78",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Une patiente de 62 ans se présente aux urgences avec un syndrome douloureux épigastrique aiguë accompagné de vomissements. Cette douleur est survenue quelques heures après le repas de noël, en famille, caractérisé de « copieux ». La douleur est survenue de façon brutale, intense et à irradiation postérieure. A la palpation de l’abdomen, les orifices herniaires sont libres, vous constatez une sensibilité épigastrique mais le reste de l’abdomen est dépressible, le toucher rectal est normal. Elle est obèse (IMC à 31), diabétique non-insulinodépendante, hypertendue et coronarienne connue.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les examens biologiques sanguins que vous allez demander pour établir le diagnostic étiologique de ce syndrome douloureux abdominal aiguë ?",
+          "choix": [
+            "A) Troponine sanguine",
+            "B) Béta HCG sanguins",
+            "C) Lipasémie",
+            "D) Antigène carcinoembryonnaire sérique",
+            "E) ALAT, ASAT, GammaGT, phosphatases alcalines, bilirubine totale et conjuguée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il s’agit d’une pancréatite aiguë. A propos du ou des autres examens complémentaires que vous allez-vous demander à l’admission de cette patiente:",
+          "choix": [
+            "A) Scanner abdominal avec injection d’iode",
+            "B) Scanner abdominal sans injection d’iode",
+            "C) Le scanner n'a aucun intérêt à l'admission d'un pancréatite aiguë",
+            "D) Echographie abdominale",
+            "E) IRM abdominale"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une pancréatite aiguë d’origine biliaire : quels sont les éléments qui vous permettent d’évoquer ce diagnostic étiologique ?",
+          "choix": [
+            "A) Survenue chez une femme de 62 ans",
+            "B) élévation du taux sanguin des GammaGT, des ALAT et des ASAT à l’admission",
+            "C) élévation à 5 fois la normale de la lipasémie",
+            "D) présence de calculs dans la vésicule biliaire à l’échographie",
+            "E) présence d’un épanchement de la loge pancréatique au scanner réalisé 72 heures après l’admission"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295285030-e270e734eecbc8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un patient de 76 ans se présente à votre consultation avec un syndrome rectal évoluant depuis 2 mois accompagné de rectorragies. Il a perdu 3 kilos. Il est hypertendu traité. Il est aussi porteur d’une fibrillation auriculaire sous anti arythmique et anticoagulant oral. L’examen de l’abdomen est normal, le toucher rectal ramène du sang sur le doigtier mais pas de masse palpable.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments cliniques qui constituent le syndrome rectal ?",
+          "choix": [
+            "A) Faux besoins",
+            "B) Ténesmes",
+            "C) Diarrhée chronique",
+            "D) Epreintes",
+            "E) Rectorragies"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez un cancer du rectum chez ce patient : quel examen est à pratiquer pour étayer votre hypothèse ?",
+          "choix": [
+            "A) Scanner thoraco-abdomino-pelvien avec injection d’iode",
+            "B) Coloscopie totale sous anesthésie générale",
+            "C) TEP scanner",
+            "D) IRM pelvienne",
+            "E) Echoendoscopie ano-rectale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La coloscopie permet de mettre en évidence une tumeur bourgeonnante suspecte et hémi-circonférentielle située entre 9 et 11 cm de la marge anale : quelle est l’histologie et quelle peut être la lésion précancéreuse à partie de laquelle ce type de tumeur se développe ?",
+          "choix": [
+            "A) Fistule anale chronique",
+            "B) Carcinome épidermoïde",
+            "C) Adénome adéno-villeux",
+            "D) Adénocarcinome",
+            "E) Polype juvénile"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Les deux enfants de ce patient ont 48 et 50 ans. Ils vous posent le problème d’un éventuel dépistage en ce qui les concerne (ils n’ont pas de symptômes digestifs) : que leur proposez-vous ?",
+          "choix": [
+            "A) Test de recherche de sang dans les selles tous les 2 ans",
+            "B) Pas de dépistage",
+            "C) Coloscopie totale tous les 5 à 7 ans",
+            "D) Recto-sigmoïdoscopie tous les 3 ans",
+            "E) Toucher rectal tous les ans"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295287581-f0280b0f8f6028",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Madame V. 54 ans, sans emploi, est admise aux urgences pour un vomissement de sang rouge de grande abondance avec caillots, survenu 3 heures plus tôt et accompagné de malaise.\nSes antécédents sont : tabagisme actif 20 PA, appendicectomie, cholécystectomie, césarienne, HTA, diabète de type 2, consommation d’alcool quotidienne de l’ordre de 4 à 5 verres de vin par repas par jour depuis plus de 20 ans.\nSon traitement actuel comprend : METFORMINE 1000 mg 1-1-1, GLICLAZIDE 30 mg 1-0-1, AMLODIPINE 5 mg 1-0-0, HYDROCHLOROTHIAZIDE 12,5 mg 1-0-0.\nElle n’a pas d’allergie connue.\nElle a eu 2 enfants, vit actuellement seule au domicile.\nElle est prise en charge par le SAMU au domicile: elle rapporte une asthénie et une jaunisse d’aggravation progressive sur les 15 derniers jours, qui l’ont menée à cesser toute consommation d’alcool. La SAMU la transporte aux urgences pour hémorragie digestive haute.\nA l’arrivée aux urgences, les paramètres vitaux sont les suivants : TA 80/55 mmHg, Fréquence Cardiaque 120 bpm, SpO2 96% en air ambiant, T° 36,7.\nA l’examen clinique, elle présente des marbrures des genoux. L’examen neurologique est sans particularité. On note une érythrose palmaire, des angiomes stellaires du tronc et du visage, des œdèmes des membres inférieurs, un ictère cutanéo-muqueux, une circulation veineuse collatérale abdominale et une ascite de grande abondance. L’auscultation pulmonaire objective des crépitants en base droite. L’auscultation cardiaque est régulière, sans souffle.\nLe bilan biologique est le suivant : hémoglobine 6 g/dl, créatinine 45 µmol/l, urée 25 mmol/l, ASAT 158 UI/l, ALAT 80 UI/l, bilirubine conjuguée 159 µmol/l, TP 45%, plaquettes 100 G/l.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une cirrhose est fortement suspectée, quelle est votre hypothèse diagnostique principale concernant la cause de cette hémorragie digestive ?",
+          "choix": [],
+          "reponses": [
+            "Rupture de varices oesophagiennes",
+            "rupture des varices oesophagiennes",
+            "rupture de varice oesophagienne",
+            "rupture varices oesophagiennes",
+            "Rupture des varices oesophagiennes",
+            "rupture de varices oesophagienne",
+            "rupture de varices œsophagiennes",
+            "rupture varice oesophagienne",
+            "Rupture de varice oesophagienne",
+            "rupture des varices œsophagiennes",
+            "rupture de varices oesophagiennes ou gastriques",
+            "Rupture de varices œsophagiennes",
+            "rupture de varice œsophagienne",
+            "Rupture de varices oesophagienne",
+            "rupture de varice oeusophagienne",
+            "rupture de varice oesophagienne sur hypertension portale",
+            "Hypertension portale (rupture de varices oesophagiennes)",
+            "rupture varices œsophagiennes",
+            "hypertension portale, rupture des varices oesophagiennes",
+            "rupture des varices œsophagienne",
+            "rupture de varice eosophagienne",
+            "saignement de varices oesophagiennes",
+            "rupture varices oesophagienne",
+            "rupture de varices oesophagienned",
+            "Hemorragie digestive haute sur rupture de varices oesophagiennes",
+            "Rupture varices oesophagiennes",
+            "Rupture de varices oesophagiennes ( causées par la cirrhose )",
+            "rupture de varice oesophagiennes",
+            "rupture de varices oesophagiennes ou gastriques d'hypertension portale",
+            "Ruptures de varices oesogastriques",
+            "rupture de varice oesophagien",
+            "rupture de varices œsophagiennes sur HTP",
+            "rupture de varices œsophagienne"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 6 éléments de l’énoncé les plus pertinents pour justifier votre hypothèse diagnostique principale ?",
+          "choix": [
+            "A) La consommation d’alcool",
+            "B) L’âge de 54 ans",
+            "C) La profession",
+            "D) Examen neurologique normal",
+            "E) Examen cardiaque normal",
+            "F) Hémoglobine 6,4 g/dl",
+            "G) TP à 45%",
+            "H) ALAT 80 UI/l",
+            "I) Angiomes stellaires",
+            "J) Ictère cutanéo-muqueux",
+            "K) Ascite de grande abondance",
+            "L) Crépitant pulmonaires de la base droite",
+            "M) Diabète de type 2",
+            "N) traitement par METFORMINE",
+            "O) Circulation veineuse collatérale"
+          ],
+          "reponses": [
+            "A",
+            "G",
+            "I",
+            "J",
+            "K",
+            "O"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il s’agit donc probablement d’une rupture de varices œsophagiennes chez une patiente atteinte de cirrhose liée à l’alcool. Quelle prise en charge proposez-vous ? (Sélectionnez les 3 réponses exactes)",
+          "choix": [
+            "A) Hospitalisation en unité conventionnelle",
+            "B) Endoscopie oeso-gastro-duodénale dans les 12 heures",
+            "C) Initiation d’un traitement par SOMATOSTATINE",
+            "D) Ponction d’ascite évacuatrice en urgence",
+            "E) Biopsie hépatique en urgence",
+            "F) Initiation d’une antibiothérapie probabiliste",
+            "G) Scanner abdomino-pelvien avec injection d'iode",
+            "H) Initiation d’un traitement par NORADRENALINE",
+            "I) Transfusion de plasma frais congelé",
+            "J) Transfusion de culots globulaires rouges pour atteindre une cible de 12 g/dl d’hémoglobine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "F"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295298062-b42fa3b90fb8c8",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelles sont les 2 principales causes de pancréatite aiguë ?",
+          "choix": [],
+          "reponses": [
+            "Alcoolisme chronique et lithiase biliaire",
+            "alcool et lithiase",
+            "lithiase et alcool",
+            "alcool et lithiase biliaire",
+            "lithiase biliaire et alcool",
+            "alcoolique et lithiasique",
+            "alcool lithiase",
+            "Alcool et lithiase",
+            "alcool, lithiase",
+            "Lithiase et alcool",
+            "alcool et biliaire",
+            "lithiase alcool",
+            "lithiasique et alcoolique",
+            "Alcool et lithiase biliaire",
+            "alcoolique et biliaire",
+            "alcool et lithiases biliaires",
+            "Alcoolique et biliaire",
+            "alcool et lithiasique",
+            "alcool et lithiase billiaire",
+            "alcool, lithiase biliaire",
+            "lithiase biliaire, alcool",
+            "alcool et lithiases",
+            "Alcool Lithiase biliaire",
+            "lithiasique alcoolique",
+            "Alcoolique et lithiasique",
+            "biliaire et alcoolique",
+            "alcool et lithiase de la VBP",
+            "l'alcool et les lythiase biliaire",
+            "Acoolique et biliaire",
+            "Lithiase biliaire et Alcool",
+            "Alcool, lithiase biliaire",
+            "calculs biliaires et alcool",
+            "Alcool et Lithiase",
+            "lithiase et alcoolisme",
+            "lithiase biliaire et consommation chronique d'alcool",
+            "Lithiase biliaire et alcool",
+            "Lithiases et alcool",
+            "Alcoolique, lithiasique",
+            "lithiase billiaire et alcool chronique",
+            "alcoolique et billiaire",
+            "Lithiase biliare Alcool",
+            "migration d un calcul voies biliaires + alcool",
+            "lithiase biliaire et alcoolique",
+            "Alcool et lithiases",
+            "alcoolisme chronique et lithiase",
+            "Lithiasique et alcoolique",
+            "lihiase et alcool",
+            "Lithiase Alcool",
+            "alcool et lithisase",
+            "alcool biliaire",
+            "Alcool, Lithiase",
+            "biliaire et alcool",
+            "alcool , lithiase",
+            "lithiase biliare et alcool",
+            "alcoolique et migration lithiasique",
+            "lithiasique, alcoolique",
+            "alcool, biliaire",
+            "Alcool et calcul sur les voies biliaires",
+            "Alcool, lithiase",
+            "Alcool/Lithiase",
+            "alcool et lithiase d'origine biliaire",
+            "intoxication alcoolique et lithiase de la voie biliaire principale",
+            "lithiase et consommation excessive d'alcool",
+            "lithiase, alcoolique",
+            "Alcoolisme et lithiase biliaire"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le type histologique du cancer de l’œsophage associé à la consommation chronique de tabac et d’alcool ?",
+          "choix": [],
+          "reponses": [
+            "carcinome épidermoïde",
+            "carcinome epidermoide",
+            "épidermoïde",
+            "epidermoide",
+            "carcinome epidermoïde",
+            "epidermoïde",
+            "cancer épidermoïde",
+            "carcinome épidermoide",
+            "épidermoide",
+            "cancer epidermoïde",
+            "Epidermoïde",
+            "Carcinome epidermoide",
+            "Carcinome épidermoide",
+            "Carcinome epidermoïde",
+            "Cancer épidermoïde",
+            "Épidermoïde",
+            "Epidermoide",
+            "cancer epidermoide",
+            "carcinone épidermoïde",
+            "carcinome epiderdermoide",
+            "carcinome epidermoique",
+            "carcinome epidemoïde",
+            "épidermoÏde",
+            "Cancer Epidermoïde"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes laquelle correspond à un grade III de la pathologie hémorroı̈daire ?",
+          "choix": [
+            "A) Procidence visible à l’anuscopie mais pas à l’examen externe",
+            "B) Hémorroı̈des visibles en anuscopie mais sans procidence mais marisques externes",
+            "C) Procidence des hémorroı̈des à l’extérieur de l’anus en faisant pousser",
+            "D) Procidence permanente des hémorroı̈des à l’extérieur de l’anus",
+            "E) Procidence permanente des hémorroı̈des à l’extérieur de l’anus avec caillot bleu visible"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les membres d’une famille qui ont diné au restaurant, deux d’entre eux présentent une diarrhée aiguë avec nausées dont les symptômes ont débuté en début de nuit. Quel est le germe très probablement responsable de cette diarrhée aiguë ?",
+          "choix": [
+            "A) salmonella typhi",
+            "B) campylobacter jéjuni",
+            "C) yersinia enterolitica",
+            "D) staphylococcus aureus",
+            "E) Escherichia coli"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la maladie cœliaque, quelle(s) est ou sont la ou les réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Elle est rare chez l’adulte",
+            "B) Le diagnostic est aﬃrmé par le dosage sérique des IgG anti-transglutaminase",
+            "C) Le diagnostic est aﬃrmé par les biopsies duodénales",
+            "D) Le traitement repose sur le régime sans gluten pendant 6 à 12 mois",
+            "E) Peut se compliquer en lymphome du grêle en l’absence de traitement"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’hypertension portale au cours de la cirrhose, quelles sont les complications possibles ?",
+          "choix": [
+            "A) hémorragie digestive par rupture de varices œsophagiennes",
+            "B) hémorragie digestive par rupture de varices gastriques ou rectales",
+            "C) ascite réfractaire",
+            "D) carcinome hépatocellulaire",
+            "E) encéphalopathie hépatique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du syndrome d’angiocholite, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) le syndrome associe successivement dans le temps : Fièvre, douleur puis ictère",
+            "B) le syndrome associe successivement dans le temps : douleur, puis fièvre puis ictère",
+            "C) le syndrome associe successivement dans le temps : ictère, puis douleur puis Fièvre",
+            "D) peut être du à un calcul de la voie biliaire principale",
+            "E) peut être du à un calcul du canal de Wirsung"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les paramètres biologiques confirmant le diagnostic d’hémochromatose primitive sont :",
+          "choix": [
+            "A) ferritinémie élevée",
+            "B) coefficient de saturation de la transferrine < 45%",
+            "C) Mutation hétérozygote du gène HFE de type H63D",
+            "D) coefficient de saturation de la transferrine > 45%",
+            "E) Mutation homozygote du gène HFE de type C282Y"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 4 causes les plus fréquentes de cirrhose en France?",
+          "choix": [
+            "A) Cholangite biliaire primitive",
+            "B) Consommation excessive d’alcool",
+            "C) Hépatite auto-immune",
+            "D) Cirrhose sclérosante primitive",
+            "E) Stéatopathie métabolique",
+            "F) Hépatite chronique virale C",
+            "G) hépatite chronique virale B",
+            "H) hémochromatose primitive"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "F",
+            "H"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 28,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de l’ictère cholestatique : 3 réponses exactes",
+          "choix": [
+            "A) élévation de la bilirubine conjuguée sanguine",
+            "B) élévation de la bilirubine libre sanguine",
+            "C) selles et urines foncées avec prurit",
+            "D) urines foncées et selles décolorées avec prurit",
+            "E) peut-être causé par un cancer du corps du pancréas",
+            "F) peut-être causé par une lithiase de la voie biliaire principale"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "F"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

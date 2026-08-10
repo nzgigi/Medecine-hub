@@ -1,0 +1,217 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s4",
+  "annee": 2023,
+  "title": "Pharmacologie médicale - 2023",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants, lequel (lesquels) est (sont) des effets indésirables des anti histaminiques H1?",
+          "choix": [
+            "A) Torsades de pointe par allongement de l’espace QT",
+            "B) Hypersalivation",
+            "C) Diarrhée",
+            "D) Sédation",
+            "E) Prise de poids"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lequel (lesquels) peuvent induire (ou aggraver) un ulcère gastro-duodénal ?",
+          "choix": [
+            "A) Biphosphonates",
+            "B) Paracétamol",
+            "C) Le piroxicam",
+            "D) Les IEC",
+            "E) L’aspirine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le paracétamol, lesquelles sont exactes ?",
+          "choix": [
+            "A) Son métabolite hépatotoxique est le NAPQI",
+            "B) Il est antiinflammatoire à fortes doses",
+            "C) Sa ½ vie est de 18 heures",
+            "D) Son mécanisme d’action implique l’inhibition de la COX3",
+            "E) A posologie équivalentes les formes orales sont aussi efficaces que les formes injectables"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les biphosphonates quelles sont les affirmations exactes ?",
+          "choix": [
+            "A) ils augmentent la densité de l’os ostéoporotique",
+            "B) ils sont imputés dans la survenue de fractures atypiques",
+            "C) certains sont indiqués dans le traitement de l’hypercalcémie des tumeurs osseuses",
+            "D) leur demi-vie osseuse est courte",
+            "E) les formes injectables sont à haut risque d’ostéonécrose de la mâchoire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anticalcineurines quelles sont les propositions exactes ?",
+          "choix": [
+            "A) La ciclosporine A empêche la déphosphorylation de NFAT-P",
+            "B) la néphrotoxicité du tacrolimus peut être prédite par le génotypage du gène codant pour CYP2D6",
+            "C) Ciclosporine A et tacrolimus diminuent la synthèse de l’IL2",
+            "D) Ciclosporine A et tacrolimus sont néphrotoxiques",
+            "E) On associe ciclosporine et tacrolimus dans la prévention du rejet de greffe"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système opioïde, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) La morphine agit principalement sur la composante discriminative de la douleur",
+            "B) La morphine élève le seuil nociceptif",
+            "C) La constipation et les nausées provoquées par la morphine sont soumises à tolérance",
+            "D) Le récepteur opioïde Mu est un récepteur canal anionique",
+            "E) l’hyperalgésie aux opioïdes est dose- et temps-dépendante"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les glucocorticoides, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) ils possèdent une activité anti inflammatoire et antiallergique",
+            "B) ils sont immunosuppresseurs par inhibition de la calcineurine",
+            "C) ils sont antiinflammatoires par inhibition de l’activité de la COX2",
+            "D) Ils sont utilisés dans la prévention du rejet de greffe",
+            "E) Ils sont indiqués chez le prématuré en détresse respiratoire"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs de variation des effets pharmacologiques, parmi les propositions suivantes quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) La barrière hématoencéphalique devient perméable chez le sujet âgé",
+            "B) La non-observance médicamenteuse est souvent surestimée",
+            "C) La plus grande part du polymorphisme génétique est liée à l’existence de SNP (single Nucleotide Polymorphism)",
+            "D) Les métaboliseurs ultra-rapides pour le CYP2D6 ont un nombre anormalement élevé de copies du gène codant pour ce cytochrome",
+            "E) Le calcul de la posologie d’un médicament éliminé par voie rénale doit toujours être réalisé avec la formule du CKD-EPI car c’est celle qui estime le mieux la fonction rénale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les antitussifs centraux, quelle(s) est(sont) la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) Les médicaments contenant de la codéine sont contre-indiqués chez les enfants de moins de 12 ans",
+            "B) Les médicaments opioïdes sous forme de sirop sont disponibles sans ordonnance",
+            "C) L’association d’un sirop à base de codéine avec un antihistaminique H1 majore le risque de somnolence",
+            "D) Les sirops à base de codéine peuvent être prescrits à la femme enceinte en début de grossesse",
+            "E) Les propriétés atropiniques des anti-H1 au niveau broncho-pulmonaire constituent un effet recherché dans le traitement de la toux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les associations suivantes, laquelle ou lesquelles sont à risque ou illogiques:",
+          "choix": [
+            "A) Warfarine-kétoconazole",
+            "B) Colchicine-vérapamil",
+            "C) Tacrolimus-sirolimus",
+            "D) Dompéridone-paracétamol",
+            "E) Aspirine-clopidogrel"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,481 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s4",
+  "annee": 2024,
+  "title": "Pharmacologie médicale - 2024",
+  "total_questions": 22,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mr Bocoumédicament, 77 ans vous présente son ordonnance (les posologies ne sont pas indiquées pour simplifier l’interprétation. Il faut considérer que la posologie respecte l’autorisation de mise sur le marché du médicament). Vous décidez de discuter son ordonnance :\nParacétamol\nIbuprofène\nOmeprazole\nColchicine\nAlendronate (biphosphonate)\nHydrochlorothiazide\nVérapamil (inhibiteur calcique)\nCiclosporine\nHydroxyzine (antihistaminique H1)\nRivastigmine (anticholinesterasique)",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la colchicine, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Elle inhibe la polymérisation de la tubuline",
+            "B) Elle a un effet inhibiteur de la xanthine oxydase",
+            "C) Elle bloque l’activation de cellules inflammatoire comme les macrophages.",
+            "D) C’est un médicament du traitement de fond de la goutte.",
+            "E) C’est un médicament à marge thérapeutique étroite"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments de l’ordonnance, le(les)quel(s) peut(vent) induire un surdosage de la colchicine ?",
+          "choix": [
+            "A) Ibuprofène",
+            "B) Omeprazole",
+            "C) Hydrochlorothiazide",
+            "D) Vérapamil",
+            "E) Ciclosporine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du surdosage en colchicine, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Les premiers signes cliniques sont une alopécie.",
+            "B) La diarrhée est un signe précoce de surdosage en colchicine",
+            "C) Une pancytopénie peut être la conséquence d’un surdosage",
+            "D) Des fractures atypiques surviennent dans la semaine suivant le surdosage.",
+            "E) L’évolution clinique n’est jamais fatale"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "critiques": [
+            "B",
+            "E"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient pense prendre de l’oméprazole pour la prévention des récidives d’ulcères gastriques. Concernant les médicaments de l’ordonnance, le(les)quel(s) peut(vent) induire ou aggraver un ulcère digestif ?",
+          "choix": [
+            "A) Ibuprofène",
+            "B) Alendronate",
+            "C) Hydrochlorothiazide",
+            "D) Hydroxyzine",
+            "E) Rivastigmine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous continuez à analyser l’ordonnance. La(les)quelle(s) des propositions est (sont) vraie(s).",
+          "choix": [
+            "A) Il existe une interaction pharmacodynamique entre l’hydroxyzine et la rivastigmine.",
+            "B) L’association ibuprofène et hydrochlorothiazide augmente le risque d’insuffisance rénale fonctionnelle.",
+            "C) L’association paracétamol et ibuprofène est contre-indiquée",
+            "D) La ciclosporine et l’hydrochlorothiazide augmentent le risque de crise de goutte",
+            "E) L’association oméprazole + alendronate est illogique au niveau pharmacodynamique car l’oméprazole favorise le risque d’ostéoporose."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirable suivants, le(les)quel(s) peut(vent) être imputable(s) à l’hydroxyzine ?",
+          "choix": [
+            "A) Allongement du QTc",
+            "B) Xérostomie",
+            "C) Sédation",
+            "D) Poussée hypertensive",
+            "E) Vision floue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297541976-bf85ce8406675",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le paracétamol, lesquelles sont exactes ?",
+          "choix": [
+            "A) A fortes doses > à 3g il est antiinflammatoire",
+            "B) Utilisé seul c’est un médicament à prescription médicale obligatoire",
+            "C) Son mécanisme d’action implique l’inhibition de l’activité de la COX2",
+            "D) Il est hépatotoxique",
+            "E) Les formes effervescentes apportent de grandes quantités de NaCl"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l’aspirine, lesquelles sont exactes ?",
+          "choix": [
+            "A) Aux doses usuelles c’est un inhibiteur préférentiel de la COX2",
+            "B) Elle diminue la synthèse du TXA2 plaquettaire",
+            "C) Son effet antiagrégant se manifeste dès une dose de 70-100 mg",
+            "D) Elle diminue le temps de saignement",
+            "E) Elle est antalgique et antipyrétique dès la dose de 1g"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les immunosuppresseurs, quels sont les mécanismes d’action corrects ?",
+          "choix": [
+            "A) La ciclosporine inhibe la phosphorylation de NFAT",
+            "B) Le cyclophosphamide est un antimétabolite qui diminue la synthèse de l’ADN",
+            "C) Le mycophénolate mofétil inhibe l’activité de l’inosine monophosphate deshydrogénase",
+            "D) Le tacrolimus appartient à la famille des anti-calcineurines",
+            "E) L’évérolimus est un inhibiteur de mTOR"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système opioïde, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) La morphine n’agit que sur la composante discriminative de la douleur",
+            "B) La stimulation des récepteurs opioïdes entraine une diminution de l’AMPc et exerce un rôle inhibiteur sur l’excitabilité neuronale",
+            "C) Les opioïdes partage une sequence amino terminale commune appelé motif opioïde",
+            "D) Les neurones opioïdes au niveau du tronc cérébral et de la moelle épinière activent la voie descendante de la douleur",
+            "E) Les récepteurs opioïdes sont des récepteurs canaux"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le système opioïde, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Les récepteurs sont impliqués dans l’effet dépresseur respiratoire",
+            "B) Les récepteurs sont impliqués dans l’effet sédatif",
+            "C) Les récepteurs ne sont pas impliqués dans l’effet analgésique",
+            "D) La morphine augmente le seuil douloureux et augmente la tolérance à la douleur",
+            "E) La morphine peut entrainer une anxiété"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments morphiniques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) La morphine est responsable d’un myosis sensible à la tolérance",
+            "B) La morphine est responsable de nausées et vomissements sensibles à la tolérance",
+            "C) La morphine peut entrainer une toux chronique",
+            "D) La morphine à libération immédiate a un Tmax de 30 à 60 minutes",
+            "E) La codéine est métabolisée en morphine par le cytochrome P450 2D6"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les glucocorticoïdes, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Ils possèdent une activité anti inflammatoire et antiallergique",
+            "B) Ils exercent une action transcriptionnelle directe et permettent la synthèse de lipocortine",
+            "C) Ils sont immunosuppresseurs",
+            "D) Ils activent la synthèse de phospholipase A2",
+            "E) Ils sont indiqués dans la prévention du rejet de greffe"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "critiques": [
+            "C"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces effets indésirables, lesquels sont imputables aux glucocorticoïdes :",
+          "choix": [
+            "A) Ostéoporose",
+            "B) Crises convulsives",
+            "C) Hypokaliémie",
+            "D) Retard de cicatrisation",
+            "E) Hypotension artérielle"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les facteurs qui participent au développement d’un comportement addictif pour une substance illicite ou médicamenteuse, quelle(s) proposition(s) est(sont) exacte(s) :",
+          "choix": [
+            "A) La concentration plus élevée de la substance dans le produit consommé",
+            "B) La durée plus courte de l’effet positif recherché",
+            "C) Le délai plus long d’atteinte de l’effet positif maximal",
+            "D) La voie d’administration inhalée",
+            "E) L’action de la substance au niveau du système nerveux central."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’impact en santé publique des troubles de l’usage de substances en France, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) La cocaïne est la substance qui entraine le plus de dommage en France",
+            "B) L’alcool reste la substance psychoactive entrainant le plus de décès en France",
+            "C) Le niveau d’usage de l’héroïne est le plus élevé après l’alcool et le tabac",
+            "D) Le tabac représente avec l’alcool les deux substances dont le niveau d’utilisation est le plus élevé en France parmi toutes les substances psychoactives",
+            "E) Le niveau d’utilisation de la cocaïne est équivalent à celui du cannabis récréatif."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des biphosphonates, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) Ils diminuent l’apoptose des ostéoclastes",
+            "B) Ils ont une forte affinité pour les cristaux d’hydroxyapatite",
+            "C) Ils diminuent modérément la densité osseuse.",
+            "D) Ils potentialisent l’ostéoporose sous corticothérapie.",
+            "E) Ils déterminent des ostéonécroses de la mâchoire."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11,
+          "critiques": [
+            "E"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des médicaments de la goutte, la(les)quelle(s) des propositions est (sont) vraie(s):",
+          "choix": [
+            "A) L’aspirine est un des médicaments de la crise de goutte.",
+            "B) L’allopurinol est un médicament de la crise de goutte.",
+            "C) L’allopurinol a un effet inhibiteur de la xanthine oxydase",
+            "D) Le febuxostat possède un meilleur profil de risque que l’allopurinol",
+            "E) Le tacrolimus est utilisé comme hypouricémiant chez les patients souffrant d’une hémopathie maligne avec masse tumorale élevée et ayant un risque de lyse tumorale rapide lors de l’initiation de la chimiothérapie."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lequel (lesquels) est (sont) fréquemment à l’origine de nausées et de vomissements ? :",
+          "choix": [
+            "A) Les anesthésiques généraux",
+            "B) Le vérapamil",
+            "C) Les antagonistes dopaminergiques",
+            "D) Le tramadol",
+            "E) Les inhibiteurs de la recapture de la sérotonine"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La(les)quelle(s) des propositions est (sont) vraie(s). Une réaction de photo-allergie :",
+          "choix": [
+            "A) Est indépendante de la dose du médicament",
+            "B) Reste limitée aux zones exposées au soleil",
+            "C) Peut survenir dès le premier contact",
+            "D) Est d’apparition rapide",
+            "E) Peut entraîner des lésions eczématiformes"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivant, lesquels peuvent déterminer un syndrome de Lyell :",
+          "choix": [
+            "A) Certains antiépileptiques, comme la lamotrigine",
+            "B) Morphine",
+            "C) Aspirine",
+            "D) Allopurinol",
+            "E) Les AINS"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les facteurs de variation des effets des médicaments, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Le CYP2D6 présente un grand polymorphisme génétique",
+            "B) Les sujets métaboliseurs lents pour le CYP2D6 présentent un risque de dépression respiratoire après l’administration d’une posologie usuelle de codéine",
+            "C) Les métaboliseurs ultrarapides pour le CYP2D6 présentent une mutation ponctuelle aboutissant à la production d’une enzyme plus active que la protéine sauvage",
+            "D) La mutation génétique des cibles est fréquemment rencontrée pour expliquer la variabilité de l’efficacité des médicaments",
+            "E) Une mutation sur le gène codant pour le CYP2C19 peut expliquer une absence d’efficacité du clopidogrel."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

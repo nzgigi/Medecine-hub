@@ -1,0 +1,597 @@
+{
+  "matiere": "Maîtrise clinique et sémiologie",
+  "slug": "maitrise-clinique-semiologie-s6",
+  "annee": 2026,
+  "title": "Maîtrise clinique et sémiologie - 2026",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le souffle de rétrécissement aortique, quelles sont les affirmations vraies?",
+          "choix": [
+            "A) il est diastolique",
+            "B) on l'ausculte au deuxième espace intercostal droit",
+            "C) il est généralement difficile à entendre",
+            "D) l'abolition du deuxième bruit indique un rétrécissement serré",
+            "E) aucune proposition n'est juste"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le souffle d'insuffisance aortique, quelles sont les affirmations vraies?",
+          "choix": [
+            "A) il est diastolique",
+            "B) on l'ausculte au cinquième espace intercostal gauche",
+            "C) il est souvent difficile à entendre",
+            "D) il augmente en inspiration",
+            "E) aucune réponse n'est juste"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le souffle d'insuffisance mitrale, quelles sont les réponses exactes?",
+          "choix": [
+            "A) On le recherche le long du sternum",
+            "B) le souffle est diastolique",
+            "C) le souffle irradie en région épigastrique",
+            "D) il irradie dans les carotides",
+            "E) aucune réponse n'est juste"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les signes suivants, lesquels appartiennent au tableau d'insuffisance cardiaque gauche?",
+          "choix": [
+            "A) râles crépitants dans les bases",
+            "B) orthopnée",
+            "C) oedèmes des membres inférieurs",
+            "D) reflux hépato-jugulaire",
+            "E) pouls jugulaire"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes suivants, lesquels appartiennent au tableau de l'insuffisance cardiaque globale",
+          "choix": [
+            "A) oedèmes des membres inférieurs",
+            "B) orthopnée",
+            "C) râles crépitants bilatéraux",
+            "D) reflux hépato-jugulaire",
+            "E) hépatalgie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "devant une douleur rétrosternale, majorée à l'inspiration profonde, diminuée par l'antéflexion du tronc, présente au repos, vous évoquez (une seule réponse)",
+          "choix": [
+            "A) angor",
+            "B) péricardite",
+            "C) embolie pulmonaire",
+            "D) dissection aortique",
+            "E) pneumopathie franche lobaire aigue"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Devant une douleur rétrosternale, à type de striction, apparaissant à l'effort, sans irradiation, vous évoquez prioritairement: (1 seule réponse)",
+          "choix": [
+            "A) angor",
+            "B) péricardite",
+            "C) reflux gastro-oesophagien",
+            "D) embolie pulmonaire",
+            "E) dissection aortique"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On peut évoquer une maladie thromboembolique devant:",
+          "choix": [
+            "A) une douleur brutale latéro-thoracique",
+            "B) une syncope",
+            "C) une dyspnée",
+            "D) des oedèmes des membres inférieurs",
+            "E) une tachycardie sinusale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les râles sibilants, quelles sont les réponses justes?",
+          "choix": [
+            "A) ils sont inspiratoires",
+            "B) ce sont des râles bronchiques",
+            "C) on les rencontre typiquement en cas de crise d'asthme",
+            "D) on peut en rencontrer en cas de virose respiratoire",
+            "E) on peut en rencontrer en cas d'insuffisance cardiaque chez le sujet âgé"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les râles crépitants, on peut les entendre dans les situations suivantes (affirmations exactes)?",
+          "choix": [
+            "A) insuffisance cardiaque",
+            "B) bronchite aigue",
+            "C) embolie pulmonaire",
+            "D) pneumopathie franche lobaire aigue",
+            "E) fibrose pulmonaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On retrouve dans le syndrome de condensation parenchymateuse les éléments suivants:",
+          "choix": [
+            "A) tympanisme",
+            "B) abolition du souffle trachéal",
+            "C) augmentation du murmure vésiculaire",
+            "D) matité à la percussion",
+            "E) abolition des vibrations vocales"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "devant une hémoptysie, on peut évoquer:",
+          "choix": [
+            "A) une embolie pulmonaire",
+            "B) une tumeur endobronchique",
+            "C) une pleurésie",
+            "D) une dilatation des bronches",
+            "E) une fibrose pulmonaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ce patient présente une dyspnée progressive, avec à l'examen physique une matité de l'hémichamps pulmonaire droit jusqu'à mi hauteur. on peut évoquer:",
+          "choix": [
+            "A) une atélectasie",
+            "B) une bronchite",
+            "C) une fibrose pulmonaire",
+            "D) une BPCO",
+            "E) une pleurésie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "une douleur abdominale déclenchée par l'alimentation se voit typiquement en cas de (3 réponses justes):",
+          "choix": [
+            "A) ulcère gastrique",
+            "B) pancréatite",
+            "C) angor mésentérique",
+            "D) angor cardiaque",
+            "E) lithiase vésiculaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "une douleur du flanc gauche à type de spasme, évoluant par crises, peut se voir en cas de:",
+          "choix": [
+            "A) lithiase de la voie biliaire principale",
+            "B) colite aigue",
+            "C) lithiase urétérale gauche",
+            "D) cancer du sigmoïde",
+            "E) colopathie fonctionnelle"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous devez rechercher une rétention d'urine devant:",
+          "choix": [
+            "A) des douleurs sus-pubiennes",
+            "B) des mictions involontaires",
+            "C) une confusion",
+            "D) une polyurie",
+            "E) une insuffisance rénale aigue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant un oedème étendu du membre inférieur droit remontant jusqu'à la cuisse, vous évoquez:",
+          "choix": [
+            "A) une insuffisance cardiaque",
+            "B) une thrombophlébite iliaque",
+            "C) une phlébite surale",
+            "D) un cancer du petit bassin",
+            "E) une adénopathie crurale compressive"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "devant un tableau d'anasarque avec circulation abdominale collatérale, vous évoquez prioritairement (1 diagnostic):",
+          "choix": [
+            "A) un syndrome néphrotique",
+            "B) une insuffisance rénale aigue",
+            "C) une péricardite constrictive",
+            "D) une décompensation oedémato-ascitique cirrhotique",
+            "E) une dénutrition"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez cette patiente de 25 ans qui présente depuis 24 heures fièvre à 39°C, douleur en fosse iliaque droite, défense en fosse iliaque droite, douleur au toucher vaginal à droite, vous évoquez deux diagnostics, lesquels?",
+          "choix": [
+            "A) cystite aigue",
+            "B) pyélonéphrite aigue",
+            "C) cancer du caecum",
+            "D) appendicite aigue",
+            "E) salpingite aigue"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes cliniques sont évocateurs d' une occlusion intestinale?",
+          "choix": [
+            "A) douleurs lombaires",
+            "B) arrêt des matières",
+            "C) arrêt des gaz",
+            "D) distension abdominale",
+            "E) vomissements"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la bandelette urinaire, quelles sont les affirmations vraies?",
+          "choix": [
+            "A) une protéinurie abondante peut ne pas être détectée par la bandelette urinaire",
+            "B) la présence de nitrites évoque une exposition environnementale toxique",
+            "C) une hématurie microscopique témoigne toujours d'une lésion du filtre glomérulaire",
+            "D) la bandelette urinaire est utile au diagnostic des douleurs abdominales",
+            "E) la présence de corps cétoniques ++++ évoque un diabète de type II décompensé"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "une douleur du flanc droit à type de torsion évoluant par spasmes successifs vous évoque en priorité (deux diagnostics)",
+          "choix": [
+            "A) une colique néphrétique",
+            "B) une cholécystite aigue",
+            "C) une appendicite aigue",
+            "D) un zona à la phase pré-éruptive",
+            "E) une lithiase de la voie biliaire principale"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Des lésions vésiculeuse se regroupant en 'bouquet' peuvent se voir au cours de:",
+          "choix": [
+            "A) l'herpes labial",
+            "B) le zona thoracique",
+            "C) le zona trigéminal",
+            "D) la rubéole",
+            "E) la rougeole"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 23
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Que vous évoque cette radiographie du thorax? (répondre en 1 seul mot?)",
+          "choix": [],
+          "reponses": [
+            "pleurésie"
+          ],
+          "correctionExplanation": "",
+          "order": 24,
+          "images": [
+            "/images/qcm/maitrise-clinique-semiologie-s6/2026/q24.webp?v=1786370302591"
+          ]
+        },
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle maladie hématologique vous évoque ce tracé électrophorétique? (1 seul mot)",
+          "choix": [],
+          "reponses": [
+            "maladie de Waldenström"
+          ],
+          "correctionExplanation": "",
+          "order": 25,
+          "images": [
+            "/images/qcm/maitrise-clinique-semiologie-s6/2026/q25.webp?v=1786370302876"
+          ]
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mr A , 76 ans, est tombé et a vomi. Dès qu'il ouvre les yeux, il a l'impression d'être sur un manège et il est pris de nausées: tout tourne autour de lui. L'examen clinique retrouve des secousses rapide dans le regard latéral droit. le reste de l'examen physique est normal. Vous suspectez:",
+          "choix": [
+            "A) un accident vasculaire cérébral sylvien superficiel",
+            "B) un accident vasculaire cérébral sylvien superficiel",
+            "C) un accident du tronc cérébral",
+            "D) un vertige paroxystique bénin",
+            "E) aucune de ces réponses"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 26
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les signes cliniques suivants, lesquels peut on voir en cas de lésions du faisceau pyramidal?",
+          "choix": [
+            "A) parésie spastique",
+            "B) réflexes polycinétiques",
+            "C) réflexes pendulaires",
+            "D) réflexe cutané plantaire en extension",
+            "E) diffusion de l'aire réflexogène"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 27
+        },
+        {
+          "id": 28,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle pathologie devez vous rechercher chez cette patiente qui a des douleurs des dernières phalanges évoluant depuis quelques mois?",
+          "choix": [
+            "A) un rhumatisme psoriasique",
+            "B) une arthrose digitale évoluée",
+            "C) un cancer bronchique",
+            "D) une polynévrite",
+            "E) une sclérodermie"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 28,
+          "images": [
+            "/images/qcm/maitrise-clinique-semiologie-s6/2026/q28.webp?v=1786370303956"
+          ]
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la cruralgie, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) elle s'accompagne d'une abolition du réflexe rotulien",
+            "B) elle peut provoquer une amyotrophie quadricipitale",
+            "C) la douleur se situe au pli de l'aine",
+            "D) la douleur est reproduite par la manoeuvre de Lasègue",
+            "E) la douleur est reproduite à la palpation de l'arcade crurale"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 29
+        },
+        {
+          "id": 30,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Chez cette patiente de 80 ans qui se plaint d'une douleur au pli de l'aine droite lors de la mise en charge, aggravative progressivement depuis 2 ans, restreignant fortement le périmètre de marche, vous évoquez en priorité (indiquez la meilleure réponse):",
+          "choix": [
+            "A) une fracture du bassin",
+            "B) une arthrose lombaire",
+            "C) une sciatique L5",
+            "D) une coxarthrose",
+            "E) une arthrite de hanche"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 30
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

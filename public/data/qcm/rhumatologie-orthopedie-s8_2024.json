@@ -1,0 +1,592 @@
+{
+  "matiere": "Rhumatologie et orthopédie",
+  "slug": "rhumatologie-orthopedie-s8",
+  "annee": 2024,
+  "title": "Rhumatologie et orthopédie - 2024",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme C., 58 ans, enseignante, vous consulte pour des douleurs du genou droit, s’aggravant depuis 3 ans, survenant après 20 à 30 minutes de marche.\nLa montée des escaliers devient difficile. Elle n’est pas gênée au repos.\nL’examen général est normal hormis un surpoids (IMC 29).\nLa statique des membres inférieurs est normale en orthostatisme.\nLe genou droit est la seule articulation douloureuse à la mobilisation, sans limitation, sans épanchement. La douleur siège à la palpation du compartiment médial du genou.\nVous suspectez une gonarthrose droite.\nQuelles éléments supplémentaires recherchez-vous à l’interrogatoire devant cette suspicion de gonarthrose droite ?",
+          "choix": [
+            "A) Antécédent traumatique",
+            "B) Antécédent de chirurgie méniscale",
+            "C) Sensation de lâchage (dérobement) du genou",
+            "D) Tabagisme actif",
+            "E) Retentissement fonctionnel (limitation du périmètre de marche…)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quels examens complémentaires demandez-vous devant cette suspicion de gonarthrose droite ?",
+          "choix": [
+            "A) Aucun, le diagnostic est clinique",
+            "B) Des radiographies comparatives des genoux",
+            "C) Une IRM du genou droit",
+            "D) Un arthroscanner du genou droit",
+            "E) Un bilan biologique comportant CRP, hémogramme, calcémie, clairance de la créatinine et électrophorèse des protides"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles incidences radiographiques demandez-vous systématiquement devant cette suspicion de gonarthrose droite ?",
+          "choix": [
+            "A) Radiographies comparatives des genoux de face en décubitus dorsal",
+            "B) Radiographies comparatives des genoux de face en charge en extension",
+            "C) Radiographies comparatives des genoux de profil en charge",
+            "D) Radiographies comparatives des genoux de face en charge à 30° de flexion",
+            "E) Radiographies comparatives des genoux en défilés fémoropatellaires à 90° de flexion"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles anomalies retenez-vous sur cette radiographie du genou droit de face en charge en extension réalisée chez cette patient ?",
+          "choix": [
+            "A) Pincement du compartiment fémoro-tibial interne",
+            "B) Pincement du compartiment fémoro-tibial externe",
+            "C) Ostéophyte du compartiment fémoro-tibial interne",
+            "D) Ostéophyte du compartiment fémoro-tibial externe",
+            "E) Érosion du condyle fémoral interne"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q4.png?v=1786299864285"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quels mesure thérapeutique vous semble inutile à ce stade de la prise en charge de cette gonarthrose droite ?",
+          "choix": [
+            "A) Correction du surpoids",
+            "B) Rééducation avec physiothérapie, entretien de la mobilité articulaire et renforcement musculaire (programme auto-exercices)",
+            "C) Paracétamol, jusqu’à 3 grammes par jour",
+            "D) Anti-inflammatoire non stéroïdien en cas de poussée",
+            "E) Avis chirurgical au vu de la sévérité des signes radiographiques"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Trois ans plus tard, Mme C., 58 ans, vous consulte à nouveau pour une poussée douloureuse, concernant cette fois-ci le genou gauche, évoluant depuis 3 jours, sans facteur déclenchant.\nLe genou gauche est douloureux spontanément et à la mobilisation.\nLa mobilité articulaire est limitée en flexion (100°).\nVous identifiez un épanchement articulaire (signe de la fluctuation).\nVous envisagez une ponction articulaire.\nQuels examens demandez-vous sur l’analyse du liquide synovial issu de la ponction articulaire du genou gauche ?",
+          "choix": [
+            "A) Analyse cytologique",
+            "B) Dosage de l’albumine",
+            "C) Recherche de microcristaux",
+            "D) Dosage de l'acide urique",
+            "E) Analyse bactériologique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous demandez de nouvelles radiographies comparatives des genoux.\nQuelle anomalie pouvant expliquer cet épisode de gonflement articulaire retenez-vous sur cette radiographie du genou gauche de face en extension ?",
+          "choix": [
+            "A) Pincement du compartiment fémoro-tibial externe",
+            "B) Ostéophyte du compartiment fémoro-tibial interne",
+            "C) Calcification des cartilages articulaires et des ménisques",
+            "D) Érosion du condyle fémoral interne",
+            "E) Pincement global de l’interligne articulaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q7.png?v=1786299865311"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au vu de la clinique, de l’analyse du liquide synovial et de la radiographie, vous retenez un diagnostic de rhumatisme à cristaux pyrophosphate (chondrocalcinose).\nQuels sont les deux examens complémentaires que vous demandez-vous en première intention afin de rechercher une cause à cette chondrocalcinose ?",
+          "choix": [
+            "A) Calcémie, phosphorémie",
+            "B) Dosage de la parathormone (PTH)",
+            "C) Coefficient de saturation de la transferrine",
+            "D) Recherche de mutation du gène HFE",
+            "E) Recherche d’une alcalose métabolique, d’une hypomagnasémie et d’une hypocalciurie."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299865778-cafe7bbca00f8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous êtes interne dans un centre de polytraumatisé et la garde s’annonce chargée… Vous êtes d’emblée appelé pour Mr V., 25 ans présentant un traumatisme de la cheville gauche. Voici son aspect, et les radiographies réalisées par l’urgentiste avant de vous appeler.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi la (les) proposition(s) suivantes, laquelle ou lesquelles sont vraies?",
+          "choix": [
+            "A) Vous notez une luxation de cheville gauche",
+            "B) Vous devez réduire la cheville en urgence",
+            "C) Vous redoutez une nécrose cutanée dans les suites",
+            "D) La radiographie de cheville est primordiale pour le diagnostic",
+            "E) La réalisation d’une radiographie de contrôle post-réduction est primordiale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "L’urgence: réduction sous plâtre de la cheville!!! Chaque minute compte.\nLa cheville est une zone à haut risque de nécrose cutanée si la peau est contuse ou étirée comme dans une luxation de cheville\nOn ne doit jamais faire de radio d’une cheville luxée, mais après réduction : on ne perd pas de temps ET ca permet de mieux voir les fractures/equivalent bimalléolaires…",
+          "order": 1,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q9.png?v=1786299866158",
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q9_1.png?v=1786299866376"
+          ],
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez réduit la cheville en urgence de Mr V., maintenu la réduction par une attelle plâtre postérieure et réalisé une radiographie de contrôle que voici:\nParmi la (les) proposition(s) suivantes, laquelle ou lesquelles sont vraies?",
+          "choix": [
+            "A) Vous suspectez une fracture isolée de la malléole externe",
+            "B) Vous suspectez une fracture bimalléolaire",
+            "C) Vous suspectez une fracture équivalent bimalléolaire",
+            "D) Traitement orthopédique par botte plâtrée circulaire pour 6 semaines",
+            "E) Traitement chirurgical de réduction ostéosynthèse de la malléole externe"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "On voit sur la radio de contrôle une fracture isolée de la malléole externe. Mais vu la luxation et la grande déformation de la cheville, il y a une atteinte certaine du ligament interne de la cheville : d’où un équivalent bimaléollaire\nUne fracture (équivalent) bimalléolaire d’autant plus chez un sujet jeune est toujours chirurgical … mais peut être différé si nécrose cutanée de cheville si non réduite à temps",
+          "order": 2,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q10.png?v=1786299866707"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre externe intéressé par la chirurgie vous pose plusieurs questions concernant la chirurgie orthopédique en général, dites lui ce qui est vrai",
+          "choix": [
+            "A) En cas de souffrance cutanée type phlyctènes sur la voie d’abord, un traitement par fixateur externe peut s’envisager",
+            "B) Un TDM préopératoire est nécessaire afin de mieux comprendre les fractures articulaires ou comminutives",
+            "C) Il faut être a jeun des solides 6h avant une chirurgie et 2h pour les liquides",
+            "D) Une rupture du ligament croisé antérieure chez un jeune doit être opéré dans le mois qui suit sa rupture",
+            "E) Toutes les réponses sont vraies"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Impressionné par vos connaissances, il souhaite vous parler de son frère qui a eu une vive douleur dans le talon hier soir lors d’un match de badminton. Il souhaiterait en savoir plus sur la rupture du tendon d’Achille",
+          "choix": [
+            "A) A/ Le diagnostic est clinique",
+            "B) B/ Le traitement est chirurgical",
+            "C) C/ il faut examiner le patient sur le ventre pour poser le diagnostic",
+            "D) D/ la triade diagnostique est la perte de l’équin physiologique, la palpation d’une vacuité, la flexion plantaire du pied lors de la pression du mollet",
+            "E) E/ Toutes les réponses précédentes sont vraies"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "B, un traitement orthopédique peut également s’envisager par une attelle antérieure en équin\nD la triade diagnostique est la perte de l’équin physiologique, la palpation d’une vacuité, l’ABSENCE de flexion plantaire du\npied lors de la pression du mollet",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299867355-0faf2bb56cbce",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "M. T, 31 ans consulte aux urgences pour une douleur de l’aine droite évoluant depuis 48 heures. Il n’a pas d’antécédent notable. Il est comptable, pratique du vélo et de la course à pied de façon occasionnelle.\nLes douleurs ont débuté il y a 48 heures, sans facteur déclenchant, au cours de la nuit et se sont intensifiées depuis. Elles se localisent au pli de l’aine à droite et irradient vers la face antérieure de cuisse jusqu’au genou droit. Les douleurs sont décrites comme des crampes ou des coups de poignard. Les douleurs le réveillent de nombreuses fois surtout en 2ème partie de nuit. Il note une raideur du membre inférieur droit surtout le matin au réveil qui s’estompe au bout de 2 heures. Les douleurs sont responsables d’une boiterie et limitent son périmètre de marche à une centaine de mètres. Il n’y a pas de notion de fièvre, ni de frissons.\nIl s’agit du premier épisode de ce type.\nA l’interrogatoire, il rapporte également une notion de lombalgies basses récidivantes, irradiant souvent dans les fesses, depuis une dizaine d’année, survenant sans facteur déclenchant, et habituellement rapidement soulagées par la prise d’ibuprofène, pour lesquelles il n’a jamais consulté. Il n’a pas mal dans la région lombaire en ce moment.\nA l’examen clinique vous notez les éléments suivants : Température : 37°C, Pression artérielle : 120/70mmHg, Pouls : 65bpm. Marche avec boiterie d’esquive à droite, signe de la clé positif à droite. Mobilité de hanche droite : flexion : 90°, rotation interne :\n5°, rotation externe : 40°, abduction : 40°, adduction : 20°, extension : 0°. A gauche : flexion : 130°, rotation interne : 30°, rotation externe : 45°, abduction : 45°, adduction : 30°. Les 2 genoux sont secs, leur flexion est de 150°, l’extension est complète. Il n’y a pas de douleur à la palpation des épineuses du rachis lombaire, ni à la mobilisation du rachis. L’indice de Schobert est à 10 + 2cm. L’examen neurologique est normal. Les manœuvres de Lasègue et Léri sont négatives.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Compte tenu de l’interrogatoire et de l’examen clinique, quelle structure anatomique semble être responsable des douleurs du patient ? (2 mots)",
+          "choix": [],
+          "reponses": [
+            "Hanche droite",
+            "Coxofémorale droite",
+            "Coxo-fémorale droite",
+            "Articulation coxo-femorale droite",
+            "Articulation coxo-fémorale droite"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Citez parmi la liste suivante 2 examens indispensables à réaliser pour avancer dans le diagnostic (deux réponses attendues)",
+          "choix": [
+            "A) Ionogramme sanguin",
+            "B) Calcémie, phosphorémie",
+            "C) Créatininémie",
+            "D) Transaminases",
+            "E) Hémogramme",
+            "F) CRP",
+            "G) CPK",
+            "H) ECBU",
+            "I) Hémocultures",
+            "J) Radiographies du bassin de face",
+            "K) Radiographies du rachis lombaire de face et de profil",
+            "L) Echographie abdominopelvienne",
+            "M) IRM du rachis lombaire",
+            "N) Scanner abdomino-pelvien",
+            "O) Electromyogramme"
+          ],
+          "reponses": [
+            "F",
+            "J"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le bilan biologique retrouve les éléments suivants : hémogramme normal, CRP : 35mg/L, bilan hépatique normal, ionogramme sanguin et créatininémie normaux. Vous récupérez la radiographie du bassin du patient.\nQuel examen supplémentaire vous parait le plus utile à ce stade ? (une seule réponse possible)",
+          "choix": [
+            "A) Radiographies du genou droit de face et profil",
+            "B) Echographie de hanche droite",
+            "C) Scanner du bassin",
+            "D) IRM lombaire",
+            "E) Scintigraphie osseuse"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q15.png?v=1786299868903"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299869016-a70041c39da06",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quels sont les critères posant l’indication d’une radio de cheville après trauma de cheville ?",
+          "choix": [
+            "A) A/– patient de plus de 55 ans",
+            "B) B/– impossibilité de prendre appui et de faire 4 pas",
+            "C) C/ – douleur à la palpation de la base du 5e métatarsien ou du naviculaire",
+            "D) D/– douleur à la palpation du bord postérieur sur 6 cm ou de la pointe des malléole",
+            "E) E/ Un craquement entendu par le patient"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au sujet de cette radiographie: Parmi la (les) proposition(s) suivantes, laquelle ou lesquelles sont vraies?",
+          "choix": [
+            "A) Cuboïde",
+            "B) Articulation de Lisfranc",
+            "C) Naviculaire",
+            "D) Articulation de Chopard",
+            "E) Calcanéus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 2,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q17.png?v=1786299870103"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos d’une lésion du ligament croisé antérieur du genou, quelle est la réponse exacte?",
+          "choix": [
+            "A) La fracture de SEGOND pathognomonique d’une lésion du LCA correspond une avulsion osseuse de la corticale antérieure médiale du tibia",
+            "B) Le test de Lachman se fait genou fléchit à 90°",
+            "C) Le LCA se dirige en haut en arrière et en dedans",
+            "D) Sur l’IRM ce sont principalement les séquences T2 Fat Sat qui vont être utiles",
+            "E) Le traitement chirurgical est idéal à trois semaines du traumatismes"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de cette radiographie",
+          "choix": [
+            "A) Il existe une fracture du grand trochanter gauche",
+            "B) Il existe une fracture du petit trochanter gauche",
+            "C) Il existe une fracture du col du fémur gauche",
+            "D) Il existe une fracture du cotyle gauche",
+            "E) Aucune réponse juste"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q19.png?v=1786299870997"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La luxation sterno-claviculaire",
+          "choix": [
+            "A) Est plus fréquente que la luxation acromio-claviculaire",
+            "B) Est la conséquence d’un traumatisme à haute énergie",
+            "C) Se diagnostique simplement grâce à un bilan radiographique de face et de profil",
+            "D) Peut se compliquer d’une dysphagie en cas de luxation postérieure",
+            "E) Ne justifie pas d’une réduction systématique dans sa forme postérieure"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quels sont le risque majeur de traitement orthopédique chez ce patient?",
+          "choix": [],
+          "reponses": [
+            "Cal vicieux",
+            "Ouverture cutanée",
+            "Cal viscieux",
+            "Cals vicieux",
+            "Cal vicieux, pseudarthrose",
+            "cals vicieux",
+            "Deformation osseuse sur cal osseux",
+            "Complications si non réduction fracturaire (vasculaire, non consolidation, ca vicieux...",
+            "Cal vicieux, Pseudarthrose",
+            "Pseudoarthrose et cals vicieux",
+            "Mauvaise ossification",
+            "Pseudarthose",
+            "Formation d'un cal vicieux",
+            "syndrome de loge",
+            "Cal vicieux et pseudarthrose",
+            "Mauvaise consolidation et cal osseux",
+            "Déplacement des fractures, non consolidation",
+            "Syndrome des Loges",
+            "Deplacement de la fracture, cal vicieux",
+            "Cal vicieu",
+            "developpement d'un cal vicieux",
+            "Mauvais consolidation (fracture déplacée)",
+            "Cal vicieux pseudarthrose",
+            "Pseudarthrose",
+            "pseudarthrose",
+            "Pseudoarthrose",
+            "Mauvaise consolidation",
+            "Retard de consolidation",
+            "Mauvaise consolidation osseuse"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q21.png?v=1786299871785"
+          ]
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une plaie de face palmaire de main",
+          "choix": [
+            "A) Associée à une lésion complète du tendon fléchisseur profond d’un doigt long n’empêche pas la flexion de l’articulation inter phalangienne distale",
+            "B) Avec une plaie au niveau radial du pli de flexion du poignet peut entrainer un trouble sensitif de l’hémipulpe ulnaire du 4e doigt",
+            "C) Nécessite une radiographie",
+            "D) Nécessite une antiobioprophylaxie de 4 jours",
+            "E) En zone 3, ne peut pas retrouver une lésion musculaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Citez 2 étiologies sont compatibles avec un liquide synovial puriforme ?",
+          "choix": [
+            "A) Crise de goutte",
+            "B) Arthrite septique",
+            "C) Rhumatisme à hydroxyapatite",
+            "D) Ostéonécrose aseptique",
+            "E) Polyarthrite rhumatoïde"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une lombosciatique L5 droite, je peux retrouver à l’examen clinique",
+          "choix": [
+            "A) Un trajet partant de la face latérale de cuisse puis de jambe",
+            "B) Un trajet partant de la face postérieure de cuisse puis de jambe",
+            "C) Une abolition du réflexe achiléen",
+            "D) Un déficit du quadriceps",
+            "E) Un réflexe cutané plantaire en flexion"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant des paresthésies de la main, les signes de Tinel et Phalen sont en faveur du diagnostic de (4 mots)",
+          "choix": [],
+          "reponses": [
+            "Syndrome du canal carpien",
+            "syndrome du canal carpien",
+            "Syndrome du canal Carpien",
+            "Canal carpien",
+            "Syndrome canal carpien",
+            "Syndome du canal carpien",
+            "Compression du canal carpien",
+            "Syndrome de canal carpien",
+            "Syndrole du canal carpien",
+            "Syndrome du canal caripien",
+            "syndorme du canal carpien",
+            "Compression du Canal carpien"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

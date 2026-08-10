@@ -1,0 +1,606 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s8",
+  "annee": 2023,
+  "title": "Urgences - 2023",
+  "total_questions": 26,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Séverine R, 27 ans, est adressée aux urgences pour un essoufflement apparu progressivement quelques heures auparavant. Elle marche difficilement en raison de l’essoufflement. Elle ne fume pas. Elle a dans ses antécédents une rhinite allergique saisonnière et une allergie à la pénicilline.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les trois signes d’emblée évocateurs d’une détresse respiratoire aiguë ?",
+          "choix": [
+            "A) fréquence respiratoire supérieure à 20/min",
+            "B) saturation cutanée en oxygène diminuée",
+            "C) tirage sus-claviculaire",
+            "D) pâleur cutanée",
+            "E) élocution difficile avec phrases courtes interrompues par l’inspiration"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La fréquence respiratoire est à 28/min, la fréquence cardiaque à 100/min, la saturation à 93% sous 5l d’oxygène au masque. Quels sont les deux signes qui évoqueraient un obstacle laryngé ?",
+          "choix": [
+            "A) dyspnée expiratoire",
+            "B) cornage (bruit inspiratoire)",
+            "C) dysphonie",
+            "D) hémoptysie",
+            "E) râles ronflants à l’auscultation pulmonaire"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A l’examen, la dyspnée prédomine à l’expiration, il y a des râles sibilants diffus bilatéraux prédominant à l’expiration. La température est à 37°8 C. Quel diagnostic évoquez-vous en priorité ?",
+          "choix": [
+            "A) laryngite",
+            "B) œdème aigu du poumon",
+            "C) décompensation d’une bronchopneumopathie chronique obstructive (BPCO)",
+            "D) pneumopathie infectieuse",
+            "E) crise d’asthme"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une crise d’asthme. Parmi les mécanismes physiopathologiques suivants, lequel (s) explique la dyspnée observée dans une crise d’asthme ?",
+          "choix": [
+            "A) œdème de la muqueuse bronchique",
+            "B) hypersécrétion bronchique",
+            "C) épaississement du tissu interstitiel pulmonaire",
+            "D) rupture des cloisons alvéolaires",
+            "E) bronchospasme"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les deux traitements que vous débutez en urgence ?",
+          "choix": [
+            "A) corticoïde en nébulisation",
+            "B) béta-2 mimétique en perfusion intraveineuse",
+            "C) béta-2 mimétique en nébulisation",
+            "D) corticoïde per os ou en perfusion intraveineuse",
+            "E) adrénaline en nébulisation"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel débit ventilatoire peut être mesuré avant et après la première nébulisation pour préciser l’évolution de la crise ? (4\nmots)",
+          "choix": [],
+          "reponses": [
+            "débit expiratoire de pointe",
+            "debit expiratoire de pointe",
+            "Debit expiratoire de pointe",
+            "Debit Expiratoire de Pointe",
+            "debit expiratoire de pointe DEP",
+            "Débit d’expiration de pointe",
+            "Debit expiatoire de pointe (DEP)",
+            "debit expiratoire en pointe",
+            "débitmétrie expiratoire de pointe",
+            "Debit d'expiration de pointe",
+            "debit de pointe expiratoire",
+            "Débit expriratoire de pointe",
+            "débit de pointe expiratoire",
+            "debit d'expiration de pointe",
+            "débit d'expiration en pointe",
+            "debit expiratoire maximal de pointe"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quatre heures après l’arrivée aux urgences, la dyspnée s’est bien améliorée, les râles sibilants ont disparu, le débit expiratoire de pointe est à 360 litres/min (75% de la théorique). Vous proposez à la patiente de sortir avec trois prescriptions parmi les cinq proposées ci-dessous :",
+          "choix": [
+            "A) corticoïde per os pendant 5 jours",
+            "B) amoxicilline per os pendant une semaine",
+            "C) corticoïde inhalé pendant un mois",
+            "D) béta-2 mimétique de courte durée d’action en cas de nouvelle crise",
+            "E) antihistaminique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300808144-7556841733bf8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous accueillez aux urgences M. P., âgé de 64 ans, adressé par son médecin traitant pour fièvre. Ce patient a pour principal antécédent une intoxication tabagique évaluée à 15 paquets/année, une HTA traité par hydrochlorothiazide. Il rapporte également une consommation journalière l’alcool estimé à 2 verres par jour sans excès récent. Trois jours plus tôt, il a consulté son médecin traitant suite à une douleur en hypochondre droit, irradiant à l’épaule droite. Suspectant une colique hépatique, un traitement par phloroglucinol et paracétamol a été débuté et une échographie abdominale prescrite que le patient n’a pas encore réalisée. La douleur a persisté depuis 3 jours et une fièvre est apparue depuis hier, intermittente, avec des frissons. Il peine à rester debout, L’infirmière d’accueil, en lui prenant sa tension artérielle, s’aperçoit d’un ictère cutanéo-muqueux.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est votre principale hypothèse diagnostique ?",
+          "choix": [
+            "A) hépatite virale aiguë",
+            "B) hépatite alcoolique aiguë",
+            "C) cholécystite aiguë lithiasique",
+            "D) pancréatite aiguë alcoolique",
+            "E) angiocholite lithiasique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le patient est installé en box. Il existe une sensibilité en hypochondre droit sans défense. Vous confirmez la présence d’une ictère cutanéo-muqueux. Il n’existe pas de signe d’hypoperfusion périphérique. Le patient est orienté dans le temps et l’espace. Vous suspectez une angiocholite lithiasique. En essayant de se relever, le patient a présenté une lipothymie.\nSes paramètres vitaux : fréquence cardiaque 140/min ; tension artérielle 97/64 mmHg, saturation 98 % en air ambiant, fréquence respiratoire 25/min. Température 37,5 °C.\nQuelle est votre suspicion diagnostique ?",
+          "choix": [
+            "A) lipothymie vagale",
+            "B) trouble du rythme cardiaque",
+            "C) choc hypovolémique sur 3ème secteur",
+            "D) déshydratation extra-cellulaire",
+            "E) sepsis"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels examens biologiques demandez-vous en urgence en première intention ?",
+          "choix": [
+            "A) ionogramme sanguin",
+            "B) urée, créatinine",
+            "C) gazométrie artérielle",
+            "D) transaminases",
+            "E) TP"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les résultats des prélèvements biologiques sont en attente.\nDans le cadre de la suspicion de sepsis, compliquant une angiocholite, quelle prise en charge débutez-vous les prochaines 30 minutes, 2 propositions justes ?",
+          "choix": [
+            "A) surveillance de la diurèse",
+            "B) dérivation biliaire par voie percutanée",
+            "C) bi-antibiothérapie per os",
+            "D) expansion volémique IV",
+            "E) drogues vaso-actives IV"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est votre objectif de pression artérielle moyenne dans ce contexte (en mmHg) ? (un nombre)",
+          "choix": [],
+          "reponses": [
+            "65",
+            "65 mmHg",
+            "PAM> 65 mmHg",
+            ">65",
+            "superieure a 65 mmHg"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant ces éléments biologiques, quelle est la proposition exacte ?",
+          "choix": [
+            "A) insuffisance hépato-cellulaire",
+            "B) stigmate hémolyse",
+            "C) maladie de gilbert",
+            "D) cholestase ictérique",
+            "E) foie de choc"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300810345-aafe9d04f98b98",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous êtes médecin à la régulation-centre 15. Vous recevez l’appel de la femme de M. I., âgé de 67 ans qui vient de chuter de son échelle. Elle a été témoin de la chute, estimée de 3 mètres, alors que son mari réparait la gouttière de la toiture. Selon sa femme, Il a perdu connaissance quelques instants puis a ouvert les yeux, il était alors confus, ne sachant pas où il était. Vous proposez à sa femme de le laisser allongé, le temps que les pompiers arrivent.\nA l’arrivée des pompiers, 15 minutes plus tard, vous estimez un score de Glasgow à 14/15, il n’existe pas de signe de localisation, les pupilles sont réactives et symétriques, il existe une plaie occipitale ne nécessitant pas de suture. Le patient est à présent orienté dans le temps et l’espace mais ne se souvient plus de ce qu’il faisait sur l’échelle. Le patient est légèrement céphalalgique et présente quelques nausées. Il est sous acide acétylsalicylique (Kardegic℗) sans connaître l’indication.\nLes paramètres vitaux sont les suivant : fréquence cardiaque 89/min, tension artérielle 131/79 mmHg, saturation 97 % air ambiant.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la gravité de ce traumatisme crânien ? (1 mot)",
+          "choix": [],
+          "reponses": [
+            "Léger",
+            "mineur",
+            "leger",
+            "légère",
+            "faible",
+            "Légère",
+            "legere",
+            "legère",
+            "légere",
+            "Légére",
+            "Minime",
+            "bénin",
+            "minime"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles sont en faveur d’une traumatisme crânien léger ? (3 réponses justes)",
+          "choix": [
+            "A) nausée",
+            "B) tension artérielle normale",
+            "C) PC transitoire",
+            "D) amnésie rétrograde",
+            "E) hauteur de la chute",
+            "F) score de GSG 14",
+            "G) impact occipital",
+            "H) céphalées",
+            "I) âge > 65 ans",
+            "J) traitement antiagrégant"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "F"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le statut hémodynamique et neurologique du patient est stable, quel(s) conseil(s) de conditionnement délivrez-vous au pompier sur place?",
+          "choix": [
+            "A) mise en position latérale de sécurité",
+            "B) mise en place d’une canule de Guedel",
+            "C) mise en place d’un collier cervical",
+            "D) transport aux urgences par un matelas immobilisateur à dépression",
+            "E) mise en place ceinture pelvienne"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300812384-24109e42eaec98",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes concernant le pneumothorax spontané primaire ?",
+          "choix": [
+            "A) il intéresse les sujets de moins de 50 ans",
+            "B) son incidence est plus élevé chez la femme",
+            "C) le tabagisme actif est un facteur de risque de survenue",
+            "D) il complique souvent l’atteinte pulmonaire de la mucoviscidose",
+            "E) il résulte d’une irruption d’air dans l’espace pleural au travers de la plèvre pariétale"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses exactes concernant la prise en charge d’une hémoptysie persistante sous traitement vasoconstricteur aux urgences ?",
+          "choix": [
+            "A) le patient devra être transféré au plus vite vers un centre spécialisé",
+            "B) une surveillance des expectorations dans un récipient gradué sera effectuée",
+            "C) l’endoscopie bronchique est le premier traitement à envisager",
+            "D) un traitement chirurgical sera envisagé en cas d’échec d’une embolisation artérielle bronchique",
+            "E) le patient sera hospitalisé en secteur traditionnel en cas d’arrêt spontané du saignement"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Sélectionnez les 3 principales causes de péritonite de l’adulte :",
+          "choix": [
+            "A) ulcère perforé",
+            "B) appendicite",
+            "C) diverticulite",
+            "D) maladie de Crohn",
+            "E) cancer colique perforé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "M. Y., âgé de 42 ans est admis aux urgences pour une fièvre évoluant depuis 24 heures associée à une éruption douloureuse cutanée du membre inférieur gauche. Il présente une obésité stade 2. Vous suspectez une dermohypodermite bactérienne aiguë. Quels signes de gravité clinique sont à rechercher ?",
+          "choix": [
+            "A) adénopathie satellite",
+            "B) traînée de lymphangite",
+            "C) zone de nécrose cutanée",
+            "D) anesthésie cutanée",
+            "E) atteinte circonférentielle du membre inférieur"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les trois actes thérapeutiques de première ligne d’une anaphylaxie dont l’atteinte est cutanée et hémodynamique ?",
+          "choix": [
+            "A) position de Trendelenbourg",
+            "B) aérosols de B2mimétiques",
+            "C) adrénaline IM",
+            "D) noradrénaline IVSE",
+            "E) remplissage par cristalloïdes"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 3 éléments pris en compte dans le calcul du qSOFA ?",
+          "choix": [
+            "A) la fréquence cardiaque",
+            "B) le score de Glasgow",
+            "C) la saturation en oxygène",
+            "D) la fréquence respiratoire",
+            "E) la tension artérielle systolique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous prenez en charge Madame M, qui est adressée pour traumatisme du membre inférieur droit sur une chute mécanique de sa hauteur. Elle a une douleur au niveau de la hanche, son membre inférieur droit est raccourci et en rotation externe. Il n’y a pas de trouble vasculonerveux. Vous réalisez une radiographie. Quel est le stade de sa fracture selon la classification de Garden ?",
+          "choix": [
+            "A) Garden I",
+            "B) Garden II",
+            "C) Garden III",
+            "D) Garden IV",
+            "E) Garden V"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/urgences-s8/2023/q23.png?v=1786300816617"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "M. L., âgé de 63 ans, ayant pour principal antécédent une cirrhose CHILD B est admis en fin d’après-midi aux urgences suite à rectorragies depuis la matinée. Il rapporte également des selles noires depuis la veille. L’abdomen est souple et indolore. Quelle est la première étiologie à évoquer ?",
+          "choix": [
+            "A) angiodysplasie colique",
+            "B) rupture de varice œsophagienne",
+            "C) hémorragie diverticulaire",
+            "D) épistaxis dégluti",
+            "E) cancer colique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous réalisez un ECG pour une patiente de 35 ans présentant une douleur basithoracique droite et une tachycardie. Comment interprétez-vous cet ECG ? (4 mots)",
+          "choix": [],
+          "reponses": [
+            "bloc de branche droit",
+            "bloc de branche droite",
+            "bloc de blanche droit",
+            "Bloc de branche droite",
+            "tachycardie sinusale , reguliere et BDD",
+            "BBD complet S1Q3T3",
+            "aspect S1Q3 + bbd",
+            "Aspect S1Q3, BBD => EP",
+            "bloc de branche droit (embolie pulmonaire avec S1Q3)",
+            "Bloc de branche droit complet",
+            "embolie pulmonaire S1Q3 BBD",
+            "BBD+BAV1",
+            "BBD S1Q3 embolie pulmonaire",
+            "S1Q3, BBD : embolie pulmonaire",
+            "embolie pulmonaire bloc de branche droit"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "images": [
+            "/images/qcm/urgences-s8/2023/q25.jpg?v=1786300817939"
+          ]
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous accueillez Mme G., âgée de 42 ans adressée par son médecin traitant aux urgences suite à la découverte d’une perturbation du bilan hépatique. Elle présente depuis 48 heures de la fièvre associée à des courbatures généralisées et une douleur en hypochondre droit. Elle est ictérique depuis 12 heures. L’examen clinique retrouve une légère sensibilité en hypochondre gauche, sans défense. En complétant votre interrogatoire, vous apprenez qu’elle n’a pas voyagé récemment. La prise de sang réalisée avant son arrivée révèle : TGO 702 UI/l (N<35) ; TGP 914 UI/l (N<35); phosphatases alcalines 150 UI/l (N<90); gammaGT 201 UI/l (N<40); bilirubine totale 61 µmol/l (N<21) . Il existe également une CRP à 61 mg/l et une légère lymphopénie à 800/mm3.\nL’échographie abdominale réalisée ne retrouve ni d’obstruction ni de lithiase des voies biliaires intra ou extra-hépatiques. Quelle est votre principale hypothèse diagnostique positive ?",
+          "choix": [],
+          "reponses": [
+            "Hépatite",
+            "hepatite",
+            "hépatite aigue",
+            "hepatite aigue",
+            "hépatite aiguë",
+            "Hépatite aigue",
+            "Hépatite aiguë",
+            "hépatite aigüe",
+            "hepatite aigu",
+            "Hépatite aigüe",
+            "hépatite virale",
+            "hepatite virale",
+            "Hépatite virale",
+            "hépatite virale aigue",
+            "hépatite virale aiguë",
+            "hepatite virale aigue",
+            "Hépatite virale aiguë",
+            "Hépatite virale aigue",
+            "hépatite virale aigüe",
+            "hépatite infectieuse",
+            "Hepatite aigue",
+            "Hépatite aiguë virale",
+            "Hepatite virale aigu",
+            "hepatite virale",
+            "hépatite aigue virale",
+            "hepatite virale aigu",
+            "hepatite infectieuse",
+            "Heptatite virale",
+            "Hépatite virale aigüe",
+            "Hepatite virale",
+            "hepatite aigue virale"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,457 @@
+{
+  "matiere": "Anesthésie-réanimation",
+  "slug": "anesthesie-reanimation-s10",
+  "annee": 2025,
+  "title": "Anesthésie-réanimation - 2025",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mme R., 61 ans, antécédents d’hypertension artérielle, de diabète et de surpoids est amenée par le SAMU pour confusion. Son entourage signale également des céphalées d’aggravation progressive sur quelques heures non soulagées par le paracétamol et une douleur de nuque très importante. Elle prend comme seul traitement de l’AMLODIPINE 5mg le matin.\nLes constantes à l’accueil des urgences sont les suivantes :\n- Température 38.7 °C\n- SpO2 96% en air ambiant\n- Pouls 105/min\n- Pression artérielle 135/85 mmHg\n- Glycémie 1.15g/L\nAprès quelques minutes aux urgences, elle se dégrade sur le plan neurologique avec un trouble de conscience. Elle grommelle à la douleur, ouvre les yeux à la douleur, et localise la douleur.\nVous êtes appelé.e pour aller l’examiner en urgence.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Que rechercher en priorité à l’examen clinique ?",
+          "choix": [
+            "A) Signes de focalisation",
+            "B) Mouvements pupillaires",
+            "C) Eruption cutanée",
+            "D) Score MMSE",
+            "E) Test de l’horloge"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "L’examen neurologique confirme la raideur méningée. Le reste de l’examen clinique révèle un foyer de crépitants en base gauche, un examen abdominal et urinaire sans particularité, l’absence d’éruption cutanée.\nLa biologie montre un ionogramme normal, fonction rénale normale, l’absence de troubles de la coagulation, un syndrome inflammatoire biologique.\nQuelle est votre hypothèse diagnostique principale ?",
+          "choix": [],
+          "reponses": [
+            "Méningite",
+            "Méningo-encéphalite",
+            "Méningite à pneumocoque",
+            "Méningo-encéphalite à pneumocoque",
+            "méningite infectieuse",
+            "méningite bactérienne",
+            "Méningite infectieuse",
+            "meningite infectieuse",
+            "Méningite bactérienne",
+            "meningite bacterienne",
+            "infection neuro-méningée",
+            "méningite (pneumocoque)",
+            "méningite à pneumocoques",
+            "méningo encéphalite avec infection pulmonaire associée",
+            "Meningite bacterienne",
+            "méningite aiguë",
+            "sepsis sur une méningite",
+            "Méningite bacterienne",
+            "méningoencéphalite",
+            "méningite à pneumoccoque",
+            "meningo-encephalite infectieuse",
+            "méningo-encéphalite infectieuse",
+            "meningoencephalite",
+            "méningite et pneumopathie",
+            "meningo encéphalopathie",
+            "Meningito-encéphalite",
+            "méningo encéphalite infectieuse",
+            "meningite complicant une pneumonie",
+            "pneumopathie compliqué d'une meningite probablement a streptoccocus pneumoniae",
+            "méningo-encephalite point de depart pulmonaire",
+            "sepsis d'une meningite et pneumopathie",
+            "méningite associée à une pneumopathie dans un contexte probable de sepsis",
+            "meningite à point de depart pulmonaire",
+            "méningite à pneumocoque suite à pneumopathie à pneumocoque",
+            "meningo encéphalite infectieuse",
+            "Méningoencéphalite",
+            "méningite infectieuse à pneumocoque",
+            "Pneumopathie basale gauche compliquée de méningite",
+            "Méningoencéphalite infectieuse",
+            "méningite dans un cadre de pneumopathie infectieuse",
+            "méningo-encéphalite infectieuse grave",
+            "Méningite et infection pulmonaire à pneumocoque",
+            "meningoencéphalite"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels examens réalisez vous en priorité ?",
+          "choix": [
+            "A) Ponction lombaire après la réalisation d'un scanner cérébral.",
+            "B) Une paire d'hémocultures",
+            "C) IRM en première intention",
+            "D) Antibiotiques large spectre avant tout prélèvements",
+            "E) Un électro-encéphalogramme"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le scanner ne montre pas d’engagement cérébral.\nLa ponction lombaire peut être réalisée.\nInterprétez le résultat de cette ponction lombaire :\nAspect du LCR Louche\nBactériologie dans le LCR\nExamen direct : Cocci gram positif\nCultures : en cours",
+          "choix": [
+            "A) Hypoglycorachie",
+            "B) Hyperprotéinorachie",
+            "C) Méningite d’allure bactérienne",
+            "D) Méningite d’allure virale",
+            "E) LCR normal"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/anesthesie-reanimation-s10/2025/q4.png?v=1786294169306"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Selon vous, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) Vous suspectez un pneumocoque en première intention.",
+            "B) Vous demandez l'administration d'une antibiothérapie par Carbapénème en urgence",
+            "C) Vous demandez l'administration d'une antibiothérapie par Ceftriaxone de 3ème génération en urgence",
+            "D) Vous complétez l'administration d'antibiotique d'une dose de dexamethasone en urgence",
+            "E) Vous cherchez à transférez la patiente en réanimation"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’arrivée en réanimation, son examen neurologique est le suivant : Absence d’ouverture des yeux à la douleur, absence de réponse verbale à la douleur, mouvement d’enroulement des 4 membres à la douleur.\nSelon vous, quelles sont les propositions exactes ?",
+          "choix": [
+            "A) La patiente est dans le coma",
+            "B) Il s’agit d’un choc neurogénique",
+            "C) Il faut changer l’antibiothérapie qui est manifestement inefficace",
+            "D) Il faut d’urgence sécuriser les voies aériennes par intubation oro-trachéale et mise sous ventilation mécanique",
+            "E) Devant l’étiologie rapidement réversible il ne faut pas intuber la patiente"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294170644-9f442d460fb7",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous prenez en charge au déchocage Monsieur R. 56 ans.\nIl a été pris en charge par le SAMU après avoir présenté un malaise à son domicile. A l’arrivée du SAMU il était confus, au sol, et avait présenté une hématémèse. Il est alors transporté au déchocage.\nAu déchocage les constantes sont les suivantes :\n- PA 85/37 mmHg\n- FC 67 bpm\n- FR 28/min\n- SpO2 97% sous 3L/min d’O2\n- Température centrale 36,6°C.\nIl est équipé de 2 cathéters veineux périphériques de bon calibre.\nA l’examen clinique vous notez une pâleur cutanée, une ascite, une circulation veineuse collatérale abdominale. Les bruits du cœur sont réguliers, sans souffle audible. Le patient est conscient mais ses réponses sont confuses. Il présente une rectorragie massive.\nSes antécédents sont les suivants :\n- cirrhose alcoolique child B7\n- varices œsophagiennes de grade 1 (dernière endoscopie digestive il y a six mois)\n- neuropathie alcoolique\n- dyslipidémie\n- BPCO gold 2\n- diverticulose colique.\nSes traitements sont les suivants : propranolol, innovair, furosémide, aldactone, gabapentine.\nIl a reçu durant son transport une expansion volémique par 500mL de NaCl 0,9%.\nL’hémoglobinémie capillaire est à 5,2 g/dL.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est votre hypothèse principale ? (Réponse en un à cinq mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "Hémorragie digestive haute",
+            "Rupture de varice œsophagienne",
+            "rupture de varices oesophagiennes",
+            "rupture des varices oesophagiennes",
+            "Rupture de varices oesophagiennes",
+            "choc hémorragique sur rupture de varices oesophagiennes",
+            "Rupture des varices oesophagiennes",
+            "rupture de varices œsophagiennes",
+            "choc hémorragique sur rupture varices oesophagiennes",
+            "choc hemorragique sur rupture de varices oesophagienne",
+            "choc hemorragique sur rupture de varice oesophagienne",
+            "choc hémorragique sur rupture de varice oesophagienne",
+            "rupture de varices oesophagienne",
+            "Choc hémorragique sur rupture de varices oesophagiennes",
+            "Rupture de varices œsophagiennes",
+            "Choc hémorragique (rupture varices oesophagiennes)",
+            "rupture varice oesophagienne",
+            "hémorragie sur rupture de varices oesophagiennes",
+            "Rupture varice oesophagienne",
+            "choc hémorragique sur rupture des varices oesophagiennes",
+            "rupture des varices oesophaagiennes",
+            "choc hémmoragique sur rupture de varices oesophagiennes",
+            "ruputure de varice oesophagienne",
+            "rupture varices oesophagienne",
+            "rupture de varices oesophagienne sur hypertension portale",
+            "choc hémorragique sur rupture varice oesophagienne",
+            "rupture de varice oesophagienne avec choc hémorragique",
+            "choc hypovolémique rupture varice oesophagienne",
+            "choc hemorragique par rupture des varices oesophagiennes",
+            "Hemorragie digestive sur rupture de varices oesophagiennes",
+            "choc hémorragique sur ruptures de varices oesophagiennes",
+            "hémorragie sur rupture varices oesophagiennes",
+            "choc hémorragique post-rupture de varices oesophagiennes",
+            "choc hemorragique rupture varices oesophagienne",
+            "choc hypovolemique (rupture varices oesophagiennes)",
+            "hemorragie sur rupture de varices",
+            "Choc hémorragique / Rupture varice œsophagienne",
+            "rupture varices oesophagiennes",
+            "Hemorragie sur rupture varices oesophagiennes",
+            "Choc hémorragique sur hémorragie digestive",
+            "choc hémorragique varices oesophagiennes",
+            "choc hemorragique rupture varice oesophagienne",
+            "hémorragie digestive haute sur rupture de varices oesophagiennes",
+            "ruptures des varices oesophagiennes",
+            "Choc hémorragique digestif",
+            "hémorragie sur rupture des varices oesophagienne",
+            "choc hémorragique (rupture de varices oesophagiennes)",
+            "choc hémorragique (rupture varice oesophagienne)",
+            "Choc hémorragique rupture de varices",
+            "hémorragie par rupture de varices oesophagiennes",
+            "rupture de varice",
+            "choc hémorragique sur rupture varices",
+            "choc hemoragique sur rupture de varice oesophagienne",
+            "Choc hémorragique suite à une rupture des varices oesophagiennes",
+            "rupture de varices oesophagiennes (choc hémorragique)",
+            "choc hémorragique rupture varice oesophagienne",
+            "choc hemorragique sur ruptures de varices oesophagienne",
+            "rupture varices oesophagiennes choc hémorragique",
+            "hémorragie sur rupture varice oesophagienne",
+            "Hémorragie digestive haute sur varices"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les éléments suivants, quels sont les 7 qui vous font suspecter une hémorragie grave ? (7 réponses exactes)",
+          "choix": [
+            "A) La valeur de fréquence cardiaque de M. R",
+            "B) Le niveau de pression artérielle de M. R",
+            "C) La fréquence respiratoire de M. R",
+            "D) La température corporelle de M. R",
+            "E) Pâleur cutanée",
+            "F) Ascite",
+            "G) Circulation veineuse collatérale abdominale",
+            "H) Présence d’un épisode d’hématémèse",
+            "I) Présence d’un épisode de rectorragie massive",
+            "J) Malaise à la phase initiale",
+            "K) Antécédent de cirrhose alcoolique",
+            "L) Antécédent de varices œsophagiennes",
+            "M) Antécédent de BPCO",
+            "N) Antécédent de diverticulose colique",
+            "O) Nécessité d’expansion volémique par le SAMU",
+            "P) Hémoglobinémie capillaire à 5,2 g/dL"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E",
+            "I",
+            "J",
+            "O",
+            "P"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Devant cette hémorragie digestive haute grave vous suspectez un ulcère ou une rupture de varice œsophagienne. Parmi les éléments suivants, quels sont les 6 qui font partie de votre prise en charge initiale ? (6 réponses exactes)",
+          "choix": [
+            "A) Transfusion de CGR en urgence vitale immédiate.",
+            "B) Réchauffement externe par couverture chauffante",
+            "C) Perfusion de fer",
+            "D) Vitaminothérapie B1 et B6",
+            "E) Perfusion d’inhibiteur de la pompe à proton intra-veineux",
+            "F) Perfusion de somatostatine",
+            "G) Réalisation d’un bilan biologique comprenant des gaz du sang",
+            "H) Dosage de la troponinémie",
+            "I) Imagerie TDM avec injection de produit de contraste",
+            "J) Appel du gastro-entérologue",
+            "K) Appel du radiologue interventionnel",
+            "L) Appel du chirurgien digestif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E",
+            "F",
+            "G",
+            "H",
+            "J"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "Question ANNULEE",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294175426-48f8250216252",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des signes évocateurs d’hémorragie méningée sur l’imagerie cérébrale :",
+          "choix": [
+            "A) Un scanner cérébral sans injection puis avec injection de produit de contraste est indispensable.",
+            "B) L’hyperdensité spontanée des espaces sous-arachnoïdiens est un signe caractéristique du vasospasme.",
+            "C) Une hydrocéphalie est une des complications visibles sur le scanner cérébral.",
+            "D) Des signes d’ischémie cérébrale peuvent être visibles sur le scanner cérébral sans injection de produit de contraste.",
+            "E) La rupture d’un anévrisme du tronc basilaire peut être responsable d’un engagement sous-falcoriel."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la consultation d’anesthésie :",
+          "choix": [
+            "A) Lors d’une chirurgie programmée, elle doit toujours être réalisée au moins 48h avant l’intervention.",
+            "B) Un bilan biologique préopératoire est systématique, quelle que soit la chirurgie prévue.",
+            "C) Elle peut remplacer la visite préanesthésique, notamment en chirurgie ambulatoire programmée.",
+            "D) Lors d’urgence extrême, la consultation d’anesthésie n’est pas réalisée.",
+            "E) Une consultation d’anesthésie n’est pas nécessaire si le geste chirurgical est réalisé sous anesthésie locale."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous examinez un patient victime, il y a 1 heure, d’un traumatisme médullaire de niveau C6. Quels signes cliniques sont habituellement retrouvés ?\n(5 réponses attendues)",
+          "choix": [
+            "A) Une béance du sphincter anal",
+            "B) Une insuffisance respiratoire par atteinte diaphragmatique",
+            "C) Une tétraplégie flasque",
+            "D) Une hypotension artérielle",
+            "E) Une hypertension artérielle",
+            "F) Une douleur cervicale",
+            "G) Une flexion préservée du genou",
+            "H) Un déficit de la paire crânienne n°VIII",
+            "I) Un trouble de la déglutition",
+            "J) Un priapisme"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "F",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous prenez en charge un patient de 30 ans admis aux urgences pour une agitation, dans un contexte d’intoxication aiguë. Il présence une fièvre à 39,3°C et une fréquence cardiaque à 120 bpm. Votre examen clinique objective une mydriase bilatérale, des réflexes ostéotendineux vifs, et un globe urinaire. Il est confus, agité, et vous supplie de « demander au rhinocéros situé à votre droite de lui donner de l’eau car sa bouche est très sèche ».\nQuel toxidrome diagnostiquez-vous chez votre patient ?",
+          "choix": [
+            "A) Syndrome opioïde",
+            "B) Syndrome adrénergique",
+            "C) Syndrome sérotoninergique",
+            "D) Syndrome anticholinergique",
+            "E) Syndrome de myorelaxation"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Que doit-on éliminer en urgence devant une mydriase unilatérale (anisocorie) ?",
+          "choix": [],
+          "reponses": [
+            "Engagement temporal",
+            "engagement temporal",
+            "Un engagement temporal",
+            "L’engagement temporal",
+            "l’engagement temporal",
+            "Engagement cerebral",
+            "engagement cerebral",
+            "Un engagement cérébral",
+            "Un engagement cerebral",
+            "un engagement cérébral",
+            "un engagement cerebral",
+            "engagement temporal interne",
+            "Engagement temporale",
+            "engagement temporale",
+            "engagment temporal",
+            "engagement cérébral temporal",
+            "engagement cerebral temporal",
+            "engagement temporal unilateral",
+            "HTIC avec engagement temporal",
+            "un engagement cérébral temporal",
+            "engagement cérébral (temporal)",
+            "engagement temporal avec atteinte du III",
+            "engagement cerebral (temporal)",
+            "Engagement temporal homolatéral",
+            "engagnement temporal",
+            "Engagement cérébral temporal",
+            "engagement cerebrale",
+            "Engagement temporal homolateral",
+            "engagement temporal homolatéral"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

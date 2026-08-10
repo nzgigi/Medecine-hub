@@ -1,0 +1,407 @@
+{
+  "matiere": "Biochimie",
+  "slug": "biochimie-s3",
+  "annee": 2023,
+  "title": "Biochimie - 2023",
+  "total_questions": 19,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des lipoprotéines sériques, quelle(s) est(sont) la(les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Leur couche périphérique contient des esters de cholestérol",
+            "B) Le noyau-cœur des chylomicrons contient des esters de cholestérol",
+            "C) Les lipoprotéines les plus denses sont les plus riches en triglycérides",
+            "D) Un régime riche en glucides favorise la synthèse hépatique de triglycérides, retrouvés ensuite au sein des VLDL",
+            "E) Les HDL prennent en charge le cholestérol cellulaire excédentaire"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une maladie héréditaire chez l’homme, appelée « maladie des yeux de poisson » (en raison de dépôts au niveau de la cornée), se caractérise par une élévation des concentrations sériques en cholestérol libre et en phospholipides, une diminution des concentrations sériques en cholestéryl-esters et en HDL, une concentration sérique normale en triglycérides et la présence de lipoprotéines circulantes ayant l’aspect de disques. De ces informations, vous pouvez en conclure que cette maladie doit être due à un déficit en:",
+          "choix": [
+            "A) CETP",
+            "B) ABCA1",
+            "C) LDL-récepteur",
+            "D) LCAT",
+            "E) LPL"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Au sujet de la biosynthèse des acides gras, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La biosynthèse des acides gras est activée au cours du jeûne.",
+            "B) Le citrate, sorti de la mitochondrie, agit comme inhibiteur allostérique de l’acétyl-CoA carboxylase.",
+            "C) En présence d’acyl-CoA, la forme phosphorylée polymérique de l’acétyl-CoA carboxylase se dépolymérise.",
+            "D) L’insuline permet de phosphoryler l'acétyl-CoA carboxylase.",
+            "E) Glucagon et adrénaline contrôlent la biosynthèse des acides gras en phosphorylant l'acide gras synthétase."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au sujet de l'acétyl-CoA, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il peut être converti en malonyl-CoA pour servir à la synthèse cytosolique des acides gras.",
+            "B) Il peut être libéré dans le cytosol à partir de citrate en présence de coenzyme A.",
+            "C) Il peut être produit dans la matrice des peroxysomes à partir d’acyl-CoA à très longue chaîne.",
+            "D) Il peut être converti dans les mitochondries du foie en acide phytanique.",
+            "E) Il peut être libéré à partir d’acéto-acétate en présence de coenzyme A dans les mitochondries des muscles ou du cerveau."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez l’Homme, un acide gras saturé à chaîne longue tel que l’acide stéarique (C18:0). Donnez le caractère vrai ou faux de chacune des propositions suivantes :",
+          "choix": [
+            "A) peut être converti en acide oléique par une delta9-désaturase.",
+            "B) peut être libéré à partir de diacylglycérophospholipides par l’action d’une phospholipase C.",
+            "C) peut librement traverser la membrane mitochondriale interne.",
+            "D) peut, sous forme d’acyl-CoA, estérifier du cholestérol.",
+            "E) peut, sous forme d’acyl-CoA, être converti en un acyl-CoA en C20:0 grâce à une élongase."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la beta-oxydation des acides gras, donnez le caractère vrai ou faux de chacune des propositions suivantes :",
+          "choix": [
+            "A) Du caproyl-CoA (ou C6:0-CoA) est formé dans la matrice mitochondriale lors de l’oxydation du stéaroyl-CoA (ou C18:0-CoA).",
+            "B) De la caproyl-carnitine (ou C6:0-carnitine) est formée dans l’espace intermembranaire de la mitochondrie lors de l’oxydation du stéaroyl-CoA (ou C18:0-CoA).",
+            "C) L’oxydation du caproyl-CoA (ou C6:0-CoA) libère de l’acétyl-CoA.",
+            "D) De la caproyl-carnitine (ou C6:0-carnitine) s’accumule en cas de déficit en carnitine palmitoyltransférase 1 (CPT1).",
+            "E) L’oxydation d’une molécule de stéaroyl-CoA (ou C18:0-CoA) libère 3 molécules de caproyl-CoA (ou C6:0-CoA)."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au sujet de la cétogenèse et de la cétolyse, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Les corps cétoniques sont formés principalement à partir de l’acétyl-CoA issu du pyruvate.",
+            "B) Les corps cétoniques sont une source d’apport énergétique majeure pour le foie.",
+            "C) La cétogenèse est stimulée dans des situations qui activent la lipolyse du tissu adipeux.",
+            "D) Cétogenèse et cétolyse se déroulent dans la mitochondrie.",
+            "E) Le catabolisme de certains acides aminés contribue à la cétogenèse."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au sujet de la concentration plasmatique d’haptoglobine, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Est diminuée lors d’une hémolyse intravasculaire",
+            "B) Est diminuée lors d’une hémolyse survenant après un prélèvement mal réalisé (par exemple, aspiration trop rapide du sang dans le tube)",
+            "C) A une importance déterminante dans le maintien de la pression oncotique",
+            "D) Est une protéine de la réponse inflammatoire positive",
+            "E) S’élève dans les 2-4 h après le début du processus inflammatoire"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation d’oncologie Monsieur T., 58 ans, pour qui le diagnostic de carcinome hépatocellulaire vient d’être posé et dont l’histoire clinique rapporte des antécédents de cirrhose. Avant de mettre en place la stratégie thérapeutique adaptée, vous demandez le dosage sérique des marqueurs tumoraux alpha-foetoprotéine (AFP) et CA 19-9.\nParmi les propositions suivantes, laquelle(lesquelles) est(sont) vraie(s) :",
+          "choix": [
+            "A) Si la concentration d’AFP est anormalement élevée, vous pourrez utiliser son dosage pour la surveillance thérapeutique de votre patient.",
+            "B) Pour ce type de cancer, l’AFP ne possède pas de valeur prognostique.",
+            "C) Chez votre patient, la concentration sérique du CA 19-9 pourrait être élevée (au-delà des valeurs de référence).",
+            "D) Face aux antécédents médicaux de votre patient, le dosage de l’AFP aurait pu être utilisé comme marqueur de dépistage.",
+            "E) La concentration d’AFP est anormalement élevée chez les patients atteints d’un cancer de la prostate."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du fructose-2,6-bisphosphate, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il assure la régulation conjointe de la glycolyse et de la néoglucogenèse.",
+            "B) Il est le produit de la phosphofructokinase 1 (PFK1).",
+            "C) Il est le produit de la fructose-2,6-bisphosphatase (FBPase2).",
+            "D) C’est un régulateur allostérique de la PFK1.",
+            "E) C’est un inhibiteur de la néoglucogenèse."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cycle des pentoses, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) C’est une voie indépendante de la voie de la glycolyse.",
+            "B) Il fournit du NADH, H+ aux cellules.",
+            "C) Il assure la production de ribose-5-phosphate.",
+            "D) Il se déroule dans la matrice mitochondriale.",
+            "E) Un déficit enzymatique dans ce cycle peut conduire à la formation de Methémoglobine."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la néoglucogenèse, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Elle est active dans toutes les cellules de l’organisme.",
+            "B) Elle utilise comme précurseurs du lactate, du glycérol ou des acides aminés.",
+            "C) Elle peut utiliser des intermediaires du cycle de Krebs.",
+            "D) Elle est activée au cours du diabète.",
+            "E) L’acétyl-CoA est un inhibiteur allostérique de la Pyruvate Carboxylase."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du métabolisme du glycogène, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Le glucose est un activateur allostérique de la phosphorylase.",
+            "B) L’AMP est un activateur allostérique de la phosphorylase.",
+            "C) Le glucose-6-phosphate est un inhibiteur allostérique de la glycogène synthétase.",
+            "D) L’insuline stimule la synthèse du glycogène.",
+            "E) Le glucagon stimule la synthèse du glycogène."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du transporteur GLUT4, quelle(s) est(sont) la(les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) C’est un transporteur passif du glucose dans les cellules.",
+            "B) Il présente un Km élevé.",
+            "C) En présence d’insuline il est séquestré dans des vésicules intracellulaires.",
+            "D) Il est exprimé majoritairement au niveau des cellules béta-pancréatiques.",
+            "E) Le défaut de captation du glucose par les cellules est une première étape dans le développement du diabète de type 2."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294549505-14b92687d22bb8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Les jeunes parents d’un petit garçon s’inquiètent car, quelques jours après un accouchement et une grossesse pourtant normaux, ils ont du mal à le stimuler pour téter et le trouvent « mou ». A J6, le bébé est pris de vomissements incoercibles, ce qui conduit les parents à l’emmener aux urgences. Le bilan de recherche d’infection s’avère négatif. Au cours de l’examen clinique, son état neurologique s’aggrave avec des convulsions.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Ici, quel()s est(sont) l’(les) élément(s) qui est(sont) compatible(s) avec une présentation de maladie métabolique d’intoxication neurologique ?",
+          "choix": [
+            "A) L’hypotonie",
+            "B) Les vomissements",
+            "C) L’intervalle libre",
+            "D) L’absence d’incident pendant la grossesse",
+            "E) L’aggravation des troubles neurologiques au cours du temps."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous songez à une maladie métabolique d’intoxication. Parmi les molécules suivantes, quelle(s) est(sont) celle(s) dont l’accumulation causée par un déficit héréditaire du métabolisme peut provoquer un tableau d’intoxication neurologique aiguë comme observé chez cet enfant :",
+          "choix": [
+            "A) l’aspartate",
+            "B) La leucine",
+            "C) Le tryptophane",
+            "D) La tyrosine",
+            "E) L’ammoniac"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour explorer une éventuelle maladie du métabolisme des acides aminés, vous demandez une chromatographie des acides aminés plasmatiques et un dosage de l’ammoniémie. Les résultats sont les suivants :\n-une ammoniémie à 508µmol/L (valeurs de référence : <50µmol/L)\n-une augmentation importante de la concentration plasmatique en glutamine, en glycine, en alanine\n-une concentration très abaissée de citrulline et plus légèrement abaissée d'arginine.\nLa concentration des autres acides aminés est proche des valeurs de référence.\nA propos de ces résultats, donnez le caractère vrai ou faux de chacune des propositions suivantes :",
+          "choix": [
+            "A) L’hyperammoniémie peut être responsable des troubles neurologiques observés.",
+            "B) La glutamine s’accumule secondairement à une activation de la glutaminase.",
+            "C) La citrulline est un acide aminé non protéinogène, intermédiaire du cycle de l’urée.",
+            "D) La glutamine s’accumule car elle est le transporteur majoritaire de l’ammoniac dans le sang",
+            "E) Ces résultats évoquent un déficit de l’ammoniogenèse"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquez une anomalie du cycle de l’urée. A l’aide des résultats de la chromatographie des acides aminés plasmatiques et du schéma du cycle de l’urée:\nRésultats de la chromatographie des acides aminés :\nune augmentation importante de la concentration plasmatique en glutamine, en glycine, en alanine\nune concentration très abaissée de citrulline et plus légèrement abaissée d'arginine.\nLa concentration des autres acides aminés est proche des valeurs de référence.\nVous pouvez suspecter que ce patient est atteint par un déficit en:",
+          "choix": [
+            "A) Carbamyl-phosphate synthétase (CPS-I)",
+            "B) Arginase (ARG)",
+            "C) Alanine Amino Transférase (ALAT)",
+            "D) Ornithine transcarbamylase (OTC)",
+            "E) N-Acétylglutamate synthétase (NAGS)"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/biochimie-s3/2023/q18.png?v=1786294551671"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Pour vous aider à déterminer l’enzyme déficiente, vous demandez le dosage de l’acide orotique dans un échantillon urinaire qui s’avère être normal. Avec ce résultat, quel(s) déficit(s) reste(nt) possible(s) pour ce patient ?",
+          "choix": [
+            "A) Carbamyl-phosphate synthétase (CPS-I)",
+            "B) Arginase (ARG)",
+            "C) Alanine Amino Transférase (ALAT)",
+            "D) Ornithine transcarbamylase (OTC)",
+            "E) N-Acétylglutamate synthétase (NAGS)"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/biochimie-s3/2023/q19.png?v=1786294552473"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

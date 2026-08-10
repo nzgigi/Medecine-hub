@@ -1,0 +1,418 @@
+{
+  "matiere": "Appareil cardio-vasculaire – Physiologie",
+  "slug": "acv-physiologie-s3",
+  "annee": 2026,
+  "title": "Appareil cardio-vasculaire – Physiologie - 2026",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le Système Nerveux Ortho-Sympathique, il est exact que :",
+          "choix": [
+            "A) Il libère principalement de l’adrénaline au niveau de ses terminaisons axonales.",
+            "B) Il exerce en permanence un tonus vasoconstricteur au niveau de beaucoup d’artérioles de l’organisme.",
+            "C) Il peut aussi activer des récepteurs beta-adrénergiques au niveau des artérioles des muscles squelettiques et contribuer ainsi à leur vasodilatation.",
+            "D) Son activation est déjà maximale à 50% de la VO2max.",
+            "E) Son activation s’accompagne d’une inhibition du Système Nerveux Para-Sympathique et réciproquement."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un excès de transsudation à travers la paroi capillaire se produit quand :",
+          "choix": [
+            "A) La pression hydrostatique capillaire au niveau du pôle capillaire artériolaire augmente.",
+            "B) La pression hydrostatique capillaire au niveau du pôle capillaire vénulaire augmente.",
+            "C) La pression oncotique intravasculaire augmente.",
+            "D) La pression oncotique interstitielle augmente.",
+            "E) La concentration plasmatique d’albumine diminue."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une augmentation de la post-charge du VG se produit en présence :",
+          "choix": [
+            "A) D’une augmentation de la pré-charge du VG.",
+            "B) D’une hypertension artérielle systémique.",
+            "C) D’un rétrécissement aortique.",
+            "D) D’une augmentation de la compliance aortique.",
+            "E) D’une insuffisance tricuspidienne."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une pression sanguine artérielle systolique et diastolique de 90 et 60 mmHg respectivement, mesurée au bras en position assise :",
+          "choix": [
+            "A) Est optimale pour un exercice physique maximal car ce niveau de post-charge diminue le travail cardiaque.",
+            "B) Est optimale chez un insuffisant cardiaque à FEVG diminuée.",
+            "C) Est optimale chez un patient en réanimation ayant une défaillance VG.",
+            "D) Est optimale pour protéger les artères vis-à-vis de l’athérosclérose.",
+            "E) Favorise potentiellement la symptomatologie d’une hypotension orthostatique."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le potentiel d’action d’un cardiomyocyte est :",
+          "choix": [
+            "A) Environ 200 fois plus long que celui d’un neurone.",
+            "B) Déclenché par l’ouverture de canaux sodiques.",
+            "C) Déclenché par l’ouverture de canaux calciques.",
+            "D) Sa durée est identique au niveau de l’épicarde et de l’endocarde.",
+            "E) Associé pendant toute sa durée à une diminution de la perméabilité membranaire au Potassium."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le nœud sinusal, il est exact que :",
+          "choix": [
+            "A) En l’absence de toute influence neuro-hormonale, sa fréquence de dépolarisation est de 60 à 70 par minute.",
+            "B) Le système parasympathique provoque un ralentissement de sa fréquence.",
+            "C) Sa participation au baroréflexe via la fréquence cardiaque est secondaire, la modulation des résistances artériolaires périphériques demeurant primordiale (loi d’Ohm appliquée à la mécanique des fluides).",
+            "D) Le système orthosympathique peut augmenter sa fréquence jusqu’à 200 par minute.",
+            "E) Les potentiels d’action de ses cellules sont déclenchés par l’ouverture de canaux sodiques."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’adaptation cardiaque à l’exercice physique par les catécholamines fait intervenir :",
+          "choix": [
+            "A) Les récepteurs beta-adrénergiques sur les cellules nodales et les cardiomyocytes.",
+            "B) La génération d’AMPcyclique via l’activation de l’adénylate-cyclase.",
+            "C) Une augmentation de l’inotropie par libération accrue de Calcium par le réticulum sarcoplasmique via l’activation de la protéine kinase AMPcyclique-dépendante.",
+            "D) Un ralentissement de la relaxation ventriculaire.",
+            "E) Une forte activation des récepteurs alpha-adrénergiques sur les cellules musculaires lisses des artères coronaires."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la fonction diastolique du VG, il est exact que :",
+          "choix": [
+            "A) Elle implique une phosphorylation de la Ca++ATPase du reticulum sarcoplasmique.",
+            "B) Elle est indépendante de la fonction lusitrope.",
+            "C) Elle peut être évaluée en Echo-Doppler par le rapport E/A.",
+            "D) Plus la relaxation du VG est efficace et plus le gradient de pression OG-VG en protodiastole est important.",
+            "E) La pression télédiastolique du VG, normalement < 8 mmHg, est un indice de fonction systolique, mais pas de fonction diastolique."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le métabolisme cardiaque, il est exact que :",
+          "choix": [
+            "A) Au repos, il repose principalement sur l’oxydation des acides gras.",
+            "B) Au repos, il repose principalement sur l’oxydation du glucose.",
+            "C) Les voies métaboliques des cardiomyocytes sont très similaires à celles des neurones, étant donné la très forte consommation d’oxygène de ces deux types cellulaires.",
+            "D) Il existe une relation stricte entre travail du coeur et sa consommation d’oxygène.",
+            "E) L’apport en O2 au myocarde est assurée pour l’essentiel par une augmentation du débit coronaire en diastole."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’évolution de la circulation, il est exact que :",
+          "choix": [
+            "A) Chez les poissons, la pression sanguine dans l’artère qui irrigue les branchies est supérieure à celle de la grande circulation.",
+            "B) Chez les poissons, les résistances artériolaires de la grande circulation sont très basses.",
+            "C) Les poissons, qui sont des animaux poïkilothermes, ont un métabolisme énergétique environ 10 fois plus faible que celui des gros mammifères.",
+            "D) Chez la girafe dont le cou est verticalisé, la pression sanguine artérielle au niveau des artères du cerveau est environ deux fois plus faible que celle des artères du cerveau de l’Humain en position debout.",
+            "E) Chez la girafe, les résistances artériolaires des muscles des pattes postérieures sont plus élevées que celles des membres inférieurs de l’Humain."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il est exact que l’autorégulation du débit sanguin cérébral (DSC) :",
+          "choix": [
+            "A) Permet un apport optimal en oxygène et en glucose au tissu nerveux, qui a un métabolisme très élevé, et malgré les variations de pression sanguine artérielle.",
+            "B) Implique une réponse dite myogénique des cellules musculaires des artérioles cérébrales.",
+            "C) Permet de prévenir presque totalement la souffrance cérébrale si la pression sanguine artérielle devient inférieure à 40 mmHg.",
+            "D) Permet de prévenir presque totalement la souffrance cérébrale si la Pression Partielle en O2 du sang artériel devient inférieure à 40 mmHg.",
+            "E) Permet de tripler le débit sanguin de perfusion au niveau du cerveau comme cela se produit au niveau du muscle cardiaque lors d’un exercice physique maximal."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos de la postcharge du ventricule gauche (VG), laquelle ou lesquelles des propositions suivantes sont exactes ?",
+          "choix": [
+            "A) La postcharge est la charge que doit vaincre le VG pour l’éjection du VES dans les grosses artères.",
+            "B) Une augmentation aiguë de la postcharge entrave l’éjection du VG et déplace la courbe pression-volume vers la droite.",
+            "C) Une augmentation de la postcharge va mettre indirectement en jeu l’augmentation de la force de contraction du VG décrite par Frank-Starling.",
+            "D) Une postcharge élevée de manière chronique entraine une réponse adaptative à type d’hypertrophie concentrique du VG.",
+            "E) L’insuffisance aortique favorise une réponse adaptative à type d’hypertrophie excentrique (dilatation du VG)."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquels des mécanismes suivants / circonstances suivantes contribuent à l’augmentation de la postcharge du ventricule gauche ?",
+          "choix": [
+            "A) Un rétrécissement mitral isolé.",
+            "B) Une diminution de la compliance de l’aorte.",
+            "C) Une activation orthosympathique par activation prédominante des récepteurs alpha-adrénergiques artériolaires.",
+            "D) Une insuffisance mitrale isolée.",
+            "E) Une élévation des résistances artériolaires, qui sont le plus important facteur de la postcharge du VG en condition physiologique."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’augmentation de la contractilité cardiaque chez un sujet sportif de 25 ans se produit dans les circonstances suivantes :",
+          "choix": [
+            "A) Au cours d’un exercice physique et de manière proportionnelle à l’intensité de celui-ci.",
+            "B) Au cours d’une activation du système orthosympathique.",
+            "C) Du fait d’une activation des récepteurs beta-adrénergiques du myocarde.",
+            "D) Au cours d’une augmentation isolée de la précharge.",
+            "E) Au cours d’une activation du baroréflexe par une hypotension artérielle."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos du rôle du baroréflexe, laquelle ou lesquelles des propositions suivantes sont exactes ?",
+          "choix": [
+            "A) Le baroréflexe peut moduler de manière quasi-immédiate la fréquence cardiaque.",
+            "B) En cas d’hypertension aigüe (par ex : administration rapide de vasopresseur), la stimulation des barorécepteurs active le centre cardio-inhibiteur bulbaire, provoquant une bradycardie réflexe.",
+            "C) Au cours de l’exercice physique, bien que la pression sanguine artérielle augmente, le baroréflexe se comporte comme si il y avait une hypotension.",
+            "D) La neuropathie autonome chez le diabétique altère préférentiellement la structure des barorécepteurs, mais pas les nerfs de la voie efférente du baroréflexe.",
+            "E) Le baroréflexe intervient davantage que le rein dans la régulation à long terme de la pression sanguine artérielle."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la pression sanguine artérielle chez un adulte sain de 30 ans, assis depuis dix minutes, il est exact que :",
+          "choix": [
+            "A) Elle est environ deux fois plus élevée que chez ce même individu lorsqu’il était âgé de cinq ans.",
+            "B) Elle peut être augmentée par le fait de répondre à des questions (petit stress mental), ou encore l’envie d’uriner.",
+            "C) L’activité parasympathique n’intervient pas dans sa régulation.",
+            "D) Elle doit être inférieure à 125-75 mmHg en automesure pour que le sujet soit considéré comme normotendu.",
+            "E) Le passage en position debout provoque une accumulation transitoire de sang dans les membres inférieurs, diminuant le retour veineux et ainsi la pression sanguine artérielle moyenne d’environ 30 mmHg."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient en bonne santé, au repos, en position debout, avec une fréquence cardiaque de 70 bpm, est-il exact que :",
+          "choix": [
+            "A) La précharge du VG correspond au degré d’étirement des fibres myocardiques en fin de diastole, c’est-à-dire au volume télédiastolique du VG.",
+            "B) Une inspiration profonde et soutenue augmente successivement la précharge du VG puis du VD et tend donc à accroître leurs volumes d’éjection systolique respectifs.",
+            "C) Un stress psychologique aigu entraine une augmentation de la fréquence cardiaque et de la pression sanguine artérielle au prorata de l’intensité du stress.",
+            "D) Un stress psychologique aigu entraine une augmentation de la pression sanguine artérielle et un ralentissement de la fréquence cardiaque du fait de mise en jeu du baroréflexe.",
+            "E) Un massage des sinus carotidiens stimule les mécanorécepteurs du baroréflexe, ce qui provoque une bradycardie et donc une baisse de la pression sanguine artérielle."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la repolarisation du ventricule gauche (VG) chez un sujet sain au repos, il est exact que :",
+          "choix": [
+            "A) L’onde T est positive en D1 et D2.",
+            "B) L’onde T est positive en V5 et V6.",
+            "C) Elle s’effectue en sens inverse de la dépolarisation, c’est à dire de l’endocarde vers l’épicarde.",
+            "D) L’onde T a typiquement une forme asymétrique dans les dérivations standards, mais pas dans les dérivations précordiales.",
+            "E) Elle masque la repolarisation auriculaire."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la vasomotricité artérielle et artériolaire, il est exact que :",
+          "choix": [
+            "A) Au cours de la contraction du muscle strié squelettique, le premier et le plus important mécanisme de vasodilatation est d’origine métabolique.",
+            "B) L’augmentation du shear stress des cellules endothéliales des artérioles participe à l’augmentation du débit sanguin tissulaire.",
+            "C) Le monoxyde d’azote (NO) est responsable de 80% de la vasodilatation artériolaire au cours de la contraction du muscle strié squelettique.",
+            "D) Un doublement du rayon d’un réseau artériolaire produit une diminution des résistances d’un facteur 16.",
+            "E) Un doublement du diamètre de l’aorte qui survient au cours d’un exercice physique intense participe à la diminution des résistances de ce vaisseau en application de la loi de Poiseuille."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comparé à un exercice physique réalisé avec les membres inférieurs, on observe au cours d’un exercice physique réalisé seulement avec les membres supérieurs, chez un sujet jeune moyennement sportif :",
+          "choix": [
+            "A) Une moindre augmentation du débit cardiaque.",
+            "B) Une augmentation de la pression sanguine artérielle systolique.",
+            "C) Une diminution des résistances artériolaires au niveau des membres inférieurs.",
+            "D) Une diminution des résistances artériolaires au niveau des membres supérieurs.",
+            "E) Une diminution des résistances artériolaires cérébrales."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

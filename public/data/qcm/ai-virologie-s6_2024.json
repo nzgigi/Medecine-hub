@@ -1,0 +1,387 @@
+{
+  "matiere": "Agents infectieux – Virologie",
+  "slug": "ai-virologie-s6",
+  "annee": 2024,
+  "title": "Agents infectieux – Virologie - 2024",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "DP1: Vous voyez Mme A., 28 ans originaire d'Afrique sub-saharienne qui a subi des agressions sexuelles lors de son émigration en Europe.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les virus transmissibles par voie sexuelle ?",
+          "choix": [
+            "A) grippe",
+            "B) Virus de l'immunodéficience humaine (VIH)",
+            "C) Virus de l'hépatite B (VHB)",
+            "D) Rotavirus",
+            "E) Papillomavirus HPV"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Voici le résultat des sérologies de Mme A :\n- Dépistage VIH : positif\n- Dépistage du VHB : Ag HBs négatif, Ac HBc positifs, Ac HBs positifs\n- Dépistage du VHC : négatif.\nQuels examens complémentaires allez vous demander ?",
+          "choix": [
+            "A) Un test de confirmation (Immunoblot ou Western Blot) pour le VHB",
+            "B) Un test de confirmation (Immunoblot ou Western Blot) pour le VIH",
+            "C) Une virémie VIH (charge virale)",
+            "D) Un génotypage de résistance du VIH",
+            "E) Une virémie VHB pour évaluer le stade de son infection chronique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous l'informez que le VIH peut être transmis de la mère à l'enfant au cours de la grossesse, mais que des mesures de prévention existent pour éviter cette transmission. Parmi les réponses suivantes lesquelles sont des réponses justes ?",
+          "choix": [
+            "A) Elle devra continuer son traitement antirétroviral pendant toute la durée de la grossesse",
+            "B) L'allaitement sera possible sans aucun risque de transmission du VIH à l'enfant",
+            "C) L'enfant sera également traité par antirétroviraux à sa naissance",
+            "D) L'enfant sera vacciné contre le VIH à sa naissance",
+            "E) Une césarienne sera envisagée en cas de virémie élevée lors de l'accouchement"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du VIH, quelles sont les cibles des antirétroviraux ?",
+          "choix": [
+            "A) La protéase virale",
+            "B) Le corécepteur d'entrée CXCR4",
+            "C) L'intégrase virale",
+            "D) La polymérase virale",
+            "E) NS5A"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces virus transmis sexuellement , lesquels peuvent être prévenus par un vaccin ?",
+          "choix": [
+            "A) Virus de l’herpès simplex (HSV)",
+            "B) Papillomavirus HPV",
+            "C) Virus de l'hépatite B (VHB)",
+            "D) Cytomégalovirus (CMV)",
+            "E) Virus de l'hépatite C (VHC)"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces virus , lesquels sont considérés comme oncogènes ?",
+          "choix": [
+            "A) HSV",
+            "B) HPV",
+            "C) VHB",
+            "D) CMV",
+            "E) Grippe"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293903693-296a93a382386",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "En juillet 2019, Mr. M, 37 ans et greffé rénal pour une maladie rénale polykystique, consulte car il a de la fièvre depuis 48h et présente des difficultés respiratoires",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel virus devez vous rechercher en priorité compte tenu du contexte ?",
+          "choix": [
+            "A) Grippe",
+            "B) SARS-CoV-2",
+            "C) CMV",
+            "D) HSV",
+            "E) VRS"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment pouvez vous faire un diagnostic de maladie à CMV chez Mr M ?",
+          "choix": [
+            "A) Recherche des Antigènes viraux dans les Urines",
+            "B) Recherche de l'ADN Viral sanguin (charge virale)",
+            "C) Recherche des anticorps anti-CMV par PCR",
+            "D) En cas de suspicion d'une pneumopathie, l'ADN peut être recherché dans le liquide de lavage broncho-alvéolaire",
+            "E) Recherche des Antigènes viraux dans le sang"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La virémie CMV étant fortement élevée vous mettez en place un traitement curatif. Quelle(s) est (sont) la (es( molécule(s) active(s) sur le CMV utilisées chez les immunodéprimés ?",
+          "choix": [
+            "A) Foscarnet",
+            "B) Anti-intégrase",
+            "C) Anti-protéase",
+            "D) Ganciglovir",
+            "E) Aciclovir"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le CMV, quelles sont les réponses justes ?",
+          "choix": [
+            "A) C'est un virus à ADN de la famille des Herpesviridae",
+            "B) C'est un virus qui persiste à l'état de latence dans les ganglions sensitifs",
+            "C) C'est un virus qui persiste à l'état de latence dans les cellules souches hématopoïétiques",
+            "D) C'est un virus responsable d'atteinte intestinale",
+            "E) C'est un virus responsable d'atteinte oculaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mr. M vous apprend que sa compagne est enceinte. Parmi les affirmations suivantes, la(es)quelle(s) est(sont) juste(s) ?",
+          "choix": [
+            "A) Le CMV ne présente aucun risque en cas de grossesse",
+            "B) Le CMV est le virus le plus souvent en cause dans les atteintes du foetus",
+            "C) La transmission du CMV de la mère à l'enfant a lieu au moment de l'accouchement uniquement",
+            "D) La transmission du CMV va conduire à prés de 100% d'atteintes foetales en cas de primo-infection de la mère pendant le 2ème trimestre de la grossesse",
+            "E) La transmission du CMV de la mère à l'enfant est possible in utero."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les autres virus responsables d'infections congénitales ?",
+          "choix": [
+            "A) Virus B19",
+            "B) VHB",
+            "C) VIH",
+            "D) Rubéole",
+            "E) HSV"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293906544-3d656f36226648",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez le bilan biologique de votre patient infecté par le virus de l'hépatite B depuis 2 mois. Quels sont les résultats retrouvés?",
+          "choix": [
+            "A) Anticorps (Ac) anti-HBs positifs et Ac anti-HBc positifs",
+            "B) Antigène HBs négatif, Ac anti-HBc positifs",
+            "C) Antigène HBs positif, Ac anti-HBs positifs, Ac anti-HBc positifs,",
+            "D) Antigène HBs positif, Ac anti-HBs négatifs, Ac anti-HBc positifs",
+            "E) Antigène HBs positif, Ac anti HBc positifs, Antigène HBe négatif, Ac anti-HBe négatifs"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies à propos des éruptions maculo-papuleuses?",
+          "choix": [
+            "A) Les virus de la rougeole et de la rubéole peuvent être responsables de ces éruptions",
+            "B) Le HIV et l'EBV (Ebstein Barr Virus) peuvent être responsables d'éruption maculo-papuleuse",
+            "C) Le diagnostic est souvent fait par sérologie et il est possible de rechercher le virus dans le sang par PCR",
+            "D) Le diagnostic direct peut être réalisé par écouvillonnage des lésions et PCR ciblée du virus recherché",
+            "E) Il s'agit d'une réaction immuno-allergique et les lésions sont contagieuses"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient de 60 consultant pour ictère et asthénie, vous suspectez une infection par le virus de l'hépatite E. Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Vous confirmez le diagnostic par le dosage des IgM anti-VHE, éventuellement confirmé par la recherche directe du virus dans le sang ou dans les selles",
+            "B) Vous éliminez d'abord une infection par le virus de l'hépatite A qui est très fréquent en France.",
+            "C) Vous expliquez au patient que la guérison est spontanée sauf si il est immunodéprimé",
+            "D) Vous recherchez des signes neurologiques souvent associés et la consommation de viande de porc peu cuite, source de contamination par ce virus.",
+            "E) Vous expliquez au patient qu'il risque d'avoir besoin d'une greffe de foie car les hépatites fulminantes sont fréquentes."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la(les) proposition(s) juste(s) à propos des virus à tropisme respiratoire ?",
+          "choix": [
+            "A) La contamination peut se faire par voie aérienne et manuportée",
+            "B) Les virus respiratoires ont un tropisme exclusif pour la muqueuse respiratoire",
+            "C) Le diagnostic sérologique doit être privilégié car il est sensible et spécifique",
+            "D) Le virus respiratoire syncytial (VRS) infecte exclusivement les nourrissons",
+            "E) Le vaccin injectable utilisé pour prévenir l'infection par les virus grippaux est un vaccin à virus vivant atténué"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les arboviroses, quelle(s) est(sont) celle(s) qui est(sont juste(s) ?",
+          "choix": [
+            "A) Les arbovirus sont des virus transmis par des Arthropodes",
+            "B) Les entérovirus sont des arbovirus",
+            "C) Les arbovirus sont responsables d'éruptions maculeuses",
+            "D) Le diagnostic virologique d'une Dengue repose sur la recherche d'anticorps spécifiques ou la recherche de l'ARN viral dans le sang par PCR",
+            "E) La lutte antivectorielle est à ce jour le meilleur moyen de prévention de la Dengue"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant l'infection à Parvovirus B19, indiquer la ou les réponses exactes.",
+          "choix": [
+            "A) La transmission virale chez l'enfant ou l'adulte se fait par voie oro-fécale",
+            "B) Le diagnostic virologique de l'infection aiguë chez l'enfant ou l'adulte repose principalement sur la détection d'anticorps de type IgM",
+            "C) Le diagnostic virologique peut se faire par détection du virus dans les selles",
+            "D) Au cours de la grossesse, le virus B19 peut être responsable d'une anémie fœtale sévère",
+            "E) Le traitement par Aciclovir de la femme enceinte permet de réduire le risque d'infection congénitale à moins de 1%"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

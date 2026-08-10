@@ -1,0 +1,529 @@
+{
+  "matiere": "Gériatrie et vieillissement",
+  "slug": "geriatrie-vieillissement-s9",
+  "annee": 2024,
+  "title": "Gériatrie et vieillissement - 2024",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une patiente de 79 ans qui a une maladie de Parkinson est alitée pendant 5 jours suite à une chute avec fracture vertébrale lui occasionnnant des douleurs importantes avec une verticalisation impossible. Après équilibre antalgique, un 1er levé est initié avec les kinsithérapeutes du service.\nTout à coup on vous appelle en urgences car dés que la patiente s'est mise debout, elle est devenue toute pâle avec une sensation de vertige intense et de nausée. Il a fallu l'a rallonger sur le lit à cause du malaise. Une fois rallongée avec les jambes surélevées; elle se dit soulagée.\nQuelle complication précoce du décubitus suspectez-vous ?",
+          "choix": [],
+          "reponses": [
+            "HTO",
+            "Hypotension orthostatique",
+            "hypotension orthostatique",
+            "hypotention orthostatique",
+            "hypotension orthostatique par désadaptation cardiaque",
+            "hypotension orthostatique (désadaptation du systeme nerveux autonome)",
+            "hypotension orthostastique sur desadaptation cardio-vasculaire",
+            "Hypotension Orthostatique",
+            "desadaptation cardiaque (hypotension orthostatique)",
+            "hypotension orthostatique ( dysautonomie )",
+            "Hypotension orthostatique par desadaptation",
+            "dysautonomie avec hyptension orthostatique",
+            "Hypotention orthostatique",
+            "dysautonomie (hypotension orthostatique)",
+            "hypotension orthotastique",
+            "hypotentsion orthostatique",
+            "desadaptation cardio-vasculaire (hypotension orthostatique)",
+            "Hypotension ortostatique",
+            "hypotension othostatique par desadaptation",
+            "Désadaptation avec hypotension orthostatique",
+            "hypotension orthostatique ( désadaptation cardiaque )",
+            "hypotension orthostatique due à la désadaptation cardiovasculaire",
+            "hypotension orthostatique sur dysautonomie",
+            "Hypotension orthostatique (dysautonomie)",
+            "désadaptation cardiovasculaire entrainant une hypotension orthostatique",
+            "Désadaptation cardio-vasculaire (hypotension orthostatique)"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les antipsychotiques et leur utilisations, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Une ECG doit être réalisé au préalable pour apprécier le QTc.",
+            "B) Les antipsychotiques typiques sont utilisés dans la maladie à Corps de Lewy.",
+            "C) Ils augmentent le risque métabolique (risque cardio-vasculaire).",
+            "D) Une hyperthemie associée à une rigidité musculaire durant leur prise peut évoquer un syndrome malin des neuroleptiques.",
+            "E) Ils ont comme effets secondaires un syndrome sérotoninergique."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la polymédication, fréquemment retrouvée chez le sujet âgé, on l'attribue à partir de :",
+          "choix": [
+            "A) 3 médicaments",
+            "B) 4 médicaments",
+            "C) 5 médicaments",
+            "D) 6 médicaments",
+            "E) 10 médicaments"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le diagnostic d'une incontinence chez le sujet âgé, il est vrai que :",
+          "choix": [
+            "A) Le diagnostic est purement clinique.",
+            "B) Un test à la toux permet d'objectiver une urgenturie.",
+            "C) Le catalogue mictionnel est un élément important pour obtenir des données objectives.",
+            "D) Un toucher rectal est nécessaire pour l'homme pour évaluer la prostate en cas de suspicion d'obstacle vésical.",
+            "E) Les auto-questionnaires n'ont pas d'impact majeur pour évaluer les symptômes de l'incontinence urinaire."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les signes radiographiques de l'arthrose que vous pouvez voir en radiographie ? (3 réponses attendues )",
+          "choix": [
+            "A) Pincement articulaire localisé",
+            "B) Ostéocondensation épidurale",
+            "C) Ostéophytes",
+            "D) Géodes sous-chondrales",
+            "E) Calcification ligamentaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295609213-299c4971e2ada8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Mr R est adressé en consultation de gériatrie à la demande de sa famille car il présente depuis 1 an, suite au décès de son épouse, un repli sur lui même avec ralentissement général, une perte d'envie; des difficultés de concentration qui impactent sa mémoire. Il rapporte aussi des douleurs multiples notamment au niveau abdominal avec un bilan clinique et para-clinique normal.\nQuand vous l'interrogez sur son sommeil, il rapporte ne pas réussir à s'endormir et se sentir tout le temps anxieux. Il s'en veut d'inquiéter sa famille et de leur causer des soucis. Il dit même qu'il aurait mieux valu que ce soit lui qui meure plutôt que son épouse.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "1- Par quels symptômes principaux identifiez-vous une symptomatologie dépressive ? (4 réponses attendues )",
+          "choix": [
+            "A) Anhédonie",
+            "B) Hypersomnie",
+            "C) Difficulté de concentration",
+            "D) Clinophilie",
+            "E) Parasomnie",
+            "F) Hallucinations",
+            "G) Ralentissement psycho-moteur",
+            "H) Hyperesthésie",
+            "I) Idée noire",
+            "J) Adiadococinésie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "G",
+            "I"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "2- A l'issue de votre consultation, vous décidez de traiter le patient pour un épisode dépressif caractérisé majeur avec de la SERTRALINE à dose progressive.\nA quelle classe d'antidépresseur appartient ce médicament ? (5 mots maximum )",
+          "choix": [],
+          "reponses": [
+            "ISRS",
+            "inhibiteur sélectif recapture sérotonine",
+            "inhiniteur sélectif de la recapture de la sérotonine",
+            "inhibiteur selectif recapture serotonine",
+            "inhibiteur recapture de la serotonine",
+            "inhibiteur selectif recapture de serotonine",
+            "Inhibiteur sélectif recapture sérotonine",
+            "inhibiteur sélectif recapture de sérotonine",
+            "Inhibiteur selectif recapture serotonine",
+            "inhibiteur sélectif de recapture sérotonine",
+            "inhibiteur selectif de la recapture de la serotonine (ISRS)",
+            "inhibiteurs sélectifs recapture sérotonine",
+            "inhibiteur selectif de la recapture de la serotonine",
+            "isrs",
+            "Inhibiteur sélectif de la recapture de la sérotonine",
+            "inhibiteur selectif de la recapture de serotonine",
+            "Inhibiteur sélectif de recapture sérotonine",
+            "Inhibiteurs sélectifs recapture sérotonine",
+            "inhibiteur sélectif de la recapture de sérotonine",
+            "inhibiteur selectif de recapture serotonine",
+            "inhibiteur sélectif de la recapture de la sérotonine",
+            "inhibiteur selectif de recapture de la serotonine",
+            "inhibiteur sélectif recapture sérotonine ISRS",
+            "inhibiteur séléctif recapture sérotonine",
+            "inhibiteur selectif recapture sérotonine",
+            "Inhibiteur sélectif recapture de sérotonine",
+            "Inhibiteur selectif recapture seretonine",
+            "Inhibiteur Selectif Recapture Serotonine",
+            "inhibiteurs sélectifs recapture de sérotonine",
+            "inhibiteur selectif recapture serotonine ISRS",
+            "inhibiteurs sélectifs des récepteurs sérotonine",
+            "inhibiteur sélectif recapture sérotonine (ISRS)",
+            "inhibiteurs selectifs de recapture serotonine",
+            "inhibiteurs selectifs recapture sérotonine",
+            "Inhibiteur selectif de recapture de la serotonine (ISRS)",
+            "inhibiteur séléctif de recapture serotonine",
+            "inhibiteurs de la recapture de la sérotonine",
+            "inhibiteur sélectif recapture de serotonine",
+            "inhibiteurs selectifs recapture de serotonine",
+            "Inhibiteurs sélectifs recapture sérononine",
+            "inhibiteur recapture selectif serotonine",
+            "inhibiteur sélectif de recapture à la sérotonine",
+            "Inhibiteur selectif de la recapture de la sérotonine",
+            "inhibiteur selectif recepteurs serotonine",
+            "inhibiteur sélective recapture sérotonine",
+            "Inhibiteur Sélectif Recapture Sérotonine",
+            "inhibiteurs sélectifs de la recapture de la serotonine",
+            "Inhibiteur sélectif recapture sérotonine (ISRS)",
+            "inibiteur selectif de recapture sérotonine",
+            "inhibiteur séléctif recapture de sérotonine",
+            "ISRS (Inhibiteur sélectif recapture sérotonine)",
+            "Inhibiteur selectif de la recapture de la serotonine",
+            "Inhibiteur séléctif de recapture de sérotonine",
+            "ISRS inhibiteur sélectif recapture sérotonine",
+            "Inhibiteur Sélectif de la Recapture de la Sérotonine (ISRS)",
+            "inhibiteur séléctif recapture de la serotonine",
+            "inhibiteurs sélectif recapture sérotonine",
+            "inhibiteur sélectifs des récepteurs à la sérotonine",
+            "inhibiteur selectif de recapture serotoninergique",
+            "Inhibiteur sélective recapture sérotonine",
+            "inhibiteurs sélectif recapture Sérotonine",
+            "inhibiteur selectif de recapture de serotonine",
+            "inhibiteur séléctif de recapture sérotonine",
+            "inhibiteur selectif recapture serotinine",
+            "anti depresseur ISRS",
+            "inhibiteur selectif de la recapture a la serotonine",
+            "inhibiteurs sélectifs de recapture sérotoninergique",
+            "inhibiteur sélectif recapture serotonine",
+            "Inhibiteurs sélectifs de la recapture de la sérotonine",
+            "inhibiteur selectif recapture serotonine (ISRS)",
+            "inhibiteur selectif recapture serotonine (anti depresseur)",
+            "inhibiteurs sélectifs de la recapture de la sérotonine",
+            "inhibiteur sélectif des récepteurs sérotoninergiques",
+            "Inhibiteur selectif du recepteur serotoninergique",
+            "inhibiteur sélectif recapture sérotinine",
+            "inhibiteur selectif des recepteurs serotoninergiques"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "3- Concernant les spécificités des troubles dépressifs chez le sujet âgé, il est exact que (4 réponses attendues) :",
+          "choix": [
+            "A) Le risque suicidaire est moins élevé que chez le sujet jeune.",
+            "B) Les signes cliniques sont volontiers atypiques avec des douleurs diffuses.",
+            "C) Le risque de iatrogénie lié aux pschotropes est plus fréquent.",
+            "D) Il y a une association moins fréquente avec des pathologies chroniques non psychiatriques.",
+            "E) Le traitement de 1ère intention repose sur des antidépresseurs sérotinergiques.",
+            "F) La perte d'autonomie n'est pas un facteur de risque de dépression.",
+            "G) Le deuil compliqué est un mode d'entrée courament rencontrée dans la dépression du sujet âgé."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E",
+            "G"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295629105-14d0cb5727e578",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mme M. âgée de 86 ans est admise aux urgences suite à une chute à domicile. Elle a été incapable de se relever. Sa fille qui l’a trouvée le matin par terre et a alerté les secours devant une douleur importante quand elle a voulu la verticaliser.\nVous êtes le médecin qui l’examine à son arrivée, parmi ses antécédents vous notez :\n- HTA sous trithérapie,\n- Hypothyroïdie supplémentée,\n- Une fracture du poignet droit,\n- Une fracture du calcanéum,\n- Ménopause précoce à l’âge de 36 ans.\nSon traitement habituel comprend : AMLODIPINE 10 mg, IRBESARTAN 300 mg, BISOPROLOL 1,25 mg, LEVOTHYROX 100µg, ZOPICLONE 7,5 mg, PARACETAMOL 1 gramme si besoin.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "1- Vous suspectez cliniquement une fracture du fémur droit devant : (3 réponses attendues )",
+          "choix": [
+            "A) Douleur inguinale droite importante",
+            "B) Raccourcissement du membre inférieur droit",
+            "C) Rotation interne droite",
+            "D) Rotation externe gauche",
+            "E) La présence d'un clinostatisme droit"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "2- Devant cette suspicion de fracture de la hanche droite, vous réalisez une radiographie du bassin de face et à droite qui est la suivante.\nAprès lecture de la radiographie vous concluez à : (réponse unique attendue)",
+          "choix": [
+            "A) Une fracture cervicale droite",
+            "B) Une fracture extra-capsulaire droite",
+            "C) Une fracture cervicale gauche",
+            "D) Une fracture intra-capsulaire gauche",
+            "E) Il n'y a pas de fracture."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/geriatrie-vieillissement-s9/2024/q10.png?v=1786295631277"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "3- Vous souhaitez discuter avec les chirurgiens orthopédistes d'une intervention chirurgicale mais vous décidez d'évaluer l'autonomie antérieure de la patiente pour guider au mieux la prise en charge.\nVous appelez sa fille qui vous indique que sa mère vit seule mais est autonome pour son hygiène et l'habillage (elle a quelques fuites urinaires) mais fait tout le reste à la maison. Elle fait les courses à pied, elle a besoin d'aide pour la gestion administrative des documents.Toutefois depuis sa dernière chute, il y a 1 mois, elle s'épuise plus vite, se dit fatiguée et marche moins vite. Vous en déduisez : (2 réponses attendues )",
+          "choix": [
+            "A) Selon l'échelle de FRIED, la patiente est autonome.",
+            "B) Selon l'échelle IADL, la patiente est autonome.",
+            "C) Selon l'échelle ADL, la patiente est autonome.",
+            "D) Selon l'échelle ADL, la patiente est dépendante.",
+            "E) On ne peut pas savoir avec ces informations son autonomie."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3,
+          "critiques": [
+            "E"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "4- Finalement, la patiente est opérée d'une prothèse de hanche droite et part en soins de suite et de réadaptation pour la rééducation.\nVous êtes le nouveau médecin qui la prend en charge et au vu des antécédents fracturaires de la patiente, vous vous posez\nla question d'une ostéoporose sous-jacente.\nL'élément qui vous amène à suspecter une ostéoporose est la présence d'une fracture grave qui est : (5 mots maximum)",
+          "choix": [],
+          "reponses": [
+            "fracture extrémité supérieure fémur droit",
+            "fracture fémur droit",
+            "fracture hanche droite",
+            "FESF droit",
+            "fracture extrémité supérieure du fémur",
+            "fracture du col du fémur",
+            "fracture du col du femur",
+            "Fracture extrémité supérieure du fémur",
+            "fracture extremite superieure du femur",
+            "fracture extremite superieur du femur",
+            "Fracture du col du fémur",
+            "fracture de l'extrémité supérieure du fémur",
+            "fracture du col fémoral",
+            "extrémité supérieure du fémur",
+            "extremite superieure du femur",
+            "fracture extremite superieur femur",
+            "fracture de la hanche droite",
+            "fracture extrémité proximale fémur",
+            "fracture extremité supérieure fémur",
+            "FESF",
+            "fracture superieure du femur",
+            "fracture cervicale droite",
+            "fracture du col fémoral droit",
+            "extremite superieur femur",
+            "fracture femorale superieure",
+            "fracture extremité supérieure femur",
+            "fracture extrémité supérieure fémorale",
+            "fracture épyphyse supérieur du femur",
+            "fracture du femur proximal",
+            "fracture extremité superieur femur",
+            "fracture du col femoral droite",
+            "extremite superieur du femur",
+            "Fracture extrémité fémorale supérieure droite",
+            "fracture de l'épiphyse supérieure fémorale",
+            "fracture extrémité fémorale supérieure",
+            "la fracture du col du fémur",
+            "fracture de l'extrémité supérieur du femur",
+            "col du fémur",
+            "fracture cervicale droite garden IV",
+            "l'extrémité supérieure du fémur",
+            "fracture de la tête fémorale",
+            "fracture de la hanche",
+            "une fracture de la hanche",
+            "Fracture de l'extremite superieur du femur",
+            "fracture fémorale",
+            "extremite supérieure du femur droit",
+            "fracture de l'extrémité superieur du fémur",
+            "l'extremite superieure du femur",
+            "fracture du femur",
+            "fracture de l’extremite superieur du fémur",
+            "fracture de l'extremite superieur du femur sur chute de sa hauteur",
+            "fracture de l'extrémité supérieur fémorale",
+            "fracture fémorale supérieure",
+            "fracture de l’extrémité supérieur du fémur",
+            "frature de la hanche droite",
+            "fracture extrémité supérieure de hanche",
+            "l'extremite superieure du femur droit",
+            "La fracture du fémur droite",
+            "col du femur droit",
+            "Fracture extrémité supérieure fémorale",
+            "la fracture du col du femur",
+            "une fracture du col fémoral",
+            "fracture col femoral",
+            "fracture proximale du fémur",
+            "fracture du fémur post ménopause",
+            "la fracture col du fémur",
+            "Fracture de l’extrémité supérieure du fémur droit (FESF)",
+            "fracture col fémoral",
+            "fracture col superieur du femur",
+            "localisée FESF, à faible cinétique",
+            "fracture de l'extrémité supérieure fémorale",
+            "Fracture extrémité supérieure de fémur",
+            "fracture de hanche droite",
+            "fracture col fémoral Garden 4",
+            "fracture col du femur",
+            "Extrémité supérieure du fémur droit",
+            "la fracture de l'extrémité superieure du femur droit",
+            "Fracture extrémité supérieure fémur",
+            "fracture extremite superieure fémur"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "5- Vous décidez de réaliser un bilan biologique pour éliminer des causes secondaires possibles. Ce bilan comprend : (3 réponses attendues)",
+          "choix": [
+            "A) NFS",
+            "B) Bilan hépato-biliaire complet",
+            "C) Electrophorèse des protéines sériques",
+            "D) 1-25 OH VITAMINE D",
+            "E) Calcémie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "6- Le bilan biologique de 1ère intention revient normal avec une cause primaire d'ostéoporose qui est retenue. Vous vous rendez compte que la patiente ne mange pas beaucoup avec un IMC à 18.5 kg/m2 et qu'elle chute souvent à domicile. Quelles mesures hygiéno-diététiques pouvez-vous mettre en place ? (3 réponses attendues )",
+          "choix": [
+            "A) Assurer des apports calciques satisfaisants (entre 1 et 1.2g par jour )",
+            "B) Favoriser le repos pour lutter contre les douleurs",
+            "C) Supplémenter en vitamine D pour avoir un seuil > 30 ng/mL",
+            "D) Prévenir la survenue des chutes ultérieures.",
+            "E) Vacciner la patiente contre le tétanos"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "7- Durant la rééducation la patiente a du mal à se mobiliser à cause de la douleur post opératoire importante mal équilibrée et elle reste souvent alitée ou assise.\nUn matin, l'infirmière vous interpelle durant la visite car elle a constaté pendant la toilette une lésion sur la peau au niveau du talon. Vous voyez ceci à l'examen clinique.\nVous suspectez une complication du décubitus avec présence d'une escarre talonnière. Quel est le satde de cette escarre : (2 mots maximum)",
+          "choix": [],
+          "reponses": [
+            "Stade 2",
+            "stade 2",
+            "2",
+            "deux",
+            "II",
+            "Stade II",
+            "stade deux",
+            "stade II"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/geriatrie-vieillissement-s9/2024/q15.png?v=1786295656224"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "8- Quelles mesures environnementales auriez-vous pu mettre en place pour prévenir la complication de cette immobilisation ? (3 réponses attendues )",
+          "choix": [
+            "A) Lutter contre la dénutrition de la patiente",
+            "B) Mettre en place un matelas à air dynamique",
+            "C) Favoriser une bonne hydratation avec stimulation des apports hydriques",
+            "D) Favoriser un décubitus précoce",
+            "E) Limiter les apports en sucre"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,347 @@
+{
+  "matiere": "Rein et voies urinaires – Néphrologie",
+  "slug": "rvu-nephrologie-s6",
+  "annee": 2023,
+  "title": "Rein et voies urinaires – Néphrologie - 2023",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Un patient de 75 ans se présente à votre consultation. En raison d’œdèmes des membres inférieurs, le bilan biologique suivant a été réalisé : créatininémie 75 mmol/L, urée 8 mmol/L ; Protides 61 g/L ; Albuminémie 21 g/L ; protéinurie/créatininurie 5 g/g ; albuminurie 4 g/g de créatininurie; ECBU : GR 40/mm3 ; GB 5/mm3. La pression artérielle est à 160/110 mmHg.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Au vu du tableau, quel est le secteur/la structure rénale rénale touchée ?",
+          "choix": [
+            "A) Le secteur tubulaire",
+            "B) Le secteur interstitiel",
+            "C) Le secteur glomérulaire",
+            "D) Le secteur vasculaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel syndrome néphrologique présente votre patient ?",
+          "choix": [
+            "A) Un syndrome néphritique",
+            "B) Une glomérulonéphrite rapidement progressive",
+            "C) Un syndrome néphrotique",
+            "D) Une glomérulonéphrite chronique",
+            "E) Une néphrite interstitielle aiguë"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelques années plus tard, vous mesurez une pression artérielle à 138/76 mmHg.\nLe bilan biologique retrouve :\nun débit de filtration glomérulaire estimé à 50 ml/min/1,73m2, stable à 3 mois d’intervalle\nprotéinurie 2 g/g ; albuminurie 0,8 g/g ;\ncytologie urinaire : leucocytes 4 GB/mm3 ; hématurie 240 GR/mm3 ; ECBU stérile.\nQuel syndrome néphrologique présente votre patient ?",
+          "choix": [
+            "A) Un syndrome néphrotique",
+            "B) Un syndrome néphritique",
+            "C) Une glomérulonéphrite rapidement progressive",
+            "D) Une glomérulonéphrite chronique",
+            "E) Une hématurie macroscopique récidivante"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299929505-b8a2e133ab1e7",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un patient de 40 ans se présente avec une détresse respiratoire aiguë. Sa fréquence respiratoire est à 30/min, il est en sueurs, hypertendu et confus.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les troubles acido-basiques, lesquelles sont vraies ?",
+          "choix": [
+            "A) L’acidémie est définie par un pH < 7,34",
+            "B) Une acidose est définie par des bicarbonates < 20 mmol/L",
+            "C) Une alcalose est définie à partir d’un chiffre de bicarbonates > 40 mmol/L",
+            "D) Une alcalémie est définie par un pH élevé > 7,42"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On vous apporte la gazométrie suivante : pH = 7,26, PCO2 = 20 mmHg, PO2 = 110 mmHg, bicarbonates 12 mmol/L",
+          "choix": [
+            "A) L’acidose est d’origine respiratoire car la PCO2 est élevée.",
+            "B) L’acidose est d’origine métabolique car les bicarbonates sont abaissés.",
+            "C) La réponse respiratoire est adaptée, comme en témoigne l’hyperventilation alvéolaire.",
+            "D) La réponse respiratoire est inadaptée, comme en témoigne l’hypoventilation alvéolaire."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En ce qui concerne les acidoses métaboliques, quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Le trou anionique plasmatique se calcule avec la somme (Na+K) – (Cl+HCO3)",
+            "B) Le trou anionique plasmatique se calcule avec la somme (Na+K) + (Cl-HCO3)",
+            "C) Un trou anionique à 24 mmol/L correspond à une valeur augmentée",
+            "D) L’augmentation des corps cétoniques peut expliquer une acidose à trou anionique augmenté"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques mois plus tard, le patient se présente avec une hypotension, une tachycardie, et une perte de poids de 4 kg dans un contexte de troubles digestifs combinant vomissements et diarrhées. La natrémie est à 120 mmol/L. Le sodium urinaire est < 20 mmol/L.\nCaractérisez l’état d’hydratation du patient :",
+          "choix": [
+            "A) Hyperhydratation intra-cellulaire",
+            "B) Hyperhydratation extra-cellulaire",
+            "C) Déshydratation intra-cellulaire",
+            "D) Déshydratation extra-cellulaire",
+            "E) La natriurèse verrouillée confirme des pertes extra-rénales."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Plusieurs années après, le patient consulte pour un syndrome polyuro-polydipsique. Il est euvolémique. Le bilan biologique retrouve une natrémie à 155 mmol/L. Potassium 3,6 mmol/L, Calcium 3,2 mmol/L (2,2-2,6 mmol/L), Chlore 110 mmol/L.\nQuelles sont les propositions vraies ?",
+          "choix": [
+            "A) Le patient est en déshydratation extra-cellulaire",
+            "B) Le patient est en hyperhydratation extra-cellulaire",
+            "C) Il s’agit d’une présentation typique de SIADH",
+            "D) Il s’agit d’une présentation typique de diabète insipide",
+            "E) Si le diabète insipide est néphrogénique, alors la capacité de production d'ADH est conservée"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299930938-780e4f4a73ff5",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient vous consulte pour une prise de poids depuis 15 jours associée à une dyspnée.\nOn vous remet les résultats d’un bilan sanguin : Natrémie 120 mmol/L. Potassium 5 mmol/L. Bicarbonates 23 mmol/L. Glycémie 5 mmol/L.\nA propos de l'osmolalité plasmatique :",
+          "choix": [
+            "A) Vous pouvez la calculer à 245 mosmol/kg d'H2O.",
+            "B) Vous pouvez la calculer à 345 mosmol/kg d'H2O.",
+            "C) Il s’agit d’une hyponatrémie hypo-osmolaire.",
+            "D) Il s’agit d’une hyponatrémie normo-osmolaire",
+            "E) La réserve alcaline est normale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient de 67 ans se présente pour une élévation de la créatinine à 350 µmol/L alors qu’il avait 80 µmol/L il y a 2 semaines. Vous obtenez le ionogramme urinaire suivant : Na < 20 mmol/L. K à 60 mmol/L.\nQuelles sont les propositions exactes ?",
+          "choix": [
+            "A) La natriurèse est abondante.",
+            "B) La natriurèse est verrouillée.",
+            "C) Ce ionogramme est compatible avec une cause d’insuffisance rénale fonctionnelle.",
+            "D) Ce ionogramme est compatible avec une cause d’insuffisance rénale organique.",
+            "E) Ce ionogramme est compatible avec une insuffisance surrénalienne aiguë par déficit en minéralo-corticoïdes."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En cas de déshydratation extra-cellulaire, citez les causes de perte de sodium d’origine rénale :",
+          "choix": [
+            "A) Mucoviscidose",
+            "B) Abus de diurétiques",
+            "C) Abus de laxatifs",
+            "D) Néphropathie avec perte de sel"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les situations suivantes, lesquelles s’associent à une hyperhydratation extra-cellulaire ?",
+          "choix": [
+            "A) Hypothyroïdie",
+            "B) Pancréatite aiguë",
+            "C) Insuffisance cardiaque décompensée",
+            "D) Syndrome néphrotique",
+            "E) Etat de choc hémorragique"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient se présente avec une natrémie à 165 mmol/L. L’osmolalité plasmatique est élevée, mesurée à 355 mosmol/kg. Quels seront les grands axes de traitement ?",
+          "choix": [
+            "A) Apport oral en eau",
+            "B) Apport oral en sucre",
+            "C) Restriction hydrique",
+            "D) Soluté salé isotonique 0.9%",
+            "E) Soluté glucosé isotonique 5%"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un patient cirrhotique en décompensation, avec de l’ascite, est en état d’anasarque. Sa natrémie est mesurée à 113 mmol/L, l’osmolalité est à 231 mosmol/kg.\nConcernant l’hyponatrémie :",
+          "choix": [
+            "A) Elle reflète une hyperhydratation intracellulaire.",
+            "B) Elle reflète une déshydratation globale.",
+            "C) On peut la caractériser comme une « hyponatrémie de dilution »",
+            "D) On peut la caractériser comme une « hyponatrémie de déplétion »",
+            "E) Elle se corrigera après une restriction hydrique et sodée, associée à un diurétique de type anti-aldostérone."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299932807-35b2281a4b2168",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Vous recevez aux urgences une femme de 42 ans pour hématurie.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le seuil d'hématies au-delà duquel on peut poser le diagnostic positif d’hématurie sur un ECBU (à l'examen cytologique quantitatif des urines)",
+          "choix": [
+            "A) ≥ 1 hématie/mm3",
+            "B) ≥ 10 hématies/mm3",
+            "C) ≥ 100 hématies/mm3",
+            "D) ≥ 1000 hématies/mm3",
+            "E) Il n'existe pas de seuil diagnostique de l'hématurie"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lesquelle des affirmations suivantes concernant l'hématurie sont exactes ?",
+          "choix": [
+            "A) Une hématurie urologique correspond à une lésion du parenchyme rénal ou de l'arbre urinaire saignement d'origine vasculaire",
+            "B) Une hématurie néphrologique correspond à un saignement d'origine vasculaire",
+            "C) Une hématurie macroscopique est toujours visible à l'œil nu",
+            "D) Une hématurie microscopique est un diagnostic biologique",
+            "E) Les hématurie néphrologique sont souvent d'origine glomérulaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,389 @@
+{
+  "matiere": "Radiologie",
+  "slug": "radiologie-s7",
+  "annee": 2023,
+  "title": "Radiologie - 2023",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous suivez en consultation un patient pour une perturbation du bilan hépatique. Pour l’exploration de cette anomalie biologique, vous avez demandé une échographie abdomino pelvienne. Il vous apporte le compte rendu de votre confrère radiologue. Celui mentionne :\n« Le foie est de taille normale, de contours réguliers. Il n'y a pas de dilatation des voies biliaires intra ou extra hépatique. La vésicule biliaire est de paroi fine. Elle est le siège d'une formation hyper échogène déclive avec cône d'ombre postérieur en faveur d’une lithiase. On individualise au sein du parenchyme hépatique deux formations nodulaires :\n-La première mesure 3 cm, est située dans le segment 5. Elle est anéchogène avec renforcement postérieur des échos. Il s’agir d'un kyste biliaire simple.\n-La seconde, est située dans le segment 7 et mesure 2,5 cm. Elle est hyperéchogène avec renforcement postérieur des échos. L'hypothèse principale est un angiome hépatique. Je propose de réaliser une IRM afin de confirmer cette hypothèse.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous disposez d’images sélectionnées de l’échographie (menu déroulant ou répondre A ou B)\nLaquelle de ces deux images montre le kyste hépatique simple.",
+          "choix": [
+            "A) Réponse A",
+            "B) Réponse B"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q1.png?v=1786299777974"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "si un scanner avait été réalisé quel aurait été l'ordre de grandeur des densités en UH mesurées au sein du kyste hépatique ?",
+          "choix": [],
+          "reponses": [
+            "0-20 UH",
+            "0 à 20 Unités Hounsfield",
+            "entre 0 et 20 UH",
+            "0-20",
+            "0 à 20 UH",
+            "Entre 0 et 20 UH",
+            "0 - 20 UH",
+            "0-20UH",
+            "entre 0 UH et 20 UH",
+            "0 à 20",
+            "0-10 UH",
+            "0 a 20",
+            "0- 20UH",
+            "0 UH/ 20UH",
+            "0-10UH",
+            "0 a 20 UH",
+            "0 UH - 20 UH",
+            "0 - 20",
+            "0 et 20 uh",
+            "entre 0 et 20UH",
+            "Entre 0UH et + 20UH",
+            "0 à 20UH",
+            "0 et 20 UH",
+            "entre 0 et + 20 UH",
+            "0 ; +20",
+            "0 a +20",
+            "0 a 20UH",
+            "0 a +20 UH"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient revient en consultation avec le compte rendu de l’IRM\nParmi les propositions suivantes quelles sont propositions justes correspondant à la description du kyste hépatique de contenu liquidien strict ?",
+          "choix": [
+            "A) La lésion est en hyposignal T1",
+            "B) La lésion est en hypersignal T2",
+            "C) La lésion n’est pas rehaussée après injection de gadolinium",
+            "D) La lésion est en hyposignal sur les séquences T2 avec saturation du signal de la graisse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les images suivantes, quelle est celle en pondération T2 ?",
+          "choix": [
+            "A) Réponse A",
+            "B) Réponse B",
+            "C) Réponse C",
+            "D) Réponse D",
+            "E) Réponse E"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q4.png?v=1786299780337"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Sur l’image suivante, placez l’aorte abdominale",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "zones": [
+            {
+              "x": 0.5677083333333334,
+              "y": 0.27983165922619047,
+              "radius": 0.03,
+              "label": "aorte abdominale"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q5.png?v=1786299780676"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "IMAGE_ZONE",
+          "contexte": "",
+          "question": "Sur l’image suivante, placez le canal médullaire",
+          "choix": [],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 6,
+          "zones": [
+            {
+              "x": 0.5349702380952381,
+              "y": 0.39164806547619047,
+              "radius": 0.06,
+              "label": "canal médullaire"
+            }
+          ],
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q6.png?v=1786299780932"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299781045-36f67e975c4b8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez en consultation aux urgences une patiente de 30 ans qui présente une douleur de la fosse lombaire droite avec irradiation dans les organes génitaux externes. Vous suspectez une colique néphrétique",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi la liste suivante, quels sont les 3 examens d'imagerie les plus pertinents pour en faire le diagnostic ?",
+          "choix": [
+            "A) Echographie abdomino-pelvienne",
+            "B) IRM abdomino-pelvienne",
+            "C) Scanner abdominopelvien avec injection de produit de contraste et acquisition au temps tardif",
+            "D) Scintigraphie au MIBG",
+            "E) Scanner abdominopelvien sans injection de produit de contraste",
+            "F) Abdomen sans préparation",
+            "G) Urographie intra-veineuse",
+            "H) Cystographie rétrograde",
+            "I) TEP scanner"
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une échographie est réalisée. En voici 3 images extraites. Le compte rendu mentionne :\n\"Il existe :\n- une dilatation pyelocalicielle à droite\n- une formation nodulaire de 3 cm du pole inférieur du rein gauche anéchogène avec renforcement postérieur des echos\n- une formation de 5 millimètres, hyperéchogène avec cône d’ombre postérieur.\"\nSur laquelle de ces 3 images on peut visualiser la lithiase?",
+          "choix": [
+            "A) Réponse A",
+            "B) Réponse B",
+            "C) Réponse C"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q8.png?v=1786299781742"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la nature de la lésion décrite ?",
+          "choix": [],
+          "reponses": [
+            "lithiase",
+            "calcique",
+            "lithiase calcique",
+            "nature calcique",
+            "lithiase de nature calcique",
+            "lithiase urinaire",
+            "lésion de nature calcique",
+            "de nature calcique",
+            "Lithiase urinaire calcique",
+            "Lithiase calcique",
+            "calcul calcique",
+            "lithiase phosphocalcique",
+            "lésion calcique",
+            "Nature calcique",
+            "lithiasique",
+            "calcul vesical",
+            "Calcul calcique",
+            "Il s'agit d'une lithiase de nature calcique (calcul)",
+            "lithiasique calcique",
+            "lithiase d'oxalate de calcium",
+            "une lithiase est une formation minerale. elle produit un signal hyperechogene avec cone d'ombre posterieur",
+            "lesion calcique",
+            "Calcul de densité calcique",
+            "lithiase vésicale",
+            "Lésion de nature calcique",
+            "Opacité de nature Calcique",
+            "calcium",
+            "calcul urinaire",
+            "calcul lithiasique hyperechogène",
+            "calcique lithiasique",
+            "calcul urinaire lithiasique",
+            "il s’agit d’un calcul de nature calcique (image hyperéchogène avec cône d’ombre postérieur)",
+            "calcique hyperéchogène avec cône d'ombre postérieur",
+            "lithiase hyperechogene",
+            "lithiase ureterale droite",
+            "Nature Calcique",
+            "Lésion calcique",
+            "lesion de nature calcique",
+            "un calcul (car une calcification est hyperéchogène avec cône d’ombre postérieur)",
+            "Calcul d'origine lithiasique",
+            "Calcul du meat uretral, calcique",
+            "La lésion hyperéchogène décrite est de nature calcique",
+            "lithiase droite"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786299783661-08ccd1976a6188",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la proposition fausse ?",
+          "choix": [
+            "A) A.La flèche A désigne une opacité de nature calcique",
+            "B) B.La flèche B désigne une opacité de nature hydrique",
+            "C) C.La flèche C désigne une opacité de nature graisseuse",
+            "D) D.La flèche D désigne une opacité de nature aérique",
+            "E) D.La flèche E désigne une opacité de nature graisseuse"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q10.png?v=1786299784034"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez aux urgences un homme de 34 ans qui présente une impotence fonctionnelle totale du genou gauche dans les suites d’une chute à ski. Quelles sont les propositions vraies?",
+          "choix": [
+            "A) A.Il s’agit d’une radiographie de profil en charge",
+            "B) B.Il existe une lipohémarthrose",
+            "C) C.Il existe une pneumarthrose",
+            "D) D.Il existe une fracture du plateau tibial",
+            "E) E.les clichés standards sont suffisants pour l'étude de l'appareil ménisco-ligamentaire."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q11.png?v=1786299784332"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La radiographie suivant montre une pneumopathie franche lobaire aigue. Dans quel lobe est-elle située ?",
+          "choix": [],
+          "reponses": [
+            "lobe moyen",
+            "moyen",
+            "lobe moyen droit",
+            "Lobe moyen droit",
+            "moyen droit",
+            "Moyen droit",
+            "lobe moyen du poumon droit",
+            "lobe moyen ou median",
+            "Moyen Droit",
+            "lobe moyen poumon droit",
+            "lobe moyen (droit)",
+            "moyen ( a droite )",
+            "Dans le lobe moyen",
+            "droit moyen",
+            "lobe moyen droit"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q12.png?v=1786299784658"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments sémiologiques permettant la description de l’anomalie visualisée sur la radiographie présentée ?",
+          "choix": [
+            "A) A.Il existe une opacité systématisée",
+            "B) B.Il existe une hyper clarté systématisée",
+            "C) C.Il existe un bronchogramme aérique",
+            "D) D.L’opacité est rétractile",
+            "E) E.Il existe un épanchement pleural abondant"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q13.png?v=1786299785473"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient de 40 ans, sans antécédent présente une masse lombaire gauche pour laquelle vous réalisez une IRM.\nQuelle est la proposition fausse?",
+          "choix": [
+            "A) A.La lésion est en hyposignal T1, en hypersignal sur les séquences T2 avec saturation du signal de la graisse",
+            "B) B.L’image A est une acquisition en pondération T1",
+            "C) C.L’image B est une acquisition en pondération T2 avec saturation du signal de la graisse",
+            "D) D.L’image C est en pondération T1 sans saturation du signal de la graisse et injection de produit de contraste",
+            "E) Réponse E"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/radiologie-s7/2023/q14.png?v=1786299785786"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

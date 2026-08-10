@@ -1,0 +1,439 @@
+{
+  "matiere": "Tissu sanguin – Immunologie",
+  "slug": "ts-immunologie-s6",
+  "annee": 2024,
+  "title": "Tissu sanguin – Immunologie - 2024",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez une patiente de 50 ans qui se plaint de douleurs inhabituelles dans les mains survenant au froid",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez l'existence d'un phénomène de Raynaud. Comment reconnaissez vous cette maladie?",
+          "choix": [
+            "A) la maladie commence généralement par les pieds puis après un temps variable s'étend aux mains",
+            "B) la phase syncopale, douloureuse, est typiquement suivie d'une phase d'érythème",
+            "C) les symptômes sont déclenchés ou aggravés soit par le froid",
+            "D) un phénomène de Raynaud typique d'apparition tardive dans la vie doit faire rechercher une collagénose",
+            "E) un phénomène de Raynaud d'apparition tardive avec ulcérations des doigts doit faire évoquer une sclérodermie"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "la patiente éprouve également un prurit oculaire fréquent. Vous suspectez un syndrome sec. Quels arguments sont en faveur de ce diagnostic?",
+          "choix": [
+            "A) présence d'une rougeur conjonctivale",
+            "B) un test de Schirmer pathologique",
+            "C) un sécrétion salivaire globale abaissée",
+            "D) une baisse rapide de la vision",
+            "E) une dyspnée rapidement aggravative"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez suspectez un syndrome sec auto-immun s'intégrant à une collagénose. Que recherchez vous à l'examen physique pouvant correspondre à une manifestation de collagénose?",
+          "choix": [
+            "A) un érythème malaire bilatéral",
+            "B) une photosensibilité",
+            "C) un souffle sous-clavier",
+            "D) un aspect épaissi de la peau des doigts",
+            "E) des râles crépitants secs dans les bases pulmonaires"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez un bilan biologique. Parmi les anomalies suivantes, laquelle ou lesquelles sont courantes au cours du syndrome sec primaire (maladie de Gougerot)",
+          "choix": [
+            "A) leuco-neutropénie",
+            "B) agranulocytose",
+            "C) protéinurie ++++ à la bandelette urinaire",
+            "D) hypergammaglobulinémie polyclonale",
+            "E) présence d'ANCA"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "vous demandez des tests immunologiques. Quels résultats seraient plus en faveur d'un syndrome sec primaire que d' un lupus (1 ou plusieurs réponses sont exactes)",
+          "choix": [
+            "A) présence d'ACAN",
+            "B) présence d'anticorps anti-centromères",
+            "C) présence d'anticorps anti DNA",
+            "D) présence d'anticorps anti RNP",
+            "E) aucune réponse n'est exacte"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez affirmé le caractère auto-immun du syndrome sec. Quelles manifestations cliniques systémiques pouvez vous rencontrer dans le cadre d'une maladie de Gougerot-Sjögren ( syndrome sec primaire)",
+          "choix": [
+            "A) arthralgies",
+            "B) paresthésies des pieds",
+            "C) toux sèche",
+            "D) myalgies",
+            "E) adénopathies"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300572520-0b0cd33ef486c8",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la vaccination et des vaccins anti-infectieux:",
+          "choix": [
+            "A) La vaccination contre l’hépatite B fait partie des 11 vaccins obligatoires en France, à réaliser dans les 18 premiers mois de l’enfant.",
+            "B) La vaccination contre le COVID n’est plus recommandée en 2023 pour les personnes âgées de plus de 65 ans",
+            "C) La vaccination contre le rotavirus est nouvellement rendue obligatoire en 2023 pour les nourrissons",
+            "D) En 2023, la vaccination contre la grippe n’est pas recommandée chez l’enfant sans comorbidité",
+            "E) La vaccination par le ROR (Rougeole-Oreillon-Rubéole) est obligatoire en France pour les nouveau-nés nés en 2023, et se réalise en deux injections"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’alloréactivité:",
+          "choix": [
+            "A) Une greffe xénogénique concerne un donneur et un receveur de même espèce, et génétiquement différents.",
+            "B) Le système HLA (Human leucocyte Antigen) est un système monogénique, très polymorphique, à transmission haplotypique",
+            "C) La GVHD (Graft versus host disease) résulte de l’attaque du système immunitaire du receveur sur les cellules greffées du donneur.",
+            "D) La majorité des greffes de rein en France se font à partir de donneurs en état de mort encéphalique",
+            "E) Le crossmatch cellulaire teste la cytotoxicité des sérums du receveur sur les cellules du donneur."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des thérapies ciblées:",
+          "choix": [
+            "A) Il existe des médicaments à usage médical humain composés d’Ac polyclonaux animaux.",
+            "B) Les CAR-T cells sont des molécules thérapeutiques résultant de la fusion d’un TCR recombinant avec une région variable d’Ac monoclonal anti-CD3.",
+            "C) Les IVIg (Immunoglobulines polyvalentes) sont principalement constituées d’IgG humaines",
+            "D) Les IVIg (Immunoglobulines polyvalentes) ont 2 grandes indications : Immunosubstitution et Immunomodulation.",
+            "E) Le Rophylac® est un médicament constitué d’Immunoglobuline anti-A du système ABO."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des thérapies ciblées et des vaccins:",
+          "choix": [
+            "A) L’etanercept est une protéine de fusion anti-TNF utilisant une sous-unité Fab d’IgG1 humaine",
+            "B) Certains anticorps monoclonaux thérapeutiques utilisés en médecine humaine sont armés de radioisotopes cytotoxiques",
+            "C) Les Inhibiteurs de Tyrosine Kinase, comme l’imatinib, sont des anticorps monoclonaux thérapeutiques pouvant pénétrer à l’intérieur des cellules.",
+            "D) Les anticorps monoclonaux thérapeutiques anti-PD1, comme le nivolumab, permettent de lever l’inhibition du lymphocyte T.",
+            "E) Le Beyfortus® est un nouveau vaccin anti-infectieux, utilisé dans la prévention de l’infection à VRS (virus respiratoire syncitiale)"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du diagnostic et du suivi biologique d’une gammapathie monoclonale :",
+          "choix": [
+            "A) le diagnostic requiert la réalisation d’un myélogramme",
+            "B) le suivi se fait par la quantification de l’immunoglobuline impliquée (dosage des IgG, IgA ou IgM)",
+            "C) l’immunofixation est plus sensible que l’électrophorèse",
+            "D) en cas de présence d’un pic à l’électrophorèse, la recherche d’une infiltration plasmocytaire dans la moelle osseuse est inutile",
+            "E) l’exploration des urines est inutile"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos d’une gammapathie monoclonale :",
+          "choix": [
+            "A) Elle peut s’observer en l’absence de signe clinique évocateur",
+            "B) Elle peut être constituée d’une chaine légère libre seule",
+            "C) Son étiologie la plus fréquente est le myélome",
+            "D) Un signe d’alerte peut être une hyperlymphocytose B",
+            "E) Elle s’observe couramment chez le sujet jeune"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans l’hypersensibilité de type I :",
+          "choix": [
+            "A) Les IgE circulantes ont une demi-vie plasmatique courte, de quelques heures.",
+            "B) Les cellules productrices d’IgE peuvent être localisées dans la moelle osseuse.",
+            "C) Après une phase de sensibilisation à un allergène, l’introduction de cet allergène dans l’organisme peut induire la dégranulation brutale des macrophages tissulaires.",
+            "D) La présence, chez un individu, d’IgE spécifiques d’un allergène indique que celui-ci est allergique à cet allergène.",
+            "E) L’histamine est un médiateur néoformé de la réaction allergique, et est relarguée de façon retardée par les cellules effectrices."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du diagnostic de l'allergie:",
+          "choix": [
+            "A) Le dosage des IgE totales peut permettre d’identifier le ou les allergènes responsables des symptômes d’allergie chez un patient",
+            "B) Les tests cutanés, ou « prick-tests », doivent être interprétés environ 15 min après administration de l’allergène.",
+            "C) Un test cutané positif chez un patient pour un allergène donné indique que ce patient est sensibilisé vis-à-vis de cet allergène.",
+            "D) Un test de provocation par voie orale permet d’authentifier une allergie alimentaire.",
+            "E) le dosage quantitatif des IgG spécifiques d’un allergène est indispensable au diagnostic d’une allergie à cet allergène."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des maladies auto-immunes :",
+          "choix": [
+            "A) L’incidence des maladies auto-immunes est globalement stable depuis 70 ans",
+            "B) Les œstrogènes ont une influence sur le système immunitaire",
+            "C) Certains médicaments peuvent favoriser la survenue de maladies auto-immunes",
+            "D) De nombreuses maladies auto-immunes sont monogéniques",
+            "E) Les auto-anticorps qui surviennent avant les premiers signes cliniques sont le plus souvent pathogéniques"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la physiopathologie des maladies auto-immunes :",
+          "choix": [
+            "A) Les critères de Witebsky permettent d’établir la nature auto-immune d’une maladie.",
+            "B) Les auto-anticorps peuvent avoir une action directe sur la cellule cible en se liant à l’antigène sur la membrane cellulaire.",
+            "C) Les auto-anticorps peuvent stimuler la fonction de leur antigène cible.",
+            "D) Les auto-anticorps peuvent être de simple biomarqueurs",
+            "E) Les auto-anticorps sont les principaux marqueurs immunologiques des maladies auto-immunes."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’Immunité anti-tumorale :",
+          "choix": [
+            "A) Les anticorps jouent un rôle anti-tumoral majeur",
+            "B) Les lymphocytes T CD4+ Th1 sont des effecteurs essentiels",
+            "C) L’IL-12 est importante pour permettre l’induction d’une réponse Th17",
+            "D) Les lymphocytes NK sont activés par la reconnaissance des antigènes associés aux tumeurs",
+            "E) La cytotoxicité est un mécanisme anti-tumoral fondamental des lymphocytes T CD8+"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des déficits immunitaires :",
+          "choix": [
+            "A) L’auto-immunité est fréquente au cours des déficits immunitaires primitifs",
+            "B) Le déficit immunitaire commun variable est généralement monogénique",
+            "C) Il n’existe pas de Déficit immunitaire primitif de révélation à l’âge adulte",
+            "D) Le déficit immunitaire commun variable est généralement diagnostiqué pendant l’adolescence ou à l’âge adulte",
+            "E) Le déficit sélectif en IgA est généralement peu symptomatique"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’échappement des tumeurs au système immunitaire :",
+          "choix": [
+            "A) La perte d’expression des molécules du CMH I est fréquente dans les cellules tumorales",
+            "B) Le micro-environnement tumoral induit des lymphocytes Th17 régulateurs",
+            "C) Les cellules tumorales n’expriment pas d’antigènes reconnus par les lymphocytes T",
+            "D) L’échappement des tumeurs à la réponse immunitaire se produit dès les stades les plus précoces de la transformation tumorale",
+            "E) Le système immunitaire induit une sélection des clones tumoraux résistants à son action"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système immunitaire du sujet âgé :",
+          "choix": [
+            "A) On observe une franche diminution des Immunoglobulines circulantes",
+            "B) On observe une franche diminution des lymphocytes T naifs",
+            "C) On observe un état d’inflammation chronique subclinique",
+            "D) On observe une perte importante des réponses immunitaires secondaires envers les antigènes rencontrés au cours de sa vie",
+            "E) La vaccination a peu d’utilité"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système immunitaire du nouveau-né et du nourrisson :",
+          "choix": [
+            "A) Le taux d’anticorps circulants à la naissance est quasiment nul",
+            "B) On observe une hyperlymphocytose T et B pendant l’enfance",
+            "C) Il est inutile de vacciner les enfants avant l’âge de 2 ans",
+            "D) L’activité du thymus démarre autour de la puberté",
+            "E) Les réponses immunitaires humorales thymo-indépendantes sont très faibles jusqu’à l’âge de 2 ans environ"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

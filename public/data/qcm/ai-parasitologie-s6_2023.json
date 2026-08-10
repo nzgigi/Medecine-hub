@@ -1,0 +1,621 @@
+{
+  "matiere": "Agents infectieux – Parasitologie",
+  "slug": "ai-parasitologie-s6",
+  "annee": 2023,
+  "title": "Agents infectieux – Parasitologie - 2023",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Mr F., 50 ans, présente depuis le mois de juin 2022 des douleurs abdominales sourdes limitant l’inspiration profonde. Sur le plan épidémiologique, il n’a pas séjourné en dehors du territoire français métropolitain, il consomme régulièrement de la viande et du poisson peu cuit voir cru et des légumes de son propre potager. Il n’a pas d’animaux à domicile.\nFin août 2022 à la suite d’un dîner au restaurant (tartare de saumon / veau en sauce / pâtisserie), il a présenté un épisode nocturne de douleurs abdominales violentes de type pseudo-ulcéreuses associées à des vomissements. Depuis, il signale une modification du transit avec une alternance selles normales / selles liquides.\nEn septembre, puis en octobre, une numération formule sanguine lui est prescrite :\n5 septembre 2022 Résultats Unité Valeurs de références",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelle(s) est (sont) la (les) anomalie(s) de ces bilans biologiques ?",
+          "choix": [
+            "A) Polynucléose neutrophile",
+            "B) Lymphocytose",
+            "C) Monocytose",
+            "D) Hyperéosinophilie",
+            "E) Hyperleucocytose"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/ai-parasitologie-s6/2023/q1.png?v=1786293801007"
+          ],
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Compte-tenu de l’anamnèse, quel est le diagnostic le plus probable chez Mr F. ?",
+          "choix": [
+            "A) Amoebose",
+            "B) Schistosomose digestive",
+            "C) Téniasis",
+            "D) Anisakidose",
+            "E) Giardiose"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel élément épidémiologique, retrouvé dans l'anamnèse du patient, est en faveur de ce diagnostic ?",
+          "choix": [
+            "A) Consommation de légumes de son potager personnel",
+            "B) Consommation d’eau souillée",
+            "C) Consommation de viande crue",
+            "D) Baignade dans un étang à proximité de son habitation",
+            "E) Consommation de poisson de mer cru"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous prescrivez des examens afin de poursuivre vos investigations. Parmi les propositions suivantes, laquelle (lesquelles) est (sont) compatible(s) avec votre hypothèse diagnostique ?",
+          "choix": [
+            "A) Examen parasitologique des selles négatif sur trois prélèvements",
+            "B) Présence d’IgG anti-Anisakis",
+            "C) Présence d’IgG anti-Schistosoma",
+            "D) Présence d’IgG anti-Taenia",
+            "E) Présence d’IgE anti-Anisakis"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan de Mr F. revient positif pour la sérologie anisakidose et pour la sérologie strongyloïdose. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) Mr F. présente une anisakidose infection suite à la consommation du tartare de saumon fin août",
+            "B) L’anisakidose étant contagieuse, il faut prescrire un traitement antiparasitaire familial",
+            "C) La sérologie strongyloïdose est un faux positif car Mr F. n’a pas séjourné en zone tropicale",
+            "D) Une strongyloïdose pourrait expliquer les douleurs abdominales et troubles du transit de Mr F.",
+            "E) La technique de Baermann permet d’augmenter la sensibilité du diagnostic d’anisakidose"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Mr F. a dans ses antécédents un carcinome bronchique traité, en rémission. Etant donné le résultat des sérologies, positives pour anisakidose et strongyloïdose, quel risque présente Mr F. si une rechute de sa maladie entraînait la reprise d’un traitement immunosuppresseur ?",
+          "choix": [
+            "A) Choc anaphylactique lors de la consommation de poisson de mer",
+            "B) Septicémie à bacille Gram négatif",
+            "C) Abcès hépatique à Strongyloïdes stercoralis",
+            "D) Déshydratation par diarrhée aqueuse profuse",
+            "E) Aucun"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel traitement prescrire à Mr F. pour traiter la strongyloïdose ?",
+          "choix": [
+            "A) Fluconazole",
+            "B) Praziquantel",
+            "C) Albendazole",
+            "D) Ivermectine",
+            "E) Amphotéricine B"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293806843-f8e7e0bf6a0d5",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "M. M, 52 ans, est hospitalisé en hématologie pour une hémopathie maligne nécessitant une greffe de moelle osseuse. Le conditionnement pré-greffe (allogreffe) a induit chez le patient une neutropénie profonde (Polynucléaires neutrophiles < 0,5G/L). Au 16ème jour de sa neutropénie, le patient développe une fièvre résistante à la mise en place de 2 lignes successives d'antibiothérapie large spectre, ainsi qu’une toux associée à une détresse respiratoire.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) infection(s) fongique(s) est (sont) la (les) plus fréquente(s) dans ce contexte ?",
+          "choix": [
+            "A) Candidose pulmonaire",
+            "B) Aspergillose pulmonaire invasive",
+            "C) Pneumocystose",
+            "D) Dermatophytose",
+            "E) Infection à Malassezia"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une pneumocystose pulmonaire en première intention. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) concernant le diagnostic de pneumocystose ?",
+          "choix": [
+            "A) Le liquide de lavage bronchoalvéolaire (LBA) est le prélèvement de choix",
+            "B) La détection d’antigènes galactomanannes sanguins contribue au diagnostic",
+            "C) La détection d’anticorps dirigés contre Pneumocystis contribue au diagnostic",
+            "D) La PCR sur LBA est la technique diagnostique la plus sensible",
+            "E) Pneumocystis jirovecii ne pousse pas sur milieu Sabouraud"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) concernant la pneumocystose ?",
+          "choix": [
+            "A) Le scanner thoracique retrouve habituellement des lésions en « verre dépoli », diffuses et bilatérales",
+            "B) La transmission de Pneumocystis jirovecii est inter-humaine",
+            "C) Les corticothérapies accentuent le risque de développer une pneumocystose",
+            "D) Les corticoïdes peuvent être utilisés en traitement adjuvant pour les pneumocystoses sévères",
+            "E) La pneumocystose est uniquement observée chez des patients immunodéprimés"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le traitement de première intention de la pneumocystose ?",
+          "choix": [
+            "A) Fluconazole",
+            "B) Cotrimoxazole",
+            "C) Albendazole",
+            "D) 5-Fluorocytosine",
+            "E) Caspofungine"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous apprenez que le patient a des antécédents d’infection à Aspergillus, ce qui vous conduit à évoquer cette nouvelle étiologie. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) concernant l’aspergillose pulmonaire invasive ?",
+          "choix": [
+            "A) La transmission est liée à l’inhalation de spores",
+            "B) L’incidence de l’aspergillose pulmonaire invasive est élevée chez les patients au stade SIDA",
+            "C) Au scanner thoracique, on retrouve des lésions nodulaires associées à un halo péri-lésionnel",
+            "D) Le signe du grelot est fréquemment observé au cours de l’aspergillose pulmonaire invasive",
+            "E) Il existe un risque de dissémination hématogène de l’Aspergillus"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un liquide de lavage bronchoalvéolaire (LBA) est prélevé. Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) exacte(s) concernant le diagnostic de l’aspergillose pulmonaire invasive ?",
+          "choix": [
+            "A) A l’examen direct du LBA, on s’attend à observer des levures encapsulées",
+            "B) La détection d’antigènes galactomannanes sanguins contribue au diagnostic",
+            "C) La détection d’anticorps dirigés contre Aspergillus contribue au diagnostic",
+            "D) L’espèce d’Aspergillus la plus fréquemment isolée est Aspergillus flavus",
+            "E) La culture du LBA et la PCR Aspergillus peuvent contribuer au diagnostic"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel traitement prescririez-vous en première intention à M. M pour traiter son aspergillose pulmonaire invasive ?",
+          "choix": [
+            "A) Fluconazole",
+            "B) Caspofungine",
+            "C) Albendazole",
+            "D) 5-Fluorocytosine",
+            "E) Voriconazole"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293813995-359e8df017889",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la femme enceinte séronégative pour la toxoplasmose, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) La surveillance sérologique doit être mensuelle",
+            "B) Un contrôle sérologique doit être fait 1 mois après l’accouchement",
+            "C) La séroprévalence de la toxoplasmose en France diminue",
+            "D) Une séroconversion au cours du 3ème trimestre doit conduire à une interruption de grossesse",
+            "E) La consommation d’œufs doit être proscrite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) parasitose(s) que vous pourriez contracter en France métropolitaine ?",
+          "choix": [
+            "A) Une leishmaniose",
+            "B) Une strongyloïdose",
+            "C) Une toxoplasmose",
+            "D) Une toxocarose",
+            "E) Une filariose"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les sérologies parasitaires, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Elles sont utiles uniquement pour le diagnostic des protozooses",
+            "B) Elles sont utiles uniquement pour le diagnostic des helminthiases",
+            "C) Elles sont utiles uniquement pour le diagnostic des parasitoses tropicales",
+            "D) Elles aident au diagnostic des infections parasitaires tissulaires",
+            "E) Elles sont positives uniquement dans les parasitoses avec éosinophilie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) à propos des champignons du genre Malassezia ?",
+          "choix": [
+            "A) Ce sont des champignons filamenteux",
+            "B) Ils sont lipodépendants",
+            "C) Ce sont les agents du pityriasis versicolor",
+            "D) Ils sont sensibles à l’albendazole",
+            "E) Ils sont impliqués dans la dermite séborrhéique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les fongémies, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) En réanimation, elles doivent être évoquées devant une fièvre résistante aux antibiotiques",
+            "B) La mortalité associée est proche de 100 %",
+            "C) Elles sont dues le plus souvent au genre Candida",
+            "D) Elles sont dues le plus souvent au genre Aspergillus",
+            "E) Le diagnostic est basé sur la sérologie"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les dermatophytes peuvent être responsables de (1 ou plusieurs propositions exactes) :",
+          "choix": [
+            "A) Teignes",
+            "B) Epidermophyties circinées",
+            "C) Pityriasis versicolor",
+            "D) Onyxis",
+            "E) Dermite séborrhéique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (lesquelles) se rapporte(nt) à la gale ?",
+          "choix": [
+            "A) Le sillon cutané est une caractéristique clinique",
+            "B) Le diagnostic biologique repose sur la sérologie",
+            "C) C’est une ectoparasitose",
+            "D) Elle n’est observée qu’en cas de manque d’hygiène",
+            "E) Elle est due à Cimex lectularius"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la gale hyperkératosique, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Le parasite responsable est une espèce différente de celui de la gale commune",
+            "B) Les lésions contiennent un grand nombre de parasites",
+            "C) Elle est plus contagieuse que la gale commune",
+            "D) Elle est plus fréquente chez les patients immunodéprimés",
+            "E) Elle est favorisée par une application prolongée de corticoïdes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’oxyurose, quelle(s) est (sont) la (les) réponses exacte(s) ?",
+          "choix": [
+            "A) Elle se traduit par un prurit anal vespéral",
+            "B) Elle est due à Strongyloides stercoralis",
+            "C) Le ver adulte est visible à l’œil nu",
+            "D) Elle nécessite un traitement du patient et de l’entourage",
+            "E) Elle est transmise par un vecteur"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la toxoplasmose acquise, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Elle est le plus souvent asymptomatique",
+            "B) Les adénopathies sont préférentiellement cervicales",
+            "C) Le diagnostic repose sur la sérologie",
+            "D) Son dépistage est obligatoire avant la grossesse",
+            "E) Le dépistage repose sur une PCR sérique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de Cryptococcus neoformans, quelle(s) est (sont) la (les) réponses exacte(s) ?",
+          "choix": [
+            "A) C’est un champignon dimorphique",
+            "B) Il est résistant au fluconazole",
+            "C) Il est responsable de méningo-encéphalites",
+            "D) C’est un commensal de la peau",
+            "E) C’est une levure responsable d’intertrigo"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les schistosomoses, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) La contamination est transcutanée",
+            "B) Elles s’accompagnent d’une hyperéosinophilie",
+            "C) L’Homme est un hôte intermédiaire",
+            "D) L’atteinte peut être digestive ou urinaire",
+            "E) Le traitement de référence est l’ivermectine"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le teniasis à Taenia saginata, quelle(s) proposition(s) est (sont) exacte(s) ?",
+          "choix": [
+            "A) C’est une helminthiase cosmopolite",
+            "B) Les anneaux (proglottis) peuvent être émis en dehors de la défécation",
+            "C) Le diagnostic repose sur la sérologie",
+            "D) Le bœuf est l’hôte définitif",
+            "E) L’Homme se contamine par consommation de viande de bœuf insuffisamment cuite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) à propos de la giardiose ?",
+          "choix": [
+            "A) Elle doit être évoquée en cas de diarrhées au retour de pays tropical",
+            "B) L’Homme se contamine par ingestion de kystes",
+            "C) Giardia intestinalis est hématophage",
+            "D) Le diagnostic repose sur la présence de sang dans les selles",
+            "E) Le diagnostic repose sur la sérologie"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la trichomonose, quelle(s) est (sont) la (les) réponses exacte(s) ?",
+          "choix": [
+            "A) La trichomonose est une maladie strictement humaine due à un helminthe",
+            "B) Chez la femme, la trichomonose peut être à l’origine d’une vulvovaginite associée à des leucorrhées hémorragiques",
+            "C) Chez la femme, la trichomonose est symptomatique uniquement chez les patientes immunodéprimées",
+            "D) Chez l’homme, la trichomonose est le plus souvent asymptomatique",
+            "E) Le traitement de première intention est le métronidazole"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’accès palustre à Plasmodium falciparum, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Dans 99 % des cas, l’infection survient moins de 15 jours après le retour de la zone d’endémie",
+            "B) Il peut survenir plusieurs années après le retour de la zone d’endémie",
+            "C) La phase hépatique est asymptomatique",
+            "D) Le signe d'orientation biologique le plus fréquemment observé est l'anémie",
+            "E) C’est la seule espèce responsable d'accès de reviviscence"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

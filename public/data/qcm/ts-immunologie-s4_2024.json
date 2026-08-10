@@ -1,0 +1,421 @@
+{
+  "matiere": "Tissu sanguin – Immunologie",
+  "slug": "ts-immunologie-s4",
+  "annee": 2024,
+  "title": "Tissu sanguin – Immunologie - 2024",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la tolérance centrale :",
+          "choix": [
+            "A) Elle se déroule dans les organes lymphoides primaires et secondaires",
+            "B) Les thymocytes auto-réactifs peuvent éditer leur TCR pour permettre un réarrangement secondaire et échapper à la délétion",
+            "C) Les thymocytes dont le TCR présente une affinité intermédiaire pour des auto-antigènes sont sélectionnés positivement",
+            "D) La sélection intra-thymique élimine environ 95% des thymocytes en développement",
+            "E) L’anergie est un mécanisme de sélection positive des précurseurs lymphocytaires B"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la tolérance périphérique:",
+          "choix": [
+            "A) Elle se déroule dans les organes lymphoides primaires",
+            "B) Les lymphocytes T régulateurs sont principalement de phénotype CD4+",
+            "C) Foxp3 est un facteur de transcription essentiel des lymphocytes T régulateurs CD4+",
+            "D) Il existe des lymphocytes T régulateurs naturels et induits",
+            "E) Les cellules dendritiques immatures sont tolérogènes pour les lymphocytes T CD4+ naifs"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système HLA:",
+          "choix": [
+            "A) C’est un système multi-allélique",
+            "B) Les gènes du système HLA sont monomorphiques",
+            "C) Il existe des molécules HLA de classe I et de classe II",
+            "D) Les molécules HLA présentent des peptides antigéniques aux lymphocytes T",
+            "E) Les molécules HLA présentent des antigènes aux lymphocytes B"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des récepteurs antigéniques :",
+          "choix": [
+            "A) Le B-Cell Receptor (BCR) est une immunoglobuline membranaire",
+            "B) Les lymphocytes B naifs portent à leur surface une IgM",
+            "C) Le T-Cell Receptor (TCR) est exclusivement membranaire",
+            "D) Le BCR et le TCR sont des récepteurs réarrangés",
+            "E) Le BCR et le TCR sont exprimés sur les progéniteurs lymphoides"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la polarisation des lymphocytes T :",
+          "choix": [
+            "A) La polarisation dépend du signal 3 de l’activation lymphocytaire",
+            "B) La polarisation est dépendante de signaux cytokiniques principalement",
+            "C) La polarisation se déroule dans les organes lymphoides secondaires",
+            "D) Les lymphocytes T Th1 sont des T CD8+ producteurs d’IFN gamma",
+            "E) Les lymphocytes T Th2 sont impliqués dans les réponses anti-virales"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des cellules phagocytaires :",
+          "choix": [
+            "A) Elles se développent dans la moelle osseuse",
+            "B) Elles sont capables de produire des cytokines inflammatoires",
+            "C) Elles résident majoritairement dans la moelle osseuse",
+            "D) Elles font partie de l’immunité innée",
+            "E) Elles peuvent produire des anticorps"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système du Complément :",
+          "choix": [
+            "A) Il inclut des protéines plasmatiques et des cellules phagocytaires",
+            "B) Il est capable d’induire une lyse directe des bactéries",
+            "C) La voie classique d’activation du complément est dépendante des anticorps",
+            "D) La voie alterne d’activation du complément est dépendante des lymphocytes T",
+            "E) L’activation du complément induit la libération d’anaphylatoxines"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’activation des cellules de l’immunité innée :",
+          "choix": [
+            "A) Elle dépend principalement de récepteurs appelés «Pattern-Recognition Receptors « (PRR)",
+            "B) Les PRR sont spécifiques d’antigènes polysaccharidiques",
+            "C) Seules les cellules dendritiques expriment des PRR",
+            "D) Les PRR peuvent reconnaitre des molécules endogènes libérées par des nécroses tissulaires importantes",
+            "E) L’activation des cellules de l’immunité innée par les PRR induit généralement une réaction inflammatoire"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des antigènes :",
+          "choix": [
+            "A) Ils sont généralement de composition très diverse : protéique, lipidique ou polysaccharidique",
+            "B) Les antigènes sont par définition immunogènes",
+            "C) Les antigènes induisent la réponse inflammatoire par activation des cellules phagocytaires",
+            "D) Les antigènes sont toujours d’origine infectieuse",
+            "E) Les antigènes se lient directement ou indirectement aux récepteurs antigéniques"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des cytokines :",
+          "choix": [
+            "A) Elles ont toujours une action endocrine",
+            "B) L’IL-6 est la principale cytokine de polarisation des lymphocytes T CD4+",
+            "C) Le « Tumor Necrosis Factor » (TNF)-alpha est une cytokine immunosuppressive",
+            "D) L’interféron gamma caractérise les lymphocytes T Th1",
+            "E) Les chimiokines sont des cytokines"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la structure des Immunoglobulines (Ig) :",
+          "choix": [
+            "A) Il existe 2 types de chaines légères : lambda et oméga",
+            "B) Il existe 5 types de chaines lourdes",
+            "C) Le paratope est le site de fixation à l’antigène",
+            "D) Le fragment Fc définit les isotypes d’Ig",
+            "E) Les IgA peuvent être dimériques"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des macrophages :",
+          "choix": [
+            "A) Ce sont des cellules tissulaires",
+            "B) Ils dérivent des plasmocytes sanguins",
+            "C) Ce sont des cellules présentatrices d’antigène professionnelles",
+            "D) Ils sont présents dans la grande majorité des tissus",
+            "E) Leurs fonctions microbicides sont amplifiées par l’interféron gamma"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’activation des lymphocytes T :",
+          "choix": [
+            "A) Les lymphocytes T naifs sont activés dans les ganglions lymphatiques",
+            "B) L’activation et la polarisation des lymphocytes T nécessitent 3 signaux",
+            "C) La co-stimulation (signal 2) peut remplacer le signal 1",
+            "D) La reconnaissance antigénique en absence de co-stimulation entraine une prolifération sans différenciation",
+            "E) Les lymphocytes T CD4+ naifs sont activés exclusivement par des cellules présentatrices d’antigène professionnelles"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la commutation isotypique et de la maturation d’affinité :",
+          "choix": [
+            "A) La commutation isotypique permet de modifier la spécificité antigénique des Immunoglobulines",
+            "B) La maturation d’affinité est dépendante du phénomène d’hyper-mutations somatiques",
+            "C) La commutation et la maturation d’affinité dépendent des interactions avec les lymphocytes T CD4+",
+            "D) Les hyper-mutations somatiques modifient la séquence des régions variables du TCR",
+            "E) La commutation isotypique permet de modifier une IgA en IgM au cours de la réponse immunitaire"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des fonctions des Immunoglobulines (Ig) :",
+          "choix": [
+            "A) Les IgM activent le complément par la voie alterne",
+            "B) Les IgG sont transportées au travers du placenta dans le sang fœtal",
+            "C) Les IgA n’activent pas le complément",
+            "D) Les fonctions d’opsonisation et de cytotoxicité dépendante des anticorps (ADCC) dépendent du domaine constant.",
+            "E) La neutralisation est un élément majeur de la défense contre les toxines bactériennes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du système HLA :",
+          "choix": [
+            "A) Les molécules HLA de classe 1 ne sont exprimées que dans le thymus",
+            "B) Les gènes HLA sont transmis par haplotypes",
+            "C) Il existe une co-dominance des gènes HLA",
+            "D) Les molécules HLA de classe II présentent des antigènes d’origine exogène",
+            "E) La transmission des gènes HLA est de type mendélienne",
+            "F) Réponse F"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des anticorps :",
+          "choix": [
+            "A) Les anticorps circulants sont polyclonaux chez un sujet sain",
+            "B) Le taux circulant de tous les isotypes est bas à la naissance",
+            "C) L’électrophorèse des protéines sériques permet le dosage des gamma-globulines",
+            "D) Les IgE sont abondantes dans les muqueuses",
+            "E) Les IgG constituent la majorité des anticorps sériques"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la réponse immunitaire adaptative :",
+          "choix": [
+            "A) La réponse immunitaire primaire nécessite 1 mois pour être efficace.",
+            "B) La réponse immunitaire secondaire repose sur l’existence de cellules mémoires innées et adaptatives.",
+            "C) La réponse immunitaire secondaire est caractérisée par une production rapide d’anticorps d’isotype autre que IgM (IgG et/ou IgA)",
+            "D) Les lymphocytes mémoires peuvent persister pendant des années dans l’organisme",
+            "E) La clairance d’un agent infectieux est suivie de l’élimination de la grande majorité des lymphocytes T/B effecteurs produits en réponse aux antigènes."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’activation des lymphocytes B :",
+          "choix": [
+            "A) L’activation des lymphocytes B par des antigènes protéiques nécessite l’aide des lymphocytes T CD4+",
+            "B) L’interaction entre un lymphocyte B et un lymphocyte T nécessite qu’ils présentent la même spécificité antigénique",
+            "C) Les antigènes polysaccharidiques constitués de motifs répétés sont des antigènes thymo-indépendants",
+            "D) Les lymphocytes B ne prolifèrent pas lors de l’activation par un antigène.",
+            "E) Les lymphocytes T CD8+ peuvent coopérer avec les lymphocytes B pour induire leur différenciation en plasmocyte"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des polynucléaires neutrophiles :",
+          "choix": [
+            "A) Ils ont une courte durée de vie",
+            "B) Ils phagocytent les pathogènes et les corps apoptotiques",
+            "C) Ils peuvent émettre des « NET » (Neutrophil-Extracellular Traps) pour piéger et tuer les microorganismes",
+            "D) Ils résident fréquemment dans les tissus",
+            "E) Ils peuvent activer les lymphocytes T CD4+"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

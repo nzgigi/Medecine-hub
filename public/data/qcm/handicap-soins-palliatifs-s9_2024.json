@@ -1,0 +1,766 @@
+{
+  "matiere": "Handicap et soins palliatifs",
+  "slug": "handicap-soins-palliatifs-s9",
+  "annee": 2024,
+  "title": "Handicap et soins palliatifs - 2024",
+  "total_questions": 29,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes interne de gastro-entérologie, posté de garde aux urgences et recevez Mme D…, âgée de 59 ans, pour douleurs abdominales et vomissements.\nEn lisant son dossier vous découvrez qu’elle est suivie par l’équipe d’oncologie digestive dans le cadre d’une néoplasie pancréatique depuis quelques mois. Elle est en situation métastatique hépatique synchrone, actuellement en cours d’une 2e ligne de chimiothérapie.\nMme vit avec son époux à son domicile. Elle est actuellement en arrêt de travail, elle est autonome dans les activités de la vie quotidienne mais nécessite l’aide de son mari pour l’entretien de la maison. Elle reste alitée moins de la moitié de sa journée.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant la situation de Mme D… (2 réponses exactes)",
+          "choix": [
+            "A) Elle est classée 3 selon l’indice de performans status de l’OMS",
+            "B) Elle est en situation palliative depuis le diagnostic de sa néoplasie",
+            "C) Les traitements entrepris seront uniquement symptomatiques dans ce contexte",
+            "D) La phase palliative débute lorsque la fin de vie est attendue à court terme",
+            "E) L’objectif principal de sa prise en soins doit être le maintien de sa qualité de vie"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A l’interrogatoire, Mme D… vous rapporte des vomissements abondants et bilieux suite aux prises alimentaires, avec des douleurs abdominales violentes depuis ce matin.\nA l’examen clinique vous retrouvez une absence de bruits hydro-aériques, un ventre plat mais non dépressible, douloureux dans son ensemble à la palpation.\nVotre hypothèse diagnostique principale est (sans majuscules ni accents)",
+          "choix": [],
+          "reponses": [
+            "syndrome occlusif",
+            "occlusion",
+            "occlusion intestinale",
+            "occlusion digestive",
+            "occlusion sur carcinose",
+            "occlusion intestinale sur carcinose",
+            "syndrome occlusif sur carcinose",
+            "occlusion digestive sur carcinose",
+            "occlusion sur carcinose péritonéale",
+            "occlusion intestinale sur carcinose péritonéale",
+            "syndrome occlusif sur carcinose péritonéale",
+            "occlusion digestive sur carcinose péritonéale",
+            "occlusion digestive haute",
+            "occlusion intestinale haute",
+            "syndrome occlusif haut",
+            "oclusion digestive",
+            "occlusion abdominal",
+            "occlusion du grêle",
+            "occlusion des vois digestives",
+            "occlusion instestinale",
+            "occlusion intestinal",
+            "Occlusion intestinale (haute)",
+            "Occlusion digestive haute",
+            "Occlusion abdominale",
+            "Occlusion sur métastases péritonéale",
+            "occlusion par compression tumorale",
+            "oclusion",
+            "syndrome d´occlusion intestinale",
+            "syndrôme occlusif haut",
+            "syndrome occlusif sur possible carcinose peritoneale",
+            "syndrome occlussif",
+            "occlusion intenstinale haute",
+            "occlusion grelique",
+            "occlusion abdominale haute",
+            "syndrome occlusif haut situé",
+            "occlusion grele",
+            "syndrome occlusif sur potentielle carcinose péritonéale"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez un syndrome occlusif.\nQuel examen paraclinique réalisez vous ? (1 seule réponse exacte)",
+          "choix": [
+            "A) Un cliché d’abdomen sans préparation",
+            "B) Une TDM abdominopelvienne",
+            "C) Aucun examen complémentaire dans ce contexte palliatif",
+            "D) Un bilan biologique seul : ionogramme, fonction rénale, marqueurs de l’inflammation, NFS-plaquettes",
+            "E) Une échographie abdominale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La TDM abdominopelvienne vous montre un syndrome occlusif avec des éléments en faveur d’une carcinose péritonéale. Concernant la prise en charge thérapeutique (3 réponses exactes)",
+          "choix": [
+            "A) Une pose de sonde nasogastrique est contre-indiquée en situation palliative",
+            "B) Les opioïdes forts sont contre-indiqués dans ce contexte",
+            "C) Il n’y a pas d’indication chirurgicale",
+            "D) Vous mettez en place une corticothérapie par voie intraveineuse",
+            "E) Vous mettez en place des traitements antisécrétoires gastriques et intestinaux"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel neuroleptique à visée antiémétique est contre-indiqué dans l’occlusion intestinale ? (sans majuscules ni accents)",
+          "choix": [],
+          "reponses": [
+            "metoclopramide",
+            "primperan",
+            "metochlopramide",
+            "métoclopamide",
+            "metocoprolamide",
+            "metoclopiramide",
+            "metoclorpramine",
+            "métoclopramine",
+            "metocloramide",
+            "mecroproclamide",
+            "metoclorapide",
+            "metopromide",
+            "metoclopramine",
+            "metocloropramide",
+            "metoproclamide",
+            "metocloporamide",
+            "métoxlopramide",
+            "metocloptamide",
+            "metrocloplamide",
+            "metroclopramide"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Après avoir débuté un traitement médicamenteux adapté, Mme est hospitalisée dans le service de gastro-entérologie pour la suite de la prise en soin.\nVous la retrouvez dans votre secteur d’hospitalisation à la suite de votre repos de garde.\nMalheureusement le syndrome occlusif ne se lève pas en dépit du traitement médical optimal, Mme reste nauséeuse et présente des vomissements quotidiens malgré la pose d’une sonde naso-gastrique.\nDurant une journée elle présente une dyspnée aiguë, probablement en lien avec une inhalation massive.\nConcernant la prise en charge de la dyspnée spécifiquement en situation palliative (2 réponse exactes)",
+          "choix": [
+            "A) Les opioïdes sont contre-indiqués en cas d’insuffisance respiratoire chronique",
+            "B) Les opioïdes peuvent être utilisés en l’absence de polypnée",
+            "C) Les benzodiazépines sont utilisées uniquement à visée sédative",
+            "D) L’oxygénothérapie est toujours soumise à un objectif de saturation",
+            "E) La transfusion de culots globulaires n’a pas sa place dans ce contexte"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les moyens thérapeutiques adaptés mis en place restent inefficaces, l’état clinique de Mme évolue vers une détresse respiratoire aiguë asphyxique. Devant la gravité du tableau clinique et l’absence d’amélioration du syndrome occlusif en contexte palliatif il est acté la mise en place d’une sédation proportionnée en accord avec la patiente.\nConcernant les indications des pratiques sédatives",
+          "choix": [
+            "A) Une sédation proportionnée peut être proposée devant une situation symptomatique réfractaire",
+            "B) Une sédation proportionnée a pour objectif la perte de conscience totale du patient",
+            "C) Une sédation profonde et continue maintenue jusqu’au décès ne peut être mise en place qu’à la demande du patient",
+            "D) La détresse respiratoire asphyxique correspond à une situation où le risque vital est immédiat",
+            "E) Les symptômes psychiques isolés peuvent être à l’origine d’une sédation"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques heures après la mise en place du traitement sédatif, alors que Mme semble apaisée, il est constaté l’apparition de marbrures aux membres inférieurs, la respiration se modifie et l’infirmière vous rapporte des pauses respiratoires et des râles. Mme décède dans les heures qui suivent, entourée de sa famille.\nConcernant la phase terminale",
+          "choix": [
+            "A) La phase agonique peut être réversible",
+            "B) La phase terminale correspond à une défaillance progressive des fonctions respiratoires, circulatoires et neurologiques",
+            "C) L’entrée en phase terminale peut être repérée par des signes spécifiques",
+            "D) On peut constater des épisodes de diarrhées profuses au cours de la phase terminale",
+            "E) La phase agonique est marquée par l’abolition du réflexe cornéen"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295971500-0207811bb5d7b",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La douleur chronique (1 seule réponse exacte)",
+          "choix": [
+            "A) Est une douleur qui évolue depuis plus de 6 mois",
+            "B) Est utile",
+            "C) Est pluridimensionnelle",
+            "D) Est unifactorielle",
+            "E) Se guérit toujours"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est l’outil diagnostic utilisé pour dépister les douleurs neuropathiques ? (sans majuscules, sans accent et en toutes lettres)",
+          "choix": [],
+          "reponses": [
+            "questionnaire dn4",
+            "questionnaire douleur neuropathique en 4 questions",
+            "dn4",
+            "dn 4",
+            "dn quatre",
+            "questionnaire dn 4",
+            "questionnaire dn quatre",
+            "douleur neuropathique quatre",
+            "questionnaire douleur neuropathique 4",
+            "questionnaire douleur neuropathique quatre",
+            "douleur neuropathique 4",
+            "echelle dn4",
+            "echelle douleur neuropathique 4",
+            "score dn4",
+            "echelle DN4",
+            "questionnaire douleurs neuropathiques quatre",
+            "dn4 douleur neuropathique 4",
+            "questionnaire douleurs neuropathiques 4",
+            "echelle douleur neuropathique quatre",
+            "douleurs neuropathiques 4",
+            "questionnaire douleur neuropathique 4 (dn4)",
+            "score douleur neuropathique 4",
+            "douleurs neuropathiques quatre",
+            "depistage neuropathies 4",
+            "questionnaire douleurs neuropathiques quatre (dn4)",
+            "echelle dn quatre",
+            "echelle de douleur dn4",
+            "echelle douleurs neuropathiques 4",
+            "questionaire dn quatre",
+            "questionaire douleur neuropathique 4",
+            "questionnaire douleur neuropathique dn4",
+            "Score dnquatre",
+            "questionnaire dn4 (douleurs neuropathiques 4)",
+            "score de douleurs neuropathiques 4",
+            "dn quatre (DN4)",
+            "test de douleurs neuropathiques quatre (dn4)",
+            "Questionnaire dn4 (douleur neuropathique 4)",
+            "echelle des douleurs neuropathiques 4",
+            "questionnaire douleur neuropathique 4 (DN4)",
+            "le questionnaire DN4",
+            "score douleur neuropathique quatre",
+            "questionnaire dnquatre",
+            "echelle douleur neuropathique 4 (DN4)",
+            "questionnaire Douleur Neuropathiques 4 (DN4)",
+            "échelle DN4",
+            "questionnaire douleur neuropatique 4",
+            "questionnaire dn quattre",
+            "questionnaire de la douleur neuropathique quatre (dn4)",
+            "echelle de douleur neuropathique quatre",
+            "echelle douleur neuropathique (dn4)",
+            "questionnaire de douleur neuropathique quatre",
+            "questionnaire douleurs neuropathique 4",
+            "Questionnaire douleur neuropathique 4",
+            "questionnaire d n quatre",
+            "echelle dn4 (douleur neuropathique 4)",
+            "Douleurs neuropathiques 4",
+            "Echelle douleur neuropathique 4",
+            "Score DN4",
+            "questionnaire de depistage de douleur neuropathique 4 (dn4)",
+            "questionnaire Douleur Neuropathique 4",
+            "douleurs neuropathiques 4 (DN4)",
+            "douleur neuropathiques 4",
+            "questionnaire Douleurs neuropathiques 4 DN4"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous voyez pour la première fois en consultation Mme F. 65 ans pour des douleurs des membres inférieurs englobant les 2 pieds et remontant sous les genoux. Elle est traitée pour un diabète de type 2 depuis 15 ans, elle est sevrée de l’alcool depuis 3 ans. Elle mesure 165 cm pour 98 kg.\nQuelles questions précises pouvez-vous poser pour affiner le diagnostic sur la nature des douleurs de Mme F. ? (7 réponses exactes)",
+          "choix": [
+            "A) Intensité de la douleur sur une échelle de 1 à 10",
+            "B) Equilibre du diabète",
+            "C) Activités de loisir pratiquées",
+            "D) Qualité de la douleur (par exemple brûlure, douleur profonde, décharge électrique, etc.)",
+            "E) Traitements antalgiques essayés",
+            "F) Besoin de se lever la nuit pour uriner",
+            "G) Sensation de perte de sensibilité au niveau des pieds ou de marcher sur du coton",
+            "H) Sensation de froid douloureux au niveau des jambes",
+            "I) Difficulté à supporter le poids ou le frottement des draps la nuit",
+            "J) Paresthésies associées (fourmillement, picotement…)",
+            "K) Sensation de démangeaison",
+            "L) Anxiété associée"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K"
+          ],
+          "maxReponses": 7,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les nocicepteurs",
+          "choix": [
+            "A) Les mécanonocicepteurs répondent à des pressions d’intensités basses",
+            "B) Les mécanonocicepteurs répondent à des pressions d’intensités élevées",
+            "C) Les thermonocicepteurs répondent soit à des températures basses soit élevées",
+            "D) Les chémonocicepteurs répondent à des molécules chimiques algogènes",
+            "E) Les nocicepteurs polymodaux répondent à quatre modalités de stimulations différentes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La douleur est une expérience qui s’articule autour des composantes suivantes",
+          "choix": [
+            "A) Sensori-discriminative",
+            "B) Affective",
+            "C) Relationnelle",
+            "D) Cognitive",
+            "E) Expérimentale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les deux principaux facteurs de risque de survenue d'une paralysie cérébrale?",
+          "choix": [
+            "A) Trisomie 21",
+            "B) Prématurité",
+            "C) Accouchement dystocique",
+            "D) Syndrome du cordon ombilical",
+            "E) Faible poids de naissance"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les rachialgies, donnez les réponses vraies :",
+          "choix": [
+            "A) Une douleur reproduite en extension du rachis dorsolombaire signe une atteinte discale.",
+            "B) Les mobilités du rachis dorsolombaire sont permises principalement par la charnière dorsolombaire.",
+            "C) La contracture des muscles érecteurs du rachis participe grandement à la douleur du \"lumbago\".",
+            "D) L'utilisation d'une minerve souple peut être utile pour la prise en charge d'une névralgie cervico-brachiale.",
+            "E) Toutes rachialgies aigues nécessitent un bilan d'imagerie."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez un patient de 54 ans en consultation pour une gonalgie gauche. Votre examen clinique est principalement marqué par une douleur reproduite à la palpation de l’interligne fémoro-tibiale interne associée à un léger épanchement intra-articulaire. Le bilan d'imagerie est le suivant. Quelle est la seule réponse fausse ?",
+          "choix": [
+            "A) Vous lui proposez de rencontrer un(e) podologue pour confectionner des orthèses podales avec coin valgisant.",
+            "B) Dans ce cas, une prise en charge infiltrative peut être proposée.",
+            "C) Vous lui proposez de consulter un chirurgien orthopédique pour discuter de l’arthroplastie de genou.",
+            "D) Vous lui proposez de poursuivre ses activités physiques et sportives (cyclisme, natation, yoga).",
+            "E) L'indice algo-fonctionnel de Lequesne nous aidera à évaluer l’impact fonctionnel de cette gonarthrose."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "images": [
+            "/images/qcm/handicap-soins-palliatifs-s9/2024/q16.png?v=1786295986090"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous examinez un patient de 54 ans ayant présenté il y a 1 mois un AVC ischémique sylvien superficiel droit. Lors de la stimulation cutanée bilatérale, il ne perçoit pas le stimulus du côté gauche, alors qu'il est perçu correctement lors de la stimulation unilatérale. Vous lui faites lire une phrase, il commence au milieu de la phrase et la termine correctement. Comment se nomme la déficience présentée par le patient ? (1 à 3 mots, le côté de la déficience ne doit pas être précisé)",
+          "choix": [],
+          "reponses": [
+            "Négligence spatiale unilatérale",
+            "Héminégligence",
+            "NSU",
+            "Négligence unilatérale",
+            "héminégligeance",
+            "hémi-négligence",
+            "heminegligeance",
+            "héminégligence gauche",
+            "Héminégligeance",
+            "Hémi-négligence",
+            "hemi negligence",
+            "héminegligance",
+            "heminegligence hemianosognosie",
+            "hemi- negligence",
+            "heminegligance",
+            "heminegligence gauche",
+            "syndrome hemisphere mineur",
+            "Hemi negligance",
+            "heminégligeance",
+            "syndrome d'Anton-Babinski",
+            "hémi négligence",
+            "Syndrome d'Anton Babinski",
+            "syndrome d’Anton Babinski",
+            "hémie négligence",
+            "hémi négligeance",
+            "syndrome d'héminégligence",
+            "Syndrome d’héminégligence",
+            "syndrome anton-babinski",
+            "Syndrome Anton-Babinski",
+            "Syndrome d'héminégligence",
+            "héminégligence ; anosognosie"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de l'activité physique adaptée, donnez les réponses vraies (3)",
+          "choix": [
+            "A) L'Organisation Mondiale de la Santé recommande chez l'adulte, la pratique d'un minimum hebdomadaire de 150 minutes d'activité physique d'intensité modérée.",
+            "B) Il est possible de rédiger des ordonnances pour la prescription d'activité physique adaptée.",
+            "C) Dans le cadre d'une ALD, il existe un remboursement partiel par la sécurité sociale des séances d'activité physique adaptée prescrites.",
+            "D) Dans le cadre d'une amputation traumatique du membre inférieur, l'activité physique occupe un rôle majeur dans la prévention primaire de nombreuse pathologies chroniques.",
+            "E) La Maison Départementale des Personnes Handicapées (MDPH), rembourse le matériel utile à la pratique d'activité physique et ou sportive des personnes en situations de handicap."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295992615-9ca962c0d6d108",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez dans le service de Médecine Physique et ed Réadaptation, un patient de 24 ans ayant fait une chute en montagne 20 jours plus tôt responsable, d’une fracture complexe de la 1ère vertèbre lombaire (L1) et d’une lésion médullaire.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous l’examinez à l’entrée et souhaitez faire un examen clinique précis. Quelle échelle de déficience spécifique allez-vous utiliser ?",
+          "choix": [
+            "A) Score EDSS",
+            "B) Score NIHSS",
+            "C) Score ASIA",
+            "D) Testing MRC",
+            "E) UPDRS"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Avec son score ASIA, vous voyez qu’il présente un déficit moteur complet des membres inférieurs alors que les abdominaux sont préservés. Il n’a pas de sensibilité en dessous des creux inguinaux, jusqu’à l’anus alors qu'elle est normale sur l'abdomen. Il ne sent ni les besoins, ni les selles, ni la sonde urinaire. Il n‘a pas de contraction anale volontaire mais une contraction réflexe à la piqure de la marge anale. Une spasticité est présente à l’étirement des triceps suraux.\nQuelle proposition décrit son tableau neurologique ?",
+          "choix": [
+            "A) Paraplégie T12 échelle de déficience AIS A",
+            "B) Paraplégie T12 échelle de déficience AIS E",
+            "C) Paraplégie L1 échelle de déficience AIS A",
+            "D) Paraplégie L1 échelle de déficience AIS E",
+            "E) Syndrome de la queue de cheval par atteinte L1"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les difficultés suivantes, quelles sont les 2 limitations d’activités qu’il présente selon la Classification International du Fonctionnement (OMS) ?",
+          "choix": [
+            "A) Impossibilité de gérer ses urines et ses selles seul",
+            "B) Impossibilité de pratique l’escalade qui est son sport favori",
+            "C) Impossibilité à monter et descendre les escaliers",
+            "D) Impossibilité de mobiliser ses membres inférieurs",
+            "E) Impossibilité de travailler (il est charpentier)"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au niveau urinaire, les explorations montrent la présence d’une vessie hysposensible, une hyperactivité détrusorienne et d’une dyssynergie vésico-spinctérienne. Il n’a pas de problème de transit.\nQuelle(s) prise(s) en charge est(sont) conseillée(s) en 1ère intention ?",
+          "choix": [
+            "A) Maintien de la sonde à demeure",
+            "B) Essai de retrait de la sonde à demeure et de reprises de mictions spontanées",
+            "C) Apprentissage des auto-sondages intermittents propres",
+            "D) Traitement anti-cholinergique tel que solifenacine ou chlorure de trospium",
+            "E) Traitement alpha-bloquants tel que la tamsulosine"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295993931-ccb6a5ce109d28",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez dans le service de Médecine Physique et de Réadaptation Monsieur R, 48 ans. Il a présenté il y a 2 semaines un AVC ischémique sylvien superficiel gauche.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A quelles déficiences vous attendez vous ?",
+          "choix": [
+            "A) Une hémiplégie droite à prédominance brachiofaciale",
+            "B) Une hémiplégie droite proportionnelle",
+            "C) Une aphasie plutôt qu'une héminégligence",
+            "D) Une héminégligence plutôt qu'une aphasie",
+            "E) Un trouble de la mémoire"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il présente en effet une hémiplégie droite à prédominance brachiofaciale avec un trouble du langage.\nA quel(s) thérapeute(s) de votre service adressez vous Monsieur R. ?",
+          "choix": [
+            "A) Ergothérapeute pour le bilan de la réalisation des activités de vie quotidienne",
+            "B) Kinésithérapeute pour la rééducation motrice et fonctionnelle",
+            "C) Orthophoniste pour le bilan du langage",
+            "D) Kinésithérapeute ou Orthophoniste pour le bilan de la paralysie faciale",
+            "E) Enseignant en activité physique adaptée dès le début de la price en charge"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours de la prise en charge, Monsieur R récupère l'autonomie à la marche sans aide technique\nConcernant ses troubles de la marche (2 vidéos)\nLien de la vidéo : /servefc/1065778\nLien de la vidéo : /servefc/1065770",
+          "choix": [
+            "A) Il existe un élargissement du polygone de sustentation",
+            "B) La vitesse est physiologique",
+            "C) En phase d'appui à droite il présente un récurvatum",
+            "D) Le contact initial à droite est sur le bord externe du pied",
+            "E) Au cours de la phase oscillante il existe un défaut flexion de genou à droite"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Monsieur R. rapporte trébucher fréquemment, il n'a pas chuté mais est en difficulté pour monter les escaliers.\nConcernant la prise en charge rééducative et réadaptative du membre inférieur droit et dans l'objectif de diminuer l'accrochage de la pointe du pied au sol :",
+          "choix": [
+            "A) Vous pouvez prescrire l'achat d'un releveur à mat postérieur de série sur une ordonnance bizone",
+            "B) Vous pouvez lui proposer de réaliser une injection de toxine botulique s'il présente de la spasticité sur son triceps sural.",
+            "C) Vous lui proposez une chirurgie du pied varus équin en première intention",
+            "D) Vous pouvez lui proposer du Baclofène s'il présente une spasticité localisé au membre inférieur",
+            "E) La spasticité est un signe clinique déclenché par l'examinateur au cours d'un mouvement d'étirement d'un groupe musculaire à vitesse lente"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295995502-cf9830c990c14",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous voyez en consultation le petit Louis âgé de 2 ans. Sa mère s’inquiète car il marche sur la pointe des pieds. Louis est né à 30 semaines d’aménorrhée avec un poids de naissance 1.5 kg. Il a acquis la marche à 18 mois et rapidement s’est mis à marcher sur la pointe des pieds. Vous constatez effectivement qu’il marche sur la pointe des pieds sans contact des talons durant tout le cycle de marche. Les genoux et les hanches sont en position physiologique au cours du cycle de marche. Au repos les pieds sont à plat au sol et les genoux tendus. Les pieds ne sont pas creux et en décubitus dorsal la dorsiflexion à vitesse lente est de +20° genou tendu. Lorsque vous examinez le petit louis debout en flexion du tronc vers l’avant, vous constatez une « voussures des cotes » du côté gauche : l’hémithorax gauche dépasse par comparaison au coté droit. Vous constatez aussi une limitation de l’angle poplité à 90 +60°. Les ROT sont vifs et diffusés aux membres inférieurs et le cutané plantaire est en extension.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 27,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Compte tenu de l'épidémiologie des handicaps moteurs chez l'enfant et des antécédents de cet enfant quel est votre diagnostic principal ?",
+          "choix": [],
+          "reponses": [
+            "paralysie cérébrale",
+            "paralysice cérébrale",
+            "paralysie cérébrale infantile",
+            "paralysie cérébral",
+            "paralysie cerebrale perinatale à expression motrice",
+            "Paralysie cérébrale motrice",
+            "la paralysie cérébrale",
+            "paralysie cerebral"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 28,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 4 anomalies que vous retenez chez cet enfant en faveur du diagnostic de Paralysie Cérébrale ?",
+          "choix": [
+            "A) une marche avec fauchage",
+            "B) Un réflexe cutané plantaire physiologique à cet âge",
+            "C) une gibbosité thoracique gauche évocatrice d'une scoliose thoraco-lombaire",
+            "D) un équin dynamique des deux chevilles",
+            "E) un genou raide",
+            "F) des antécédents de prématurité et un faible poids de naissance",
+            "G) des symptômes psycho-somatiques",
+            "H) Un syndrome pyramidal des membres inférieurs"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "F",
+            "H"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 29,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous décrivez à sa maman le pronostic et le suivi que nécessite ce diagnostic principal. Quelles sont les 5 propositions vraies?",
+          "choix": [
+            "A) Son état de santé justifie d'une scolarisation en milieu spécialisé",
+            "B) sa pathologie justifie d'un suivi médical régulier au moins jusqu'à l'âge adulte",
+            "C) le pronostic de cet affection peut d'ores et déjà être fixé",
+            "D) il s'agit d'une pathologie évolutive",
+            "E) cet enfant présente une scoliose qui devra être suivi tout au long de sa vie",
+            "F) il s'agit d'une pathologie exposant à des retards d'acquisition et des troubles des apprentissages du langage et des praxies",
+            "G) cet enfant nécessitera un suivi médical et paramédical pluridisciplinaire au moins jusqu'à l'âge adulte",
+            "H) Le projet personnalisé de scolarisation devra faire l'objet d'une aide financière de la caisse primaire d'assurance maladie",
+            "I) il pourra bénéficier d'un financement par la MDPH des séances d'ergothérapie dont il a besoin"
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "F",
+            "G",
+            "I"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

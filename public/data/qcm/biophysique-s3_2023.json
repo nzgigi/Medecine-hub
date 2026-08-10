@@ -1,0 +1,232 @@
+{
+  "matiere": "Biophysique",
+  "slug": "biophysique-s3",
+  "annee": 2023,
+  "title": "Biophysique - 2023",
+  "total_questions": 10,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "L’éditorial de 2021 de la revue « Radioprotection » précisait :\n« Il est clairement établi que le scanner contribue à plus de 50 % des doses aux patients .\nL’examen scanner est en soi un examen « dosant » largement utilisé du fait de sa contribution décisive au diagnostic rapide des maladies, au bilan d’extension des cancers, à l’orientation de la stratégie thérapeutique, au suivi des maladies et à l’efficacité des traitements et au traitement lui-même….\nIl a été évalué récemment en Iran les risques de développer des leucémies et cancers du cerveau lié à la réalisation non justifiée de scanners cérébraux (Asgari A et al. Radioprotection, 2021 ; 56(1) :25-32)\nLa dose scanner reçue par les enfants exposés peut être optimisée en suivant quelques principes pratiques de base.\nDe nouvelles préoccupations majeures au sujet des doses liées à l’utilisation du scanner sont apparues dans deux revues internationales récentes. Une revue « EuroSafe » de la Société Européenne de Radiologie indique que les doses efficaces cumulées, du fait de la répétition d’examens scanner, peut excéder 100 mSv chez un nombre de patients faible mais significatif :\n0,5 % (0–2,72) la plupart d’entre eux étant atteints de cancer (Frija et al, Eur Radiol 2021).\nUne enquête menée dans 279 hôpitaux de janvier 2015 à décembre 2019 portée sur 3,9 millions de patient-jour s’est intéressée aux protocoles scanner délivrant des doses efficaces ≥ 50 mSv en une seule journée : 9,4 % avaient subi plus d’un scanner, 0,03 % ayant reçu une dose ≥ 100 mSv et 0,8 % une dose ≥ 50 mSv, 1/3 des patients étant âgés de moins de 50 ans. Les protocoles d’imagerie scanner conduisant à une dose ≥ 50 mSv en un seul jour concernaient le thorax ou l’abdomen et le petit bassin, et presque un tiers d’entre eux étant des examens angiographiques (Rehani et al.Eur Radiol, 2021).\nCes deux études indiquent que les patients qui reçoivent de doses « élevées » du fait d’examens scanner ne sont pas rares du tout, en particulier dans certains centres. ….En conséquence, des mesures doivent être renforcées, particulièrement par la formation des médecins et manipulateurs en électroradiologie médicale à la radioprotection des patients, le recours à un physicien médical et l’utilisation des guides de bonnes pratiques concernant les indications (guide du bon usage des examens d’imagerie médicale) et la réalisation des actes (guide des bonnes procédures), afin d’améliorer les pratiques et en diminuer les risques\nPour conclure, les pratiques d’imagerie médicales et tout particulièrement celles utilisant les examens scanographiques doivent faire l’objet d’une attention particulière de la part des praticiens et des radioprotectionnistes.»\nEn partant de cet extrait d'article, concernant les risques radiologiques des scanners sur la population:",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le risque d’apparition d’un cancer liée à la radio-exposition lors des examens de radiologie diagnostique est",
+          "choix": [
+            "A) Précoce",
+            "B) Déterministe",
+            "C) Stochastique",
+            "D) Tardif",
+            "E) En relation linéaire sans seuil"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les grandeurs du risque de cancer lié à un TDM X :",
+          "choix": [
+            "A) La dose absorbée",
+            "B) La dose équivalente",
+            "C) La dose efficace",
+            "D) L’unité de mesure est le Gy",
+            "E) L’unité de mesure est le Sv"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En observant des cohortes de personnes exposées (adultes) on constate que le risque de cancer augmente de manière significative quand la dose effective cumulée dépasse :",
+          "choix": [
+            "A) 20 mSv",
+            "B) 50 mSv",
+            "C) 10 mSv",
+            "D) 100 mSv",
+            "E) 1 mSv"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les 3 plus grandes sources d’irradiation médicale à l’heure actuelle en France sont",
+          "choix": [
+            "A) L'IRM",
+            "B) La tomodensitométrie",
+            "C) Les particules émises des centrales nucléaires",
+            "D) La radiothérapie externe",
+            "E) La tomodensitométrie couplée à la tomographie d’émission de positons"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les effets précoces et tardifs des radiations ionisantes",
+          "choix": [
+            "A) les lésions radio induites de l’ADN sont spécifiques de l’origine radiologique",
+            "B) toutes les lésions radio-induites entrainent une mutation",
+            "C) la condition obligatoire pour observer un effet stochastique est l’induction de lésion radio-induite létale au niveau cellulaire",
+            "D) les effets aigus sont fonction de la dose",
+            "E) la radiothérapie occasionne des effets secondaires précoces"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les affirmations correctes",
+          "choix": [
+            "A) L’induction de cancers radio induits est un processus long et multi étape qui dépend aussi des patients",
+            "B) On observe que l’altération de certains gènes prédisposant aux cancers prédispose également à la radiosensibilité",
+            "C) La radiolyse de l’eau est le mécanisme lésionnel prépondérant par rapport aux lésions directes de l’ADN",
+            "D) La production de radicaux libres dépend du TLE",
+            "E) L’exposition aux radiations ionisantes est la principale cause des cancers en France"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Selon le dernier paragraphe de l’article, les mesures qui nécessitent d’être prises pour diminuer les risques des effets stochastiques de la population correspondent aux 2 principes de radioprotection suivants",
+          "choix": [
+            "A) Justification",
+            "B) Optimisation",
+            "C) Limitation",
+            "D) Réglementation",
+            "E) Restriction"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294707226-3399daf42d1b28",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cocher ce qui est juste à propos de cette imagerie abdominale",
+          "choix": [
+            "A) la graisse est hypodense",
+            "B) l'os cortical est hypo-intense",
+            "C) il s'agit d'une IRM",
+            "D) il s'agit d'un scanner",
+            "E) il s'agit d'une échographie"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/biophysique-s3/2023/q8.png?v=1786294707528"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cocher ce qui est juste à propos de cette imagerie foetale",
+          "choix": [
+            "A) A est une échographie",
+            "B) B est un scanner",
+            "C) le liquide est hyperéchogène",
+            "D) le liquide est hyperintense sur une séquence pondérée en T2",
+            "E) B est une IRM pondérée en T2"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/biophysique-s3/2023/q9.jpg?v=1786294708012"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Patient de 60 ans ayant présenté brutalement une hémiplégie gauche il y a 3 heures. Cocher ce qui est juste à propos de ces images :",
+          "choix": [
+            "A) A est une IRM",
+            "B) B est une IRM",
+            "C) C est une IRM",
+            "D) une ischémie cérébrale très précoce n'est visible que sur l'IRM de diffusion",
+            "E) une ischémie cérébrale très précoce n'est visible qu'au scanner"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/biophysique-s3/2023/q10.png?v=1786294708544"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

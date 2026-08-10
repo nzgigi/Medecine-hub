@@ -1,0 +1,265 @@
+{
+  "matiere": "Hormonologie et reproduction – Nutrition",
+  "slug": "hr-nutrition-s5",
+  "annee": 2024,
+  "title": "Hormonologie et reproduction – Nutrition - 2024",
+  "total_questions": 12,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez Mr B, 39 ans en consultation de nutrition. Il est adressé par son psychiatre pour prise de poids. La lettre qui l’accompagne vous informe sur les antécédents et le traitement du patient :\n-asthme sévère avec des cures régulières de traitement oral par des glucocorticoïdes,\n-bouffées délirantes aigues à l’âge de 22 ans et diagnostic de schizophrénie avec suivi régulier, syndrome dépressif,\n-hypercholestérolémie.\nCliniquement, le poids est de 98 kg pour une taille de 1,78m, soit un IMC à 30,9 kg/m2. Le tour de taille est de 108 cm. Les membres inférieurs sont grêles, le faciès est rouge",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les arguments cliniques qui vous orienteraient vers un obésité secondaire",
+          "choix": [
+            "A) Les membres sont grêles malgré son obésité",
+            "B) En l’interrogeant, tous les membres de sa famille sont obèses",
+            "C) En lui posant la question vous apprenez qu’il prend un traitement neuroleptique",
+            "D) Le faciès rouge peut être un signe clinique associé à un syndrome de Cushing",
+            "E) Il a toujours été rond et au-dessus du poids attendu pour l’âge"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les arguments suivants, quel seraient ceux en faveur d’une obésité commune ?",
+          "choix": [
+            "A) Il pratiquait le ski de compétition, a eu un accident et a dû être immobilisé pendant presque un an",
+            "B) Quand vous interrogez son alimentation au moment des repas, la consommation de légumes et de fruits est très faible, celle de viande est volontiers abondante, il mange volontiers des féculents avec de la crème et du fromage, il mange vite",
+            "C) La prise de poids s’est majorée au début du traitement de sa schizophrénie",
+            "D) Avant le diagnostic de la schizophrénie, il venait d’un milieu social plutôt favorisé",
+            "E) Il a des arguments à l’interrogatoire évoquant un syndrome des apnées du sommeil"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En poursuivant la discussion avec lui, il vous raconte que le soir en rentrant chez lui, il exprime avoir un besoin incontrôlable de manger en grande quantité tout ce qui lui tombe sous la main, même s’il n’a pas faim. Il est capable de manger jusqu’à avoir mal au ventre. Il est gêné de vous le raconter « Et bien oui j’ai honte car je ne comprends pas pourquoi je fais ça. Je n’en peux plus, ça dure depuis trop longtemps. Je m’en veux de ne pas pouvoir éviter cela ». il ne rapporte pas de conduite de purge comme des vomissements. Vous évoquez un troubles des conduites alimentaires : lequel ?",
+          "choix": [
+            "A) Grignotage",
+            "B) Addiction au sucre",
+            "C) Boulimie nerveuse",
+            "D) Hyperphagie boulimique",
+            "E) Restriction cognitive"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont, parmi les suivants, les critères présents dans la définition diagnostique de l’hyperphagie boulimique selon le DSMV?",
+          "choix": [
+            "A) Crises d’hyperphagie moins d’une fois toutes les deux semaines depuis au moins 3 mois",
+            "B) Crises d’hyperphagie durant moins de 2h",
+            "C) Crises caractérisées par au moins 3 éléments parmi la tachyphagie, sensation inconfortable digestive, solitude, absence de faim, culpabilité,",
+            "D) Comportements compensatoires inappropriés et récurrents visant à prévenir la prise de poids",
+            "E) Présence d’au moins un comorbidité psychiatrique parmi épisode dépressif caractérisé, ou trouble anxieux généralisé"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le contexte clinique de ce patient, quelles seraient les examens biologiques et paracliniques complémentaires indispensables ?",
+          "choix": [
+            "A) Contrôle de la glycémie à jeun",
+            "B) Echographie hépatique",
+            "C) Créatinine et calcul de la fonction rénale",
+            "D) ECG de repos",
+            "E) Score d’Epworth ou autre score de dépistage du syndrome des apnées du sommeil"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelques semaines plus tard, on vous apprend que ce patient est aux urgences pour une dyspnée aigue. Quels éléments parmi les suivants sont pertinents à rechercher devant ce signe fonctionnel respiratoire dans le contexte de tous les éléments que vous connaissez de son dossier?",
+          "choix": [
+            "A) Je recherche une asymétrie des membres inférieurs car le risque de thrombose est chez lui augmenté",
+            "B) Je recherche une hépatomégalie dans l’hypothèse d’une insuffisance cardiaque droite",
+            "C) Je recherche une pâleur cutanéo-muqueuse, et un saignement extériorisé et j‘évoque une anémie par saignement",
+            "D) Je l’interroge sur une ronchopathie nocturne, car un syndrome des apnées du sommeil peut entraîner une dyspnée aiguë",
+            "E) Je recherche des arguments cliniques à la recherche d’une atteinte coronarienne"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296571867-48214f5b16da9",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous rencontrez Madame Turbo aux urgences, 32 ans, adressée pour aphagie totale depuis une chirurgie de l’estomac réalisée il y a un mois (résection des 9/10 de l’estomac, Sleeve gastrectomie, pour le traitement d’une obésité). Elle n’a pas d’antécédents. Le poids initial est à 132 kg, le poids actuel est à 107 kg, soit un indice de masse corporelle à 35,7 kg/m2.\nElle ne peut plus faire les tâches quotidiennes, tant elle est fatiguée. En particulier, elle ne peut plus monter dans sa chambre à l’étage et dort dans le salon.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans ce contexte, quelles seraient les affirmations justes pour porter le diagnostic de dénutrition ?",
+          "choix": [
+            "A) l’aphagie totale suffit à poser le diagnostic",
+            "B) la combinaison de cette réduction de la prise alimentaire et de la perte de poids intense (plus de 10 % du point de départ) permet de poser le diagnostic",
+            "C) la combinaison de la perte de poids intense et de l’altération fonctionnelle (elle ne peut plus monter les escaliers) suffit à poser le diagnostic",
+            "D) la perte de poids est supérieure à 15 %, cela évoque une dénutrition sévère",
+            "E) on ne peut pas poser le diagnostic de dénutrition car il s’agit d’une perte de poids volontaire (elle s’est faite opérer pour cela)"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En plus de l’aphagie, Madame Turbo vomit, dès qu’elle essaye de prendre un liquide ou un aliment de consistance molle.\nDevant l’état de déshydratation, le médecin pose une perfusion de glucosé à 5 %, 2,5 litres par 24 heures. Quelques heures\nplus tard, vous notez des troubles de la conscience : elle ne sait plus très bien se rappeler des événements de l’après-midi.\nVous évoquez une encéphalopathie carentielle, laquelle :",
+          "choix": [
+            "A) Carence en vitamine D",
+            "B) Carence en vitamine B1",
+            "C) Carence en vitamine B9",
+            "D) Carence en vitamine B 12",
+            "E) Carence en vitamine C"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le contexte, si vous évoquez une encéphalopathie de Gayet-Wernicke, les symptômes supplémentaires les plus fréquents que vous pourriez trouver seraient",
+          "choix": [
+            "A) une confusion avec une agitation",
+            "B) une ataxie avec d’autres symptômes d’un syndrome cérébelleux",
+            "C) une surdité unilatérale",
+            "D) une paralysie faciale périphérique droite",
+            "E) un nystagmus dans le regard latéral"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il s’agissait en fait d’une complication mécanique de l’intervention sur l’estomac, avec une torsion et sténose. Celle-ci a été corrigée chirurgicalement, et grâce au traitement vitaminique, Madame Turbo a pu tout récupérer sans séquelles.\nQuelques mois plus tard, elle est fatiguée, essoufflée lorsqu’elle monte les escaliers. Son compagnon la trouve plus pâle que d’habitude. À l’examen clinique elle est pâle, tachycarde (fréquence cardiaque à 102 battements par minute) avec une tension artérielle à 90/60 mm Hg. Il n’y a pas de saignements extériorisé.\nSi vous évoquiez une anémie carentielle, la carence pourrait concerner :",
+          "choix": [
+            "A) La vitamine D",
+            "B) La vitamine E",
+            "C) La vitamine B12",
+            "D) La vitamine B9",
+            "E) Le fer"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Elle présente également un saignement des gencives et quelques hématome sous cutanés. Si vous évoquez une carence en vitamine C, quelles seraient les symptômes que vous pourriez trouver à l’examen clinique ?",
+          "choix": [
+            "A) Des douleurs musculaires",
+            "B) Un purpura centré sur les follicules pileux",
+            "C) Une anémie avec une macrocytose (volume globulaire élevé)",
+            "D) Un retard de cicatrisation",
+            "E) Des symptômes de polynévrite sensitive des membres inférieurs"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En fait, en discutant avec elle, vous découvrez qu’elle ne mange plus de viande rouge, car elle la tolère mal lors des repas. Vous savez que cela peut entraîner une carence en vitamine B12. Parmi les symptômes ci-dessous, lesquels pourrait être rattachés à une éventuelle carence en vitamine B12.",
+          "choix": [
+            "A) une hyperpigmentation de la peau",
+            "B) une fatigabilité à l’effort associée à une anémie",
+            "C) un syndrome cérébelleux",
+            "D) une glossite avec une langue hypertrophiée et rouge",
+            "E) une bradycardie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,617 @@
+{
+  "matiere": "UE transversale",
+  "slug": "ue-transversale-s10",
+  "annee": 2024,
+  "title": "UE transversale - 2024",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez un patient de 28 ans, conducteur d'engins de chantiers, en raison de douleurs lombaires s'aggravant depuis 3 mois. Il n'a pas d'antécédent particulier.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous essayez de préciser si ces douleurs sont d'origine mécanique ou plutôt inflammatoires. En faveur du caractère inflammatoire, vous retenez:",
+          "choix": [
+            "A) une intensité cotée 6/10 à l'EVA par le patient",
+            "B) un dérouillage matinal de 45 minutes",
+            "C) une sensibilité nette aux AINS alors que le paracétamol s'est avéré inefficace",
+            "D) une aggravation lors des activités physiques",
+            "E) une amélioration médiocre des douleurs lors du repos en journée"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La crp est à 20 mg/l, la VS à 30 mm à la première heure. les radiographies du bassin de face et du rachis sont normales.\nQuel examen prescrivez vous pour confirmer la suspicion de spondylarthrite axiale?",
+          "choix": [],
+          "reponses": [
+            "IRM des sacroiliaques",
+            "IRM sacro-iliaque",
+            "IRM des sacro-iliaques",
+            "IRM lombo-sacrée",
+            "IRM sacro-illiaque",
+            "irm sacro iliaques",
+            "IRM sacro-lombaire",
+            "IRM des articulations sacro-iliaques",
+            "IRM du bassin et du rachis lombaire",
+            "IRM lombosacré",
+            "IRM des articulations sacro-illiaques",
+            "IRM des sacro iliaques",
+            "IRM rachidienne et des sacro-iliaques"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez confirmé le diagnostic de spondylarthrite axiale. Quel(s) médicament(s) pouvez vous prescrire en première intention?",
+          "choix": [
+            "A) prednisone",
+            "B) adalimumab",
+            "C) flurbiprofène",
+            "D) celecoxib",
+            "E) secukinumab"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "alors que vous avez prescrit du flurbiprofène, le patient commence à se plaindre de douleurs abdominales du flanc gauche et de fosse iliaque gauche, également de faux besoins avec des spasmes douloureux dans la région hypogastrique, des douleurs lorsqu'il va à la selle, puis apparaissent des selles diarrhéiques avec des rectorragies et un fébricule à 37°8. Vous suspectez (indiquez la meilleure réponse):",
+          "choix": [
+            "A) une diverticulose",
+            "B) une shigellose",
+            "C) un ulcère de l'intestin grêle",
+            "D) une maladie de Crohn",
+            "E) une rectocolite hémorragique"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une rectocolite hémorragique. Parmi les examens suivants, lesquels sont pertinents en première intention pour confirmer le diagnostic?",
+          "choix": [
+            "A) élastase fécale",
+            "B) calprotectine fécale",
+            "C) anticorps anti-transglutaminase",
+            "D) iléo-coloscopie",
+            "E) entéro-IRM"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "l'iléo-coloscopie a retrouvé une muqueuse inflammatoire de façon diffuse depuis le rectum jusqu'à l'angle colique gauche, et l'anatomopathologie a confirmé la rectocolite hémorragique. Un traitement a é té discuté avec les rhumatologues car il faut arrêter le flurbiprofène, et le choix s'est porté sur un anti-TNF monoclonal. La prescription de ce médicament impose d'éliminer une tuberculose latente ou active. Vous prescrivez pour celà en première intention:",
+          "choix": [
+            "A) un test IGRA (interferon gamma release assay)",
+            "B) un scanner thoracique",
+            "C) une radiographie du thorax",
+            "D) une recherche de bacille tuberculeux par tubages gastriques, 3 jours consécutifs",
+            "E) une IDR à 10 unités de tuberculine"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient n'avait pas de tuberculose latente ni active et la maladie a été stabilisée sous anti-TNF monoclonal. Au 8ieme mois du traitement apparait en quelques jours d'abord une fièvre à 39°, puis une céphalée en casque et des vomissements, et depuis ce matin une confusion. Vous évoquez en priorité (2 diagnostics) :",
+          "choix": [
+            "A) une gastro-entérite",
+            "B) une méningite à Listeria monocytogenes",
+            "C) une tuberculose neuro-méningée",
+            "D) une méningite herpétique",
+            "E) un purpura fulminans"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300660123-80eef392ed04e8",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous recevez un homme de 78 ans en février 2024 en raison d'une altération de l'état général avec essoufflement progressif. Ses antécédents sont:\nHypertension artérielle depuis 15 ans\nThrombose veineuse profonde en octobre 2023 d'origine indéterminée\nTroubles cognitifs depuis 2 ans sur démence mixte vasculaire et dégénérative (MMS à 20/30)\nAdénocarcinome prostatique traité par prostatectomie en 2013, considéré en rémission lors de la visite chez l'urologue il y a 3 mois\nSon traitement habituel est:\nrivaroxaban 20 mg par jour\namlodipine 5 mg 1 comprimé le matin",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient a une dyspnée NYHA IV qui s'est installée en 1 mois. Vous l'auscultez et retrouvez une matité jusqu'à mi-champ, bilatérale, avec abolition du murmure vésiculaire et des vibrations vocales Il y a des oedèmes des membres inférieurs jusqu'au genoux. La température corporelle est à 38°3. Quelles hypothèses diagnostiques peuvent expliquer l'ensemble de la présentation?",
+          "choix": [
+            "A) un effet indésirable de l'amlodipine",
+            "B) une pleurésie d'origine virale",
+            "C) une maladie thrombo-embolique",
+            "D) un cancer généralisé",
+            "E) une tuberculose"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique a montré:\nionogramme sanguin normal; créatininémie 70 µmol/L; bandelette urinaire: protéinurie +; culot urinaire: normal; CRP: 100 mg/L; TGO 3N; TGP: 2N; phosphatases alcalines: 6N; gammagt: 5N; bilirubinémie totale: 1.5N.\nhemogramme: hémoglobine: 8 g/dl; globules rouges: 3.19 T/L; VGM: 72µ3; leucocytes: 12 G/L dont PNN 74%; lymphocytes:\n10%; éosinophiles: 3%; basophiles: 3%; monocytes: 10%.\nParmi les paramètres suivants, deux sont indispensables en première intention pour orienter le diagnostic de la cause de l'anémie. Lesquels?",
+          "choix": [
+            "A) coefficient de saturation de la transferrine",
+            "B) vitesse de sédimentation",
+            "C) électrophorèse des protides",
+            "D) test de coombs",
+            "E) ferritinémie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez demandé un scanner thoracique (image ci dessous). Vous affirmez:",
+          "choix": [
+            "A) une tuberculose pulmonaire",
+            "B) une pneumopathie bactérienne bilatérale",
+            "C) une pleuro-péricardite",
+            "D) un épanchement pleural bilatéral",
+            "E) un mésothéliome"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/ue-transversale-s10/2024/q10.png?v=1786300661466"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous ponctionnez le volumineux épanchement du côté gauche. L'analyse du liquide montre:\nprotides 37 g/L; LDH: 295 unités.\nGlobule blancs: 1540 el/mm3; monocytes-macrophages: 61%; lymphocytes: 20%; Eosinophiles: 4%; polynucléaires neutrophiles: 13% dont 4% altérés; cellules mésothéliales: 2%. Quelles affirmations sont exactes?",
+          "choix": [
+            "A) le résultat est en faveur d'un transsudat",
+            "B) le résultat est en faveur d'un exsudat",
+            "C) les LDH augmentés dans le liquide pleural orientent vers le diagnostic de cancer pleural",
+            "D) le résultat n'est pas en faveur d'une pleurésie bactérienne à germe pyogène",
+            "E) le résultat de la cytologie est peu spécifique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "vous avez complété le bilan par une albuminémie, dosée à 20 g/L. Quelles sont les affirmations exactes?",
+          "choix": [
+            "A) cette albuminémie peut contribuer à la présence d'oedèmes",
+            "B) il peut s'agir d'une conséquence de l'inflammation systémique",
+            "C) ce patient a probablement un syndrome néphrotique",
+            "D) l'hypoalbuminémie peut être la conséquence d'une entéropathie exsudative",
+            "E) une électrophorèse des protides est utile pour mieux comprendre la cause de l'hypoalbuminémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez exclu une maladie thromboembolique et obtenu des arguments en faveur d'une insuffisance cardiaque. Vous décidez d'un traitement par furosémide. Que devez vous surveiller?",
+          "choix": [
+            "A) le poids du patient",
+            "B) la tension artérielle couché et debout",
+            "C) le ionogramme sanguin",
+            "D) le ionogramme urinaire",
+            "E) la créatininémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "vous avez obtenu le résultat suivant:\nferritinémie 80 ng/ml; coefficient de saturation de la transferrine: 8%; que proposez vous?",
+          "choix": [
+            "A) endoscopies digestives",
+            "B) traitement par fer oral",
+            "C) traitement par fer intraveineux",
+            "D) ni endoscopies ni substitution en fer (car la ferritinémie est normale)",
+            "E) arrêt de rivaroxaban"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300663069-d776d18103e15",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la paralysie faciale, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) il existe un déficit de l'ouverture des yeux du côté atteint",
+            "B) la bouche est attirée du côté sain",
+            "C) il existe une hypoesthésie dans la région frontale homolatérale",
+            "D) un déficit du membre supérieur du même côté que celui de la paralysie faciale est très évocateur d'un accident dans le territoire de l'artère cérébrale moyenne superficielle controlatérale",
+            "E) une dissociation automatico-volontaire oriente vers une cause centrale"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "une splénomégalie peut être responsable de:",
+          "choix": [
+            "A) neutropénie",
+            "B) thrombopénie modérée",
+            "C) thrombopénie profonde (< 20 G/L)",
+            "D) douleur de l' hypochondre gauche",
+            "E) cytopénie avec mégaloblastose"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'hyponatrémie, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) la cause la plus fréquente est le SIADH",
+            "B) au cours de l'hyponatrémie hypo-osmolaire, on peut voir des convulsions",
+            "C) l'hyponatrémie peut être due à une insuffisance surrénalienne périphérique",
+            "D) une hyponatrémie peut être due à une néphrite interstitielle chronique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "les éléments diagnostiques d'une cruralgie sont:",
+          "choix": [
+            "A) douleur de face antérieure ou antéro-interne de cuisse",
+            "B) abolition du réflexe achilléen",
+            "C) amyotrophie quadricipitale",
+            "D) manoeuvre de Lasègue positive",
+            "E) anesthésie de la face externe de cuisse"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous prenez en charge un patient de 87 ans à son domicile car il a chuté il y a quelques jours. Le bilan traumatique était négatif. Il bénéficie de 2 séances par semaine au domicile de kinésithérapie. Votre examen retrouve une marche en rétropulsion à petits pas glissés, en appui talonnier avec un retard de l’initiation de la marche. Il ne peut pas marcher sans l’aide d’un tiers, à la pensée de marcher sans aide il est terrifié.\nQuel est votre diagnostic ?",
+          "choix": [],
+          "reponses": [
+            "Syndrome post chute",
+            "Syndrome post-chute",
+            "syndrome post-chute",
+            "Syndrome d'apprehension post chute",
+            "Syndrome d'appréhension",
+            "Syndrome poste chute",
+            "Syndrome de post chute",
+            "Syndrome post-chûte",
+            "Syndrome de stress post-chute",
+            "Sndrome post chute",
+            "Styndrome post-chute",
+            "Syndrome post-chute (apprehension)"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez en urgence un enfant de 4 ans qui présente une fièvre > 38,5 °C en plateau depuis plus de 5 jours, une conjonctivite bilatérale, une chéilite et une langue framboisée, une desquamation en « doigts de gant » et des adénopathies cervicales.\nQuel diagnostic retenez-vous ?",
+          "choix": [
+            "A) Une infection à parvovirus B19",
+            "B) La rougeole",
+            "C) Une toxoplasmose",
+            "D) Une maladie de Kawasaki",
+            "E) La rubéole"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 21,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les symptômes ci-dessous lequel n’est pas retrouvé dans l’endométriose ?",
+          "choix": [
+            "A) Les dysménorrhées",
+            "B) Les leucorrhées",
+            "C) Les dyspareunies profondes",
+            "D) Les dyschésies",
+            "E) Les douleurs pelviennes chroniques"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une femme de 35 ans vient vous consulter pour une tristesse de l’humeur, une anhédonie, une aboulie et une labilité affective.\nQuel est votre hypothèse diagnostique principale ?",
+          "choix": [],
+          "reponses": [
+            "épisode dépressif caractérisé",
+            "Episode dépressif caractérisé",
+            "Episode depressif caracterisé",
+            "Episode depressif caracterise",
+            "Syndrome dépressif caractérisé",
+            "Episode depressif caractérisé",
+            "Episode dépressif caracterisé",
+            "Syndrome depressif caracterise",
+            "Syndrome depressif caracterisé",
+            "Épisode depressif caractérisé",
+            "Épisode dépressif caracterisé",
+            "Episode dépressif caractérisé (EDC)",
+            "Episode drepressif caracterise",
+            "Trouble depressif caracterisé",
+            "episode depressif caracterise",
+            "Episode depressif caracterise pouvant s’integrer dans un trouble bipolaire",
+            "Trouble dépressif caractérisé",
+            "épisode dépressif caractérisé (si critère de durée présent)",
+            "Épisode dépressif caractérisé (EDC)",
+            "Episode depressif carracterisé",
+            "Syndrome dépressif caracterisé"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 23,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Devant des métastases osseuses, quels cancers faut-il rechercher en priorité chez un homme de 60 ans (4 réponses exactes)",
+          "choix": [
+            "A) testicule",
+            "B) colon",
+            "C) prostate",
+            "D) poumon",
+            "E) pancreas",
+            "F) rein",
+            "G) melanome",
+            "H) thyroïde"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "F",
+            "H"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les affections suivantes, lesquelles peuvent être responsables d'oedème des membres inférieurs? (5 réponses exactes)",
+          "choix": [
+            "A) insuffisance cardiaque gauche",
+            "B) insuffisance cardiaque droite",
+            "C) hypertension artérielle pulmonaire",
+            "D) diabète insipide",
+            "E) diabète de type I récemment diagnostiqué",
+            "F) diabète de type II récemment diagnostiqué",
+            "G) carence en vitamine B1",
+            "H) carence en vitamine D",
+            "I) hyperthyroïdie",
+            "J) hypothyroïdie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "G",
+            "I",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300671496-1ff23cc895bf3",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez un patient en raison d'une fatigue générale et perturbation de son bilan bilan biologique. Il a perdu 8 kg en 6 mois. L'examen physique a retrouvé une hépatosplénomégalie, un ballonement abdominal et une matité déclive. Il vient avec un bilan hépatique qui indique: TGO 4N; TGP: 2N; phosphatases alcalines: 2N; gammagt: 10N; bilirubinémie totale: 2N.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la première hypothèse diagnostique?",
+          "choix": [],
+          "reponses": [
+            "cirrhose éthylique",
+            "Cirrhose alcoolique",
+            "Cirrhose ascitique alcoolique décompensée",
+            "ascite sur cirrhose alcoolique"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels signes cliniques recherchez vous en faveur du diagnostic de cirrhose? (6 réponses exactes)",
+          "choix": [
+            "A) érythrose palmaire",
+            "B) érythème malaire",
+            "C) phénomène de Raynaud",
+            "D) angiomes stellaires",
+            "E) ongles blancs",
+            "F) ongles jaunes",
+            "G) asterixis",
+            "H) gynécomastie",
+            "I) circulation veineuse collatérale",
+            "J) varices des membres inférieurs"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E",
+            "G",
+            "H",
+            "I"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous avez évoqué une cirrhose éthylique. Quelles sont les 3 anomalies à l'électrophorèse des protides suggestives de ce diagnostic?",
+          "choix": [
+            "A) hypoalbuminémie",
+            "B) hyperalpha1 globulinémie",
+            "C) hyperalpha2 globulinémie",
+            "D) hyperbeta2 globulinémie",
+            "E) hypergammaglobulinémie polyclonale",
+            "F) hypogammaglobulinémie",
+            "G) hyperalbuminémie",
+            "H) hypoalpha 2 globulinémie",
+            "I) hypergammaglobulinemie monoclonale",
+            "J) hypoalpha1globulinémie"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,357 @@
+{
+  "matiere": "Urgences",
+  "slug": "urgences-s10",
+  "annee": 2023,
+  "title": "Urgences - 2023",
+  "total_questions": 14,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "D. est un petit garçon de 11 mois sans antécédent particulier. Ses vaccinations sont à jour, son développement psychomoteur est normal. Il ne prend pas de traitement. Sa croissance staturopondérale est normale, il pèse actuellement 10kg.\nIl vous est amené aux urgences par ses parents pour de la fièvre qui évolue depuis la veille.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant la fièvre aiguë de l’enfant, quelles sont les deux réponses justes ? (2 réponses justes)",
+          "choix": [
+            "A) à l’âge de D., la méthode de mesure de référence est la voie axillaire",
+            "B) il s’agit d’une élévation de la température centrale supérieure à 38.5°C",
+            "C) en l’absence de critère de gravité, il n’y a pas lieu de prescrire d’examen complémentaire",
+            "D) vous conseillez aux parents de ne pas surcouvrir D. et de lui donner souvent à boire",
+            "E) vous prescrivez du Paracétamol à 90 mg/kg/j afin d’améliorer le confort de D."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le lendemain, D. consulte à nouveau à 9h47.\nLes parents rapportent un épisode étant survenu à 8h52 : soudainement D. a présenté des clonies du membre supérieur\ndroit, puis une perte de connaissance avec cyanose centrale et clonies des quatre membres. Il avait alors une température centrale à 39.2°C. L’épisode a duré 6 minutes d’après sa mère, s’en est suivie une phase de récupération pendant 25\nminutes, avant le retour à une conscience normale.\nA ce stade, quel diagnostic évoquez-vous pour D. ? (3 mots)",
+          "choix": [],
+          "reponses": [
+            "convulsion hyperthermique complexe",
+            "crise convulsive fébrile complexe",
+            "crise fébrile complexe",
+            "convulsion fébrile complexe",
+            "crise febrile complexe",
+            "convulsion febrile complexe",
+            "convulsions fébriles complexes",
+            "crise hyperthermique complexe",
+            "Convulsion fébrile complexe",
+            "Convulsion febrile complexe",
+            "crise febrile complexe ( crise epilepsie de l'Enfant )"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A 9h57, D. récidive le même épisode. A 10h00, il convulse encore.\nQuelle prise en charge proposez-vous ? (2 réponses justes)",
+          "choix": [
+            "A) mise en position latérale de sécurité",
+            "B) oxygénothérapie au masque à haute concentration",
+            "C) administration de Diazépam 0,5 mg en intra-rectal",
+            "D) réalisation d’une glycémie veineuse",
+            "E) transfert en réanimation pédiatrique"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La crise cède suite à vos bons soins.\nSes paramètres vitaux sont les suivants : température 40.2°C en intra-rectal, fréquence cardiaque 220/min, pression artérielle 60/42mmHg (pression artérielle moyenne 48mmHg), fréquence respiratoire 47/min, SpO2 100%.\nA l’examen clinique, l’auscultation cardiopulmonaire est normale. Les pouls centraux sont bien perçus, les pouls périphériques sont filants. Le temps de recoloration cutané central est à 4 secondes. Vous notez des marbrures des membres inférieurs. L’abdomen est souple et dépressible, il semble indolore. Il n’y a pas d’hépatomégalie ni de splénomégalie. Vous notez une hypotonie axiale un bombement de la fontanelle antérieure. Il n’y a pas de déficit focal.\nQuelle prise en charge en urgence proposez-vous pour D. ?",
+          "choix": [
+            "A) réalisation d’un remplissage vasculaire au sérum physiologique : 500 ml le plus rapidement possible",
+            "B) prélèvement d’une hémoculture avant antibiothérapie large spectre par voie intraveineuse",
+            "C) réalisation d’une ponction lombaire avant de débuter une antibiothérapie large spectre par voie intraveineuse",
+            "D) réalisation d’une imagerie cérébrale avant de débuter une antibiothérapie large spectre par voie intraveineuse",
+            "E) réalisation d’un électroencéphalogramme avant la réalisation d’une ponction lombaire"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Après stabilisation de D., vous réalisez les examens complémentaires adéquats. L’étude du liquide cérébro-spinal confirme la présence d’une méningite.\nQuelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) les méningites bactériennes sont les méningites les plus fréquentes chez l’enfant",
+            "B) les méningites à Herpes simplex virus sont associées à des atteintes encéphalitiques",
+            "C) l’entérovirus est le pathogène le plus souvent en cause dans les méningites virales",
+            "D) à l’âge de D., l’implication de Neisseria meningitidis est à évoquer",
+            "E) à l’âge de D., l’implication de Streptococcus pneumoniae est à évoquer"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En cas de méningoencéphalite chez D., quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "choix": [
+            "A) il faut débuter un traitement antiviral en urgence par aciclovir par voie intraveineuse",
+            "B) il faut prescrire un traitement prophylactique par antiviraux à l’entourage direct",
+            "C) en l’absence de signe de gravité, un traitement ambulatoire peut être proposé",
+            "D) le pronostic d’une encéphalite dépend du diagnostic étiologique",
+            "E) il faudra assurer un suivi au long cours afin de dépister des séquelles cognitives"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300754567-36e77cf2483738",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Madame P. 55 ans, 60kg, est amenée par son conjoint, qui en rentrant du travail, l’a retrouvée assise dans le canapé du salon avec plusieurs boites vides de paracétamol 1000 mg au sol. La prise de ces médicaments aurait lieu 30 minutes auparavant.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A ce stade comment pouvez-vous qualifier cette prise de médicament (une réponse attendue)",
+          "choix": [
+            "A) idées suicidaires",
+            "B) tentative de suicide",
+            "C) intoxication médicamenteuse volontaire",
+            "D) conduite suicidaire",
+            "E) crise suicidaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelle sera chez cette patiente la prise en charge de l’intoxication au paracétamol ? (Menu déroulant – 4 réponses attendues)",
+          "choix": [
+            "A) administration de charbon activé",
+            "B) administration de glucagon",
+            "C) initiation immédiate du traitement par N-Acétylcystéine",
+            "D) hémodialyse",
+            "E) gazométrie",
+            "F) oxygénothérapie normobare au masque à haute concentration",
+            "G) dosage de la paracétamolémie à H4",
+            "H) alcalinisation des urines",
+            "I) initiation du traitement par N-Acétylcystéine en fonction su score de Glasgow",
+            "J) dosage des transaminases hépatiques"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "G",
+            "J"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le surlendemain, l’état clinique et biologique de la patiente ne nécessite plus de surveillance somatique. La surveillance est levée et elle est accessible à une évaluation.\nLors de l’évaluation elle vous explique qu’elle doit faire face à des difficultés professionnelles et personnelles ces derniers temps, qu’elle ne savait plus comment les surmonter et qu’elle a pris les médicaments pour mourir. Vous concluez que l’intoxication médicamenteuse volontaire s’inscrit dans le cadre d’une tentative de suicide.\nVous procédez à une évaluation du risque suicidaire en interrogeant le risque, l’urgence et la dangerosité de cette crise suicidaire.\nQuels sont les principes à suivre pour cette évaluation ?",
+          "choix": [
+            "A) entretien dans un endroit calme",
+            "B) faire percevoir au patient que la situation aurait été dramatique si le geste avait abouti",
+            "C) évoquer les idées suicidaires directement",
+            "D) maintenir le patient à distance de son entourage pour limiter les facteurs de stress",
+            "E) expliquer que les tentatives de suicides sont des appels à l’aide très fréquents et que peu d’entre elles conduisent à un suicide abouti"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300755693-0131bfc961bfc8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’hématémèse de l’enfant, quelle(s) sont les réponse(s) juste(s) ?",
+          "choix": [
+            "A) chez un enfant allaité, une hématémèse peut être en lien avec des crevasses du sein maternel",
+            "B) l’étiologie la plus fréquente d’une hématémèse de l’enfant est le syndrome de Mallory-Weiss",
+            "C) l’étiologie la plus fréquente d’une gastrite avec hématémèse est lié à Helicobacter pylori",
+            "D) le traitement d’une hématémèse chez l’enfant privilégie l’hémostase endoscopique",
+            "E) le traitement d’une hématémèse de l’enfant associe souvent le recours à la somatostatine"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Lors d’une épistaxis, en cas d’échec du tamponnement antérieur, quelle est la conduite à tenir en urgence ?",
+          "choix": [
+            "A) tamponnement par sonde à double ballonnet",
+            "B) électrocoagulation artères sphénopalatines",
+            "C) ligatures des artères sphénopalatines",
+            "D) ligature des artères ethmoidales",
+            "E) compression bidigitale des ailes narinaires"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez madame D, 67 ans, qui présente un vertige rotatoire, déclenché par les mouvements de la tête. Il n’y a spontanément pas de nystagmus ni de signe auditif associé. Vous arrivez à déclencher le vertige avec une manœuvre positionnelle. Quel est le diagnostic le plus probable ? (4 mots)",
+          "choix": [],
+          "reponses": [
+            "vertige positionnel paroxystique bénin",
+            "vertige paroxystique positionnel bénin",
+            "vertige positionnel paroxystique benin",
+            "vertige paroxystique positionnel benin",
+            "Vertige paroxystique positionnel bénin",
+            "vertige positionnel paroxistique bénin",
+            "vertiges positionnels paroxystiques bénins",
+            "Vertige positionnel paroxystique benin",
+            "vertiges positionnels paroxystiques benins",
+            "Vertige positionnel paroxistique benin",
+            "vertiges paroxystiques positionnels bénins",
+            "vertiges paroxystiques positionnels benins",
+            "vertige paroxystique positionel bénin",
+            "vertiges positionnels paroxystique bénin",
+            "vertige positionnel paroxystique bénin (VPPB)",
+            "Vertige positionnels paroxistiques benins",
+            "vertige paroxysitique positionnel bénin",
+            "Vertige positionnel Paroxystique benin",
+            "vertige paroxistique positionnel bénin",
+            "vertiges vestibulaires paroxystiques bénins",
+            "vertige postionnel paroxystique bénin (VPPB)",
+            "Vertige paroxystique positionnel benin",
+            "vertige positionnelle paroxystique bénin",
+            "vertige positionnel paroxistique begnin",
+            "vertige peripherique paroxystique benin",
+            "vertige positionel paroxystique benin",
+            "vertige paroxystique permanent bénin",
+            "Vertige paroxistique positionel benin",
+            "Vertige Positionnel Paroxystique Benin",
+            "Vertige paroxystique positionnel bégnin",
+            "vertige paroxystique positionnel bennin VPPB",
+            "vertige parodystique positionel benin",
+            "Vertige paroxysstique positionel benin",
+            "vertige paroxystique positionnel benin (VPPB)",
+            "Vertige positionnel paroxystique benin",
+            "VPPB vertige positionnel paroxystique benin",
+            "vertige paroxystique positionel benin",
+            "vertige positionnel paroxytique benigne",
+            "Vertiges paroxystiques positionnels benins",
+            "Vertige bénin positionnel paroxystique",
+            "Vertige Positionnelle Paroxystique Bénin",
+            "Vertiges Positionnels Paroxystiques Bénins",
+            "vertige positionnel paroxistyque bénin",
+            "Vertiges positionnels paroxystiques bénins",
+            "vertige positionnel bénin paroxystique",
+            "Vertige Paroxystique Positionnel Bénin"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes suivants, lesquels sont en faveur d’une hypertension intracrânienne ?",
+          "choix": [
+            "A) tachycardie",
+            "B) oedème papillaire au fond d’œil",
+            "C) vomissements en jet",
+            "D) défaut d’abduction de l’œil",
+            "E) raideur de nuque"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi la liste suivante quels symptômes physiques sont retrouvés en cas d’attaque de panique ? (2 réponses justes)",
+          "choix": [
+            "A) dyspnée",
+            "B) prurit",
+            "C) constipation",
+            "D) nausées",
+            "E) cécité auditive"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

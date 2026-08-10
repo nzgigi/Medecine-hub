@@ -1,0 +1,1070 @@
+{
+  "matiere": "Neurologie et neurochirurgie",
+  "slug": "neurologie-neurochirurgie-s9",
+  "annee": 2025,
+  "title": "Neurologie et neurochirurgie - 2025",
+  "total_questions": 41,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QROC",
+          "contexte": "",
+          "question": "De garde aux urgences, vous examinez un patient victime d'un traumatisme crânien. Il ouvre les yeux à la demande, serre les mains à la demande mais répond de manière inappropriée aux questions.\nQuelle est le score de Glasgow ? (Réponse en 1 à 5 mots)",
+          "choix": [],
+          "reponses": [
+            "Glasgow 12 (Y3V3M6)",
+            "12",
+            "12 (Y3V3M6)",
+            "douze",
+            "glasgow 12",
+            "Glasgow 12",
+            "glagow 12",
+            "12 (M6V3Y3)",
+            "Glasgow 12 (M6V3Y3)",
+            "12 (Y3M6V3)",
+            "score de 12"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez une jeune patiente de 11 ans aux urgences. Elle a été adressée par son ophtalmologiste. Elle a consulté pour une diplopie binoculaire évoluant depuis quelques jours.\nEn l'interrogeant, vous apprenez qu'elle présente aussi des céphalées et des nausées depuis trois semaines. Initialement à prédominance matinale, ces symptômes sont quasiment constants maintenant. Les céphalées sont diffuses, holocrâniennes,\n« en casque ». Elle a vomi ce matin après son petit déjeuner.\nA l’'examen physique neurologique, constatée l'anomalie ophtalmologique suivante (CF photo).\nQu'elle est la proposition juste à propos l'anomalie clinique illustrée ? (une seule réponse attendue)",
+          "choix": [
+            "A) Il s'agit d'une paralysie du nerf oculomoteur (III) à droite qui signe d'engagement temporal homolatéral.",
+            "B) Il s'agit d'une paralysie du nerf trochléaire (IV) à droite qui signe une lésion du tronc cérébral.",
+            "C) Il s'agit d'une atteinte du nerf abducens (VI) à droite qui signe une lésion de l'angle pontocérébelleux.",
+            "D) Il s'agit d'une paralysie du nerf oculomoteur (III) à droite qui n'a pas de valeur localisatrice.",
+            "E) Il s'agit d'une atteinte du nerf abducens (VI) à droite qui n'a pas de valeur localisatrice."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2025/q2.png?v=1786297169390"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 3 structures anatomiques susceptibles d’être comprimées par un engagement temporal\ninternes ?\n(3 réponses attendues)",
+          "choix": [
+            "A) Nerf optique (II).",
+            "B) Nerf oculomoteur (III).",
+            "C) Nerf abducens (VI).",
+            "D) Artère cérébrale moyenne.",
+            "E) Artère cérébrale postérieure.",
+            "F) Artère cérébelleuse postéro-inférieure.",
+            "G) Pédoncule cérébral.",
+            "H) Pédoncule cérébelleux supérieur.",
+            "I) Foramen de Monroe.",
+            "J) 4ème ventricule."
+          ],
+          "reponses": [
+            "B",
+            "E",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les localisations caractéristiques des lésions visibles à l’IRM dans le cadre d’une sclérose en plaques ?\n(1 ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Périventriculaire",
+            "B) Cortical",
+            "C) Sous-cortical",
+            "D) Noyau gris centraux",
+            "E) Médullaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes cliniques caractéristiques d’une névrite optique ?\n(1 ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Dyschromatopsie rouge-jaune",
+            "B) Décoloration de la papille peut être observée dans les semaines qui suivent l'épisode aigu",
+            "C) Scotome altitudinal",
+            "D) Douleur périorbitaire à la mobilisation oculaire",
+            "E) baisse d’acuité visuelle brutale"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suivez un patient de 64 ans qui a une Maladie de Parkinson depuis 6 ans, et qui reçoit de la lévodopa toutes les 4 H en 4 prises/j ainsi qu’un IMAO B et un agoniste dopaminergique (ropinirole 8 mg). Lors de la consultation, le patient vous signale une majoration des signes moteurs (ralentissement et tremblement), 1H avant chaque prise de L-Dopa.\nParmi les propositions suivantes, le ou lesquelles sont exactes? (1 ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Ce sont des dyskinésies de milieu de dose",
+            "B) C’est un effet ON / OFF",
+            "C) Il s’agit d’akinésie de fin de dose",
+            "D) Ce sont des dyskinésies de début et de fin de dose",
+            "E) Il s’agit d’une complication motrice « de la L-dopa »",
+            "F) Il s’agit complication motrice des agonistes dopaminergiques"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient de 55 ans, diabétique de type II sous metformine, se présente pour un trouble de la marche évoluant depuis\n48 heures. Les premiers symptômes ont commencé il y a une semaine sous forme de picotements aux orteils remontant progressivement à la cheville et au genou puis aux mains. Depuis 2 jours, il présente des troubles de l'équilibre. La force motrice est cotée à 4/5 aux psoas et au deltoïdes et à 5/5 aux muscles intrinsèques des mains et aux fléchisseur et extenseur des pieds. La manœuvre de Romberg est positive sans latéralisation, les réflexes ostéotendineux sont abolis et les réflexes cutanés plantaires sont en flexion. Les constantes vitales sont normales.\nQuel est votre diagnostic syndromique ?\n(Réponse en 1 à 5 mots sans abbréviation)",
+          "choix": [],
+          "reponses": [
+            "Polyradiculonévrite aigue inflammatoire",
+            "Polyradiculonévrite aigue",
+            "syndrome de Guillain Barré",
+            "Guillain Barré",
+            "Syndrome de Guillain-Barré",
+            "syndrome de guillain barre",
+            "syndrome de guillain-barré",
+            "syndrome de Guillain-Barré",
+            "polyradiculonévrite aiguë",
+            "Syndrome de Guillain Barre",
+            "polyradiculonévrite aigüe",
+            "guillain-barré",
+            "polyradiculonevrite aigue",
+            "Syndrome de Guillain Baré",
+            "syndrome de Guillain Barre",
+            "Polyradiculonévrite aiguë",
+            "syndrome de guilain et barré",
+            "polyradiculoneuropathie aigue",
+            "Guillain-Barré",
+            "syndrome de Guilain-Barré",
+            "syndrome de Guillan Barré",
+            "Syndrome de Guilllain-Barré",
+            "Syndrome Guillain barré",
+            "Syndrome de guillain barre",
+            "syndrome Guillain Barré",
+            "syndrome de gulain et barré",
+            "syndrome guillain barre",
+            "syndrome guillain-barré",
+            "polyradiculonevrite aiguë inflammatoire",
+            "polyradiculonevrite aigu",
+            "Syndrome de Guillan-Barré",
+            "Guillain Barre",
+            "syndrome de Guillain baré",
+            "syndrome de Guillain Baré",
+            "syndrome de Guillain-Barre",
+            "syndrome guillaim barré",
+            "sd de guillain barré",
+            "syndrome de guillan barré",
+            "syndrome de guillain-barre",
+            "Syndrome de Guilain Barré"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous êtes neurologue. Monsieur D. vient à la consultation avec son épouse. Lui-même ne sait pas pourquoi il est là. Pendant la consultation, le patient vous tutoie et fait des blagues. Son épouse décrit un défaut d’empathie. Il a d’ailleurs peu réagi à la naissance de son premier petit-enfant. Elle le trouve également plus glouton.\nQuel est le diagnostic que vous évoquez en première intention ?\n(une seule réponse attendue)",
+          "choix": [
+            "A) Une maladie d’Alzheimer de forme comportementale",
+            "B) Une démence fronto-temporale",
+            "C) Une maladie à corps de Lewy",
+            "D) Une schizophrénie de survenue tardive",
+            "E) Une maladie bipolaire"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les traitements de crise de l’algie vasculaire de la face ?\n(2 réponses attendues)",
+          "choix": [
+            "A) Ketoprofene",
+            "B) Oxygénothérapie 2 à 5L/min aux lunettes nasales pendant une heure",
+            "C) Oxygénothérapie 12 à 15L/min au masque haute concentration pendant 15 à 20 minutes",
+            "D) Sumatriptan injectable 6 mg par voie sous cutanée",
+            "E) Sumatriptan 50 à 100 mg en comprimé oral"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Une patiente de 48 ans consulte pour un trouble sensitif transitoire du membre supérieur droit.\nParmi les éléments suivants, lesquels sont en faveur du diagnostic d’Accident Ischémique transitoire ?\n(2 réponses attendues)",
+          "choix": [
+            "A) La description par l’entourage d’une rupture de contact",
+            "B) Le caractère focal du déficit sensitif ayant touché l’ensemble du membre supérieur droit et l’hémiface droite",
+            "C) L’installation et l’extension progressive de paresthésies ayant débuté sur la main droite puis s’étant étendu vers la racine du membre supérieur droit puis sur l’hémiface droite en 5 minutes",
+            "D) La résolution complète des symptômes en moins d’une heure",
+            "E) La survenue d’une hémicrânie gauche alors que les troubles sensitifs ont disparu"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’épouse d’un patient atteint d’une maladie de Parkinson, âgé de 45 ans, traité avec un agoniste dopaminergique (ropinirole 18 mg) et de la L-dopa vous appelle car depuis 3 semaines il lui dit voir des hommes à leur domicile et est persuadé qu’elle le trompe. Il est très soupçonneux et devient agressif.\nQuels diagnostics évoquez vous ? (une seule ou plusieurs réponse attendue)",
+          "choix": [
+            "A) Démence parkinsonienne",
+            "B) Épisode maniaque",
+            "C) Accident vasculaire cérébral",
+            "D) Trouble du sommeil paradoxal du patient parkinsonien",
+            "E) Psychose dopaminergique",
+            "F) Effet secondaire médicamenteux"
+          ],
+          "reponses": [
+            "E",
+            "F"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes neurologue. Madame E. se présente à votre consultation pour une plainte mnésique avec un oubli des faits récents. Voici l’IRM cérébrale qu’elle vous amène.\nQuelles sont les réponses exactes ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Il s’agit d’une IRM en séquence T1.",
+            "B) On observe des micro-saignements lobaires.",
+            "C) Ces saignements font évoquer une angiopathie amyloïde cérébrale.",
+            "D) Il s’agit d’une IRM en séquence T2-GRE (T2*).",
+            "E) Dans l’angiopathie amyloïde cérébrale, on peut observer de l’hémosidérose corticale."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2025/q12.png?v=1786297175888"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un patient de 35 ans vous consulte pour ptosis intermittent à bascule survenu il y a 3 mois et récidivant de manière fluctuante. Il a noté une diplopie variable horizontale ou verticale en fin de journée avec une fatigabilité musculaire l’obligeant à interrompre tout effort important. Les symptômes d’améliorent au repos. Vous remarquez une voie nasonnée.\nQuelles sont les propositions exactes ? (une seule réponse attendue)",
+          "choix": [
+            "A) vous évoquez un syndrome de Wallenberg",
+            "B) votre première hypothèse est celle d’une myasthénie",
+            "C) vous demandez une multinévrite",
+            "D) vous réalisez une IRM cérébrale",
+            "E) vous réalisez une ponction lombaire"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 78 ans présente de façon brutale une hémiplégie droite et une dysarthrie. L’examen TDM cérébrale SPC réalisé en urgence est représenté ci-dessous.\nParmi les propositions suivantes, laquelle (ou lesquelles) est (sont) exactes ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) L’imagerie montre une tumeur cérébrale",
+            "B) L’imagerie montre une hémorragie intracérébrale lobaire",
+            "C) L’imagerie montre une hémorragie intracérébrale profonde supratentorielle",
+            "D) Cette lésion peut être causée par la microangiopathie profonde liée à l’HTA",
+            "E) Cette lésion peut être causée par l’angiopathie amyloïde cérébrale"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2025/q14.png?v=1786297176753"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un homme de 72 ans consulte car il a présenté ce jour, pendant le repas, des difficultés pour parler d’installation soudaine. Il n’arrivait plus à trouver les mots alors qu’il était parfaitement conscient et comprenait ce que lui disait son entourage. Il n’a eu aucun autre symptôme. Les troubles ont été spontanément résolutifs en 15 minutes et il est désormais asymptomatique. Quel est le diagnostic le plus vraisemblable ?\n(Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "Accident Ischémique Transitoire",
+            "AIT",
+            "accident ischemique transitoire",
+            "Accident ischemique transitoire",
+            "Accident ischémique transitoire",
+            "Accident ischémique transitoire (AIT)",
+            "Accident Ischémique Transitoire aphasie Broca",
+            "AIT accidents ischemiques transitoires",
+            "Accident ischemique transitoire (Aphasie de Broca)",
+            "accident ischiémique transitoire",
+            "Accident Ischémique Transitoire aire Broca",
+            "Accident ischemique transitoire de broca",
+            "accdient ischémique transitoire",
+            "accident ischemique transitoire possible",
+            "Accident ischemique transitoire sylvien",
+            "Accident ishemique transitoire",
+            "Accident Ischemique transitoire",
+            "Accident ischiémique transitoire",
+            "accident ischemique transitoire broca",
+            "accident ischemique transitoire aphasie de broca",
+            "accident ischemique transitoire avec aphasie de broca",
+            "Accident ischémique transitoire responsable d'Aphasie de Broca",
+            "aphasie de broca (AIT)"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297178586-a3e5b64a4b4dd8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une patiente de 35 ans rapporte depuis l’âge de 20 ans, la survenue régulière d’un trouble visuel lumineux brillant débutant dans un hémichamp visuel, grossissant progressivement en une dizaine de minute, durant au total 20 à 30 minutes puis s’estompant petit à petit. Elle ressent alors des paresthésies du visage des deux côtés, s’étendant aux deux bras avec des difficultés d’élocution pendant une demi-heure environ. Lorsque les symptômes s’interrompent, elle présente une céphalée frontale légère non pulsatile sans photophobie, sans phonophobie, sans nausées ni vomissement.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est votre diagnostic ?\n(Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "Migraine avec aura",
+            "aura migraineuse",
+            "Aura migraineuse",
+            "migraines avec aura",
+            "migraine atypique avec aura",
+            "migraine avec aura habituelle",
+            "Migraines avec aura",
+            "auras migraineuses",
+            "crise migraineuse avec aura",
+            "Auras migraineuses",
+            "mograine avec aura",
+            "migraine avec aura chronique",
+            "aura typique",
+            "migraine avec aura visuels"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les critères de céphalée par abus médicamenteux ?\n(2 réponses attendues)",
+          "choix": [
+            "A) Céphalée ≥ 15 jours par mois depuis ≥ 1 mois",
+            "B) Céphalée survenant chez un patient n’ayant jamais eu de céphalée préexistante à la surconsommation médicamenteuse",
+            "C) Surconsommation régulière depuis plus de3 mois d’un AINS pris ≥ 15 jours/mois",
+            "D) Surconsommation régulière depuis plus de 3 mois d’un triptan pris ≥ 10 jours/mois",
+            "E) Surconsommation régulière depuis plus de 3 mois d’un opiacé pris ≥ 15 jours/mois",
+            "F) Réponse F"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les 5 traitements de fond de la migraine de première ligne ?\n(5 réponses attendues)",
+          "choix": [
+            "A) Amitriptyline",
+            "B) Zolmitriptan",
+            "C) Verapamil",
+            "D) Topiramate",
+            "E) Propranolol",
+            "F) Fremanezumab (anticorps anti-CGRP)",
+            "G) Sels de lithium",
+            "H) Solumedrol",
+            "I) Sumatriptan",
+            "J) Candesartan",
+            "K) Oxcarbazépine",
+            "L) Metoprolol",
+            "M) Ibuprofene",
+            "N) Carbamazépine",
+            "O) Infiltration de corticoïdes du nerf grand occipital",
+            "P) Metoclopramide",
+            "Q) Aspirine"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E",
+            "I",
+            "L"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297180062-d7ddd88e837c5",
+      "type": "KFP",
+      "title": "KFP 2",
+      "description": "De garde au SAMU, vous prenez en charge Monsieur M. Il a été victime d’un accident de la voie publique en véhicule léger à 2h du matin. Il s’agissait d’un choc frontal contre un arbre sur une route nationale. La voiture est sévèrement endommagée, l’airbag s’est déclenché.\nVous l’examinez vers 2h20. La PA est à 134/72, la FC à 82Mmin, la saturation à 99%. Il présente des ecchymoses périorbitaires en lunettes. Il n’ouvre pas les yeux à la douleur, gémi de manière incompréhensible à la douleur et à un retrait non orienté à la stimulation douloureuse de sa main. Vous notez une plaie du scalp hémorragique. Vous observez un épistaxis. Vous notez une fracture ouverte de l’humérus droit.\nIl n’a pas d’antécédent particulier et ne suit pas de traitement.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous évoquez un traumatisme crânien sévère. Quel est le score de Glasgow ?\n(Réponse en 1 à 5 mots)",
+          "choix": [],
+          "reponses": [
+            "Score de Glasgow = 7",
+            "Glasgow = 7",
+            "7",
+            "sept",
+            "7 (Y1V2M4)",
+            "Y1V2M4",
+            "7(Y1V2M4)",
+            "7 (Y1M4V2)",
+            "G7",
+            "Glasgow 7 (M4V2Y1)",
+            "Sept",
+            "score de 7",
+            "7 soit Y1V2M4"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel élément clinique fondamental à votre évaluation et à la prise en charge initiale manque-t-il dans cette observation ?\n(Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "Examen pupillaire",
+            "examen des pupilles",
+            "Examen des pupilles",
+            "pupilles",
+            "Pupilles",
+            "réactivité pupillaire",
+            "pupille",
+            "anisocorie",
+            "Anomalie pupillaire",
+            "Réactivité pupillaire",
+            "reflexe pupillaires",
+            "absence d'anisocorie",
+            "reflexes pupillaires",
+            "réflexe pupillaire",
+            "reflexe du tronc cerebral avec le reflexe photomoteur",
+            "asymétrie pupillaire",
+            "Reflexes occulomoteurs",
+            "état des pupilles",
+            "mobilité pupillaire",
+            "recherche d'une anisocorie",
+            "reactivité pupillaires",
+            "observation des pupilles (IRS)",
+            "aspect et réactivité des pupilles",
+            "etat des pupilles",
+            "réflexe occulomoteur",
+            "Réflèxe photomoteur",
+            "réflexe photo-moteur",
+            "reaction pupillaire",
+            "examen des yeux",
+            "pupilles (intermediaires, réactives, symétriques)",
+            "asymetrie pupillaire",
+            "pupilles IRS",
+            "Reflexe photomoteur",
+            "description des pupilles",
+            "l'etat des pupilles",
+            "reflexivité des pupilles",
+            "observation des pupilles",
+            "l’état pupillaire",
+            "réactivité symétrie et dilatation des pupilles",
+            "analyse pupillaire",
+            "evaluation des pupilles",
+            "symétrie et réactivité des pupilles",
+            "Reflèxe oculomoteur / aspect des pupilles",
+            "occulaire (recherche d'engagement)",
+            "examen clinique des pupilles",
+            "reactivite des pupilles",
+            "Présence d’une anisocorie"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’examen pupillaire est le suivant (Photo ci-dessous) parmi les propositions suivantes quelles sont les 4 réponses exactes",
+          "choix": [
+            "A) L’examen retrouve une atteinte du III D intrinsèque",
+            "B) Vous évoquez un engagement temporal interne",
+            "C) Le patient à une atteinte du IV ieme nerf crânien",
+            "D) Il existe une mydriase de l’œil Dt",
+            "E) Il existe un myosis de l’œil G",
+            "F) Cette anisocorie est un signe de gravité",
+            "G) Cette anisocorie signe un engagement sous falcique",
+            "H) Cette anisocorie évoque évoque un traumatisme oculaire associé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "F"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2025/q21.jpg?v=1786297182223"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297182658-df1a566d5e7338",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous êtes neurologue. Madame L se présente à votre consultation accompagnée de son époux. Elle a 68 ans pour une plainte concernant sa mémoire. Elle a pour antécédents une HTA, un diabète de type 2 et une fibrillation auriculaire (FA). Son traitement comprend : Apixaban, Losartan et Metformine.\nMme L. dit oublier des conversations, a besoin de noter tous les rendez-vous et faire une liste pour les courses. Les symptômes évoluent depuis le passage à la retraite il y a 4 ans, et sont associés à beaucoup d’anxiété. L’autonomie reste préservée",
+      "order": 4,
+      "questions": [
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 3 hypothèses envisageables concernant l’origine du trouble cognitif de la patiente ?\n(3 réponses attendues)",
+          "choix": [
+            "A) Un syndrome anxiodépressif",
+            "B) Un AVC ischémique favorisé par la FA",
+            "C) Un trouble cognitif vasculaire",
+            "D) Une maladie d’Alzheimer",
+            "E) Une méningo-encéphalite herpétique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La plainte de cette patiente vous parait pouvoir évoquer une maladie neurodégénérative débutante. Quels sont les examens à réaliser en première intention pour avancer dans le diagnostic ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Bilan biologique standard (NFS-p, ionogramme sanguin, fonction rénale, fonction hépatique, dosages des folates et de la vitamine B12).",
+            "B) Ponction lombaire pour l’analyse des biomarqueurs du LCR.",
+            "C) IRM cérébrale avec séquences T1 et T2.",
+            "D) PET Scanner cérébrale au FDG.",
+            "E) Bilan neuropsychologique (Mini Mental State Evaluation, évaluation de la mémoire et des autres fonctions cognitives…)."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique est normal. L’IRM cérébrale réalisée est présentée ci-dessous. Parmi les propositions suivantes, la ou lesquelles sont les réponses exactes ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) L’image de gauche est en séquence T1.",
+            "B) Les flèches noires montrent une atrophie au niveau de l’insula.",
+            "C) La dilatation des ventricules sur ces images fait évoquer une hydrocéphalie à pression normale.",
+            "D) Les flèches blanches montrent des lésions évocatrices de sclérose en plaques.",
+            "E) On observe une atrophie des hippocampes."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/neurologie-neurochirurgie-s9/2025/q24.png?v=1786297183350"
+          ]
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan neuropsychologique met en évidence un trouble mnésique antérograde au premier plan. Il n’y a pas d’atteinte des fonctions instrumentales (pas d’apraxie, ni d’agnosie, ni d’aphasie). Le Mini Mental State Examination est à 27/30. A la lumière de la plainte cognitive et de l’IRM, quels sont les diagnostics à\névoquer devant l’ensemble de ces résultats ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Une maladie à corps de Lewy.",
+            "B) Une maladie d’Alzheimer à un stade prodromal.",
+            "C) Une maladie d’Alzheimer à un stade démentiel.",
+            "D) Des troubles cognitifs d’origine vasculaire.",
+            "E) Une hydrocéphalie à pression normale."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Afin de préciser le diagnostic, vous décidez de réaliser une ponction lombaire pour étudier le liquide cérébro-spinal (LCS). Quelles sont les réponses exactes ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Il n’y a pas besoin de faire la ponction lombaire, nous avons assez d’argument pour poser un diagnostic de maladie d’Alzheimer avec les examens déjà réalisés avec un degré de certitude > 80%.",
+            "B) L’augmentation du peptide Abéta1-42 dans le LCS témoigne de la présence d’une amyloïdopathie.",
+            "C) L’augmentation de la protéine Tau dans le LCS témoigne de la mort neuronale.",
+            "D) La réalisation de cet examen est possible immédiatement.",
+            "E) La diminution du peptide Abéta1-42 dans le LCR témoigne de la présence d’une amyloïdopathie."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan retrouve une augmentation de la protéine Tau phosphorylée et une diminution du rapport Abéta1- 42/Abéta1-40. Concernant l’annonce diagnostique, quelles sont les réponses exactes ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) La patiente doit repartir avec une prescription de rééducation orthophonique.",
+            "B) Vous posez le diagnostic de maladie d’Alzheimer seule.",
+            "C) Vous poser le diagnostic d’une comorbidité maladie d’Alzheimer-trouble cognitif d’origine vasculaire.",
+            "D) Vous proposez de faire une demande l’APA (Allocation Personnalisée d’Autonomie) car la patiente a plus de 60 ans pour la mise en place d’auxiliaires de vie.",
+            "E) L’équilibre tensionnel est primordial dans la suite du suivi."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "3 ans plus tard, Mme L. est adressée aux urgences pour une confusion aigue. Elle a été retrouvée au sol par son mari, confuse mais consciente. Voici son ordonnance actuelle : Apixaban, Losartan, Metformine, Insuline Glargine, Risperidone. Quelles sont les réponses exactes concernant la suite de la prise en charge ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Il faut rechercher un globe vésical ou un fécalome.",
+            "B) Il faut réaliser un scanner cérébral en urgence à la recherche d’un saignement intracrânien.",
+            "C) Il faut éliminer une hypoglycémie.",
+            "D) Un surdosage en Risperidone peut expliquer les symptômes.",
+            "E) Il faut rechercher une infection sous- jacente."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297184509-c1fe105d66d4b",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un patient de 38 ans vient à votre consultation car depuis 1 ans il présente une douleur à l’épaule droite, des difficultés à écrire (est droitier). De plus il ressent une sensation de tremblement au bras droit, inconstant. Vous pensez à une maladie de Parkinson.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 29,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les caractéristiques typiques d’un tremblement dans ce cadre ?\n(3 réponses attendues)",
+          "choix": [
+            "A) Il disparait lors du mouvement",
+            "B) Il apparait au repos",
+            "C) Il diminue avec le calcul mental",
+            "D) Il disparait lors du sommeil",
+            "E) Il épargne toujours les membres inférieurs",
+            "F) Il n’est pas visible à la marche"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment peut-on mettre en évidence un tremblement de repos ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Patient allongé",
+            "B) Patient assis réalisant la manœuvre du serment",
+            "C) Patient assis réalisant la manœuvre du bretteur",
+            "D) En demandant au patient de se servir à boire",
+            "E) Patient assis, détendu",
+            "F) Pendant la marche"
+          ],
+          "reponses": [
+            "A",
+            "E",
+            "F"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Compte tenu de l’âge du patient et des symptômes présentés, quels examens complémentaires demandez-vous ? (une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Un Dat Scan",
+            "B) Une IRM de l’encéphale",
+            "C) Aucun examen",
+            "D) Un dosage de la cuprurie et de la céruléoplasmine",
+            "E) Un bilan hépatique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 32,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En faisant les examens complémentaires pour ce patient, vous retrouvez un examen biologique en faveur d’une Maladie de Wilson, lequel ? (Réponse en 1 à 5 mots sans abréviation)",
+          "choix": [],
+          "reponses": [
+            "Céruléoplasmine réduite et cuprurie augmentée",
+            "Céruléoplasmine réduite",
+            "cuprurie augmentée",
+            "cuprurie",
+            "dosage de la cuprurie",
+            "augmentation de la cuprurie",
+            "Cuprurie",
+            "cuprurie et céruléoplasmine",
+            "dosage cuprurie et céruléoplasmine",
+            "cuprurie élevée",
+            "Dosage de la cuprurie",
+            "céruléoplasmine",
+            "hypercuprurie",
+            "cuprurie augmentee",
+            "elevation de la cuprurie",
+            "dosage de la cuprurie et de la céruléoplasmine",
+            "Cuprurie et céruléoplasmine",
+            "dosage cuprurie",
+            "Dosage de la cuprurie et de la céruléoplasmine",
+            "dosage de la cuprurie et céruléoplasmine",
+            "cuprurie et ceruleoplasmine",
+            "cuivre: céruléoplasmine",
+            "cupriurie élevée",
+            "élévation de la cuprurie",
+            "hypocéruléoplasmine",
+            "dosage cuprurie positif",
+            "cuivre dans les urines",
+            "dosage de la cuprurie et ceruloplasmine",
+            "cuprurie augmenté",
+            "la cuprurie",
+            "augmentation de la cruprurie",
+            "cupruriémie élevée",
+            "bilan du cuivre eleve : dosage de la cuprurie et céruléoplasmine",
+            "Dosage cuprurie et céruloplasmine",
+            "hypercruprurie",
+            "curprurie augmentee",
+            "céruloplasmine et cuprurie",
+            "ceruleoplasmine",
+            "la cuprurie et la céruléoplasmine",
+            "Augmentation de la cuprurie des 24 heures",
+            "Élévation de la cuprurie",
+            "dosage de curpurie et céruléoplasmine",
+            "augmentation de la cupriurie",
+            "dosage de la cuprurie et de la ceruloplasmine anormal",
+            "bilan cuivre (cérulloplasmine et cuprurie)",
+            "cuprurie augmentée / ceruleoplasmine diminuée",
+            "hypercuprurémie",
+            "cuprurie et cereuloplasmine",
+            "dosage de cuprurie et céruléoplasmine",
+            "Cuprurie des 24h augmentée",
+            "Augmentation de la cuprurie",
+            "cuprurie des 24h",
+            "Cupriurie augmentée",
+            "Cuprurie élevée (excès de cuivre)",
+            "augmentation curpurie (accumulation de cuivre)",
+            "dosage curprurie et céruléoplasmine",
+            "dosage de la cuprurie et de la ceruleoplasmine",
+            "dosage de la cuprurie et de la céréuloplasmine",
+            "bilan du cuivre ceruleoplasmine et cruprurie",
+            "cuprurie, cuprémie",
+            "augmention en cuivre (cuprurie)",
+            "cuprurie et ceruleoplasmide",
+            "Cuprurie élevée",
+            "cuprurie et ceruloplasmine",
+            "dosage cuivre",
+            "Dosage de la Cuprurie"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’IRM est normale tout comme le bilan du cuivre/hépatique, Quel(s) traitement(s) pouvez-vous lui prescrire tenu en compte que le patient est gêné par son tremblement ?",
+          "choix": [
+            "A) Abstention thérapeutique",
+            "B) Inhibiteur de la MAO A",
+            "C) Inhibiteur de la MAO B",
+            "D) L-dopa",
+            "E) Agonistes dopaminergiques",
+            "F) Inhibiteur de la COMT"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez prescrit du ROPINIROL jusqu’au la dose de 6 mg LP le matin, quels sont les effets indésirables à surveiller et dont vous devez informer le patient ?",
+          "choix": [
+            "A) Dyskinésies",
+            "B) Hallucinations visuelles",
+            "C) Somnolence diurne",
+            "D) Nausées",
+            "E) Troubles du contrôle des impulsions (achat/jeux pathologiques, grignotage, ect…)",
+            "F) Livedo réticularis"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297188712-28387e38896148",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Un patient de 66 ans, droitier, est adressé en urgence par le SAMU aux urgences suite à la survenue d’une paralysie de la face et du bras gauche qui évolue depuis 2 heures. Il a pour antécédents une arythmie complète par fibrillation auriculaire traitée par anticoagulant oraux qu’il a pris il y a 4 heures. L’examen clinique retrouve une tension artérielle à 190/100 un pouls à 120 / minutes et irrégulier et des signes cliniques évocateurs d’une atteinte hémisphérique droite.",
+      "order": 6,
+      "questions": [
+        {
+          "id": 35,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont parmi les signes cliniques suivants les 3 qui vous orientent vers une atteinte hémisphérique droite ? (3 réponses attendues)",
+          "choix": [
+            "A) Une hémiparésie brachio-faciale gauche",
+            "B) Une hémianopsie latérale homonyme droite",
+            "C) Une héminégligence",
+            "D) Une déviation tonique de la tête des yeux vers la gauche",
+            "E) Une hypoesthésie brachio-faciale gauche"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles peuvent être les pathologies responsables de l’état neurologique du patient ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Infarctus cérébral dans le territoire de l’artère cérébrale moyenne droite.",
+            "B) Hématome lobaire spontané fronto-pariétal droit",
+            "C) Infarctus cérébral dans le territoire de l’artère cérébrale postérieure gauche",
+            "D) Hématome profond capsulo-thalamique gauche",
+            "E) Hémorragie sous arachnoïdienne péri-mésencéphalique."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 37,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’imagerie en IRM confirme le diagnostic d’infarctus cérébral en rapport avec une occlusion proximale de l’artère cérébrale moyenne droite. Quel traitement de revascularisation choisissez-vous ?\n(une seule réponse attendue)",
+          "choix": [
+            "A) Thrombolyse par le rtPA seule",
+            "B) Thrombectomie par voie endovasculaire seule",
+            "C) Thrombolyse suivie d’une thrombectomie par voie endovasculaire",
+            "D) Aucun car le patient est déjà sous traitement anticogulant",
+            "E) Thrombolyse intra-artérielle par urokinase."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient a été traité par thrombectomie seule. Son déficit neurologique a partiellement régressé. La température est à 38.5°C ; la glycémie à 2,5g/l et la SaO2 à 92%, la TA est à 180/110. A l’examen vous retrouvez des troubles de la déglutition en rapport avec une paralysie persistante du voile du palais, une hémiparésie droite et une héminégligence visuelle. A l’auscultation vous mettez en évidence des râles crépitants dans l’hémichamps pulmonaire droit. Quelle prise en charge proposez-vous ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Oxygénothérapie pour maintenir SaO2>95%",
+            "B) Suspension de l’alimentation orale et si besoin pose d’une sonde naso-gastrique",
+            "C) Traitement antihypertenseur par voie intra-veineuse",
+            "D) Lutte contre l’hyperglycémie par insulinothérapie sous-cutanée",
+            "E) Kinésithérapie motrice précoce"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 39,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est la cause la plus probable de la fièvre du patient ?\n(une seule réponse attendue)",
+          "choix": [
+            "A) Infection urinaire",
+            "B) Pneumopathie de déglutition",
+            "C) Endocardite infectieuse",
+            "D) Méningite compliquant le geste de thrombectomie",
+            "E) Thrombose veineuse du membre inférieur droit"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 40,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous apprenez que le patient a arrêté la semaine dernière son traitement anticoagulant en vue d’une intervention pour la cataracte. L’examen des vaisseaux du cou retrouve une plaque d’athérosclérose à l’origine de la carotide interne droite. Le reste du bilan est négatif. Quelle est la cause la plus probable de cet infarctus cérébral?\n(une seule réponse attendue)",
+          "choix": [
+            "A) Dissection carotide interne droite",
+            "B) Athérosclérose",
+            "C) Fibrillation auriculaire avec arrêt récent des anticoagulants",
+            "D) Microangiopathie de l’hypertension artérielle",
+            "E) Cause indéterminée"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 41,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les réponses vraies concernant le pronostic des AVC ?\n(une ou plusieurs réponses attendues)",
+          "choix": [
+            "A) Le taux de récidive est estimé à 60% à 5 ans",
+            "B) Le pronostic fonctionnel d’un AVC est difficile à établir à la phase aigue",
+            "C) L’essentiel de la récupération se fait dans les 3 premiers mois",
+            "D) Un patient victime d’un AVC est à risque de développer une épilepsie",
+            "E) Les troubles cognitifs sont exceptionnels"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

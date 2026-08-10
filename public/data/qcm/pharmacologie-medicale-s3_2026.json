@@ -1,0 +1,487 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s3",
+  "annee": 2026,
+  "title": "Pharmacologie médicale - 2026",
+  "total_questions": 24,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez à votre cabinet Mme Tandu 41 ans suivie pour une insuffisance cardiaque. Mme Tandu vous amène Thomas 8 ans car depuis quelques mois il tousse fréquemment tout au long de la journée. Il tousse également 2 ou 3 nuits par mois. Ce problème survient de manière intermittente depuis environ un an, mais semble s'aggraver au printemps et à l'automne. Thomas tousse également davantage lorsqu'il fait du vélo ou joue au football. Au cours de l'année écoulée, il a été traité à deux reprises pour une « bronchite » avec des antibiotiques, mais il ne semble jamais guérir complètement. Son examen est normal, à l'exception de l’auscultation pulmonaire, qui révèle une respiration sifflante expiratoire. Vous diagnostiquez un asthme à Thomas. Vous lui prescrivez un aérosol de salbutamol.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du salbutamol prescrit à Thomas, quelle(s) est (sont) le (les) effet(s) pharmacodynamique(s) expliqué(s) par la propriété agoniste beta2 adrénergique ?",
+          "choix": [
+            "A) Bronchodilatation",
+            "B) Vasoconstriction périphérique",
+            "C) Tachycardie sinusale",
+            "D) Hypoglycémie",
+            "E) Tremblements des extrémités"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel est l'action du salbutamol pour la gestion de l’asthme de Thomas ?",
+          "choix": [
+            "A) Il augmente les sécrétions de mucus pour dégager les voies respiratoires",
+            "B) Il est utilisé pour ses effets anti-inflammatoires sur le long terme",
+            "C) Il augmente l’hyperactivité bronchique",
+            "D) Il augmente le battement ciliaire au niveau bronchique",
+            "E) C’est un médicament du traitement de fond de l’asthme"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’administration du salbutamol en aérosol-doseur (spray), quelle(s) est(sont) la(les) bonne(s) réponse(s) ?",
+          "choix": [
+            "A) Le flacon doit être agité avant chaque bouffée pour homogénéiser la suspension.",
+            "B) L’enfant doit expirer à fond avant d’inspirer et de déclencher le spray.",
+            "C) L’inspiration doit être rapide et courte pour optimiser la pénétration des particules dans les bronches.",
+            "D) Une mauvaise coordination entre le déclenchement du spray et l’inspiration diminue l’efficacité du salbutamol.",
+            "E) Le salbutamol administré en spray passe rapidement dans la circulation systémique grâce à une biodisponibilité orale élevée."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme Tandu s’interroge sur la possibilité d’utiliser d’autres médicaments en plus du salbutamol pour Thomas. A propos des associations médicamenteuses dans l’asthme, quelle(s) est (sont) la (les) bonne(s) réponse(s)?",
+          "choix": [
+            "A) Le salbutamol réduit le risque de glaucome aigu à angle fermé déterminé par un médicament atropinique type ipratropium.",
+            "B) Le salbutamol réduit le risque d’hypokaliémie déterminé par les médicaments diurétiques thiazidiques.",
+            "C) L’association glucocorticoïdes inhalés et salbutamol est contre-indiquée.",
+            "D) Les effets pharmacodynamiques bronchiques du montelukast ne s’oppose pas aux effets pharmacodynamiques bronchiques du salbutamol.",
+            "E) Les anti-inflammatoires non stéroïdiens permettent de réduire la tolérance induite par l’utilisation chronique du salbutamol."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Finalement vous restez sur une prescription unique de salbutamol pour Thomas. Mme Tandu vous explique que Thomas est très gêné par sa toux la nuit. Elle vous demande si elle peut lui donner le soir le médicament qu’avez prescrit votre remplaçant la dernière fois pour la toux de Mme Tandu, à savoir l’Oxomémazine HUMEX TOUX SECHE°. Que pouvez-vous répondre à Mme Tandu (1 ou plusieurs réponses possible)?",
+          "choix": [
+            "A) Non, Thomas ne doit pas prendre ce médicament car le salbutamol va probablement réduire les symptômes de l’asthme.",
+            "B) Non, Thomas ne doit pas prendre ce médicament car il possède une balance bénéfices/risques défavorables pour la situation clinique de Thomas.",
+            "C) Oui, Thomas peut prendre chaque soir ce médicament car le salbutamol pourrait ne pas suffire pour les symptômes de toux",
+            "D) Oui, Thomas peut prendre chaque soir ce médicament car c’est un anti-histaminique H2 qui a démontré son efficacité dans la toux de l’asthmatique.",
+            "E) Oui, Thomas peut prendre chaque soir ce médicament car c’est un agoniste des récepteurs MU qui a démontré son efficacité dans la toux de l’asthmatique."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Mme Tandu vous indique que sa toux persiste malgré la prise du médicament l’Oxomémazine HUMEX TOUX SECHE. Elle se demande si elle n’est pas asthmatique comme son fils. Comme pendant vos études vous êtes venu en cours de Pharmacologie, vous savez que devant tout symptôme (y compris la toux), il faut s’interroger sur une origine médicamenteuse. Vous décidez de revoir l’ordonnance de la patiente : Ramipril, Bisoprolol, Spironolactone, Pravastatine, Paracétamol\nUn de 5 médicaments est responsable de cette toux. Que faites-vous par rapport à son traitement médicamenteux (1 ou plusieurs réponse possible) ?",
+          "choix": [
+            "A) Vous arrêtez l’Oxomémazine",
+            "B) Vous arrêtez le Ramipril",
+            "C) Vous pouvez ajouter l’association sacubitril/valsartan pour optimiser son traitement de l’insuffisance cardiaque",
+            "D) Vous pouvez ajouter la dapagliflozine pour optimiser son traitement de l’insuffisance cardiaque",
+            "E) Vous arrêtez le bisoprolol car cette famille de médicament augmente la mortalité dans l’insuffisance cardiaque."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395937433-38def0084e9a18",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments du système adrénergique, laquelle (ou lesquelles) est(sont) exacte(s) ?",
+          "choix": [
+            "A) Les agonistes alpha1-adrénergiques augmentent la pression sanguine artérielle en agissant sur des récepteurs présynaptiques",
+            "B) La stimulation des récepteurs beta2 entraine une vasoconstriction",
+            "C) Les agonistes alpha2 adrénergiques augmentent le tonus orthosympathique",
+            "D) L’adrénaline entraine une stimulation préférentielle des récepteurs béta à faible dose et des récepteurs alpha à forte dose",
+            "E) L’isoprénaline agit à la fois sur les récepteurs alpha1, les récepteurs béta 1 et les récepteurs béta 2"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets suivants des catécholamines, lequel (ou lesquels) est (sont) déterminé(s) par des effets beta-adrénergiques ?",
+          "choix": [
+            "A) Augmentation de la fréquence cardiaque",
+            "B) Diminution de la sécrétion de rénine",
+            "C) Lipolyse",
+            "D) Contractions utérines",
+            "E) Hyperglycémie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les symptômes suivants, lequel (ou lesquels) est(sont) typique(s) du syndrome cholinergique ?",
+          "choix": [
+            "A) Sécheresse des muqueuses",
+            "B) Diarrhée",
+            "C) Augmentation de la fréquence cardiaque",
+            "D) Myosis",
+            "E) Douleurs abdominales"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) médicament(s) est(sont) un (des) agoniste(s) des récepteurs nicotiniques ?",
+          "choix": [
+            "A) Varénicline",
+            "B) Atropine",
+            "C) Adrénaline",
+            "D) Dobutamine",
+            "E) Pilocarpine"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments hypolipémiants, lesquelles sont exactes :",
+          "choix": [
+            "A) L'objectif clinique du traitement médicamenteux est de diminuer les taux de LDL-cholestérol",
+            "B) Les fibrates ont démontré leur efficacité dans la réduction de la morbi-motalité",
+            "C) La pravastatine est une statine de choix",
+            "D) Les anticorps anti-PCSK9 sont des médicaments de première intention",
+            "E) L'ézétimibe en monothérapie n'a pas fait la preuve de son efficacité clinique"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les statines, lesquelles sont exactes :",
+          "choix": [
+            "A) Les statines diminuent l'absorption des médicaments liposolubles comme les AVK",
+            "B) Les statines sont des agonistes des récepteurs PPARα",
+            "C) La simvastatine est métabolisée par le CYP450 2D6",
+            "D) Les statines sont des médicaments pourvoyeurs de diabète",
+            "E) Les statines sont des inhibiteurs de l'HMGCoA réductase"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant l’acide acétyl salicylique, utilisé comme anti-agrégant, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Il est indiqué à une dose >500 mg",
+            "B) Il est un inhibiteur des récepteurs à l’ADP",
+            "C) Il peut favoriser les effets hémorragiques",
+            "D) Il ne peut pas être associé avec le clopidogrel",
+            "E) Il ne peut être associé avec l'apixaban"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant l’enoxaparine, une héparine de Bas Poids Moléculaire, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Elle inhibe le facteur Xa comme l’apixaban",
+            "B) Elle a des effets anti-agrégants.",
+            "C) Elle est administrée par voie intra-musculaire",
+            "D) Elle peut entrainer des thrombopénies de mécanisme immuno-allergique",
+            "E) Elle peut être utilisée chez la femme enceinte"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les inhibiteurs des CYP450, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Les anticalciques bradycardisants sont inhibiteurs du CYP 2D6.",
+            "B) Les inhibiteurs de la recapture de la sérotonine sont inhibiteurs du CYP 2D6.",
+            "C) Les antifongiques azolés sont inhibiteurs du CYP3A4 et CYP 2C9.",
+            "D) Les antiépileptiques de 1ère génération sont inducteurs des CYP450",
+            "E) L'apixaban est inhibiteur du CYP3A4"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant l’amiodarone présentant une demi-vie de 100 jours, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) L’amiodarone est inhibiteur des canaux calciques",
+            "B) L’amiodarone est bathmotrope négatif, chronotrope négatif, dromotrope négatif mais inotrope positif.",
+            "C) L’amiodarone est arythmogène.",
+            "D) L’amiodarone est complétement éliminé de l’organisme au bout de 7 mois.",
+            "E) Les pneumopathies interstitielles diffuses déterminés par l’amiodarone sont des effets indésirables de Type A."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) le(s) trouble(s) électrolytique(s) est(sont) à surveiller lors de l’association d’un antagoniste compétitif du récepteur minéralo-corticoïde type spironolactone et d’un antagoniste du récepteur à l’angiotensine 2 type irbésartan ?",
+          "choix": [
+            "A) Hypernatrémie",
+            "B) Hyperkaliémie",
+            "C) Hypercalcémie",
+            "D) Hyponatrémie",
+            "E) Hypokaliémie"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels vont favoriser la survenue d’une insuffisance rénale aiguë fonctionnelle en association avec un diurétique de l’anse ?",
+          "choix": [
+            "A) Riociguat",
+            "B) Ramipril",
+            "C) Ibuprofène",
+            "D) Empagliflozine",
+            "E) Valsartan"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est la raison majeure qui explique pourquoi il ne faut pas associer les inhibiteurs de la phosphodiestérase 5 avec les dérivés nitrés (NO) (1 réponse juste) ?",
+          "choix": [
+            "A) A cause du risque d’œdème périphérique",
+            "B) A cause du risque de trouble de la vision des couleurs",
+            "C) A cause du risque de tachycardie reflexe",
+            "D) A cause du risque de chute excessive de la pression sanguine artérielle",
+            "E) A cause du risque de céphalées pulsatiles"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quel(s) est(sont) le(s) effet(s) indésirable(s) commun(s) aux inhibiteurs de l’enzyme de conversion et aux antagonistes du récepteur à l’angiotensine 2 ?",
+          "choix": [
+            "A) Hypotension artérielle",
+            "B) Toux sèche",
+            "C) Angioœdème",
+            "D) L’insuffisance cardiaque",
+            "E) L’insuffisance rénale aiguë"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels vont favoriser l’augmentation de la pression sanguine artérielle ?",
+          "choix": [
+            "A) Les contraceptifs oestroprogestatifs",
+            "B) Les antagonistes alpha1",
+            "C) Les AINS",
+            "D) Les antagonistes des récepteurs à l’endothéline (bonsentan)",
+            "E) Le propranolol"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les anticalciques de la famille des dihydropyridines (type amlodipine), quelle(s) est (sont) la (les) bonne(s) réponse(s)?",
+          "choix": [
+            "A) Elles bloquent les canaux calciques VOC de type L",
+            "B) Elles ont une action cardiaque prédominante.",
+            "C) Elles sont inhibitrices du CYP3A4",
+            "D) Elles sont imputées dans la survenue d’œdèmes des membres inférieurs.",
+            "E) Elles sont imputées dans la survenue de céphalées"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les anticalciques, quelle(s) est (sont) la (les) bonne(s) réponse(s)?",
+          "choix": [
+            "A) Les anticalciques de la famille du vérapamil sont inotropes négatifs.",
+            "B) Les anticalciques avec une action cardiaque prédominante peuvent déterminer des hypertrophies gingivales",
+            "C) Les anticalciques avec une action cardiaque prédominante peuvent déterminer des constipations.",
+            "D) Les anticalciques dihydropyridines inhibent la mise en jeu du baroréflexe",
+            "E) Les anticalciques sont indiqués dans la prise en charge de l’insuffisance cardiaque"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes, quelle(s) est (sont) la (les) bonne(s) réponse(s)?",
+          "choix": [
+            "A) Les effets indésirables médicamenteux doivent être déclarés au Centre Régional de PharmacoVigilance (CRPV).",
+            "B) Les abus médicamenteux doivent être déclarés aux CRPV.",
+            "C) Les effets indésirables des dispositifs médicaux doivent être déclarés au Centre Régional de PharmacoVigilance (CRPV).",
+            "D) Les effets indésirables médicamenteux doivent obligatoirement être déclarés à l’ARS (Agence Régionale de Santé)",
+            "E) Les effets indésirables médicamenteux doivent obligatoirement être déclarés à la firme fabricante."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

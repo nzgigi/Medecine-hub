@@ -1,0 +1,643 @@
+{
+  "matiere": "Appareil locomoteur – Sémiologie radiologique",
+  "slug": "al-semiologie-radiologique-s4",
+  "annee": 2024,
+  "title": "Appareil locomoteur – Sémiologie radiologique - 2024",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les articulations faisant partie de l’ensemble fonctionnel de l’épaule (une ou plusieurs réponses exactes) ?",
+          "choix": [
+            "A) L’articulation gléno-humérale",
+            "B) L’articulation huméro-radiale",
+            "C) L’articulation acromio-sternale",
+            "D) L’articulation coraco-humérale",
+            "E) L’articulation acromio-claviculaire"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels signes fonctionnels peuvent être ressentis par les patients ayant une pathologie de l’épaule ? (une ou plusieurs réponses exactes)",
+          "choix": [
+            "A) Douleur localisée en regard du rachis cervical",
+            "B) Douleur localisée sur le moignon de l’épaule",
+            "C) Douleurs à type de décharges électriques irradiant vers le bras, l’avant-bras et les doigts",
+            "D) Sensation de raideur de l’épaule",
+            "E) Sensation d’instabilité de l’épaule"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’inspection de l’épaule (citez la ou les réponses exactes) :",
+          "choix": [
+            "A) Elle se fait uniquement face au patient",
+            "B) Les fractures de la clavicule ne peuvent pas se voir à l’inspection",
+            "C) L’inspection peut révéler un hématome dans la pathologie traumatique",
+            "D) L’inspection peut faire suspecter une luxation de l’articulation gléno-humérale",
+            "E) L’inspection peut révéler une amyotrophie"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles manœuvres permettent de recherche un conflit sous-acromial ? (une ou plusieurs réponses exactes)",
+          "choix": [
+            "A) Manœuvre de Neer",
+            "B) Manœuvre de Jobe",
+            "C) Test de Yagerson",
+            "D) Test de Gerber",
+            "E) Signe de Yocum"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen du coude, citez-la ou les réponses justes",
+          "choix": [
+            "A) Une déviation en valgus de l’avant-bras par rapport au bras de 10°sur un coude en extension signe une fracture du coude",
+            "B) Les 3 reliefs osseux palpables au coude sont l’olécrane, l’épicondyle médial et l’épicondyle latéral",
+            "C) L’olécrane, l’épicondyle médial et latéral forment un triangle lorsque le coude est extension",
+            "D) La palpation de l’olécrane est douloureuse en cas d’épicondylite",
+            "E) L’épanchement intra-articulaire du coude se recherche dans la région antérieure du coude"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen du coude, citez la ou les réponses justes",
+          "choix": [
+            "A) Une épicondylite latérale peut se rechercher en opposant l’extension du poignet, coude tendu",
+            "B) La gouttière ulnaire se palpe juste en arrière de l’épicondyle médial",
+            "C) L’hygroma du coude se recherche sur la face antérieure du coude",
+            "D) Sur la face antérieure du coude, se trouvent de dedans en dehors : le pouls huméral, le tendon du biceps et le nerf radial",
+            "E) L’extension normale du coude est de 15°"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen du poignet, citez la ou les réponses justes",
+          "choix": [
+            "A) La flexion palmaire du poignet est en moyenne de 75°",
+            "B) L’extension du poignet est en moyenne de 20°",
+            "C) La rotation du poignet est de l’ordre de 90°",
+            "D) L’inclinaison latérale du poignet est de l’ordre de 90°",
+            "E) La prono-supination met en jeu le poignet et le coude"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen de la main, citez la ou les réponses justes",
+          "choix": [
+            "A) Le tendon extenseur commun des doigts se teste par l’extension active des métacarpo-phalangiennes",
+            "B) Le long extenseur du pouce se teste par la flexion active de l’inter-phalangienne du pouce",
+            "C) Le fléchisseur profond commun des doigts se teste en réalisant une flexion active des inter-phalangiennes proximales",
+            "D) L’abducteur du V ne peut pas être testé isolément",
+            "E) Les muscles interosseux se testent lors des mouvements de latéralité des métacarpo-phalangiennes ou lors de la flexion des métacarpo-phalangiennes, interphalangiennes proximales et distales en extension (position intrinsèque +)"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen du rachis cervical, citez la ou les propositions justes",
+          "choix": [
+            "A) La première épineuse palpable sous l’écaille occipitale est l’épineuse de C1",
+            "B) L’épineuse cervicale la plus proéminente est l’épineuse de C5",
+            "C) La flexion cervicale est appréciée par la mesure occiput-mur",
+            "D) Les rotations cervicales sont de l’ordre de 100°",
+            "E) Les inclinaisons cervicales sont appréciées par la mesure tragus-acromion"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’examen du rachis lombaire, citez la ou les réponses justes",
+          "choix": [
+            "A) La souplesse en flexion antérieure s’apprécie par l’indice de Weber",
+            "B) Une cassure de la courbure rachidienne en inclinaison peut être observée en cas de raideur segmentaire",
+            "C) Le signe de la « sonnette » est une douleur radiculaire provoquée par la palpation d’une épineuse lombaire",
+            "D) La manœuvre de Léri se recherche en décubitus ventral",
+            "E) La manœuvre de Lasègue témoigne d’un conflit avec la racine L3 ou L4"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les tests suivants, lesquels sont spécifique de l’analyse du LCA - ligament croisé antérieur",
+          "choix": [
+            "A) Tiroir antérieur à 90° de flexion",
+            "B) Tiroir Postérieur à 90° de flexion",
+            "C) Lachman",
+            "D) Test de Thessaly",
+            "E) Test de Mac Murray"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sémiologie de cheville/ pied\nConcernant l’examen clinique du pied et de la cheville , quelle est (sont) la (les) bonne(s) réponse (s) :",
+          "choix": [
+            "A) L’inspection se fait seulement en position allongée",
+            "B) Le bord interne du pied est convexe",
+            "C) L’arc le plus concave du pied est dit « le creux »",
+            "D) Si l’arc interne est inexistant le pied est dit « plat »",
+            "E) L’axe de l’arrière pied est dit « valgus » s’il est dévié vers l’extérieur"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "A) Elle se fait debout ET allongée\nB) Concave avec un arc de 1.5cm de haut",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’articulation de la cheville, quelle est (sont) la (les) bonne(s) réponse (s) :",
+          "choix": [
+            "A) La cheville forme au repos un angle de 0 degrés",
+            "B) Si le pied est fixé en flexion dorsale on parle de position en équin",
+            "C) L’articulation de la cheville peut être examinée genou tendu et genou fléchi",
+            "D) Les mobilités de la cheville sont la flexion dorsale et la flexion plantaire",
+            "E) Les mobilités de la cheville sont la flexion et l’extension"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "C) il s’agit du test de Silverskold",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les tests suivants, lesquels sont spécifique de l’analyse de l’articulation femoro patellaire",
+          "choix": [
+            "A) 1. Test de Zohlen",
+            "B) 1. Test de Smilie",
+            "C) 1. Lachman",
+            "D) 1. Test de Thessaly",
+            "E) 1. Test de Mac Murray"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "On retrouve",
+          "choix": [
+            "A) Une déformation en coxa plana",
+            "B) Une déformation en coxa valga",
+            "C) Une déformation en coxa magna",
+            "D) Une déformation en coxa vara",
+            "E) Aucune réponse juste"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15,
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2024/q15.png?v=1786294052160"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen du muscle psoas",
+          "choix": [
+            "A) Il est le principal extenseur de hanche",
+            "B) Il est le principal fléchisseur de hanche",
+            "C) Il est le principal rotateur externe de hanche",
+            "D) Il est le principal rotateur interne de hanche",
+            "E) Aucune réponse juste"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des anomalies du morphotype",
+          "choix": [
+            "A) Le Genu Valgum entraine une usure externe",
+            "B) Le genu Valgum entraine une usure interne",
+            "C) Le genu Varum entraine une usure interne",
+            "D) Le genu Varum entraine une usure externe",
+            "E) Aucune proposition n’est correcte"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’anatomie de la cheville, quelle est (sont) la (les) bonne(s) réponse (s) :",
+          "choix": [
+            "A) La légende 1 représente le Ligament Talo Fibulaire Antérieure (LTFA)",
+            "B) La légende 2 représente la fibula",
+            "C) La légende 3 représente le Ligament Talo Fibulaire Antérieure (LTFA)",
+            "D) La légende 4 représente les ligaments latéraux de la cheville",
+            "E) La légende 5 représente le ligament calcanéo fibulaire"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "B) Il s’agit du Talus ou Astragale\nC) LTFP pour postérieur\nD) Il s’agit des tendons fibulaires",
+          "order": 18,
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2024/q18.png?v=1786294054879"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la boiterie de Tredenlenburg",
+          "choix": [
+            "A) Elle est dû à une douleur de hanche",
+            "B) Elle est dû à une insuffisance musculaire du moyen fessier",
+            "C) Elle est dû à une insuffisance musculaire psoas iliaque",
+            "D) Les épaules restent au même niveau lors de la marche",
+            "E) Aucune réponse juste"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la boiterie d’esquive",
+          "choix": [
+            "A) Elle est dû à une douleur de hanche",
+            "B) Elle est dû à une insuffisance musculaire du moyen fessier",
+            "C) Elle est dû à une insuffisance musculaire psoas iliaque",
+            "D) Les épaules restent au même niveau",
+            "E) Aucune réponse juste"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294057643-f6468dcfa25b",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 21,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez le scanner suivant (menu déroulant)\nÉlément à associer Réponse attendue\n1 Tubercule majeur\n2 Processus coracoïde 3 Muscle infra épineux 4 Muscle deltoïde\n5 Muscle grand pectoral",
+          "choix": [
+            "Tubercule majeur",
+            "Processus coracoïde",
+            "Muscle infra épineux",
+            "Muscle deltoïde",
+            "Muscle grand pectoral"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 1,
+          "items": [
+            {
+              "id": "item-1786294058473-e3134a306e02a8",
+              "label": "1",
+              "correctAnswer": "Tubercule majeur"
+            },
+            {
+              "id": "item-1786294058552-44dd93d1fc13",
+              "label": "2",
+              "correctAnswer": "Processus coracoïde"
+            },
+            {
+              "id": "item-1786294058643-4a1344759d753",
+              "label": "3",
+              "correctAnswer": "Muscle infra épineux"
+            },
+            {
+              "id": "item-1786294058729-18381fe7fe3fb8",
+              "label": "4",
+              "correctAnswer": "Muscle deltoïde"
+            },
+            {
+              "id": "item-1786294058813-9335e07e79c26",
+              "label": "5",
+              "correctAnswer": "Muscle grand pectoral"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2024/q21.png?v=1786294057922"
+          ]
+        },
+        {
+          "id": 22,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez l'IRM suivante (menu déroulant)\nÉlément à associer Réponse attendue\n1 Epine de la scapula 2 Muscle trapèze\n3 Muscle supra épineux 4 Muscle Deltoïde\n5 Muscle petit pectoral",
+          "choix": [
+            "Epine de la scapula",
+            "Muscle trapèze",
+            "Muscle supra épineux",
+            "Muscle Deltoïde",
+            "Muscle petit pectoral"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 2,
+          "items": [
+            {
+              "id": "item-1786294060028-7efd263d48016",
+              "label": "1",
+              "correctAnswer": "Epine de la scapula"
+            },
+            {
+              "id": "item-1786294060118-aaa44249135fd8",
+              "label": "2",
+              "correctAnswer": "Muscle trapèze"
+            },
+            {
+              "id": "item-1786294060222-094b47100434b",
+              "label": "3",
+              "correctAnswer": "Muscle supra épineux"
+            },
+            {
+              "id": "item-1786294060346-93147869364ad",
+              "label": "4",
+              "correctAnswer": "Muscle Deltoïde"
+            },
+            {
+              "id": "item-1786294060441-11cece9aa2ce28",
+              "label": "5",
+              "correctAnswer": "Muscle petit pectoral"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2024/q22.png?v=1786294059376"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez la radiographie suivante (menu déroulant)\nÉlément à associer Réponse attendue\n1 Radius 2 Ulna\n3 Scaphoïde 4 Lunatum 5 Capitatum",
+          "choix": [
+            "Radius",
+            "Ulna",
+            "Scaphoïde",
+            "Lunatum",
+            "Capitatum"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 3,
+          "items": [
+            {
+              "id": "item-1786294060993-c3555a63cf44a8",
+              "label": "1",
+              "correctAnswer": "Radius"
+            },
+            {
+              "id": "item-1786294061101-e2d772ea4f242",
+              "label": "2",
+              "correctAnswer": "Ulna"
+            },
+            {
+              "id": "item-1786294061191-35b14feccc473",
+              "label": "3",
+              "correctAnswer": "Scaphoïde"
+            },
+            {
+              "id": "item-1786294061289-d89534a0471468",
+              "label": "4",
+              "correctAnswer": "Lunatum"
+            },
+            {
+              "id": "item-1786294061391-9995a1a1ff6698",
+              "label": "5",
+              "correctAnswer": "Capitatum"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2024/q23.png?v=1786294060384"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez l'IRM suivante (menu déroulant)\nÉlément à associer Réponse attendue\nProposition 1 Acétabulum Proposition 2 Muscle petit glutéal\n3 Muscle grand glutéal 4 Muscle piriforme\n5 Muscle ilio psoas",
+          "choix": [
+            "Proposition",
+            "Acétabulum Proposition",
+            "Muscle petit glutéal Muscle grand glutéal",
+            "Muscle piriforme",
+            "Muscle ilio psoas"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 4,
+          "items": [
+            {
+              "id": "item-1786294062028-f0eceb7c1f6f9",
+              "label": "1",
+              "correctAnswer": "Proposition"
+            },
+            {
+              "id": "item-1786294062132-8857647b613708",
+              "label": "2",
+              "correctAnswer": "Acétabulum Proposition"
+            },
+            {
+              "id": "item-1786294062241-c999e0d6370508",
+              "label": "3",
+              "correctAnswer": "Muscle petit glutéal Muscle grand glutéal"
+            },
+            {
+              "id": "item-1786294062338-729219301ccf7",
+              "label": "4",
+              "correctAnswer": "Muscle piriforme"
+            },
+            {
+              "id": "item-1786294062442-35bc53b4682b68",
+              "label": "5",
+              "correctAnswer": "Muscle ilio psoas"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2024/q24.png?v=1786294061352"
+          ]
+        },
+        {
+          "id": 25,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez l’arthroscanner suivante (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Fossette poplité\n2 Eminence inter condylaire 3 Ménisque médial\n4 Ménisque latéral\n5 Ligament croisé antérieur",
+          "choix": [
+            "Fossette poplité",
+            "Eminence inter condylaire",
+            "Ménisque médial",
+            "Ménisque latéral",
+            "Ligament croisé antérieur"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "items": [
+            {
+              "id": "item-1786294063043-9b9ad4fba4c518",
+              "label": "1",
+              "correctAnswer": "Fossette poplité"
+            },
+            {
+              "id": "item-1786294063176-3ba2aa72923428",
+              "label": "2",
+              "correctAnswer": "Eminence inter condylaire"
+            },
+            {
+              "id": "item-1786294063317-195a41aef77308",
+              "label": "3",
+              "correctAnswer": "Ménisque médial"
+            },
+            {
+              "id": "item-1786294063456-15220eac36e218",
+              "label": "4",
+              "correctAnswer": "Ménisque latéral"
+            },
+            {
+              "id": "item-1786294063589-d243e802e59a",
+              "label": "5",
+              "correctAnswer": "Ligament croisé antérieur"
+            }
+          ],
+          "images": [
+            "/images/qcm/al-semiologie-radiologique-s4/2024/q25.png?v=1786294062468"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

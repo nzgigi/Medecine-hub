@@ -1,0 +1,558 @@
+{
+  "matiere": "Pneumologie",
+  "slug": "pneumologie-s7",
+  "annee": 2026,
+  "title": "Pneumologie - 2026",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Une patiente de 64 ans est orientée aux urgences par son médecin traitant devant une douleur thoracique, avec dyspnée apparue depuis 2 jours.\nCette patiente n’a pas d’antécédent.\nElle est tabagique environ 1 paquet/jour depuis ses 16 ans.\nElle travaille comme chauffeur routier.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A son arrivée aux urgences, quel signe de gravité est un signe de lutte respiratoire :",
+          "choix": [
+            "A) La tachypnée",
+            "B) Les marbrures",
+            "C) L’asterixis",
+            "D) La cyanose",
+            "E) L’altération de la vigilance"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Cliniquement, la saturation est à 86% en air ambiant. L’auscultation pulmonaire est libre. Elle présente des œdèmes des membres inférieurs et un reflux hépato-jugulaire. La tension artérielle est normale, la fréquence cardiaque est à 115 battements/minute. Elle n’a pas de confusion ni de trouble de la vigilance.\nVotre prise en charge en première intention consiste en :",
+          "choix": [
+            "A) Oxygénothérapie",
+            "B) VNI",
+            "C) Radiographie de thorax",
+            "D) DDimères",
+            "E) ECG"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La numération de formule sanguine est normale, il n’y a pas d’insuffisance rénale, les troponines sont normales, les NTproBNP sont augmentés, les DDimères reviennent à 2000mcg/L. L’ECG retrouve une tachycardie sinusale et un bloc de branche droit. La gazométrie sous 2L/mn d’oxygène retrouve un pH à 7.40, une PAO2 à 78mmHg et une PACO2 à 32mmHg.\nLa radiographie thoracique retrouve ceci.\nQue faites-vous en urgence ?",
+          "choix": [
+            "A) Drainage de pneumothorax",
+            "B) AngioTDM thoracique",
+            "C) Echographie cardiaque transthoracique",
+            "D) Endoscopie bronchique",
+            "E) Une radiographie thoracique de profil"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/pneumologie-s7/2026/q3.webp?v=1786396031929"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’angioTDM retrouve ceci :\nConcernant la suite de la prise en charge :",
+          "choix": [
+            "A) Vous demandez une ETT",
+            "B) Il existe une embolie pulmonaire unilatérale",
+            "C) Le sPESI est à 0",
+            "D) On peut initier un traitement par anticoagulant type AOD",
+            "E) Le traitement se fera en ambulatoire"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/pneumologie-s7/2026/q4.webp?v=1786396032477"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente est donc hospitalisée dans le service de pneumologie devant la découverte d’une embolie pulmonaire de risque intermédiaire bas, avec instauration d’une anticoagulation. L’évolution est rapidement favorable et elle est sevrée en oxygène.\nConcernant la lésion de la radiographie thoracique mesurant plus de 3 cm :",
+          "choix": [
+            "A) C’est une masse pulmonaire",
+            "B) Vous posez le diagnostique d'adénocarcinome pulmonaire",
+            "C) Un TEP-TDM n’est pas nécessaire",
+            "D) Vous proposez un recontrôle du scanner à trois mois",
+            "E) Cette lésion est à bas risque de malignité"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le scanner et TEP-TDM confirme une lésion suspecte de 5cm, centrale, du lobe supérieur gauche. Il s’y associe également une lésion surrénalienne suspecte et des lésions osseuses suspectes.\nQuel examen est le plus approprié pour le diagnostic ?",
+          "choix": [
+            "A) Dosage des marqueurs tumoraux",
+            "B) Endoscopie bronchique",
+            "C) Mediastinoscopie",
+            "D) Résection chirurgicale de la lésion pulmonaire",
+            "E) IRM thoracique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il est confirmé un adénocarcinome pulmonaire métastatique en surrénalien et osseux.\nConcernant la prise en charge du cancer chez cette patiente :",
+          "choix": [
+            "A) Le statut PDL-1 est intéressant à connaitre",
+            "B) Le phénotype microsatellitaire est intéressant à connaitre",
+            "C) Le traitement nécessitera un traitement local + un traitement systémique",
+            "D) Le traitement nécessitera un traitement systémique",
+            "E) La prise en charge devra être validée en RCP"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396033896-60ec897fd29e5",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Une femme de 68 ans consulte aux urgences pour apparition d’une dyspnée depuis 48 heures, avec fièvre à 39°C et une douleur basithoracique droite.\nElle désature à 91% en air ambiant. Elle est polypnéique à 35 bpm. Elle présente un tirage sus-claviculaire. La tension artérielle est à 125/75 bpm, Elle est tachycarde à 105 bpm. Elle est consciente et orientée. Elle ne présente pas de turgescence jugulaire, pas de reflux hépato-jugulaire, pas d'oedèmes des membres inférieurs.\nElle a comme antécédents un tabagisme actif évalué à 25 paquets années, Elle boit 2 verres de vin par jour. Elle n’a pas d’autres antécédents connus.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quels sont les signes cliniques qui vous orienteront vers le diagnostic de pneumopathie (2 réponses justes) ?",
+          "choix": [
+            "A) La présence d’une douleur thoracique irradiant dans le dos",
+            "B) La présence d’un foyer de crépitant localisé",
+            "C) La présence d’un souffle tubaire",
+            "D) La présence d’un souffle tubaire",
+            "E) La présence de signes de lutte respiratoires"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel examen est à réaliser en première intention pour le diagnostic de la pathologie suspectée chez la patiente ?",
+          "choix": [
+            "A) Le dosage de la protéine C réactive",
+            "B) La radiographie thoracique de face en inspiration",
+            "C) Le scanner thoracique",
+            "D) L’examen cyto-bactériologique des crachats",
+            "E) Les hémocultures périphériques"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La radiographie thoracique réalisée à votre patiente est la suivante, quelle anomalie mettez-vous en évidence ?",
+          "choix": [],
+          "reponses": [
+            "épanchement pleural gauche"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/pneumologie-s7/2026/q10.webp?v=1786396036174"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’examen à réaliser en priorité dans ce contexte ?",
+          "choix": [
+            "A) Scanner thoracique",
+            "B) Echographie transthoracique",
+            "C) Examen cytobactériologique des crachats",
+            "D) Ponction pleurale",
+            "E) Endoscopie bronchique"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes de gravité présents chez le patient ?",
+          "choix": [
+            "A) Polypnée",
+            "B) déviation médiastinale",
+            "C) Signes de lutte respiratoires",
+            "D) signes de défaillance hémodynamique",
+            "E) signes de défaillance neurologique"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles analyses de première intention allez vous demander systématiquement sur le liquide pleural ( 3 réponses justes) ?",
+          "choix": [
+            "A) une analyse biochimique (dosage des protides, des LDH et de l’albumine)",
+            "B) une analyse virale",
+            "C) une analyse bactériologique",
+            "D) dosage des triglycérides pleuraux",
+            "E) une analyse cytologique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’échographie pleurale pré-ponction pleurale retrouve un épanchement pleural de grande abondance, avec présence de cloisons. Le liquide pleural est d’aspect citrin macroscopiquement. L’analyse du liquide pleural retrouve : protides 44 g/L, LDH pleuraux à 430 U/L. L’examen direct bactériologique conclut : “absence de bactéries visibles”. La culture bactériologique est encore en cours.\nQuel diagnostic retenez-vous ?",
+          "choix": [
+            "A) Pleurésie tuberculeuse",
+            "B) Epanchement parapneumonique non-compliqué",
+            "C) Epanchement parapneumonique compliqué",
+            "D) Transsudat d’insuffisance cardiaque",
+            "E) Pleurésie métastatique"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396037855-2d4d85c47fc9b",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un homme de 51 ans, fumeur à 40 PA, consulte aux urgences pour dyspnée progressive, toux productive purulente, et fièvre à 38,5°C depuis 3 jours. Il ne se plaint habituellement d’aucun symptôme.\nIl ne décrit aucun antécédent\nA l’arrivée :\nTA : 128/76 mmHg\nFC : 108/min\nFR : 26/min\nSpO₂ : 88% à l’air ambiant\nT° : 38,6°C\nIl existe des sibilants à l’auscultation",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les 3 hypothèses diagnostiques les plus probables compte-tenu du contexte ?",
+          "choix": [
+            "A) Pneumonie aigue communautaire droite",
+            "B) Exacerbation de BPCO",
+            "C) Décompensation cardiaque gauche",
+            "D) Décompensation cardiaque droite",
+            "E) Péricardite aigue",
+            "F) Pleurésie bilatérale",
+            "G) Exacerbation de dilatations des bronches",
+            "H) Embolie pulmonaire",
+            "I) Exacerbation d’asthme",
+            "J) Exacerbation de fibrose pulmonaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "I"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les examens suivants, cochez les 3 les plus pertinents dans le contexte en première intention aux urgences dans l’heure qui vient",
+          "choix": [
+            "A) Gaz du sang",
+            "B) CRP",
+            "C) ECG",
+            "D) Scanner thoracique",
+            "E) DDimères",
+            "F) VEMS",
+            "G) Radiographie de thorax",
+            "H) Antigénurie virus de la grippe",
+            "I) Procalcitonine",
+            "J) Échographie cardiaque"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "G"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La radiographie de thorax est normale, le BNP et la CRP sont normaux. Quelle antibiothérapie proposez-vous ?",
+          "choix": [],
+          "reponses": [
+            "Amoxicilline acide clavulanique"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396040277-8c4a9bf85017a",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la BPCO :",
+          "choix": [
+            "A) Elle est définie par une obstruction bronchique réversible",
+            "B) Le tabagisme est le principal facteur de risque",
+            "C) Le VEMS/CVF < 70 % après bronchodilatateur confirme le diagnostic",
+            "D) Elle touche uniquement les sujets âgés de plus de 65 ans",
+            "E) L’emphysème en fait partie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRU",
+          "contexte": "",
+          "question": "À propos de l’asthme :",
+          "choix": [
+            "A) C’est une maladie inflammatoire chronique des voies aériennes",
+            "B) L’obstruction bronchique est toujours permanente",
+            "C) La spirométrie n'est jamais normale entre les crises",
+            "D) Les beta-2 mimétiques sont le traitement de fond de référence",
+            "E) Il est exclusivement allergique"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est la première mesure thérapeutique dans la BPCO",
+          "choix": [],
+          "reponses": [
+            "Arrêt tabac"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "À propos de l’embolie pulmonaire qu'elles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) La dyspnée brutale est un signe fréquent",
+            "B) Un D-dimère normal élimine toujours le diagnostic",
+            "C) L’angioscanner thoracique est l’examen de référence",
+            "D) L’ECG peut montrer un aspect S1Q3",
+            "E) Elle est toujours associée à une douleur thoracique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la pneumonie communautaire :",
+          "choix": [
+            "A) Elle est le plus souvent virale chez l’adulte",
+            "B) Streptococcus pneumoniae est le germe le plus fréquent",
+            "C) La radiographie thoracique est indispensable au diagnostic",
+            "D) Elle nécessite toujours une hospitalisation",
+            "E) La fièvre et la toux sont des signes fréquents"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "À propos de la tuberculose pulmonaire :",
+          "choix": [
+            "A) Elle est due à Mycobacterium Avium",
+            "B) La radiographie thoracique peut être normale",
+            "C) La confirmation repose sur l’examen mycologique",
+            "D) Elle n’est jamais contagieuse",
+            "E) L'hémoptysie est un symptôme possible"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Sur la radiographie de thorax jointe, quelle est l’anomalie visible ?",
+          "choix": [],
+          "reponses": [
+            "Atélectasie du lobe supérieur droit"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/pneumologie-s7/2026/q24.webp?v=1786396046017"
+          ]
+        },
+        {
+          "id": 25,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 2 indications de l’OLD",
+          "choix": [
+            "A) PaO₂ ≤ 55 mmHg au repos sur une mesure",
+            "B) Dyspnée majeure",
+            "C) BPCO sévère stable",
+            "D) Polyglobulie secondaire",
+            "E) SaO₂ ≥ 95 %"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le cancer bronchopulmonaire :",
+          "choix": [
+            "A) Le tabac est le principal facteur de risque",
+            "B) Le diagnostic est souvent fait à un stade précoce",
+            "C) L’adénocarcinome est fréquent",
+            "D) La biopsie permet le diagnostic de certitude",
+            "E) Il touche uniquement les fumeurs"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les gaz du sang artériels :",
+          "choix": [
+            "A) La PaO₂ évalue l’oxygénation",
+            "B) La PaCO₂ reflète la ventilation alvéolaire",
+            "C) Une hypercapnie traduit toujours une acidose métabolique",
+            "D) Ils sont utiles dans l’insuffisance respiratoire",
+            "E) Ils ne sont jamais indiqués en urgence"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

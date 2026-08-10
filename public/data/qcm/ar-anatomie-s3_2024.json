@@ -1,0 +1,329 @@
+{
+  "matiere": "Appareil respiratoire – Anatomie",
+  "slug": "ar-anatomie-s3",
+  "annee": 2024,
+  "title": "Appareil respiratoire – Anatomie - 2024",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les éléments suivants, un seul n'appartient pas à la paroi latérale d'une fosse nasale lequel ?",
+          "choix": [
+            "A) L'os maxillaire.",
+            "B) Le vomer.",
+            "C) L'os palatin.",
+            "D) L'os lacrymal.",
+            "E) L'ethmoïde"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent les fosses nasales, lesquelles sont exactes ?",
+          "choix": [
+            "A) Les choanes sont limitées latéralement par les processus ptérygoïdes de l'os sphénoïde.",
+            "B) Le cartilage septal participe à la constitution des choanes.",
+            "C) Le vomer s'articule avec l'os frontal.",
+            "D) L'ethmoïde participe à la constitution de la cloison nasale.",
+            "E) L'ethmoïde présente trois cornets."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent les fosses nasales, lesquelles sont exactes ?",
+          "choix": [
+            "A) Le nerf ethmoïdal antérieur véhicule les informations olfactives de la partie supérieure des fosses nasales.",
+            "B) Le nerf sphéno-palatin est une branche terminale du nerf maxillaire (V2) participant à l'innervation sensitive des fosses nasales.",
+            "C) L'artère faciale est la principale source de vascularisation des fosses nasales.",
+            "D) L'artère ethmoïdale antérieure est une branche de l'artère ophtalmique.",
+            "E) L'artère sphéno-palatine participe à la vascularisation des cornets moyens et inférieurs."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent le larynx, lesquelles sont exactes ?",
+          "choix": [
+            "A) A l'inspiration le plan glottique est fermé.",
+            "B) Lors de la déglutition, le plan glottique est ouvert.",
+            "C) La bande ventriculaire est située au dessus de la corde vocale.",
+            "D) Le cricoïde appartient à l'étage sous-glottique.",
+            "E) Le nerf vague participe à l'innervation sensitive du larynx."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "critiques": [
+            "B"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les muscles suivants, lequel est innervé par le nerf laryngé supérieur ?",
+          "choix": [
+            "A) Le muscle crico-pharyngien.",
+            "B) Le muscle ary-arythénoïdien.",
+            "C) Le muscle crico-aryténoïdien latéral.",
+            "D) Le muscle sterno-hyoïdien.",
+            "E) Le muscle crico-thyroïdien."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les muscles suivants, lequel est abducteur des cordes vocales ?",
+          "choix": [
+            "A) Le muscle crico-thyroïdien.",
+            "B) Le muscle ary-arythénoïdien.",
+            "C) Le muscle crico-arythénoïdien latéral.",
+            "D) Le muscle crico-arythénoïdien postérieur.",
+            "E) Le muscle thyro-arythénoïdien médial."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent la trachée et la bifurcation trachéale, lesquelles sont exactes ?",
+          "choix": [
+            "A) La trachée appartient au médiastin postérieur.",
+            "B) La trachée présente une portion cervicale.",
+            "C) La carène se projette en regard de la 6ème vertèbre thoracique.",
+            "D) Le nerf vague droit chemine en avant de la bronche principale droite.",
+            "E) Le diamètre de la bronche principale droite est plus volumineux que le diamètre de la bronche principale gauche."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent la trachée et la bifurcation trachéale, lesquelles sont exactes ?",
+          "choix": [
+            "A) L'artère pulmonaire droite a une orientation sagittale.",
+            "B) L'artère pulmonaire droite chemine en avant de la bronche principale droite.",
+            "C) La bronche principale droite se divise en trois bronches lobaires.",
+            "D) La trachée est orientée en bas et en avant.",
+            "E) Le pédicule pulmonaire droit se projette en Th6 (6ème vertèbre thoracique)."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent les rapports de la trachée et la bifurcation trachéale, lesquelles sont exactes ?",
+          "choix": [
+            "A) Le nerf phrénique droit est en rapport avec la face latérale de la veine cave supérieure.",
+            "B) Le nerf phrénique gauche est en rapport avec l'origine du tronc artériel brachio-céphalique.",
+            "C) L'oesophage est en rapport avec la face postérieure de la trachée.",
+            "D) Le nerf laryngé inférieur droit traverse la fenêtre aorto-bi-pulmonaire.",
+            "E) Les plexus sympathiques (para)cardiaques sont retrouvés au niveau de la partie médiane de la fenêtre aorto-bi-pulmonaire."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent la segmentation bronchique et / ou les cavités pleuro-pulmonaires, lesquelles sont exactes ?",
+          "choix": [
+            "A) La bronche principale gauche se divise en deux bronches lobaires.",
+            "B) La bronche lobaire supérieure droite se divise en trois bronches segmentaires.",
+            "C) Le segment apico-inférieure droit appartient au lobe moyen.",
+            "D) La lingula possède deux segments.",
+            "E) Le culmen appartient au lobe supérieur gauche."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les propositions suivantes concernent la segmentation bronchique et/ou les cavités pleuro-pulmonaires, lesquelles sont exactes ?",
+          "choix": [
+            "A) Les plèvres se réfléchissent au niveau des régions hilaires.",
+            "B) Le dôme pleural droit se projette au dessus de la première côte.",
+            "C) Les plèvres ne sont pas innervées.",
+            "D) Le ligament pulmonaire est situé au dessus du pédicule pulmonaire.",
+            "E) Le récessus costo-diaphragmatique droit est en rapport avec le foie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le schéma suivant est une vue supérieure de la région du dôme pleural droit. Quelles propositions sont exactes ?",
+          "choix": [
+            "A) 1 représente le faisceau latéral du plexus brachial droit.",
+            "B) 2 représente la veine sous-clavière droite.",
+            "C) 3 représente le nerf vague gauche.",
+            "D) 4 représente le muscle scalène moyen droit.",
+            "E) 5 représente le ganglion cervico-thoracique droit."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "images": [
+            "/images/qcm/ar-anatomie-s3/2024/q12.png?v=1786294281580"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le schéma suivant est une coupe anatomique du thorax. Quelles propositions sont exactes ?",
+          "choix": [
+            "A) Il s'agit d'une coupe en Th4 (4ème vertèbre thoracique)",
+            "B) 1 représente la veine azygos",
+            "C) 2 représente le tronc artériel brachio-céphalique.",
+            "D) 3 représente le conduit thoracique.",
+            "E) 5 correspond au nerf phrénique gauche"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13,
+          "images": [
+            "/images/qcm/ar-anatomie-s3/2024/q13.png?v=1786294282398"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le schéma suivant est une coupe anatomique du thorax. Quelles propositions sont exactes ?",
+          "choix": [
+            "A) 1 correspond à la veine cave supérieure",
+            "B) 2 correspond à l'aorte ascendante.",
+            "C) 3 correspond au tronc de l'artère pulmonaire.",
+            "D) 4 correspond au nerf vague gauche",
+            "E) 5 correspond à l'oesophage thoracique."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14,
+          "images": [
+            "/images/qcm/ar-anatomie-s3/2024/q14.png?v=1786294283186"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le schéma suivant est une vue schématique du médiastin. Quelles propositions sont exactes ?",
+          "choix": [
+            "A) 1 correspond à l'oesophage.",
+            "B) 2 correspond à une artère bronchique droite.",
+            "C) 3 correspond à la veine azygos.",
+            "D) 4 correspond à la veine hémi-azygos.",
+            "E) 5 correspond à la veine cave supérieure."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15,
+          "images": [
+            "/images/qcm/ar-anatomie-s3/2024/q15.png?v=1786294284072"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

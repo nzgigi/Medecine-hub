@@ -1,0 +1,546 @@
+{
+  "matiere": "Apprentissage de l'exercice médical",
+  "slug": "apprentissage-exercice-medical-s8",
+  "annee": 2024,
+  "title": "Apprentissage de l'exercice médical - 2024",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos des biais quels sont les 3 propositions vraies",
+          "choix": [
+            "A) La randomisation permet d'éviter les biais de confusion",
+            "B) Dans un essais clinique, les biais de mesure n'existent que si les critères de jugement sont évalués de manière différente entre les deux groupes",
+            "C) Les biais de confusion peuvent être pris en compte par ajustement",
+            "D) Le biais du travailleur sain est un biais de mémorisation",
+            "E) La précision d'une étude peut être bonne même avec un biais important"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "B Faux. Un biais de mesure (ou biais de classement) reste possible même si les critères de jugement sont évalués de manière similaire dans les deux groupes. Il s'agit alors de biais non différentiel.\nD Faux. C'est un biais de sélection, le biais de mémorisation est un biais de classement",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’organisation du système de santé en France, la(es)quelle(s) de ces propositions est(sont) exacte(s) ?",
+          "choix": [
+            "A) Chaque année le Parlement vote la loi de financement de la Sécurité Sociale (LFSS)",
+            "B) L’objectif national des dépenses d’Assurance Maladie (ONDAM) est déterminé par l’Assurance Maladie",
+            "C) La Direction Générale de l’Offre de Soins (DGOS) assure l’organisation et la régulation de l’offre de soins",
+            "D) Le Ministère de la Santé et la Prévention dispose de différentes structures d’appui pour concevoir et mettre en œuvre des programmes de santé nationaux",
+            "E) La direction de la Sécurité Sociale dépend de la Caisse Nationale d’Assurance Maladie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "L’ONDAM est déterminé dans le cadre de la Loi de financement de la Sécurité Sociale qui est votée par le Parlement. L’ONDAM est donc déterminé par le Parlement.\nLa direction de la Sécurité Sociale constitue une des directions du ministère de la Santé et de la Prévention.",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant l’asepsie, quelles sont les 3 propositions exactes :",
+          "choix": [
+            "A) L’antisepsie abaisse le nombre de micro-organismes de manière transitoire.",
+            "B) La désinfection concerne les tissus vivants.",
+            "C) La détersion correspond au nettoyage de la peau.",
+            "D) Sur peau lésée, on utilise un antiseptique alcoolique.",
+            "E) Le résultat de la désinfection dépend du niveau de propreté avant désinfection."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Vrai\nFaux. concerne les milieux inertes. Cf. page 2 du livret.\nVrai\nFaux. Un antiseptique non alcoolique. L’antiseptique alcoolique est réservé à la peau saine. Vrai",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous voyez en visite à domicile Mme V, âgée de 83 ans. Il s’agit d’une patiente qui a récemment été hospitalisée dans le cadre d’une occlusion ayant fait découvrir un cancer du côlon multi métastatique. Vous la voyez pour la première fois depuis sa sortie d’hospitalisation durant laquelle elle a bénéficié d’une annonce diagnostique. Quand vous l’interrogez, la patiente vous répond de manière nonchalante que « tout va bien ». Dans son discours elle semble minimiser la gravité de pathologie qui lui a été annoncée. Elle vous exprime que « tout le monde a des problèmes des santé » et vous dit penser que « les choses vont s’améliorer quand elle sera moins fatiguée ». La patiente n’utilise pas le mot cancer et parle de « son petit problème ».\nQuelles sont les 5 réponses vraies concernant cette situation clinique :",
+          "choix": [
+            "A) L’annonce diagnostique d’une mauvaise nouvelle peut être réalisée par un médecin généraliste comme par un médecin titulaire d’une autre spécialité",
+            "B) Le principal critère de réussite d’une annonce de mauvaise nouvelle est le niveau d’acceptation de la maladie par le patient à la fin de la consultation",
+            "C) La patiente présente une attitude de régression à la suite de l’annonce de cette mauvaise nouvelle",
+            "D) La patiente présente une attitude de déni à la suite de l’annonce de cette mauvaise nouvelle",
+            "E) Vous retrouvez un mécanisme de défense visant à se protéger d’un événement jugé inquiétant ou dangereux",
+            "F) Une attitude en sympathie vous permettra de comprendre la patiente sans ressentir les mêmes émotions qu’elle",
+            "G) Environ 70 % du message que vous allez communiquer à la patiente le sera à travers la communication verbale",
+            "H) Les silences devront être évités pour faciliter une communication fluide",
+            "I) Vous devez interroger les représentations de la patiente sur sa maladie à l’aide de questions ouvertes",
+            "J) Un « coping » permettra au médecin de faire face à cette situation si elle génère des émotions négatives chez lui"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E",
+            "I",
+            "J"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "1. Vrai, par un médecin thèsé, incluant les différentes spécialités\n2. Faux, annoncer c’est « faire savoir » : il ne s’agit pas uniquement d’informer, mais aussi de cheminer avec le patient vers la connaissance qui le concerne pour construire un projet personnalisé d’attitudes à adopter face à cet événement. L’acceptation est un long processus et n’est donc pas un objectif atteignable lors de la consultation d’annonce.\n3. Faux, l’attitude retrouvée est un mécanisme de défense typique du déni. La régression correspond à l’adoption d’un comportement infantile face à la famille et aux soignants.\n4. Vrai, l’attitude retrouvée est un mécanisme de défense typique du déni\n5. Vrai, l’attitude retrouvée est un mécanisme de défense typique du déni\n6. Faux, la sympathie implique un partage des émotions avec le patient. L’affirmation aurait été vraie en utilisant le mot\n« empathie » qui permet de comprendre quelqu’un sans éprouver pour autant les mêmes émotions que l’autre.\n7. Faux, il est estimé qu’environ 30 % d’un message en santé passe par les mots, et 70 % par le non verbal entre le patient et le médecin (regard, sourire, tenue, accessoires, tout est langage)\n8. Faux, le respect des silences lors des réponses du patient ou entre deux questions permet de favoriser la réflexion et lui laisse le temps de libérer ses émotions\n9. Vrai, les questions ouvertes amènent le patient à réfléchir par lui-même à partir de ses propres ressources et sont à favoriser dans l’interrogatoires des représentations.\n10. Vrai, le « coping » regroupe l’ensemble des procédures et des processus qu'un individu peut imaginer et installer entre\nlui et un événement jugé inquiétant ou dangereux, afin d'en maîtriser les conséquences potentielles sur son bien-être physique et psychique. En tant que soignant, il est possible de vivre des émotions négatives face à des situations\n(ex :décès, maladie grave, fin de vie) et le coping est essentiel pour pouvoir s’ajuter à ces situations de stress.",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "En cas d’ALD dite « exonérante », de quoi sera exonéré le patient (pour tout soin en lien avec son ALD) ?",
+          "choix": [],
+          "reponses": [
+            "ticket modérateur",
+            "Ticket modérateur",
+            "Du ticket modérateur",
+            "du ticket modérateur",
+            "Du Ticket modérateur",
+            "du Ticket modérateur",
+            "Tiquet modérateur",
+            "Exonération du ticket modérateur",
+            "Tiquet moderateur",
+            "100% des frais liés à son ALD",
+            "Ticket moderateur et participation forfaitaire",
+            "Ticket modarateur",
+            "Exonéré du ticket modérateur",
+            "Du tiquet modérateur",
+            "Éxonération du ticket modérateur",
+            "Exoneration du ticket modérateur",
+            "Exonération du ticket modérateur et des médicaments en lien avec son ALD",
+            "ticket exonerateur",
+            "ticket exonérateur"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est le nom des analyses collectives d’évènements indésirables non médicamenteux réalisées de façon régulière dans une équipe ?",
+          "choix": [
+            "A) RCP",
+            "B) Staff",
+            "C) RMM",
+            "D) REMED",
+            "E) Briefing"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Revue de morbidité mortalité",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la sécurité des soins, quelle est la (quelles sont les) proposition(s) exacte(s)",
+          "choix": [
+            "A) Le modèle de Reason propose une vision systématique des évènements indésirables",
+            "B) Le double contrôle peut constituer une barrière de récupération",
+            "C) La plupart des erreurs humaines sont des erreurs d'activation des connaissances",
+            "D) Les professionnels expérimentés sont moins sujets aux erreurs que les juniors",
+            "E) La grille ALARM permet de rechercher le type d’erreur humaine expliquant l’événement"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "A faux il fallait répondre systémique (influence d’un système et succession de dysfonctionnement rend possible l’incident :\nconjonction d’erreur patentes (humaines) et de défaillances dans les conditions de travail des hommes (erreurs latentes) + l’absence de barrieres de sécurité)\nC Faux ce sont les erreurs de routine qui sont les plus fréquentes\nD Faux les principales erreurs étant de routine, tous les professionnels y sont exposés, meme les seniors, car elles surviennent chez des professionnels realisant des actions dont ils ont habituellement l’expertise\nE Faux la grille ALARM permet de rechercher des causes profondes ayant pu favoriser un incident ou une erreur, pas de recherche le type d’erreur",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment s'appelle la capacité d'un indicateur à produire des résultats identiques dans des situations identiques.",
+          "choix": [],
+          "reponses": [
+            "Fiabilité",
+            "La reproductibilité",
+            "reproductibilité",
+            "Reproductibilitée",
+            "La Fiabilité",
+            "fiabilitée",
+            "Reproductible",
+            "reproductible",
+            "Reproductibilté",
+            "Reproductabilité",
+            "Fiable",
+            "Reproductible, fiable, précis",
+            "Reproductibilité interne",
+            "Reproduisible",
+            "Reproductibilite par analogie",
+            "Reproductilité",
+            "Reproductivite",
+            "indicateur fiable non biaisé",
+            "reproductif",
+            "Un indicateur fiable"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi ces documents, lesquels contiennent des données de santé à caractère personnel ?",
+          "choix": [
+            "A) Le dossier d’un dentiste contenant les noms et prénoms des patients",
+            "B) La carte en temps réel du nombre de cas de covid par département en France",
+            "C) Les numéros de téléphone des fournisseurs de matériel médical d'une clinique médicale",
+            "D) La liste de remboursements de frais médicaux contenant des numéros de sécurité sociale",
+            "E) Les données anonymisées de la patientèle d’un médecin généraliste"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "Réponses correctes : A et D\nB : La carte en temps réel du nombre de cas de COVID ne permet pas d’identifier une personne physique\nC : Connaitre les fournisseurs de matériel médical ne permet pas de relier des informations à caractère personnel à une personne physique\nE : L’anonymisation est, par définition, un traitement qui consiste à rendre impossible toute identification de la personne, de manière irréversible\nDonnées à caractère personnel : « Toute information reliée a une personne physique identifiée ou identifiable directement ou indirectement, par référence à un identifiant tel un nom, un numéro d'identification, des données de localisation, un identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique, génétique, psychique, économique, culturelle ou sociale ».\nL’anonymisation est un traitement qui consiste à rendre impossible toute identification de la personne, de manière irréversible.\nRéférence : CNIL (L’anonymisation de données personnelles)",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant la conduite à tenir pour la prévention des AES (Accident d’Exposition au Sang) après utilisation d’une aiguille, laquelle de ces propositions est exacte :",
+          "choix": [
+            "A) Je désadapte l’aiguille à la main.",
+            "B) Je recapuchonne l’aiguille.",
+            "C) Je désadapte l’aiguille à l’aide de l’encoche du collecteur d’aiguilles.",
+            "D) Je plie l’aiguille à l’aide de l’encoche sur le collecteur d’aiguilles.",
+            "E) Plusieurs de ces réponses sont possibles."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la standardisation, indiquer laquelle (lesquelles) de ces propositions est (sont) exacte(s).",
+          "choix": [
+            "A) Elle permet de comparer l'incidence d'une maladie entre deux populations de structure d'âge et de sexe différentes",
+            "B) Un SMR ( Standardised Mortality Rate) supèrieur à 1 signifie que la mortalité est plus forte que dans la population de référence",
+            "C) Un SIR (Standardised incidence rate) inférieur à 1 signifie que l'incidence est plus forte que dans la population de référence du même sexe et du même âge",
+            "D) Elle permet de comparer la prévalence dans des populations où la durée de la maladie est différente",
+            "E) Le taux standardisé de mortalité est une méthode de standardisation indirecte"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "C) Un SIR inférieur à 1 signifie que l'incidence est plus faible que dans la population de référence du même sexe et du même âge\nD) Elle permet de comparer la prévalence entre des populations de structure démographique (age, sexe) différente\nE) Il s'agit d'une méthode de standardisation directe",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel identifiant garantit que les données conservées dans les dossiers médicaux sont bien celles du patient concerné, y compris en distanciel ?",
+          "choix": [],
+          "reponses": [
+            "Identifiant National de Santé",
+            "INS",
+            "Identifiant national de santé (INS)",
+            "Identifiant nationnal santé",
+            "Identifiant nationale de santé",
+            "identifiant national santé",
+            "INS (numero carte vitale)",
+            "Identifiant National Santé",
+            "Identifiant Nationale Santé",
+            "Identifiant national santé",
+            "Identifiant national de santé des patients",
+            "Indentifiant national santé"
+          ],
+          "correctionExplanation": "Identifiant National de Santé\nINS",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Pour juger de la causalité d’une relation observée entre une exposition et une maladie, indiquez parmi les propositions suivantes quel argument ne fait pas partie des critères de causalité de Bradford-Hill :",
+          "choix": [
+            "A) La présence d’une relation dose-effet",
+            "B) Le fait d’observer une corrélation forte entre l’exposition et la maladie étudiée",
+            "C) Une temporalité claire avec une exposition qui précède la maladie",
+            "D) Le fait d’avoir soumis les résultats à une évaluation par les pairs",
+            "E) La bonne cohérence entre le résultat et les connaissances externes sur le phénomène biologique et l’histoire naturelle de la maladie"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294226416-ccbe647103c33",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est/sont le(s) examen(s) paraclinique(s) à réaliser systématiquement en cas de suspicion de maltraitance chez un enfant de moins de 2 ans ?",
+          "choix": [
+            "A) Des radiographies du squelette complet",
+            "B) Une échographie cardiaque",
+            "C) Un EEG",
+            "D) En cas de suspicion de syndrome du bébé secoué, on réalise un fond d’œil",
+            "E) Un bilan d’hémostase et une numération-formule sanguine"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'examen clinique d'une victime de violences sexuelles :",
+          "choix": [
+            "A) Il ne concerne que la région génitale",
+            "B) L’absence de lésion génito-anale permet d’affirmer l’absence de viol",
+            "C) Une érosion de la fourchette vulvaire postérieure est spécifique d’un rapport sexuel non consenti",
+            "D) La présence de sperme en intravaginal est une preuve de viol",
+            "E) Toutes les propositions sont fausses"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les prélèvements multi-organes (PMO) et les dons d'organes :",
+          "choix": [
+            "A) Hormis pour la moelle osseuse, un prélèvement d’organe chez une personne vivante ne peut être réalisé que chez un sujet majeur capable",
+            "B) Après un PMO, il n’est pas possible de réaliser une autopsie médico-légale",
+            "C) Le consentement du donneur vivant est recueilli par le président du tribunal judiciaire ou le procureur de la République dans les situations d’urgence",
+            "D) Le don de spermatozoïdes est possible à partir de 18 ans, et sans limite supérieure d’âge",
+            "E) L’existence d’un obstacle médico-légal à l’inhumation est une contre-indication absolue au PMO"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La procédure de signalement judiciaire :",
+          "choix": [
+            "A) Doit être adressée au procureur de la République",
+            "B) Concerne uniquement les mineurs",
+            "C) Peut aboutir à une levée de l’autorité parentale",
+            "D) Est systématique lors d’une agression sexuelle",
+            "E) Est une mesure de protection"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les signes positifs de la mort, quelle(s) affirmation(s) est/sont exacte(s) ?",
+          "choix": [
+            "A) On appelle « lividités » l’aspect blanc de la peau en regard des points d’appui",
+            "B) L’évolution de ces signes varie en fonction de l’environnement (température, milieu humide ou sec…)",
+            "C) La rigidité cadavérique s'installe du haut du corps vers le bas du corps",
+            "D) Ils permettent d’estimer avec précision la date et l’heure du décès",
+            "E) L’absence de battement cardiaque est un signe positif de la mort"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les violences inhérentes au soin médical, quels sont les items vrais ?",
+          "choix": [
+            "A) Il peut s’agir d’une violence institutionnelle",
+            "B) Un soin douloureux ou une consultation d’annonce d’un diagnostic grave peut constituer une violence liée aux soins",
+            "C) Une information médicale claire et appropriée permet notamment de prévenir ce type de violence",
+            "D) Un soin médical réalisé en suivant les recommandations de bonne pratique ne peut pas être générateur de violence",
+            "E) Il n’existe pas d’acte de prévention pour ce type de violence"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le dossier médical, quelle(s) affirmation(s) est/sont exacte(s) ?",
+          "choix": [
+            "A) En cas de décès du patient, son concubin peut avoir un accès direct au dossier médical",
+            "B) Un patient majeur peut accéder à son dossier médical sans justification",
+            "C) Le mineur peut s'opposer à l'accès de ses parents à son dossier médical",
+            "D) Les ayants droit peuvent avoir accès au dossier médical d'un patient dans le coma",
+            "E) Les ayants droit peuvent avoir accès à l'ensemble du dossier médical d'un patient décédé s'ils veulent connaître le cause de la mort"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les droits des patients, quelle(s) affirmation(s) est/sont exacte(s) ?",
+          "choix": [
+            "A) Une fois que le patient a défini une personne de confiance, elle le restera pour une durée minimale de deux ans",
+            "B) Chez un majeur, la désignation d'une personne de confiance se fait par un écrit cosigné par la personne de confiance",
+            "C) Les directives anticipées sont valides dans le temps sans limite",
+            "D) Les directives anticipées peuvent être conservées dans le dossier médical d'hospitalisation",
+            "E) Il n’y a aucune obligation à informer les patients mineurs, car le consentement des parents prime"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre de la responsabilité ordinale, quelles sont les sanctions encourues par le médecin ?",
+          "choix": [
+            "A) Le blâme",
+            "B) La peine de prison",
+            "C) L´interdiction temporaire d´exercer",
+            "D) L´avertissement",
+            "E) Une peine d´amende"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des rites funéraires :",
+          "choix": [
+            "A) Ils constituent un ultime rite de passage présentant une structure ternaire",
+            "B) La première phase est une phase de séparation avec le groupe social",
+            "C) Ils n’ont pas leur place en milieu hospitalier",
+            "D) Certains rites mortuaires peuvent se poursuivre plusieurs jours après le décès",
+            "E) Leur connaissance par le médecin est importante car cela permet d’avoir une attitude respectueuse et non blessante envers le défunt et son entourage"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'assistance médicale à la procréation :",
+          "choix": [
+            "A) La GPA (gestation pour autrui) est autorisée en France depuis la loi de bioéthique de 2021",
+            "B) Depuis la modification de la loi de bioéthique de 2021, l’autoconservation des gamètes en dehors de tout motif médical, devient possible pour les femmes et pour les hommes",
+            "C) Seuls les couples sont autorisés à bénéficier d’une assistance médicale à la procréation",
+            "D) L’implantation d’un embryon issu d’un double don (don de spermatozoïdes et don d’ovocytes) n’est pas autorisée",
+            "E) Lorsqu’il s’agit d’un couple, le décès d’un des deux membres fait obstacle au transfert d’embryons"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant la mort, quel est l’item vrai ?",
+          "choix": [
+            "A) Les rites mortuaires présentent une structure quaternaire",
+            "B) La connaissance du fondement et des rites des principales religions n’a pas d’importante pour le médecin",
+            "C) Le personnel hospitalier doit tout mettre en œuvre pour que les actes rituels puissent être réalisés dans des conditions satisfaisantes",
+            "D) La toilette mortuaire est un rite mortuaire rare dans les sociétés actuelles",
+            "E) La confrontation directe à la mort fait, de nos jours, partie du quotidien individuel et collectif"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

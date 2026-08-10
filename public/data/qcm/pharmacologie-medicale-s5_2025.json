@@ -1,0 +1,450 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s5",
+  "annee": 2025,
+  "title": "Pharmacologie médicale - 2025",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments antiépileptiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) L’acide valproique peut être prescrit à la femme en âge de procréer en première intention",
+            "B) la lamotrigine entraine 10% d’effets indésirables cutanées",
+            "C) les effets indésirables de type ralentissement psychique et sédation sont doses dépendants.",
+            "D) les médicaments antiépileptiques de deuxième génération provoquent des effets indésirables à type de troubles du comportement",
+            "E) les médicaments antiépileptiques de deuxième génération provoquent plus fréquemment que les premières générations des effets indésirables ophtalmologiques"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments normothymiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) le lithium peut être associé aux diurétiques mais pas aux Anti-Inflammatoires Non Steroïdiens",
+            "B) c’est le seul médicament normothymique ayant l’Autorisation de Mise sur le Marché",
+            "C) la réabsorption du lithium au niveau tubulaire s’effectue en compétition avec celle du sodium",
+            "D) le lithium possède des propriétés anti dopaminergiques",
+            "E) le lithium a une demi vie de l’ordre de 4 heures"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Le système GABAergique est peu systématisé et largement distribué à l’ensemble du système nerveux central",
+            "B) le baclofene agit sur le récepteur ionotrope GABA B",
+            "C) l’oxybate de sodium ou GHB est un agoniste du récepteur GABA-B",
+            "D) le récepteur GABA A est une structure pentamérique contenant un canal calcique",
+            "E) Le propofol utilisé comme anesthesique général est un agoniste GABA-A"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Les benzodiazépines peuvent entrainer une amnésie antérograde",
+            "B) les benzodiazépines diminuent la latence d’endormissement mais perturbent l’architecture du sommeil",
+            "C) les benzodiazépines à demi vie courte sont à privilégier comme hypnotiques",
+            "D) Les benzodiazépines peuvent prévenir le risque de chute chez le sujet âgé",
+            "E) Les benzodiazépines induisent une tolérance"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments des troubles mnésiques, quelle(s) proposition(s) sont vraies :",
+          "choix": [
+            "A) Les médicaments antimuscariniques sont à éviter dans la maladie d’Alzheimer car ils induisent des troubles mnésiques",
+            "B) Les médicaments anticholinesterasiques améliorent peu les échelles cognitives dans les essais cliniques",
+            "C) Des anticorps monoclonaux dirigés contre la protéine amyloide, peuvent provoquer comme effet indésirable des hémorragies cérébrales",
+            "D) les anticholinesterasiques peuvent présenter des interactions médicamenteuses avec les médicaments tachycardisants",
+            "E) les anticholinesterasiques ont comme effet indésirable des diarrhées"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments anticancéreux, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les antimétabolites sont des analogues aux éléments nécessaires à la synthèse des acides nucléiques et des protéines",
+            "B) Les médicaments alkylants induisent une fragmentation de l’ADN des cellules en cours de division cellulaire",
+            "C) L’élimination des dérivés du platine s’effectue par métabolisation hépatique",
+            "D) Les alcaloïdes de la pervenche (dont la vincristine) inhibent la dimérisation des molécules de tubuline",
+            "E) Les inhibiteurs de protéines kinases ont une activité ciblée seulement sur les protéines kinases tumorales"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments anticancéreux, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les inhibiteurs de protéines kinases ont une application seulement aux cancers hématologiques",
+            "B) Les indications des inhibiteurs de protéines kinases concernent également des pathologies non oncologiques",
+            "C) L’efficacité des médicaments inhibiteurs des points de contrôles immunitaires est fréquemment supérieure à 50% dans ses indications",
+            "D) Les médicaments bispécifiques sont de natures chimiques",
+            "E) Les médicaments CAR-T cell ont bénéficié d’une évaluation très rapide de l’efficacité clinique avant leur mise sur le marché"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les médicaments de la crise migraineuse, laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Les dérivés de l’ergot de seigle sont des médicaments de dernière intention en cas d’échec des autres alternatives médicamenteuses",
+            "B) Les AINS augmentent le risque de céphalées chroniques quotidiennes",
+            "C) Il s’agit de médicaments symptomatiques",
+            "D) La posologie maximale des triptans est de 2 prises par 24 h",
+            "E) En cas de migraine avec aura, il est nécessaire de prendre un médicament dès le début de l’aura"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les médicaments du traitement de fond de la migraine, laquelle ou lesquelles sont exactes ?",
+          "choix": [
+            "A) Le propranolol est un β-bloquant hydrophile",
+            "B) Le valproate de sodium est un antidépresseur tricyclique",
+            "C) La flunarizine est un médicament pourvoyeur de syndrome parkinsonien",
+            "D) L’amytriptiline est un médicament pourvoyeur de xérostomie",
+            "E) L’oxétorone possède des propriétés orexigènes"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel effet psychoactif est associé à la consommation de delta-9-tetra-hydrocannabinol (THC) ?",
+          "choix": [
+            "A) Dépression respiratoire",
+            "B) Amnésie totale",
+            "C) Hyperactivité",
+            "D) Euphorie",
+            "E) Somnolence excessive"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments du système dopaminergique, laquelle (ou lesquelles) est (sont) exacte(s)",
+          "choix": [
+            "A) La brièveté de la demi-vie d'élimination plasmatique de la L-DOPA contribue à l'émergence des fluctuations motrices lors d'un traitement au long cours chez le malade parkinsonien",
+            "B) Les médicaments antipsychotiques peuvent entrainer un syndrome parkinsonien par antagonisme des récepteurs alpha 1 adrénergiques",
+            "C) Les agonistes dopaminergiques D2 peuvent être responsables d'une galactorrhée",
+            "D) Les médicaments antiparkinsoniens dopaminergiques peuvent entrainer des modifications comportementales graves de type impulsif",
+            "E) Les inhibiteurs de la dopa-decarboxylase majorent les effets indésirables périphériques de la L-DOPA."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les effets indésirables suivants des antipsychotiques, lequel (ou lesquelles) est (sont) généralement associé(s) à l’effet antagoniste dopaminergique D2 ?",
+          "choix": [
+            "A) Akathisie",
+            "B) Saignement",
+            "C) Hyperprolactinémie",
+            "D) Dystonie aiguë",
+            "E) Mydriase"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments du système dopaminergique, laquelle (ou lesquelles) est (sont) exacte(s)",
+          "choix": [
+            "A) Les agonistes dopaminergiques D2 ont une action principalement pré-synaptique",
+            "B) Les agonistes dopaminergiques D2 ont des propriétés latérales atropiniques",
+            "C) L’entacapone (ICOMT) est une monothérapie médicamenteuse de première intention dans la maladie de parkinson.",
+            "D) Les agonistes dopaminergiques D2 et les antagonistes dopaminergiques D2 sont à l’origine de dyskinésies",
+            "E) L’antipsychotique clozapine détermine des agranulocytoses"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les médicaments des systèmes dopaminergiques, laquelle (ou lesquelles) est (sont) exacte",
+          "choix": [
+            "A) Les agonistes dopaminergiques D2 agissent sur la voie dopaminergique mésolimbique",
+            "B) La levo-DOPA passe la barrière hémato-encéphalique",
+            "C) Les IMAO-B, à l’inverse des ICOMT sont efficaces sur les symptômes parkinsoniens en monothérapie",
+            "D) Les antagonistes dopaminergiques D2 sont à l’origine de vomissements.",
+            "E) Les antagonistes dopaminergiques D2 utilisés sont à l’origine d’une prise de poids."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14,
+          "critiques": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les anesthésiques généraux :",
+          "choix": [
+            "A) Ils sont uniquement administrés par voie intraveineuse",
+            "B) Ils potentialisent l’effet du GABA",
+            "C) Ils induisent une augmentation de la pression sanguine artérielle",
+            "D) Les curares sont des antagonistes des récepteurs muscariniques de l’acétylcholine",
+            "E) Les curares permettent un relâchement des muscles striés squelettiques"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786298422461-a2f6499f6c09c8",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Mr Atropa, 78 ans, se présente à votre consultation de médecin généraliste avec les symptômes suivants :\nHumeur dépressive quasi permanente\nPerte d'intérêt pour les activités habituelles (anhédonie).\nIsolement social.\nIdées noires récurrentes sans passage à l’acte.\nVous décidez de lui prescrire un traitement médicamenteux par un inhibiteur de recapture de la sérotonine, la sertraline, à une posologie de 50 mg/jour.\nIl a avait déjà un traitement par un antispasmodique urinaire atropinique que vous renouvelez.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les symptômes suivants, lesquels sont à surveiller en début de traitement par sertraline",
+          "choix": [
+            "A) Hyponatrémie",
+            "B) Bradycardie",
+            "C) Majoration des idées suicidaires",
+            "D) Nausées",
+            "E) Sueurs excessives"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous le revoyez 4 mois plus tard. Le syndrome dépressif de M Atropa s’aggrave. Vous décidez donc de modifier son traitement médicamenteux en lui prescrivant un antidépresseur tricyclique.\nA quoi correspond la dénomination antidépresseur tricyclique ?",
+          "choix": [
+            "A) Il s’agit d’un médicament qui augmente la production de dopamine.",
+            "B) Il s’agit d’un médicament indiqué dans le traitement pharmacologique de la dépression",
+            "C) Il s’agit d’un médicament dont l’action sur l’humeur est immédiate.",
+            "D) Ce médicament inhibe la recapture de la sérotonine et de la noradrénaline.",
+            "E) Il s’agit d’un médicament indiqué uniquement pour les troubles anxieux."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Citez parmi les suivants, l(es) effet(s) observé(s) limitant le recours à l'utilisation des antidépresseurs tricycliques chez les personnes âgées ?",
+          "choix": [
+            "A) Diminution de l'anxiété",
+            "B) Confusion mentale",
+            "C) Amélioration de la mémoire",
+            "D) Effet psychostimulant",
+            "E) Tachycardie"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes maintenant de garde aux urgences de Purpan et vous prenez en charge M Atropa adressé par son médecin traitant pour une suspicion de syndrome atropinique suite à l’introduction il y a 48h dans son ordonnance d’un anti-histaminique H1 sédatif l’alimémazine. Son ordonnance habituelle inclut donc un antidépresseur imipramique tricyclique et un antispasmodique urinaire atropinique.\nParmi les signes cliniques suivants, lequel ou lesquels est (sont) compatible(s) avec un syndrome atropinique ?",
+          "choix": [
+            "A) Une rétention aiguë d’urine",
+            "B) Une mydriase",
+            "C) Des symptômes délirants",
+            "D) Un allongement du QTc à l’électrocardiogramme",
+            "E) L’abolition des bruits intestinaux"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant les effets indésirables, laquelle (ou lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Les diurétiques peuvent déterminer des hyponatrémies",
+            "B) Les neuroleptiques atypiques peuvent causer un syndrome parkinsonien",
+            "C) Les AINS favorisent la survenue d’insuffisance rénale aiguë fonctionnelle",
+            "D) La chronologie de l’effet indésirable (délai, évolution) n’intervient pas dans l’analyse de l’imputabilité en pharmacovigilance.",
+            "E) La sémiologie de l’effet indésirable (délai, évolution) n’intervient pas dans l’analyse de l’imputabilité en pharmacovigilance."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "M Atropa est toujours en observation aux urgences, avec une rétention urinaire aigue se manifestant par un globe vésical. L’interne d’urologie préconise de mettre en place un cathéter sus-pubien pour évacuer ce globe vésical. Il vous demande donc de préparer une anesthésie locale.\nConcernant les anesthésiques locaux :",
+          "choix": [
+            "A) Ils dont dérivés de la cocaïne",
+            "B) Ils agissent par blocage des canaux calciques",
+            "C) Ils sont pro-arythmogènes",
+            "D) Ils sont administrés par voie intraveineuse",
+            "E) Les émulsions lipidiques intraveineuses peuvent être administrées lors d’une intoxication aux anesthésiques locaux"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

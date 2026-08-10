@@ -1,0 +1,528 @@
+{
+  "matiere": "Apprentissage de l'exercice médical",
+  "slug": "apprentissage-exercice-medical-s8",
+  "annee": 2025,
+  "title": "Apprentissage de l'exercice médical - 2025",
+  "total_questions": 25,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recevez en consultation un patient de 22 ans présentant une consommation de cannabis estimée à environ 1 gramme par semaine. Il consomme dans un cadre festif, mais également de manière quotidienne le soir, avant de dormir. Le patient vous confie que le cannabis « l’aide à dormir » et qu’il le considère comme « bien moins dangereux que l’alcool ». Il exprime des inquiétudes quant au fait de ne pas arriver en s’en passer et au fait que sa consommation génère des conflits avec sa copine. Il envisage de modifier son comportement, mais estime que ce n’est pas le bon moment en raison du stress lié à sa dernière année d’études. Vous retrouvez un retentissement à ses consommations puisqu’il est arrivé plusieurs fois à votre patient de ne pas aller en cours à cause d’une consommation trop importante.\nSelon le modèle Trans théorique de changement les éléments exprimés dans cet énoncé sont caractéristiques de :\nde l’environnement.",
+          "choix": [
+            "A) Du stade d’inaction inconsciente",
+            "B) Du stade la pré contemplation",
+            "C) Du stade de la rupture comportementale",
+            "D) Du stade de la contemplation",
+            "E) Du stade de l'action"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "Réponses justes : D\nA Faux, le stade de d’inaction inconsciente n’est pas l’un des 5 stades du modèle Trans théorique de changement (pré contemplation, contemplation, préparation, action, maintien).\nB Faux, le stade pré contemplation est caractérisé par la résistance à reconnaître le comportement problématique.\nC Faux, le stade de la rupture comportementale n’est pas l’un des 5 stades du modèle Trans théorique de changement (pré contemplation, contemplation, préparation, action, maintien).\nE Faux, le stade de l’action est caractérisé par des modifications importantes du comportement, des expériences et/ou",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des évènements porteurs de risques (EPR), laquelle de ces réponses est (ou lesquelles de ces réponses sont) exacte(s) :",
+          "choix": [
+            "A) C’est un évènement que l’on appelle également ‘near miss’ ou ‘presqu’accident’",
+            "B) C’est un évènement qui est récupéré in extremis avant d’avoir des conséquences éventuelles pour le patient",
+            "C) Leur analyse permet l’étude d’éléments positifs en terme de sécurité des soins",
+            "D) Leurs causes diffèrent généralement drastiquement de celles d’un EIG",
+            "E) Leur analyse est moins utile que celle d’un EIG (puisque moins graves que les EIG)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "A Vrai\nB Vrai\nC Vrai (la récupération)\nD Faux, elles ne different pas de celles d’un EI/EIG\nE Faux pour les raisons explorées dans la question C et D notamment, de plus , elle est plus facile psychologiquement.",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "M. K est hospitalisé pour une toux. Suite à un dépistage, vous découvrez que M. K est porteur de SARM. Parmi les propositions ci-dessous, 3 relèvent des précautions complémentaires, lesquelles ?",
+          "choix": [
+            "A) Il doit être placé en chambre seule",
+            "B) Un affichage doit être présent devant sa chambre",
+            "C) Vous devez informer le patient de son portage",
+            "D) Vous devez faire une hygiène des mains à l’eau et au savon en sortant de la chambre",
+            "E) M. K doit porter un masque quand vous entrez dans sa chambre"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "D : faux lavage des mains requis pour Clostridioides difficile et la gale.\nE : faux le port du masque lors de signes respiratoires relève des précautions standard.",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Pour une première consultation chez un cardiologue dans le cadre du parcours de soins coordonnés, 2 conditions sont à respecter. Lesquelles ?",
+          "choix": [
+            "A) Avoir plus de 18 ans",
+            "B) Avoir déclaré un médecin traitant",
+            "C) Etre bénéficiaire de la Complémentaire Santé Solidaire (CSS)",
+            "D) Etre adressé par son médecin traitant",
+            "E) Etre bénéficiaire d’une Affection Longue Durée (ALD) exonérante",
+            "F) Avoir pris rendez-vous au moins 3 mois en avance",
+            "G) Choisir un cardiologue conventionné secteur 1"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Réponses : B et D",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Comment se nomme le projet, mis en œuvre par les Agences Régionales de Santé (ARS), qui détermine les priorités des politiques de santé en région ?",
+          "choix": [],
+          "reponses": [
+            "Projet régional de santé",
+            "plan régional de santé",
+            "plan de santé régional",
+            "Plan Régional Santé",
+            "projet regionnal de santé",
+            "Projet régional de santé (PRS)",
+            "projet régionale de santé",
+            "Projet régional santé",
+            "projet régionnal de santé",
+            "projet régional de santé (PRS)",
+            "Projet Regional Santé",
+            "PRS (projet régional de santé)",
+            "projet régional santé",
+            "projet de santé regional"
+          ],
+          "correctionExplanation": "Projet régional de santé ou PRS",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle est l’année officielle de mise en place du régime général de la Sécurité Sociale en France ?",
+          "choix": [],
+          "reponses": [
+            "1945",
+            "45"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du système de soins en France, laquelle de ces propositions est exacte ?",
+          "choix": [
+            "A) Le système de soins a vocation à organiser le financement des soins et de la protection sociale",
+            "B) Le système de soins a vocation à assurer la régulation et la gestion administrative de la santé",
+            "C) Le système de soins inclut le système de santé",
+            "D) Le système de soins définit les politiques publiques dans le champ de la santé",
+            "E) Le système de soins rassemble l’ensemble des moyens et des activités dont la vocation est de produire des soins préventifs et curatifs"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Réponse juste : E\nCorrection : Seul l’item E est juste. Les items A, B et C se rapportent au système de santé. Concernant l’item C, c’est le contraire.",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’exercice des professionnels de santé en France :",
+          "choix": [
+            "A) Chaque profession de santé exerce une activité avec une autorisation d’exercice découlant de l’obtention d’un diplôme qualifiant sous contrôle de l’Etat",
+            "B) L’ordre des médecins veille au maintien des principes de probité",
+            "C) L’ordre des médecins veille au maintien de la compétence des médecins",
+            "D) Le code du travail régit le principe de confraternité entre médecins",
+            "E) L’inscription à un ordre professionnel est obligatoire pour toutes les professions de santé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "Réponses justes : A,B,C,\nJustifier les réponses fausses\n1. Le principe de confraternité entre médecins ne relève pas du code du travail, mais du code de déontologie médicale. L’ordre veille à son respect.\n2. L’inscription à un ordre professionnel est obligatoire uniquement pour les professions de santé qui disposent d’un ordre (médecins, sages-femmes, pharmaciens, etc.). Ce n’est pas le cas de toutes (ex : psychologues, ergothérapeutes, orthophonistes…).",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, laquelle (lesquelles) est (sont) un (des) enjeu(x) éthique(s) en santé numérique ?",
+          "choix": [
+            "A) Protection des données personnelles",
+            "B) Équité d'accès aux soins numériques",
+            "C) Autonomisation du patient",
+            "D) Consentement éclairé du patient",
+            "E) Qualité et fiabilité des outils numériques"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Vrai\nVrai\nFaux : En santé numérique, c’est l’automesure numérique qui contribue à l’autonomisation et à la responsabilisation du patient. C’est un bénéfice secondaire et non une dimension critique éthique en santé numérique.\nVrai\nVrai",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Dans le cadre des études diagnostiques, concernant les valeurs de sensibilité, de spécificité et les valeurs prédictives, quelles sont les trois propositions exactes ?",
+          "choix": [
+            "A) La sensibilité ne dépend pas de la prévalence de la maladie diagnostiquée",
+            "B) La spécificité du test diagnostique est égale à la probabilité qu’un patient soit vraiment malade sachant que le test est positif",
+            "C) La valeur prédictive négative est égale à la probabilité qu’un patient soit vraiment indemne de la maladie sachant que le résultat du test diagnostique est négatif",
+            "D) La valeur prédictive positive du test diagnostique est d’autant plus faible que la prévalence de la maladie diagnostiquée est élevée",
+            "E) La valeur prédictive positive du test diagnostique est d’autant plus faible que la prévalence de la maladie diagnostiquée est élevée"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Question ANNULEE\nRéponses : A, C, D\nA) Vrai, car la sensibilité est calculé parmi les personnes vraiment malade\nB) Faux, spécificité = probabilité d'avoir un test négatif sachant que la personne est indemne de la maladie\nC) Vrai, les valeurs prédictives seront d'autant plus élevées que la sensibilité et la spécificités sont élevées\nD) Vrai, par définition\nE) Faux, la VPP est d'autant plus élevée que la prévalence de la maladie diagnostiquée est élevée",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des biais",
+          "choix": [
+            "A) Les biais de confusion sont propres aux essais randomisés contrôlés.",
+            "B) Dans les essais cliniques, les biais de mesure dus à l'absence d'aveugle de l'évaluateur sont généralement non différentiels.",
+            "C) Un biais de confusion est présent si un facteur cause à la fois l'exposition et la maladie.",
+            "D) Une interaction est présente si l’effet d’une exposition sur le risque de survenue d’une maladie est différent en fonction de la présence ou de l’absence d’un autre facteur.",
+            "E) Le biais de mémorisation est un biais de sélection."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "A : Non, justement, la randomisation si elle est bien faite supprime les biais de confusion.\nB : L’évaluateur est susceptible d’évaluer différemment chacun des groupes et donc de créer un biais différentiel.\nE : Il s’agit d’un biais de classement/mesure.",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Dans une étude de cohorte, on observe que le risque de crise d’asthme :\nest de 8% parmi les participants exposés à un polluant,\nest de 4% parmi les participants non-exposés à ce polluant.\nConcernant les mesures d’association brutes, quelle est la proposition exacte?",
+          "choix": [
+            "A) On observe un risque relatif (RR) égal à 0,5",
+            "B) On observe une augmentation relative du risque (ARR) égale à 100%",
+            "C) On observe une réduction relative du risque (RRR) de 50%",
+            "D) L’augmentation absolue du risque (ou différence de risque) est de 50%",
+            "E) L’odds ratio (OR) est égal au rapport"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "A) Faux,\nB) Vrai, l'augmentation relative du risque correspond à la différence de risque entre les exposés et les non-exposés, augmentation de 100% du risque.\nC) Faux, il n’y a pas de réduction relative du risque, mais une augmentation relative du risque RRR = 100%\nD) Faux, l’augmentation absolue du risque correspond à la différence de risque entre les exposés et les non-exposés :\nE) Faux, OR = (8% / 92%) / (4% / 96%)",
+          "order": 12,
+          "correctionImage": "/images/qcm/apprentissage-exercice-medical-s8/2025/q12_correction.png?v=1786294244431"
+        },
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A partir du tableau suivant, utilisé pour évaluer les performances d'un test diagnostique, à quel indicateur correspond la formule A/(A+B) ? (sans majuscule)",
+          "choix": [],
+          "reponses": [
+            "valeur prédictive positive",
+            "valeur predictive positive",
+            "Valeur prédictive positive",
+            "vpp",
+            "Valeur predictive positive",
+            "VPP",
+            "Valeur Predictive Positive",
+            "la valeur predictive positive",
+            "la valeur prédictive positive",
+            "valeur prédictive positif",
+            "valeur prédictive positive (VPP)",
+            "valeur predictive postive",
+            "valeue prédictive positive",
+            "valeur prédicitive positive",
+            "valeur predictive positive VPP",
+            "VPP (valeur prédictive positive)",
+            "valeure prédictive positive",
+            "valeur prédictive positive VPP"
+          ],
+          "correctionExplanation": "",
+          "order": 13,
+          "images": [
+            "/images/qcm/apprentissage-exercice-medical-s8/2025/q13.png?v=1786294244660"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786294246840-3471c97673a4a",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les droits des patients, quelles sont les 3 affirmations exactes ?",
+          "choix": [
+            "A) Une fois que le patient a défini une personne de confiance, elle le restera pour une durée minimale de deux ans",
+            "B) Chez un majeur, la désignation d'une personne de confiance se fait par un écrit cosigné par la personne de confiance",
+            "C) Les directives anticipées sont valides dans le temps sans limite",
+            "D) Les directives anticipées peuvent être conservées dans le dossier médical d'hospitalisation",
+            "E) Il n’y a aucune obligation à informer les patients mineurs, car le consentement des parents prime"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Que signifie l’acronyme ITT ?",
+          "choix": [],
+          "reponses": [
+            "Incapacité totale de travail",
+            "incapacite totale de travail",
+            "incapacite total de travail",
+            "incapacité total de travail",
+            "Incapacite Totale de Travail",
+            "incapicité totale de travail",
+            "Incapacite totale de travail",
+            "Incapacitée totale de travail",
+            "incapacité totale de travaille",
+            "Incapacité Total de Travail",
+            "icapacité totale de travail",
+            "incapatité totale de travail",
+            "incapacite totale de travail (code penal) ou incapacite temporaire de travail (code civil)"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Aux urgences, vous examinez un nourrisson âgé de 8 mois présentant des ecchymoses rouges en région lombaire, bilatérales, associé à une hypotonie. Dans ce contexte, vous réalisez une radiographie de squelette entier, un bilan d’hémostase, un fond d’œil et un scanner cérébral. Parmi les propositions, quelles sont les 4 anomalies cliniques ou paracliniques qui vous font évoquer un syndrome du bébé secoué ?",
+          "choix": [
+            "A) Des hémorragies rétiniennes bilatérales au fond d’œil",
+            "B) Un hématome extra-dural au scanner cérébral",
+            "C) Un hématome sous-dural au scanner cérébral",
+            "D) Des vomissements",
+            "E) Un hématome frontal",
+            "F) Un bombement de la fontanelle antérieure"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "F"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes médecin généraliste. Concernant le certificat de « coups et blessure », quelle(s) est/sont la/les propositions(s) exacte(s) ?",
+          "choix": [
+            "A) C’est au médecin de se prononcer sur le caractère volontaire ou involontaire des blessures constatées",
+            "B) La relation entre l’auteur et la victime peut être mentionnée dans le certificat",
+            "C) L’ITT doit obligatoirement y figurer",
+            "D) Vous devez mentionner si vos constatations sont compatibles avec les déclarations de la victime ou non",
+            "E) Vous remettez le certificat de coups et blessure au patient, en mains propres"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous êtes internes aux urgences pédiatriques. Vous recevez un nourrisson, Tim, âgé de 10 mois, orienté par le médecin de la PMI, qui a constaté en consultation une ecchymose sur le visage de l’enfant. Concernant votre examen, quelles propositions sont vraies :",
+          "choix": [
+            "A) Les mesures des mensurations (taille, poids, périmètre crânien) sont nécessaires",
+            "B) L’examen tégumentaire du visage est suffisant",
+            "C) Le genou est une localisation fréquente de lésion chez un enfant ayant acquis la marche",
+            "D) La prise de photographies est inutile",
+            "E) Vous rédigerez un certificat médical initial descriptif"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lilou, une adolescente de 16 ans se présente avec ses parents aux urgences où vous êtes interne. Elle aurait subi des violences sexuelles de la part de son entraineur sportif. Un examen médico-légal doit être réalisé en urgence, dans les plus brefs délais, si elle rapporte des violences sexuelles à type :",
+          "choix": [
+            "A) De pénétrations péniennes vaginales il y a 4 semaines",
+            "B) De pénétrations péniennes vaginales sans préservatif la veille de la consultation aux urgences",
+            "C) De pénétrations péniennes vaginales avec préservatif la veille de la consultation aux urgences",
+            "D) De pénétrations péniennes buccales 3 heures avant la consultation aux urgences",
+            "E) Des attouchements sur les seins, par-dessus les vêtements"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, quelles sont les 3 conditions suffisantes pour pouvoir déroger au secret médical dans le cadre d’un signalement judiciaire pour violences au sein du couple ?",
+          "choix": [
+            "A) La victime est mineure",
+            "B) La victime n’est pas en mesure de se protéger en raison d’une pathologie mentale",
+            "C) La victime cohabite avec son conjoint",
+            "D) Il existe un danger immédiat et une situation d’emprise",
+            "E) La victime a plus de 60 ans"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Une jeune femme de 24 ans se présente aux urgences où vous êtes interne. Elle décrit une amnésie totale de sa soirée d’il y a 2 jours ; elle était chez une connaissance et ne se rappelle avoir consommé qu’une bière. Que suspectez-vous ? (2 mots)",
+          "choix": [],
+          "reponses": [
+            "Soumission chimique",
+            "Une soumission chimique",
+            "soummission chimique"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 22,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Un patient décède aux urgences après une chute d’un toit dans le cadre de l’exercice de son travail de couvreur. Vous diagnostiquez un traumatisme crânien majeur, responsable à lui seul du décès, au body-scanner réalisé à l’arrivée aux urgences. Lors de la rédaction du certificat de décès, cochez-vous l’obstacle médico-légal dans ce contexte ?",
+          "choix": [],
+          "reponses": [
+            "Oui",
+            "Vrai",
+            "oui , une enquete doit etre ouverte !",
+            "oui car c'est un décès sur le lieu de travail"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi ces signes, lequel ne fait pas parti des signes négatifs de la vie ?",
+          "choix": [
+            "A) L’arrêt cardiocirculatoire",
+            "B) La perte des réflexes",
+            "C) Les lividités cadavériques",
+            "D) L’abolition de la conscience",
+            "E) L’arrêt respiratoire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "En matière de violences sexuelles récentes, quel est le rôle principal du médecin légiste lors de l'examen de la victime ?",
+          "choix": [
+            "A) Prescrire des soins médicaux appropriés",
+            "B) Évaluer la crédibilité des propos de la victime",
+            "C) Recueillir et préserver les preuves médico-légales",
+            "D) Accompagner la victime au dépôt de plainte",
+            "E) Débuter la prise en charge psychologique"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Une patiente se présente aux urgences en déclarant avoir été agressée sexuellement il y a 2 jours. Elle vous rapporte s’être réveillée nue dans un lit à côté d’un garçon après une soirée où elle aurait consommé beaucoup d’alcool ; elle pense avoir un peu flirté avec l’individu au cours de la soirée et dit ne se souvenir de rien d’autre.\nConcernant le consentement sexuel, quelle est la réponse juste ?",
+          "choix": [
+            "A) L’intéressée a pu consentir à une activité sexuelle mais ne pas s’en souvenir, on pourra difficilement retenir les violences sexuelles",
+            "B) Le consentement ne doit pas être explicite et recherché avant toute activité sexuelle",
+            "C) L’intéressée n’était pas en mesure de consentir",
+            "D) La notion de consentement ne s’applique pas aux relations sexuelles au sein du couple",
+            "E) Une fois donné, il ne peut plus être retiré"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

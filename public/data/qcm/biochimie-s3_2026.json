@@ -1,0 +1,445 @@
+{
+  "matiere": "Biochimie",
+  "slug": "biochimie-s3",
+  "annee": 2026,
+  "title": "Biochimie - 2026",
+  "total_questions": 21,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la synthèse endogène des acides gras",
+          "choix": [
+            "A) Elle est régulée au niveau de l’acétyl-CoA carboxylase en amont du complexe de l’acide gras synthase",
+            "B) Elle est activée par l’adrénaline et le glucagon",
+            "C) Elle est activée par l’insuline",
+            "D) Elle est toujours très active quelque soit le type de régime alimentaire",
+            "E) Elle se déroule dans les lysosomes des cellules"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la béta-oxydation des acides gras",
+          "choix": [
+            "A) Elle se déroule dans le cytosol de toutes les cellules",
+            "B) Elle se déroule en continu au sein des tissus ou organes participant au métabolisme basal",
+            "C) Elle consiste en la répétition de quatre réactions successives aboutissant à une perte d’une unité di-carbonée sur la chaine d’acide gras",
+            "D) Quelle que soit la longueur de la chaine de l’acide gras, les quatre étapes de la béta-oxydation sont toujours identiques",
+            "E) Elle permet de générer une molécule d’acétyl-CoA à chaque tour d’hélice de Lynen"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la lipolyse",
+          "choix": [
+            "A) Elle est activée en situation de jeûne prolongé",
+            "B) Elle est régulée au niveau de la lipase hormonosensible",
+            "C) Elle est activée par l’insuline",
+            "D) Elle est activée par l’adrénaline",
+            "E) Elle permet d’alimenter la cétogenèse hépatique au cours du jeûne"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du métabolisme des acides gras",
+          "choix": [
+            "A) L’activation de l’acide gras en acyl-CoA est une étape indispensable quel que soit son métabolisme",
+            "B) Le catabolisme par béta-oxydation se fait toujours à partir de l’extrémité carboxylique de l’acide gras",
+            "C) L’élongation de la chaine par le complexe de l’acide gras synthase se fait par l’extrémité oméga (du côté du CH3)",
+            "D) Les désaturations et les élongations d’un acide gras insaturé se font toujours entre le carboxyle et une double liaison pré-existante",
+            "E) Une fois l’acide stéarique (C18:0) synthétisé par le complexe de l’acide gras synthase, il peut générer de l’acide alpha-linolénique (C18:3, n-3) dans les cellules humaines"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les HDL",
+          "choix": [
+            "A) Ce sont les particules lipoprotéiques les plus petites",
+            "B) Elles épurent le cholestérol excédentaire au niveau des tissus",
+            "C) L’apolipoprotéine B 100 est la protéine principale des HDL",
+            "D) Elles contiennent une proportion élevée de triglycérides",
+            "E) Des taux sanguins élevés de HDL prédisposent à l’athérosclérose"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans le cadre d’un protocole de recherche, un sujet volontaire sain est soumis à un repas standard, puis 2 heures plus tard, il fait l’objet d’un prélèvement sanguin. Les lipoprotéines sériques sont isolées par ultracentrifugation en gradient de densité et les lipides en sont extraits.",
+          "choix": [
+            "A) Les chylomicrons correspondent aux particules lipoprotéiques les plus denses isolées dans le gradient de densité",
+            "B) Les chylomicrons sont les lipoprotéines les plus volumineuses",
+            "C) La composition en acides gras des triglycérides retrouvés dans les chylomicrons est très semblable à celle des triglycérides apportés par le repas",
+            "D) L’hydrolyse des triglycérides des chylomicrons par la lipoprotéine lipase permet l’apport d’acides gras dans le tissu adipeux",
+            "E) Les chylomicrons fournissent du cholestérol aux cellules par l’intermédiaire d’un récepteur reconnaissant spécifiquement l’apolipoprotéine B 48"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les statines, traitements utilisés pour normaliser la concentration plasmatique de cholestérol-LDL",
+          "choix": [
+            "A) Ce sont des inhibiteurs de la HMG-CoA réductase",
+            "B) Elles entrainent une baisse de la synthèse endogène de cholestérol",
+            "C) Elles inhibent également la synthèse de Coenzyme Q10",
+            "D) Elles induisent une augmentation de l’expression du nombre de récepteurs hépatiques aux LDL",
+            "E) L’utilisation d’anticorps anti-PCSK9 augmente leur efficacité"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cycle des pentoses :",
+          "choix": [
+            "A) C’est une voie parallèle à la glycolyse.",
+            "B) Il fournit du NADH, H+ aux cellules.",
+            "C) Il assure la production de ribose-5-phosphate.",
+            "D) Il se déroule dans la matrice mitochondriale.",
+            "E) Un déficit enzymatique dans ce cycle peut conduire à la formation de Methémoglobine"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du transporteur GLUT4:",
+          "choix": [
+            "A) C’est un transporteur passif du glucose dans les cellules.",
+            "B) Il présente un Km élevé.",
+            "C) En présence d’insuline il est séquestré dans des vésicules intracellulaires.",
+            "D) Il est exprimé majoritairement au niveau des cellules béta-pancréatiques.",
+            "E) Le défaut de captation du glucose par les cellules est une première étape dans le développement du diabète de type 2."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du métabolisme du glycogène :",
+          "choix": [
+            "A) Le glucose est un activateur allostérique de la phosphorylase.",
+            "B) L’AMP est un activateur allostérique de la phosphorylase",
+            "C) Le glucose-6-phosphate est un inhibiteur allostérique de la glycogène synthétase",
+            "D) L’insuline stimule la synthèse du glycogène.",
+            "E) Le glucagon stimule la synthèse du glycogène."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du fructose-2,6-bisphosphate :",
+          "choix": [
+            "A) Il assure la régulation conjointe de la glycolyse et de la néoglucogenèse",
+            "B) Il est le produit de la phosphofructokinase 1 (PFK1)",
+            "C) Il est le produit de la fructose-2,6-bisphosphatase (FBPase2)",
+            "D) C’est un régulateur allostérique de la PFK1.",
+            "E) C’est un inhibiteur de la néoglucogenèse."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Rôle et origines des vitamines",
+          "choix": [
+            "A) La forme active de la vitamine B6, le PLP, est un coenzyme utilisé dans les réactions de transaminations hépatiques et dans les réactifs des automates des laboratoires de biologie médicale.",
+            "B) . L’utilisation des statines dans les dyslipidémies n’a pas d’impact sur la synthèse du coenzyme Q10.",
+            "C) Les tétrahydrofolates, coenzymes issus de la vitamine B9, sont des donneurs de groupement monocarbonés impliqués entre autres dans l’embryogénèse, justifiant une complémentation en vitamine B9 dans la période péri-conceptionnelle.",
+            "D) Certains régimes restrictifs, comme le végétalisme, peuvent conduire à un déficit en vitamine B12, situation à risque nutritionnel pendant la grossesse.",
+            "E) Une alimentation équilibrée, comprenant des produits d’origines végétales et animales, avec des vitamines hydrosolubles comme la vitamine C et liposolubles comme la vitamine A, participe à la prévention primaire des principales maladies chroniques (cardiovasculaire, diabète, cancer)."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans la prise en charge de l’alcoolisme, mais aussi dans la dénutrition, devant une encéphalopathie, quelle carence vitaminique évoquez vous ?",
+          "choix": [
+            "A) vitamine D",
+            "B) vitamine A",
+            "C) vitamine B1",
+            "D) vitamine K",
+            "E) vitamine B8"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Activité physique et santé",
+          "choix": [
+            "A) L’activité physique et sportive est une thérapeutique non médicamenteuse.",
+            "B) Pratiquer une activité sportive modérée durant 30 minutes par jour permet d’annuler totalement l’effet néfaste d’une sédentarité de 7 heures sur le risque cardiovasculaire.",
+            "C) Pratiquer une activité physique et sportive régulière permet d’augmenter la concentration plasmatique en HDL.",
+            "D) La pratique d’une activité physique régulière de faible intensité en complément de règles diététiques ne permet pas d’envisager une perte de masse grasse chez une personne actuellement en surcharge pondérale",
+            "E) Une maladie métabolique du profil d’une maladie de Tarui peut être découverte à l’occasion de symptômes de mauvaise tolérance à l’effort débutant à l’enfance ou l’adolescence."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au cours d’un exercice physique :",
+          "choix": [
+            "A) Le quotient respiratoire (QR) peut être utile à évaluer l’évolution du métabolisme.",
+            "B) Le lactate produit notamment par les fibres musculaires glycolytiques peut être recapté par d’autres fibres musculaires pour être réoxydé en pyruvate.",
+            "C) Les besoins en glucose périphériques diminuent avec l’intensité de l’exercice.",
+            "D) Au cours d’un exercice physique, les catécholamines activent la glycogénolyse.",
+            "E) En absence de toute prise alimentaire dans les 6 heures qui précédent, l’exercice physique induit une augmentation de la concentration plasmatique en insuline."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395616644-86fe899bd65d3",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Les jeunes parents d’un petit garçon s’inquiètent car, quelques jours après un accouchement et une grossesse sans problèmes apparents, ils ont du mal à le stimuler pour téter et le trouvent « mou ». A J6, son état neurologique s’aggrave. Il est conduit aux urgences. Le bilan de recherche d’infection s’avère négatif. Un dosage révèle une ammoniémie à 356 µmol/L (norme < 100 μmol/L). Ce résultat vous conduit à suspecter un déficit du métabolisme.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle voie métabolique pensez-vous explorer en priorité ?",
+          "choix": [
+            "A) La voie de l’oxydation des acides aminés.",
+            "B) La béta-oxydation des acides gras.",
+            "C) La cétogenèse.",
+            "D) La glycogénolyse.",
+            "E) Le cycle de l’urée."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous songez à un déficit héréditaire du cycle de l’urée. Vous savez en effet que :",
+          "choix": [
+            "A) L’ammoniac est neurotoxique.",
+            "B) L’ammoniac est produit par le catabolisme des acides gras.",
+            "C) Seul le foie peut détoxifier l’ammoniac.",
+            "D) Le cycle de l’urée est exclusivement hépatique.",
+            "E) Un tour de cycle de l’urée permet d’éliminer 1 atome d’azote."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous décidez de réaliser une chromatographie des acides aminés plasmatiques pour confirmer votre diagnostic. S’il s’agit réellement d’un déficit du cycle de l’urée, vous pouvez vous attendre à ce que :",
+          "choix": [
+            "A) la concentration en glutamine, forme de transport de l’ammoniac sanguin, soit augmentée.",
+            "B) la concentration en leucine, acide aminé majoritaire dans le sang, soit augmentée.",
+            "C) en fonction de l’enzyme déficitaire de ce cycle, la concentration en citrulline, intermédiaire du cycle de l’urée, soit modifiée.",
+            "D) la concentration en phénylalanine soit effondrée.",
+            "E) Vous deviez compléter votre analyse par un dosage de l’acide orotique urinaire."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les résultats soutiennent le diagnostic de déficit du cycle de l’urée. Après avoir rééquilibré l’ammoniémie du patient, vous poursuivrez votre prise en charge par :",
+          "choix": [
+            "A) A/ Une analyse génétique.",
+            "B) Un régime diététique riche en protéine.",
+            "C) Un arrêt total de l’apport en protéines.",
+            "D) Une prise en charge diététique.",
+            "E) Un suivi régulier du profil des acylcarnitines sanguins."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395618063-b0ded4ee4bc2e8",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Marie M., 27 ans, consulte son médecin traitant pour un désir de grossesse. Elle est suivie pour une endométriose (présence de glandes ou de stroma endométrial en position ectopique, c’est-à-dire en dehors de la cavité utérine). Elle fume 3 à 4 cigarettes par jour depuis l’âge de 18 ans.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "D’après les données épidémiologiques tirées de la cohorte NAHNES (National Health and Nutrition Examination Survey) entre 1999–2006 présentées dans la figure 1, quelles sont les deux vitamines qui ont le meilleur effet « bénéfique » vis-à-vis de l’endométriose ?\nFigure 1. Odds ratio entre les caractéristiques des participantes de l’étude et le risque d’endométriose. Les bulles représentent la valeur de l’odds-ratio pour chaque paramètre et les barres horizontales l’intervalle de confiance à 95%. Les paramètres suivis d’une astérisque (*) ont une p-value < 0,05.\nL’odds-ratio est un rapport de probabilité utilisé pour permettre de mesurer le risque qu’un événement, par exemple une maladie. L’odds ratio égal à 1 signifie l’absence d’effet, inférieur à 1 traduit un effet bénéfique et supérieur à 1 caractérise un effet délétère. Plus il est éloigné de 1, plus l’effet est important.\nExemple : pour les participantes ayant un diabète, le risque d’avoir une endométriose est multiplié par 1,9",
+          "choix": [
+            "A) Vitamine A",
+            "B) vitamine B9",
+            "C) vitamine B12",
+            "D) Vitamine C",
+            "E) Vitamine E"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/biochimie-s3/2026/q20.webp?v=1786395618776"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le risque majeur d’un déficit en vitamine B9 en début de grossesse ?",
+          "choix": [],
+          "reponses": [
+            "défaut de fermeture du tube neural"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

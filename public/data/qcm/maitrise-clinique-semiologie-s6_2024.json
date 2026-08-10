@@ -1,0 +1,635 @@
+{
+  "matiere": "Maîtrise clinique et sémiologie",
+  "slug": "maitrise-clinique-semiologie-s6",
+  "annee": 2024,
+  "title": "Maîtrise clinique et sémiologie - 2024",
+  "total_questions": 30,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la dyspnée de la crise d'asthme , quelles sont les affirmations exactes?",
+          "choix": [
+            "A) elle est expiratoire",
+            "B) elle peut survenir à l'effort",
+            "C) elle est responsable de râles crépitants",
+            "D) elle est responsable de râles sibilants",
+            "E) il s'agit en général d'une bradypnée"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la toux (réponses exactes)",
+          "choix": [
+            "A) elle est sèche au début d'une bronchite aigue",
+            "B) accompagnée d'une douleur latéro-sternale impulsive à la toux, on évoque une pneumopathie interstitielle",
+            "C) elle est sèche au cours de la bronchite chronique",
+            "D) elle peut être d'origine psychogène",
+            "E) elle est volontiers douloureuse en cas de pleurésie"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une patiente de 25 ans sans antécédent consulte car elle a ce jour émis des crachats de sang lors d'un effort de toux. Elle ne fume pas. Elle n'a pas de fièvre. Vous évoquez en priorité:",
+          "choix": [
+            "A) une malformation vasculaire",
+            "B) un cancer pleural",
+            "C) une pneumopathie franche lobaire aigue",
+            "D) un cancer bronchique",
+            "E) une embolie pulmonaire"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'insuffisance cardiaque globale, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) la dyspnée est améliorée en position assise",
+            "B) elle est responsable d'hépatalgie",
+            "C) elle peut s'accompagner de cyanose",
+            "D) elle peut s'accompagner de tachycardie",
+            "E) elle peut s'accompagner de bradycardie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les souffles cardiaques, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) le souffle de rétrécissement aortique est recherché au deuxième espace intercostal gauche",
+            "B) le souffle d'insuffisance mitrale irradie au creux axillaire",
+            "C) le souffle d'insuffisance mitrale est diastolique",
+            "D) le souffle d'insuffisance aortique est diastolique",
+            "E) le souffle de rétrécissement aortique est systolique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "devant une douleur ressentie au niveau de l'épaule gauche lors de la respiration profonde avec un examen de l'épaule normal, on peut évoquer:",
+          "choix": [
+            "A) une douleur neuropathique",
+            "B) une douleur projetée",
+            "C) une irritation de la plèvre diaphragmatique droite",
+            "D) une embolie pulmonaire",
+            "E) une pyélonéphrite gauche"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "un nodule hypodermique peut être? (réponses exactes)",
+          "choix": [
+            "A) douloureux",
+            "B) pétéchial",
+            "C) indolore",
+            "D) ulcéré",
+            "E) fixé sur les plans profonds"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "concernant les éruption cutanées, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) un purpura se localise préférentiellement aux jambes",
+            "B) on parle d' érythème pour désigner la sensation de brûlure de la peau",
+            "C) une ecchymose ne s'efface pas à la pression",
+            "D) une érythème étendu en nappe sans intervalles de peau saine est dit scarlatiniforme",
+            "E) un énanthème désigne une éruption des muqueuses"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments sémiologiques font partie du syndrome extrapyramidal?",
+          "choix": [
+            "A) hypertonie cédant par à coup",
+            "B) tremblement fin et rapide des extrémités",
+            "C) hypermétrie",
+            "D) vivacité des réflexes",
+            "E) akinésie"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments sémiologiques font partie du syndrome cérebelleux?",
+          "choix": [
+            "A) tremblement d'intention",
+            "B) réflexes vifs",
+            "C) ataxie inchangée par la fermeture des yeux",
+            "D) marche à petits pas",
+            "E) abolition de l'arthrokinésie"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments sémiologiques font partie du syndrome rolandique?",
+          "choix": [
+            "A) Paralysie faciale centrale avec dissociation automatico volontaire",
+            "B) Hémiplégie controlatérale, souvent à prédominance brachiofaciale",
+            "C) Déficit sensitif de l'hémicorps controlatéral, à tous les modes, à prédominance brachiofaciale",
+            "D) Cécité corticale",
+            "E) aphasie de Broca"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes suivants, lesquels appartiennent à la sémiologie du syndrome pyramidal?",
+          "choix": [
+            "A) réflexes pendulaires",
+            "B) hypertonie en extension",
+            "C) déficit moteur flasque",
+            "D) déficit moteur spastique",
+            "E) diffusion des réflexes"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la fièvre quelles sont les affirmations exactes?",
+          "choix": [
+            "A) une température supérieure à 39° est un critère de gravité de la fièvre",
+            "B) accompagnée de frissons à claquer des dents, elle évoque une décharge bactérienne",
+            "C) un pouls à 120 / minute chez un patient ayant une fièvre à 40° est banal",
+            "D) la fréquence respiratoire doit être contrôlée chez tout patient fébrile",
+            "E) une fièvre peut être due à un médicament"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "quelles affirmations sont exactes concernant l'électrocardiogramme du syndrome coronarien aigu (SCA)?",
+          "choix": [
+            "A) il peut être normal",
+            "B) l'apparition d'un bloc de branche gauche chez un patient ayant une douleur médio-thoracique évoque un syndrome coronarien aigu",
+            "C) il faut rechercher un sus-décalage du segment ST",
+            "D) l'évolution caractéristique dans le territoire ischémié se fait vers l'apparition d'une onde Q",
+            "E) l'électrocardiogramme montre de façon caractéristique un sous-décalage de l'espace PR"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les oedèmes généralisés, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) ils peuvent être dus à une insuffisance cardiaque droite",
+            "B) ils peuvent être dus à une pyélonéphrite aigue",
+            "C) la présence d'une ascite est très spécifique d'une cirrhose",
+            "D) ils peuvent être dus à une hypoalbuminémie",
+            "E) le traitement symptomatique de choix est le furosémide"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient obèse, lombalgique chronique, fumeur, présentant une douleur postérieure de la cuisse et du mollet, apparaissant à la marche, disparaissant au repos, on évoque en priorité deux diagnostics:",
+          "choix": [
+            "A) une mononévrite du nerf tibial postérieur",
+            "B) une radiculopathie L5",
+            "C) une claudication intermittente vasculaire",
+            "D) une radiculopathie S1",
+            "E) une arthrose coxo fémorale"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les réflexes , quelles sont les affirmations exactes?",
+          "choix": [
+            "A) le réflexe bicipital explore la racine C5 et le nerf musculo-cutané",
+            "B) le réflexe styloradial explore C7 et le nerf radial",
+            "C) le réflexe cubito-pronateur explore C8 et le nerf ulnaire",
+            "D) le réflexe achilléen explore la racine L5",
+            "E) en cas de polynévrite, les réflexes achilléens sont abolis avant les réflexes rotuliens"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant une douleur hypogastrique d'installation récente chez un homme, il convient de:",
+          "choix": [
+            "A) rechercher un globe urinaire par la palpation",
+            "B) rechercher un globe urinaire par la percussion",
+            "C) faire un toucher rectal",
+            "D) surveiller la diurèse",
+            "E) prendre la température corporelle"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "une contracture généralisée de la paroi abdominale :",
+          "choix": [
+            "A) est un signe de péritonite",
+            "B) se traduit par la présence d'une défense à l'examen physique",
+            "C) est généralement en relation avec une infection abdominale",
+            "D) est provoquée par l'anxiété du patient d'être examiné",
+            "E) nécessite généralement l'intervention du chirurgien"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes évocateurs de malaise vagal chez un patient qui vient de faire une chute?",
+          "choix": [
+            "A) présence de prodromes",
+            "B) fréquence cardiaque à 30/mn",
+            "C) présence de sueurs",
+            "D) présence d'un nystagmus",
+            "E) une pâleur"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les situations suivantes, lesquelles sont responsables d'ictère?",
+          "choix": [
+            "A) hépatite aigue alcoolique",
+            "B) insuffisance hépatocellulaire",
+            "C) lithiase cholédocienne",
+            "D) hémolyse",
+            "E) rhabdomyolyse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 21
+        },
+        {
+          "id": 22,
+          "type": "QRU",
+          "contexte": "",
+          "question": "chez ce patient essoufflé de façon brutale, avec une douleur intense du côté gauche, vous trouvez à l'examen physique un tympanisme de base gauche, une diminution des vibrations vocales, une abolition du murmure vésiculaire. Le patient est apyrétique. Vous suspectez:",
+          "choix": [
+            "A) une pneumopathie aiguë de base gauche",
+            "B) une atélectasie",
+            "C) un épanchement pleural",
+            "D) une crise d'asthme",
+            "E) un pneumothorax"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 22
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez cette patiente qui essaie de fermer les yeux (photo), vous affirmez:",
+          "choix": [
+            "A) une neuropathie du trijumeau gauche",
+            "B) une atteinte du IVieme nerf crânien droit",
+            "C) une atteinte du Vieme nerf crânien gauche",
+            "D) une atteinte de la VIIieme paire de nerf crânien droite",
+            "E) un accident vasculaire cérébral"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 23,
+          "images": [
+            "/images/qcm/maitrise-clinique-semiologie-s6/2024/q23.png?v=1786296829163"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "quels sont les éléments participant à la définition d'un syndrome néphrotique :",
+          "choix": [
+            "A) albuminémie < 30 g/L",
+            "B) insuffisance rénale",
+            "C) protéinurie > 3 g/ 24h",
+            "D) hypertension artérielle",
+            "E) anasarque"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 24
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans quelles circonstances peut on observer des vomissements?",
+          "choix": [
+            "A) hypertension intra-crânienne",
+            "B) colopathie fonctionnelle",
+            "C) syndrome vestibulaire",
+            "D) occlusion digestive",
+            "E) intolérance aux opiacés"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 25
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "ce patient de 70 ans a pris 10 kg en 3 mois. Ceci peut être dû à:",
+          "choix": [
+            "A) un diabète de type I",
+            "B) une hypothyroïdie",
+            "C) une boulimie",
+            "D) un hypercorticisme",
+            "E) un syndrome néphrotique"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 26
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient qui présente une splénomégalie, vous en recherchez la cause. Parmi les éléments cliniques suivants, lesquels vous orientent vers la cause de la splénomégalie?",
+          "choix": [
+            "A) des angiomes stellaires",
+            "B) une poly-adénopathie",
+            "C) la présence d'une ascite",
+            "D) une fièvre à 38°4 et un souffle cardiaque d'insuffisance mitrale",
+            "E) des lésions cutanées de psoriasis"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 27,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "quelles sont les complications susceptibles de survenir en cas d'alitement prolongé?",
+          "choix": [
+            "A) perte de l'élan vital",
+            "B) fécalome",
+            "C) escarres",
+            "D) aphasie",
+            "E) phlébite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 28
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes suivants, lesquels peut on observer au cours d'une infection urinaire?",
+          "choix": [
+            "A) polyurie",
+            "B) polydypsie",
+            "C) pollakiurie",
+            "D) brûlures mictionnelles",
+            "E) rétention aigue d'urine"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 29
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "parmi les signes suivants, lesquels doivent faire évoquer systématiquement la possibilité d'une embolie pulmonaire?",
+          "choix": [
+            "A) polypnée en l'absence d'infection",
+            "B) tachycardie sinusale en l'absence de fièvre",
+            "C) état de choc",
+            "D) fièvre non expliquée par une infection",
+            "E) douleur médio-thoracique augmentant à l'inspiration profonde, soulagée par l'antéflexion du tronc"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 30,
+          "neutralized": [
+            "D"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

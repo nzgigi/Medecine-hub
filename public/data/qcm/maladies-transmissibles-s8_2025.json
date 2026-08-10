@@ -1,0 +1,548 @@
+{
+  "matiere": "Maladies transmissibles",
+  "slug": "maladies-transmissibles-s8",
+  "annee": 2025,
+  "title": "Maladies transmissibles - 2025",
+  "total_questions": 23,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous voyez en consultation un homme de 25 ans pour brûlures mictionnelles. Il a eu des rapports sexuels non protégés avec un nouveau partenaire la semaine dernière. Il signale un écoulement au méat urétral.\nQuels sont les 2 examens que vous réalisez en 1re intention ?",
+          "choix": [
+            "A) ECBU sur 1er jet urinaire",
+            "B) ECBU sur 2e jet urinaire",
+            "C) PCR Chlamydia trachomatis sur 1er jet urinaire",
+            "D) PCR Neisseria gonorrhoeae sur 1er jet urinaire",
+            "E) PCR Mycoplasma genitallium sur 1er jet urinaire"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Mycoplasma genitallium peut être recherché en 2e intention en cas d’urétrite symptomatique si Chlamydia trachomatis et Neisseria gonorrhoeae sont négatifs sur le bilan de 1re intention.",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous voyez en consultation un jeune patient de 19 ans pour syndrome fébrile à 39°C depuis 10 jours et asthénie intense. Il a perdu 2 kg. Vous faites un bilan biologique sanguin qui est le suivant :\nHémoglobine 14 g/dl ; Plaquettes 160 G/L. Leucocytes 9,4 G/L dont polynucléaires neutrophiles 2 G/L, polynucléaires éosinophiles 0,3 G/L, polynucléaires basophiles 0,1 G/L, lymphocytes 6 G/L, monocytes 1 G/L. Sur le frottis, le laboratoire signale que 15% des lymphocytes sont de grande taille avec un cytoplasme hyperbasophile.\nQuels sont les 2 examens complémentaires que vous prescrivez pour essayer de préciser le diagnostic étiologique en 1re intention ?",
+          "choix": [
+            "A) Immunophénotypage des lymphocytes circulants",
+            "B) Recherche de chromosome Philadelphie (translocation 9 ;22)",
+            "C) Myélogramme",
+            "D) Sérologie CMV",
+            "E) Sérologie EBV"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "Il s’agit d’un syndrome mononucléosique. Les étiologies les plus fréquentes sont les primo-infections à EBV, CMV, VIH et Toxoplasma. La cytologie est en faveur de lymphocytes activés réactionnels plus que de blastes et l’absence d’autres cytopénies n’oriente pas vers une hémopathie (leucémie aiguë lymphoblastique) en 1re intention.",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez en consultation un homme de 36 ans, vivant avec le VIH sous antirétroviraux. Il a des partenaires sexuels multiples avec des rapports non protégés dans un contexte de consommation de toxiques (3-methylmethcathinone ou 3MMC). Il est asymptomatique.\nLe bilan systématique des IST retrouve une sérologie ELISA positive pour les anticorps anti-tréponème. Le test non-tréponémique (VDRL) est négatif.\nQuelles sont les réponses exactes (une ou plusieurs réponses)",
+          "choix": [
+            "A) Il s’agit d’une Syphilis primaire nécessitant un traitement par une injection IM de 2,4 M UI de benzathine benzylpénicilline (Extencilline)",
+            "B) Il s’agit d’une Syphilis primaire nécessitant un traitement par 3 injections IM de 2,4 M UI de benzathine benzylpénicilline (Extencilline) chacune espacées d’une semaine",
+            "C) La sérologie est en faveur d’un contact ancien avec T. pallidum",
+            "D) Il s’agit d’un faux positif de la sérologie qui peut être dû à la présence d’anticoagulants circulants (anticardiolipides/anti-phospholipides)",
+            "E) Une Syphilis récente ne peut être exclue et le test sérologique devra être recontrôlé dans 2 à 3 semaines"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "le test non-tréponémique (VDRL ou RPR) peut parfois être faussement négatif initialement en cas de Syphilis récente",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez en consultation une patiente pour une lésion cutanée de la face postérieure du mollet gauche, apparue depuis plusieurs jours et qui s’est étendue progressivement suite à une piqûre de Tiques. Vous suspectez une Borreliose de Lyme au stade primaire.\nRéalisez-vous des examens complémentaires avant d’initier le traitement antibiotique et si oui lesquels",
+          "choix": [
+            "A) Sérologie Borreliose de Lyme par test ELISA",
+            "B) Sérologie Borreliose de Lyme par Western blot",
+            "C) PCR Borrelia sur biopsie cutanée",
+            "D) Ecouvillon bactériologique cutané pour culture et antibiogramme",
+            "E) Aucun examen complémentaire"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "le diagnostic est purement clinique au stade primaire. La séroconversion est parfois retardée avec des faux négatifs à ce stade et ne doit donc pas être réalisée",
+          "order": 4,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2025/q4.png?v=1786296982355"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous prenez en charge en hospitalisation depuis 48 heures un homme de 24 ans d’origine malienne pour une tuberculose neuro-méningée inaugurale d’une infection par le VIH stade SIDA. Il est arrivé en France depuis 3 semaines et est en situation irrégulière sur le territoire. Vous appelez le travailleur social de votre service pour connaitre les modalités possibles d’accès aux soins de votre patient. Quel dispositif lui est accessible à court terme dans le contexte de ce patient ?",
+          "choix": [],
+          "reponses": [
+            "Dispositif Soins Urgents et vitaux",
+            "DSUV",
+            "SUV",
+            "Dispositif SUV",
+            "dispositif soins urgent",
+            "dispositifs de soins urgents",
+            "dispositif soins des urgences vitales",
+            "dispositif de soins pour urgence vitale (DSUV)",
+            "Dispositifs de soins urgents",
+            "Dispositif de soins urgents et vitaux"
+          ],
+          "correctionExplanation": "Individu en France depuis moins de 3 mois : pas d’AME possible, mais seulement le DSUV si « soins urgents dont l’absence mettrait en jeu le pronostic vital et pourrait conduire à une altération grave et durable de l’état de santé de la personne ou de l’enfant à naitre ; ou soins destinés à éviter la propagation d'une maladie à l'entourage ou à la collectivité ».",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous vous apprêtez à prescrire un traitement antibiotique d’une tuberculose pulmonaire chez une femme de 24 ans hospitalisée depuis 1 semaine dans le service pour une altération fébrile de l’état général associé à une toux et à des infiltrats apicaux. Elle est enceinte de 16 semaines d’aménorrhée. Elle ne présente pas de signe de gravité, est séronégative pour le VIH et a un bilan rénal, hépatique et ophtalmologique normal. Le bacille identifié ne présente pas de résistance génotypique à la rifampicine, l’antibiogramme phénotypique étant en cours. Quelles vont être les modalités du traitement dans ce contexte (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Trithérapie Rifampicine-Isoniazide-Ethambutol sans pyrazinamide",
+            "B) Supplémentation en vitamine B6",
+            "C) Administration à jeun 1 heure avant le repas",
+            "D) Administration par voie intraveineuse",
+            "E) Traitement par corticothérapie associée"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "Pas de CI PZA du fait de la grossesse : 4T standard sauf autre limite d’utilisation.\nAdministration en 1 prise 1 fois par jour 1h avant / 2 h après le repas.\nSupplémentation en vitamine B6 surtout si dénutrition, et vitamine K à l’approche du terme\nPas d’indication à la corticothérapie (TB neuro-méningée, péricardique, compressive).",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez en consultation une femme de 19 ans. Elle est G0 P0. Elle est suivie en gynécologie pour une endométriose. La date de ses dernières règles remonte à 2 semaines. Elle présente depuis 48 heures des leucorrhées qui la font consulter aujourd’hui. Quels éléments cliniques plaideraient pour une infection génitale haute (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Caractère verdâtre des leucorrhées",
+            "B) Présence d’un œdème vulvaire au toucher vaginal",
+            "C) Existence d’une douleur à la mobilisation du col utérin",
+            "D) Existence de métrorragies",
+            "E) Rapports non protégés dans les 2 semaines précédant le début des symptômes"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Basse Haute\nDistinguer IGB et IGH +++\nVaginite Cervicite Salpingite Endométrite\nFièvre Oui d’intensité variable, parfois\nNon\nDouleurs pelviennes pauci-symptomatique\nLeucorrhées pathologiques Oui +/- métrorragies\nPrurit ou brulures œdème vulvaires Oui Non\nTV Inflammation vaginale Non\nInflammation cervicale Non Oui Endocol\nEcoulement col utérin Oui\nDouleur mobilisation Non\nOui\nutérine\nGonocoque et Chlamydia\nCandidose, VaginoseIdem + Gonocoque Streptocoques, Anaerobies,\nCause\nTrichomonose Et Chlamydia Entérobactéries\nFréquemment polymicrobien\nIGH compliquées: abcès tubo-ovarien, péritonite, bactériémie\nComplications\nSd de Fitz-Hugh-Curtis\nInfertilité, GEU, torsion annexielle",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296983818-c21d834a0c3dd8",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Un patient de 55 ans, originaire de Côte d’Ivoire, en France depuis 5 ans, est hospitalisé aux urgences pour la survenue d’une hémiparésie gauche et de céphalées, d’installation progressive au cours des 3-4 derniers jours. Il est fébrile à 38,5°C. Il rapporte une asthénie et une perte de 8 kg au cours du dernier mois avec une tendance à des selles diarrhéiques, non glairo-sanglantes, 2 à 3 fois par jour. A l’examen, on note une micropolyadénopathie.\nVous avez fait un scanner cérébral qui montre les images suivantes (A : sans injection de produit de contraste ; B : avec produit de contraste)",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic évoquez-vous en priorité pour expliquer les troubles neurologiques de ce patient ?",
+          "choix": [],
+          "reponses": [
+            "Neuro-toxoplasmose",
+            "Neurotoxoplasmose",
+            "Toxoplasmose cérébrale",
+            "Abcès toxoplasmique",
+            "Méningo-encéphalite toxoplasmique",
+            "Méningoencéphalite toxoplasmique",
+            "toxoplasmose",
+            "toxoplasmose cerebrale",
+            "Toxoplasmose",
+            "toxoplasmose neuroméningée",
+            "Infection opportuniste par toxoplasmose cérébrale dans le cadre d'un VIH",
+            "toxoplamose",
+            "Toxoplasmose neuro-méningée",
+            "toxoplasmose cérebrale",
+            "Toxoplasme cérébrale",
+            "toxoplasmose neurologique",
+            "toxoplasmose cérébral",
+            "toxoplasmose neuromeningée",
+            "Toxoplasmose compliquant une infection à VIH"
+          ],
+          "correctionExplanation": "Abcès cérébral seul, sans Toxoplasmose = réponse refusée\nRemarque : Argument de fréquence : IO neurologique la plus fréquente à évoquer en 1re intention. Diagnostics différentiels moins probables : lymphome cérébral, tuberculome, abcès à pyogène",
+          "order": 1,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2025/q8.png?v=1786296984160"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez évoqué une neuro-toxoplamose.\nQuel examen complémentaire prescrivez-vous pour étayer ce diagnostic chez ce patient ? (une seule réponse)",
+          "choix": [
+            "A) PCR Toxoplasmose dans le sang",
+            "B) PCR Toxoplasmose dans le LCR",
+            "C) Sérologie Toxoplamose IgM dans le sang",
+            "D) Sérologie Toxoplamose IgG dans le sang",
+            "E) Index de synthèse intrathécale (production locale) des IgG anti-Toxoplasma dans le LCR vs. sang"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "PL contre-indiquée chez ce patient car effet de masse. Une sérologie IgG anti-Toxoplasma positive dans le sang témoigne d’une exposition préexistante au parasite, la neurotoxoplasmose au cours de l’infection VIH étant une maladie de réactivation secondaire à l’immunodépression.",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) traitement(s) étiologique(s) pouvez-vous utiliser ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Sulfaméthoxazole/Trimethoprime (cotrimoxazole) IV",
+            "B) Pentamidine IV",
+            "C) Clindamycine IV",
+            "D) Pyriméthamine + Sulfadiazine per os",
+            "E) Atovaquone per os"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "Le cotrimoxazole IV ou l’association orale Pyriméthamine + Sulfadiazine per os sont les traitements de 1re intention. La voie IV est préférée si troubles de la vigilance/troubles de la déglutition, fréquents dans ce contexte, mais les deux sont utilisables chez ce patient. La clindamycine est utilisée en association avec la Pyriméthamine si allergie aux sulfamides. L’atovaquone peut être utilisée en alternative en prophylaxie secondaire, en cas allergie aux sulfamides, mais pas en traitement d’attaque.",
+          "order": 3
+        },
+        {
+          "id": 11,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous avez débuté un traitement par Sulfaméthoxazole/ Trimethoprime (cotrimoxazole). Quels sont les 2 examens biologiques nécessaires à la surveillance du traitement ?",
+          "choix": [
+            "A) Hémogramme",
+            "B) Immunophénotypage des lymphocytes T CD3/CD4/CD8",
+            "C) Ionogramme sanguin/créatininémie",
+            "D) Evolution du titre des IgG anti-Toxoplasma dans le sang",
+            "E) Négativation de la PCR Toxoplasma dans le LCR"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "L’association Sulfaméthoxazole/ Trimethoprime a principalement une toxicité hématologique et une toxicité néphrologique (hyperkaliémie, insuffisance rénale)",
+          "order": 4
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez évoqué une infection par le VIH sous-jacente. Vous avez effectué une sérologie de dépistage par test ELISA qui est positive pour VIH-1. Quel examen n’est pas utile dans le bilan virologique initial chez ce patient ? (une seule réponse)",
+          "choix": [
+            "A) 2e sérologie VIH par test ELISA",
+            "B) Western-blot VIH",
+            "C) RT-PCR ARN VIH-1 plasmatique",
+            "D) PCR ADN proviral VIH-1",
+            "E) Génotypage de résistance du VIH dans les gènes de la transcriptase inverse, protéase et intégrase"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "La confirmation du diagnostic nécessite deux tests ELISA et un western blot VIH, réalisés sur 2 prélèvements distincts (pour écarter une erreur d’identité). La RT-PCR ARN VIH (charge virale) permet de quantifier le niveau de virémie initial. Le génotypage recherche une résistance aux antirétroviraux. L’ADN proviral n’est pas nécessaire pour le diagnostic, sauf cas particuliers (infection néo-natale, infection « décapitée » par antirétroviraux, PrEP notamment)",
+          "order": 5
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’infection VIH-1 est confirmée. Le nombre de lymphocytes T CD4+ sanguins est de 50 cellules/mm3. Quels examens prescrivez-vous pour compléter le bilan initial de cette infection VIH ? (une ou plusieurs réponses possibles)",
+          "choix": [
+            "A) Sérologies VHB et VHC",
+            "B) Sérologie CMV",
+            "C) Sérologie Chlamydia trachomatis",
+            "D) Interferon Gamma-Release Assay BK (Quantiferon TB)",
+            "E) Antigène Cryptocoque circulant"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Les sérologies VHB et VHC sont systématiques pour détecter une co-infection ; La sérologie CMV et la recherche d’antigène Cryptocoque circulants sont indiqués du fait de la lymphopénie CD4 <100/mm3 chez ce patient. Le test IGRA BK est indiqué du fait de l’origine du patient de zone d’endémie tuberculeuse. La sérologie Chlamydia trachomatis n’a pas d’intérêt, le dépistage repose sur la PCR sur 1er jet urinaire et/ou écouvillon anal et pharyngé selon les pratiques sexuelles.",
+          "order": 6
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La sérologie VHB est la suivante : Ag HBs+, Ac anti-HBs-, Ac anti-HBc+ Quelle est votre interprétation ? (une seule réponse)",
+          "choix": [
+            "A) Absence d’immunité",
+            "B) Immunité post-infectieuse",
+            "C) Immunité post-vaccinale",
+            "D) Hépatite B chronique",
+            "E) Hépatite B occulte"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "une hépatite B occulte est définie par une PCR ADN VHB positive en présence d’Ac anti-HBc + isolés, avec un Ag HBs négatif",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296986894-6478b8c15dcaa8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Une femme de 18 ans se présente en consultation de médecine générale parce qu’elle présente depuis 24 heures des douleurs abdominales diffuses associées à de la diarrhée avec 5 selles par jour. Elle n’a pas d’antécédent médical et ne prend aucun traitement. Pas de voyage dans les 6 derniers mois. Elle a eu 2 pics fébriles à 38,5°C. Les selles sont fécales, peu abondantes, molles ou liquides, et ne présentent ni sang ni glaire. Il n’y a pas de ténesme ni d’épreinte, ni de vomissement. L’examen physique est normal en dehors d’un abdomen sensible sans défense.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant ce tableau clinique de diarrhée aigue, quel diagnostic syndromique faite vous (un seul mot) ?",
+          "choix": [],
+          "reponses": [
+            "Gastroentéritique",
+            "Gastro-entéritique",
+            "Gastroentérite",
+            "gastroentérique",
+            "gastroenterique",
+            "gastro-enteritique",
+            "gastroenteritique",
+            "gastro-entérique",
+            "gastroenterite",
+            "gastro-entérite",
+            "gastro-enterique",
+            "syndrome gastro entéritique",
+            "syndrome gastro enteritique",
+            "syndrome gastroentéritique",
+            "syndrome gastro-enteritique",
+            "syndrome gastro-entéritique",
+            "gastro-enterite",
+            "syndrome gastroentérique",
+            "gastro enteritique",
+            "Syndrome gastro entéritique",
+            "gastoentérite",
+            "gastoenterique",
+            "gastro enterite",
+            "gastro-enterologique",
+            "Gastroenterique",
+            "syndrome gastroenterique",
+            "syndrome gastro-enterique",
+            "Syndrome gastro-entéritique",
+            "syndrome gastro enterique",
+            "gastro entérique",
+            "Gastro-entérique",
+            "Gastroentérique",
+            "Syndrôme gastro entéritique"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous vous orientez vers un syndrome gastroentéritique. Quels sont les microbes les plus souvent responsables de ce tableau clinique (4 réponses correctes)",
+          "choix": [
+            "A) 1. Rotavirus",
+            "B) 2. Campylobacter",
+            "C) 3. Salmonellose (mineures)",
+            "D) 4. Staphylococcus aureus",
+            "E) 5. Shigellose",
+            "F) 6. E. coli entéro-toxinogène",
+            "G) 7. Choléra",
+            "H) 8. Yersinia",
+            "I) 9. Entamoeba histolytica",
+            "J) 10. E. coli entéro-pathogène",
+            "K) 11. Bacillus cereus",
+            "L) 12. E. coli entéro-hémorragique",
+            "M) 13. Giardia duodenalis"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "H",
+            "J"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Si vous deviez lui prescrire une antibiothérapie, laquelle privilégieriez-vous ?",
+          "choix": [
+            "A) Amoxicilline",
+            "B) Fidaxomicine",
+            "C) Azithromycine",
+            "D) Levofloxacine",
+            "E) Cotrimoxazole"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296989180-47552598f9fd98",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un homme de 45 ans est hospitalisé en septembre 2025 pour une pneumopathie aigue communautaire non documentée d’évolution favorable. Il est diabétique sous metformine et porteur d’une BPCO liée à un tabagisme actif. Il est par ailleurs depuis 2 ans sous Rituximab pour une polyarthrite rhumatoïde bien contrôlée. Vous abordez avec lui l’état de sa couverture vaccinale. Il n’a pas de carnet de vaccination et n’a pas de notion d’avoir reçu une vaccination depuis ses 25 ans, en dehors de la vaccination contre le SARSCoV2 en 2021/2022.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les vaccins suivants quelle vaccination du calendrier vaccinal de la population générale pourrait être proposé du fait de son âge (une seule réponse) ?",
+          "choix": [
+            "A) Pneumocoque",
+            "B) Zona",
+            "C) Grippe saisonnière",
+            "D) Haemophilus influenza",
+            "E) Diphtérie-Tétanos-Polio-Coqueluche"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "Distinguer les vaccinations du calendrier général se basant sur l’âge des vaccinations spécifiques aux populations particulières du fait de leur terrain (antécédents et expositions).",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Il pourrait se voir proposer un rappel de vaccin Diphtérie-Tétanos-Polio-Coqueluche du fait de son âge. Quels sont les 3 vaccins à lui proposer du fait de son terrain ?",
+          "choix": [
+            "A) Varicelle",
+            "B) Zona",
+            "C) Grippe saisonnière",
+            "D) Méningocoque B",
+            "E) Pneumocoque"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "Patient immunodéprimé = indication de vaccination Pneumocoque, grippe, Zona (mais pas méningocoque sauf cas particuliers d’immunodépression).\nPatient insuffisant respiratoire chronique = Pneumocoque, grippe\nVaccin varicelle non indiqué et contre-indiqué du fait de l’immunodépression",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous lui proposez de le vacciner contre le pneumocoque. Selon quelle modalité ?",
+          "choix": [
+            "A) 1 injection de vaccin conjugué 13 valences",
+            "B) 1 injection de vaccin polysaccharidique non conjugué 23 valences",
+            "C) 1 injection de vaccin polysaccharidique conjugué 20 valences",
+            "D) 1 injection de vaccin polysaccharidique conjugué 13 valences suivie 2 mois après d’1 injection de vaccin polysaccharidique non conjugué 23 valences",
+            "E) 1 injection de vaccin polysaccharidique non conjugué 20 valences"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "Mise à jour 2024 des recommandations vaccinales pneumocoque de l’adulte à risque d’infection invasive à pneumocoque :",
+          "order": 3,
+          "images": [
+            "/images/qcm/maladies-transmissibles-s8/2025/q20.png?v=1786296989960"
+          ]
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont en général les indications de vaccination contre le pneumocoque (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Patient âgé de 65 ans et plus",
+            "B) Patient porteur d’un implant cochléaire",
+            "C) Patient diabétique sous metformine",
+            "D) Patient porteur d’une insuffisance cardiaque",
+            "E) Professionnel de santé"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "Nouvelle recommandation 2025 de vaccination sur le critère d’âge.\nEtre professionnel de santé est une indication de vaccination contre la grippe saisonnière mais pas contre le pneumocoque, sauf indication liée à l’état de santé du professionnel de santé.",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous prescrivez les vaccins Diphtérie-Tétanos-Polio-Coqueluche, et pneumocoque. Quelles sont concernant les modalités de réalisation de ces vaccins les 4 propositions correctes ?",
+          "choix": [
+            "A) Réalisation par voie intradermique",
+            "B) Réalisation possible par le pharmacien d’officine",
+            "C) Surveillance pendant 20’ au décours de la vaccination",
+            "D) Notification de la vaccination dans le carnet de vaccination",
+            "E) Réalisation des injections le même jour sur des sites différents"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "Vaccination au niveau du deltoïde, voie IM ou SC (sauf BCG intradermique) sans purger la seringue\nInjection simultanée en site différent\nVVA: simultané ou délai 1 mois\nSurveillance 20’ au décours\nRemplir le carnet de santé ou de vaccination +++\nConsigner marque / numéro de lot\nInformer du risque d’EI bénins\nDéclarer effets indésirables au centre de pharmacovigilance",
+          "order": 5
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Si ce patient avait été asplénique, quelles vaccinations faudrait-il lui conseiller (une ou plusieurs réponses possibles) ?",
+          "choix": [
+            "A) Papillomavirus",
+            "B) Haemophilus influenza b",
+            "C) Méningocoque B",
+            "D) Méningocoque ACYW135",
+            "E) Grippe saisonnière"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "Patient asplénique = risque d’infection invasive avec des bactéries encapsulées (pneumocoque, méningocoque et Haemophilus influenzae capsulé b).\nLa vaccination contre la grippe est indiquée car en réduisant le risque de grippe, elle réduit le risque de surinfection bactérienne post grippale.",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

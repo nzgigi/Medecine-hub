@@ -1,0 +1,341 @@
+{
+  "matiere": "Formation générale à la recherche",
+  "slug": "formation-generale-a-la-recherche-s7",
+  "annee": 2026,
+  "title": "Formation générale à la recherche - 2026",
+  "total_questions": 16,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Lisez l’article suivant :\nWeeks et al. Varenicline and Nicotine Replacement Therapy for Smokers Admitted to Hospitals: A Randomized Clinical Trial. JAMA Network Open. 2024;7(6):e2418120.\nEt répondez aux questions suivantes\nNous utiliserons le terme pastilles de nicotine pour nicotine replacement therapy lozenges\nOuvrir le fichier PDF dans un nouvel onglet",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le rationnel de l’étude, quelles sont les propositions exactes (une ou plusieurs propositions) :",
+          "choix": [
+            "A) L’efficacité pour l’abstinence tabagique des pastilles de nicotine en association à la varénicline n’a fait l’objet d’aucune étude randomisée",
+            "B) L’hospitalisation est une période propice pour initier un arrêt du tabagisme",
+            "C) La varénicline est un agoniste partiel des récepteurs muscariniques à l’acétylcholine ayant un intérêt dans le sevrage tabagique",
+            "D) Une méta-analyse a démontré l’efficacité de l’association entre varénicline et patchs de nicotine sur l’abstinence tabagique à court et long terme",
+            "E) Compte tenu de la pharmacocinétique attendue de la nicotine contenue dans les pastilles en comparaison de celle du patch, il est attendu un meilleur effet sur le craving"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "–Concernant les critères d’inclusion et de non inclusion quelles sont les propositions exactes (une ou plusieurs propositions) :",
+          "choix": [
+            "A) Les patients traités auparavant par varénicline et pastilles de nicotine pouvaient être inclus",
+            "B) Un tabagisme depuis plus de 10 ans était un critère d’inclusion",
+            "C) Le questionnaire utilisé pour recueillir la motivation pour l’arrêt du tabac n’était pas précisé",
+            "D) Les patients atteints de dépression pris en charge par antidépresseur au long cours ont été inclus dans l’étude",
+            "E) La présence d’un évènement cardiovasculaire récent était un critère de non inclusion"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les objectifs de la randomisation, quelles sont les propositions exactes (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Elle vise à constituer deux groupes dont les caractéristiques sont comparables.",
+            "B) Elle vise à s’affranchir du biais d’attrition.",
+            "C) Elle vise à s’affranchir du biais de sélection.",
+            "D) L’allocation du traitement doit être imprévisible.",
+            "E) Elle conduit à une allocation du traitement indépendamment des caractéristiques des patients."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les caractéristiques de la randomisation, quelles sont les propositions exactes (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) La liste de randomisation était établie à l’aide d’enveloppes scellées opaques.",
+            "B) L’allocation du traitement se faisait à l’aide d’un système informatique.",
+            "C) Une liste de randomisation était établie par centre.",
+            "D) La randomisation était équilibrée (1 : 1) entre les deux groupes.",
+            "E) La randomisation était individuelle."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’insu, quelles sont les propositions exactes (une ou plusieurs propositions attendues) ?",
+          "choix": [
+            "A) L’inclusion de patients ayant déjà consommé des pastilles de nicotine pouvait conduire à une levée d’insu pour le patient.",
+            "B) Les pharmaciens délivrant les médicaments expérimentaux étaient en ouvert.",
+            "C) Les pastilles de placebo et de nicotine doivent être indiscernables.",
+            "D) Un placebo de varénicline aurait été nécessaire.",
+            "E) Il permet de minimiser l’impact d’un biais de mesure de l’exposition."
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le suivi des patients de l’étude, quelles sont les propositions exactes (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) La stratégie de prise du traitement expérimental et le suivi des patients étaient standardisés et uniformes pour tous les patients.",
+            "B) La participation au programme de soutien Quitline support était obligatoire.",
+            "C) Les visites de suivi de l’étude permettant de mesurer les critères de jugement avaient lieu à 3, 6 et 12 mois.",
+            "D) La pandémie de COVID-19 a entraîné l’arrêt du suivi des participants dans l’étude.",
+            "E) L’adhérence aux médicaments expérimentaux étaient mesurée par retour des unités de traitement à la pharmacie."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le critère de jugement principal de l’étude, quelles sont les propositions exactes (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Il s’agissait d’un critère intermédiaire.",
+            "B) Il s’agit d’un critère de substitution.",
+            "C) Il s’agit d’un critère composite.",
+            "D) La confirmation de l’abstinence par un test biochimique (test au monoxyde de carbone) visait à éviter un biais de mesure de l’évènement.",
+            "E) Il s’agit d’un critère de jugement validé."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le calcul de la taille de l’échantillon, quelles sont les propositions exactes (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Le calcul repose sur une hypothèse de différence absolue d’efficacité sur l’abstinence entre les deux groupes de 15%.",
+            "B) Le calcul repose sur des hypothèses d’efficacité sur l’abstinence mesurées au-delà de 6 mois.",
+            "C) Le risque de deuxième espèce était de 5%.",
+            "D) La puissance était de 80%.",
+            "E) L’attrition attendue dans cette population de patients aurait dû être prise en compte."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les analyses statistiques, quelles sont les propositions exactes (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) L’analyse principale a été faite dans la population per protocole.",
+            "B) L’analyse principale a été faite chez tous les patients randomisés à l’exception des patients décédés.",
+            "C) L’analyse en intention de traiter oblige à imputer les données manquantes.",
+            "D) La méthode du pire scénario (échec dans le groupe expérimental et succès dans le groupe contrôle) a été utilisé pour remplacer les données manquantes.",
+            "E) L’analyse principale a été conduite à l’aide d’une régression logistique."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats de cette étude, quelles sont les propositions exactes (une ou plusieurs propositions attendues) :",
+          "choix": [
+            "A) Seulement un tiers des patients a complété le traitement de 12 semaines par varénicline et pris au moins une pastille de nicotine.",
+            "B) L’association varénicline et pastilles de nicotine a démontré son efficacité en comparaison de la varénicline seule dans cet essai clinique.",
+            "C) Le taux d’abstinence autodéclarée à 6 mois était significativement supérieur dans le groupe intervention en comparaison au placebo.",
+            "D) Il n’est pas possible de conclure sur le profil d’effets indésirables compte tenu de l’absence de test statistique.",
+            "E) L’analyse en per protocole du critère de jugement principal est la plus pertinente pour conclure quant à l’efficacité de l’intervention."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les limites de cette étude, quelles sont les propositions exactes (une ou plusieurs propositions) :",
+          "choix": [
+            "A) La réalisation de nombreux tests statistiques réalisés sans correction de l’inflation du risque alpha conduit à un risque de faux négatifs.",
+            "B) La participation au programme de soutien Quitline n’a pas été prise en compte dans l’analyse ce qui constitue une limite",
+            "C) Compte tenu de l’absence de tests statistiques pour comparer les caractéristiques des patients inclus dans les deux groupes (tableau 1), on ne peut pas exclure la présence d’un biais de confusion",
+            "D) Il n’est pas possible d’exclure la présence d’un biais de causalité inverse",
+            "E) Etant donné que la proportion de patients perdus de vue à 6 mois était comparable dans les deux groupes (autour de 20%), le risque de biais d’attrition est négligeable."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’interprétation et la généralisation des résultats de cette étude, quelles sont les propositions exactes (une ou plusieurs propositions) :",
+          "choix": [
+            "A) Selon la Haute Autorité de Santé, compte tenu la place des substituts nicotiniques en première intention de la prise en charge du sevrage tabagique, les résultats de cette étude sont difficilement transposables à la pratique française.",
+            "B) Les résultats de cette étude sont « négatifs » et doivent être complétés par d’autres études afin d’établir l’efficacité de l’association varénicline et pastilles de nicotine",
+            "C) Du fait de la pandémie de COVID-19, le critère de jugement principal prédéfini (confirmation biochimique de l’abstinence autodéclarée) n’était pas le plus pertinent et il est donc légitime de conclure à l’efficacité de l’association sur les critères de jugement secondaire qui sont « positifs »",
+            "D) L’initiation en contexte hospitalier limite la transposabilité des résultats de l’étude",
+            "E) Compte tenu de l’impact majeur de santé publique du tabagisme, il n’est pas nécessaire de conduire des études randomisées pour démonter l’efficacité des interventions."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395695530-0854427a8bfa58",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la cure thermale en rhumatologie, quelle(s) affirmation(s) est/sont exacte(s) ?",
+          "choix": [
+            "A) Elle concerne environ 2/3 des curistes.",
+            "B) Elle est validée via des essais cliniques pour le traitement de l’arthrose.",
+            "C) Elle est contre-indiquée en cas de rhumatisme inflammatoire stable.",
+            "D) Elle permet de réduire la consommation d’AINS.",
+            "E) La goutte est une indication reconnue."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des conflits d’intérêts, la ou les proposition(s) suivante(s) est(sont) vrai(e):",
+          "choix": [
+            "A) Un conflit d’intérêt se définit une situation d’interférence entre un intérêt public et des intérêts publics ou privés de nature à influencer l’exercice indépendant, objectif et impartial d’une fonction",
+            "B) La publicité directe d’un médicament remboursable auprès du grand public est permise en France.",
+            "C) Le fait de tisser des liens avec plusieurs firmes pharmaceutiques permet de ne pas être influencé",
+            "D) La loi oblige les visiteurs médicaux à déclarer les effets indésirables médicamenteux.",
+            "E) Les firmes pharmaceutiques peuvent influencer indirectement la prescription médicamenteuse dans les hôpitaux en attribuant des remises financières aux pharmacies hospitalières"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les mesures mises en place en France pour encadrer les conflits d’intérêts dans le domaine médical ?",
+          "choix": [
+            "A) La déclaration publique des liens d’intérêts (transparence santé).",
+            "B) L’interdiction totale de tout lien entre médecin et industrie pharmaceutique.",
+            "C) La possibilité pour les patients de consulter les liens d’intérêts de leur médecin.",
+            "D) L’obligation de mentionner les financements dans les publications scientifiques.",
+            "E) L’interdiction pour les médecins hospitaliers de participer à des recherches cliniques."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle information devriez-vous systématiquement demander à un visiteur médical qui présente un nouveau médicament lors d’une visite médicale :",
+          "choix": [
+            "A) Les effets indésirables rapportés lors des essais cliniques",
+            "B) Le SMR",
+            "C) L’ASMR",
+            "D) La tarification hospitalière",
+            "E) L’inscription sur la liste des médicaments remboursables"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

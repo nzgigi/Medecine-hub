@@ -1,0 +1,269 @@
+{
+  "matiere": "Hormonologie et reproduction – Nutrition",
+  "slug": "hr-nutrition-s5",
+  "annee": 2026,
+  "title": "Hormonologie et reproduction – Nutrition - 2026",
+  "total_questions": 12,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Madame C., 32 ans, se présente en consultation de médecine générale pour « faire le point » sur son poids.\nElle rapporte une prise de poids progressive depuis 5 ans, avec des épisodes de « compulsions alimentaires » plusieurs fois par semaine.\nElle décrit ces épisodes comme des moments où elle mange rapidement, seule, de grandes quantités d’aliments, souvent gras et sucrés, sans pouvoir s’arrêter, suivis d’un sentiment de culpabilité intense.\nElle nie tout comportement compensatoire (vomissements, laxatifs, jeûne prolongé).\nElle n’a pas d’antécédents notables\nHabitudes de vie : Repas souvent pris sur le pouce ou devant un écran, Activité physique très faible, Sommeil irrégulier (travail de nuit), Stress professionnel important\nDonnées cliniques :Taille : 1,65 m, Poids : 93 kg, IMC : 34,2 kg/m²\nTour de taille : 103 cm, Tension artérielle : 135/85 mmHg\nAcanthosis nigricans au niveau du cou, pas d’oedème des membres inférieurs",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Comment vous qualifiez l’état nutritionnel de Me C. ?",
+          "choix": [
+            "A) Obésité de grade I",
+            "B) Surpoids",
+            "C) Obésité de grade II non compliquée",
+            "D) Répartition gynoïde du tissu adipeux",
+            "E) Aucune de ces propositions"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les complications possibles de l’obésité incluent (donner les réponses exactes):",
+          "choix": [
+            "A) Diabète de type 2",
+            "B) Hypertension artérielle",
+            "C) Syndrome d’apnées du sommeil",
+            "D) Ostéoporose",
+            "E) Dyslipidémie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les signes orientant vers un trouble du comportement alimentaire de type hyperphagie boulimique sont :",
+          "choix": [
+            "A) Absence de comportements compensatoires",
+            "B) Prise de poids importantes ces derniers temps",
+            "C) Sentiment de perte de contrôle pendant les crises",
+            "D) Culpabilité après les épisodes compulsifs",
+            "E) Absence de grignotages entre les crises"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels bilans complémentaires sont pertinents dans le cadre du bilan de retentissement de l’obésité ?",
+          "choix": [
+            "A) Glycémie à jeun",
+            "B) Bilan lipidique",
+            "C) Chlorémie",
+            "D) crp",
+            "E) Bilan hépatique comprenant les transaminases, et les gammaGT"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la physiopathologie de l’obésité, quelles affirmations sont exactes ?",
+          "choix": [
+            "A) L’obésité est en lien avec un déséquilibre entre apports caloriques et dépenses énergétiques",
+            "B) Des facteurs génétiques et environnementaux interviennent",
+            "C) L’insulinorésistance est un facteur de résistance à la perte de poids",
+            "D) Le stress et le manque de sommeil peuvent aggraver l’obésité",
+            "E) L’obésité est uniquement d’origine comportementale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments sont pertinents dans la prise en charge de Mme C. ?",
+          "choix": [
+            "A) Prescription d’un régime restrictif très hypocalorique",
+            "B) Rééquilibrage alimentaire progressif",
+            "C) Activité physique adaptée",
+            "D) Mise en place d'un suivi psychologique pour le trouble alimentaire",
+            "E) Suivi médical régulier pour accompagner les changements"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786395833895-83a6856d6a1ff",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Madame L., 58 ans, est admise en consultation de médecine interne pour un suivi nutritionnel.\nElle rapporte depuis plusieurs mois une grande fatigue, une perte d’appétit et une perte de poids non intentionnelle.\nElle vit seule depuis le décès de son mari il y a 2 ans. Elle cuisine peu et se nourrit essentiellement de plats préparés et de biscuits.\nElle a des antécédents d’hypertension artérielle et d’arthrose du genou droit.\nTraitement habituel : Ramipril 5 mg/j et paracétamol à la demande.\nDonnées cliniques :\nTaille : 1,62 m, Poids : 48 kg (poids habituel il y a 6 mois : 55 kg), IMC : 18,3 kg/m²\nMasse musculaire réduite en apparence\nPeau sèche, cheveux cassants, ongles fragiles\nMuqueuses pâles, langue lisse et rouge\nPression artérielle : 130/80 mmHg\nPas d’œdèmes\nDonnées biologiques :\nAlbuminémie : 30 g/L (N : 35–50), Hémoglobine : 10,5 g/dL (N : 12–16), VGM : 105 fL (macrocytose), Ferritine : normale, Vitamine B12 : basse, Folates : normaux, Vitamine D : basse, Glycémie à jeun : normale",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles sont des signes cliniques de dénutrition chez Mme L. ? (Plusieurs réponses possibles)",
+          "choix": [
+            "A) IMC à 18,3 kg/m²",
+            "B) Pli cutané marqué",
+            "C) Pli cutané marqué",
+            "D) Peau sèche, cheveux cassants",
+            "E) Œdèmes des membres inférieurs"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la carence en vitamine B12, quelles affirmations sont exactes ?",
+          "choix": [
+            "A) Elle entraîne une anémie microcytaire",
+            "B) Elle peut être responsable d’une langue lisse et rouge",
+            "C) Elle est souvent liée à un régime pauvre en produits d'origine animale",
+            "D) Elle s’accompagne d’un VGM élevé",
+            "E) Elle se corrige rapidement après supplémentation orale"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les complications possibles de la dénutrition, on retrouve :",
+          "choix": [
+            "A) Un risque infectieux accru",
+            "B) Un retard de cicatrisation",
+            "C) Une hypotension",
+            "D) Une hyperglycémie",
+            "E) Une fonte musculaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels mécanismes peuvent expliquer la dénutrition chez Mme L. ?\n(Plusieurs réponses possibles)",
+          "choix": [
+            "A) Diminution des apports alimentaires liée à l’isolement",
+            "B) Excès d’apports en glucides complexes",
+            "C) Anorexie réactionnelle au deuil",
+            "D) Hypercatabolisme lié à une infection aiguë",
+            "E) Carences en micronutriments aggravant la fatigue"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) est (sont) la (les) cause(s) possible(s) d’une carence en vitamine D ?",
+          "choix": [
+            "A) Régime végétarien strict",
+            "B) Maladie de Biermer (déficit en facteur intrinsèque)",
+            "C) Résection iléale ou malabsorption",
+            "D) Défaut d’exposition au soleil",
+            "E) Utilisation prolongée d’IPP ou de metformine"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles mesures complémentaires peuvent être proposées pour suivre l’état nutritionnel de Mme L. ?",
+          "choix": [
+            "A) Pesée régulière",
+            "B) Dosage de l’albumine et de la préalbumine",
+            "C) Mesure du tour de taille",
+            "D) Dosage de la CRP pour éliminer une cause inflammatoire",
+            "E) Dosage de la vitamine B12"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

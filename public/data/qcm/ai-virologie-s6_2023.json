@@ -1,0 +1,401 @@
+{
+  "matiere": "Agents infectieux – Virologie",
+  "slug": "ai-virologie-s6",
+  "annee": 2023,
+  "title": "Agents infectieux – Virologie - 2023",
+  "total_questions": 18,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 25 ans consulte pour une éruption vésiculeuse. Quelles sont les propositions vraies?",
+          "choix": [
+            "A) En cas d'éruption localisée vous évoquez le diagnostic d'infection par HSV (Herpès Simplex) ou EBV.",
+            "B) La varicelle se manifeste par une éruption vésiculeuse généralisée et se transmet par voie aérienne et cutanée.",
+            "C) Vous pouvez faire le diagnostic par PCR sur un écouvillonnage du liquide vésiculaire à la recherche d'HSV et VZV.",
+            "D) Vous l'interrogez sur ses vaccinations pour orienter votre diagnostic vers la varicelle.",
+            "E) Le valaciclovir est actif contre HSV et VZV."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un enfant de 7 ans est emmené à votre consultation pour une éruption maculo-papuleuse sur l'ensemble du corps. Quelles sont les réponses vraies ?",
+          "choix": [
+            "A) Les virus HSV ou VZV peuvent être responsables de cette éruption.",
+            "B) Si cet enfant a voyagé en zone tropicale, un arbovirus doit être recherché.",
+            "C) Vous évoquez une rubéole ou une rougeole et faites le diagnostic par PCR dans le sang.",
+            "D) Vous évoquez une rougeole étant donné qu'il n'est pas vacciné par le ROR.",
+            "E) Parmi les virus responsable de ce type d'éruption, on trouve les entérovirus, le parvovirus B19 et le virus de la rubéole."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "neutralized": [
+            "C"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du virus de la rougeole:",
+          "choix": [
+            "A) Il est responsable d'une éruption maculo-papuleuse.",
+            "B) Il est responsable d'une éruption vésiculeuse.",
+            "C) Il peut être responsable de complications neurologiques comme des encéphalites aiguës.",
+            "D) Il est responsable d'une maladie bégnine.",
+            "E) Il s'agit d'une maladie à déclaration obligatoire."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) virus peu(ven)t donner lieu à une réactivation en cas d'immunodépression:",
+          "choix": [
+            "A) HSV",
+            "B) CMV",
+            "C) Virus de l'hépatite B",
+            "D) Virus de l'hépatite C",
+            "E) Virus de l'hépatite E"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels virus peuvent être responsables de manifestations neurologiques?",
+          "choix": [
+            "A) HSV-1",
+            "B) Virus de l'hépatite E",
+            "C) Enterovirus",
+            "D) Arbovirus",
+            "E) Virus de la rage"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les conséquences d'une infection à Papillomavirus (HPV)?",
+          "choix": [
+            "A) L'infection par HPV peut se manifester par des condylomes au niveau génital ou des verrues cutanées.",
+            "B) L'infection congénitale se manifeste par une atteinte du larynx.",
+            "C) Les papillomavirus sont responsables de cancers du colon.",
+            "D) Le cancer génital le plus fréquemment associé à HPV est le cancer du col de l'utérus.",
+            "E) L'infection des cellules basales de certains épithéliums avec intégration de l'ADN viral peut induire des lésions visibles en cytologie."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "neutralized": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293890809-3497ee25c48198",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Le mercredi 30 Novembre 2022, vous voyez en consultation la petite Marie, âgée de 6 mois, car sa mère est inquiète. Sa fille présente depuis 48h une toux qui s'accompagne d'une respiration sifflante.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) agent(s) viral(aux) pourrai(en)t être responsable(s) de ce tableau clinique?",
+          "choix": [
+            "A) Virus de la grippe",
+            "B) Virus Respiratoire Syncitial",
+            "C) Metapneumovirus",
+            "D) SARS-CoV2",
+            "E) Parainfluenzavirus"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 8,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez une bronchiolite. Quel est l'agent viral le plus fréquemment responsable?",
+          "choix": [
+            "A) Virus de la grippe",
+            "B) Virus Respiratoire Syncitial",
+            "C) Rhinovirus",
+            "D) SARS-CoV2",
+            "E) Parainfluenzavirus"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) examen(s) pouvez-vous réaliser pour confirmer votre diagnostic?",
+          "choix": [
+            "A) Un test sérologique à la recherche des IgG dirigées contre le VRS",
+            "B) Un test sérologique à la recherche des IgM dirigées contre le VRS",
+            "C) Une PCR dans le sang pour rechercher l'ARN du VRS",
+            "D) Une PCR dans les sécrétions nasales pour rechercher l'ARN du VRS",
+            "E) Il n'existe pas d'outils diagnostiques"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de bronchiolite à VRS est confirmé. Parmi les affirmations suivantes, lesquelles sont exactes.",
+          "choix": [
+            "A) La bronchiolite à VRS n'est jamais grave.",
+            "B) La bronchiolite à VRS peut entrainer une détresse respiratoire chez le nourrisson.",
+            "C) La bronchiolite à VRS peut nécessiter une hospitalisation dans 2% des cas.",
+            "D) Le VRS peut être l'origine de manifestations non respiratoires comme des myocardites",
+            "E) Il existe un vaccin contre le VRS."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du virus de la grippe:",
+          "choix": [
+            "A) Il en existe 2 genres principaux: Influenza A et Influenza B",
+            "B) Le glissement antigénique correspond à des mutations majeures dans le génome pouvant conduire à des pandémies.",
+            "C) Le saut antigénique correspond à des mutations mineures dans le génome.",
+            "D) Le vaccin contre le virus de la grippe est divalent.",
+            "E) La vaccination est recommandée chez la femme enceinte"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du SARS-CoV2:",
+          "choix": [
+            "A) Il s'agit d'un virus nu à ARN simple brin de polarité positive",
+            "B) Il s'agit d'un virus enveloppé à ARN simple brin de polarité positive",
+            "C) Il s'agit d'un virus enveloppé à ADN",
+            "D) Il s'agit d'un virus nu à ADN",
+            "E) Il s'agit d'un virus quasi-enveloppé"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786293893510-4ae8b23e46e838",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Un femme enceinte de 12 semaines d'aménorrhée consulte pour la première fois et ne présente aucun symptôme. Dans ses antécédents, elle déclare ne pas avoir consulté de médecin depuis 10 ans ni effectué aucun dépistage.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les analyses virologiques recommandées ou obligatoires dans ce contexte ?",
+          "choix": [
+            "A) Les sérologies EBV et B19 sont recommandées en début de grossesse.",
+            "B) La recherche de l'ADN du virus de l'hépatite B est recommandée chez la femme enceinte.",
+            "C) Le dépistage du VIH doit être proposé en début de grossesse et le dépistage de la rubéole est obligatoire.",
+            "D) La recherche des anticorps anti-HBs est obligatoire pendant la grossesse",
+            "E) Le dépistage de l'infection par le virus de l'hépatite B par la recherche de l'antigène HBs est obligatoire pendant la grossesse."
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Le bilan de votre patiente montre les résultats suivants :\n- sérologie VIH positive avec immunoblot positif\n- antigène HBs positif\n- IgG rubéole positives\nQuels examens complémentaires devez-vous réaliser?",
+          "choix": [
+            "A) Une sérologie de l'hépatite C, les anticorps anti-HBs et une virémie VIH",
+            "B) Vous lui annoncez sa séropositivité pour le VIH et demandez les virémies VIH et VHB afin de la traiter rapidement.",
+            "C) Une sérologie de l'hépatite C, la recherche des anticorps anti-HBs et anti-HBc et un second dépistage du VIH",
+            "D) Un second dépistage de l'hépatite B et du VIH car il s'agit probablement d'une erreur d'identité",
+            "E) Une virémie VIH suffit pour la prise en charge de cette patiente."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L'infection par le VIH est confirmée. La charge virale du VIH-1 est de 25 000 copies/mL. Quelles sont les propositions vraies ?",
+          "choix": [
+            "A) Le risque de transmission du VIH à l'enfant est de 50%",
+            "B) Le risque de transmission est très fortement diminué si la mère est traitée efficacement par antirétroviraux",
+            "C) Les antirétroviraux sont toxiques et contre-indiqués pendant la grossesse. Ils sont administrés après l'accouchement.",
+            "D) Le risque de transmission du VIH est plus élevé au moment de l'accouchement qu'au premier trimestre de la grossesse.",
+            "E) L'objectif du traitement est d'obtenir une charge virale indétectable afin de ne pas contaminer l'enfant."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente est infectée par le virus de l'hépatite B. Quelles sont les propositions vraies?",
+          "choix": [
+            "A) Le virus de l'hépatite B peut être transmis par voie sanguine et sexuelle.",
+            "B) La contamination par le virus de l'hépatite B peut être prévenue par la vaccination du nouveau-né et l'injection d'immunoglobulines spécifiques.",
+            "C) L'hépatite B ne peut pas être traitée pendant la grossesse.",
+            "D) Le profil sérologique d'une hépatite B chronique est : antigène HBs positif, anticorps anti-HBc négatifs et anticorps anti-HBs positifs",
+            "E) Le diagnostic d'hépatite B aiguë est confirmé par un antigène HBe positif et une virémie HBV élevée."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les virus transmis in utero et leurs caractéristiques?",
+          "choix": [
+            "A) Le cytomégalovirus (CMV) est responsable de malformations fœtales.",
+            "B) L’Herpès Simpex (HSV) est responsable de mort fœtale in utéro.",
+            "C) Le parvovirus B19 est responsable d'anémie sévère du fœtus",
+            "D) Le virus de la rubéole provoque des embryopathies jusqu'à 12 semaines de grossesse.",
+            "E) Le risque d'infection congénitale à CMV est plus élevé en cas de primo-infection maternelle qu'en cas de réactivation du CMV."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Comment pouvez-vous diagnostiquer ces infections pendant la grossesse?",
+          "choix": [
+            "A) L'infection à CMV est diagnostiquée par une ponction de liquide amniotique dès que la virémie maternelle est confirmée.",
+            "B) En cas d'herpès récurrent, l'infection maternelle par HSV est diagnostiquée par une PCR dans le sang.",
+            "C) La rubéole maternelle est diagnostiquée par une séroconversion (sérologie devenant positive) pendant la grossesse.",
+            "D) La rubéole congénitale est diagnostiquée par une PCR rubéole dans le liquide amniotique ou le sang fœtal.",
+            "E) L'infection à papillomavirus est suspectée en cas de sérologie HPV positive."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,349 @@
+{
+  "matiere": "Système neurosensoriel – ORL, CMF et ophtalmologie",
+  "slug": "sns-orl-cmf-ophtalmologie-s5",
+  "annee": 2023,
+  "title": "Système neurosensoriel – ORL, CMF et ophtalmologie - 2023",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les symptômes laryngés :",
+          "choix": [
+            "A) La dysphagie est le premier symptôme",
+            "B) La dysarthrie est un signe d’atteinte laryngée",
+            "C) La dysphonie est une modification de la voix",
+            "D) Les fausses routes peuvent être un signe d’atteinte laryngée",
+            "E) L’otalgie est un signe de cancer laryngé"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une tumeur rhino-sinusienne peut donner les symptômes suivants :",
+          "choix": [
+            "A) Surdité légère",
+            "B) Epistaxis",
+            "C) Obstruction nasale",
+            "D) Otoliquorrhée",
+            "E) Trouble de la sensibilité de la joue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous rencontrez un patient pour vertige rotatoire avec un nystagmus droit spontané. S’il présente un syndrome vestibulaire périphérique, il est exact que :",
+          "choix": [
+            "A) La déviation des index sera orientée vers la droite.",
+            "B) Le test de Fukuda sera latéralisé à gauche.",
+            "C) Si le patient regarde vers la gauche, le nystagmus s’inversera.",
+            "D) La manœuvre de Dix-Hallpike provoquera un nystagmus vertico-rotatoire géotropique",
+            "E) Devant ce nystagmus droit spontané, le syndrome vestibulaire périphérique doit être gauche."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les signes cliniques suivant, lesquels peuvent être retrouvés en cas de paralysie faciale périphérique gauche ?",
+          "choix": [
+            "A) Fermeture incomplète de l’œil gauche",
+            "B) Syndrome cérébelleux gauche",
+            "C) Ptosis gauche",
+            "D) Signe de Charles Bell gauche",
+            "E) Perte des rides du front gauche"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous recevez un patient pour surdité gauche. L’audiométrie retrouve une surdité de transmission isolée. Voici votre otoscopie. Il est exact que :",
+          "choix": [
+            "A) Le test de Weber sera latéralisé à gauche.",
+            "B) Le test de Rinne gauche sera négatif/anormal",
+            "C) L’otoscopie gauche retrouve une perforation tympanique",
+            "D) L’otoscopie gauche retrouve une otite séreuse",
+            "E) L’otoscopie droite retrouve une otite moyenne aiguë."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q5.png?v=1786300311477"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300311747-14a334eb922918",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'anatomie de la face - Cochez les réponses vraies.",
+          "choix": [
+            "A) La mandibule est le seul os mobile de la face.",
+            "B) Les os maxillaires et mandibule, portant respectivement la denture supérieure et inférieure, sont en relation par l'intermédiaire de l'articulé dentaire.",
+            "C) Sur la mandibule, la région avec la croix verte correspond au ramus.",
+            "D) Sur cette image, la zone avec la croix verte correspond au condyle mandibulaire.",
+            "E) L'ouverture de bouche se fait en deux temps : une translation de la mandibule pour initier le mouvement, puis une rotation pour obtenir l'ouverture maximale."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q6.png?v=1786300312313",
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q6_1.png?v=1786300312539"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'innervation de la face - Cochez les réponses vraies.",
+          "choix": [
+            "A) L'innervation motrice de la zone marquée en vert sur ce patient est assurée par le V3.",
+            "B) Le muscle assurant la fermeture des paupières, appelé muscle orbiculaire de l'oeil, est fléché ici en vert et est innervé par le V1.",
+            "C) La sensibilité de la peau de la région indiquée en vert est assurée par le V2.",
+            "D) La sensibilité de la région indiquée en vert sur ce patient est assurée par une branche sensitive du nerf facial.",
+            "E) Le V2 assure la sensibilité de la zone en vert sur ce patient."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q7.png?v=1786300312770",
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q7_1.png?v=1786300313240"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le patient suivant a pris un coup au visage lors d'un match de rugby il y a 2 heures. Sur la vidéo, je lui demande de suivre mon doigt du regard. - Cochez les réponses vraies\nLien de la vidéo : /servefc/696453",
+          "choix": [
+            "A) Ce patient présente une paralysie faciale gauche.",
+            "B) Il existe un trouble oculomoteur à droite.",
+            "C) Il existe une limitation de l'élévation à gauche.",
+            "D) L'abduction de l'oeil droit est limitée.",
+            "E) Ce patient n'est probablement pas diplope."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'examen clinique endobuccal - Cochez les réponses vraies",
+          "choix": [
+            "A) Lors de l'examen endobuccal, lorsque l'on masse la région sous-mandibulaire, on peut évaluer l'écoulement salivaire au niveau de l'ostium du conduit parotidien.",
+            "B) L'ostium du conduit sous-mandibulaire est localisé au niveau du plancher buccal antérieur.",
+            "C) Idéalement, cet examen est réalisé lorsque le patient est allongé.",
+            "D) La structure pointée en vert correspond aux amygdales.",
+            "E) La dent marquée en vert est la dent 46, c'est une molaire."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q9.png?v=1786300314048",
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q9_1.jpg?v=1786300314495"
+          ]
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'examen clinique de la face - Cochez les réponses vraies",
+          "choix": [
+            "A) En cas traumatisme de la face ayant provoqué une fracture maxillaire ou mandibulaire, il peut exister un trouble de l'articulé dentaire.",
+            "B) Un trouble de l'articulé dentaire peut exister en l'absence de traumatisme ou de fracture.",
+            "C) En cas de paralysie faciale, les muscles masticateurs ne sont pas touchés puisqu'ils sont innervés par le V3.",
+            "D) Cette patiente présente une paralysie faciale droite. Lien de la vidéo : /servefc/696496",
+            "E) Cette patiente présente un articulé dentaire en Classe III."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/sns-orl-cmf-ophtalmologie-s5/2023/q10.jpg?v=1786300314759"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786300315103-d8ad08044c6b18",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la cornée, citez la(les) réponse(s) exacte(s)",
+          "choix": [
+            "A) La cornée ne possède pas d’innervation",
+            "B) La cornée ne possède pas de vascularisation",
+            "C) La couche endothéliale possède un fort potentiel de renouvellement",
+            "D) Le stroma constitue la majorité de son épaisseur",
+            "E) Est une des structures de l’œil ayant un rôle réfractif"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’iris, quelle(s) est(sont) la (les) réponse(s) exacte(s)",
+          "choix": [
+            "A) C'est l’organe qui produit l’humeur aqueuse",
+            "B) Son sphincter est innervé par la chaîne ganglionnaire sympathique",
+            "C) Son sphincter est innervé par le nerf oculomoteur (III)",
+            "D) Il est situé en arrière du cristallin",
+            "E) Il est situé dans le segment antérieur de l’œil"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) est(sont) le(s) type(s) d'amputation du Champs visuel Goldmann retrouvé(s) lors d'une atteinte des voies optiques rétro chiasmatiques?",
+          "choix": [
+            "A) Quadranopsie latérale homonyme",
+            "B) Scotome caécocentral",
+            "C) Hémianopsie bi temporale",
+            "D) Hémianopsie latérale homonyme",
+            "E) Déficit fasciculaire altitudinal"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les examens complémentaires en ophtalmologie, quelle(s) est(sont) la(les) réponse(s) vraie(s)?",
+          "choix": [
+            "A) L’échographie A permet d’apprécier les structures anatomiques du globe oculaire",
+            "B) Les dyschromatopsies acquises de type bleu-jaune sont généralement liées à des atteintes rétiniennes",
+            "C) Les dyschromatopsies congénitales sont le plus souvent dépistées à l’aide du test d’Ishihara",
+            "D) L’angiographie fluorescéine permet une analyse des vaisseaux rétiniens de façon dynamique.",
+            "E) Les potentiels évoqués visuels permettent une analyse de la réponse rétinienne à un stimulus lumineux"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’examen ophtalmologique chez l’enfant, quelle(s) est (sont) la(les) réponse(s) vraie(s) :",
+          "choix": [
+            "A) Moins d’un enfant sur 50 présente une anomalie visuelle",
+            "B) La vision a 10/10 est généralement atteinte à l’âge de 5 ans",
+            "C) Il est obligatoire de réaliser un examen ophtalmologique à 6 ans",
+            "D) Un strabisme ou un nystagmus chez l’enfant doit faire rechercher une amblyopie",
+            "E) Les réflexes photo moteurs sont présents à la naissance"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

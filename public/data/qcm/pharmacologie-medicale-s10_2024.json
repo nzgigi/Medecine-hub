@@ -1,0 +1,913 @@
+{
+  "matiere": "Pharmacologie médicale",
+  "slug": "pharmacologie-medicale-s10",
+  "annee": 2024,
+  "title": "Pharmacologie médicale - 2024",
+  "total_questions": 40,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les médicaments suivants, lesquels sont contre-indiqués au 3eme trimestre de grossesse en raison de leur foetotoxicité (3 réponses justes)",
+          "choix": [
+            "A) ibuprofene",
+            "B) nicardidine",
+            "C) candesartan",
+            "D) labetalol",
+            "E) ramipril"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant le tramadol, laquelle ou lesquelles sont exactes?",
+          "choix": [
+            "A) Le tramadol donne naissance à des métabolites actifs après métabolisation par le CYP3A4",
+            "B) Le tramadol est un agoniste entier des récepteurs Mu opioïdes",
+            "C) Le tramadol élève le seuil épileptogène.",
+            "D) La ½ vie du tramadol est comparable à celle au paracétamol.",
+            "E) Le tramadol est plus émétisant que la codéine"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant le traitement des douleurs neuropathiques, laquelle est exacte ?",
+          "choix": [
+            "A) Chez un patient à risque de douleur neuropathique, le traitement doit être instauré de manière préventive.",
+            "B) La prégabaline est un médicament de première intention",
+            "C) Les antidépresseurs tricycliques sont à préférer aux inhibiteurs de la recapture de la sérotonine.",
+            "D) Les emplâtres de lidocaïne sont indiqués dans le traitement des douleurs neuropathiques d’origine centrale",
+            "E) Une crème à base d’amitriptyline est indiquée dans le traitement des douleurs neuropathiques."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi des affirmations suivantes concernant le bon usage des AINS, laquelle est exacte ?",
+          "choix": [
+            "A) ils sont antiagrégants plaquettaires",
+            "B) ils augmentent le débit de filtration glomérulaire",
+            "C) ils sont un facteur d’échec du traitement de l’HTA",
+            "D) les formes topiques déterminent moins d’EI que les formes systémiques",
+            "E) Les coxibs (celecoxib) ne déterminent pas d’ulcère."
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les médicaments génériques, biosimilaires et hybrides, quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "choix": [
+            "A) Les médicaments génériques doivent vérifier leurs efficacités cliniques par rapport au médicament princeps par des études appropriées",
+            "B) Pour obtenir son autorisation de mise sur le marché, un médicament génériques doit toujours valider sa bioéquivalence par rapport au princeps avec des études appropriées",
+            "C) Un médicament hybride peut ne pas présenter les mêmes indications thérapeutiques que le médicament de référence",
+            "D) La protection du brevet des médicaments biologiques peut aller jusqu’à 25 ans",
+            "E) Un médicament biologique de référence peut être substitué par un biosimilaire comme l’est un médicament générique"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Combien d'acronymes sont possibles pour justifier la mention « non substituable » en regard de la ligne de prescription ?",
+          "choix": [],
+          "reponses": [
+            "3",
+            "Trois",
+            "3 (MTE, CIF, EFG)",
+            "3 (CIF, MTE, EFG)",
+            "3 : MTE, CIF, EFG",
+            "3 (MTE, EFG, CIF)",
+            "3 MTE CIF EFG",
+            "MTE, CIF, EFG",
+            "Trois acronymes",
+            "3 acronymes : CIF MTE EFG",
+            "3 (MTE, EFG et CIF)",
+            "3 EFG MTE CIF",
+            "3 (EFG, CIF, MTE)",
+            "3 : CIF EFG MTE",
+            "3 (CIF, EFG et MTE)",
+            "3 (MTE, PED et allergie avérée contre-indiquant)",
+            "mte efg cif",
+            "3 dont CIF, ECT",
+            "3 : EFG CIF MTE",
+            "trois",
+            "3 (MTE CIF EFG)",
+            "CIF, EFG, MTE",
+            "MTE EFG CIF",
+            "3 acronymes : MTE, EFG, CFI",
+            "EFG MTE CIF",
+            "3 (MTE (marge thérapetique étroite), CIF (contre indication formelle), EFG (enfant de moins de 6 ans))",
+            "3, EFG, CIF, MTE",
+            "3 : CIF, MTE, EFG",
+            "3 (EFG, MTE, CIF)",
+            "MTE, CIF, enfant de moins de 6 ans",
+            "3 (CIF, EFG, MTE)",
+            "3 acronymes (EFG, MTE et CIF)",
+            "MTE CIF EFG",
+            "3 : MTE, EFG, CIF",
+            "3, MTE EFG CIF",
+            "3 acronymes",
+            "Trois (MTE, EFG, CIF)"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant l’usage des benzodiazépines, citez la proposition qui n’entre pas dans le champ de l’usage à risque des benzodiazépines",
+          "choix": [
+            "A) Consommation de benzodiazépine au-delà de la durée recommandée",
+            "B) Consommation de benzodiazépine obtenue au marché noir",
+            "C) Consommation de benzodiazépine à une dose supérieure à celle recommandée",
+            "D) Consommation de benzodiazépines malgré l’existence de troubles de la vigilance",
+            "E) Consommation de benzodiazépine avec de l’alcool pour augmenter l’effet de défonce"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Devant un tableau clinique d'allure maniaque suite à l'usage d'une substance psychoactive, quel signe clinique oculaire permet de suggérer une intoxication aigue à la cocaine ?",
+          "choix": [],
+          "reponses": [
+            "Mydriase",
+            "Mydriase bilatérale",
+            "Mydriase bilaterale",
+            "Myosis bilatéral",
+            "Myosis symetrique",
+            "Mydriases",
+            "Mydriase bilaterale et reactive",
+            "Mydriase symetrique reactive",
+            "Myadriase",
+            "Mydriase bilateral"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des toxidermies médicamenteuses, parmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) Une réaction de photoallergie médicamenteuse se limite aux zones cutanés exposés.",
+            "B) Les pustuloses examthématiques aiguës généralisées (PEAG) débutent en général 2 à 6 semaines après l’introduction du médicament suspect.",
+            "C) Les syndromes DRESS (drug reaction with eosinophilia and systemic symptoms) débutent généralement 1 à 4 jours après l’introduction du médicament suspect.",
+            "D) L’allopurinol est le médicament les plus pourvoyeurs de Syndrome de Stevens-Johnson et de Lyell en France.",
+            "E) Les angioedèmes associés à la prise d’inhibiteurs de l’enzyme de conversion (IEC) s’xplique par un par défaut de dégradation de la bradykinine."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi les affirmations suivantes concernant les agonistes du récepteur au GLP1 (type semaglutide), laquelle est exacte?",
+          "choix": [
+            "A) Ils déterminent une diminution de l'insulinosécrétion gluco-dépendante.",
+            "B) Ils ralentissent la vidange gastrique par une action centrale.",
+            "C) Un surdosage en agoniste du récepteur au GLP1 peut conduire à une acidose lactique.",
+            "D) En monothérapie, Ils déterminent des hypoglycémies sévères.",
+            "E) Ils entrainent une prise de poids"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Soit l’ordonnance suivante :\n- ibuprofène 400mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- acide alendronique 70mg 1 fois par semaine\n- lansoprazole 30mg 1 fois par jour\n- colchicine 1 mg 1 fois par jour\nParmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "choix": [
+            "A) L’alopécie est un signe précoce de surdosage en colchicine.",
+            "B) L’association ibuprofène et hydrochlorothiazide majore le risque de surdosage en colchicine.",
+            "C) Dans l’ordonnance, il y a 2 médicaments induisant ou aggravant un ulcère digestif.",
+            "D) Dans l’ordonnance, il y a 2 médicaments induisant ou aggravant une hyperuricémie",
+            "E) L’association lansoprazole + alendronate est illogique au niveau pharmacodynamique car le lansoprazole favorise le risque d’ostéoporose."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle (lesquelles) sont juste(s) ?",
+          "choix": [
+            "A) Les benzodiazépines, en augmentant la transmission GABAergique, permettent de diminuer l’hyperexcitabilité neuronale associée à l’anxiété.",
+            "B) Les benzodiazépines constituent le traitement médicamenteux de fond du trouble panique.",
+            "C) L’efficacité des benzodiazépines doit être estimée 4 semaines après le début de la prescription.",
+            "D) Les benzodiazépines à courte demi-vie sont les benzodiazépines de choix chez la personne âgée.",
+            "E) La prise de benzodiazépines contre-indique la conduite automobile du fait du risque de somnolence au volant."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les propositions suivantes laquelle est juste ?",
+          "choix": [
+            "A) L’acide valproïque est le thymorégulateur de choix chez la femme enceinte atteinte d’un trouble bipolaire.",
+            "B) Le suivi thérapeutique pharmacologique du lithium permet de prévenir les effets indésirables dose-dépendants.",
+            "C) L’association paroxétine et tramadol majore le risque de syndrome sérotoninergique par rapport à la paroxétine seule.",
+            "D) L’efficacité des antidépresseurs imipraminiques(ou tricyclique) doit être estimée 3 mois après le début de la prescription.",
+            "E) En général, lors de la prescription d’un antidépresseur inhibiteur de la recapture de la sérotonine et de la noradrénaline type venlafaxine, il est recommandé de prescrire une benzodiazépine pour éviter la levée d’inhibition."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel effet indésirable faut-il suspecter chez un patient traité par clozapine et présentant un fièvre associée à une angine résistante à une antibiothérapie bien conduite ?",
+          "choix": [],
+          "reponses": [
+            "agranulocytose",
+            "neutropénie",
+            "Agranulocytose médicamenteuse",
+            "Agranulocytose medicamenteuse",
+            "Agranulocytose febrile",
+            "Agranulocytose immuno-allergique",
+            "Neutropénie fébrile",
+            "Agranulocytose médicamenteuse immuno-allergique",
+            "Neutropénie immuno-allergique",
+            "Neutropenie médicamenteuse",
+            "agranulocytose immuno allergique",
+            "Agranulocytose (neutropénie) fébrile",
+            "Neutropénie (agranulocytose)",
+            "Agranuloctyose"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels effets indésirables peut-on redouter lors de la prise d’antipsychotique",
+          "choix": [
+            "A) Une ostéronécrose de la machoire",
+            "B) Une akathisie",
+            "C) Une hyperprolactinémie",
+            "D) Une hypocalcémie",
+            "E) Un allongement du QTc"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297381462-7a94b936dc6d3",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "ME Z 83 ans présente un premier épisode d’insuﬃsance cardiaque dans un contexte d’hypertension artérielle traitée par Lercanidipine 10 mg : un cp par jour et de ﬁbrillation auriculaire pour laquelle elle reçoit de la Coumadine. Elle pèse 56 kg et elle présente une insuﬃsance rénale déﬁnie par une clairance de 35 ml/min. L’échographie cardiaque ne montre pas de valvulopathie : la fraction d’éjection est à 35%. La patiente s’automédique pour des céphalées et des douleurs articulaires par de l’Ibuprofène et du Diclofenac en application. Elle a comme antécédent, la survenue il y a 20 ans d’un cancer du sein gauche traité par chirurgie, radiothérapie et chimiothérapie comprenant de la Doxorubicine.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le traitement par Coumadine, quelles sont les 2 réponses exactes ?",
+          "choix": [
+            "A) Il est recommandé par la Haute Autorité de Santé de remplacer la Coumadine par de l’Apixaban.",
+            "B) Il est recommandé par la Haute Autorité de Santé de remplacer la Coumadine par du Rivaroxaban.",
+            "C) Il est recommandé par la Haute Autorité de Santé de remplacer la Coumadine par du Dabigatran.",
+            "D) La Coumadine doit être surveillé par la mesure de l’INR avec comme objectif un INR compris entre deux et trois.",
+            "E) La survenue d’un épisode d’insuffisance cardiaque accroit le bénéfice potentiel du traitement par Coumadine."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant le traitement de l’insuffisance cardiaque, quelles sont les 3 propositions exactes ?",
+          "choix": [
+            "A) La classe des inhibiteurs d’enzyme de conversion dans la forme d’insuffisance cardiaque présentée par ME Z a démontré un bénéfice sur le risque de mortalité.",
+            "B) L’association fixe Sacubitril Valsartan n’a pas comme effet indésirable, la toux.",
+            "C) Le bisoprolol dans la forme d’insuffisance cardiaque présenté par ME Z a démontré un bénéfice sur le risque de ré-hospitalisation pour une décompensation cardiaque.",
+            "D) Les inhibiteurs S-GLT2 sont associés à un risque accru de colique néphrétique du fait de leur action de diurétique osmotique.",
+            "E) Les antagonistes des récepteurs des minéralocorticoïdes sont pourvoyeurs d’hypokaliémie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant l’auto-medication à base d’anti-inflammatoire non stéroïdien (AINS) pratiquée par la patiente, quelles sont les 4 réponses exactes ?",
+          "choix": [
+            "A) Les AINS peuvent contribuer à augmenter la pression artérielle.",
+            "B) Les AINS peuvent contribuer à la décompensation cardiaque car ils facilitent la rétention hydrosodée.",
+            "C) Les AINS peuvent provoquer une insuffisance rénale fonctionnelle.",
+            "D) Les AINS peuvent provoquer une hypokaliémie.",
+            "E) Les AINS peuvent faciliter une hémorragie."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le mécanisme de la cardiopathie dont souffre la patiente, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) La radiothérapie pour le cancer du sein peut induire de façon retardée une coronaropathie.",
+            "B) La chimiothérapie reçue par la patiente a pu favoriser la survenue d’une cardiopathie dilatée hypokinétique.",
+            "C) La fibrillation auriculaire peut favoriser une altération de la fraction d’éjection ventriculaire gauche.",
+            "D) Il faut rechercher une cardiopathie ischémique.",
+            "E) Une hyperthyroïdie peut être compliquée d’une fibrillation auriculaire et d’une altération de la fraction d’éjection ventriculaire gauche."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 20,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Les douleurs dont souﬀrent la patiente s’avèrent a posteriori être en lien avec une pseudo polyarthrite rhizomélique et d’une maladie de Horton. Vous proposer dans un premier temps un traitement par Prednisone. Quelles sont les 4 propositions exactes ?",
+          "choix": [
+            "A) La prise de Prednisone peut provoquer une amyotrophie.",
+            "B) La prise de Prednisone peut modifier l’humeur.",
+            "C) La prise de Prednisone peut provoquer une hyperkaliémie.",
+            "D) La prise de Prednisone peut entrainer une hypotension artérielle.",
+            "E) La prise de Prednisone augmente le risque de fracture vertébrale."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Nous sommes un an après cet épisode. La patiente est stable. Elle reçoit un traitement par spironolactone 25 mg par jour Sacubitril/Valsartan 97/103 : 1 cp matin et soir, bisoprolol 2.5 mg : un cp par jour, dapaglifozine 10 mg :\nun cp par jour, Methotrexate et de la Prednisone qui est pris depuis environ un an et dont la posologie a été diminuée à 5 mg par jour. Vous envisagez d’interrompre la Prednisone.\nQuelles sont les 3 propositions exactes ?",
+          "choix": [
+            "A) Un arrêt brutal de la Prednisone expose la patiente à un risque d’hyponatrémie.",
+            "B) Un arrêt brutal de la Prednisone expose la patiente à un risque d’hyperkaliémie.",
+            "C) Un arrêt brutal de la Prednisone expose la patiente à un risque d’hypotension.",
+            "D) Un arrêt brutal de la Prednisone expose la patiente à un risque d’hypercorticisme.",
+            "E) Un sevrage en Prednisone n’est pas un objectif thérapeutique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297383403-4b89e41e6a35c",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "M P 76 ans présente une ﬁbrillation auriculaire découverte à l’occasion d’une consultation motivée par le renouvellement de son ordonnance de médicament antihypertenseur. La fréquence cardiaque est de 80 bpm. La fonction rénale est déﬁnie par une clairance de 80ml/min de la créatinine. Il n’y pas de leucocyturie de protéinurie, ou d’hématurie. La kaliémie est 3.9 mmol/l. Le traitement comprend bisoprolol 5 mg : un cp par jour. Le patient n’a pas d’autre antécédent. Il ne présente aucun signe d’incompétence cardiaque. La pression artérielle mesurée au décours de l’annonce du diagnostic de fibrillation auriculaire est à 165/78 mm Hg. Le poids du patient est de 80 kg.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 22,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de la stratégie thérapeutique à envisager, quelles sont les réponses exactes ?\n(3 réponses attendues)",
+          "choix": [
+            "A) Le risque embolique du patient est de l’ordre de 1% par an.",
+            "B) Le score de CHA2DS2VASC de M X est de 3.",
+            "C) Il y a indication à un traitement anticoagulant.",
+            "D) Un traitement par héparine est à proposer.",
+            "E) Un traitement par apixaban est à proposer."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la fibrillation auriculaire de M P, quelles sont les réponses exactes ?",
+          "choix": [
+            "A) L’hypertension artérielle est une cause de fibrillation auriculaire.",
+            "B) La prévalence de la fibrillation auriculaire augmente avec l’âge.",
+            "C) Une complication de la fibrillation auriculaire est l’accident vasculaire cérébral.",
+            "D) La consommation d’alcool est un facteur de fibrillation auriculaire.",
+            "E) La restauration du rythme sinusal est un objectif thérapeutique à atteindre dans les 15 jours chez ce patient."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant l’hypertension artérielle, quelles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) La mesure de la PA faite lors de la consultation décrite dans l’énoncé doit conduire à augmenter le traitement antihypertenseur.",
+            "B) La mesure de la PA faite lors de la consultation décrite dans l’énoncé doit conduire à proposer au patient la réalisation d’une automesure dans des conditions standardisées",
+            "C) La mesure de la PA faite lors de la consultation décrite dans l’énoncé sera à refaire lors d’une autre consultation dédiée.",
+            "D) La mesure de la PA faite lors de la consultation décrite dans l’énoncé peut conduire à proposer la réalisation d’une mesure ambulatoire de la pression artérielle.",
+            "E) La mesure de la PA faite lors de la consultation décrite dans l’énoncé ne doit pas être prise en compte car le patient mentionne des mesures de pression artérielle prises de façon aléatoire au domicile qui seraient satisfaisantes ce qui permet de diagnostiquer un bon contrôle de l’HTA."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le mécanisme de l’hypertension artérielle, quels sont les réponses exactes ?",
+          "choix": [
+            "A) Chez le sujet âgé, l’hypertension artérielle est favorisée par une diminution de la compliance aortique.",
+            "B) Une recherche de participation rénovasculaire est indiquée dans le cas de M P.",
+            "C) L’absence d’hypokaliémie exclut un hyperaldostéronisme primaire.",
+            "D) L’étude du sédiment urinaire ne doit pas être systématique dans le cadre du bilan étiologique d’une HTA.",
+            "E) Un interrogatoire portant sur les antécédents familiaux est nécessaire pour envisager la présence d’un paragangliome."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 26,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Alors que le patient reçoit un traitement par Apixaban 5 mg : un cp matin et soir, il doit avoir une coloscopie avec possible exérèse de polype ce qui représente une situation à risque hémorragique modérée : quelles sont les 2 réponses exactes par rapport à gestion du traitement anticoagulant ?",
+          "choix": [
+            "A) L’Apixaban doit être interrompu 48 heures avant l’intervention.",
+            "B) L’Apixaban doit être interrompu 48 heures avant l’intervention avec un relai par Fondaparinux.",
+            "C) L’Apixaban doit être interrompu 48 heures avant l’intervention avec un relai par Coumadine.",
+            "D) L’Apixaban doit être reprise à pleine dose dès qu’une hémostase adéquate est obtenue.",
+            "E) L’Apixaban doit être reprise dès la fin de la coloscopie à demi dose."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Dans le cadre du suivi, l’épouse de M P mentionne la survenue chez son mari de troubles mnésiques. Quelles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) Il faut interrompre l’Apixaban compte tenu du risque d’hémorragie en cas de surdosage lié à des erreurs de prise.",
+            "B) Il faut proposer la prise des médicaments supervisée par une infirmière.",
+            "C) Une évaluation cognitive doit être réalisée chez tous les patients lors de la découverte une hypertension artérielle.",
+            "D) Le traitement antihypertenseur diminue le risque de démence.",
+            "E) Le traitement anticoagulant dans le cadre de la fibrillation auriculaire diminue le risque de démence."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 28,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Par ailleurs, l’épouse de M X signale des lipothymies et des chutes notamment le matin après le lever. Vous mettez en évidence une hypotension orthostatique. Vous observez une baisse de 40 mm Hg de la pression artérielle systolique après trois minutes d’orthostatisme sans augmentation de la fréquence cardiaque. Quelles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) Il faut rechercher une hypotension orthostatique seulement lors de la découverte d’une hypertension artérielle.",
+            "B) La prévalence de l’hypotension orthostatique augmente avec l’âge.",
+            "C) L’hypotension orthostatique peut être favorisée par le traitement antihypertenseur.",
+            "D) L’hypotension orthostatique est une cause de chute.",
+            "E) La présence d’une hypotension orthostatique contre indique le traitement antihypertenseur."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 29,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Le patient reçoit un traitement Bisoprolol 5 mg : un cp par jour, de l'Alfusozine qui est un alpha-bloquant pour traiter une hypertrophie bénigne de prostate, de l'Urapidil 60 mg : une gel matin et soir et Eliquis 5 mg : un cp matin et soir. L’Urapidil est un alphabloquant proposé comme traitement antihypertenseur. L’évaluation gériatrique a conclu à une maladie des corps de Lewy.\nParmi ces propositions, quelles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) Il faut arrêter l’urapidil.",
+            "B) Il faut arrêter l’alfusozine.",
+            "C) Il faudra envisager l’arrêt de l’Apixaban si les chutes persistent.",
+            "D) Une automesure de la pression artérielle sera utile pour rechercher une dysautonomie.",
+            "E) L’ajustement du traitement antihypertenseur ne devra tenir compte que des chiffres de pression artérielle mesurés en position couchée."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297386073-ac8af2a722df2",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Mme Duez, 65 ans, est diabétique de type 2 depuis 20 ans et a une hypertension artérielle depuis 15 ans. Vous retrouvez la notion d'une toxémie gravidique lors de ses deux dernières grossesses à l'âge de 20 et 25 ans avec l'absence complète de suivi au décours.\nElle ne fume pas, reste active et se préoccupe de sa santé depuis une dizaine d'années.\nSon diabète est compliqué d'une rétinopathie diabétique panphotocoagulée et elle a une néphropathie diabétique avec une altération progressive de la fonction rénale sur les cinq dernières années et l'apparition d'une protéinurie. Son traitement comprend : ramipril 5 mg le matin, amlodipine 10 mg le matin, Furosémide 125 mg matin, pompe à insuline externe avec un capteur de glucose, Kardégic 75 mg/jour, rosuvastatine 10 mg/jour.\nElle est asymptomatique, ne décrit pas d'hypoglycémie récente ; poids à 50 kg pour 1,50 m, PA à 150/100-130/75 mmHg pouls à 70/min examen clinique normal.\nL'ECG est normal.\nÀ la biologie : natrémie 138 mmol/l, kaliémie 4,9 mmol/l, créatininémie 250 µmol/l soit un DFG en CKD epi à 28 ml/min ; rapport protéinurie/créatininurie 800 mg/g ; hémoglobine 9,2 g /100 ml, VGM 88 µ3, plaquettes et globules blancs normaux, ferritine normale ; l'hémoglobine glyquée est à 5,8 % ; LDL cholestérol 1,05 g/l L'échographie rénale montre des reins de taille normale sans obstacle.\nL'écho-doppler des artères rénales est normal et visualise très correctement les artères rénales sans sténose ; les index de résistance sont en faveur d'une néphroangiosclérose.\nLa patiente est régulièrement suivie par une néphrologue tous les trois mois. Celle-ci, après avoir écarté l'hypothèse d'une carence martiale et d'un saignement extériorisé veut mettre en place un traitement par érythropoïétine.",
+      "order": 4,
+      "questions": [
+        {
+          "id": 30,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est le stade de la maladie rénale chronique ?",
+          "choix": [],
+          "reponses": [
+            "Stade IV",
+            "Stade 4",
+            "Néphropathie stade IV",
+            "Néphropathie stade 4",
+            "Maladie rénale chronique stade IV",
+            "Maladie rénale chronique stade 4",
+            "4",
+            "IV",
+            "Sévère stade 4",
+            "Stade 4 (sévère)",
+            "Stade 4 sévère",
+            "Quatre",
+            "Insuffisance rénale sévère stade 4",
+            "Stade 4 (insuffisance rénale sévère)",
+            "Stade MRC 4",
+            "Stade 4 (DFG entre 15 et 29 ml/min)",
+            "Insuffisance rénale sévère ( stade 4)",
+            "MRC stade 4",
+            "Insuffisance renale sévère stade 4",
+            "4 (sévère)",
+            "IV (4)",
+            "G4",
+            "G4, sévère",
+            "Stade 4 (insuffisance renale chronique severe)",
+            "MRC 4",
+            "4 ou severe",
+            "4, insuffisance rénale sévère",
+            "IV, sévère",
+            "Stade 4 , sévère",
+            "Insuffisance rénale sévère - Stade 4",
+            "Insuffisance renale stade 4",
+            "4 sévère",
+            "Stade G4"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 31,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Concernant les modalités de prescription d'un traitement par érythropoïétine : quelles sont les 3 affirmations exactes ?",
+          "choix": [
+            "A) La prescription s’effectue sur une ordonnance sécurisée.",
+            "B) La prescription s’effectue sur une ordonnance d’exception.",
+            "C) La prescription s'effectue sur une ordonnance bizone.",
+            "D) La prescription initiale est hospitalière.",
+            "E) La prescription est réservée au néphrologue hospitalier.",
+            "F) La prescription initiale est réservée au néphrologue exerçant dans un service de dialyse à domicile.",
+            "G) La prescription initiale hospitalière est au maximum d'une durée d'un an."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "G"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 32,
+          "type": "QRP",
+          "contexte": "",
+          "question": "La patiente est informée des risques de dialyse et fait l'objet d'éducation thérapeutique. Elle a développé une certaine anxiété et vous décidez la prescription d'une benzodiazépine anxiolytique Oxazepam°.\nConcernant cette prescription, quels sont les deux items exacts :",
+          "choix": [
+            "A) La prescription est réalisée sur une ordonnance sécurisée.",
+            "B) La durée de prescription est limitée à 12 semaines.",
+            "C) Un conditionnement pour 3 mois est disponible.",
+            "D) L'arrêt brutal du traitement est déconseillé.",
+            "E) Les benzodiazépines anxiolytiques ne sont pas remboursées par l'Assurance Maladie."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297388366-6fde43d223ec18",
+      "type": "DP",
+      "title": "DP 3",
+      "description": "Madame Claire A, 55 ans consulte pour un renouvellement d’ordonnance. Elle a une hypertension artérielle depuis 5 ans dans un contexte familial traitée par amlodipine. Elle consulte épisodiquement.\nElle est en plein divorce et a pris 5 kg sur 6 mois.\nA l’examen, poids 80 kg pour 1.60 m PA à 125/75 mmHg, examen clinique normal.\nL’ECG est normal.\nA la biologie, glycémie à jeun à 1.30 g/l : kaliémie 4 mmol/l, natrémie 136 mmol/L, créatininémie à 70 µmol/L soit un DFG à 95 ml/min.",
+      "order": 5,
+      "questions": [
+        {
+          "id": 33,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous suspectez un diabète sucré : comment le confirmer selon les recommandations françaises ?",
+          "choix": [
+            "A) Faire une HbA1c",
+            "B) Faire une glycémie à jeun",
+            "C) Faire une HGPO avec 50 grammes de glucose.",
+            "D) Faire une HGPO avec 75 grammes de glucose.",
+            "E) Faire une glycémie post prandiale 2 heures après le repas."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le diagnostic de diabète est confirmé. La patiente est asymptomatique. Quel(s) est(sont) l’(les) élément(s) de la stratégie thérapeutique à mettre en place ?",
+          "choix": [
+            "A) Réduction des apports caloriques.",
+            "B) Augmentation de l’activité physique.",
+            "C) Metformine.",
+            "D) Bithérapie par metformine et sulfamides hypoglycémiants.",
+            "E) Metformine et inhibiteurs des DPP4."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 35,
+          "type": "QRP",
+          "contexte": "",
+          "question": "3 mois plus tard, l’HbA1c est à 7.8% : vous décidez de mettre en place un traitement de metformine.\nConcernant cette molécule, quelles sont les 3 réponses exactes ?",
+          "choix": [
+            "A) Elle stimule l’insulinosécrétion.",
+            "B) Elle ralentit la vidange gastrique.",
+            "C) Sa prescription nécessite de connaitre la fonction rénale de la patiente.",
+            "D) Sa prescription nécessite de connaitre la fonction hépatique de la patiente.",
+            "E) Sa prescription s’effectue à posologie croissante pour améliorer la tolérance digestive."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 36,
+          "type": "QRU",
+          "contexte": "",
+          "question": "La patiente a quitté la région et revient au bout d’un an. Elle ne parvient pas à perdre du poids. Son IMC est désormais à 35.4 kg/m². L’HbA1c est à 8%. Elle est toujours traitée par metformine à posologie maximale. Quel antidiabétique les recommandations de Diabétologie internationales et nationales proposent-elles en association à la metformine ?",
+          "choix": [
+            "A) Inhibiteurs des DPP4.",
+            "B) Inhibiteurs des alpha glucosidases.",
+            "C) Glinides.",
+            "D) Inhibiteurs des SGLT2.",
+            "E) Analogues du GLP1."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 37,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous réalisez la rédaction de l’ordonnance. Parmi les items cités, quelles sont les 2 mentions obligatoires qui doivent figurer sur l’ordonnance ?",
+          "choix": [
+            "A) La date de naissance de la patiente.",
+            "B) Le poids de la patiente.",
+            "C) La taille de la patiente.",
+            "D) Le numéro de téléphone portable du médecin.",
+            "E) La date de rédaction de l’ordonnance."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 38,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un mois après avoir débuté le traitement, la patiente revient vous voir et vous annonce qu’elle a arrêté tous ses médicaments dont les injections de l’analogue du GLP1 après 21 jours de traitement en raison de nausées qu’elle juge invalidantes avec quelques épisodes de vomissement. Ces troubles digestifs ont disparu et l’examen clinique reste normal.\nQue devez-vous faire ?",
+          "choix": [
+            "A) La rassurer en lui précisant que c’est un événement indésirable connu des analogues du GLP1.",
+            "B) Ne pas faire de déclaration à la pharmacovigilance.",
+            "C) Lui proposer de reprendre le traitement par analogues du GLP1.",
+            "D) Lui proposer l’introduction d’un autre antihyperglycémiant comme les sulfamides hypoglycémiants.",
+            "E) Lui proposer la prescription d’un inhibiteur de la pompe à protons."
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La patiente vous apprend que le fond d'œil montre une rétinopathie diabétique simple. Par ailleurs la fonction rénale reste normale et elle a un rapport albuminurie/créatininurie à 200 mg/g. Son traitement comprend amlodipine qu'elle prend épisodiquement. En l'interrogeant elle relate des œdèmes des membres inférieurs qu'elle considère invalidants, raison du manque d'observance. L'hémoglobine glyquée est à 7,3 % sous metformine à posologie maximale. La moyenne de 18 mesures de PA faites au domicile est à 139/100 mmHg\nQuelles sont les classes thérapeutiques à privilégier chez elle ?",
+          "choix": [
+            "A) Les inhibiteurs de l'enzyme de conversion de l'angiotensine.",
+            "B) Les diurétiques thiazidiques.",
+            "C) Les bêtabloquants.",
+            "D) Les inhibiteurs des DPP4.",
+            "E) Les inhibiteurs des SGLT2."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous apprenez qu'un médicament, le glugluglu, est désormais accessible et qu'il a bénéﬁcié d'un accès précoce pour le traitement du diabète de type 2.\nÀ propos de l'accès précoce, donnez-la(les) réponse(s) exacte(s) :",
+          "choix": [
+            "A) L'accès précoce est destiné notamment aux médicaments innovants.",
+            "B) Un médicament en accès précoce ne dispose pas encore d'une AMM dans l'indication concernant l'accès précoce.",
+            "C) Un médicament en accès précoce doit faire l'objet d'un développement clinique en cours.",
+            "D) L’ANSM n'est pas impliquée dans la procédure d'accès précoce.",
+            "E) La HAS prend en compte plusieurs critères, l’un d'entre eux étant que le médicament doit être destiné à traiter une maladie grave."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

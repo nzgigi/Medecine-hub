@@ -1,0 +1,579 @@
+{
+  "matiere": "Rhumatologie et orthopédie",
+  "slug": "rhumatologie-orthopedie-s8",
+  "annee": 2026,
+  "title": "Rhumatologie et orthopédie - 2026",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Vous recevez aux urgences un patient de 25 ans ayant présenté un traumatisme de la cheville droite lors d’une randonnée. Il a ressenti un craquement et une impotence fonctionnelle immédiate avec impossiblité de marcher.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’épidémiologie des fractures en France",
+          "choix": [
+            "A) •la fracture bimalléolaire est la fracture la plus fréquente en population générale",
+            "B) la fracture du fémur proximal est la fracture la plus fréquente en population générale",
+            "C) la fracture du radius distal est la fracture la plus fréquente en population générale",
+            "D) la fracture bimalléolaire touche exclusivement les sujets jeunes",
+            "E) les traumatismes de cheville du sujet agé (>60ans) peuvent causer des lésions ligamentaires mais n’engendrent jamais de fracture bimalléolaire"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Lors de votre évaluation clinique vous confirmez qu’il s’agit d’un traumatisme isolé de la cheville. Vous retrouvez par ailleurs une cheville oedematiée, douloureuse à la mobilisation et un appui impossible. La cheville est très déformée. Le patient est douloureux",
+          "choix": [
+            "A) Vous faites réaliser avant tout une radiographie de cheville F+P",
+            "B) Vous soulagez le patient par un traitement antalgique et une immobilisation avant toute chose",
+            "C) Vous faites réaliser la radiographie dès l’immobilisation et l’antalgie réalisées",
+            "D) En cas de fracture isolée de la malléole médiale il faut palper l’ensemble de la fibula et au moindre doute faire des radiographies de jambe entière F+P",
+            "E) La fracture de Maisonneuve est toujours associée avec une atteinte de la membrane interosseuse tibiofibulaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A l’examen clinique d’un traumatisme de cheville vous recherchez",
+          "choix": [
+            "A) la présence de pouls distaux percus symétriques au côté controlatéral",
+            "B) une plaie ou une souffrance cutanée",
+            "C) un déficit sensitif ou neurologique",
+            "D) vous palpez la fibula sur toute sa longueur à la recherche d’une douleur",
+            "E) un traumatisme associé sur un autre membre"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRP",
+          "contexte": "",
+          "question": "•Le patient vous montre ces imageries trouvé sur internet car il est inquiet de présenter la même pathologie.",
+          "choix": [
+            "A) •Il s’agit d’une radiographie de cheville F+P",
+            "B) La cheville est luxée",
+            "C) Il s’agit d’une fracture bimalléolaire",
+            "D) •Il s’agit d’une fracture équivalent-bimalléolaire",
+            "E) Il s’agit d’une fracture de Maisonneuve"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2026/q4.webp?v=1786396133191"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Rassuré de votre analyse des imageries de sa mère, le patient accepte de poursuivre sa prise en charge.\nAprès avoir prescrit les antalgiques adaptés et immobilisé la cheville du patient dans une attelle platrée postérieure, vous prescrivez le bilan radiographique suivant :",
+          "choix": [
+            "A) La malléole médiale est fracturée",
+            "B) La malléolaire latérale est fracturée",
+            "C) Il s’agit d’une fracture bimalléolaire suprasyndesmotique",
+            "D) Il s’agit d’une fracture bimalléolaire intersyndesmotique",
+            "E) Il s’agit d’une fracture bimalléolaire sous-syndesmotique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2026/q5.webp?v=1786396134183"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "•A propos des fractures bimalléolaires:",
+          "choix": [
+            "A) •Les fractures bimalléolaires suprasyndesmotiques ont classiquement un diastasis tibiofibulaire par atteinte de la syndesmose",
+            "B) Les fractures bimalléolaires sous-syndesmotique ont classiquement un diastasis tibiofibulaire par atteinte de la syndesmose",
+            "C) •Les traumatismes classiques des fractures bimalléolaires sont en inversion ou éversion ou rotation externe.",
+            "D) L’inversion est un mouvement associant flexion plantaire+varus/adductions du talon + supination du pied",
+            "E) •L’éversion est un mouvement associant flexion dorsale+valgus/Abduction du talon et pronation du pied"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "•Le patient a été opéré d’une réduction ostéosynthèse par plaque latérale, vissage médial et fixation de la syndesmose par un endobouton. Voici les imageries post opératoires.\n•A propos des complications immédiates/aigues des fractures bimalléolaires :",
+          "choix": [
+            "A) Les fractures bimalléolaires sont des urgences chirurgicales",
+            "B) Une fracture ouverte majore le risque de pseudarthrose",
+            "C) •Une fracture ouverte majore le risque infectieux",
+            "D) Une luxation de cheville majore le risque de lésion nerveuse ou de souffrance cutanée",
+            "E) Un fracture bimalléolaire luxée doit être immobilisée en position luxée sans réduction si la prise en charge au bloc opératoire est prévue 12h plus tard."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des complications secondaires des fractures bimalléolaires :",
+          "choix": [
+            "A) L’arthrite septique n’en fait pas partie car il s’agit toujours d’une fracture extraarticulaire",
+            "B) L’arthrose post traumatique est favorisée par les lésions ligamentaires de la cheville.",
+            "C) Un retard de consolidation est défini par une absence de consolidation à partir de 3 mois post opératoire",
+            "D) Une pseudarthrose est définie par une absence de consolidation à partir de 3 mois post opératoire",
+            "E) Un enraidissement en équin (perte de la flexion dorsal) est mieux toléré qu’en enraidissement de la cheville en talus (perte de la flexion plantaire)"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396136877-7d8e06114d8dd",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez en consultation de Médecine générale Madame O... 62 ans. Elle a présenté il y a 3 mois une fracture de l'extrémité distale du radius gauche en chutant par maladresse, de sa hauteur. Il s'agit d'une patiente fumeuse (25 PA). Elle a été ménopausée à l'âge de 43 ans. Sa mère a présenté une fracture du col du fémur à 81 ans. Elle mesure 1,73 m pour 53 kg (IMC 17,7 kg/m²). Elle ne prend pas de traitement au long cours. La patiente aborde avec vous la question de la prise en charge de sa situation osseuse.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la prescription éventuelle d'examens complémentaires, identifiez la/les affirmation(s) exacte(s).",
+          "choix": [
+            "A) Il s'agit ici d'une fracture traumatique ; le bilan d'ostéoporose n'est dans ce cas pas justifié",
+            "B) L'ostéoporose étant évidente ici, la prescription d'un bilan biologique est inutile",
+            "C) Le contexte évoque une fragilité osseuse qui justifie la réalisation d'un bilan biologique",
+            "D) L'ostéoporose étant évidente ici, la prescription d'une ostéodensitométrie est inutile",
+            "E) Le contexte évoque une fragilité osseuse qui justifie la réalisation d'une ostéodensitométrie"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Identifiez les 4 éléments inclus dans le bilan biologique de fragilité osseuse.",
+          "choix": [
+            "A) Calcémie ionisée",
+            "B) Phosphatémie",
+            "C) Electrophorèse des protéines sériques",
+            "D) Créatininémie",
+            "E) 1-25 OH vitamine D",
+            "F) Phosphatases alcalines totales",
+            "G) Crosslaps",
+            "H) Phosphatases alcalines osseuses",
+            "I) CRP",
+            "J) PTH"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "F",
+            "I",
+            "J"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Le bilan biologique est sans anomalie. Le résultat de l'ostéodensitométrie : T-score -2.8 DS au rachis lombaire, -2.0 à la hanche.\nQuel traitement proposez-vous en 1ère intention?",
+          "choix": [],
+          "reponses": [
+            "Biphosphonates"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396139026-bc3fa9e103061",
+      "type": "DP",
+      "title": "DP 2",
+      "description": "Vous recevez en consultation un homme de 52 ans pour une douleur et un gonflement du genou droit, apparu brutalement il y a moins de 24 heures.\nIl n’y a pas de notion de traumatisme ou de porte d’entrée cutanée.\nIl a par le passé déjà présenté deux épisodes de douleur et gonflement du gros orteil du pied droit, résolutifs en 7 à 10 jours spontanément.\nDans ses antécédents, vous retenez une obésité (IMC calculé à 31 kg/m²), un ulcère gastrique il y a 6 mois sous AINS et un diabète de type II sous antidiabétique oral.\nVous notez une consommation quotidienne d’une à deux bières et de 3 verres de vin par jour.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous évoquer une crise de goutte. Sur quel(s) argument(s) évoquez vous ce diagnostic ?",
+          "choix": [
+            "A) Sexe masculin",
+            "B) Age",
+            "C) Obésité",
+            "D) Consommation d'alcool",
+            "E) Episodes antérieurs d'arthrite du gros orteil"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) examen(s) réalisez vous en première intention ?",
+          "choix": [
+            "A) Une radiographie du genou droit",
+            "B) Une échographie du genou droit",
+            "C) Une ponction articulaire",
+            "D) Un hémogramme et un dosage de la CRP",
+            "E) Un dosage du facteur rhumatoide"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le bilan biologique retrouve des leucocytes à 11 000/mm3, dont 80% de PNN, une CRP à 233 mg/L, une uricémie à 427 µmol/L et une clairance de la créatinine à 100 mL/min.\nLa ponction articulaire ramène 60 cc liquide que vous envoyez en analyse cytobactériologique. Quels éléments d’analyse du liquide articulaire sont compatibles avec le diagnostic de crise de goutte ? :",
+          "choix": [
+            "A) La présence de 30 000 éléments/mm3",
+            "B) La présence de 300 éléments/mm3",
+            "C) La présence de cristaux d'urate monosodique",
+            "D) La présence de cristaux de pyrophosphate de calcium",
+            "E) La présence de cocci gram positifs en amas"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le liquide articulaire retrouve 27 000 éléments dont 80% de PNN associé à la présence de cristaux d’urate monosodique. Vous retenez donc le diagnostic d’accès goutteux. Quel traitement de la crise proposez-vous en première intention ?",
+          "choix": [
+            "A) Corticothérapie orale",
+            "B) AINS par voie orale",
+            "C) Colchicine",
+            "D) Allopurinol",
+            "E) Repos et glaçage articulaire"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre patient s’inquiète de la survenue d’une nouvelle crise, quelles règles hygiéno diététiques pouvez-vous lui conseillez ?",
+          "choix": [
+            "A) Perte de poids en cas de surpoids ou d'obésité",
+            "B) Remplacer la bière par des bières sans alcool",
+            "C) Limiter la consommation de viandes blanches",
+            "D) Limiter la consommation de produits laitiers",
+            "E) Limiter la consommation de jus de fruits riches en fructose"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Votre patient souhaiterait également savoir s’il existe des médicaments qui permettraient de limiter la survenue de nouvelle crise et si oui, s’il pourrait en bénéficier. A propos des indications du traitement hypo-uricémiant, quelles sont les réponses vraies ?",
+          "choix": [
+            "A) Le traitement hypo-uricémiant est indiqué uniquement à partir de la deuxième crise goutteuse",
+            "B) Le traitement hypo-uricémiant est indiqué même en cas d'hyperuricémie isolée",
+            "C) Le traitement hypo-uricémiant est indiqué dès que le diagnostic de goutte est retenu",
+            "D) Le traitement hypo-uricémiant est indiqué dès la première crise",
+            "E) Le traitement hypo-uricémiant est contre-indiqué en cas d'insuffisance rénale chronique (DFG < 60 mL/min)"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786396143631-360c2fe44e0bb8",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des rachialgies, quelles sont les réponses vraies (une ou plusieurs réponses exactes)",
+          "choix": [
+            "A) L’âge entre 20 et 55 ans est un drapeau rouge",
+            "B) En l’absence de drapeaux rouges, devant une rachialgie aigue < 6 semaines, il n’existe pas d’indication à la réalisation de radiographies",
+            "C) Les lombalgies d’origine discale, musculaires et arthrosiques sont toutes des rachialgies communes",
+            "D) Il est rare d’avoir de l’arthrose cervicale à l’âge de 50 ans",
+            "E) Les douleurs du rachis dorsal sont à considérer comme des drapeaux rouges"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle pathologie suspectez-vous chez ce patient de 45 ans consultant pour lombalgies récidivantes et qui vient de réaliser la radiographie ci-dessous ? (2 mots)",
+          "choix": [],
+          "reponses": [
+            "Spondylarthrite ankylosante"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/rhumatologie-orthopedie-s8/2026/q19.webp?v=1786396146839"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Parmi ces mouvements suivants lequel n’est pas réalisé par un muscle innervé par la racine L5 (une ou plusieurs réponses possibles) ? :",
+          "choix": [
+            "A) Dorsiflexion des orteils",
+            "B) Eversion du pied",
+            "C) Extension de jambe",
+            "D) Abduction de hanche",
+            "E) Dorsiflexion du premier orteil"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 21,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos d'une douleur sous plâtre (botte plâtrée dans le cadre d'un traitement orthopédique par exemple):",
+          "choix": [
+            "A) une majoration des antalgiques sans autre examen est suffisante",
+            "B) nécessite de localiser la douleur plus précisément en glissant un stylet métallique entre le plâtre et la peau",
+            "C) nécessite systématiquement le retrait du platre",
+            "D) peut être dûe à une zone de compression du platre sur la peau",
+            "E) n'est jamais dûe à un syndrome des loges"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du syndrome des loges :",
+          "choix": [
+            "A) C'est une urgence relative (à gérer sous 72h)",
+            "B) C'est une urgence chirurgicale",
+            "C) C'est une complication classique des traumatismes à haute énergie avec fractures de deux os d'avant bras",
+            "D) Le pronostic fonctionnel en l'absence de traitement est très mauvais",
+            "E) Nécessite seulement une adaptation de l'antalgie"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 23,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos des fractures de l'extrémité distale du radius :",
+          "choix": [
+            "A) le délai classique de consolidation est 4 semaines",
+            "B) Une comminution importante est un facteur de bon pronostic (meilleure consolidation)",
+            "C) un age élevé est un facteur de mauvais pronostic",
+            "D) un trait de fracture articulaire n'est pas un facteur de mauvais pronostic si la fracture n'est pas déplacée",
+            "E) une fracture ouverte est un facteur de bon pronostic"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "lA propos du nerf fibulaire commun",
+          "choix": [
+            "A) il chemine autour du col de la fibula",
+            "B) il contrôle les muscles fléchisseurs plantaires de cheville",
+            "C) Il contrôle les muscles fléchisseurs dorsaux de la cheville",
+            "D) son territoire sensitif contient la face dorsale du pied",
+            "E) son territoire sensitif contient la face médiale de jambe"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 25,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Citez un signe clinique fortement évocateur d’une rupture du ligament croisé antérieur (LCA) en phase aiguë.",
+          "choix": [],
+          "reponses": [
+            "Hémarthrose rapide"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des fractures de l'enfant",
+          "choix": [
+            "A) Avant 2 ans tout traumatisme avec fracture doit faire évoquer une maltraitance",
+            "B) La classification de Salter et Harris concerne les fractures diaphysaires de l'enfant",
+            "C) La classification de Salter et Harris concerne les fractures décollement épiphysaires",
+            "D) Une fracture Salter 1 est plus à risque d'épiphysiodèse qu'une Salter 5",
+            "E) Une fracture Salter 5 est plus à risque d'épiphysiodèse qu'une Salter 1"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 27,
+          "type": "QRP",
+          "contexte": "",
+          "question": "A propos de la fracture de l'extrémité supérieure du fémur:",
+          "choix": [
+            "A) Il s'agit d'une fracture rare",
+            "B) Elle survient classiquement lors de trauma à faible énergie chez des sujets jeunes",
+            "C) La présentation clinique classique de ces fractures est un membre en ADDUction, raccourcissement et rotation interne.",
+            "D) La classification de Garden est la plus utilisée pour les fractures cervicales du fémur",
+            "E) Le traitement orthopédique est le traitement le plus fréquent"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

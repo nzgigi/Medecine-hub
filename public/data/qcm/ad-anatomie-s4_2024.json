@@ -1,0 +1,436 @@
+{
+  "matiere": "Appareil digestif – Anatomie",
+  "slug": "ad-anatomie-s4",
+  "annee": 2024,
+  "title": "Appareil digestif – Anatomie - 2024",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de l'oesophage",
+          "choix": [
+            "A) l'oesophage a une vascularisation opportuniste",
+            "B) les cavités cardiaques sont en rapport avec l'oesophage thoracique en T4",
+            "C) le nerf vague gauche chemine sur la face antérieure de l'oesophage",
+            "D) le hiatus oesophagien est musculaire",
+            "E) l'oesophage abdominal a une longueur de plus de 10 cm"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de l'oesophage",
+          "choix": [
+            "A) sur une coupe scanner en T4 l'oesophage se trouve a droite de l'aorte",
+            "B) le hiatus oesophagien se situe en regard T10",
+            "C) l'origine de l'oesophage cervical se situe en regard de C6",
+            "D) l'artère faciale assure l'essentiel vascularisation de l'oesophage cervical",
+            "E) l'oesophage thoracique est recouver de péritoine"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de l'estomac",
+          "choix": [
+            "A) le grand omentum relie l' estomac au pédicule hépatique",
+            "B) les vaisseaux courts proviennent de l'artère gastrique droite",
+            "C) l'orifice d'entrée de la bourse retrogastrique se situe derrière le pédicule hépatique",
+            "D) l'artère gastrique postérieure nait de l'artère splénique",
+            "E) la glande surrénale gauche est un rapport postérieur de l'estomac"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos du duoneo- pancreas",
+          "choix": [
+            "A) le duodénum et la tête du pancréas partagent une riche vascularisation qui les rend indissociable",
+            "B) le conduit pancreatique principal se termine au niveau de la papille duodénale mineure",
+            "C) les vaisseaux mesenteriques supérieurs cheminent en ventral du processus uncinatus",
+            "D) l'artère gastrique gauche participe a la vascularisation du pancréas",
+            "E) la veine mésentérique inférieure surcroise la partie distale de la queue du pancreas"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos du jejunum - ileon",
+          "choix": [
+            "A) au niveau de l'iléon il n'y a pas d'arcades vasculaires",
+            "B) la racine du mésentère est longitudinale",
+            "C) les artères jéjunales bordent le jéjunum par son bord anti- mésentérique",
+            "D) les vaisseaux droits naissent de l'arcade bordante",
+            "E) un des constituant du carrefour iléo-caecale est l'appendice"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos du jéjuno- iléon",
+          "choix": [
+            "A) l'appendice vermiforme présente une valvule continente",
+            "B) la paroi externe du jejunum est lisse",
+            "C) le mésentère fixe le jéjuno -iléon à l'angle colique droit",
+            "D) le jejuno- iléon est vascularisé par l'artère mésentérique supérieure",
+            "E) l'appendice vermiforme naît du bord externe du caecum"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos du colon",
+          "choix": [
+            "A) le colon descendant (colon gauche) est une portion mobile du colon",
+            "B) la vascularisation artérielle du colon transverse a une double origine",
+            "C) l'angle colique droit laisse une empreinte sur la face viscérale du foie",
+            "D) le drainage veineux du colon descendant (colon gauche) est assuré par la vaine mésentérique supérieure",
+            "E) les bandelettes coliques( taenia coliques) sont en nombre de trois sur le colon sigmoide"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de la rate",
+          "choix": [
+            "A) le hile splénique est situé sur la face rénale de la rate",
+            "B) l'artère gastro-épiploique droite est une collatérale de l(artère splénique",
+            "C) la veine splénique participe a la constitution de la veine porte",
+            "D) l'angle colique gauche laisse une empreinte sur la face inférieure de la rate",
+            "E) le ile de la rate a une forme de \"Y\" inversé"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos du rectum",
+          "choix": [
+            "A) la veine rectal moyenne se termine dans le système porte",
+            "B) l'artère iliaque externe peut participer à la vascularisation du rectum",
+            "C) le rectum pelvien est totalement recouvert de péritoine",
+            "D) l'artère rectale supérieur est une branche de l'artère mésentérique inférieure",
+            "E) le CAP anal sépare le rectum pelvien du canal anal"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de la voie biliaire",
+          "choix": [
+            "A) la vésicule biliaire est vascularisée par l'artère gastrique droite",
+            "B) le conduit cholédoque chemine sur la face dorsale du premier duodénum (D1)",
+            "C) le conduit cholédoque forme, avec le conduit cystique, l'ampoule hépatopancréatique",
+            "D) le conduit cholédoque fait partie du pédicule hépatique",
+            "E) la musculeuse de la vésicule biliaire est constituée par 3 couches musculaires superposés"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de la cavité orale",
+          "choix": [
+            "A) l'ostium du conduit parotidien se termine en regard de la canine superieure",
+            "B) les veines linguales sont particulièrement visibles sur la face latérale de la langue",
+            "C) la glande sublinguale est en rapport en avant avec la symphyse mandibulaire",
+            "D) le palais mou constitue la partie postérieure de la face supérieure de la cavité orale",
+            "E) la langue est formé seulement de muscles intrinsèques"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de la cavité orale",
+          "choix": [
+            "A) la glande jugulaire interne traverse la glande parotide",
+            "B) la glande sublinguale presente un prologement qui contourne le muscle mylohyoidien",
+            "C) la langue est constitué par un squelette ostéo - fibreux",
+            "D) le muscle mylo-hyoidien participe a la constitution de la paroi latérale de la cavité buccale",
+            "E) le muscle buccinateur est traversé par le conduit parotidien"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12,
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos du foie sur cette vue postérieure, quelle sont les propositions exactes",
+          "choix": [
+            "A) la légende B correspond au ligament falciforme",
+            "B) la légende 4 correspond a l'empreinte duodénale",
+            "C) la légende E correspond au lobe caudé",
+            "D) la légende 5 correspond a l'empreinte rénale gauche",
+            "E) la légende D correspond a l'empreinte rénale droite"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13,
+          "images": [
+            "/images/qcm/ad-anatomie-s4/2024/q13.jpg?v=1786293461892"
+          ]
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de la segmentation du foie: quelles sont les propositions exactes",
+          "choix": [
+            "A) la légende A correspond au segment V",
+            "B) la légende B correspond au segment IV",
+            "C) la légende C correspond au segment III",
+            "D) la légende D correspond au segment VI",
+            "E) la légende E correspond au segment I"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14,
+          "images": [
+            "/images/qcm/ad-anatomie-s4/2024/q14.jpg?v=1786293463564"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de cette coupe scanner en T4: quelles sont les propositions de légende exactes",
+          "choix": [
+            "A) la légende A correspond au tronc brachio-cephalique gauche",
+            "B) la légende B correspond au nerf vague",
+            "C) la légende C correspond au canal thoracique",
+            "D) la légende D correspond a la veine emyazygos",
+            "E) la légende E correspond au nerf phrénique"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 15,
+          "images": [
+            "/images/qcm/ad-anatomie-s4/2024/q15.png?v=1786293465331"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos du duodénum",
+          "choix": [
+            "A) la légende 1 correspond au conduit cholédoque",
+            "B) la légende 9 correspond aux vaisseaux mésentériques inférieures",
+            "C) la légende 3 correspond a la papille duodénale majeur",
+            "D) la légende 6 correspond au conduit pancréatique accessoire",
+            "E) la légende 5 correspond au col du pancréas"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 16,
+          "images": [
+            "/images/qcm/ad-anatomie-s4/2024/q16.png?v=1786293466926"
+          ]
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de cette coupe scanner en L1 : quelles sont les propositions exactes",
+          "choix": [
+            "A) la légende A correspond a l'estomac",
+            "B) la légende B correspond au pancreas",
+            "C) la légende C correspond a la glande surrénale droite",
+            "D) la légende D correspond a l'aorte abdominale",
+            "E) la légende E correspond a l'artère mésentérique inférieure"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 17,
+          "images": [
+            "/images/qcm/ad-anatomie-s4/2024/q17.png?v=1786293468415"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de cette coupe scanner en C7: quelles de ces propositions sont exactes",
+          "choix": [
+            "A) la légende a correspond a la thyroide",
+            "B) la légende B correspond a la veine jugulaire externe",
+            "C) la légende C correspond au nerf vague",
+            "D) la légende D correspond au nef laryngé récurrent",
+            "E) la légende E correspond a l’œsophage"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18,
+          "images": [
+            "/images/qcm/ad-anatomie-s4/2024/q18.png?v=1786293470194"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "sur cette coupe du rectum, quelles sont les propositions exactes",
+          "choix": [
+            "A) la légende A correspond a la musculeuse circulaire",
+            "B) la légende B correspond au muscle sphincter externe profond",
+            "C) la légende C correspond au plie de Valsalva",
+            "D) la légende D correspond au muscle sphincter externe cutané",
+            "E) la légende E correspond au muscle sphincter externe superficiel"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 19,
+          "images": [
+            "/images/qcm/ad-anatomie-s4/2024/q19.jpg?v=1786293471821"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "a propos de la paroi abdominal quelles sont les propositions exactes",
+          "choix": [
+            "A) le muscle transverse avec sa contraction fléchis le tronc en avant",
+            "B) la lacune musculaire est latérale",
+            "C) la lacune vasculaire est au dessus du ligament inguinal",
+            "D) le canal inguinal contient le cordon spermatique",
+            "E) l'innervation de la paroi abdominale est métamerique"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

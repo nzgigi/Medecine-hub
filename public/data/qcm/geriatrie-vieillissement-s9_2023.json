@@ -1,0 +1,389 @@
+{
+  "matiere": "Gériatrie et vieillissement",
+  "slug": "geriatrie-vieillissement-s9",
+  "annee": 2023,
+  "title": "Gériatrie et vieillissement - 2023",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous recevez en consultation un patient de 81 ans. Il vous rapporte une tristesse de l’humeur avec la sensation d’être un poids pour ses enfants. Il décrit penser à la mort tous les jours mais n’a jamais envisagé de manière de mettre fin à ses jours. Il vous explique qu’il a l’impression de ne plus servir à rien et que ces idées l’empêchent de dormir car il y pense toute la nuit. Il a perdu l’appétit et vous objectivée une perte de poids (5 kg en 3 mois). Il a arrêté toutes ses activités et ne sort plus de chez lui. Il ne se lave plus et passe ses journées allongé au lit. Il vous explique qu’il ne ressent plus de plaisir à regarder les matchs de rugby. Il a quand même envie de passer les fêtes de fin d’année avec sa famille et d’aller voir le spectacle de son petit-fils dans quelques semaines.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Parmi les informations recueillies lors de cet interrogatoire vous retenez :\n(5 réponses attendues)",
+          "choix": [
+            "A) De la clinophilie",
+            "B) De l’incurie",
+            "C) Une anhédonie",
+            "D) Une aboulie",
+            "E) Une insomnie",
+            "F) Des idées suicidaires",
+            "G) De la culpabilité",
+            "H) Des idées de persécution",
+            "I) Des idées délirantes",
+            "J) De l'anxiété",
+            "K) Des hallucinations",
+            "L) Un syndrome de Cotard",
+            "M) Des troubles cognitifs"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E",
+            "G"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QROC",
+          "contexte": "",
+          "question": "quel diagnostic retenez vous ?",
+          "choix": [],
+          "reponses": [
+            "épisode dépressif caractérisé",
+            "episode depressif",
+            "épisode dépressif",
+            "Episode dépressif caractérisé",
+            "episode depressif caracterisé",
+            "episode depressif caracterise",
+            "episode depressif caractérisé",
+            "dépression",
+            "episode dépressif caractérisé",
+            "depression",
+            "syndrome dépressif",
+            "Episode depressif caracterisé",
+            "épisode dépressif caracterisé",
+            "Episode depressif caractérisé",
+            "Syndrome dépressif",
+            "épisode depressif caracterisé",
+            "Dépression",
+            "Episode depressif caracterise",
+            "Episode dépressif caracterisé",
+            "épisode depressif caractérisé",
+            "épisode dépréssif caractérisé",
+            "episode dépressif caracterisé",
+            "syndrome depressif",
+            "syndrome dépressif caractérisé",
+            "depression du sujet age",
+            "edc",
+            "syndrome dépressif caracterisé",
+            "Syndrome depressif caractérisé",
+            "épisode dépressif caractérisé du sujet âgé",
+            "dépression du sujet agé",
+            "Episode dépressif caracterisé, dépression",
+            "syndrome depressif caractérisé",
+            "une dépression",
+            "syndrome depressif caracterise",
+            "syndrome depressif caracterisé",
+            "épidose dépressif caractérisé",
+            "trouble dépressif caractérisé",
+            "état dépressif caractérisé",
+            "épisode depressif caraterisé",
+            "Episode dépressif",
+            "épisode dépressif caratctérisé",
+            "epidose dépressif caracterisé",
+            "Episode Depressif Caracterisé",
+            "Depression",
+            "état dépressif caracterisé",
+            "episode drepressif caracterise",
+            "Episode dépressif caractérisé de la personne agée",
+            "Episode Depressif caracterise",
+            "episode dépressif caractérisé (perte de poids à explorer cependant)",
+            "Syndrome dépressif caractérisé",
+            "Épisode dépressif catactérisé",
+            "epidose dépressif caractérisé",
+            "etat depressif caracterisé",
+            "Episode dépressif caractérisé du sujet âgé"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous pensez introduire un traitement anti dépresseur, parmi ceux cités ci-dessous lesquels sont des inhibiteurs de la recapture de la sérotonine :",
+          "choix": [
+            "A) Paroxétine",
+            "B) Venlafaxine",
+            "C) Sertraline",
+            "D) Amitriptyline",
+            "E) Citalopram"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295581440-368400db4d5848",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous recevez aux urgences Madame P. 87 ans. Cette patiente est autonome à domicile. Elle a présenté une chute de sa hauteur ce jour en glissant dans son jardin. Il n’y a pas eu de traumatisme crânien ni de perte de connaissance. Il n’y a pas d’amnésie des faits. Il n’y a pas eu de station au sol prolongée.\nSes antécédents sont : un diabète non insulino dépendant, une HTA, une cardiopathie ischémique et des troubles du sommeil.\nSon traitement comprend : BISOPROLOL 5, PERINDOPRIL 4, KARDEGIC 75, METFORMINE 1000, ZOPICLONE 7,5.\nSes constantes à l’arrivée au SAU sont : TA 13/7, FC 70, SaO2 : 99% en air ambiant, température 36,5°C et sa glycémie et à 1,20 g/L.\nVous retrouvez un examen neurologique normal, l’auscultation cardio pulmonaire est sans particularité. Il n’y a pas de déformation des membres inférieurs. Il existe cependant une douleur lombaire.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "vous décidez de réaliser un bilan radiologique, quelles propositions sont vraies concernant cette radiographie :",
+          "choix": [
+            "A) Vous retrouvez une fracture vertébrale de L1",
+            "B) Vous retrouvez une fracture vertébrale de L2",
+            "C) Vous retrouvez une fracture vertébrale de L3",
+            "D) Vous retrouvez une fracture vertébrale de L4",
+            "E) Vous retrouvez une fracture vertébrale de L5"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/geriatrie-vieillissement-s9/2023/q4.png?v=1786295582545"
+          ]
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels arguments vous font évoquez une fracture ostéoporotique sur cette radiographie :",
+          "choix": [
+            "A) Le respect du mur vertébral postérieur et de l'arc postérieur",
+            "B) Les signes ostéolyses",
+            "C) Une déminéralisation diffuse",
+            "D) Le fait que la fracture soit située au-dessous de la troisième vertèbre dorsale",
+            "E) L’absence de « signe du puzzle » est spécifique d’une fracture ostéoporotique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "concernant le bilan biologique de première intention dans le cadre d’une ostéopathie fragilisante vous demandez (3 réponses exactes) :",
+          "choix": [
+            "A) Un bilan hépatique",
+            "B) Une calcémie et une phosphorémie",
+            "C) Une ferritine",
+            "D) Une créatininémie avec estimation de la clairance selon la formule CKD-EPI",
+            "E) Une électrophorèse des protéines"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "concernant la recherche d’une ostéoporose secondaire vous allez rechercher : (2 réponses exactes) :",
+          "choix": [
+            "A) Une hypothyroïdie",
+            "B) Une prise de corticoïdes au long court",
+            "C) Une cirrhose",
+            "D) Une insuffisance cardiaque",
+            "E) Un syndrome de malabsorption (maladie cœliaque notamment)"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "dans le contexte de douleurs importantes lombaires, la patiente est hospitalisée et reste immobilisée au lit pendant plusieurs jours sans verticalisation. Vous redoutez des complications du décubitus. Parmi les complications précoces du décubitus vous recherchez chez cette patiente : (3 réponses exactes)",
+          "choix": [
+            "A) Des complications respiratoires (notamment infection broncho pulmonaire)",
+            "B) Un déséquilibre du diabète",
+            "C) Une poussée d’insuffisance cardiaque",
+            "D) Une infection urinaire",
+            "E) Une maladie thromboembolique veineuse"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "afin de prévenir les complications précoces du décubitus, vous recommandez chez cette patiente : (2 réponses exactes) :",
+          "choix": [
+            "A) La mise en place d’une sonde urinaire",
+            "B) Vous ne mettez pas en place d’anticoagulation préventive car la patiente prend déjà du KARDEGIC",
+            "C) Le port de bas de contention élastique",
+            "D) Une optimisation de l’hydratation",
+            "E) Vous luttez contre l’ankylose en favorisant le positionnement en flexion des articulations"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Malheureusement, votre patiente développe une escarre sacrée. Concernant la classification des stades des escarres quelle(s) proposition(s) est (sont) vraie(s) :",
+          "choix": [
+            "A) Le stade 1 correspond à une hyperhémie réactionnelle disparaissant à la pression",
+            "B) Le stade 0 n’existe pas",
+            "C) Le stade 3 correspond à une lésion cutanée partielle intéressant l’épiderme, le derme ou les deux",
+            "D) Le stade 4 correspond à une destruction extensive avec perte cutanée profonde touchant les 3 couches de la peau et s’étendant à l’os, aux tendons et aux articulations sous-jacentes",
+            "E) Le stade 2 correspond à un érythème permanent"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786295588419-f438cabf33bc78",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les symptômes du bas appareil urinaire, quelles propositions sont vraies (3 réponses exactes) :",
+          "choix": [
+            "A) L’urgenturie correspond à un symptôme de la phase de remplissage",
+            "B) La sensation de vidange vésical incomplète correspond à un symptôme de la phase de remplissage",
+            "C) La dysurie de poussée correspond à un symptôme de la phase de vidange",
+            "D) Un jet en arrosoir correspond un symptôme de la phase mictionnel",
+            "E) L’incontinence urinaire correspond à un symptôme de la phase post mictionnelle"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes lesquelles sont des facteurs de risque ou des causes réversibles d’incontinence chez le sujet âgé :",
+          "choix": [
+            "A) Le syndrome confusionnel",
+            "B) Le syndrome dépressif",
+            "C) L’atrophie vaginale",
+            "D) L’hypertension artérielle",
+            "E) L’insuffisance rénale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "concernant les examens complémentaires de l’incontinence urinaire, quelles propositions sont vraies :",
+          "choix": [
+            "A) Le bilan urodynamique permet la mesure des pressions vésicales et sphinctériennes au moyen d’une sonde munie de capteur permettant de préciser le mécanisme responsable de l’incontinence",
+            "B) La cytologie urinaire peut permettre de dépister une tumeur de vessie",
+            "C) L’uroscanner permet la mesure du résidu post mictionnel",
+            "D) Un ECBU permet de rechercher une infection urinaire",
+            "E) Le « bladder scan » permet de dépister une sténose de l’urètre, l’existence d’un obstacle prostatique ou d’une fistule vésico-vaginale"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 14,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A quelle classe thérapeutique appartiennent la RISPERIDONE et la LOXAPINE (en 1 mot)",
+          "choix": [],
+          "reponses": [
+            "antipsychotique",
+            "anti psychotique",
+            "neuroleptique",
+            "neuroleptiques",
+            "antipsychotiques",
+            "Antipsychotiques",
+            "Neuroleptiques",
+            "anti-psychotique",
+            "neutoleptiques"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 15,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Concernant l’arthrose, quelle proposition est vraie ?",
+          "choix": [
+            "A) Le diagnostic est radiologique",
+            "B) Le diagnostic nécessite un bilan biologique",
+            "C) Afin de limiter l’irradiation des patients, l’examen d’imagerie est unilatéral",
+            "D) Pour l’exploration des genoux, le bilan radiologique nécessite 4 incidences",
+            "E) Pour l’exploration des mains, le bilan radiologiques nécessite 2 incidences"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

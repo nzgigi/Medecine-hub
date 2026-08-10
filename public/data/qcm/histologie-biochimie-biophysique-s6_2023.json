@@ -1,0 +1,1260 @@
+{
+  "matiere": "Histologie, biochimie et biophysique",
+  "slug": "histologie-biochimie-biophysique-s6",
+  "annee": 2023,
+  "title": "Histologie, biochimie et biophysique - 2023",
+  "total_questions": 53,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "En consultation de rhumatologie une femme de 75 ans se présente avec une cyphose dorsale importante. Elle a eu une fracture du col du fémur à 72 ans et un cancer du sein à 43 ans qui a nécessité une ovariectomie.\nBilan biologique :\nPAL osseuse, ng/mL 29 (VNpm: 6,5-22)\nCross Laps, pg/mL 1220 (VNpm: 120-980)\n(VNpm = valeurs normales post-ménopause)",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En première intention ce bilan peut correspondre à :",
+          "choix": [
+            "A) Une insuffisance rénale chronique non traitée.",
+            "B) Un Myélome multiple.",
+            "C) Une hyperparathyroïdie primaire.",
+            "D) Une ostéomalacie.",
+            "E) Un syndrome paranéoplasique."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q1.png?v=1786296224529"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez cette patiente :",
+          "choix": [
+            "A) La valeur de 25-OH vitamine D pourrait être due à une mauvaise alimentation.",
+            "B) La valeur de 25-OH vitamine D pourrait être due à un défaut d’hydroxylation en 24 de la vitamine D.",
+            "C) La 25-OH vitamine D a été hydroxylée en 25 par le rein.",
+            "D) Le dosage de la 1-25 vitamine D confirmera la présence d’une ostéomalacie.",
+            "E) La 25-OH vitamine D a une demi-vie longue de 2-3 semaines."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Son bilan biologique rénal révèle :\nUrée, mmol/l 8.5 (VN : 2.14 - 7.14)\nCréatinine, µmol/l 170 (VN : 45 – 84)\nAu vu de ses résultats et de l’ensemble du dossier :",
+          "choix": [
+            "A) Le dosage du calcitriol est nécessaire pour le diagnostic et le pronostic de la maladie.",
+            "B) La phosphatémie a toutes les chances d’être basse.",
+            "C) La phosphatémie a toutes les chances d’être haute.",
+            "D) On pourrait retrouver une insensibilité du récepteur au calcium dans les cellules parathyroïdiennes.",
+            "E) On pourrait retrouver une insensibilité du récepteur à la PTH (PTHR1) dans les cellules parathyroïdiennes."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296225375-c187a08b3e3748",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les indications de dosage de la calprotectine fécale ?",
+          "choix": [
+            "A) Diagnostic étiologique des symptômes digestifs chroniques",
+            "B) Dépistage du cancer colorectal",
+            "C) Suivi de l’efficacité du traitement des MICI (maladies inflammatoires chroniques intestinales)",
+            "D) Gradation du niveau d’insuffisance pancréatique exocrine",
+            "E) Diagnostic étiologique des poussées de symptômes digestifs venant interrompre une phase de rémission de MICI"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En vous basant sur vos connaissances du métabolisme de la bilirubine, quels mécanismes peuvent être à l’origine des ictères ?",
+          "choix": [
+            "A) Augmentation de la production de bilirubine libre lors d’une hémolyse intravasculaire",
+            "B) Augmentation de la glucurono conjugaison de la bilirubine libre au cours de l’ictère du nouveau-né",
+            "C) Défaut de l’activité enzymatique de la glucuronyl transférase hépatique",
+            "D) Défaut d’excrétion de la bilirubine conjuguée vers les voies biliaires",
+            "E) Blocage de l’écoulement de la bile par compression du cholédoque"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le dosage de la créatorrhée qui permet d’évaluer l’excrétion azotée dans les selles peut être informative dans l’évaluation de :",
+          "choix": [
+            "A) L’insuffisance gastrique",
+            "B) Une entéropathie exsudative",
+            "C) Un bilan de malabsorption",
+            "D) Une hépatite chronique",
+            "E) Une infection à Helicobacter pylori"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le dosage de la stéatorrhée qui permet d’évaluer l’excrétion de lipides dans les selles :",
+          "choix": [
+            "A) Doit être réalisée sur des recueils de selles de 24 heures sur 3 jours consécutifs",
+            "B) Permet de justifier la mise en place d’un traitement substitutif par extraits pancréatiques dans l’insuffisance pancréatique exocrine",
+            "C) Est indiquée dans le suivi des maladies inflammatoires chroniques intestinales",
+            "D) Est indiquée dans le suivi de l’éradication d’une infection à Helicobacter pylori",
+            "E) Peut présenter un résultat augmenté en cas d’obstruction biliaire et de cholestase"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Devant les résultats de ce bilan biologique,\nSodium : 135 mmol/l (136-145)\nPotassium : 4,8 mmol/l (3,4-4,5)\nAlbumine : 18 g/l (35-52)\nTGO : 493 UI/l (0-35)\nTGP : 693 UI/l (0-28)\nPhosphatases alcalines : 264 UI/l (35-104)\nBilirubine totale : 478 µmol/l (0-21)\nBilirubine conjuguée : 408 µmol/l (< 5)\nGGT : 196 UI/l (0-40)\nCRP : 5 µmol/l (<5)\nVous évoquez :",
+          "choix": [
+            "A) Une cholestase",
+            "B) Un ictère",
+            "C) Un syndrome inflammatoire",
+            "D) Une cytolyse hépatocytaire",
+            "E) Une déshydratation intracellulaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le remodelage osseux, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) La protéine RANK est une protéine soluble cytoplasmique.",
+            "B) La protéine RANK régule la différenciation et la survie des ostéoclastes.",
+            "C) Dans l’os, l’ostéoprotégérine (OPG) active les ostéoclastes matures en inhibant leur apoptose.",
+            "D) OPG, récepteur leurre, appartient à la famille des récepteurs du TNF.",
+            "E) La cytokine IL-6 stimule la résorption osseuse en activant la synthèse de RANKL."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes concernant le métabolisme osseux, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "choix": [
+            "A) L’os cortical, essentiellement situé dans les os longs, est constitué d’ostéones.",
+            "B) Les ostéoblastes sont des cellules volumineuses plurinucléées.",
+            "C) La phase minérale de la matrice extracellulaire est principalement composée de collagène de type I.",
+            "D) L’ostéopontine (OPN) joue un rôle dans la transduction des signaux de stress mécanique et dans le déclenchement du remodelage osseux.",
+            "E) La calcitonine, fabriquée par la glande thyroïde, agit directement sur l’ostéoclaste en modulant négativement son activité."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une jeune fille d’origine Marocaine est hospitalisée dans le cadre du suivi de sa beta-thalassémie de gravité intermédiaire. Le bilan martial montre une sidérémie à 29 µmol/L (N: 12 - 24 μmol/L), une transferrinémie à 25 µmol/L (N: 27 - 31 µmol/L) et une ferritine à 420 μg/L (N: 13 - 68 μg/L). La numération globulaire montre une hémoglobine à 10,5 g/dL (N: 12,0 – 15,0 g/dL) avec un volume globulaire moyen à 70 µm3 (N: 85 – 95 µm3). Le bilan biochimique montre une érythropoïétine à 75 µg/L (N: 25 - 45 μg/L), une bilirubine à 42 µmol/L (N: ≤ 17 μmol/L) et une uricémie à 480 µmol/L (N: 143 - 339 μmol/L).",
+          "choix": [
+            "A) L’érythropoïèse est augmentée mais inefficace.",
+            "B) L’hyperuricémie est due à une augmentation du catabolisme des bases pyrimidiques.",
+            "C) La bilirubine élevée provient de la dégradation accrue de l’hémoglobine.",
+            "D) La ferritine est relarguée par les macrophages activés.",
+            "E) On attend une haptoglobine augmentée chez cette patiente."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un homme de 51 ans consulte pour une asthénie et des arthropathies. Le bilan martial montre une sidérémie à 45 µmol/L (N: 14 - 28 μmol/L), une transferrinémie à 25 µmol/L (N: 25 - 35 µmol/L) et une ferritine à 950 μg/L (N:\n50 - 350 μg/L). La numération globulaire montre une hémoglobine à 15,3 g/dL (N: 13,0 – 17,5 g/dL) avec un volume globulaire moyen et une teneur corpusculaire moyenne en hémoglobine normaux. Le bilan biochimique montre une légère augmentation des transaminases.",
+          "choix": [
+            "A) Le coefficient de saturation de la transferrine est de 60%.",
+            "B) Le bilan évoque une surcharge en fer par cytolyse hépatique.",
+            "C) Le bilan évoque une anémie hémolytique.",
+            "D) Chez ce patient, la surcharge en fer est associée à une hyper-absorption digestive du fer et une augmentation de son relargage des macrophages.",
+            "E) Une homozygotie 282Y (gène HFE) confirme votre diagnostic."
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la transferrine :",
+          "choix": [
+            "A) C’est une glycoprotéine dimérique synthétisée par le foie.",
+            "B) Elle présente 4300 sites de fixation pour le fer.",
+            "C) Sa synthèse est augmentée lorsque la concentration de fer tissulaire est élevée.",
+            "D) Sa concentration subit des variations circadiennes.",
+            "E) En condition physiologique, son coefficient de saturation est supérieur à 50%."
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la régulation du métabolisme tissulaire du fer :",
+          "choix": [
+            "A) En cas d’augmentation de la concentration intracellulaire de fer, la synthèse de ferroportine est diminuée.",
+            "B) Lors de la diminution de la concentration de fer au niveau cellulaire, la synthèse de DMT1 (divalent metal transporter 1) est augmentée.",
+            "C) L’hepcidine est considérée comme une hormone hypersidérémiante.",
+            "D) En cas d’hypoxie ou d’anémie, la synthèse d’hepcidine est inhibée.",
+            "E) En cas d’inflammation, l’augmentation de la synthèse d’hepcidine permettra une libération massive de fer dans le sang."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le métabolisme de l’hème :",
+          "choix": [
+            "A) La synthèse de l’hème est conditionnée par la présence de glycine et le fonctionnement du cycle de Krebs",
+            "B) L’activité de l’enzyme ALA synthase hépatique est retro-inhibée par la présence d’hème",
+            "C) L’hème est constitutif des cytochromes",
+            "D) Les porphyries sont des affections héréditaires dues à des déficits de certaines enzymes du catabolisme de l'hème",
+            "E) La maladie de Gilbert s’accompagne d’un ictère à bilirubine libre"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant le métabolisme des bases puriques et pyrimidiques :",
+          "choix": [
+            "A) Les nucléotides puriques sont caractérisés par une biosynthèse complexe régulée par l'HMG-CoA réductase",
+            "B) Le déficit de catabolisme des purines est une cause d’hyperuricémie et de goutte",
+            "C) Certaines hyperuricémies peuvent être secondaires à une suractivité de la PRPP synthétase",
+            "D) L'allopurinol est un traitement de la goutte qui diminue la formation d'acide urique en inhibant la xanthine oxydase",
+            "E) La formation de lithiase urique peut être limitée par l'ingestion prolongée de d'eau bicarbonatée"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Lorsque vous prescrivez un bilan biologique sanguin pour une Exploration d’une Anomalie Lipidique (EAL) pour un patient qui ne présente pas de dyslipidémie, les résultats que vous obtiendrez seront :",
+          "choix": [
+            "A) Une concentration de LDL obtenue après dosage sanguin des LDL.",
+            "B) Une concentration de triglycérides obtenue après dosage sanguin des triglycérides.",
+            "C) Une concentration de HDL obtenue après un calcul effectué selon la formule de Friedewald.",
+            "D) Un aspect du sérum après décantation.",
+            "E) Une concentration de Lp(a) obtenue après dosage sanguin de cette lipoparticule Lp(a)."
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14,
+          "neutralized": [
+            "E"
+          ]
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "M.G. se présente aux urgences médicales pour une douleur thoracique constrictive irradiant dans les 2 bras et la mâchoire, évoluant depuis 120 minutes et s’accompagnant d’une dyspnée.\nM.G. est connu pour présenter un diabète de type 2 non équilibré et une dyslipidémie de type IV selon la classification de Fredrickson. Il a par ailleurs un Indice de Masse Corporelle à 30 kg/m2 associé à une augmentation du périmètre abdominal au-delà des valeurs seuil attendues chez les hommes.",
+          "choix": [
+            "A) Il est probable que la valeur de troponine T cardiaque ultra-sensible (cTnTus) dosée à l’arrivée de M.G. aux urgences sera inférieure à la valeur seuil (donc non élevée).",
+            "B) Si un dosage de troponine T cardiaque ultra-sensible (cTnTus) réalisé plus de 4 heures après le début des symptômes donne une valeur inférieure à la valeur seuil (donc non élevée), le diagnostic de nécrose myocardique est très peu probable.",
+            "C) Vous demanderez un dosage sanguin des peptides natriurétiques pour vous orienter sur un diagnostic d’insuffisance cardiaque à l’origine de la dyspnée chez M.G.",
+            "D) M.G. présente un syndrome métabolique.",
+            "E) Selon le profil de dyslipidémie connue chez M.G., vous trouverez une élévation isolée des LDL après demande d’une EAL à jeun depuis 12 heures chez ce patient. DFGSM3 H.R. Biophysique le vendredi 21 avril 2023 10h51 à 11h11"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15,
+          "neutralized": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296237569-66a73c2557e3a8",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La scintigraphie des voies dopaminergiques présynaptiques ou DaTSCAN :",
+          "choix": [
+            "A) Est anormale dans la maladie de Parkinson.",
+            "B) Doit être prescrite devant toute suspicion de maladie de Parkinson.",
+            "C) Est anormale chez un patient présentant un tremblement essentiel.",
+            "D) Est un examen utilisant le technétium comme radiomarqueur.",
+            "E) Est un examen justifiant une \"protection\" de la thyroide"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "À propos de la scintigraphie osseuse :",
+          "choix": [
+            "A) Elle utilise les biphosphonates marqués au 99mTc",
+            "B) L’examen se déroule en trois temps : temps vasculaire, temps tissulaire et temps osseux",
+            "C) Les principales indications sont : orthopédie, rhumatologie et cancérologie",
+            "D) Elle permet de faire le diagnostic de métastases osseuses",
+            "E) Elle permet de faire le diagnostic de fracture de fatigue"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les médicaments radiopharmaceutiques (MRP)",
+          "choix": [
+            "A) Un MRP comprenant un radionucléïde émetteur ß+ est utilisé uniquement à usage diagnostique",
+            "B) Le 99mTc est produit à l'aide d'un cyclotron",
+            "C) La préparation des MRP technétiés comprend une étape de réduction puis une étape de complexation du ligand au 99mTc",
+            "D) Les préparations de MRP technétiés sont contrôlées avant administration, le plus souvent par filtration",
+            "E) Le 18F-FDG est un MRP fabriqué in situ dans le service de médecine nucléaire"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la scintigraphie myocardique, on peut dire que :",
+          "choix": [
+            "A) c’est un examen irradiant",
+            "B) c’est un examen qui apporte des informations précises sur l’anatomie coronarienne",
+            "C) c’est un examen qui permet de différencier ischémie et infarctus",
+            "D) c’est un examen qui permet de préciser le pronostic cardiaque du patient",
+            "E) c’est un examen qui permet de mesurer la fraction d’éjection ventriculaire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Imagerie par Tomographie d’Émission de Positons",
+          "choix": [
+            "A) La production de 18F nécessite l’utilisation d’un cyclotron.",
+            "B) Cette modalité d’imagerie repose sur une interaction « rayonnement- matière », dite réaction de « réaction d’annihilation ».",
+            "C) Cette technique d’imagerie permet d’explorer une voie métabolique sans la perturber.",
+            "D) En cancérologie, on utilise un analogue du glucose marqué au 18F car la captation est spécifique de la malignité.",
+            "E) La TEP au 18FDG impose d’être à jeun."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296240096-5a82c52a2474d8",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "Madame MS, 40 ans, réalise un bilan d’extension d’un cancer mammaire droit:",
+      "order": 4,
+      "questions": [
+        {
+          "id": 24,
+          "type": "QRP",
+          "contexte": "",
+          "question": "L’image ci jointe correspond à :",
+          "choix": [
+            "A) une TEP au F-18 FDG",
+            "B) une TEP au F-18 DOPA",
+            "C) une IRM corps entier",
+            "D) une scintigraphie osseuse",
+            "E) une TDM corps entier"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "maxReponses": 1,
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q24.png?v=1786296240524"
+          ]
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’image suivante correspond à une coupe:",
+          "choix": [
+            "A) En incidence coronale",
+            "B) En incidence axiale",
+            "C) En incidence sagittale",
+            "D) En fusion TEP/TDM",
+            "E) En fusion TEP/IRM"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25.jpg?v=1786296240932"
+          ],
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Sur cet coupe on visualise:",
+          "choix": [
+            "A) Le rachis en TDM en incidence coronale",
+            "B) Le squelette en TDM en incidence sagittale",
+            "C) Des remaniements pathologiques du rachis dorsal",
+            "D) Un dispositif intra-uterin en incidence TDM axiale",
+            "E) Le rachis en IRM pondéré T2"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q26.png?v=1786296241435"
+          ],
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les fixations basi- cervicales bilatérales correspondent sur ces images à:",
+          "choix": [
+            "A) Des faux positifs de la TEP au F-18 FDG",
+            "B) Des faux négatifs de la TEP au F-18 FDG",
+            "C) Des ganglions cervicaux bilatéraux hyperfixants",
+            "D) De la graisse brune fixant le FDG",
+            "E) Des artefacts de mouvement entre la TEP et la TDM"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27.jpg?v=1786296241894"
+          ]
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les fixations non pathologiques visibles sur cet examen TEP au FDG sont:",
+          "choix": [
+            "A) L’encéphale",
+            "B) La graisse brune",
+            "C) Les pyélons",
+            "D) La vessie",
+            "E) La formation mammaire droite DFGSM3 H.R. Histologie le vendredi 21 avril 2023 de 10h22 à 10h32"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28.png?v=1786296242373"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296242881-a62f74b8d675f",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'histologie de l’hypophyse et de l'hypothalamus et de la thyroïde",
+          "choix": [
+            "A) L'adénohypophyse a pour origine embryologique l'ectoderme oral",
+            "B) L'adénohypophyse contient des cellules glandulaires qui peuvent donner des adénomes secrétant de la prolactine",
+            "C) Les axones qui traversent la neuro-hypophyse possèdent des expansions cytoplasmiques, les corps de Herring (flèches), qui stockent les hormones synthétisées au niveau de l'hypothalamus",
+            "D) La thyroïde nait d'un diverticule endodermique qui se forme à la base de la langue",
+            "E) La thyroïde comprend des cellules glandulaires, les thyréocytes, agencées en cordons."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q29.png?v=1786296243370"
+          ]
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la thyroïde, de la parathyroïde et de la surrénale",
+          "choix": [
+            "A) La photographie de microscopie optique montre une thyroïde au repos.",
+            "B) Les cellules C de la thyroïde forment des ilots glandulaires dans le tissu conjonctif.",
+            "C) Les cellules glandulaires sombres dans la parathyroïde correspondent à des cellules en phase de repos.",
+            "D) Sur la photographie on observe deux régions bien distinctes macroscopiquement : la corticosurrénale et la médullosurrénale.",
+            "E) Sur la photographie ci-dessous d'une microscopie optique de la corticosurrénale on observe que les cellules de la région fasciculée sont plus claires que les cellules de la région glomérulée"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q30.png?v=1786296244081",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q30_1.jpg?v=1786296244383"
+          ]
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la surrénale et des paraganglions",
+          "choix": [
+            "A) Les cellules de la région fasciculée de la corticosurrénale sont claires en raison de la présence de nombreuses vacuoles remplies de glycogène.",
+            "B) Les phéochromocytes sont des cellules contenant des vésicules à cœur dense (ou granules neurosecretoires).",
+            "C) La médullosurrénale est un paraganglion",
+            "D) Les cellules neuroendocrines des paraganglions forment des synapses avec des terminaisons nerveuses.",
+            "E) Les paraganglions sympathiques synthétisent des cathécolamines."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des glandes endocrines",
+          "choix": [
+            "A) L'adénohypophyse est vascularisée par un système porte",
+            "B) Cette photographie de microscopie optique d'hypophyse colorée par le tétrachrome d'Herlant montre des cellules glandulaires avec des affinités tinctoriales variables reflétant la diversité des hormones sécrétées.",
+            "C) Cette photographie macroscopique montre une surrénale",
+            "D) Sur cette photographie de thyroïde, La flèche marque la substance colloide.",
+            "E) La parathyroide secrète la parahormone qui est une hormone hypocalcémiante"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q32.png?v=1786296245328",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q32_1.jpg?v=1786296245563"
+          ]
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des glandes endocrines",
+          "choix": [
+            "A) La médullosurrénale a pour origine embryologique les crêtes neurales",
+            "B) Sur ce schéma du cortex surrénalien on distingue une région avec des cellules qui forment des sphères, il s'agit de la zone glomérulée",
+            "C) La zone glomérulée secrète l'aldostérone",
+            "D) Ce schéma représente l'organisation à l'étage cellulaire d'un paragangliome",
+            "E) Le système neuroendocrinien diffus regroupe des cellules neuroendocrines situées dans différents organes DFGSM3 RVU Anatomie, Radiologie, Histologie le jeudi 20 avril 2023 de 10h00 à 10h35"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q33.png?v=1786296246132",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q33_1.png?v=1786296246382"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296246907-e0bf3db6b1c8f",
+      "type": "SQI",
+      "title": "DL 2",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies :",
+          "choix": [
+            "A) La flèche A désigne le cortex rénal",
+            "B) La flèche B désigne la médullaire rénale",
+            "C) La flèche C désigne le sinus rénal",
+            "D) La médullaire rénale est plus hypoéchogène que le cortex rénal. Il existe à l'état normal une différenciation cortico-médullaire.",
+            "E) À l'état normal, en échographie, les cavités pyélocalicielles intra-rénales ne sont pas visibles."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q34.png?v=1786296248008"
+          ]
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies :",
+          "choix": [
+            "A) La radiographie est prise debout",
+            "B) On visualise un niveau hydro-aérique dans la poche à air gastrique",
+            "C) La patiente porte un dispositif intra utérin",
+            "D) On visualise une dilatation des cavités pyélocalicielles du rein gauche",
+            "E) On visualise une lithiase en projection de l’uretère lombaire gauche"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q35.png?v=1786296248762"
+          ]
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions vraies :",
+          "choix": [
+            "A) L’examen présenté est une cystographie rétrograde",
+            "B) Cet examen montre un reflux vésico-urétéral bilatéral",
+            "C) La flèche A désigne le bassinet gauche",
+            "D) La flèche B désigne le groupe caliciel inférieur droit",
+            "E) La flèche C désigne l’uretère pelvien gauche"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q36.png?v=1786296249385"
+          ]
+        },
+        {
+          "id": 37,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez les structures désignées par les flèches A, B, C, D et E (menu déroulant)\nÉlément à associer Réponse attendue\nA Veine rénale gauche\nB Veine cave inférieure\nC Artère mésentérique supérieure\nD Pancréas\nE Foie",
+          "choix": [
+            "Veine rénale gauche",
+            "Veine cave inférieure",
+            "Artère mésentérique supérieure",
+            "Pancréas",
+            "Foie"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 4,
+          "items": [
+            {
+              "id": "item-1786296251157-9e2b8688de9bc8",
+              "label": "A",
+              "correctAnswer": "Veine rénale gauche"
+            },
+            {
+              "id": "item-1786296251281-a1c56028edece8",
+              "label": "B",
+              "correctAnswer": "Veine cave inférieure"
+            },
+            {
+              "id": "item-1786296251406-4829fc68ec5f8",
+              "label": "C",
+              "correctAnswer": "Artère mésentérique supérieure"
+            },
+            {
+              "id": "item-1786296251529-b21dbcebdeaa68",
+              "label": "D",
+              "correctAnswer": "Pancréas"
+            },
+            {
+              "id": "item-1786296251654-153a2a2568ccf",
+              "label": "E",
+              "correctAnswer": "Foie"
+            }
+          ],
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q37.png?v=1786296250369"
+          ]
+        },
+        {
+          "id": 38,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Précisez pour chaque image à quel temps a été réalisé l’acquisition du scanner (menu déroulant)\nÉlément à associer Réponse attendue\nA Acquisition au temps excrétoire ou tardif après injection de produit de contraste B Acquisition au temps portal après injection de produit de contraste\nC Acquisition au temps artériel après injection de produit de contraste\nD Acquisition sans injection de produit de contraste",
+          "choix": [
+            "Acquisition au temps excrétoire ou tardif après injection de produit de contraste",
+            "Acquisition au temps portal après injection de produit de contraste",
+            "Acquisition au temps artériel après injection de produit de contraste",
+            "Acquisition sans injection de produit de contraste",
+            "E) "
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 5,
+          "items": [
+            {
+              "id": "item-1786296252212-192c9a01c8a65",
+              "label": "A",
+              "correctAnswer": "Acquisition au temps excrétoire ou tardif après injection de produit de contraste"
+            },
+            {
+              "id": "item-1786296252340-10b5159c7f387",
+              "label": "B",
+              "correctAnswer": "Acquisition au temps portal après injection de produit de contraste"
+            },
+            {
+              "id": "item-1786296252466-f46a1da475999",
+              "label": "C",
+              "correctAnswer": "Acquisition au temps artériel après injection de produit de contraste"
+            },
+            {
+              "id": "item-1786296252594-1574d5ad5b12",
+              "label": "D",
+              "correctAnswer": "Acquisition sans injection de produit de contraste"
+            }
+          ],
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q38.png?v=1786296251825"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296252709-f2ddf5e1384b4",
+      "type": "SQI",
+      "title": "DL 3",
+      "description": "",
+      "order": 7,
+      "questions": [
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) L’annotation 1 marque des corpuscules rénaux",
+            "B) L’annotation 2 marque une pyramide de Malpighi",
+            "C) L’annotation 3 marque des pyramides de Ferrein",
+            "D) Les tubules contournés se situent dans la substance médullaire",
+            "E) Les corpuscules rénaux se situent dans la substance médullaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q39.png?v=1786296253856"
+          ]
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) L’annotation 1 marque une artériole afférente",
+            "B) L’annotation 2 marque un glomérule capillaire",
+            "C) L’annotation 3 marque une veinule capillaire post glomérulaire",
+            "D) L’annotation 4 marque le réseau capillaire peri- tubulaire",
+            "E) Les cellules endothéliales des capillaires glomérulaires possèdent des pores."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q40.png?v=1786296254877"
+          ]
+        },
+        {
+          "id": 41,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) Le schéma représente la barrière de filtration glomérulaire.",
+            "B) L’annotation 1 marque l’endothélium capillaire fenêtré.",
+            "C) La membrane basale glomérulaire (annotée 2) correspond à la fusion de la membrane basale des capillaires avec le feuillet viscéral de la capsule de Bowman.",
+            "D) L’annotation 3 marque un podocyte.",
+            "E) Les pieds des podocytes sont attachés entre eux par des zonulas occludens."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q41.png?v=1786296255956"
+          ]
+        },
+        {
+          "id": 42,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein et des voies urinaires",
+          "choix": [
+            "A) L’observation de globules rouges déformés dans les urines est en faveur d’une lésion vésicale .",
+            "B) Le tubule proximal du néphron possède une bordure en brosse.",
+            "C) Les cellules juxtaglomérulaires (qui synthétisent en autre la rénine) sont sensibles à la pression artérielle.",
+            "D) La muqueuse de l’uretère est plissée.",
+            "E) L’urothélium présente un nombre d’assise cellulaire plus important quand la vessie est pleine."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 43,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des voies urinaires et de l'appareil génital masculin",
+          "choix": [
+            "A) Les cellules les plus superficielles de l’urothélium, les cellules dites en ombrelle, ont une surface apicale qui peut augmenter de taille participant à l’adaptation de la paroi vésicale au remplissage.",
+            "B) Les corps caverneux sont composés de lacs sanguins séparés par du tissu conjonctif contenant des cellules musculaires lisses.",
+            "C) Les tubes séminifères possèdent un épithélium dit stratifié.",
+            "D) Les cellules de Sertoli sont les cellules nourricières qui participent à la maturation et à la libération des gamètes. V",
+            "E) Les cellules de Leydig forment des ilots dans le tissu conjonctif du testicule autour des tubes séminifères. V"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296257503-f4f79850685388",
+      "type": "SQI",
+      "title": "DL 4",
+      "description": "Module uro-néphro DFGSM 3",
+      "order": 8,
+      "questions": [
+        {
+          "id": 44,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'ANATOMIE DES REINS",
+          "choix": [
+            "A) Le grand axe du rein est oblique en bas, en avant et en dehors.",
+            "B) Le bord interne portant le hile rénal est concave.",
+            "C) Le rein présente 2 faces concaves, une ventrale et une dorsale.",
+            "D) La médulla rénale est formée par les pyramides rénales.",
+            "E) La partie contournée du cortex rénal correspond à la partie la plus externe."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 45,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'ANATOMIE DES REINS",
+          "choix": [
+            "A) Le sinus rénal est une cavité qui contient la voie excrétrice.",
+            "B) Le fascia rénal est un feuillet dépendant du fascia superficialis.",
+            "C) Le feuillet dorsal du fascia rénal est séparé de la paroi par la graisse para-rénale.",
+            "D) Le rein est séparé de la glande surrénale par la lame intersurrénalo-rénale.",
+            "E) Le rein droit est presque entièrement sus-mésocolique."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 46,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'URETERE",
+          "choix": [
+            "A) La jonction pyélo-urétérale se projette en regard du processus transverse de L4.",
+            "B) L’uretère iliaque droit croise l’artère iliaque commune.",
+            "C) Les vaisseaux génitaux croisent l’uretère en regard de L3.",
+            "D) L’uretère lombaire est en rapport postérieur avec le nerf génito-fémoral.",
+            "E) L’uretère pelvien chemine en dehors de l’artère ombilicale."
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 47,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LA VESSIE",
+          "choix": [
+            "A) La vessie vide a une forme ovoïde.",
+            "B) La vessie est située entre les uretères et l’urètre.",
+            "C) L’urètre est un organe musculo-membraneux, canal excréteur de la vessie.",
+            "D) La vessie pleine a une forme de pyramide aplatie.",
+            "E) La vessie est un réservoir musculo-membraneux où s’accumule l’urine entre deux mictions."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 48,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LA VESSIE",
+          "choix": [
+            "A) Le trigone vésical se situe entre les 2 méats urétéraux et l’orifice urétral.",
+            "B) Le détrusor est le muscle de la paroi vésicale.",
+            "C) L’appareil sphinctérien urétral chez la femme est double, le sphincter strié entoure la partie initiale de l’urètre.",
+            "D) L’urètre féminin fait suite au col vésical, il a un trajet oblique en bas et en avant.",
+            "E) L’urètre chez la femme a pour rapports anatomiques la symphyse pubienne en avant et le vagin en arrière."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 49,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LES TESTICULES",
+          "choix": [
+            "A) Les testicules ont une double fonction : exocrine et endocrine.",
+            "B) La fonction exocrine des testicules permet la sécrétion des hormones sexuelles.",
+            "C) Les voies spermatiques permettent la conduction des spermatozoïdes du testicule à l’uretère.",
+            "D) Les testicules, situées dans les bourses, sont les glandes génitales mâles.",
+            "E) Le canal péritonéo-vaginal est un diverticule péritonéal qui est formé embryologiquement par la descente de la gonade mâle lors du passage inguinal."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 50,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LES TESTICULES",
+          "choix": [
+            "A) Les tubes séminifères contournés appartiennent aux voies spermatiques intra-testiculaires.",
+            "B) Les tubes séminifères droits appartiennent aux voies spermatiques extra-testiculaires.",
+            "C) Les voies spermatiques extra-testiculaires comportent successivement l’épididyme, le canal éjaculateur, le conduit déférent et la vésicule séminale.",
+            "D) La vésicule séminale n’appartient pas aux voies spermatiques extra-testiculaires.",
+            "E) L’épididyme est constitué d’une tête, d’un corps, et en extrémité postérieure d’une queue aplatie."
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 51,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LE CONDUIT DEFERENT",
+          "choix": [
+            "A) Le conduit déférent débute de la queue de l’épididyme jusqu’à la base de la prostate.",
+            "B) Le conduit déférent a une paroi très épaisse de palpation facile.",
+            "C) La vésicule séminale est un réservoir pour les spermatozoïdes et les sucs prostatiques (sperme) entre les éjaculations.",
+            "D) Le canal éjaculateur débouche dans l’urètre.",
+            "E) Les bourses sont séparées en deux par un raphé médian."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 52,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT LES TESTICULES",
+          "choix": [
+            "A) Le conduit déférent contient le cordon spermatique, les vaisseaux testiculaires et épididymaires.",
+            "B) Les vésicules séminales sont situées au-dessous de la prostate, en arrière de la vessie et en avant du rectum.",
+            "C) Le testicule est très sensible à l’ischémie.",
+            "D) Les vésicules séminales peuvent être explorées par le toucher rectal.",
+            "E) L’artère testiculaire se situe en regard de L2 sur la face ventrale de l’aorte abdominale."
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 53,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'URETRE",
+          "choix": [
+            "A) L’urètre masculin est formé de deux parties : l'urètre antérieur et l'urètre postérieur.",
+            "B) L’urètre postérieur comprend l’urètre prostatique et l’urètre membraneux.",
+            "C) L’urètre membraneux traverse le plancher pelvien",
+            "D) L’urètre antérieur est constitué par l’urètre spongieux.",
+            "E) Les glandes bulbo-urétrales permettent la lubrification de l’urètre spongieux."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

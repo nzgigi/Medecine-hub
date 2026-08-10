@@ -1,0 +1,673 @@
+{
+  "matiere": "Immunologie et médecine interne",
+  "slug": "immunologie-medecine-interne-s10",
+  "annee": 2023,
+  "title": "Immunologie et médecine interne - 2023",
+  "total_questions": 28,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "MMe A, 66 ans, est adressée en hospitalisation en raison d'une altération de l'état général. Ceci fait 4 semaines qu'elle se sent anormalement fatiguée. Elle a perdu 3 kg (poids actuel: 68 kg pour 1m60) car elle mange moins. La nuit, elle a fréquemment des sueurs abondantes. Le soir, elle se sent fébrile, et elle prend alors 1 gramme de paracétamol. Elle a pris de temps en temps sa température, retrouvée à plusieurs reprises entre 38° et 39° au cours des 10 derniers jours. Elle n'a pas d'antécédent significatif. Elle se plaint aussi de douleurs dans les cuisses, dans la région des deux épaules, et dans la mâchoire droite.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous faites l'examen physique de la patiente. Parmi les anomalies suivantes retrouvées chez la patiente, quelles sont les deux qui ont la plus forte valeur pour orienter le diagnostic étiologique de la fièvre chez cette patiente?",
+          "choix": [
+            "A) une adénopathie axillaire gauche de 0.5 cm",
+            "B) une tuméfaction douloureuse centimétrique de la tempe gauche récemment apparue, non pulsatile",
+            "C) un souffle systolique d'intensité 1/6 au foyer aortique principal, sans irradiation",
+            "D) un souffle systolique d'intensité 3/6 entendu à la face interne du bras droit",
+            "E) des douleurs à la palpation des cuisses"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "maxReponses": 2,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous suspectez une artérite à cellules géantes (ACG) chez cette patiente devant le souffle huméral et l'inflammation de l'artère temporale gauche. Quelles autres anomalies habituellement attribuables à l'ACG recherchez vous par l'interrogatoire ou l'examen physique.",
+          "choix": [
+            "A) une perte totale mais transitoire de la vision d'un oeil, spontanément résolutive",
+            "B) une amputation transitoire d'une partie du champ visuel",
+            "C) une diplopie",
+            "D) un larmoiement ophtalmique",
+            "E) un prurit conjonctival"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "critiques": [
+            "A"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le soir de son admission, la patiente présente une perte brutale de la vision de l'oeil droit. Vous évaluez le champ visuel de la patiente dans sa chambre: il y a une cécité totale de l'oeil droit, et la vision de l'oeil gauche est conservée. On va évoquer dans ce contexte (1 ou plusieurs réponses justes):",
+          "choix": [
+            "A) une neuropathie optique ischémique antérieure",
+            "B) une occlusion d'une branche de l'artère centrale de la rétine",
+            "C) une neuropathie inflammatoire rétro bulbaire",
+            "D) une panuvéite",
+            "E) une crise de glaucome aigue"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous appelez l'ophtalmologue de garde. Il est au bloc opératoire et ne pourra examiner votre patiente que dans une heure. Parmi les propositions suivantes, quelle est la meilleure réponse?",
+          "choix": [
+            "A) attendre l'avis de l'ophtalmologue et son diagnostic avant de débuter un traitement",
+            "B) délivrer immédiatement une dose de 20 mg de prednisone associé à une anticoagulation curative, corticothérapie à ajuster dans un deuxième temps",
+            "C) délivrer une dose de 20 mg de prednisone associée à une anti-agrégation plaquettaire, corticothérapie à ajuster dans un deuxième temps",
+            "D) délivrance immédiate de 50 mg de prednisone avec anticoagulation curative",
+            "E) délivrance immédiate d'au moins 70 mg de méthylprednisolone intraveineuse et de 250 mg d'aspirine"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous cherchez à confirmer le diagnostic d'artérite à cellules géantes. Quels sont les 3 examens paracliniques qui peuvent le plus contribuer à l'affirmation du diagnostic d'ACG chez cette patiente?",
+          "choix": [
+            "A) recherche d'ANCA",
+            "B) biopsie du nodule temporal gauche",
+            "C) doppler artériel des artères temporales et des troncs supra-aortiques",
+            "D) TEP scanner de l'aorte et de ses branches",
+            "E) angioscanner cérébral"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quelle anomalie témoignant de l'inflammation de l'artère temporale recherchez vous à l'échographie de l'artère temporale? (répondre en 2 mots)",
+          "choix": [],
+          "reponses": [
+            "halo hypoéchogène",
+            "halo hypoechogene",
+            "halo hypoechogène",
+            "halo hyperechogene",
+            "hypoechogénécité en halo",
+            "halo hypoéchogéne",
+            "Halo anéchogène",
+            "halo periarteriel",
+            "Halo hypoechogène",
+            "Halo hypo-échogène",
+            "halo hypoéchogene"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles caractéristiques de la biopsie d'artère temporale sont en faveur d'une artérite à cellules géantes?",
+          "choix": [
+            "A) un infiltrat de polynucléaires neutrophiles",
+            "B) un aspect de pan-artérite",
+            "C) la présence de cellules géantes mononucléées",
+            "D) la présence d'une nécrose fibrinoïde",
+            "E) une fragmentation de la limitante élastique interne"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QROC",
+          "contexte": "",
+          "question": "très rapidement, la patiente développe une intolérance neuropsychique majeure aux corticoïdes et vous souhaitez introduire\nun médicament puissant d'action rapide permettant de diminuer rapidement la corticothérapie. Quel médicament proposez vous (nom de la molécule, 1 seul mot)",
+          "choix": [],
+          "reponses": [
+            "tocilizumab",
+            "Tolicizumab"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296627648-755bface16e278",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Vous recevez en consultation un homme de 35 ans, poids de forme 70 kg, en raison d'une fatigue et dyspnée moindre effort. La fatigue évolue depuis 3 mois mais s'est rapidement aggravée depuis 10 jours. Depuis 2 mois il se plaint aussi d'arthralgies inflammatoires des poignets, des coudes, des genoux et de plusieurs articulations métacarpo-phalangiennes et interphalangiennes proximales des doigts.\nL'examen physique retrouve une tension artérielle à 160/100; poids 69 kg; des oedèmes des membres inférieurs prenant le godet jusqu'à mi-mollets; des râles crépitants dans les deux bases pulmonaires; une splénomégalie à 1 travers de doigt en inspiration profonde. Un subictère conjonctival.\nSon médecin lui a fait pratiquer un bilan qui montre:\nhémoglobine: 7 g/dl; réticulocytes: 300 G/L leucocytes: 2,8 G/L; neutrophiles: 1 G/L; lymphocytes: 0,7 G/L; monocytes: 0,7; basophiles: 0,1 G/L; éosinophiles: 0,3 G/L; plaquettes: 75 G/L.\ncréatininémie: 120 µmol/L\nTGO: 3N TGP 2N\nVS: 70 mm",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au vu de la clinique et du bilan biologique, on peut évoquer plusieurs diagnostics chez ce patient. Lesquels:",
+          "choix": [
+            "A) erythroblastopénie",
+            "B) anémie hémolytique",
+            "C) glomérulonéphrite",
+            "D) myocardite",
+            "E) leucémie aigue"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels examens prescrivez vous afin de confirmer l'hypothèse d'une anémie hémolytique chez ce patient?",
+          "choix": [
+            "A) dosage de G6PD (glucose-6 phospho dehydrogenase)",
+            "B) recherche d'agglutinines irrégulières",
+            "C) dosage d'haptoglobine",
+            "D) dosage de bilirubinémie",
+            "E) dosage des LDH"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous avez confirmé que ce patient présente bien une anémie hémolytique. Parmi les examens suivants, lesquels vous paraissent justifiés à ce stade?",
+          "choix": [
+            "A) test direct à l'anti-globuline",
+            "B) recherche d'ACAN",
+            "C) recherche d'ANCA",
+            "D) proteinurie des 24 heures ou ratio proteinurie/creatiniurie",
+            "E) recherche d'anti DNA natif"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "critiques": [
+            "D"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QROC",
+          "contexte": "",
+          "question": "La protéinurie est de 4 grammes par gramme de créatininurie. Il y a une hématurie ++ et des leucocytes + à la bandelette urinaire. Les ACAN sont positifs de même que les antiSSA, les anti Sm et les anti-RNP. Quel est le nom de la maladie qui peut expliquer l'ensemble des anomalies cliniques et biologiques chez ce patient?",
+          "choix": [],
+          "reponses": [
+            "lupus érythémateux disséminé",
+            "lupus érythémateux systémique",
+            "lupus systémique",
+            "lupus érythémateux systhémique",
+            "lupus aigue disséminé",
+            "Lupus compliqué d'une glomérulonéphrite",
+            "LED",
+            "lupus aigue systemique",
+            "Lupus érythématheux disséminé"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l'atteinte rénale, quelles sont les affirmations exactes?",
+          "choix": [
+            "A) le patient présente un syndrome néphrotique pur",
+            "B) le patient présente très probablement une glomérulonéphrite pauci-immune à croissants",
+            "C) le patient présente un syndrome néphrotique impur",
+            "D) il faut compléter le bilan par un examen cytobactériologique des urines",
+            "E) il n'y a pas d'indication à envisager une biopsie rénale car le diagnostic de glomérulonéphrite dans le cadre d'un lupus est évident"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La biopsie rénale a confirmé l'existence d'une glomérulonéphrite lupique de classe IV. Quelles sont les principes du traitement\ndu patient?",
+          "choix": [
+            "A) prescription d' IEC",
+            "B) corticothérapie fortement dosée",
+            "C) introduction rapide d'un immunosuppresseur majeur (par exemple mycophénolate)",
+            "D) prescription de chloroquine en première intention",
+            "E) prescription d'anti-inflammatoires non stéroïdiens"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le choix de l'immunosuppresseur s'est porté sur le mycophénolate-mofétil plutôt que sur le cyclophosphamide. Pour quelles raisons (trois réponses exactes)?",
+          "choix": [
+            "A) le mycophénolate mofétil est une thérapie ciblée et donc un meilleur choix que le cyclophosphamide",
+            "B) le cyclophosphamide est mutagène et peut induire des cancers",
+            "C) l'efficacité du traitement par mycophénolate-mofétil est nettement supérieure à celle du cyclophosphamide",
+            "D) le mycophénolate mofétil préserve la fertilité masculine",
+            "E) le cyclophosphamide a une toxicité gonadique que l'on souhaite éviter chez un sujet jeune"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296629553-d7e247ed0227c",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Mr B, 53 ans, consulte en raison de sinusites récidivantes. Depuis trois mois, il enchaine les problèmes de sinusite. Son médecin lui a prescrit une monothérapie par amoxicilline-acide clavulanique puis par levofloxacine à plusieurs reprises, avec peu d'efficacité, puis il a ajouté aux antibiotiques des cures courtes de prednisone qui ont amélioré transitoirement la situation, mais les corticoïdes deviennent de moins en moins efficace.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 16,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous recherchez à l'interrogatoire des symptômes qui puissent orienter le diagnostic de ce problème de sinusite. Quelle est la question la plus pertinente dans cette perspective?",
+          "choix": [
+            "A) avez vous perdu du poids?",
+            "B) avez vous mal à la tête?",
+            "C) Est-ce qu'il y a des croûtes sanglantes quand vous vous mouchez?",
+            "D) avez-vous des douleurs dans les muscles?",
+            "E) avez vous eu de la fièvre?"
+          ],
+          "reponses": [
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous vous posez la question d'une granulomatose avec polyangéite (GPA). Parmi les symptômes suivants, lesquels sont les plus évocateurs de cette maladie (6 réponses exactes)?",
+          "choix": [
+            "A) hyperesthésie du cuir chevelu",
+            "B) baisse brutale de l'acuité visuelle d'un oeil",
+            "C) douleur et rougeur d'un oeil",
+            "D) exophtalmie",
+            "E) douleur de la pyramide nasale",
+            "F) hypertension artérielle maligne",
+            "G) souffle systolique dans les régions sous clavières",
+            "H) purpura nécrotique des membres inférieurs",
+            "I) hémoptysies",
+            "J) douleur latérothoracique augmentant à l'inspiration profonde",
+            "K) dysurie",
+            "L) polyarthrite distale bilatérale et symétrique",
+            "M) otite moyenne à répétition"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E",
+            "H",
+            "I",
+            "M"
+          ],
+          "maxReponses": 6,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 18,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Parmi les biomarqueurs de cette maladie, quel est le plus spécifique? (répondre en 2 ou 3 mots)",
+          "choix": [],
+          "reponses": [
+            "ANCA ANTI-PR3",
+            "ANTICORPS ANTI-PR3",
+            "ANTI-PR3",
+            "ANCA ANTI PR3",
+            "ANTICORPS ANTI PR3",
+            "ANTI PR3",
+            "ANCA ANTI PRIII",
+            "ANTICORPS ANTI PRIII",
+            "ANTI PRIII",
+            "cANCA anti-PR3",
+            "cANCA anti PR3",
+            "c-ANCA anti PR3",
+            "c-ANCA anti-PR3",
+            "Ac anti-PR3",
+            "anti protéinase 3",
+            "Ac anti PR3",
+            "cANCA anti-proteinase 3",
+            "cANCA antiPR3",
+            "cANCA (anti-PR3)",
+            "c - ANCA / anti-PR3",
+            "cANCA, anti PR3",
+            "cAnca et anti-PR3",
+            "AC anti PR3",
+            "c-anca antiPR3",
+            "anticorps anti-PR3 (cANCA)",
+            "anticorps anti Proteinase 3",
+            "ANCA anti-proteinase 3",
+            "c-ANCA ciblant Protéinase3",
+            "les anti-PR3",
+            "cANCA anti-Pr3",
+            "C-ANCA anti PR3",
+            "ancitcorps anti PR3",
+            "c-anca anti PR3",
+            "anticorps anti protéinase3",
+            "ANCA cytoplasmiques anti PR3",
+            "cANCA anti proteinase 3",
+            "anti PR3 cANCA",
+            "anticorps anti-PR3 cytoplasmique",
+            "ANCA cytoplasmique anti-PR3",
+            "anticorps anti protéinase 3",
+            "Anticorps cytoplasmiques anti-PR3",
+            "Anti-PR3, c-ANCA",
+            "ANCA anti-protéinase 3",
+            "anticorps c-ANCA contre Protéinase 3",
+            "anticorps anti pPR3",
+            "C Anca / anti PR3",
+            "ANCAc (anti-PR3)",
+            "anticorps anti-protéinase 3",
+            "Auto-anticorps anti-PR3",
+            "c-ANCA (anti PR3)",
+            "c-ANCA = anti-PR3",
+            "cANCA anti protéinase 3"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786296632113-4b3734fae189a",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "1 Dossier Libre de 10 Questions (dont ,\n6QRM, 2QRU, 2QROC)",
+      "order": 4,
+      "questions": [
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Chez un patient suspect de vascularite, quels signes cliniques sont en faveur d'une vascularite associée aux ANCA plutôt qu'une vascularite des gros vaisseaux?",
+          "choix": [
+            "A) oligoarthrite",
+            "B) hémorragie intra-alvéolaire",
+            "C) sclérite",
+            "D) neuropathie optique ischémique antérieure aigue",
+            "E) melena"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments cliniques différencient la granulomatose avec polyangéite (GPA) de la granulomatose éosinophilique avec polyangéite (GEPA)?",
+          "choix": [
+            "A) la présence d' asthme au cours de la GEPA",
+            "B) la possibilité de multinévrite dans la GEPA mais pas dans la GPA",
+            "C) la rareté de l'atteinte rénale dans la GEPA",
+            "D) la possibilité de sténose des artères des membres supérieurs au cours de la GEPA",
+            "E) le risque élevé de neuropathie optique ischémique antérieure aigue au cours de la GEPA"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les maladies immuno-inflammatoires suivantes, lesquelles peuvent être responsables d'hypertension artérielle secondaire au diagnostic?",
+          "choix": [
+            "A) artérite à cellules géantes",
+            "B) granulomatose avec polyangéite",
+            "C) maladie de Takayasu",
+            "D) maladie de Behcet",
+            "E) lupus systémique (ou lupus érythémateux disséminé)"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les affections suivantes, lesquelles sont généralement non fébriles?",
+          "choix": [
+            "A) PTI",
+            "B) Leucémie lymphoïde chronique stade 0 de RAI (ou stade A de Binet)",
+            "C) maladie périodique",
+            "D) myélome multiple",
+            "E) syndrome myélodysplasique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 23,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Chez un patient présentant une polyarthrite des grosses et petites articulation, asymétrique, un purpura nécrotique des membres inférieurs et une créatinininémie à 178 μmol/l avec hématurie et protéinurie, quelle recherche d'auto-anticorps demandez vous? (donnez uniquement le nom de l'auto-anticorps)",
+          "choix": [],
+          "reponses": [
+            "anti-PR3",
+            "anti-proteinase 3",
+            "ANCA",
+            "anca",
+            "MPO",
+            "anti MPO",
+            "cANCA",
+            "ANCA (anticorps anti-cytoplasme des PNN)",
+            "anti-cytoplasme des polynucléaires neutrophiles",
+            "ANCA (mpo et pr3)",
+            "anti cytoplasme des polynucléaires neutrophiles",
+            "anti-MPO",
+            "ANCA = anticorps anti cytoplasme des polynucléaires",
+            "ac anti-MPO",
+            "anticorps anti cytoplasme des polynucleaires neutrophiles",
+            "Anticorps anti cytoplasme des polynucleaires (ANCA)",
+            "PR3"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 24,
+          "type": "QROC",
+          "contexte": "",
+          "question": "quelle est la cible moléculaire de l'anakinra?",
+          "choix": [],
+          "reponses": [
+            "récepteur de l'interleukine-1",
+            "IL-1",
+            "interleukine 1",
+            "interleukine-1",
+            "IL 1",
+            "récepteur de l'interleukine 1",
+            "IL1",
+            "il1",
+            "récepteur à l’interleukine 1",
+            "recepteurs a l'IL1 beta",
+            "anti IL 1",
+            "Récepteur de l'IL1",
+            "recepteur à l’interleukine 1",
+            "recepteur IL-1",
+            "anti IL-1",
+            "anti-IL-1",
+            "anti IL1",
+            "recepteur de IL1",
+            "IL1-R"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "parmi les anomalies cliniques suivantes, laquelle n'est pas attribuable à un lupus?",
+          "choix": [
+            "A) polyarthrite",
+            "B) céphalée",
+            "C) ulcérations buccales",
+            "D) splénomégalie",
+            "E) douleurs des sacroiliaques"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 26,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Chez un patient de 70 ans suspect de polyangéite microscopique avec purpura , multinévrite, sans atteinte rénale, anti-MPO positif, quel examen proposez vous pour confirmer la vascularite?",
+          "choix": [
+            "A) biopsie de peau",
+            "B) TEP scanner",
+            "C) biopsie rénale",
+            "D) biopsie neuro-musculaire",
+            "E) artériographie des membres inférieurs"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la biologie des maladies systémiques, on rencontre volontiers: (affirmations exactes?)",
+          "choix": [
+            "A) une hyperleucocytose au cours des collagénoses",
+            "B) une hyperleucocytose au cours des vascularites",
+            "C) une thrombopénie au cours du lupus systémique",
+            "D) une thrombopénie au cours de la polyangéite microscopique",
+            "E) une augmentation des IgA sériques au cours du purpura rhumatoïde"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "on peut confirmer le diagnostic d'ACG par:",
+          "choix": [
+            "A) un TEP scanner",
+            "B) une biopsie de nerf",
+            "C) une biopsie musculaire",
+            "D) une biopsie d'artère temporale",
+            "E) une échographie-doppler des artères temporales"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

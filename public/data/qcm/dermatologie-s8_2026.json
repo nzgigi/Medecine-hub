@@ -1,0 +1,343 @@
+{
+  "matiere": "Dermatologie",
+  "slug": "dermatologie-s8",
+  "annee": 2026,
+  "title": "Dermatologie - 2026",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Madame L, âgée de 70 ans, retraitée et ancienne agricultrice consulte pour une lésion pigmentée à la face supéro-externe de la jambe gauche. Cette lésion évolue depuis 1 an et a changé d’aspect. Elle aurait été traumatisée il y a 3 mois lors d’une chute.\nMme L. est fumeuse et a pour principaux antécédents une hypertension artérielle et une leucémie myéloïde chronique. Elle était blonde, elle a les yeux bleus et a subis dans son enfance des coups de soleil intenses lors de vacances au bord de mer.",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) élément(s) font suspecter le diagnostic de mélanome devant cette lésion ?",
+          "choix": [
+            "A) Le caractère asymétrique",
+            "B) L’ancienneté",
+            "C) Le caractère évolutif",
+            "D) Coloration inhomogène",
+            "E) Traumatisme 3 mois plus tôt"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) facteur(s) de risque de mélanome identifiez-vous chez cette patiente ?",
+          "choix": [
+            "A) Le sexe",
+            "B) La profession",
+            "C) Le tabagisme",
+            "D) Les antécédents de coup de soleil dans l’enfance",
+            "E) Le phototype"
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une exérèse sans marge a été réalisée confirmant le diagnostic de mélanome. Quel(s) élément(s) histopronostique(s) cherchez-vous dans le compte-rendu histologique ?",
+          "choix": [
+            "A) Epaisseur tumorale",
+            "B) Ulcération",
+            "C) Nécrose tumorale",
+            "D) Index mitotique",
+            "E) Naevus pré existant"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le compte rendu anatomo-pathologique est le suivant : « Mélanome de type SSM, ulcéré de niveau IV de Clark, et de 2,5 mm de Breslow avec un index mitotique de 35 mitoses par mm2. Exérèse complète, marge latérale de 3 mm et profonde de 4 mm ».\nParmi les affirmations suivantes, la (lesquelles) est (sont) juste(s) ?",
+          "choix": [
+            "A) Son épaisseur est égale à 4mm",
+            "B) Il est purement intra-épidermique",
+            "C) Une biopsie du ganglion sentinelle sera proposée",
+            "D) Une reprise chirurgicale sera proposée",
+            "E) Ce mélanome a débuté dans le derme puis s’est étendu à l’épiderme"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une reprise chirurgicale de la cicatrice à 2 cm est effectuée dans le mois. Quel(s) est (sont) le(s) risque(s) évolutif(s) pour cette patiente ?",
+          "choix": [
+            "A) Aucun risque de récidive, la guérison est constante après exérèse et marge élargie chirurgicale",
+            "B) Risque de récidive locale sur la cicatrice",
+            "C) Risque de métastases à distance",
+            "D) Risque de survenue d’un second mélanome",
+            "E) Risque de survenue d’un carcinome épidermoïde"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous la revoyez à 6 mois dans le cadre de sa surveillance dermatologique. En l’examinant, vous remarquez les lésions suivantes:\nQuel est votre diagnostic ?\n— 1 réponse est attendue —",
+          "choix": [
+            "A) Kératoses séborrhéiques",
+            "B) Mélanomes",
+            "C) Psoriasis",
+            "D) Carcinomes basocellulaires",
+            "E) Kératoses actiniques"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "maxReponses": 1,
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/dermatologie-s8/2026/q6.webp?v=1786370729082",
+            "/images/qcm/dermatologie-s8/2026/q6_1.webp?v=1786370729193"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous avez retenu le diagnostic de kératoses actiniques et avez opté pour un traitement par cryothérapie. La patiente est perdue de vue et se présente de nouveau à votre consultation, 5 ans après, pour une lésion de la main gauche de 25 x 30 mm. L’évolution aurait été progressive en 2 à 3 ans.\nQuelle est votre principale hypothèse ? ( 1seule réponse attendue)\n— 1 réponse est attendue —",
+          "choix": [
+            "A) Localisation cutanée de sa leucémie",
+            "B) Carcinome épidermoïde",
+            "C) Carcinome basocellulaire",
+            "D) Mélanome nodulaire",
+            "E) Verrue vulgaire"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "maxReponses": 1,
+          "correctionExplanation": "",
+          "order": 7,
+          "images": [
+            "/images/qcm/dermatologie-s8/2026/q7.webp?v=1786370735027"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370742748-90bba929e1e26",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 8,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quelles sont les 4 propositions exactes au sujet de l’acné ?",
+          "choix": [
+            "A) Elle débute classiquement dans l’enfance",
+            "B) Elle comprend classiquement des lésions inflammatoires et rétentionnelles",
+            "C) Il existe souvent une hyperséborrhée",
+            "D) Il faut rechercher des signes d’hyperandrogénie en cas de forme sévère",
+            "E) L’isotrétinoïne per os est un traitement des formes modérées à sévères"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "maxReponses": 4,
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 9,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la proposition exacte au sujet du purpura ?",
+          "choix": [
+            "A) Le purpura par fragilité capillaire s’observe fréquemment chez les adultes d'âge moyen",
+            "B) Il existe un nombre très restreint d'étiologies de purpura",
+            "C) Le purpura fulminans est une étiologie fréquente de purpura",
+            "D) Un bilan de purpura doit comprendre systématiquement un dosage des enzymes hépatiques",
+            "E) Le purpura disparait à la vitropression"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "la question est mal posée et la réponse est fausse; il faut l'annuler",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est votre diagnostic (2 mots), sachant qu’il s’agit d’une lésion chez un enfant de 6 mois, lésion apparue à l’âge de 1 mois, phase de croissance, puis stabilisation récente",
+          "choix": [],
+          "reponses": [
+            "Hémangiome infantile"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/dermatologie-s8/2026/q10.webp?v=1786370759709"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les facteurs environnementaux favorisant les poussées de psoriasis, vous retenez:",
+          "choix": [
+            "A) Les infections bactériennes",
+            "B) Certains médicaments",
+            "C) Un asthme ou une rhinite allergique",
+            "D) Une consommation importante d'alcool",
+            "E) Un choc émotionnel"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/dermatologie-s8/2026/q11.webp?v=1786370759879"
+          ]
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les modalités d'utilisation des dermocorticoïdes dans la dermatite atopique, vous retenez:",
+          "choix": [
+            "A) L'application doit être réalisée deux fois par jour sur les lésions",
+            "B) Une forme pommade est à privilégier pour les lésions suintantes",
+            "C) Un corticoïde d'activité moyenne peut être appliqué sur le visage",
+            "D) Le tacrolimus topique peut être utilisé en cas d'échec des dermocorticoïdes",
+            "E) Il est important de noter le nombre de tubes de produit utilisés lors des consultations de suivi"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/dermatologie-s8/2026/q12.webp?v=1786370760190"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder-1786370760234-863b66ed914978",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Vous voyez en consultation d'urgence de dermatologie Mme M., 74 ans pour une éruption prurigineuse.\nAncienne enseignante à la retraite, qui vit actuellement en EHPAD suite à une perte d'autonomie par maladie d'Alzheimer.\nElle présente comme autres antécédents une hypertension artérielle, un diabète de type 2 et une chirurgie de prothèse totale de genou.\nSon traitement au long cours comprend : LERCANIDIPINE, IRBESARTAN, METFORMINE et SITAGLIPTINE.\nElle est adressée par le médecin de l'EHPAD pour une dermatose prurigineuse, qui a débuté il y a 3 mois. Initialement, la patiente rapportait un prurit isolé, sans lésion cutanée mise en évidence. Depuis quelques semaines, apparition de ces lésions cutanées.",
+      "order": 3,
+      "questions": [
+        {
+          "id": 13,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel est selon vous le diagnostic le plus probable ?",
+          "choix": [],
+          "reponses": [
+            "une pemphigoide bulleuse"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 14,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Vous suspectez donc une pemphigoïde bulleuse. Quels sont les éléments cliniques et paracliniques qui argumentent ce diagnostic ?\n3 réponses justes attendues",
+          "choix": [
+            "A) Un signe de Nikolsky positif",
+            "B) Une atteinte muqueuse associée",
+            "C) La présence à l'histologie d'un clivage bulleux intra-épidermique",
+            "D) Des dépôts granuleux d'IgG et de complément le long de la jonction derme-épidermique",
+            "E) Une éosinophilie",
+            "F) La présence de pustules",
+            "G) La présence de bulles tendues",
+            "H) Des anticorps anti-BP180 positifs dans le sang",
+            "I) Des anticorps anti-DSG1 positifs dans le sang",
+            "J) Des anticorps anti-SIC en IFI standard"
+          ],
+          "reponses": [
+            "E",
+            "G",
+            "H"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels vont être les principaux éléments de votre prise en charge ?",
+          "choix": [
+            "A) Dermocorticoïdes de classe très forte",
+            "B) Alimentation riche en protéines",
+            "C) Surveillance tensionnelle et glycémique",
+            "D) Bains antiseptiques",
+            "E) Réhydratation intraveineuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

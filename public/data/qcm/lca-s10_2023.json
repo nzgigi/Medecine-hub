@@ -1,0 +1,316 @@
+{
+  "matiere": "Lecture critique d'article (LCA)",
+  "slug": "lca-s10",
+  "annee": 2023,
+  "title": "Lecture critique d'article (LCA) - 2023",
+  "total_questions": 15,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est l’objectif principal de l’étude.",
+          "choix": [
+            "A) Évaluer la sureté d’emploi de l’hydrochlorothiazide chez des patients ayant des antécédents de calculs rénaux.",
+            "B) Évaluer si l’hydrochlorothiazide prévient le risque d’apparition ou d’augmentation de taille de calculs rénaux ou de crises de coliques néphrétiques.",
+            "C) Évaluer si l’hydrochlorothiazide améliore le pronostic rénal de patients ayant un antécédent de calculs rénaux.",
+            "D) Évaluer si l’hydrochlorothiazide diminue la calcémie.",
+            "E) Évaluer si l’hydrochlorothiazide réduit le risque de recours à la lithotripsie."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence à la méthodologie de l’étude, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il s’agit d’une étude avec tirage au sort.",
+            "B) Il s’agit d’une étude contre placebo.",
+            "C) Il s’agit d’une étude multicentrique.",
+            "D) Il s’agit d’une étude internationale.",
+            "E) Il s’agit d’une étude prospective."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence au critère principal de l’étude, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il s’agit d’un critère composite.",
+            "B) Il s’agit d’un critère dont la survenue est évaluée sans connaitre le bras de la randomisation dans lequel les patients ont été tirés au sort.",
+            "C) Il s’agit d’un critère dont l’incidence a été estimée par les investigateurs avant la randomisation ce qui diminue la validité interne de l’étude.",
+            "D) Il s’agit d’un critère dont l’incidence a été estimée par les investigateurs avant la randomisation ce qui diminue la validité externe de l’étude.",
+            "E) Il s’agit d’un critère dont l’évaluation repose en partie sur un diagnostic fait par téléphone."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence aux éléments ayant permis le calcul de l’eﬀectif de patients à inclure nécessaire à la réalisation de l’étude, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Le calcul d’effectif a été fait en tenant compte d’un pourcentage de perdu de vue de 10%.",
+            "B) Le calcul d’effectif a été fait pour donner une puissance à l’étude de 80%.",
+            "C) Le calcul d’effectif a été fait en faisant l’hypothèse d’une incidence de la survenue du critère primaire de 45% après 3 ans de suivi dans le groupe traité par placebo.",
+            "D) Le calcul d’effectif a été fait en tenant compte du nombre de patients qui ne prendrait pas leur traitement au cours de l’étude.",
+            "E) Le calcul d’effectif a été fait en prenant un risque de 5% d’affirmer à tort qu’il y a une relation entre la dose d’hydrochlorothiazide et la survenue du critère primaire."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence aux éléments ayant permis le calcul d’effectif, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) L’hypothèse principale testée sur laquelle repose le calcul d’effectif est que les patients tirés au sort pour recevoir 50 mg d’hydrochlorothiazide auront une réduction du risque de survenue du critère primaire de 50%.",
+            "B) L’hypothèse principale testée sur laquelle repose le calcul d’effectif est que plus la dose d’hydrochlorothiazide administrée est forte, plus la réduction du risque de critère primaire est importante.",
+            "C) L’hypothèse principale testée sur laquelle repose le calcul d’effectif est la non infériorité de l’hydrochlorothiazide 12.5 mg par rapport au placebo sur le risque de survenue du critère primaire.",
+            "D) Le fait que les investigateurs ont prévu une analyse per protocole a influencé le calcul d’effectif.",
+            "E) Les auteurs ont accepté avant le démarrage de l’étude d’avoir 20% de risque de dire à tort que l’hypothèse testée n’est pas vérifiée."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence à l’évaluation du critère primaire, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Cette évaluation reposait en partie sur une consultation téléphonique.",
+            "B) Cette évaluation se faisait sans connaitre le résultat du tirage au sort.",
+            "C) Cette évaluation était faite par un comité d’experts tenus dans l’ignorance du résultat du tirage au sort.",
+            "D) L’adjudication du critère primaire se faisait en référence à une liste de critères prédéfinis détaillés dans l’article.",
+            "E) Il était prévu une analyse intermédiaire pour juger de la possibilité et de l’intérêt de poursuivre l’étude."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence à la population de l’étude, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Les caractéristiques des patients inclus présentés dans le tableau 1 suggèrent que les résultats de l’étude peuvent être transposés au reste de la population dans le monde.",
+            "B) Il y a des différences notamment sur la proportion de femmes selon les groupes tirés au sort qui montrent que le tirage au sort a été mal fait ou n’a pas été respecté.",
+            "C) Les auteurs ont comparé à l’aide de test statistique les caractéristiques des patients à l’inclusion et au cours du suivi et ces comparaisons sont présentés dans l’article.",
+            "D) Une majorité des patients « screenés » n’ont pas été inclus dans l’étude ce qui représente un biais et diminue la validité interne de l’étude.",
+            "E) La prévalence des patients ayant une hypercalciurie est plus faible dans le groupe placebo ce qui a pu influencer les résultats observés au cours de l’étude."
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence aux résultats de l’étude, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il n’a pas été retrouvé de relation dose-effet significative de l’hydrochlorothiazide sur le risque de survenue du critère primaire.",
+            "B) Il a été observé une diminution de la fréquence de survenue du critère « récurrence radiologique des calculs » dans le groupe traité par hydrochlorothiazide 50 mg par rapport au groupe placebo.",
+            "C) Il a été observé une diminution de la fréquence de survenue du critère « récurrence radiologique des calculs » dans le groupe traité par hydrochlorothiazide 25 mg par rapport au groupe placebo.",
+            "D) Il a été observé une diminution de la fréquence de survenue du critère « récurrence radiologique des calculs » dans le groupe traité par hydrochlorothiazide 12.5 mg par rapport au groupe placebo.",
+            "E) Le résultat principal de l’étude est que la dose de 50 mg d’hydrochlorothiazide ne réduit pas le risque de survenue du critère primaire par rapport au groupe placebo."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence aux résultats de l’étude, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Dans cette étude, on observe que la fréquence des hypokaliémies augmente avec la dose d’hydrochlorothiazide.",
+            "B) Dans cette étude, on observe que l’augmentation des doses d’hydrochlorothiazide au-delà de 25 mg n’est pas associée à une réduction supplémentaire du risque de récurrence radiologique des calculs rénaux.",
+            "C) Cette étude permet d’exclure l’effet de l’hydrochlorothiazide sur le risque de formation des calculs rénaux avec un risque de 20 % que cette conclusion soit erronée.",
+            "D) Cette étude n’amène pas d’argument porté par un fort niveau de preuve en faveur de la prescription d’hydrochlorothiazide chez les patients qui ont une hypertension artérielle et des antécédents de coliques néphrétiques par calculs calciques.",
+            "E) La fréquence de survenue du critère primaire dans le groupe placebo a été supérieure à celle attendue ce qui peut modifier la puissance de l’étude."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il a été rapporté dans la littérature dans une étude de pharmaco-épidémiologie portant sur 500 000 patients hypertendus environ un eﬀet protecteur (réduction du risque de 26%) de la prise de thiazidiques sur les évènements cliniques ayant traits à la présence de calculs rénaux et cela sans référence à la dose utilisée. En référence au résultat principal de l’étude analysée dans cette épreuve, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Le résultat principal de l’étude peut être expliqué par la présence d’un effet de seuil à partir de la posologie de 25 mg dans l’action protectrice de l’hydrochlorothiazide sur le risque de survenue du critère primaire.",
+            "B) Le résultat principal de l’étude peut être expliqué par une puissance insuffisante pour montrer une différence de l’ordre de 26% du risque d’avoir un évènement clinique en lien avec un calcul rénal.",
+            "C) La différence de résultat entre l’étude de pharmaco-épidémiologie et le résultat de l’étude randomisée présentée ici démontre que dans une des deux études le recueil des données n’a pas été bien fait.",
+            "D) Le résultat de l’étude de pharmaco-épidémiologie diminue la validité interne de l’étude présentée",
+            "E) Le résultat de l’étude de pharmaco-épidémiologie diminue l’applicabilité de l’étude présentée."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "En référence à l’analyse présentée dans la figure 2, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Il s’agit d’une analyse en sous-groupe.",
+            "B) Il est présenté la probabilité d’une interaction selon les sous-groupes.",
+            "C) L’existence d’une relation dose-effet sur le critère primaire est analysée dans chaque sous-groupe.",
+            "D) L’existence d’une relation dose-effet sur le critère primaire est analysée dans chaque sous-groupe en tenant compte de la multiplicité des tests réalisés.",
+            "E) Cette analyse en sous-groupe suggère que le résultat principal de l’étude est observé de façon homogène dans l’ensemble de la population ce qui renforce la validité du résultat principal de l’étude."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il y a eu moins de perdu de vue dans l’étude que ce qui était attendu. Par rapport à cette donnée, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Les perdus de vue diminuent la comparabilité des groupes constitués par le tirage au sort.",
+            "B) Les perdus de vue diminuent la validité interne de l’étude.",
+            "C) Compte tenu du nombre de perdus de vue attendu dans l’étude, la puissance de 80% qui était prévue ne pouvait pas être atteinte.",
+            "D) Le fait que les perdus de vue aient été moins nombreux que prévu a augmenté la puissance de l’étude.",
+            "E) Le fait que les perdus de vue aient été moins nombreux que prévu a augmenté le risque de première espèce."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les résultats sur la récurrence radiologique des calculs rénaux présentés page 786, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) L’article décrit une diminution du risque de récurrence radiologique des calculs rénaux chez les patients tirés au sort pour recevoir 25 mg d’hydrochlorothiazide ou 50 mg d’hydrochlorothiazide qui est signiﬁcatif si l’on admet un risque de première espèce de 5%.",
+            "B) Ces résultats suggèrent qu’il n’y a pas de relation dose -effet entre la dose de 25 mg et la dose de 50 mg d’hydrochlorothiazide sur ce critère.",
+            "C) Ces résultats ne constituent pas le résultat principal de l’étude car la récurrence radiologique des calculs rénaux n’est pas le critère primaire de l’étude.",
+            "D) Ces résultats doivent être considérés comme exploratoires.",
+            "E) Ces résultats suggèrent que l’hypothèse d’un effet protecteur des diurétiques thiazidiques à dose adaptée vis-à-vis du risque de calculs rénaux n’est pas écartée."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Il a été noté un risque de cancer cutané, dans des études de pharmaco-épidémiologie avec l’hydrochlorothiazide. Ceci a fait l’objet d’une alerte des autorités de santé. On sait d’autre part que l’hydrochlorothiazide peut provoquer une hypokaliémie. En référence aux eﬀets indésirables présentés dans l’étude : quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) La puissance de l’étude est suffisante pour détecter un effet indésirable rare mais grave.",
+            "B) Les essais thérapeutiques permettent en général d’apprécier correctement l’incidence des risques d’effets indésirables observés en vie réelle.",
+            "C) Les auteurs ne décrivent pas dans les évènements indésirables de cancer cutané ce qui montre que l’alerte lancé par les autorités de santé n’était pas fondée car le niveau de preuve d’une étude randomisée est supérieur à celle d’une étude observationnelle.",
+            "D) Les auteurs soulignent les effets indésirables de l’hydrochlorothiazide en référence aux résultats de l’étude. A cet égard, la réalisation de test statistique pour comparer l’incidence des effets indésirables dans les différents groupes testés n’aurait pas été très utile pour renforcer leurs arguments.",
+            "E) En référence au tableau 3, il est observé une diminution de l’incidence du diabète pour la plus forte dose d’hydrochlorothiazide par rapport à la dose intermédiaire. A partir des données rapportées dans l’article, il faut recommander l’utilisation de la dose de 50 mg d’hydrochlorothiazide de préférence à la dose de 25 mg chez les patients à risque de développer un diabète."
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’applicabilité des résultats, quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "choix": [
+            "A) Cette étude doit conduire à proposer l’utilisation préférentielle de diurétique thiazidique chez les patients hypertendus ayant des calculs rénaux calciques.",
+            "B) Cette étude n’incite pas à recommander l’utilisation de l’hydrochlorothiazide pour prévenir les épisodes de colique néphrétique ou la récurrence de calculs.",
+            "C) Cette étude doit conduire à contrindiquer l’utilisation d’hydrochlorothiazide compte tenu des effets indésirables observés.",
+            "D) Cette étude remet en cause l’intérêt de l’hydrochlorothiazide chez l’hypertendu.",
+            "E) Cette étude n’exclut pas un effet protecteur d’intensité modérée sur la récurrence de calculs calciques chez les hypertendus ayant déjà présenté ce type de calcul."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

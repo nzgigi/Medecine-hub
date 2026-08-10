@@ -1,0 +1,416 @@
+{
+  "matiere": "Système neurosensoriel – Neurologie",
+  "slug": "sns-neurologie-s5",
+  "annee": 2026,
+  "title": "Système neurosensoriel – Neurologie - 2026",
+  "total_questions": 20,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les éléments de l’examen clinique qui orientent vers le diagnostic d’un coma « lésionnel » ?",
+          "choix": [
+            "A) Pupilles intermédiaires et réactives à la lumière",
+            "B) Réaction de de décérébration à la stimulation douloureuse",
+            "C) Une anisocorie",
+            "D) Une morsure du bord latéral de la langue",
+            "E) Un globe vésical"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les 3 éléments qui compose l’Echelle de Glasgow ?",
+          "choix": [
+            "A) Ouverture des Yeux",
+            "B) Réponse Motrice",
+            "C) Coordination",
+            "D) Réponse Verbale",
+            "E) Réflexes pupillaires"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les propositions justes à propos de cette image ?",
+          "choix": [
+            "A) Il s’agit d’un scanner sans injection de produit de contraste",
+            "B) Il s’agit d’un scanner avec injection de produit de contraste",
+            "C) Il y a une lésion arrondie en hypersignal à gauche",
+            "D) Il y a une lésion arrondie hyperdense à droite",
+            "E) Il s’agit d’un hématome profond"
+          ],
+          "reponses": [
+            "A",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/sns-neurologie-s5/2026/q3.webp?v=1786396440697"
+          ]
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du signal des produits de dégradation du sang en IRM, quelle phrase est correcte ?",
+          "choix": [
+            "A) Leur signal est constant au cours du temps en T1",
+            "B) L’isosignal T2 est caractéristique du sang, peu importe le stade",
+            "C) Ils apparaissent la plupart du temps en hypersignal T2*",
+            "D) Ils apparaissent en hypersignal T1 et T2 à la phase subaigüe",
+            "E) A la phase chronique, l’hypersignal T1 persiste"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "A propos du scanner, quelle proposition est juste ?",
+          "choix": [
+            "A) Il est basé sur l’utilisation des mouvements des protons",
+            "B) Il permet de détecter des signes d’AVC ischémique",
+            "C) Le sang frais apparait hypodense",
+            "D) Les ventricules normaux apparaissent hyperdenses",
+            "E) La substance blanche est plus dense que la substance grise"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les propositions suivantes, lesquelles apparaissent hyperdenses spontanément au scanner ?",
+          "choix": [
+            "A) Les calcifications",
+            "B) Les éclats métaliques",
+            "C) Le sang",
+            "D) L'oedème vasogénique",
+            "E) L'oedème cytotoxique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Le stade de démence dans une maladie neuro-évolutive correspond à :",
+          "choix": [
+            "A) Une perte d’autonomie dans la vie quotidienne",
+            "B) Une altération des fonctions cognitives",
+            "C) La nécessité d’une institutionnalisation",
+            "D) Une agressivité envers autrui",
+            "E) Des troubles sphinctériens nécessitant l’utilisation de protection"
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Dans les maladies neuro-évolutives :",
+          "choix": [
+            "A) Il existe un stade, long, pendant lequel la maladie peut être asymptomatique (=phase présymptomatique)",
+            "B) Il existe un stade pendant lequel les troubles sont légers et n’altèrent pas l’autonomie",
+            "C) Les premiers signes de ces maladies peuvent être psycho-comportementaux (= dépression, apathie)",
+            "D) L’apathie est un symptôme très fréquent au début d’une maladie d’Alzheimer",
+            "E) Dès le début de la maladie, il faut prévoir une institutionnalisation."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’aphasie le(s) élément(s) suivant(s) sont vrai(s) :",
+          "choix": [
+            "A) Son synonyme est l’hypophonie",
+            "B) elle peut être associée à une dysarthrie",
+            "C) si elle survient de manière brutale, il faut appeler le 15 sans passer par le médecin traitant",
+            "D) elle peut donner un trouble de la compréhension orale",
+            "E) elle peut donner un trouble de l’expression écrite"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’amnésie le(s) élément(s) suivant(s) sont vrai(s) :",
+          "choix": [
+            "A) la perte de l’identité ne s’observe quasiment que dans les maladies psychiatriques",
+            "B) lors d’un ictus amnésique, il existe un oubli à mesure (= amnésie antérograde)",
+            "C) un trouble de mémoire sémantique fait perdre la compréhension des mots et des concepts",
+            "D) le trouble de la mémoire épisodique est fréquent dans la maladie d’Alzheimer",
+            "E) une altération du circuit de Papez entraine un trouble de la mémoire épisodique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les crises focales, donner la/les proposition(s) exacte(s) :",
+          "choix": [
+            "A) Elles peuvent débuter par des sensations visuelles, olfactives, épigastriques ou expérientielles",
+            "B) Elles s’accompagnent toujours d’une altération de la conscience",
+            "C) Elles peuvent se manifester par des automatismes oro-alimentaires et de déglutition",
+            "D) Une crise focale peut secondairement se généraliser en crise tonico-clonique",
+            "E) Elles ne provoquent jamais de perte de contact"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 11
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant l’état de mal épileptique, quelles propositions sont correctes ?",
+          "choix": [
+            "A) Une crise tonico-clonique généralisée durant >5 minutes est un état de mal épileptique.",
+            "B) L’état de mal épileptique convulsif est une urgence vitale avec un risque de surmortalité à court terme",
+            "C) L’absence de reprise de conscience entre deux crises conduit au diagnostic d’état de mal épileptique",
+            "D) L’état de mal épileptique s’arrête généralement spontanément au bout de quelques minutes",
+            "E) L’électroencéphalogramme est nécessaire pour poser le diagnostic d’état de mal épileptique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 12
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels éléments orientent plutôt vers une crise d’épilepsie que vers une syncope ?",
+          "choix": [
+            "A) Respiration stertoreuse après l’épisode",
+            "B) Perte d’urines",
+            "C) La présence d’anomalies épileptiques sur l’électroencéphalogramme.",
+            "D) Morsure du bord antérieur de langue",
+            "E) Récupération immédiate sans confusion"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 13
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes d’une rupture d’anévrysme cérébral ?",
+          "choix": [
+            "A) Une céphalée progressive",
+            "B) Un signe de Claude Bernard Horner",
+            "C) Une céphalée en coup de tonnerre",
+            "D) Parfois une paralysie du IIIème nerf crânien",
+            "E) Une raideur de nuque"
+          ],
+          "reponses": [
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 14
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Une dystonie est caractérisée par :",
+          "choix": [
+            "A) une contracture et une perte de force",
+            "B) des contractions musculaires soutenues et des mouvements répétitifs",
+            "C) une posture fixe et de la douleur",
+            "D) une partie du corps qui est fléchie ou tordue sur son axe, amélioré par un geste antagoniste",
+            "E) un mouvement anormaux erratique et brusque, qui peut être supprimé par la volonté"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 15
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les éléments du syndrome pyramidal sont :",
+          "choix": [
+            "A) Des réflexes ostéo-tendineux vifs",
+            "B) Des réflexes ostéo-tendineux abolis",
+            "C) Un réflexe cutanée plantaire en extension",
+            "D) Une amyotrophie",
+            "E) Une hypertonie spastique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 16
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les signes d’un syndrome de Claude Bernard Horner ?",
+          "choix": [
+            "A) Ptosis",
+            "B) Mydriase",
+            "C) Myosis",
+            "D) Paralysie de l’élévation du regard",
+            "E) Exophtalmie"
+          ],
+          "reponses": [
+            "A",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 17
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quels sont les critères diagnostics d’une migraine sans aura ?",
+          "choix": [
+            "A) Céphalée unilatérale",
+            "B) Céphalée bilatérale",
+            "C) Douleur de type pulsatile",
+            "D) Douleur aggravée par l’activité physique",
+            "E) Présence d’une photophobie et d’une phonophobie"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 18
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un tableau d'ataxie peut être caractérisée par",
+          "choix": [
+            "A) raideur spastique, nystagmus et polygone augmenté à la marche",
+            "B) Incoordination des membres (épreuve doigts-nez/talon-genou), une voix irrégulière, scannée",
+            "C) tremblement de repos et postural, dysmétrie et akinésie",
+            "D) Un Nystagmus multidirectionnel et une dysdiadocokinésia",
+            "E) Mouvement involontaire brusques, dysarthrie, tremblement de repos"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 19
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Les syndromes radiculaires sont caractérisées par:",
+          "choix": [
+            "A) une douleur qui irradie le long d'un dermatome",
+            "B) des paresthésies, systématisées à un dermatome",
+            "C) un déficit sensitif qui est toujours présent",
+            "D) une aréflexie ostéo-tendineuse",
+            "E) une hyperréflexie ostéotendineuse"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 20
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

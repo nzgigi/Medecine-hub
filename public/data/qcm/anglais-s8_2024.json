@@ -1,0 +1,250 @@
+{
+  "matiere": "Anglais",
+  "slug": "anglais-s8",
+  "annee": 2024,
+  "title": "Anglais - 2024",
+  "total_questions": 11,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "DP 1",
+      "description": "All answers will be found in the article.\nEach question has between 1 and 5 true answers; questions are independent from one another.\nOf note: type 2 diabetes will be referred to as Type 2 Diabetes (T2D) or Diabetes Mellitus (DM2)",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What is/ are the health-related overall benefit(s) of a vegan diet?",
+          "choix": [
+            "A) Its rapid growth is also attributed to ethical concerns.",
+            "B) It decreases cancer incidence.",
+            "C) Plant-Based Diets (PBDs) rank among prevention measures when it comes to Diabetes Mellitus (DM2).",
+            "D) No Evidence-Based Medicine (EBM) has proved this point yet.",
+            "E) The aim of this article is to describe the relationship between vegan diets and the risk for Type 2 Diabetes (T2D)."
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What is/ are the goal(s) of this research?",
+          "choix": [
+            "A) To carry out a prospective study.",
+            "B) To determine -if any- a causal relationship between vegan diets and the risk for type 2 diabetes (T2D)",
+            "C) To describe the effect of the relationship between vegan diets and the risk for T2D on glycaemic control",
+            "D) To describe the effect of the relationship between vegan diets and the risk for T2D on T2D-related complications",
+            "E) To perform a scoping review of all interventional and observational studies"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "How long did the study last?",
+          "choix": [
+            "A) Until May 23rd, 2020",
+            "B) Up to 4 weeks",
+            "C) 2021",
+            "D) 2 years",
+            "E) Not stated in the article"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What was/ were the inclusion criterion/ criteria?",
+          "choix": [
+            "A) Be over 18 years of age",
+            "B) Have pre-diabetes of diabetes type 1",
+            "C) Be on an omnivorous diet",
+            "D) Have a T2D diagnosis for randomised controlled studies",
+            "E) Be a healthy individual for observational studies"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Choose the true statement(s).",
+          "choix": [
+            "A) three studies evaluated the waist circumference outcome and all of them reported its significant reduction in the intervention group",
+            "B) In the intervention groups, the changes in Systolic Blood Pressure (SBP) significantly varied",
+            "C) All studies noticed reduction in total cholesterol",
+            "D) In intervention groups, the statistical significance in LDL cholesterol was reached in three studies and in control groups in two studies",
+            "E) In intervention groups, the statistical significance in LDL cholesterol was reached in three studies and in control groups in two studies"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "neutralized": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What was/ were the Main Outcome Measures (MOMs)?",
+          "choix": [
+            "A) Nerve function in the case of randomised controlled studies",
+            "B) Prevalence or incidence of T2D in case of observational studies",
+            "C) Glycaemic control",
+            "D) Fasting glucose and Haemoglobin A1c (HbA1c) levels and risk factors for diabetes related complications",
+            "E) Body Mass Index (BMI)"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Information finding in the results:",
+          "choix": [
+            "A) All the observational studies considered were of acceptable quality",
+            "B) There were more studies looking at the incidence rate of T2D than studies looking at its prevalence",
+            "C) India’s third National Family Health Survey found a lower prevalence of T2D among vegans compared to non-vegetarians",
+            "D) All of the randomised controlled studies had at least a moderate risk of bias",
+            "E) Three of the studies reporting reductions in HbA1c levels after vegan diets were not statistically significant"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 7,
+          "neutralized": [
+            "E"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Which option(s) from this list is/ are limitations of the study?",
+          "choix": [
+            "A) A final sample of 15 articles (7 observational and 8 randomised controlled studies) were included for this review",
+            "B) Renal function was impaired in both sets of studies: a significant increase in albuminuria was observed in the intervention group, while in the control group values, dropped insignificantly",
+            "C) Evaluation of the impact of the vegan diet on pain in chronic diabetic neuropathy was reported, reaching the statistically significant mean in-between group difference in favor of the 20-week intervention diet",
+            "D) The included observational studies had their diet assessments self-reported and in cross-sectional studies, the dietary habits may not be maintained over time",
+            "E) Vegan groups had mostly no restrictions in portion sizes, energy or carbohydrate intakes, contrary to some control groups"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8,
+          "neutralized": [
+            "C"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "What specific nutrient deficiency/-ies are vegans at risk of - thus impacting T2D management?",
+          "choix": [
+            "A) Vitamin B12",
+            "B) Calcium",
+            "C) Vitamin D",
+            "D) Iron & zinc",
+            "E) Omega-3"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Which of the following statement(s) is/ are true regarding the discussion and conclusion?",
+          "choix": [
+            "A) Seventh-Day Adventists showed a significantly lower prevalence of T2D among vegetarians and vegans compared to omnivores.",
+            "B) The generalizability of the findings across different populations and cultures is mentioned as a limitation.",
+            "C) Weight loss is not a major factor in glycemia management.",
+            "D) Randomised controlled studies performed in T2D patients have shown an anti-hyperglycaemic effect of the vegan diet, even in the long term.",
+            "E) Future clinical trials should investigate the impact of the quantity and quality of carbohydrates in the vegan diet on pre-diabetes and T2D patients."
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 10,
+          "neutralized": [
+            "B"
+          ]
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "When it comes to the significance of renal function findings in the study, how does albuminuria relate to the intervention group’s diet?",
+          "choix": [
+            "A) Albuminuria is an early marker of renal involvement in diabetes and other kidney diseases.",
+            "B) The 2018 Barnard et al. study highlighted an increase in albuminuria in the intervention group.",
+            "C) T2D patients on a vegan diet are at higher risks of clinical implications (Barnard et al.- 2018).",
+            "D) The impact of the vegan diet on pain in chronic diabetic neuropathy has been evaluated (Bunner et al.).",
+            "E) All studies except Lee et al. reported albuminuria changes both the intervention and the control diet."
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "Question ANNULEE",
+          "order": 11
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

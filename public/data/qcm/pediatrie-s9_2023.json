@@ -1,0 +1,627 @@
+{
+  "matiere": "Pédiatrie",
+  "slug": "pediatrie-s9",
+  "annee": 2023,
+  "title": "Pédiatrie - 2023",
+  "total_questions": 27,
+  "folders": [
+    {
+      "id": "default-questions",
+      "type": "DP",
+      "title": "Mini DP 1",
+      "description": "Vous êtes pédiatre en ville. Un garçon de 9 mois, est amené par ses parents le 18/12 car il a de la fièvre à 38,7°C depuis 24h et s’est réveillé plusieurs fois cette nuit. Il a vomi une fois ce matin. Cet enfant est né à terme. il n’a jamais voyagé, est gardé en crèche et a 2 grandes sœurs en bonne santé. Ses vaccinations sont à jour. Il présente une rhinite depuis 72 heures. A l’examen, la température est à 38,9°C, FC à 130/min, la fréquence respiratoire à 30/min. Il est bien coloré. L’auscultation cardiopulmonaire est normale.\nA l’examen otoscopique, vous retrouvez :",
+      "order": 1,
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel est votre diagnostic ?",
+          "choix": [
+            "A) Otite externe",
+            "B) Otite moyenne aigue séro-muqueuse",
+            "C) Myringite aigue",
+            "D) Otite moyenne aigue congestive",
+            "E) Otite moyenne aigue purulente"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/pediatrie-s9/2023/q1.png?v=1786297259660"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez diagnostiqué une otite moyenne aigue congestive bilatérale.\nQuel est votre traitement ?",
+          "choix": [
+            "A) Aucun",
+            "B) Désobstruction rhinopharyngée (DRP) pluriquotidienne",
+            "C) Nébulisation de budésonide",
+            "D) Amoxicilline",
+            "E) Ofloxacine par voie locale"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’enfant rentre à domicile avec des DRP. Vous le revoyez 48h après car la fièvre persiste ; l’enfant refuse de s’alimenter ; il est très grognon et il vomit 2 fois. Il boit bien. A l’examen clinique, vous portez le diagnostic d’otite moyenne aigue purulente bilatérale.\nQuels sont les 2 germes que vous suspectez?",
+          "choix": [
+            "A) Rhinovirus",
+            "B) Haemophilus influenzae",
+            "C) Mycoplasma pneumoniae",
+            "D) Streptococcus pyogenes",
+            "E) Streptococcus pneumoniae"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quel traitement prescrivez-vous ?",
+          "choix": [
+            "A) Cefixime",
+            "B) Amoxicilline",
+            "C) Cefpodoxime proxétil",
+            "D) Cotrimoxazole",
+            "E) Amoxicilline + acide clavulanique"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Vous avez prescrit de l’amoxicilline par voie orale. 48h après il est toujours fébrile. Les parents ont du mal à lui donner le traitement antibiotique. L’enfant est très irritable, dort très peu. Il a une conjonctivite purulente. L’examen de la région auriculaire montre :\nQue suspectez-vous ?",
+          "choix": [
+            "A) Une ethmoidite",
+            "B) Une méningite purulente",
+            "C) Une parotidite",
+            "D) Une mastoidite",
+            "E) Une maladie de Kawasaki"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/pediatrie-s9/2023/q5.png?v=1786297260715"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRU",
+          "contexte": "",
+          "question": "L’enfant est hospitalisé. Une imagerie est réalisée et confirme la mastoidite extériorisée. Il est mis sous Amoxicilline + Acide clavulanique et une ponction de son abcès sous-cutané est réalisé. 24h après le début de son hospitalisation, il est toujours fébrile à 40°, est très hypotonique, geignard. Vous pensez à une complication méningée et réalisez une ponction lombaire. L’examen direct avec coloration de Gram retrouve un cocci Gram positif en diplocoque.\nQuel germe suspectez-vous ?",
+          "choix": [
+            "A) Staphylococcus aureus",
+            "B) Listeria monocytogenes",
+            "C) Neisseria meningitidis",
+            "D) Haemophilus influenzae",
+            "E) Streptococcus pneumoniae"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "images": [
+            "/images/qcm/pediatrie-s9/2023/q6.png?v=1786297261106"
+          ]
+        },
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quel(s) traitement(s) prescrivez-vous?",
+          "choix": [
+            "A) Amoxicilline dose méningée",
+            "B) Cefotaxime dose méningée",
+            "C) Ceftazidime dose méningée",
+            "D) Cefotaxime dose méningée + vancomycine",
+            "E) Dexaméthasone avant antibiothérapie"
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelle(s) consigne(s) donnez-vous à l’entourage proche de l’enfant ?",
+          "choix": [
+            "A) Suivi à long terme du développement psychomoteur de l’enfant",
+            "B) Vaccination Méningocoque B",
+            "C) Vaccination Méningocoque C",
+            "D) Antibiothérapie par Rifampicine pendant 48h",
+            "E) Vaccination Pneumococcique 23 valences"
+          ],
+          "reponses": [
+            "A"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297261827-7d832987a44768",
+      "type": "DP",
+      "title": "Mini DP 2",
+      "description": "Un garçon de 5 mois est amené par ses parents aux urgences pédiatriques pour une première crise convulsive. Elle a duré 5 minutes, il est encore somnolent quand il arrive aux urgences 10 minutes après le début de la crise.",
+      "order": 2,
+      "questions": [
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Parmi les éléments suivant le(s)quel(s) est (sont) pertinent(s) pour orienter l’enquête étiologique ?",
+          "choix": [
+            "A) Présence de fièvre",
+            "B) Antécédent de traumatisme crânien",
+            "C) Notion de prise médicamenteuse",
+            "D) Antécédent d’épilepsie chez un des deux parents",
+            "E) Nourrisson présentant une hémiparésie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "L’examen clinique et neurologique de ce nourrisson est normal. La courbe du périmètre crânien montre une croissance régulière sur la moyenne. Il est apyrétique. Les parents ne rapportent pas de notion de traumatisme.\nParmi les affirmations suivantes concernant la suite de l’enquête étiologique, quelle (s) est (sont) celle(s) qui est(sont) vraie(s) ?",
+          "choix": [
+            "A) Vous excluez une crise secondaire à un traumatisme crânien",
+            "B) Vous demandez la réalisation d’une glycémie capillaire",
+            "C) Même en l’absence d’antécédent, vous dosez la calcémie",
+            "D) L’âge et le type de crise sont en faveur d’un syndrome de WEST",
+            "E) Une intoxication aigue accidentelle est possible"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A ce stade, en urgence et pour cet enfant, quel est ou quels sont les examens indispensables ?",
+          "choix": [
+            "A) Ponction lombaire",
+            "B) Echographie transfontanellaire",
+            "C) ElectroEncéphaloGramme (EEG)",
+            "D) Tomodensitométrie (TDM) cérébrale",
+            "E) Audiogramme"
+          ],
+          "reponses": [
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "La TDM cérébrale est normale. Vous n’avez finalement pas d’argument pour un traumatisme crânien non accidentel. Vous envisagez une première crise dans le cadre d’une épilepsie débutante. Au moment où vous rentrez dans la chambre, vous constatez une nouvelle crise ; cette dernière débute par des clonies du membre supérieur droit et de l’hémiface du même côté puis se généralise rapidement.\nCitez les 2 mesures adaptées, face à cette nouvelle crise ?",
+          "choix": [
+            "A) Mise en place d’une canule de Guedel",
+            "B) Mise en place d’une voie veineuse périphérique pour débuter une perfusion de phénobarbital",
+            "C) Mise en position latérale de sécurité",
+            "D) Administration de Diazepam au bout de 5 minutes de crise",
+            "E) Intubation de l’enfant si Sa02 < 94 %"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 13,
+          "type": "QRU",
+          "contexte": "",
+          "question": "quelle est la voie d'administration et le dosage du DIAZEPAM en cas de crise qui se prolonge au-delà de 5 minutes ?",
+          "choix": [
+            "A) Voie intranasale et 0,5 mg/kg",
+            "B) Voie Intraveineuse et 0,5 mg/kg",
+            "C) Voie intra-rectale et 1 mg/kg",
+            "D) Voie intraveineuse et 1 mg/kg",
+            "E) Voie intra-rectale et 0,5 mg/kg"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Au bout de 5 minutes et malgré l’administration de DIAZEPAM à 0,5 mg/kg intra-rectal, la crise continue. Vous faites poser une voie veineuse périphérique et administrer de la Phénytoine qui fait céder la crise. L’enfant est orienté vers un service spécialisé pour poursuite de la prise en charge. Le médecin spécialiste vous interroge sur la qualité du développement psychomoteur de ce nourrisson.\nCitez deux performances que doit être capable de réaliser un nourrisson de 5 mois au développement typique",
+          "choix": [
+            "A) Tenir assis sans appui",
+            "B) Babiller en redoublant les syllabes",
+            "C) Présenter des sourires réponses",
+            "D) Attraper volontairement les objets",
+            "E) Manifester de la peur à l’approche d’un étranger"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297263356-21247b8315efe8",
+      "type": "KFP",
+      "title": "KFP 1",
+      "description": "Un nourrisson de 9 mois est amené aux urgences pour une crise clonique brachio-faciale droite d’une durée de 5 minutes, non fébrile et sans notion de traumatisme. Son examen clinique révèle un hématome au niveau du frein de la langue sans explication et une pâleur cutanée. Vous notez un décrochage avec une accélération récente de la courbe de périmètre crânien. Le TDM cérébral réalisé sans produit de contraste révèle la présence d’une hyperdensité péri-cérébrale de localisation sous durale frontale gauche",
+      "order": 3,
+      "questions": [
+        {
+          "id": 15,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Quel diagnostic devez-vous évoquer en premier ?",
+          "choix": [],
+          "reponses": [
+            "Traumatisme crânien non accidentel",
+            "Syndrome du bébé secoué",
+            "syndrome du bébé secoué (maltraitance)",
+            "bébé secoué",
+            "Hematome sous dural du a un syndrome du bebe secoué",
+            "traumatisme cranien non accidentel dans un contexte de maltraitance",
+            "syndrome de bébé secoué",
+            "bebe secoue",
+            "hematome sous dural , Bebe secoué",
+            "syndrome de bebe secoué",
+            "syndrome du bébé secoué avec hématome sous dural",
+            "maltraitance, bébé secoué",
+            "traumatisme cranien / bebe secoue",
+            "bébé secoué avec hématome sous dural",
+            "Syndrome du bébé secoué (Traumatisme crânien non accidentel)",
+            "hématome sous dural / maltraitance / syndrome du bebe secoué"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 16,
+          "type": "QRP",
+          "contexte": "",
+          "question": "Quel(s) examen(s) est (sont) indiqué(s) à ce stade ?",
+          "choix": [
+            "A) Bilan de coagulation",
+            "B) Audiogramme",
+            "C) Fond d’œil",
+            "D) Scintigraphie osseuse",
+            "E) IRM cérébrale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "maxReponses": 3,
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "type": "QRP",
+          "contexte": "",
+          "question": "donnez, parmi les propositions suivantes concernant le développement psychomoteur, les 5 correspondantes à un niveau de développement de 9 mois en cas de développement typique ?",
+          "choix": [
+            "A) Mange seul à la cuillère",
+            "B) Latéralisation établie",
+            "C) Imite un trait",
+            "D) Pointe l’objet du doigt",
+            "E) Associations de mots",
+            "F) Préhension fine pouce index",
+            "G) Peur de l’étranger",
+            "H) Station assise sans appui",
+            "I) Marche",
+            "J) Empile 6 cubes",
+            "K) Babillage canonique"
+          ],
+          "reponses": [
+            "D",
+            "F",
+            "G",
+            "H",
+            "K"
+          ],
+          "maxReponses": 5,
+          "correctionExplanation": "",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "folder-1786297264842-df478e9155b8d",
+      "type": "SQI",
+      "title": "SQI 1",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant la MDPH, donnez les deux affirmations vraies ?",
+          "choix": [
+            "A) C’est le médecin de l’enfant qui doit envoyer le dossier à la MDPH",
+            "B) Elle peut notifier une orientation vers un établissement de type Institut Médico-Educatif",
+            "C) Elle permet la mise en place du projet d'accueil individualisé (PAI)",
+            "D) Elle pose l’indication d’une prise en charge au Centre d’action médico-sociale précoce (CAMSP).",
+            "E) Elle peut attribuer à l’enfant une Auxiliaire de vie scolaire (AVS) (ou Accompagnants d'élèves en situation de handicap (AESH))."
+          ],
+          "reponses": [
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Un nouveau-né de mère présentant un diabète de type 1 mal équilibré est exposé à un risque de :",
+          "choix": [
+            "A) Hypoglycémie néonatale",
+            "B) Cardiomyopathie hypertrophique",
+            "C) Retard de croissance intra-utérin",
+            "D) Détresse respiratoire néonatale",
+            "E) Macrosomie"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Concernant les dépistages visuels et auditifs de l’enfant, donnez les deux affirmations vraies :",
+          "choix": [
+            "A) Une leucocorie (reflet blanchâtre de la pupille) est évocatrice de glaucome congénital",
+            "B) Un strabisme intermittent avant l’âge de 3 mois nécessite une évaluation spécialisée",
+            "C) Le dépistage par otoémissions acoustiques ou potentiels évoqués auditifs est proposé à tous les nouveau-nés même sans facteur de risque",
+            "D) L’infection materno-fœtale à CMV est la première cause de surdité congénitale",
+            "E) Une otite séreuse peut entrainer une surdité de perception"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Vous voyez en consultation un nourrisson de 2 mois pour constipation. Le méconium a été émis à 72h de vie. Quelle(s) pathologie(s) suspectez-vous ?",
+          "choix": [
+            "A) Allergie aux protéines du lait de vache",
+            "B) Hyperthyroïdie congénitale",
+            "C) Mucoviscidose",
+            "D) Maladie coeliaque",
+            "E) Maladie de Hirschsprung"
+          ],
+          "reponses": [
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Donnez la ou les réponse(s) vraie(s), parmi les 5 propositions suivantes concernant le diagnostic de dénutrition :",
+          "choix": [
+            "A) I nécessite un critère phénotypique et un critère étiologique",
+            "B) Il nécessite un critère phénotypique ou un critère étiologique",
+            "C) Une dénutrition est modérée si l’IMC est compris entre IOTF 17 et 18,5",
+            "D) Une dénutrition est modérée si la perte de poids en 1 mois est > 10% et < 15%",
+            "E) Un infléchissement statural de plus d’un couloir est un critère de dénutrition sévère"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Quelles sont les deux propositions vraies, concernant la scoliose ?",
+          "choix": [
+            "A) Il s’agit d’une déformation de la colonne vertébrale liée à une inégalité de longueur des membres inférieurs",
+            "B) Thoracique, elle est responsable d’une gibbosité",
+            "C) Lombaire, elle est responsable d’une douleur et d’une raideur du rachis",
+            "D) Elle entraîne une diminution de la cyphose thoracique",
+            "E) Idiopathique, elle est plus fréquente chez les garçons"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 24,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Un enfant de 3 ans au développement typique, sur le plan du graphisme est capable de :",
+          "choix": [
+            "A) Copier un carré",
+            "B) Copier un rond",
+            "C) Copier un triangle",
+            "D) Copier un losange",
+            "E) Ecrire son prénom en lettre bâton"
+          ],
+          "reponses": [
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 25,
+          "type": "QRU",
+          "contexte": "",
+          "question": "Quelle est la définition d’une protéinurie néphrotique chez l’enfant ?",
+          "choix": [
+            "A) Albuminémie < 30 g/L seule",
+            "B) Albuminémie < 20 g/L seule",
+            "C) Albuminémie < 30 g/L et protéinurie > 20 mg/mmol",
+            "D) Albuminémie < 20 g/L et protéinurie > 20 mg/mmol",
+            "E) Albuminémie < 30 g/L et protéinurie > 200 mg/mmol"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        },
+        {
+          "id": 26,
+          "type": "QROC",
+          "contexte": "",
+          "question": "A quel représentant de l’autorité judiciaire doit être adressé un signalement concernant un enfant suspect d’être maltraité ?",
+          "choix": [],
+          "reponses": [
+            "Procureur de la république",
+            "Substitut du procureur de la république",
+            "le procurreur de la république",
+            "procureur de la replubique",
+            "Au procureur de la république",
+            "procureur de la rebublique",
+            "au procureur de la république",
+            "procurreur de la république"
+          ],
+          "correctionExplanation": "",
+          "order": 9
+        },
+        {
+          "id": 27,
+          "type": "QROC",
+          "contexte": "",
+          "question": "Vous recevez un enfant de 10 ans victime d’un traumatisme de la cheville\nDonnez le type de fracture selon la classification de Salter et Harris",
+          "choix": [],
+          "reponses": [
+            "type IV (4)",
+            "salter 4",
+            "4",
+            "type 4",
+            "Salter 4",
+            "Salter IV",
+            "IV",
+            "salter IV",
+            "type IV",
+            "Type 4",
+            "salter et harris 4",
+            "fracture salter 4",
+            "Salter et Harris IV",
+            "Type IV",
+            "fracture de type 4",
+            "Fracture articulaire stade IV",
+            "fracture type 4",
+            "type 4 fracture epiphyso-metaphysaire",
+            "Stade 4 (fracture articulaire)",
+            "salter type 4",
+            "fracture épiphyso-métaphysaire de type 4",
+            "fracture malléolaire médiale Salter Harris 4",
+            "décollement épiphysaire type 4",
+            "fracture épiphysaire salter 4",
+            "salter 4 malleole mediale",
+            "fracture métaphyso-épiphysaire (salter 4)",
+            "salter IV metaphyso epiphysaire",
+            "salter et Harris 4",
+            "fracture de la cheville salter 4",
+            "Fracture de type IV",
+            "fracture métaphyso-épiphysaire, Salter 4",
+            "Fracture Malleolaire Salter 4",
+            "Salter et Harris 4",
+            "fracture épiphysaire stade 4 (articulaire)",
+            "salter et harris type 4",
+            "Stade IV de la classification de Salter et Harris",
+            "fracture articulaire type 4",
+            "fracture tibiale salter et harris grade 4",
+            "fracture tibiale distale trans-epiphysaire de classe 4",
+            "quatre",
+            "fracture tibiale distale grade 4",
+            "fracture stade IV",
+            "fracture de stade 4",
+            "grade 4",
+            "Stade IV",
+            "Stade 4",
+            "stade 4"
+          ],
+          "correctionExplanation": "",
+          "order": 10,
+          "images": [
+            "/images/qcm/pediatrie-s9/2023/q27.jpg?v=1786297268219"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": []
+}
