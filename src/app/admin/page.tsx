@@ -1539,20 +1539,21 @@ export default function AdminDashboard() {
                 ) : (
                   <div className="flex h-28 items-end gap-1">
                     {analytics.dailySeries.map((point) => {
-                      const heightPercent = Math.round(
-                        (point.total / maxDailyViews) * 100
+                      const heightPercent = Math.max(
+                        Math.round((point.total / maxDailyViews) * 100),
+                        2
                       );
 
                       return (
                         <div
                           key={point.day}
-                          className="flex flex-1 flex-col items-center gap-1"
+                          className="flex h-full flex-1 flex-col items-center justify-end gap-1"
                           title={`${point.day} : ${point.total} vue(s)`}
                         >
                           <div
-                            className="min-h-[2px] w-full rounded-t bg-emerald-500 dark:bg-emerald-600"
+                            className="w-full rounded-t bg-emerald-500 dark:bg-emerald-600"
                             style={{
-                              height: `${Math.max(heightPercent, 2)}%`,
+                              height: `${heightPercent}%`,
                             }}
                           />
                           <div className="text-[9px] text-stone-400 dark:text-stone-500">

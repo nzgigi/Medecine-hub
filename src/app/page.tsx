@@ -7,11 +7,11 @@ import MatiereCard from "@/components/MatiereCard";
 import {
   ArrowRight,
   BookOpen,
-  ChevronDown,
-  ChevronRight,
+  FileText,
   GraduationCap,
   Stethoscope,
   Users,
+  X,
   Zap,
 } from "lucide-react";
 
@@ -127,9 +127,8 @@ function groupMatieresBySemester(matieres: MatiereData[]): SemesterGroup[] {
 export default function HomePage() {
   const [matieres, setMatieres] = useState<MatiereData[]>([]);
   const [loading, setLoading] = useState(true);
-  const [openSemesters, setOpenSemesters] = useState<Record<string, boolean>>(
-    {}
-  );
+  const [activeSemester, setActiveSemester] = useState<string | null>(null);
+  const [openMatiere, setOpenMatiere] = useState<MatiereData | null>(null);
 
   useEffect(() => {
     async function loadMatieres() {
@@ -139,10 +138,9 @@ export default function HomePage() {
         const loadedMatieres = buildMatieresFromIndex(data);
 
         setMatieres(loadedMatieres);
-        setOpenSemesters(
-          loadedMatieres.length > 0
-            ? { [loadedMatieres[0].semesterName || "Semestre 7"]: true }
-            : {}
+        const loadedSemesters = groupMatieresBySemester(loadedMatieres);
+        setActiveSemester(
+          loadedSemesters.length > 0 ? loadedSemesters[0].name : null
         );
       } catch (error) {
         console.error("Erreur chargement:", error);
@@ -166,6 +164,10 @@ export default function HomePage() {
     return groupMatieresBySemester(matieres);
   }, [matieres]);
 
+  const currentSemester = useMemo(() => {
+    return semesters.find((semester) => semester.name === activeSemester) || null;
+  }, [semesters, activeSemester]);
+
   if (loading) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-stone-50 dark:bg-[#151512]">
@@ -182,25 +184,25 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-stone-50 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
       <section className="border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]">
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <div className="flex flex-col-reverse items-center gap-8 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
+        <div className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 lg:py-9">
+          <div className="flex flex-col-reverse items-center gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
             <div className="max-w-3xl">
               <div className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm font-bold text-stone-700 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-300">
                 <Stethoscope className="h-4 w-4 text-emerald-800 dark:text-emerald-300" />
                 Annales medicales gratuites
               </div>
 
-              <h1 className="mt-6 text-4xl font-black tracking-tight text-stone-950 dark:text-white sm:text-6xl">
+              <h1 className="mt-4 text-3xl font-black tracking-tight text-stone-950 dark:text-white sm:text-5xl">
                 Medecine Hub
               </h1>
 
-              <p className="mt-5 max-w-2xl text-base leading-7 text-stone-600 dark:text-stone-300 sm:text-lg">
+              <p className="mt-3 max-w-2xl text-base leading-7 text-stone-600 dark:text-stone-300 sm:text-lg">
                 Des QCM d&apos;annales pour les étudiants de Toulouse, classés par
                 matières et par années, avec une interface simple pour réviser
                 efficacement.
               </p>
 
-              <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-5 flex flex-col gap-3 sm:flex-row">
                 <a
                   href="#matieres"
                   className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 text-sm font-black text-white transition-colors hover:bg-emerald-700"
@@ -218,19 +220,19 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="relative h-40 w-40 shrink-0 sm:h-56 sm:w-56 lg:h-64 lg:w-64">
+            <div className="relative h-28 w-28 shrink-0 sm:h-36 sm:w-36 lg:h-44 lg:w-44">
               <Image
                 src="/brand/pfp-v2.png"
                 alt="Medecine Hub"
                 fill
-                sizes="(min-width: 1024px) 256px, (min-width: 640px) 224px, 160px"
+                sizes="(min-width: 1024px) 176px, (min-width: 640px) 144px, 112px"
                 className="object-contain"
                 priority
               />
             </div>
           </div>
 
-          <div className="mt-10 grid gap-3 sm:grid-cols-3">
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
             {[
               { label: "questions", value: totalQuestions, icon: BookOpen },
               { label: "epreuves", value: totalExams, icon: GraduationCap },
@@ -261,10 +263,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
         <Link
           href="/medtok"
-          className="group flex flex-col items-center justify-between gap-5 overflow-hidden rounded-2xl bg-emerald-800 px-6 py-7 text-white shadow-sm transition-colors hover:bg-emerald-700 sm:flex-row sm:px-8"
+          className="group flex flex-col items-center justify-between gap-4 overflow-hidden rounded-2xl bg-emerald-800 px-6 py-5 text-white shadow-sm transition-colors hover:bg-emerald-700 sm:flex-row sm:px-8"
         >
           <div className="flex items-center gap-4">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/15">
@@ -291,8 +293,8 @@ export default function HomePage() {
         </Link>
       </section>
 
-      <section id="matieres" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <section id="matieres" className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-sm font-black uppercase text-emerald-800 dark:text-emerald-300">
               Bibliotheque
@@ -302,66 +304,58 @@ export default function HomePage() {
             </h2>
           </div>
           <p className="max-w-md text-sm leading-6 text-stone-600 dark:text-stone-400">
-            Ouvrez un semestre, choisissez une matiere, puis lancez l&apos;annee
-            que vous voulez travailler.
+            Choisissez un semestre, puis une matiere pour voir ses epreuves.
           </p>
         </div>
 
         {semesters.length > 0 ? (
-          <div className="space-y-3">
-            {semesters.map((semester) => {
-              const isOpen = Boolean(openSemesters[semester.name]);
+          <>
+            <div className="mb-5 flex gap-2 overflow-x-auto pb-1">
+              {semesters.map((semester) => {
+                const isActive = activeSemester === semester.name;
 
-              return (
-                <section
-                  key={semester.name}
-                  className="overflow-hidden rounded-lg border border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]"
-                >
+                return (
                   <button
-                    onClick={() =>
-                      setOpenSemesters((current) => ({
-                        ...current,
-                        [semester.name]: !isOpen,
-                      }))
-                    }
-                    className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-stone-50 dark:hover:bg-[#1d1c18]"
+                    key={semester.name}
+                    onClick={() => setActiveSemester(semester.name)}
+                    className={`shrink-0 rounded-lg px-4 py-2.5 text-sm font-bold transition-colors ${
+                      isActive
+                        ? "bg-emerald-800 text-white"
+                        : "border border-stone-200 bg-white text-stone-600 hover:bg-stone-50 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-300 dark:hover:bg-[#1d1c18]"
+                    }`}
                   >
-                    <span>
-                      <span className="block text-xl font-black">
-                        {semester.name}
-                      </span>
-                      <span className="block text-sm text-stone-500 dark:text-stone-400">
-                        {semester.matieres.length} matiere
-                        {semester.matieres.length > 1 ? "s" : ""}
-                      </span>
+                    {semester.name}
+                    <span
+                      className={`ml-2 ${
+                        isActive
+                          ? "text-emerald-100"
+                          : "text-stone-400 dark:text-stone-500"
+                      }`}
+                    >
+                      {semester.matieres.length}
                     </span>
-
-                    {isOpen ? (
-                      <ChevronDown className="h-5 w-5 text-stone-500" />
-                    ) : (
-                      <ChevronRight className="h-5 w-5 text-stone-500" />
-                    )}
                   </button>
+                );
+              })}
+            </div>
 
-                  {isOpen && (
-                    <div className="grid grid-cols-1 gap-4 border-t border-stone-100 p-4 md:grid-cols-2 lg:grid-cols-3 dark:border-stone-800">
-                      {semester.matieres.map((matiere) => (
-                        <MatiereCard
-                          key={matiere.slug}
-                          matiere={matiere.matiere}
-                          slug={matiere.slug}
-                          totalQuestions={matiere.totalQuestions}
-                          exams={matiere.exams}
-                          subjectIcon={matiere.subjectIcon}
-                          subjectColor={matiere.subjectColor}
-                        />
-                      ))}
-                    </div>
-                  )}
-                </section>
-              );
-            })}
-          </div>
+            {currentSemester && (
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {currentSemester.matieres.map((matiere) => (
+                  <MatiereCard
+                    key={matiere.slug}
+                    matiere={matiere.matiere}
+                    slug={matiere.slug}
+                    totalQuestions={matiere.totalQuestions}
+                    exams={matiere.exams}
+                    subjectIcon={matiere.subjectIcon}
+                    subjectColor={matiere.subjectColor}
+                    onOpen={() => setOpenMatiere(matiere)}
+                  />
+                ))}
+              </div>
+            )}
+          </>
         ) : (
           <div className="rounded-lg border border-stone-200 bg-white p-10 text-center dark:border-stone-800 dark:bg-[#151512]">
             <BookOpen className="mx-auto mb-4 h-10 w-10 text-stone-400" />
@@ -372,6 +366,65 @@ export default function HomePage() {
           </div>
         )}
       </section>
+
+      {openMatiere && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 p-4 backdrop-blur-sm"
+          onClick={() => setOpenMatiere(null)}
+        >
+          <div
+            className="flex max-h-[80vh] w-full max-w-lg flex-col rounded-2xl border border-stone-200 bg-white shadow-2xl dark:border-stone-800 dark:bg-[#1a1917]"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="flex items-start justify-between gap-4 border-b border-stone-100 p-5 dark:border-stone-800">
+              <div>
+                <h3 className="text-xl font-black text-stone-950 dark:text-white">
+                  {openMatiere.matiere}
+                </h3>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
+                  {openMatiere.totalQuestions} questions &middot;{" "}
+                  {openMatiere.exams.length} épreuve
+                  {openMatiere.exams.length > 1 ? "s" : ""}
+                </p>
+              </div>
+              <button
+                onClick={() => setOpenMatiere(null)}
+                className="shrink-0 rounded-lg p-2 text-stone-400 transition-colors hover:bg-stone-100 hover:text-stone-700 dark:hover:bg-stone-800 dark:hover:text-stone-200"
+                aria-label="Fermer"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+
+            <div className="space-y-2 overflow-y-auto p-5">
+              {openMatiere.exams.map((exam) => (
+                <Link
+                  key={`${openMatiere.slug}-${exam.annee}`}
+                  href={`/qcm/${openMatiere.slug}/${exam.annee}`}
+                  className="group flex items-center justify-between gap-3 rounded-lg border border-stone-200 bg-stone-50 px-3 py-3 transition-colors hover:border-emerald-800 hover:bg-white dark:border-stone-800 dark:bg-[#151512] dark:hover:border-emerald-700 dark:hover:bg-[#1d1c18]"
+                >
+                  <span className="flex min-w-0 items-center gap-3">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-stone-200 bg-white text-stone-500 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-300">
+                      <FileText className="h-4 w-4" />
+                    </span>
+
+                    <span className="min-w-0">
+                      <span className="block truncate text-sm font-bold text-stone-900 dark:text-stone-100">
+                        {exam.title}
+                      </span>
+                      <span className="block text-xs text-stone-500 dark:text-stone-400">
+                        Année {exam.annee}
+                      </span>
+                    </span>
+                  </span>
+
+                  <ArrowRight className="h-4 w-4 shrink-0 text-stone-400 transition-transform group-hover:translate-x-0.5 group-hover:text-emerald-800 dark:group-hover:text-emerald-300" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
