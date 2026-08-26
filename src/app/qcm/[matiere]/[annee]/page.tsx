@@ -18,6 +18,7 @@ import {
   Menu,
   RotateCcw,
   Send,
+  Share2,
   X,
 } from "lucide-react";
 import type {
@@ -43,6 +44,7 @@ import { renderRichText } from "@/lib/text/richText";
 import ImageZoneCanvas, { getZoneColor } from "@/components/ImageZoneCanvas";
 import ThemeToggle from "@/components/ThemeToggle";
 import { useDialogs } from "@/components/DialogProvider";
+import ReportQuestionButton from "@/components/ReportQuestionButton";
 
 interface SavedExamAttempt {
   userAnswers: UserAnswers;
@@ -581,6 +583,55 @@ export default function QCMPage() {
     });
   };
 
+  const shareScore = async () => {
+    if (!examScore) return;
+
+    let url: string;
+
+    try {
+      const response = await fetch("/api/qcm/share-score", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          slug: matiere,
+          matiere: examData.matiere,
+          annee: examData.annee,
+          score: examScore.finalScoreOn20,
+        }),
+      });
+
+      const result = (await response.json()) as { success: boolean; url?: string };
+
+      if (!result.success || !result.url) {
+        await showAlert("Impossible de préparer le lien de partage.");
+        return;
+      }
+
+      url = result.url;
+    } catch {
+      await showAlert("Impossible de préparer le lien de partage.");
+      return;
+    }
+
+    const text = `J'ai obtenu ${examScore.finalScoreOn20.toFixed(2)}/20 en ${examData.matiere} (${examData.annee}) sur Medecine Hub 💪\nTeste-toi aussi :`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "Mon score sur Medecine Hub", text, url });
+        return;
+      } catch {
+        return;
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(`${text} ${url}`);
+      await showAlert("Résultat copié dans le presse-papiers, prêt à coller où tu veux !");
+    } catch {
+      await showAlert("Impossible de copier le résultat automatiquement.");
+    }
+  };
+
   const resetAttempt = async () => {
     if (
       !(await showConfirm(
@@ -862,16 +913,24 @@ export default function QCMPage() {
             </h3>
           </div>
 
-          <div
-            className={`rounded-full px-3 py-1 text-sm font-bold ${
-              score === 1
-                ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
-                : score > 0
-                ? "bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300"
-                : "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300"
-            }`}
-          >
-            {folderSubmitted ? `${score.toFixed(2)} / 1` : "Non soumis"}
+          <div className="flex shrink-0 flex-col items-end gap-1.5">
+            <div
+              className={`rounded-full px-3 py-1 text-sm font-bold ${
+                score === 1
+                  ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
+                  : score > 0
+                  ? "bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300"
+                  : "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300"
+              }`}
+            >
+              {folderSubmitted ? `${score.toFixed(2)} / 1` : "Non soumis"}
+            </div>
+            <ReportQuestionButton
+              matiere={examData.matiere}
+              annee={examData.annee}
+              questionId={question.id}
+              questionText={question.question}
+            />
           </div>
         </div>
 
@@ -1262,11 +1321,21 @@ export default function QCMPage() {
                 </p>
               </div>
 
-              <div className="rounded-2xl bg-emerald-800 px-8 py-6 text-center text-white shadow-sm">
-                <div className="text-5xl font-black">
-                  {examScore.finalScoreOn20.toFixed(2)}
+              <div className="flex flex-col items-center gap-3">
+                <div className="rounded-2xl bg-emerald-800 px-8 py-6 text-center text-white shadow-sm">
+                  <div className="text-5xl font-black">
+                    {examScore.finalScoreOn20.toFixed(2)}
+                  </div>
+                  <div className="text-sm font-semibold opacity-90">/20</div>
                 </div>
-                <div className="text-sm font-semibold opacity-90">/20</div>
+
+                <button
+                  onClick={shareScore}
+                  className="inline-flex items-center gap-2 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm font-bold text-emerald-800 transition-colors hover:bg-emerald-100 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-300 dark:hover:bg-emerald-950/60"
+                >
+                  <Share2 className="h-4 w-4" />
+                  Partager mon score
+                </button>
               </div>
             </div>
 
@@ -1505,7 +1574,7 @@ export default function QCMPage() {
               </span>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               {isCurrentFolderSubmitted && (
                 <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
                   <CheckCircle className="h-3.5 w-3.5" />
@@ -1521,6 +1590,12 @@ export default function QCMPage() {
                   En attente
                 </span>
               )}
+              <ReportQuestionButton
+                matiere={examData.matiere}
+                annee={examData.annee}
+                questionId={currentQuestion.id}
+                questionText={currentQuestion.question}
+              />
             </div>
           </div>
 

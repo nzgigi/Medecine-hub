@@ -13,6 +13,7 @@ import {
   DatabaseZap,
   Edit,
   FileText,
+  Flag,
   History,
   LayoutGrid,
   Layers,
@@ -38,6 +39,7 @@ import {
 } from "@/lib/subjectStyles";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminMedtokPanel from "@/components/AdminMedtokPanel";
+import AdminReportsPanel from "@/components/AdminReportsPanel";
 import AdminSessionBadge from "@/components/AdminSessionBadge";
 
 interface MatiereIndex {
@@ -294,7 +296,7 @@ function AdminAction({
   );
 }
 
-type AdminTab = "overview" | "epreuves" | "medtok";
+type AdminTab = "overview" | "epreuves" | "medtok" | "signalements";
 
 const FAVORITE_COLORS_STORAGE_KEY = "medecine_hub_admin_favorite_colors";
 const MAX_FAVORITE_COLORS = 10;
@@ -1208,6 +1210,7 @@ export default function AdminDashboard() {
                 { id: "overview", label: "Vue d'ensemble", icon: LayoutGrid },
                 { id: "epreuves", label: "Epreuves", icon: FileText },
                 { id: "medtok", label: "MedTok", icon: Zap },
+                { id: "signalements", label: "Signalements", icon: Flag },
               ] as { id: AdminTab; label: string; icon: typeof BookOpen }[]
             ).map((tab) => {
               const TabIcon = tab.icon;
@@ -1841,6 +1844,10 @@ export default function AdminDashboard() {
             getAdminHeaders={getAdminHeaders}
             onStatus={showStatus}
           />
+        )}
+
+        {activeTab === "signalements" && (
+          <AdminReportsPanel getAdminHeaders={getAdminHeaders} onStatus={showStatus} />
         )}
 
           </div>

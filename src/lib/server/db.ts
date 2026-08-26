@@ -182,6 +182,21 @@ export function getDb(): DatabaseSync {
       best_streak INTEGER NOT NULL DEFAULT 0,
       updated_at TEXT NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS question_reports (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      matiere TEXT NOT NULL,
+      annee INTEGER NOT NULL,
+      question_id INTEGER NOT NULL,
+      question_text TEXT,
+      message TEXT NOT NULL,
+      user_sub TEXT REFERENCES users(sub) ON DELETE SET NULL,
+      user_name TEXT,
+      status TEXT NOT NULL DEFAULT 'nouveau',
+      created_at TEXT NOT NULL
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_question_reports_status ON question_reports(status);
   `);
 
   migrateAddNameCustomizedColumn(db);
