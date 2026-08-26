@@ -18,7 +18,6 @@ import {
   Menu,
   RotateCcw,
   Send,
-  Share2,
   X,
 } from "lucide-react";
 import type {
@@ -45,6 +44,7 @@ import ImageZoneCanvas, { getZoneColor } from "@/components/ImageZoneCanvas";
 import ThemeToggle from "@/components/ThemeToggle";
 import { useDialogs } from "@/components/DialogProvider";
 import ReportQuestionButton from "@/components/ReportQuestionButton";
+import ShareScoreButton from "@/components/ShareScoreButton";
 
 interface SavedExamAttempt {
   userAnswers: UserAnswers;
@@ -581,55 +581,6 @@ export default function QCMPage() {
       ...folderSubmissions,
       [currentFolder.id]: true,
     });
-  };
-
-  const shareScore = async () => {
-    if (!examScore) return;
-
-    let url: string;
-
-    try {
-      const response = await fetch("/api/qcm/share-score", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          slug: matiere,
-          matiere: examData.matiere,
-          annee: examData.annee,
-          score: examScore.finalScoreOn20,
-        }),
-      });
-
-      const result = (await response.json()) as { success: boolean; url?: string };
-
-      if (!result.success || !result.url) {
-        await showAlert("Impossible de préparer le lien de partage.");
-        return;
-      }
-
-      url = result.url;
-    } catch {
-      await showAlert("Impossible de préparer le lien de partage.");
-      return;
-    }
-
-    const text = `J'ai obtenu ${examScore.finalScoreOn20.toFixed(2)}/20 en ${examData.matiere} (${examData.annee}) sur Medecine Hub 💪\nTeste-toi aussi :`;
-
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: "Mon score sur Medecine Hub", text, url });
-        return;
-      } catch {
-        return;
-      }
-    }
-
-    try {
-      await navigator.clipboard.writeText(`${text} ${url}`);
-      await showAlert("Résultat copié dans le presse-papiers, prêt à coller où tu veux !");
-    } catch {
-      await showAlert("Impossible de copier le résultat automatiquement.");
-    }
   };
 
   const resetAttempt = async () => {
@@ -1329,13 +1280,12 @@ export default function QCMPage() {
                   <div className="text-sm font-semibold opacity-90">/20</div>
                 </div>
 
-                <button
-                  onClick={shareScore}
-                  className="inline-flex items-center gap-2 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm font-bold text-emerald-800 transition-colors hover:bg-emerald-100 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-300 dark:hover:bg-emerald-950/60"
-                >
-                  <Share2 className="h-4 w-4" />
-                  Partager mon score
-                </button>
+                <ShareScoreButton
+                  slug={matiere}
+                  matiere={examData.matiere}
+                  annee={examData.annee}
+                  score={examScore.finalScoreOn20}
+                />
               </div>
             </div>
 

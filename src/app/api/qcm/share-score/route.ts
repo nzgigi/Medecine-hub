@@ -13,6 +13,10 @@ function toParamString(value: unknown): string | undefined {
   return typeof value === "string" || typeof value === "number" ? String(value) : undefined;
 }
 
+// Le site tourne derriere un reverse proxy : request.url reflete l'adresse
+// d'ecoute interne de Next.js (ex. localhost:4000), jamais le domaine public.
+const SITE_URL = "https://medecinehub.fr";
+
 export async function POST(request: NextRequest) {
   try {
     const body = (await request.json()) as ShareScoreBody;
@@ -34,9 +38,7 @@ export async function POST(request: NextRequest) {
       sig: signature,
     });
 
-    const origin = new URL(request.url).origin;
-
-    return NextResponse.json({ success: true, url: `${origin}/resultat?${query.toString()}` });
+    return NextResponse.json({ success: true, url: `${SITE_URL}/resultat?${query.toString()}` });
   } catch (error) {
     return NextResponse.json(
       {
