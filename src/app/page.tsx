@@ -12,7 +12,6 @@ import {
   Stethoscope,
   Users,
   X,
-  Zap,
 } from "lucide-react";
 
 interface ExamPreview {
@@ -264,33 +263,55 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
-        <Link
-          href="/medtok"
-          className="group flex flex-col items-center justify-between gap-4 overflow-hidden rounded-2xl bg-emerald-800 px-6 py-5 text-white shadow-sm transition-colors hover:bg-emerald-700 sm:flex-row sm:px-8"
-        >
-          <div className="flex items-center gap-4">
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/15">
-              <Zap className="h-6 w-6" />
+        <div className="relative">
+          <div className="relative overflow-hidden rounded-2xl">
+            <div className="absolute inset-0">
+              <Image
+                src="/brand/delacroix-liberte-guidant-le-peuple.jpg"
+                alt="La Liberté guidant le peuple, Eugène Delacroix"
+                fill
+                sizes="100vw"
+                className="object-cover object-[15%_38%]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/80 to-black/50" />
+              <div className="absolute inset-0 bg-gradient-to-tl from-black/60 via-transparent to-transparent" />
             </div>
-            <div>
-              <div className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-0.5 text-[11px] font-black uppercase tracking-wide">
-                Nouveau
+
+            <div className="relative px-6 py-6 pr-44 sm:px-8 sm:py-7 sm:pr-72 lg:pr-64">
+              <div className="max-w-sm sm:max-w-md">
+                <h2 className="text-lg font-black tracking-tight text-white sm:text-2xl">
+                  Nous prônons la liberté d&apos;étudier
+                </h2>
+                <p className="mt-2 text-xs leading-5 text-stone-200 sm:text-sm sm:leading-6">
+                  Apprendre ne devrait jamais avoir de prix. Medecine Hub
+                  restera gratuit, en toutes circonstances : nous ne
+                  demanderons jamais d&apos;argent en échange d&apos;un
+                  quelconque avantage. Si vous disposez de ressources à
+                  partager, contactez-nous.
+                </p>
+                <Link
+                  href="/contact"
+                  className="mt-4 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-white px-4 py-2.5 text-xs font-black text-stone-950 transition-colors hover:bg-stone-200 sm:text-sm"
+                >
+                  Nous contacter
+                  <ArrowRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                </Link>
               </div>
-              <h3 className="mt-1 text-xl font-black tracking-tight">
-                MedTok
-              </h3>
-              <p className="mt-1 max-w-md text-sm text-emerald-50">
-                Revisez a la vitesse de vos reflexes : glissez a gauche pour
-                vrai, a droite pour faux, vers le bas pour passer.
-              </p>
             </div>
           </div>
 
-          <span className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-black text-emerald-800 transition-transform group-hover:translate-x-1">
-            Essayer
-            <ArrowRight className="h-4 w-4" />
-          </span>
-        </Link>
+          <div className="pointer-events-none absolute bottom-0 right-1 h-[260px] sm:right-2 sm:h-[410px] lg:right-2 lg:h-[340px]">
+            <div className="absolute inset-x-2 bottom-4 top-1/3 rounded-full bg-black/40 blur-xl" />
+            <div className="absolute inset-x-3 bottom-6 top-1/2 rounded-full bg-gradient-to-t from-amber-100/30 via-white/10 to-transparent blur-lg" />
+            <Image
+              src="/brand/liberte-femme-drapeau.png"
+              alt="La Liberté guidant le peuple"
+              width={872}
+              height={1324}
+              className="relative h-full w-auto drop-shadow-[0_10px_18px_rgba(0,0,0,0.65)]"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="matieres" className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
