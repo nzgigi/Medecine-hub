@@ -17,9 +17,12 @@ export interface PracticeQuestionRef extends QuestionRef {
 
 export interface PracticeSession {
   id: string;
-  kind: "erreurs";
+  /** "erreurs" : révision de "Mes erreurs" ; "custom" : séance personnalisée tirée au sort. */
+  kind: "erreurs" | "custom";
   title: string;
   refs: PracticeQuestionRef[];
+  /** Durée du chrono en minutes ; absent = sans chrono. */
+  timeLimitMinutes?: number;
   createdAt: string;
 }
 
@@ -73,17 +76,47 @@ export function practiceAttemptKey(session: PracticeSession) {
   return `practice_attempt_${session.id}`;
 }
 
-/** Ne charge que les épreuves nécessaires ; une épreuve introuvable compte ses questions comme manquantes. */
-async function loadExamQuestions(slug: string, annee: number) {
+/** Séance interrompue (composition enregistrée + tentative commencée), à proposer de reprendre. */
+export function findUnfinishedSession(): PracticeSession | null {
+  const session = loadSession();
+  if (!session) return null;
+
+  try {
+    return localStorage.getItem(practiceAttemptKey(session)) ? session : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Abandonne une séance : sa tentative et son chrono. */
+export function discardSessionAttempt(session: PracticeSession) {
+  localStorage.removeItem(practiceAttemptKey(session));
+  localStorage.removeItem(`${practiceAttemptKey(session)}_deadline`);
+}
+
+/** Épreuve (fichier public/data/qcm), ou null si elle ne se charge pas. */
+async function fetchExam(slug: string, annee: number): Promise<ExamData | null> {
   try {
     const response = await fetch(`/data/qcm/${slug}_${annee}.json`);
     if (!response.ok) return null;
 
-    const exam = normalizeExamData((await response.json()) as ExamData);
-    return { exam, questions: new Map(flattenExamQuestions(exam).map((q) => [q.id, q])) };
+    return normalizeExamData((await response.json()) as ExamData);
   } catch {
     return null;
   }
+}
+
+export async function fetchExamQuestions(slug: string, annee: number): Promise<Question[] | null> {
+  const exam = await fetchExam(slug, annee);
+  return exam ? flattenExamQuestions(exam) : null;
+}
+
+/** Ne charge que les épreuves nécessaires ; une épreuve introuvable compte ses questions comme manquantes. */
+async function loadExamQuestions(slug: string, annee: number) {
+  const exam = await fetchExam(slug, annee);
+  if (!exam) return null;
+
+  return { exam, questions: new Map(flattenExamQuestions(exam).map((q) => [q.id, q])) };
 }
 
 export async function loadPracticeExam(session: PracticeSession): Promise<PracticeExam> {
@@ -134,7 +167,7 @@ export async function loadPracticeExam(session: PracticeSession): Promise<Practi
       {
         id: "revision",
         type: "SQI",
-        title: "Questions à revoir",
+        title: session.kind === "custom" ? "Séance personnalisée" : "Questions à revoir",
         order: 1,
         questions,
       },

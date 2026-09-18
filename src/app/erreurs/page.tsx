@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, Play, RotateCcw, Target, Trash2 } from "lucide-react";
+import { ArrowLeft, Play, RotateCcw, Shuffle, Target, Trash2 } from "lucide-react";
 import { useDialogs } from "@/components/DialogProvider";
 import {
   clearMistakes,
@@ -15,9 +15,9 @@ import {
 } from "@/lib/exam/mistakes";
 import {
   createSessionId,
-  loadSession,
+  discardSessionAttempt,
+  findUnfinishedSession,
   PRACTICE_SESSION_SIZE,
-  practiceAttemptKey,
   saveSession,
   shuffle,
   type PracticeSession,
@@ -33,18 +33,6 @@ function formatRelative(iso: string) {
 
 function plural(count: number, singular: string) {
   return count > 1 ? `${singular}s` : singular;
-}
-
-/** Séance interrompue (composition enregistrée + tentative commencée), à proposer de reprendre. */
-function findUnfinishedSession(): PracticeSession | null {
-  const session = loadSession();
-  if (!session) return null;
-
-  try {
-    return localStorage.getItem(practiceAttemptKey(session)) ? session : null;
-  } catch {
-    return null;
-  }
 }
 
 export default function ErreursPage() {
@@ -82,7 +70,7 @@ export default function ErreursPage() {
       return;
     }
 
-    if (unfinished) localStorage.removeItem(practiceAttemptKey(unfinished));
+    if (unfinished) discardSessionAttempt(unfinished);
 
     const chosen = shuffle(sortByPriority(pool).slice(0, PRACTICE_SESSION_SIZE));
 
@@ -127,17 +115,24 @@ export default function ErreursPage() {
           Retour à l&apos;accueil
         </Link>
 
-        <div className="mb-6 mt-6 flex items-center gap-3">
+        <div className="mb-6 mt-6 flex flex-wrap items-center gap-3">
           <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
             <Target className="h-5 w-5" />
           </div>
-          <div>
+          <div className="min-w-0 flex-1">
             <h1 className="text-2xl font-black">Mes erreurs</h1>
             <p className="text-sm text-stone-500 dark:text-stone-400">
               Les questions ratées en épreuve s&apos;ajoutent ici. Réussis-les en révision pour
               les retirer.
             </p>
           </div>
+          <Link
+            href="/seance"
+            className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-bold text-stone-700 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-800 dark:border-stone-800 dark:bg-[#1d1c18] dark:text-stone-200 dark:hover:bg-stone-800"
+          >
+            <Shuffle className="h-4 w-4" />
+            Séance personnalisée
+          </Link>
         </div>
 
         {entries === null ? null : (

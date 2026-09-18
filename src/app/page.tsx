@@ -12,6 +12,7 @@ import {
   BookOpen,
   FileText,
   GraduationCap,
+  Shuffle,
   Stethoscope,
   Users,
   X,
@@ -337,9 +338,18 @@ export default function HomePage() {
               Choisir une matiere
             </h2>
           </div>
-          <p className="max-w-md text-sm leading-6 text-stone-600 dark:text-stone-400">
-            Choisissez un semestre, puis une matiere pour voir ses epreuves.
-          </p>
+          <div className="flex flex-col gap-3 sm:items-end">
+            <p className="max-w-md text-sm leading-6 text-stone-600 dark:text-stone-400 sm:text-right">
+              Choisissez un semestre, puis une matiere pour voir ses epreuves.
+            </p>
+            <Link
+              href="/seance"
+              className="inline-flex items-center gap-2 rounded-lg border border-emerald-700 bg-emerald-50 px-4 py-2 text-sm font-black text-emerald-800 transition-colors hover:bg-emerald-100 dark:border-emerald-600 dark:bg-emerald-950/30 dark:text-emerald-300 dark:hover:bg-emerald-950/60"
+            >
+              <Shuffle className="h-4 w-4" />
+              Séance personnalisée
+            </Link>
+          </div>
         </div>
 
         {semesters.length > 0 ? (

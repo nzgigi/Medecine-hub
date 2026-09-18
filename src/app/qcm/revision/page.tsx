@@ -47,28 +47,39 @@ export default function RevisionPage() {
         <div className="max-w-md rounded-2xl border border-stone-200 bg-white p-8 text-center shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           <h1 className="mb-3 text-2xl font-black">Aucune séance en cours</h1>
           <p className="mb-6 text-stone-600 dark:text-stone-300">
-            Lance une séance depuis la page « Mes erreurs ».
+            Lance une séance personnalisée, ou révise tes erreurs.
           </p>
-          <Link
-            href="/erreurs"
-            className="inline-flex items-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 font-bold text-white hover:bg-emerald-700"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Mes erreurs
-          </Link>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link
+              href="/seance"
+              className="inline-flex items-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 font-bold text-white hover:bg-emerald-700"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              Séance personnalisée
+            </Link>
+            <Link
+              href="/erreurs"
+              className="inline-flex items-center gap-2 rounded-lg border border-stone-300 px-5 py-3 font-bold text-stone-800 hover:bg-stone-100 dark:border-stone-700 dark:text-stone-200 dark:hover:bg-stone-800"
+            >
+              Mes erreurs
+            </Link>
+          </div>
         </div>
       </div>
     );
   }
 
   const { session } = state;
+  const isCustom = session.kind === "custom";
 
   return (
     <ExamRunner
       key={session.id}
       mode="practice"
       attemptStorageKey={practiceAttemptKey(session)}
-      backHref="/erreurs"
+      backHref={isCustom ? "/seance" : "/erreurs"}
+      backLabel={isCustom ? "Séances" : "Mes erreurs"}
+      timeLimitMinutes={session.timeLimitMinutes}
       loadExam={() => loadPracticeExam(session)}
     />
   );

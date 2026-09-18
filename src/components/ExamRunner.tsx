@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, type SyntheticEvent } from "react";
+import { useEffect, useMemo, useRef, useState, type SyntheticEvent } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -18,11 +18,13 @@ import {
   Menu,
   RotateCcw,
   Send,
+  Timer,
   X,
 } from "lucide-react";
 import type {
   AssociationAnswer,
   ExamData,
+  ExamScoreResult,
   ExamFolder,
   FolderSubmissions,
   ImagePoint,
@@ -150,6 +152,67 @@ function handleQuestionImageError(event: SyntheticEvent<HTMLImageElement>) {
   if (placeholder) placeholder.style.display = "flex";
 }
 
+function formatClock(ms: number) {
+  const totalSeconds = Math.ceil(ms / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+/** Compte à rebours jusqu'à `deadline` ; appelle `onExpire` une seule fois à zéro. */
+function ExamTimer({ deadline, onExpire }: { deadline: number; onExpire: () => void }) {
+  const [remaining, setRemaining] = useState(() => Math.max(0, deadline - Date.now()));
+  const onExpireRef = useRef(onExpire);
+
+  useEffect(() => {
+    onExpireRef.current = onExpire;
+  });
+
+  useEffect(() => {
+    let fired = false;
+
+    const tick = () => {
+      const left = Math.max(0, deadline - Date.now());
+      setRemaining(left);
+
+      if (left === 0 && !fired) {
+        fired = true;
+        onExpireRef.current();
+      }
+    };
+
+    // Premier passage hors du corps de l'effet : une échéance déjà dépassée (reprise) se déclenche aussitôt.
+    const first = setTimeout(tick, 0);
+    const interval = setInterval(tick, 1000);
+
+    return () => {
+      clearTimeout(first);
+      clearInterval(interval);
+    };
+  }, [deadline]);
+
+  const urgent = remaining <= 60_000;
+  const warning = remaining <= 5 * 60_000;
+
+  return (
+    <span
+      role="timer"
+      aria-label="Temps restant"
+      className={`inline-flex shrink-0 items-center gap-1 rounded-md px-1.5 py-0.5 text-xs font-black tabular-nums ${
+        urgent
+          ? "animate-pulse bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300"
+          : warning
+          ? "bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300"
+          : "bg-stone-100 text-stone-600 dark:bg-[#1d1c18] dark:text-stone-300"
+      }`}
+    >
+      <Timer className="h-3 w-3" />
+      {formatClock(remaining)}
+    </span>
+  );
+}
+
 function QuestionContextBlock({ text }: { text: string }) {
   const isLong = text.length > CONTEXT_COLLAPSE_THRESHOLD;
   const [expanded, setExpanded] = useState(!isLong);
@@ -202,6 +265,10 @@ interface ExamRunnerProps {
   slug?: string;
   attemptStorageKey: string;
   backHref: string;
+  /** Libellé du retour en mode "practice" (ex. "Mes erreurs"). */
+  backLabel?: string;
+  /** Chrono en minutes ; à zéro, l'épreuve est soumise automatiquement. */
+  timeLimitMinutes?: number;
   loadExam: () => Promise<LoadedExam>;
 }
 
@@ -210,6 +277,8 @@ export default function ExamRunner({
   slug,
   attemptStorageKey,
   backHref,
+  backLabel = "Mes erreurs",
+  timeLimitMinutes,
   loadExam,
 }: ExamRunnerProps) {
   const router = useRouter();
@@ -218,6 +287,8 @@ export default function ExamRunner({
 
   const [examData, setExamData] = useState<ExamData | null>(null);
   const [origins, setOrigins] = useState<Record<number, QuestionOrigin>>({});
+  const [deadline, setDeadline] = useState<number | null>(null);
+  const deadlineKey = `${attemptStorageKey}_deadline`;
   const [loading, setLoading] = useState(true);
 
   const [currentFolderIndex, setCurrentFolderIndex] = useState(0);
@@ -245,6 +316,7 @@ export default function ExamRunner({
         setOrigins(loadedOrigins ?? {});
 
         const savedAttemptRaw = localStorage.getItem(attemptStorageKey);
+        let resumed = false;
 
         if (savedAttemptRaw) {
           const shouldResume = await showConfirm(
@@ -257,6 +329,7 @@ export default function ExamRunner({
           );
 
           if (shouldResume) {
+            resumed = true;
             const savedAttempt = JSON.parse(
               savedAttemptRaw
             ) as SavedExamAttempt;
@@ -279,7 +352,20 @@ export default function ExamRunner({
             setCurrentQuestionIndex(safeQuestionIndex);
           } else {
             localStorage.removeItem(attemptStorageKey);
+            localStorage.removeItem(deadlineKey);
           }
+        }
+
+        if (timeLimitMinutes) {
+          // L'échéance est absolue et sauvegardée : recharger la page ne remet pas le chrono à zéro.
+          const storedDeadline = Number(localStorage.getItem(deadlineKey));
+          const nextDeadline =
+            resumed && storedDeadline > 0
+              ? storedDeadline
+              : Date.now() + timeLimitMinutes * 60_000;
+
+          localStorage.setItem(deadlineKey, String(nextDeadline));
+          setDeadline(nextDeadline);
         }
       } catch (error) {
         console.error("Erreur chargement QCM:", error);
@@ -357,7 +443,7 @@ export default function ExamRunner({
             className="inline-flex items-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 font-bold text-white hover:bg-emerald-700"
           >
             <ArrowLeft className="h-4 w-4" />
-            {isPractice ? "Retour à mes erreurs" : "Retour accueil"}
+            {isPractice ? `Retour : ${backLabel}` : "Retour accueil"}
           </Link>
         </div>
       </div>
@@ -630,6 +716,13 @@ export default function ExamRunner({
     }
 
     localStorage.removeItem(attemptStorageKey);
+
+    if (timeLimitMinutes) {
+      const nextDeadline = Date.now() + timeLimitMinutes * 60_000;
+      localStorage.setItem(deadlineKey, String(nextDeadline));
+      setDeadline(nextDeadline);
+    }
+
     setUserAnswers({});
     setFolderSubmissions({});
     setLockedQuestions({});
@@ -652,14 +745,14 @@ export default function ExamRunner({
   };
 
   /** Résultat de chaque question des dossiers soumis (un dossier non soumis n'est pas compté comme raté). */
-  const collectOutcomes = (): QuestionOutcome[] => {
-    if (!examScore) return [];
+  const collectOutcomes = (score: ExamScoreResult | null = examScore): QuestionOutcome[] => {
+    if (!score) return [];
 
     const questionsById = new Map(
       examData.folders.flatMap((folder) => folder.questions).map((q) => [q.id, q])
     );
 
-    return examScore.folders
+    return score.folders
       .filter((folder) => folder.submitted)
       .flatMap((folder) => folder.questions)
       .flatMap((result) => {
@@ -680,6 +773,30 @@ export default function ExamRunner({
           },
         ];
       });
+  };
+
+  /** Temps écoulé : tous les dossiers sont soumis tels quels, sans confirmation. */
+  const autoFinish = () => {
+    if (showResults) return;
+
+    const allSubmitted: FolderSubmissions = {};
+    for (const folder of examData.folders) allSubmitted[folder.id] = true;
+
+    const allLocked: LockedQuestions = {};
+    for (const folder of examData.folders) {
+      for (const question of folder.questions) allLocked[question.id] = true;
+    }
+
+    recordOutcomes(collectOutcomes(getExamScore(examData, userAnswers, allSubmitted)));
+    localStorage.removeItem(attemptStorageKey);
+    localStorage.removeItem(deadlineKey);
+
+    setFolderSubmissions(allSubmitted);
+    setLockedQuestions(allLocked);
+    setCorrectionFolderIndex(0);
+    setShowResults(true);
+
+    void showAlert("Temps écoulé : ta séance a été soumise automatiquement.");
   };
 
   const submitExam = async () => {
@@ -719,6 +836,7 @@ export default function ExamRunner({
 
     recordOutcomes(collectOutcomes());
     localStorage.removeItem(attemptStorageKey);
+    localStorage.removeItem(deadlineKey);
 
     setCorrectionFolderIndex(0);
     setShowResults(true);
@@ -1335,7 +1453,7 @@ export default function ExamRunner({
               className="inline-flex items-center gap-2 font-semibold text-emerald-800 hover:underline dark:text-emerald-300"
             >
               <ArrowLeft className="h-4 w-4" />
-              {isPractice ? "Retour à mes erreurs" : "Retour accueil"}
+              {isPractice ? `Retour : ${backLabel}` : "Retour accueil"}
             </button>
           </div>
 
@@ -1352,7 +1470,7 @@ export default function ExamRunner({
 
                 <p className="text-stone-600 dark:text-stone-300">
                   {isPractice
-                    ? `${practiceCorrectCount}/${examData.total_questions} question(s) réussie(s). Celles que tu as réussies sont retirées de « Mes erreurs », les autres y restent.`
+                    ? `${practiceCorrectCount}/${examData.total_questions} question(s) réussie(s). Les questions ratées sont ajoutées à « Mes erreurs » ; celles qui y étaient déjà et que tu as réussies en sont retirées.`
                     : "Seuls les dossiers soumis sont pris en compte dans la note finale."}
                 </p>
               </div>
@@ -1513,11 +1631,11 @@ export default function ExamRunner({
         <div className="mx-auto flex max-w-3xl items-center gap-2 px-3 py-2.5 sm:gap-3 sm:px-4">
           <Link
             href={backHref}
-            aria-label={isPractice ? "Retour à mes erreurs" : "Retour à l'accueil"}
+            aria-label={isPractice ? `Retour : ${backLabel}` : "Retour à l'accueil"}
             className="flex shrink-0 items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-bold text-stone-600 transition-colors hover:bg-stone-100 dark:text-stone-300 dark:hover:bg-[#1d1c18]"
           >
             <ArrowLeft className="h-4 w-4" />
-            <span className="hidden sm:inline">{isPractice ? "Mes erreurs" : "Accueil"}</span>
+            <span className="hidden sm:inline">{isPractice ? backLabel : "Accueil"}</span>
           </Link>
 
           <div className="min-w-0 flex-1">
@@ -1525,9 +1643,12 @@ export default function ExamRunner({
               <p className="truncate text-sm font-black">
                 {examTitle}
               </p>
-              <p className="shrink-0 text-xs font-semibold text-stone-500 dark:text-stone-400">
-                {totalAnsweredQuestions}/{examData.total_questions}
-              </p>
+              <div className="flex shrink-0 items-center gap-2">
+                {deadline !== null && <ExamTimer deadline={deadline} onExpire={autoFinish} />}
+                <p className="text-xs font-semibold text-stone-500 dark:text-stone-400">
+                  {totalAnsweredQuestions}/{examData.total_questions}
+                </p>
+              </div>
             </div>
 
             <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-stone-100 dark:bg-[#1d1c18]">
