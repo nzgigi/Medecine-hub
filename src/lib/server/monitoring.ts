@@ -43,6 +43,24 @@ function fileSize(...segments: string[]) {
   }
 }
 
+/** Dernière sauvegarde écrite par scripts/backup-db.sh (null si jamais lancée, ex. en local). */
+function readLastBackup(): { at: string; bytes: number } | null {
+  const stateDir = process.env.OPS_STATE_DIR || "/var/lib/medecine-hub-monitor";
+
+  try {
+    const parsed = JSON.parse(fs.readFileSync(`${stateDir}/last_backup`, "utf-8")) as {
+      at?: unknown;
+      bytes?: unknown;
+    };
+
+    return typeof parsed.at === "string" && typeof parsed.bytes === "number"
+      ? { at: parsed.at, bytes: parsed.bytes }
+      : null;
+  } catch {
+    return null;
+  }
+}
+
 function toMb(bytes: number) {
   return Math.round((bytes / 1024 / 1024) * 10) / 10;
 }
@@ -149,6 +167,7 @@ export function getMonitoringData() {
       heapUsedMb: toMb(memory.heapUsed),
       dbSizeMb: toMb(fileSize("data", "db", "medecine-hub.sqlite3")),
       nodeVersion: process.version,
+      lastBackup: readLastBackup(),
     },
   };
 }

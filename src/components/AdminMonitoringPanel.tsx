@@ -20,6 +20,7 @@ import {
 import type { MonitoringData } from "@/lib/server/monitoring";
 
 const REFRESH_INTERVAL_MS = 15_000;
+const BACKUP_MAX_AGE_MS = 36 * 3_600_000;
 
 interface AdminMonitoringPanelProps {
   getAdminHeaders: (extraHeaders?: HeadersInit) => HeadersInit;
@@ -326,6 +327,9 @@ export default function AdminMonitoringPanel({ getAdminHeaders }: AdminMonitorin
   const viewsTotal30 = sum(views.daily);
   const signupsTotal30 = sum(members.signupsDaily);
   const attemptsTotal30 = sum(activity.attemptsDaily);
+  const backupIsStale =
+    !system.lastBackup ||
+    Date.now() - new Date(system.lastBackup.at).getTime() > BACKUP_MAX_AGE_MS;
 
   return (
     <div className="space-y-6">
@@ -592,6 +596,26 @@ export default function AdminMonitoringPanel({ getAdminHeaders }: AdminMonitorin
               </div>
             ))}
           </dl>
+
+          <div
+            className={`mt-4 rounded-lg border px-3 py-2 text-sm ${
+              backupIsStale
+                ? "border-amber-300 bg-amber-50 text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/30 dark:text-amber-200"
+                : "border-stone-200 dark:border-stone-800"
+            }`}
+          >
+            <div className="font-bold">Sauvegarde de la base</div>
+            {system.lastBackup ? (
+              <div className="text-xs">
+                {formatRelative(system.lastBackup.at)} ·{" "}
+                {Math.max(1, Math.round(system.lastBackup.bytes / 1024))} Ko
+                {backupIsStale && " · plus de 36 h, à vérifier"}
+              </div>
+            ) : (
+              <div className="text-xs">Aucune sauvegarde enregistrée (scripts/setup-ops.sh).</div>
+            )}
+          </div>
+
           <p className="mt-4 text-xs text-stone-400 dark:text-stone-500">
             Actualisé à {new Date(data.generatedAt).toLocaleTimeString("fr-FR")} · mise à jour
             automatique toutes les {REFRESH_INTERVAL_MS / 1000} s.
