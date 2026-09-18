@@ -44,6 +44,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 import { useDialogs } from "@/components/DialogProvider";
 import ReportQuestionButton from "@/components/ReportQuestionButton";
 import ShareScoreButton from "@/components/ShareScoreButton";
+import DiscordBanner from "@/components/DiscordBanner";
 import { recordOutcomes, type QuestionOutcome } from "@/lib/exam/mistakes";
 import type { QuestionOrigin } from "@/lib/exam/practiceSession";
 
@@ -1404,6 +1405,8 @@ export default function ExamRunner({
               </div>
             )}
           </div>
+
+          {!isPractice && <DiscordBanner variant="compact" className="mb-6" />}
 
           <div className="mb-6 rounded-2xl border border-stone-200 bg-white p-4 shadow-sm dark:border-stone-800 dark:bg-[#151512]">
             <div className="mb-4 flex items-center gap-2 font-bold">

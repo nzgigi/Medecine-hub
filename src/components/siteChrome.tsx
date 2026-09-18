@@ -5,6 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Heart, Mail, Scale } from "lucide-react";
 import Navbar from "./NavBar";
+import DiscordIcon from "./DiscordIcon";
+import { DISCORD_INVITE_URL } from "@/lib/site";
 
 export default function SiteChrome({
   children,
@@ -79,6 +81,16 @@ export default function SiteChrome({
                 <Heart className="h-4 w-4" />
                 Nous soutenir
               </Link>
+
+              <a
+                href={DISCORD_INVITE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm font-bold text-discord-blurple transition-colors hover:text-discord-blurple-dark dark:text-[#949cf7] dark:hover:text-white"
+              >
+                <DiscordIcon className="h-4 w-4" />
+                Discord
+              </a>
             </nav>
           </div>
 

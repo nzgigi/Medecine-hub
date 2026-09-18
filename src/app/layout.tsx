@@ -5,6 +5,7 @@ import SiteChrome from "../components/siteChrome";
 import PageViewTracker from "../components/PageViewTracker";
 import PresenceHeartbeat from "../components/PresenceHeartbeat";
 import { DialogProvider } from "../components/DialogProvider";
+import { DISCORD_INVITE_URL } from "../lib/site";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -80,6 +81,7 @@ const jsonLd = {
       name: "Medecine Hub",
       url: "https://medecinehub.fr",
       logo: "https://medecinehub.fr/brand/pfp-v2.png",
+      sameAs: [DISCORD_INVITE_URL],
     },
   ],
 };

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import DiscordBanner from "@/components/DiscordBanner";
 import {
   AlertCircle,
   ArrowLeft,
@@ -171,6 +172,8 @@ export default function ContactPage() {
         <section className="grid gap-8 lg:grid-cols-[340px_1fr]">
           {/* Informations */}
           <aside className="space-y-6">
+            <DiscordBanner variant="compact" stacked />
+
             <div className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-stone-800 dark:bg-[#1d1c18]">
               <h2 className="text-lg font-bold text-slate-950 dark:text-white">
                 Pour quelles raisons nous écrire ?

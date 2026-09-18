@@ -4,6 +4,9 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import MatiereCard from "@/components/MatiereCard";
+import DiscordBanner from "@/components/DiscordBanner";
+import DiscordIcon from "@/components/DiscordIcon";
+import { DISCORD_INVITE_URL } from "@/lib/site";
 import {
   ArrowRight,
   BookOpen,
@@ -216,6 +219,16 @@ export default function HomePage() {
                 >
                   Voir mon compte
                 </Link>
+
+                <a
+                  href={DISCORD_INVITE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-discord-blurple px-5 py-3 text-sm font-black text-white shadow-sm shadow-discord-blurple/30 transition-colors hover:bg-discord-blurple-dark"
+                >
+                  <DiscordIcon className="h-4 w-4" />
+                  Rejoindre le Discord
+                </a>
               </div>
             </div>
 
@@ -386,6 +399,10 @@ export default function HomePage() {
             </p>
           </div>
         )}
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pb-10 sm:px-6 lg:px-8">
+        <DiscordBanner />
       </section>
 
       {openMatiere && (

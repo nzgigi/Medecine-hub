@@ -19,6 +19,8 @@ import {
   Zap,
 } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
+import DiscordIcon from "./DiscordIcon";
+import { DISCORD_INVITE_URL } from "@/lib/site";
 import {
   getLocalUserProfile,
   getProfilePicture,
@@ -27,8 +29,9 @@ import {
 } from "@/lib/userProfile";
 import { MISTAKES_UPDATED_EVENT, readMistakes } from "@/lib/exam/mistakes";
 
-// Déjà présents dans le pied de page : masqués dans la barre sous 1280 px pour qu'elle ne déborde pas.
-const LOW_PRIORITY_DESKTOP_LINKS = ["/mentions-legales", "/contact"];
+// Déjà présents dans le pied de page : absents de la barre desktop (contenu limité à ~1216 px),
+// mais gardés dans le menu déroulant.
+const MENU_ONLY_LINKS = ["/mentions-legales", "/contact"];
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -46,6 +49,8 @@ export default function Navbar() {
     { name: "Mentions legales", href: "/mentions-legales", icon: Scale },
     { name: "Contact", href: "/contact", icon: Mail },
   ];
+
+  const desktopNavigation = navigation.filter((item) => !MENU_ONLY_LINKS.includes(item.href));
 
   const isActive = (href: string) => pathname === href;
 
@@ -82,7 +87,7 @@ export default function Navbar() {
       >
         <Link
           href="/"
-          className="group flex items-center gap-3"
+          className="group flex shrink-0 items-center gap-3"
           aria-label="Medecine Hub - Accueil"
         >
           <div className="relative h-14 w-14 shrink-0 transition-transform duration-200 group-hover:scale-105">
@@ -97,27 +102,25 @@ export default function Navbar() {
           </div>
 
           <div className="flex flex-col">
-            <span className="text-[17px] font-bold tracking-tight text-stone-950 dark:text-white">
+            <span className="whitespace-nowrap text-[17px] font-bold tracking-tight text-stone-950 dark:text-white">
               Medecine Hub
             </span>
 
-            <span className="text-[11px] font-medium tracking-wide text-stone-500 dark:text-stone-400">
+            <span className="whitespace-nowrap text-[11px] font-medium tracking-wide text-stone-500 dark:text-stone-400">
               Annales de medecine
             </span>
           </div>
         </Link>
 
-        <div className="hidden items-center gap-1 lg:flex">
-          {navigation.map((item) => {
+        <div className="hidden items-center gap-1 xl:flex">
+          {desktopNavigation.map((item) => {
             const active = isActive(item.href);
 
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-200 ${
-                  LOW_PRIORITY_DESKTOP_LINKS.includes(item.href) ? "hidden xl:block" : ""
-                } ${
+                className={`whitespace-nowrap rounded-lg px-2.5 py-2 text-sm font-medium transition-colors duration-200 ${
                   active
                     ? "bg-emerald-50 text-emerald-800 dark:bg-[#1d1c18] dark:text-emerald-300"
                     : "text-stone-600 hover:bg-stone-100 hover:text-stone-950 dark:text-stone-300 dark:hover:bg-[#1d1c18] dark:hover:text-white"
@@ -136,6 +139,17 @@ export default function Navbar() {
           <div className="ml-2 border-l border-stone-200 pl-3 dark:border-stone-800">
             <ThemeToggle variant="desktop" />
           </div>
+
+          <a
+            href={DISCORD_INVITE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Rejoindre notre serveur Discord"
+            title="Rejoindre notre Discord"
+            className="ml-2 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-discord-blurple text-white shadow-sm shadow-discord-blurple/30 transition hover:-translate-y-0.5 hover:bg-discord-blurple-dark"
+          >
+            <DiscordIcon className="h-5 w-5" />
+          </a>
 
           {profile ? (
             <Link
@@ -177,7 +191,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="flex items-center gap-1 lg:hidden">
+        <div className="flex items-center gap-1 xl:hidden">
           <ThemeToggle variant="icon" />
 
           <button
@@ -201,7 +215,7 @@ export default function Navbar() {
       </nav>
 
       {mobileMenuOpen && (
-        <div className="border-t border-stone-200 bg-white px-4 pb-4 pt-3 dark:border-stone-800 dark:bg-[#151512] lg:hidden">
+        <div className="border-t border-stone-200 bg-white px-4 pb-4 pt-3 dark:border-stone-800 dark:bg-[#151512] xl:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-1">
             {navigation.map((item) => {
               const Icon = item.icon;
@@ -228,6 +242,17 @@ export default function Navbar() {
                 </Link>
               );
             })}
+
+            <a
+              href={DISCORD_INVITE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-3 rounded-lg bg-discord-blurple px-3 py-3 text-sm font-bold text-white transition-colors hover:bg-discord-blurple-dark"
+            >
+              <DiscordIcon className="h-4 w-4" />
+              Rejoindre notre Discord
+            </a>
 
             <Link
               href={profile ? "/compte" : "/connexion"}
