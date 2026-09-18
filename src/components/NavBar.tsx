@@ -13,6 +13,7 @@ import {
   Newspaper,
   Scale,
   Sparkles,
+  Target,
   UserRound,
   X,
   Zap,
@@ -24,15 +25,21 @@ import {
   USER_PROFILE_UPDATED_EVENT,
   type LocalUserProfile,
 } from "@/lib/userProfile";
+import { MISTAKES_UPDATED_EVENT, readMistakes } from "@/lib/exam/mistakes";
+
+// Déjà présents dans le pied de page : masqués dans la barre sous 1280 px pour qu'elle ne déborde pas.
+const LOW_PRIORITY_DESKTOP_LINKS = ["/mentions-legales", "/contact"];
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profile, setProfile] = useState<LocalUserProfile | null>(null);
+  const [mistakesCount, setMistakesCount] = useState(0);
   const pathname = usePathname();
 
   const navigation = [
-    { name: "Accueil", href: "/", icon: Home },
+    { name: "Accueil", href: "/", icon: Home, badge: 0 },
     { name: "MedTok", href: "/medtok", icon: Zap },
+    { name: "Mes erreurs", href: "/erreurs", icon: Target, badge: mistakesCount },
     ...(profile ? [{ name: "Actualités", href: "/actualites", icon: Newspaper }] : []),
     { name: "Mises a jour", href: "/mises-a-jour", icon: Sparkles },
     { name: "Sources", href: "/sources", icon: Landmark },
@@ -41,6 +48,8 @@ export default function Navbar() {
   ];
 
   const isActive = (href: string) => pathname === href;
+
+  const badgeOf = (item: { badge?: number }) => item.badge ?? 0;
   const profilePicture = profile ? getProfilePicture(profile) : undefined;
 
   useEffect(() => {
@@ -49,12 +58,19 @@ export default function Navbar() {
     };
 
     syncProfile();
+    const syncMistakes = () => setMistakesCount(Object.keys(readMistakes()).length);
+
+    syncMistakes();
     window.addEventListener("storage", syncProfile);
+    window.addEventListener("storage", syncMistakes);
     window.addEventListener(USER_PROFILE_UPDATED_EVENT, syncProfile);
+    window.addEventListener(MISTAKES_UPDATED_EVENT, syncMistakes);
 
     return () => {
       window.removeEventListener("storage", syncProfile);
+      window.removeEventListener("storage", syncMistakes);
       window.removeEventListener(USER_PROFILE_UPDATED_EVENT, syncProfile);
+      window.removeEventListener(MISTAKES_UPDATED_EVENT, syncMistakes);
     };
   }, [pathname]);
 
@@ -99,13 +115,20 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`rounded-lg px-3.5 py-2 text-sm font-medium transition-colors duration-200 ${
+                className={`whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                  LOW_PRIORITY_DESKTOP_LINKS.includes(item.href) ? "hidden xl:block" : ""
+                } ${
                   active
                     ? "bg-emerald-50 text-emerald-800 dark:bg-[#1d1c18] dark:text-emerald-300"
                     : "text-stone-600 hover:bg-stone-100 hover:text-stone-950 dark:text-stone-300 dark:hover:bg-[#1d1c18] dark:hover:text-white"
                 }`}
               >
                 {item.name}
+                {badgeOf(item) > 0 && (
+                  <span className="ml-1.5 rounded-full bg-emerald-600 px-1.5 py-0.5 text-[10px] font-bold text-white">
+                    {badgeOf(item)}
+                  </span>
+                )}
               </Link>
             );
           })}
@@ -197,6 +220,11 @@ export default function Navbar() {
                 >
                   <Icon className="h-4 w-4" />
                   {item.name}
+                  {badgeOf(item) > 0 && (
+                    <span className="rounded-full bg-emerald-600 px-1.5 py-0.5 text-[10px] font-bold text-white">
+                      {badgeOf(item)}
+                    </span>
+                  )}
                 </Link>
               );
             })}
