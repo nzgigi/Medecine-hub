@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
+  Activity,
   AlertCircle,
   ArrowDown,
   ArrowUp,
@@ -39,6 +40,7 @@ import {
 } from "@/lib/subjectStyles";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminMedtokPanel from "@/components/AdminMedtokPanel";
+import AdminMonitoringPanel from "@/components/AdminMonitoringPanel";
 import AdminReportsPanel from "@/components/AdminReportsPanel";
 import AdminSessionBadge from "@/components/AdminSessionBadge";
 
@@ -78,13 +80,6 @@ interface ValidationIssue {
   file: string;
   level: "error" | "warning";
   message: string;
-}
-
-interface AnalyticsData {
-  totalViews: number;
-  trackedPaths: number;
-  topPages: { path: string; total: number }[];
-  dailySeries: { day: string; total: number }[];
 }
 
 interface UserSummaryEntry {
@@ -296,7 +291,7 @@ function AdminAction({
   );
 }
 
-type AdminTab = "overview" | "epreuves" | "medtok" | "signalements";
+type AdminTab = "overview" | "epreuves" | "medtok" | "signalements" | "monitoring";
 
 const FAVORITE_COLORS_STORAGE_KEY = "medecine_hub_admin_favorite_colors";
 const MAX_FAVORITE_COLORS = 10;
@@ -358,17 +353,9 @@ export default function AdminDashboard() {
   );
   const [validationSummary, setValidationSummary] = useState("");
 
-  const [analytics, setAnalytics] = useState<AnalyticsData | null>(null);
-  const [loadingAnalytics, setLoadingAnalytics] = useState(false);
-
   const [registeredUsers, setRegisteredUsers] = useState<UsersSummary | null>(
     null
   );
-
-  const maxDailyViews = useMemo(() => {
-    if (!analytics || analytics.dailySeries.length === 0) return 1;
-    return Math.max(1, ...analytics.dailySeries.map((point) => point.total));
-  }, [analytics]);
 
   const [createMode, setCreateMode] = useState<"existing" | "new">("existing");
   const [selectedExistingSlug, setSelectedExistingSlug] = useState("");
@@ -405,7 +392,6 @@ export default function AdminDashboard() {
     }
 
     loadIndex();
-    loadAnalytics();
     loadRegisteredUsers();
   }, [router]);
 
@@ -424,33 +410,6 @@ export default function AdminDashboard() {
       }
     } catch (error) {
       console.error("Erreur chargement utilisateurs:", error);
-    }
-  };
-
-  const loadAnalytics = async () => {
-    setLoadingAnalytics(true);
-
-    try {
-      const response = await fetch("/api/admin/analytics", {
-        headers: getAdminHeaders(),
-      });
-
-      const result = (await response.json()) as
-        | (AnalyticsData & { success: true })
-        | { success: false };
-
-      if (result.success) {
-        setAnalytics({
-          totalViews: result.totalViews,
-          trackedPaths: result.trackedPaths,
-          topPages: result.topPages,
-          dailySeries: result.dailySeries,
-        });
-      }
-    } catch (error) {
-      console.error("Erreur chargement analytics:", error);
-    } finally {
-      setLoadingAnalytics(false);
     }
   };
 
@@ -1211,6 +1170,7 @@ export default function AdminDashboard() {
                 { id: "epreuves", label: "Epreuves", icon: FileText },
                 { id: "medtok", label: "MedTok", icon: Zap },
                 { id: "signalements", label: "Signalements", icon: Flag },
+                { id: "monitoring", label: "Monitoring", icon: Activity },
               ] as { id: AdminTab; label: string; icon: typeof BookOpen }[]
             ).map((tab) => {
               const TabIcon = tab.icon;
@@ -1478,129 +1438,6 @@ export default function AdminDashboard() {
         </section>
         )}
 
-        {activeTab === "overview" && (
-        <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-            <div className="flex items-center gap-3">
-              <div className="rounded-lg bg-sky-50 p-2 text-sky-700 dark:bg-sky-950/40 dark:text-sky-300">
-                <BarChart3 className="h-5 w-5" />
-              </div>
-              <div>
-                <h2 className="text-xl font-black">Statistiques</h2>
-                <p className="text-sm text-stone-500 dark:text-stone-400">
-                  Vues du site (compteur simple, pas de suivi individuel).
-                </p>
-              </div>
-            </div>
-
-            <button
-              onClick={loadAnalytics}
-              disabled={loadingAnalytics}
-              className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-3 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-800"
-            >
-              <RefreshCw
-                className={`h-4 w-4 ${loadingAnalytics ? "animate-spin" : ""}`}
-              />
-              Actualiser
-            </button>
-          </div>
-
-          {!analytics ? (
-            <p className="text-sm text-stone-500 dark:text-stone-400">
-              {loadingAnalytics ? "Chargement..." : "Aucune donnee pour le moment."}
-            </p>
-          ) : (
-            <>
-              <div className="mb-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <div className="rounded-lg border border-stone-200 p-4 dark:border-stone-800">
-                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-stone-400">
-                    Vues totales
-                  </div>
-                  <div className="text-3xl font-black">
-                    {analytics.totalViews}
-                  </div>
-                </div>
-                <div className="rounded-lg border border-stone-200 p-4 dark:border-stone-800">
-                  <div className="text-xs font-bold uppercase text-stone-500 dark:text-stone-400">
-                    Pages suivies
-                  </div>
-                  <div className="text-3xl font-black">
-                    {analytics.trackedPaths}
-                  </div>
-                </div>
-              </div>
-
-              <div className="mb-5">
-                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-stone-200">
-                  14 derniers jours
-                </div>
-
-                {analytics.dailySeries.length === 0 ? (
-                  <p className="text-sm text-stone-500 dark:text-stone-400">
-                    Pas encore de donnees quotidiennes.
-                  </p>
-                ) : (
-                  <div className="flex h-28 items-end gap-1">
-                    {analytics.dailySeries.map((point) => {
-                      const heightPercent = Math.max(
-                        Math.round((point.total / maxDailyViews) * 100),
-                        2
-                      );
-
-                      return (
-                        <div
-                          key={point.day}
-                          className="flex h-full flex-1 flex-col items-center justify-end gap-1"
-                          title={`${point.day} : ${point.total} vue(s)`}
-                        >
-                          <div
-                            className="w-full rounded-t bg-emerald-500 dark:bg-emerald-600"
-                            style={{
-                              height: `${heightPercent}%`,
-                            }}
-                          />
-                          <div className="text-[9px] text-stone-400 dark:text-stone-500">
-                            {point.day.slice(5)}
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                )}
-              </div>
-
-              <div>
-                <div className="mb-2 text-sm font-bold text-stone-700 dark:text-stone-200">
-                  Pages les plus vues
-                </div>
-
-                {analytics.topPages.length === 0 ? (
-                  <p className="text-sm text-stone-500 dark:text-stone-400">
-                    Aucune vue enregistree pour le moment.
-                  </p>
-                ) : (
-                  <div className="divide-y divide-stone-100 dark:divide-stone-800">
-                    {analytics.topPages.map((page) => (
-                      <div
-                        key={page.path}
-                        className="flex items-center justify-between gap-3 py-2 text-sm"
-                      >
-                        <span className="truncate text-stone-700 dark:text-stone-200">
-                          {page.path}
-                        </span>
-                        <span className="font-bold text-stone-950 dark:text-stone-100">
-                          {page.total}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </>
-          )}
-        </section>
-        )}
-
         {activeTab === "epreuves" && validationSummary && (
           <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="mb-4 flex flex-wrap items-start justify-between gap-4">
@@ -1848,6 +1685,10 @@ export default function AdminDashboard() {
 
         {activeTab === "signalements" && (
           <AdminReportsPanel getAdminHeaders={getAdminHeaders} onStatus={showStatus} />
+        )}
+
+        {activeTab === "monitoring" && (
+          <AdminMonitoringPanel getAdminHeaders={getAdminHeaders} />
         )}
 
           </div>

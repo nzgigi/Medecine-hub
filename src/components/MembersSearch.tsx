@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, ShieldCheck, Sparkles } from "lucide-react";
+import OnlineDot from "@/components/OnlineDot";
 
 interface MemberEntry {
   sub: string;
@@ -13,6 +14,7 @@ interface MemberEntry {
   role: "etudiant" | "administrateur";
   totalAttempts: number;
   achievementsCount: number;
+  online: boolean;
 }
 
 function normalize(value: string) {
@@ -63,18 +65,21 @@ export default function MembersSearch({ members }: { members: MemberEntry[] }) {
                 href={`/profil/${member.handle}`}
                 className="flex items-center gap-3 rounded-lg border border-stone-200 bg-white p-4 shadow-sm transition-colors hover:border-emerald-300 dark:border-stone-800 dark:bg-[#1d1c18] dark:hover:border-emerald-700"
               >
-                {avatarSrc ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={avatarSrc}
-                    alt={member.name}
-                    className="h-12 w-12 shrink-0 rounded-lg object-cover"
-                  />
-                ) : (
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-lg font-black text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
-                    {member.name.charAt(0)}
-                  </div>
-                )}
+                <div className="relative shrink-0">
+                  {avatarSrc ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={avatarSrc}
+                      alt={member.name}
+                      className="h-12 w-12 rounded-lg object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-50 text-lg font-black text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                      {member.name.charAt(0)}
+                    </div>
+                  )}
+                  <OnlineDot handle={member.handle} initialOnline={member.online} />
+                </div>
 
                 <div className="min-w-0">
                   <div className="flex items-center gap-1.5">

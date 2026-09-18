@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import { safeJoinInside } from "@/lib/server/security";
+import { parisDay } from "@/lib/server/days";
 
 const MAX_PATH_LENGTH = 200;
 const MAX_TRACKED_PATHS = 1000;
@@ -67,7 +68,7 @@ export async function POST(request: NextRequest) {
     }
 
     const store = readStore();
-    const today = new Date().toISOString().slice(0, 10);
+    const today = parisDay();
 
     if (!store[path] && Object.keys(store).length >= MAX_TRACKED_PATHS) {
       return NextResponse.json({ success: true, ignored: true });

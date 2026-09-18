@@ -2,11 +2,17 @@ import Link from "next/link";
 import { ArrowLeft, Users } from "lucide-react";
 import { listMembers } from "@/lib/server/socialProfile";
 import MembersSearch from "@/components/MembersSearch";
+import { getOnlineHandles } from "@/lib/server/presence";
 
 export const dynamic = "force-dynamic";
 
 export default function MembresPage() {
-  const members = listMembers();
+  const onlineHandles = new Set(getOnlineHandles());
+  const members = listMembers().map((member) => ({
+    ...member,
+    online: onlineHandles.has(member.handle),
+  }));
+  const onlineCount = members.filter((member) => member.online).length;
 
   return (
     <main className="min-h-screen bg-stone-50 px-4 py-10 text-stone-950 dark:bg-[#151512] dark:text-stone-100">
@@ -26,7 +32,7 @@ export default function MembresPage() {
           <div>
             <h1 className="text-2xl font-black">Membres</h1>
             <p className="text-sm text-stone-500 dark:text-stone-400">
-              {members.length} membre{members.length > 1 ? "s" : ""} sur Medecine Hub
+              {members.length} membre{members.length > 1 ? "s" : ""} sur Medecine Hub · {onlineCount} en ligne
             </p>
           </div>
         </div>

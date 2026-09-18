@@ -197,6 +197,11 @@ export function getDb(): DatabaseSync {
     );
 
     CREATE INDEX IF NOT EXISTS idx_question_reports_status ON question_reports(status);
+
+    CREATE TABLE IF NOT EXISTS presence_hourly (
+      hour TEXT PRIMARY KEY,
+      peak INTEGER NOT NULL
+    );
   `);
 
   migrateAddNameCustomizedColumn(db);

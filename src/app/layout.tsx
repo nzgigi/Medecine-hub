@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SiteChrome from "../components/siteChrome";
 import PageViewTracker from "../components/PageViewTracker";
+import PresenceHeartbeat from "../components/PresenceHeartbeat";
 import { DialogProvider } from "../components/DialogProvider";
 
 const inter = Inter({
@@ -100,6 +101,7 @@ export default function RootLayout({
         className={`${inter.className} bg-stone-50 text-stone-950 antialiased dark:bg-[#151512] dark:text-stone-100`}
       >
         <PageViewTracker />
+        <PresenceHeartbeat />
         <DialogProvider>
           <SiteChrome>{children}</SiteChrome>
         </DialogProvider>

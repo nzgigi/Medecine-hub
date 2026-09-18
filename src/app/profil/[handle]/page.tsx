@@ -4,6 +4,8 @@ import { ArrowLeft, BookOpen, Percent, ShieldCheck, Sparkles, Target, Trophy, Us
 import { getPublicProfileByHandle } from "@/lib/server/socialProfile";
 import { ACHIEVEMENTS, ACHIEVEMENT_ICONS } from "@/lib/achievements";
 import FollowButton from "@/components/FollowButton";
+import OnlineDot from "@/components/OnlineDot";
+import { isHandleOnline } from "@/lib/server/presence";
 
 export const dynamic = "force-dynamic";
 
@@ -45,18 +47,26 @@ export default async function ProfilPage({ params }: ProfilPageProps) {
         <section className="mt-6 rounded-lg border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
           <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-              {avatarSrc ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={avatarSrc}
-                  alt={profile.name}
-                  className="h-20 w-20 rounded-lg object-cover"
+              <div className="relative shrink-0">
+                {avatarSrc ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={avatarSrc}
+                    alt={profile.name}
+                    className="h-20 w-20 rounded-lg object-cover"
+                  />
+                ) : (
+                  <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-emerald-50 text-2xl font-black text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                    {profile.name.charAt(0)}
+                  </div>
+                )}
+                <OnlineDot
+                  handle={profile.handle}
+                  initialOnline={isHandleOnline(profile.handle)}
+                  sizeClassName="h-5 w-5"
+                  positionClassName="absolute -bottom-1.5 -right-1.5"
                 />
-              ) : (
-                <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-emerald-50 text-2xl font-black text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
-                  {profile.name.charAt(0)}
-                </div>
-              )}
+              </div>
 
               <div>
                 <div className="flex flex-wrap items-center gap-2">

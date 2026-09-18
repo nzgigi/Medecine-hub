@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Newspaper, Sparkles, UserPlus, Users } from "lucide-react";
 import { getLocalUserProfile } from "@/lib/userProfile";
+import OnlineDot from "@/components/OnlineDot";
 import { ACHIEVEMENTS_BY_KEY, ACHIEVEMENT_ICONS } from "@/lib/achievements";
 
 interface FeedEvent {
@@ -140,7 +141,7 @@ export default function ActualitesPage() {
                   key={`${event.actor.handle}-${event.createdAt}-${index}`}
                   className="flex items-start gap-3 rounded-lg border border-stone-200 bg-white p-4 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]"
                 >
-                  <Link href={`/profil/${event.actor.handle}`} className="shrink-0">
+                  <Link href={`/profil/${event.actor.handle}`} className="relative shrink-0">
                     {avatarSrc ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
@@ -153,6 +154,11 @@ export default function ActualitesPage() {
                         {event.actor.name.charAt(0)}
                       </div>
                     )}
+                    <OnlineDot
+                      handle={event.actor.handle}
+                      sizeClassName="h-3 w-3"
+                      positionClassName="absolute -bottom-0.5 -right-0.5"
+                    />
                   </Link>
 
                   <div className="min-w-0 flex-1">
