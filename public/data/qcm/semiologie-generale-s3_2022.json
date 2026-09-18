@@ -9,7 +9,7 @@
       "id": "default-questions",
       "type": "DP",
       "title": "DP 1",
-      "description": "Vous recevez aux urgences une femme de 35 ans pour des douleurs pelviennes avec hyperthermie. Elle est G2P1 et est porteuse\nd’un dispositif intra utérin.",
+      "description": "Vous recevez aux urgences une femme de 35 ans pour des douleurs pelviennes avec hyperthermie. Elle est G2P1 et est porteuse d’un dispositif intra utérin.",
       "order": 1,
       "questions": [
         {
@@ -56,7 +56,7 @@
           "id": 3,
           "type": "QRM",
           "contexte": "",
-          "question": "Elle décrit des pertes vaginales malodorantes et des métrorragies. A l’examen clinique vous allez rechercher (plusieurs\nréponses justes )",
+          "question": "Elle décrit des pertes vaginales malodorantes et des métrorragies. A l’examen clinique vous allez rechercher (plusieurs réponses justes)",
           "choix": [
             "A) Des douleurs permanentes dans la région lombaire",
             "B) Une douleur à la mobilisation utérine au toucher vaginal",
@@ -75,7 +75,7 @@
           "id": 4,
           "type": "QRU",
           "contexte": "",
-          "question": "Vous avez examiné la patiente et constatez une défense en fosse iliaque droite et des pertes vaginales. Votre principale\nhypothèse diagnostique est (une seule bonne réponse)",
+          "question": "Vous avez examiné la patiente et constatez une défense en fosse iliaque droite et des pertes vaginales. Votre principale hypothèse diagnostique est (une seule bonne réponse)",
           "choix": [
             "A) Une appendicite aigue",
             "B) Une pyelonephrite aigue (infection urinaire haute, fébrile)",
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": "folder-1786396330262-58755295c4c728",
+      "id": "folder-1786540301954-a2edd2a3b5c8b8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "id": "folder-1786396335368-a7d65a88cf7988",
+      "id": "folder-1786540305304-688aadfd1f2638",
       "type": "SQI",
       "title": "SQI 2",
       "description": "",
@@ -270,7 +270,7 @@
           "id": 13,
           "type": "QRM",
           "contexte": "",
-          "question": "Devant une fièvre à 40° d’installation rapide avec des frissons intenses, « à claquer des dents », vous évoquez\nprioritairement (plusieurs réponses possibles):",
+          "question": "Devant une fièvre à 40° d’installation rapide avec des frissons intenses, « à claquer des dents », vous évoquez prioritairement (plusieurs réponses possibles):",
           "choix": [
             "A) Une rhinopharyngite virale car cela est fréquent",
             "B) une bactériémie",
@@ -335,7 +335,7 @@
             "A) le souffle aortique le plus fréquemment entendu est diastolique",
             "B) le souffle d’ insuffisance aortique est difficile à entendre",
             "C) le souffle d’insuffisance mitrale est majoré en décubitus latéral gauche",
-            "D) le frottement péricardique est entendu au mieux dans la région médio- sternale",
+            "D) le frottement péricardique est entendu au mieux dans la région médio-sternale",
             "E) le bruit de galop est l’anomalie auscultatoire entendu en cas de fibrillation auriculaire"
           ],
           "reponses": [
@@ -350,7 +350,7 @@
           "id": 17,
           "type": "QRM",
           "contexte": "",
-          "question": "Vous êtes appelé en urgence pour prendre en charge un apiculteur de 40 ans qui vient d’être piqué par une\nguêpe. Sa famille vous informe qu'il se sait allergique aux venins d'hyménoptère. A votre arrivée vous trouvez un\npatient obnubilé avec une tension artérielle à 60/30 mmHg une fréquence cardiaque à 140 / mn une dyspnée\ninspiratoire avec tirage et un rash cutané.\nQuels sont les propositions vraies",
+          "question": "Vous êtes appelé en urgence pour prendre en charge un apiculteur de 40 ans qui vient d’être piqué par une guêpe. Sa famille vous informe qu'il se sait allergique aux venins d'hyménoptère. A votre arrivée vous trouvez un patient obnubilé avec une tension artérielle à 60/30 mmHg une fréquence cardiaque à 140 / mn une dyspnée inspiratoire avec tirage et un rash cutané.\nQuels sont les propositions vraies",
           "choix": [
             "A) Vous commencez par faire préciser au patient ses antécédents familiaux",
             "B) Le pronostic vital immédiat de ce patient est en jeu",
@@ -436,24 +436,26 @@
             "A) s’assurer qu’elle n’a pas perdu connaissance",
             "B) prendre la tension couché",
             "C) prendre la tension debout",
-            "D) Neutralisée Non faire un électrocardiogramme",
-            "E) faire un  examen physique général"
+            "D) faire un électrocardiogramme",
+            "E) faire un examen physique général"
           ],
           "reponses": [
             "A",
             "B",
             "C",
-            "D",
             "E"
           ],
           "correctionExplanation": "",
-          "order": 9
+          "order": 9,
+          "neutralized": [
+            "D"
+          ]
         },
         {
           "id": 22,
           "type": "QRM",
           "contexte": "",
-          "question": "Vous recevez un patient qui est âgé de 60 ans, fatigué, fébrile à 38°2 et qui a perdu 5 kg sur le mois dernier. Vous découvrez\nson bilan biologique qui retrouve :\nHb 7 g/dl, VGM 72 µ3\nPlaquettes 500 000/mm3\nLeucocytes 12 000\nCRP à 70 mg/l\nFibrinogène à 5,2 g/l",
+          "question": "Vous recevez un patient qui est âgé de 60 ans, fatigué, fébrile à 38°2 et qui a perdu 5 kg sur le mois dernier. Vous découvrez son bilan biologique qui retrouve :\nHb 7 g/dl, VGM 72 µ3\nPlaquettes 500 000/mm3\nLeucocytes 12 000\nCRP à 70 mg/l\nFibrinogène à 5,2 g/l",
           "choix": [
             "A) ce patient présente une altération de l’état général",
             "B) ce patient présente une anémie macrocytaire probablement d’origine carentielle",
@@ -473,7 +475,7 @@
           "id": 23,
           "type": "QRM",
           "contexte": "",
-          "question": "douleur thoracique : parmi les caractéristiques suivantes, lesquelles vous évoquent une origine pleurale (plusieurs réponses\njustes):",
+          "question": "douleur thoracique : parmi les caractéristiques suivantes, lesquelles vous évoquent une origine pleurale (plusieurs réponses justes):",
           "choix": [
             "A) Douleur à type de point de côté",
             "B) Douleur survenant exclusivement à l’effort",
@@ -514,7 +516,7 @@
           "id": 25,
           "type": "QRM",
           "contexte": "",
-          "question": "Mr A est hospitalisé pour une douleur métastatique osseuse, requérant de la morphine. L’état clinique se dégrade brutalement\nau 6 ième jour d’hospitalisation. Quelles complications du traitement par morphine recherchez vous ?",
+          "question": "Mr A est hospitalisé pour une douleur métastatique osseuse, requérant de la morphine. L’état clinique se dégrade brutalement au 6ième jour d’hospitalisation. Quelles complications du traitement par morphine recherchez vous ?",
           "choix": [
             "A) Embolie pulmonaire",
             "B) Rétention d’urine",
@@ -541,7 +543,7 @@
             "B) Une crise d’angor",
             "C) Une pathologie de la tête du pancréas",
             "D) Une pathologie de la rate",
-            "E) Neutralisée Non Un cancer de la base du poumon gauche"
+            "E) Un cancer de la base du poumon gauche"
           ],
           "reponses": [
             "A",
@@ -549,7 +551,10 @@
             "D"
           ],
           "correctionExplanation": "",
-          "order": 14
+          "order": 14,
+          "neutralized": [
+            "E"
+          ]
         },
         {
           "id": 27,
@@ -557,27 +562,29 @@
           "contexte": "",
           "question": "Quels éléments font suspecter un syndrome glomérulaire (glomérulonéphrite)?",
           "choix": [
-            "A) Neutralisée Non Douleur lombaire",
+            "A) Douleur lombaire",
             "B) Leucocyturie isolée",
             "C) Protéinurie abondante",
             "D) Hématurie microscopique",
             "E) Glycosurie"
           ],
           "reponses": [
-            "A",
             "C",
             "D"
           ],
           "correctionExplanation": "",
-          "order": 15
+          "order": 15,
+          "neutralized": [
+            "A"
+          ]
         }
       ]
     },
     {
-      "id": "folder-1786396357295-1442ee4b53a6c",
+      "id": "folder-1786540318672-16f62feb84c4d",
       "type": "DP",
       "title": "DP 2",
-      "description": "Vous recevez aux urgences un homme de 50 ans en raison d’un amaigrissement de 10 kg en 6 mois (il est passé de 74 à 64 kg\npour 1m74). Vous menez l’interrogatoire pour essayer de déterminer l’origine de ses symptômes.",
+      "description": "Vous recevez aux urgences un homme de 50 ans en raison d’un amaigrissement de 10 kg en 6 mois (il est passé de 74 à 64 kg pour 1m74). Vous menez l’interrogatoire pour essayer de déterminer l’origine de ses symptômes.",
       "order": 4,
       "questions": [
         {
@@ -603,7 +610,7 @@
           "id": 29,
           "type": "QRM",
           "contexte": "",
-          "question": "Il décrit des selles plus fréquentes que lorsqu’il était en bonne santé. Vous cherchez à savoir s’il a des douleurs d’origine\ndigestive. Vous retiendrez l’existence de douleurs d’origine digestive si vous constatez (plusieurs réponses justes):",
+          "question": "Il décrit des selles plus fréquentes que lorsqu’il était en bonne santé. Vous cherchez à savoir s’il a des douleurs d’origine digestive. Vous retiendrez l’existence de douleurs d’origine digestive si vous constatez (plusieurs réponses justes):",
           "choix": [
             "A) Des douleurs permanentes dans la région lombaire",
             "B) Une douleur à type de torsion le long du cadre colique",
@@ -622,7 +629,7 @@
           "id": 30,
           "type": "QRU",
           "contexte": "",
-          "question": "Vous avez examiné le patient et constatez l’existence d’une masse palpable et indolore du creux épigastrique. Vous envisagez\nla priorité (une seule bonne réponse) :",
+          "question": "Vous avez examiné le patient et constatez l’existence d’une masse palpable et indolore du creux épigastrique. Vous envisagez la priorité (une seule bonne réponse) :",
           "choix": [
             "A) Un cancer hépatique",
             "B) Un cancer colique",
@@ -640,7 +647,7 @@
           "id": 31,
           "type": "QRM",
           "contexte": "",
-          "question": "Le patient a été hospitalisé et la décision a été prise de le nourrir en mettant en place des perfusions intraveineuse. Alors que\nvous attendez un examen d’imagerie, il présente brutalement des frissons à claquer des dents. Ceci vous fait évoquer\nprioritairement :",
+          "question": "Le patient a été hospitalisé et la décision a été prise de le nourrir en mettant en place des perfusions intraveineuse. Alors que vous attendez un examen d’imagerie, il présente brutalement des frissons à claquer des dents. Ceci vous fait évoquer prioritairement :",
           "choix": [
             "A) Une bactériémie",
             "B) Le début d’une pneumopathie à pneumocoque",
@@ -679,7 +686,7 @@
           "id": 33,
           "type": "QRM",
           "contexte": "",
-          "question": "L'épisode infectieux était du à une bactériémie dont la porte d'entrée était son cathéter de nutrition. L'épisode s'es résolu sous\nantibiothérapie adaptée et changement du cathéter. Le patient est sorti de réanimation et a été admis en médecine pour la\nsuite de sa prise en charge. Que devez-vous rechercher pour dépister les complications susceptibles de se produire du fait du\ndécubitus prolongé?",
+          "question": "L'épisode infectieux était du à une bactériémie dont la porte d'entrée était son cathéter de nutrition. L'épisode s'es résolu sous antibiothérapie adaptée et changement du cathéter. Le patient est sorti de réanimation et a été admis en médecine pour la suite de sa prise en charge. Que devez-vous rechercher pour dépister les complications susceptibles de se produire du fait du décubitus prolongé?",
           "choix": [
             "A) Fièvre",
             "B) Troubles trophiques sur les zones d’appui",

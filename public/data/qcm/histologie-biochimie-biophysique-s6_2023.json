@@ -3,13 +3,13 @@
   "slug": "histologie-biochimie-biophysique-s6",
   "annee": 2023,
   "title": "Histologie, biochimie et biophysique - 2023",
-  "total_questions": 53,
+  "total_questions": 33,
   "folders": [
     {
       "id": "default-questions",
       "type": "KFP",
       "title": "KFP 1",
-      "description": "En consultation de rhumatologie une femme de 75 ans se présente avec une cyphose dorsale importante. Elle a eu une fracture du col du fémur à 72 ans et un cancer du sein à 43 ans qui a nécessité une ovariectomie.\nBilan biologique :\nPAL osseuse, ng/mL 29 (VNpm: 6,5-22)\nCross Laps, pg/mL 1220 (VNpm: 120-980)\n(VNpm = valeurs normales post-ménopause)",
+      "description": "En consultation de rhumatologie une femme de 75 ans se présente avec une cyphose dorsale importante. Elle a eu une fracture du col du fémur à 72 ans et un cancer du sein à 43 ans qui a nécessité une ovariectomie.\nBilan biologique : \nCalcium, mM 2,15 (VN: 2,3-2,6) \n25 OH vitD, ng/100mL 9 (VN: 13-48) \nPTH intacte 2 génération, pg/mL 112 (VNpm:15-65) \nPAL osseuse, ng/mL 29 (VNpm: 6,5-22) \nCross Laps, pg/mL 1220 (VNpm: 120-980) \n(VNpm = valeurs normales post-ménopause)",
       "order": 1,
       "questions": [
         {
@@ -29,10 +29,7 @@
             "D"
           ],
           "correctionExplanation": "",
-          "order": 1,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q1.png?v=1786296224529"
-          ]
+          "order": 1
         },
         {
           "id": 2,
@@ -75,7 +72,7 @@
       ]
     },
     {
-      "id": "folder-1786296225375-c187a08b3e3748",
+      "id": "folder-1786555728538-4a09eeb8ffea7",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -387,7 +384,7 @@
       ]
     },
     {
-      "id": "folder-1786296237569-66a73c2557e3a8",
+      "id": "folder-1786555735651-399c32f3e24748",
       "type": "SQI",
       "title": "SQI 2",
       "description": "",
@@ -498,141 +495,14 @@
       ]
     },
     {
-      "id": "folder-1786296240096-5a82c52a2474d8",
-      "type": "DP",
-      "title": "DP 1",
-      "description": "Madame MS, 40 ans, réalise un bilan d’extension d’un cancer mammaire droit:",
+      "id": "folder-1786555737866-14123cb74574e8",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
       "order": 4,
       "questions": [
         {
           "id": 24,
-          "type": "QRP",
-          "contexte": "",
-          "question": "L’image ci jointe correspond à :",
-          "choix": [
-            "A) une TEP au F-18 FDG",
-            "B) une TEP au F-18 DOPA",
-            "C) une IRM corps entier",
-            "D) une scintigraphie osseuse",
-            "E) une TDM corps entier"
-          ],
-          "reponses": [
-            "A"
-          ],
-          "maxReponses": 1,
-          "correctionExplanation": "",
-          "order": 1,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q24.png?v=1786296240524"
-          ]
-        },
-        {
-          "id": 25,
-          "type": "QRM",
-          "contexte": "",
-          "question": "L’image suivante correspond à une coupe:",
-          "choix": [
-            "A) En incidence coronale",
-            "B) En incidence axiale",
-            "C) En incidence sagittale",
-            "D) En fusion TEP/TDM",
-            "E) En fusion TEP/IRM"
-          ],
-          "reponses": [
-            "B",
-            "D"
-          ],
-          "correctionExplanation": "",
-          "order": 2,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25.jpg?v=1786296240932"
-          ],
-          "critiques": [
-            "A"
-          ]
-        },
-        {
-          "id": 26,
-          "type": "QRM",
-          "contexte": "",
-          "question": "Sur cet coupe on visualise:",
-          "choix": [
-            "A) Le rachis en TDM en incidence coronale",
-            "B) Le squelette en TDM en incidence sagittale",
-            "C) Des remaniements pathologiques du rachis dorsal",
-            "D) Un dispositif intra-uterin en incidence TDM axiale",
-            "E) Le rachis en IRM pondéré T2"
-          ],
-          "reponses": [
-            "B",
-            "C"
-          ],
-          "correctionExplanation": "",
-          "order": 3,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q26.png?v=1786296241435"
-          ],
-          "critiques": [
-            "A"
-          ]
-        },
-        {
-          "id": 27,
-          "type": "QRM",
-          "contexte": "",
-          "question": "Les fixations basi- cervicales bilatérales correspondent sur ces images à:",
-          "choix": [
-            "A) Des faux positifs de la TEP au F-18 FDG",
-            "B) Des faux négatifs de la TEP au F-18 FDG",
-            "C) Des ganglions cervicaux bilatéraux hyperfixants",
-            "D) De la graisse brune fixant le FDG",
-            "E) Des artefacts de mouvement entre la TEP et la TDM"
-          ],
-          "reponses": [
-            "A",
-            "D"
-          ],
-          "correctionExplanation": "",
-          "order": 4,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27.jpg?v=1786296241894"
-          ]
-        },
-        {
-          "id": 28,
-          "type": "QRM",
-          "contexte": "",
-          "question": "Les fixations non pathologiques visibles sur cet examen TEP au FDG sont:",
-          "choix": [
-            "A) L’encéphale",
-            "B) La graisse brune",
-            "C) Les pyélons",
-            "D) La vessie",
-            "E) La formation mammaire droite DFGSM3 H.R. Histologie le vendredi 21 avril 2023 de 10h22 à 10h32"
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ],
-          "correctionExplanation": "",
-          "order": 5,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28.png?v=1786296242373"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "folder-1786296242881-a62f74b8d675f",
-      "type": "SQI",
-      "title": "DL 1",
-      "description": "",
-      "order": 5,
-      "questions": [
-        {
-          "id": 29,
           "type": "QRM",
           "contexte": "",
           "question": "A propos de l'histologie de l’hypophyse et de l'hypothalamus et de la thyroïde",
@@ -652,11 +522,11 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q29.png?v=1786296243370"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q24.png?v=1786555738500"
           ]
         },
         {
-          "id": 30,
+          "id": 25,
           "type": "QRM",
           "contexte": "",
           "question": "A propos de la thyroïde, de la parathyroïde et de la surrénale",
@@ -674,12 +544,13 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q30.png?v=1786296244081",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q30_1.jpg?v=1786296244383"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25.png?v=1786555739225",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25_1.png?v=1786555739437",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25_2.jpg?v=1786555739646"
           ]
         },
         {
-          "id": 31,
+          "id": 26,
           "type": "QRM",
           "contexte": "",
           "question": "A propos de la surrénale et des paraganglions",
@@ -700,7 +571,7 @@
           "order": 3
         },
         {
-          "id": 32,
+          "id": 27,
           "type": "QRM",
           "contexte": "",
           "question": "A propos des glandes endocrines",
@@ -719,12 +590,13 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q32.png?v=1786296245328",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q32_1.jpg?v=1786296245563"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27.png?v=1786555740743",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27_1.png?v=1786555741097",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27_2.jpg?v=1786555741299"
           ]
         },
         {
-          "id": 33,
+          "id": 28,
           "type": "QRM",
           "contexte": "",
           "question": "A propos des glandes endocrines",
@@ -745,189 +617,21 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q33.png?v=1786296246132",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q33_1.png?v=1786296246382"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28.png?v=1786555742019",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28_1.png?v=1786555742453"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786296246907-e0bf3db6b1c8f",
-      "type": "SQI",
-      "title": "DL 2",
-      "description": "",
-      "order": 6,
-      "questions": [
-        {
-          "id": 34,
-          "type": "QRM",
-          "contexte": "",
-          "question": "Quelles sont les propositions vraies :",
-          "choix": [
-            "A) La flèche A désigne le cortex rénal",
-            "B) La flèche B désigne la médullaire rénale",
-            "C) La flèche C désigne le sinus rénal",
-            "D) La médullaire rénale est plus hypoéchogène que le cortex rénal. Il existe à l'état normal une différenciation cortico-médullaire.",
-            "E) À l'état normal, en échographie, les cavités pyélocalicielles intra-rénales ne sont pas visibles."
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 1,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q34.png?v=1786296248008"
-          ]
-        },
-        {
-          "id": 35,
-          "type": "QRM",
-          "contexte": "",
-          "question": "Quelles sont les propositions vraies :",
-          "choix": [
-            "A) La radiographie est prise debout",
-            "B) On visualise un niveau hydro-aérique dans la poche à air gastrique",
-            "C) La patiente porte un dispositif intra utérin",
-            "D) On visualise une dilatation des cavités pyélocalicielles du rein gauche",
-            "E) On visualise une lithiase en projection de l’uretère lombaire gauche"
-          ],
-          "reponses": [
-            "A",
-            "C",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 2,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q35.png?v=1786296248762"
-          ]
-        },
-        {
-          "id": 36,
-          "type": "QRM",
-          "contexte": "",
-          "question": "Quelles sont les propositions vraies :",
-          "choix": [
-            "A) L’examen présenté est une cystographie rétrograde",
-            "B) Cet examen montre un reflux vésico-urétéral bilatéral",
-            "C) La flèche A désigne le bassinet gauche",
-            "D) La flèche B désigne le groupe caliciel inférieur droit",
-            "E) La flèche C désigne l’uretère pelvien gauche"
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "C",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 3,
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q36.png?v=1786296249385"
-          ]
-        },
-        {
-          "id": 37,
-          "type": "ASSOCIATION",
-          "contexte": "",
-          "question": "Légendez les structures désignées par les flèches A, B, C, D et E (menu déroulant)\nÉlément à associer Réponse attendue\nA Veine rénale gauche\nB Veine cave inférieure\nC Artère mésentérique supérieure\nD Pancréas\nE Foie",
-          "choix": [
-            "Veine rénale gauche",
-            "Veine cave inférieure",
-            "Artère mésentérique supérieure",
-            "Pancréas",
-            "Foie"
-          ],
-          "reponses": [],
-          "correctionExplanation": "",
-          "order": 4,
-          "items": [
-            {
-              "id": "item-1786296251157-9e2b8688de9bc8",
-              "label": "A",
-              "correctAnswer": "Veine rénale gauche"
-            },
-            {
-              "id": "item-1786296251281-a1c56028edece8",
-              "label": "B",
-              "correctAnswer": "Veine cave inférieure"
-            },
-            {
-              "id": "item-1786296251406-4829fc68ec5f8",
-              "label": "C",
-              "correctAnswer": "Artère mésentérique supérieure"
-            },
-            {
-              "id": "item-1786296251529-b21dbcebdeaa68",
-              "label": "D",
-              "correctAnswer": "Pancréas"
-            },
-            {
-              "id": "item-1786296251654-153a2a2568ccf",
-              "label": "E",
-              "correctAnswer": "Foie"
-            }
-          ],
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q37.png?v=1786296250369"
-          ]
-        },
-        {
-          "id": 38,
-          "type": "ASSOCIATION",
-          "contexte": "",
-          "question": "Précisez pour chaque image à quel temps a été réalisé l’acquisition du scanner (menu déroulant)\nÉlément à associer Réponse attendue\nA Acquisition au temps excrétoire ou tardif après injection de produit de contraste B Acquisition au temps portal après injection de produit de contraste\nC Acquisition au temps artériel après injection de produit de contraste\nD Acquisition sans injection de produit de contraste",
-          "choix": [
-            "Acquisition au temps excrétoire ou tardif après injection de produit de contraste",
-            "Acquisition au temps portal après injection de produit de contraste",
-            "Acquisition au temps artériel après injection de produit de contraste",
-            "Acquisition sans injection de produit de contraste",
-            "E) "
-          ],
-          "reponses": [],
-          "correctionExplanation": "",
-          "order": 5,
-          "items": [
-            {
-              "id": "item-1786296252212-192c9a01c8a65",
-              "label": "A",
-              "correctAnswer": "Acquisition au temps excrétoire ou tardif après injection de produit de contraste"
-            },
-            {
-              "id": "item-1786296252340-10b5159c7f387",
-              "label": "B",
-              "correctAnswer": "Acquisition au temps portal après injection de produit de contraste"
-            },
-            {
-              "id": "item-1786296252466-f46a1da475999",
-              "label": "C",
-              "correctAnswer": "Acquisition au temps artériel après injection de produit de contraste"
-            },
-            {
-              "id": "item-1786296252594-1574d5ad5b12",
-              "label": "D",
-              "correctAnswer": "Acquisition sans injection de produit de contraste"
-            }
-          ],
-          "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q38.png?v=1786296251825"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "folder-1786296252709-f2ddf5e1384b4",
+      "id": "folder-1786555742908-586507b54c0338",
       "type": "SQI",
       "title": "DL 3",
       "description": "",
-      "order": 7,
+      "order": 5,
       "questions": [
         {
-          "id": 39,
+          "id": 29,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein",
@@ -946,11 +650,11 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q39.png?v=1786296253856"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q29.png?v=1786555743655"
           ]
         },
         {
-          "id": 40,
+          "id": 30,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein",
@@ -970,11 +674,11 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q40.png?v=1786296254877"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q30.png?v=1786555744546"
           ]
         },
         {
-          "id": 41,
+          "id": 31,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein",
@@ -994,11 +698,11 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q41.png?v=1786296255956"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q31.png?v=1786555745496"
           ]
         },
         {
-          "id": 42,
+          "id": 32,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein et des voies urinaires",
@@ -1018,7 +722,7 @@
           "order": 4
         },
         {
-          "id": 43,
+          "id": 33,
           "type": "QRM",
           "contexte": "",
           "question": "A propos des voies urinaires et de l'appareil génital masculin",
@@ -1038,220 +742,6 @@
           ],
           "correctionExplanation": "",
           "order": 5
-        }
-      ]
-    },
-    {
-      "id": "folder-1786296257503-f4f79850685388",
-      "type": "SQI",
-      "title": "DL 4",
-      "description": "Module uro-néphro DFGSM 3",
-      "order": 8,
-      "questions": [
-        {
-          "id": 44,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT L'ANATOMIE DES REINS",
-          "choix": [
-            "A) Le grand axe du rein est oblique en bas, en avant et en dehors.",
-            "B) Le bord interne portant le hile rénal est concave.",
-            "C) Le rein présente 2 faces concaves, une ventrale et une dorsale.",
-            "D) La médulla rénale est formée par les pyramides rénales.",
-            "E) La partie contournée du cortex rénal correspond à la partie la plus externe."
-          ],
-          "reponses": [
-            "B",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 1
-        },
-        {
-          "id": 45,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT L'ANATOMIE DES REINS",
-          "choix": [
-            "A) Le sinus rénal est une cavité qui contient la voie excrétrice.",
-            "B) Le fascia rénal est un feuillet dépendant du fascia superficialis.",
-            "C) Le feuillet dorsal du fascia rénal est séparé de la paroi par la graisse para-rénale.",
-            "D) Le rein est séparé de la glande surrénale par la lame intersurrénalo-rénale.",
-            "E) Le rein droit est presque entièrement sus-mésocolique."
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 2
-        },
-        {
-          "id": 46,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT L'URETERE",
-          "choix": [
-            "A) La jonction pyélo-urétérale se projette en regard du processus transverse de L4.",
-            "B) L’uretère iliaque droit croise l’artère iliaque commune.",
-            "C) Les vaisseaux génitaux croisent l’uretère en regard de L3.",
-            "D) L’uretère lombaire est en rapport postérieur avec le nerf génito-fémoral.",
-            "E) L’uretère pelvien chemine en dehors de l’artère ombilicale."
-          ],
-          "reponses": [
-            "C",
-            "D"
-          ],
-          "correctionExplanation": "",
-          "order": 3
-        },
-        {
-          "id": 47,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT LA VESSIE",
-          "choix": [
-            "A) La vessie vide a une forme ovoïde.",
-            "B) La vessie est située entre les uretères et l’urètre.",
-            "C) L’urètre est un organe musculo-membraneux, canal excréteur de la vessie.",
-            "D) La vessie pleine a une forme de pyramide aplatie.",
-            "E) La vessie est un réservoir musculo-membraneux où s’accumule l’urine entre deux mictions."
-          ],
-          "reponses": [
-            "B",
-            "C",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 4
-        },
-        {
-          "id": 48,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT LA VESSIE",
-          "choix": [
-            "A) Le trigone vésical se situe entre les 2 méats urétéraux et l’orifice urétral.",
-            "B) Le détrusor est le muscle de la paroi vésicale.",
-            "C) L’appareil sphinctérien urétral chez la femme est double, le sphincter strié entoure la partie initiale de l’urètre.",
-            "D) L’urètre féminin fait suite au col vésical, il a un trajet oblique en bas et en avant.",
-            "E) L’urètre chez la femme a pour rapports anatomiques la symphyse pubienne en avant et le vagin en arrière."
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 5
-        },
-        {
-          "id": 49,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT LES TESTICULES",
-          "choix": [
-            "A) Les testicules ont une double fonction : exocrine et endocrine.",
-            "B) La fonction exocrine des testicules permet la sécrétion des hormones sexuelles.",
-            "C) Les voies spermatiques permettent la conduction des spermatozoïdes du testicule à l’uretère.",
-            "D) Les testicules, situées dans les bourses, sont les glandes génitales mâles.",
-            "E) Le canal péritonéo-vaginal est un diverticule péritonéal qui est formé embryologiquement par la descente de la gonade mâle lors du passage inguinal."
-          ],
-          "reponses": [
-            "A",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 6
-        },
-        {
-          "id": 50,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT LES TESTICULES",
-          "choix": [
-            "A) Les tubes séminifères contournés appartiennent aux voies spermatiques intra-testiculaires.",
-            "B) Les tubes séminifères droits appartiennent aux voies spermatiques extra-testiculaires.",
-            "C) Les voies spermatiques extra-testiculaires comportent successivement l’épididyme, le canal éjaculateur, le conduit déférent et la vésicule séminale.",
-            "D) La vésicule séminale n’appartient pas aux voies spermatiques extra-testiculaires.",
-            "E) L’épididyme est constitué d’une tête, d’un corps, et en extrémité postérieure d’une queue aplatie."
-          ],
-          "reponses": [
-            "A",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 7
-        },
-        {
-          "id": 51,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT LE CONDUIT DEFERENT",
-          "choix": [
-            "A) Le conduit déférent débute de la queue de l’épididyme jusqu’à la base de la prostate.",
-            "B) Le conduit déférent a une paroi très épaisse de palpation facile.",
-            "C) La vésicule séminale est un réservoir pour les spermatozoïdes et les sucs prostatiques (sperme) entre les éjaculations.",
-            "D) Le canal éjaculateur débouche dans l’urètre.",
-            "E) Les bourses sont séparées en deux par un raphé médian."
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 8
-        },
-        {
-          "id": 52,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT LES TESTICULES",
-          "choix": [
-            "A) Le conduit déférent contient le cordon spermatique, les vaisseaux testiculaires et épididymaires.",
-            "B) Les vésicules séminales sont situées au-dessous de la prostate, en arrière de la vessie et en avant du rectum.",
-            "C) Le testicule est très sensible à l’ischémie.",
-            "D) Les vésicules séminales peuvent être explorées par le toucher rectal.",
-            "E) L’artère testiculaire se situe en regard de L2 sur la face ventrale de l’aorte abdominale."
-          ],
-          "reponses": [
-            "C",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 9
-        },
-        {
-          "id": 53,
-          "type": "QRM",
-          "contexte": "",
-          "question": "CONCERNANT L'URETRE",
-          "choix": [
-            "A) L’urètre masculin est formé de deux parties : l'urètre antérieur et l'urètre postérieur.",
-            "B) L’urètre postérieur comprend l’urètre prostatique et l’urètre membraneux.",
-            "C) L’urètre membraneux traverse le plancher pelvien",
-            "D) L’urètre antérieur est constitué par l’urètre spongieux.",
-            "E) Les glandes bulbo-urétrales permettent la lubrification de l’urètre spongieux."
-          ],
-          "reponses": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
-          ],
-          "correctionExplanation": "",
-          "order": 10
         }
       ]
     }

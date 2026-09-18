@@ -97,7 +97,7 @@
           "id": 5,
           "type": "QRM",
           "contexte": "",
-          "question": "Concernant les facteurs de variation des effets pharmacologiques, parmi les propositions suivantes quelle(s) est (sont) la (les)\nproposition(s) exacte(s) ?",
+          "question": "Concernant les facteurs de variation des effets pharmacologiques, parmi les propositions suivantes quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
           "choix": [
             "A) La barrière hématoencéphalique est mature dès la naissance",
             "B) La non-observance médicamenteuse est souvent sous-estimée",
@@ -131,7 +131,10 @@
             "D"
           ],
           "correctionExplanation": "",
-          "order": 6
+          "order": 6,
+          "critiques": [
+            "B"
+          ]
         },
         {
           "id": 7,
@@ -151,7 +154,10 @@
             "E"
           ],
           "correctionExplanation": "",
-          "order": 7
+          "order": 7,
+          "critiques": [
+            "B"
+          ]
         },
         {
           "id": 8,
@@ -181,7 +187,7 @@
             "A) La morphine agit sur les deux composantes de la douleur (discriminative et émotionnelle)",
             "B) La morphine augmente le seuil douloureux et augmente la tolérance à la douleur",
             "C) La constipation provoquée par la morphine est transitoire car soumise à tolérance",
-            "D) il existe 3 types de récepteurs opioïdes α  et β  et γ",
+            "D) il existe 3 types de récepteurs opioïdes α  et β  etγ",
             "E) La tolérance est responsable de l’hyperalgésie aux opioïdes"
           ],
           "reponses": [

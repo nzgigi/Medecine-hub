@@ -3,15 +3,954 @@
   "slug": "histologie-s4",
   "annee": 2023,
   "title": "Histologie - 2023",
-  "total_questions": 0,
+  "total_questions": 41,
   "folders": [
     {
       "id": "default-questions",
       "type": "SQI",
-      "title": "Questions",
+      "title": "SQI 1",
       "description": "",
       "order": 1,
-      "questions": []
+      "questions": [
+        {
+          "id": 1,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de ce schéma sur la vascularisation du cœur",
+          "choix": [
+            "A) La légende 1 correspond à une branche de division de l’artère coronaire",
+            "B) La légende 2 correspond à l’artère myocardique",
+            "C) La légende 3 correspond à des artères myocardiques",
+            "D) La légende 4 correspond à une artériole terminale",
+            "E) Les tuniques légendées 5, 6 et 7 correspondent respectivement à l’intima, la média et l’adventice"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q1.png?v=1786399938333"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des 2 schémas A et B suivants :",
+          "choix": [
+            "A) Ces 2 schémas représentent la coupe longitudinale (A) et transversale (B) d’un capillaire fenêtré",
+            "B) Ces 2 schémas représentent la coupe longitudinale (A) et transversale (B) d’un capillaire discontinu",
+            "C) Les légendes 1 et 2 correspondent respectivement à la cellule endothéliale et à la membrane basale",
+            "D) La légende 3 correspond à des fentes transcytoplasmiques de 1 à 3µm",
+            "E) La légende 4 correspond à un péricyte placé dans un dédoublement de la membrane basale"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q2.jpg?v=1786399944203"
+          ]
+        },
+        {
+          "id": 3,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la microcirculation et des veines",
+          "choix": [
+            "A) Les capillaires sont des vaisseaux sanguins de petit calibre ayant des parois minces partiellement perméable.",
+            "B) Les péricytes sont des cellules fusiformes qui ressemblent à des cellules musculaires lisses.",
+            "C) Les capillaires discontinus sont recouverts par des cellules endothéliales qui ont des jonctions lâches et des fentes transcytoplasmiques reposant sur une membrane basale discontinue.",
+            "D) Les veines ont une paroi plus épaisse que les artères.",
+            "E) La structure histologique générale des grosses veines est identique à celle des artères : intima, média et adventice."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 4,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des artères",
+          "choix": [
+            "A) Il existe 3 types d’artère : les artères élastiques, les artères musculaires et les artérioles",
+            "B) L’artériosclérose est une pathologie caractérisée par l’infiltration de lipoprotéine de faible densité (LDL) au niveau de l’intima des artères.",
+            "C) La limitante élastique interne est visible sur une coupe d’artère musculaire après coloration à l’hémalun éosine",
+            "D) L’aorte est une artère de type élastique.",
+            "E) Les cellules musculaires lisses dites « rameuses » sont retrouvées au niveau de l’intima des artères élastiques et ont un rôle majeur dans le développement de l’athérosclérose."
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 5,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du cœur",
+          "choix": [
+            "A) L’endocarde est constitué d’un mésothélium qui repose sur un tissu conjonctif",
+            "B) La paroi du cœur est composée de trois tuniques qui sont successivement à partir de la lumière, l’endocarde, le myocarde et l’épicarde ou péricarde viscéral.",
+            "C) Les cardiomyocytes contractiles ont un noyau unique et central.",
+            "D) Les cordages tendineux ont un axe fibreux central et sont recouverts d’endocarde",
+            "E) Les cellules cardionectrices sont organisées en « nœuds » et en « rubans »."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "neutralized": [
+            "E"
+          ]
+        },
+        {
+          "id": 6,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’endothélium",
+          "choix": [
+            "A) Les cellules endothéliales forment l’épithélium de revêtement de la lumière des vaisseaux.",
+            "B) Les corps de Weibel-Palade présents dans le cytoplasme des cellules endothéliales renferment le facteur de Von Willebrand.",
+            "C) L’angiogénèse correspond au développement d’un vaisseau sanguin à partir d’un vaisseau préexistant.",
+            "D) L’endothélium tapisse la lumière des vaisseaux, les cavités cardiaques et péricardique.",
+            "E) Les cellules endothéliales sécrètent des molécules à destination pariétale qui ont une action sur le tonus vasculaire DFGSM2 AR Histologie le jeudi 8 décembre 2022 de 14h00 à 14h15"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "folder-1786399981887-3082223021a3f8",
+      "type": "SQI",
+      "title": "SQI 2",
+      "description": "",
+      "order": 2,
+      "questions": [
+        {
+          "id": 7,
+          "type": "QRM",
+          "contexte": "",
+          "question": "Schéma d’une coupe transversale de la paroi trachéale observée en microscopie optique après coloration par l’hémalun-éosine. Précisez la localisation de la coupe et les légendes correspondantes de 1 à 5.",
+          "choix": [
+            "A) Face antérieure ou latérale de la trachée",
+            "B) Face postérieure de la trachée",
+            "C) Epithélium respiratoire cylindrique simple (1) – acini glandulaires muqueux (2) – acini glandulaires séreux (3) – muscle lisse trachéal (4) – adventice (5)",
+            "D) Epithélium respiratoire cylindrique pseudo-stratifié (1) – acini glandulaires muqueux (2) – acini glandulaires séreux (3) – cartilage hyalin (4) – adventice (5)",
+            "E) Epithélium respiratoire cylindrique pseudo-stratifié (1) – acini glandulaires séreux (2) – acini glandulaires muqueux (3) – muscle lisse trachéal (4) – chorion (5)"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q7.png?v=1786399996420"
+          ]
+        },
+        {
+          "id": 8,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de ce schéma :",
+          "choix": [
+            "A) Ce schéma représente la muqueuse respiratoire",
+            "B) Les légendes 1, 2 et 3 correspondent à l’épithélium respiratoire de type malpighien kératinisé, à la membrane basale et au chorion respectivement",
+            "C) Les légendes 4 et 5 correspondent à une cellule ciliée et à une cellule caliciforme respectivement",
+            "D) La légende 6 correspond à une cellule de remplacement capable de renouveler les cellules légendées 4 et 5",
+            "E) La légende 7 correspond à une glande de Bowman"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q8.png?v=1786400000332"
+          ]
+        },
+        {
+          "id": 9,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’appareil respiratoire",
+          "choix": [
+            "A) La vascularisation pulmonaire fonctionnelle est prédominante",
+            "B) Au niveau des acini, les branches de division de l’artère pulmonaire deviennent des capillaires alvéolaires",
+            "C) La cavité pleurale se situe entre le feuillet pariétal et le feuillet viscéral du péricarde",
+            "D) Le feuillet pariétal et le feuillet viscéral de la plèvre sont recouverts par un mésothélium",
+            "E) Les macrophages alvéolaires ne sont observés qu’en cas d’hémorragie alvéolaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 10,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du parenchyme pulmonaire",
+          "choix": [
+            "A) Les capillaires alvéolaires au niveau du septum inter-alvéolaire sont des capillaires discontinus.",
+            "B) Les pneumocytes de type II sécrètent le surfactant pulmonaire",
+            "C) Le lobule pulmonaire est limité par une cloison fibreuse inter-lobulaire",
+            "D) Par endroits, la cloison inter-alvéolaire est interrompue par des pores de Kohn",
+            "E) Les pneumocytes de type I ou globuleux se divisent et sont capables de se différencier en pneumocytes de type II"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 11,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des voies aériennes profondes",
+          "choix": [
+            "A) Les bronches cartilagineuses présentent la même structure histologique que les bronchioles",
+            "B) La musculeuse des bronches cartilagineuses est constituée de fibres musculaires lisses qui s’agencent selon une orientation spiralée bidirectionnelle.",
+            "C) Les bronchioles intra-lobulaires sont composées d’une muqueuse, d’une musculeuse et d’une adventice",
+            "D) Les glandes séro-muqueuses se raréfient à mesure que l’on avance dans la division bronchique",
+            "E) Les cellules de Clara sont des cellules ciliées"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 12,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des voies aériennes supérieures",
+          "choix": [
+            "A) La muqueuse olfactive qui est retrouvée au niveau des fosses nasales est constituée d’un épithélium olfactif reposant sur un chorion",
+            "B) L’oropharynx est tapissé par un épithélium malpighien kératinisé",
+            "C) Les cellules olfactives sont des neurones bipolaires qui possèdent un prolongement dendritique et un prolongement axonal",
+            "D) Des glandes de Waldeyer sont présentes dans le chorion de la muqueuse olfactive",
+            "E) Les amygdales pharyngées sont tapissées d’un épithélium respiratoire"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6
+        },
+        {
+          "id": 13,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la muqueuse respiratoire",
+          "choix": [
+            "A) Physiologiquement, les cellules caliciformes sont plus nombreuses que les cellules ciliées au niveau de l’épithélium respiratoire",
+            "B) Les cellules neuroendocrines de l’épithélium respiratoire peuvent être mises en évidence par des techniques immunohistochimiques",
+            "C) Par convention, l’épithélium respiratoire est un épithélium cylindrique pseudostratifié cilié",
+            "D) Les cils des cellules ciliées sont des structures immobiles",
+            "E) Les cellules caliciformes contiennent des vacuoles de mucus colorés en bleu par le bleu alcian DFGSM2 A.D. Histologie le mercredi 10 mai 2023 de 16h02 à 16h17"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "folder-1786400037964-37520354e18e5",
+      "type": "SQI",
+      "title": "SQI 3",
+      "description": "",
+      "order": 3,
+      "questions": [
+        {
+          "id": 14,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de ce schéma",
+          "choix": [
+            "A) Les zones légendées 1 et 2 correspondent respectivement à la zone ano-rectale et à la zone ano-cutanée",
+            "B) La légende 5 correspond à un épithélium malpighien kératinisé tandis que la légende 6 correspond à un épithélium malpighien non kératinisé.",
+            "C) La légende 3 correspond à des glandes de Lieberkhün",
+            "D) La légende 4 correspond à la musculaire muqueuse",
+            "E) La légende 7 correspond au sphincter strié externe"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q14.png?v=1786400054335"
+          ]
+        },
+        {
+          "id": 15,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de cette photo d’une coupe transversale d’un œsophage",
+          "choix": [
+            "A) Cette coupe est colorée à l’hémalun éosine",
+            "B) Les légendes 1, 2 et 3 correspondent respectivement à la muqueuse, l’épithélium et le chorion",
+            "C) Les légendes 4 et 6 correspondent respectivement à la musculeuse et la musculaire muqueuse",
+            "D) La légende 5 correspond à la sous muqueuse",
+            "E) La légende 7 correspond à la tunique externe qui est une séreuse au niveau de l’œsophage"
+          ],
+          "reponses": [
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q15.jpg?v=1786400060344"
+          ],
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 16,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la cavité buccale",
+          "choix": [
+            "A) Des glandes salivaires microscopiques sont présentes dans le chorion de la muqueuse buccale",
+            "B) La langue est caractérisée par la présence de papilles linguales sur ses 2/3 postérieurs",
+            "C) Les papilles filiformes sont les papilles les plus nombreuses et possèdent des bourgeons du gout",
+            "D) Les bourgeons du gout sont des chémorécepteurs",
+            "E) La langue est constituée d’une masse centrale de faisceaux de fibres musculaires striées à disposition plexiforme"
+          ],
+          "reponses": [
+            "A",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 17,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la jonction oeso-gastrique et de l’estomac",
+          "choix": [
+            "A) Au niveau de la jonction oeso-gastrique, on observe un changement brutal de nature de muqueuse : passage d’une muqueuse de protection chimique au niveau de l’œsophage à une muqueuse de protection mécanique au niveau de l’estomac.",
+            "B) Les cellules neuroendocrines observées au niveau des glandes fundiques sont à polarité inversée : les granulations sécrétoires sont au niveau du pôle basal",
+            "C) Les glandes pyloriques de la muqueuse pylorique de l’estomac sont caractérisées par la présence de très nombreuses cellules à mucus",
+            "D) Les glandes de Von Ebner œsophagiennes sécrètent une mucine permettant de protéger la muqueuse œsophagienne de l’acidité gastrique",
+            "E) L’épithélium de surface de l’estomac est composé de 4 types cellulaires différents"
+          ],
+          "reponses": [
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 18,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l’estomac et de l’intestin grêle",
+          "choix": [
+            "A) Au niveau de la muqueuse gastrique fundique se trouvent les glandes séreuses fundiques qui sont des glandes tubuleuses droites.",
+            "B) Les cellules de Paneth sont des cellules qui ont un rôle dans la défense antimicrobienne",
+            "C) Les cellules bordantes des glandes fundiques élaborent l'acide chlorhydrique et le facteur intrinsèque.",
+            "D) Le duodénum est caractérisé par la présence des glandes de Lieberkühn dans la sous muqueuse",
+            "E) Les entérocytes sont les cellules les plus nombreuses de l’épithélium de l’estomac et sont des cellules d’absorption"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        },
+        {
+          "id": 19,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du gros intestin et du rectum",
+          "choix": [
+            "A) La muqueuse est caractérisée par la présence de nombreuses cellules « en marguerite ».",
+            "B) De nombreuses cellules de Paneth sont présentes dans les glandes de Lieberkühn de la muqueuse colique",
+            "C) La sous-muqueuse présente des glandes de Brünner",
+            "D) Entre les deux couches musculaires lisses de la musculeuse se trouve le plexus nerveux de Meissner.",
+            "E) L’appendice est caractérisée par une musculaire muqueuse discontinue"
+          ],
+          "reponses": [
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 6,
+          "neutralized": [
+            "A"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des organes glandulaires annexes",
+          "choix": [
+            "A) Les ilots de Langherans constituent le pancréas endocrine",
+            "B) La pancréas exocrine est constitué d’acini séreux dont les cellules contiennent des grains de zymogène acidophiles au niveau du pôle apical",
+            "C) Au niveau d’un lobule hépatique, les hépatocytes les mieux oxygénés se trouvent autour de la veine centro-lobulaire.",
+            "D) Les acini muqueux des glandes salivaires principales sont caractérisés par une lumière large et des cellules au cytoplasme peu coloré",
+            "E) Les glandes parotides sont des glandes séreuses pures"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 7
+        },
+        {
+          "id": 21,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du foie et des voies biliaires",
+          "choix": [
+            "A) Dans un espace porte on trouve entre autre des artères et veines interlobulaires.",
+            "B) Au sein du lobule hépatique, le sens de la circulation sanguine est centrifuge",
+            "C) Les travées de Remak sont parallèles entre elles et sont à disposition radiaire par rapport à la veine centro-lobulaire",
+            "D) Dans un lobule hépatique, les canalicules biliaires sont formés par les membranes plasmiques de deux hépatocytes adjacents reliées entre elles par des jonctions étanches",
+            "E) La vésicule biliaire, comme le cholédoque, sont bordés par un épithélium cubique pluristratifié DFGSM2 T.S. Histologie le mercredi 10 mai 2023 de 14h17 à 14h27"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "folder-1786400074733-fedf0ee5c8729",
+      "type": "SQI",
+      "title": "SQI 4",
+      "description": "",
+      "order": 4,
+      "questions": [
+        {
+          "id": 22,
+          "type": "QRM",
+          "contexte": "",
+          "question": "1- A propos du schéma suivant :",
+          "choix": [
+            "A) Ce schéma représente un lobule de thymus",
+            "B) La légende 1 correspond au corpuscule de Hassal",
+            "C) Les légendes 2 et 3 correspondent respectivement à la gaine lymphoïde péri-artérielle et à la pulpe blanche périphérique",
+            "D) Les zones légendées 4 et 5 forment ensemble un follicule lymphoïde secondaire",
+            "E) Les légendes 6 et 7 correspondent respectivement au sinus médullaire et à la zone du manteau"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q22.png?v=1786400075322"
+          ]
+        },
+        {
+          "id": 23,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la moelle osseuse hématopoïétique",
+          "choix": [
+            "A) La moelle osseuse hématopoïétique a 3 fonctions : l’hématopoïèse, la différentiation des lymphocytes B et l’épuration des cellules",
+            "B) Un myélogramme correspond à une aspiration de la moelle pouvant être réalisée au niveau du sternum chez l’adulte",
+            "C) Le monoblaste est le précurseur du mégacaryocyte",
+            "D) Les cellules réticulaires fibroblastiques sont de petites cellules globuleuses formant un réseau à mailles larges de cellules connectées",
+            "E) Les fibres de réticuline sont des fibres de collagène III visible en imprégnation argentique"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "neutralized": [
+            "D"
+          ]
+        },
+        {
+          "id": 24,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du thymus",
+          "choix": [
+            "A) La fonction de thymopoïèse persiste toute la vie",
+            "B) Les veinules postcapillaires à endothélium haut sont situées à la périphérie du cortex proche de la capsule conjonctive périphérique",
+            "C) Les cloisons conjonctives intralobulaires forment à l’intérieur des lobules des unités structurales nommées follicules",
+            "D) Les cellules épithéliales réticulées sont plus globuleuses dans la médullaire par rapport aux cellules épithéliales réticulées du cortex",
+            "E) Physiologiquement, de nombreux follicules lymphoïdes secondaires sont visibles dans le thymus"
+          ],
+          "reponses": [
+            "A",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 25,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des ganglions lymphatiques",
+          "choix": [
+            "A) La lymphe pénètre dans le ganglion lymphatique par les vaisseaux lymphatiques efférents et est déversée au niveau du sinus cortical situé sous la capsule",
+            "B) Le paracortex est riche en lymphocytes T qui expriment le CD3",
+            "C) Les follicules lymphoïdes secondaires sont composés d’une zone du manteau et d’un centre germinatif",
+            "D) Les sinus sont bordés par des cellules endothéliales jointives reposant sur une membrane basale continue",
+            "E) Les centrocytes sont des cellules de plus petite taille que les centroblastes et sont caractérisées par un noyau clivé."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 26,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la rate",
+          "choix": [
+            "A) La pulpe blanche est constituée d’une artère trabéculaire entourée du manchon lymphoïde",
+            "B) Des veinules post capillaires à endothélium haut peuvent être observés au niveau de la pulpe blanche.",
+            "C) Le manchon lymphoïde de la pulpe blanche est composé d’une gaine lymphoïde périartérielle qui contient de nombreux lymphocytes T et d’une pulpe blanche périphérique qui est majoritairement composée de lymphocytes B.",
+            "D) La zone marginale est riche en macrophages et en cellules présentatrices d’antigène",
+            "E) Les capillaires sinusoïdes de la pulpe rouge sont des capillaires de type continu DFGSM3 MF Histologie le mardi 10 janvier 2023 de 10h10 à 10h10"
+          ],
+          "reponses": [
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786400076390-1cde24f1dd9f58",
+      "type": "SQI",
+      "title": "SQI 5",
+      "description": "",
+      "order": 5,
+      "questions": [
+        {
+          "id": 27,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oreille",
+          "choix": [
+            "A) La structure gélatineuse qui couvre les crêtes contient des otolithes.",
+            "B) Le contact entre les microvillosités des cellules sensorielles de l'organe de Corti et la membrane tectorielle déclenche l'ouverture de canaux ioniques.",
+            "C) Les cellules sensorielles des macules possèdent chacune un cil.",
+            "D) La position du cil, des cellules sensorielles de l'équilibre, varie selon le mouvement des microvillosités.",
+            "E) Les axones des cellules sensorielles de l’organe de Corti forment le nerf vestibulaire"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 28,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oreille",
+          "choix": [
+            "A) Le labyrinthe membraneux, en dehors des zones de différenciations spécifiques, est constitué d'un épithélium simple.",
+            "B) Le labyrinthe membraneux comprend des régions de différenciation neuro-sensorielle.",
+            "C) La strie vasculaire correspond à une différenciation sensorielle du canal cochléaire",
+            "D) L'organe de Corti se situe à la face externe du canal cochléaire",
+            "E) Les macules se situent au niveau des ampoules des canaux semi circulaires."
+          ],
+          "reponses": [
+            "A",
+            "B"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        },
+        {
+          "id": 29,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oeil",
+          "choix": [
+            "A) L'annotation 1 montre la couche qui comprend la partie réceptrice des photorécepteurs.",
+            "B) L'annotation 2 correspond à la couche où se localisent les noyaux des photorécepteurs.",
+            "C) L'annotation 3 correspond à la couche des cellules ganglionnaires.",
+            "D) La lumière traverse la rétine selon le sens indiqué par la flèche de l'annotation 4.",
+            "E) Les cellules pigmentées de la rétine visuelle permettent d'absorber l'excès de lumière."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q29.jpg?v=1786400077395"
+          ]
+        },
+        {
+          "id": 30,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oeil",
+          "choix": [
+            "A) Le cristallin est un organe ovalaire constitué majoritairement de fibres collagènes.",
+            "B) Les ligaments suspenseurs du cristallin (fibres zonulaires) relient le cristallin aux procès ciliaires.",
+            "C) Le muscle ciliaire contrôle l’accommodation.",
+            "D) En cas de traumatisme la cicatrisation de la membrane de Bowman pourra laisser une cicatrice gênant la vision",
+            "E) La membrane de Bowman ne contient pas de fibroblastes"
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 31,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'oeil",
+          "choix": [
+            "A) La tunique la plus interne de l’œil comprend la rétine.",
+            "B) La rétine aveugle correspond à du tissu nerveux dépourvu de cellules sensorielles",
+            "C) La limite entre la rétine visuelle et aveugle correspond à l'ora serrata",
+            "D) Le stroma cornéen est transparent car les fibres de collagènes se dirigent dans toutes les directions de l'espace",
+            "E) La sclère est en continuité avec la dure-mère du nerf optique"
+          ],
+          "reponses": [
+            "A",
+            "C",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786400077999-b0daa28f244f78",
+      "type": "SQI",
+      "title": "DL 1",
+      "description": "",
+      "order": 6,
+      "questions": [
+        {
+          "id": 32,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) L’annotation 1 marque des corpuscules rénaux",
+            "B) L’annotation 2 marque une pyramide de Malpighi",
+            "C) L’annotation 3 marque des pyramides de Ferrein",
+            "D) Les tubules contournés se situent dans la substance médullaire",
+            "E) Les corpuscules rénaux se situent dans la substance médullaire"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q32.png?v=1786400078660"
+          ]
+        },
+        {
+          "id": 33,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) L’annotation 1 marque une artériole afférente",
+            "B) L’annotation 2 marque un glomérule capillaire",
+            "C) L’annotation 3 marque une veinule capillaire post glomérulaire",
+            "D) L’annotation 4 marque le réseau capillaire peri- tubulaire",
+            "E) Les cellules endothéliales des capillaires glomérulaires possèdent des pores."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q33.png?v=1786400079083"
+          ]
+        },
+        {
+          "id": 34,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein",
+          "choix": [
+            "A) Le schéma représente la barrière de filtration glomérulaire.",
+            "B) L’annotation 1 marque l’endothélium capillaire fenêtré.",
+            "C) La membrane basale glomérulaire (annotée 2) correspond à la fusion de la membrane basale des capillaires avec le feuillet viscéral de la capsule de Bowman.",
+            "D) L’annotation 3 marque un podocyte.",
+            "E) Les pieds des podocytes sont attachés entre eux par des zonulas occludens."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 3,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q34.png?v=1786400079584"
+          ]
+        },
+        {
+          "id": 35,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos du rein et des voies urinaires",
+          "choix": [
+            "A) L’observation de globules rouges déformés dans les urines est en faveur d’une lésion vésicale .",
+            "B) Le tubule proximal du néphron possède une bordure en brosse.",
+            "C) Les cellules juxtaglomérulaires (qui synthétisent en autre la rénine) sont sensibles à la pression artérielle.",
+            "D) La muqueuse de l’uretère est plissée.",
+            "E) L’urothélium présente un nombre d’assise cellulaire plus important quand la vessie est pleine."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4
+        },
+        {
+          "id": 36,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des voies urinaires et de l'appareil génital masculin",
+          "choix": [
+            "A) Les cellules les plus superficielles de l’urothélium, les cellules dites en ombrelle, ont une surface apicale qui peut augmenter de taille participant à l’adaptation de la paroi vésicale au remplissage.",
+            "B) Les corps caverneux sont composés de lacs sanguins séparés par du tissu conjonctif contenant des cellules musculaires lisses.",
+            "C) Les tubes séminifères possèdent un épithélium dit stratifié.",
+            "D) Les cellules de Sertoli sont les cellules nourricières qui participent à la maturation et à la libération des gamètes. V",
+            "E) Les cellules de Leydig forment des ilots dans le tissu conjonctif du testicule autour des tubes séminifères. V"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "folder-1786400080237-1d097b51b5e968",
+      "type": "SQI",
+      "title": "DL 3",
+      "description": "",
+      "order": 7,
+      "questions": [
+        {
+          "id": 37,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de l'histologie de l’hypophyse et de l'hypothalamus et de la thyroïde",
+          "choix": [
+            "A) L'adénohypophyse a pour origine embryologique l'ectoderme oral",
+            "B) L'adénohypophyse contient des cellules glandulaires qui peuvent donner des adénomes secrétant de la prolactine",
+            "C) Les axones qui traversent la neuro-hypophyse possèdent des expansions cytoplasmiques, les corps de Herring (flèches), qui stockent les hormones synthétisées au niveau de l'hypothalamus",
+            "D) La thyroïde nait d'un diverticule endodermique qui se forme à la base de la langue",
+            "E) La thyroïde comprend des cellules glandulaires, les thyréocytes, agencées en cordons."
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q37.png?v=1786400080809"
+          ]
+        },
+        {
+          "id": 38,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la thyroïde, de la parathyroïde et de la surrénale",
+          "choix": [
+            "A) La photographie de microscopie optique montre une thyroïde au repos.",
+            "B) Les cellules C de la thyroïde forment des ilots glandulaires dans le tissu conjonctif.",
+            "C) Les cellules glandulaires sombres dans la parathyroïde correspondent à des cellules en phase de repos.",
+            "D) Sur la photographie on observe deux régions bien distinctes macroscopiquement : la corticosurrénale et la médullosurrénale.",
+            "E) Sur la photographie ci-dessous d'une microscopie optique de la corticosurrénale on observe que les cellules de la région fasciculée sont plus claires que les cellules de la région glomérulée"
+          ],
+          "reponses": [
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q38.png?v=1786400081292",
+            "/images/qcm/histologie-s4/2023/q38_1.png?v=1786400081441",
+            "/images/qcm/histologie-s4/2023/q38_2.jpg?v=1786400081587"
+          ]
+        },
+        {
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos de la surrénale et des paraganglions",
+          "choix": [
+            "A) Les cellules de la région fasciculée de la corticosurrénale sont claires en raison de la présence de nombreuses vacuoles remplies de glycogène.",
+            "B) Les phéochromocytes sont des cellules contenant des vésicules à cœur dense (ou granules neurosecretoires).",
+            "C) La médullosurrénale est un paraganglion",
+            "D) Les cellules neuroendocrines des paraganglions forment des synapses avec des terminaisons nerveuses.",
+            "E) Les paraganglions sympathiques synthétisent des cathécolamines."
+          ],
+          "reponses": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 3
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des glandes endocrines",
+          "choix": [
+            "A) L'adénohypophyse est vascularisée par un système porte",
+            "B) Cette photographie de microscopie optique d'hypophyse colorée par le tétrachrome d'Herlant montre des cellules glandulaires avec des affinités tinctoriales variables reflétant la diversité des hormones sécrétées.",
+            "C) Cette photographie macroscopique montre une surrénale",
+            "D) Sur cette photographie de thyroïde, La flèche marque la substance colloide.",
+            "E) La parathyroide secrète la parahormone qui est une hormone hypocalcémiante"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "D"
+          ],
+          "correctionExplanation": "",
+          "order": 4,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q40.png?v=1786400082290",
+            "/images/qcm/histologie-s4/2023/q40_1.png?v=1786400082487",
+            "/images/qcm/histologie-s4/2023/q40_2.jpg?v=1786400082637"
+          ]
+        },
+        {
+          "id": 41,
+          "type": "QRM",
+          "contexte": "",
+          "question": "A propos des glandes endocrines",
+          "choix": [
+            "A) La médullosurrénale a pour origine embryologique les crêtes neurales",
+            "B) Sur ce schéma du cortex surrénalien on distingue une région avec des cellules qui forment des sphères, il s'agit de la zone glomérulée",
+            "C) La zone glomérulée secrète l'aldostérone",
+            "D) Ce schéma représente l'organisation à l'étage cellulaire d'un paragangliome",
+            "E) Le système neuroendocrinien diffus regroupe des cellules neuroendocrines situées dans différents organes"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 5,
+          "images": [
+            "/images/qcm/histologie-s4/2023/q41.png?v=1786400083043",
+            "/images/qcm/histologie-s4/2023/q41_1.png?v=1786400083231"
+          ]
+        }
+      ]
     }
   ],
   "questions": []

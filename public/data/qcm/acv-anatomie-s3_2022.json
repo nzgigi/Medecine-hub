@@ -163,7 +163,7 @@
             "A) Le nœud sino-atrial se situe en sous-endocardique",
             "B) Le nœud sino-atrial se situe en avant de la veine cave supérieur",
             "C) Le nœud atrioventriculaire est situé au niveau du septum inter-ventriculaire",
-            "D) La branche droite du faisceau atrioventriculaire traverse la trabécule septo- marginale",
+            "D) La branche droite du faisceau atrioventriculaire traverse la trabécule septo-marginale",
             "E) Le système cardionecteur est régulé par l’innervation extrinsèque provenant des plexus oesophagiens"
           ],
           "reponses": [
@@ -201,18 +201,20 @@
           "choix": [
             "A) Le sinus coronaire est situé à la base du cœur.",
             "B) Le sinus coronaire se trouve dans le sillon atrioventriculaire gauche",
-            "C) Neutralisée Non Les veines minimes du cœur se drainent directement dans l’atrium droit",
+            "C) Les veines minimes du cœur se drainent directement dans l’atrium droit",
             "D) La grande veine du cœur (grande veine coronaire) chemine parallèlement à l’artère interventriculaire antérieure",
             "E) La petite veine du cœur se draine dans le sinus coronaire."
           ],
           "reponses": [
             "B",
-            "C",
             "D",
             "E"
           ],
           "correctionExplanation": "",
-          "order": 10
+          "order": 10,
+          "neutralized": [
+            "C"
+          ]
         },
         {
           "id": 11,
@@ -255,7 +257,7 @@
           "correctionExplanation": "",
           "order": 12,
           "images": [
-            "/images/qcm/acv-anatomie-s3/2022/q12.png?v=1786393083528"
+            "/images/qcm/acv-anatomie-s3/2022/q12.png?v=1786539992122"
           ]
         },
         {
@@ -264,7 +266,7 @@
           "contexte": "",
           "question": "A propos du cœur",
           "choix": [
-            "A) La face antérieure du cœur est également appelée face sterno- costale.",
+            "A) La face antérieure du cœur est également appelée face sterno-costale.",
             "B) L’atrium gauche est la cavité la plus postérieure du cœur",
             "C) Le nerf vague gauche est en rapport avec la face pulmonaire gauche du cœur",
             "D) Le pédicule phrénique chemine au-dessus du péricarde fibreux.",

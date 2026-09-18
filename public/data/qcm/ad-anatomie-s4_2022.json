@@ -60,17 +60,19 @@
             "A) La production d'acide chlorhydrique est prédominante au niveau du corps de l'estomac",
             "B) L'artère gastro-épiploique gauche est issue de l'artère splénique",
             "C) Le bord gauche de l'estomac est appelé \"petite courbure\"",
-            "D) Neutralisée Non Le cercle anastomotique le long du bord gauche de l'estomac est formé par les artères gastro-épiploiques",
+            "D) Le cercle anastomotique le long du bord gauche de l'estomac est formé par les artères gastro-épiploiques",
             "E) Le grand épiploon s'insère sur la grande courbure de l'estomac"
           ],
           "reponses": [
             "A",
             "B",
-            "D",
             "E"
           ],
           "correctionExplanation": "",
-          "order": 3
+          "order": 3,
+          "neutralized": [
+            "D"
+          ]
         },
         {
           "id": 4,
@@ -79,7 +81,7 @@
           "question": "A propos du foie\nConcernant la segmentation hépatique, quelles sont les propositions exactes",
           "choix": [
             "A) La légende A correspond au segment VII",
-            "B) La légende E correspond au segment  I",
+            "B) La légende E correspond au segment I",
             "C) La légende B correspond au segment V",
             "D) La légende C correspond au segment III",
             "E) La légende D correspond au segment VI"
@@ -92,7 +94,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/ad-anatomie-s4/2022/q4.jpg?v=1786395307965"
+            "/images/qcm/ad-anatomie-s4/2022/q4.jpg?v=1786540087029"
           ]
         },
         {
@@ -133,7 +135,7 @@
           "correctionExplanation": "",
           "order": 6,
           "images": [
-            "/images/qcm/ad-anatomie-s4/2022/q6.png?v=1786395308953"
+            "/images/qcm/ad-anatomie-s4/2022/q6.png?v=1786540088388"
           ]
         },
         {
@@ -165,17 +167,19 @@
           "choix": [
             "A) Par définition, la base de la langue est dans la cavité orale",
             "B) Le squelette du voile du palais est ostéo-fibreux",
-            "C) Neutralisée Non L'isthme du gosier est délimité par l'arc palatoglosse",
+            "C) L'isthme du gosier est délimité par l'arc palatoglosse",
             "D) L'ostium du conduit parotidien se termine en regard de la première molaire supérieure",
             "E) La glande sublinguale présente un prolongement qui contourne le muscle génio-hyoidien"
           ],
           "reponses": [
             "B",
-            "C",
             "D"
           ],
           "correctionExplanation": "",
-          "order": 8
+          "order": 8,
+          "neutralized": [
+            "C"
+          ]
         },
         {
           "id": 9,
@@ -237,7 +241,7 @@
           "correctionExplanation": "",
           "order": 11,
           "images": [
-            "/images/qcm/ad-anatomie-s4/2022/q11.png?v=1786395310991"
+            "/images/qcm/ad-anatomie-s4/2022/q11.png?v=1786540092050"
           ]
         },
         {
@@ -246,19 +250,21 @@
           "contexte": "",
           "question": "A propos de l’œsophage",
           "choix": [
-            "A) Neutralisée Non Le hiatus œsophagien se situe en regard de la vertèbre T10",
+            "A) Le hiatus œsophagien se situe en regard de la vertèbre T10",
             "B) La vascularisation de l’œsophage est une vascularisation opportuniste",
             "C) L’œsophage cervical est vascularisé par l'artère thyroïdienne supérieure",
             "D) La ligne \"Z\" est localisée dans l’œsophage thoracique",
             "E) L’œsophage thoracique se situe en dorsal de l'aorte thoracique en T4"
           ],
           "reponses": [
-            "A",
             "B",
             "E"
           ],
           "correctionExplanation": "",
-          "order": 12
+          "order": 12,
+          "neutralized": [
+            "A"
+          ]
         },
         {
           "id": 13,
@@ -268,7 +274,7 @@
           "choix": [
             "A) La paroi externe de l'iléum est bosselée",
             "B) Le mésentère permet la mobilisation des anses jéjunales et iléales",
-            "C) L'artère mésentérique inférieure se termine en regard de la jonction iléo- cæcale",
+            "C) L'artère mésentérique inférieure se termine en regard de la jonction iléo-cæcale",
             "D) Les vaisseaux droits se terminent sur le bord mésentérique d'une anse intestinale",
             "E) La vascularisation du jéjuno-iléum est réalisée par les branches droites de l'artère mésentérique inférieure"
           ],
@@ -298,7 +304,7 @@
           "correctionExplanation": "",
           "order": 14,
           "images": [
-            "/images/qcm/ad-anatomie-s4/2022/q14.jpg?v=1786395312318"
+            "/images/qcm/ad-anatomie-s4/2022/q14.jpg?v=1786540094461"
           ]
         },
         {
@@ -327,7 +333,7 @@
           "contexte": "",
           "question": "A propos de la rate\nQuelles sont les propositions exactes",
           "choix": [
-            "A) Le grand axe de la rate est situé en regard de la 8 ème côte",
+            "A) Le grand axe de la rate est situé en regard de la 8ème côte",
             "B) Le hile est situé sur la face colique de la rate",
             "C) L'artère gastro-épiploique gauche est une branche de l'artère splénique",
             "D) Les vaisseaux courts sont des branches de l'artère gastro-épiploique droite",

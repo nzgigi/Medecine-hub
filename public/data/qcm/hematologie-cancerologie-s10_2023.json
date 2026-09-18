@@ -9,14 +9,14 @@
       "id": "default-questions",
       "type": "DP",
       "title": "DP 1",
-      "description": "Un patient de 23 ans vient à votre cabinet, pour l'auto-palpation d'une adénomégalie cervicale jugulo-carotidienne médiane droite de 2 x 3 cm\nIl n'a aucun ATCD médico-chirurgical, pas de traitement.",
+      "description": "Un patient de 23 ans vient à votre cabinet, pour l'auto-palpation d'une adénomégalie cervicale jugulo-carotidienne médiane droite de 2 x 3 cm\nIl n'a aucun ATCD médico-chirurgical, pas de traitement. ",
       "order": 1,
       "questions": [
         {
           "id": 1,
           "type": "QRM",
           "contexte": "",
-          "question": "Quels paramètres cliniques vous orient-ils vers une cause infectieuse?",
+          "question": "** Quels paramètres cliniques vous orient-ils vers une cause infectieuse? **",
           "choix": [
             "A) La douleur locale",
             "B) Une lymphangite",

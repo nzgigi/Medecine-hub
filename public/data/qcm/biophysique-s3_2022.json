@@ -31,14 +31,14 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/biophysique-s3/2022/q1.png?v=1786395651737"
+            "/images/qcm/biophysique-s3/2022/q1.png?v=1786540241393"
           ]
         },
         {
           "id": 2,
           "type": "QRM",
           "contexte": "",
-          "question": "Voici un examen d'imagerie médicale réalisé sans injection de produit de contraste chez un patient présentant depuis quelques\nheures une hémiplégie droite d'installation brutale",
+          "question": "Voici un examen d'imagerie médicale réalisé sans injection de produit de contraste chez un patient présentant depuis quelques heures une hémiplégie droite d'installation brutale",
           "choix": [
             "A) il s'agit d'une IRM",
             "B) il s'agit d'un scanner",
@@ -54,7 +54,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/biophysique-s3/2022/q2.png?v=1786395652144"
+            "/images/qcm/biophysique-s3/2022/q2.png?v=1786540241833"
           ]
         },
         {
@@ -77,16 +77,16 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/biophysique-s3/2022/q3.png?v=1786395652602"
+            "/images/qcm/biophysique-s3/2022/q3.png?v=1786540242327"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786395652456-c8a574d9b44df",
+      "id": "folder-1786540242878-171837960c15a",
       "type": "DP",
       "title": "DP 1",
-      "description": "Une publication récente du journal « European Radiology » apporte des arguments pouvant justifier le suivi des doses effectives\nreçues par les patients lors de la réalisation des examens radiologiques exposant aux radiations ionisantes.\n(Patient cumulative radiation exposure- the potential for unintended consequences, Colin Walsh et al. ; European Radiology, 2020,\n30 :4434-4437)\n«…Les risques stochastiques associés à la dose cumulative des examens d’imagerie font partie du passé du patient et ne\ndevraient pas influencer la justification des radio-expositions liées aux examens radiologiques de l’avenir. En effet, la relation\nentre la radio-exposition et le risque de cancer est basée sur un modèle linéaire sans seuil qui prédit le nombre des cancers radio-\ninduits en fonction de la dose d’irradiation reçue. Mais ce modèle reste spéculatif, et génère le doute qu’une radio-exposition à\nune dose basse pourrait produire une vulnérabilité biologique qui augmenterait le risque de développement d’un cancer….\n… Ce qui est plus important est la justification de l’examen radiologique et le jugement sur le risque radiologique de l’examen\ncourant de radiologie….\n… Quand un patient a besoin en prospectif de nombreux examens d’imagerie nécessaires pour une décision médicale, l’historique\ndes doses devraient être pris en considération afin de positionner en priorité des modalités d’imagerie non ionisantes, avec une\ninformation diagnostique équivalente….\n… La connaissance des doses cumulatives est pertinente pour les risques encourus sur les tissus superficiels : le tissu cutané et les\ncheveux. Ceci a été démontré pour certains examens de type angiographie et TDM (Scanner X) de perfusion. »",
+      "description": "Une publication récente du journal « European Radiology » apporte des arguments pouvant justifier le suivi des doses effectives reçues par les patients lors de la réalisation des examens radiologiques exposant aux radiations ionisantes.\n(Patient cumulative radiation exposure- the potential for unintended consequences, Colin Walsh et al. ; European Radiology, 2020, 30 :4434-4437)\n«…Les risques stochastiques associés à la dose cumulative des examens d’imagerie font partie du passé du patient et ne devraient pas influencer la justification des radio-expositions liées aux examens radiologiques de l’avenir. En effet, la relation entre la radio-exposition et le risque de cancer est basée sur un modèle linéaire sans seuil qui prédit le nombre des cancers radio-induits en fonction de la dose d’irradiation reçue. Mais ce modèle reste spéculatif, et génère le doute qu’une radio-exposition à une dose basse pourrait produire une vulnérabilité biologique qui augmenterait le risque de développement d’un cancer….\n… Ce qui est plus important est la justification de l’examen radiologique et le jugement sur le risque radiologique de l’examen courant de radiologie….\n… Quand un patient a besoin en prospectif de nombreux examens d’imagerie nécessaires pour une décision médicale, l’historique des doses devraient être pris en considération afin de positionner en priorité des modalités d’imagerie non ionisantes, avec une information diagnostique équivalente….\n… La connaissance des doses cumulatives est pertinente pour les risques encourus sur les tissus superficiels : le tissu cutané et les cheveux. Ceci a été démontré pour certains examens de type angiographie et TDM (Scanner X) de perfusion. »",
       "order": 2,
       "questions": [
         {
@@ -152,7 +152,7 @@
           "id": 7,
           "type": "QRU",
           "contexte": "",
-          "question": "En observant des cohortes de personnes exposées (adultes) on constate que le risque de cancer augmente de manière\nsignificative quand la dose effective cumulée dépasse :",
+          "question": "En observant des cohortes de personnes exposées (adultes) on constate que le risque de cancer augmente de manière significative quand la dose effective cumulée dépasse :",
           "choix": [
             "A) 200 mSv",
             "B) 20 mSv",
@@ -205,7 +205,10 @@
             "D"
           ],
           "correctionExplanation": "",
-          "order": 6
+          "order": 6,
+          "critiques": [
+            "E"
+          ]
         },
         {
           "id": 10,

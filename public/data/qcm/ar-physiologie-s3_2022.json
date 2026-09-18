@@ -19,7 +19,7 @@
           "question": "Concernant le rapport ventilation-perfusion, il est exact que :",
           "choix": [
             "A) Le rapport ventilation-perfusion, chez un sujet debout, est élevé au sommet car la ventilation y est plus élevée qu’à la base du poumon",
-            "B) Chez un sujet debout, le rapport ventilation-perfusion est bas à la base du poumon par conséquent la P O est plus élevée à la base qu’au sommet du poumon",
+            "B) Chez un sujet debout, le rapport ventilation-perfusion est bas à la base du poumon par conséquent la PAO2 est plus élevée à la base qu’au sommet du poumon",
             "C) Chez un sujet debout, il existe un effet shunt à la base du poumon, car celle-ci est moins bien ventilée qu’elle n’est perfusée",
             "D) On observe un effet espace mort dans les zones du poumon mal perfusées",
             "E) L’hétérogénéité au sein des poumons du rapport ventilation-perfusion est moindre lors d’un exercice physique"
@@ -41,8 +41,8 @@
             "A) La ductance du poumon (DL), ou capacité de diffusion, tient compte des propriétés de diffusion d’un gaz donné et de la membrane à travers laquelle diffuse ce gaz",
             "B) Le CO est utilisé pour la mesure de la diffusion alvéolo-capillaire en raison de sa très grande affinité pour l’hémoglobine",
             "C) Lors d’une mesure de diffusion du CO chez un patient anémié, si l’on ne corrige pas les résultats avec le taux d’hémoglobine du patient, les résultats peuvent être surestimés",
-            "D) Lors d’une mesure de diffusion du CO chez un fumeur, il faut tenir compte du taux de carboxyhémoglobine sanguin du patient car un taux élevé peut surestimer les résultats de la D CO",
-            "E) Le coefficient de perméabilité (ou coefficient de Krogh), en rapportant la D CO au volume alvéolaire, tient compte d’une éventuelle anomalie ventilatoire restrictive"
+            "D) Lors d’une mesure de diffusion du CO chez un fumeur, il faut tenir compte du taux de carboxyhémoglobine sanguin du patient car un taux élevé peut surestimer les résultats de la DLCO",
+            "E) Le coefficient de perméabilité (ou coefficient de Krogh), en rapportant la DLCO au volume alvéolaire, tient compte d’une éventuelle anomalie ventilatoire restrictive"
           ],
           "reponses": [
             "A",
@@ -60,9 +60,9 @@
           "choix": [
             "A) Dans la trachée, la pression de vapeur saturante de l’eau est à 47 mmHg pour une température de 37°C",
             "B) Selon la loi de Fick, la diffusion d’un gaz à travers un tissu est proportionnelle à la surface et inversement proportionnelle à l’épaisseur de ce tissu",
-            "C) Le coefficient de solubilité (a) de l’O est plus faible que celui du CO , ce qui entraîne une moins bonne diffusion de l’O par rapport au CO",
-            "D) Le gradient de pression partielle entre l’alvéole et le capillaire sanguin est plus élevé pour le CO que pour l’O",
-            "E) Chez un sujet sain, au repos, la PO dans l’alvéole et la PO dans le sang capillaire pulmonaire sont à l’équilibre dès la fin du premier tiers du capillaire"
+            "C) Le coefficient de solubilité (a) de l’O2 est plus faible que celui du CO2, ce qui entraîne une moins bonne diffusion de l’O2 par rapport au CO2",
+            "D) Le gradient de pression partielle entre l’alvéole et le capillaire sanguin est plus élevé pour le CO2 que pour l’O2",
+            "E) Chez un sujet sain, au repos, la PO2 dans l’alvéole et la PO2 dans le sang capillaire pulmonaire sont à l’équilibre dès la fin du premier tiers du capillaire"
           ],
           "reponses": [
             "A",
@@ -161,9 +161,9 @@
           "choix": [
             "A) Lors d’une ventilation calme de repos, la durée de l’inspiration représente le tiers de la durée totale du cycle ventilatoire",
             "B) En fin d’inspiration, la pression alvéolaire est supérieure à la pression atmosphérique, ce qui va entraîner les mouvements d’air vers l’extérieur du poumon",
-            "C) Lors d’une ventilation calme de repos, la contraction des muscles expiratoires augmente la pression intrapulmonaire PO et entraîne un mouvement d’air vers l’extérieur du poumon",
+            "C) Lors d’une ventilation calme de repos, la contraction des muscles expiratoires augmente la pression intrapulmonaire PO2 et entraîne un mouvement d’air vers l’extérieur du poumon",
             "D) Selon la loi de Boyle et Mariotte, lors de l’inspiration, les volumes pulmonaires augmentent entraînant une augmentation de la pression intrapulmonaire",
-            "E) Les mouvements du thorax sont transmis aux poumons grâce à la pression infra- atmosphérique de la cavité pleurale, qui permet la solidarité thoraco-pulmonaire"
+            "E) Les mouvements du thorax sont transmis aux poumons grâce à la pression infra-atmosphérique de la cavité pleurale, qui permet la solidarité thoraco-pulmonaire"
           ],
           "reponses": [
             "A",
@@ -178,10 +178,10 @@
           "contexte": "",
           "question": "Concernant les gaz du sang pendant la grossesse, il est exact que :",
           "choix": [
-            "A) Dans le sang artériel de la mère, la PO est égale 95 mmHg et la PCO est égale 38 mmHg",
-            "B) Dans le sang de la veine ombilicale fœtale, la PO est proche de 35 mmHg et la PCO proche de 44 mmHg",
+            "A) Dans le sang artériel de la mère, la PO2 est égale 95 mmHg et la PCO2 est égale 38 mmHg",
+            "B) Dans le sang de la veine ombilicale fœtale, la PO2 est proche de 35 mmHg et la PCO2 proche de 44 mmHg",
             "C) La concentration en hémoglobine chez fœtus est de 15 g/100 ml de sang",
-            "D) L‘hémoglobine fœtale a une plus grande affinité pour l’O que l’hémoglobine adulte",
+            "D) L‘hémoglobine fœtale a une plus grande affinité pour l’O2 que l’hémoglobine adulte",
             "E) La « barrière » placentaire est moins favorable aux échanges gazeux que la paroi alvéolaire"
           ],
           "reponses": [
@@ -221,7 +221,7 @@
           "choix": [
             "A) Ils sont situés au niveau des sinus carotidiens et de la crosse aortique",
             "B) Ils régulent également la pression sanguine artérielle",
-            "C) Ils répondent à l’augmentation de la PO artérielle",
+            "C) Ils répondent à l’augmentation de la PO2 artérielle",
             "D) Le neurotransmetteur entre la cellule portant les chémorécepteurs périphériques et les neurones acheminant le signal vers les centres nerveux est l’acétylcholine",
             "E) Ils sont plus importants que les chémorécepteurs centraux dans la réponse au CO2"
           ],
@@ -237,11 +237,11 @@
           "contexte": "",
           "question": "Concernant les chémorécepteurs centraux et le contrôle de la ventilation, il est exact que :",
           "choix": [
-            "A) Ils sont situés près de la face ventrale du bulbe, à proximité de l’émergence des 9 ème et 10 ème paires crâniennes",
+            "A) Ils sont situés près de la face ventrale du bulbe, à proximité de l’émergence des 9ème et 10ème paires crâniennes",
             "B) Ils sont entourés par le liquide extracellulaire dont la composition dépend surtout du liquide céphalo-rachidien",
-            "C) Ils répondent aux variations de la PO du liquide céphalo-rachidien",
-            "D) Le CO contenu dans le sang contrôle la ventilation principalement par son effet sur le pH du liquide céphalo-rachidien",
-            "E) Les chémorécepteurs centraux permettent de mieux détecter une baisse de la PO que les chémorécepteurs périphériques"
+            "C) Ils répondent aux variations de la PO2 du liquide céphalo-rachidien",
+            "D) Le CO2 contenu dans le sang contrôle la ventilation principalement par son effet sur le pH du liquide céphalo-rachidien",
+            "E) Les chémorécepteurs centraux permettent de mieux détecter une baisse de la PO2 que les chémorécepteurs périphériques"
           ],
           "reponses": [
             "A",
@@ -275,7 +275,7 @@
           "id": 14,
           "type": "QRM",
           "contexte": "",
-          "question": "Lors d’un exercice intense impliquant des masses musculaires importantes (course à pied ou à vélo) chez un\nsujet jeune et sain, il est exact que :",
+          "question": "Lors d’un exercice intense impliquant des masses musculaires importantes (course à pied ou à vélo) chez un sujet jeune et sain, il est exact que :",
           "choix": [
             "A) Le débit sanguin des muscles squelettiques travaillant va augmenter entre 2 et 4 fois par rapport à l’état de repos",
             "B) La pression artérielle systolique augmente par rapport à l’état de repos",
@@ -297,9 +297,9 @@
           "question": "Concernant le transport des gaz par le sang, il est exact que :",
           "choix": [
             "A) L'oxygène est transporté en majeure partie lié à l'hémoglobine",
-            "B) La quantité d’O contenue dans 100 ml de sang artériel est d’environ 20 ml d’O",
-            "C) Au repos, la quantité d’O contenue dans 100 ml de sang veineux mêlé est de 5 ml d’O",
-            "D) La quantité de CO contenue dans 100 ml de sang artériel est de 49 ml",
+            "B) La quantité d’O2 contenue dans 100 ml de sang artériel est d’environ 20 ml d’O2",
+            "C) Au repos, la quantité d’O2 contenue dans 100 ml de sang veineux mêlé est de 5 ml d’O2",
+            "D) La quantité de CO2 contenue dans 100 ml de sang artériel est de 49 ml",
             "E) Un gramme de tissu de souris doit recevoir un flux d’O2 plus élevé qu’un gramme de tissu de cheval, et donc l’affinité de l’hémoglobine de souris pour l’O2 est plus élevée que celle du cheval"
           ],
           "reponses": [
@@ -356,11 +356,11 @@
           "contexte": "",
           "question": "Concernant le transport de l’oxygène (O2) par le sang, il est exact que :",
           "choix": [
-            "A) Un gramme d’hémoglobine peut fixer au maximum 1,39 ml d’O",
-            "B) Dans le sang artériel normal d’un sujet jeune en bonne santé, la PaO est d’environ 90 à 100 mmHg",
-            "C) La quantité d’O dissous dans un litre de sang est de 0,3 ml d’O",
-            "D) En cas d’anémie isolée à 10 g hémoglobine /100 ml de sang, la saturation de l’hémoglobine en O sera diminuée d’environ 30 %",
-            "E) En cas d’anémie isolée à 10 g hémoglobine /100 ml, le contenu en oxygène de 100 ml sang sera environ de 14 ml d'O"
+            "A) Un gramme d’hémoglobine peut fixer au maximum 1,39 ml d’O2",
+            "B) Dans le sang artériel normal d’un sujet jeune en bonne santé, la PaO2 est d’environ 90 à 100 mmHg",
+            "C) La quantité d’O2 dissous dans un litre de sang est de 0,3 ml d’O2",
+            "D) En cas d’anémie isolée à 10 g hémoglobine /100 ml de sang, la saturation de l’hémoglobine en O2 sera diminuée d’environ 30 %",
+            "E) En cas d’anémie isolée à 10 g hémoglobine /100 ml, le contenu en oxygène de 100 ml sang sera environ de 14 ml d'O2"
           ],
           "reponses": [
             "A",
