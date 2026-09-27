@@ -52,8 +52,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous l'a revoyez un mois plus tard. Elle présente toujours une tristesse de l'humeur associé une perte de motivation. Elle vous dit ne plus arriver à faire son activité professionnelle car elle n'arrive plus à se concentrer. Elle se réveille presque toutes les nuits à 4h sans arriver à se rendormir.\nVous évoquez un épisode dépressif.\nQuel antécédent rechercher vous en priorité pour orienter votre diagnostic?",
+          "contexte": "Vous l'a revoyez un mois plus tard. Elle présente toujours une tristesse de l'humeur associé une perte de motivation. Elle vous dit ne plus arriver à faire son activité professionnelle car elle n'arrive plus à se concentrer. Elle se réveille presque toutes les nuits à 4h sans arriver à se rendormir.\nVous évoquez un épisode dépressif.",
+          "question": "Quel antécédent rechercher vous en priorité pour orienter votre diagnostic?",
           "choix": [
             "A) un tentative de suicide",
             "B) une hypomanie",
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "id": "folder-1786299698320-216c324ac9435",
+      "id": "folder-1790539096206-32c4961b395b18",
       "type": "DP",
       "title": "DP 2",
       "description": "Les parents du jeune Pierre, âgé de 8 ans, dont vous êtes le médecin traitant depuis sa naissance, vous sollicitent épuisés et très inquiets. En effet, la maîtresse de Pierre, actuellement en CE1, les a convoqués plusieurs fois depuis la rentrée car Pierre n’écoute absolument rien en classe, perturbe les autres et commence à prendre du retard sur les apprentissages. Elle a beaucoup insisté à chaque fois sur le fait que Pierre ne faisait pas cela méchamment, mais elle leur a dit qu’elle avait beaucoup d’expérience et que son comportement n’était vraiment pas normal et adapté. Pierre est très attristé par tout cela et a dit plusieurs fois à ses parents que si ça continuait, il n’irait plus à l’école...\nÀ la maison, les choses ne sont pas simples non plus et les parents de Pierre ne savent plus comment s’y prendre pour gérer les couchers de leur fils. Ils ont vu un documentaire sur les enfants souffrant de troubles du spectre de l’autisme (TSA), dont certains peuvent aussi présenter un haut potentiel intellectuel et ils se demandent si Pierre n’est pas surdoué et autiste, car lui aussi est très sensible… Ils voudraient que vous leur indiquiez le nom d’un bon psychologue, afin qu’il soit testé, et se demandent s’il ne faudrait pas qu’il consulte également un pédopsychiatre…",
@@ -159,8 +159,8 @@
         {
           "id": 8,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous observez et interrogez longuement Pierre, en présence de ses parents, ce qui n’est pas simple du fait de son agitation importante. Il ne tient en effet littéralement pas en place, manque plusieurs fois de renverser des objets posés sur votre étagère, et tombe deux fois en essayant de sauter sur votre bureau depuis le fauteuil de ses parents.\nVous parvenez néanmoins à obtenir des informations assez précises sur l’histoire développementale de ce patient, sur sa symptomatologie actuelle et sur son retentissement. Vous comprenez notamment que les premières étapes du développement se sont déroulées sans signes d’alerte pour les parents et que ce n’est que récemment que l’école les a prévenus de difficultés. Sa maîtresse, qui a une bonne relation avec Pierre, leur a dit qu’elle était bien désolée de cette situation mais qu’elle n’était pas certaine de pouvoir continuer à accueillir Pierre dans sa classe, s’il continuait à être aussi agité, à n’écouter aucune consigne, et à se montrer incapable de se concentrer sur un exercice.\nQuel trouble neurodéveloppemental évoquez-vous en priorité devant ce tableau clinique ?",
+          "contexte": "Vous observez et interrogez longuement Pierre, en présence de ses parents, ce qui n’est pas simple du fait de son agitation importante. Il ne tient en effet littéralement pas en place, manque plusieurs fois de renverser des objets posés sur votre étagère, et tombe deux fois en essayant de sauter sur votre bureau depuis le fauteuil de ses parents.\nVous parvenez néanmoins à obtenir des informations assez précises sur l’histoire développementale de ce patient, sur sa symptomatologie actuelle et sur son retentissement. Vous comprenez notamment que les premières étapes du développement se sont déroulées sans signes d’alerte pour les parents et que ce n’est que récemment que l’école les a prévenus de difficultés. Sa maîtresse, qui a une bonne relation avec Pierre, leur a dit qu’elle était bien désolée de cette situation mais qu’elle n’était pas certaine de pouvoir continuer à accueillir Pierre dans sa classe, s’il continuait à être aussi agité, à n’écouter aucune consigne, et à se montrer incapable de se concentrer sur un exercice.",
+          "question": "Quel trouble neurodéveloppemental évoquez-vous en priorité devant ce tableau clinique ?",
           "choix": [
             "A) Trouble spécifique des apprentissages.",
             "B) Trouble de la communication.",
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": "folder-1786299700832-cdb390eeeadce",
+      "id": "folder-1790539103060-71068c8b743268",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Monsieur X. se présente à la consultation d’addictologie adressé par son médecin traitant pour une perturbation du bilan hépatique isolée de façon isolée, découverte de façon fortuite, sans aucun symptôme. Il n’a aucun antécédent. Il exerce la profession de facteur.\nIl vous explique consommer de l’alcool « comme tout le monde ».\nLes résultats sont les suivants :\nASAT 80 (N<35)\nALAT 65 (N<45)\nPhosphatases alcalines 90 (N<110)\nGGT 100 (N<50)",
@@ -641,7 +641,7 @@
       ]
     },
     {
-      "id": "folder-1786299717471-f16bc8f99ebf58",
+      "id": "folder-1790539202206-10b239a244cf",
       "type": "SQI",
       "title": "DL 1",
       "description": "",

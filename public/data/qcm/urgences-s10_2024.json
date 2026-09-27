@@ -89,8 +89,8 @@
         {
           "id": 5,
           "type": "QRP",
-          "contexte": "",
-          "question": "Une patiente de 37 ans est amenée aux urgences pour une intoxication médicamenteuse volontaire. Elle a ingéré à 16h30 : 20g de paracétamol (20 comprimés de 1g) et 24 cp de lorazepam (benzodiazépine).\nElle pèse 49kg. Il est actuellement 20h30. Quelles sont les 2 affirmations justes ?",
+          "contexte": "Une patiente de 37 ans est amenée aux urgences pour une intoxication médicamenteuse volontaire. Elle a ingéré à 16h30 : 20g de paracétamol (20 comprimés de 1g) et 24 cp de lorazepam (benzodiazépine).",
+          "question": "Elle pèse 49kg. Il est actuellement 20h30. Quelles sont les 2 affirmations justes ?",
           "choix": [
             "A) on pourrait utiliser comme antidote la N-acétylcystéine",
             "B) il faut attendre 12h après la prise pour réaliser un dosage de la paracétamolémie et un bilan hépatique",
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": "folder-1786300770403-5566462567f2d8",
+      "id": "folder-1790540409822-2e44597a573fc",
       "type": "DP",
       "title": "DP 1",
       "description": "Vous êtes de garde en SMUR et êtes déclenché pour un patient de 48 ans qui présente un trouble de la vigilance. Le patient a pour antécédent une cardiopathie ischémique avec pose de stent récente. Il a un tabagisme actif à 25 PA et consomme deux à trois bières par jour depuis 2 ans. Il a pour traitement une double anti-agrégation plaquettaire. Le patient se trouve sur son lieu de travail. Il a présenté à 14h une céphalée brutale alors qu’il était au repos. Ses collègues vous raconte qu’il s’est plaint d’une céphalée intense alors que « tout allait bien » et qu’il est devenu rapidement somnolent. A votre arrivée à 14h45, le patient est inconscient. Il a les yeux fermés ; à la stimulation douloureuse, le patient grogne et présente un mouvement d’extension des membres supérieurs. Les paramètres vitaux sont les suivants : TA 176/78, FC 98, Spo2 98%, T 36°7, HGT 0,97",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "id": "folder-1786300772234-4a87a790af4648",
+      "id": "folder-1790540413255-63b9d184feadf8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "",

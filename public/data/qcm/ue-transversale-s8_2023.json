@@ -87,8 +87,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le bilan biologique (hémogramme, bilan hépatique, créatininémie, bandelette urinaire, C-réactive protéine, bilan d'hémostase) montre simplement une élévation de la CRP à 40 mg/L et un TCA du patient à 2,5 fois celui du témoin de type antiphospholipide. L’ échographie-doppler veineux du membre inferieur gauche retrouve une thrombose veineuse surale, poplitée et fémorale gauche sans caillot flottant.\nQuel(s) traitement(s) mettez-vous en place aux urgences ?",
+          "contexte": "Le bilan biologique (hémogramme, bilan hépatique, créatininémie, bandelette urinaire, C-réactive protéine, bilan d'hémostase) montre simplement une élévation de la CRP à 40 mg/L et un TCA du patient à 2,5 fois celui du témoin de type antiphospholipide. L’ échographie-doppler veineux du membre inferieur gauche retrouve une thrombose veineuse surale, poplitée et fémorale gauche sans caillot flottant.",
+          "question": "Quel(s) traitement(s) mettez-vous en place aux urgences ?",
           "choix": [
             "A) un traitement par aspirine",
             "B) un traitement par HBPM",
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "id": "folder-1786300723733-9f9b73e1ce4ac",
+      "id": "folder-1790540323152-05278001fc501",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous recevez un patient de 56 ans, pour fatigue générale. Antécédents: hypertension artérielle traitée par hydrochlorothiazide-énalapril. Il prend aussi de nombreux compléments alimentaires 'pour lutter contre la fatigue'. Il a perdu 4 gk au cours du dernier mois et a largement restreint ses activités quotidiennes. Il dit avoir envie d'entreprendre des choses, ne pas avoir de tristesse particulière, dormir correctement. et boit abondamment depuis 2 mois, environ 3 litres par jour. Il fume 1 paquet de cigarette sans filtre par jour depuis 35 ans et tousse 'sec' en général pendant la saison des pollens depuis plusieurs années. L'examen physique retrouve , une expiration prolongée, un tympanisme et une diminution du murmure vésiculaire dans les bases pulmonaires sans sibilances. La tension artérielle est à 130/70 couché, 100/60 debout; le pouls passe de 70/ mn couché à 100/mn debout.",
@@ -172,8 +172,8 @@
         {
           "id": 7,
           "type": "QRP",
-          "contexte": "",
-          "question": "A ce stade, parmi les diagnostics suivants, lesquels sont possibles chez ce patient (plusieurs diagnostics peuvent être\nassociés)?",
+          "contexte": "A ce stade, parmi les diagnostics suivants, lesquels sont possibles chez ce patient (plusieurs diagnostics peuvent être",
+          "question": "associés)?",
           "choix": [
             "A) emphysème pulmonaire",
             "B) bronchite chronique",
@@ -298,13 +298,13 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/ue-transversale-s8/2023/q9.png?v=1786300725453"
+            "/images/qcm/ue-transversale-s8/2023/q9.png?v=1790540326135"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786300729952-581abfd0207408",
+      "id": "folder-1790540335754-a5ac2b33f3c4d",
       "type": "SQI",
       "title": "SQI 1",
       "description": "9QRM,\n3QRU, 3QROC",
@@ -398,7 +398,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/ue-transversale-s8/2023/q13.png?v=1786300733226"
+            "/images/qcm/ue-transversale-s8/2023/q13.png?v=1790540341816"
           ]
         },
         {
@@ -443,7 +443,7 @@
           "correctionExplanation": "",
           "order": 6,
           "images": [
-            "/images/qcm/ue-transversale-s8/2023/q15.png?v=1786300734398"
+            "/images/qcm/ue-transversale-s8/2023/q15.png?v=1790540343989"
           ]
         },
         {
@@ -637,7 +637,7 @@
       ]
     },
     {
-      "id": "folder-1786300742307-a7524ee4499948",
+      "id": "folder-1790540360275-6386b20c8e0cb8",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Vous venez de faire le diagnostic de polyarthrite rhumatoïde active, facteurs rhumatoïdes fortement positifs, chez une de vos patientes de 35 ans, infirmière, sans autre antécédent qu'un tabagisme à 1 paquet par jour depuis 10 ans. Elle est originaire des Antilles. Vous débutez un traitement de fond synthétique conventionnel de première ligne par méthotrexate associé à 20 mg de prednisone.",

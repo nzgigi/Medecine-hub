@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mme C., 58 ans, enseignante, vous consulte pour des douleurs du genou droit, s’aggravant depuis 3 ans, survenant après 20 à 30 minutes de marche.\nLa montée des escaliers devient difficile. Elle n’est pas gênée au repos.\nL’examen général est normal hormis un surpoids (IMC 29).\nLa statique des membres inférieurs est normale en orthostatisme.\nLe genou droit est la seule articulation douloureuse à la mobilisation, sans limitation, sans épanchement. La douleur siège à la palpation du compartiment médial du genou.\nVous suspectez une gonarthrose droite.\nQuelles éléments supplémentaires recherchez-vous à l’interrogatoire devant cette suspicion de gonarthrose droite ?",
+          "contexte": "Mme C., 58 ans, enseignante, vous consulte pour des douleurs du genou droit, s’aggravant depuis 3 ans, survenant après 20 à 30 minutes de marche.\nLa montée des escaliers devient difficile. Elle n’est pas gênée au repos.\nL’examen général est normal hormis un surpoids (IMC 29).\nLa statique des membres inférieurs est normale en orthostatisme.\nLe genou droit est la seule articulation douloureuse à la mobilisation, sans limitation, sans épanchement. La douleur siège à la palpation du compartiment médial du genou.\nVous suspectez une gonarthrose droite.",
+          "question": "Quelles éléments supplémentaires recherchez-vous à l’interrogatoire devant cette suspicion de gonarthrose droite ?",
           "choix": [
             "A) Antécédent traumatique",
             "B) Antécédent de chirurgie méniscale",
@@ -93,7 +93,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q4.png?v=1786299864285"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q4.png?v=1790539525738"
           ]
         },
         {
@@ -117,8 +117,8 @@
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "Trois ans plus tard, Mme C., 58 ans, vous consulte à nouveau pour une poussée douloureuse, concernant cette fois-ci le genou gauche, évoluant depuis 3 jours, sans facteur déclenchant.\nLe genou gauche est douloureux spontanément et à la mobilisation.\nLa mobilité articulaire est limitée en flexion (100°).\nVous identifiez un épanchement articulaire (signe de la fluctuation).\nVous envisagez une ponction articulaire.\nQuels examens demandez-vous sur l’analyse du liquide synovial issu de la ponction articulaire du genou gauche ?",
+          "contexte": "Trois ans plus tard, Mme C., 58 ans, vous consulte à nouveau pour une poussée douloureuse, concernant cette fois-ci le genou gauche, évoluant depuis 3 jours, sans facteur déclenchant.\nLe genou gauche est douloureux spontanément et à la mobilisation.\nLa mobilité articulaire est limitée en flexion (100°).\nVous identifiez un épanchement articulaire (signe de la fluctuation).\nVous envisagez une ponction articulaire.",
+          "question": "Quels examens demandez-vous sur l’analyse du liquide synovial issu de la ponction articulaire du genou gauche ?",
           "choix": [
             "A) Analyse cytologique",
             "B) Dosage de l’albumine",
@@ -137,8 +137,8 @@
         {
           "id": 7,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous demandez de nouvelles radiographies comparatives des genoux.\nQuelle anomalie pouvant expliquer cet épisode de gonflement articulaire retenez-vous sur cette radiographie du genou gauche de face en extension ?",
+          "contexte": "Vous demandez de nouvelles radiographies comparatives des genoux.",
+          "question": "Quelle anomalie pouvant expliquer cet épisode de gonflement articulaire retenez-vous sur cette radiographie du genou gauche de face en extension ?",
           "choix": [
             "A) Pincement du compartiment fémoro-tibial externe",
             "B) Ostéophyte du compartiment fémoro-tibial interne",
@@ -152,14 +152,14 @@
           "correctionExplanation": "",
           "order": 7,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q7.png?v=1786299865311"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q7.png?v=1790539528145"
           ]
         },
         {
           "id": 8,
           "type": "QRM",
-          "contexte": "",
-          "question": "Au vu de la clinique, de l’analyse du liquide synovial et de la radiographie, vous retenez un diagnostic de rhumatisme à cristaux pyrophosphate (chondrocalcinose).\nQuels sont les deux examens complémentaires que vous demandez-vous en première intention afin de rechercher une cause à cette chondrocalcinose ?",
+          "contexte": "Au vu de la clinique, de l’analyse du liquide synovial et de la radiographie, vous retenez un diagnostic de rhumatisme à cristaux pyrophosphate (chondrocalcinose).",
+          "question": "Quels sont les deux examens complémentaires que vous demandez-vous en première intention afin de rechercher une cause à cette chondrocalcinose ?",
           "choix": [
             "A) Calcémie, phosphorémie",
             "B) Dosage de la parathormone (PTH)",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "id": "folder-1786299865778-cafe7bbca00f8",
+      "id": "folder-1790539529195-21eb4dbc2b6328",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous êtes interne dans un centre de polytraumatisé et la garde s’annonce chargée… Vous êtes d’emblée appelé pour Mr V., 25 ans présentant un traumatisme de la cheville gauche. Voici son aspect, et les radiographies réalisées par l’urgentiste avant de vous appeler.",
@@ -204,8 +204,8 @@
           "correctionExplanation": "L’urgence: réduction sous plâtre de la cheville!!! Chaque minute compte.\nLa cheville est une zone à haut risque de nécrose cutanée si la peau est contuse ou étirée comme dans une luxation de cheville\nOn ne doit jamais faire de radio d’une cheville luxée, mais après réduction : on ne perd pas de temps ET ca permet de mieux voir les fractures/equivalent bimalléolaires…",
           "order": 1,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q9.png?v=1786299866158",
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q9_1.png?v=1786299866376"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q9.png?v=1790539529917",
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q9_1.png?v=1790539530269"
           ],
           "critiques": [
             "B"
@@ -214,8 +214,8 @@
         {
           "id": 10,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous avez réduit la cheville en urgence de Mr V., maintenu la réduction par une attelle plâtre postérieure et réalisé une radiographie de contrôle que voici:\nParmi la (les) proposition(s) suivantes, laquelle ou lesquelles sont vraies?",
+          "contexte": "Vous avez réduit la cheville en urgence de Mr V., maintenu la réduction par une attelle plâtre postérieure et réalisé une radiographie de contrôle que voici:",
+          "question": "Parmi la (les) proposition(s) suivantes, laquelle ou lesquelles sont vraies?",
           "choix": [
             "A) Vous suspectez une fracture isolée de la malléole externe",
             "B) Vous suspectez une fracture bimalléolaire",
@@ -230,7 +230,7 @@
           "correctionExplanation": "On voit sur la radio de contrôle une fracture isolée de la malléole externe. Mais vu la luxation et la grande déformation de la cheville, il y a une atteinte certaine du ligament interne de la cheville : d’où un équivalent bimaléollaire\nUne fracture (équivalent) bimalléolaire d’autant plus chez un sujet jeune est toujours chirurgical … mais peut être différé si nécrose cutanée de cheville si non réduite à temps",
           "order": 2,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q10.png?v=1786299866707"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q10.png?v=1790539531260"
           ]
         },
         {
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": "folder-1786299867355-0faf2bb56cbce",
+      "id": "folder-1790539532778-910720dedf615",
       "type": "KFP",
       "title": "KFP 1",
       "description": "M. T, 31 ans consulte aux urgences pour une douleur de l’aine droite évoluant depuis 48 heures. Il n’a pas d’antécédent notable. Il est comptable, pratique du vélo et de la course à pied de façon occasionnelle.\nLes douleurs ont débuté il y a 48 heures, sans facteur déclenchant, au cours de la nuit et se sont intensifiées depuis. Elles se localisent au pli de l’aine à droite et irradient vers la face antérieure de cuisse jusqu’au genou droit. Les douleurs sont décrites comme des crampes ou des coups de poignard. Les douleurs le réveillent de nombreuses fois surtout en 2ème partie de nuit. Il note une raideur du membre inférieur droit surtout le matin au réveil qui s’estompe au bout de 2 heures. Les douleurs sont responsables d’une boiterie et limitent son périmètre de marche à une centaine de mètres. Il n’y a pas de notion de fièvre, ni de frissons.\nIl s’agit du premier épisode de ce type.\nA l’interrogatoire, il rapporte également une notion de lombalgies basses récidivantes, irradiant souvent dans les fesses, depuis une dizaine d’année, survenant sans facteur déclenchant, et habituellement rapidement soulagées par la prise d’ibuprofène, pour lesquelles il n’a jamais consulté. Il n’a pas mal dans la région lombaire en ce moment.\nA l’examen clinique vous notez les éléments suivants : Température : 37°C, Pression artérielle : 120/70mmHg, Pouls : 65bpm. Marche avec boiterie d’esquive à droite, signe de la clé positif à droite. Mobilité de hanche droite : flexion : 90°, rotation interne :\n5°, rotation externe : 40°, abduction : 40°, adduction : 20°, extension : 0°. A gauche : flexion : 130°, rotation interne : 30°, rotation externe : 45°, abduction : 45°, adduction : 30°. Les 2 genoux sont secs, leur flexion est de 150°, l’extension est complète. Il n’y a pas de douleur à la palpation des épineuses du rachis lombaire, ni à la mobilisation du rachis. L’indice de Schobert est à 10 + 2cm. L’examen neurologique est normal. Les manœuvres de Lasègue et Léri sont négatives.",
@@ -345,13 +345,13 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q15.png?v=1786299868903"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q15.png?v=1790539536262"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786299869016-a70041c39da06",
+      "id": "folder-1790539536715-4f11c49ee8097",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -400,7 +400,7 @@
           "correctionExplanation": "Question ANNULEE",
           "order": 2,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q17.png?v=1786299870103"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q17.png?v=1790539539531"
           ]
         },
         {
@@ -439,7 +439,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q19.png?v=1786299870997"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q19.png?v=1790539541685"
           ]
         },
         {
@@ -502,7 +502,7 @@
           "correctionExplanation": "",
           "order": 6,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2024/q21.png?v=1786299871785"
+            "/images/qcm/rhumatologie-orthopedie-s8/2024/q21.png?v=1790539543454"
           ]
         },
         {

@@ -75,8 +75,8 @@
         {
           "id": 4,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le diagnostic porté sur une tumeur mammaire est le suivant : « Adénocarcinome mammaire infiltrant, de 25 mm, de grade III de Elston et Ellis, RE négatifs, RP négatifs, avec surexpression de HER2. »\nQuelles sont les propositions justes ?",
+          "contexte": "Le diagnostic porté sur une tumeur mammaire est le suivant : « Adénocarcinome mammaire infiltrant, de 25 mm, de grade III de Elston et Ellis, RE négatifs, RP négatifs, avec surexpression de HER2. »",
+          "question": "Quelles sont les propositions justes ?",
           "choix": [
             "A) « Adénocarcinome » signifie tumeur maligne épithéliale glandulaire",
             "B) Le grade est calculé à partir de la taille de la tumeur",
@@ -375,7 +375,7 @@
       ]
     },
     {
-      "id": "folder-1786294687973-ea204bb2737f1",
+      "id": "folder-1790535586438-f041ba5a9f9068",
       "type": "DP",
       "title": "DP 1",
       "description": "Un patient de 60 ans consulte pour l’apparition d’un ganglion palpable au niveau inguinal gauche. Il n’a pas d’antécédent particulier.\nUne biopsie de l’adénopathie est pratiquée et envoyée au pathologiste qui répond : « Ganglion envahi par une prolifération maligne à grandes cellules, peu différenciée.»",
@@ -442,8 +442,8 @@
         {
           "id": 22,
           "type": "QRU",
-          "contexte": "",
-          "question": "L’étude immunohistochimique réalisée par le pathologiste montre le phénotype suivant :\nAnticorps anti-cytokératines négatif, anticorps anti-protéine S100 négatif, anticorps anti-CD3 négatif, anticorps anti-CD20 positif.\nQuelle est la proposition juste ?",
+          "contexte": "L’étude immunohistochimique réalisée par le pathologiste montre le phénotype suivant :\nAnticorps anti-cytokératines négatif, anticorps anti-protéine S100 négatif, anticorps anti-CD3 négatif, anticorps anti-CD20 positif.",
+          "question": "Quelle est la proposition juste ?",
           "choix": [
             "A) Il s’agit d’une métastase ganglionnaire de mélanome",
             "B) Il s’agit d’un lymphome T",
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "id": "folder-1786294691271-0953ac0f07eac8",
+      "id": "folder-1790535588474-f5160fb64a3c3",
       "type": "DP",
       "title": "DP 2",
       "description": "Une femme de 73 ans consulte pour fatigue, sensation de ballonnement et douleurs abdominales. L’examen clinique découvre notamment une ascite.",
@@ -549,8 +549,8 @@
         {
           "id": 27,
           "type": "QRU",
-          "contexte": "",
-          "question": "L’examen cytologique répond : \"Présence de nombreuses cellules épithéliales formant des glandes et des papilles avec atypies cytologiques et nucléaires marquées, mitoses et vacuoles mucisécrétantes dans le cytoplasme\".\nQuel diagnostic histopathologique doit-on retenir devant cette description ?",
+          "contexte": "L’examen cytologique répond : \"Présence de nombreuses cellules épithéliales formant des glandes et des papilles avec atypies cytologiques et nucléaires marquées, mitoses et vacuoles mucisécrétantes dans le cytoplasme\".",
+          "question": "Quel diagnostic histopathologique doit-on retenir devant cette description ?",
           "choix": [
             "A) Adénome",
             "B) Hyperplasie des cellules mésothéliales",
@@ -625,7 +625,7 @@
       ]
     },
     {
-      "id": "folder-1786294694675-447182696cd0b8",
+      "id": "folder-1790535590549-f14403938cdf08",
       "type": "DP",
       "title": "DP 3",
       "description": "Un homme de 28 ans, fumeur, consulte pour des douleurs abdominales avec des épisodes de diarrhée sanglante évoluant depuis 1 an, avec perte de 3 kg. L’examen biologique montre un syndrome inflammatoire (CRP et VS augmentées).",
@@ -673,8 +673,8 @@
         {
           "id": 33,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous suspectez une maladie inflammatoire chronique de l’intestin et réalisez une endoscopie digestive avec biopsies étagées. Vous observez une iléite étendue sur 20 cm et une colite avec des intervalles de muqueuse saine. Vous n’observez pas de sténose ou de lésion tumorale. A l’endoscopie digestive haute, vous observez une gastrite.\nQuelles sont les propositions justes ?",
+          "contexte": "Vous suspectez une maladie inflammatoire chronique de l’intestin et réalisez une endoscopie digestive avec biopsies étagées. Vous observez une iléite étendue sur 20 cm et une colite avec des intervalles de muqueuse saine. Vous n’observez pas de sténose ou de lésion tumorale. A l’endoscopie digestive haute, vous observez une gastrite.",
+          "question": "Quelles sont les propositions justes ?",
           "choix": [
             "A) Vous suspectez principalement une maladie inflammatoire chronique de l’intestin de type maladie de Crohn",
             "B) Vous suspectez principalement une maladie inflammatoire chronique de l’intestin de type rectocolite hémorragique",

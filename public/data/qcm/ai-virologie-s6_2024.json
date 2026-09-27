@@ -35,8 +35,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "Voici le résultat des sérologies de Mme A :\n- Dépistage VIH : positif\n- Dépistage du VHB : Ag HBs négatif, Ac HBc positifs, Ac HBs positifs\n- Dépistage du VHC : négatif.\nQuels examens complémentaires allez vous demander ?",
+          "contexte": "Voici le résultat des sérologies de Mme A :\n- Dépistage VIH : positif\n- Dépistage du VHB : Ag HBs négatif, Ac HBc positifs, Ac HBs positifs\n- Dépistage du VHC : négatif.",
+          "question": "Quels examens complémentaires allez vous demander ?",
           "choix": [
             "A) Un test de confirmation (Immunoblot ou Western Blot) pour le VHB",
             "B) Un test de confirmation (Immunoblot ou Western Blot) pour le VIH",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": "folder-1786293903693-296a93a382386",
+      "id": "folder-1790535292522-1b5550274cb4d8",
       "type": "DP",
       "title": "DP 2",
       "description": "En juillet 2019, Mr. M, 37 ans et greffé rénal pour une maladie rénale polykystique, consulte car il a de la fièvre depuis 48h et présente des difficultés respiratoires",
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "id": "folder-1786293906544-3d656f36226648",
+      "id": "folder-1790535294455-c7226afed28ea8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

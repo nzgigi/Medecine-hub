@@ -77,8 +77,8 @@
         {
           "id": 4,
           "type": "QRU",
-          "contexte": "",
-          "question": "La crise cède suite à vos bons soins.\nSes paramètres vitaux sont les suivants : température 40.2°C en intra-rectal, fréquence cardiaque 220/min, pression artérielle 60/42mmHg (pression artérielle moyenne 48mmHg), fréquence respiratoire 47/min, SpO2 100%.\nA l’examen clinique, l’auscultation cardiopulmonaire est normale. Les pouls centraux sont bien perçus, les pouls périphériques sont filants. Le temps de recoloration cutané central est à 4 secondes. Vous notez des marbrures des membres inférieurs. L’abdomen est souple et dépressible, il semble indolore. Il n’y a pas d’hépatomégalie ni de splénomégalie. Vous notez une hypotonie axiale un bombement de la fontanelle antérieure. Il n’y a pas de déficit focal.\nQuelle prise en charge en urgence proposez-vous pour D. ?",
+          "contexte": "La crise cède suite à vos bons soins.\nSes paramètres vitaux sont les suivants : température 40.2°C en intra-rectal, fréquence cardiaque 220/min, pression artérielle 60/42mmHg (pression artérielle moyenne 48mmHg), fréquence respiratoire 47/min, SpO2 100%.\nA l’examen clinique, l’auscultation cardiopulmonaire est normale. Les pouls centraux sont bien perçus, les pouls périphériques sont filants. Le temps de recoloration cutané central est à 4 secondes. Vous notez des marbrures des membres inférieurs. L’abdomen est souple et dépressible, il semble indolore. Il n’y a pas d’hépatomégalie ni de splénomégalie. Vous notez une hypotonie axiale un bombement de la fontanelle antérieure. Il n’y a pas de déficit focal.",
+          "question": "Quelle prise en charge en urgence proposez-vous pour D. ?",
           "choix": [
             "A) réalisation d’un remplissage vasculaire au sérum physiologique : 500 ml le plus rapidement possible",
             "B) prélèvement d’une hémoculture avant antibiothérapie large spectre par voie intraveineuse",
@@ -95,8 +95,8 @@
         {
           "id": 5,
           "type": "QRM",
-          "contexte": "",
-          "question": "Après stabilisation de D., vous réalisez les examens complémentaires adéquats. L’étude du liquide cérébro-spinal confirme la présence d’une méningite.\nQuelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
+          "contexte": "Après stabilisation de D., vous réalisez les examens complémentaires adéquats. L’étude du liquide cérébro-spinal confirme la présence d’une méningite.",
+          "question": "Quelle(s) est(sont) la(les) réponse(s) vraie(s) ?",
           "choix": [
             "A) les méningites bactériennes sont les méningites les plus fréquentes chez l’enfant",
             "B) les méningites à Herpes simplex virus sont associées à des atteintes encéphalitiques",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": "folder-1786300754567-36e77cf2483738",
+      "id": "folder-1790540382468-1bd43d4ec32d8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Madame P. 55 ans, 60kg, est amenée par son conjoint, qui en rentrant du travail, l’a retrouvée assise dans le canapé du salon avec plusieurs boites vides de paracétamol 1000 mg au sol. La prise de ces médicaments aurait lieu 30 minutes auparavant.",
@@ -190,8 +190,8 @@
         {
           "id": 9,
           "type": "QRP",
-          "contexte": "",
-          "question": "Le surlendemain, l’état clinique et biologique de la patiente ne nécessite plus de surveillance somatique. La surveillance est levée et elle est accessible à une évaluation.\nLors de l’évaluation elle vous explique qu’elle doit faire face à des difficultés professionnelles et personnelles ces derniers temps, qu’elle ne savait plus comment les surmonter et qu’elle a pris les médicaments pour mourir. Vous concluez que l’intoxication médicamenteuse volontaire s’inscrit dans le cadre d’une tentative de suicide.\nVous procédez à une évaluation du risque suicidaire en interrogeant le risque, l’urgence et la dangerosité de cette crise suicidaire.\nQuels sont les principes à suivre pour cette évaluation ?",
+          "contexte": "Le surlendemain, l’état clinique et biologique de la patiente ne nécessite plus de surveillance somatique. La surveillance est levée et elle est accessible à une évaluation.\nLors de l’évaluation elle vous explique qu’elle doit faire face à des difficultés professionnelles et personnelles ces derniers temps, qu’elle ne savait plus comment les surmonter et qu’elle a pris les médicaments pour mourir. Vous concluez que l’intoxication médicamenteuse volontaire s’inscrit dans le cadre d’une tentative de suicide.\nVous procédez à une évaluation du risque suicidaire en interrogeant le risque, l’urgence et la dangerosité de cette crise suicidaire.",
+          "question": "Quels sont les principes à suivre pour cette évaluation ?",
           "choix": [
             "A) entretien dans un endroit calme",
             "B) faire percevoir au patient que la situation aurait été dramatique si le geste avait abouti",
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": "folder-1786300755693-0131bfc961bfc8",
+      "id": "folder-1790540384511-b276cfcf18ba2",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

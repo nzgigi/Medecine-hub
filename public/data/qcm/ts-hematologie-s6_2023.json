@@ -113,7 +113,7 @@
       ]
     },
     {
-      "id": "folder-1786300451749-39b7eef56655b",
+      "id": "folder-1790540012878-d8165d5e724d78",
       "type": "DP",
       "title": "DP 2",
       "description": "Une patiente de 76 ans doit être opérée d’une prothèse totale de hanche",
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "id": "folder-1786300453848-7ad20519eec0b8",
+      "id": "folder-1790540016457-f20fc3d1b2077",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Vous débutez votre garde aux urgences gynécologiques et prenez en charge une première patiente de 34 ans pour des saignements utérins abondants évoluant depuis 4 semaines. En même temps que vous l’interrogez pour estimer notamment le degré d’urgence, l’infirmière prélève plusieurs tubes pour un bilan sanguin et fait un HemoCue® dont le résultat inscrit l’hémoglobine à environ 5 g/dL.",
@@ -268,8 +268,8 @@
         {
           "id": 13,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous apprenez qu’elle n’a aucun antécédent chirurgical, qu’elle n’a jamais pu avoir d’enfants et qu’elle saigne très facilement « depuis toujours ». D’ailleurs, sa gynécologue lui avait prescrit de longue date un microprogestatif afin de tarir complètement ses règles.\nQuel(s) examen(s) complémentaire(s) demandez-vous à partir des tubes prélevés par l’infirmière ?",
+          "contexte": "Vous apprenez qu’elle n’a aucun antécédent chirurgical, qu’elle n’a jamais pu avoir d’enfants et qu’elle saigne très facilement « depuis toujours ». D’ailleurs, sa gynécologue lui avait prescrit de longue date un microprogestatif afin de tarir complètement ses règles.",
+          "question": "Quel(s) examen(s) complémentaire(s) demandez-vous à partir des tubes prélevés par l’infirmière ?",
           "choix": [
             "A) En fait, aucun examen complémentaire n’est nécessaire car il s’agit d’une femme jeune sans antécédent chirurgical ni même obstétrical.",
             "B) Une numération formule sanguine avec numération plaquettaire.",
@@ -307,8 +307,8 @@
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "",
-          "question": "Afin de prendre en charge cette patiente de façon optimale, vous prévoyez des explorations complémentaires en hémostase en urgence.\nA quelle(s) exploration(s) devez-vous penser ?",
+          "contexte": "Afin de prendre en charge cette patiente de façon optimale, vous prévoyez des explorations complémentaires en hémostase en urgence.",
+          "question": "A quelle(s) exploration(s) devez-vous penser ?",
           "choix": [
             "A) Le taux de prothrombine.",
             "B) L’exploration du facteur Willebrand associée à la mesure du facteur VIII.",
@@ -327,8 +327,8 @@
         {
           "id": 16,
           "type": "QRM",
-          "contexte": "",
-          "question": "Il s’avère que la patiente était connue pour une maladie de Willebrand de type 1, en rupture de suivi médical, depuis 20 ans environ ; vous décidez de l’orienter vers la consultation, une fois cet épisode aigu résolu.\nLa deuxième patiente que vous recevez est âgée de 27 ans et accompagnée par son conjoint pour une suspicion de fausse couche spontanée précoce à son domicile le matin. Il s’agirait du 4ème épisode similaire pour cette patiente.\nQuelles explorations demandez-vous ?",
+          "contexte": "Il s’avère que la patiente était connue pour une maladie de Willebrand de type 1, en rupture de suivi médical, depuis 20 ans environ ; vous décidez de l’orienter vers la consultation, une fois cet épisode aigu résolu.\nLa deuxième patiente que vous recevez est âgée de 27 ans et accompagnée par son conjoint pour une suspicion de fausse couche spontanée précoce à son domicile le matin. Il s’agirait du 4ème épisode similaire pour cette patiente.",
+          "question": "Quelles explorations demandez-vous ?",
           "choix": [
             "A) Une numération formule sanguine, groupe sanguin, RAI.",
             "B) Un bilan hormonal avec LH, FSH.",
@@ -347,8 +347,8 @@
         {
           "id": 17,
           "type": "QRM",
-          "contexte": "",
-          "question": "Devant la mortalité obstétricale, vous suspectez un syndrome des anti-phospholipides (SAPL).\nConcernant le SAPL en général, quelles sont les affirmations vraies parmi les propositions suivantes ?",
+          "contexte": "Devant la mortalité obstétricale, vous suspectez un syndrome des anti-phospholipides (SAPL).",
+          "question": "Concernant le SAPL en général, quelles sont les affirmations vraies parmi les propositions suivantes ?",
           "choix": [
             "A) Le patiente doit présenter des thromboses artérielles et veineuses.",
             "B) Le bilan d’hémostase peut montrer la présence d’un anticoagulant circulant de type lupique.",

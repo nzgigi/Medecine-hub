@@ -146,7 +146,7 @@
       ]
     },
     {
-      "id": "folder-1786293890809-3497ee25c48198",
+      "id": "folder-1790535282525-8d6d559efe7108",
       "type": "DP",
       "title": "DP 1",
       "description": "Le mercredi 30 Novembre 2022, vous voyez en consultation la petite Marie, âgée de 6 mois, car sa mère est inquiète. Sa fille présente depuis 48h une toux qui s'accompagne d'une respiration sifflante.",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "id": "folder-1786293893510-4ae8b23e46e838",
+      "id": "folder-1790535284346-dd360d12099b18",
       "type": "DP",
       "title": "DP 2",
       "description": "Un femme enceinte de 12 semaines d'aménorrhée consulte pour la première fois et ne présente aucun symptôme. Dans ses antécédents, elle déclare ne pas avoir consulté de médecin depuis 10 ans ni effectué aucun dépistage.",
@@ -298,8 +298,8 @@
         {
           "id": 14,
           "type": "QRU",
-          "contexte": "",
-          "question": "Le bilan de votre patiente montre les résultats suivants :\n- sérologie VIH positive avec immunoblot positif\n- antigène HBs positif\n- IgG rubéole positives\nQuels examens complémentaires devez-vous réaliser?",
+          "contexte": "Le bilan de votre patiente montre les résultats suivants :\n- sérologie VIH positive avec immunoblot positif\n- antigène HBs positif\n- IgG rubéole positives",
+          "question": "Quels examens complémentaires devez-vous réaliser?",
           "choix": [
             "A) Une sérologie de l'hépatite C, les anticorps anti-HBs et une virémie VIH",
             "B) Vous lui annoncez sa séropositivité pour le VIH et demandez les virémies VIH et VHB afin de la traiter rapidement.",

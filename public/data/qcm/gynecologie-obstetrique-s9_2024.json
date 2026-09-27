@@ -213,7 +213,7 @@
       ]
     },
     {
-      "id": "folder-1786295769907-c9499040cf5b3",
+      "id": "folder-1790536070053-1b58caa86ea13",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Mme V, 19 ans consulte en urgence pour une douleur aigue et intense en fosse iliaque droite d’apparition brutale à 1h du matin après un rapport sexuel. Elle n’a pas de métrorragie, ni de fièvre. Elle n’a pas d’antécédent notable.",
@@ -273,8 +273,8 @@
         {
           "id": 13,
           "type": "QROC",
-          "contexte": "",
-          "question": "La patiente a finalement une douleur entrainant des vomissements, s’intensifiant depuis son arrivée. Les bHGC sont négatifs et vous diagnostiquez un kyste ovarien droit de 7 cm, d’allure fonctionnelle.\nVous palpez une défense et vous décidez de réaliser une coelioscopie exploratrice qui met en évidence cette image.\nQuelle est votre diagnostic ?",
+          "contexte": "La patiente a finalement une douleur entrainant des vomissements, s’intensifiant depuis son arrivée. Les bHGC sont négatifs et vous diagnostiquez un kyste ovarien droit de 7 cm, d’allure fonctionnelle.\nVous palpez une défense et vous décidez de réaliser une coelioscopie exploratrice qui met en évidence cette image.",
+          "question": "Quelle est votre diagnostic ?",
           "choix": [],
           "reponses": [
             "Torsion d'annexe droite",
@@ -328,13 +328,13 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/gynecologie-obstetrique-s9/2024/q13.png?v=1786295772564"
+            "/images/qcm/gynecologie-obstetrique-s9/2024/q13.png?v=1790536071391"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786295780062-cb954903235ae",
+      "id": "folder-1790536074960-19cf69df14d448",
       "type": "DP",
       "title": "DP 1",
       "description": "Vous êtes gynécologue dans une maternité de niveau I.\nMme GECHO vient consulter pour son suivi obstétrical.\nElle a 31 ans, elle mesure 1m64 pour 71kg (IMC 27). Elle ne fume pas, et est aide-soignante. On note dans ses antécédents une appendicectomie. Elle est allergique aux céphalosporines.\nC’est sa première grossesse, obtenue spontanément. Elle a fait son suivi de grossesse en ville jusqu’à maintenant, avec sa sage-femme.\nElle vient donc consulter pour la première fois dans la maternité où elle s’est inscrite, elle est à 14 SA. La déclaration de grossesse a été faite.\nVous recueillez les examens qu’elle a déjà réalisé :\n\u0000 L’échographie du 1er trimestre est normale, avec une clarté nucale à 1.2mm.\n\u0000 Hémoglobine : 14 g/dL ; plaquettes 241 G/L, ferritinémie 44 μgL.\n\u0000 Sérologies = VIH : négative ; toxoplasmose : immunité acquise ; hépatite B : vaccinée.",
@@ -362,8 +362,8 @@
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "",
-          "question": "La patiente avait déjà fait sa carte de groupe en ville (groupe B négatif). Elle est vaccinée pour la rubéole.\nVous revoyez régulièrement la patiente et sa grossesse se poursuit normalement jusqu’à 30 SA.\nCe jour-là, à 30+2 SA, elle consulte aux urgences de votre maternité.\nElle vous explique qu’elle pense avoir des contractions, « sûrement à cause de toutes les courses de Noël » qu’elle a faite. Elle décrit également que ses contractions « lui font mal au dos ». Les symptômes sont plutôt latéralisés à droite. Elle se sent aussi fiévreuse et très fatiguée.\nA l’interrogatoire, elle ne décrit pas de saignements ou de pertes vaginales, elle sent bien son bébé bouger.\nA l’examen, la température est à 38.9°C. L’utérus est souple entre les contractions utérines.\nQuels sont les diagnostics à évoquer ?",
+          "contexte": "La patiente avait déjà fait sa carte de groupe en ville (groupe B négatif). Elle est vaccinée pour la rubéole.\nVous revoyez régulièrement la patiente et sa grossesse se poursuit normalement jusqu’à 30 SA.\nCe jour-là, à 30+2 SA, elle consulte aux urgences de votre maternité.\nElle vous explique qu’elle pense avoir des contractions, « sûrement à cause de toutes les courses de Noël » qu’elle a faite. Elle décrit également que ses contractions « lui font mal au dos ». Les symptômes sont plutôt latéralisés à droite. Elle se sent aussi fiévreuse et très fatiguée.\nA l’interrogatoire, elle ne décrit pas de saignements ou de pertes vaginales, elle sent bien son bébé bouger.\nA l’examen, la température est à 38.9°C. L’utérus est souple entre les contractions utérines.",
+          "question": "Quels sont les diagnostics à évoquer ?",
           "choix": [
             "A) Menace d’accouchement prématuré",
             "B) Pyélonéphrite",
@@ -407,8 +407,8 @@
         {
           "id": 17,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous récupérez vos examens complémentaires :\n\u0000 Hémoglobine 12.2 g/dL, plaquettes 247 G/L\n\u0000 CRP 122 mg/dL\n\u0000 Bandelette urinaire négative\n\u0000 Test Covid négatif\n\u0000 Test grippe positif\nVous récupérez également le RCF avec la tocométrie utérine (image 1).\nVous avez également pu faire l’échographie, qui retrouve une excellente vitalité fœtale. Le fœtus est en présentation céphalique, l’estimation du poids fœtal est de 1854g.\nVous mesurez également le col utérin (image 2).\nQuelle prise en charge proposez-vous ?",
+          "contexte": "Vous récupérez vos examens complémentaires :\n\u0000 Hémoglobine 12.2 g/dL, plaquettes 247 G/L\n\u0000 CRP 122 mg/dL\n\u0000 Bandelette urinaire négative\n\u0000 Test Covid négatif\n\u0000 Test grippe positif\nVous récupérez également le RCF avec la tocométrie utérine (image 1).\nVous avez également pu faire l’échographie, qui retrouve une excellente vitalité fœtale. Le fœtus est en présentation céphalique, l’estimation du poids fœtal est de 1854g.\nVous mesurez également le col utérin (image 2).",
+          "question": "Quelle prise en charge proposez-vous ?",
           "choix": [
             "A) Installation en salle de naissance pour la péridurale en vue de l’accouchement",
             "B) Transfert en maternité de niveau II",
@@ -422,15 +422,15 @@
           "correctionExplanation": "A) l'accouchement n'est pas imminent, et il faut d'abord essayer de tocolyser\nB) maternité de niveau III vu le terme (niveau III avant 32 SA)\nC) Oui indispensable avant 34 SA !\nD) Ce n'est ni une pyélonéphrite ni une chorioamniote ni une listériose, mais une grippe a priori = pas d'amoxicilline, mais éventuellement oseltamivir\nE) Certes Rhésus négatif mais pas d'indication dans ce contexte de MAP (pas de risque d'hémorragie foeto-maternelle)",
           "order": 4,
           "images": [
-            "/images/qcm/gynecologie-obstetrique-s9/2024/q17.png?v=1786295783951",
-            "/images/qcm/gynecologie-obstetrique-s9/2024/q17_1.jpg?v=1786295784146"
+            "/images/qcm/gynecologie-obstetrique-s9/2024/q17.png?v=1790536076828",
+            "/images/qcm/gynecologie-obstetrique-s9/2024/q17_1.jpg?v=1790536076999"
           ]
         },
         {
           "id": 18,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous avez réalisé la maturation fœtale, la patiente est ensuite transférée en maternité de niveau III, sous tocolyse par Atosiban IV.\nAprès traitement de sa grippe par Oseltamivir, la situation se stabilise, et retourne à son domicile après quelques jours.\nVous la revoyez à 31 SA pour le suivi. Elle est assez inquiète car elle s’est rendu compte qu’elle n’a pas encore eu « la piqûre pour le rhésus ».\nQue faites-vous concernant la prévention de l’allô-immunisation foeto-maternelle liée au rhésus ?",
+          "contexte": "Vous avez réalisé la maturation fœtale, la patiente est ensuite transférée en maternité de niveau III, sous tocolyse par Atosiban IV.\nAprès traitement de sa grippe par Oseltamivir, la situation se stabilise, et retourne à son domicile après quelques jours.\nVous la revoyez à 31 SA pour le suivi. Elle est assez inquiète car elle s’est rendu compte qu’elle n’a pas encore eu « la piqûre pour le rhésus ».",
+          "question": "Que faites-vous concernant la prévention de l’allô-immunisation foeto-maternelle liée au rhésus ?",
           "choix": [
             "A) Si son conjoint est de rhésus négatif, la recherche de RAI est inutile",
             "B) Vous lui prescrivez 200 μg d’immunoglobulines anti-D",
@@ -447,8 +447,8 @@
         {
           "id": 19,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le reste de la grossesse se passe bien, et elle accouche ensuite à terme dans votre maternité.\nElle a accouché par voie basse, il n’y a pas eu de complications en dehors d’une délivrance artificielle.\nAu 3e jour de l’accouchement, vous la voyez dans le service de suites de couches. Elle se plaint de se sentir fiévreuse et que ça la fatigue beaucoup, « déjà que l’allaitement c’est fatiguant ». La température est à 38.4°C.\nQuels éléments seront en faveur d’une endométrite du post-partum ?",
+          "contexte": "Le reste de la grossesse se passe bien, et elle accouche ensuite à terme dans votre maternité.\nElle a accouché par voie basse, il n’y a pas eu de complications en dehors d’une délivrance artificielle.\nAu 3e jour de l’accouchement, vous la voyez dans le service de suites de couches. Elle se plaint de se sentir fiévreuse et que ça la fatigue beaucoup, « déjà que l’allaitement c’est fatiguant ». La température est à 38.4°C.",
+          "question": "Quels éléments seront en faveur d’une endométrite du post-partum ?",
           "choix": [
             "A) signe de Homans positif",
             "B) Lochies malodorantes",
@@ -466,8 +466,8 @@
         {
           "id": 20,
           "type": "QROC",
-          "contexte": "",
-          "question": "L’échographie pelvienne était sans particularité, mais votre faisceau d’arguments vous suspecter une endométrite du post-partum, et vous commencez un traitement par antibiothérapie par Amoxicilline per-os.\nAprès 6 jours de traitement, la patiente reste fébrile, avec persistance de ses douleurs utérines.\nQuel diagnostic suspectez-vous ?",
+          "contexte": "L’échographie pelvienne était sans particularité, mais votre faisceau d’arguments vous suspecter une endométrite du post-partum, et vous commencez un traitement par antibiothérapie par Amoxicilline per-os.\nAprès 6 jours de traitement, la patiente reste fébrile, avec persistance de ses douleurs utérines.",
+          "question": "Quel diagnostic suspectez-vous ?",
           "choix": [],
           "reponses": [
             "thrombophlébite pelvienne",
@@ -512,7 +512,7 @@
       ]
     },
     {
-      "id": "folder-1786295792777-e2c33def7841d8",
+      "id": "folder-1790536080913-a2be1234805a1",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous recevez en consultation Mme JARO, pour désir de grossesse.\nElle a 36 ans, elle prenait une contraception oestroprogestative depuis l'âge de 21 ans. Elle a stoppé sa contraception il y a 6 mois, et n’a pas eu de règles depuis.\nElle ne fume pas, n’a pas d’antécédent médico-chirurgical. Elle mesure 1m61, pour 70 kilos.",
@@ -583,8 +583,8 @@
         {
           "id": 23,
           "type": "QRU",
-          "contexte": "",
-          "question": "Elle évoque des bouffées de chaleur et des sueurs nocturnes depuis plusieurs mois. Vous suspectez une insuffisance ovarienne précoce.\nQuel résultat de bilan hormonal est en faveur de ce diagnostic ?",
+          "contexte": "Elle évoque des bouffées de chaleur et des sueurs nocturnes depuis plusieurs mois. Vous suspectez une insuffisance ovarienne précoce.",
+          "question": "Quel résultat de bilan hormonal est en faveur de ce diagnostic ?",
           "choix": [
             "A) FSH effondrée ,œstradiol indosable, prolactine normale, testostérone totale normale",
             "B) FSH élevée, œstradiol indosable, prolactine normale, testostérone totale normale",
@@ -620,8 +620,8 @@
         {
           "id": 25,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous confirmer l’IOP.\nEn raison de son désir de grossesse, la patiente est orientée en consultation en centre de PMA.\nVous avez prescrit un spermogramme et le spermocytogramme chez son conjoint, voici le résultat :\n-Volume: 5mL\n-Numération: 40 millions par mL\n-Mobilité normale, vitalité 68%.\n-Formes typiques 22 %\nQue pensez-vous de ce résultat de spermogramme ?",
+          "contexte": "Vous confirmer l’IOP.\nEn raison de son désir de grossesse, la patiente est orientée en consultation en centre de PMA.\nVous avez prescrit un spermogramme et le spermocytogramme chez son conjoint, voici le résultat :\n-Volume: 5mL\n-Numération: 40 millions par mL\n-Mobilité normale, vitalité 68%.\n-Formes typiques 22 %",
+          "question": "Que pensez-vous de ce résultat de spermogramme ?",
           "choix": [
             "A) Azoospermie",
             "B) Hypospermie",
@@ -656,8 +656,8 @@
         {
           "id": 27,
           "type": "QROC",
-          "contexte": "",
-          "question": "Après votre brillante prise en charge en AMP, votre patiente est enceinte. Le suivi de grossesse est normal.\nElle se présente à 32 SA à votre consultation de suivi.\nElle se plaint alors d’œdèmes des jambes importants.\nA votre consultation vous retrouvez :\nTA 15/10\nProtéinurie à 3 croix\nLes mouvements fœtaux sont présents\nLe poids est à 80 kg\nQuel diagnostic devez-vous évoquer ?",
+          "contexte": "Après votre brillante prise en charge en AMP, votre patiente est enceinte. Le suivi de grossesse est normal.\nElle se présente à 32 SA à votre consultation de suivi.\nElle se plaint alors d’œdèmes des jambes importants.\nA votre consultation vous retrouvez :\nTA 15/10\nProtéinurie à 3 croix\nLes mouvements fœtaux sont présents\nLe poids est à 80 kg",
+          "question": "Quel diagnostic devez-vous évoquer ?",
           "choix": [],
           "reponses": [
             "preeclampsie",

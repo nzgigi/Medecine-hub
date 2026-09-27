@@ -27,8 +27,8 @@
         {
           "id": 2,
           "type": "QRU",
-          "contexte": "",
-          "question": "Sa fille vous apprend que la patiente est ancienne secrétaire, actuellement au chômage. Elle fume depuis l’âge de 16 ans d’abord à 1 paquet/jour, réduit depuis 10 ans à 10 à 15 cigarettes par jour. Elle est traitée par Diprosone© 0,05% crème (beclomethasone dipropionate) pour un psoriasis. Elle n’a pas d’autre maladie connue. Elle présente depuis des années une\ntoux chronique avec des expectorations à prédominance matinale et une dyspnée d’effort d’aggravation progressive, actuellement estimée à 1 étage (avant l’aggravation récente). Vous suspectez une exacerbation de BPCO, d'autant que la radiographie thoracique retrouve des signes de distension sans foyer parenchymateux visible. La patiente déplie son mouchoir et vous montre une expectoration franchement purulente.\nQuelle est la première mesure thérapeutique à mettre en place aux urgences ?",
+          "contexte": "Sa fille vous apprend que la patiente est ancienne secrétaire, actuellement au chômage. Elle fume depuis l’âge de 16 ans d’abord à 1 paquet/jour, réduit depuis 10 ans à 10 à 15 cigarettes par jour. Elle est traitée par Diprosone© 0,05% crème (beclomethasone dipropionate) pour un psoriasis. Elle n’a pas d’autre maladie connue. Elle présente depuis des années une\ntoux chronique avec des expectorations à prédominance matinale et une dyspnée d’effort d’aggravation progressive, actuellement estimée à 1 étage (avant l’aggravation récente). Vous suspectez une exacerbation de BPCO, d'autant que la radiographie thoracique retrouve des signes de distension sans foyer parenchymateux visible. La patiente déplie son mouchoir et vous montre une expectoration franchement purulente.",
+          "question": "Quelle est la première mesure thérapeutique à mettre en place aux urgences ?",
           "choix": [
             "A) Aérosol de Salbutamol et d’Ipratropium",
             "B) Corticothérapie IV à la dose de 120mg",
@@ -45,8 +45,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Il s’agit bien d’une exacerbation de BPCO. La patiente a été transférée dans le service de pneumologie et 48h plus tard L’examen cyto-bactériologique de l’expectoration prescrit aux urgences par un interne zélé met en évidence 10 7 Haemophilus influenzae. La PCR SARS-CoV2 est négative.\nParmi les propositions suivantes concernant Haemophilus influenzae, la ou lesquelles est (sont) juste(s) ?",
+          "contexte": "Il s’agit bien d’une exacerbation de BPCO. La patiente a été transférée dans le service de pneumologie et 48h plus tard L’examen cyto-bactériologique de l’expectoration prescrit aux urgences par un interne zélé met en évidence 10 7 Haemophilus influenzae. La PCR SARS-CoV2 est négative.",
+          "question": "Parmi les propositions suivantes concernant Haemophilus influenzae, la ou lesquelles est (sont) juste(s) ?",
           "choix": [
             "A) C'est un bacille gram positif",
             "B) Il est fréquemment sécréteur de bétalactamase",
@@ -65,8 +65,8 @@
         {
           "id": 4,
           "type": "QRU",
-          "contexte": "",
-          "question": "La patiente transférée en service de Pneumologie a été placée 48h sous VNI. L’évolution a finalement été favorable.\nA sa sortie elle vous demande de lui prescrire des substituts nicotiniques car elle est décidée à arrêter de fumer. Elle vous précise qu’habituellement elle fume entre 10 et 15 cigarettes par jour et qu’elle allume sa première cigarette le matin en prenant son café.\nParmi les propositions suivantes concernant les substituts nicotiniques, laquelle est inexacte?",
+          "contexte": "La patiente transférée en service de Pneumologie a été placée 48h sous VNI. L’évolution a finalement été favorable.\nA sa sortie elle vous demande de lui prescrire des substituts nicotiniques car elle est décidée à arrêter de fumer. Elle vous précise qu’habituellement elle fume entre 10 et 15 cigarettes par jour et qu’elle allume sa première cigarette le matin en prenant son café.",
+          "question": "Parmi les propositions suivantes concernant les substituts nicotiniques, laquelle est inexacte?",
           "choix": [
             "A) Il s'agit d'une bonne indication chez cette patiente car sa dépendance est forte",
             "B) Ils ne sont pas contre-indiqués en cas de pathologie cardio-vasculaire aiguë",
@@ -100,14 +100,14 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/pneumologie-s7/2023/q5.png?v=1786299614349"
+            "/images/qcm/pneumologie-s7/2023/q5.png?v=1790538780991"
           ]
         },
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "Il aurait été intéressant de disposer d'un test de réversibilité après prise de béta 2 mimétique. Ce pneumologue était manifestement pressé.\nLorsque l'on réalise un test de réversibilité quels sont les différents paramètres à prendre en compte pour déterminer l'existence d'une réversibilité complète ou partielle ?",
+          "contexte": "Il aurait été intéressant de disposer d'un test de réversibilité après prise de béta 2 mimétique. Ce pneumologue était manifestement pressé.",
+          "question": "Lorsque l'on réalise un test de réversibilité quels sont les différents paramètres à prendre en compte pour déterminer l'existence d'une réversibilité complète ou partielle ?",
           "choix": [
             "A) La valeur du VEMS en ml avant bronchodilatateur",
             "B) La valeur du VEMS en ml après bronchodilatateur",
@@ -126,8 +126,8 @@
         {
           "id": 7,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous l’avez adressée à un autre pneumologue moins pressé ou plus consciencieux qui a confirmé l’absence de réversibilité de l’obstruction et effectué des gaz du sang en air ambiant dont les résultats sont les suivants : pH 7,40 ; PaO2 55 mmHg ; PaCO2 49 mmHg.\nQuelle est la proposition exacte concernant la situation actuelle ?",
+          "contexte": "Vous l’avez adressée à un autre pneumologue moins pressé ou plus consciencieux qui a confirmé l’absence de réversibilité de l’obstruction et effectué des gaz du sang en air ambiant dont les résultats sont les suivants : pH 7,40 ; PaO2 55 mmHg ; PaCO2 49 mmHg.",
+          "question": "Quelle est la proposition exacte concernant la situation actuelle ?",
           "choix": [
             "A) La patiente est au stade d’insuffisance respiratoire hypercanique",
             "B) Elle relève d’une oxygénothérapie de longue durée à domicile d’au minimum 10h/J",
@@ -144,8 +144,8 @@
         {
           "id": 8,
           "type": "QRU",
-          "contexte": "",
-          "question": "Cette patiente est donc atteinte d’une BPCO au stade d’insuffisance respiratoire chronique. Vous l’adressez dans un centre spécialisé pour une réhabilitation respiratoire.\nConcernant les objectifs attendus de cette prise en charge quelle proposition est inexacte?",
+          "contexte": "Cette patiente est donc atteinte d’une BPCO au stade d’insuffisance respiratoire chronique. Vous l’adressez dans un centre spécialisé pour une réhabilitation respiratoire.",
+          "question": "Concernant les objectifs attendus de cette prise en charge quelle proposition est inexacte?",
           "choix": [
             "A) L’amélioration du VEMS",
             "B) L'amélioration des capacités à l'exercice",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "folder-1786299615317-6499d47a12b44",
+      "id": "folder-1790538783251-0469a0607270e8",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous recevez en consultation un patient de 64 ans adressé pour un essoufflement qui s’est progressivement aggravé depuis deux ans.\nIl fume depuis l’âge de 30 ans, 30 cigarettes par jour. Il était avocat. Il n’a pas d’allergie et boit de manière occasionnelle quelques verres d’alcool. Il n’a pas d’antécédents mais n’est pas suivi par son médecin traitant. Il ne prend aucun traitement. La dernière bronchite remonte à il y a 2 ans.\nQuand vous le voyez, vous constatez les éléments suivants:\npoids 78 kg taille 1.83 m\ndyspnée apparaissant même sur terrain plat (il n’arrive pas à suivre son épouse qui a le même âge que lui)\nexpectorations muqueuses et une toux matinale\nsaturation 94%, TA 15/9\nauscultation pulmonaire : murmure vésiculaire assourdi de manière globale",
@@ -171,8 +171,8 @@
         {
           "id": 9,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous demandez une exploration fonctionnelle respiratoire dont voici les résultats :\nQuel est cet examen (un seul mot) ?",
+          "contexte": "Vous demandez une exploration fonctionnelle respiratoire dont voici les résultats :",
+          "question": "Quel est cet examen (un seul mot) ?",
           "choix": [],
           "reponses": [
             "Pléthysmographie",
@@ -193,7 +193,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/pneumologie-s7/2023/q9.png?v=1786299616375"
+            "/images/qcm/pneumologie-s7/2023/q9.png?v=1790538784574"
           ]
         },
         {
@@ -235,8 +235,8 @@
         {
           "id": 11,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous demandez un scanner thoracique devant la sévérité de la maladie.\nQuelles sont les propositions exactes ?",
+          "contexte": "Vous demandez un scanner thoracique devant la sévérité de la maladie.",
+          "question": "Quelles sont les propositions exactes ?",
           "choix": [
             "A) Il s’agit d’un scanner injecté",
             "B) Il s’agit de coupes frontales",
@@ -251,7 +251,7 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/pneumologie-s7/2023/q11.png?v=1786299618435"
+            "/images/qcm/pneumologie-s7/2023/q11.png?v=1790538790719"
           ]
         },
         {
@@ -295,8 +295,8 @@
         {
           "id": 14,
           "type": "QRU",
-          "contexte": "",
-          "question": "Six mois plus tard, le patient se présente aux urgences pour une aggravation brutale et importante de sa dyspnée. Sa tension est à 13/7. Sa saturation est à 89% en air ambiant, son pouls à 96.\nVoici sa radiographie thoracique :\nQuelle est votre interprétation ?",
+          "contexte": "Six mois plus tard, le patient se présente aux urgences pour une aggravation brutale et importante de sa dyspnée. Sa tension est à 13/7. Sa saturation est à 89% en air ambiant, son pouls à 96.\nVoici sa radiographie thoracique :",
+          "question": "Quelle est votre interprétation ?",
           "choix": [
             "A) Il existe un pneumothorax incomplet apical droit",
             "B) Il existe un nodule hilaire gauche",
@@ -310,14 +310,14 @@
           "correctionExplanation": "",
           "order": 6,
           "images": [
-            "/images/qcm/pneumologie-s7/2023/q14.png?v=1786299619364"
+            "/images/qcm/pneumologie-s7/2023/q14.png?v=1790538793257"
           ]
         },
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le patient se présente de nouveau 3 ans après devant l’apparition de crachats hemoptoïques.\nVous réalisez un scanner du thorax avec injection de produit de contraste qui montre un nodule spiculé du lobe supérieur droit dont la biopsie est en faveur d’un adénocarcinome bronchique primitif TTF1+.\nQuels examens demandez-vous dans le bilan d’extension de ce cancer ?",
+          "contexte": "Le patient se présente de nouveau 3 ans après devant l’apparition de crachats hemoptoïques.\nVous réalisez un scanner du thorax avec injection de produit de contraste qui montre un nodule spiculé du lobe supérieur droit dont la biopsie est en faveur d’un adénocarcinome bronchique primitif TTF1+.",
+          "question": "Quels examens demandez-vous dans le bilan d’extension de ce cancer ?",
           "choix": [
             "A) TEP scanner",
             "B) IRM thoracique",
@@ -336,8 +336,8 @@
         {
           "id": 16,
           "type": "QRM",
-          "contexte": "",
-          "question": "Voici une coupe de son TEP scanner. Il existe également une atteinte de ganglions médiastinaux\nQuelles sont les propositions exactes ?",
+          "contexte": "Voici une coupe de son TEP scanner. Il existe également une atteinte de ganglions médiastinaux",
+          "question": "Quelles sont les propositions exactes ?",
           "choix": [
             "A) Le dossier doit être présenté en réunion de concertation pluridisciplinaire",
             "B) Le traitement reposera sur la chirurgie avec chimiothérapie adjuvante",
@@ -352,13 +352,13 @@
           "correctionExplanation": "",
           "order": 8,
           "images": [
-            "/images/qcm/pneumologie-s7/2023/q16.png?v=1786299619970"
+            "/images/qcm/pneumologie-s7/2023/q16.png?v=1790538795151"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786299620248-636c6dd236f73",
+      "id": "folder-1790538795889-c823768774a5b8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "",
@@ -367,8 +367,8 @@
         {
           "id": 17,
           "type": "QRP",
-          "contexte": "",
-          "question": "Un patient de 54 ans, fumeur actif avec un tabagisme cumulé de 40 PA, se présente à la consultation pour exploration d’une dyspnée qui évolue depuis 6 mois.\nParmi les propositions suivantes, quelles sont les 3 qui vont le plus vous aider à étayer vos hypothèses diagnostiques ?",
+          "contexte": "Un patient de 54 ans, fumeur actif avec un tabagisme cumulé de 40 PA, se présente à la consultation pour exploration d’une dyspnée qui évolue depuis 6 mois.",
+          "question": "Parmi les propositions suivantes, quelles sont les 3 qui vont le plus vous aider à étayer vos hypothèses diagnostiques ?",
           "choix": [
             "A) Anomalies auscultatoires",
             "B) Fréquence respiratoire",
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "id": "folder-1786299622758-39c1d069c828f8",
+      "id": "folder-1790538805726-13d7057821172",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

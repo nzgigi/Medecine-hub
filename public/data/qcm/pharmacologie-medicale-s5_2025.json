@@ -317,7 +317,7 @@
       ]
     },
     {
-      "id": "folder-1786298422461-a2f6499f6c09c8",
+      "id": "folder-1790538734301-c6f35edfb56e78",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Mr Atropa, 78 ans, se présente à votre consultation de médecin généraliste avec les symptômes suivants :\nHumeur dépressive quasi permanente\nPerte d'intérêt pour les activités habituelles (anhédonie).\nIsolement social.\nIdées noires récurrentes sans passage à l’acte.\nVous décidez de lui prescrire un traitement médicamenteux par un inhibiteur de recapture de la sérotonine, la sertraline, à une posologie de 50 mg/jour.\nIl a avait déjà un traitement par un antispasmodique urinaire atropinique que vous renouvelez.",
@@ -347,8 +347,8 @@
         {
           "id": 17,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous le revoyez 4 mois plus tard. Le syndrome dépressif de M Atropa s’aggrave. Vous décidez donc de modifier son traitement médicamenteux en lui prescrivant un antidépresseur tricyclique.\nA quoi correspond la dénomination antidépresseur tricyclique ?",
+          "contexte": "Vous le revoyez 4 mois plus tard. Le syndrome dépressif de M Atropa s’aggrave. Vous décidez donc de modifier son traitement médicamenteux en lui prescrivant un antidépresseur tricyclique.",
+          "question": "A quoi correspond la dénomination antidépresseur tricyclique ?",
           "choix": [
             "A) Il s’agit d’un médicament qui augmente la production de dopamine.",
             "B) Il s’agit d’un médicament indiqué dans le traitement pharmacologique de la dépression",
@@ -385,8 +385,8 @@
         {
           "id": 19,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous êtes maintenant de garde aux urgences de Purpan et vous prenez en charge M Atropa adressé par son médecin traitant pour une suspicion de syndrome atropinique suite à l’introduction il y a 48h dans son ordonnance d’un anti-histaminique H1 sédatif l’alimémazine. Son ordonnance habituelle inclut donc un antidépresseur imipramique tricyclique et un antispasmodique urinaire atropinique.\nParmi les signes cliniques suivants, lequel ou lesquels est (sont) compatible(s) avec un syndrome atropinique ?",
+          "contexte": "Vous êtes maintenant de garde aux urgences de Purpan et vous prenez en charge M Atropa adressé par son médecin traitant pour une suspicion de syndrome atropinique suite à l’introduction il y a 48h dans son ordonnance d’un anti-histaminique H1 sédatif l’alimémazine. Son ordonnance habituelle inclut donc un antidépresseur imipramique tricyclique et un antispasmodique urinaire atropinique.",
+          "question": "Parmi les signes cliniques suivants, lequel ou lesquels est (sont) compatible(s) avec un syndrome atropinique ?",
           "choix": [
             "A) Une rétention aiguë d’urine",
             "B) Une mydriase",

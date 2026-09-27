@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous êtes l’interne aux urgences. Vous recevez un patient de 35 ans diabétique de type 1, fumeur actif, qui s’est fait une plaie palmaire de la main non dominante en zone 2 de d3 suite à un traumatisme par couteau en ouvrant un avocat depuis 48h. (photo de la plaie initiale)\nQuelles sont les structures à risque d’être lésées ?",
+          "contexte": "Vous êtes l’interne aux urgences. Vous recevez un patient de 35 ans diabétique de type 1, fumeur actif, qui s’est fait une plaie palmaire de la main non dominante en zone 2 de d3 suite à un traumatisme par couteau en ouvrant un avocat depuis 48h. (photo de la plaie initiale)",
+          "question": "Quelles sont les structures à risque d’être lésées ?",
           "choix": [
             "A) Le tendon extenseur",
             "B) Le tendon fléchisseur",
@@ -32,7 +32,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2025/q1.png?v=1786299879962"
+            "/images/qcm/rhumatologie-orthopedie-s8/2025/q1.png?v=1790539564084"
           ]
         },
         {
@@ -58,8 +58,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Il présente une plaie rouge inflammatoire, une température de 37,8 et le doigt en léger flessum.\nQuel est le diagnostic ?",
+          "contexte": "Il présente une plaie rouge inflammatoire, une température de 37,8 et le doigt en léger flessum.",
+          "question": "Quel est le diagnostic ?",
           "choix": [
             "A) Un panaris",
             "B) Une plaie souillée",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": "folder-1786299881770-f29b163a76e828",
+      "id": "folder-1790539567496-2e7aa45f6054a8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "id": "folder-1786299882879-2d59471268ec7",
+      "id": "folder-1790539569657-eeecbc1a5f02",
       "type": "DP",
       "title": "DP 2",
       "description": "",
@@ -236,8 +236,8 @@
         {
           "id": 11,
           "type": "QRU",
-          "contexte": "",
-          "question": "Mme P. 45 ans vous consulte pour suspicion de polyarthrite.\nProfession : agent d’accueil.\nSituation familiale : célibataire, 1 enfant âgé de 12 ans.\nAntécédents : tabagisme actif (20 paquets-années) et hypothyroïdie depuis 5 ans.\nTraitement actuel : prednisone 10 mg/j depuis 1 mois, lévothyroxine 75 mcg/j.\nHistoire de la maladie : depuis 3 mois, douleurs des doigts, des poignets et des avants pieds, d’horaire inflammatoire. Examen physique : gonflements d’un poignet, de deux métacarpophalangiennes à droite et à gauche, de deux interphalangiennes proximales à droite et d’une à gauche.\nL’interrogatoire et l’examen physique ne révèlent aucune manifestation extra-articulaire. Examens complémentaires :\nhémogramme normal, CRP 6 mg/L, paramètres hépatiques normaux, fonction rénale normale, bandelette urinaire : sans anomalie.\nQuel élément n’est pas évocateur de polyarthrite rhumatoïde ?",
+          "contexte": "Mme P. 45 ans vous consulte pour suspicion de polyarthrite.\nProfession : agent d’accueil.\nSituation familiale : célibataire, 1 enfant âgé de 12 ans.\nAntécédents : tabagisme actif (20 paquets-années) et hypothyroïdie depuis 5 ans.\nTraitement actuel : prednisone 10 mg/j depuis 1 mois, lévothyroxine 75 mcg/j.\nHistoire de la maladie : depuis 3 mois, douleurs des doigts, des poignets et des avants pieds, d’horaire inflammatoire. Examen physique : gonflements d’un poignet, de deux métacarpophalangiennes à droite et à gauche, de deux interphalangiennes proximales à droite et d’une à gauche.\nL’interrogatoire et l’examen physique ne révèlent aucune manifestation extra-articulaire. Examens complémentaires :\nhémogramme normal, CRP 6 mg/L, paramètres hépatiques normaux, fonction rénale normale, bandelette urinaire : sans anomalie.",
+          "question": "Quel élément n’est pas évocateur de polyarthrite rhumatoïde ?",
           "choix": [
             "A) Sexe féminin.",
             "B) Évolution des symptômes depuis 3 mois.",
@@ -292,8 +292,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous revoyez Mme P. un mois plus tard.\nLa recherche de facteurs rhumatoïdes (70 UI, seuil de positivité 10 UI) et d’anticorps anti-peptides citrullinés (150 UI, seuil de positivité 25 UI) est positive.\nVous lui aviez demandé de diminuer la posologie quotidienne de prednisone de 10 à 5 mg/j, ce qui a entraîné une recrudescence des signes articulaires : 6/28 articulations douloureuses, 6/28 articulations gonflées, évaluation de l’activité globale de la maladie par la patiente 60/100 et une augmentation de la CRP (10 mg/l).\nVous confirmez le diagnostic de polyarthrite rhumatoïde.\nLe score d’activité de la maladie (DAS28-CRP) est à 4,7.\nQuelle est votre interprétation du score d’activité de la maladie ?",
+          "contexte": "Vous revoyez Mme P. un mois plus tard.\nLa recherche de facteurs rhumatoïdes (70 UI, seuil de positivité 10 UI) et d’anticorps anti-peptides citrullinés (150 UI, seuil de positivité 25 UI) est positive.\nVous lui aviez demandé de diminuer la posologie quotidienne de prednisone de 10 à 5 mg/j, ce qui a entraîné une recrudescence des signes articulaires : 6/28 articulations douloureuses, 6/28 articulations gonflées, évaluation de l’activité globale de la maladie par la patiente 60/100 et une augmentation de la CRP (10 mg/l).\nVous confirmez le diagnostic de polyarthrite rhumatoïde.\nLe score d’activité de la maladie (DAS28-CRP) est à 4,7.",
+          "question": "Quelle est votre interprétation du score d’activité de la maladie ?",
           "choix": [
             "A) Rémission (DAS28).",
             "B) Faible activité (DAS28).",
@@ -311,8 +311,8 @@
         {
           "id": 15,
           "type": "QRU",
-          "contexte": "",
-          "question": "Au vu des signes d’activité de la polyarthrite rhumatoïde, vous décidez d’introduire un traitement de fond par méthotrexate. Quel examen n’est pas systématique avant l’introduction d’un traitement de fond par méthotrexate ?",
+          "contexte": "Au vu des signes d’activité de la polyarthrite rhumatoïde, vous décidez d’introduire un traitement de fond par méthotrexate.",
+          "question": "Quel examen n’est pas systématique avant l’introduction d’un traitement de fond par méthotrexate ?",
           "choix": [
             "A) Hémogramme.",
             "B) Transaminases.",
@@ -349,8 +349,8 @@
         {
           "id": 17,
           "type": "QRU",
-          "contexte": "",
-          "question": "Après 4 semaines de traitement par méthotrexate à 15 mg/semaine, puis 8 semaines à 20 mg/semaine, associé à la poursuite de 5 mg/j de prednisone, le score d’activité de la maladie (DAS28-CRP) est à 2.44 (1/28 articulation douloureuse, 1/28 articulation gonflée, évaluation de l’activité globale de la maladie par la patiente 15/100, CRP = 3 mg/l).\nAu vu du score d’activité de la maladie, que décidez-vous ?",
+          "contexte": "Après 4 semaines de traitement par méthotrexate à 15 mg/semaine, puis 8 semaines à 20 mg/semaine, associé à la poursuite de 5 mg/j de prednisone, le score d’activité de la maladie (DAS28-CRP) est à 2.44 (1/28 articulation douloureuse, 1/28 articulation gonflée, évaluation de l’activité globale de la maladie par la patiente 15/100, CRP = 3 mg/l).",
+          "question": "Au vu du score d’activité de la maladie, que décidez-vous ?",
           "choix": [
             "A) Objectif thérapeutique non atteint, vous envisagez un traitement biologique.",
             "B) Objectif thérapeutique non atteint, vous envisagez un remplacement du méthotrexate.",
@@ -367,8 +367,8 @@
         {
           "id": 18,
           "type": "QRM",
-          "contexte": "",
-          "question": "Six mois plus tard, vous revoyez votre patiente en consultation. Elle va bien (DAS28-CRP <3,2). Elle poursuit le méthotrexate. La prednisone a été stoppée. Elle a réalisé de nouvelles radiographies des mains et des avant-pieds.\nQuelle proposition vous semble inexacte au vu de cette radiographie de la main gauche centrée sur les 2e, 3e, 4e et 5e métacarpophalangiennes (les radiographies des mains réalisées au début de la maladie étaient normales ?",
+          "contexte": "Six mois plus tard, vous revoyez votre patiente en consultation. Elle va bien (DAS28-CRP <3,2). Elle poursuit le méthotrexate. La prednisone a été stoppée. Elle a réalisé de nouvelles radiographies des mains et des avant-pieds.",
+          "question": "Quelle proposition vous semble inexacte au vu de cette radiographie de la main gauche centrée sur les 2e, 3e, 4e et 5e métacarpophalangiennes (les radiographies des mains réalisées au début de la maladie étaient normales ?",
           "choix": [
             "A) Présence d’une érosion de la 2e métacarpophalangienne.",
             "B) Présence d’une érosion de la 3e métacarpophalangienne.",
@@ -382,13 +382,13 @@
           "correctionExplanation": "",
           "order": 8,
           "images": [
-            "/images/qcm/rhumatologie-orthopedie-s8/2025/q18.png?v=1786299885340"
+            "/images/qcm/rhumatologie-orthopedie-s8/2025/q18.png?v=1790539575821"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786299885667-5875a2899547",
+      "id": "folder-1790539576469-70e21161eebff8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

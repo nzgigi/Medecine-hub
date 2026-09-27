@@ -70,8 +70,8 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/anesthesie-reanimation-s10/2024/q3.png?v=1786294152816",
-            "/images/qcm/anesthesie-reanimation-s10/2024/q3_1.png?v=1786294153117"
+            "/images/qcm/anesthesie-reanimation-s10/2024/q3.png?v=1790535366799",
+            "/images/qcm/anesthesie-reanimation-s10/2024/q3_1.png?v=1790535367029"
           ]
         },
         {
@@ -128,14 +128,14 @@
             }
           ],
           "images": [
-            "/images/qcm/anesthesie-reanimation-s10/2024/q5.png?v=1786294154189"
+            "/images/qcm/anesthesie-reanimation-s10/2024/q5.png?v=1790535368437"
           ]
         },
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "La prise en charge consiste en une splénectomie d’hémostase par laparotomie médiane.\nAprès le geste chirurgical, il est transféré en réanimation.\nIl est extubé le lendemain. Il reste hospitalisé pendant 2 semaines avec un contrôle scanographique à 5 jours du traumatisme de la fracture hépatique.\nConcernant la splénectomie, que doit recevoir le patient ?",
+          "contexte": "La prise en charge consiste en une splénectomie d’hémostase par laparotomie médiane.\nAprès le geste chirurgical, il est transféré en réanimation.\nIl est extubé le lendemain. Il reste hospitalisé pendant 2 semaines avec un contrôle scanographique à 5 jours du traumatisme de la fracture hépatique.",
+          "question": "Concernant la splénectomie, que doit recevoir le patient ?",
           "choix": [
             "A) Une éducation thérapeutique",
             "B) Une antibioprophylaxie par pénicilline en l’absence d’allergie",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "folder-1786294155063-ddd7648e0de46",
+      "id": "folder-1790535369257-5bd9f95b73334",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous êtes l'anesthésiste-réanimateur de garde au déchocage.\nLe service de chirurgie digestive vous contacte car un patient de 83 ans présente une détresse respiratoire avec des épisodes de malaises. Il a été opéré il y a 48h d’une éventration. L’intervention s’est déroulée sans complication. Il présente comme antécédent une HTA, ainsi qu’une cardiopathie hypertrophique avec une altération de la fraction d’éjection. Il est traité habituellement par ramipril, bisoprolol, amlopidine.\nDepuis 24h il présente une hypotension artérielle au lever, ainsi que des marbrures fluctuantes aux genoux. Le bilan du matin met en évident une insuffisance rénale aiguë ainsi qu’une hémoglobine à 13g/dl.\nLe soir à 18h, l’infirmière le découvre polypnéique (FR = 30) avec un balancement thoraco-abdominal dans sa chambre d’hospitalisation. Il ne répond pas à l’appel. Il présente des marbrures sur tout le corps. Sa tension artérielle est imprenable mais un pouls filant est perçu, sa fréquence cardiaque à 45 bpm. L'hémoglobine capillaire est 8 g/dl.",
@@ -256,8 +256,8 @@
         {
           "id": 9,
           "type": "QROC",
-          "contexte": "",
-          "question": "Votre prise en charge permet d’obtenir une stabilisation relative de la situation. Le patient récupère mais reste comateux. La pression artérielle est à 95/55mmHg avec 4mg/h de noradrénaline. Il a reçu 4 CGR et 4 PFC. Il est nécessaire de garder un remplissage actif pour maintenir la situation.\nVous suspectez une hémorragie venant de la paroi abdominale.\nVous conduisez le patient au bloc opératoire sans exploration supplémentaire. Lors du transfert du lit vers la table opératoire, la respiration du patient devient stertoreuse, anarchique, la pression artérielle est de nouveau imprenable, la saturation en oxygène affiche « absence de signal ». Le moniteur cardiaque affiche quelques QRS épars.\nQuel est votre principale suspicion diagnostic ?",
+          "contexte": "Votre prise en charge permet d’obtenir une stabilisation relative de la situation. Le patient récupère mais reste comateux. La pression artérielle est à 95/55mmHg avec 4mg/h de noradrénaline. Il a reçu 4 CGR et 4 PFC. Il est nécessaire de garder un remplissage actif pour maintenir la situation.\nVous suspectez une hémorragie venant de la paroi abdominale.\nVous conduisez le patient au bloc opératoire sans exploration supplémentaire. Lors du transfert du lit vers la table opératoire, la respiration du patient devient stertoreuse, anarchique, la pression artérielle est de nouveau imprenable, la saturation en oxygène affiche « absence de signal ». Le moniteur cardiaque affiche quelques QRS épars.",
+          "question": "Quel est votre principale suspicion diagnostic ?",
           "choix": [],
           "reponses": [
             "Arrêt cardiaque intra-hospitalier",
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "id": "folder-1786294159854-442495a3502c48",
+      "id": "folder-1790535376670-2bd6e74a3bab48",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -366,7 +366,7 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/anesthesie-reanimation-s10/2024/q12.png?v=1786294160280"
+            "/images/qcm/anesthesie-reanimation-s10/2024/q12.png?v=1790535377601"
           ]
         },
         {

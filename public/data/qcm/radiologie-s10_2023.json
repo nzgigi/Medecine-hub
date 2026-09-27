@@ -69,8 +69,8 @@
         {
           "id": 2,
           "type": "QRU",
-          "contexte": "",
-          "question": "Le compte rendu de votre confrère radiologue mentionne :\n« Hemarthrose. Pas de lésion osseuse d’allure traumatique récente »\nQuel est le cliché radiographique correspondant à la description du compte rendu ?",
+          "contexte": "Le compte rendu de votre confrère radiologue mentionne :\n« Hemarthrose. Pas de lésion osseuse d’allure traumatique récente »",
+          "question": "Quel est le cliché radiographique correspondant à la description du compte rendu ?",
           "choix": [
             "A) A",
             "B) B",
@@ -82,7 +82,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q2.png?v=1786299743592"
+            "/images/qcm/radiologie-s10/2023/q2.png?v=1790539289582"
           ]
         },
         {
@@ -105,14 +105,14 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q3.png?v=1786299743952"
+            "/images/qcm/radiologie-s10/2023/q3.png?v=1790539290351"
           ]
         },
         {
           "id": 4,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous revoyez le patient à 1 mois du traumatisme. Il présente des douleurs du genou droit de rythme mixte et une instabilité. A l’examen clinique, vous authentifiez une douleur à la palpation du plateau tibial latéral et un tiroir antérieur.\nQuel est l’examen d’imagerie le plus pertinent pour l’exploration de cette gonalgie traumatique ?",
+          "contexte": "Vous revoyez le patient à 1 mois du traumatisme. Il présente des douleurs du genou droit de rythme mixte et une instabilité. A l’examen clinique, vous authentifiez une douleur à la palpation du plateau tibial latéral et un tiroir antérieur.",
+          "question": "Quel est l’examen d’imagerie le plus pertinent pour l’exploration de cette gonalgie traumatique ?",
           "choix": [],
           "reponses": [
             "IRM DU GENOU",
@@ -157,7 +157,7 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q5.png?v=1786299745340"
+            "/images/qcm/radiologie-s10/2023/q5.png?v=1790539294240"
           ]
         },
         {
@@ -180,13 +180,13 @@
           "correctionExplanation": "",
           "order": 6,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q6.png?v=1786299746015"
+            "/images/qcm/radiologie-s10/2023/q6.png?v=1790539295396"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786299746208-393b767f8fc3e8",
+      "id": "folder-1790539296262-4fba22dff97258",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Une jeune femme de 36 ans, consulte aux urgences pour une douleur en fosse lombaire droite de survenue brutale avec irradiation dans les grandes lèvres. Elle n’a pas d’antécédents.\nVous suspectez une colique néphrétique. Elle est apyrétique. Elle reste algique malgré des antalgiques de niveau 2. Vous demandez une imagerie pour confirmer le diagnostic.",
@@ -294,13 +294,13 @@
             }
           ],
           "images": [
-            "/images/qcm/radiologie-s10/2023/q9.png?v=1786299748574"
+            "/images/qcm/radiologie-s10/2023/q9.png?v=1790539302982"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786299748693-92b311df26c908",
+      "id": "folder-1790539303275-1125d3a8e6824",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -309,8 +309,8 @@
         {
           "id": 10,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mr G, 47 ans, consulte pour une toux grasse évoluant depuis 8 jours. Il est fébrile à 39°. L’auscultation trouve un foyer de crépitants de la base droite\nIl est tabagique sevré à 15 PA.\nQuelles sont les propositions vraies ?",
+          "contexte": "Mr G, 47 ans, consulte pour une toux grasse évoluant depuis 8 jours. Il est fébrile à 39°. L’auscultation trouve un foyer de crépitants de la base droite\nIl est tabagique sevré à 15 PA.",
+          "question": "Quelles sont les propositions vraies ?",
           "choix": [
             "A) Vous suspectez une pneumopathie.",
             "B) Vous suspectez une bronchite aiguë",
@@ -345,7 +345,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q11.png?v=1786299749195"
+            "/images/qcm/radiologie-s10/2023/q11.png?v=1790539304684"
           ]
         },
         {
@@ -367,14 +367,14 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q12.png?v=1786299749534"
+            "/images/qcm/radiologie-s10/2023/q12.png?v=1790539305483"
           ]
         },
         {
           "id": 13,
           "type": "QROC",
-          "contexte": "",
-          "question": "Une radiographie thoracique est réalisée pour une suspicion de pneumopathie chez un patient consultant pour une douleur basithoracique droite fébrile.\nDans quel lobe est située l’anomalie radiographique ?",
+          "contexte": "Une radiographie thoracique est réalisée pour une suspicion de pneumopathie chez un patient consultant pour une douleur basithoracique droite fébrile.",
+          "question": "Dans quel lobe est située l’anomalie radiographique ?",
           "choix": [],
           "reponses": [
             "lobe moyen",
@@ -394,7 +394,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q13.png?v=1786299749838"
+            "/images/qcm/radiologie-s10/2023/q13.png?v=1790539306128"
           ]
         },
         {
@@ -415,7 +415,7 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/radiologie-s10/2023/q14.png?v=1786299750530"
+            "/images/qcm/radiologie-s10/2023/q14.png?v=1790539307740"
           ]
         }
       ]

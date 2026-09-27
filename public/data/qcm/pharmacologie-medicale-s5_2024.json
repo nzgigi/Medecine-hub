@@ -55,8 +55,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "L’annonce de ce diagnostic de cancer entraine un syndrome dépressif sévère nécessitant une prise en charge médicamenteuse.\nConcernant les médicaments antidépresseurs, quelle est ou quelles sont les réponses exactes ?",
+          "contexte": "L’annonce de ce diagnostic de cancer entraine un syndrome dépressif sévère nécessitant une prise en charge médicamenteuse.",
+          "question": "Concernant les médicaments antidépresseurs, quelle est ou quelles sont les réponses exactes ?",
           "choix": [
             "A) Les imipraminiques ont des propriétés latérales anti-histaminiques",
             "B) De nombreux inhibiteurs de la recapture de la sérotonine sont des inhibiteurs du cytochrome 2D6",
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": "folder-1786298407152-77ce6c1b8e8a2",
+      "id": "folder-1790538687730-a1b5d92a4ce208",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

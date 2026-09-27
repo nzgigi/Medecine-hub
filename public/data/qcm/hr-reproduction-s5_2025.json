@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": "folder-1786296601283-cd3e0fde889788",
+      "id": "folder-1790536613062-4c2bd0b8e5a308",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "",
@@ -198,8 +198,8 @@
         {
           "id": 10,
           "type": "QRM",
-          "contexte": "",
-          "question": "Une femme vient vous voir en consultation car elle se pose des questions sur ses cycles. Elle a 35 ans, ne présente aucun antécédent médicaux ou chirurgicaux particulier. Premières règles à 11,5 ans. Elle a pris une pilule oestro-progestative entre 16 et 32 ans et elle avait alors des cycles réguliers de 28 jours. Elle est célibataire et n’a pas de moyen de contraception autre que mécanique depuis 3 ans. Ses cycles sont réguliers et durent actuellement 24 à 26 jours. Son IMC est de 23 kg/m2.\nA quand situez-vous l’ovulation au cours de ses cycles actuels ?",
+          "contexte": "Une femme vient vous voir en consultation car elle se pose des questions sur ses cycles. Elle a 35 ans, ne présente aucun antécédent médicaux ou chirurgicaux particulier. Premières règles à 11,5 ans. Elle a pris une pilule oestro-progestative entre 16 et 32 ans et elle avait alors des cycles réguliers de 28 jours. Elle est célibataire et n’a pas de moyen de contraception autre que mécanique depuis 3 ans. Ses cycles sont réguliers et durent actuellement 24 à 26 jours. Son IMC est de 23 kg/m2.",
+          "question": "A quand situez-vous l’ovulation au cours de ses cycles actuels ?",
           "choix": [
             "A) Entre le 10ème et le 12ème jour",
             "B) Entre le 14ème et le 16ème jour",
@@ -254,8 +254,8 @@
         {
           "id": 13,
           "type": "QRM",
-          "contexte": "",
-          "question": "Les résultats vous parviennent (prise de sang effectuée à J3 du cycle):\nAMH: 0,5 ng/ml (< limite basse à 35 ans: 0,7 ng/ml )\nQue vous indiquent ces résultats ?",
+          "contexte": "Les résultats vous parviennent (prise de sang effectuée à J3 du cycle):\nFSH: 9,8 UI/l (N: 3-8 UI/l)\nLH: 3,7 UI/l (N: 2,5-7,5 UI/l)\nE2: 35 pg/ml (N: 25-47 pg/ml)\nAMH: 0,5 ng/ml (< limite basse à 35 ans: 0,7 ng/ml )",
+          "question": "Que vous indiquent ces résultats ?",
           "choix": [
             "A) La FSH élevée dès J3 indique que la croissance folliculaire démarre plus tôt que la normale",
             "B) L’AMH basse pour l’âge est un argument pour une diminution de la quantité de follicules antraux",
@@ -270,16 +270,13 @@
             "E"
           ],
           "correctionExplanation": "",
-          "order": 4,
-          "images": [
-            "/images/qcm/hr-reproduction-s5/2025/q13.png?v=1786296601912"
-          ]
+          "order": 4
         },
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "Deux ans plus tard, cette patiente revient vous voir avec son conjoint. Voila 1 an qu’ils ont des rapports non protégés et ils s’inquiètent de ne pas avoir de grossesse. Les cycles de Mme sont toujours courts (environ 25 jours) et réguliers. Monsieur à 39 ans, il est père de 2 enfants de 13 et 4 ans obtenus avec 2 partenaires différentes. Suite à vos questions, le couple déclare avoir des rapports réguliers tout en les ciblant entre J13 et J16 pour optimiser leur chance.\nConnaissant le dossier de ce couple, quelles propositions sont justes ?",
+          "contexte": "Deux ans plus tard, cette patiente revient vous voir avec son conjoint. Voila 1 an qu’ils ont des rapports non protégés et ils s’inquiètent de ne pas avoir de grossesse. Les cycles de Mme sont toujours courts (environ 25 jours) et réguliers. Monsieur à 39 ans, il est père de 2 enfants de 13 et 4 ans obtenus avec 2 partenaires différentes. Suite à vos questions, le couple déclare avoir des rapports réguliers tout en les ciblant entre J13 et J16 pour optimiser leur chance.",
+          "question": "Connaissant le dossier de ce couple, quelles propositions sont justes ?",
           "choix": [
             "A) Il s’agit d’un couple infertile",
             "B) Il faut leur expliquer qu’il faut avoir des rapports dès la fin des règles et de façon régulière durant le cycle puis les revoir dans un an si toujours pas de grossesse",
@@ -298,8 +295,8 @@
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "",
-          "question": "L’interrogatoire de Mr révèle qu’il a été opéré d’hernies inguinales bilatérales il y a 2 ans et qu’il a eu un violent traumatisme testiculaire gauche au rugby il y a 18 mois. L’examen clinique est normal. Son spermogramme rapporte un volume et pH normaux et numération, mobilité et vitalité spermatique dans les normes. Le laboratoire souligne la présence d’agglutinats de spermatozoïdes nombreux.\nQue vous évoque ce tableau masculin ?",
+          "contexte": "L’interrogatoire de Mr révèle qu’il a été opéré d’hernies inguinales bilatérales il y a 2 ans et qu’il a eu un violent traumatisme testiculaire gauche au rugby il y a 18 mois. L’examen clinique est normal. Son spermogramme rapporte un volume et pH normaux et numération, mobilité et vitalité spermatique dans les normes. Le laboratoire souligne la présence d’agglutinats de spermatozoïdes nombreux.",
+          "question": "Que vous évoque ce tableau masculin ?",
           "choix": [
             "A) Un épisode infectieux ancien avec obturation des voies séminales au niveau prostatique",
             "B) Il faut prescrire un dépistage d’anticorps anti-spermatozoïdes chez monsieur",

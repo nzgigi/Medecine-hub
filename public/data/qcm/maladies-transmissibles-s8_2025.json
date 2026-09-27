@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous voyez en consultation un homme de 25 ans pour brûlures mictionnelles. Il a eu des rapports sexuels non protégés avec un nouveau partenaire la semaine dernière. Il signale un écoulement au méat urétral.\nQuels sont les 2 examens que vous réalisez en 1re intention ?",
+          "contexte": "Vous voyez en consultation un homme de 25 ans pour brûlures mictionnelles. Il a eu des rapports sexuels non protégés avec un nouveau partenaire la semaine dernière. Il signale un écoulement au méat urétral.",
+          "question": "Quels sont les 2 examens que vous réalisez en 1re intention ?",
           "choix": [
             "A) ECBU sur 1er jet urinaire",
             "B) ECBU sur 2e jet urinaire",
@@ -35,8 +35,8 @@
         {
           "id": 2,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous voyez en consultation un jeune patient de 19 ans pour syndrome fébrile à 39°C depuis 10 jours et asthénie intense. Il a perdu 2 kg. Vous faites un bilan biologique sanguin qui est le suivant :\nHémoglobine 14 g/dl ; Plaquettes 160 G/L. Leucocytes 9,4 G/L dont polynucléaires neutrophiles 2 G/L, polynucléaires éosinophiles 0,3 G/L, polynucléaires basophiles 0,1 G/L, lymphocytes 6 G/L, monocytes 1 G/L. Sur le frottis, le laboratoire signale que 15% des lymphocytes sont de grande taille avec un cytoplasme hyperbasophile.\nQuels sont les 2 examens complémentaires que vous prescrivez pour essayer de préciser le diagnostic étiologique en 1re intention ?",
+          "contexte": "Vous voyez en consultation un jeune patient de 19 ans pour syndrome fébrile à 39°C depuis 10 jours et asthénie intense. Il a perdu 2 kg. Vous faites un bilan biologique sanguin qui est le suivant :\nHémoglobine 14 g/dl ; Plaquettes 160 G/L. Leucocytes 9,4 G/L dont polynucléaires neutrophiles 2 G/L, polynucléaires éosinophiles 0,3 G/L, polynucléaires basophiles 0,1 G/L, lymphocytes 6 G/L, monocytes 1 G/L. Sur le frottis, le laboratoire signale que 15% des lymphocytes sont de grande taille avec un cytoplasme hyperbasophile.",
+          "question": "Quels sont les 2 examens complémentaires que vous prescrivez pour essayer de préciser le diagnostic étiologique en 1re intention ?",
           "choix": [
             "A) Immunophénotypage des lymphocytes circulants",
             "B) Recherche de chromosome Philadelphie (translocation 9 ;22)",
@@ -89,7 +89,7 @@
           "correctionExplanation": "le diagnostic est purement clinique au stade primaire. La séroconversion est parfois retardée avec des faux négatifs à ce stade et ne doit donc pas être réalisée",
           "order": 4,
           "images": [
-            "/images/qcm/maladies-transmissibles-s8/2025/q4.png?v=1786296982355"
+            "/images/qcm/maladies-transmissibles-s8/2025/q4.png?v=1790537230331"
           ]
         },
         {
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": "folder-1786296983818-c21d834a0c3dd8",
+      "id": "folder-1790537235838-db44f268107c48",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Un patient de 55 ans, originaire de Côte d’Ivoire, en France depuis 5 ans, est hospitalisé aux urgences pour la survenue d’une hémiparésie gauche et de céphalées, d’installation progressive au cours des 3-4 derniers jours. Il est fébrile à 38,5°C. Il rapporte une asthénie et une perte de 8 kg au cours du dernier mois avec une tendance à des selles diarrhéiques, non glairo-sanglantes, 2 à 3 fois par jour. A l’examen, on note une micropolyadénopathie.\nVous avez fait un scanner cérébral qui montre les images suivantes (A : sans injection de produit de contraste ; B : avec produit de contraste)",
@@ -190,7 +190,7 @@
           "correctionExplanation": "Abcès cérébral seul, sans Toxoplasmose = réponse refusée\nRemarque : Argument de fréquence : IO neurologique la plus fréquente à évoquer en 1re intention. Diagnostics différentiels moins probables : lymphome cérébral, tuberculome, abcès à pyogène",
           "order": 1,
           "images": [
-            "/images/qcm/maladies-transmissibles-s8/2025/q8.png?v=1786296984160"
+            "/images/qcm/maladies-transmissibles-s8/2025/q8.png?v=1790537237579"
           ]
         },
         {
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "id": "folder-1786296986894-6478b8c15dcaa8",
+      "id": "folder-1790537249379-a597dff21a7cc",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Une femme de 18 ans se présente en consultation de médecine générale parce qu’elle présente depuis 24 heures des douleurs abdominales diffuses associées à de la diarrhée avec 5 selles par jour. Elle n’a pas d’antécédent médical et ne prend aucun traitement. Pas de voyage dans les 6 derniers mois. Elle a eu 2 pics fébriles à 38,5°C. Les selles sont fécales, peu abondantes, molles ou liquides, et ne présentent ni sang ni glaire. Il n’y a pas de ténesme ni d’épreinte, ni de vomissement. L’examen physique est normal en dehors d’un abdomen sensible sans défense.",
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "id": "folder-1786296989180-47552598f9fd98",
+      "id": "folder-1790537260298-865b1ea187a688",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Un homme de 45 ans est hospitalisé en septembre 2025 pour une pneumopathie aigue communautaire non documentée d’évolution favorable. Il est diabétique sous metformine et porteur d’une BPCO liée à un tabagisme actif. Il est par ailleurs depuis 2 ans sous Rituximab pour une polyarthrite rhumatoïde bien contrôlée. Vous abordez avec lui l’état de sa couverture vaccinale. Il n’a pas de carnet de vaccination et n’a pas de notion d’avoir reçu une vaccination depuis ses 25 ans, en dehors de la vaccination contre le SARSCoV2 en 2021/2022.",
@@ -474,7 +474,7 @@
           "correctionExplanation": "Mise à jour 2024 des recommandations vaccinales pneumocoque de l’adulte à risque d’infection invasive à pneumocoque :",
           "order": 3,
           "images": [
-            "/images/qcm/maladies-transmissibles-s8/2025/q20.png?v=1786296989960"
+            "/images/qcm/maladies-transmissibles-s8/2025/q20.png?v=1790537263534"
           ]
         },
         {

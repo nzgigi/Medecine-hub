@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "",
-          "question": "Me O. 78 ans, présente une pression artérielle élevée à la consultation de 165/70 mm Hg.\nQuelles sont les propositions exactes ?",
+          "contexte": "Me O. 78 ans, présente une pression artérielle élevée à la consultation de 165/70 mm Hg.",
+          "question": "Quelles sont les propositions exactes ?",
           "choix": [
             "A) La prévalence de l’hypertension artérielle augmente avec l’âge.",
             "B) Le traitement de l’hypertension artérielle réduit le risque cardiovasculaire notamment d’accident vasculaire cérébral.",
@@ -152,8 +152,8 @@
         {
           "id": 8,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un patient se présente à vous pour une claudication intermittente des membres inférieurs.\nVous lui mesurez les pressions aux quatre membres : humérale droite 180/80 mmHg, humérale gauche 120/70 mmHg, pédieuse droite 180/80 mmHg, tibiale postérieure droite 120/70 mmHg, pédieuse gauche 60/70mmHg, tibiale postérieure gauche 120/70mmHg.\nQuel est l'IPS du patient à gauche ?",
+          "contexte": "Un patient se présente à vous pour une claudication intermittente des membres inférieurs.\nVous lui mesurez les pressions aux quatre membres : humérale droite 180/80 mmHg, humérale gauche 120/70 mmHg, pédieuse droite 180/80 mmHg, tibiale postérieure droite 120/70 mmHg, pédieuse gauche 60/70mmHg, tibiale postérieure gauche 120/70mmHg.",
+          "question": "Quel est l'IPS du patient à gauche ?",
           "choix": [
             "A) 1,0.",
             "B) 0,66.",
@@ -848,8 +848,8 @@
         {
           "id": 43,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un patient présente le bilan d’hémostase suivant :\nTP 35% TCA 60sec (témoin 29sec) Facteur V 45% Facteur X 85%\nFacteur II 40% Fibrinogène 1,1g/L Numération plaquettaire 60 G/L\nParmi les diagnostics suivants quel est le plus vraisemblable ?",
+          "contexte": "Un patient présente le bilan d’hémostase suivant :\nTP 35% TCA 60sec (témoin 29sec) Facteur V 45% Facteur X 85%\nFacteur II 40% Fibrinogène 1,1g/L Numération plaquettaire 60 G/L",
+          "question": "Parmi les diagnostics suivants quel est le plus vraisemblable ?",
           "choix": [
             "A) Insuffisance hépatique sévère.",
             "B) Hémophilie A.",

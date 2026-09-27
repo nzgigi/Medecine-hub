@@ -52,8 +52,8 @@
         {
           "id": 3,
           "type": "QROC",
-          "contexte": "",
-          "question": "A l’examen clinique, il y a des vergetures fines blanchâtres, un aspect de plaques jaunâtres autour des yeux (présentées ci-dessous) et une hyperpigmentation au niveau de la nuque et des aisselles. La TA est à 135/68 mm Hg dans de bonnes conditions de mesure\ncomment appelle-t-on ce signe présent autour de l’oeil ?",
+          "contexte": "A l’examen clinique, il y a des vergetures fines blanchâtres, un aspect de plaques jaunâtres autour des yeux (présentées ci-dessous) et une hyperpigmentation au niveau de la nuque et des aisselles. La TA est à 135/68 mm Hg dans de bonnes conditions de mesure",
+          "question": "comment appelle-t-on ce signe présent autour de l’oeil ?",
           "choix": [],
           "reponses": [
             "xanthelasma",
@@ -89,7 +89,7 @@
           "correctionExplanation": "Xanthélasma, Xantélasma",
           "order": 3,
           "images": [
-            "/images/qcm/hr-nutrition-s5/2025/q3.jpg?v=1786296576401"
+            "/images/qcm/hr-nutrition-s5/2025/q3.jpg?v=1790536558067"
           ]
         },
         {
@@ -155,7 +155,7 @@
           "correctionExplanation": "Acanthosis nigricans, acanthosis, acantosis nigricans, acantosis",
           "order": 4,
           "images": [
-            "/images/qcm/hr-nutrition-s5/2025/q4.png?v=1786296577720"
+            "/images/qcm/hr-nutrition-s5/2025/q4.png?v=1790536560990"
           ]
         },
         {
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "id": "folder-1786296580472-4f03a941d82db",
+      "id": "folder-1790536569948-a4908cfc301ae8",
       "type": "DP",
       "title": "DP 2",
       "description": "",
@@ -213,8 +213,8 @@
         {
           "id": 7,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous rencontrez pour la première fois Me G. 17 ans consultant avec ses parents pour une perte récente de poids, inquiétant ses parents. Elle pesait 60 kg pour 1m72 soit un IMC à 20.28 Kg/m² en 01/2024, elle est ce jour en consultation en 06/2024 à 45 kg soit un 15.21 Kg/m². La patiente ne semble pas avoir de cible de poids mais aimerait juste perdre encore plus au niveau des cuisses puisqu’elle les trouve imposantes. Pour cela, elle essaie de manger une seule fois par jour, a arrêté les féculents et les viandes et ne rate jamais sa séance de musculation d’une heure par jour ni sa marche quotidienne de 5km.\nElle ne voulait pas venir à cette consultation puisqu’elle va bien et ne veut absolument pas reprendre du poids.\nVous évoquez alors une anorexie mentale compliquée d’une dénutrition. Concernant les critères diagnostiques d’une dénutrition selon les recommandations HAS datant de 2019, quelles sont les réponses exactes ?",
+          "contexte": "Vous rencontrez pour la première fois Me G. 17 ans consultant avec ses parents pour une perte récente de poids, inquiétant ses parents. Elle pesait 60 kg pour 1m72 soit un IMC à 20.28 Kg/m² en 01/2024, elle est ce jour en consultation en 06/2024 à 45 kg soit un 15.21 Kg/m². La patiente ne semble pas avoir de cible de poids mais aimerait juste perdre encore plus au niveau des cuisses puisqu’elle les trouve imposantes. Pour cela, elle essaie de manger une seule fois par jour, a arrêté les féculents et les viandes et ne rate jamais sa séance de musculation d’une heure par jour ni sa marche quotidienne de 5km.\nElle ne voulait pas venir à cette consultation puisqu’elle va bien et ne veut absolument pas reprendre du poids.",
+          "question": "Vous évoquez alors une anorexie mentale compliquée d’une dénutrition. Concernant les critères diagnostiques d’une dénutrition selon les recommandations HAS datant de 2019, quelles sont les réponses exactes ?",
           "choix": [
             "A) « Une albuminémie inférieure à 35 g/l » fait partie des critères phénotypiques",
             "B) Nous disposons de plusieurs méthodes pour évaluer la force et la masse musculaire",

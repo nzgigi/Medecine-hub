@@ -108,8 +108,8 @@
         {
           "id": 5,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous êtes interne de médecine du travail en stage dans un service de santé au travail interentreprise, vous recevez Madame G. , 55 ans, dans le cadre de sa visite périodique. Elle a été reçue en consultation de santé au travail pour la dernière fois il y a 5 ans.\nElle occupe un poste d'informaticienne dans une entreprise du tertiaire, Elle n’est pas exposée à des risques particuliers nécessitant un suivi individuel renforcé.\nElle vous rapporte au milieu de la consultation que sa demande de RQTH (reconnaissance en qualité de travailleur handicapé) pour un cancer du sein métastatique vient d’être acceptée.\nConcernant la visite périodique en santé au travail, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
+          "contexte": "Vous êtes interne de médecine du travail en stage dans un service de santé au travail interentreprise, vous recevez Madame G. , 55 ans, dans le cadre de sa visite périodique. Elle a été reçue en consultation de santé au travail pour la dernière fois il y a 5 ans.\nElle occupe un poste d'informaticienne dans une entreprise du tertiaire, Elle n’est pas exposée à des risques particuliers nécessitant un suivi individuel renforcé.\nElle vous rapporte au milieu de la consultation que sa demande de RQTH (reconnaissance en qualité de travailleur handicapé) pour un cancer du sein métastatique vient d’être acceptée.",
+          "question": "Concernant la visite périodique en santé au travail, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
           "choix": [
             "A) La périodicité du suivi jusqu’ici (avant la reconnaissance en RQTH) est conforme à la réglementation concernant notre patiente",
             "B) Cette visite est une visite d’information et de prévention.",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "id": "folder-1786300013228-55d6306a5fa338",
+      "id": "folder-1790539754754-e3e0a77c364b1",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous êtes médecin généraliste traitant de Madame Y, qui vous sollicite pour réaliser un certificat médical pour une déclaration en maladie professionnelle pour une tendinopathie rompue de la coiffe des rotateurs de son épaule droite dominante",
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": "folder-1786300015334-4d8b46d1b3345",
+      "id": "folder-1790539758629-7304be80912568",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Vous êtes le médecin traitant de Monsieur R. Il vous consulte pour une douleur lombaire aigue évoluant depuis 72 heures. Ce jour, vous prescrivez un arrêt de travail d'une semaine car sa lombalgie est invalidante.\nIl vous rapporte être salarié d'une entreprise de déménagement. Il aurait déjà eu des épisodes similaires dans le passé ayant nécessité des arrêts de travail courts.\nIl vous interroge sur la cause de cette lombalgie et son devenir professionnel.",

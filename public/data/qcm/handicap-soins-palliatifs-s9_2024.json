@@ -102,7 +102,7 @@
           "id": 4,
           "type": "QRP",
           "contexte": "",
-          "question": "La TDM abdominopelvienne vous montre un syndrome occlusif avec des éléments en faveur d’une carcinose péritonéale. Concernant la prise en charge thérapeutique (3 réponses exactes)",
+          "question": "La TDM abdominopelvienne vous montre un syndrome occlusif avec des éléments en faveur d’une carcinose péritonéale.\nConcernant la prise en charge thérapeutique (3 réponses exactes)",
           "choix": [
             "A) Une pose de sonde nasogastrique est contre-indiquée en situation palliative",
             "B) Les opioïdes forts sont contre-indiqués dans ce contexte",
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "id": "folder-1786295971500-0207811bb5d7b",
+      "id": "folder-1790536160719-91b6ed270180e8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -440,14 +440,14 @@
           "correctionExplanation": "",
           "order": 8,
           "images": [
-            "/images/qcm/handicap-soins-palliatifs-s9/2024/q16.png?v=1786295986090"
+            "/images/qcm/handicap-soins-palliatifs-s9/2024/q16.png?v=1790536174402"
           ]
         },
         {
           "id": 17,
           "type": "QROC",
           "contexte": "",
-          "question": "Vous examinez un patient de 54 ans ayant présenté il y a 1 mois un AVC ischémique sylvien superficiel droit. Lors de la stimulation cutanée bilatérale, il ne perçoit pas le stimulus du côté gauche, alors qu'il est perçu correctement lors de la stimulation unilatérale. Vous lui faites lire une phrase, il commence au milieu de la phrase et la termine correctement. Comment se nomme la déficience présentée par le patient ? (1 à 3 mots, le côté de la déficience ne doit pas être précisé)",
+          "question": "Vous examinez un patient de 54 ans ayant présenté il y a 1 mois un AVC ischémique sylvien superficiel droit.\nLors de la stimulation cutanée bilatérale, il ne perçoit pas le stimulus du côté gauche, alors qu'il est perçu correctement lors de la stimulation unilatérale.\nVous lui faites lire une phrase, il commence au milieu de la phrase et la termine correctement.\nComment se nomme la déficience présentée par le patient ? (1 à 3 mots, le côté de la déficience ne doit pas être précisé)",
           "choix": [],
           "reponses": [
             "Négligence spatiale unilatérale",
@@ -509,7 +509,7 @@
       ]
     },
     {
-      "id": "folder-1786295992615-9ca962c0d6d108",
+      "id": "folder-1790536180411-2c1c637bf84108",
       "type": "DP",
       "title": "DP 1",
       "description": "Vous recevez dans le service de Médecine Physique et ed Réadaptation, un patient de 24 ans ayant fait une chute en montagne 20 jours plus tôt responsable, d’une fracture complexe de la 1ère vertèbre lombaire (L1) et d’une lésion médullaire.",
@@ -536,8 +536,8 @@
         {
           "id": 20,
           "type": "QRU",
-          "contexte": "",
-          "question": "Avec son score ASIA, vous voyez qu’il présente un déficit moteur complet des membres inférieurs alors que les abdominaux sont préservés. Il n’a pas de sensibilité en dessous des creux inguinaux, jusqu’à l’anus alors qu'elle est normale sur l'abdomen. Il ne sent ni les besoins, ni les selles, ni la sonde urinaire. Il n‘a pas de contraction anale volontaire mais une contraction réflexe à la piqure de la marge anale. Une spasticité est présente à l’étirement des triceps suraux.\nQuelle proposition décrit son tableau neurologique ?",
+          "contexte": "Avec son score ASIA, vous voyez qu’il présente un déficit moteur complet des membres inférieurs alors que les abdominaux sont préservés. Il n’a pas de sensibilité en dessous des creux inguinaux, jusqu’à l’anus alors qu'elle est normale sur l'abdomen. Il ne sent ni les besoins, ni les selles, ni la sonde urinaire. Il n‘a pas de contraction anale volontaire mais une contraction réflexe à la piqure de la marge anale. Une spasticité est présente à l’étirement des triceps suraux.",
+          "question": "Quelle proposition décrit son tableau neurologique ?",
           "choix": [
             "A) Paraplégie T12 échelle de déficience AIS A",
             "B) Paraplégie T12 échelle de déficience AIS E",
@@ -574,8 +574,8 @@
         {
           "id": 22,
           "type": "QRM",
-          "contexte": "",
-          "question": "Au niveau urinaire, les explorations montrent la présence d’une vessie hysposensible, une hyperactivité détrusorienne et d’une dyssynergie vésico-spinctérienne. Il n’a pas de problème de transit.\nQuelle(s) prise(s) en charge est(sont) conseillée(s) en 1ère intention ?",
+          "contexte": "Au niveau urinaire, les explorations montrent la présence d’une vessie hysposensible, une hyperactivité détrusorienne et d’une dyssynergie vésico-spinctérienne. Il n’a pas de problème de transit.",
+          "question": "Quelle(s) prise(s) en charge est(sont) conseillée(s) en 1ère intention ?",
           "choix": [
             "A) Maintien de la sonde à demeure",
             "B) Essai de retrait de la sonde à demeure et de reprises de mictions spontanées",
@@ -593,7 +593,7 @@
       ]
     },
     {
-      "id": "folder-1786295993931-ccb6a5ce109d28",
+      "id": "folder-1790536181503-2ee436afdb4e5",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous recevez dans le service de Médecine Physique et de Réadaptation Monsieur R, 48 ans. Il a présenté il y a 2 semaines un AVC ischémique sylvien superficiel gauche.",
@@ -621,8 +621,8 @@
         {
           "id": 24,
           "type": "QRM",
-          "contexte": "",
-          "question": "Il présente en effet une hémiplégie droite à prédominance brachiofaciale avec un trouble du langage.\nA quel(s) thérapeute(s) de votre service adressez vous Monsieur R. ?",
+          "contexte": "Il présente en effet une hémiplégie droite à prédominance brachiofaciale avec un trouble du langage.",
+          "question": "A quel(s) thérapeute(s) de votre service adressez vous Monsieur R. ?",
           "choix": [
             "A) Ergothérapeute pour le bilan de la réalisation des activités de vie quotidienne",
             "B) Kinésithérapeute pour la rééducation motrice et fonctionnelle",
@@ -682,7 +682,7 @@
       ]
     },
     {
-      "id": "folder-1786295995502-cf9830c990c14",
+      "id": "folder-1790536182791-48d3cec324a6a",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous voyez en consultation le petit Louis âgé de 2 ans. Sa mère s’inquiète car il marche sur la pointe des pieds. Louis est né à 30 semaines d’aménorrhée avec un poids de naissance 1.5 kg. Il a acquis la marche à 18 mois et rapidement s’est mis à marcher sur la pointe des pieds. Vous constatez effectivement qu’il marche sur la pointe des pieds sans contact des talons durant tout le cycle de marche. Les genoux et les hanches sont en position physiologique au cours du cycle de marche. Au repos les pieds sont à plat au sol et les genoux tendus. Les pieds ne sont pas creux et en décubitus dorsal la dorsiflexion à vitesse lente est de +20° genou tendu. Lorsque vous examinez le petit louis debout en flexion du tronc vers l’avant, vous constatez une « voussures des cotes » du côté gauche : l’hémithorax gauche dépasse par comparaison au coté droit. Vous constatez aussi une limitation de l’angle poplité à 90 +60°. Les ROT sont vifs et diffusés aux membres inférieurs et le cutané plantaire est en extension.",

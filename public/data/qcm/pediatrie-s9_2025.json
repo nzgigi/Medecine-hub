@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": "folder-1786297294609-1b9a2f85af8c7",
+      "id": "folder-1790538264121-95bb75c2ba249",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Un enfant de 2 ans et 6 mois, à jour de ses vaccinations obligatoires, se présente aux urgences pédiatriques pour une toux fébrile depuis 3 jours. La fièvre est à 39°5 C, sans signe de mauvaise tolérance.\nLes paramètres vitaux à l’accueil sont : FC 145 bpm, SpO2 96%, FR 20/min, PA normale. L’auscultation pulmonaire retrouve des crépitants en base droite, on suspecte une pneumopathie infectieuse.",
@@ -143,8 +143,8 @@
         {
           "id": 5,
           "type": "QRM",
-          "contexte": "",
-          "question": "La radiographie thoracique de face montre une pneumopathie de la base droite.\nQuels sont les critères de gravité d’une pneumopathie aiguë chez l’enfant ?",
+          "contexte": "La radiographie thoracique de face montre une pneumopathie de la base droite.",
+          "question": "Quels sont les critères de gravité d’une pneumopathie aiguë chez l’enfant ?",
           "choix": [
             "A) L’âge < 12 mois",
             "B) La présence de troubles hémodynamiques",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": "folder-1786297295734-555c7e39f50af8",
+      "id": "folder-1790538266641-0ae8fdd44ccc7",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Un garçon de 4 ans est amené en consultation par ses parents pour une diarrhée. Il n’a pas d’antécédent personnel particulier.",
@@ -284,8 +284,8 @@
         {
           "id": 12,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous suspectez une maladie cœliaque.\nParmi les examens suivants quels sont les deux que vous demandez-vous en 1ère intention ?",
+          "contexte": "Vous suspectez une maladie cœliaque.",
+          "question": "Parmi les examens suivants quels sont les deux que vous demandez-vous en 1ère intention ?",
           "choix": [
             "A) IgG anti-transglutaminase",
             "B) IgA anti-transglutaminase",
@@ -304,8 +304,8 @@
         {
           "id": 13,
           "type": "QRP",
-          "contexte": "",
-          "question": "La maladie cœliaque est confirmée\nParmi les suivants, quels sont les 3 céréales qui contiennent du gluten ?",
+          "contexte": "La maladie cœliaque est confirmée",
+          "question": "Parmi les suivants, quels sont les 3 céréales qui contiennent du gluten ?",
           "choix": [
             "A) Blé",
             "B) Orge",
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "id": "folder-1786297297007-7eaa80d03a3f9",
+      "id": "folder-1790538269635-540ecf17184b48",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -447,14 +447,14 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/pediatrie-s9/2025/q18.png?v=1786297300637"
+            "/images/qcm/pediatrie-s9/2025/q18.png?v=1790538279593"
           ]
         },
         {
           "id": 19,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un nourrisson âgé de 4 semaines est amené par ses parents en urgence en raison de survenue de vomissements de lait, en jet, survenant 1h après la prise des biberons depuis 48h.\nQuel diagnostic devez-vous éliminer en première intention ?",
+          "contexte": "Un nourrisson âgé de 4 semaines est amené par ses parents en urgence en raison de survenue de vomissements de lait, en jet, survenant 1h après la prise des biberons depuis 48h.",
+          "question": "Quel diagnostic devez-vous éliminer en première intention ?",
           "choix": [
             "A) Allergie aux protéines du lait de vache",
             "B) Reflux gastro-oesophagien pathologique",

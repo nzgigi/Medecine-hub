@@ -131,7 +131,7 @@
       ]
     },
     {
-      "id": "folder-1786297105642-80afb83e536d6",
+      "id": "folder-1790537629981-a70b06dbbc6338",
       "type": "DP",
       "title": "DP 1",
       "description": "Une patiente de 30 ans sans aucun antécédent se présente pour asthénie. Vous objectivez une tension artérielle à 190/130 mmHg.",
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "id": "folder-1786297107475-bab87f0e54e258",
+      "id": "folder-1790537640996-f7c7866d0c5b3",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous êtes amenés à prendre en charge Mme P, âgée de 67 ans, qui a pour antécédent notable une polyarthrite rhumatoïde depuis 30 ans, pour laquelle elle consomme des anti-inflammatoires (AINS). Elle a un diabète de type 2 mal équilibré depuis 20 ans sous Metformine, et une hypertension artérielle sous Hydrochlorothiazide. Elle consulte pour un tableau digestif aigu depuis 5 jours associant vomissements et diarrhées liquides, sans fièvre. L’examen clinique est le suivant: TA 100/60 mmHg, FC 110/min, poids 60kg (- 4 kg en 8 jours). L’abdomen est souple et indolore. On note un pli cutané.",
@@ -362,8 +362,8 @@
         {
           "id": 15,
           "type": "QRP",
-          "contexte": "",
-          "question": "La patiente présente une acidose (HCO3- 14 mmol/l). Voici le ionogramme Na 128 mmol/l, K 3 mmol/l, Cl 90 mmol/l, et la gazométrie artérielle : pH=7,32, pO2 110 mmHg, pCO2 25 mmHg.\nQuelles sont les 2 affirmations vraies ?",
+          "contexte": "La patiente présente une acidose (HCO3- 14 mmol/l). Voici le ionogramme Na 128 mmol/l, K 3 mmol/l, Cl 90 mmol/l, et la gazométrie artérielle : pH=7,32, pO2 110 mmHg, pCO2 25 mmHg.",
+          "question": "Quelles sont les 2 affirmations vraies ?",
           "choix": [
             "A) Le trou anionique plasmatique est augmenté, possiblement par accumulation d’acides secondaire à l’insuffisance rénale",
             "B) Le trou anionique plasmatique est normal",
@@ -382,8 +382,8 @@
         {
           "id": 16,
           "type": "QRU",
-          "contexte": "",
-          "question": "Pour mémoire, la patiente présente une polyarthrite et un diabète de type 2. Après 4 jours de prise en charge, les troubles hydroélectrolytiques se sont amendés, mais la patiente garde une insuffisance rénale significative autour de 200 µmol/L, qui s’aggrave de jours en jours. Vous obtenez les résultats des analyse d’urines : protéinurie 6 g/g, albuminurie 50 mg/g, ECBU :\nstérile, GR : 0/mm3, GB 50/mm3.\nQuel est l’examen complémentaire le plus urgent à réaliser parmi les suivants pour progresser sur le mécanisme de l’insuffisance rénale ?",
+          "contexte": "Pour mémoire, la patiente présente une polyarthrite et un diabète de type 2. Après 4 jours de prise en charge, les troubles hydroélectrolytiques se sont amendés, mais la patiente garde une insuffisance rénale significative autour de 200 µmol/L, qui s’aggrave de jours en jours. Vous obtenez les résultats des analyse d’urines : protéinurie 6 g/g, albuminurie 50 mg/g, ECBU :\nstérile, GR : 0/mm3, GB 50/mm3.",
+          "question": "Quel est l’examen complémentaire le plus urgent à réaliser parmi les suivants pour progresser sur le mécanisme de l’insuffisance rénale ?",
           "choix": [
             "A) HbA1c",
             "B) Fond d’œil",
@@ -400,8 +400,8 @@
         {
           "id": 17,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous avez désormais une forte suspicion de tubulopathie myélomateuse.\nQuels sont les facteurs qui ont pu favoriser la précipitation de chaines légères ?",
+          "contexte": "Vous avez désormais une forte suspicion de tubulopathie myélomateuse.",
+          "question": "Quels sont les facteurs qui ont pu favoriser la précipitation de chaines légères ?",
           "choix": [
             "A) La déshydratation extra cellulaire",
             "B) L’hyponatrémie initiale",
@@ -420,8 +420,8 @@
         {
           "id": 18,
           "type": "QRM",
-          "contexte": "",
-          "question": "Malgré la prise en charge, la situation rénale se détériore.\nQuelles sont les critères qui justifieront de débuter une dialyse en urgence ?",
+          "contexte": "Malgré la prise en charge, la situation rénale se détériore.",
+          "question": "Quelles sont les critères qui justifieront de débuter une dialyse en urgence ?",
           "choix": [
             "A) Surcharge hydro-sodée avec retentissement cardio-pulmonaire",
             "B) Hyperuricémie",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": "folder-1786297109507-28ee33018703f",
+      "id": "folder-1790537653062-e24e9a60569b2",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -543,8 +543,8 @@
         {
           "id": 24,
           "type": "QROC",
-          "contexte": "",
-          "question": "Énoncé : Un patient de 50 ans, sans antécédents particuliers personnels, a consulté pour une violente douleur lombaire droite, assortie d’une hématurie macroscopique. Vous ne retrouvez pas de facteur de risque à l’interrogatoire. Un doppler vous confirme la présence d’une thrombose de la veine rénale droite. Le bilan étiologique réalisé aux urgences retrouve une créatinine à 80 mmol/L, une protéinurie à 6 g/g dont 5 g/g d’albuminurie, une albuminémie à 15 g/L, ainsi qu’une hématurie microscopique à 40 éléments / mm3.\nQuelle est votre principale hypothèse sur la cause de ce syndrome néphrotique ?",
+          "contexte": "Énoncé : Un patient de 50 ans, sans antécédents particuliers personnels, a consulté pour une violente douleur lombaire droite, assortie d’une hématurie macroscopique. Vous ne retrouvez pas de facteur de risque à l’interrogatoire. Un doppler vous confirme la présence d’une thrombose de la veine rénale droite. Le bilan étiologique réalisé aux urgences retrouve une créatinine à 80 mmol/L, une protéinurie à 6 g/g dont 5 g/g d’albuminurie, une albuminémie à 15 g/L, ainsi qu’une hématurie microscopique à 40 éléments / mm3.",
+          "question": "Quelle est votre principale hypothèse sur la cause de ce syndrome néphrotique ?",
           "choix": [],
           "reponses": [
             "Glomérulonéphrite extra-membraneuse",
@@ -668,8 +668,8 @@
         {
           "id": 29,
           "type": "QROC",
-          "contexte": "",
-          "question": "Énoncé : Vous recevez en consultation un patient de 24 ans pour exploration d’une insuffisance rénale découverte lors d’un bilan d’HTA. Il n’a pas d’antécédent mais vous signale avoir présenté un épisode d’hématurie macroscopique après un épisode infectieux ORL. L’analyse de première intention que vous réalisez retrouve une créatinine à 120 mmol/L, une protéinurie à 1,2 g/g dont 1,0 g/g d’albuminurie ainsi qu’une hématurie microscopique à 90 éléments / mm3.\nQuelle être votre principale hypothèse sur sa maladie rénale ?",
+          "contexte": "Énoncé : Vous recevez en consultation un patient de 24 ans pour exploration d’une insuffisance rénale découverte lors d’un bilan d’HTA. Il n’a pas d’antécédent mais vous signale avoir présenté un épisode d’hématurie macroscopique après un épisode infectieux ORL. L’analyse de première intention que vous réalisez retrouve une créatinine à 120 mmol/L, une protéinurie à 1,2 g/g dont 1,0 g/g d’albuminurie ainsi qu’une hématurie microscopique à 90 éléments / mm3.",
+          "question": "Quelle être votre principale hypothèse sur sa maladie rénale ?",
           "choix": [],
           "reponses": [
             "Néphropathie à IgA",

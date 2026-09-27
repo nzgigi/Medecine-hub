@@ -54,8 +54,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le culot conclut à une hématurie isolée (hématies > 750/mm3). Vous demandez à Victor de compléter le bilan en réalisant une quantification de protéinurie et une mesure de créatininémie. Victor réalise les examens prescrits, mais l’hématurie régresse, et il ne reconsulte pas.\nQuatre mois plus tard, dans le même contexte d’infection ORL des voies aériennes supérieures, Victor urine à nouveau du sang. Sa pression artérielle est mesurée à 150/100 mmHg en début de consultation, 135/98 après 10 minutes de repos en position assise. Il est muni des examens prescrits plus tôt : protéinurie sur échantillon du matin 1,5 g/g créatininurie ; créatinine plasmatique = 105 µmol/L (DFG= 90 ml/min/1,73 m2).\nQuelles sont les propositions correctes concernant la maladie de Victor ?",
+          "contexte": "Le culot conclut à une hématurie isolée (hématies > 750/mm3). Vous demandez à Victor de compléter le bilan en réalisant une quantification de protéinurie et une mesure de créatininémie. Victor réalise les examens prescrits, mais l’hématurie régresse, et il ne reconsulte pas.\nQuatre mois plus tard, dans le même contexte d’infection ORL des voies aériennes supérieures, Victor urine à nouveau du sang. Sa pression artérielle est mesurée à 150/100 mmHg en début de consultation, 135/98 après 10 minutes de repos en position assise. Il est muni des examens prescrits plus tôt : protéinurie sur échantillon du matin 1,5 g/g créatininurie ; créatinine plasmatique = 105 µmol/L (DFG= 90 ml/min/1,73 m2).",
+          "question": "Quelles sont les propositions correctes concernant la maladie de Victor ?",
           "choix": [
             "A) Syndrome d’hématurie macroscopique récidivante",
             "B) Glomérulonéphrite chronique",
@@ -73,8 +73,8 @@
         {
           "id": 4,
           "type": "QRU",
-          "contexte": "",
-          "question": "Les examens biologiques sont répétés : la protéinurie est à 2,8 g/24 heures, et l’albuminémie est à 34 g/L.\nQuelles sont les valeurs seuils pour parler de syndrome néphrotique ?",
+          "contexte": "Les examens biologiques sont répétés : la protéinurie est à 2,8 g/24 heures, et l’albuminémie est à 34 g/L.",
+          "question": "Quelles sont les valeurs seuils pour parler de syndrome néphrotique ?",
           "choix": [
             "A) Protéinurie > 500 mg/jour",
             "B) Protéinurie > 3 g/jour",
@@ -109,8 +109,8 @@
         {
           "id": 6,
           "type": "QRU",
-          "contexte": "",
-          "question": "Douze ans plus tard, la maladie rénale a progressé en dépit des traitements opposés. Victor se présente aux urgences en raison d’une asthénie marquée. Il mentionne des crampes nocturnes, des vomissements matinaux, et une dyspnée d’effort. A\nl’examen on note des œdèmes modérés des deux jambes, et une HTA à 160/105 mmHg. Le foie est douloureux avec un reflux jugulaire, et des crépitants sont audibles aux bases pulmonaires. Vous entendez aussi un frottement péricardique et vous concluez à une péricardite. Le DFG est estimé à 5 ml/min/1,73m2. L’albuminémie est à 32 g/L et la protéinurie à 2 g/g. Le taux d’hémoglobine est à 9,6 g/dL, la réticulocytose est < 30 000/mm3, il n’y a pas de schizocyte.\nQuel est le syndrome néphrologique reconnaissable ?",
+          "contexte": "Douze ans plus tard, la maladie rénale a progressé en dépit des traitements opposés. Victor se présente aux urgences en raison d’une asthénie marquée. Il mentionne des crampes nocturnes, des vomissements matinaux, et une dyspnée d’effort. A\nl’examen on note des œdèmes modérés des deux jambes, et une HTA à 160/105 mmHg. Le foie est douloureux avec un reflux jugulaire, et des crépitants sont audibles aux bases pulmonaires. Vous entendez aussi un frottement péricardique et vous concluez à une péricardite. Le DFG est estimé à 5 ml/min/1,73m2. L’albuminémie est à 32 g/L et la protéinurie à 2 g/g. Le taux d’hémoglobine est à 9,6 g/dL, la réticulocytose est < 30 000/mm3, il n’y a pas de schizocyte.",
+          "question": "Quel est le syndrome néphrologique reconnaissable ?",
           "choix": [
             "A) syndrome hémolytique et urémique",
             "B) syndrome d’HTA accélérée/maligne",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": "folder-1786299940488-4f5dc5bea235e8",
+      "id": "folder-1790539664402-d52e356f851d",
       "type": "DP",
       "title": "DP 2",
       "description": "Mme M se présente à votre consultation, sans plainte particulière, en dehors d’une perte d’appétit. On note d’emblée à l’examen clinique la présence d’oedèmes des membres inférieurs, bilatéraux, et prenant le godet. La pression artérielle est à 150/95 mmHg. La prise de sang qu’elle vous tend montre une créatinine à 160 µmol/L.",
@@ -230,8 +230,8 @@
         {
           "id": 12,
           "type": "QRM",
-          "contexte": "",
-          "question": "Une gazométrie artérielle est réalisée : pH : 7.20. Natrémie 134 mmol/L, kaliémie 6.0 mmol/L, reserve alcaline 14 mmol/L, Chlore 100 mmol/L.\nQuels troubles peuvent être responsables de ce type d’acidose ?",
+          "contexte": "Une gazométrie artérielle est réalisée : pH : 7.20. Natrémie 134 mmol/L, kaliémie 6.0 mmol/L, reserve alcaline 14 mmol/L, Chlore 100 mmol/L.",
+          "question": "Quels troubles peuvent être responsables de ce type d’acidose ?",
           "choix": [
             "A) Acidose lactique",
             "B) Insuffisance rénale aiguë",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "id": "folder-1786299942248-30027d9a4518a",
+      "id": "folder-1790539667925-b3edfc6de45e68",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -259,8 +259,8 @@
         {
           "id": 13,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un patient de 80 ans se présente avec une natrémie à 160 mmol/L. Sa glycémie est normale. Sa tension artérielle est à 120/80 mmHg, sa fréquence cardiaque à 80/min. Il a un poids stable sur les 3 derniers mois.\nQuels autres signes sont classiquement associés à cette situation ?",
+          "contexte": "Un patient de 80 ans se présente avec une natrémie à 160 mmol/L. Sa glycémie est normale. Sa tension artérielle est à 120/80 mmHg, sa fréquence cardiaque à 80/min. Il a un poids stable sur les 3 derniers mois.",
+          "question": "Quels autres signes sont classiquement associés à cette situation ?",
           "choix": [
             "A) La sensation de soif car il présente une déshydratation intra-cellulaire",
             "B) La sensation de dégoût de l’eau avec vomissements car il présente une hyperhydratation intra-cellulaire",
@@ -278,8 +278,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un enfant de 2 ans se présente avec des vomissements incoercibles et des diarrhées fébriles depuis 4 jours. Il a perdu 20% de son poids corporel. Sa natrémie est à 137 mmol/L. Sa glycémie est normale.\nQuelles sont les anomalies que vous vous attendez à retrouver dans cette situation ?",
+          "contexte": "Un enfant de 2 ans se présente avec des vomissements incoercibles et des diarrhées fébriles depuis 4 jours. Il a perdu 20% de son poids corporel. Sa natrémie est à 137 mmol/L. Sa glycémie est normale.",
+          "question": "Quelles sont les anomalies que vous vous attendez à retrouver dans cette situation ?",
           "choix": [
             "A) Une hypotension artérielle et une tachycardie",
             "B) Une polyuro-polydipsie",
@@ -298,8 +298,8 @@
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "",
-          "question": "Une patiente de 50 ans arrive en coma. Son secteur extra-cellulaire est normal. On vous indique que sa natrémie est à 110 mmol/L. L’osmolalité plasmatique est à 225 mosmol/L, l’osmolalité urinaire à 585 mosmol/L.\nQuelles sont les propositions vraies ?",
+          "contexte": "Une patiente de 50 ans arrive en coma. Son secteur extra-cellulaire est normal. On vous indique que sa natrémie est à 110 mmol/L. L’osmolalité plasmatique est à 225 mosmol/L, l’osmolalité urinaire à 585 mosmol/L.",
+          "question": "Quelles sont les propositions vraies ?",
           "choix": [
             "A) L’osmolalité urinaire est inadaptée.",
             "B) Ce tableau est compatible avec un déficit en aldostérone.",

@@ -96,8 +96,8 @@
         {
           "id": 5,
           "type": "QRP",
-          "contexte": "",
-          "question": "Mme L. se plaint d'une fatigue au réveil parfois accompagnée de céphalées. Elle décrit aussi un manque d'attention dans la journée et des ronflements nocturnes qui gênent son mari, au point qu'il dorme sur le canapé.\nVous suspectez un syndrome d'apnées obstructives du sommeil (SAOS). Quels sont les 2 autres signes qu’il vous parait pertinent de rechercher dans ce contexte ?",
+          "contexte": "Mme L. se plaint d'une fatigue au réveil parfois accompagnée de céphalées. Elle décrit aussi un manque d'attention dans la journée et des ronflements nocturnes qui gênent son mari, au point qu'il dorme sur le canapé.",
+          "question": "Vous suspectez un syndrome d'apnées obstructives du sommeil (SAOS). Quels sont les 2 autres signes qu’il vous parait pertinent de rechercher dans ce contexte ?",
           "choix": [
             "A) Pauses respiratoires perçues par l'entourage durant le sommeil",
             "B) un syndrome polyuro-polydipsique",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "id": "folder-1786295061263-146055aaf7526",
+      "id": "folder-1790535810836-4a7ab4bf1f2ed8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Mme D., 68 ans consulte en urgence pour des palpitations et une perte de poids.\nElle présente comme antécédent : une ostéoporose fracturaire, un adénome parathyroïdien opéré, une cholécystectomie, des troubles du rythme sur cardiopathie ischémique stentée.\nLes antécédents familiaux sont marqués par un diabète de type 1 chez son fils.\nLe traitement comprend : Eliquis, Ramipril 5 mg, Sotalol\nElle décrit l’apparition de palpitations depuis une dizaine de jours associées à une fatigabilité à l’effort. Elle décrit parallèlement une perte de poids de 15 kgs en 2 mois sans qu’il n’y ait eu de modifications hygiéno-diététiques. Le poids est donc désormais de 45 kgs pour 1,65 m (IMC = 16,5 kg/m2). La palpation de la région cervicale retrouve un nodule du lobe thyroïdien droit mesurant 3 cm sans adénopathie perceptible.\nL’électrocardiogramme retrouve une fibrillation auriculaire.\nLe bilan biologique retrouve : Hémoglobine = 12.8 g/dl, leucocytes = 6.3 G/l, plaquettes = 254 000/mm3, bilan hépatique : TGO = 45 U/l (1.5N), TGP = 27 U/l (normal), gamma GT = 37 U/l (normal), calcémie = 2.18 mmol/l, albumine = 32 g/l, TSH < 0,002 µU/ml (normal de 0,4 à 4,5), T4l = 55 pmol/l (N de 9 à 17), glycémie veineuse = 0,76 g/l.",
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": "folder-1786295064188-1b98a5bed7f5a",
+      "id": "folder-1790535812480-9eb0e31d42c6",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -431,13 +431,13 @@
           "correctionExplanation": "",
           "order": 10,
           "images": [
-            "/images/qcm/diabetologie-endocrinologie-nutrition-s7/2024/q19.png?v=1786295078529"
+            "/images/qcm/diabetologie-endocrinologie-nutrition-s7/2024/q19.png?v=1790535820165"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786295079677-f0cbd189b80b18",
+      "id": "folder-1790535820760-b488b311230618",
       "type": "DP",
       "title": "DP 2",
       "description": "De garde aux urgences, vous recevez un patient de 68 ans adressé par son médecin traitant pour déséquilibre glycémique. En effet, il s’agit d’un sujet diabétique de type 2, traité par Metformine seule, qui présente depuis le matin des glycémies supérieures à 3 g/l, ce qui est tout à fait inhabituel.\nSa dernière mesure d’HbA1c (hémoglobine glyquée) réalisée il y a 6 mois était à 7,5% (N 4 à 6%).\nPar ailleurs, il est hypertendu (traité par Irbésartan 300 mg/jour avec un bon contrôle tensionnel) et dyslipidémique (traité par Atorvastatine 20 mg/jour). Il fume environ 1 paquet de cigarettes par jour (estimation à 40 PA). Il pèse 88 kilos pour 1m70.\nQuand vous l’interrogez, il vous explique qu’il a été alerté par des glycémies supérieures à 3 g/l depuis le réveil. Il signale également quelques nausées depuis le matin et une sensation de malaise, sans être plus précis. Il n’y a aucune autre symptomatologie et notamment pas de douleur thoracique.\nA l’examen clinique : fréquence cardiaque à 55/min, fréquence respiratoire à 22/min, pression artérielle à 160/100 mmHg, température à 37,4 °C, quelques crépitants au niveau des deux bases à l’auscultation pulmonaire. Les pouls pédieux ne sont pas retrouvés. Le reste de l’examen est sans particularité.",
@@ -481,7 +481,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/diabetologie-endocrinologie-nutrition-s7/2024/q21.png?v=1786295081282"
+            "/images/qcm/diabetologie-endocrinologie-nutrition-s7/2024/q21.png?v=1790535822068"
           ]
         },
         {
@@ -577,7 +577,7 @@
           "correctionExplanation": "",
           "order": 7,
           "images": [
-            "/images/qcm/diabetologie-endocrinologie-nutrition-s7/2024/q26.png?v=1786295084647"
+            "/images/qcm/diabetologie-endocrinologie-nutrition-s7/2024/q26.png?v=1790535823951"
           ]
         }
       ]

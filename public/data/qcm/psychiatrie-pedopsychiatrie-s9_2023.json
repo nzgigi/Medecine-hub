@@ -112,8 +112,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mme Z. présente un risque suicide avec un degré d’urgence élevé, vous décidez de l’hospitaliser. Afin de proposer une prise en charge adaptée, vous poursuivez l’examen clinique afin de poser un diagnostic.\nVous suspectez un épisode dépressif caractérisé. Quel(s) diagnostic(s) différentiel(s) recherchez vous afin de confirmer ou infirmer votre diagnostic ?",
+          "contexte": "Mme Z. présente un risque suicide avec un degré d’urgence élevé, vous décidez de l’hospitaliser. Afin de proposer une prise en charge adaptée, vous poursuivez l’examen clinique afin de poser un diagnostic.",
+          "question": "Vous suspectez un épisode dépressif caractérisé. Quel(s) diagnostic(s) différentiel(s) recherchez vous afin de confirmer ou infirmer votre diagnostic ?",
           "choix": [
             "A) Un trouble bipolaire",
             "B) Une pathologie neurodégénérative (démence)",
@@ -134,8 +134,8 @@
         {
           "id": 4,
           "type": "QROC",
-          "contexte": "",
-          "question": "L’examen physique est sans particularité et la biologie (NFS, plaquette, ionogramme sang, TSH, Glycémie à jeun, CRP) est sans anomalie.\nVous confirmez un épisode dépressif caractérisé. Quelles sont les caractéristiques cliniques que peuvent être associées à cet épisode, (citez en 5 sur le 7)?",
+          "contexte": "L’examen physique est sans particularité et la biologie (NFS, plaquette, ionogramme sang, TSH, Glycémie à jeun, CRP) est sans anomalie.",
+          "question": "Vous confirmez un épisode dépressif caractérisé. Quelles sont les caractéristiques cliniques que peuvent être associées à cet épisode, (citez en 5 sur le 7)?",
           "choix": [],
           "reponses": [
             "Mélancoliques Psychotiques Mixtes Anxieuses Catatoniques Peri-partum Saisonnières",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": "folder-1786299667983-3ed9ce310c623",
+      "id": "folder-1790538954220-5193068693b618",
       "type": "DP",
       "title": "DP 2",
       "description": "Médecin généraliste travaillant en cabinet libéral, vous recevez début mars 2022 la jeune Lola, 15 ans, accompagnée par ses deux parents. Vous connaissez bien cette famille, et notamment Lola que vous suivez depuis sa naissance. Dès le début de la consultation, ses parents vous disent qu’ils sont très inquiets pour Lola, avec qui la communication est de plus en plus difficile depuis plusieurs mois. Vous comprenez que Lola, qui veut être danseuse, passe de plus en plus de temps à s’entraîner (plus de 10 heures par semaine) et que ses parents ont l’impression de ne plus la voir. Cela est d’autant plus vrai que Lola, excellente élève, passe son temps enfermée dans sa chambre pour travailler, quand elle n’est pas à ses entraînements de danse.\nLola intervient alors pour vous dire qu’elle n’est pas du tout d’accord avec la façon qu’ont ses parents de présenter la situation :\nelle vous précise par exemple que c’est elle qui s’occupe du dîner pour toute la famille (elle a deux frères plus jeunes qu’elle).\n« Oui mais elle ne mange jamais rien elle-même, c’est bien la peine de passer autant de temps à cuisiner… » vous précise alors sa mère.\nVous examinez et interrogez Lola et notez les éléments suivants : fréquence cardiaque = 45 bpm ; TA = 95 / 60 mmHg ; température = 36,5 °C ; poids = 38 kg et taille = 158 cm, soit un IMC d’environ 15,3 kg/m2 ; légère acrocyanose digitale, absence de règles (auparavant présentes) depuis 8 mois.\nInterpellé par ce tableau, chez cette patiente pour laquelle vous vous étiez déjà posé la question d’un possible trouble des conduites alimentaires lors de consultations précédentes, vous craignez un diagnostic d’anorexie mentale. Vous consultez son carnet de santé et constatez que Lola pesait, lors de sa dernière visite chez vous en janvier 2022, 50 kg pour une taille de 158 cm (soit un IMC d’environ 20,1 kg/m2).",
@@ -266,8 +266,8 @@
         {
           "id": 9,
           "type": "QROC",
-          "contexte": "",
-          "question": "Quel est le nom de la consommation excessive et souvent compulsive de liquides non caloriques pouvant\naboutir à une hyponatrémie de dilution avec risque de convulsions et de coma ?",
+          "contexte": "Quel est le nom de la consommation excessive et souvent compulsive de liquides non caloriques pouvant",
+          "question": "aboutir à une hyponatrémie de dilution avec risque de convulsions et de coma ?",
           "choix": [],
           "reponses": [
             "potomanie",
@@ -279,8 +279,8 @@
         {
           "id": 10,
           "type": "QRU",
-          "contexte": "",
-          "question": "Interpelée par vos questions et votre examen clinique, la mère de Lola insiste sur le fait que cette dernière est allée plusieurs fois chez le dentiste ces derniers mois pour des douleurs, alors qu’elle n’avait aucun problème dentaire jusqu’ici. Vous soupçonnez des vomissements provoqués et vous interrogez Lola qui finit par vous dire qu’il lui arrive de présenter des épisodes au cours desquels elle avale en un temps limité des quantités très importantes d’aliments. Elle pleure en vous confiant cela et vous dit : « Je m’en veux tellement après ça que j’ai envie de mourir, je me trouve horrible. » Les parents de Lola vous demandent si leur fille souffre de boulimie\nPourquoi ne retenez-vous pas un diagnostic principal de boulimie?",
+          "contexte": "Interpelée par vos questions et votre examen clinique, la mère de Lola insiste sur le fait que cette dernière est allée plusieurs fois chez le dentiste ces derniers mois pour des douleurs, alors qu’elle n’avait aucun problème dentaire jusqu’ici. Vous soupçonnez des vomissements provoqués et vous interrogez Lola qui finit par vous dire qu’il lui arrive de présenter des épisodes au cours desquels elle avale en un temps limité des quantités très importantes d’aliments. Elle pleure en vous confiant cela et vous dit : « Je m’en veux tellement après ça que j’ai envie de mourir, je me trouve horrible. » Les parents de Lola vous demandent si leur fille souffre de boulimie",
+          "question": "Pourquoi ne retenez-vous pas un diagnostic principal de boulimie?",
           "choix": [
             "A) La boulimie survient plus fréquemment chez les hommes.",
             "B) Contrairement à l’anorexie, la boulimie est souvent associée à un trouble de personnalité borderline.",
@@ -316,8 +316,8 @@
         {
           "id": 12,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous expliquez votre inquiétude à Lola et à ses parents. Lola vous dit qu’elle va reprendre du poids et qu’elle est prête à tout pour ne pas être hospitalisée comme son amie Amandine. Ses parents sont partagés : la mère de Lola serait plutôt pour une hospitalisation, notamment parce que Lola a fait plusieurs malaises récemment, mais son père aimerait lui laisser une chance de se ressaisir et craint qu’une hospitalisation ne soit trop dure pour elle.\nQuel(s) critère(s) d’hospitalisation relevez-vous dans cette observation ?",
+          "contexte": "Vous expliquez votre inquiétude à Lola et à ses parents. Lola vous dit qu’elle va reprendre du poids et qu’elle est prête à tout pour ne pas être hospitalisée comme son amie Amandine. Ses parents sont partagés : la mère de Lola serait plutôt pour une hospitalisation, notamment parce que Lola a fait plusieurs malaises récemment, mais son père aimerait lui laisser une chance de se ressaisir et craint qu’une hospitalisation ne soit trop dure pour elle.",
+          "question": "Quel(s) critère(s) d’hospitalisation relevez-vous dans cette observation ?",
           "choix": [
             "A) Perte de poids >=20% du poids du corps en 3 mois.",
             "B) Indice de masse corporelle inférieur à 16,5 kg/m2.",
@@ -373,7 +373,7 @@
       ]
     },
     {
-      "id": "folder-1786299669985-1bd8406e8795b",
+      "id": "folder-1790538959295-bc929ce0dc1ba8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Mme X. 35 ans présent depuis 8 mois une majoration des soucis en lien avec son activité professionnelle associées à une anxiété. Ses préoccupations sont devenues de plus en plus fréquentes avec de grande difficulté pour les contrôler. Elle se réveille le matin de plus en plus irritable associé à une impression d’être à bout. Il existe des tensions musculaires de plus en plus fréquente. Ses inquiétudes ont altéré la qualité de son sommeil. Elle appréhende le fait d’aller au travail car il lui est arrivé de faire de attaques de panique. Elle n’a qu’une crainte est que cela recommence",
@@ -683,7 +683,7 @@
       ]
     },
     {
-      "id": "folder-1786299682478-8588cc229fa8b8",
+      "id": "folder-1790539036289-9ee90a49a6412",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

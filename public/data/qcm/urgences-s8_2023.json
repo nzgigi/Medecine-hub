@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "folder-1786300808144-7556841733bf8",
+      "id": "folder-1790540482580-e77963506f3248",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous accueillez aux urgences M. P., âgé de 64 ans, adressé par son médecin traitant pour fièvre. Ce patient a pour principal antécédent une intoxication tabagique évaluée à 15 paquets/année, une HTA traité par hydrochlorothiazide. Il rapporte également une consommation journalière l’alcool estimé à 2 verres par jour sans excès récent. Trois jours plus tôt, il a consulté son médecin traitant suite à une douleur en hypochondre droit, irradiant à l’épaule droite. Suspectant une colique hépatique, un traitement par phloroglucinol et paracétamol a été débuté et une échographie abdominale prescrite que le patient n’a pas encore réalisée. La douleur a persisté depuis 3 jours et une fièvre est apparue depuis hier, intermittente, avec des frissons. Il peine à rester debout, L’infirmière d’accueil, en lui prenant sa tension artérielle, s’aperçoit d’un ictère cutanéo-muqueux.",
@@ -189,8 +189,8 @@
         {
           "id": 9,
           "type": "QRU",
-          "contexte": "",
-          "question": "Le patient est installé en box. Il existe une sensibilité en hypochondre droit sans défense. Vous confirmez la présence d’une ictère cutanéo-muqueux. Il n’existe pas de signe d’hypoperfusion périphérique. Le patient est orienté dans le temps et l’espace. Vous suspectez une angiocholite lithiasique. En essayant de se relever, le patient a présenté une lipothymie.\nSes paramètres vitaux : fréquence cardiaque 140/min ; tension artérielle 97/64 mmHg, saturation 98 % en air ambiant, fréquence respiratoire 25/min. Température 37,5 °C.\nQuelle est votre suspicion diagnostique ?",
+          "contexte": "Le patient est installé en box. Il existe une sensibilité en hypochondre droit sans défense. Vous confirmez la présence d’une ictère cutanéo-muqueux. Il n’existe pas de signe d’hypoperfusion périphérique. Le patient est orienté dans le temps et l’espace. Vous suspectez une angiocholite lithiasique. En essayant de se relever, le patient a présenté une lipothymie.\nSes paramètres vitaux : fréquence cardiaque 140/min ; tension artérielle 97/64 mmHg, saturation 98 % en air ambiant, fréquence respiratoire 25/min. Température 37,5 °C.",
+          "question": "Quelle est votre suspicion diagnostique ?",
           "choix": [
             "A) lipothymie vagale",
             "B) trouble du rythme cardiaque",
@@ -229,8 +229,8 @@
         {
           "id": 11,
           "type": "QRP",
-          "contexte": "",
-          "question": "Les résultats des prélèvements biologiques sont en attente.\nDans le cadre de la suspicion de sepsis, compliquant une angiocholite, quelle prise en charge débutez-vous les prochaines 30 minutes, 2 propositions justes ?",
+          "contexte": "Les résultats des prélèvements biologiques sont en attente.",
+          "question": "Dans le cadre de la suspicion de sepsis, compliquant une angiocholite, quelle prise en charge débutez-vous les prochaines 30 minutes, 2 propositions justes ?",
           "choix": [
             "A) surveillance de la diurèse",
             "B) dérivation biliaire par voie percutanée",
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "id": "folder-1786300810345-aafe9d04f98b98",
+      "id": "folder-1790540486502-ba107caab96c9",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous êtes médecin à la régulation-centre 15. Vous recevez l’appel de la femme de M. I., âgé de 67 ans qui vient de chuter de son échelle. Elle a été témoin de la chute, estimée de 3 mètres, alors que son mari réparait la gouttière de la toiture. Selon sa femme, Il a perdu connaissance quelques instants puis a ouvert les yeux, il était alors confus, ne sachant pas où il était. Vous proposez à sa femme de le laisser allongé, le temps que les pompiers arrivent.\nA l’arrivée des pompiers, 15 minutes plus tard, vous estimez un score de Glasgow à 14/15, il n’existe pas de signe de localisation, les pupilles sont réactives et symétriques, il existe une plaie occipitale ne nécessitant pas de suture. Le patient est à présent orienté dans le temps et l’espace mais ne se souvient plus de ce qu’il faisait sur l’échelle. Le patient est légèrement céphalalgique et présente quelques nausées. Il est sous acide acétylsalicylique (Kardegic℗) sans connaître l’indication.\nLes paramètres vitaux sont les suivant : fréquence cardiaque 89/min, tension artérielle 131/79 mmHg, saturation 97 % air ambiant.",
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "id": "folder-1786300812384-24109e42eaec98",
+      "id": "folder-1790540489959-aa3ee9b8e5f3e8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -507,7 +507,7 @@
           "correctionExplanation": "",
           "order": 7,
           "images": [
-            "/images/qcm/urgences-s8/2023/q23.png?v=1786300816617"
+            "/images/qcm/urgences-s8/2023/q23.png?v=1790540497356"
           ]
         },
         {
@@ -554,14 +554,14 @@
           "correctionExplanation": "",
           "order": 9,
           "images": [
-            "/images/qcm/urgences-s8/2023/q25.jpg?v=1786300817939"
+            "/images/qcm/urgences-s8/2023/q25.jpg?v=1790540498976"
           ]
         },
         {
           "id": 26,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous accueillez Mme G., âgée de 42 ans adressée par son médecin traitant aux urgences suite à la découverte d’une perturbation du bilan hépatique. Elle présente depuis 48 heures de la fièvre associée à des courbatures généralisées et une douleur en hypochondre droit. Elle est ictérique depuis 12 heures. L’examen clinique retrouve une légère sensibilité en hypochondre gauche, sans défense. En complétant votre interrogatoire, vous apprenez qu’elle n’a pas voyagé récemment. La prise de sang réalisée avant son arrivée révèle : TGO 702 UI/l (N<35) ; TGP 914 UI/l (N<35); phosphatases alcalines 150 UI/l (N<90); gammaGT 201 UI/l (N<40); bilirubine totale 61 µmol/l (N<21) . Il existe également une CRP à 61 mg/l et une légère lymphopénie à 800/mm3.\nL’échographie abdominale réalisée ne retrouve ni d’obstruction ni de lithiase des voies biliaires intra ou extra-hépatiques. Quelle est votre principale hypothèse diagnostique positive ?",
+          "contexte": "Vous accueillez Mme G., âgée de 42 ans adressée par son médecin traitant aux urgences suite à la découverte d’une perturbation du bilan hépatique. Elle présente depuis 48 heures de la fièvre associée à des courbatures généralisées et une douleur en hypochondre droit. Elle est ictérique depuis 12 heures. L’examen clinique retrouve une légère sensibilité en hypochondre gauche, sans défense. En complétant votre interrogatoire, vous apprenez qu’elle n’a pas voyagé récemment. La prise de sang réalisée avant son arrivée révèle : TGO 702 UI/l (N<35) ; TGP 914 UI/l (N<35); phosphatases alcalines 150 UI/l (N<90); gammaGT 201 UI/l (N<40); bilirubine totale 61 µmol/l (N<21) . Il existe également une CRP à 61 mg/l et une légère lymphopénie à 800/mm3.",
+          "question": "L’échographie abdominale réalisée ne retrouve ni d’obstruction ni de lithiase des voies biliaires intra ou extra-hépatiques. Quelle est votre principale hypothèse diagnostique positive ?",
           "choix": [],
           "reponses": [
             "Hépatite",

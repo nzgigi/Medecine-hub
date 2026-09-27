@@ -233,8 +233,8 @@
         {
           "id": 12,
           "type": "QRU",
-          "contexte": "",
-          "question": "Dans une étude de cohorte, on observe que le risque de crise d’asthme :\nest de 8% parmi les participants exposés à un polluant,\nest de 4% parmi les participants non-exposés à ce polluant.\nConcernant les mesures d’association brutes, quelle est la proposition exacte?",
+          "contexte": "Dans une étude de cohorte, on observe que le risque de crise d’asthme :\nest de 8% parmi les participants exposés à un polluant,\nest de 4% parmi les participants non-exposés à ce polluant.",
+          "question": "Concernant les mesures d’association brutes, quelle est la proposition exacte?",
           "choix": [
             "A) On observe un risque relatif (RR) égal à 0,5",
             "B) On observe une augmentation relative du risque (ARR) égale à 100%",
@@ -245,9 +245,9 @@
           "reponses": [
             "B"
           ],
-          "correctionExplanation": "A) Faux,\nB) Vrai, l'augmentation relative du risque correspond à la différence de risque entre les exposés et les non-exposés, augmentation de 100% du risque.\nC) Faux, il n’y a pas de réduction relative du risque, mais une augmentation relative du risque RRR = 100%\nD) Faux, l’augmentation absolue du risque correspond à la différence de risque entre les exposés et les non-exposés :\nE) Faux, OR = (8% / 92%) / (4% / 96%)",
+          "correctionExplanation": "A) Faux,\nB) Vrai, l'augmentation relative du risque correspond à la différence de risque entre les exposés et les non-exposés,\naugmentation de 100% du risque.\nC) Faux, il n’y a pas de réduction relative du risque, mais une augmentation relative du risque RRR = 100%\nD) Faux, l’augmentation absolue du risque correspond à la différence de risque entre les exposés et les non-exposés :\nE) Faux, OR = (8% / 92%) / (4% / 96%)",
           "order": 12,
-          "correctionImage": "/images/qcm/apprentissage-exercice-medical-s8/2025/q12_correction.png?v=1786294244431"
+          "correctionImage": "/images/qcm/apprentissage-exercice-medical-s8/2025/q12_correction.png?v=1790535453375"
         },
         {
           "id": 13,
@@ -278,13 +278,13 @@
           "correctionExplanation": "",
           "order": 13,
           "images": [
-            "/images/qcm/apprentissage-exercice-medical-s8/2025/q13.png?v=1786294244660"
+            "/images/qcm/apprentissage-exercice-medical-s8/2025/q13.png?v=1790535453603"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786294246840-3471c97673a4a",
+      "id": "folder-1790535455428-bd021d09c70c88",
       "type": "SQI",
       "title": "DL 2",
       "description": "",
@@ -506,8 +506,8 @@
         {
           "id": 25,
           "type": "QRU",
-          "contexte": "",
-          "question": "Une patiente se présente aux urgences en déclarant avoir été agressée sexuellement il y a 2 jours. Elle vous rapporte s’être réveillée nue dans un lit à côté d’un garçon après une soirée où elle aurait consommé beaucoup d’alcool ; elle pense avoir un peu flirté avec l’individu au cours de la soirée et dit ne se souvenir de rien d’autre.\nConcernant le consentement sexuel, quelle est la réponse juste ?",
+          "contexte": "Une patiente se présente aux urgences en déclarant avoir été agressée sexuellement il y a 2 jours. Elle vous rapporte s’être réveillée nue dans un lit à côté d’un garçon après une soirée où elle aurait consommé beaucoup d’alcool ; elle pense avoir un peu flirté avec l’individu au cours de la soirée et dit ne se souvenir de rien d’autre.",
+          "question": "Concernant le consentement sexuel, quelle est la réponse juste ?",
           "choix": [
             "A) L’intéressée a pu consentir à une activité sexuelle mais ne pas s’en souvenir, on pourra difficilement retenir les violences sexuelles",
             "B) Le consentement ne doit pas être explicite et recherché avant toute activité sexuelle",

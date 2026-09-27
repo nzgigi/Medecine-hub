@@ -321,7 +321,7 @@
       ]
     },
     {
-      "id": "folder-1786297402432-102510cde73258",
+      "id": "folder-1790538553730-588a6512ec503",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Madame, âgée de 75 ans se présente d’elle-même aux urgences car son médecin traitant est absent pour des malaises et des tremblements répétitifs depuis une semaine en ﬁn de matinée et elle s’inquiète. Elle est diabétique de type 2 depuis 20 ans avec une rétinopathie diabétique simple ; elle ne fume pas, a une hypertension artérielle. Son traitement actuel comprend : metformine 1000 mg : 1 comprimé matin midi et soir, gliclazide LM 60 mg : 1 comprimé le matin, ramipril 10 mg : 1 comprimé le matin, indapamide LP 1,5 mg : 1 comprimé le matin. À l'arrivée, la patiente est consciente, répond très bien aux questions mais décrit des tremblements importants, il n'y a pas de signe de décompensation cardiaque. Le reste de l’examen clinique est normal. L'infirmière d’accueil fait une glycémie capillaire qui est à 0,55 g/l.",
@@ -418,8 +418,8 @@
         {
           "id": 18,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous demandez une évaluation de la fonction rénale qui révèle une créatininémie à 150 µmol/l soit un DFG à 45 ml/min : le rapport albuminurie/créatininurie est à 400 mg/g. Une cause obstructive est écartée. L'hémoglobine glyquée est à 7,1 %. Vous décidez une adaptation thérapeutique de son traitement.\nQuelles sont les 3 réponses exactes ?",
+          "contexte": "Vous demandez une évaluation de la fonction rénale qui révèle une créatininémie à 150 µmol/l soit un DFG à 45 ml/min : le rapport albuminurie/créatininurie est à 400 mg/g. Une cause obstructive est écartée. L'hémoglobine glyquée est à 7,1 %. Vous décidez une adaptation thérapeutique de son traitement.",
+          "question": "Quelles sont les 3 réponses exactes ?",
           "choix": [
             "A) Arrêter le gliclazide.",
             "B) Réduire la dose de metformine.",
@@ -439,7 +439,7 @@
       ]
     },
     {
-      "id": "folder-1786297405593-b6f86bb1c5aa88",
+      "id": "folder-1790538561916-dd9b95220a541",
       "type": "DP",
       "title": "DP 1",
       "description": "Madame C, 58 ans vient pour un renouvellement d’ordonnance. Elle est diabétique de type 2 depuis 15 ans. Elle vient d’arriver dans la région. Elle était sans emploi 10 ans avant sa mise à la retraite et revient vivre chez sa ﬁlle, faute de moyens ﬁnanciers. Dans ses antécédents, pas d’allergie ou d’asthme. Notion d’un diabète gestationnel et d’une toxémie gravidique à l’âge de 30 ans lors de son unique grossesse avec une fille qui va bien, née par voie basse et pesant à terme 4.5 kg. Elle ne fume pas et n’a pas de dyslipidémie. Elle relate un syndrome dépressif ancien qui s’est majoré suite à son divorce récent et une insomnie ancienne qui s’est aggravée à cette occasion. Ses PA sont à 125/75 mmHg son poids de 100 kg pour 1.50 m. l’examen clinique est normal. L’ECG est normal. Son traitement comprend : metformine 1000 mg 1 comprimé matin, midi et soir, lorazépam 1 mg et venlafaxine 75 mg par jour.",
@@ -472,8 +472,8 @@
         {
           "id": 20,
           "type": "QRP",
-          "contexte": "",
-          "question": "L’HbA1c est à 8.5 %, la créatininémie à 130 µmol/l avec un DFG à 75 ml/min. En la réinterrogeant, les mesures hygiéno-diététiques sont assez bien respectées et le poids est stable depuis au moins 2 ans.\nQuels sont les 2 examens prioritaires dont vous avez besoin pour guider le choix de la stratégie thérapeutique ultérieure ?",
+          "contexte": "L’HbA1c est à 8.5 %, la créatininémie à 130 µmol/l avec un DFG à 75 ml/min. En la réinterrogeant, les mesures hygiéno-diététiques sont assez bien respectées et le poids est stable depuis au moins 2 ans.",
+          "question": "Quels sont les 2 examens prioritaires dont vous avez besoin pour guider le choix de la stratégie thérapeutique ultérieure ?",
           "choix": [
             "A) Un fond d’œil.",
             "B) Le rapport protéinurie/créatininurie.",
@@ -514,8 +514,8 @@
         {
           "id": 22,
           "type": "QRM",
-          "contexte": "",
-          "question": "Quels sont les mécanismes d’action des analogues du GLP1 ?\nQuelle(s) est(sont) la (les) réponse(s) exacte(s) ?",
+          "contexte": "Quels sont les mécanismes d’action des analogues du GLP1 ?",
+          "question": "Quelle(s) est(sont) la (les) réponse(s) exacte(s) ?",
           "choix": [
             "A) Stimule la sécrétion d’insuline.",
             "B) Diminue la sécrétion de glucagon.",
@@ -534,8 +534,8 @@
         {
           "id": 23,
           "type": "QRM",
-          "contexte": "",
-          "question": "La patiente échappe au suivi et vous la revoyez 10 ans plus tard, Elle a arrêté son analogue du GLP1 car elle n’aime pas les injections ; Elle a perdu 10 kg sur plusieurs années. Elle est très isolée et pleure en consultation. Elle prend metformine 850 mg matin et soir, perindopril 4 mg matin, amlodipine 10 mg matin, lorazepam 1 mg le soir et rosuvastatine 10 mg le matin. La PA est à 130/70 mmHg le poids est de 90 kg l'examen clinique reste normal. Elle a développé une maladie rénale chronique avec un DFG à 45 ml/min et une protéinurie. Le néphrologue a conclu à une néphropathie glomérulaire liée au diabète qui est resté très déséquilibré pendant des années avec une HbA1c aux alentours de 8 % faute de prise de traitement régulier.\nQue lui proposez-vous ?",
+          "contexte": "La patiente échappe au suivi et vous la revoyez 10 ans plus tard, Elle a arrêté son analogue du GLP1 car elle n’aime pas les injections ; Elle a perdu 10 kg sur plusieurs années. Elle est très isolée et pleure en consultation. Elle prend metformine 850 mg matin et soir, perindopril 4 mg matin, amlodipine 10 mg matin, lorazepam 1 mg le soir et rosuvastatine 10 mg le matin. La PA est à 130/70 mmHg le poids est de 90 kg l'examen clinique reste normal. Elle a développé une maladie rénale chronique avec un DFG à 45 ml/min et une protéinurie. Le néphrologue a conclu à une néphropathie glomérulaire liée au diabète qui est resté très déséquilibré pendant des années avec une HbA1c aux alentours de 8 % faute de prise de traitement régulier.",
+          "question": "Que lui proposez-vous ?",
           "choix": [
             "A) Évaluation de l'observance à l'égard des traitements pris.",
             "B) Proposition d'éducation thérapeutique.",
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "id": "folder-1786297408523-51eec57edb45b",
+      "id": "folder-1790538568730-bb6328b750ae88",
       "type": "DP",
       "title": "DP 2",
       "description": "M T 78 ans est hypertendu traité. Il a comme antécédent un accident vasculaire cérébral ischémique. Il décrit depuis un an un angor d’eﬀort stade 1. Le scanner coronaire a mis en évidence une sténose d’environ 65% de la coronaire droite sur son deuxième segment. IL a un diabète de type 2. Sa fonction rénale est déﬁnie par une créatininémie à 120 µmol/l et une clairance de la créatinine de 40 ml/min. Il reçoit un traitement par Acide acétylsalicylique 75 mg : un sachet par jour, Amlodipine 5 mg : une gélule par jour, Indapamide 1.5 mg LP : un comprimé par jour, Irbesartan 300 mg : un comprimé par jour, Atorvastatine 80 mg : un comprimé par jour. Il est traité pour son diabète par metformine et du Gliclazide : un sulfamide hypoglycémiant.",
@@ -677,8 +677,8 @@
         {
           "id": 29,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le patient décrit des diarrhées et des épisodes d’hypoglycémie.\nQuelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "contexte": "Le patient décrit des diarrhées et des épisodes d’hypoglycémie.",
+          "question": "Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
           "choix": [
             "A) Les diarrhées sont un effet indésirable très fréquent de la Metformine.",
             "B) Les diarrhées sont un effet indésirable très fréquent du Gliclazide.",
@@ -776,7 +776,7 @@
       ]
     },
     {
-      "id": "folder-1786297411223-6251a8061077a8",
+      "id": "folder-1790538574770-6ccc55036bdba8",
       "type": "DP",
       "title": "DP 3",
       "description": "Me O 30 ans a un antécédent de migraine avec aura. Elle a aussi un antécédent d’hypertension artérielle gravidique survenue il y a 10 ans.",

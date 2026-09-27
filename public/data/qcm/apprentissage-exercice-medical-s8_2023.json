@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous avez réalisé une étude cas témoins pour étudier l’association en tabagisme et cancer du poumon dont voici les résultats.\nParmi les réponses suivantes, laquelle correspond à l’Odds ratio (rapport des côtes) mesurant l’association entre « être fumeur » et « avoir un cancer du poumon » ?",
+          "contexte": "Vous avez réalisé une étude cas témoins pour étudier l’association en tabagisme et cancer du poumon dont voici les résultats.",
+          "question": "Parmi les réponses suivantes, laquelle correspond à l’Odds ratio (rapport des côtes) mesurant l’association entre « être fumeur » et « avoir un cancer du poumon » ?",
           "choix": [
             "A) (80/200) / (50/200)",
             "B) (80x150) / (50x120)",
@@ -30,9 +30,9 @@
           "correctionExplanation": "Dans une étude cas-témoins, on calculera un odds-ratio. Dans cette population, on a 130 malades (M+) et 270 non-malades (M-). On a également 200 exposés (E+) et 200 non-exposés (E-).\nA) Faux, dans une étude de cohorte, cela correspondrait à un risque relatif :\nB) Vrai, c'est le calcul de l'odds ratio :\nC) Faux, cette formule est un distracteur, elle ne correspond pas à une mesure d'association existante\nD) Faux, dans une étude de cohorte, cela correspondrait à une différence de risque (ou augmentation absolue du risque) :\nE) Faux, dans une étude de cohorte, cela correspondrait à une différence relative de risque (ou augmentation relative du risque) :",
           "order": 1,
           "images": [
-            "/images/qcm/apprentissage-exercice-medical-s8/2023/q1.png?v=1786294195188"
+            "/images/qcm/apprentissage-exercice-medical-s8/2023/q1.png?v=1790535416827"
           ],
-          "correctionImage": "/images/qcm/apprentissage-exercice-medical-s8/2023/q1_correction.png?v=1786294195555"
+          "correctionImage": "/images/qcm/apprentissage-exercice-medical-s8/2023/q1_correction.png?v=1790535417247"
         },
         {
           "id": 2,
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "id": "folder-1786294205283-94bbb7f919ca",
+      "id": "folder-1790535430294-32aebb0c09ab98",
       "type": "SQI",
       "title": "DL 2",
       "description": "",

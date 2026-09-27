@@ -49,8 +49,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "L’infirmière vous rapporte les constantes de mme G : température 38,6°C, fréquence cardiaque 95 bpm, tension artérielle 125/85 mmHg.\nQuels examens complémentaires doivent être réalisés en première intention ?",
+          "contexte": "L’infirmière vous rapporte les constantes de mme G : température 38,6°C, fréquence cardiaque 95 bpm, tension artérielle 125/85 mmHg.",
+          "question": "Quels examens complémentaires doivent être réalisés en première intention ?",
           "choix": [
             "A) Électro cardiotocographie externe",
             "B) Échographie du col utérin",
@@ -71,8 +71,8 @@
         {
           "id": 3,
           "type": "QROC",
-          "contexte": "",
-          "question": "L’électrocardiotocographie retrouve un rythme cardiaque fœtal normal et des contractions utérines toutes les 3 minutes. L'échographie met en évidence un col utérin à 12 mm, l’échographie obstétricale est sans particularité par ailleurs. La bandelette urinaire retrouve une leucocyturie et des nitrites.\nQuel est le principal facteur de risque de menace d’accouchement prématuré que présente cette patiente ?",
+          "contexte": "L’électrocardiotocographie retrouve un rythme cardiaque fœtal normal et des contractions utérines toutes les 3 minutes. L'échographie met en évidence un col utérin à 12 mm, l’échographie obstétricale est sans particularité par ailleurs. La bandelette urinaire retrouve une leucocyturie et des nitrites.",
+          "question": "Quel est le principal facteur de risque de menace d’accouchement prématuré que présente cette patiente ?",
           "choix": [],
           "reponses": [
             "pyélonéphrite aigue gravidique",
@@ -167,8 +167,8 @@
         {
           "id": 7,
           "type": "QRM",
-          "contexte": "",
-          "question": "La patiente est hospitalisée dans une maternité niveau 3, reçoit une corticothérapie, une tocolyse et une antibiothérapie. Malgré les mesures mises en place, la patiente présente des contractions utérines régulières et le col se modifie : le toucher vaginal met en évidence un col effacé, dilaté à 5 cm, le rythme cardiaque foetal ne présente pas d’anomalie.\nQue décidez-vous ?",
+          "contexte": "La patiente est hospitalisée dans une maternité niveau 3, reçoit une corticothérapie, une tocolyse et une antibiothérapie. Malgré les mesures mises en place, la patiente présente des contractions utérines régulières et le col se modifie : le toucher vaginal met en évidence un col effacé, dilaté à 5 cm, le rythme cardiaque foetal ne présente pas d’anomalie.",
+          "question": "Que décidez-vous ?",
           "choix": [
             "A) Poursuite de la tocolyse par nifédipine pour 48 heures supplémentaires.",
             "B) Mise sous antagonistes de l’ocytocine par voie veineuse",
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "id": "folder-1786295714623-83972aa2c1542",
+      "id": "folder-1790536043785-53097b1d035938",
       "type": "DP",
       "title": "DP 2",
       "description": "Madame L, âgée de 18 ans se présente en urgence à votre cabinet car elle a eu un rapport non protégé il y a 4 jours. Elle vous explique avoir eu un accident de préservatif avec son copain et craindre d’être enceinte.",
@@ -229,8 +229,8 @@
         {
           "id": 10,
           "type": "QROC",
-          "contexte": "",
-          "question": "Elle choisit de prendre l’acétate d’ulipristal sur vos conseils et a réalisé ses examens biologiques. Les bHCG plasmatiques de contrôle à 15 jours sont négatifs et le bilan IST est également négatif.\nElle revient vous voir 6 mois plus tard car elle souhaite arrêter les préservatifs avec son copain et prendre une contraception hormonale. Elle vous questionne sur l’efficacité des différentes méthodes contraceptive hormonale.\nQuel indicateur permet d’évaluer l’efficacité d’une méthode contraceptive ?",
+          "contexte": "Elle choisit de prendre l’acétate d’ulipristal sur vos conseils et a réalisé ses examens biologiques. Les bHCG plasmatiques de contrôle à 15 jours sont négatifs et le bilan IST est également négatif.\nElle revient vous voir 6 mois plus tard car elle souhaite arrêter les préservatifs avec son copain et prendre une contraception hormonale. Elle vous questionne sur l’efficacité des différentes méthodes contraceptive hormonale.",
+          "question": "Quel indicateur permet d’évaluer l’efficacité d’une méthode contraceptive ?",
           "choix": [],
           "reponses": [
             "Indice de Pearl",
@@ -313,8 +313,8 @@
         {
           "id": 14,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous prescrivez une contraception dite de 2ème génération contenant de l'éthynilestradiol et lévonorgestrel.\nQuel bilan complémentaire proposez-vous dans ce cas ?",
+          "contexte": "Vous prescrivez une contraception dite de 2ème génération contenant de l'éthynilestradiol et lévonorgestrel.",
+          "question": "Quel bilan complémentaire proposez-vous dans ce cas ?",
           "choix": [
             "A) Bilan rénal et hépatique à 3 mois",
             "B) Bilan rénal et hépatique avant l’initiation du traitement",
@@ -331,8 +331,8 @@
         {
           "id": 15,
           "type": "QROC",
-          "contexte": "",
-          "question": "Elle revient vous voir à 3 mois avec une de ses amies. Son bilan métabolique à 3 mois est strictement normal. Elle est ravie de sa nouvelle contraception, elle a moins de dysménorrhées et d’acné du coup elle a parlé de vous à toutes ses amies.\nSon amie Madame M est âgée de 20 ans. Elle n’a pas d’antécédent médical en dehors de l’exérèse de dents de sagesse et des migraines avec aura. Dans sa famille, son père est diabétique de type II.\nElle n’a pas de traitement, elle ne fume pas.\nElle pèse 72 kg pour 1m65 (IMC 26,7).\nQuel élément contre-indique la contraception oestro-progestative ?",
+          "contexte": "Elle revient vous voir à 3 mois avec une de ses amies. Son bilan métabolique à 3 mois est strictement normal. Elle est ravie de sa nouvelle contraception, elle a moins de dysménorrhées et d’acné du coup elle a parlé de vous à toutes ses amies.\nSon amie Madame M est âgée de 20 ans. Elle n’a pas d’antécédent médical en dehors de l’exérèse de dents de sagesse et des migraines avec aura. Dans sa famille, son père est diabétique de type II.\nElle n’a pas de traitement, elle ne fume pas.\nElle pèse 72 kg pour 1m65 (IMC 26,7).",
+          "question": "Quel élément contre-indique la contraception oestro-progestative ?",
           "choix": [],
           "reponses": [
             "Migraines avec aura",
@@ -351,7 +351,7 @@
       ]
     },
     {
-      "id": "folder-1786295725094-97c824c185a408",
+      "id": "folder-1790536048420-e45a39b5be2bd8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous recevez une patiente de 25 ans aux urgences pour douleur pelvienne droite. Elle est G1P0 ne prend pas de contraception. Ses dernières règles datent de 2 semaines. On retrouve dans ses antécédents une appendicectomie dans l'enfance.\nElle décrit une douleur pelvienne droite depuis quelques jours plus importante ce jour ce qui a motivé sa venue aux urgences. Il n'y a pas de trouble du transit associé ni de signe fonctionnel urinaire. A l'examen vous retrouvez un défense en fosse iliaque droite, elle n'a pas de douleur à l'ébranlement lombaire.\nLes constantes sont : TA 12/8 FC : 95 bpm Température : 38,5°",
@@ -442,7 +442,7 @@
       ]
     },
     {
-      "id": "folder-1786295730430-c24d8788b37c68",
+      "id": "folder-1790536050788-e2d2ea2280a42",
       "type": "SQI",
       "title": "DL 1",
       "description": "",

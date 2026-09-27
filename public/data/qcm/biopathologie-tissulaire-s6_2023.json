@@ -364,7 +364,7 @@
       ]
     },
     {
-      "id": "folder-1786294613606-e009ea28d606a",
+      "id": "folder-1790535563487-ed8f3a75b7db1",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Une patiente de 27 ans consulte son médecin gynécologue dans le cadre du dépistage du cancer du col utérin.",
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "id": "folder-1786294617462-462970f3e24478",
+      "id": "folder-1790535565501-330cec7615e968",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Un homme de 58 ans, consulte son médecin pour une hémoptysie depuis une semaine dans un contexte d’altération de l’état général. L’interrogatoire retrouve une consommation tabagique et un antécédent de mélanome opéré il y a 5 ans.\nLe scanner thoracique montre une masse suspecte de 6 cm du lobe inférieur droit.",
@@ -519,8 +519,8 @@
         {
           "id": 26,
           "type": "QRU",
-          "contexte": "",
-          "question": "Une biopsie de la masse pulmonaire est réalisée pour examen anatomopathologique.\nQuelle coloration de première intention le pathologiste va-t-il réaliser ?",
+          "contexte": "Une biopsie de la masse pulmonaire est réalisée pour examen anatomopathologique.",
+          "question": "Quelle coloration de première intention le pathologiste va-t-il réaliser ?",
           "choix": [
             "A) Une coloration de Masson",
             "B) Une coloration de Rouge Congo",
@@ -537,8 +537,8 @@
         {
           "id": 27,
           "type": "QRU",
-          "contexte": "",
-          "question": "L’examen histologique de la biopsie révèle une prolifération tumorale constituée de massifs de cellules cohésives renfermant des globes cornés.\nQuel est votre diagnostic ?",
+          "contexte": "L’examen histologique de la biopsie révèle une prolifération tumorale constituée de massifs de cellules cohésives renfermant des globes cornés.",
+          "question": "Quel est votre diagnostic ?",
           "choix": [
             "A) Une métastase du mélanome",
             "B) Un adénocarcinome",
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "id": "folder-1786294620855-d2844c56f7454",
+      "id": "folder-1790535567431-206999fa8c361",
       "type": "DP",
       "title": "Mini DP 3",
       "description": "Homme de 68 ans , porteur d’une hépatite chronique virale B mal traitée, présente une importante ascite. Une ponction d’ascite est réalisée puis une biopsie hépatique est envisagée.",

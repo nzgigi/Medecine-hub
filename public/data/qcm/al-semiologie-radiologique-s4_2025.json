@@ -411,7 +411,7 @@
       ]
     },
     {
-      "id": "folder-1786294087105-127e489f291f88",
+      "id": "folder-1790535357051-b98194ba9cf8a",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -421,7 +421,7 @@
           "id": 21,
           "type": "ASSOCIATION",
           "contexte": "",
-          "question": "Légendez les radiographies rachidiennes suivantes (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Disque intervertébral\n2 Pédicule\n3 Articulation zygapophysaire postérieure 4 Processus épineux\n5 Espace interlamaire",
+          "question": "Légendez les radiographies rachidiennes suivantes (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Disque intervertébral\n2 Pédicule\n3 Articulation zygapophysaire postérieure\n4 Processus épineux\n5 Espace interlamaire",
           "choix": [
             "Disque intervertébral",
             "Pédicule",
@@ -434,80 +434,81 @@
           "order": 1,
           "items": [
             {
-              "id": "item-1786294088074-21bf7ad786f1",
+              "id": "item-1790535357659-3612c6bb059cf",
               "label": "1",
               "correctAnswer": "Disque intervertébral"
             },
             {
-              "id": "item-1786294088193-5fa62180d7bf3",
+              "id": "item-1790535357726-571e6b7981f128",
               "label": "2",
               "correctAnswer": "Pédicule"
             },
             {
-              "id": "item-1786294088318-91aac552e3ebb8",
+              "id": "item-1790535357793-c2c6a50cbcebc",
               "label": "3",
               "correctAnswer": "Articulation zygapophysaire postérieure"
             },
             {
-              "id": "item-1786294088438-7171738cfcf7d",
+              "id": "item-1790535357859-2c690dbc26b37",
               "label": "4",
               "correctAnswer": "Processus épineux"
             },
             {
-              "id": "item-1786294088557-9938cc37796bd",
+              "id": "item-1790535357938-efd3d3815d877",
               "label": "5",
               "correctAnswer": "Espace interlamaire"
             }
           ],
           "images": [
-            "/images/qcm/al-semiologie-radiologique-s4/2025/q21.png?v=1786294087453"
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q21.png?v=1790535357450"
           ]
         },
         {
           "id": 22,
           "type": "ASSOCIATION",
           "contexte": "",
-          "question": "Légendez l'IRM suivante (menu déroulant)\nNeutralisée\nÉlément à associer Réponse attendue\n1 Acétabulum (paroi antérieure) 2\n3 Nerf sciatique\n4 Tendon moyen fessier\n5 Muscle grand fessier",
+          "question": "Légendez l'IRM suivante (menu déroulant)\nNeutralisée\nÉlément à associer Réponse attendue\n1 Acétabulum (paroi antérieure)\n2\n3 Nerf sciatique\n4 Tendon moyen fessier\n5 Muscle grand fessier",
           "choix": [
             "Acétabulum (paroi antérieure)",
             "Nerf sciatique",
             "Tendon moyen fessier",
-            "Muscle grand fessier"
+            "Muscle grand fessier",
+            "E) "
           ],
           "reponses": [],
           "correctionExplanation": "Question ANNULEE",
           "order": 2,
           "items": [
             {
-              "id": "item-1786294089125-6f39a1fd06a79",
+              "id": "item-1790535358351-e57f4646aedeb8",
               "label": "1",
               "correctAnswer": "Acétabulum (paroi antérieure)"
             },
             {
-              "id": "item-1786294089251-fab59f5d86e34",
+              "id": "item-1790535358425-b9fc1d40d423d8",
               "label": "3",
               "correctAnswer": "Nerf sciatique"
             },
             {
-              "id": "item-1786294089379-88036a579712d8",
+              "id": "item-1790535358503-f1342acc9fc93",
               "label": "4",
               "correctAnswer": "Tendon moyen fessier"
             },
             {
-              "id": "item-1786294089510-3e89648082949",
+              "id": "item-1790535358576-d75600accde71",
               "label": "5",
               "correctAnswer": "Muscle grand fessier"
             }
           ],
           "images": [
-            "/images/qcm/al-semiologie-radiologique-s4/2025/q22.png?v=1786294088576"
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q22.png?v=1790535358144"
           ]
         },
         {
           "id": 23,
           "type": "ASSOCIATION",
           "contexte": "",
-          "question": "Légendez la radiographie suivante (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Scaphoïde\n2 Base du 1er métacarpien 3 Trapèze\n4 Lunatum\n5 Capitatum",
+          "question": "Légendez la radiographie suivante (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Scaphoïde\n2 Base du 1er métacarpien\n3 Trapèze\n4 Lunatum\n5 Capitatum",
           "choix": [
             "Scaphoïde",
             "Base du 1er métacarpien",
@@ -520,40 +521,40 @@
           "order": 3,
           "items": [
             {
-              "id": "item-1786294090331-8acda3b18a8e",
+              "id": "item-1790535359116-4ff1b8efa0e69",
               "label": "1",
               "correctAnswer": "Scaphoïde"
             },
             {
-              "id": "item-1786294090465-f085be8708f8e",
+              "id": "item-1790535359201-c21a85a44c0be8",
               "label": "2",
               "correctAnswer": "Base du 1er métacarpien"
             },
             {
-              "id": "item-1786294090598-86dda8a90e39",
+              "id": "item-1790535359298-f9f95b2ecf6788",
               "label": "3",
               "correctAnswer": "Trapèze"
             },
             {
-              "id": "item-1786294090731-60cc51add35d58",
+              "id": "item-1790535359397-69c91791bdbde",
               "label": "4",
               "correctAnswer": "Lunatum"
             },
             {
-              "id": "item-1786294090872-fd87b3496e462",
+              "id": "item-1790535359486-cc786add2d9a58",
               "label": "5",
               "correctAnswer": "Capitatum"
             }
           ],
           "images": [
-            "/images/qcm/al-semiologie-radiologique-s4/2025/q23.png?v=1786294089678"
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q23.png?v=1790535358819"
           ]
         },
         {
           "id": 24,
           "type": "ASSOCIATION",
           "contexte": "",
-          "question": "Légendez l’IRM suivante (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Muscle deltoïde\n2 Muscle trapèze\n3 Muscle petit rond\n4 Epine de la scapula 5 Muscle grand pectoral",
+          "question": "Légendez l’IRM suivante (menu déroulant) :\nÉlément à associer Réponse attendue\n1 Muscle deltoïde\n2 Muscle trapèze\n3 Muscle petit rond\n4 Epine de la scapula\n5 Muscle grand pectoral",
           "choix": [
             "Muscle deltoïde",
             "Muscle trapèze",
@@ -566,40 +567,40 @@
           "order": 4,
           "items": [
             {
-              "id": "item-1786294091533-c1c19e36ba6cb",
+              "id": "item-1790535359929-ab90049db644f8",
               "label": "1",
               "correctAnswer": "Muscle deltoïde"
             },
             {
-              "id": "item-1786294091672-66fe95aad3f0f",
+              "id": "item-1790535360010-4f80fed3378f4",
               "label": "2",
               "correctAnswer": "Muscle trapèze"
             },
             {
-              "id": "item-1786294091832-7be1e678da2598",
+              "id": "item-1790535360087-f5144ce73a1ea",
               "label": "3",
               "correctAnswer": "Muscle petit rond"
             },
             {
-              "id": "item-1786294091972-273d1c9281cfb8",
+              "id": "item-1790535360165-0faf9b382655d",
               "label": "4",
               "correctAnswer": "Epine de la scapula"
             },
             {
-              "id": "item-1786294092121-f003ace306fa68",
+              "id": "item-1790535360257-867ebae631b248",
               "label": "5",
               "correctAnswer": "Muscle grand pectoral"
             }
           ],
           "images": [
-            "/images/qcm/al-semiologie-radiologique-s4/2025/q24.png?v=1786294090921"
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q24.png?v=1790535359710"
           ]
         },
         {
           "id": 25,
           "type": "ASSOCIATION",
           "contexte": "",
-          "question": "Légendez l'IRM suivante (menu déroulant)\nÉlément à associer Réponse attendue\n1 Condyle de l'humérus\n2 Tendon du triceps\n3 Muscle brachial\n4 Nerf médian et artère brachiale 5 Nerf ulnaire",
+          "question": "Légendez l'IRM suivante (menu déroulant)\nÉlément à associer Réponse attendue\n1 Condyle de l'humérus\n2 Tendon du triceps\n3 Muscle brachial\n4 Nerf médian et artère brachiale\n5 Nerf ulnaire",
           "choix": [
             "Condyle de l'humérus",
             "Tendon du triceps",
@@ -612,33 +613,33 @@
           "order": 5,
           "items": [
             {
-              "id": "item-1786294094070-7f85b1a5de06b8",
+              "id": "item-1790535360748-0abaabea0ecb48",
               "label": "1",
               "correctAnswer": "Condyle de l'humérus"
             },
             {
-              "id": "item-1786294094216-20edb0d9f8954",
+              "id": "item-1790535360827-f72520ed7f14e",
               "label": "2",
               "correctAnswer": "Tendon du triceps"
             },
             {
-              "id": "item-1786294094360-9055283a516848",
+              "id": "item-1790535360912-d76d2f26f1a978",
               "label": "3",
               "correctAnswer": "Muscle brachial"
             },
             {
-              "id": "item-1786294094505-047b7ccd756c9",
+              "id": "item-1790535361003-58825f301b823",
               "label": "4",
               "correctAnswer": "Nerf médian et artère brachiale"
             },
             {
-              "id": "item-1786294094665-90fac254ada358",
+              "id": "item-1790535361100-1c8df9d6d2828",
               "label": "5",
               "correctAnswer": "Nerf ulnaire"
             }
           ],
           "images": [
-            "/images/qcm/al-semiologie-radiologique-s4/2025/q25.png?v=1786294093118"
+            "/images/qcm/al-semiologie-radiologique-s4/2025/q25.png?v=1790535360518"
           ]
         }
       ]

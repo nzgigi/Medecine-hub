@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QROC",
-          "contexte": "",
-          "question": "Une patiente de 72 ans est adressée par son médecin traitant pour une « tache » pigmentée suspecte du bras gauche. La lésion est large (2.5cm de diamètre), asymétrique, à bord irréguliers, noire avec un aspect inhomogène. Le reste de l’examen est sans anomalie.\nQuelle information essentielle vous manque concernant la lésion dans la description clinique faite ?",
+          "contexte": "Une patiente de 72 ans est adressée par son médecin traitant pour une « tache » pigmentée suspecte du bras gauche. La lésion est large (2.5cm de diamètre), asymétrique, à bord irréguliers, noire avec un aspect inhomogène. Le reste de l’examen est sans anomalie.",
+          "question": "Quelle information essentielle vous manque concernant la lésion dans la description clinique faite ?",
           "choix": [],
           "reponses": [
             "évolution",
@@ -80,7 +80,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/dermatologie-s8/2025/q1.jpg?v=1786294975441"
+            "/images/qcm/dermatologie-s8/2025/q1.jpg?v=1790535758475"
           ]
         },
         {
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": "folder-1786294987707-729f8ba8de3e5",
+      "id": "folder-1790535765121-f66ea1c9df0d38",
       "type": "KFP",
       "title": "KFP 1",
       "description": "",
@@ -178,8 +178,8 @@
         {
           "id": 6,
           "type": "QROC",
-          "contexte": "",
-          "question": "Un jeune homme de 22 ans vous consulte pour sa dermatite atopique.\nIl présente une dermatite atopique depuis l’enfance. Il a un asthme léger associé. Il travaille comme conducteur d’engins. Sa dermatite atopique n’est pas très bien contrôlée et il présente des lésions sur le visage et les membres qui gènent sa vie quotidienne. Il applique peu de dermocorticoides car il trouve cela fastidieux et il a peur des effets indésirables. Il vous consulte en urgence pour l’apparition sur 48 heures de lésions du visage cuisantes et suintantes.\nQuel est votre diagnostic ?",
+          "contexte": "Un jeune homme de 22 ans vous consulte pour sa dermatite atopique.\nIl présente une dermatite atopique depuis l’enfance. Il a un asthme léger associé. Il travaille comme conducteur d’engins. Sa dermatite atopique n’est pas très bien contrôlée et il présente des lésions sur le visage et les membres qui gènent sa vie quotidienne. Il applique peu de dermocorticoides car il trouve cela fastidieux et il a peur des effets indésirables. Il vous consulte en urgence pour l’apparition sur 48 heures de lésions du visage cuisantes et suintantes.",
+          "question": "Quel est votre diagnostic ?",
           "choix": [],
           "reponses": [
             "Syndrome de Kaposi Julisuberg",
@@ -251,7 +251,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/dermatologie-s8/2025/q6.jpg?v=1786294987999"
+            "/images/qcm/dermatologie-s8/2025/q6.jpg?v=1790535765596"
           ]
         },
         {
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "id": "folder-1786294998629-602abc13dff2b8",
+      "id": "folder-1790535771675-fd569258a6d588",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -438,7 +438,7 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/dermatologie-s8/2025/q13.jpg?v=1786295001277"
+            "/images/qcm/dermatologie-s8/2025/q13.jpg?v=1790535773262"
           ]
         }
       ]

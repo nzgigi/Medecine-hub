@@ -135,7 +135,7 @@
       ]
     },
     {
-      "id": "folder-1786300126882-a6f408f79814d",
+      "id": "folder-1790539774473-d140646f2da52",
       "type": "DP",
       "title": "DP 1",
       "description": "Vous recevez aux urgences une femme de 31 ans pour des douleurs pelviennes et métrorragies.\nElle est G2P1 et est porteuse d’un dispositif intra utérin au cuivre.",
@@ -265,7 +265,7 @@
       ]
     },
     {
-      "id": "folder-1786300128800-7c07663375c628",
+      "id": "folder-1790539778042-9c7279bfc68ba",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "id": "folder-1786300136919-6117483568e558",
+      "id": "folder-1790539796713-82bb33979ef37",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous recevez aux urgences d'une patiente de 85 ans, vivant seule chez elle, car elle a été retrouvée au sol avec une conscience altérée par son aide ménagère.",
@@ -639,8 +639,8 @@
         {
           "id": 31,
           "type": "QRM",
-          "contexte": "",
-          "question": "Son bilan biologique montre:\nglobules blancs 14 G/L; polynucléaires neutrophiles: 11 G/L; lymphocytes: 1,2 G/L; hémoglobine 9 g/dl; VGM: 70 µ3; plaquettes:\n540 G/L; créatininémie: 125 µmol/L.\nQuelles sont les affirmations exactes?",
+          "contexte": "Son bilan biologique montre:\nglobules blancs 14 G/L; polynucléaires neutrophiles: 11 G/L; lymphocytes: 1,2 G/L; hémoglobine 9 g/dl; VGM: 70 µ3; plaquettes:\n540 G/L; créatininémie: 125 µmol/L.",
+          "question": "Quelles sont les affirmations exactes?",
           "choix": [
             "A) ce bilan est en faveur d'un déficit de l'immunité",
             "B) il faut doser la ferritinémie",

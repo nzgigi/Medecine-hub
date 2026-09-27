@@ -379,7 +379,7 @@
       ]
     },
     {
-      "id": "folder-1786296952466-ca6d97df8825c",
+      "id": "folder-1790537097578-c824c3fc2bcae8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous voyez en consultation un homme de 18 ans sans antécédent. Il présente depuis 10 jours une fièvre authentifiée entre 38,5 et 39°C. Il s’est présenté aux Urgences il y a 48 heures. Devant l’absence de signes de gravité et de point d’appel évident il est rentré à domicile avec un traitement symptomatique. Il revient vous voir parce que la fièvre persiste. Il vous montre les résultats de la NFS réalisée aux urgences :\nHémoglobine 13 g/dL\nVGM 92 fL\nPlaquettes 170 G/L\nLeucocytes 14,9 G/L\nFormule leucocytaire:\nPolynucléaires neutrophiles: 4,3 G/L (31%)\nPolynucléaires éosinophiles: 0,1 G/L (1%)\nPolynucléaires basophiles: 0,1 G/L (1%)\nLymphocytes: 3,9 G/L (28%)\nMonocytes: 0,3 G/L (2%)\nCellules mononuclées hyperbasophiles: 5,2 G/L (37%)",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "folder-1786296953241-ca5560917739a",
+      "id": "folder-1790537100229-a977184cbb63d8",
       "type": "DP",
       "title": "DP 1",
       "description": "Vous voyez aux urgences un homme de 40 ans pour une plaie du mollet droit suite à une morsure par le chien de ses voisins alors qu’il faisait du vélo. Il n’a pas d’antécédents significatifs ni d’allergies connues.\nLa plaie fait 8 cm de long, les berges sont contuses, et elle est souillée par un peu de terre.",
@@ -474,8 +474,8 @@
         {
           "id": 15,
           "type": "QRP",
-          "contexte": "",
-          "question": "Il a reçu les vaccinations du calendrier vaccinal dans l’enfance et l’adolescence, et sur son carnet de santé, sa dernière vaccination anti-tétanique remonte à l’âge de 25 ans.\nParmi les propositions suivantes, quelles sont les 2 mesures que vous mettez en place pour la prévention du tétanos ?",
+          "contexte": "Il a reçu les vaccinations du calendrier vaccinal dans l’enfance et l’adolescence, et sur son carnet de santé, sa dernière vaccination anti-tétanique remonte à l’âge de 25 ans.",
+          "question": "Parmi les propositions suivantes, quelles sont les 2 mesures que vous mettez en place pour la prévention du tétanos ?",
           "choix": [
             "A) Désinfection de la plaie",
             "B) Rappel de vaccination anti-tétanique",
@@ -494,8 +494,8 @@
         {
           "id": 16,
           "type": "QRU",
-          "contexte": "",
-          "question": "Il est inquiet concernant le risque de rage car le chien était agressif.\nQuelle est la réponse fausse concernant la transmission de la rage ?",
+          "contexte": "Il est inquiet concernant le risque de rage car le chien était agressif.",
+          "question": "Quelle est la réponse fausse concernant la transmission de la rage ?",
           "choix": [
             "A) La salive d’un animal infecté est le liquide biologique le plus souvent vecteur de la rage",
             "B) Le chien est l’animal le plus souvent impliqué dans la transmission du virus rabique à l’homme",
@@ -561,8 +561,8 @@
         {
           "id": 20,
           "type": "QRU",
-          "contexte": "",
-          "question": "Il n’a pas encore débuté l’antibiothérapie prescrite la veille et revient le lendemain matin avec un écoulement purulent au niveau de la plaie dont le pourtour est oedématié et erythémateux.\nQuel est le pathogène que vous suspectez en priorité ?",
+          "contexte": "Il n’a pas encore débuté l’antibiothérapie prescrite la veille et revient le lendemain matin avec un écoulement purulent au niveau de la plaie dont le pourtour est oedématié et erythémateux.",
+          "question": "Quel est le pathogène que vous suspectez en priorité ?",
           "choix": [
             "A) Bartonella henselae",
             "B) Leptospira interrogans",
@@ -599,7 +599,7 @@
       ]
     },
     {
-      "id": "folder-1786296955420-b02bdcc8fd2978",
+      "id": "folder-1790537109580-df4ed3b1ab16d8",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous voyez en consultation au centre de vaccination international de votre service un homme de 40 ans sans antécédent médical en prévision d’un séjour d’une semaine prévu en Inde cet été. Il s’agit d’un séjour itinérant chez l’habitant principalement en zone urbaine.",
@@ -678,8 +678,8 @@
         {
           "id": 26,
           "type": "QRP",
-          "contexte": "",
-          "question": "Les constantes en dehors de la fièvre à 39°C et d’une tachycardie réactionnelle sont normales. L’examen physique est normal en dehors d’un exanthème. Les premiers éléments biologiques montrent :\nHémoglobine 14 g/dL\nVGM 92 fL\nPlaquettes 110 G/L\nLeucocytes 3,5 G/L\nFormule leucocytaire:\nPolynucléaires neutrophiles: 2,5 G/L\nPolynucléaires éosinophiles: 0,1 G/L\nPolynucléaires basophiles: 0,1 G/L\nLymphocytes: 0,8 G/L\nMonocytes: 0,5 G/L\nSodium : 138 mmol/L\nPotassium : 4 mmol/L\nUrée : 5 mg/dL\nCréatininémie 80 micromoles/L\nASAT : 55 UI/L\nALAT: 70 UI/L\nPAL: 120 IU/L\nBilirubine totale 8 mmol/L\nCRP : 12 mg/L\nBandelette urinaire normale\nQuels sont parmi des données cliniques et biologiques présentées par ce patient les 2 éléments plaidant en faveur d’une arbovirose et non d’une leptospirose ?",
+          "contexte": "Les constantes en dehors de la fièvre à 39°C et d’une tachycardie réactionnelle sont normales. L’examen physique est normal en dehors d’un exanthème. Les premiers éléments biologiques montrent :\nHémoglobine 14 g/dL\nVGM 92 fL\nPlaquettes 110 G/L\nLeucocytes 3,5 G/L\nFormule leucocytaire:\nPolynucléaires neutrophiles: 2,5 G/L\nPolynucléaires éosinophiles: 0,1 G/L\nPolynucléaires basophiles: 0,1 G/L\nLymphocytes: 0,8 G/L\nMonocytes: 0,5 G/L\nSodium : 138 mmol/L\nPotassium : 4 mmol/L\nUrée : 5 mg/dL\nCréatininémie 80 micromoles/L\nASAT : 55 UI/L\nALAT: 70 UI/L\nPAL: 120 IU/L\nBilirubine totale 8 mmol/L\nCRP : 12 mg/L\nBandelette urinaire normale",
+          "question": "Quels sont parmi des données cliniques et biologiques présentées par ce patient les 2 éléments plaidant en faveur d’une arbovirose et non d’une leptospirose ?",
           "choix": [
             "A) Présence d’un taux de CRP bas",
             "B) Présence d’une thrombopénie",
@@ -698,8 +698,8 @@
         {
           "id": 27,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous vous orientez vers une arbovirose et laissez le patient rentrer à domicile avec un traitement symptomatique. Vous le revoyez une semaine plus tard. Les examens complémentaires confirment le diagnostic de dengue. La symptomatologie est rentrée dans l’ordre. Il présente par contre depuis 3 jours des boutons du dos du pied qui le grattent.\nQuelle dermatose évoquez-vous ?",
+          "contexte": "Vous vous orientez vers une arbovirose et laissez le patient rentrer à domicile avec un traitement symptomatique. Vous le revoyez une semaine plus tard. Les examens complémentaires confirment le diagnostic de dengue. La symptomatologie est rentrée dans l’ordre. Il présente par contre depuis 3 jours des boutons du dos du pied qui le grattent.",
+          "question": "Quelle dermatose évoquez-vous ?",
           "choix": [
             "A) Leishmaniose cutanée",
             "B) Loase",
@@ -713,14 +713,14 @@
           "correctionExplanation": "Larva migrans cutanée ankylostomienne\nAnkylostoma caninum, zones tropicales\nContact de la peau avec de la terre souillée par fèces d’animaux\nDiagnostic clinique devant contexte, éruption papuleuse suivie sillon serpigineux en zig-zag évoluant de qq cm par jour siégeant aux points de contact avec le sol avec caractère prurigineux\nEvolution bénigne en 2 à 8 semaines par mort in situ de la larve\nIvermectine en DU",
           "order": 6,
           "images": [
-            "/images/qcm/maladies-transmissibles-s8/2023/q27.png?v=1786296957058"
+            "/images/qcm/maladies-transmissibles-s8/2023/q27.png?v=1790537116987"
           ]
         },
         {
           "id": 28,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous revoyez le patient à 2 mois de son retour. Il présente depuis son retour des troubles du transit qui se sont accentués depuis 1 mois avec 4 à 5 selles molles ou liquides glaira-sanglantes. Il n’a pas de fièvre. Il a perdu 2 kg depuis 1 mois. L’abdomen est souple et indolore. Il ne prend aucun médicament.\nParmi les microbes suivants, quels sont les 2 potentiellement responsables de ce tableau clinique ?",
+          "contexte": "Vous revoyez le patient à 2 mois de son retour. Il présente depuis son retour des troubles du transit qui se sont accentués depuis 1 mois avec 4 à 5 selles molles ou liquides glaira-sanglantes. Il n’a pas de fièvre. Il a perdu 2 kg depuis 1 mois. L’abdomen est souple et indolore. Il ne prend aucun médicament.",
+          "question": "Parmi les microbes suivants, quels sont les 2 potentiellement responsables de ce tableau clinique ?",
           "choix": [
             "A) Campylobacter jejuni",
             "B) Giardia duodenalis",

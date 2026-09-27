@@ -34,8 +34,8 @@
         {
           "id": 2,
           "type": "QROC",
-          "contexte": "",
-          "question": "Les céphalées ont débuté rapidement hier soir en même temps que la fièvre et sont associées à des vomissements répétés.\nA l’examen : TA 120/80, Fc 120 bpm, 39,5°C. Purpura pétéchial non nécrotique des membres inférieurs. Franche raideur de nuque dans signe de souffrance neurologique. Auscultation cardio-pulmonaire normale. Abdomen souple et indolore. Vous envisagez une méningite infectieuse et la nécessité de réaliser une ponction lombaire. Devez-vous réaliser une imagerie cérébrale avant la ponction lombaire ?",
+          "contexte": "Les céphalées ont débuté rapidement hier soir en même temps que la fièvre et sont associées à des vomissements répétés.",
+          "question": "A l’examen : TA 120/80, Fc 120 bpm, 39,5°C. Purpura pétéchial non nécrotique des membres inférieurs. Franche raideur de nuque dans signe de souffrance neurologique. Auscultation cardio-pulmonaire normale. Abdomen souple et indolore. Vous envisagez une méningite infectieuse et la nécessité de réaliser une ponction lombaire. Devez-vous réaliser une imagerie cérébrale avant la ponction lombaire ?",
           "choix": [],
           "reponses": [
             "Non",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "id": "folder-1786296857745-1a6a16a977c828",
+      "id": "folder-1790536720569-415a0f63abf658",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Vous voyez en consultation de médecine générale un homme de 55 ans pour un syndrome fébrile.",
@@ -234,7 +234,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/maladies-transmissibles-s7/2023/q10.png?v=1786296858327"
+            "/images/qcm/maladies-transmissibles-s7/2023/q10.png?v=1790536721769"
           ]
         },
         {
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "id": "folder-1786296861676-56fd5d7a894aa",
+      "id": "folder-1790536728547-42f669da769df",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Un homme de 22 ans se présente en décembre 2022 à votre cabinet de médecine générale pour une toux fébrile. Il n’a aucun antécédent médico-chirurgical et ne fume pas. Il présente de la fièvre associée à une toux ayant débutés brutalement hier. Ses constantes sont : 38,5°C, Fc 110/min, TA 110/65 mmHg, pas de trouble des fonctions supérieures.",
@@ -434,13 +434,13 @@
           "correctionExplanation": "PAC non grave du sujet jeune avec arguments pour pneumocoque (PFLA) = Amoxicilline ; Si allergie : Pristinamycine.\nSi suspicion bactérie atypique = Clarithromycine ;\nSi syndrome grippal préalable = Amoxicilline-Acide clavulanique\nSi PAC grave : Ceftriaxone associé à un macrolide ou à une FQAP",
           "order": 3,
           "images": [
-            "/images/qcm/maladies-transmissibles-s7/2023/q19.png?v=1786296862806"
+            "/images/qcm/maladies-transmissibles-s7/2023/q19.png?v=1790536730705"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786296863084-97cf32638d81d8",
+      "id": "folder-1790536730969-b7b21869222d1",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -563,8 +563,8 @@
         {
           "id": 26,
           "type": "QROC",
-          "contexte": "",
-          "question": "Une femme de 30 ans consulte en médecine générale pour une toux persistante. Cette patiente tabagique active et consommant du cannabis de manière occasionnelle n’a pas d’antécédent médical ou chirurgical. Elle ne prend aucun traitement. Elle est célibataire et n’a pas d’enfant. Elle ne connait pas précisément son état vaccinal, mais pense ne pas\navoir fait les rappels prévus à 25 ans. Elle n’a pas voyagé dans le dernier semestre. Elle est agent territorial spécialisé des écoles maternelles. Elle présente en dehors de toute fièvre une toux sèche répétitive depuis 4 semaines. Son état général est légèrement altéré surtout du fait d’une asthénie qu’elle relie à des troubles du sommeil liés à cette toux. La rhinorrhée et l’obstruction nasale qu’elle présentait initialement ont disparu avec l’apparition de cette toux. L’examen physique est\nnormal, notamment l’auscultation pulmonaire. Une radiographie thoracique faite il y a une semaine était normale. Quel diagnostic évoquez-vous ?",
+          "contexte": "Une femme de 30 ans consulte en médecine générale pour une toux persistante. Cette patiente tabagique active et consommant du cannabis de manière occasionnelle n’a pas d’antécédent médical ou chirurgical. Elle ne prend aucun traitement. Elle est célibataire et n’a pas d’enfant. Elle ne connait pas précisément son état vaccinal, mais pense ne pas\navoir fait les rappels prévus à 25 ans. Elle n’a pas voyagé dans le dernier semestre. Elle est agent territorial spécialisé des écoles maternelles. Elle présente en dehors de toute fièvre une toux sèche répétitive depuis 4 semaines. Son état général est légèrement altéré surtout du fait d’une asthénie qu’elle relie à des troubles du sommeil liés à cette toux. La rhinorrhée et l’obstruction nasale qu’elle présentait initialement ont disparu avec l’apparition de cette toux. L’examen physique est",
+          "question": "normal, notamment l’auscultation pulmonaire. Une radiographie thoracique faite il y a une semaine était normale. Quel diagnostic évoquez-vous ?",
           "choix": [],
           "reponses": [
             "Coqueluche",

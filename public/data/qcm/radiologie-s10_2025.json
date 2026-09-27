@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un patient de 32 ans vient aux urgences pour une douleur épigastrique intense sans fièvre. Il vous explique qu’il est très stressé en ce moment (changement de travail). Il dit avoir des douleurs épigastriques depuis quelques semaines qui se sont majorées brutalement il y a une heure. A l’examen clinique, le patient présente une contracture abdominale.\nQuelle est la réponse vraie ?",
+          "contexte": "Un patient de 32 ans vient aux urgences pour une douleur épigastrique intense sans fièvre. Il vous explique qu’il est très stressé en ce moment (changement de travail). Il dit avoir des douleurs épigastriques depuis quelques semaines qui se sont majorées brutalement il y a une heure. A l’examen clinique, le patient présente une contracture abdominale.",
+          "question": "Quelle est la réponse vraie ?",
           "choix": [
             "A) Un complément de biologie est nécessaire avant de réaliser une imagerie en coupe",
             "B) Une échographie est nécessaire en urgence",
@@ -48,7 +48,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q2.png?v=1786299767950"
+            "/images/qcm/radiologie-s10/2025/q2.png?v=1790539356035"
           ]
         },
         {
@@ -72,7 +72,7 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q3.png?v=1786299768255"
+            "/images/qcm/radiologie-s10/2025/q3.png?v=1790539356709"
           ]
         },
         {
@@ -121,7 +121,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q4.png?v=1786299768664"
+            "/images/qcm/radiologie-s10/2025/q4.png?v=1790539357618"
           ]
         },
         {
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "folder-1786299770228-1633b6c14d9328",
+      "id": "folder-1790539362018-af1593bde7fc9",
       "type": "KFP",
       "title": "KFP 1",
       "description": "",
@@ -175,7 +175,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q6.png?v=1786299770502"
+            "/images/qcm/radiologie-s10/2025/q6.png?v=1790539363000"
           ]
         },
         {
@@ -196,7 +196,7 @@
             }
           ],
           "images": [
-            "/images/qcm/radiologie-s10/2025/q7.png?v=1786299770958"
+            "/images/qcm/radiologie-s10/2025/q7.png?v=1790539364192"
           ]
         },
         {
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "id": "folder-1786299772041-add1a300cf919",
+      "id": "folder-1790539367083-3b54dec5faeb7",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -273,7 +273,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q9.png?v=1786299772434"
+            "/images/qcm/radiologie-s10/2025/q9.png?v=1790539368255"
           ]
         },
         {
@@ -295,7 +295,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q10.png?v=1786299773084"
+            "/images/qcm/radiologie-s10/2025/q10.png?v=1790539370469"
           ]
         },
         {
@@ -318,14 +318,14 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q11.png?v=1786299773433"
+            "/images/qcm/radiologie-s10/2025/q11.png?v=1790539371771"
           ]
         },
         {
           "id": 12,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous recevez aux urgences une patiente de 58 ans pour un traumatisme du poignet après une chute. Voici les radiographies :\nQuelles sont les réponses justes ?",
+          "contexte": "Vous recevez aux urgences une patiente de 58 ans pour un traumatisme du poignet après une chute. Voici les radiographies :",
+          "question": "Quelles sont les réponses justes ?",
           "choix": [
             "A) Il existe une fracture de l’extrémité inférieure de l’ulna",
             "B) La fracture est extra-articulaire",
@@ -340,7 +340,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/radiologie-s10/2025/q12.png?v=1786299773760"
+            "/images/qcm/radiologie-s10/2025/q12.png?v=1790539373209"
           ]
         },
         {
@@ -361,7 +361,7 @@
             }
           ],
           "images": [
-            "/images/qcm/radiologie-s10/2025/q13.png?v=1786299774086"
+            "/images/qcm/radiologie-s10/2025/q13.png?v=1790539374450"
           ]
         }
       ]

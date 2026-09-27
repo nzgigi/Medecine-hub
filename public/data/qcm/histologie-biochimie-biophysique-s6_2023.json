@@ -9,7 +9,7 @@
       "id": "default-questions",
       "type": "KFP",
       "title": "KFP 1",
-      "description": "En consultation de rhumatologie une femme de 75 ans se présente avec une cyphose dorsale importante. Elle a eu une fracture du col du fémur à 72 ans et un cancer du sein à 43 ans qui a nécessité une ovariectomie.\nBilan biologique : \nCalcium, mM 2,15 (VN: 2,3-2,6) \n25 OH vitD, ng/100mL 9 (VN: 13-48) \nPTH intacte 2 génération, pg/mL 112 (VNpm:15-65) \nPAL osseuse, ng/mL 29 (VNpm: 6,5-22) \nCross Laps, pg/mL 1220 (VNpm: 120-980) \n(VNpm = valeurs normales post-ménopause)",
+      "description": "En consultation de rhumatologie une femme de 75 ans se présente avec une cyphose dorsale importante. Elle a eu une fracture du col du fémur à 72 ans et un cancer du sein à 43 ans qui a nécessité une ovariectomie.\nBilan biologique :\nPAL osseuse, ng/mL 29 (VNpm: 6,5-22)\nCross Laps, pg/mL 1220 (VNpm: 120-980)\n(VNpm = valeurs normales post-ménopause)",
       "order": 1,
       "questions": [
         {
@@ -29,7 +29,10 @@
             "D"
           ],
           "correctionExplanation": "",
-          "order": 1
+          "order": 1,
+          "images": [
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q1.png?v=1790536397581"
+          ]
         },
         {
           "id": 2,
@@ -72,7 +75,7 @@
       ]
     },
     {
-      "id": "folder-1786555728538-4a09eeb8ffea7",
+      "id": "folder-1790536398217-eb1b552d5d81b8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -384,7 +387,7 @@
       ]
     },
     {
-      "id": "folder-1786555735651-399c32f3e24748",
+      "id": "folder-1790536409210-c53bc881bf9088",
       "type": "SQI",
       "title": "SQI 2",
       "description": "",
@@ -495,7 +498,7 @@
       ]
     },
     {
-      "id": "folder-1786555737866-14123cb74574e8",
+      "id": "folder-1790536411377-c0f1b6a105f738",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -522,7 +525,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q24.png?v=1786555738500"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q24.png?v=1790536411904"
           ]
         },
         {
@@ -544,9 +547,9 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25.png?v=1786555739225",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25_1.png?v=1786555739437",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25_2.jpg?v=1786555739646"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25.png?v=1790536412480",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25_1.png?v=1790536412940",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q25_2.jpg?v=1790536413542"
           ]
         },
         {
@@ -590,9 +593,9 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27.png?v=1786555740743",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27_1.png?v=1786555741097",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27_2.jpg?v=1786555741299"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27.png?v=1790536414511",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27_1.png?v=1790536415162",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q27_2.jpg?v=1790536415612"
           ]
         },
         {
@@ -617,14 +620,14 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28.png?v=1786555742019",
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28_1.png?v=1786555742453"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28.png?v=1790536416478",
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q28_1.png?v=1790536416682"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786555742908-586507b54c0338",
+      "id": "folder-1790536417069-3b15e92ca7b4b",
       "type": "SQI",
       "title": "DL 3",
       "description": "",
@@ -650,7 +653,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q29.png?v=1786555743655"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q29.png?v=1790536417605"
           ]
         },
         {
@@ -674,7 +677,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q30.png?v=1786555744546"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q30.png?v=1790536418671"
           ]
         },
         {
@@ -698,7 +701,7 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q31.png?v=1786555745496"
+            "/images/qcm/histologie-biochimie-biophysique-s6/2023/q31.png?v=1790536419414"
           ]
         },
         {

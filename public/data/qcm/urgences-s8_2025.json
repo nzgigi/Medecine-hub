@@ -65,8 +65,8 @@
         {
           "id": 4,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous recevez à présent ce jeune patient au déchocage. Il a été intubé en pré-hospitalier après induction en séquence rapide par ETOMIDATE et SUCCINYLCHOLINE. Sa situation hémodynamique s’est dégradée depuis le premier bilan, en effet ses constantes sont maintenant : PA 85/48 mmHg ; FC 135 bpm ; SpO2 92% (sous ventilation mécanique, avec une fraction inspirée en oxygène à 80 %). L’hémoglobine capillaire est à 10g/dL. Il est sédaté par MIDAZOLAM et SUFENTANIL. Les pupilles sont en myosis, symétriques et réactives. Il a reçu 1000 ml de remplissage vasculaire par NaCl 0.9% durant le transport vers le déchocage et de la NORADRENALINE vient d’être débutée devant l’absence d’efficacité du remplissage vasculaire.\nQuels sont les 3 examens d’imagerie à réaliser en priorité dans ce contexte ?",
+          "contexte": "Vous recevez à présent ce jeune patient au déchocage. Il a été intubé en pré-hospitalier après induction en séquence rapide par ETOMIDATE et SUCCINYLCHOLINE. Sa situation hémodynamique s’est dégradée depuis le premier bilan, en effet ses constantes sont maintenant : PA 85/48 mmHg ; FC 135 bpm ; SpO2 92% (sous ventilation mécanique, avec une fraction inspirée en oxygène à 80 %). L’hémoglobine capillaire est à 10g/dL. Il est sédaté par MIDAZOLAM et SUFENTANIL. Les pupilles sont en myosis, symétriques et réactives. Il a reçu 1000 ml de remplissage vasculaire par NaCl 0.9% durant le transport vers le déchocage et de la NORADRENALINE vient d’être débutée devant l’absence d’efficacité du remplissage vasculaire.",
+          "question": "Quels sont les 3 examens d’imagerie à réaliser en priorité dans ce contexte ?",
           "choix": [
             "A) FAST échographie",
             "B) body-scanner d'emblée",
@@ -86,8 +86,8 @@
         {
           "id": 5,
           "type": "QRU",
-          "contexte": "",
-          "question": "La radiographie du bassin est normale. La radiographie du thorax également, hormis un foyer de condensation alvéolaire en base droite. L’interne de garde est en train de réaliser la FAST échographie.\nA ce stade quelle est l’hypothèse principale pour expliquer l’instabilité hémodynamique du patient ?",
+          "contexte": "La radiographie du bassin est normale. La radiographie du thorax également, hormis un foyer de condensation alvéolaire en base droite. L’interne de garde est en train de réaliser la FAST échographie.",
+          "question": "A ce stade quelle est l’hypothèse principale pour expliquer l’instabilité hémodynamique du patient ?",
           "choix": [
             "A) un choc anaphylactique au curare injecté pour l’intubation oro-trachéale",
             "B) un choc septique sur probable pneumopathie lobaire inférieure droite",
@@ -104,8 +104,8 @@
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "La FAST échographie retrouve un volumineux épanchement au niveau de l’hypochondre gauche. En parallèle la tension artérielle de votre patient continue de chuter à 68/44 mmHg. Vous n’avez pas encore les résultats du bilan biologique envoyé en urgence. L’hémoglobine capillaire est passée à 7g/dL.\nQuelle est votre prise en charge ?",
+          "contexte": "La FAST échographie retrouve un volumineux épanchement au niveau de l’hypochondre gauche. En parallèle la tension artérielle de votre patient continue de chuter à 68/44 mmHg. Vous n’avez pas encore les résultats du bilan biologique envoyé en urgence. L’hémoglobine capillaire est passée à 7g/dL.",
+          "question": "Quelle est votre prise en charge ?",
           "choix": [
             "A) réalisation d’un body-scanner",
             "B) appel du chirurgien digestif pour réalisation d’une laparotomie en urgence",
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "id": "folder-1786300853188-10d016fa47fff8",
+      "id": "folder-1790540561357-6c20d7bc5b2d38",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous recevez aux urgences une femme de 73 ans, pour dyspnée de repos. Elle est amenée par les ambulances car elle est gênée pour respirer depuis 2 heures. A l’accueil, elle est somnolente et présente un balancement thoraco-abdominal. Ses paramètres sont les suivants : TA = 170/90 mmHg ; fréquence cardiaque = 105/minute; SpO2 = 92% sous 6L ; fréquence respiratoire = 28 cycles/minute ; T° = 37,8°C.",
@@ -178,8 +178,8 @@
         {
           "id": 8,
           "type": "QRP",
-          "contexte": "",
-          "question": "La patiente est admise à la SAUV. En appelant son mari, vous apprenez qu’elle est porteuse d’une bronchite chronique non traitée, d’une hypertension artérielle sous anticalciques et a bénéﬁcié d’une hystérectomie il y a 7 ans. Elle aurait une augmentation des crachats purulents depuis quelques jours, associée à une grande asthénie qui la limite dans sa consommation tabagique habituelle de 1 paquet par jour. L’auscultation retrouve des sibilants expiratoires bilatéraux très important. Elle n’a pas de douleur, pas d’œdème des membres inférieurs, pas de turgescence jugulaire spontanée mais d’importantes sueurs et reste somnolente. Son ECG est normal.\nQuels sont les deux diagnostics les plus probables (et potentiellement associés) ?",
+          "contexte": "La patiente est admise à la SAUV. En appelant son mari, vous apprenez qu’elle est porteuse d’une bronchite chronique non traitée, d’une hypertension artérielle sous anticalciques et a bénéﬁcié d’une hystérectomie il y a 7 ans. Elle aurait une augmentation des crachats purulents depuis quelques jours, associée à une grande asthénie qui la limite dans sa consommation tabagique habituelle de 1 paquet par jour. L’auscultation retrouve des sibilants expiratoires bilatéraux très important. Elle n’a pas de douleur, pas d’œdème des membres inférieurs, pas de turgescence jugulaire spontanée mais d’importantes sueurs et reste somnolente. Son ECG est normal.",
+          "question": "Quels sont les deux diagnostics les plus probables (et potentiellement associés) ?",
           "choix": [
             "A) oedème aigu du poumon",
             "B) asthme aigu grave",
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": "folder-1786300858853-4c11aa0cf64e48",
+      "id": "folder-1790540572750-d8659f7598fa08",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous prenez en charge aux urgences une patiente de 52 ans qui présente une douleur lombaire droite d’installation brutale il y a plusieurs heures. Elle est adressée par le SAMU devant la douleur et l’installation de frissons depuis 1 heure. Elle est pale, en sueurs, présente des marbrures des genoux et est somnolente. Ses paramètres sont les suivants : TA = 95/55 ; FC = 100 ; FR = 25 ; SpO2 = 90%AA ; T° = 39,5°C. Elle n’a reçu aucune thérapeutique pour le moment.",
@@ -331,8 +331,8 @@
         {
           "id": 15,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous apprenez en consultant son dossier médical qu’elle a fait de multiples épisodes de coliques néphrétiques lithiasiques et demandez un scanner des voies urinaires qui retrouve une lithiase de l’uretère lombaire droit avec dilatation des cavités-pyélocalicielles en amont. Le remplissage, bien que bien conduit sur la première heure, n’a pas permis de restaurer une tension artérielle. La patiente est toujours qSOFA =3.\nQuels sont les deux éléments indispensables à sa prise en charge ?",
+          "contexte": "Vous apprenez en consultant son dossier médical qu’elle a fait de multiples épisodes de coliques néphrétiques lithiasiques et demandez un scanner des voies urinaires qui retrouve une lithiase de l’uretère lombaire droit avec dilatation des cavités-pyélocalicielles en amont. Le remplissage, bien que bien conduit sur la première heure, n’a pas permis de restaurer une tension artérielle. La patiente est toujours qSOFA =3.",
+          "question": "Quels sont les deux éléments indispensables à sa prise en charge ?",
           "choix": [
             "A) arrêt des antibiotiques",
             "B) réalisation d’une échographie des voies urinaires",
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "id": "folder-1786300860270-bdfdc9f691afb",
+      "id": "folder-1790540575353-8e6a8238affa6",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -362,8 +362,8 @@
         {
           "id": 16,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous prenez en charge à son domicile Mr X. 19 ans qui a chuté sur la tête dans les escaliers il y a quelques heures. Il s’est initialement relevé sans problème et a repris ses activités habituelles avec seulement quelques céphalées. Sa mère contacte finalement le SAMU 4h plus tard car elle le retrouve endormi sur le canapé et « n’arrive pas à le réveiller ».\nEn eﬀet à l’arrivée vous retrouvez un jeune homme inconscient, les yeux fermés et sans réponse verbale à la stimulation nociceptive. Vous obtenez une réponse en extension stéréotypée au bras gauche à la stimulation douloureuse. L’examen des pupilles montre une asymétrie pupillaire avec une mydriase aréactive à gauche et une pupille intermédiaire à droite.\nQuelles sont les 3 propositions exactes concernant votre prise en charge ?",
+          "contexte": "Vous prenez en charge à son domicile Mr X. 19 ans qui a chuté sur la tête dans les escaliers il y a quelques heures. Il s’est initialement relevé sans problème et a repris ses activités habituelles avec seulement quelques céphalées. Sa mère contacte finalement le SAMU 4h plus tard car elle le retrouve endormi sur le canapé et « n’arrive pas à le réveiller ».\nEn eﬀet à l’arrivée vous retrouvez un jeune homme inconscient, les yeux fermés et sans réponse verbale à la stimulation nociceptive. Vous obtenez une réponse en extension stéréotypée au bras gauche à la stimulation douloureuse. L’examen des pupilles montre une asymétrie pupillaire avec une mydriase aréactive à gauche et une pupille intermédiaire à droite.",
+          "question": "Quelles sont les 3 propositions exactes concernant votre prise en charge ?",
           "choix": [
             "A) le score de Glasgow du patient justifie une intubation orotrachéale",
             "B) vous administrez de l’acide tranexamique 1g IV",
@@ -500,7 +500,7 @@
           "correctionExplanation": "",
           "order": 7,
           "images": [
-            "/images/qcm/urgences-s8/2025/q22.png?v=1786300864311"
+            "/images/qcm/urgences-s8/2025/q22.png?v=1790540583118"
           ]
         },
         {
@@ -579,7 +579,7 @@
           "correctionExplanation": "",
           "order": 8,
           "images": [
-            "/images/qcm/urgences-s8/2025/q23.png?v=1786300865624"
+            "/images/qcm/urgences-s8/2025/q23.png?v=1790540585773"
           ]
         },
         {

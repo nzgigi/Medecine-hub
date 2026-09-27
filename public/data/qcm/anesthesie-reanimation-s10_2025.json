@@ -35,8 +35,8 @@
         {
           "id": 2,
           "type": "QROC",
-          "contexte": "",
-          "question": "L’examen neurologique confirme la raideur méningée. Le reste de l’examen clinique révèle un foyer de crépitants en base gauche, un examen abdominal et urinaire sans particularité, l’absence d’éruption cutanée.\nLa biologie montre un ionogramme normal, fonction rénale normale, l’absence de troubles de la coagulation, un syndrome inflammatoire biologique.\nQuelle est votre hypothèse diagnostique principale ?",
+          "contexte": "L’examen neurologique confirme la raideur méningée. Le reste de l’examen clinique révèle un foyer de crépitants en base gauche, un examen abdominal et urinaire sans particularité, l’absence d’éruption cutanée.\nLa biologie montre un ionogramme normal, fonction rénale normale, l’absence de troubles de la coagulation, un syndrome inflammatoire biologique.",
+          "question": "Quelle est votre hypothèse diagnostique principale ?",
           "choix": [],
           "reponses": [
             "Méningite",
@@ -109,7 +109,7 @@
           "id": 4,
           "type": "QRM",
           "contexte": "",
-          "question": "Le scanner ne montre pas d’engagement cérébral.\nLa ponction lombaire peut être réalisée.\nInterprétez le résultat de cette ponction lombaire :\nAspect du LCR Louche\nBactériologie dans le LCR\nExamen direct : Cocci gram positif\nCultures : en cours",
+          "question": "Le scanner ne montre pas d’engagement cérébral.\nLa ponction lombaire peut être réalisée.\nInterprétez le résultat de cette ponction lombaire :\nAspect du LCR Louche Hématies 330 Eléments nucléés 4000 Polynucléaires\n93\nneutrophiles (%) Lymphocytes\n2\nmatures(%)\nMonocytes-\n5\nmacrophages\nAutres cellules Ras Germes Présence\nProtéines totales\n3.00\nLCR\nGlucose LCR <0.11 Chlore LCR 120 Lactate LCR 15.19\nBactériologie dans le LCR\nExamen direct : Cocci gram positif\nCultures : en cours",
           "choix": [
             "A) Hypoglycorachie",
             "B) Hyperprotéinorachie",
@@ -123,10 +123,7 @@
             "C"
           ],
           "correctionExplanation": "",
-          "order": 4,
-          "images": [
-            "/images/qcm/anesthesie-reanimation-s10/2025/q4.png?v=1786294169306"
-          ]
+          "order": 4
         },
         {
           "id": 5,
@@ -152,8 +149,8 @@
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "A l’arrivée en réanimation, son examen neurologique est le suivant : Absence d’ouverture des yeux à la douleur, absence de réponse verbale à la douleur, mouvement d’enroulement des 4 membres à la douleur.\nSelon vous, quelles sont les propositions exactes ?",
+          "contexte": "A l’arrivée en réanimation, son examen neurologique est le suivant : Absence d’ouverture des yeux à la douleur, absence de réponse verbale à la douleur, mouvement d’enroulement des 4 membres à la douleur.",
+          "question": "Selon vous, quelles sont les propositions exactes ?",
           "choix": [
             "A) La patiente est dans le coma",
             "B) Il s’agit d’un choc neurogénique",
@@ -171,7 +168,7 @@
       ]
     },
     {
-      "id": "folder-1786294170644-9f442d460fb7",
+      "id": "folder-1790535392009-7a3f7b598a4a5",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous prenez en charge au déchocage Monsieur R. 56 ans.\nIl a été pris en charge par le SAMU après avoir présenté un malaise à son domicile. A l’arrivée du SAMU il était confus, au sol, et avait présenté une hématémèse. Il est alors transporté au déchocage.\nAu déchocage les constantes sont les suivantes :\n- PA 85/37 mmHg\n- FC 67 bpm\n- FR 28/min\n- SpO2 97% sous 3L/min d’O2\n- Température centrale 36,6°C.\nIl est équipé de 2 cathéters veineux périphériques de bon calibre.\nA l’examen clinique vous notez une pâleur cutanée, une ascite, une circulation veineuse collatérale abdominale. Les bruits du cœur sont réguliers, sans souffle audible. Le patient est conscient mais ses réponses sont confuses. Il présente une rectorragie massive.\nSes antécédents sont les suivants :\n- cirrhose alcoolique child B7\n- varices œsophagiennes de grade 1 (dernière endoscopie digestive il y a six mois)\n- neuropathie alcoolique\n- dyslipidémie\n- BPCO gold 2\n- diverticulose colique.\nSes traitements sont les suivants : propranolol, innovair, furosémide, aldactone, gabapentine.\nIl a reçu durant son transport une expansion volémique par 500mL de NaCl 0,9%.\nL’hémoglobinémie capillaire est à 5,2 g/dL.",
@@ -319,7 +316,7 @@
       ]
     },
     {
-      "id": "folder-1786294175426-48f8250216252",
+      "id": "folder-1790535399673-f146a9d70392f",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -395,8 +392,8 @@
         {
           "id": 13,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous prenez en charge un patient de 30 ans admis aux urgences pour une agitation, dans un contexte d’intoxication aiguë. Il présence une fièvre à 39,3°C et une fréquence cardiaque à 120 bpm. Votre examen clinique objective une mydriase bilatérale, des réflexes ostéotendineux vifs, et un globe urinaire. Il est confus, agité, et vous supplie de « demander au rhinocéros situé à votre droite de lui donner de l’eau car sa bouche est très sèche ».\nQuel toxidrome diagnostiquez-vous chez votre patient ?",
+          "contexte": "Vous prenez en charge un patient de 30 ans admis aux urgences pour une agitation, dans un contexte d’intoxication aiguë. Il présence une fièvre à 39,3°C et une fréquence cardiaque à 120 bpm. Votre examen clinique objective une mydriase bilatérale, des réflexes ostéotendineux vifs, et un globe urinaire. Il est confus, agité, et vous supplie de « demander au rhinocéros situé à votre droite de lui donner de l’eau car sa bouche est très sèche ».",
+          "question": "Quel toxidrome diagnostiquez-vous chez votre patient ?",
           "choix": [
             "A) Syndrome opioïde",
             "B) Syndrome adrénergique",

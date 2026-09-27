@@ -132,7 +132,7 @@
           "correctionExplanation": "C’est un aspect d’angine erythémato-pultacée. S. aureus n’est pas un pathogène classiquement responsable d’angines, il peut par contre coloniser l’oropharynx et donc être retrouvé sur un prélèvement de gorge ; S. oralis est un commensal de la flore buccale. Corynebacterium diphteriae se présente sous forme d’angine pseudo-membraneuse. L’association fuso-spirillaire se présente sous forme d’angine ulcéro-nécrosante unilatérale. T. pallidum (Syphilis) se présente sous forme d’une ulcération (chancre) unilatérale et indolore. EBV peut être associé à des angines erythémateuses, erythémato-pultacées, ou pseudo-membraneuses. VIH peut être associé à des angines erythémateuses ou erythémato-pultacées. HSV-1 et les entérovirus (Coxsackies notamment) se présentent sous forme d’angines vésiculeuses.",
           "order": 6,
           "images": [
-            "/images/qcm/maladies-transmissibles-s7/2025/q6.png?v=1786296893546"
+            "/images/qcm/maladies-transmissibles-s7/2025/q6.png?v=1790536802589"
           ]
         },
         {
@@ -283,7 +283,7 @@
           "correctionExplanation": "Fièvre chez un patient à haut risque d’EI avec des lésions cutanées évocatrices d’embols.",
           "order": 8,
           "images": [
-            "/images/qcm/maladies-transmissibles-s7/2025/q8.png?v=1786296902634"
+            "/images/qcm/maladies-transmissibles-s7/2025/q8.png?v=1790536842408"
           ]
         },
         {
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "id": "folder-1786296904794-9f5a1121a12678",
+      "id": "folder-1790536851110-e9e7bca967d678",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous recevez aux urgences un homme de 55 ans adressé par son médecin généraliste parce qu’il présente une fièvre avec altération de l’état général. Il est diabétique bien équilibré sous Metformine. Il n’a pas d’allergie. Il n’est pas porteur de matériel et n’a pas voyagé récemment. La fièvre a débuté brutalement il y a 48 heures et est associée à des frissons à claquer des dents. En dehors de céphalées et de myalgies intermittentes rythmées par la fièvre et de l’émission d’une selle liquide ce matin, l’interrogatoire ne retrouve pas de symptôme ORL, respiratoire, digestif, urinaire. Les constantes sont : 40°c, TA 90/60, Fc 120 bpm avec un rythme irrégulier, FR 28/min, SaO2 100% en air ambiant. L’examen neurologique est normal. L’examen n’identifie pas de point d’appel infectieux.",
@@ -396,7 +396,7 @@
       ]
     },
     {
-      "id": "folder-1786296905714-d70b678d9981b8",
+      "id": "folder-1790536852669-b81aef2e706538",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Médecin généraliste, vous voyez en consultation un patient de 23 ans, étudiant, sans antécédents ni traitement habituel. Il fume 10 cigarettes/jour depuis l’âge de 16 ans et a une consommation d’alcool festive. Il n’a pas d’allergies.\nIl décrit des sensations fébriles depuis 4 jours, avec des frissons, des sueurs. Il se plaint depuis quelques jours de mal de gorge, de céphalées et d’arthralgies, partiellement soulagées par le paracétamol. Il présente une toux plutôt sèche et des douleurs basithoraciques bilatérales, majorées à l’inspiration profonde et à la toux. Il présente par ailleurs depuis ce matin une éruption au niveau du tronc, des membres, et des mains, ainsi qu’une conjonctivite bilatérale et une cheilite. La température est mesurée à 38,4°C lors de votre consultation. Sa pression sanguine artérielle est à 120/70 mmHg.",
@@ -405,8 +405,8 @@
         {
           "id": 14,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous lui faites réaliser une radiographie thoracique de face\nQuelle est votre interprétation ?",
+          "contexte": "Vous lui faites réaliser une radiographie thoracique de face",
+          "question": "Quelle est votre interprétation ?",
           "choix": [],
           "reponses": [
             "Pneumopathie bilatérale",
@@ -652,14 +652,14 @@
           "correctionExplanation": "Question ANNULEE",
           "order": 2,
           "images": [
-            "/images/qcm/maladies-transmissibles-s7/2025/q15.png?v=1786296923707"
+            "/images/qcm/maladies-transmissibles-s7/2025/q15.png?v=1790536906617"
           ]
         },
         {
           "id": 16,
           "type": "QRU",
-          "contexte": "",
-          "question": "Le bilan sanguin est le suivant :\nHb 14 g/dL\nLeucocytes 11 G/L dont PNN 8,5 G/L, lymphocytes 1 G/L\nPlaquettes 180 G/L\nCréatininémie 75 µmol/L\nASAT 150 UI/L, ALAT 100 UI/L\nCPK 800 UI/L\nCRP 180 mg/L\nQuelle est le diagnostic le plus probable (une seule réponse) ?",
+          "contexte": "Le bilan sanguin est le suivant :\nHb 14 g/dL\nLeucocytes 11 G/L dont PNN 8,5 G/L, lymphocytes 1 G/L\nPlaquettes 180 G/L\nCréatininémie 75 µmol/L\nASAT 150 UI/L, ALAT 100 UI/L\nCPK 800 UI/L\nCRP 180 mg/L",
+          "question": "Quelle est le diagnostic le plus probable (une seule réponse) ?",
           "choix": [
             "A) Pneumopathie à Pneumocoque",
             "B) Pneumopathie à Legionella pneumophila",
@@ -771,7 +771,7 @@
       ]
     },
     {
-      "id": "folder-1786296927098-68c22b70f3e81",
+      "id": "folder-1790536929986-e9870f8dbd496",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Vous recevez aux urgences en fin de matinée un homme de 18 ans adressé par SOS médecin. Il a de la fièvre et des céphalées faisant suspecter un syndrome méningé. Il n’a pas d’antécédent médical et n’a pas voyagé dans les 6 derniers mois. Il vit en couple et sa compagne est asymptomatique. Il ne prend aucun traitement. La fièvre a débuté hier soir et les céphalées cette nuit. Les céphalées sont permanentes et sont majorées par la lumière. Il a vomi 2 fois. A l’examen : 39°C, TA 130/80, Fc 110 bpm, FR 18/min, SaO2 100% en air ambiant. Il existe une raideur de nuque franche. L’examen neurologique est normal. L’examen dermatologique est normal.",
@@ -848,8 +848,8 @@
         {
           "id": 25,
           "type": "QRU",
-          "contexte": "",
-          "question": "L’analyse du liquide cérébrospinal montre :\nLiquide clair\nCytologie : Hématies : 2/mm3 ; Leucocytes : 180/mm3 dont 175 lymphocytes\nBiochimie : Protéinorachie 0,7 g/L ; Glycorachie : 4 mmol/L ; Lactatorachie : 1 mmol/L\nExamen direct par coloration de gram : pas de bactérie visible\nLes examens biologiques réalisés en parallèle montrent :\nNFS : Hb 13 g/dL ; Plaquettes : 180000/mm3 ; Leucocytes : 4500/mm3\nIonogramme sanguin, bilan hépatique, créatininémie normaux\nGlycémie : 7 mmol/L\nCRP : 12 mg/L\nAvec ces éléments cliniques et biologiques, quel microbe est le plus probablement responsable de la méningite (une seule réponse) ?",
+          "contexte": "L’analyse du liquide cérébrospinal montre :\nLiquide clair\nCytologie : Hématies : 2/mm3 ; Leucocytes : 180/mm3 dont 175 lymphocytes\nBiochimie : Protéinorachie 0,7 g/L ; Glycorachie : 4 mmol/L ; Lactatorachie : 1 mmol/L\nExamen direct par coloration de gram : pas de bactérie visible\nLes examens biologiques réalisés en parallèle montrent :\nNFS : Hb 13 g/dL ; Plaquettes : 180000/mm3 ; Leucocytes : 4500/mm3\nIonogramme sanguin, bilan hépatique, créatininémie normaux\nGlycémie : 7 mmol/L\nCRP : 12 mg/L",
+          "question": "Avec ces éléments cliniques et biologiques, quel microbe est le plus probablement responsable de la méningite (une seule réponse) ?",
           "choix": [
             "A) Neisseria meningitidis",
             "B) Streptococcus pneumoniae",
@@ -866,8 +866,8 @@
         {
           "id": 26,
           "type": "QRU",
-          "contexte": "",
-          "question": "Si l’analyse du liquide cérébrospinal et les examens biologiques avaient montré :\nLiquide cérébrospinal trouble\nCytologie liquide cérébrospinal : Hématies : 2/mm3 ; Leucocytes : 1200/mm3 dont 1100 polynucléaires neutrophiles Biochimie liquide cérébrospinal : Protéinorachie 2 g/L ; Glycorachie : 1 mmol/L\nExamen direct liquide cérébrospinal par coloration de gram : pas de bactérie visible\nNFS : Hb 13 g/dL ; Plaquettes : 180000/mm3 ; Leucocytes : 12500/mm3\nIonogramme sanguin, bilan hépatique, créatininémie normaux\nGlycémie : 7 mmol/L\nCRP : 180 mg/L\nQuel microbe aurait été le plus probablement responsable de la méningite (une seule réponse) ?",
+          "contexte": "Si l’analyse du liquide cérébrospinal et les examens biologiques avaient montré :\nLiquide cérébrospinal trouble\nCytologie liquide cérébrospinal : Hématies : 2/mm3 ; Leucocytes : 1200/mm3 dont 1100 polynucléaires neutrophiles Biochimie liquide cérébrospinal : Protéinorachie 2 g/L ; Glycorachie : 1 mmol/L\nExamen direct liquide cérébrospinal par coloration de gram : pas de bactérie visible\nNFS : Hb 13 g/dL ; Plaquettes : 180000/mm3 ; Leucocytes : 12500/mm3\nIonogramme sanguin, bilan hépatique, créatininémie normaux\nGlycémie : 7 mmol/L\nCRP : 180 mg/L",
+          "question": "Quel microbe aurait été le plus probablement responsable de la méningite (une seule réponse) ?",
           "choix": [
             "A) Neisseria meningitidis",
             "B) Streptococcus pneumoniae",

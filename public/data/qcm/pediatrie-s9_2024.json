@@ -247,7 +247,7 @@
       ]
     },
     {
-      "id": "folder-1786297282585-7dba3ba72f9db8",
+      "id": "folder-1790538234383-0297e58f5922e",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Un nouveau-né au terme de 28 SA + 3 jours naît par voie basse spontanément. L’évaluation postnatale met en évidence une détresse respiratoire",
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "id": "folder-1786297283712-55c3b4a609ea7",
+      "id": "folder-1790538236991-25a28076663f48",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Vous recevez en consultation M... , un nouveau-né de 15 jours. Il s’agit d’un rendez-vous systématique, mais ce matin la maman l’a trouvé chaud et a mesuré une température à 38.4°C. Vous consultez son carnet de santé : il est né à 40 SA + 1 jour, par césarienne pour cause fœtale, la durée de rupture de la poche des eaux était de 3h, le liquide amniotique était clair, score d’Apgar 10 à 1 et 5 min, poids de naissance 2950 g, taille de naissance 49 cm et périmètre crânien 35 cm. C’est un 3ème enfant, il bénéficie d’un allaitement mixte et avait repris son poids de naissance à 11 jours de vie, dernière pesée par la sage-femme",
@@ -352,8 +352,8 @@
         {
           "id": 15,
           "type": "QROC",
-          "contexte": "",
-          "question": "La maman n’a pas eu de fièvre à l’accouchement et son prélèvement vaginal était négatif pour le streptocoque B. Elle a eu une infection urinaire à E. Coli au troisième trimestre de la grossesse, son bébé a eu un dosage de la CRP à J3 qui était négatif\nQuelle est la voie de référence pour mesurer la température d’un nourrisson ?",
+          "contexte": "La maman n’a pas eu de fièvre à l’accouchement et son prélèvement vaginal était négatif pour le streptocoque B. Elle a eu une infection urinaire à E. Coli au troisième trimestre de la grossesse, son bébé a eu un dosage de la CRP à J3 qui était négatif",
+          "question": "Quelle est la voie de référence pour mesurer la température d’un nourrisson ?",
           "choix": [],
           "reponses": [
             "Voie rectale",
@@ -385,8 +385,8 @@
         {
           "id": 16,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous commencez à examiner M....., le poids est stable à 2955 g, soit pas de prise de poids depuis 4 jours, le PC est à 35 cm, la température rectale est à 38.6°C\nQuels sont les 4 signes de gravité associés à la fièvre que vous allez rechercher chez ce nouveau-né ?",
+          "contexte": "Vous commencez à examiner M....., le poids est stable à 2955 g, soit pas de prise de poids depuis 4 jours, le PC est à 35 cm, la température rectale est à 38.6°C",
+          "question": "Quels sont les 4 signes de gravité associés à la fièvre que vous allez rechercher chez ce nouveau-né ?",
           "choix": [
             "A) Signes de lutte respiratoire",
             "B) Troubles digestifs",
@@ -407,8 +407,8 @@
         {
           "id": 17,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous constatez que cet enfant présente des signes de lutte respiratoires marqués et un encombrement nasal. La fréquence cardiaque est à 160/min et la fréquence respiratoire à 70/min. Le Temps de recoloration cutané est à 3s, l’enfant est pâle mais tonique et souriant. L’auscultation cardiaque est normale, l’auscultation pulmonaire retrouve des crépitants aux 2 bases. La fontanelle est normo tendue. La maman vous demande si son bébé peut avoir lui aussi une infection urinaire.\nParmi ces propositions à propos des infections urinaires, quelle est la proposition vraie ?",
+          "contexte": "Vous constatez que cet enfant présente des signes de lutte respiratoires marqués et un encombrement nasal. La fréquence cardiaque est à 160/min et la fréquence respiratoire à 70/min. Le Temps de recoloration cutané est à 3s, l’enfant est pâle mais tonique et souriant. L’auscultation cardiaque est normale, l’auscultation pulmonaire retrouve des crépitants aux 2 bases. La fontanelle est normo tendue. La maman vous demande si son bébé peut avoir lui aussi une infection urinaire.",
+          "question": "Parmi ces propositions à propos des infections urinaires, quelle est la proposition vraie ?",
           "choix": [
             "A) La cystite du nouveau-né est un diagnostic possible chez la fille",
             "B) L’âge < à 6 mois est un critère de gravité pour une pyélonéphrite aiguë de l’enfant",
@@ -425,8 +425,8 @@
         {
           "id": 18,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous expliquez à la maman que ce diagnostic est peu probable car M...... a un point d’appel.\nQuel est le diagnostic le plus probable selon vous ?",
+          "contexte": "Vous expliquez à la maman que ce diagnostic est peu probable car M...... a un point d’appel.",
+          "question": "Quel est le diagnostic le plus probable selon vous ?",
           "choix": [],
           "reponses": [
             "bronchiolite aigue",
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "id": "folder-1786297287202-f07179e10f2c",
+      "id": "folder-1790538246043-5a97aef0c42cd",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Un nourrisson de sexe masculin de 18 mois est amené aux urgences pour une fièvre à 39°5 C évoluant depuis le matin avec vomissements répétés",
@@ -558,8 +558,8 @@
         {
           "id": 24,
           "type": "QRM",
-          "contexte": "",
-          "question": "De manière différée, vous réalisez une ponction lombaire dont voici les résultats\n1000 cellules, avec prédominance de polynucléaires altérés\nProtéinorachie= 0,6g/l\nRapport Glycorachie/Glycémie= 0,2\nExamen direct négatif\nQuel(s) sont les commentaires exacts ?",
+          "contexte": "De manière différée, vous réalisez une ponction lombaire dont voici les résultats\n1000 cellules, avec prédominance de polynucléaires altérés\nProtéinorachie= 0,6g/l\nRapport Glycorachie/Glycémie= 0,2\nExamen direct négatif",
+          "question": "Quel(s) sont les commentaires exacts ?",
           "choix": [
             "A) La négativité de l’examen direct écarte le diagnostic de méningite purulente",
             "B) Il n’existe pas d’hyper-protéinorachie puisque < 1g/l",
@@ -577,7 +577,7 @@
       ]
     },
     {
-      "id": "folder-1786297288100-fdb5028ef0e7c8",
+      "id": "folder-1790538247931-7830e02b43b5b8",
       "type": "DP",
       "title": "Mini DP 3",
       "description": "Vous examinez P...... à la maternité qui présente un syndrome dysmorphique",
@@ -601,7 +601,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/pediatrie-s9/2024/q25.png?v=1786297288369"
+            "/images/qcm/pediatrie-s9/2024/q25.png?v=1790538248632"
           ]
         },
         {

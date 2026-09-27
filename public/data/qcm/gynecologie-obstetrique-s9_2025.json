@@ -35,8 +35,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "Finalement la patiente souhaite garder la grossesse. Elle est actuellement à 12SA + 2j et vous la recevez en consultation de suivi de grossesse pour la première fois. Vous rédigez les ordonnances du 1er trimestre.\nQue lui prescrivez-vous ?",
+          "contexte": "Finalement la patiente souhaite garder la grossesse. Elle est actuellement à 12SA + 2j et vous la recevez en consultation de suivi de grossesse pour la première fois. Vous rédigez les ordonnances du 1er trimestre.",
+          "question": "Que lui prescrivez-vous ?",
           "choix": [
             "A) Une sérologie toxoplasmose",
             "B) Une sérologie rougeole",
@@ -55,8 +55,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un mois plus tard, lors de la consultation mensuelle de suivi, la patiente vous rapporte les résultats de ce que vous lui avez prescrit :\nSérologie toxoplasmose : non immunisée\nSérologie rubéole : immunité acquise\nGlycémie à jeun : 0,91 g/L\nGénotypage RhD fœtal positif\nLe dépistage de la trisomie 21 réalisé à la suite de l’échographie du 1er trimestre retrouve un risque à 1/547.\nElle vous questionne sur les résultats des examens, que pouvez vous lui dire ?",
+          "contexte": "Un mois plus tard, lors de la consultation mensuelle de suivi, la patiente vous rapporte les résultats de ce que vous lui avez prescrit :\nSérologie toxoplasmose : non immunisée\nSérologie rubéole : immunité acquise\nGlycémie à jeun : 0,91 g/L\nGénotypage RhD fœtal positif\nLe dépistage de la trisomie 21 réalisé à la suite de l’échographie du 1er trimestre retrouve un risque à 1/547.",
+          "question": "Elle vous questionne sur les résultats des examens, que pouvez vous lui dire ?",
           "choix": [
             "A) Il est nécessaire d’éviter le contact avec la litière des chats",
             "B) La glycémie à jeun est anormale",
@@ -73,8 +73,8 @@
         {
           "id": 4,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous lui prescrivez un diagnostic prénatal non invasif (DPNI) pour la trisomie 21 qui est revenu négatif.\nLa patiente consulte en urgence pour douleurs lombaires fébriles associées à une bandelette urinaire positive.\nQue faites vous ?",
+          "contexte": "Vous lui prescrivez un diagnostic prénatal non invasif (DPNI) pour la trisomie 21 qui est revenu négatif.\nLa patiente consulte en urgence pour douleurs lombaires fébriles associées à une bandelette urinaire positive.",
+          "question": "Que faites vous ?",
           "choix": [
             "A) Un traitement en dose unique",
             "B) Un traitement probabiliste par céphalosporine de 3ème génération par voie intra veineuse",
@@ -93,8 +93,8 @@
         {
           "id": 5,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous hospitalisez la patiente à 26 SA + 4 j avec un traitement IV. Le bilan biologique objective un syndrome inflammatoire. Vous faites le point sur son dossier et vous demandez une hyperglycémie orale provoquée 75g.\nConcernant le diabète gestationnel (DG) ?",
+          "contexte": "Vous hospitalisez la patiente à 26 SA + 4 j avec un traitement IV. Le bilan biologique objective un syndrome inflammatoire. Vous faites le point sur son dossier et vous demandez une hyperglycémie orale provoquée 75g.",
+          "question": "Concernant le diabète gestationnel (DG) ?",
           "choix": [
             "A) Une glycémie à T1 à 1,57 g/L est synonyme de DG",
             "B) Une glycémie à T2 à 1,82 g/L est synonyme de DG",
@@ -114,8 +114,8 @@
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "Durant l’hospitalisation, la patiente vous appelle pour des contractions utérines douloureuses régulières que vous objectivez avec le monitoring suivant :\nLe toucher vaginal retrouve un col court et est mesuré à 7mm à l’échographie vaginale.\nConcernant la menace d’accouchement prématuré ?",
+          "contexte": "Durant l’hospitalisation, la patiente vous appelle pour des contractions utérines douloureuses régulières que vous objectivez avec le monitoring suivant :\nLe toucher vaginal retrouve un col court et est mesuré à 7mm à l’échographie vaginale.",
+          "question": "Concernant la menace d’accouchement prématuré ?",
           "choix": [
             "A) Elle est définie par des contractions utérines associées à des modifications cervicales",
             "B) L’âge de cette patiente est un facteur de risque",
@@ -132,7 +132,7 @@
           "correctionExplanation": "définition type de la menace d'accouchement prématurée (MAP)\nFDR si âge < 18 ans\nFDR de MAP : tabac, bas niveau socio économique, précarité..., grossesses rapprochées, troubles psy maternels, trauma abdo, métrorragies du 2 et 3ème trimestre\nPEC de la MAP : corticoides car < 34 SA, tocolyse pour le temps de la maturation foetale",
           "order": 6,
           "images": [
-            "/images/qcm/gynecologie-obstetrique-s9/2025/q6.png?v=1786295817028"
+            "/images/qcm/gynecologie-obstetrique-s9/2025/q6.png?v=1790536094866"
           ]
         },
         {
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "id": "folder-1786295820577-96a34e1c9b6a3",
+      "id": "folder-1790536096467-b868099bb1d8",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Vous recevez en consultation une jeune femme de 31 ans, qui consulte à la recherche de renseignements généraux sur le cancer du sein.\nVous recueillez les informations suivantes : ménarches à l’âge de 17 ans, nulligeste nullipare, pas de contraception. S mère est décédée d’un cancer de l’ovaire à 48 ans et une sœur a été opérée d’un cancer du sein droit à l'âge de 34 ans.\nElle est fumeuse à hauteur de 10 paquets-année, son état général est bon et elle ne déclare aucun signe fonctionnel.",
@@ -229,8 +229,8 @@
         {
           "id": 11,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous palpez un nodule suspect, et les examens complémentaires montrent la présence d’un carcinome infiltrant, de 2cm, dans le quadrant supéro-externe droit. Les récepteurs hormonaux de la tumeur sont positifs (RO et RP > 20%), et la tumeur est HER2 positive. L’échographie du creux axillaire ne montre pas d’adénopathie. Le reste du bilan d’extension est normal.\nQuelle sera la prise en charge de la patiente ?",
+          "contexte": "Vous palpez un nodule suspect, et les examens complémentaires montrent la présence d’un carcinome infiltrant, de 2cm, dans le quadrant supéro-externe droit. Les récepteurs hormonaux de la tumeur sont positifs (RO et RP > 20%), et la tumeur est HER2 positive. L’échographie du creux axillaire ne montre pas d’adénopathie. Le reste du bilan d’extension est normal.",
+          "question": "Quelle sera la prise en charge de la patiente ?",
           "choix": [
             "A) En cas de tumorectomie, il n’y aura pas de radiothérapie nécessaire",
             "B) Il faut réaliser un geste de curage ganglionnaire axillaire",
@@ -248,8 +248,8 @@
         {
           "id": 12,
           "type": "QROC",
-          "contexte": "",
-          "question": "Au vu de l’âge de la patiente, et de son antécédent familial, vous allez rechercher une mutation génétique :\nlaquelle ?",
+          "contexte": "Au vu de l’âge de la patiente, et de son antécédent familial, vous allez rechercher une mutation génétique :",
+          "question": "laquelle ?",
           "choix": [],
           "reponses": [
             "BRCA 1",
@@ -314,8 +314,8 @@
         {
           "id": 13,
           "type": "QRM",
-          "contexte": "",
-          "question": "Lors d’une de vos consultations de suivi de son cancer, la patiente vient avec sa sœur de 19 ans. Celle-ci a senti une “boule dans le sein”.\nQuelles sont les réponses justes ?",
+          "contexte": "Lors d’une de vos consultations de suivi de son cancer, la patiente vient avec sa sœur de 19 ans. Celle-ci a senti une “boule dans le sein”.",
+          "question": "Quelles sont les réponses justes ?",
           "choix": [
             "A) En cas de fibroadénome, le nodule est indolore",
             "B) En cas de fibroadénome, le nodule est ferme et mobile",
@@ -333,7 +333,7 @@
       ]
     },
     {
-      "id": "folder-1786295833007-896bfa19050618",
+      "id": "folder-1790536102659-686a019c4b8d2",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous recevez aux urgences obstétricales une patiente de 31 ans, qui consulte pour des oedèmes en fin de grossesse.\nElle n’a aucun antécédent personnel hormis une appendicectomie, et aucun antécédent familial. Elle fume occasionnellement. C’est sa première grossesse, elle est actuellement à 36 SA.",
@@ -430,8 +430,8 @@
         {
           "id": 16,
           "type": "QRU",
-          "contexte": "",
-          "question": "Le rapport protéinurie/créatininurie est à 6 g/g et laa tension est initialement à 21/15 mmHg.\nLes réflexes sont vifs et polycinétiques, la patiente se plaint de céphalées intenses.\nElle finit par convulser devant vous, puis la crise d’éclampsie cède.\nQuel traitement va permettre d'éviter la récidive de la crise d'éclampsie ?",
+          "contexte": "Le rapport protéinurie/créatininurie est à 6 g/g et laa tension est initialement à 21/15 mmHg.\nLes réflexes sont vifs et polycinétiques, la patiente se plaint de céphalées intenses.\nElle finit par convulser devant vous, puis la crise d’éclampsie cède.",
+          "question": "Quel traitement va permettre d'éviter la récidive de la crise d'éclampsie ?",
           "choix": [
             "A) naissance immédiate par césarienne",
             "B) titration antihypertensive par labétalol IVSE",
@@ -448,7 +448,7 @@
       ]
     },
     {
-      "id": "folder-1786295842069-f992ceec222a3",
+      "id": "folder-1790536107284-75f50542692c48",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

@@ -55,8 +55,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le collègue et ami de monsieur R. lui rapporte que son chef d’équipe s’inquiète de son absence, ses arrêts précédents n’ayant duré que quelques jours. Concernant l’employeur, quelle(s) est(sont) la(les) réponses\njuste(s)?",
+          "contexte": "Le collègue et ami de monsieur R. lui rapporte que son chef d’équipe s’inquiète de son absence, ses arrêts précédents n’ayant duré que quelques jours. Concernant l’employeur, quelle(s) est(sont) la(les) réponses",
+          "question": "juste(s)?",
           "choix": [
             "A) L'employeur n’a pas le droit de contacter un salarié lors de son arrêt de travail et ce quelque soit sa durée",
             "B) Une visite de pré-reprise peut être demandée par l’employeur.",
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": "folder-1786299988019-655f59f24c321",
+      "id": "folder-1790539705903-583000d52c9cf8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Médecin du travail dans un service interentreprise, vous avez remarqué que plusieurs salariés d’une imprimerie se plaignaient d'acouphènes et de baisses de l'audition",
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": "folder-1786299989401-6c1ae7b05cc16",
+      "id": "folder-1790539708696-bddeea686fe198",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -219,8 +219,8 @@
         {
           "id": 10,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous êtes interne de médecine du travail en stage dans un service de santé au travail interentreprise, vous recevez madame S. , 45 ans, dans le cadre de sa visite périodique. Elle avait été vue pour la dernière fois il y a 5 ans.\nElle occupe un poste de secrétaire de direction dans une entreprise du tertiaire, elle n’est pas exposée à des risques particuliers nécessitant un suivi individuel renforcé.\nElle vous rapporte au milieu de la consultation que sa demande de RQTH (reconnaissance en qualité de travailleur handicapé) pour un trouble bipolaire vient d’être acceptée.\nConcernant la visite périodique en santé au travail, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
+          "contexte": "Vous êtes interne de médecine du travail en stage dans un service de santé au travail interentreprise, vous recevez madame S. , 45 ans, dans le cadre de sa visite périodique. Elle avait été vue pour la dernière fois il y a 5 ans.\nElle occupe un poste de secrétaire de direction dans une entreprise du tertiaire, elle n’est pas exposée à des risques particuliers nécessitant un suivi individuel renforcé.\nElle vous rapporte au milieu de la consultation que sa demande de RQTH (reconnaissance en qualité de travailleur handicapé) pour un trouble bipolaire vient d’être acceptée.",
+          "question": "Concernant la visite périodique en santé au travail, quelle(s) est(sont) le(s) réponse(s) juste(s)?",
           "choix": [
             "A) La périodicité du suivi jusqu’ici (avant la reconnaissance en RQTH) est conforme à la réglementation concernant notre patiente",
             "B) Cette visite est une visite d’information et de prévention.",

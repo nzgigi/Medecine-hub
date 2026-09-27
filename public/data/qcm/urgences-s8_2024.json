@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous accueillez en service d’urgences Mme O. âgée de 68 ans suite à une fièvre évoluant depuis 24 heures associée à une pollakiurie. A son arrivée, les paramètres vitaux étaient : tension artérielle 91/59 mmHg, fréquence cardiaque 111 bpm, fréquence respiratoire 26/min, saturation 96 % en air ambiant. Elle a pour seul antécédent une pyélonéphrite non compliquée à l’âge de 29 ans, une appendicectomie et une HTA actuellement sous amlodipine. Elle ne rapporte pas d’hospitalisation récente ou de voyage à l’étranger. La bandelette urinaire faite à son arrivée retrouve des leucocytes +++ et nitrites ++. Le reste du bilan biologique est en attente est vous avez débutez une expansion volémique.\nA partir de ces premiers éléments, quels sont les 2 antibiotiques que vous allez débuter ?",
+          "contexte": "Vous accueillez en service d’urgences Mme O. âgée de 68 ans suite à une fièvre évoluant depuis 24 heures associée à une pollakiurie. A son arrivée, les paramètres vitaux étaient : tension artérielle 91/59 mmHg, fréquence cardiaque 111 bpm, fréquence respiratoire 26/min, saturation 96 % en air ambiant. Elle a pour seul antécédent une pyélonéphrite non compliquée à l’âge de 29 ans, une appendicectomie et une HTA actuellement sous amlodipine. Elle ne rapporte pas d’hospitalisation récente ou de voyage à l’étranger. La bandelette urinaire faite à son arrivée retrouve des leucocytes +++ et nitrites ++. Le reste du bilan biologique est en attente est vous avez débutez une expansion volémique.",
+          "question": "A partir de ces premiers éléments, quels sont les 2 antibiotiques que vous allez débuter ?",
           "choix": [
             "A) sulfamethoxazole-trimethoprime",
             "B) ceftriaxone",
@@ -56,8 +56,8 @@
         {
           "id": 3,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mlle S., âgé de 22 ans est amenée en service d’urgence par les pompiers suite à un accident lors de son cours de Judo. Elle rapporte une violente douleur de l’épaule gauche lors d’une prise de judo. Il s’agit du premier épisode, cliniquement l’épaule est hyperalgique et irréductible. Vous suspectez un premier épisode de luxation antérieur traumatique d’épaule gauche.\nParmi les propositions suivantes, lesquelles réalisez-vous en urgence avant d’envisager la réduction de cette luxation ?",
+          "contexte": "Mlle S., âgé de 22 ans est amenée en service d’urgence par les pompiers suite à un accident lors de son cours de Judo. Elle rapporte une violente douleur de l’épaule gauche lors d’une prise de judo. Il s’agit du premier épisode, cliniquement l’épaule est hyperalgique et irréductible. Vous suspectez un premier épisode de luxation antérieur traumatique d’épaule gauche.",
+          "question": "Parmi les propositions suivantes, lesquelles réalisez-vous en urgence avant d’envisager la réduction de cette luxation ?",
           "choix": [
             "A) rechercher la présence du pouls radial",
             "B) rechercher un déficit moteur flexion du poignet",
@@ -196,7 +196,7 @@
           "correctionExplanation": "",
           "order": 9,
           "images": [
-            "/images/qcm/urgences-s8/2024/q9.png?v=1786300835558"
+            "/images/qcm/urgences-s8/2024/q9.png?v=1790540529720"
           ]
         },
         {
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": "folder-1786300836192-fe95146a0ea59",
+      "id": "folder-1790540531048-35d200a75f3958",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Une patiente, âgée de 26 ans, se présente se présente en maison médicale de garde car elle présente des signes fonctionnels urinaires évolutifs depuis 24 heures. Elle rapporte des envies fréquentes d’uriner. Elle n’a pas d’antécédent. Vous suspectez une infection unaire.",
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "id": "folder-1786300839619-bbfbde552a7be",
+      "id": "folder-1790540537999-2b0412a2b2e158",
       "type": "DP",
       "title": "DP 1",
       "description": "Vous êtes médecin urgentiste à la SAUV. Vous recevez M. P, 52 ans.\nIl est amené par le SMUR dans un contexte d’hématémèse, c’est le compagnon de M. P qui a appelé le 15 devant 2 épisodes d’hématémèse (2 fois l’équivalent d’un demi bol).\nA l’arrivée du SMUR, le patient présente les paramètres vitaux suivants :\nTA 94/45 mmHg (Pam 61 mmHg)\nFC 108 bpm\nSpO2 95% en AA\nFR 28\nNormoglyqué / Normotherme\nAu cours du transport, le patient a présenté des rectorragies. Il a bénéficié d’un remplissage vasculaire par cristalloïdes de 250mL. Avec ce traitement, les paramètres vitaux restent identiques.\nLe médecin du SMUR, après vous avoir fait les transmissions, vous signale que le compagnon du patient était très probablement alcoolisé et que l’appartement était rempli de bouteilles d’alcool. Ni le patient ni le compagnon étaient en mesure de vous donner les antécédents et les traitements de votre patient.\nVous recherchez le patient sur votre logiciel afin d’en savoir un peu plus. Vous découvrez qu’il a été suivi il y a 3 ans en hépatologie pour une cirrhose alcoolique CHILD B7 à ce moment-là. Il avait eu plusieurs endoscopies qui retrouvaient des varices œsophagiennes de grade 1. Il était traité par PROPRANOLOL. Il n’avait pas d’ascite.\nDepuis, le patient ne s’est pas présenté aux consultations de suivi. Il a consulté une fois aux urgences il y a quelques mois pour une chute au domicile sans gravité.",
@@ -370,7 +370,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/urgences-s8/2024/q15.png?v=1786300840821"
+            "/images/qcm/urgences-s8/2024/q15.png?v=1790540539810"
           ]
         },
         {
@@ -417,8 +417,8 @@
         {
           "id": 18,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous recevez les résultats du bilan biologique :\nHb 5.2 g/dL ; Plaquettes 96 G/L\nTP 62% ; TCA 0.87 ; Fibrinogène 2.9 g/L\nCréatininémie 92 µmol/L ; urée plasmatique 13 mmol/L\nNa 138 mmol/L ; K 4.3 mmol/L\nGaz du sang artériel : pH 7.28 ; PO2 (sous 2L/min) 91 mmHg ; PCO2 30 mmHg ; Lactate 5.6 mmol/L ; HCO3- 18 mmol/L Concernant le bilan biologique du patient. Quelles sont les 2 réponses justes ?",
+          "contexte": "Vous recevez les résultats du bilan biologique :\nHb 5.2 g/dL ; Plaquettes 96 G/L\nTP 62% ; TCA 0.87 ; Fibrinogène 2.9 g/L\nCréatininémie 92 µmol/L ; urée plasmatique 13 mmol/L\nNa 138 mmol/L ; K 4.3 mmol/L",
+          "question": "Gaz du sang artériel : pH 7.28 ; PO2 (sous 2L/min) 91 mmHg ; PCO2 30 mmHg ; Lactate 5.6 mmol/L ; HCO3- 18 mmol/L Concernant le bilan biologique du patient. Quelles sont les 2 réponses justes ?",
           "choix": [
             "A) il existe une acidose mixte",
             "B) il existe une acidose métabolique non compensée",
@@ -475,7 +475,7 @@
       ]
     },
     {
-      "id": "folder-1786300843820-f85f3b553f704",
+      "id": "folder-1790540543940-498263646ea9f",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous êtes de garde aux urgences, vous recevez madame V, 87 ans pour chute. La patiente présente une amnésie des faits, son interrogatoire est limité. Elle a pour principal antécédent une maladie d’Alzheimer, une cardiopathie ischémique stentée, ainsi qu’une maladie cœliaque. Son traitement comporte Kardegic 75mg le midi, atorvastatine 10mg le matin, et oxazepam 10mg le soir. Madame V a une impotence fonctionnelle du poignet droit avec déformation évocatrice d'une fracture. Le mécanisme lésionnel est en compression flexion.",

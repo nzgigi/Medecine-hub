@@ -118,8 +118,8 @@
         {
           "id": 5,
           "type": "QRU",
-          "contexte": "",
-          "question": "Les lactates sont normaux ainsi que le reste du bilan biologique.\nQuel examen d’imagerie vous semble le plus important à réaliser dans ce contexte ?",
+          "contexte": "Les lactates sont normaux ainsi que le reste du bilan biologique.",
+          "question": "Quel examen d’imagerie vous semble le plus important à réaliser dans ce contexte ?",
           "choix": [
             "A) radiographie thoracique",
             "B) TDM cérébral SPC",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "folder-1786300790047-4f6d684a49689",
+      "id": "folder-1790540448984-792901fcdc2cb8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Une patiente de 54 ans est adressée aux urgences pour troubles de la vigilance. Elle est traitée depuis quelques jours par de la morphine sulfate (Skenan° 10 mg 1 comprimé matin et soir et Actiskenan° 5 mg 4 comprimés par jour) pour une fracture du poignet droit avec un traitement orthopédique (pas de chirurgie). C’est son mari, en rentrant du travail, qui l’a retrouvé dans le canapé, difficilement réveillable. Elle n’aurait rien pris d’autre que ce traitement-là. Le mari est rentré du travail à 17h30.\nA l’examen à 19h30, elle est somnolente mais réveillable à la stimulation verbale, les pupilles sont en myosis et elle présente une bradypnée à 9 par minute.",
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": "folder-1786300795176-1b4d8ba5ecb0a8",
+      "id": "folder-1790540458848-62f01477119a98",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -284,8 +284,8 @@
         {
           "id": 10,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous êtes médecin généraliste et recevez Monsieur V, 45 ans, épileptique pour renouvellement de son ordonnance de lévétiracétam qui se termine la semaine prochaine. Il n’a pas d’autre antécédent et ne prend pas d’autre traitement. Il vous informe qu’il continue de présenter des crises tonicocloniques généralisées tous les mois malgré une bonne observance et l’absence d’effet indésirable de ses traitements. Pendant votre examen il présente une crise habituelle de 3 minutes.\nEn quoi consiste votre prise en charge au cabinet ?",
+          "contexte": "Vous êtes médecin généraliste et recevez Monsieur V, 45 ans, épileptique pour renouvellement de son ordonnance de lévétiracétam qui se termine la semaine prochaine. Il n’a pas d’autre antécédent et ne prend pas d’autre traitement. Il vous informe qu’il continue de présenter des crises tonicocloniques généralisées tous les mois malgré une bonne observance et l’absence d’effet indésirable de ses traitements. Pendant votre examen il présente une crise habituelle de 3 minutes.",
+          "question": "En quoi consiste votre prise en charge au cabinet ?",
           "choix": [
             "A) administration d’une Benzodiazépine",
             "B) installation en position latérale de sécurité",
@@ -379,8 +379,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un nourrisson de 19 mois est admis aux urgences pédiatriques pour une convulsion fébrile. La crise cède au bout de 20 minutes lors de l’administration de diazepam intrarectal. Il présente de la ﬁèvre depuis la veille ainsi que des vomissements et une modiﬁcation du comportement selon les parents. La glycémie capillaire à l’arrivée aux urgences est à 0.9g/l, la CRP microméthode à 175mg/l.\nVous l’examinez à l’arrêt de la convulsion, quels éléments de votre examen clinique contre-indiqueraient la réalisation d’une ponction lombaire immédiatement chez ce nourrisson ?",
+          "contexte": "Un nourrisson de 19 mois est admis aux urgences pédiatriques pour une convulsion fébrile. La crise cède au bout de 20 minutes lors de l’administration de diazepam intrarectal. Il présente de la ﬁèvre depuis la veille ainsi que des vomissements et une modiﬁcation du comportement selon les parents. La glycémie capillaire à l’arrivée aux urgences est à 0.9g/l, la CRP microméthode à 175mg/l.",
+          "question": "Vous l’examinez à l’arrêt de la convulsion, quels éléments de votre examen clinique contre-indiqueraient la réalisation d’une ponction lombaire immédiatement chez ce nourrisson ?",
           "choix": [
             "A) un score de Glasgow pédiatrique à 13",
             "B) une fréquence cardiaque à 60 bpm",

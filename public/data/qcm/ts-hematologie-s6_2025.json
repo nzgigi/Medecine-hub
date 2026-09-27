@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous recevez Madame V âgée de 20 ans en consultation consulte pour une fatigue persistante depuis 2 mois. Elle signale également une dyspnée à l’effort, des vertiges et une chute de cheveux.\nParmi les propositions suivantes, lesquelles recherchez-vous à l’interrogatoire pour orienter le diagnostic ?",
+          "contexte": "Vous recevez Madame V âgée de 20 ans en consultation consulte pour une fatigue persistante depuis 2 mois. Elle signale également une dyspnée à l’effort, des vertiges et une chute de cheveux.",
+          "question": "Parmi les propositions suivantes, lesquelles recherchez-vous à l’interrogatoire pour orienter le diagnostic ?",
           "choix": [
             "A) Changement de partenaire",
             "B) Régime alimentaire",
@@ -35,8 +35,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "La patiente a des règles très abondantes. Elle est végétarienne depuis un an. Pas de troubles digestifs, pas de médicaments. Pas de grossesse récente.\nParmi les propositions suivantes, quelles sont des causes possibles de carence martiale chez cette patiente?",
+          "contexte": "La patiente a des règles très abondantes. Elle est végétarienne depuis un an. Pas de troubles digestifs, pas de médicaments. Pas de grossesse récente.",
+          "question": "Parmi les propositions suivantes, quelles sont des causes possibles de carence martiale chez cette patiente?",
           "choix": [
             "A) Règles abondantes",
             "B) Régime végétarien",
@@ -73,8 +73,8 @@
         {
           "id": 4,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous prescrivez un bilan biologique à Madame V qui retrouve les valeurs suivantes :\nHb : 96g/L\nVGM : 72fL\nCCMH : 29g/dL\nPlaquettes : 215 G/L\nLeucocytes : 5G/L , formule leucocytaire normal\nFerritine : 8ng/mL\nCRP <5g/L\nParmi les propositions suivantes, quelles anomalies sont caractéristiques d’une carence martiale ?",
+          "contexte": "Vous prescrivez un bilan biologique à Madame V qui retrouve les valeurs suivantes :\nHb : 96g/L\nVGM : 72fL\nCCMH : 29g/dL\nPlaquettes : 215 G/L\nLeucocytes : 5G/L , formule leucocytaire normal\nFerritine : 8ng/mL\nCRP <5g/L",
+          "question": "Parmi les propositions suivantes, quelles anomalies sont caractéristiques d’une carence martiale ?",
           "choix": [
             "A) Anémie arégénérative",
             "B) Macrocytose",
@@ -113,8 +113,8 @@
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous revoyez Madame V 1 mois après la prescription de fer ferreux. Elle rapporte une amélioration modérée de la fatigue. Voici son bilan biologique:\nHb : 110g/L\nVGM : 79fL\nPlaquettes : 230G/L\nLeucocytes : 5,2G/L\nFerritine : 12ng/mL\nParmi les affirmations suivantes concernant le suivi et l’efficacité du traitement, lesquelles sont exactes ?",
+          "contexte": "Vous revoyez Madame V 1 mois après la prescription de fer ferreux. Elle rapporte une amélioration modérée de la fatigue. Voici son bilan biologique:\nHb : 110g/L\nVGM : 79fL\nPlaquettes : 230G/L\nLeucocytes : 5,2G/L\nFerritine : 12ng/mL",
+          "question": "Parmi les affirmations suivantes concernant le suivi et l’efficacité du traitement, lesquelles sont exactes ?",
           "choix": [
             "A) L'objectif du traitement est la normalisation du taux d'hémoglobine",
             "B) L'objectif du traitement est la normalisation de la ferritine",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": "folder-1786300478447-2f52a410a43e2",
+      "id": "folder-1790540062546-03ee45ef999f28",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "",
@@ -142,8 +142,8 @@
         {
           "id": 7,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mr C, 52 ans, se présente aux urgences pour altération de l’état général : perte d’appétit depuis 15 jours, perte de poids et dyspnée depuis une semaine. Sur le bilan biologique réalisé aux urgences, l’hémogramme montre :\nHémoglobine 5,4 g/dL, VGM 95,6 fL, TCMH 31 pg, CCMH 35,5 g/dL, plaquettes 87 G/L, leucocytes 6,4 G/L.\nQuelle(s) anomalie(s) retrouve-t-on sur la lignée des rouges ?",
+          "contexte": "Mr C, 52 ans, se présente aux urgences pour altération de l’état général : perte d’appétit depuis 15 jours, perte de poids et dyspnée depuis une semaine. Sur le bilan biologique réalisé aux urgences, l’hémogramme montre :\nHémoglobine 5,4 g/dL, VGM 95,6 fL, TCMH 31 pg, CCMH 35,5 g/dL, plaquettes 87 G/L, leucocytes 6,4 G/L.",
+          "question": "Quelle(s) anomalie(s) retrouve-t-on sur la lignée des rouges ?",
           "choix": [
             "A) Une anémie hypochrome",
             "B) Une anémie normochrome",
@@ -161,8 +161,8 @@
         {
           "id": 8,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mr C, 52 ans, se présente aux urgences pour altération de l’état général : perte d’appétit depuis 15 jours, perte de poids et dyspnée depuis une semaine. Sur le bilan biologique réalisé aux urgences, l’hémogramme montre :\nHémoglobine 5,4 g/dL, VGM 95,6 fL, TCMH 31 pg, CCMH 35,5 g/dL, plaquettes 87 G/L, leucocytes 6,4 G/L.\nQuelle(s) anomalie(s) retrouve-t-on sur les autres lignées ?",
+          "contexte": "Mr C, 52 ans, se présente aux urgences pour altération de l’état général : perte d’appétit depuis 15 jours, perte de poids et dyspnée depuis une semaine. Sur le bilan biologique réalisé aux urgences, l’hémogramme montre :\nHémoglobine 5,4 g/dL, VGM 95,6 fL, TCMH 31 pg, CCMH 35,5 g/dL, plaquettes 87 G/L, leucocytes 6,4 G/L.",
+          "question": "Quelle(s) anomalie(s) retrouve-t-on sur les autres lignées ?",
           "choix": [
             "A) Une thrombopénie",
             "B) Une thrombocytose",
@@ -179,8 +179,8 @@
         {
           "id": 9,
           "type": "QRM",
-          "contexte": "",
-          "question": "Les résultats de la formule leucocytaire montrent : polynucléaires neutrophiles 0,4 G/L, polynucléaires éosinophiles 0,3 G/L, polynucléaires basophiles 0 G/L, lymphocytes 1,5 G/L, monocytes à 0,8 G/L, blastes 14 %.\nQuelle(s) anomalie(s) retrouvez-vous sur la formule leucocytaire ?",
+          "contexte": "Les résultats de la formule leucocytaire montrent : polynucléaires neutrophiles 0,4 G/L, polynucléaires éosinophiles 0,3 G/L, polynucléaires basophiles 0 G/L, lymphocytes 1,5 G/L, monocytes à 0,8 G/L, blastes 14 %.",
+          "question": "Quelle(s) anomalie(s) retrouvez-vous sur la formule leucocytaire ?",
           "choix": [
             "A) Une polynucléose neutrophile",
             "B) Une neutropénie",
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "id": "folder-1786300480357-36002fd924866",
+      "id": "folder-1790540066191-571bcd483bdfe8",
       "type": "DP",
       "title": "DP 1",
       "description": "Vous recevez Monsieur M., âgé de 66 ans, en consultation d’anesthésie-réanimation pour la prise en charge d’une résection transurétrale de prostate. Il s’agit d’une opération bénigne mais qui peut notamment se compliquer de saignements ou d’infection.",
@@ -281,8 +281,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous poursuivez l’interrogatoire et apprenez qu’il a déjà subi ce même type d’opération l’année passée et que les suites opératoires avaient été compliquées d’une rétention aiguë d’urines sur un très volumineux caillot.\nQuel(s) examen(s) complémentaire(s) demandez-vous devant cet antécédent hémorragique ?",
+          "contexte": "Vous poursuivez l’interrogatoire et apprenez qu’il a déjà subi ce même type d’opération l’année passée et que les suites opératoires avaient été compliquées d’une rétention aiguë d’urines sur un très volumineux caillot.",
+          "question": "Quel(s) examen(s) complémentaire(s) demandez-vous devant cet antécédent hémorragique ?",
           "choix": [
             "A) Aucun examen complémentaire n’est nécessaire car il s’agit d’une opération bénigne.",
             "B) Une numération formule sanguine avec numération plaquettaire.",
@@ -301,8 +301,8 @@
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le bilan d’hémostase standard montre un TP à 75 % et un TCA ratio à 1,38 soit un TCA patient à 40 secondes pour un TCA témoin à 29 secondes. Le fibrinogène est normal, ainsi que la NFS et la numération plaquettaire.\nParmi les 5 situations indépendantes suivantes, quelles sont celles qui peuvent être correctes ?",
+          "contexte": "Le bilan d’hémostase standard montre un TP à 75 % et un TCA ratio à 1,38 soit un TCA patient à 40 secondes pour un TCA témoin à 29 secondes. Le fibrinogène est normal, ainsi que la NFS et la numération plaquettaire.",
+          "question": "Parmi les 5 situations indépendantes suivantes, quelles sont celles qui peuvent être correctes ?",
           "choix": [
             "A) L’opération n’est prévue que dans 2 semaines, vous contrôlez le bilan d’hémostase standard sur un nouveau prélèvement.",
             "B) En lisant le compte-rendu biologique, vous constatez que l’an passé, le TCA ratio de votre patient était isolément anormal, vous demandez au laboratoire une exploration du TCA.",
@@ -321,8 +321,8 @@
         {
           "id": 16,
           "type": "QRM",
-          "contexte": "",
-          "question": "Les explorations que vous avez demandées montrent un taux de facteur IX contrôlé à 36 %.\nQu’en pensez-vous ?",
+          "contexte": "Les explorations que vous avez demandées montrent un taux de facteur IX contrôlé à 36 %.",
+          "question": "Qu’en pensez-vous ?",
           "choix": [
             "A) Un taux de facteur IX diminué à 36 % doit impérativement faire rechercher une anomalie du facteur Willebrand afin d’éliminer une maladie de Willebrand associée.",
             "B) Un taux de facteur IX diminué à 36 % peut faire rechercher une hypovitaminose K.",
@@ -341,8 +341,8 @@
         {
           "id": 17,
           "type": "QRM",
-          "contexte": "",
-          "question": "Au final, votre patient présente une hémophilie B mineure, de découverte tardive car peu/pas symptomatique hors contexte chirurgical. Un protocole adapté a été établi et la chirurgie s’est déroulée sans complication.\nSes enfants, un garçon et une fille de 29 et 27 ans respectivement, ont été dépistés et aucun ne porte/transmet la maladie ; vous recevez d’abord la jeune femme pour lui communiquer les résultats.\nEn discutant pendant la consultation, celle-ci se plaint d’une douleur croissante du membre inférieur gauche évoluant depuis 48h. La douleur est particulièrement vive au niveau du mollet à tel point qu’elle a des difficultés à marcher. Vous suspectez une thrombose veineuse profonde du membre inférieur gauche.\nQue demandez-vous à l’interrogatoire qui soit en rapport avec votre suspicion diagnostique ?",
+          "contexte": "Au final, votre patient présente une hémophilie B mineure, de découverte tardive car peu/pas symptomatique hors contexte chirurgical. Un protocole adapté a été établi et la chirurgie s’est déroulée sans complication.\nSes enfants, un garçon et une fille de 29 et 27 ans respectivement, ont été dépistés et aucun ne porte/transmet la maladie ; vous recevez d’abord la jeune femme pour lui communiquer les résultats.\nEn discutant pendant la consultation, celle-ci se plaint d’une douleur croissante du membre inférieur gauche évoluant depuis 48h. La douleur est particulièrement vive au niveau du mollet à tel point qu’elle a des difficultés à marcher. Vous suspectez une thrombose veineuse profonde du membre inférieur gauche.",
+          "question": "Que demandez-vous à l’interrogatoire qui soit en rapport avec votre suspicion diagnostique ?",
           "choix": [
             "A) Est-ce la première fois que vous éprouvez une douleur de ce type ?",
             "B) Comment est-ce arrivé ?",
@@ -362,8 +362,8 @@
         {
           "id": 18,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous apprenez qu’il s’agit du premier épisode, qu’il n’y a pas de contexte particulier pour cet épisode thrombotique que vous qualifiez de distal et spontané. De plus, la patiente n’a jamais été opérée et porte un dispositif intra-utérin imprégné d’un progestatif. Cliniquement, l’examen ne fait aucune place au doute.\nQuelle(s) sont les affirmations correctes parmi celles proposées ?",
+          "contexte": "Vous apprenez qu’il s’agit du premier épisode, qu’il n’y a pas de contexte particulier pour cet épisode thrombotique que vous qualifiez de distal et spontané. De plus, la patiente n’a jamais été opérée et porte un dispositif intra-utérin imprégné d’un progestatif. Cliniquement, l’examen ne fait aucune place au doute.",
+          "question": "Quelle(s) sont les affirmations correctes parmi celles proposées ?",
           "choix": [
             "A) C’est un premier épisode : je ne dois pas faire de bilan complémentaire.",
             "B) C’est un épisode spontané chez une femme jeune en âge de procréer : je fais un bilan de thrombophilie.",

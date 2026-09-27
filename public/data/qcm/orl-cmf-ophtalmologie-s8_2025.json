@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous êtes interne de chirurgie maxillofaciale de garde.\nVous êtes appelée par les urgences pour venir examiner M. G 32 après une bagarre en boîte de nuit.\nQuels sont les éléments cliniques qui vous feront suspecter une fracture maxillomandibulaire ?",
+          "contexte": "Vous êtes interne de chirurgie maxillofaciale de garde.\nVous êtes appelée par les urgences pour venir examiner M. G 32 après une bagarre en boîte de nuit.",
+          "question": "Quels sont les éléments cliniques qui vous feront suspecter une fracture maxillomandibulaire ?",
           "choix": [
             "A) limitation d'ouverture buccale",
             "B) épistaxis",
@@ -89,8 +89,8 @@
         {
           "id": 5,
           "type": "QRU",
-          "contexte": "",
-          "question": "A peine recouché, vous êtes rappelée aux urgences pour un nouveau patient qui selon l'urgentiste à une suspicion de « fracture du visage ». Il s'agit de monsieur L. 21 ans qui a subi un traumatisme au rugby.\nVous faites réaliser un scanner du massif facial sans injection que voici.\nQuel est votre diagnostic ?",
+          "contexte": "A peine recouché, vous êtes rappelée aux urgences pour un nouveau patient qui selon l'urgentiste à une suspicion de « fracture du visage ». Il s'agit de monsieur L. 21 ans qui a subi un traumatisme au rugby.\nVous faites réaliser un scanner du massif facial sans injection que voici.",
+          "question": "Quel est votre diagnostic ?",
           "choix": [
             "A) fracture de la paroi médiale de l'orbite droite",
             "B) fracture du plancher de l'orbite en trappe droit",
@@ -104,7 +104,7 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q5.png?v=1786297244155"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q5.png?v=1790538138009"
           ]
         },
         {
@@ -126,7 +126,7 @@
           "correctionExplanation": "",
           "order": 6,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q6.png?v=1786297244742"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q6.png?v=1790538138586"
           ]
         },
         {
@@ -147,13 +147,13 @@
           "correctionExplanation": "",
           "order": 7,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q7.png?v=1786297245063"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q7.png?v=1790538139198"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786297245330-a05196b3423058",
+      "id": "folder-1790538139549-44fbb137df96f8",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Un patient de 58 ans, diabétique et hypertendu, se présente un soir aux urgences ophtalmologiques, pour Œil droit douloureux avec baisse de vision.\nIl était en train de bricoler à l’aide d’un marteau, quand il a ressenti une vive douleur au niveau de son œil droit.",
@@ -177,7 +177,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q8.png?v=1786297245495"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q8.png?v=1790538140073"
           ]
         },
         {
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "id": "folder-1786297246481-6cf1d4475ecf08",
+      "id": "folder-1790538142144-b1b90957117",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -351,7 +351,7 @@
           "correctionExplanation": "",
           "order": 6,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q16.png?v=1786297248225"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q16.png?v=1790538147222"
           ]
         },
         {
@@ -382,7 +382,7 @@
           "correctionExplanation": "Endophtalmie",
           "order": 7,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q17.png?v=1786297248688"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q17.png?v=1790538148023"
           ]
         },
         {
@@ -449,7 +449,7 @@
       ]
     },
     {
-      "id": "folder-1786297250728-3703327c388aa8",
+      "id": "folder-1790538153814-c8ce382878f95",
       "type": "SQI",
       "title": "DL 2",
       "description": "",
@@ -582,7 +582,7 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q24.png?v=1786297254255"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q24.png?v=1790538164771"
           ]
         },
         {
@@ -604,13 +604,13 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q25.png?v=1786297254704"
+            "/images/qcm/orl-cmf-ophtalmologie-s8/2025/q25.png?v=1790538165824"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786297255055-f660e4ebf2f58",
+      "id": "folder-1790538166578-4b90a82200495",
       "type": "DP",
       "title": "DP 2",
       "description": "",
@@ -619,8 +619,8 @@
         {
           "id": 26,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un homme de 55 ans, conducteur de bus, est adressé aux urgences pour l’apparition brutale de vertiges invalidants avec nausées et vomissements, apparus le matin au réveil.\nIl n’a aucun antécédent particulier et ne prend aucun traitement.\nC’est le premier épisode de ce type.\nL’interrogatoire révèle une notion de syndrome viral il y a quelques jours.\nLe patient décrit de vrais vertiges rotatoires qui durent depuis plusieurs heures, sans hypoacousie ni acouphènes associés. A l’otoscopie, les tympans sont normaux.\nSous vidéonystagmoscopie, on note un nystagmus spontané horizo-rotatoire gauche grade III.\nIl existe un syndrome postural droit.\nLe reste de l’examen neurologique est normal.\nQuel(s) est (sont) vos (votre) diagnostic ?",
+          "contexte": "Un homme de 55 ans, conducteur de bus, est adressé aux urgences pour l’apparition brutale de vertiges invalidants avec nausées et vomissements, apparus le matin au réveil.\nIl n’a aucun antécédent particulier et ne prend aucun traitement.\nC’est le premier épisode de ce type.\nL’interrogatoire révèle une notion de syndrome viral il y a quelques jours.\nLe patient décrit de vrais vertiges rotatoires qui durent depuis plusieurs heures, sans hypoacousie ni acouphènes associés. A l’otoscopie, les tympans sont normaux.\nSous vidéonystagmoscopie, on note un nystagmus spontané horizo-rotatoire gauche grade III.\nIl existe un syndrome postural droit.\nLe reste de l’examen neurologique est normal.",
+          "question": "Quel(s) est (sont) vos (votre) diagnostic ?",
           "choix": [
             "A) Vertige positionnel paroxystique bénin",
             "B) Labyrinthite aiguë",

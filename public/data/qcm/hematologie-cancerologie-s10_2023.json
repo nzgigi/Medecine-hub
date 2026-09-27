@@ -9,14 +9,14 @@
       "id": "default-questions",
       "type": "DP",
       "title": "DP 1",
-      "description": "Un patient de 23 ans vient à votre cabinet, pour l'auto-palpation d'une adénomégalie cervicale jugulo-carotidienne médiane droite de 2 x 3 cm\nIl n'a aucun ATCD médico-chirurgical, pas de traitement. ",
+      "description": "Un patient de 23 ans vient à votre cabinet, pour l'auto-palpation d'une adénomégalie cervicale jugulo-carotidienne médiane droite de 2 x 3 cm\nIl n'a aucun ATCD médico-chirurgical, pas de traitement.",
       "order": 1,
       "questions": [
         {
           "id": 1,
           "type": "QRM",
           "contexte": "",
-          "question": "** Quels paramètres cliniques vous orient-ils vers une cause infectieuse? **",
+          "question": "Quels paramètres cliniques vous orient-ils vers une cause infectieuse?",
           "choix": [
             "A) La douleur locale",
             "B) Une lymphangite",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "id": "folder-1786296034170-8e1b20e81f9ed",
+      "id": "folder-1790536220385-6c65797cb85bd",
       "type": "DP",
       "title": "DP 2",
       "description": "Un patient de 74 ans vient d’avoir le diagnostic de cancer du pancréas devant un tableau de douleurs abdominales épigastriques, amaigrissement de 10% de son poids en 2 mois, asthénie et anorexie se majorant depuis 3 mois (actuellement IP OMS 1).\nIl s’agit d’un ancien ouvrier, vivant en milieu semi-rural, marié sans enfant, en situation financière précaire.\nIl présente un tabagisme estimé à 40 paquets-années, un DNID depuis 7 ans, une HTA équilibrée sous monothérapie.\nSur le plan familial, il a 3 sœurs âgés de 70 à 82 ans ; sa sœur aînée a eu un cancer du sein à 78 ans (elle est toujours « sous traitement hormonal »). Parmi ses 8 neveux et nièces, un neveu est décédé récemment d’un cancer du poumon à 59 ans (fumeur) et une nièce eu un cancer du col de l’utérus (« dû au virus »).\nLe bilan complet qu’il vient de réaliser permet de conclure à un adénocarcinome du pancréas métastatique d’emblée au niveau hépatique, ganglionnaire rétropéritonéal et pulmonaire.\nLe traitement standard à lui proposer est une chimiothérapie visant à ralentir l’évolution de la maladie (pas de traitement « curatif » possible dans ces conditions) ; ce traitement a été discuté et validé en RCP (Réunion de Concertation Pluridisciplinaire)\nIl est adressé en « consultation d’annonce » à l’oncologue pour sa prise en charge et la mise en route de la chimiothérapie :",
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "id": "folder-1786296037476-3c49e742179188",
+      "id": "folder-1790536223146-0e6ca4b062b1d",
       "type": "DP",
       "title": "DP 3",
       "description": "Vous avez prescrit à Me T, âgée de 65 ans, une mammographie car vous avez palpé une masse dure dans le quadrant supéro-externe de son sein droit d’environ 25-30 mm de diamètre. Elle revient vous voir en consultation avec les images ci-dessous.",
@@ -287,8 +287,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "Deux biopsies sont réalisées sous échographie : l’une au niveau de la tumeur mammaire primitive et l’autre au niveau d’un ganglion axillaire droit. Il s’agit d’un carcinome canalaire infitrant de grade 3. Résultats des analyses en immunohistochimie :\nRE50%+++, RP40%++ et HER2 ++. Pas d’amplification de HER2 en hybridation in situ. Le ganglion est métastatique.\nParmi les propositions suivantes concernant l’immunohistochimie, lesquelles sont vraies ?",
+          "contexte": "Deux biopsies sont réalisées sous échographie : l’une au niveau de la tumeur mammaire primitive et l’autre au niveau d’un ganglion axillaire droit. Il s’agit d’un carcinome canalaire infitrant de grade 3. Résultats des analyses en immunohistochimie :\nRE50%+++, RP40%++ et HER2 ++. Pas d’amplification de HER2 en hybridation in situ. Le ganglion est métastatique.",
+          "question": "Parmi les propositions suivantes concernant l’immunohistochimie, lesquelles sont vraies ?",
           "choix": [
             "A) Elle utilise une réaction immunologique antigène-anticorps pour identifier et localiser des protéines au niveau des cellules, par exemple tumorales, d’un prélèvement",
             "B) L’analyse des marquages en immunohistochimie peut être qualitative ou quantitative",
@@ -327,8 +327,8 @@
         {
           "id": 16,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le diagnostic de cancer du sein est donc posé avec certitude. Vous demandez un bilan d’extension à distance\nParmi les propositions suivantes, lesquelles sont vraies ?",
+          "contexte": "Le diagnostic de cancer du sein est donc posé avec certitude. Vous demandez un bilan d’extension à distance",
+          "question": "Parmi les propositions suivantes, lesquelles sont vraies ?",
           "choix": [
             "A) Vous demandez un bilan d’extension afin de vous assurer de l’absence de métastase et d’avoir un projet thérapeutique curatif",
             "B) La classification TNM a une valeur pronostique pour les cancers du sein et pour toutes les autres tumeurs solides",
@@ -368,8 +368,8 @@
         {
           "id": 18,
           "type": "QRM",
-          "contexte": "",
-          "question": "Après l’acte chirurgical, il est décidé d’un traitement complémentaire par radiothérapie et hormonothérapie.\nConcernant cette hormonothérapie, quelles sont les propositions justes parmi les suivantes ?",
+          "contexte": "Après l’acte chirurgical, il est décidé d’un traitement complémentaire par radiothérapie et hormonothérapie.",
+          "question": "Concernant cette hormonothérapie, quelles sont les propositions justes parmi les suivantes ?",
           "choix": [
             "A) Elle aura pour but de réduire le risque de rechute métastatique tout comme les cytotoxiques lorsqu’ils sont indiqués",
             "B) Il s’agira d’une hormonothérapie néoadjuvante",
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "id": "folder-1786296040437-c21ed805418778",
+      "id": "folder-1790536225670-0862d4ffd24d38",
       "type": "KFP",
       "title": "KFP 1",
       "description": "",
@@ -441,8 +441,8 @@
         {
           "id": 21,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous recevez les résultats suivants :\nHémostase : TP 45%, fibrinogène 0.5 g/L\nMyélogramme : moelle de grade 3, 58% de blastes comportant des corps d’Auer en fagot\nCaryotype : mise en évidence de la translocation t(15;17) générant le transcrit de fusion PML::RARA.\nDe quelle catégorie de leucémie s’agit-il ?",
+          "contexte": "Vous recevez les résultats suivants :\nHémostase : TP 45%, fibrinogène 0.5 g/L\nMyélogramme : moelle de grade 3, 58% de blastes comportant des corps d’Auer en fagot\nCaryotype : mise en évidence de la translocation t(15;17) générant le transcrit de fusion PML::RARA.",
+          "question": "De quelle catégorie de leucémie s’agit-il ?",
           "choix": [
             "A) Leucémie aiguë lymphoblastique",
             "B) Leucémie myéloïde chronique",
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "id": "folder-1786296042180-e7112dc63c0488",
+      "id": "folder-1790536227102-d2466e25f3ad6",
       "type": "KFP",
       "title": "KFP 2",
       "description": "Un homme de 64 ans consulte aux urgences pour des troubles du transit avec distension abdominale depuis un mois. A l’examen clinique, il présente une augmentation du volume abdominal avec une matité diffuse. Le toucher rectal met en évidence une masse indurée. L’échographie abdomino-pelvienne faite aux urgences montre une suspicion de carcinose péritonéale diffuse. Parmi ses antécédents familiaux, on retrouve un cancer de l’endomètre chez une sœur à 50 ans et un cancer du côlon chez son cousin à 49 ans.",
@@ -546,7 +546,7 @@
       ]
     },
     {
-      "id": "folder-1786296044825-2653c29562a5c",
+      "id": "folder-1790536229311-49ec2fd1e1559",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -555,8 +555,8 @@
         {
           "id": 25,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous avez vu en consultation il y a quelques semaines un patient de 18 ans pour un prurit nu depuis 2 mois dont le bilan allergologique est revenu négatif. Depuis, il décrit l'apparition de sueurs nocturnes associées à une majoration de l'asthénie. Vous faites réaliser une biopsie d'une adénopathie médiastinale : par téléphone, l'anatomopathologiste vous indique la présence de quelques cellules de très grande taille au noyau volumineux binucléolé exprimant CD30 et CD15.\nQuel est votre diagnostic ?",
+          "contexte": "Vous avez vu en consultation il y a quelques semaines un patient de 18 ans pour un prurit nu depuis 2 mois dont le bilan allergologique est revenu négatif. Depuis, il décrit l'apparition de sueurs nocturnes associées à une majoration de l'asthénie. Vous faites réaliser une biopsie d'une adénopathie médiastinale : par téléphone, l'anatomopathologiste vous indique la présence de quelques cellules de très grande taille au noyau volumineux binucléolé exprimant CD30 et CD15.",
+          "question": "Quel est votre diagnostic ?",
           "choix": [],
           "reponses": [
             "Maladie de Hodgkin",
@@ -586,8 +586,8 @@
         {
           "id": 26,
           "type": "QRM",
-          "contexte": "",
-          "question": "Voici les résultats de l'hémogramme de Mr A., 45 ans, sans antécédent, réalisé en raison d'une asthénie modérée :\nHémoglobine : 14,5 g/dL\nVGM : 90 fL\nTCMH : 30 pg\nCCMH : 31 g/dL\nPlaquettes : 300 G/L\nLeucocytes : 6,9 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 1,5 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 2,1 G/L\n- Monocytes : 0,5 G/L\nDevant ces résultats, quel(s) élement(s) recherchez-vous à l'interrogatoire ?",
+          "contexte": "Voici les résultats de l'hémogramme de Mr A., 45 ans, sans antécédent, réalisé en raison d'une asthénie modérée :\nHémoglobine : 14,5 g/dL\nVGM : 90 fL\nTCMH : 30 pg\nCCMH : 31 g/dL\nPlaquettes : 300 G/L\nLeucocytes : 6,9 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 1,5 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 2,1 G/L\n- Monocytes : 0,5 G/L",
+          "question": "Devant ces résultats, quel(s) élement(s) recherchez-vous à l'interrogatoire ?",
           "choix": [
             "A) un voyage hors de France métropolitaine",
             "B) la présence d'animaux domestiques",
@@ -608,8 +608,8 @@
         {
           "id": 27,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mr A., 67 ans, est adressé en consultation devant la découverte d'un myélome multiple suite à l'exploration d'un pic monoclonal de type IgG kappa à l’électrophorèse des protéines sériques.\nParmi les examens suivants, lequel (lesquels) demandez-vous pour pouvoir décider de la prise en charge thérapeutique ?",
+          "contexte": "Mr A., 67 ans, est adressé en consultation devant la découverte d'un myélome multiple suite à l'exploration d'un pic monoclonal de type IgG kappa à l’électrophorèse des protéines sériques.",
+          "question": "Parmi les examens suivants, lequel (lesquels) demandez-vous pour pouvoir décider de la prise en charge thérapeutique ?",
           "choix": [
             "A) une calcémie",
             "B) un scanner cérébral",
@@ -628,8 +628,8 @@
         {
           "id": 28,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mr B. 34 ans consulte pour la découverte récente d'un lymphome B diffus à grandes cellules devant l'apparition d'adénopathies associées à des sueurs nocturnes .\nQuel(s) examen(s) demandez-vous pour le bilan d'extension ?",
+          "contexte": "Mr B. 34 ans consulte pour la découverte récente d'un lymphome B diffus à grandes cellules devant l'apparition d'adénopathies associées à des sueurs nocturnes .",
+          "question": "Quel(s) examen(s) demandez-vous pour le bilan d'extension ?",
           "choix": [
             "A) un scanner cervico-thoraco-abdomino-pelvien",
             "B) une tomographie par émission de positons",
@@ -647,8 +647,8 @@
         {
           "id": 29,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un homme de 33 ans consulte pour une tuméfaction cervicale gauche associée à une altération de l'état général avec fièvre vespérale et sueurs nocturnes depuis 1 mois. L'examen clinique est normal en dehors de multiples adénopathies cervicales, sus-claviculaires et axillaires. La plus volumineuse, basi-cervicale gauche, mesure 4 cm de grand axe. L'hémogramme et le ionogramme sont normaux.\nQuel examen à visée diagnostique demandez-vous ?",
+          "contexte": "Un homme de 33 ans consulte pour une tuméfaction cervicale gauche associée à une altération de l'état général avec fièvre vespérale et sueurs nocturnes depuis 1 mois. L'examen clinique est normal en dehors de multiples adénopathies cervicales, sus-claviculaires et axillaires. La plus volumineuse, basi-cervicale gauche, mesure 4 cm de grand axe. L'hémogramme et le ionogramme sont normaux.",
+          "question": "Quel examen à visée diagnostique demandez-vous ?",
           "choix": [
             "A) un myélogramme",
             "B) une biopsie ganglionnaire",
@@ -665,8 +665,8 @@
         {
           "id": 30,
           "type": "QRU",
-          "contexte": "",
-          "question": "Mme A., 65 ans, sans antécédent, consulte pour la découverte sur un bilan de ville fait à titre systématique d’une anomalie de l'hémogramme dont voici les résultats :\nHémoglobine :14,5 g/dL\nVGM : 90 fL\nTCMH : 30 pg\nCCMH : 30 g/dL\nPlaquettes : 300 G/L\nLeucocytes : 15,4 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 0 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 12,1 G/L\n- Monocytes : 0,5 G/L\nQuestion 1 : Quelle pathologie suspectez-vous ?",
+          "contexte": "Mme A., 65 ans, sans antécédent, consulte pour la découverte sur un bilan de ville fait à titre systématique d’une anomalie de l'hémogramme dont voici les résultats :\nHémoglobine :14,5 g/dL\nVGM : 90 fL\nTCMH : 30 pg\nCCMH : 30 g/dL\nPlaquettes : 300 G/L\nLeucocytes : 15,4 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 0 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 12,1 G/L\n- Monocytes : 0,5 G/L",
+          "question": "Question 1 : Quelle pathologie suspectez-vous ?",
           "choix": [
             "A) une leucémie aiguë myéloide",
             "B) une leucémie myéloide chronique",
@@ -702,8 +702,8 @@
         {
           "id": 32,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mme A., 62 ans, consulte pour une fatigue inhabituelle présente depuis maintenant 3 semaines. Dans ses antécédents, on retient une hypertension traitée par Atenolol.\nVoici les résultats de l'hémogramme :\nHémoglobine :10,5 g/dL\nVGM :76 fL\nTCMH :25 pg\nCCMH :26 g/dL\nPlaquettes : 500 G/L\nLeucocytes : 5,4 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 0 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 2,1 G/L\n- Monocytes : 0,5 G/L\nQuestion 1 : Quelle(s) est (sont) l'(les) anomalie(s) présente(s) sur l'hémogramme ?",
+          "contexte": "Mme A., 62 ans, consulte pour une fatigue inhabituelle présente depuis maintenant 3 semaines. Dans ses antécédents, on retient une hypertension traitée par Atenolol.\nVoici les résultats de l'hémogramme :\nHémoglobine :10,5 g/dL\nVGM :76 fL\nTCMH :25 pg\nCCMH :26 g/dL\nPlaquettes : 500 G/L\nLeucocytes : 5,4 G/L, dont :\n- Polynucléaires neutrophiles : 2,8 G/L\n- Polynucléaires éosinophiles : 0 G/L\n- Polynucléaires basophiles : 0 G/L\n- Lymphocytes : 2,1 G/L\n- Monocytes : 0,5 G/L",
+          "question": "Question 1 : Quelle(s) est (sont) l'(les) anomalie(s) présente(s) sur l'hémogramme ?",
           "choix": [
             "A) une anémie",
             "B) une thrombopénie",

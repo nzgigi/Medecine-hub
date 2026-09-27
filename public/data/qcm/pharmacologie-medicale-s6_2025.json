@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "",
-          "question": "En tant que médecin généraliste, vous recevez en consultation Mme D., 22 ans, qui souhaite une contraception hormonale. Elle ne présente pas d’antécédents médicaux particuliers, et fume en moyenne 5 cigarettes par jour. Concernant la contraception hormonale, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
+          "contexte": "En tant que médecin généraliste, vous recevez en consultation Mme D., 22 ans, qui souhaite une contraception hormonale. Elle ne présente pas d’antécédents médicaux particuliers, et fume en moyenne 5 cigarettes par jour.",
+          "question": "Concernant la contraception hormonale, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
           "choix": [
             "A) L’implant contraceptif contient de l’ethinylestradiol seul, libéré dans l’organisme pendant 3 ans",
             "B) Les contraceptifs contenant de la drospirenone exposent au risque d’hypokaliemie",
@@ -34,8 +34,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous décidez de lui prescrire une pilule oestro-progestative.\nConcernant les propriétés pharmacologiques des œstrogènes, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
+          "contexte": "Vous décidez de lui prescrire une pilule oestro-progestative.",
+          "question": "Concernant les propriétés pharmacologiques des œstrogènes, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
           "choix": [
             "A) Ils augmentent l’agrégation plaquettaire",
             "B) Ils sont anabolisants",
@@ -74,8 +74,8 @@
         {
           "id": 4,
           "type": "QRM",
-          "contexte": "",
-          "question": "En raison du tabagisme de Mme D, vous souhaitez prendre en compte le risque thrombotique de cette patiente. Concernant le risque de thrombose et la contraception, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
+          "contexte": "En raison du tabagisme de Mme D, vous souhaitez prendre en compte le risque thrombotique de cette patiente.",
+          "question": "Concernant le risque de thrombose et la contraception, laquelle (ou lesquelles) de ces propositions est (sont) exacte(s) ?",
           "choix": [
             "A) il est accru sous oestroprogestatif",
             "B) Les pilules de quatrième génération présentent deux fois moins de risque de thrombose que les autres pilules",
@@ -114,7 +114,7 @@
           "id": 6,
           "type": "QRM",
           "contexte": "",
-          "question": "Si la grossesse persiste, il faudra évaluer le risque lié à la prise potentielle de médicaments par Mme D. Concernant l’évaluation du risque d’un médicament pris par une femme enceinte :",
+          "question": "Si la grossesse persiste, il faudra évaluer le risque lié à la prise potentielle de médicaments par Mme D.\nConcernant l’évaluation du risque d’un médicament pris par une femme enceinte :",
           "choix": [
             "A) un médicament pris avant la grossesse peut entraîner des effets sur l’enfant à naître",
             "B) les antagonistes des recepteurs de l’angiotensine2 (-sartan) sont les antihypertenseurs de choix chez la femme enceinte",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": "folder-1786299604313-6d72eea0730ed8",
+      "id": "folder-1790538750819-ba6818f45429e8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",

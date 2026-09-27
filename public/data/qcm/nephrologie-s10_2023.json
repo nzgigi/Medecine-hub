@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "folder-1786297073010-832fda956929f8",
+      "id": "folder-1790537408288-80005ae5f458a8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -154,8 +154,8 @@
         {
           "id": 4,
           "type": "QRU",
-          "contexte": "",
-          "question": "Mr G, 72 ans, se présente aux urgences, adressé par son médecin traitant pour une protéinurie avec altération de l’état général. Le bilan biologique réalisé en ville retrouve : créatininémie à 120 µmol/L, protidémie à 81 g/L, albumine à 28 g/L, protéinurie à 4 g/g et albuminurie à 15 mg/g. GR: 9/mm3.\nParmi les diagnostics suivants, quel est le seul diagnostic compatible avec la situation ?",
+          "contexte": "Mr G, 72 ans, se présente aux urgences, adressé par son médecin traitant pour une protéinurie avec altération de l’état général. Le bilan biologique réalisé en ville retrouve : créatininémie à 120 µmol/L, protidémie à 81 g/L, albumine à 28 g/L, protéinurie à 4 g/g et albuminurie à 15 mg/g. GR: 9/mm3.",
+          "question": "Parmi les diagnostics suivants, quel est le seul diagnostic compatible avec la situation ?",
           "choix": [
             "A) Une vascularite à ANCA",
             "B) Une glomérulonéphrite extramembraneuse",
@@ -190,8 +190,8 @@
         {
           "id": 6,
           "type": "QRM",
-          "contexte": "",
-          "question": "Une patiente est admise pour un syndrome néphrotique. Elle est en anasarque avec une prise de poids de 10 kg. Sur le plan biologique, créatininémie à 80 µmol/L, natrémie à 136 mmol/L.\nEn dehors du traitement étiologique, quelles mesures mettez-vous en place ?",
+          "contexte": "Une patiente est admise pour un syndrome néphrotique. Elle est en anasarque avec une prise de poids de 10 kg. Sur le plan biologique, créatininémie à 80 µmol/L, natrémie à 136 mmol/L.",
+          "question": "En dehors du traitement étiologique, quelles mesures mettez-vous en place ?",
           "choix": [
             "A) Un repos strict au lit",
             "B) Une restriction hydrique à 500 cc",
@@ -228,8 +228,8 @@
         {
           "id": 8,
           "type": "QRM",
-          "contexte": "",
-          "question": "Une patiente de 25 ans vient d’apprendre le diagnostic de polykystose rénale autosomique dominante.\nQuelles sont les atteintes extra-rénales qu’elle est susceptible de présenter ?",
+          "contexte": "Une patiente de 25 ans vient d’apprendre le diagnostic de polykystose rénale autosomique dominante.",
+          "question": "Quelles sont les atteintes extra-rénales qu’elle est susceptible de présenter ?",
           "choix": [
             "A) kystes spléniques",
             "B) anévrysme de l’aorte",
@@ -247,8 +247,8 @@
         {
           "id": 9,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous prenez soin d’un homme de 35 ans hospitalisé pour une détresse respiratoire aiguë le menant en réanimation. Rapidement, vous voyez apparaître : Hémoglobine 8,2 g/dL, plaquettes 50 G/L. Les LDH sont à 2000 (N<245 U/L). L’haptoglobine est effondrée. Le test de Coombs est négatif. La créatininémie est passée de 90 à 150 µmol/L en 48 heures. Le patient devient hypertendu.\nQuels sont les diagnostics à évoquer ?",
+          "contexte": "Vous prenez soin d’un homme de 35 ans hospitalisé pour une détresse respiratoire aiguë le menant en réanimation. Rapidement, vous voyez apparaître : Hémoglobine 8,2 g/dL, plaquettes 50 G/L. Les LDH sont à 2000 (N<245 U/L). L’haptoglobine est effondrée. Le test de Coombs est négatif. La créatininémie est passée de 90 à 150 µmol/L en 48 heures. Le patient devient hypertendu.",
+          "question": "Quels sont les diagnostics à évoquer ?",
           "choix": [
             "A) coagulation intra-vasculaire disséminée",
             "B) syndrome hémolytique et urémique atypique",
@@ -285,8 +285,8 @@
         {
           "id": 11,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un patient est admis pour confusion. La calcémie est à 3,1 mmol/L.\nQuelles sont les complications possibles de ce trouble hydro-électrolytique ?",
+          "contexte": "Un patient est admis pour confusion. La calcémie est à 3,1 mmol/L.",
+          "question": "Quelles sont les complications possibles de ce trouble hydro-électrolytique ?",
           "choix": [
             "A) un diabète insipide néphrogénique",
             "B) un diabète insipide central",
@@ -305,8 +305,8 @@
         {
           "id": 12,
           "type": "QROC",
-          "contexte": "",
-          "question": "Un patient de 22 ans vous consulte en raison de plusieurs symptômes. Il a présenté de la fièvre, et une otite il y a quelques jours, puis du sang dans les urines, visible à l’œil nu pendant plusieurs mictions. A l’examen il n’y a aucun signe remarquable à l’exception d’une tension artérielle mesurée à 2 reprises à 150/95 mmHg. La bandelette urinaire que vous réalisez montre :\nph 5,5 GB 0, GR +++, prot ++.\nQuel est le diagnostic néphrologique le plus probable ?",
+          "contexte": "Un patient de 22 ans vous consulte en raison de plusieurs symptômes. Il a présenté de la fièvre, et une otite il y a quelques jours, puis du sang dans les urines, visible à l’œil nu pendant plusieurs mictions. A l’examen il n’y a aucun signe remarquable à l’exception d’une tension artérielle mesurée à 2 reprises à 150/95 mmHg. La bandelette urinaire que vous réalisez montre :\nph 5,5 GB 0, GR +++, prot ++.",
+          "question": "Quel est le diagnostic néphrologique le plus probable ?",
           "choix": [],
           "reponses": [
             "Néphropathie à IgA primitive",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": "folder-1786297080593-7990dbffd90e",
+      "id": "folder-1790537476264-b2030128b6108",
       "type": "DP",
       "title": "DP 1",
       "description": "Une femme de 75 ans est adressée aux urgences pour douleurs abdominales évoluant depuis quelques jours, et une dyspnée au repos s’aggravant depuis quelques heures. Elle n’a aucun antécédent connu. L’examen clinique retrouve une tension artérielle à 140/95 mmHg, une apyrexie. La saturation est à 100%. En revanche la fréquence respiratoire est à 30/min. Le bilan biologique montre : pH 7.25, pO2 110 mmHg, pCO2 15 mmHg, HCO3 9 mmol/L. Sodium 140 mmol/L, Potassium 6 mmol/L, Chlore 91 mmol/L.",
@@ -491,14 +491,14 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/nephrologie-s10/2023/q15.png?v=1786297081051"
+            "/images/qcm/nephrologie-s10/2023/q15.png?v=1790537479308"
           ]
         },
         {
           "id": 16,
           "type": "QRU",
-          "contexte": "",
-          "question": "La patiente bénéficie rapidement d’un scanner abdomino-pelvien que voici :\nQuelle est votre conclusion ?",
+          "contexte": "La patiente bénéficie rapidement d’un scanner abdomino-pelvien que voici :",
+          "question": "Quelle est votre conclusion ?",
           "choix": [
             "A) Kystes parapyéliques bilatéraux",
             "B) Reins en fer à cheval",
@@ -512,8 +512,8 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/nephrologie-s10/2023/q16.png?v=1786297081420",
-            "/images/qcm/nephrologie-s10/2023/q16_1.png?v=1786297081518"
+            "/images/qcm/nephrologie-s10/2023/q16.png?v=1790537480771",
+            "/images/qcm/nephrologie-s10/2023/q16_1.png?v=1790537481162"
           ]
         },
         {
@@ -600,8 +600,8 @@
         {
           "id": 19,
           "type": "QRM",
-          "contexte": "",
-          "question": "La cause de la dilatation pyélocalicielle présentée par la patiente était un cancer gynécologique. La créatinine est à 140 μmol/L après dérivation des urines. La patiente débute un traitement par chimiothérapie. Après 1 mois de traitement, la créatinine passe à 240 μmol/L. Cette fois-ci l’imagerie est sans particularité, les sondes sont en place, il n’y a pas de dilatation des cavités pyélocalicielles. Vous obtenez les informations complémentaires : urée 40 mmol/L, sodium urinaire < 20 mmol/L, potassium urinaire 60 mmol/L.\nQuelles sont vos conclusions quant à cette nouvelle insuffisance rénale ?",
+          "contexte": "La cause de la dilatation pyélocalicielle présentée par la patiente était un cancer gynécologique. La créatinine est à 140 μmol/L après dérivation des urines. La patiente débute un traitement par chimiothérapie. Après 1 mois de traitement, la créatinine passe à 240 μmol/L. Cette fois-ci l’imagerie est sans particularité, les sondes sont en place, il n’y a pas de dilatation des cavités pyélocalicielles. Vous obtenez les informations complémentaires : urée 40 mmol/L, sodium urinaire < 20 mmol/L, potassium urinaire 60 mmol/L.",
+          "question": "Quelles sont vos conclusions quant à cette nouvelle insuffisance rénale ?",
           "choix": [
             "A) elle est aiguë sur chronique",
             "B) le rapport urée/créatinine est en faveur d’une atteinte fonctionnelle",
@@ -621,8 +621,8 @@
         {
           "id": 20,
           "type": "QRU",
-          "contexte": "",
-          "question": "Malgré la réhydratation et l’arrêt des néphrotoxiques, la créatinine continue de s’aggraver au bout de 3 jours. Vous obtenez les analyses urinaires suivantes: GR: 5/mm3, GB: 0/mm3. Protéinurie : 0,4 g/g de créatininurie. Micro-albuminurie 25 mg/g de créatininurie.\nQuel est le diagnostic compatible avec ce tableau ?",
+          "contexte": "Malgré la réhydratation et l’arrêt des néphrotoxiques, la créatinine continue de s’aggraver au bout de 3 jours. Vous obtenez les analyses urinaires suivantes: GR: 5/mm3, GB: 0/mm3. Protéinurie : 0,4 g/g de créatininurie. Micro-albuminurie 25 mg/g de créatininurie.",
+          "question": "Quel est le diagnostic compatible avec ce tableau ?",
           "choix": [
             "A) néphrite interstitielle aiguë",
             "B) syndrome de micro-angiopathie thrombotique",
@@ -639,7 +639,7 @@
       ]
     },
     {
-      "id": "folder-1786297084301-bbad757b936e4",
+      "id": "folder-1790537500766-9b04426c85dc2",
       "type": "DP",
       "title": "DP 2",
       "description": "Vous recevez en consultation un patient de 65 ans. Il vous présente le bilan suivant : créatinine à 150 μmol/L soit un DFG 41 mL/min/1,73 m2. Il a réalisé une échographie rénale qui dédouane une obstruction.",
@@ -742,8 +742,8 @@
         {
           "id": 26,
           "type": "QRM",
-          "contexte": "",
-          "question": "Trois mois après la transplantation, le patient est hospitalisé pour une altération de sa fonction rénale. La créatinine plasmatique est passée de 95 à 180 μmol/L. La tension artérielle qui était à 120/80 sous ramipril a augmenté à 160/90 mmHg. Son traitement immunosuppresseur comprend du tacrolimus, du mycophénolate mofétil et des corticoïdes.\nQuels examens prescrivez-vous en première intention ?",
+          "contexte": "Trois mois après la transplantation, le patient est hospitalisé pour une altération de sa fonction rénale. La créatinine plasmatique est passée de 95 à 180 μmol/L. La tension artérielle qui était à 120/80 sous ramipril a augmenté à 160/90 mmHg. Son traitement immunosuppresseur comprend du tacrolimus, du mycophénolate mofétil et des corticoïdes.",
+          "question": "Quels examens prescrivez-vous en première intention ?",
           "choix": [
             "A) Une échographie du transplant.",
             "B) Un Doppler de l’artère du transplant",
@@ -763,8 +763,8 @@
         {
           "id": 27,
           "type": "QRU",
-          "contexte": "",
-          "question": "L’échographie et le doppler du transplant sont normaux, le taux sérique de tacrolimus est 7 ng/ml (N 5-10). L’ECBU retrouve GB : 550/mm3, GR : 180/mm3. La CRP est à 80 mg/l. Le patient frissonne et devient fébrile.\nQuel est le diagnostic le plus probable?",
+          "contexte": "L’échographie et le doppler du transplant sont normaux, le taux sérique de tacrolimus est 7 ng/ml (N 5-10). L’ECBU retrouve GB : 550/mm3, GR : 180/mm3. La CRP est à 80 mg/l. Le patient frissonne et devient fébrile.",
+          "question": "Quel est le diagnostic le plus probable?",
           "choix": [
             "A) une cystite",
             "B) un rejet aigu",

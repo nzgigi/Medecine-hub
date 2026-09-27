@@ -74,8 +74,8 @@
         {
           "id": 4,
           "type": "QRM",
-          "contexte": "",
-          "question": "L’akee est un arbre (originaire d’Afrique occidentale) dont le fruit non mûr contient un acide aminé particulier métabolisé en un dérivé CoA qui inhibe irréversiblement l’acyl-CoA deshydrogénase. La consommation des fruits non mûrs de l’akee provoque des troubles graves pouvant conduire à la mort.\nSur ces bases-là, à quelle(s) conséquence(s) métabolique(s) pouvez-vous vous attendre ?",
+          "contexte": "L’akee est un arbre (originaire d’Afrique occidentale) dont le fruit non mûr contient un acide aminé particulier métabolisé en un dérivé CoA qui inhibe irréversiblement l’acyl-CoA deshydrogénase. La consommation des fruits non mûrs de l’akee provoque des troubles graves pouvant conduire à la mort.",
+          "question": "Sur ces bases-là, à quelle(s) conséquence(s) métabolique(s) pouvez-vous vous attendre ?",
           "choix": [
             "A) Une diminution de la production d’acétyl-CoA (à partir des acides gras) dans la mitochondrie",
             "B) Un excès de production de malonyl-CoA",
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "id": "folder-1786294567489-67937cd2f292",
+      "id": "folder-1790535544830-cbe1dcf4c5728",
       "type": "DP",
       "title": "DP 1",
       "description": "Chez un de vos jeunes patients vous diagnostiquez un diabète de type 1.",
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "id": "folder-1786294569631-1011b421d75238",
+      "id": "folder-1790535546152-542c80d333553",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Monsieur M, consulte pour une altération récente de son état général. A l’examen clinique vous retrouvez une insuffisance cardiaque et des signes neurologiques à type de désorientation. Vous connaissez ce patient qui a subi une résection du grêle à la suite d’une occlusion sur bride et qui présente un alcoolisme chronique. Vous allez demander un avis cardiologique mais vous devez d’ores et déjà, suspecter une carence micronutritionnelle potentielle et analyser ses causes et ses conséquences.",

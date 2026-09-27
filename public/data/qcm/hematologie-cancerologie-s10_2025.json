@@ -42,8 +42,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "À l’examen clinique, vous retrouvez un nodule de 3 cm au niveau du quadrant supéro-externe du sein droit associé à une adénopathie axillaire palpable.\nVous la confiez à un radiologue.\nElle revient vous voir deux semaines plus tard avec les résultats d’une biopsie de la tumeur mammaire retrouvant un carcinome canalaire infiltrant de type non spécifique de grade Elston et Ellis III (3+3+2), récepteurs œstrogène 5%, récepteurs progestérone 2%, Ki67 80%, HER2 non amplifié.\nLe ganglion palpable est envahi par le même carcinome.\nUne analyse en biologie moléculaire de la biopsie a également retrouvé une mutation hétérozygote sur le gène BRCA1 au locus c.330A>G ; p.(Arg71Gly).\nQuel(s) élément(s) de mauvais pronostic retrouvez vous ?",
+          "contexte": "À l’examen clinique, vous retrouvez un nodule de 3 cm au niveau du quadrant supéro-externe du sein droit associé à une adénopathie axillaire palpable.\nVous la confiez à un radiologue.\nElle revient vous voir deux semaines plus tard avec les résultats d’une biopsie de la tumeur mammaire retrouvant un carcinome canalaire infiltrant de type non spécifique de grade Elston et Ellis III (3+3+2), récepteurs œstrogène 5%, récepteurs progestérone 2%, Ki67 80%, HER2 non amplifié.\nLe ganglion palpable est envahi par le même carcinome.\nUne analyse en biologie moléculaire de la biopsie a également retrouvé une mutation hétérozygote sur le gène BRCA1 au locus c.330A>G ; p.(Arg71Gly).",
+          "question": "Quel(s) élément(s) de mauvais pronostic retrouvez vous ?",
           "choix": [
             "A) La présence d’une expression des récepteurs hormonaux.",
             "B) L’index de prolifération Ki67.",
@@ -78,14 +78,14 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/hematologie-cancerologie-s10/2025/q3.png?v=1786296126581"
+            "/images/qcm/hematologie-cancerologie-s10/2025/q3.png?v=1790536304653"
           ]
         },
         {
           "id": 4,
           "type": "QRM",
-          "contexte": "",
-          "question": "Il a été proposé en réunion de concertation pluridisciplinaire un traitement néoadjuvant.\nVous recevez maintenant Madame B. en consultation d'annonce.\nQuelle(s) réponse(s) est/sont correcte(s) ?",
+          "contexte": "Il a été proposé en réunion de concertation pluridisciplinaire un traitement néoadjuvant.\nVous recevez maintenant Madame B. en consultation d'annonce.",
+          "question": "Quelle(s) réponse(s) est/sont correcte(s) ?",
           "choix": [
             "A) Le traitement néoadjuvant vise à réduire la taille de la tumeur mammaire primitive et du ganglion axillaire.",
             "B) Un traitement néoadjuvant peut être envisagé en situation métastatique.",
@@ -167,8 +167,8 @@
         {
           "id": 8,
           "type": "QRU",
-          "contexte": "",
-          "question": "Après chimiothérapie néoadjuvante, une mastectomie bilatérale, un curage axillaire et une radiothérapie adjuvante ont été réalisés.\nElle réalise une surveillance clinique semestrielle.\nÀ un an de la prise en charge chirurgicale, lors d’une consultation de surveillance, elle signale l’apparition de céphalées depuis plusieurs semaines, exacerbées par les bruits et la lumière, associées à des nausées avec quelques épisodes de vomissements.\nQue suspectez-vous en priorité ?",
+          "contexte": "Après chimiothérapie néoadjuvante, une mastectomie bilatérale, un curage axillaire et une radiothérapie adjuvante ont été réalisés.\nElle réalise une surveillance clinique semestrielle.\nÀ un an de la prise en charge chirurgicale, lors d’une consultation de surveillance, elle signale l’apparition de céphalées depuis plusieurs semaines, exacerbées par les bruits et la lumière, associées à des nausées avec quelques épisodes de vomissements.",
+          "question": "Que suspectez-vous en priorité ?",
           "choix": [
             "A) Une méningite carcinomateuse.",
             "B) Une hypercalcémie.",
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "id": "folder-1786296129753-9cb6d1aaddc1",
+      "id": "folder-1790536307238-056526fdd84f58",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "",
@@ -214,8 +214,8 @@
         {
           "id": 10,
           "type": "QRP",
-          "contexte": "",
-          "question": "Monsieur B. est hospitalisé en service de gastro-entérologie pour réaliser des explorations.\nParmi ces propositions, quelles sont les 2 affirmations vraies ?",
+          "contexte": "Monsieur B. est hospitalisé en service de gastro-entérologie pour réaliser des explorations.",
+          "question": "Parmi ces propositions, quelles sont les 2 affirmations vraies ?",
           "choix": [
             "A) A. Le bilan biologique retrouvera probablement une anémie macrocytaire.",
             "B) B. Un test de recherche de sang dans les selles (test immunologique) sera réalisé et une coloscopie sera réalisée en cas de positivité.",
@@ -315,8 +315,8 @@
         {
           "id": 12,
           "type": "QRM",
-          "contexte": "",
-          "question": "Monsieur B. présente un adénocarcinome de la charnière recto-sigmoïdienne dMMR localisé sans signe d’envahissement locorégional ou à distance.\nConcernant la prise en charge des adénocarcinomes coliques localisés, quelles sont les propositions vraies ?",
+          "contexte": "Monsieur B. présente un adénocarcinome de la charnière recto-sigmoïdienne dMMR localisé sans signe d’envahissement locorégional ou à distance.",
+          "question": "Concernant la prise en charge des adénocarcinomes coliques localisés, quelles sont les propositions vraies ?",
           "choix": [
             "A) Une prise en charge par chimiothérapie néoadjuvante est toujours réalisée.",
             "B) Une prise en charge chirurgicale d’emblée sera proposée.",
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "id": "folder-1786296144198-6e199521c4a2b",
+      "id": "folder-1790536320434-87a65004df0618",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Vous êtes médecin généraliste et vous voyez M. C. consultation pour une asthénie persistante associée à des douleurs dorsales.\nIl s’agit d’un patient de 45 ans, marié, 2 enfants, commercial dans une entreprise de BTP.\nIl n’a pas d’antécédent particulier en dehors d’un tabagisme actif. Il dit fumer 2 paquets par jour depuis l’âge de 18 ans. Il pèse 70 kg pour 1m75, mais a perdu 5 kg sur le dernier mois sans raison évidente. Il ne prend aucun traitement habituel.\nIl décrit une asthénie croissance depuis environ 3 semaines. Il parvient cependant à continuer de travailler à temps plein. Des douleurs dorsales sont contemporaines, elles surviennent la nuit et ne sont pas modifiées par la mobilisation. Elles semblent parfois se projeter au niveau épigastrique. Il n’a pas de traumatisme récent ou d’élément déclencheur pouvant expliquer ces douleurs.\nQuand vous l’examinez, il est apyrétique, les constantes sont correctes. Il décrit des épisodes de selles décolorées depuis quelques jours et vous constatez un léger ictère conjonctival à l’inspection. L’auscultation cardiorespiratoire est normale. La palpation abdominale est sensible au niveau épigastique. La palpation des épineuses et paravertébrale ne retrouve pas de contracture et ne provoque pas de douleur.",
@@ -431,8 +431,8 @@
         {
           "id": 17,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le tableau clinique vous oriente plutôt vers une cause digestive des douleurs.\nParmi les examens complémentaires suivants, lesquels prescrivez-vous en première intention à visée diagnostique ?",
+          "contexte": "Le tableau clinique vous oriente plutôt vers une cause digestive des douleurs.",
+          "question": "Parmi les examens complémentaires suivants, lesquels prescrivez-vous en première intention à visée diagnostique ?",
           "choix": [
             "A) Un bilan biologique (NFS, ionogramme sanguin, créatinine, bilan hépatique)",
             "B) Des radiographies standards du rachis lombaire, face et profil",
@@ -450,8 +450,8 @@
         {
           "id": 18,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous prescrivez une TDM TAP et un bilan biologique.\nLe bilan biologique retrouve une cholestase ictérique sans cytolyse. La TDM TAP identifie une lésion de 4 cm de la tête du pancréas prenant le contraste au temps tardif et engainant l’artère mésentérique supérieure sur >180°. Cette lésion est associée à une dilatation de voies biliaires intra et extra-hépatiques. Vous prévoyez alors une écho-endoscopie afin de pratiquer un prélèvement histologique.\nQuel est le principal type histologique de tumeur maligne du pancréas redoutez-vous ?",
+          "contexte": "Vous prescrivez une TDM TAP et un bilan biologique.\nLe bilan biologique retrouve une cholestase ictérique sans cytolyse. La TDM TAP identifie une lésion de 4 cm de la tête du pancréas prenant le contraste au temps tardif et engainant l’artère mésentérique supérieure sur >180°. Cette lésion est associée à une dilatation de voies biliaires intra et extra-hépatiques. Vous prévoyez alors une écho-endoscopie afin de pratiquer un prélèvement histologique.",
+          "question": "Quel est le principal type histologique de tumeur maligne du pancréas redoutez-vous ?",
           "choix": [],
           "reponses": [
             "Adénocarcinome",
@@ -490,8 +490,8 @@
         {
           "id": 19,
           "type": "QRP",
-          "contexte": "",
-          "question": "Le patient bénéficie de la pose d’une prothèse biliaire et de la mise en place d’un traitement par FOLFIRINOX. Malheureusement, l’évolution est défavorable avec une maladie qui devient métastatique sur le plan osseux.\nIl présente une douleur au niveau du fémur gauche en lien avec une lésion lytique. Le patient est EN 8/10 et a une impotence fonctionnelle majeure sans instabilité ou risque fracturaire.\nParmi les 5 propositions, choisissez les 3 traitements antalgiques les plus adaptés à la situation ?",
+          "contexte": "Le patient bénéficie de la pose d’une prothèse biliaire et de la mise en place d’un traitement par FOLFIRINOX. Malheureusement, l’évolution est défavorable avec une maladie qui devient métastatique sur le plan osseux.\nIl présente une douleur au niveau du fémur gauche en lien avec une lésion lytique. Le patient est EN 8/10 et a une impotence fonctionnelle majeure sans instabilité ou risque fracturaire.",
+          "question": "Parmi les 5 propositions, choisissez les 3 traitements antalgiques les plus adaptés à la situation ?",
           "choix": [
             "A) Un antalgique de pallier I en monothérapie",
             "B) Un antalgique de pallier III avec un co-antalgique (anti-inflammatoire)",
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "id": "folder-1786296148882-a6afb92b123a28",
+      "id": "folder-1790536324532-04a512d1e5733",
       "type": "KFP",
       "title": "KFP 1",
       "description": "M. Dupont, 28 ans, consulte pour une tuméfaction indolore du testicule droit évoluant depuis 3 mois.\nIl n’a pas d’antécédent médical notable mais il signale qu’il a été opéré de ce testicule durant l’enfance.",
@@ -593,8 +593,8 @@
         {
           "id": 22,
           "type": "QRU",
-          "contexte": "",
-          "question": "L'examen clinique révèle une masse testiculaire gauche de 5 cm, dure, irrégulière, fixée au plan profond, sans adénopathies inguinales palpables ; la lésion est hypoéchogène et hétérogène à l’échographie scrotale.\nUn scanner thoraco-abdomino-pelvien est réalisé retrouvant une adénopathie rétropéritonéale de 2 cm.\nQuel examen permettra de confirmer votre principale hypothèse diagnostique ?",
+          "contexte": "L'examen clinique révèle une masse testiculaire gauche de 5 cm, dure, irrégulière, fixée au plan profond, sans adénopathies inguinales palpables ; la lésion est hypoéchogène et hétérogène à l’échographie scrotale.\nUn scanner thoraco-abdomino-pelvien est réalisé retrouvant une adénopathie rétropéritonéale de 2 cm.",
+          "question": "Quel examen permettra de confirmer votre principale hypothèse diagnostique ?",
           "choix": [
             "A) Dosage de l’AFP",
             "B) Biopsie de l’adénopathie rétropéritonéale",
@@ -611,7 +611,7 @@
       ]
     },
     {
-      "id": "folder-1786296152551-e9333771e0d0b8",
+      "id": "folder-1790536327517-72ed8a84b625e",
       "type": "KFP",
       "title": "KFP 2",
       "description": "Au sujet des traitements anticancéreux.",
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "id": "folder-1786296167719-dbd25efddb99b",
+      "id": "folder-1790536341521-e02d776f53fbe8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -864,8 +864,8 @@
         {
           "id": 29,
           "type": "QRP",
-          "contexte": "",
-          "question": "Un patient vient en consultation pour la découverte d'une hyper-lymphocytose. Il n'a pas d'antécédent, et ne consomme pas d'alcool ou de tabac. L'interrogatoire n'identifie ni altération de l'état général, ni fièvre, ni amaigrissement.\nL'hémogramme objective :\nHb = 14,5 g/dL\nGB = 20 G/L, dont PNN 3,5 G/L et lymphocytes 15 G/L\nPlaquettes = 330 G/L\nQuelles sont les deux réponses exactes ?",
+          "contexte": "Un patient vient en consultation pour la découverte d'une hyper-lymphocytose. Il n'a pas d'antécédent, et ne consomme pas d'alcool ou de tabac. L'interrogatoire n'identifie ni altération de l'état général, ni fièvre, ni amaigrissement.\nL'hémogramme objective :\nHb = 14,5 g/dL\nGB = 20 G/L, dont PNN 3,5 G/L et lymphocytes 15 G/L\nPlaquettes = 330 G/L",
+          "question": "Quelles sont les deux réponses exactes ?",
           "choix": [
             "A) Ce patient a sans doute un syndrome lymphoprolifératif",
             "B) Ce patient a sans doute une leucémie aigue",
@@ -1102,8 +1102,8 @@
         {
           "id": 35,
           "type": "QRP",
-          "contexte": "",
-          "question": "Une patiente de 62 ans, sans antécédent, vous consulte en raison de la découverte d'une thrombopénie isolée à 35 G/L. Le frottis sanguin a éliminé la présence d'amas plaquettaires. Le myélogramme est normal, vous orientez votre bilan étiologique vers la recherche d'une cause périphérique.\nQuels examens réalisez-vous en première intention (5 réponses attendues) ?",
+          "contexte": "Une patiente de 62 ans, sans antécédent, vous consulte en raison de la découverte d'une thrombopénie isolée à 35 G/L. Le frottis sanguin a éliminé la présence d'amas plaquettaires. Le myélogramme est normal, vous orientez votre bilan étiologique vers la recherche d'une cause périphérique.",
+          "question": "Quels examens réalisez-vous en première intention (5 réponses attendues) ?",
           "choix": [
             "A) Recherche d'anticorps anti-thyroïde",
             "B) Sérologies hépatites B et C",
@@ -1130,8 +1130,8 @@
         {
           "id": 36,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un patient de 34 ans sans antécédent présente une splénomégalie mesurée à 5 centimètres en dessous du rebord costal. Voici les résultats de l'hémogramme : Hémoglobine 13,2 g/dL, VGM 95 fL, globules blancs 25 G/L dont 63 % de polynucléaires neutrophiles, 5 % de polynucléaires éosinophiles, 10 % de polynucléaires basophiles, 8 % de lymphocytes, 3 % de monocytes, 5 % de métamyélocytes, 3 % de myélocytes, 2 % de promyélocytes et 1 % de blastes, plaquettes 653 G/L.\nParmi les propositions suivantes, laquelle est exacte ?",
+          "contexte": "Un patient de 34 ans sans antécédent présente une splénomégalie mesurée à 5 centimètres en dessous du rebord costal. Voici les résultats de l'hémogramme : Hémoglobine 13,2 g/dL, VGM 95 fL, globules blancs 25 G/L dont 63 % de polynucléaires neutrophiles, 5 % de polynucléaires éosinophiles, 10 % de polynucléaires basophiles, 8 % de lymphocytes, 3 % de monocytes, 5 % de métamyélocytes, 3 % de myélocytes, 2 % de promyélocytes et 1 % de blastes, plaquettes 653 G/L.",
+          "question": "Parmi les propositions suivantes, laquelle est exacte ?",
           "choix": [
             "A) Le diagnostic le plus probable est une thrombocytémie essentielle",
             "B) Le diagnostic le plus probable est une parasitose",
@@ -1218,8 +1218,8 @@
         {
           "id": 38,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un patient de 68 ans est adressé en consultation devant la découverte d'un myélome multiple suite à l'exploration d'un pic monoclonal de type IgG kappa à l’électrophorèse des protéines sériques.\nParmi les examens suivants, lequel (lesquels) demandez-vous pour pouvoir décider de la prise en charge thérapeutique ?",
+          "contexte": "Un patient de 68 ans est adressé en consultation devant la découverte d'un myélome multiple suite à l'exploration d'un pic monoclonal de type IgG kappa à l’électrophorèse des protéines sériques.",
+          "question": "Parmi les examens suivants, lequel (lesquels) demandez-vous pour pouvoir décider de la prise en charge thérapeutique ?",
           "choix": [
             "A) une calcémie",
             "B) un scanner cérébral",
@@ -1257,8 +1257,8 @@
         {
           "id": 40,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un patient de 36 ans présente une altération de l’état général, une pâleur cutanéo-muqueuse et un purpura pétéchial au niveau des membres inférieurs. Voici les résultats de l'hémogramme : hémoglobine 9,1 g/dL, VGM 96 fL, globules blancs 25 G/L dont 17 % de polynucléaires neutrophiles, 10 % de lymphocytes, 3 % de monocytes et 70 % de blastes, plaquettes 30 G/L. Vous complétez le bilan biologique.\nParmi les propositions suivantes, quelle(s) est(sont) celle(s) qui fait(font) évoquer une leucémie aiguë promyélocytaire ?",
+          "contexte": "Un patient de 36 ans présente une altération de l’état général, une pâleur cutanéo-muqueuse et un purpura pétéchial au niveau des membres inférieurs. Voici les résultats de l'hémogramme : hémoglobine 9,1 g/dL, VGM 96 fL, globules blancs 25 G/L dont 17 % de polynucléaires neutrophiles, 10 % de lymphocytes, 3 % de monocytes et 70 % de blastes, plaquettes 30 G/L. Vous complétez le bilan biologique.",
+          "question": "Parmi les propositions suivantes, quelle(s) est(sont) celle(s) qui fait(font) évoquer une leucémie aiguë promyélocytaire ?",
           "choix": [
             "A) Un score de Matutes à 3 / 5 à l'immunophénotypage des lymphocytes circulants",
             "B) L'existence d'une coagulation intravasculaire disséminée sur le bilan d'hémostase",

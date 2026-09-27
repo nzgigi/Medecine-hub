@@ -35,8 +35,8 @@
         {
           "id": 2,
           "type": "QROC",
-          "contexte": "",
-          "question": "La crp est à 20 mg/l, la VS à 30 mm à la première heure. les radiographies du bassin de face et du rachis sont normales.\nQuel examen prescrivez vous pour confirmer la suspicion de spondylarthrite axiale?",
+          "contexte": "La crp est à 20 mg/l, la VS à 30 mm à la première heure. les radiographies du bassin de face et du rachis sont normales.",
+          "question": "Quel examen prescrivez vous pour confirmer la suspicion de spondylarthrite axiale?",
           "choix": [],
           "reponses": [
             "IRM des sacroiliaques",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": "folder-1786300660123-80eef392ed04e8",
+      "id": "folder-1790540188066-5a4cb3161c9258",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Vous recevez un homme de 78 ans en février 2024 en raison d'une altération de l'état général avec essoufflement progressif. Ses antécédents sont:\nHypertension artérielle depuis 15 ans\nThrombose veineuse profonde en octobre 2023 d'origine indéterminée\nTroubles cognitifs depuis 2 ans sur démence mixte vasculaire et dégénérative (MMS à 20/30)\nAdénocarcinome prostatique traité par prostatectomie en 2013, considéré en rémission lors de la visite chez l'urologue il y a 3 mois\nSon traitement habituel est:\nrivaroxaban 20 mg par jour\namlodipine 5 mg 1 comprimé le matin",
@@ -182,8 +182,8 @@
         {
           "id": 9,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le bilan biologique a montré:\nionogramme sanguin normal; créatininémie 70 µmol/L; bandelette urinaire: protéinurie +; culot urinaire: normal; CRP: 100 mg/L; TGO 3N; TGP: 2N; phosphatases alcalines: 6N; gammagt: 5N; bilirubinémie totale: 1.5N.\nhemogramme: hémoglobine: 8 g/dl; globules rouges: 3.19 T/L; VGM: 72µ3; leucocytes: 12 G/L dont PNN 74%; lymphocytes:\n10%; éosinophiles: 3%; basophiles: 3%; monocytes: 10%.\nParmi les paramètres suivants, deux sont indispensables en première intention pour orienter le diagnostic de la cause de l'anémie. Lesquels?",
+          "contexte": "Le bilan biologique a montré:\nionogramme sanguin normal; créatininémie 70 µmol/L; bandelette urinaire: protéinurie +; culot urinaire: normal; CRP: 100 mg/L; TGO 3N; TGP: 2N; phosphatases alcalines: 6N; gammagt: 5N; bilirubinémie totale: 1.5N.\nhemogramme: hémoglobine: 8 g/dl; globules rouges: 3.19 T/L; VGM: 72µ3; leucocytes: 12 G/L dont PNN 74%; lymphocytes:\n10%; éosinophiles: 3%; basophiles: 3%; monocytes: 10%.",
+          "question": "Parmi les paramètres suivants, deux sont indispensables en première intention pour orienter le diagnostic de la cause de l'anémie. Lesquels?",
           "choix": [
             "A) coefficient de saturation de la transferrine",
             "B) vitesse de sédimentation",
@@ -216,14 +216,14 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/ue-transversale-s10/2024/q10.png?v=1786300661466"
+            "/images/qcm/ue-transversale-s10/2024/q10.png?v=1790540190483"
           ]
         },
         {
           "id": 11,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous ponctionnez le volumineux épanchement du côté gauche. L'analyse du liquide montre:\nprotides 37 g/L; LDH: 295 unités.\nGlobule blancs: 1540 el/mm3; monocytes-macrophages: 61%; lymphocytes: 20%; Eosinophiles: 4%; polynucléaires neutrophiles: 13% dont 4% altérés; cellules mésothéliales: 2%. Quelles affirmations sont exactes?",
+          "contexte": "Vous ponctionnez le volumineux épanchement du côté gauche. L'analyse du liquide montre:\nprotides 37 g/L; LDH: 295 unités.",
+          "question": "Globule blancs: 1540 el/mm3; monocytes-macrophages: 61%; lymphocytes: 20%; Eosinophiles: 4%; polynucléaires neutrophiles: 13% dont 4% altérés; cellules mésothéliales: 2%. Quelles affirmations sont exactes?",
           "choix": [
             "A) le résultat est en faveur d'un transsudat",
             "B) le résultat est en faveur d'un exsudat",
@@ -284,8 +284,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "vous avez obtenu le résultat suivant:\nferritinémie 80 ng/ml; coefficient de saturation de la transferrine: 8%; que proposez vous?",
+          "contexte": "vous avez obtenu le résultat suivant:",
+          "question": "ferritinémie 80 ng/ml; coefficient de saturation de la transferrine: 8%; que proposez vous?",
           "choix": [
             "A) endoscopies digestives",
             "B) traitement par fer oral",
@@ -303,7 +303,7 @@
       ]
     },
     {
-      "id": "folder-1786300663069-d776d18103e15",
+      "id": "folder-1790540193501-03ba939885453",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -390,8 +390,8 @@
         {
           "id": 19,
           "type": "QROC",
-          "contexte": "",
-          "question": "Vous prenez en charge un patient de 87 ans à son domicile car il a chuté il y a quelques jours. Le bilan traumatique était négatif. Il bénéficie de 2 séances par semaine au domicile de kinésithérapie. Votre examen retrouve une marche en rétropulsion à petits pas glissés, en appui talonnier avec un retard de l’initiation de la marche. Il ne peut pas marcher sans l’aide d’un tiers, à la pensée de marcher sans aide il est terrifié.\nQuel est votre diagnostic ?",
+          "contexte": "Vous prenez en charge un patient de 87 ans à son domicile car il a chuté il y a quelques jours. Le bilan traumatique était négatif. Il bénéficie de 2 séances par semaine au domicile de kinésithérapie. Votre examen retrouve une marche en rétropulsion à petits pas glissés, en appui talonnier avec un retard de l’initiation de la marche. Il ne peut pas marcher sans l’aide d’un tiers, à la pensée de marcher sans aide il est terrifié.",
+          "question": "Quel est votre diagnostic ?",
           "choix": [],
           "reponses": [
             "Syndrome post chute",
@@ -413,8 +413,8 @@
         {
           "id": 20,
           "type": "QRU",
-          "contexte": "",
-          "question": "Vous recevez en urgence un enfant de 4 ans qui présente une fièvre > 38,5 °C en plateau depuis plus de 5 jours, une conjonctivite bilatérale, une chéilite et une langue framboisée, une desquamation en « doigts de gant » et des adénopathies cervicales.\nQuel diagnostic retenez-vous ?",
+          "contexte": "Vous recevez en urgence un enfant de 4 ans qui présente une fièvre > 38,5 °C en plateau depuis plus de 5 jours, une conjonctivite bilatérale, une chéilite et une langue framboisée, une desquamation en « doigts de gant » et des adénopathies cervicales.",
+          "question": "Quel diagnostic retenez-vous ?",
           "choix": [
             "A) Une infection à parvovirus B19",
             "B) La rougeole",
@@ -449,8 +449,8 @@
         {
           "id": 22,
           "type": "QROC",
-          "contexte": "",
-          "question": "Une femme de 35 ans vient vous consulter pour une tristesse de l’humeur, une anhédonie, une aboulie et une labilité affective.\nQuel est votre hypothèse diagnostique principale ?",
+          "contexte": "Une femme de 35 ans vient vous consulter pour une tristesse de l’humeur, une anhédonie, une aboulie et une labilité affective.",
+          "question": "Quel est votre hypothèse diagnostique principale ?",
           "choix": [],
           "reponses": [
             "épisode dépressif caractérisé",
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "id": "folder-1786300671496-1ff23cc895bf3",
+      "id": "folder-1790540211852-1cdc46fd9ef36",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Vous recevez un patient en raison d'une fatigue générale et perturbation de son bilan bilan biologique. Il a perdu 8 kg en 6 mois. L'examen physique a retrouvé une hépatosplénomégalie, un ballonement abdominal et une matité déclive. Il vient avec un bilan hépatique qui indique: TGO 4N; TGP: 2N; phosphatases alcalines: 2N; gammagt: 10N; bilirubinémie totale: 2N.",

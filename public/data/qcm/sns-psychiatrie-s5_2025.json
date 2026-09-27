@@ -34,8 +34,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous suspectez chez cet enfant un trouble du spectre de l’autisme (TSA). Concernant votre démarche diagnostique, quelles\nsont les réponses vraies ?",
+          "contexte": "Vous suspectez chez cet enfant un trouble du spectre de l’autisme (TSA). Concernant votre démarche diagnostique, quelles",
+          "question": "sont les réponses vraies ?",
           "choix": [
             "A) Les informations dont vous disposez à ce stade sont suffisantes pour poser un diagnostic de trouble du spectre de l’autisme.",
             "B) Le trouble du spectre de l’autisme est un diagnostic exclusivement clinique.",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": "folder-1786300408759-97c8bdc6f62da8",
+      "id": "folder-1790539989733-dd8ea19f61b268",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -185,8 +185,8 @@
         {
           "id": 9,
           "type": "QRU",
-          "contexte": "",
-          "question": "Une adolescente de 17 ans vient à votre consultation. Elle vous explique que, dans des moments de tension, il lui arrive de manger jusqu’à en avoir mal au ventre et ce sans arriver à se contrôler. Elle culpabilise d’ailleurs beaucoup car ces situations se répètent depuis plusieurs mois. Les crises sont suivies à chaque fois de vomissements, ce qui fait qu’elle garde un poids normal. Par ailleurs, les prises alimentaires se font sans difficulté le reste du temps.\nDans ce contexte, quel diagnostic évoquez-vous en priorité ?",
+          "contexte": "Une adolescente de 17 ans vient à votre consultation. Elle vous explique que, dans des moments de tension, il lui arrive de manger jusqu’à en avoir mal au ventre et ce sans arriver à se contrôler. Elle culpabilise d’ailleurs beaucoup car ces situations se répètent depuis plusieurs mois. Les crises sont suivies à chaque fois de vomissements, ce qui fait qu’elle garde un poids normal. Par ailleurs, les prises alimentaires se font sans difficulté le reste du temps.",
+          "question": "Dans ce contexte, quel diagnostic évoquez-vous en priorité ?",
           "choix": [
             "A) Une anorexie mentale hyperphagique.",
             "B) Une boulimie.",
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": "folder-1786300412042-5dd8caa0049da8",
+      "id": "folder-1790539996173-6573ab00e60eb",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Paul, 19 ans, consulte son médecin généraliste accompagné par ses deux parents, visiblement très inquiets. Il ne sortait plus de sa chambre étudiante depuis un mois et ne va plus en cours de son BTS. Les parents ont été alertés par la scolarité et du fait de propos étranges rapportés par une de ses amies depuis une dizaine de jours. Lors de la consultation, Paul ne vous regarde pas, il porte des lunettes noires et garde son casque audio, il parle à voix basse : \"Je suis surveillée, ils me manipulent, ils ont piraté mon ordinateur. Je suis en danger, je l'ai vu quand mon amie a appelé mes parents, elle est dans le coup ! La CIA a détraqué le WIFI, je reçois des flux d’informations depuis l'espace. Elon Musk me teste et ça pourrait avoir de grave conséquences, il en veut à ma famille.\"",
@@ -324,8 +324,8 @@
         {
           "id": 15,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous recevez ensuite Paul seul, il se confie à vous : \"je sais que je peux vous faire confiance docteur, mes parents ont été enlevés, ce sont des sosies robotiques qui ont été envoyés pour les remplacer. Je l'ai compris à l'expression bizarre de mon père quand il m'a dit qu'il fallait aller voir le médecin, il y avait quelque chose de machiavélique dans son regard. Et il y a aussi ces micros qu'ils m'ont greffé dans les dents... c'est pour enregistrer tout ce que je pense et ce que je dis, ça résonne dans ma tête, et ils me donnent des ordres.\"\nVous lui demandez de préciser : \"Elon Musk me dit de me lever le matin, de prendre mon petit déjeuner, d'aller à la douche, et Donald Trump commente tout ce que je fais, il est très dénigrant, si je ne fais pas ce qu'il dit, je sens des décharges électriques dans mes organes génitaux\".\nComment qualifiez-vous le.s mécanisme.s de ces idées délirantes ?",
+          "contexte": "Vous recevez ensuite Paul seul, il se confie à vous : \"je sais que je peux vous faire confiance docteur, mes parents ont été enlevés, ce sont des sosies robotiques qui ont été envoyés pour les remplacer. Je l'ai compris à l'expression bizarre de mon père quand il m'a dit qu'il fallait aller voir le médecin, il y avait quelque chose de machiavélique dans son regard. Et il y a aussi ces micros qu'ils m'ont greffé dans les dents... c'est pour enregistrer tout ce que je pense et ce que je dis, ça résonne dans ma tête, et ils me donnent des ordres.\"\nVous lui demandez de préciser : \"Elon Musk me dit de me lever le matin, de prendre mon petit déjeuner, d'aller à la douche, et Donald Trump commente tout ce que je fais, il est très dénigrant, si je ne fais pas ce qu'il dit, je sens des décharges électriques dans mes organes génitaux\".",
+          "question": "Comment qualifiez-vous le.s mécanisme.s de ces idées délirantes ?",
           "choix": [
             "A) Intuitif",
             "B) Interprétatif",
@@ -343,8 +343,8 @@
         {
           "id": 16,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous recevez ensuite Paul seul, il se confie à vous : \"je sais que je peux vous faire confiance docteur, mes parents ont été enlevés, ce sont des sosies robotiques qui ont été envoyés pour les remplacer. Je l'ai compris à l'expression bizarre de mon père quand il m'a dit qu'il fallait aller voir le médecin, il y avait quelque chose de machiavélique dans son regard. Et il y a aussi ces micros qu'ils m'ont greffé dans les dents... c'est pour enregistrer tout ce que je pense et ce que je dis, ça résonne dans ma tête, et ils me donnent des ordres.\"\nVous lui demandez de préciser : \"Elon Musk me dit de me lever le matin, de prendre mon petit déjeuner, d'aller à la douche, et Donald Trump commente tout ce que je fais, il est très dénigrant, si je ne fais pas ce qu'il dit, je sens des décharges électriques dans mes organes génitaux\".\nQuels sont les symptômes hallucinatoires que vous repérez ?",
+          "contexte": "Vous recevez ensuite Paul seul, il se confie à vous : \"je sais que je peux vous faire confiance docteur, mes parents ont été enlevés, ce sont des sosies robotiques qui ont été envoyés pour les remplacer. Je l'ai compris à l'expression bizarre de mon père quand il m'a dit qu'il fallait aller voir le médecin, il y avait quelque chose de machiavélique dans son regard. Et il y a aussi ces micros qu'ils m'ont greffé dans les dents... c'est pour enregistrer tout ce que je pense et ce que je dis, ça résonne dans ma tête, et ils me donnent des ordres.\"\nVous lui demandez de préciser : \"Elon Musk me dit de me lever le matin, de prendre mon petit déjeuner, d'aller à la douche, et Donald Trump commente tout ce que je fais, il est très dénigrant, si je ne fais pas ce qu'il dit, je sens des décharges électriques dans mes organes génitaux\".",
+          "question": "Quels sont les symptômes hallucinatoires que vous repérez ?",
           "choix": [
             "A) Hallucinations tactiles",
             "B) Hallucinations visuelles",
@@ -386,8 +386,8 @@
         {
           "id": 18,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous proposez à Paul d'organiser une hospitalisation de quelques jours en psychiatrie afin d'avoir un avis spécialisé et de mettre en place un traitement adéquat. Il s'y oppose fermement, rétorquant que, comme chacun sait, \"l'hôpital est contrôlé par Big Pharma et la CIA, que c'est une condamnation à mort\". Il ne comprend pas pourquoi être hospitalisé et demande à ce que vous l'aidiez à obtenir l'asile politique en Suède pour se protéger.\nQuels éléments sémiologiques permettent de compléter l'évaluation de son expérience délirante ?",
+          "contexte": "Vous proposez à Paul d'organiser une hospitalisation de quelques jours en psychiatrie afin d'avoir un avis spécialisé et de mettre en place un traitement adéquat. Il s'y oppose fermement, rétorquant que, comme chacun sait, \"l'hôpital est contrôlé par Big Pharma et la CIA, que c'est une condamnation à mort\". Il ne comprend pas pourquoi être hospitalisé et demande à ce que vous l'aidiez à obtenir l'asile politique en Suède pour se protéger.",
+          "question": "Quels éléments sémiologiques permettent de compléter l'évaluation de son expérience délirante ?",
           "choix": [
             "A) Critique partielle",
             "B) Délire congruent à l'humeur",

@@ -306,8 +306,8 @@
         {
           "id": 9,
           "type": "QRM",
-          "contexte": "",
-          "question": "Soit l’ordonnance suivante:\n- ofloxacine 200mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- bisoprolol 5mg 1 fois par jour\n- domperidone 10mg 3 fois par jour\nParmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie (s) ?",
+          "contexte": "Soit l’ordonnance suivante:\n- ofloxacine 200mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- bisoprolol 5mg 1 fois par jour\n- domperidone 10mg 3 fois par jour",
+          "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie (s) ?",
           "choix": [
             "A) La domperidone a des propriétés antiémétiques par antagonisme de récepteurs dopaminergiques dans le tronc cérébral",
             "B) L’ofloxacine est un inhibiteur enzymatique source d'interaction médicamenteuse dans cette ordonnance",
@@ -473,7 +473,7 @@
       ]
     },
     {
-      "id": "folder-1786297350902-f829bf36a8985",
+      "id": "folder-1790538426852-c0f2118d51af6",
       "type": "DP",
       "title": "Mini DP 1",
       "description": "Mlle Ickx, 19 ans, vous consulte pour demander une contraception. Elle est nullipare nulligeste et n'a aucun antécédent personnel ou familial particulier. Elle ne fume pas. Elle reste asymptomatique. Il y a un certain degré d’anxiété. Poids de 50 kg pour 1,70 m, PA à 110/60 mmHg, pouls 70/min auscultation cardiopulmonaire normale. Le reste de l'examen est normal. Elle est étudiante et a de très faibles revenus.",
@@ -647,7 +647,7 @@
       ]
     },
     {
-      "id": "folder-1786297353643-476c80ca999df",
+      "id": "folder-1790538433046-4daaed32d9428",
       "type": "DP",
       "title": "Mini DP 2",
       "description": "Mme D, 65 ans, consulte pour un renouvellement d'ordonnance. Elle est hypertendue depuis une quinzaine d'années. Elle ne fume pas. Elle vit seule. Son traitement actuel comprend : ramipril 10 mg : 1 comprimé le matin, nicardipine LP 50 mg : 1 comprimé matin et soir.\nElle est asymptomatique. Poids 85 kg pour 1,60 m. PA 135/80 mmHg, pouls 70/min, examen clinique normal.\nL'ECG est normal.\nVous prenez connaissance des analyses biologiques qui montrent : créatininémie 105 µmol/l DFG 61 ml/min, kaliémie 4 mmol/l, natrémie 140 mmol/l, glycémie à jeun 1,30 g/l, LDL cholestérol 0,50 g/l, triglycérides 1,10 g/l.",
@@ -714,8 +714,8 @@
         {
           "id": 27,
           "type": "QRU",
-          "contexte": "",
-          "question": "La patiente est très bien équilibrée pendant cinq ans par metformine avec une hémoglobine glyquée à 6,5 %. Vous la revoyez à cinq ans et constatez un déséquilibre glycémique modéré alors que les mesures hygiéno-diététiques restent suivies et que l'observance du traitement de metformine prescrite à posologie maximale autorisée est bonne. L'hémoglobine glyquée est à 7,2 %. Elle a une rétinopathie diabétique débutante. La créatininémie est à 115 µmol/l soit un DFG en Cockcroft à 55 ml/min. Le rapport albuminurie/créatininurie est à 300 mg/g. Le diagnostic de néphropathie glomérulaire liée au diabète et à l'HTA est retenu et le néphrologue propose l'introduction d'un inhibiteur des SGLT2.\nQuel est son mécanisme d'action principal ?",
+          "contexte": "La patiente est très bien équilibrée pendant cinq ans par metformine avec une hémoglobine glyquée à 6,5 %. Vous la revoyez à cinq ans et constatez un déséquilibre glycémique modéré alors que les mesures hygiéno-diététiques restent suivies et que l'observance du traitement de metformine prescrite à posologie maximale autorisée est bonne. L'hémoglobine glyquée est à 7,2 %. Elle a une rétinopathie diabétique débutante. La créatininémie est à 115 µmol/l soit un DFG en Cockcroft à 55 ml/min. Le rapport albuminurie/créatininurie est à 300 mg/g. Le diagnostic de néphropathie glomérulaire liée au diabète et à l'HTA est retenu et le néphrologue propose l'introduction d'un inhibiteur des SGLT2.",
+          "question": "Quel est son mécanisme d'action principal ?",
           "choix": [
             "A) Blocage de la production hépatique de glucose.",
             "B) Blocage de la néoglucogénèse.",
@@ -794,7 +794,7 @@
       ]
     },
     {
-      "id": "folder-1786297355730-a4f7452c281c78",
+      "id": "folder-1790538437602-224049cc14414",
       "type": "DP",
       "title": "Mini DP 3",
       "description": "M O 29 ans est admise aux urgences pour une baisse de l’acuité visuelle. Sa pression artérielle est à 230 /128 mm Hg. L’examen de la rétine montre un œdème papillaire et des hémorragies. Le diagnostic d’hypertension maligne est porté. Il n’y pas de signe d’incompétence cardiaque. La patiente n’a pas d’autre symptôme en dehors de maux de tête qu’elle traite par de l’ibuprofène. Elle a un antécédent de migraine sans aura.",
@@ -803,8 +803,8 @@
         {
           "id": 31,
           "type": "QRM",
-          "contexte": "",
-          "question": "Que proposez-vous ?\nQuelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "contexte": "Que proposez-vous ?",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
           "choix": [
             "A) Une hospitalisation sans délai.",
             "B) L’administration d’antihypertenseur par voie parentérale et/ou orale.",
@@ -823,8 +823,8 @@
         {
           "id": 32,
           "type": "QRM",
-          "contexte": "",
-          "question": "La pression artérielle a été abaissée. L’interrogatoire a révélé que la patiente prenait une contraception à base d’éthynil œstradiol.\nQuelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "contexte": "La pression artérielle a été abaissée. L’interrogatoire a révélé que la patiente prenait une contraception à base d’éthynil œstradiol.",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
           "choix": [
             "A) Il faut interrompre la contraception prise par la patiente.",
             "B) Il faut contre indiquer toute contraception oestroprogestative.",
@@ -884,8 +884,8 @@
         {
           "id": 35,
           "type": "QRM",
-          "contexte": "",
-          "question": "La patiente vous informe au décours de cette épisode d’un désir de grossesse. Son hypertension artérielle est bien contrôlée par de l’Enalapril et de la Lercanidipine.\nQuelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
+          "contexte": "La patiente vous informe au décours de cette épisode d’un désir de grossesse. Son hypertension artérielle est bien contrôlée par de l’Enalapril et de la Lercanidipine.",
+          "question": "Quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
           "choix": [
             "A) Il faut proposer un traitement par Irbesartan.",
             "B) Il faut interrompre l’Enalapril.",
@@ -927,8 +927,8 @@
         {
           "id": 37,
           "type": "QRM",
-          "contexte": "",
-          "question": "La patiente a présenté quelque temps après un cancer du sein traité par chirurgie, radiothérapie et chimiothérapie comprenant notamment de l’adriamycine. Elle a développé dans les suites une dysfonction ventriculaire systolique gauche modérée compliquée de ﬁbrillation auriculaire. De plus elle a présenté une maladie thromboembolique veineuse il y a 8 mois dans le cadre de son cancer. Elle est traitée par de l’Apixaban à raison de 5 mg matin et soir. Elle pèse 70 kg pour 170 cm et sa fonction rénale est normale.\nQuelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
+          "contexte": "La patiente a présenté quelque temps après un cancer du sein traité par chirurgie, radiothérapie et chimiothérapie comprenant notamment de l’adriamycine. Elle a développé dans les suites une dysfonction ventriculaire systolique gauche modérée compliquée de ﬁbrillation auriculaire. De plus elle a présenté une maladie thromboembolique veineuse il y a 8 mois dans le cadre de son cancer. Elle est traitée par de l’Apixaban à raison de 5 mg matin et soir. Elle pèse 70 kg pour 170 cm et sa fonction rénale est normale.",
+          "question": "Quelle(s) est (sont) la (les) réponse(s) exacte(s) ?",
           "choix": [
             "A) Dans le contexte un traitement par Warfarine aurait été plus adéquat.",
             "B) Dans le contexte un traitement par Fluindione aurait été plus adéquat.",
@@ -966,7 +966,7 @@
       ]
     },
     {
-      "id": "folder-1786297358460-ba5ff0d50a8898",
+      "id": "folder-1790538443960-6da9df03bf41c",
       "type": "KFP",
       "title": "KFP 1",
       "description": "M O 78 ans a une pression artérielle élevée en consultation. Elle est mesurée à 178/80 mm Hg, 165/84 mm Hg et 170 /84 mm Hg. Il a comme antécédent un tabagisme aux environs de 40 paquets année interrompu il y a vingt ans. Il se plaint d’une douleur dans le mollet gauche à la marche. Vous suspectez une hypertension.",
@@ -1073,8 +1073,8 @@
         {
           "id": 40,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous avez établi le diagnostic d’hypertension artérielle. Vous envisagez un traitement médicamenteux par amlodipine.\nParmi les éléments suivants concernant la Amlodipine, quelles sont les 5 réponses exactes ?",
+          "contexte": "Vous avez établi le diagnostic d’hypertension artérielle. Vous envisagez un traitement médicamenteux par amlodipine.",
+          "question": "Parmi les éléments suivants concernant la Amlodipine, quelles sont les 5 réponses exactes ?",
           "choix": [
             "A) Ce médicament peut provoquer des œdèmes des membres inférieurs.",
             "B) Ce médicament peut provoquer des palpitations.",
@@ -1097,8 +1097,8 @@
         {
           "id": 41,
           "type": "QRP",
-          "contexte": "",
-          "question": "Vous avez mis en évidence une oblitération de l’artère fémorale superﬁcielle qui explique la claudication à la marche décrite par le patient. Vous envisagez un traitement par acide Acétylsalicylique et statine.\nQuels sont les 11 propositions exactes ?",
+          "contexte": "Vous avez mis en évidence une oblitération de l’artère fémorale superﬁcielle qui explique la claudication à la marche décrite par le patient. Vous envisagez un traitement par acide Acétylsalicylique et statine.",
+          "question": "Quels sont les 11 propositions exactes ?",
           "choix": [
             "A) Les statines diminuent la morbidité cardiovasculaire.",
             "B) L’aspirine n’améliore pas la claudication.",

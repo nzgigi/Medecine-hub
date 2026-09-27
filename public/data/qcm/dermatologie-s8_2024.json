@@ -30,7 +30,7 @@
           "correctionExplanation": "Question ANNULEE",
           "order": 1,
           "images": [
-            "/images/qcm/dermatologie-s8/2024/q1.png?v=1786294950816"
+            "/images/qcm/dermatologie-s8/2024/q1.png?v=1790535740038"
           ]
         },
         {
@@ -113,8 +113,8 @@
         {
           "id": 6,
           "type": "QROC",
-          "contexte": "",
-          "question": "24 heures après cette première visite, la patiente reconsulte aux urgences.\nA l’inspection la patiente est très asthénique, anxieuse et dyspnéique. Elle présente une éruption érythémateuse faite de plaques figurées et infiltrées sur les membres et le tronc qui sont apparues depuis une trentaine de minutes. Le visage est oedémacié ainsi que les lèvres et la langue. La respiration est difficile et il existe un tirage sus claviculaire. La pression artérielle est à 85/50 et le pouls est à 120/mn. A l’auscultation vous retrouvez des râles sibilants diffus.\nQuel diagnostic évoquez vous ?",
+          "contexte": "24 heures après cette première visite, la patiente reconsulte aux urgences.\nA l’inspection la patiente est très asthénique, anxieuse et dyspnéique. Elle présente une éruption érythémateuse faite de plaques figurées et infiltrées sur les membres et le tronc qui sont apparues depuis une trentaine de minutes. Le visage est oedémacié ainsi que les lèvres et la langue. La respiration est difficile et il existe un tirage sus claviculaire. La pression artérielle est à 85/50 et le pouls est à 120/mn. A l’auscultation vous retrouvez des râles sibilants diffus.",
+          "question": "Quel diagnostic évoquez vous ?",
           "choix": [],
           "reponses": [
             "anaphylaxie",
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "id": "folder-1786294960947-d57a5ce6f0615",
+      "id": "folder-1790535745552-55fec32ae4ee5",
       "type": "SQI",
       "title": "SQI 2",
       "description": "",
@@ -283,8 +283,8 @@
         {
           "id": 13,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous voyez en consultation M. F 67 ans qui consultation pour une éruption du thorax apparue depuis ce matin, hier il présentait une douleur à type de brulure dans la même zone mais il n'y avait aucune lésion.\nIl présente comme antécédent un HTA sous Amlodipine et un syndrome dépressif traité par Sertraline. Il n'est pas fébrile, normotendu, normocarde, EVA douleur évaluer à 6/10.\nQuelles sont les réponses vraies ?",
+          "contexte": "Vous voyez en consultation M. F 67 ans qui consultation pour une éruption du thorax apparue depuis ce matin, hier il présentait une douleur à type de brulure dans la même zone mais il n'y avait aucune lésion.\nIl présente comme antécédent un HTA sous Amlodipine et un syndrome dépressif traité par Sertraline. Il n'est pas fébrile, normotendu, normocarde, EVA douleur évaluer à 6/10.",
+          "question": "Quelles sont les réponses vraies ?",
           "choix": [
             "A) Cliniquement vous voyez des pustules coalescentes",
             "B) Vous expliquez au patient que les douleurs qu'il a présenté sont liées à son éruption",
@@ -299,13 +299,13 @@
           "correctionExplanation": "Vésicules coalescentes avec lésions bulleuses sur un placard érythémateux.\nPatient non immunodéprimé de plus de 65 ans : indication à un traitement anti viral per os (valaciclovir) pour 7 jours en prévention des algies post zostériennes",
           "order": 5,
           "images": [
-            "/images/qcm/dermatologie-s8/2024/q13.png?v=1786294964396"
+            "/images/qcm/dermatologie-s8/2024/q13.png?v=1790535748122"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786294965160-b6925577c7058",
+      "id": "folder-1790535748635-f61fd3fe3086b",
       "type": "KFP",
       "title": "KFP 1",
       "description": "",
@@ -332,15 +332,15 @@
           "correctionExplanation": "Pas de bulles tendues visibles, placard érythémateux post inflammatoire mais pas eczematiforme",
           "order": 1,
           "images": [
-            "/images/qcm/dermatologie-s8/2024/q14.png?v=1786294965474",
-            "/images/qcm/dermatologie-s8/2024/q14_1.png?v=1786294965746"
+            "/images/qcm/dermatologie-s8/2024/q14.png?v=1790535749195",
+            "/images/qcm/dermatologie-s8/2024/q14_1.png?v=1790535749654"
           ]
         },
         {
           "id": 15,
           "type": "QROC",
-          "contexte": "",
-          "question": "Il n’a pas pris de nouveau traitement depuis l’introduction de son Ramipril il y a 2 ans, il présente également une atteinte génitale, pas d’atteinte oculaire, signe de Nikolsky positif.\nQuel est votre diagnostic le plus probable ?",
+          "contexte": "Il n’a pas pris de nouveau traitement depuis l’introduction de son Ramipril il y a 2 ans, il présente également une atteinte génitale, pas d’atteinte oculaire, signe de Nikolsky positif.",
+          "question": "Quel est votre diagnostic le plus probable ?",
           "choix": [],
           "reponses": [
             "Pemphigus",

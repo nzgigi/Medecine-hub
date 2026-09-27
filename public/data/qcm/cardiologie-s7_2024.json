@@ -124,7 +124,7 @@
       ]
     },
     {
-      "id": "folder-1786294809441-8d98a78fb7e598",
+      "id": "folder-1790535651117-32e9f2fd0b2038",
       "type": "KFP",
       "title": "KFP 2",
       "description": "M. V. est un professeur des écoles à la retraite de 68 ans.\nIl se présente ce jour aux urgences. Il est fatigué et trouve qu'il respire mal depuis 2 jours. Il a comme antécédents une hypertension artérielle depuis 12 ans, une pneumopathie bactérienne du lobe supérieur droit il y a 2 mois , un cancer de la prostate en surveillance depuis 6 mois, une intervention pour une fracture humérale droite suite à une chute à vélo il y a 2 mois.\nIl fume 2-3 cigarettes/jour.\nSon traitement habituel comporte de l'amlodipine 5 mg/j, du cholécalciférol 100 000 UI tous les 3 mois.\nA l'examen sa température est à 38 °C, sa pression artérielle est à 162/88 mmHg au bras droit et à 153/84 mmHg au bras gauche. Sa saturation en oxygène est à 93% en air ambiant, sa fréquence cardiaque est à 100 batt/min.\nL'auscultation retrouve un souﬄe sous-clavier gauche à 2/6, l'auscultation pulmonaire retrouve des ﬁns crépitants des deux bases pulmonaires. Il n'y a pas de sibilants. La palpation abdominale ne retrouve pas de défense, de contracture, de masse.",
@@ -154,8 +154,8 @@
         {
           "id": 5,
           "type": "QROC",
-          "contexte": "",
-          "question": "Si à l'examen clinique vous retrouvez un œdème unilatéral du membre inférieur gauche.\nQuel est le diagnostic le plus probable chez ce patient ?",
+          "contexte": "Si à l'examen clinique vous retrouvez un œdème unilatéral du membre inférieur gauche.",
+          "question": "Quel est le diagnostic le plus probable chez ce patient ?",
           "choix": [],
           "reponses": [
             "Embolie pulmonaire.",
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "id": "folder-1786294816438-2b2f5f29339f78",
+      "id": "folder-1790535656342-73002f12e9b238",
       "type": "DP",
       "title": "DP 1",
       "description": "M B 69 ans se présente aux urgences pour une douleur au mollet gauche, apparue depuis environ une semaine. La douleur est présente au repos, mais est accentuée par la marche. Les antécédents de ce patient sont une hypertension artérielle traitée par Irbesartan et hydrochlorothiazide. Il a fumé de l’âge de 20 ans à l’âge de 55 ans environ un paquet par jour, puis il a arrêté suite à un syndrome coronaire aigu pour lequel il a bénéﬁcié de la pose d’un stent dans l’IVA (il y a 15 ans). Il a été opéré il y a un mois d’une prothèse totale de genou droit à cause d’une arthrose. Il prend actuellement 100mg d’aspirine.\nIl est en bon état général, de poids stable. Il pèse 82Kg et mesure 178cm de taille. A l’examen clinique il ne présente pas d’œdème du membre douloureux ni de circulation collatérale superﬁcielle, les pouls distaux sont présents. Le reste de l’examen est sans particularité.\nLa pression artérielle est de 132/80 mmHg, la FC 80bpm.\nLa clairance est de 80ml/min. Hb 14,2 g/dl ; GB 4,5 G/L, plaquettes 330 G/L.",
@@ -290,8 +290,8 @@
         {
           "id": 9,
           "type": "QRM",
-          "contexte": "",
-          "question": "Les d-dimères sont 800UI/ml (VN < 500UI/ml).\nL’échographie veineuse confirme la présence d’une thrombose veineuse profonde poplitée gauche.\nQuel(s) traitement(s) pourriez-vous mettre en place ?",
+          "contexte": "Les d-dimères sont 800UI/ml (VN < 500UI/ml).\nL’échographie veineuse confirme la présence d’une thrombose veineuse profonde poplitée gauche.",
+          "question": "Quel(s) traitement(s) pourriez-vous mettre en place ?",
           "choix": [
             "A) HBPM avec chevauchement AVK.",
             "B) HBPM avec chevauchement Rivaroxaban.",
@@ -364,8 +364,8 @@
         {
           "id": 13,
           "type": "QRU",
-          "contexte": "",
-          "question": "Quatre jours après le démarrage du traitement, pendant que le patient est sous HBPM, il présente une dyspnée aigue. La pression artérielle est de 125/78mmHg.\nQuel examen vous permet de confirmer la présence d’une embolie pulmonaire ?",
+          "contexte": "Quatre jours après le démarrage du traitement, pendant que le patient est sous HBPM, il présente une dyspnée aigue. La pression artérielle est de 125/78mmHg.",
+          "question": "Quel examen vous permet de confirmer la présence d’une embolie pulmonaire ?",
           "choix": [
             "A) Angioscanner.",
             "B) D-dimères.",
@@ -382,8 +382,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "L’angioscanner confirme la présence d’une embolie pulmonaire.\nQuels sont les paramètres utiles pour en stratifier la gravité ?",
+          "contexte": "L’angioscanner confirme la présence d’une embolie pulmonaire.",
+          "question": "Quels sont les paramètres utiles pour en stratifier la gravité ?",
           "choix": [
             "A) Présence de thrombus proximal.",
             "B) Atteinte de >50% du lit vasculaire pulmonaire.",
@@ -402,7 +402,7 @@
       ]
     },
     {
-      "id": "folder-1786294821033-a5bb0110dcfee",
+      "id": "folder-1790535659587-c990cfb0d40ed",
       "type": "DP",
       "title": "DP 2",
       "description": "Mme A, 77 ans, est adressée pour une dyspnée d’effort évoluant depuis plusieurs mois. Ses antécédents sont marqués par un cancer du sein traité par tumorectomie, radiothérapie et hormonothérapie à l’âge de 72 ans. Elle est traitée pour une HTA depuis l’âge de 60 ans (association valsartan et hydrochlorothiazide).\nLes anomalies auscultatoires anomalies vous conduisent à suspecter un rétrécissement aortique.",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": "folder-1786294824363-555c29d6fcd1e8",
+      "id": "folder-1790535661692-bdfb5384c7d96",
       "type": "DP",
       "title": "DP 3",
       "description": "Une patiente de 67 ans se présente aux urgences en raison d’un essoufflement.\nSes antécédents sont représentés par une appendicectomie et une PTH droite. Elle est traitée pour hypertension artérielle par Valsartan.\nElle est apyrétique. Le bilan biologique d’entrée est sans particularité. L’IRM cérébrale réalisée met en évidence un AVC ischémique gauche sans remaniement hémorragique.\nL’électrocardiogramme est le suivant :",
@@ -553,7 +553,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/cardiologie-s7/2024/q21.png?v=1786294825120"
+            "/images/qcm/cardiologie-s7/2024/q21.png?v=1790535663208"
           ]
         },
         {
@@ -676,8 +676,8 @@
         {
           "id": 26,
           "type": "QRM",
-          "contexte": "",
-          "question": "Quelques années plus tard, la patiente alors âgée de 80 ans consulte son cardiologue pour une dyspnée d’apparition progressive, crescendo, actuellement au moindre effort. Elle n’a pas de douleurs thoraciques, pas de notion de syncope. L’auscultation met en évidence un souffle au foyer aortique non connu. Il existe de discrets crépitants aux bases.\nQuels critères sont en faveur d’un souffle de rétrécissement aortique ?",
+          "contexte": "Quelques années plus tard, la patiente alors âgée de 80 ans consulte son cardiologue pour une dyspnée d’apparition progressive, crescendo, actuellement au moindre effort. Elle n’a pas de douleurs thoraciques, pas de notion de syncope. L’auscultation met en évidence un souffle au foyer aortique non connu. Il existe de discrets crépitants aux bases.",
+          "question": "Quels critères sont en faveur d’un souffle de rétrécissement aortique ?",
           "choix": [
             "A) Souffle râpeux",
             "B) Souffle diastolique",
@@ -719,7 +719,7 @@
       ]
     },
     {
-      "id": "folder-1786294835486-17f2c8274e2ca8",
+      "id": "folder-1790535669896-9c088dbc263fb8",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -869,8 +869,8 @@
         {
           "id": 35,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un patient de 55 ans présentant une cardiopathie ischémique avec fraction d’éjection à 40% est hospitalisé pour une décompensation cardiaque. Son traitement habituel comporte : ramipril, bisoprolol, eplerenone, aspirine, atorvastatine.\nAprès avoir été traité par furosémide, quel traitement proposez-vous de rajouter en première intention à la sortie d’hôpital?",
+          "contexte": "Un patient de 55 ans présentant une cardiopathie ischémique avec fraction d’éjection à 40% est hospitalisé pour une décompensation cardiaque. Son traitement habituel comporte : ramipril, bisoprolol, eplerenone, aspirine, atorvastatine.",
+          "question": "Après avoir été traité par furosémide, quel traitement proposez-vous de rajouter en première intention à la sortie d’hôpital?",
           "choix": [
             "A) Diurétique thiazidique",
             "B) Inhibiteur calcique",
@@ -887,8 +887,8 @@
         {
           "id": 36,
           "type": "QROC",
-          "contexte": "",
-          "question": "Mr X âgé de 75 ans patient hypertendu traité par association ARA2 et diurétiques mais mal équilibré ressent brutalement une douleur inter-scapulaire à type de déchirure. Après une heure présente une hémiplégie droite. Il est conduit aux urgences en SAMU.\nQuel diagnostic évoquez-vous en priorité ?",
+          "contexte": "Mr X âgé de 75 ans patient hypertendu traité par association ARA2 et diurétiques mais mal équilibré ressent brutalement une douleur inter-scapulaire à type de déchirure. Après une heure présente une hémiplégie droite. Il est conduit aux urgences en SAMU.",
+          "question": "Quel diagnostic évoquez-vous en priorité ?",
           "choix": [],
           "reponses": [
             "Dissection aortique",
@@ -915,8 +915,8 @@
         {
           "id": 37,
           "type": "QROC",
-          "contexte": "",
-          "question": "Un patient de 61 ans se présente aux urgences avec des douleurs thoraciques intermittentes depuis 4h.\nA l’electrocardiogramme il existe des ondes T négatives en V2V3V4.\nQuel est l’examen de première intention que vous demandez ?",
+          "contexte": "Un patient de 61 ans se présente aux urgences avec des douleurs thoraciques intermittentes depuis 4h.\nA l’electrocardiogramme il existe des ondes T négatives en V2V3V4.",
+          "question": "Quel est l’examen de première intention que vous demandez ?",
           "choix": [],
           "reponses": [
             "Troponine",

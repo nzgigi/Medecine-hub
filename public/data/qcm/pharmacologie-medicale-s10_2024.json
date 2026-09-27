@@ -236,8 +236,8 @@
         {
           "id": 11,
           "type": "QRM",
-          "contexte": "",
-          "question": "Soit l’ordonnance suivante :\n- ibuprofène 400mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- acide alendronique 70mg 1 fois par semaine\n- lansoprazole 30mg 1 fois par jour\n- colchicine 1 mg 1 fois par jour\nParmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ?",
+          "contexte": "Soit l’ordonnance suivante :\n- ibuprofène 400mg 2 fois par jour\n- hydrochlorothiazide 12,5 mg 1 fois par jour\n- acide alendronique 70mg 1 fois par semaine\n- lansoprazole 30mg 1 fois par jour\n- colchicine 1 mg 1 fois par jour",
+          "question": "Parmi les affirmations suivantes, laquelle (lesquelles) est (sont) vraie(s) ?",
           "choix": [
             "A) L’alopécie est un signe précoce de surdosage en colchicine.",
             "B) L’association ibuprofène et hydrochlorothiazide majore le risque de surdosage en colchicine.",
@@ -340,7 +340,7 @@
       ]
     },
     {
-      "id": "folder-1786297381462-7a94b936dc6d3",
+      "id": "folder-1790538501268-61736f37ecf5a",
       "type": "DP",
       "title": "DP 1",
       "description": "ME Z 83 ans présente un premier épisode d’insuﬃsance cardiaque dans un contexte d’hypertension artérielle traitée par Lercanidipine 10 mg : un cp par jour et de ﬁbrillation auriculaire pour laquelle elle reçoit de la Coumadine. Elle pèse 56 kg et elle présente une insuﬃsance rénale déﬁnie par une clairance de 35 ml/min. L’échographie cardiaque ne montre pas de valvulopathie : la fraction d’éjection est à 35%. La patiente s’automédique pour des céphalées et des douleurs articulaires par de l’Ibuprofène et du Diclofenac en application. Elle a comme antécédent, la survenue il y a 20 ans d’un cancer du sein gauche traité par chirurgie, radiothérapie et chimiothérapie comprenant de la Doxorubicine.",
@@ -455,8 +455,8 @@
         {
           "id": 21,
           "type": "QRP",
-          "contexte": "",
-          "question": "Nous sommes un an après cet épisode. La patiente est stable. Elle reçoit un traitement par spironolactone 25 mg par jour Sacubitril/Valsartan 97/103 : 1 cp matin et soir, bisoprolol 2.5 mg : un cp par jour, dapaglifozine 10 mg :\nun cp par jour, Methotrexate et de la Prednisone qui est pris depuis environ un an et dont la posologie a été diminuée à 5 mg par jour. Vous envisagez d’interrompre la Prednisone.\nQuelles sont les 3 propositions exactes ?",
+          "contexte": "Nous sommes un an après cet épisode. La patiente est stable. Elle reçoit un traitement par spironolactone 25 mg par jour Sacubitril/Valsartan 97/103 : 1 cp matin et soir, bisoprolol 2.5 mg : un cp par jour, dapaglifozine 10 mg :\nun cp par jour, Methotrexate et de la Prednisone qui est pris depuis environ un an et dont la posologie a été diminuée à 5 mg par jour. Vous envisagez d’interrompre la Prednisone.",
+          "question": "Quelles sont les 3 propositions exactes ?",
           "choix": [
             "A) Un arrêt brutal de la Prednisone expose la patiente à un risque d’hyponatrémie.",
             "B) Un arrêt brutal de la Prednisone expose la patiente à un risque d’hyperkaliémie.",
@@ -476,7 +476,7 @@
       ]
     },
     {
-      "id": "folder-1786297383403-4b89e41e6a35c",
+      "id": "folder-1790538505479-75e9254de5f04",
       "type": "DP",
       "title": "DP 2",
       "description": "M P 76 ans présente une ﬁbrillation auriculaire découverte à l’occasion d’une consultation motivée par le renouvellement de son ordonnance de médicament antihypertenseur. La fréquence cardiaque est de 80 bpm. La fonction rénale est déﬁnie par une clairance de 80ml/min de la créatinine. Il n’y pas de leucocyturie de protéinurie, ou d’hématurie. La kaliémie est 3.9 mmol/l. Le traitement comprend bisoprolol 5 mg : un cp par jour. Le patient n’a pas d’autre antécédent. Il ne présente aucun signe d’incompétence cardiaque. La pression artérielle mesurée au décours de l’annonce du diagnostic de fibrillation auriculaire est à 165/78 mm Hg. Le poids du patient est de 80 kg.",
@@ -629,8 +629,8 @@
         {
           "id": 29,
           "type": "QRP",
-          "contexte": "",
-          "question": "Le patient reçoit un traitement Bisoprolol 5 mg : un cp par jour, de l'Alfusozine qui est un alpha-bloquant pour traiter une hypertrophie bénigne de prostate, de l'Urapidil 60 mg : une gel matin et soir et Eliquis 5 mg : un cp matin et soir. L’Urapidil est un alphabloquant proposé comme traitement antihypertenseur. L’évaluation gériatrique a conclu à une maladie des corps de Lewy.\nParmi ces propositions, quelles sont les 3 réponses exactes ?",
+          "contexte": "Le patient reçoit un traitement Bisoprolol 5 mg : un cp par jour, de l'Alfusozine qui est un alpha-bloquant pour traiter une hypertrophie bénigne de prostate, de l'Urapidil 60 mg : une gel matin et soir et Eliquis 5 mg : un cp matin et soir. L’Urapidil est un alphabloquant proposé comme traitement antihypertenseur. L’évaluation gériatrique a conclu à une maladie des corps de Lewy.",
+          "question": "Parmi ces propositions, quelles sont les 3 réponses exactes ?",
           "choix": [
             "A) Il faut arrêter l’urapidil.",
             "B) Il faut arrêter l’alfusozine.",
@@ -650,7 +650,7 @@
       ]
     },
     {
-      "id": "folder-1786297386073-ac8af2a722df2",
+      "id": "folder-1790538511593-686d1396faeb4",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Mme Duez, 65 ans, est diabétique de type 2 depuis 20 ans et a une hypertension artérielle depuis 15 ans. Vous retrouvez la notion d'une toxémie gravidique lors de ses deux dernières grossesses à l'âge de 20 et 25 ans avec l'absence complète de suivi au décours.\nElle ne fume pas, reste active et se préoccupe de sa santé depuis une dizaine d'années.\nSon diabète est compliqué d'une rétinopathie diabétique panphotocoagulée et elle a une néphropathie diabétique avec une altération progressive de la fonction rénale sur les cinq dernières années et l'apparition d'une protéinurie. Son traitement comprend : ramipril 5 mg le matin, amlodipine 10 mg le matin, Furosémide 125 mg matin, pompe à insuline externe avec un capteur de glucose, Kardégic 75 mg/jour, rosuvastatine 10 mg/jour.\nElle est asymptomatique, ne décrit pas d'hypoglycémie récente ; poids à 50 kg pour 1,50 m, PA à 150/100-130/75 mmHg pouls à 70/min examen clinique normal.\nL'ECG est normal.\nÀ la biologie : natrémie 138 mmol/l, kaliémie 4,9 mmol/l, créatininémie 250 µmol/l soit un DFG en CKD epi à 28 ml/min ; rapport protéinurie/créatininurie 800 mg/g ; hémoglobine 9,2 g /100 ml, VGM 88 µ3, plaquettes et globules blancs normaux, ferritine normale ; l'hémoglobine glyquée est à 5,8 % ; LDL cholestérol 1,05 g/l L'échographie rénale montre des reins de taille normale sans obstacle.\nL'écho-doppler des artères rénales est normal et visualise très correctement les artères rénales sans sténose ; les index de résistance sont en faveur d'une néphroangiosclérose.\nLa patiente est régulièrement suivie par une néphrologue tous les trois mois. Celle-ci, après avoir écarté l'hypothèse d'une carence martiale et d'un saignement extériorisé veut mettre en place un traitement par érythropoïétine.",
@@ -746,7 +746,7 @@
       ]
     },
     {
-      "id": "folder-1786297388366-6fde43d223ec18",
+      "id": "folder-1790538517687-8b76ffe310e35",
       "type": "DP",
       "title": "DP 3",
       "description": "Madame Claire A, 55 ans consulte pour un renouvellement d’ordonnance. Elle a une hypertension artérielle depuis 5 ans dans un contexte familial traitée par amlodipine. Elle consulte épisodiquement.\nElle est en plein divorce et a pris 5 kg sur 6 mois.\nA l’examen, poids 80 kg pour 1.60 m PA à 125/75 mmHg, examen clinique normal.\nL’ECG est normal.\nA la biologie, glycémie à jeun à 1.30 g/l : kaliémie 4 mmol/l, natrémie 136 mmol/L, créatininémie à 70 µmol/L soit un DFG à 95 ml/min.",
@@ -792,8 +792,8 @@
         {
           "id": 35,
           "type": "QRP",
-          "contexte": "",
-          "question": "3 mois plus tard, l’HbA1c est à 7.8% : vous décidez de mettre en place un traitement de metformine.\nConcernant cette molécule, quelles sont les 3 réponses exactes ?",
+          "contexte": "3 mois plus tard, l’HbA1c est à 7.8% : vous décidez de mettre en place un traitement de metformine.",
+          "question": "Concernant cette molécule, quelles sont les 3 réponses exactes ?",
           "choix": [
             "A) Elle stimule l’insulinosécrétion.",
             "B) Elle ralentit la vidange gastrique.",
@@ -851,8 +851,8 @@
         {
           "id": 38,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un mois après avoir débuté le traitement, la patiente revient vous voir et vous annonce qu’elle a arrêté tous ses médicaments dont les injections de l’analogue du GLP1 après 21 jours de traitement en raison de nausées qu’elle juge invalidantes avec quelques épisodes de vomissement. Ces troubles digestifs ont disparu et l’examen clinique reste normal.\nQue devez-vous faire ?",
+          "contexte": "Un mois après avoir débuté le traitement, la patiente revient vous voir et vous annonce qu’elle a arrêté tous ses médicaments dont les injections de l’analogue du GLP1 après 21 jours de traitement en raison de nausées qu’elle juge invalidantes avec quelques épisodes de vomissement. Ces troubles digestifs ont disparu et l’examen clinique reste normal.",
+          "question": "Que devez-vous faire ?",
           "choix": [
             "A) La rassurer en lui précisant que c’est un événement indésirable connu des analogues du GLP1.",
             "B) Ne pas faire de déclaration à la pharmacovigilance.",
@@ -869,8 +869,8 @@
         {
           "id": 39,
           "type": "QRM",
-          "contexte": "",
-          "question": "La patiente vous apprend que le fond d'œil montre une rétinopathie diabétique simple. Par ailleurs la fonction rénale reste normale et elle a un rapport albuminurie/créatininurie à 200 mg/g. Son traitement comprend amlodipine qu'elle prend épisodiquement. En l'interrogeant elle relate des œdèmes des membres inférieurs qu'elle considère invalidants, raison du manque d'observance. L'hémoglobine glyquée est à 7,3 % sous metformine à posologie maximale. La moyenne de 18 mesures de PA faites au domicile est à 139/100 mmHg\nQuelles sont les classes thérapeutiques à privilégier chez elle ?",
+          "contexte": "La patiente vous apprend que le fond d'œil montre une rétinopathie diabétique simple. Par ailleurs la fonction rénale reste normale et elle a un rapport albuminurie/créatininurie à 200 mg/g. Son traitement comprend amlodipine qu'elle prend épisodiquement. En l'interrogeant elle relate des œdèmes des membres inférieurs qu'elle considère invalidants, raison du manque d'observance. L'hémoglobine glyquée est à 7,3 % sous metformine à posologie maximale. La moyenne de 18 mesures de PA faites au domicile est à 139/100 mmHg",
+          "question": "Quelles sont les classes thérapeutiques à privilégier chez elle ?",
           "choix": [
             "A) Les inhibiteurs de l'enzyme de conversion de l'angiotensine.",
             "B) Les diurétiques thiazidiques.",

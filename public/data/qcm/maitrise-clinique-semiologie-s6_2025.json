@@ -135,8 +135,8 @@
         {
           "id": 7,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous voyez un patient de 47 ans pour le renouvellement de ses traitements habituels. A la fin de la consultation il vous parle d’un grain de beauté dans le dos que sa femme ne trouve « pas très joli » et il souhaiterait votre avis. Voici la lésion qui fait 25 mm de grand axe.\nVous prenez un avis dermatologique, comment décririez-vous cette lésion ?",
+          "contexte": "Vous voyez un patient de 47 ans pour le renouvellement de ses traitements habituels. A la fin de la consultation il vous parle d’un grain de beauté dans le dos que sa femme ne trouve « pas très joli » et il souhaiterait votre avis. Voici la lésion qui fait 25 mm de grand axe.",
+          "question": "Vous prenez un avis dermatologique, comment décririez-vous cette lésion ?",
           "choix": [
             "A) Il s’agit d’une lésion vasculaire",
             "B) Il s’agit d’une lésion pigmentée",
@@ -153,7 +153,7 @@
           "correctionExplanation": "",
           "order": 7,
           "images": [
-            "/images/qcm/maitrise-clinique-semiologie-s6/2025/q7.png?v=1786296840886"
+            "/images/qcm/maitrise-clinique-semiologie-s6/2025/q7.png?v=1790536682970"
           ]
         },
         {
@@ -177,7 +177,7 @@
           "correctionExplanation": "",
           "order": 8,
           "images": [
-            "/images/qcm/maitrise-clinique-semiologie-s6/2025/q8.png?v=1786296841647"
+            "/images/qcm/maitrise-clinique-semiologie-s6/2025/q8.png?v=1790536684561"
           ]
         },
         {
@@ -391,27 +391,27 @@
           "order": 19,
           "items": [
             {
-              "id": "item-1786296847103-0345370902a46",
+              "id": "item-1790536697032-587a7aee87cdb8",
               "label": "brûlure",
               "correctAnswer": "neuropathique"
             },
             {
-              "id": "item-1786296847251-679a40ae33d0b",
+              "id": "item-1790536697361-5327e306b071b8",
               "label": "douleur à type de torsion",
               "correctAnswer": "souffrance d'un viscère creux"
             },
             {
-              "id": "item-1786296847388-dfd877b44d8e6",
+              "id": "item-1790536697714-71f97f31928168",
               "label": "constrictive",
               "correctAnswer": "ischémie"
             },
             {
-              "id": "item-1786296847523-e0d4504b4293",
+              "id": "item-1790536698054-a36a6989d1c31",
               "label": "impulsive à la toux",
               "correctAnswer": "pleurale"
             },
             {
-              "id": "item-1786296847674-e29ce23f5fead",
+              "id": "item-1790536698387-a9bb26a6a8f8c",
               "label": "irradiant en face externe de cuisse et de jambe",
               "correctAnswer": "radiculaire"
             }

@@ -188,7 +188,7 @@
       ]
     },
     {
-      "id": "folder-1786296595482-7b5572cd222738",
+      "id": "folder-1790536587086-72a418fb5df14",
       "type": "DP",
       "title": "DP 1",
       "description": "Mme et Mr V consultent pour une infertilité primaire depuis 1 an. Mme V. 33 ans, enseignante, IMC 22, pas de signes fonctionnels, cycles réguliers de 23 à 25 j depuis l’arrêt de la pilule il y a 1 an. Dans ses antécédents personnels, on retrouve une appendicite à 16 ans. Mr G. 42 ans, informaticien, taille 1,78 m, poids 80kg.",
@@ -276,8 +276,8 @@
         {
           "id": 14,
           "type": "QRM",
-          "contexte": "",
-          "question": "Le résultat du bilan hormonal prescrit à Mme, réalisé à J3 du cycle, retrouve :\nAMH: 0,7 ng/ml (Limite basse à 33 ans: 0,9 ng/ml)\nQuel(s) élément(s) peut(peuvent) expliquer ces résultats selon vous ?",
+          "contexte": "Le résultat du bilan hormonal prescrit à Mme, réalisé à J3 du cycle, retrouve :\nFSH: 9,8 UI/l (N: 3-8 UI/l)\nLH: 3,7 UI/l (N: 2,5-7,5 UI/l)\nE2: 35 pg/ml (N: 25-47 UI/l)\nAMH: 0,7 ng/ml (Limite basse à 33 ans: 0,9 ng/ml)",
+          "question": "Quel(s) élément(s) peut(peuvent) expliquer ces résultats selon vous ?",
           "choix": [
             "A) Une quantité de masse grasse très insuffisante",
             "B) Une mutation inactivatrice du récepteur à la kisspeptine",
@@ -291,10 +291,7 @@
             "E"
           ],
           "correctionExplanation": "",
-          "order": 5,
-          "images": [
-            "/images/qcm/hr-reproduction-s5/2024/q14.png?v=1786296596333"
-          ]
+          "order": 5
         },
         {
           "id": 15,

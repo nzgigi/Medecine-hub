@@ -36,8 +36,8 @@
         {
           "id": 2,
           "type": "QRM",
-          "contexte": "",
-          "question": "En poussant l’interrogatoire, vous apprenez que Mr M a une mère qui est décédée d’un cancer de l’ovaire. Il a également présenté une hématurie macroscopique.\nEn général, quels sont les facteurs de risque de tumeur du rein?",
+          "contexte": "En poussant l’interrogatoire, vous apprenez que Mr M a une mère qui est décédée d’un cancer de l’ovaire. Il a également présenté une hématurie macroscopique.",
+          "question": "En général, quels sont les facteurs de risque de tumeur du rein?",
           "choix": [
             "A) L’hypertension artérielle",
             "B) L’obésité",
@@ -75,8 +75,8 @@
         {
           "id": 4,
           "type": "QROC",
-          "contexte": "",
-          "question": "Les données du scanner retrouvent finalement une tumeur isolée du rein droit sans lésion à distance , un calcul de 4 mm caliciel inférieur gauche , un sigmoïde diverticulaire, un épaississement de la vessie et une vésicule lithiasique.\nQuels est chez Mr M l'élément prinicpal qui vous ferait évoquer une tumeur de vessie ?",
+          "contexte": "Les données du scanner retrouvent finalement une tumeur isolée du rein droit sans lésion à distance , un calcul de 4 mm caliciel inférieur gauche , un sigmoïde diverticulaire, un épaississement de la vessie et une vésicule lithiasique.",
+          "question": "Quels est chez Mr M l'élément prinicpal qui vous ferait évoquer une tumeur de vessie ?",
           "choix": [],
           "reponses": [
             "hématurie",
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": "folder-1786300884234-77674bed3122f8",
+      "id": "folder-1790540624046-efc19a85df651",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Matthieu 21 ans vient consulter pour augmentation douloureuse de sa bourse à gauche. Il a reçu un coup de genou dans les bourses lors d’un match de rugby il y a 3 semaines mais la douleur a rapidement cédé. Il a été opéré dans l’enfance à ce niveau. Il est sub fébrile à 37,9° sans frisson.",
@@ -237,8 +237,8 @@
         {
           "id": 11,
           "type": "QROC",
-          "contexte": "",
-          "question": "Les explorations que vous avez faites vous confirment le diagnostic avec les résultats des marqueurs comme à suivre :\nLDH 450ng/ml ( >1,5N)\naFP 25ng/ml ( N)\nHCG total : 20 000 ( >2N)\nIl s'agit probablement d'un carcinome embryonnaire.\nAprès avoir proposé une préservation de sperme, et vous être assuré qu'il n'y avait pas de lésion secondaire, vous programmez une prise en charge chirurgicale.\nEn quoi va-t-elle consister?",
+          "contexte": "Les explorations que vous avez faites vous confirment le diagnostic avec les résultats des marqueurs comme à suivre :\nLDH 450ng/ml ( >1,5N)\naFP 25ng/ml ( N)\nHCG total : 20 000 ( >2N)\nIl s'agit probablement d'un carcinome embryonnaire.\nAprès avoir proposé une préservation de sperme, et vous être assuré qu'il n'y avait pas de lésion secondaire, vous programmez une prise en charge chirurgicale.",
+          "question": "En quoi va-t-elle consister?",
           "choix": [],
           "reponses": [
             "Orchidectomie totale gauche par voie inguinale",
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "id": "folder-1786300890280-bf1f3e44d7b83",
+      "id": "folder-1790540636085-45feebe224ccf",
       "type": "DP",
       "title": "DP 2",
       "description": "Questions isolées d'urologie",

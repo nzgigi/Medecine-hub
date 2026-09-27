@@ -50,8 +50,8 @@
         {
           "id": 3,
           "type": "QRU",
-          "contexte": "",
-          "question": "Quelques années plus tard, vous mesurez une pression artérielle à 138/76 mmHg.\nLe bilan biologique retrouve :\nun débit de filtration glomérulaire estimé à 50 ml/min/1,73m2, stable à 3 mois d’intervalle\nprotéinurie 2 g/g ; albuminurie 0,8 g/g ;\ncytologie urinaire : leucocytes 4 GB/mm3 ; hématurie 240 GR/mm3 ; ECBU stérile.\nQuel syndrome néphrologique présente votre patient ?",
+          "contexte": "Quelques années plus tard, vous mesurez une pression artérielle à 138/76 mmHg.\nLe bilan biologique retrouve :\nun débit de filtration glomérulaire estimé à 50 ml/min/1,73m2, stable à 3 mois d’intervalle\nprotéinurie 2 g/g ; albuminurie 0,8 g/g ;\ncytologie urinaire : leucocytes 4 GB/mm3 ; hématurie 240 GR/mm3 ; ECBU stérile.",
+          "question": "Quel syndrome néphrologique présente votre patient ?",
           "choix": [
             "A) Un syndrome néphrotique",
             "B) Un syndrome néphritique",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "folder-1786299929505-b8a2e133ab1e7",
+      "id": "folder-1790539643891-259bdd32e06688",
       "type": "DP",
       "title": "DP 2",
       "description": "Un patient de 40 ans se présente avec une détresse respiratoire aiguë. Sa fréquence respiratoire est à 30/min, il est en sueurs, hypertendu et confus.",
@@ -153,8 +153,8 @@
         {
           "id": 8,
           "type": "QRM",
-          "contexte": "",
-          "question": "Plusieurs années après, le patient consulte pour un syndrome polyuro-polydipsique. Il est euvolémique. Le bilan biologique retrouve une natrémie à 155 mmol/L. Potassium 3,6 mmol/L, Calcium 3,2 mmol/L (2,2-2,6 mmol/L), Chlore 110 mmol/L.\nQuelles sont les propositions vraies ?",
+          "contexte": "Plusieurs années après, le patient consulte pour un syndrome polyuro-polydipsique. Il est euvolémique. Le bilan biologique retrouve une natrémie à 155 mmol/L. Potassium 3,6 mmol/L, Calcium 3,2 mmol/L (2,2-2,6 mmol/L), Chlore 110 mmol/L.",
+          "question": "Quelles sont les propositions vraies ?",
           "choix": [
             "A) Le patient est en déshydratation extra-cellulaire",
             "B) Le patient est en hyperhydratation extra-cellulaire",
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": "folder-1786299930938-780e4f4a73ff5",
+      "id": "folder-1790539646695-9d6b1d81cc7af",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -201,8 +201,8 @@
         {
           "id": 10,
           "type": "QRM",
-          "contexte": "",
-          "question": "Un patient de 67 ans se présente pour une élévation de la créatinine à 350 µmol/L alors qu’il avait 80 µmol/L il y a 2 semaines. Vous obtenez le ionogramme urinaire suivant : Na < 20 mmol/L. K à 60 mmol/L.\nQuelles sont les propositions exactes ?",
+          "contexte": "Un patient de 67 ans se présente pour une élévation de la créatinine à 350 µmol/L alors qu’il avait 80 µmol/L il y a 2 semaines. Vous obtenez le ionogramme urinaire suivant : Na < 20 mmol/L. K à 60 mmol/L.",
+          "question": "Quelles sont les propositions exactes ?",
           "choix": [
             "A) La natriurèse est abondante.",
             "B) La natriurèse est verrouillée.",
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "id": "folder-1786299932807-35b2281a4b2168",
+      "id": "folder-1790539651032-3180c21e7f0cd",
       "type": "DP",
       "title": "DP 3",
       "description": "Vous recevez aux urgences une femme de 42 ans pour hématurie.",

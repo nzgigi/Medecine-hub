@@ -170,7 +170,7 @@
       ]
     },
     {
-      "id": "folder-1786294867494-071939e19346e8",
+      "id": "folder-1790535693395-9c695ed85f29a",
       "type": "DP",
       "title": "DP 2",
       "description": "Un homme âgé de 50 ans, consulte pour un essoufflement survenu il y a 3 mois à la marche et qu'il trouve maintenant gênant. Son état s'aggrave progressivement et il est maintenant essoufflé pour aller faire le lit, ranger son garage et préparer les repas. Il fume un paquet de cigarettes par jour depuis l'âge de 19 ans.\nSes antécédents se résument à un diabète de type 2, traité par metformine 1000 mg LP, 1 cp/j.\nL'interrogatoire retrouve une toux nocturne apparue il y a environ 3 semaines qui ne l'a jamais alarmé, l’absence de douleur thoracique récente.\nLa tension artérielle est à 145/85 mmHg aux deux bras, comme cela avait été antérieurement retrouvé en médecine du travail, sans variation en orthostatisme et la fréquence cardiaque à 90/min.\nL'auscultation cardiaque est normale. L'auscultation pulmonaire retrouve quelques râles crépitants aux bases. Le reste de l'examen est sans particularité.",
@@ -236,8 +236,8 @@
         {
           "id": 12,
           "type": "QRM",
-          "contexte": "",
-          "question": "La fonction rénale est normale sans désordre électrolytique, le BNP est à 195 pg/mL, l'Hb glyquée à 8.5 % et il n'existe ni anémie, ni hyperleucocytose.\nL'ECG est soumis à votre interprétation.\nQuelle(s) anomalie(s) authentifiez-vous ?",
+          "contexte": "La fonction rénale est normale sans désordre électrolytique, le BNP est à 195 pg/mL, l'Hb glyquée à 8.5 % et il n'existe ni anémie, ni hyperleucocytose.\nL'ECG est soumis à votre interprétation.",
+          "question": "Quelle(s) anomalie(s) authentifiez-vous ?",
           "choix": [
             "A) Flutter atrial.",
             "B) Séquelle d'infarctus antérieur.",
@@ -253,14 +253,14 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/cardiologie-s7/2025/q12.jpg?v=1786294869748"
+            "/images/qcm/cardiologie-s7/2025/q12.jpg?v=1790535695120"
           ]
         },
         {
           "id": 13,
           "type": "QRU",
-          "contexte": "",
-          "question": "La radiographie du thorax est soumise à votre interprétation.\nQuelle anomalie identifiez-vous?",
+          "contexte": "La radiographie du thorax est soumise à votre interprétation.",
+          "question": "Quelle anomalie identifiez-vous?",
           "choix": [
             "A) Dilatation de l'aorte",
             "B) Epanchement pleural",
@@ -274,7 +274,7 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/cardiologie-s7/2025/q13.png?v=1786294870612"
+            "/images/qcm/cardiologie-s7/2025/q13.png?v=1790535696121"
           ]
         },
         {
@@ -298,8 +298,8 @@
         {
           "id": 15,
           "type": "QRU",
-          "contexte": "",
-          "question": "L'échocardiographie est soumise à votre interprétation :\nCOMPTE-RENDU :\nAkinésie de la paroi antérieure\nAbsence de thrombus intra-cavitaire\nFraction d'éjection VG : 35 %\nAbsence de valvulopathie\nAbsence d'épanchement péricardique\nPAPS estimée à 40 mmHg\nCavité droite non dilatée\nQuel est le mécanisme de cette défaillance cardiaque ?",
+          "contexte": "L'échocardiographie est soumise à votre interprétation :\nCOMPTE-RENDU :\nAkinésie de la paroi antérieure\nAbsence de thrombus intra-cavitaire\nFraction d'éjection VG : 35 %\nAbsence de valvulopathie\nAbsence d'épanchement péricardique\nPAPS estimée à 40 mmHg\nCavité droite non dilatée",
+          "question": "Quel est le mécanisme de cette défaillance cardiaque ?",
           "choix": [
             "A) Insuffisance cardiaque à fraction d'éjection préservée.",
             "B) Insuffisance cardiaque à fraction d'éjection réduite.",
@@ -313,7 +313,7 @@
           "correctionExplanation": "",
           "order": 7,
           "images": [
-            "/images/qcm/cardiologie-s7/2025/q15.png?v=1786294871713"
+            "/images/qcm/cardiologie-s7/2025/q15.png?v=1790535697862"
           ]
         },
         {
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "id": "folder-1786294872955-02ed557e8f0b5",
+      "id": "folder-1790535698668-da31cfe0117638",
       "type": "DP",
       "title": "DP 3",
       "description": "Vous êtes aux urgences et vous recevez une patiente de 19 ans, Mme P. pour une douleur du membre inférieur droit.\nCette douleur évolue depuis maintenant 5 jours, elle est présente au repos et à l’eﬀort et concerne principalement le mollet et quelquefois la cuisse.\nElle n’a pas d’antécédent notable et ne prend pas de traitement en dehors d’une pilule progestative.\nLes constantes sont bonnes, la saturation est à 97 % en air ambiant, la pression artérielle à 120/68 mmHg et la fréquence cardiaque à 112 bpm.\nCliniquement la jambe droite est œdématiée avec prise du godet et 4 cm de diﬀérence de diamètre par rapport à la gauche. La jambe est chaude, légèrement rouge et tendue. L’examen neurologique ne retrouve aucun déﬁcit sensitif ou moteur. Il n’y a pas de trouble trophique. Les pouls sont perçus.",
@@ -366,8 +366,8 @@
         {
           "id": 18,
           "type": "QRU",
-          "contexte": "",
-          "question": "Dans la suspicion d’une thrombose veineuse profonde, vous établissez la probabilité clinique à l’aide du score de Wells. Celle-ci est élevée. Vous réalisez donc un écho-doppler veineux des membres inférieurs. Ce dernier retrouve une thrombose veineuse profonde comprenant la veine tibiale postérieure, la veine jumelle, la veine poplitée et la veine fémorale.\nDevant ce diagnostic, quelle prise en charge réalisez-vous ?",
+          "contexte": "Dans la suspicion d’une thrombose veineuse profonde, vous établissez la probabilité clinique à l’aide du score de Wells. Celle-ci est élevée. Vous réalisez donc un écho-doppler veineux des membres inférieurs. Ce dernier retrouve une thrombose veineuse profonde comprenant la veine tibiale postérieure, la veine jumelle, la veine poplitée et la veine fémorale.",
+          "question": "Devant ce diagnostic, quelle prise en charge réalisez-vous ?",
           "choix": [
             "A) La mise en place d’une hydratation IV.",
             "B) Une anticoagulation à dose préventive.",
@@ -384,8 +384,8 @@
         {
           "id": 19,
           "type": "QRU",
-          "contexte": "",
-          "question": "Après mise en place d’une anticoagulation à dose curative par HBPM, Mme P. vous dit qu’elle se sent un peu essouﬄée depuis 24h. Vous évoquez donc une embolie pulmonaire.\nQuel examen demandez-vous en 1ère intention afin de confirmer votre hypothèse ?",
+          "contexte": "Après mise en place d’une anticoagulation à dose curative par HBPM, Mme P. vous dit qu’elle se sent un peu essouﬄée depuis 24h. Vous évoquez donc une embolie pulmonaire.",
+          "question": "Quel examen demandez-vous en 1ère intention afin de confirmer votre hypothèse ?",
           "choix": [
             "A) Une scintigraphie ventilation-perfusion.",
             "B) Un angioscanner pulmonaire.",
@@ -417,14 +417,14 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/cardiologie-s7/2025/q20.png?v=1786294874921"
+            "/images/qcm/cardiologie-s7/2025/q20.png?v=1790535700546"
           ]
         },
         {
           "id": 21,
           "type": "QRU",
-          "contexte": "",
-          "question": "Il existe donc une embolie pulmonaire proximale bilatérale. Il n’existe pas de dilatation des cavités cardiaques droites.\nLes résultats de la prise de sang sont les suivants :\nTroponine à 8 ng/L (norme < 14).\nBNP à 30 pg/mL (norme < 300).\nFonction rénale normale avec un DFG à 90mL/min/m².\nPas de cholestase ou cytolyse.\nQuel est le risque de cette embolie pulmonaire ?",
+          "contexte": "Il existe donc une embolie pulmonaire proximale bilatérale. Il n’existe pas de dilatation des cavités cardiaques droites.\nLes résultats de la prise de sang sont les suivants :\nTroponine à 8 ng/L (norme < 14).\nBNP à 30 pg/mL (norme < 300).\nFonction rénale normale avec un DFG à 90mL/min/m².\nPas de cholestase ou cytolyse.",
+          "question": "Quel est le risque de cette embolie pulmonaire ?",
           "choix": [
             "A) Certaines informations sont manquantes, on ne peut pas conclure.",
             "B) Il s’agit d’une embolie pulmonaire de risque faible.",
@@ -441,8 +441,8 @@
         {
           "id": 22,
           "type": "QRM",
-          "contexte": "",
-          "question": "Devant cette embolie pulmonaire de risque intermédiaire faible, vous hospitalisez la patiente en médecine vasculaire.\nVous reprenez l’interrogatoire après lui avoir fait par du diagnostic. Elle vous explique que sa mère a fait une thrombose veineuse à 45 ans sans qu’on retrouve de circonstances. Elle n’a pas subi d’intervention récemment, pas de fracture ou d’hospitalisation. Elle est partie en vacances il y a 1 mois en avion pour se rendre aux canaries avec un vol de 4h.\nQuel(s) est(sont) le(s) facteur(s) de risque retrouvé(s) à l’interrogatoire ?\nQue proposez-vous ?",
+          "contexte": "Devant cette embolie pulmonaire de risque intermédiaire faible, vous hospitalisez la patiente en médecine vasculaire.\nVous reprenez l’interrogatoire après lui avoir fait par du diagnostic. Elle vous explique que sa mère a fait une thrombose veineuse à 45 ans sans qu’on retrouve de circonstances. Elle n’a pas subi d’intervention récemment, pas de fracture ou d’hospitalisation. Elle est partie en vacances il y a 1 mois en avion pour se rendre aux canaries avec un vol de 4h.\nQuel(s) est(sont) le(s) facteur(s) de risque retrouvé(s) à l’interrogatoire ?",
+          "question": "Que proposez-vous ?",
           "choix": [
             "A) La prise d’une pilule.",
             "B) L’antécédent familial.",
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "id": "folder-1786294876566-0c9dbbfd6f3a1",
+      "id": "folder-1790535701781-ccfcc2450c6a",
       "type": "KFP",
       "title": "KFP 1",
       "description": "M X 50 ans a une pression artérielle élevée en consultation de médecine du travail et il est adressé à son médecin traitant par son médecin du travail.",
@@ -537,13 +537,13 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/cardiologie-s7/2025/q25.png?v=1786294878118"
+            "/images/qcm/cardiologie-s7/2025/q25.png?v=1790535703023"
           ]
         }
       ]
     },
     {
-      "id": "folder-1786294879086-4c190abd1fb2f8",
+      "id": "folder-1790535703533-e09222333ba038",
       "type": "KFP",
       "title": "KFP 2",
       "description": "Un patient avec une insuffisance cardiaque à fraction d’éjection réduite est encore essoufflé malgré la majoration optimale de son IEC (ramipril 5mg x 2/ jour) et du béta-bloquant à la dose maximale tolérée, de la furosémide à 80 mg/j et de la spironolactone à 50 mg/j\nLa TA est à 135/65 mmHg et la FC à 70/min.\nLa créatininémie et la kaliémie demeurent normales.",
@@ -587,8 +587,8 @@
         {
           "id": 27,
           "type": "QROC",
-          "contexte": "",
-          "question": "3 ans plus tard, le patient qui est maintenant traité à la posologie de 97 mg de sacubitril/103 mg de valsartan, 2 cp/j, reste asymptomatique, l’ECG est non modifié et le dernier contrôle échocardiographique retrouve une FE à 40 %. Il vous interroge sur l’intérêt du traitement électrique de son insuffisance cardiaque après avoir consulté internet.\nQue pensez-vous de l'indication ?",
+          "contexte": "3 ans plus tard, le patient qui est maintenant traité à la posologie de 97 mg de sacubitril/103 mg de valsartan, 2 cp/j, reste asymptomatique, l’ECG est non modifié et le dernier contrôle échocardiographique retrouve une FE à 40 %. Il vous interroge sur l’intérêt du traitement électrique de son insuffisance cardiaque après avoir consulté internet.",
+          "question": "Que pensez-vous de l'indication ?",
           "choix": [],
           "reponses": [
             "Pas d’indication resynchronisation ni défibrillateur",
@@ -712,7 +712,7 @@
       ]
     },
     {
-      "id": "folder-1786294896878-4232f89c973a88",
+      "id": "folder-1790535714380-30af38de6232a",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -721,8 +721,8 @@
         {
           "id": 29,
           "type": "QRM",
-          "contexte": "",
-          "question": "M X 78 ans présente une hypertension artérielle traitée par urapidil et amlodipine. Il est traité pour une hypertrophie bénigne de prostate par de l’alfusozine. Il présente un malaise en se levant. Ce malaise a entrainé une chute compliquée d’une fracture du col du fémur.\nQuelles sont les propositions exactes ?",
+          "contexte": "M X 78 ans présente une hypertension artérielle traitée par urapidil et amlodipine. Il est traité pour une hypertrophie bénigne de prostate par de l’alfusozine. Il présente un malaise en se levant. Ce malaise a entrainé une chute compliquée d’une fracture du col du fémur.",
+          "question": "Quelles sont les propositions exactes ?",
           "choix": [
             "A) Il faut envisager la responsabilité du traitement médicamenteux dans la chute du patient.",
             "B) Tous les antihypertenseurs peuvent favoriser une hypotension orthostatique.",
@@ -743,8 +743,8 @@
         {
           "id": 30,
           "type": "QRU",
-          "contexte": "",
-          "question": "M X est hypertendu traité. Il se plaint de lipothymies le matin au lever. Vous avez fait une recherche d’hypotension orthostatique cette recherche est positive et vous observez lors du test à la recherche d’une hypotension orthostatique une augmentation de la fréquence cardiaque de 20 BPM alors que la pression artérielle systolique a diminué de 30 mm Hg.\nQuelle est la proposition exacte ?",
+          "contexte": "M X est hypertendu traité. Il se plaint de lipothymies le matin au lever. Vous avez fait une recherche d’hypotension orthostatique cette recherche est positive et vous observez lors du test à la recherche d’une hypotension orthostatique une augmentation de la fréquence cardiaque de 20 BPM alors que la pression artérielle systolique a diminué de 30 mm Hg.",
+          "question": "Quelle est la proposition exacte ?",
           "choix": [
             "A) L’augmentation de la fréquence cardiaque est en faveur d’une dysautonomie.",
             "B) L’augmentation de la fréquence cardiaque doit faire rechercher un diabète.",
@@ -761,8 +761,8 @@
         {
           "id": 31,
           "type": "QRM",
-          "contexte": "",
-          "question": "M T 50 ans présente une hypertension artérielle. Celle-ci n’est pas contrôlée malgré les mesures hygiéno-diététiques. Il est fumeur. Il est réticent à prendre un traitement médicamenteux car il n’en voit pas l’intérêt. Il a aussi des questions sur l’intérêt du sevrage tabagique.\nQuelles sont les propositions exactes ?",
+          "contexte": "M T 50 ans présente une hypertension artérielle. Celle-ci n’est pas contrôlée malgré les mesures hygiéno-diététiques. Il est fumeur. Il est réticent à prendre un traitement médicamenteux car il n’en voit pas l’intérêt. Il a aussi des questions sur l’intérêt du sevrage tabagique.",
+          "question": "Quelles sont les propositions exactes ?",
           "choix": [
             "A) Le traitement antihypertenseur réduit le risque cardiovasculaire s’il diminue la pression artérielle.",
             "B) Le sevrage tabagique diminue la pression artérielle.",
@@ -881,8 +881,8 @@
         {
           "id": 37,
           "type": "QRM",
-          "contexte": "",
-          "question": "Devant des anomalies de la cinétique segmentaire à l’échographie cardiaque trans-thoracique, vous vous orientez vers une étiologie dominante à l’insuffisance cardiaque à fraction d’éjection réduite de votre patient.\nQuels examens complémentaires peuvent-être réalisés pour vous aider à approfondir le diagnostic étiologique et envisager une prise en charge thérapeutique?",
+          "contexte": "Devant des anomalies de la cinétique segmentaire à l’échographie cardiaque trans-thoracique, vous vous orientez vers une étiologie dominante à l’insuffisance cardiaque à fraction d’éjection réduite de votre patient.",
+          "question": "Quels examens complémentaires peuvent-être réalisés pour vous aider à approfondir le diagnostic étiologique et envisager une prise en charge thérapeutique?",
           "choix": [
             "A) Scanner thoracique.",
             "B) Coronarographie.",
@@ -900,8 +900,8 @@
         {
           "id": 38,
           "type": "QRM",
-          "contexte": "",
-          "question": "Quel traitement médical proposez-vous chez un patient symptomatique avec une insuffisance cardiaque à fraction d ’éjection réduite d’origine ischémique.\nParmi les traitements médicamenteux suivants, lequel (lesquels) peut (peuvent) figurer sur votre ordonnance ?",
+          "contexte": "Quel traitement médical proposez-vous chez un patient symptomatique avec une insuffisance cardiaque à fraction d ’éjection réduite d’origine ischémique.",
+          "question": "Parmi les traitements médicamenteux suivants, lequel (lesquels) peut (peuvent) figurer sur votre ordonnance ?",
           "choix": [
             "A) Dapaglifozine/empaglifozine.",
             "B) IEC ou IRAN.",
@@ -944,8 +944,8 @@
         {
           "id": 40,
           "type": "QROC",
-          "contexte": "",
-          "question": "Me X 64 ans présente depuis de nombreuses années un souffle systolique connu.\nElle était asymptomatique jusqu’à récemment. Depuis quelques semaines un essoufflement s’est installé et s’aggrave rapidement.\nA l’auscultation vous retrouvez un souffle systolique au quatrième espace intercostale gauche irradiant vers l’aisselle. De quelle valvulopathie s’agit-il ?",
+          "contexte": "Me X 64 ans présente depuis de nombreuses années un souffle systolique connu.\nElle était asymptomatique jusqu’à récemment. Depuis quelques semaines un essoufflement s’est installé et s’aggrave rapidement.",
+          "question": "A l’auscultation vous retrouvez un souffle systolique au quatrième espace intercostale gauche irradiant vers l’aisselle. De quelle valvulopathie s’agit-il ?",
           "choix": [],
           "reponses": [
             "Insuffisance mitrale",
@@ -974,8 +974,8 @@
         {
           "id": 41,
           "type": "QROC",
-          "contexte": "",
-          "question": "Mr Z 82 ans, opéré il y a 10 ans d’une valvulopathie mitrale a bénéficié il y a 15 jours de soins dentaires. Il présente depuis 5 jours une fièvre non régressive à 38°5.\nQuelle est la première hypothèse à éliminer ?",
+          "contexte": "Mr Z 82 ans, opéré il y a 10 ans d’une valvulopathie mitrale a bénéficié il y a 15 jours de soins dentaires. Il présente depuis 5 jours une fièvre non régressive à 38°5.",
+          "question": "Quelle est la première hypothèse à éliminer ?",
           "choix": [],
           "reponses": [
             "Endocardite infectieuse",
@@ -1001,8 +1001,8 @@
         {
           "id": 42,
           "type": "QROC",
-          "contexte": "",
-          "question": "Mr X 83 ans présente une perte de connaissance brutale avec traumatisme facial.\nIl existe un souffle systolique intense au deuxième espace intercostal droit.\nQuel est la première étiologie évoquée devant cette syncope ?",
+          "contexte": "Mr X 83 ans présente une perte de connaissance brutale avec traumatisme facial.\nIl existe un souffle systolique intense au deuxième espace intercostal droit.",
+          "question": "Quel est la première étiologie évoquée devant cette syncope ?",
           "choix": [],
           "reponses": [
             "Rétrécissement aortique serré",
@@ -1056,8 +1056,8 @@
         {
           "id": 43,
           "type": "QRU",
-          "contexte": "",
-          "question": "Mr Z 65 ans a présenté un angor d’effort en relation avec une lésion de l’artère circonflexe à 50%, responsable d’une ischémie modérée, relevant dans un premier d’un traitement médical. Il est tabagique.\nQuel est l’objectif du LDL-cholestérol à atteindre ?",
+          "contexte": "Mr Z 65 ans a présenté un angor d’effort en relation avec une lésion de l’artère circonflexe à 50%, responsable d’une ischémie modérée, relevant dans un premier d’un traitement médical. Il est tabagique.",
+          "question": "Quel est l’objectif du LDL-cholestérol à atteindre ?",
           "choix": [
             "A) 1g/l",
             "B) 0.7g/l",

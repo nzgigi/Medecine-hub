@@ -175,8 +175,8 @@
         {
           "id": 9,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un patient présente le bilan d’hémostase suivant :\nTP 38% TCA 39sec (témoin 29sec) Facteur V 40% Facteur X 35%\nFacteur II 32% Fibrinogène 1,6g/L Numération plaquettaire 87 G/L\nParmi les diagnostics suivants quel est le plus vraisemblable ?",
+          "contexte": "Un patient présente le bilan d’hémostase suivant :\nTP 38% TCA 39sec (témoin 29sec) Facteur V 40% Facteur X 35%\nFacteur II 32% Fibrinogène 1,6g/L Numération plaquettaire 87 G/L",
+          "question": "Parmi les diagnostics suivants quel est le plus vraisemblable ?",
           "choix": [
             "A) Insuffisance hépatique sévère.",
             "B) Hémophilie A.",
@@ -231,8 +231,8 @@
         {
           "id": 12,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un patient se présente à vous pour une claudication intermittente des membres inférieurs.\nVous lui mesurez les pressions aux quatre membres : humérale droite 180/80 mmHg, humérale gauche 120/70 mmHg, pédieuse droite 180/80 mmHg, tibiale postérieure droite 120/70 mmHg, pédieuse gauche 60/70mmHg, tibiale postérieure gauche 120/70mmHg.\nQuel est l'IPS du patient à gauche ?",
+          "contexte": "Un patient se présente à vous pour une claudication intermittente des membres inférieurs.\nVous lui mesurez les pressions aux quatre membres : humérale droite 180/80 mmHg, humérale gauche 120/70 mmHg, pédieuse droite 180/80 mmHg, tibiale postérieure droite 120/70 mmHg, pédieuse gauche 60/70mmHg, tibiale postérieure gauche 120/70mmHg.",
+          "question": "Quel est l'IPS du patient à gauche ?",
           "choix": [
             "A) 1.00.",
             "B) 0.66.",
@@ -688,7 +688,7 @@
           "correctionExplanation": "",
           "order": 34,
           "images": [
-            "/images/qcm/acv-semiologie-s3/2024/q34.png?v=1786293274143"
+            "/images/qcm/acv-semiologie-s3/2024/q34.png?v=1790535031616"
           ]
         },
         {
@@ -710,14 +710,14 @@
           "correctionExplanation": "",
           "order": 35,
           "images": [
-            "/images/qcm/acv-semiologie-s3/2024/q35.jpg?v=1786293276388"
+            "/images/qcm/acv-semiologie-s3/2024/q35.jpg?v=1790535033046"
           ]
         },
         {
           "id": 36,
           "type": "QRM",
-          "contexte": "",
-          "question": "Alors qu’il était asymptomatique et en bonne forme, Monsieur D… présente une syncope à l’emporte-pièce. Le tracé initial enregistré au scope par le SAMU au décours immédiat de cet épisode est le suivant :\nParmi les propositions suivantes concernant ce tracé, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "contexte": "Alors qu’il était asymptomatique et en bonne forme, Monsieur D… présente une syncope à l’emporte-pièce. Le tracé initial enregistré au scope par le SAMU au décours immédiat de cet épisode est le suivant :",
+          "question": "Parmi les propositions suivantes concernant ce tracé, laquelle (lesquelles) est (sont) exacte(s) ?",
           "choix": [
             "A) La fréquence cardiaque est inférieure à 30 bpm.",
             "B) Il existe un bloc sino-atrial complet.",
@@ -732,14 +732,14 @@
           "correctionExplanation": "",
           "order": 36,
           "images": [
-            "/images/qcm/acv-semiologie-s3/2024/q36.png?v=1786293278676"
+            "/images/qcm/acv-semiologie-s3/2024/q36.png?v=1790535034495"
           ]
         },
         {
           "id": 37,
           "type": "QRM",
-          "contexte": "",
-          "question": "Chez un patient en insuffisance cardiaque, vous enregistrez l’ECG suivant :\nParmi les propositions suivantes concernant ce tracé, laquelle (lesquelles) est (sont) exacte(s) ?",
+          "contexte": "Chez un patient en insuffisance cardiaque, vous enregistrez l’ECG suivant :",
+          "question": "Parmi les propositions suivantes concernant ce tracé, laquelle (lesquelles) est (sont) exacte(s) ?",
           "choix": [
             "A) Rythme sinusal.",
             "B) Fréquence cardiaque à 120-130 bpm.",
@@ -755,7 +755,7 @@
           "correctionExplanation": "",
           "order": 37,
           "images": [
-            "/images/qcm/acv-semiologie-s3/2024/q37.png?v=1786293280956"
+            "/images/qcm/acv-semiologie-s3/2024/q37.png?v=1790535035950"
           ]
         },
         {
@@ -796,7 +796,7 @@
           "correctionExplanation": "",
           "order": 39,
           "images": [
-            "/images/qcm/acv-semiologie-s3/2024/q39.jpg?v=1786293285214"
+            "/images/qcm/acv-semiologie-s3/2024/q39.jpg?v=1790535038419"
           ]
         },
         {
@@ -818,7 +818,7 @@
           "correctionExplanation": "",
           "order": 40,
           "images": [
-            "/images/qcm/acv-semiologie-s3/2024/q40.png?v=1786293287075"
+            "/images/qcm/acv-semiologie-s3/2024/q40.png?v=1790535039629"
           ]
         },
         {

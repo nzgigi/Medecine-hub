@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": "folder-1786299652216-d090de95874d2",
+      "id": "folder-1790538904254-9dd187f42ae8a",
       "type": "SQI",
       "title": "SQI 1",
       "description": "",
@@ -258,7 +258,7 @@
           "correctionExplanation": "Question ANNULEE",
           "order": 6,
           "images": [
-            "/images/qcm/pneumologie-s7/2025/q9.png?v=1786299654188"
+            "/images/qcm/pneumologie-s7/2025/q9.png?v=1790538908466"
           ]
         },
         {
@@ -299,7 +299,7 @@
           "correctionExplanation": "",
           "order": 8,
           "images": [
-            "/images/qcm/pneumologie-s7/2025/q11.jpg?v=1786299655320"
+            "/images/qcm/pneumologie-s7/2025/q11.jpg?v=1790538910053"
           ]
         },
         {
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "id": "folder-1786299655891-95c76b71599d6",
+      "id": "folder-1790538911542-65ed89fdb9ac4",
       "type": "DP",
       "title": "DP 1",
       "description": "",
@@ -347,8 +347,8 @@
         {
           "id": 14,
           "type": "QRU",
-          "contexte": "",
-          "question": "Un patient de 34 ans, d’origine portugaise en France depuis sa naissance, non fumeur, vous consulte car depuis 3 mois, il présente une toux sèche, une dyspnée progressive avec des douleurs articulaires et une fatigue générale. Il rapporte également une éruption cutanée discrète sur le visage.\nIl a des antécédents de rupture des ligaments croisés opérée il y’a 6 mois suite à un accident de ski.\nIl ne prend pas de traitement. Il n'a pas d'allergies.\nÀ l'examen, on note des adénomégalies cervicales bilatérales.\n1/ Quel diagnostic clinique évoquez-vous pour intégrer l’ensemble du tableau clinique ?",
+          "contexte": "Un patient de 34 ans, d’origine portugaise en France depuis sa naissance, non fumeur, vous consulte car depuis 3 mois, il présente une toux sèche, une dyspnée progressive avec des douleurs articulaires et une fatigue générale. Il rapporte également une éruption cutanée discrète sur le visage.\nIl a des antécédents de rupture des ligaments croisés opérée il y’a 6 mois suite à un accident de ski.\nIl ne prend pas de traitement. Il n'a pas d'allergies.\nÀ l'examen, on note des adénomégalies cervicales bilatérales.",
+          "question": "1/ Quel diagnostic clinique évoquez-vous pour intégrer l’ensemble du tableau clinique ?",
           "choix": [
             "A) Asthme",
             "B) Embolie pulmonaire",
@@ -400,7 +400,7 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/pneumologie-s7/2025/q16.png?v=1786299656623"
+            "/images/qcm/pneumologie-s7/2025/q16.png?v=1790538913510"
           ]
         },
         {
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "id": "folder-1786299657406-7bfaae516da1e",
+      "id": "folder-1790538915477-ba216e46029038",
       "type": "DP",
       "title": "DP 2",
       "description": "",
@@ -471,8 +471,8 @@
         {
           "id": 20,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous recevez Mr M. âgé de 33 ans pour dyspnée d’aggravation progressive depuis 1 an.\nAntécédents : aucun.\nTraitements habituels : aucun\nMode de vie : vit en appartement au rez-de-chaussée, pas d'activité physique. Opticien.\nTabagisme actif à 35PA.\nAbsence d’allergie connue.\nHistoire de la maladie : il présente depuis 1 an une dyspnée d’effort sans toux associée. Il rapporte des épisodes de dyspnée paroxystique nocturne.\nIl a consulté un cardiologue il y a un mois qui ne retrouve rien d’anormal à l’échographie cardiaque. Le poids est stable.\nA noter que depuis l’enfance, il décrit des épisodes peu fréquents de plusieurs minutes de dyspnée sifflante, toux et oppression thoracique résolutive sous bronchodilatateur de courte durée d’action.\nParmi les éléments suivants de l’interrogatoire, lequel(lesquelles) pourrait (pourraient) vous orienter vers un asthme ?",
+          "contexte": "Vous recevez Mr M. âgé de 33 ans pour dyspnée d’aggravation progressive depuis 1 an.\nAntécédents : aucun.\nTraitements habituels : aucun\nMode de vie : vit en appartement au rez-de-chaussée, pas d'activité physique. Opticien.\nTabagisme actif à 35PA.\nAbsence d’allergie connue.\nHistoire de la maladie : il présente depuis 1 an une dyspnée d’effort sans toux associée. Il rapporte des épisodes de dyspnée paroxystique nocturne.\nIl a consulté un cardiologue il y a un mois qui ne retrouve rien d’anormal à l’échographie cardiaque. Le poids est stable.\nA noter que depuis l’enfance, il décrit des épisodes peu fréquents de plusieurs minutes de dyspnée sifflante, toux et oppression thoracique résolutive sous bronchodilatateur de courte durée d’action.",
+          "question": "Parmi les éléments suivants de l’interrogatoire, lequel(lesquelles) pourrait (pourraient) vous orienter vers un asthme ?",
           "choix": [
             "A) La consommation tabagique",
             "B) La présence de symptômes respiratoires nocturnes",
@@ -492,8 +492,8 @@
         {
           "id": 21,
           "type": "QROC",
-          "contexte": "",
-          "question": "Votre interrogatoire retrouve effectivement des éléments évocateurs d’un asthme.\nQuelle est l’auscultation habituelle d’un patient asthmatique à l’état stable, à distance d’une exacerbation ?",
+          "contexte": "Votre interrogatoire retrouve effectivement des éléments évocateurs d’un asthme.",
+          "question": "Quelle est l’auscultation habituelle d’un patient asthmatique à l’état stable, à distance d’une exacerbation ?",
           "choix": [],
           "reponses": [
             "Auscultation normale",
@@ -507,8 +507,8 @@
         {
           "id": 22,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous réalisez des Explorations Fonctionnelles Respiratoires.\nConcernant cette EFR, quelle(s) est (sont) la (les) réponse(s) juste(s) ?",
+          "contexte": "Vous réalisez des Explorations Fonctionnelles Respiratoires.",
+          "question": "Concernant cette EFR, quelle(s) est (sont) la (les) réponse(s) juste(s) ?",
           "choix": [
             "A) Il n’y a pas de trouble ventilatoire obstructif.",
             "B) Le VEMS est normal.",
@@ -523,14 +523,14 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/pneumologie-s7/2025/q22.jpg?v=1786299658364"
+            "/images/qcm/pneumologie-s7/2025/q22.jpg?v=1790538917673"
           ]
         },
         {
           "id": 23,
           "type": "QRM",
-          "contexte": "",
-          "question": "La spirométrie retrouve un trouble ventilatoire obstructif (TVO) réversible.\nQue pouvez-vous conclure à l’issue de votre consultation ?",
+          "contexte": "La spirométrie retrouve un trouble ventilatoire obstructif (TVO) réversible.",
+          "question": "Que pouvez-vous conclure à l’issue de votre consultation ?",
           "choix": [
             "A) Le diagnostic de BPCO est confirmé",
             "B) Les épisodes de majoration de la dyspnée sont compatibles avec des symptômes d’asthme",
@@ -548,8 +548,8 @@
         {
           "id": 24,
           "type": "QROC",
-          "contexte": "",
-          "question": "Le diagnostic d’asthme est confirmé.\nVous proposez au patient de débuter un traitement inhalé associant un CSI à faible dose et un bronchodilatateur de longue durée d’action ainsi qu’un traitement bronchodilatateur de secours.\nVous lui remettez une ordonnance de suivi du Débit Expiratoire de Pointe (DEP).\nQuel facteur majeur d'exacerbation retrouvez-vous dans son observation ?",
+          "contexte": "Le diagnostic d’asthme est confirmé.\nVous proposez au patient de débuter un traitement inhalé associant un CSI à faible dose et un bronchodilatateur de longue durée d’action ainsi qu’un traitement bronchodilatateur de secours.\nVous lui remettez une ordonnance de suivi du Débit Expiratoire de Pointe (DEP).",
+          "question": "Quel facteur majeur d'exacerbation retrouvez-vous dans son observation ?",
           "choix": [],
           "reponses": [
             "Tabagisme",
@@ -565,8 +565,8 @@
         {
           "id": 25,
           "type": "QRM",
-          "contexte": "",
-          "question": "Mr M. revient vous voir quelques mois plus tard dans les suites d’une hospitalisation pour, selon le compte rendu qu’il vous apporte, une insuffisance respiratoire aiguë secondaire à une exacerbation d’asthme.\nIl vous demande votre avis sur ce diagnostic car il est très inquiet depuis la sortie d’hospitalisation.\nVous lisez attentivement le compte rendu.\nVous précisez au patient que l’épisode d’exacerbation qu’il a eu était effectivement sévère.\nParmi les signes suivants observés à l’arrivée rapportés dans le compte rendu, quelle(s) est (sont) celui (ceux) qui est (sont) témoin(s) de sévérité d’une exacerbation d’asthme ?",
+          "contexte": "Mr M. revient vous voir quelques mois plus tard dans les suites d’une hospitalisation pour, selon le compte rendu qu’il vous apporte, une insuffisance respiratoire aiguë secondaire à une exacerbation d’asthme.\nIl vous demande votre avis sur ce diagnostic car il est très inquiet depuis la sortie d’hospitalisation.\nVous lisez attentivement le compte rendu.\nVous précisez au patient que l’épisode d’exacerbation qu’il a eu était effectivement sévère.",
+          "question": "Parmi les signes suivants observés à l’arrivée rapportés dans le compte rendu, quelle(s) est (sont) celui (ceux) qui est (sont) témoin(s) de sévérité d’une exacerbation d’asthme ?",
           "choix": [
             "A) La saturation en oxygène à 91 % en air ambiant",
             "B) La préférence de la position allongée plutôt qu’assise",
@@ -584,8 +584,8 @@
         {
           "id": 26,
           "type": "QRM",
-          "contexte": "",
-          "question": "L’évolution clinique a été rapidement favorable sous traitement.\nParmi les traitements suivants, le(s)quel(s) est (sont) indiqué(s) systématiquement dans l’exacerbation d’asthme sévère?",
+          "contexte": "L’évolution clinique a été rapidement favorable sous traitement.",
+          "question": "Parmi les traitements suivants, le(s)quel(s) est (sont) indiqué(s) systématiquement dans l’exacerbation d’asthme sévère?",
           "choix": [
             "A) L’adrénaline",
             "B) Les Bêta-2 mimétiques inhalés à forte dose",

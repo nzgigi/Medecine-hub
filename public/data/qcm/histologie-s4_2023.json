@@ -3,7 +3,7 @@
   "slug": "histologie-s4",
   "annee": 2023,
   "title": "Histologie - 2023",
-  "total_questions": 41,
+  "total_questions": 45,
   "folders": [
     {
       "id": "default-questions",
@@ -32,7 +32,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-s4/2023/q1.png?v=1786399938333"
+            "/images/qcm/histologie-s4/2023/q1.png?v=1790536456916"
           ]
         },
         {
@@ -55,7 +55,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-s4/2023/q2.jpg?v=1786399944203"
+            "/images/qcm/histologie-s4/2023/q2.jpg?v=1790536457939"
           ]
         },
         {
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "id": "folder-1786399981887-3082223021a3f8",
+      "id": "folder-1790536459768-6b9901091f2018",
       "type": "SQI",
       "title": "SQI 2",
       "description": "",
@@ -171,7 +171,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-s4/2023/q7.png?v=1786399996420"
+            "/images/qcm/histologie-s4/2023/q7.png?v=1790536460620"
           ]
         },
         {
@@ -194,7 +194,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-s4/2023/q8.png?v=1786400000332"
+            "/images/qcm/histologie-s4/2023/q8.png?v=1790536461304"
           ]
         },
         {
@@ -300,7 +300,7 @@
       ]
     },
     {
-      "id": "folder-1786400037964-37520354e18e5",
+      "id": "folder-1790536463565-9f96a4bd4210f8",
       "type": "SQI",
       "title": "SQI 3",
       "description": "",
@@ -326,7 +326,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-s4/2023/q14.png?v=1786400054335"
+            "/images/qcm/histologie-s4/2023/q14.png?v=1790536464425"
           ]
         },
         {
@@ -348,7 +348,7 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-s4/2023/q15.jpg?v=1786400060344"
+            "/images/qcm/histologie-s4/2023/q15.jpg?v=1790536465050"
           ],
           "neutralized": [
             "A"
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "id": "folder-1786400074733-fedf0ee5c8729",
+      "id": "folder-1790536467971-ae752b373d28e8",
       "type": "SQI",
       "title": "SQI 4",
       "description": "",
@@ -503,7 +503,7 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-s4/2023/q22.png?v=1786400075322"
+            "/images/qcm/histologie-s4/2023/q22.png?v=1790536468603"
           ]
         },
         {
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "id": "folder-1786400076390-1cde24f1dd9f58",
+      "id": "folder-1790536470003-ad3f8fa241ee1",
       "type": "SQI",
       "title": "SQI 5",
       "description": "",
@@ -655,7 +655,7 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/histologie-s4/2023/q29.jpg?v=1786400077395"
+            "/images/qcm/histologie-s4/2023/q29.jpg?v=1790536471406"
           ]
         },
         {
@@ -698,18 +698,105 @@
           ],
           "correctionExplanation": "",
           "order": 5
+        },
+        {
+          "id": 32,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Légendez les structures désignées par les flèches A, B, C, D et E (menu déroulant)\nÉlément à associer Réponse attendue\nA Veine rénale gauche\nB Veine cave inférieure\nC Artère mésentérique supérieure\nD Pancréas\nE Foie",
+          "choix": [
+            "Veine rénale gauche",
+            "Veine cave inférieure",
+            "Artère mésentérique supérieure",
+            "Pancréas",
+            "Foie"
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 6,
+          "items": [
+            {
+              "id": "item-1790536473187-da291066ab8318",
+              "label": "A",
+              "correctAnswer": "Veine rénale gauche"
+            },
+            {
+              "id": "item-1790536473296-de0a77b9ca3aa",
+              "label": "B",
+              "correctAnswer": "Veine cave inférieure"
+            },
+            {
+              "id": "item-1790536473406-1477048eee47b",
+              "label": "C",
+              "correctAnswer": "Artère mésentérique supérieure"
+            },
+            {
+              "id": "item-1790536473527-9089f31d8ff418",
+              "label": "D",
+              "correctAnswer": "Pancréas"
+            },
+            {
+              "id": "item-1790536473636-348a4c78940c58",
+              "label": "E",
+              "correctAnswer": "Foie"
+            }
+          ],
+          "images": [
+            "/images/qcm/histologie-s4/2023/q32.png?v=1790536472943"
+          ]
+        },
+        {
+          "id": 33,
+          "type": "ASSOCIATION",
+          "contexte": "",
+          "question": "Précisez pour chaque image à quel temps a été réalisé l’acquisition du scanner (menu déroulant)\nÉlément à associer Réponse attendue\nA Acquisition au temps excrétoire ou tardif après injection de produit de contraste\nB Acquisition au temps portal après injection de produit de contraste\nC Acquisition au temps artériel après injection de produit de contraste\nD Acquisition sans injection de produit de contraste",
+          "choix": [
+            "Acquisition au temps excrétoire ou tardif après injection de produit de contraste",
+            "Acquisition au temps portal après injection de produit de contraste",
+            "Acquisition au temps artériel après injection de produit de contraste",
+            "Acquisition sans injection de produit de contraste",
+            "E) "
+          ],
+          "reponses": [],
+          "correctionExplanation": "",
+          "order": 7,
+          "items": [
+            {
+              "id": "item-1790536474249-12c868758409c8",
+              "label": "A",
+              "correctAnswer": "Acquisition au temps excrétoire ou tardif après injection de produit de contraste"
+            },
+            {
+              "id": "item-1790536474364-19881bd2f2a34",
+              "label": "B",
+              "correctAnswer": "Acquisition au temps portal après injection de produit de contraste"
+            },
+            {
+              "id": "item-1790536474498-4f81c30ae525f",
+              "label": "C",
+              "correctAnswer": "Acquisition au temps artériel après injection de produit de contraste"
+            },
+            {
+              "id": "item-1790536474619-cb80b0c2d91b3",
+              "label": "D",
+              "correctAnswer": "Acquisition sans injection de produit de contraste"
+            }
+          ],
+          "images": [
+            "/images/qcm/histologie-s4/2023/q33.png?v=1790536473960"
+          ]
         }
       ]
     },
     {
-      "id": "folder-1786400077999-b0daa28f244f78",
+      "id": "folder-1790536474741-fd8affcd9209d8",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
       "order": 6,
       "questions": [
         {
-          "id": 32,
+          "id": 34,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein",
@@ -728,11 +815,11 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-s4/2023/q32.png?v=1786400078660"
+            "/images/qcm/histologie-s4/2023/q34.png?v=1790536475657"
           ]
         },
         {
-          "id": 33,
+          "id": 35,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein",
@@ -752,11 +839,11 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-s4/2023/q33.png?v=1786400079083"
+            "/images/qcm/histologie-s4/2023/q35.png?v=1790536476765"
           ]
         },
         {
-          "id": 34,
+          "id": 36,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein",
@@ -776,11 +863,11 @@
           "correctionExplanation": "",
           "order": 3,
           "images": [
-            "/images/qcm/histologie-s4/2023/q34.png?v=1786400079584"
+            "/images/qcm/histologie-s4/2023/q36.png?v=1790536477432"
           ]
         },
         {
-          "id": 35,
+          "id": 37,
           "type": "QRM",
           "contexte": "",
           "question": "A propos du rein et des voies urinaires",
@@ -800,7 +887,7 @@
           "order": 4
         },
         {
-          "id": 36,
+          "id": 38,
           "type": "QRM",
           "contexte": "",
           "question": "A propos des voies urinaires et de l'appareil génital masculin",
@@ -824,14 +911,65 @@
       ]
     },
     {
-      "id": "folder-1786400080237-1d097b51b5e968",
+      "id": "folder-1790536478479-d377f7b16fb9c8",
       "type": "SQI",
-      "title": "DL 3",
-      "description": "",
+      "title": "DL 2",
+      "description": "Module uro-néphro DFGSM 3",
       "order": 7,
       "questions": [
         {
-          "id": 37,
+          "id": 39,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'ANATOMIE DES REINS",
+          "choix": [
+            "A) Le grand axe du rein est oblique en bas, en avant et en dehors.",
+            "B) Le bord interne portant le hile rénal est concave.",
+            "C) Le rein présente 2 faces concaves, une ventrale et une dorsale.",
+            "D) La médulla rénale est formée par les pyramides rénales.",
+            "E) La partie contournée du cortex rénal correspond à la partie la plus externe."
+          ],
+          "reponses": [
+            "B",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 1
+        },
+        {
+          "id": 40,
+          "type": "QRM",
+          "contexte": "",
+          "question": "CONCERNANT L'ANATOMIE DES REINS",
+          "choix": [
+            "A) Le sinus rénal est une cavité qui contient la voie excrétrice.",
+            "B) Le fascia rénal est un feuillet dépendant du fascia superficialis.",
+            "C) Le feuillet dorsal du fascia rénal est séparé de la paroi par la graisse para-rénale.",
+            "D) Le rein est séparé de la glande surrénale par la lame intersurrénalo-rénale.",
+            "E) Le rein droit est presque entièrement sus-mésocolique. DFGSM3 H.R. Histologie le vendredi 21 avril 2023 de 10h22 à 10h32"
+          ],
+          "reponses": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctionExplanation": "",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "folder-1790536479043-bf13f8434ec59",
+      "type": "SQI",
+      "title": "DL 3",
+      "description": "",
+      "order": 8,
+      "questions": [
+        {
+          "id": 41,
           "type": "QRM",
           "contexte": "",
           "question": "A propos de l'histologie de l’hypophyse et de l'hypothalamus et de la thyroïde",
@@ -851,11 +989,11 @@
           "correctionExplanation": "",
           "order": 1,
           "images": [
-            "/images/qcm/histologie-s4/2023/q37.png?v=1786400080809"
+            "/images/qcm/histologie-s4/2023/q41.png?v=1790536479631"
           ]
         },
         {
-          "id": 38,
+          "id": 42,
           "type": "QRM",
           "contexte": "",
           "question": "A propos de la thyroïde, de la parathyroïde et de la surrénale",
@@ -873,13 +1011,13 @@
           "correctionExplanation": "",
           "order": 2,
           "images": [
-            "/images/qcm/histologie-s4/2023/q38.png?v=1786400081292",
-            "/images/qcm/histologie-s4/2023/q38_1.png?v=1786400081441",
-            "/images/qcm/histologie-s4/2023/q38_2.jpg?v=1786400081587"
+            "/images/qcm/histologie-s4/2023/q42.png?v=1790536480448",
+            "/images/qcm/histologie-s4/2023/q42_1.png?v=1790536480641",
+            "/images/qcm/histologie-s4/2023/q42_2.jpg?v=1790536480832"
           ]
         },
         {
-          "id": 39,
+          "id": 43,
           "type": "QRM",
           "contexte": "",
           "question": "A propos de la surrénale et des paraganglions",
@@ -900,7 +1038,7 @@
           "order": 3
         },
         {
-          "id": 40,
+          "id": 44,
           "type": "QRM",
           "contexte": "",
           "question": "A propos des glandes endocrines",
@@ -919,13 +1057,13 @@
           "correctionExplanation": "",
           "order": 4,
           "images": [
-            "/images/qcm/histologie-s4/2023/q40.png?v=1786400082290",
-            "/images/qcm/histologie-s4/2023/q40_1.png?v=1786400082487",
-            "/images/qcm/histologie-s4/2023/q40_2.jpg?v=1786400082637"
+            "/images/qcm/histologie-s4/2023/q44.png?v=1790536481798",
+            "/images/qcm/histologie-s4/2023/q44_1.png?v=1790536482037",
+            "/images/qcm/histologie-s4/2023/q44_2.jpg?v=1790536482212"
           ]
         },
         {
-          "id": 41,
+          "id": 45,
           "type": "QRM",
           "contexte": "",
           "question": "A propos des glandes endocrines",
@@ -946,8 +1084,8 @@
           "correctionExplanation": "",
           "order": 5,
           "images": [
-            "/images/qcm/histologie-s4/2023/q41.png?v=1786400083043",
-            "/images/qcm/histologie-s4/2023/q41_1.png?v=1786400083231"
+            "/images/qcm/histologie-s4/2023/q45.png?v=1790536482845",
+            "/images/qcm/histologie-s4/2023/q45_1.png?v=1790536483056"
           ]
         }
       ]

@@ -15,8 +15,8 @@
         {
           "id": 1,
           "type": "QRM",
-          "contexte": "",
-          "question": "Vous identifiez une insuffisance rénale. créatinine à 250 µmol/L, urée à 35 mmol/L.\nQuelles sont les propositions vraies ?",
+          "contexte": "Vous identifiez une insuffisance rénale. créatinine à 250 µmol/L, urée à 35 mmol/L.",
+          "question": "Quelles sont les propositions vraies ?",
           "choix": [
             "A) Il s'agit d'une insuffisance rénale chronique car la créatinine est élevée depuis plus de trois mois",
             "B) Il s'agit d'une insuffisance rénale aiguë sur chronique",
@@ -37,8 +37,8 @@
         {
           "id": 2,
           "type": "QRU",
-          "contexte": "",
-          "question": "A l’interrogatoire, la patiente signale des crampes diffuses, et des myalgies, avec impossibilité à la marche. Elle a encore vomi, environ 6 fois par jour. Sa tension artérielle est à 90/50 mmHg, son pouls à 110/min. La kaliémie est à 2.2 mmol/L. L’ECG retrouve des ondes T négatives dans tous les territoires et une onde U.\nQuelle est votre proposition de prise en charge ?",
+          "contexte": "A l’interrogatoire, la patiente signale des crampes diffuses, et des myalgies, avec impossibilité à la marche. Elle a encore vomi, environ 6 fois par jour. Sa tension artérielle est à 90/50 mmHg, son pouls à 110/min. La kaliémie est à 2.2 mmol/L. L’ECG retrouve des ondes T négatives dans tous les territoires et une onde U.",
+          "question": "Quelle est votre proposition de prise en charge ?",
           "choix": [
             "A) Supplémentation potassique orale, anti-émétiques, hydratation orale",
             "B) Chlorure de potassium IV 6 g/h et réhydratation par sérum glucosé",
@@ -92,8 +92,8 @@
         {
           "id": 5,
           "type": "QRP",
-          "contexte": "",
-          "question": "La patiente bénéficie d'une réévaluation biologique. La créatinine s’est aggravée jusqu’à 690 µmol/L. Le ionogramme retrouve :\nsodium 140 mmol/L, potassium 5 mmol/L, chlore 110 mmol/L, bicarbonates 10 mmol/L.\nQuelles sont les 3 affirmations justes concernant l’acidose ?",
+          "contexte": "La patiente bénéficie d'une réévaluation biologique. La créatinine s’est aggravée jusqu’à 690 µmol/L. Le ionogramme retrouve :\nsodium 140 mmol/L, potassium 5 mmol/L, chlore 110 mmol/L, bicarbonates 10 mmol/L.",
+          "question": "Quelles sont les 3 affirmations justes concernant l’acidose ?",
           "choix": [
             "A) Le trou anionique plasmatique est augmenté.",
             "B) Le trou anionique plasmatique est normal.",
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": "folder-1786297091516-42672dbc873e",
+      "id": "folder-1790537531795-9e9e36c11a4eb8",
       "type": "DP",
       "title": "DP 2",
       "description": "Une patiente de 45 ans vous consulte pour une prise de poids de 8 kg en quelques semaines. Vous constatez des oedèmes déclives, blancs, mous, prenant le godet.",
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "id": "folder-1786297092723-446f7033780dc",
+      "id": "folder-1790537538210-d15708ba8924f",
       "type": "KFP",
       "title": "KFP 1",
       "description": "Une patiente de 75 ans consulte pour asthénie et arthralgies depuis 3 semaines. Elle vous rapporte un fébricule depuis 10 jours. Vous constatez une altération de l’état général avec un amaigrissement de 3 kg. L’interrogatoire révèle une dyspnée, avec quelques crachats hémoptoïques. L’examen clinique met en évidence une tension artérielle à 180/110 mmHg, un purpura déclive, et un souffle systolique au foyer mitral. La bandelette urinaire est la suivante: Sang +++, Prot ++, Nit -. Le bilan sanguin révèle une créatinine à 180 contre 65 il y a 1 mois.",
@@ -391,7 +391,7 @@
       ]
     },
     {
-      "id": "folder-1786297094981-a2e35049e88ba8",
+      "id": "folder-1790537553703-d3259b27ccccf8",
       "type": "SQI",
       "title": "DL 1",
       "description": "",
@@ -559,8 +559,8 @@
         {
           "id": 25,
           "type": "QROC",
-          "contexte": "",
-          "question": "Mme A, 82 ans, consulte pour une asthénie et un amaigrissement. La patiente rapporte des douleurs généralisées. Il n’y a pas d’œdèmes des membres inférieurs. La créatininémie est à 180 µmol/L, urée à 18 mmol/L. Protidémie à 92 g/L. Albuminémie à 31 g/L. La protéinurie revient à 2,5 g/g avec une albuminurie à 200 mg/g.\nQuelle néphropathie soupçonnez-vous ?",
+          "contexte": "Mme A, 82 ans, consulte pour une asthénie et un amaigrissement. La patiente rapporte des douleurs généralisées. Il n’y a pas d’œdèmes des membres inférieurs. La créatininémie est à 180 µmol/L, urée à 18 mmol/L. Protidémie à 92 g/L. Albuminémie à 31 g/L. La protéinurie revient à 2,5 g/g avec une albuminurie à 200 mg/g.",
+          "question": "Quelle néphropathie soupçonnez-vous ?",
           "choix": [],
           "reponses": [
             "Néphropathie à cylindres myélomateux",
