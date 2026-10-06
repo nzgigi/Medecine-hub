@@ -3,6 +3,7 @@ import fs from "fs";
 import crypto from "crypto";
 import { getAdminActor, requireAdminRequest, safeJoinInside } from "@/lib/server/security";
 import { logAdminAction } from "@/lib/server/adminLog";
+import { validateMedtokCards, type MedtokSubject } from "@/lib/medtokImport";
 
 export interface MedtokCardEntry {
   id: string;
@@ -19,6 +20,22 @@ export interface MedtokCardEntry {
 
 const dataDir = safeJoinInside(process.cwd(), "public", "data", "medtok");
 const cardsPath = safeJoinInside(dataDir, "cards.json");
+const qcmIndexPath = safeJoinInside(process.cwd(), "public", "data", "qcm", "index.json");
+
+function readSubjects(): MedtokSubject[] {
+  try {
+    const entries = JSON.parse(fs.readFileSync(qcmIndexPath, "utf-8")) as MedtokSubject[];
+    const bySlug = new Map<string, MedtokSubject>();
+    entries.forEach((entry) => {
+      if (entry.slug && entry.matiere && !bySlug.has(entry.slug)) {
+        bySlug.set(entry.slug, { slug: entry.slug, matiere: entry.matiere });
+      }
+    });
+    return [...bySlug.values()];
+  } catch {
+    return [];
+  }
+}
 
 function readCards(): MedtokCardEntry[] {
   if (!fs.existsSync(cardsPath)) return [];
@@ -94,6 +111,41 @@ export async function POST(request: Request) {
       logAdminAction(getAdminActor(request), "Creation d'une carte MedTok", card.question.slice(0, 80));
 
       return NextResponse.json({ success: true, card });
+    }
+
+    if (body.action === "import") {
+      if (!Array.isArray(body.cards)) {
+        return NextResponse.json(
+          { success: false, message: "Liste de cartes manquante" },
+          { status: 400 }
+        );
+      }
+
+      const cards = readCards();
+      const { valid, duplicates, errors } = validateMedtokCards(body.cards, readSubjects(), cards);
+
+      if (valid.length === 0) {
+        return NextResponse.json(
+          { success: false, message: "Aucune carte valide a importer", duplicates, errors },
+          { status: 400 }
+        );
+      }
+
+      // Horodatages decales d'1 ms pour garder l'ordre du fichier dans la liste admin.
+      const base = Date.now();
+      valid.forEach((payload, offset) => {
+        const now = new Date(base + offset).toISOString();
+        cards.push({ id: crypto.randomUUID(), ...payload, createdAt: now, updatedAt: now });
+      });
+      writeCards(cards);
+
+      logAdminAction(
+        getAdminActor(request),
+        "Import de cartes MedTok",
+        `${valid.length} ajoutee(s), ${duplicates} doublon(s), ${errors.length} erreur(s)`
+      );
+
+      return NextResponse.json({ success: true, imported: valid.length, duplicates, errors });
     }
 
     if (body.action === "update") {

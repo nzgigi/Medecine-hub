@@ -1,10 +1,20 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Check, Edit, Plus, Sparkles, Trash2, X } from "lucide-react";
+import { Check, Download, Edit, Plus, Sparkles, Trash2, Upload, X } from "lucide-react";
 import { useDialogs } from "@/components/DialogProvider";
 import type { MedtokCardEntry } from "@/app/api/admin/medtok-cards/route";
+import {
+  buildMedtokTemplate,
+  extractMedtokCards,
+  validateMedtokCards,
+  type MedtokImportResult,
+} from "@/lib/medtokImport";
+
+interface ImportPreview extends MedtokImportResult {
+  fileName: string;
+}
 
 interface SubjectOption {
   slug: string;
@@ -44,6 +54,9 @@ export default function AdminMedtokPanel({
   const [saving, setSaving] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [form, setForm] = useState(emptyForm);
+  const [importPreview, setImportPreview] = useState<ImportPreview | null>(null);
+  const [importing, setImporting] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (!form.slug && existingSubjects.length > 0) {
@@ -168,6 +181,72 @@ export default function AdminMedtokPanel({
       onStatus("Carte MedTok supprimee");
     } else {
       await showAlert(result.message || "Échec de la suppression de la carte.");
+    }
+  };
+
+  const downloadTemplate = () => {
+    const template = buildMedtokTemplate(existingSubjects);
+    const blob = new Blob([JSON.stringify(template, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "modele-medtok.json";
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleImportFile = async (file: File | undefined) => {
+    if (fileInputRef.current) fileInputRef.current.value = "";
+    if (!file) return;
+
+    try {
+      const items = extractMedtokCards(await file.text());
+      setImportPreview({
+        fileName: file.name,
+        ...validateMedtokCards(items, existingSubjects, cards),
+      });
+    } catch (error) {
+      setImportPreview(null);
+      await showAlert(error instanceof Error ? error.message : "Fichier illisible.");
+    }
+  };
+
+  const confirmImport = async () => {
+    if (!importPreview || importPreview.valid.length === 0) return;
+
+    setImporting(true);
+
+    try {
+      const response = await fetch("/api/admin/medtok-cards", {
+        method: "POST",
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
+        body: JSON.stringify({ action: "import", cards: importPreview.valid }),
+      });
+
+      if (response.status === 401) {
+        handleUnauthorized();
+        return;
+      }
+
+      const result = (await response.json()) as {
+        success: boolean;
+        message?: string;
+        imported?: number;
+      };
+
+      if (!result.success) {
+        await showAlert(result.message || "Échec de l'import.");
+        return;
+      }
+
+      setImportPreview(null);
+      await loadCards();
+      onStatus(`${result.imported} carte(s) MedTok importee(s)`);
+    } catch (error) {
+      console.error("Erreur import cartes MedTok:", error);
+      await showAlert("Erreur lors de l'import (fichier trop volumineux ?).");
+    } finally {
+      setImporting(false);
     }
   };
 
@@ -319,6 +398,123 @@ export default function AdminMedtokPanel({
                   Annuler
                 </button>
               )}
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
+        <div className="mb-4 flex items-center gap-3">
+          <div className="rounded-lg bg-emerald-50 p-2 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+            <Upload className="h-5 w-5" />
+          </div>
+          <div>
+            <h2 className="text-xl font-black">Importer plusieurs cartes</h2>
+            <p className="text-sm text-stone-500 dark:text-stone-400">
+              Telecharge le modele, donne-le a une IA pour qu&apos;elle remplisse &quot;cards&quot;, puis
+              importe le fichier obtenu.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={downloadTemplate}
+            disabled={existingSubjects.length === 0}
+            className="inline-flex items-center gap-2 rounded-lg border border-stone-200 px-4 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-60 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-800"
+          >
+            <Download className="h-4 w-4" />
+            Telecharger le modele
+          </button>
+          <button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            disabled={existingSubjects.length === 0 || loading}
+            className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-emerald-700 disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            <Upload className="h-4 w-4" />
+            Importer un fichier .json
+          </button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".json,application/json,.txt"
+            className="hidden"
+            onChange={(event) => handleImportFile(event.target.files?.[0])}
+          />
+        </div>
+
+        {importPreview && (
+          <div className="mt-4 space-y-3 rounded-lg border border-stone-200 p-4 dark:border-stone-800">
+            <p className="text-sm font-bold text-stone-800 dark:text-stone-100">{importPreview.fileName}</p>
+            <div className="flex flex-wrap gap-2 text-xs font-black">
+              <span className="rounded-full bg-emerald-50 px-2 py-1 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+                {importPreview.valid.length} carte{importPreview.valid.length > 1 ? "s" : ""} a importer
+              </span>
+              {importPreview.duplicates > 0 && (
+                <span className="rounded-full bg-stone-100 px-2 py-1 text-stone-600 dark:bg-stone-800 dark:text-stone-300">
+                  {importPreview.duplicates} doublon{importPreview.duplicates > 1 ? "s ignores" : " ignore"}
+                </span>
+              )}
+              {importPreview.errors.length > 0 && (
+                <span className="rounded-full bg-red-50 px-2 py-1 text-red-600 dark:bg-red-950/30 dark:text-red-300">
+                  {importPreview.errors.length} erreur{importPreview.errors.length > 1 ? "s" : ""}
+                </span>
+              )}
+            </div>
+
+            {importPreview.errors.length > 0 && (
+              <ul className="max-h-40 space-y-1 overflow-y-auto text-sm text-red-600 dark:text-red-300">
+                {importPreview.errors.map((error) => (
+                  <li key={error.index}>
+                    Carte n°{error.index} : {error.message}
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            {importPreview.valid.length > 0 && (
+              <ul className="max-h-60 divide-y divide-stone-100 overflow-y-auto text-sm dark:divide-stone-800">
+                {importPreview.valid.map((card, index) => (
+                  <li key={index} className="flex items-start gap-2 py-2">
+                    <span
+                      className={`shrink-0 text-xs font-black ${
+                        card.isTrue ? "text-emerald-700 dark:text-emerald-300" : "text-red-600 dark:text-red-300"
+                      }`}
+                    >
+                      {card.isTrue ? "V" : "F"}
+                    </span>
+                    <div className="min-w-0">
+                      <p className="text-xs font-bold uppercase tracking-wide text-stone-400 dark:text-stone-500">
+                        {card.matiere}
+                      </p>
+                      <p className="truncate text-stone-700 dark:text-stone-200">{card.proposition}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={confirmImport}
+                disabled={importing || importPreview.valid.length === 0}
+                className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-emerald-700 disabled:cursor-not-allowed disabled:opacity-60"
+              >
+                <Check className="h-4 w-4" />
+                {importing
+                  ? "Import..."
+                  : `Importer ${importPreview.valid.length} carte${importPreview.valid.length > 1 ? "s" : ""}`}
+              </button>
+              <button
+                type="button"
+                onClick={() => setImportPreview(null)}
+                className="rounded-lg border border-stone-200 px-4 py-2 text-sm font-bold text-stone-700 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-200 dark:hover:bg-stone-800"
+              >
+                Annuler
+              </button>
             </div>
           </div>
         )}
