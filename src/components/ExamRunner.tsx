@@ -1597,6 +1597,12 @@ export default function ExamRunner({
                       </div>
                     </div>
 
+                    {folder.description && (
+                      <div className="mb-5 whitespace-pre-wrap rounded-lg border-l-4 border-stone-300 bg-white p-4 text-sm text-stone-700 dark:border-stone-700 dark:bg-[#151512] dark:text-stone-200">
+                        {folder.description}
+                      </div>
+                    )}
+
                     <div className="space-y-4">
                       {folder.questions.map((question, questionIndex) =>
                         renderCorrectionQuestion(
