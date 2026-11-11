@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Heart,
   Home,
   Landmark,
   Mail,
@@ -181,14 +180,6 @@ export default function Navbar() {
               Se connecter
             </Link>
           )}
-
-          <Link
-            href="/soutenir"
-            className="ml-3 flex items-center gap-2 rounded-lg bg-emerald-800 px-4 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-emerald-700"
-          >
-            <Heart className="h-4 w-4" strokeWidth={2.2} />
-            Soutenir
-          </Link>
         </div>
 
         <div className="flex items-center gap-1 xl:hidden">
@@ -276,15 +267,6 @@ export default function Navbar() {
                 )}
               </span>
               {profile ? "Mon compte" : "Se connecter"}
-            </Link>
-
-            <Link
-              href="/soutenir"
-              onClick={() => setMobileMenuOpen(false)}
-              className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-4 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-emerald-700"
-            >
-              <Heart className="h-4 w-4" strokeWidth={2.2} />
-              Soutenir le projet
             </Link>
           </div>
         </div>

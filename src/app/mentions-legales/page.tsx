@@ -295,14 +295,6 @@ export default function MentionsLegalesPage() {
           >
             <div className="space-y-4 text-sm leading-6 text-slate-600 dark:text-stone-300">
               <p>
-                La page de soutien contient notamment un lien vers PayPal. Ce
-                service externe dispose de ses propres règles de
-                confidentialité. Medecine Hub ne transmet pas directement vos
-                données à PayPal lorsque vous consultez simplement la
-                plateforme.
-              </p>
-
-              <p>
                 Lorsque vous cliquez sur un lien externe, vous quittez Medecine
                 Hub. Nous vous invitons à consulter les conditions et la
                 politique de confidentialité du service concerné.

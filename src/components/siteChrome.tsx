@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Heart, Mail, Scale } from "lucide-react";
+import { Mail, Scale } from "lucide-react";
 import Navbar from "./NavBar";
 import DiscordIcon from "./DiscordIcon";
 import { DISCORD_INVITE_URL } from "@/lib/site";
@@ -72,14 +72,6 @@ export default function SiteChrome({
               >
                 <Scale className="h-4 w-4" />
                 Mentions legales
-              </Link>
-
-              <Link
-                href="/soutenir"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-stone-600 transition-colors hover:text-emerald-800 dark:text-stone-400 dark:hover:text-emerald-300"
-              >
-                <Heart className="h-4 w-4" />
-                Nous soutenir
               </Link>
 
               <a
