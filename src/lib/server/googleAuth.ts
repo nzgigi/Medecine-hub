@@ -4,6 +4,7 @@ interface GoogleTokenInfo {
   name?: string;
   picture?: string;
   aud?: string;
+  email_verified?: string | boolean;
 }
 
 export interface VerifiedGoogleProfile {
@@ -42,6 +43,10 @@ export async function verifyGoogleCredential(
 
   if (!expectedAudience || payload.aud !== expectedAudience) {
     throw new Error("Jeton Google non reconnu pour ce site");
+  }
+
+  if (payload.email_verified !== true && payload.email_verified !== "true") {
+    throw new Error("Adresse e-mail Google non vérifiée");
   }
 
   if (!payload.sub || !payload.email || !payload.name) {

@@ -273,9 +273,14 @@ export default function ComptePage() {
 
   const profilePicture = profile ? getProfilePicture(profile) : undefined;
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    try {
+      await fetch("/api/auth/logout", { method: "POST" });
+    } catch {
+      // Le cookie expirera de lui-même ; on déconnecte quand même localement.
+    }
     clearLocalUserProfile();
-    router.push("/");
+    window.location.assign("/connexion");
   };
 
   const handleAvatarChange = async (

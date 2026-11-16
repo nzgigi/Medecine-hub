@@ -71,6 +71,15 @@ export function getUserBySub(sub: string): StoredUser | null {
   return row ? rowToUser(row) : null;
 }
 
+export function getUserByEmail(email: string): StoredUser | null {
+  const db = getDb();
+  const row = db
+    .prepare(`SELECT * FROM users WHERE lower(email) = lower(?) ORDER BY first_seen_at LIMIT 1`)
+    .get(email) as UserRow | undefined;
+
+  return row ? rowToUser(row) : null;
+}
+
 export function getUserByHandle(handle: string): StoredUser | null {
   const db = getDb();
   const row = db.prepare(`SELECT * FROM users WHERE handle = ?`).get(handle) as
