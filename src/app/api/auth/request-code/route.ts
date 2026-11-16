@@ -1,5 +1,5 @@
-import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
+import { sendMail } from "@/lib/server/mailer";
 import {
   FORBIDDEN_EMAIL_MESSAGE,
   clientKey,
@@ -53,22 +53,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    if (!process.env.RESEND_API_KEY) {
-      if (process.env.NODE_ENV === "production") {
-        throw new Error("Envoi d'e-mails non configuré");
-      }
-
-      console.log(`[auth] Code de connexion pour ${email} : ${issued.code}`);
-      return NextResponse.json({ success: true });
-    }
-
-    const resend = new Resend(process.env.RESEND_API_KEY);
-    const { error } = await resend.emails.send({
-      from:
-        process.env.AUTH_EMAIL_FROM || "Medecine Hub <onboarding@resend.dev>",
-      to: [email],
-      subject: `Votre code de connexion Medecine Hub : ${issued.code}`,
-      html: `
+    try {
+      await sendMail({
+        to: email,
+        subject: `Votre code de connexion Medecine Hub : ${issued.code}`,
+        html: `
         <div style="font-family: Arial, sans-serif; max-width: 480px; margin: 0 auto; color: #1c1917;">
           <h2 style="margin-bottom: 8px;">Connexion à Medecine Hub</h2>
           <p>Saisissez ce code pour vous connecter. Il est valable 10 minutes.</p>
@@ -76,10 +65,9 @@ export async function POST(request: NextRequest) {
           <p style="color: #78716c; font-size: 13px;">Si vous n'êtes pas à l'origine de cette demande, ignorez simplement ce message.</p>
         </div>
       `,
-    });
-
-    if (error) {
-      console.error("Resend error (login code):", error);
+      });
+    } catch (mailError) {
+      console.error("Envoi du code de connexion impossible:", mailError);
       return NextResponse.json(
         { success: false, message: "Impossible d'envoyer l'e-mail pour le moment." },
         { status: 502 }
