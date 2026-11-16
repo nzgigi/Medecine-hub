@@ -13,7 +13,7 @@ interface Mail {
  */
 export async function sendMail({ to, subject, html }: Mail) {
   if (process.env.SMTP_PASS) {
-    const user = process.env.SMTP_USER || "contact@amphi.be";
+    const user = process.env.SMTP_USER || "contact@medecinehub.fr";
     const port = Number(process.env.SMTP_PORT || 465);
 
     const transporter = nodemailer.createTransport({
