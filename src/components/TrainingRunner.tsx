@@ -7,10 +7,10 @@ import type { UserAnswer } from "@/types/exam";
 import { getQuestionScore } from "@/lib/exam/scoring";
 import {
   countBlockQuestions,
-  recordPrivateOutcomes,
   type PoolQuestion,
   type TrainingBlock,
 } from "@/lib/exam/privateTraining";
+import { recordPrivateOutcomes } from "@/lib/exam/privateClient";
 import {
   hasAnswer,
   QuestionAnswerInput,
@@ -114,7 +114,7 @@ export default function TrainingRunner({
 
     setResults((previous) => [...previous, { entry: current.entry, answer, score, correct }]);
 
-    recordPrivateOutcomes([
+    void recordPrivateOutcomes([
       {
         key: current.entry.key,
         slug: current.entry.slug,

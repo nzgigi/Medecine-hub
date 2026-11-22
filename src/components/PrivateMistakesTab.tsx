@@ -6,7 +6,11 @@ import { useRouter } from "next/navigation";
 import { Play } from "lucide-react";
 import type { ExamData } from "@/types/exam";
 import PrivateFiltersForm from "@/components/PrivateFiltersForm";
-import { AdminSessionExpiredError, loadPrivateExams } from "@/lib/exam/privateClient";
+import {
+  AdminSessionExpiredError,
+  fetchPrivateHistory,
+  loadPrivateExams,
+} from "@/lib/exam/privateClient";
 import {
   applyFilters,
   buildPool,
@@ -14,7 +18,6 @@ import {
   filterOptions,
   filtersToParams,
   PRIVATE_HISTORY_UPDATED_EVENT,
-  readPrivateHistory,
   type PrivateFilters,
   type PrivateHistory,
 } from "@/lib/exam/privateTraining";
@@ -28,7 +31,7 @@ export default function PrivateMistakesTab() {
   const router = useRouter();
   const [exams, setExams] = useState<ExamData[] | null>(null);
   const [failed, setFailed] = useState(false);
-  const [history, setHistory] = useState<PrivateHistory>({});
+  const [history, setHistory] = useState<PrivateHistory | null>(null);
   const [filters, setFilters] = useState<PrivateFilters>(EMPTY_FILTERS);
 
   useEffect(() => {
@@ -48,26 +51,31 @@ export default function PrivateMistakesTab() {
 
   useEffect(() => {
     // localStorage n'existe pas côté serveur : l'historique ne se lit qu'après le premier rendu.
-    const sync = () => setHistory(readPrivateHistory());
+    const sync = () => {
+      fetchPrivateHistory()
+        .then(setHistory)
+        .catch((error: unknown) => {
+          if (error instanceof AdminSessionExpiredError) router.push("/admin/login");
+          else setFailed(true);
+        });
+    };
     sync();
     window.addEventListener(PRIVATE_HISTORY_UPDATED_EVENT, sync);
-    window.addEventListener("storage", sync);
     return () => {
       window.removeEventListener(PRIVATE_HISTORY_UPDATED_EVENT, sync);
-      window.removeEventListener("storage", sync);
     };
-  }, []);
+  }, [router]);
 
   const pool = useMemo(() => buildPool(exams ?? []), [exams]);
   const options = useMemo(() => filterOptions(pool), [pool]);
 
   // Erreur active = dernier résultat non entièrement exact ; la réussir une fois la retire.
   const errors = useMemo(
-    () => applyFilters(pool, { ...filters, statut: "erreurs" }, history),
+    () => applyFilters(pool, { ...filters, statut: "erreurs" }, history ?? {}),
     [pool, filters, history]
   );
   const totalErrors = useMemo(
-    () => applyFilters(pool, { ...EMPTY_FILTERS, statut: "erreurs" }, history).length,
+    () => applyFilters(pool, { ...EMPTY_FILTERS, statut: "erreurs" }, history ?? {}).length,
     [pool, history]
   );
 
@@ -85,7 +93,7 @@ export default function PrivateMistakesTab() {
   if (failed) {
     return <p className="font-bold text-red-600">Impossible de charger les QCM privés.</p>;
   }
-  if (exams === null) {
+  if (exams === null || history === null) {
     return <p className="text-sm text-stone-500 dark:text-stone-400">Chargement...</p>;
   }
 
@@ -143,7 +151,7 @@ export default function PrivateMistakesTab() {
               </h2>
               <ul className="divide-y divide-stone-100 dark:divide-stone-800">
                 {group.items.map((entry) => {
-                  const record = history[entry.key];
+                  const record = history?.[entry.key];
                   return (
                     <li key={entry.key} className="px-5 py-3 text-sm">
                       <p className="text-xs font-bold text-stone-500 dark:text-stone-400">

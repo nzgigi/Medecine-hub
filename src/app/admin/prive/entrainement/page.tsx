@@ -7,7 +7,12 @@ import { ArrowLeft, Dumbbell, Play } from "lucide-react";
 import type { ExamData } from "@/types/exam";
 import PrivateFiltersForm from "@/components/PrivateFiltersForm";
 import TrainingRunner from "@/components/TrainingRunner";
-import { AdminSessionExpiredError, hasAdminToken, loadPrivateExams } from "@/lib/exam/privateClient";
+import {
+  AdminSessionExpiredError,
+  fetchPrivateHistory,
+  hasAdminToken,
+  loadPrivateExams,
+} from "@/lib/exam/privateClient";
 import {
   applyFilters,
   buildPool,
@@ -15,7 +20,6 @@ import {
   filterOptions,
   filtersFromParams,
   PRIVATE_HISTORY_UPDATED_EVENT,
-  readPrivateHistory,
   type PrivateFilters,
   type PrivateHistory,
   type TrainingBlock,
@@ -33,7 +37,7 @@ function TrainingPage() {
 
   const [exams, setExams] = useState<ExamData[] | null>(null);
   const [error, setError] = useState("");
-  const [history, setHistory] = useState<PrivateHistory>({});
+  const [history, setHistory] = useState<PrivateHistory | null>(null);
   const [filters, setFilters] = useState<PrivateFilters>(() => filtersFromParams(params));
   const [annee, setAnnee] = useState<number | null>(() => {
     const value = Number(params.get("annee"));
@@ -67,11 +71,18 @@ function TrainingPage() {
 
   useEffect(() => {
     // localStorage n'existe pas côté serveur : l'historique ne se lit qu'après le premier rendu.
-    const sync = () => setHistory(readPrivateHistory());
+    const sync = () => {
+      fetchPrivateHistory()
+        .then(setHistory)
+        .catch((e: unknown) => {
+          if (e instanceof AdminSessionExpiredError) router.push("/admin/login");
+          else setError("Impossible de charger l'historique privé.");
+        });
+    };
     sync();
     window.addEventListener(PRIVATE_HISTORY_UPDATED_EVENT, sync);
     return () => window.removeEventListener(PRIVATE_HISTORY_UPDATED_EVENT, sync);
-  }, []);
+  }, [router]);
 
   const pool = useMemo(() => buildPool(exams ?? []), [exams]);
   const options = useMemo(() => filterOptions(pool), [pool]);
@@ -80,7 +91,7 @@ function TrainingPage() {
     [pool, annee]
   );
   const matching = useMemo(
-    () => applyFilters(scopedPool, filters, history),
+    () => applyFilters(scopedPool, filters, history ?? {}),
     [scopedPool, filters, history]
   );
   const blockCount = useMemo(() => buildTrainingBlocks(matching, "fichier").length, [matching]);
@@ -104,8 +115,8 @@ function TrainingPage() {
       if (matching.length > 0) start(matching);
     };
 
-    if (autostart && !autoDone && exams !== null) runAuto();
-  }, [autostart, autoDone, exams, matching, start]);
+    if (autostart && !autoDone && exams !== null && history !== null) runAuto();
+  }, [autostart, autoDone, exams, history, matching, start]);
 
   const restartWithKeys = (keys: string[]) => {
     const wanted = new Set(keys);
@@ -121,7 +132,7 @@ function TrainingPage() {
     );
   }
 
-  if (exams === null || (autostart && !autoDone)) {
+  if (exams === null || history === null || (autostart && !autoDone)) {
     return (
       <div className={SCREEN_CLASS}>
         <div className="h-12 w-12 animate-spin rounded-full border-2 border-stone-300 border-b-emerald-800 dark:border-stone-800 dark:border-b-emerald-300" />
@@ -228,6 +239,7 @@ function TrainingPage() {
                 <span className="text-sm text-stone-500 dark:text-stone-400">
                   question{matching.length > 1 ? "s" : ""} correspondante{matching.length > 1 ? "s" : ""}
                   {matching.length > 0 && ` · ${blockCount} bloc${blockCount > 1 ? "s" : ""} · ~${minutesHint} min`}
+                  {` · ${scopedPool.length} au total`}
                 </span>
               </p>
 

@@ -6,7 +6,6 @@ import type {
   ExamFolder,
   FolderType,
   Question,
-  QuestionDifficulte,
   QuestionRang,
   QuestionType,
 } from "@/types/exam";
@@ -57,7 +56,6 @@ export const IMPORTABLE_QUESTION_TYPES: QuestionType[] = [
 
 const FOLDER_TYPES: FolderType[] = ["DP", "SQI", "KFP"];
 const RANGS: QuestionRang[] = ["A", "B"];
-const DIFFICULTES: QuestionDifficulte[] = ["facile", "moyen", "difficile"];
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
@@ -110,11 +108,11 @@ function parseLetters(value: unknown): string[] | null {
   return letters.every((letter) => /^[A-Z]$/.test(letter)) ? [...new Set(letters)] : null;
 }
 
-/** Champs facultatifs de filtre : absents = ignorés, présents mais invalides = erreur explicite. */
+/** Champ facultatif "rang" : absent = ignoré, présent mais invalide = erreur explicite. */
 function parseQuestionMeta(
   record: Record<string, unknown>
-): { meta: Pick<Question, "rang" | "difficulte" | "objectif">; error?: string } {
-  const meta: Pick<Question, "rang" | "difficulte" | "objectif"> = {};
+): { meta: Pick<Question, "rang">; error?: string } {
+  const meta: Pick<Question, "rang"> = {};
 
   const rang = text(record.rang).toUpperCase();
   if (rang) {
@@ -123,20 +121,6 @@ function parseQuestionMeta(
     }
     meta.rang = rang as QuestionRang;
   }
-
-  const difficulte = text(record.difficulte).toLowerCase();
-  if (difficulte) {
-    if (!DIFFICULTES.includes(difficulte as QuestionDifficulte)) {
-      return {
-        meta,
-        error: `"difficulte" invalide "${text(record.difficulte)}" (attendu : ${DIFFICULTES.join(", ")}).`,
-      };
-    }
-    meta.difficulte = difficulte as QuestionDifficulte;
-  }
-
-  const objectif = text(record.objectif);
-  if (objectif) meta.objectif = objectif;
 
   return { meta };
 }
@@ -407,6 +391,7 @@ export function buildAnnalesTemplate(subjects: AnnaleSubject[]) {
       'Types de question : "QRU" (1 seule bonne reponse), "QRM" (plusieurs), "QRP" (QRM avec "maxReponses"), "QROC" (reponse courte), "VALEUR_NUMERIQUE", "ASSOCIATION". Pas de questions sur image.',
       '"choix" : textes sans lettre (A), B)... sont ajoutees automatiquement). "reponses" : lettres des bonnes reponses, ex : ["A", "C"].',
       '"contexte" (vignette clinique) et "correction" (explication) : optionnels. Ne pas mettre d\'"id" : ils sont generes.',
+      'Filtres d\'entrainement, optionnels. Sur un dossier : "item" (numero et nom, texte libre, ex : "340 – Accidents vasculaires cerebraux"). Sur une question : "rang" ("A" ou "B").',
       "Repondre uniquement avec ce JSON complet, sans texte autour.",
     ],
     matieres_existantes: subjects.map((subject) => ({ slug: subject.slug, matiere: subject.matiere })),
@@ -437,8 +422,6 @@ export function buildAnnalesTemplate(subjects: AnnaleSubject[]) {
                 ],
                 reponses: ["A", "B", "D"],
                 rang: "B",
-                difficulte: "moyen",
-                objectif: "OIC-340-05",
                 correction: "Le sinus coronaire se jette dans l'atrium droit ; la coronaire droite nait du sinus droit.",
               },
               {

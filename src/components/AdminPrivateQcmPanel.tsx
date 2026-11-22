@@ -96,7 +96,7 @@ export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: Admi
 
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border-2 border-red-500 p-3 dark:border-red-500/70">
           <p className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-            Suivi de tes erreurs sur les QCM prives.
+            Suivi de tes erreurs sur les QCM prives (reserve a l&apos;administrateur).
           </p>
           <div className="flex flex-wrap gap-2">
             <Link
@@ -107,7 +107,7 @@ export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: Admi
               S&apos;entraîner (tout)
             </Link>
             <Link
-              href="/erreurs?onglet=prive"
+              href="/admin/prive/erreurs"
               className="inline-flex items-center gap-2 rounded-lg bg-red-600 px-3 py-1.5 text-sm font-bold text-white hover:bg-red-700"
             >
               <Target className="h-4 w-4" />

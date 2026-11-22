@@ -5,6 +5,7 @@ import {
   applyPrivateOutcomes,
   buildPool,
   buildTrainingBlocks,
+  mergePrivateHistories,
   countBlockQuestions,
   EMPTY_FILTERS,
   filtersFromParams,
@@ -29,9 +30,9 @@ function exam(): ExamData {
       {
         id: "f1", type: "DP", title: "DP AVC", item: "340 – AVC", order: 1,
         description: "Homme de 70 ans",
-        questions: [q(1, "DP q1", { rang: "A" }), q(2, "DP q2", { rang: "B", difficulte: "difficile" })],
+        questions: [q(1, "DP q1", { rang: "A" }), q(2, "DP q2", { rang: "B" })],
       },
-      { id: "f2", type: "SQI", title: "SQI 1", order: 2, questions: [q(3, "S1"), q(4, "S2", { difficulte: "facile" }), q(5, "S3")] },
+      { id: "f2", type: "SQI", title: "SQI 1", order: 2, questions: [q(3, "S1"), q(4, "S2", { rang: "A" }), q(5, "S3")] },
       { id: "f3", type: "KFP", title: "KFP 1", order: 3, questions: [q(6, "K1")] },
     ],
   };
@@ -98,8 +99,8 @@ describe("filtres", () => {
     expect(applyFilters(pool, { ...EMPTY_FILTERS, type: "SQI" }, {})).toHaveLength(3);
     expect(applyFilters(pool, { ...EMPTY_FILTERS, item: "340 – AVC" }, {})).toHaveLength(2);
     expect(applyFilters(pool, { ...EMPTY_FILTERS, rang: "B" }, {})).toHaveLength(1);
-    expect(applyFilters(pool, { ...EMPTY_FILTERS, difficulte: "facile", type: "SQI" }, {})).toHaveLength(1);
-    expect(applyFilters(pool, { ...EMPTY_FILTERS, difficulte: "facile", type: "DP" }, {})).toHaveLength(0);
+    expect(applyFilters(pool, { ...EMPTY_FILTERS, rang: "A", type: "SQI" }, {})).toHaveLength(1);
+    expect(applyFilters(pool, { ...EMPTY_FILTERS, rang: "B", type: "SQI" }, {})).toHaveLength(0);
   });
 
   it("filtre par statut", () => {
@@ -150,5 +151,24 @@ describe("tirage", () => {
     const blocks = buildTrainingBlocks(part, "aleatoire");
     expect(blocks).toHaveLength(1);
     expect(blocks[0].questions[0].question.question).toBe("DP q2");
+  });
+});
+
+describe("total", () => {
+  it("le total d'entraînement égale celui de l'épreuve (SQI + DP + KFP)", () => {
+    const e = exam();
+    const examTotal = e.folders.reduce((n, f) => n + f.questions.length, 0);
+    const trainingTotal = countBlockQuestions(buildTrainingBlocks(buildPool([e]), "aleatoire"));
+    expect(trainingTotal).toBe(examTotal);
+    expect(buildPool([e])).toHaveLength(examTotal);
+  });
+});
+
+describe("fusion d'historiques", () => {
+  it("garde l'entrée la plus récente", () => {
+    const a = applyPrivateOutcomes({}, [outcome("k", false)], "2026-01-01");
+    const b = applyPrivateOutcomes({}, [outcome("k", true)], "2026-02-01");
+    expect(mergePrivateHistories(a, b).k.lastCorrect).toBe(true);
+    expect(mergePrivateHistories(b, a).k.lastCorrect).toBe(true);
   });
 });

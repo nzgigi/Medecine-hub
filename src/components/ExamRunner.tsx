@@ -40,10 +40,8 @@ import ReportQuestionButton from "@/components/ReportQuestionButton";
 import ShareScoreButton from "@/components/ShareScoreButton";
 import DiscordBanner from "@/components/DiscordBanner";
 import { recordOutcomes, type QuestionOutcome } from "@/lib/exam/mistakes";
-import {
-  privateQuestionKey,
-  recordPrivateOutcomes,
-} from "@/lib/exam/privateTraining";
+import { privateQuestionKey } from "@/lib/exam/privateTraining";
+import { recordPrivateOutcomes } from "@/lib/exam/privateClient";
 import type { QuestionOrigin } from "@/lib/exam/practiceSession";
 
 interface SavedExamAttempt {
@@ -202,7 +200,7 @@ interface ExamRunnerProps {
   timeLimitMinutes?: number;
   /**
    * QCM privé (admin) : les résultats alimentent l'historique privé
-   * ("Mes erreurs" > QCM privés) au lieu de celui des annales.
+   * ("Mes erreurs privées", admin) au lieu de celui des annales.
    */
   privateSlug?: string;
   loadExam: () => Promise<LoadedExam>;
@@ -577,7 +575,7 @@ export default function ExamRunner({
       .flatMap((folder) => folder.questions);
 
     if (privateSlug) {
-      recordPrivateOutcomes(
+      void recordPrivateOutcomes(
         submitted.flatMap((result) => {
           const found = questionsById.get(result.questionId);
           if (!found) return [];
@@ -838,7 +836,7 @@ export default function ExamRunner({
 
                 <p className="text-stone-600 dark:text-stone-300">
                   {isPractice
-                    ? `${practiceCorrectCount}/${examData.total_questions} question(s) réussie(s). Les questions ratées sont ajoutées à « Mes erreurs » ; celles qui y étaient déjà et que tu as réussies en sont retirées.`
+                    ? `${practiceCorrectCount}/${examData.total_questions} question(s) réussie(s). Les questions ratées sont ajoutées à « ${privateSlug ? "Mes erreurs privées" : "Mes erreurs"} » ; celles qui y étaient déjà et que tu as réussies en sont retirées.`
                     : "Seuls les dossiers soumis sont pris en compte dans la note finale."}
                 </p>
               </div>

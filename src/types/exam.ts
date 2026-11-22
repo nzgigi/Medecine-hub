@@ -11,7 +11,6 @@ export type FolderType = "DP" | "SQI" | "KFP";
 
 /** Rang de la question (A ou B), renseigné à la génération du fichier. */
 export type QuestionRang = "A" | "B";
-export type QuestionDifficulte = "facile" | "moyen" | "difficile";
 
 export type FolderStatus = "not_started" | "in_progress" | "submitted";
 
@@ -74,11 +73,8 @@ export interface Question {
   /** Intervalle correct pour une question de type VALEUR_NUMERIQUE. */
   numericRange?: NumericRange;
   maxReponses?: number;
-  /** Métadonnées facultatives (import JSON) servant aux filtres d'entraînement. */
+  /** Rang de la question (import JSON, facultatif), filtre d'entraînement. */
   rang?: QuestionRang;
-  difficulte?: QuestionDifficulte;
-  /** Code d'objectif (ex. "OIC-340-05") : stocké, pas encore filtré. */
-  objectif?: string;
   correctionExplanation?: string;
   /** Image jointe au commentaire de correction (ex: formule rendue graphiquement). */
   correctionImage?: string;

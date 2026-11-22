@@ -73,16 +73,6 @@ export default function PrivateFiltersForm({
         ]}
       />
       <Field
-        label="Difficulté"
-        value={filters.difficulte}
-        onChange={(v) => set("difficulte", v)}
-        options={[
-          { value: "facile", label: "Facile" },
-          { value: "moyen", label: "Moyen" },
-          { value: "difficile", label: "Difficile" },
-        ]}
-      />
-      <Field
         label="Type de dossier"
         value={filters.type}
         onChange={(v) => set("type", v)}

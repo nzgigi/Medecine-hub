@@ -12,11 +12,11 @@ import type {
   ExamFolder,
   FolderType,
   Question,
-  QuestionDifficulte,
   QuestionRang,
 } from "@/types/exam";
 
-export const PRIVATE_HISTORY_STORAGE_KEY = "qcm_private_history";
+/** Ancienne clé de stockage navigateur (v1) : lue une fois pour migrer vers le serveur, puis supprimée. */
+export const LEGACY_PRIVATE_HISTORY_STORAGE_KEY = "qcm_private_history";
 export const PRIVATE_HISTORY_UPDATED_EVENT = "medecine-hub-private-history-updated";
 
 const normalize = (value: string) => value.toLowerCase().replace(/\s+/g, " ").trim();
@@ -181,33 +181,14 @@ export function parsePrivateHistory(raw: string | null): PrivateHistory {
   }
 }
 
-export function readPrivateHistory(): PrivateHistory {
-  try {
-    return parsePrivateHistory(localStorage.getItem(PRIVATE_HISTORY_STORAGE_KEY));
-  } catch {
-    return {};
+/** Fusionne deux historiques (clé par clé, le plus récent l'emporte) : sert à la reprise de l'ancien stockage navigateur. */
+export function mergePrivateHistories(base: PrivateHistory, incoming: PrivateHistory): PrivateHistory {
+  const merged: PrivateHistory = { ...base };
+  for (const [key, entry] of Object.entries(incoming)) {
+    const existing = merged[key];
+    if (!existing || entry.lastAt > existing.lastAt) merged[key] = entry;
   }
-}
-
-export function recordPrivateOutcomes(outcomes: PrivateOutcome[]) {
-  if (outcomes.length === 0) return;
-
-  try {
-    const next = applyPrivateOutcomes(readPrivateHistory(), outcomes, new Date().toISOString());
-    localStorage.setItem(PRIVATE_HISTORY_STORAGE_KEY, JSON.stringify(next));
-    window.dispatchEvent(new Event(PRIVATE_HISTORY_UPDATED_EVENT));
-  } catch {
-    // Stockage plein ou indisponible : on perd le suivi, pas la séance.
-  }
-}
-
-export function clearPrivateHistory() {
-  try {
-    localStorage.removeItem(PRIVATE_HISTORY_STORAGE_KEY);
-    window.dispatchEvent(new Event(PRIVATE_HISTORY_UPDATED_EVENT));
-  } catch {
-    // ignoré
-  }
+  return merged;
 }
 
 // --- Filtres --------------------------------------------------------------
@@ -219,7 +200,6 @@ export interface PrivateFilters {
   matiere: string;
   item: string;
   rang: QuestionRang | "";
-  difficulte: QuestionDifficulte | "";
   type: FolderType | "";
   statut: PrivateStatus | "";
 }
@@ -228,7 +208,6 @@ export const EMPTY_FILTERS: PrivateFilters = {
   matiere: "",
   item: "",
   rang: "",
-  difficulte: "",
   type: "",
   statut: "",
 };
@@ -248,7 +227,6 @@ export function applyFilters(
     if (filters.matiere && entry.slug !== filters.matiere) return false;
     if (filters.item && entry.item !== filters.item) return false;
     if (filters.rang && entry.question.rang !== filters.rang) return false;
-    if (filters.difficulte && entry.question.difficulte !== filters.difficulte) return false;
     if (filters.type && entry.folderType !== filters.type) return false;
     if (filters.statut && statusOf(history, entry.key) !== filters.statut) return false;
     return true;
@@ -275,7 +253,7 @@ export function filterOptions(pool: PoolQuestion[]): FilterOptions {
   };
 }
 
-const FILTER_FIELDS = ["matiere", "item", "rang", "difficulte", "type", "statut"] as const;
+const FILTER_FIELDS = ["matiere", "item", "rang", "type", "statut"] as const;
 
 export function filtersToParams(filters: PrivateFilters): URLSearchParams {
   const params = new URLSearchParams();
@@ -294,7 +272,6 @@ export function filtersFromParams(params: URLSearchParams): PrivateFilters {
     matiere: params.get("matiere") ?? "",
     item: params.get("item") ?? "",
     rang: pick("rang", ["A", "B"] as const),
-    difficulte: pick("difficulte", ["facile", "moyen", "difficile"] as const),
     type: pick("type", ["SQI", "DP", "KFP"] as const),
     statut: pick("statut", ["jamais", "erreurs", "reussies"] as const),
   };
