@@ -7,7 +7,8 @@ import { normalizeExamData } from "@/lib/exam/normalizeExam";
 import ExamRunner, { type LoadedExam } from "@/components/ExamRunner";
 
 // QCM prive : charge via l'API admin (jamais depuis public/) et passe en mode
-// "practice" pour ne rien enregistrer dans l'historique ni le classement.
+// "practice" : rien dans l'historique public ni le classement ; les resultats
+// alimentent seulement l'historique prive ("Mes erreurs" > QCM prives).
 export default function PrivateQcmPage() {
   const router = useRouter();
   const params = useParams();
@@ -39,6 +40,7 @@ export default function PrivateQcmPage() {
     <ExamRunner
       key={`${slug}_${annee}`}
       mode="practice"
+      privateSlug={slug}
       attemptStorageKey={`private_exam_attempt_${slug}_${annee}`}
       backHref="/admin"
       backLabel="Admin"

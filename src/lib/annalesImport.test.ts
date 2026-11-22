@@ -19,6 +19,48 @@ const annale = {
   ],
 };
 
+describe("champs facultatifs de filtre", () => {
+  const withMeta = {
+    ...annale,
+    folders: [
+      {
+        type: "DP",
+        title: "DP 1",
+        item: "340 – Accidents vasculaires cérébraux",
+        questions: [
+          { type: "QRU", question: "Q1", choix: ["x", "y"], reponses: ["A"], rang: "b", difficulte: "Moyen", objectif: "OIC-340-05" },
+          { type: "QRU", question: "Q2", choix: ["x", "y"], reponses: ["A"] },
+        ],
+      },
+    ],
+  };
+
+  it("importe et normalise rang, difficulte, objectif et item", () => {
+    const { valid, errors } = validateAnnales([withMeta], subjects);
+    expect(errors).toEqual([]);
+    const folder = valid[0].exam.folders[0];
+    expect(folder.item).toBe("340 – Accidents vasculaires cérébraux");
+    expect(folder.questions[0]).toMatchObject({ rang: "B", difficulte: "moyen", objectif: "OIC-340-05" });
+    expect(folder.questions[1]).not.toHaveProperty("rang");
+  });
+
+  it("un fichier sans ces champs s'importe sans les ajouter", () => {
+    const { valid, errors } = validateAnnales([annale], subjects);
+    expect(errors).toEqual([]);
+    expect(valid[0].exam.folders[0]).not.toHaveProperty("item");
+    expect(valid[0].exam.folders[0].questions[0]).not.toHaveProperty("difficulte");
+  });
+
+  it("refuse une valeur invalide avec un message clair", () => {
+    const bad = JSON.parse(JSON.stringify(withMeta));
+    bad.folders[0].questions[0].rang = "C";
+    expect(validateAnnales([bad], subjects).errors.map((e) => e.message).join(" ")).toMatch(/rang/);
+    bad.folders[0].questions[0].rang = "A";
+    bad.folders[0].questions[0].difficulte = "impossible";
+    expect(validateAnnales([bad], subjects).errors.map((e) => e.message).join(" ")).toMatch(/difficulte/);
+  });
+});
+
 describe("extractAnnales", () => {
   it("lit un tableau, { annales }, une annale seule et du JSON entoure de ```json", () => {
     expect(extractAnnales(JSON.stringify([annale]))).toHaveLength(1);

@@ -1,7 +1,15 @@
 // Import d'annales completes depuis un fichier JSON (souvent genere par une IA).
 // Logique pure, partagee entre l'apercu cote admin et la route d'import.
 
-import type { ExamData, ExamFolder, FolderType, Question, QuestionType } from "@/types/exam";
+import type {
+  ExamData,
+  ExamFolder,
+  FolderType,
+  Question,
+  QuestionDifficulte,
+  QuestionRang,
+  QuestionType,
+} from "@/types/exam";
 
 export interface AnnaleSubject {
   slug: string;
@@ -48,6 +56,8 @@ export const IMPORTABLE_QUESTION_TYPES: QuestionType[] = [
 ];
 
 const FOLDER_TYPES: FolderType[] = ["DP", "SQI", "KFP"];
+const RANGS: QuestionRang[] = ["A", "B"];
+const DIFFICULTES: QuestionDifficulte[] = ["facile", "moyen", "difficile"];
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
@@ -100,6 +110,37 @@ function parseLetters(value: unknown): string[] | null {
   return letters.every((letter) => /^[A-Z]$/.test(letter)) ? [...new Set(letters)] : null;
 }
 
+/** Champs facultatifs de filtre : absents = ignorés, présents mais invalides = erreur explicite. */
+function parseQuestionMeta(
+  record: Record<string, unknown>
+): { meta: Pick<Question, "rang" | "difficulte" | "objectif">; error?: string } {
+  const meta: Pick<Question, "rang" | "difficulte" | "objectif"> = {};
+
+  const rang = text(record.rang).toUpperCase();
+  if (rang) {
+    if (!RANGS.includes(rang as QuestionRang)) {
+      return { meta, error: `"rang" invalide "${text(record.rang)}" (attendu : A ou B).` };
+    }
+    meta.rang = rang as QuestionRang;
+  }
+
+  const difficulte = text(record.difficulte).toLowerCase();
+  if (difficulte) {
+    if (!DIFFICULTES.includes(difficulte as QuestionDifficulte)) {
+      return {
+        meta,
+        error: `"difficulte" invalide "${text(record.difficulte)}" (attendu : ${DIFFICULTES.join(", ")}).`,
+      };
+    }
+    meta.difficulte = difficulte as QuestionDifficulte;
+  }
+
+  const objectif = text(record.objectif);
+  if (objectif) meta.objectif = objectif;
+
+  return { meta };
+}
+
 function validateQuestion(
   record: Record<string, unknown>,
   id: number
@@ -114,9 +155,13 @@ function validateQuestion(
   const statement = text(record.question);
   if (!statement) return { error: 'champ "question" vide.' };
 
+  const parsedMeta = parseQuestionMeta(record);
+  if (parsedMeta.error) return { error: parsedMeta.error };
+
   const base: Question = {
     id,
     order: id,
+    ...parsedMeta.meta,
     type,
     contexte: text(record.contexte),
     question: statement,
@@ -234,6 +279,7 @@ function validateFolder(
       type,
       title: text(record.title) || `${type} ${folderIndex + 1}`,
       description: text(record.description),
+      ...(text(record.item) ? { item: text(record.item) } : {}),
       order: folderIndex + 1,
       questions,
     },
@@ -375,6 +421,7 @@ export function buildAnnalesTemplate(subjects: AnnaleSubject[]) {
           {
             type: "DP",
             title: "DP 1 – Douleur thoracique",
+            item: "340 – Accidents vasculaires cerebraux",
             description: "Patient de 65 ans admis pour une douleur thoracique constrictive.",
             questions: [
               {
@@ -389,6 +436,9 @@ export function buildAnnalesTemplate(subjects: AnnaleSubject[]) {
                   "La coronaire droite nait du sinus aortique gauche.",
                 ],
                 reponses: ["A", "B", "D"],
+                rang: "B",
+                difficulte: "moyen",
+                objectif: "OIC-340-05",
                 correction: "Le sinus coronaire se jette dans l'atrium droit ; la coronaire droite nait du sinus droit.",
               },
               {
