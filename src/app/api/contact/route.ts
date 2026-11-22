@@ -1,5 +1,6 @@
 import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
+import { notifyStaff } from "@/lib/server/discordNotify";
 import { escapeHtml } from "@/lib/server/security";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -98,6 +99,13 @@ export async function POST(req: NextRequest) {
         { status: 500 }
       );
     }
+
+    // L'adresse e-mail reste dans le mail : Discord ne reçoit que de quoi savoir qu'il faut répondre.
+    void notifyStaff({
+      title: `✉️ Nouveau message de contact : ${subject}`,
+      description: message,
+      fields: [{ name: "De", value: name }],
+    });
 
     return NextResponse.json({
       success: true,

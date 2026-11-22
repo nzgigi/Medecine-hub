@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Le bot Discord est un projet Node indépendant (bot/).
+    "bot/**",
   ]),
 ]);
 
