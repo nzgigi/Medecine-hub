@@ -48,6 +48,9 @@ yarn-error.log*
 # base de données sociale (profils, historique QCM, succès - non versionnée)
 /data/db/
 
+# QCM prives des admins (non versionnes, jamais servis publiquement)
+/data/private-qcm/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

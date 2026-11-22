@@ -18,6 +18,7 @@ import {
   History,
   LayoutGrid,
   Layers,
+  Lock,
   LogOut,
   Plus,
   RefreshCw,
@@ -40,6 +41,8 @@ import {
 } from "@/lib/subjectStyles";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminMedtokPanel from "@/components/AdminMedtokPanel";
+import AdminPrivateQcmPanel from "@/components/AdminPrivateQcmPanel";
+import AdminAnnalesImport from "@/components/AdminAnnalesImport";
 import AdminMonitoringPanel from "@/components/AdminMonitoringPanel";
 import AdminReportsPanel from "@/components/AdminReportsPanel";
 import AdminSessionBadge from "@/components/AdminSessionBadge";
@@ -291,7 +294,7 @@ function AdminAction({
   );
 }
 
-type AdminTab = "overview" | "epreuves" | "medtok" | "signalements" | "monitoring";
+type AdminTab = "overview" | "epreuves" | "prive" | "medtok" | "signalements" | "monitoring";
 
 const FAVORITE_COLORS_STORAGE_KEY = "medecine_hub_admin_favorite_colors";
 const MAX_FAVORITE_COLORS = 10;
@@ -1168,6 +1171,7 @@ export default function AdminDashboard() {
               [
                 { id: "overview", label: "Vue d'ensemble", icon: LayoutGrid },
                 { id: "epreuves", label: "Epreuves", icon: FileText },
+                { id: "prive", label: "Mes QCM", icon: Lock },
                 { id: "medtok", label: "MedTok", icon: Zap },
                 { id: "signalements", label: "Signalements", icon: Flag },
                 { id: "monitoring", label: "Monitoring", icon: Activity },
@@ -1438,6 +1442,19 @@ export default function AdminDashboard() {
         </section>
         )}
 
+        {activeTab === "epreuves" && (
+          <AdminAnnalesImport
+            existingSubjects={existingSubjects.map((subject) => ({
+              slug: subject.slug,
+              matiere: subject.matiere,
+            }))}
+            existingExams={entries.map((entry) => ({ slug: entry.slug, annee: entry.annee }))}
+            getAdminHeaders={getAdminHeaders}
+            onStatus={showStatus}
+            onImported={loadIndex}
+          />
+        )}
+
         {activeTab === "epreuves" && validationSummary && (
           <section className="mb-6 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#1d1c18]">
             <div className="mb-4 flex flex-wrap items-start justify-between gap-4">
@@ -1670,6 +1687,10 @@ export default function AdminDashboard() {
           </div>
         </div>
         </>
+        )}
+
+        {activeTab === "prive" && (
+          <AdminPrivateQcmPanel getAdminHeaders={getAdminHeaders} onStatus={showStatus} />
         )}
 
         {activeTab === "medtok" && (

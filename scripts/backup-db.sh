@@ -33,6 +33,7 @@ node "$SCRIPT_DIR/snapshot-db.mjs" "$APP_DIR/data/db/medecine-hub.sqlite3" "$PAY
 
 if [ -d "$APP_DIR/data/analytics" ]; then cp -r "$APP_DIR/data/analytics" "$PAYLOAD/analytics"; fi
 if [ -d "$APP_DIR/data/admin" ]; then cp -r "$APP_DIR/data/admin" "$PAYLOAD/admin"; fi
+if [ -d "$APP_DIR/data/private-qcm" ]; then cp -r "$APP_DIR/data/private-qcm" "$PAYLOAD/private-qcm"; fi
 if [ -d "$APP_DIR/public/images/users" ]; then
   mkdir -p "$PAYLOAD/images"
   cp -r "$APP_DIR/public/images/users" "$PAYLOAD/images/users"
