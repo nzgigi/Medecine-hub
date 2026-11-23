@@ -15,7 +15,8 @@ import {
   hasAnswer,
   QuestionAnswerInput,
   QuestionBadges,
-  QuestionCorrection,
+  QuestionCorrectionBody,
+  scorePillClass,
   QuestionStatement,
 } from "@/components/QuestionView";
 
@@ -259,30 +260,26 @@ export default function TrainingRunner({
         </div>
 
         <div className="p-5 sm:p-6">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <div className="text-sm font-bold text-emerald-800 dark:text-emerald-300">
+              Question {position + 1} · {entry.question.type}
+            </div>
+            {validated && result && (
+              <div className={scorePillClass(result.score)}>{result.score.toFixed(2)} / 1</div>
+            )}
+          </div>
+
+          <QuestionStatement question={entry.question} folderDescription={block.folder.description} />
+
           {validated && result ? (
-            <>
-              {block.folder.description && (
-                <div className="mb-5 whitespace-pre-wrap rounded-lg border-l-4 border-stone-300 bg-stone-50 p-3 text-sm text-stone-700 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-200">
-                  {block.folder.description}
-                </div>
-              )}
-              <QuestionCorrection
-                question={entry.question}
-                answer={result.answer}
-                scored
-                questionNumber={position + 1}
-              />
-            </>
+            <QuestionCorrectionBody question={entry.question} answer={result.answer} scored />
           ) : (
-            <>
-              <QuestionStatement question={entry.question} folderDescription={block.folder.description} />
-              <QuestionAnswerInput
-                question={entry.question}
-                answer={answer}
-                locked={false}
-                onChange={setAnswer}
-              />
-            </>
+            <QuestionAnswerInput
+              question={entry.question}
+              answer={answer}
+              locked={false}
+              onChange={setAnswer}
+            />
           )}
         </div>
       </div>

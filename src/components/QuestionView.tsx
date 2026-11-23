@@ -22,24 +22,38 @@ import ReportQuestionButton from "@/components/ReportQuestionButton";
 
 const CONTEXT_COLLAPSE_THRESHOLD = 260;
 
-// Gris pour A, bleu ciel pour B : lisibles sur fond clair comme sombre.
-const RANG_COLORS = { A: "#9CA3AF", B: "#38BDF8" } as const;
+// Petit encadré carré : fond teinté léger et liseré de la même couleur (lisible en clair comme en sombre).
+const RANG_STYLES = {
+  A: { color: "#9CA3AF", borderColor: "#9CA3AF", backgroundColor: "rgba(156, 163, 175, 0.16)" },
+  B: { color: "#0EA5E9", borderColor: "#38BDF8", backgroundColor: "rgba(56, 189, 248, 0.16)" },
+} as const;
 
-/** Étiquette « Pédiatrie » (population) puis grosse lettre de rang ; rien si les champs sont absents. */
+const PEDIATRIE_STYLE = {
+  color: "#C084FC",
+  borderColor: "#A855F7",
+  backgroundColor: "rgba(168, 85, 247, 0.14)",
+  boxShadow: "0 0 8px rgba(168, 85, 247, 0.55)",
+} as const;
+
+/** Étiquette « Pédiatrie » puis badge de rang (à sa droite) ; rien si les champs sont absents. */
 export function QuestionBadges({ question }: { question: Pick<Question, "rang" | "population"> }) {
   if (!question.rang && question.population !== "pediatrie") return null;
 
   return (
     <span className="inline-flex items-center gap-2" data-testid="question-badges">
       {question.population === "pediatrie" && (
-        <span className="rounded-full bg-pink-100 px-2.5 py-0.5 text-xs font-bold text-pink-800 dark:bg-pink-950/50 dark:text-pink-300">
+        <span
+          className="inline-flex h-7 items-center rounded-md border px-2 text-xs font-semibold"
+          style={PEDIATRIE_STYLE}
+          data-testid="pediatrie-tag"
+        >
           Pédiatrie
         </span>
       )}
       {question.rang && (
         <span
-          className="text-2xl font-black leading-none"
-          style={{ color: RANG_COLORS[question.rang] }}
+          className="inline-flex h-7 w-7 items-center justify-center rounded-md border text-sm font-semibold"
+          style={RANG_STYLES[question.rang]}
           title={`Rang ${question.rang}`}
           aria-label={`Rang ${question.rang}`}
           data-testid="rang-badge"
@@ -331,32 +345,29 @@ export function QuestionAnswerInput({
   );
 }
 
-export interface QuestionCorrectionOrigin {
-  matiere: string;
-  annee: number;
-  questionId: number;
+export function scorePillClass(score: number) {
+  return `rounded-full px-3 py-1 text-sm font-bold ${
+    score === 1
+      ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
+      : score > 0
+      ? "bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300"
+      : "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300"
+  }`;
 }
 
 /**
- * Correction d'une question : réponse donnée, bonne réponse, note et
- * commentaire. `scored` faux = la question n'a pas encore été soumise.
+ * Propositions colorées et commentaire, sans carte ni titre : l'entraînement
+ * les place dans sa propre carte, l'épreuve les enveloppe dans QuestionCorrection.
  */
-export function QuestionCorrection({
+export function QuestionCorrectionBody({
   question,
   answer,
   scored,
-  questionNumber,
-  origin,
 }: {
   question: Question;
   answer: UserAnswer | undefined;
   scored: boolean;
-  questionNumber: number;
-  /** Provenance, pour le signalement d'erreur ; absent = pas de bouton « Signaler » (QCM privés). */
-  origin?: QuestionCorrectionOrigin;
 }) {
-  const score = getQuestionScore(question, answer);
-
   const userAnswerArray = (Array.isArray(answer) ? answer : []).filter(
     (item): item is string => typeof item === "string"
   );
@@ -376,71 +387,7 @@ export function QuestionCorrection({
     violatesCritique(question, userAnswerArray);
 
   return (
-    <div
-      className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512] sm:p-6"
-    >
-      <div className="mb-4 flex items-start justify-between gap-4">
-        <div>
-          <div className="mb-1 text-sm font-bold text-emerald-800 dark:text-emerald-300">
-            Question {questionNumber} • {question.type}
-          </div>
-          <h3 className="whitespace-pre-wrap text-sm text-stone-950 dark:text-stone-100">
-            {renderRichText(question.question)}
-          </h3>
-        </div>
-
-        <div className="flex shrink-0 flex-col items-end gap-1.5">
-          <QuestionBadges question={question} />
-          <div
-            className={`rounded-full px-3 py-1 text-sm font-bold ${
-              score === 1
-                ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
-                : score > 0
-                ? "bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300"
-                : "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300"
-            }`}
-          >
-            {scored ? `${score.toFixed(2)} / 1` : "Non soumis"}
-          </div>
-          {origin && (
-            <ReportQuestionButton
-              matiere={origin.matiere}
-              annee={origin.annee}
-              questionId={origin.questionId}
-              questionText={question.question}
-            />
-          )}
-        </div>
-      </div>
-
-      {question.contexte && (
-        <div className="mb-4 whitespace-pre-wrap rounded-lg border-l-4 border-emerald-300 bg-stone-50 p-4 text-sm text-stone-700 dark:border-emerald-700 dark:bg-[#1d1c18] dark:text-stone-200">
-          {question.contexte}
-        </div>
-      )}
-
-      {question.type !== "IMAGE_ZONE" && getQuestionImages(question).length > 0 && (
-        <div className="mb-4 flex flex-wrap justify-center gap-3">
-          {getQuestionImages(question).map((src, index) => (
-            <div key={src} className="relative">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={src}
-                alt={`Illustration ${index + 1} Q${question.id}`}
-                className="max-h-72 rounded-lg border border-stone-200 object-contain shadow-sm dark:border-stone-700"
-                onError={handleQuestionImageError}
-              />
-              <div
-                className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
-                style={{ display: "none" }}
-              >
-                Image indisponible
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
-
+    <>
       {scored && critiqueViolated && (
         <div className="mb-4 flex items-start gap-2 rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm font-semibold text-amber-800 dark:border-amber-700 dark:bg-amber-900/20 dark:text-amber-200">
           <AlertCircle className="h-4 w-4 shrink-0 mt-0.5" />
@@ -656,6 +603,95 @@ export function QuestionCorrection({
           )}
         </div>
       )}
+    </>
+  );
+}
+
+export interface QuestionCorrectionOrigin {
+  matiere: string;
+  annee: number;
+  questionId: number;
+}
+
+/**
+ * Correction d'une question : réponse donnée, bonne réponse, note et
+ * commentaire. `scored` faux = la question n'a pas encore été soumise.
+ */
+export function QuestionCorrection({
+  question,
+  answer,
+  scored,
+  questionNumber,
+  origin,
+}: {
+  question: Question;
+  answer: UserAnswer | undefined;
+  scored: boolean;
+  questionNumber: number;
+  /** Provenance, pour le signalement d'erreur ; absent = pas de bouton « Signaler » (QCM privés). */
+  origin?: QuestionCorrectionOrigin;
+}) {
+  const score = getQuestionScore(question, answer);
+
+  return (
+    <div
+      className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-[#151512] sm:p-6"
+    >
+      <div className="mb-4 flex items-start justify-between gap-4">
+        <div>
+          <div className="mb-1 text-sm font-bold text-emerald-800 dark:text-emerald-300">
+            Question {questionNumber} • {question.type}
+          </div>
+          <h3 className="whitespace-pre-wrap text-sm text-stone-950 dark:text-stone-100">
+            {renderRichText(question.question)}
+          </h3>
+        </div>
+
+        <div className="flex shrink-0 flex-col items-end gap-1.5">
+          <QuestionBadges question={question} />
+          <div className={scorePillClass(score)}>
+            {scored ? `${score.toFixed(2)} / 1` : "Non soumis"}
+          </div>
+          {origin && (
+            <ReportQuestionButton
+              matiere={origin.matiere}
+              annee={origin.annee}
+              questionId={origin.questionId}
+              questionText={question.question}
+            />
+          )}
+        </div>
+      </div>
+
+      {question.contexte && (
+        <div className="mb-4 whitespace-pre-wrap rounded-lg border-l-4 border-emerald-300 bg-stone-50 p-4 text-sm text-stone-700 dark:border-emerald-700 dark:bg-[#1d1c18] dark:text-stone-200">
+          {question.contexte}
+        </div>
+      )}
+
+      {question.type !== "IMAGE_ZONE" && getQuestionImages(question).length > 0 && (
+        <div className="mb-4 flex flex-wrap justify-center gap-3">
+          {getQuestionImages(question).map((src, index) => (
+            <div key={src} className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={src}
+                alt={`Illustration ${index + 1} Q${question.id}`}
+                className="max-h-72 rounded-lg border border-stone-200 object-contain shadow-sm dark:border-stone-700"
+                onError={handleQuestionImageError}
+              />
+              <div
+                className="hidden max-h-72 w-full max-w-md items-center justify-center rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center text-sm text-stone-500 dark:border-stone-700 dark:bg-[#1d1c18] dark:text-stone-400"
+                style={{ display: "none" }}
+              >
+                Image indisponible
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <QuestionCorrectionBody question={question} answer={answer} scored={scored} />
     </div>
   );
 }

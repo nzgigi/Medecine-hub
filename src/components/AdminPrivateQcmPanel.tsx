@@ -94,7 +94,7 @@ export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: Admi
           <h2 className="text-xl font-black">Mes QCM prives</h2>
         </div>
 
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border-2 border-red-500 p-3 dark:border-red-500/70">
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-stone-200 p-3 dark:border-stone-800">
           <p className="text-sm font-semibold text-stone-700 dark:text-stone-200">
             Suivi de tes erreurs sur les QCM prives (reserve a l&apos;administrateur).
           </p>
@@ -108,7 +108,7 @@ export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: Admi
             </Link>
             <Link
               href="/admin/prive/erreurs"
-              className="inline-flex items-center gap-2 rounded-lg bg-red-600 px-3 py-1.5 text-sm font-bold text-white hover:bg-red-700"
+              className="inline-flex items-center gap-2 rounded-lg bg-amber-600 px-3 py-1.5 text-sm font-bold text-white hover:bg-amber-700"
             >
               <Target className="h-4 w-4" />
               Mes erreurs
