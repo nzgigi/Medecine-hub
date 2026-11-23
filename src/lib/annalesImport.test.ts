@@ -51,6 +51,24 @@ describe("champs facultatifs de filtre", () => {
     expect(valid[0].exam.folders[0].questions[0]).not.toHaveProperty("rang");
   });
 
+  it("importe population (accents tolérés) et refuse une valeur inconnue", () => {
+    const file = JSON.parse(JSON.stringify(withMeta));
+    file.folders[0].questions[0].population = "Pédiatrie";
+    file.folders[0].questions[1].population = "adulte";
+    const { valid, errors } = validateAnnales([file], subjects);
+    expect(errors).toEqual([]);
+    expect(valid[0].exam.folders[0].questions.map((q) => q.population)).toEqual(["pediatrie", "adulte"]);
+
+    file.folders[0].questions[0].population = "enfant";
+    expect(validateAnnales([file], subjects).errors.map((e) => e.message).join(" ")).toMatch(/population/);
+  });
+
+  it("le modèle décrit item, rang et population, sans difficulte ni objectif", () => {
+    const json = JSON.stringify(buildAnnalesTemplate(subjects));
+    expect(json).toMatch(/\"item\"[\s\S]*\"rang\"[\s\S]*\"population\"/);
+    expect(json).not.toMatch(/difficulte|objectif/i);
+  });
+
   it("refuse une valeur invalide avec un message clair", () => {
     const bad = JSON.parse(JSON.stringify(withMeta));
     bad.folders[0].questions[0].rang = "C";

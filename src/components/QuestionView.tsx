@@ -22,6 +22,35 @@ import ReportQuestionButton from "@/components/ReportQuestionButton";
 
 const CONTEXT_COLLAPSE_THRESHOLD = 260;
 
+// Gris pour A, bleu ciel pour B : lisibles sur fond clair comme sombre.
+const RANG_COLORS = { A: "#9CA3AF", B: "#38BDF8" } as const;
+
+/** Étiquette « Pédiatrie » (population) puis grosse lettre de rang ; rien si les champs sont absents. */
+export function QuestionBadges({ question }: { question: Pick<Question, "rang" | "population"> }) {
+  if (!question.rang && question.population !== "pediatrie") return null;
+
+  return (
+    <span className="inline-flex items-center gap-2" data-testid="question-badges">
+      {question.population === "pediatrie" && (
+        <span className="rounded-full bg-pink-100 px-2.5 py-0.5 text-xs font-bold text-pink-800 dark:bg-pink-950/50 dark:text-pink-300">
+          Pédiatrie
+        </span>
+      )}
+      {question.rang && (
+        <span
+          className="text-2xl font-black leading-none"
+          style={{ color: RANG_COLORS[question.rang] }}
+          title={`Rang ${question.rang}`}
+          aria-label={`Rang ${question.rang}`}
+          data-testid="rang-badge"
+        >
+          {question.rang}
+        </span>
+      )}
+    </span>
+  );
+}
+
 export function getChoiceLetter(choice: string) {
   return choice.charAt(0);
 }
@@ -361,6 +390,7 @@ export function QuestionCorrection({
         </div>
 
         <div className="flex shrink-0 flex-col items-end gap-1.5">
+          <QuestionBadges question={question} />
           <div
             className={`rounded-full px-3 py-1 text-sm font-bold ${
               score === 1

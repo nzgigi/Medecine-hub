@@ -111,8 +111,8 @@ function parseLetters(value: unknown): string[] | null {
 /** Champ facultatif "rang" : absent = ignoré, présent mais invalide = erreur explicite. */
 function parseQuestionMeta(
   record: Record<string, unknown>
-): { meta: Pick<Question, "rang">; error?: string } {
-  const meta: Pick<Question, "rang"> = {};
+): { meta: Pick<Question, "rang" | "population">; error?: string } {
+  const meta: Pick<Question, "rang" | "population"> = {};
 
   const rang = text(record.rang).toUpperCase();
   if (rang) {
@@ -120,6 +120,20 @@ function parseQuestionMeta(
       return { meta, error: `"rang" invalide "${text(record.rang)}" (attendu : A ou B).` };
     }
     meta.rang = rang as QuestionRang;
+  }
+
+  const population = text(record.population)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "");
+  if (population) {
+    if (population !== "adulte" && population !== "pediatrie") {
+      return {
+        meta,
+        error: `"population" invalide "${text(record.population)}" (attendu : adulte ou pediatrie).`,
+      };
+    }
+    meta.population = population;
   }
 
   return { meta };
@@ -391,7 +405,7 @@ export function buildAnnalesTemplate(subjects: AnnaleSubject[]) {
       'Types de question : "QRU" (1 seule bonne reponse), "QRM" (plusieurs), "QRP" (QRM avec "maxReponses"), "QROC" (reponse courte), "VALEUR_NUMERIQUE", "ASSOCIATION". Pas de questions sur image.',
       '"choix" : textes sans lettre (A), B)... sont ajoutees automatiquement). "reponses" : lettres des bonnes reponses, ex : ["A", "C"].',
       '"contexte" (vignette clinique) et "correction" (explication) : optionnels. Ne pas mettre d\'"id" : ils sont generes.',
-      'Filtres d\'entrainement, optionnels. Sur un dossier : "item" (numero et nom, texte libre, ex : "340 – Accidents vasculaires cerebraux"). Sur une question : "rang" ("A" ou "B").',
+      'Filtres d\'entrainement, optionnels. Sur un dossier : "item" (numero et nom, texte libre, ex : "340 – Accidents vasculaires cerebraux"). Sur une question : "rang" ("A" ou "B") et "population" ("adulte" ou "pediatrie" ; "adulte" par defaut).',
       "Repondre uniquement avec ce JSON complet, sans texte autour.",
     ],
     matieres_existantes: subjects.map((subject) => ({ slug: subject.slug, matiere: subject.matiere })),
@@ -422,6 +436,7 @@ export function buildAnnalesTemplate(subjects: AnnaleSubject[]) {
                 ],
                 reponses: ["A", "B", "D"],
                 rang: "B",
+                population: "adulte",
                 correction: "Le sinus coronaire se jette dans l'atrium droit ; la coronaire droite nait du sinus droit.",
               },
               {

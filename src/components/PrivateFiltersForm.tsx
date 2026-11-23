@@ -33,7 +33,7 @@ function Field({
   );
 }
 
-/** Les six filtres combinables, partagés par l'écran de réglage et « Mes erreurs ». */
+/** Les sept filtres combinables, partagés par l'écran de réglage et « Mes erreurs ». */
 export default function PrivateFiltersForm({
   filters,
   options,
@@ -70,6 +70,15 @@ export default function PrivateFiltersForm({
         options={[
           { value: "A", label: "Rang A" },
           { value: "B", label: "Rang B" },
+        ]}
+      />
+      <Field
+        label="Population"
+        value={filters.population}
+        onChange={(v) => set("population", v)}
+        options={[
+          { value: "adulte", label: "Adulte" },
+          { value: "pediatrie", label: "Pédiatrie" },
         ]}
       />
       <Field

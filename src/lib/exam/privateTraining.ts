@@ -12,6 +12,7 @@ import type {
   ExamFolder,
   FolderType,
   Question,
+  QuestionPopulation,
   QuestionRang,
 } from "@/types/exam";
 
@@ -200,6 +201,7 @@ export interface PrivateFilters {
   matiere: string;
   item: string;
   rang: QuestionRang | "";
+  population: QuestionPopulation | "";
   type: FolderType | "";
   statut: PrivateStatus | "";
 }
@@ -208,9 +210,15 @@ export const EMPTY_FILTERS: PrivateFilters = {
   matiere: "",
   item: "",
   rang: "",
+  population: "",
   type: "",
   statut: "",
 };
+
+/** Population d'une question : absente = adulte. */
+export function populationOf(question: { population?: QuestionPopulation }): QuestionPopulation {
+  return question.population ?? "adulte";
+}
 
 export function statusOf(history: PrivateHistory, key: string): PrivateStatus {
   const entry = history[key];
@@ -227,6 +235,7 @@ export function applyFilters(
     if (filters.matiere && entry.slug !== filters.matiere) return false;
     if (filters.item && entry.item !== filters.item) return false;
     if (filters.rang && entry.question.rang !== filters.rang) return false;
+    if (filters.population && populationOf(entry.question) !== filters.population) return false;
     if (filters.type && entry.folderType !== filters.type) return false;
     if (filters.statut && statusOf(history, entry.key) !== filters.statut) return false;
     return true;
@@ -253,7 +262,7 @@ export function filterOptions(pool: PoolQuestion[]): FilterOptions {
   };
 }
 
-const FILTER_FIELDS = ["matiere", "item", "rang", "type", "statut"] as const;
+const FILTER_FIELDS = ["matiere", "item", "rang", "population", "type", "statut"] as const;
 
 export function filtersToParams(filters: PrivateFilters): URLSearchParams {
   const params = new URLSearchParams();
@@ -272,6 +281,7 @@ export function filtersFromParams(params: URLSearchParams): PrivateFilters {
     matiere: params.get("matiere") ?? "",
     item: params.get("item") ?? "",
     rang: pick("rang", ["A", "B"] as const),
+    population: pick("population", ["adulte", "pediatrie"] as const),
     type: pick("type", ["SQI", "DP", "KFP"] as const),
     statut: pick("statut", ["jamais", "erreurs", "reussies"] as const),
   };

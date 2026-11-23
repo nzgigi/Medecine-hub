@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { Play } from "lucide-react";
 import type { ExamData } from "@/types/exam";
 import PrivateFiltersForm from "@/components/PrivateFiltersForm";
+import { QuestionBadges } from "@/components/QuestionView";
 import {
   AdminSessionExpiredError,
   fetchPrivateHistory,
@@ -153,13 +154,16 @@ export default function PrivateMistakesTab() {
                 {group.items.map((entry) => {
                   const record = history?.[entry.key];
                   return (
-                    <li key={entry.key} className="px-5 py-3 text-sm">
-                      <p className="text-xs font-bold text-stone-500 dark:text-stone-400">
-                        {entry.folderTitle}
-                        {entry.item ? ` · ${entry.item}` : ""}
-                        {record ? ` · ratée ${record.wrongCount} fois` : ""}
-                      </p>
-                      <p className="mt-0.5">{entry.question.question.slice(0, 200)}</p>
+                    <li key={entry.key} className="flex items-start justify-between gap-4 px-5 py-3 text-sm">
+                      <div className="min-w-0">
+                        <p className="text-xs font-bold text-stone-500 dark:text-stone-400">
+                          {entry.folderTitle}
+                          {entry.item ? ` · ${entry.item}` : ""}
+                          {record ? ` · ratée ${record.wrongCount} fois` : ""}
+                        </p>
+                        <p className="mt-0.5">{entry.question.question.slice(0, 200)}</p>
+                      </div>
+                      <QuestionBadges question={entry.question} />
                     </li>
                   );
                 })}

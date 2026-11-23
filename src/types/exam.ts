@@ -11,6 +11,7 @@ export type FolderType = "DP" | "SQI" | "KFP";
 
 /** Rang de la question (A ou B), renseigné à la génération du fichier. */
 export type QuestionRang = "A" | "B";
+export type QuestionPopulation = "adulte" | "pediatrie";
 
 export type FolderStatus = "not_started" | "in_progress" | "submitted";
 
@@ -75,6 +76,8 @@ export interface Question {
   maxReponses?: number;
   /** Rang de la question (import JSON, facultatif), filtre d'entraînement. */
   rang?: QuestionRang;
+  /** Population de la question (import JSON, facultatif) ; absent = adulte. */
+  population?: QuestionPopulation;
   correctionExplanation?: string;
   /** Image jointe au commentaire de correction (ex: formule rendue graphiquement). */
   correctionImage?: string;

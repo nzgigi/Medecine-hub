@@ -32,7 +32,7 @@ function exam(): ExamData {
         description: "Homme de 70 ans",
         questions: [q(1, "DP q1", { rang: "A" }), q(2, "DP q2", { rang: "B" })],
       },
-      { id: "f2", type: "SQI", title: "SQI 1", order: 2, questions: [q(3, "S1"), q(4, "S2", { rang: "A" }), q(5, "S3")] },
+      { id: "f2", type: "SQI", title: "SQI 1", order: 2, questions: [q(3, "S1"), q(4, "S2", { rang: "A", population: "pediatrie" }), q(5, "S3")] },
       { id: "f3", type: "KFP", title: "KFP 1", order: 3, questions: [q(6, "K1")] },
     ],
   };
@@ -101,6 +101,16 @@ describe("filtres", () => {
     expect(applyFilters(pool, { ...EMPTY_FILTERS, rang: "B" }, {})).toHaveLength(1);
     expect(applyFilters(pool, { ...EMPTY_FILTERS, rang: "A", type: "SQI" }, {})).toHaveLength(1);
     expect(applyFilters(pool, { ...EMPTY_FILTERS, rang: "B", type: "SQI" }, {})).toHaveLength(0);
+  });
+
+  it("filtre par population (absente = adulte) et la combine", () => {
+    const adulte = applyFilters(pool, { ...EMPTY_FILTERS, population: "adulte" }, {});
+    const pediatrie = applyFilters(pool, { ...EMPTY_FILTERS, population: "pediatrie" }, {});
+    expect(pediatrie).toHaveLength(1);
+    expect(adulte.length + pediatrie.length).toBe(pool.length);
+    expect(applyFilters(pool, { ...EMPTY_FILTERS, population: "pediatrie", rang: "A", type: "SQI" }, {})).toHaveLength(1);
+    expect(applyFilters(pool, { ...EMPTY_FILTERS, population: "pediatrie", rang: "B" }, {})).toHaveLength(0);
+    expect(filtersFromParams(filtersToParams({ ...EMPTY_FILTERS, population: "pediatrie" })).population).toBe("pediatrie");
   });
 
   it("filtre par statut", () => {

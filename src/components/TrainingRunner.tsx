@@ -14,6 +14,7 @@ import { recordPrivateOutcomes } from "@/lib/exam/privateClient";
 import {
   hasAnswer,
   QuestionAnswerInput,
+  QuestionBadges,
   QuestionCorrection,
   QuestionStatement,
 } from "@/components/QuestionView";
@@ -247,13 +248,14 @@ export default function TrainingRunner({
             {FOLDER_LABEL[block.folder.type]}
           </span>
           <span>{entry.matiere}</span>
-          <span>·</span>
-          <span>{block.folder.title}</span>
           {isBlock && (
-            <span className="ml-auto">
-              Question {indexInBlock} / {block.questions.length} du dossier
+            <span className="text-stone-400 dark:text-stone-500">
+              · Question {indexInBlock} / {block.questions.length} du dossier
             </span>
           )}
+          <span className="ml-auto">
+            <QuestionBadges question={entry.question} />
+          </span>
         </div>
 
         <div className="p-5 sm:p-6">

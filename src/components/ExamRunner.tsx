@@ -31,6 +31,7 @@ import { getExamScore } from "@/lib/exam/scoring";
 import {
   hasAnswer,
   QuestionAnswerInput,
+  QuestionBadges,
   QuestionCorrection,
   QuestionStatement,
 } from "@/components/QuestionView";
@@ -1094,8 +1095,8 @@ export default function ExamRunner({
                 {currentFolder.type}
               </span>
               <span className="text-xs font-semibold text-stone-500 dark:text-stone-400">
-                {currentFolder.title} · Question {currentQuestionIndex + 1}/
-                {totalQuestionsInFolder}
+                {privateSlug ? `${originOf(currentQuestion).matiere} · ` : `${currentFolder.title} · `}
+                Question {currentQuestionIndex + 1}/{totalQuestionsInFolder}
               </span>
               <span className="rounded-md bg-stone-100 px-2 py-1 text-xs font-bold text-stone-600 dark:bg-[#1d1c18] dark:text-stone-300">
                 {currentQuestion.type}
@@ -1122,6 +1123,7 @@ export default function ExamRunner({
                   En attente
                 </span>
               )}
+              <QuestionBadges question={currentQuestion} />
               <ReportQuestionButton
                 matiere={originOf(currentQuestion).matiere}
                 annee={originOf(currentQuestion).annee}
