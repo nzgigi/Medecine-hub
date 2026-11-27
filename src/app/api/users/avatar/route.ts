@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { chmod, mkdir, unlink, writeFile } from "fs/promises";
 import { safeJoinInside } from "@/lib/server/security";
-import { readUsers, sanitizeSub, setUserAvatar } from "@/lib/server/userStore";
+import { readUsers, setUserAvatar } from "@/lib/server/userStore";
+import { getSessionSub } from "@/lib/server/universityAuth";
 import {
   ALLOWED_AVATAR_MIME_TYPES as ALLOWED_IMAGE_TYPES,
   MAX_AVATAR_SIZE_BYTES as MAX_IMAGE_SIZE_BYTES,
@@ -24,9 +25,13 @@ async function removeExistingAvatarFile(sub: string) {
 
 export async function POST(req: NextRequest) {
   try {
+    const sub = getSessionSub(req);
+    if (!sub) {
+      return NextResponse.json({ success: false, message: "Connexion requise" }, { status: 401 });
+    }
+
     const formData = await req.formData();
     const file = formData.get("file");
-    const sub = sanitizeSub(formData.get("sub"));
 
     if (!readUsers()[sub]) {
       return NextResponse.json(
@@ -92,8 +97,10 @@ export async function POST(req: NextRequest) {
 
 export async function DELETE(req: NextRequest) {
   try {
-    const { sub: rawSub } = (await req.json()) as { sub?: string };
-    const sub = sanitizeSub(rawSub);
+    const sub = getSessionSub(req);
+    if (!sub) {
+      return NextResponse.json({ success: false, message: "Connexion requise" }, { status: 401 });
+    }
 
     await removeExistingAvatarFile(sub);
     setUserAvatar(sub, undefined);

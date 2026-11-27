@@ -254,13 +254,10 @@ export function getUserAchievements(sub: string): EarnedAchievement[] {
 export interface PublicProfileStats {
   totalAttempts: number;
   distinctMatieres: number;
-  bestScorePercent: number;
-  avgScorePercent: number;
   perfectScores: number;
 }
 
 export interface PublicProfile {
-  sub: string;
   handle: string;
   name: string;
   picture?: string;
@@ -277,7 +274,6 @@ function toPublicProfile(user: StoredUser): PublicProfile {
   const stats = getStatsForAchievements(user.sub);
 
   return {
-    sub: user.sub,
     followers: stats.followersCount,
     following: stats.followingCount,
     handle: user.handle,
@@ -289,8 +285,6 @@ function toPublicProfile(user: StoredUser): PublicProfile {
     stats: {
       totalAttempts: stats.totalAttempts,
       distinctMatieres: stats.distinctMatieres,
-      bestScorePercent: Math.round(stats.bestScorePercent),
-      avgScorePercent: Math.round(stats.avgScorePercent),
       perfectScores: stats.perfectScores,
     },
     achievements: getUserAchievements(user.sub),
@@ -308,7 +302,6 @@ export function getPublicProfileBySub(sub: string): PublicProfile | null {
 }
 
 export interface MemberSummary {
-  sub: string;
   handle: string;
   name: string;
   picture?: string;
@@ -336,7 +329,6 @@ export function listMembers(): MemberSummary[] {
     const stats = getStatsForAchievements(row.sub);
 
     return {
-      sub: row.sub,
       handle: row.handle,
       name: row.name,
       picture: row.picture ?? undefined,

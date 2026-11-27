@@ -6,7 +6,6 @@ import { Search, ShieldCheck, Sparkles } from "lucide-react";
 import OnlineDot from "@/components/OnlineDot";
 
 interface MemberEntry {
-  sub: string;
   handle: string;
   name: string;
   picture?: string;
@@ -61,7 +60,7 @@ export default function MembersSearch({ members }: { members: MemberEntry[] }) {
 
             return (
               <Link
-                key={member.sub}
+                key={member.handle}
                 href={`/profil/${member.handle}`}
                 className="flex items-center gap-3 rounded-lg border border-stone-200 bg-white p-4 shadow-sm transition-colors hover:border-emerald-300 dark:border-stone-800 dark:bg-[#1d1c18] dark:hover:border-emerald-700"
               >

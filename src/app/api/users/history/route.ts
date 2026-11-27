@@ -1,13 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getUserBySub, sanitizeSub } from "@/lib/server/userStore";
+import { getUserBySub } from "@/lib/server/userStore";
+import { getSessionSub } from "@/lib/server/universityAuth";
 import { recordQcmAttempts, getPublicProfileBySub } from "@/lib/server/socialProfile";
 
 const MAX_ATTEMPTS_PER_REQUEST = 500;
 
 export async function POST(req: NextRequest) {
   try {
-    const body = (await req.json()) as { sub?: unknown; attempts?: unknown };
-    const sub = sanitizeSub(body.sub);
+    const body = (await req.json()) as { attempts?: unknown };
+    const sub = getSessionSub(req);
+    if (!sub) {
+      return NextResponse.json({ success: false, message: "Connexion requise" }, { status: 401 });
+    }
 
     if (!getUserBySub(sub)) {
       return NextResponse.json(

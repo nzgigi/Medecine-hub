@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import DiscordIcon from "./DiscordIcon";
+import NotificationBell, { useNotifications } from "./NotificationBell";
 import { DISCORD_INVITE_URL } from "@/lib/site";
 import {
   getLocalUserProfile,
@@ -37,6 +38,7 @@ export default function Navbar() {
   const [profile, setProfile] = useState<LocalUserProfile | null>(null);
   const [mistakesCount, setMistakesCount] = useState(0);
   const pathname = usePathname();
+  const { notifications, markAllRead } = useNotifications(Boolean(profile), pathname);
 
   const navigation = [
     { name: "Accueil", href: "/", icon: Home, badge: 0 },
@@ -81,7 +83,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-stone-200 bg-white dark:border-stone-800 dark:bg-[#151512]">
       <nav
-        className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
+        className="relative mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
         aria-label="Navigation principale"
       >
         <Link
@@ -150,6 +152,10 @@ export default function Navbar() {
             <DiscordIcon className="h-5 w-5" />
           </a>
 
+          {profile && (
+            <NotificationBell notifications={notifications} onOpen={markAllRead} className="ml-2" />
+          )}
+
           {profile ? (
             <Link
               href="/compte"
@@ -184,6 +190,8 @@ export default function Navbar() {
 
         <div className="flex items-center gap-1 xl:hidden">
           <ThemeToggle variant="icon" />
+
+          {profile && <NotificationBell notifications={notifications} onOpen={markAllRead} />}
 
           <button
             type="button"

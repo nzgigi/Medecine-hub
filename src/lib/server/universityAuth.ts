@@ -58,7 +58,7 @@ function hmac(value: string) {
   return crypto.createHmac("sha256", getSecret()).update(value).digest("base64url");
 }
 
-/** Identifiant stable (compatible avec sanitizeSub) pour un compte e-mail. */
+/** Identifiant stable pour un compte e-mail. */
 export function subForEmail(email: string): string {
   return (
     "etu_" +
@@ -127,6 +127,13 @@ export function verifySessionToken(
   } catch {
     return null;
   }
+}
+
+/** Identifiant du compte connecté, lu dans le cookie de session signé. */
+export function getSessionSub(request: {
+  cookies: { get(name: string): { value: string } | undefined };
+}): string | null {
+  return verifySessionToken(request.cookies.get(SESSION_COOKIE_NAME)?.value)?.sub ?? null;
 }
 
 export function sessionCookieOptions() {

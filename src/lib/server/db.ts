@@ -108,6 +108,32 @@ function migrateAddNameCustomizedColumn(db: DatabaseSync) {
   }
 }
 
+function migrateAddReportResolvedAtColumn(db: DatabaseSync) {
+  const columns = db.prepare(`PRAGMA table_info(question_reports)`).all() as { name: string }[];
+
+  if (!columns.some((column) => column.name === "resolved_at")) {
+    db.exec(`ALTER TABLE question_reports ADD COLUMN resolved_at TEXT;`);
+  }
+
+  // Des déclencheurs plutôt que du code : le panneau admin et le bot Discord
+  // modifient tous deux `status` directement.
+  db.exec(`
+    CREATE TRIGGER IF NOT EXISTS question_reports_resolved
+    AFTER UPDATE OF status ON question_reports
+    WHEN NEW.status = 'resolu' AND OLD.status <> 'resolu'
+    BEGIN
+      UPDATE question_reports SET resolved_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now') WHERE id = NEW.id;
+    END;
+
+    CREATE TRIGGER IF NOT EXISTS question_reports_reopened
+    AFTER UPDATE OF status ON question_reports
+    WHEN NEW.status <> 'resolu'
+    BEGIN
+      UPDATE question_reports SET resolved_at = NULL WHERE id = NEW.id;
+    END;
+  `);
+}
+
 export function getDb(): DatabaseSync {
   if (dbInstance) return dbInstance;
 
@@ -198,6 +224,13 @@ export function getDb(): DatabaseSync {
 
     CREATE INDEX IF NOT EXISTS idx_question_reports_status ON question_reports(status);
 
+    CREATE TABLE IF NOT EXISTS notification_reads (
+      user_sub TEXT NOT NULL REFERENCES users(sub) ON DELETE CASCADE,
+      notification_key TEXT NOT NULL,
+      read_at TEXT NOT NULL,
+      PRIMARY KEY (user_sub, notification_key)
+    );
+
     CREATE TABLE IF NOT EXISTS presence_hourly (
       hour TEXT PRIMARY KEY,
       peak INTEGER NOT NULL
@@ -205,6 +238,7 @@ export function getDb(): DatabaseSync {
   `);
 
   migrateAddNameCustomizedColumn(db);
+  migrateAddReportResolvedAtColumn(db);
 
   dbInstance = db;
   migrateLegacyUsersJson(db);

@@ -70,8 +70,6 @@ interface SocialProfileSummary {
   stats: {
     totalAttempts: number;
     distinctMatieres: number;
-    bestScorePercent: number;
-    avgScorePercent: number;
     perfectScores: number;
   };
   achievements: { key: string; title: string; description: string; icon: string }[];
@@ -172,7 +170,6 @@ export default function ComptePage() {
     setProfile(localProfile);
     const localHistory = getHistory();
     setHistory(localHistory);
-    const sub = localProfile.sub;
 
     async function loadIndex() {
       try {
@@ -189,7 +186,7 @@ export default function ComptePage() {
         const response = await fetch("/api/users/history", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ sub, attempts: localHistory }),
+          body: JSON.stringify({ attempts: localHistory }),
         });
 
         const result = (await response.json()) as {
@@ -307,7 +304,6 @@ export default function ComptePage() {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      formData.append("sub", profile.sub);
 
       const response = await fetch("/api/users/avatar", {
         method: "POST",
@@ -354,7 +350,7 @@ export default function ComptePage() {
       const response = await fetch("/api/users/rename", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ sub: profile.sub, name: nextName }),
+        body: JSON.stringify({ name: nextName }),
       });
 
       const result = (await response.json()) as {
@@ -380,11 +376,7 @@ export default function ComptePage() {
     if (!profile) return;
 
     try {
-      await fetch("/api/users/avatar", {
-        method: "DELETE",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ sub: profile.sub }),
-      });
+      await fetch("/api/users/avatar", { method: "DELETE" });
     } catch {
       // on retire quand même localement même si l'appel serveur échoue
     }

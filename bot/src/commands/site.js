@@ -53,8 +53,6 @@ export const profil = {
         { name: "Séances", value: fmt(profile.attempts), inline: true },
         { name: "Matières", value: fmt(profile.matieres), inline: true },
         { name: "Succès", value: fmt(profile.achievements), inline: true },
-        { name: "Score moyen", value: profile.attempts ? `${profile.avg} %` : "—", inline: true },
-        { name: "Meilleur score", value: profile.attempts ? `${profile.best} %` : "—", inline: true },
         { name: "Abonné·es", value: fmt(profile.followers), inline: true },
       );
     return interaction.reply({ embeds: [embed] });

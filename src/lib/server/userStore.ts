@@ -62,6 +62,11 @@ export function readUsers(): Record<string, StoredUser> {
   return store;
 }
 
+export function countUsers(): number {
+  const row = getDb().prepare(`SELECT COUNT(*) AS count FROM users`).get() as { count: number };
+  return Number(row.count);
+}
+
 export function getUserBySub(sub: string): StoredUser | null {
   const db = getDb();
   const row = db.prepare(`SELECT * FROM users WHERE sub = ?`).get(sub) as
@@ -173,16 +178,4 @@ export function setUserAvatar(sub: string, avatarPath: string | undefined) {
   db.prepare(`UPDATE users SET avatar_path = ? WHERE sub = ?`).run(avatarPath ?? null, sub);
 
   return { ...existing, avatarPath };
-}
-
-export function sanitizeSub(value: unknown): string {
-  if (typeof value !== "string") throw new Error("Identifiant invalide");
-
-  const sub = value.trim();
-
-  if (!/^[a-zA-Z0-9_-]{1,64}$/.test(sub)) {
-    throw new Error("Identifiant invalide");
-  }
-
-  return sub;
 }

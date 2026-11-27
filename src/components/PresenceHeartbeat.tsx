@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { getLocalUserProfile, USER_PROFILE_UPDATED_EVENT } from "@/lib/userProfile";
+import { USER_PROFILE_UPDATED_EVENT } from "@/lib/userProfile";
 
 const HEARTBEAT_INTERVAL_MS = 45_000;
 const VISITOR_ID_STORAGE_KEY = "medecine_hub_visitor_id";
@@ -47,7 +47,6 @@ export default function PresenceHeartbeat() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           visitorId,
-          sub: getLocalUserProfile()?.sub,
           path: pathname,
         }),
         keepalive: true,

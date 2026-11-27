@@ -12,6 +12,7 @@ import {
   BookOpen,
   FileText,
   GraduationCap,
+  Library,
   Shuffle,
   Stethoscope,
   Users,
@@ -129,6 +130,18 @@ function groupMatieresBySemester(matieres: MatiereData[]): SemesterGroup[] {
 
 export default function HomePage() {
   const [matieres, setMatieres] = useState<MatiereData[]>([]);
+  const [userCount, setUserCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch("/api/stats/community")
+      .then((response) => response.json())
+      .then((result: { success: boolean; users?: number }) => {
+        if (result.success && typeof result.users === "number") setUserCount(result.users);
+      })
+      .catch(() => {
+        // Le compteur reste sur "–", le reste de la page n'en dépend pas.
+      });
+  }, []);
   const [loading, setLoading] = useState(true);
   const [activeSemester, setActiveSemester] = useState<string | null>(null);
   const [openMatiere, setOpenMatiere] = useState<MatiereData | null>(null);
@@ -245,11 +258,12 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+          <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { label: "questions", value: totalQuestions, icon: BookOpen },
               { label: "epreuves", value: totalExams, icon: GraduationCap },
-              { label: "matieres", value: matieres.length, icon: Users },
+              { label: "matieres", value: matieres.length, icon: Library },
+              { label: "utilisateurs", value: userCount ?? "–", icon: Users },
             ].map((item) => {
               const Icon = item.icon;
 

@@ -6,11 +6,10 @@ import { getLocalUserProfile } from "@/lib/userProfile";
 
 interface FollowButtonProps {
   targetHandle: string;
-  targetSub: string;
 }
 
-export default function FollowButton({ targetHandle, targetSub }: FollowButtonProps) {
-  const [ownSub, setOwnSub] = useState<string | null>(null);
+export default function FollowButton({ targetHandle }: FollowButtonProps) {
+  const [canFollow, setCanFollow] = useState(false);
   const [following, setFollowing] = useState(false);
   const [loading, setLoading] = useState(true);
   const [pending, setPending] = useState(false);
@@ -23,18 +22,18 @@ export default function FollowButton({ targetHandle, targetSub }: FollowButtonPr
       return;
     }
 
-    setOwnSub(profile.sub);
-
-    fetch(`/api/social/follow-status?sub=${encodeURIComponent(profile.sub)}&targetHandle=${encodeURIComponent(targetHandle)}`)
+    fetch(`/api/social/follow-status?targetHandle=${encodeURIComponent(targetHandle)}`)
       .then((response) => response.json())
-      .then((result: { success: boolean; following?: boolean }) => {
-        if (result.success) setFollowing(Boolean(result.following));
+      .then((result: { success: boolean; following?: boolean; isSelf?: boolean }) => {
+        if (!result.success) return;
+        setCanFollow(!result.isSelf);
+        setFollowing(Boolean(result.following));
       })
       .finally(() => setLoading(false));
   }, [targetHandle]);
 
   if (loading) return null;
-  if (!ownSub || ownSub === targetSub) return null;
+  if (!canFollow) return null;
 
   const toggleFollow = async () => {
     setPending(true);
@@ -44,7 +43,6 @@ export default function FollowButton({ targetHandle, targetSub }: FollowButtonPr
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          sub: ownSub,
           targetHandle,
           action: following ? "unfollow" : "follow",
         }),

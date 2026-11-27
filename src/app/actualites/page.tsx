@@ -86,7 +86,7 @@ export default function ActualitesPage() {
       return;
     }
 
-    fetch(`/api/social/feed?sub=${encodeURIComponent(profile.sub)}`)
+    fetch("/api/social/feed")
       .then((response) => response.json())
       .then((result: { success: boolean; events?: FeedEvent[] }) => {
         setEvents(result.success ? result.events ?? [] : []);

@@ -19,8 +19,18 @@ export default function SiteChrome({
   const isMedTokPage = pathname?.startsWith("/medtok") ?? false;
   const currentYear = new Date().getFullYear();
 
-  if (isNzPage || isExamPage || isMedTokPage) {
+  if (isNzPage || isExamPage) {
     return <>{children}</>;
+  }
+
+  // MedTok occupe tout l'écran sous la barre de navigation, sans pied de page.
+  if (isMedTokPage) {
+    return (
+      <>
+        <Navbar />
+        {children}
+      </>
+    );
   }
 
   return (

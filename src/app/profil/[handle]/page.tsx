@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, BookOpen, Percent, ShieldCheck, Sparkles, Target, Trophy, Users } from "lucide-react";
+import { ArrowLeft, BookOpen, ShieldCheck, Sparkles, Target, Trophy, Users } from "lucide-react";
 import { getPublicProfileByHandle } from "@/lib/server/socialProfile";
 import { ACHIEVEMENTS, ACHIEVEMENT_ICONS } from "@/lib/achievements";
 import FollowButton from "@/components/FollowButton";
@@ -90,14 +90,13 @@ export default async function ProfilPage({ params }: ProfilPageProps) {
               </div>
             </div>
 
-            <FollowButton targetHandle={profile.handle} targetSub={profile.sub} />
+            <FollowButton targetHandle={profile.handle} />
           </div>
         </section>
 
-        <section className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <section className="mt-6 grid grid-cols-3 gap-3">
           <StatCard icon={BookOpen} label="Épreuves" value={profile.stats.totalAttempts} />
           <StatCard icon={Target} label="Matières" value={profile.stats.distinctMatieres} />
-          <StatCard icon={Percent} label="Moyenne" value={`${profile.stats.avgScorePercent}%`} />
           <StatCard icon={Trophy} label="Sans-fautes" value={profile.stats.perfectScores} />
         </section>
 

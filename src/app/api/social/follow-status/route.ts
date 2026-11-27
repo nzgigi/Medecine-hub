@@ -1,11 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getUserByHandle, sanitizeSub } from "@/lib/server/userStore";
+import { getUserByHandle } from "@/lib/server/userStore";
+import { getSessionSub } from "@/lib/server/universityAuth";
 import { isFollowing } from "@/lib/server/social";
 
 export async function GET(req: NextRequest) {
   try {
+    const sub = getSessionSub(req);
+    if (!sub) {
+      return NextResponse.json({ success: false, message: "Connexion requise" }, { status: 401 });
+    }
+
     const { searchParams } = new URL(req.url);
-    const sub = sanitizeSub(searchParams.get("sub"));
     const targetHandle = searchParams.get("targetHandle");
 
     if (!targetHandle) {
@@ -23,6 +28,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({
       success: true,
       following: isFollowing(sub, target.sub),
+      isSelf: sub === target.sub,
     });
   } catch (error) {
     return NextResponse.json(

@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { CheckCircle2, Flag, Loader2, X } from "lucide-react";
-import { getLocalUserProfile } from "@/lib/userProfile";
 
 interface ReportQuestionButtonProps {
   matiere: string;
@@ -41,8 +40,6 @@ export default function ReportQuestionButton({
     setError(null);
 
     try {
-      const profile = getLocalUserProfile();
-
       const response = await fetch("/api/qcm/report-error", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -52,7 +49,6 @@ export default function ReportQuestionButton({
           questionId,
           questionText,
           message: message.trim(),
-          sub: profile?.sub,
         }),
       });
 

@@ -2,18 +2,18 @@ import { NextRequest, NextResponse } from "next/server";
 import {
   readUsers,
   sanitizeDisplayName,
-  sanitizeSub,
   setUserDisplayName,
 } from "@/lib/server/userStore";
+import { getSessionSub } from "@/lib/server/universityAuth";
 
 export async function POST(req: NextRequest) {
   try {
-    const { sub: rawSub, name: rawName } = (await req.json()) as {
-      sub?: string;
-      name?: string;
-    };
+    const sub = getSessionSub(req);
+    if (!sub) {
+      return NextResponse.json({ success: false, message: "Connexion requise" }, { status: 401 });
+    }
 
-    const sub = sanitizeSub(rawSub);
+    const { name: rawName } = (await req.json()) as { name?: string };
     const name = sanitizeDisplayName(rawName);
 
     if (!readUsers()[sub]) {

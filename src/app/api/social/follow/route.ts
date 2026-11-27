@@ -1,17 +1,20 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getUserByHandle, sanitizeSub } from "@/lib/server/userStore";
+import { getUserByHandle } from "@/lib/server/userStore";
+import { getSessionSub } from "@/lib/server/universityAuth";
 import { followUser, unfollowUser } from "@/lib/server/social";
 import { recomputeAchievements } from "@/lib/server/socialProfile";
 
 export async function POST(req: NextRequest) {
   try {
+    const sub = getSessionSub(req);
+    if (!sub) {
+      return NextResponse.json({ success: false, message: "Connexion requise" }, { status: 401 });
+    }
+
     const body = (await req.json()) as {
-      sub?: unknown;
       targetHandle?: unknown;
       action?: unknown;
     };
-
-    const sub = sanitizeSub(body.sub);
 
     if (typeof body.targetHandle !== "string" || !body.targetHandle.trim()) {
       return NextResponse.json(

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createQuestionReport } from "@/lib/server/questionReports";
-import { getUserBySub, sanitizeSub } from "@/lib/server/userStore";
+import { getUserBySub } from "@/lib/server/userStore";
+import { getSessionSub } from "@/lib/server/universityAuth";
 
 const MAX_MESSAGE_LENGTH = 1000;
 const MAX_QUESTION_TEXT_LENGTH = 2000;
@@ -11,7 +12,6 @@ interface ReportBody {
   questionId?: unknown;
   questionText?: unknown;
   message?: unknown;
-  sub?: unknown;
 }
 
 export async function POST(request: NextRequest) {
@@ -49,17 +49,9 @@ export async function POST(request: NextRequest) {
         ? body.questionText.trim().slice(0, MAX_QUESTION_TEXT_LENGTH)
         : undefined;
 
-    let userSub: string | undefined;
-    let userName: string | undefined;
-
-    if (typeof body.sub === "string" && body.sub.trim()) {
-      try {
-        userSub = sanitizeSub(body.sub);
-        userName = getUserBySub(userSub)?.name;
-      } catch {
-        userSub = undefined;
-      }
-    }
+    const user = getUserBySub(getSessionSub(request) ?? "");
+    const userSub = user?.sub;
+    const userName = user?.name;
 
     createQuestionReport({
       matiere,

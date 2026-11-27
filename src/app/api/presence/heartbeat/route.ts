@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { recordHeartbeat, recordLeave } from "@/lib/server/presence";
-import { sanitizeSub } from "@/lib/server/userStore";
+import { getSessionSub } from "@/lib/server/universityAuth";
 
 const VISITOR_ID_PATTERN = /^[a-zA-Z0-9-]{8,64}$/;
 const MAX_PATH_LENGTH = 200;
 
 interface HeartbeatBody {
   visitorId?: unknown;
-  sub?: unknown;
   path?: unknown;
   leaving?: unknown;
 }
@@ -40,15 +39,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: true, ignored: true });
     }
 
-    let sub: string | undefined;
-
-    if (body.sub !== undefined && body.sub !== null) {
-      try {
-        sub = sanitizeSub(body.sub);
-      } catch {
-        sub = undefined;
-      }
-    }
+    const sub = getSessionSub(request) ?? undefined;
 
     recordHeartbeat({ visitorId: body.visitorId, sub, path });
 

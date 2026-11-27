@@ -4,7 +4,6 @@ import { useCallback, useEffect, useRef, useState, type PointerEvent } from "rea
 import Link from "next/link";
 import {
   ArrowDown,
-  ArrowLeft,
   Check,
   ChevronDown,
   Flame,
@@ -12,7 +11,6 @@ import {
 } from "lucide-react";
 import type { MedTokCard as MedTokCardData } from "@/app/api/medtok/cards/route";
 import MedTokCard from "@/components/MedTokCard";
-import ThemeToggle from "@/components/ThemeToggle";
 import { getLocalUserProfile } from "@/lib/userProfile";
 
 const SYNC_EVERY = 10;
@@ -76,7 +74,7 @@ export default function MedTokPage() {
   const dragStart = useRef<{ x: number; y: number } | null>(null);
   const feedbackTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const filterRef = useRef<HTMLDivElement | null>(null);
-  const syncSub = useRef<string | null>(null);
+  const isSignedIn = useRef(false);
   const pendingSync = useRef({ answered: 0, correct: 0, bestStreak: 0 });
 
   useEffect(() => {
@@ -89,17 +87,14 @@ export default function MedTokPage() {
       setStats((prev) => ({ ...prev, bestStreak: saved }));
     }
 
-    const profile = getLocalUserProfile();
-    if (profile) syncSub.current = profile.sub;
+    isSignedIn.current = Boolean(getLocalUserProfile());
   }, []);
 
   const flushSync = useCallback((useBeacon = false) => {
-    const sub = syncSub.current;
     const pending = pendingSync.current;
-    if (!sub || pending.answered === 0) return;
+    if (!isSignedIn.current || pending.answered === 0) return;
 
     const payload = JSON.stringify({
-      sub,
       answered: pending.answered,
       correct: pending.correct,
       bestStreak: pending.bestStreak,
@@ -411,20 +406,13 @@ export default function MedTokPage() {
 
   const caughtUp = index >= cards.length;
   const deckExhausted = !loadingCards && !loadError && caughtUp && noMoreAvailable;
-  const catchingUp = !loadingCards && !loadError && caughtUp && !noMoreAvailable;
+  const catchingUp =
+    !loadingCards && !loadError && cards.length > 0 && caughtUp && !noMoreAvailable;
   const hasActiveDeck = !loadingCards && !loadError && cards.length > 0 && !caughtUp;
 
   return (
-    <div className="flex h-[100dvh] flex-col bg-stone-100 text-stone-950 dark:bg-[#101009] dark:text-stone-100">
+    <div className="flex h-[calc(100dvh-73px)] flex-col bg-stone-100 text-stone-950 dark:bg-[#101009] dark:text-stone-100">
       <header className="relative z-20 flex items-center justify-between gap-2 border-b border-stone-200 bg-white/95 px-3 py-3 backdrop-blur dark:border-stone-800 dark:bg-[#151512]/95">
-        <Link
-          href="/"
-          aria-label="Retour à l'accueil"
-          className="flex shrink-0 items-center gap-1.5 rounded-lg p-2 text-stone-600 transition-colors hover:bg-stone-100 dark:text-stone-300 dark:hover:bg-[#1d1c18]"
-        >
-          <ArrowLeft className="h-5 w-5" />
-        </Link>
-
         <div ref={filterRef} className="relative min-w-0 flex-1">
           <button
             onClick={() => setFilterOpen((current) => !current)}
@@ -481,11 +469,10 @@ export default function MedTokPage() {
             <Flame className="h-3.5 w-3.5" />
             {stats.streak}
           </span>
-          <ThemeToggle variant="icon" />
         </div>
       </header>
 
-      <main className="relative flex flex-1 items-center justify-center overflow-hidden px-4 py-4">
+      <main className="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden px-4 py-4">
         {loadingCards && (
           <div className="text-center">
             <div className="mx-auto mb-4 h-10 w-10 animate-spin rounded-full border-2 border-stone-300 border-b-emerald-800 dark:border-stone-800 dark:border-b-emerald-300" />
@@ -550,7 +537,7 @@ export default function MedTokPage() {
 
         {hasActiveDeck && (
           <div
-            className="relative h-[68vh] max-h-[600px] w-full max-w-sm"
+            className="relative h-full max-h-[600px] w-full max-w-sm"
             style={{ touchAction: "none" }}
           >
             {cards[index + 2] && (

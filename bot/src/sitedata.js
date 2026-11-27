@@ -60,8 +60,6 @@ export function findProfile(query) {
   if (!user) return null;
   const stats = db.prepare(`
     SELECT COUNT(*) AS attempts,
-           COALESCE(ROUND(AVG(100.0 * score / NULLIF(total, 0))), 0) AS avg,
-           COALESCE(ROUND(MAX(100.0 * score / NULLIF(total, 0))), 0) AS best,
            COUNT(DISTINCT matiere) AS matieres
     FROM qcm_attempts WHERE user_sub = ?
   `).get(user.sub);
@@ -70,8 +68,6 @@ export function findProfile(query) {
     name: user.name,
     memberSince: user.first_seen_at,
     attempts: Number(stats.attempts),
-    avg: Number(stats.avg),
-    best: Number(stats.best),
     matieres: Number(stats.matieres),
     achievements: count(db, "SELECT COUNT(*) c FROM user_achievements WHERE user_sub = ?", user.sub),
     followers: count(db, "SELECT COUNT(*) c FROM follows WHERE followee_sub = ?", user.sub),
