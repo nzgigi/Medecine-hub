@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { AlertTriangle, Check, Flag, RotateCcw, Trash2 } from "lucide-react";
+import { AlertTriangle, Check, Flag, Pencil, RotateCcw, Trash2 } from "lucide-react";
 import { useDialogs } from "@/components/DialogProvider";
 
 interface QuestionReport {
@@ -16,6 +17,7 @@ interface QuestionReport {
   userName: string | null;
   status: "nouveau" | "resolu";
   createdAt: string;
+  target: { slug: string; annee: number } | null;
 }
 
 interface AdminReportsPanelProps {
@@ -195,6 +197,23 @@ export default function AdminReportsPanel({
                   </div>
 
                   <div className="flex shrink-0 items-center gap-1.5">
+                    {report.target ? (
+                      <Link
+                        href={`/admin/edit/${report.target.slug}/${report.target.annee}?signalement=${report.id}`}
+                        className="inline-flex items-center gap-1.5 rounded-lg bg-blue-600 px-3 py-1.5 text-xs font-bold text-white transition hover:bg-blue-700"
+                        title="Ouvrir l'éditeur sur cette question"
+                      >
+                        <Pencil className="h-3.5 w-3.5" />
+                        Corriger
+                      </Link>
+                    ) : (
+                      <span
+                        className="text-xs font-semibold text-stone-400 dark:text-stone-500"
+                        title="Question supprimée, ou plusieurs épreuves possibles : cherche-la dans l'onglet Épreuves."
+                      >
+                        Question introuvable
+                      </span>
+                    )}
                     {report.status === "nouveau" ? (
                       <button
                         onClick={() => runAction(report.id, "resolve")}
@@ -234,8 +253,8 @@ export default function AdminReportsPanel({
         <div className="flex items-start gap-3">
           <AlertTriangle className="mt-0.5 h-5 w-5 flex-shrink-0" />
           <p>
-            Un signalement ne modifie pas automatiquement le QCM : corrige la question
-            depuis l&apos;onglet Épreuves, puis marque le signalement comme résolu ici.
+            Un signalement ne modifie pas automatiquement le QCM : « Corriger » ouvre
+            l&apos;éditeur sur la question, où tu peux enregistrer et résoudre en une fois.
           </p>
         </div>
       </div>

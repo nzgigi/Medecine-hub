@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import {
   AlertCircle,
@@ -33,6 +33,7 @@ import { normalizeExamData } from "@/lib/exam/normalizeExam";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminSessionBadge from "@/components/AdminSessionBadge";
 import ImageZoneCanvas, { getZoneColor } from "@/components/ImageZoneCanvas";
+import EditorReportCard, { useEditorReport } from "@/components/EditorReportCard";
 
 const QUESTION_TYPES: { value: QuestionType; label: string }[] = [
   { value: "QRU", label: "QRU (Réponse Unique)" },
@@ -134,6 +135,44 @@ export default function EditQCMPage() {
   const [draggingQuestionId, setDraggingQuestionId] = useState<number | null>(
     null
   );
+
+  // Signalement à traiter quand l'éditeur est ouvert via le bouton « Corriger ».
+  const { report, resolving, resolveReport } = useEditorReport(getAdminHeaders);
+  const targetedReportId = useRef<number | null>(null);
+  const reportFolder = report
+    ? examData?.folders.find((folder) =>
+        folder.questions.some((question) => question.id === report.questionId)
+      )
+    : undefined;
+  const reportQuestionNumber =
+    report && reportFolder
+      ? sortQuestions(reportFolder.questions).findIndex(
+          (question) => question.id === report.questionId
+        ) + 1
+      : null;
+  const reportFolderId = reportFolder?.id;
+
+  const showReportedQuestion = () => {
+    if (!report || !reportFolderId) return;
+
+    setActiveFolderId(reportFolderId);
+    // Laisse le temps au dossier de s'afficher avant de défiler.
+    window.setTimeout(() => {
+      document
+        .getElementById(`question-${report.questionId}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
+  };
+
+  // Une seule fois, quand l'épreuve et le signalement sont tous deux chargés.
+  useEffect(() => {
+    if (loading || !report || !reportFolderId) return;
+    if (targetedReportId.current === report.id) return;
+
+    targetedReportId.current = report.id;
+    showReportedQuestion();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, report, reportFolderId]);
 
   useEffect(() => {
     const token = localStorage.getItem("admin_token");
@@ -370,9 +409,9 @@ export default function EditQCMPage() {
     return true;
   };
 
-  const handleSave = async () => {
-    if (!examData) return;
-    if (!(await validateExam())) return;
+  const handleSave = async (): Promise<boolean> => {
+    if (!examData) return false;
+    if (!(await validateExam())) return false;
 
     setSaving(true);
 
@@ -415,6 +454,7 @@ export default function EditQCMPage() {
         setHasUnsavedChanges(false);
         localStorage.removeItem(`draft_${slug}_${annee}`);
         setTimeout(() => setSaveSuccess(false), 3000);
+        return true;
       } else {
         await showAlert("❌ Erreur : " + (result.message || "Erreur inconnue"));
       }
@@ -423,6 +463,19 @@ export default function EditQCMPage() {
       await showAlert("❌ Erreur lors de la sauvegarde");
     } finally {
       setSaving(false);
+    }
+
+    return false;
+  };
+
+  const handleSaveAndResolve = async () => {
+    // Le signalement n'est clos que si la correction est bien enregistrée.
+    if (!(await handleSave())) return;
+
+    if (!(await resolveReport())) {
+      await showAlert(
+        "La correction est enregistrée, mais le signalement n'a pas pu être marqué résolu. Réessaie."
+      );
     }
   };
 
@@ -1448,7 +1501,11 @@ export default function EditQCMPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-[#151512] py-8 text-gray-900 dark:text-stone-100">
+    <div
+      className={`min-h-screen bg-gray-50 dark:bg-[#151512] pt-8 text-gray-900 dark:text-stone-100 ${
+        report ? "pb-96 lg:pb-8" : "pb-8"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4">
         <div className="bg-white dark:bg-[#1d1c18] p-6 rounded-xl shadow mb-6 sticky top-4 z-20 border border-gray-100 dark:border-stone-800">
           <div className="flex justify-between items-center gap-4 flex-wrap">
@@ -1465,7 +1522,7 @@ export default function EditQCMPage() {
                     return;
                   }
 
-                  router.push("/admin");
+                  router.push(report ? "/admin?tab=signalements" : "/admin");
                 }}
                 className="flex gap-2 text-blue-600 dark:text-emerald-400 font-semibold hover:text-blue-700 dark:hover:text-emerald-300"
               >
@@ -1510,7 +1567,7 @@ export default function EditQCMPage() {
               </button>
 
               <button
-                onClick={handleSave}
+                onClick={() => handleSave()}
                 disabled={saving}
                 className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-all flex items-center gap-2 disabled:opacity-50"
               >
@@ -1522,6 +1579,28 @@ export default function EditQCMPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6 min-w-0">
+          {report && (
+            <EditorReportCard
+              report={report}
+              questionNumber={reportQuestionNumber}
+              busy={saving || resolving}
+              onShowQuestion={showReportedQuestion}
+              onSaveAndResolve={handleSaveAndResolve}
+              onBack={async () => {
+                if (
+                  hasUnsavedChanges &&
+                  !(await showConfirm(
+                    "Vous avez des modifications non sauvegardées. Quitter quand même ?",
+                    { danger: true, confirmLabel: "Quitter" }
+                  ))
+                ) {
+                  return;
+                }
+
+                router.push("/admin?tab=signalements");
+              }}
+            />
+          )}
           <aside className="min-w-0 bg-white dark:bg-[#1d1c18] rounded-2xl shadow-lg border border-gray-100 dark:border-stone-800 p-5 h-fit lg:sticky lg:top-28">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-extrabold text-xl">Dossiers</h2>
@@ -1706,7 +1785,12 @@ export default function EditQCMPage() {
                   {sortQuestions(activeFolder.questions).map((question, index) => (
                     <div
                       key={question.id}
-                      className="bg-white dark:bg-[#1d1c18] p-6 rounded-2xl shadow-md border-2 border-gray-100 dark:border-stone-800"
+                      id={`question-${question.id}`}
+                      className={`scroll-mt-32 bg-white dark:bg-[#1d1c18] p-6 rounded-2xl shadow-md border-2 ${
+                        question.id === report?.questionId
+                          ? "border-amber-400 ring-4 ring-amber-200 dark:border-amber-500 dark:ring-amber-900/50"
+                          : "border-gray-100 dark:border-stone-800"
+                      }`}
                     >
                       <div className="flex flex-wrap justify-between items-start gap-4 mb-5">
                         <div className="flex items-center gap-3 flex-wrap">

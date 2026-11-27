@@ -6,12 +6,13 @@ import {
   listQuestionReports,
   setQuestionReportStatus,
 } from "@/lib/server/questionReports";
+import { addReportTargets } from "@/lib/server/reportTargets";
 
 export async function GET(request: NextRequest) {
   const unauthorized = requireAdminRequest(request);
   if (unauthorized) return unauthorized;
 
-  return NextResponse.json({ success: true, reports: listQuestionReports() });
+  return NextResponse.json({ success: true, reports: addReportTargets(listQuestionReports()) });
 }
 
 interface ActionBody {

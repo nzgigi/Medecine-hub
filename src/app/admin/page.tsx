@@ -306,6 +306,13 @@ export default function AdminDashboard() {
 
   const [activeTab, setActiveTab] = useState<AdminTab>("overview");
 
+  // Retour depuis l'éditeur ouvert sur un signalement : /admin?tab=signalements
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get("tab") === "signalements") {
+      setActiveTab("signalements");
+    }
+  }, []);
+
   const [favoriteColors, setFavoriteColors] = useState<string[]>([]);
 
   useEffect(() => {
