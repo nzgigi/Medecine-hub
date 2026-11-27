@@ -15,6 +15,7 @@ import type {
   QuestionPopulation,
   QuestionRang,
 } from "@/types/exam";
+import { compareNames } from "./privateNaming";
 
 /** Ancienne clé de stockage navigateur (v1) : lue une fois pour migrer vers le serveur, puis supprimée. */
 export const LEGACY_PRIVATE_HISTORY_STORAGE_KEY = "qcm_private_history";
@@ -257,7 +258,7 @@ export function filterOptions(pool: PoolQuestion[]): FilterOptions {
   }
 
   return {
-    matieres: [...matieres].map(([slug, label]) => ({ slug, label })).sort((a, b) => a.label.localeCompare(b.label, "fr")),
+    matieres: [...matieres].map(([slug, label]) => ({ slug, label })).sort((a, b) => compareNames(a.label, b.label)),
     items: [...items].sort((a, b) => a.localeCompare(b, "fr", { numeric: true })),
   };
 }
@@ -322,7 +323,7 @@ export function buildTrainingBlocks(
   random: () => number = Math.random
 ): TrainingBlock[] {
   const inFileOrder = [...questions].sort(
-    (a, b) => a.slug.localeCompare(b.slug) || a.annee - b.annee || a.position - b.position
+    (a, b) => compareNames(a.slug, b.slug) || a.annee - b.annee || a.position - b.position
   );
 
   const blocks: TrainingBlock[] = [];

@@ -2,7 +2,9 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import { getAdminActor, requireAdminRequest } from "@/lib/server/security";
 import { logAdminAction } from "@/lib/server/adminLog";
-import { listPrivateQcm, privateQcmPath } from "@/lib/server/privateQcm";
+import { listPrivateQcm, privateQcmPath, renamePrivateSubject } from "@/lib/server/privateQcm";
+import { renameInPrivateHistory } from "@/lib/server/privateHistory";
+import { cleanPrivateName } from "@/lib/exam/privateNaming";
 import { validateAnnales } from "@/lib/annalesImport";
 
 export const dynamic = "force-dynamic";
@@ -66,6 +68,25 @@ export async function POST(request: Request) {
       logAdminAction(getAdminActor(request), "Import QCM prive (JSON)", `${imported} QCM`);
     }
     return NextResponse.json({ success: true, imported, skipped });
+  } catch (error) {
+    return fail(error instanceof Error ? error.message : "Erreur serveur", 500);
+  }
+}
+
+export async function PATCH(request: Request) {
+  const unauthorized = requireAdminRequest(request);
+  if (unauthorized) return unauthorized;
+
+  try {
+    const body = (await request.json()) as { slug?: unknown; matiere?: unknown };
+    const matiere = cleanPrivateName(body.matiere);
+    if (typeof body.slug !== "string" || !body.slug) return fail("slug requis");
+    if (!matiere) return fail("Le nom doit contenir entre 1 et 200 caracteres.");
+
+    if (renamePrivateSubject(body.slug, matiere) === 0) return fail("QCM introuvable", 404);
+    renameInPrivateHistory(body.slug, matiere);
+    logAdminAction(getAdminActor(request), "Renommage QCM prive", `${body.slug} : ${matiere}`);
+    return NextResponse.json({ success: true });
   } catch (error) {
     return fail(error instanceof Error ? error.message : "Erreur serveur", 500);
   }

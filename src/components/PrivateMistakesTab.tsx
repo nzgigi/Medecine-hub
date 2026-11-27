@@ -12,6 +12,7 @@ import {
   fetchPrivateHistory,
   loadPrivateExams,
 } from "@/lib/exam/privateClient";
+import { compareNames } from "@/lib/exam/privateNaming";
 import {
   applyFilters,
   buildPool,
@@ -88,7 +89,7 @@ export default function PrivateMistakesTab() {
       group.items.push(entry);
       map.set(id, group);
     }
-    return [...map.values()];
+    return [...map.values()].sort((a, b) => compareNames(a.label, b.label));
   }, [errors]);
 
   if (failed) {

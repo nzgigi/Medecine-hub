@@ -43,6 +43,16 @@ export function importLegacyHistory(incoming: PrivateHistory): PrivateHistory {
   return next;
 }
 
+/** Garde le nom à jour dans le suivi des erreurs après un renommage. */
+export function renameInPrivateHistory(slug: string, matiere: string) {
+  const history = readPrivateHistory();
+  const entries = Object.values(history).filter((entry) => entry.slug === slug);
+  if (entries.length === 0) return;
+
+  for (const entry of entries) history[entry.key] = { ...entry, matiere };
+  writePrivateHistory(history);
+}
+
 export function clearPrivateHistory() {
   writePrivateHistory({});
 }

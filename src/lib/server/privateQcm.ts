@@ -1,5 +1,6 @@
 import fs from "fs";
 import { safeJoinInside, sanitizeSlug, sanitizeYear } from "@/lib/server/security";
+import { compareNames, renameExam } from "@/lib/exam/privateNaming";
 
 // Hors de public/ : jamais servi par le serveur statique, uniquement via les routes admin.
 export function privateQcmDir() {
@@ -46,5 +47,25 @@ export function listPrivateQcm(): PrivateQcmSummary[] {
     }
   }
 
-  return summaries.sort((a, b) => a.matiere.localeCompare(b.matiere) || b.annee - a.annee);
+  return summaries.sort((a, b) => compareNames(a.matiere, b.matiere) || b.annee - a.annee);
+}
+
+/** Renomme toutes les années d'une matière privée. Renvoie le nombre d'épreuves modifiées. */
+export function renamePrivateSubject(slug: string, matiere: string): number {
+  let renamed = 0;
+
+  for (const entry of listPrivateQcm().filter((item) => item.slug === slug)) {
+    const target = privateQcmPath(entry.slug, entry.annee);
+    const exam = JSON.parse(fs.readFileSync(target, "utf-8")) as {
+      matiere: string;
+      annee: number;
+      title?: string;
+    };
+    const temp = `${target}.tmp`;
+    fs.writeFileSync(temp, JSON.stringify(renameExam(exam, matiere), null, 2), "utf-8");
+    fs.renameSync(temp, target);
+    renamed += 1;
+  }
+
+  return renamed;
 }

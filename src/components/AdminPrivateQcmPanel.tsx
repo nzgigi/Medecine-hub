@@ -3,9 +3,10 @@
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Dumbbell, Lock, Play, Target, Trash2 } from "lucide-react";
+import { Dumbbell, Lock, Pencil, Play, Search, Target, Trash2 } from "lucide-react";
 import { useDialogs } from "@/components/DialogProvider";
 import AdminAnnalesImport from "@/components/AdminAnnalesImport";
+import { matchesSearch, PRIVATE_NAME_MAX_LENGTH } from "@/lib/exam/privateNaming";
 
 interface PrivateQcmSummary {
   slug: string;
@@ -24,9 +25,10 @@ const ENDPOINT = "/api/admin/private-qcm";
 
 export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: AdminPrivateQcmPanelProps) {
   const router = useRouter();
-  const { alert: showAlert, dangerConfirm } = useDialogs();
+  const { alert: showAlert, prompt: showPrompt, dangerConfirm } = useDialogs();
   const [qcms, setQcms] = useState<PrivateQcmSummary[]>([]);
   const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
 
   const load = useCallback(async () => {
     try {
@@ -69,6 +71,39 @@ export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: Admi
     await load();
     onStatus("QCM prive supprime");
   };
+
+  const rename = async (qcm: PrivateQcmSummary) => {
+    const years = qcms.filter((item) => item.slug === qcm.slug).length;
+    const input = await showPrompt(
+      years > 1 ? `Nouveau nom (appliqué aux ${years} années de cette matière).` : "Nouveau nom.",
+      { title: "Renommer", defaultValue: qcm.matiere, confirmLabel: "Enregistrer" }
+    );
+    const matiere = input?.trim();
+    if (!matiere || matiere === qcm.matiere) return;
+    if (matiere.length > PRIVATE_NAME_MAX_LENGTH) {
+      await showAlert(`Nom trop long (${PRIVATE_NAME_MAX_LENGTH} caractères maximum).`);
+      return;
+    }
+
+    try {
+      const response = await fetch(ENDPOINT, {
+        method: "PATCH",
+        headers: getAdminHeaders({ "Content-Type": "application/json" }),
+        body: JSON.stringify({ slug: qcm.slug, matiere }),
+      });
+      const result = (await response.json()) as { success: boolean; message?: string };
+      if (!result.success) {
+        await showAlert(result.message || "Echec du renommage.");
+        return;
+      }
+      await load();
+      onStatus("QCM prive renomme");
+    } catch {
+      await showAlert("Echec du renommage.");
+    }
+  };
+
+  const visibleQcms = qcms.filter((qcm) => matchesSearch(qcm, search));
 
   const subjects = [...new Map(qcms.map((q) => [q.slug, { slug: q.slug, matiere: q.matiere }])).values()];
 
@@ -116,13 +151,34 @@ export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: Admi
           </div>
         </div>
 
+        {qcms.length > 0 && (
+          <div className="mb-2">
+            <label className="relative block">
+              <span className="sr-only">Rechercher un QCM privé</span>
+              <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400" />
+              <input
+                type="search"
+                value={search}
+                onChange={(event) => setSearch(event.target.value)}
+                placeholder="Rechercher par numéro d'item, nom ou année..."
+                className="w-full rounded-lg border border-stone-200 bg-white py-2.5 pl-10 pr-3 text-sm font-semibold text-stone-950 outline-none focus:border-emerald-600 dark:border-stone-800 dark:bg-[#151512] dark:text-stone-100"
+              />
+            </label>
+            {search.trim() && (
+              <p className="mt-2 text-xs text-stone-500 dark:text-stone-400" aria-live="polite">
+                {visibleQcms.length} résultat{visibleQcms.length > 1 ? "s" : ""} sur {qcms.length}
+              </p>
+            )}
+          </div>
+        )}
+
         {loading ? (
           <p className="text-sm text-stone-500 dark:text-stone-400">Chargement...</p>
         ) : qcms.length === 0 ? (
           <p className="text-sm text-stone-500 dark:text-stone-400">Aucun QCM prive pour le moment.</p>
         ) : (
           <ul className="divide-y divide-stone-100 dark:divide-stone-800">
-            {qcms.map((qcm) => (
+            {visibleQcms.map((qcm) => (
               <li key={`${qcm.slug}-${qcm.annee}`} className="flex flex-wrap items-center gap-3 py-3">
                 <div className="min-w-0 flex-1">
                   <p className="font-bold text-stone-900 dark:text-stone-100">
@@ -147,6 +203,15 @@ export default function AdminPrivateQcmPanel({ getAdminHeaders, onStatus }: Admi
                   <Dumbbell className="h-4 w-4" />
                   S&apos;entraîner
                 </Link>
+                <button
+                  type="button"
+                  onClick={() => rename(qcm)}
+                  aria-label={`Renommer ${qcm.matiere}`}
+                  title="Renommer"
+                  className="rounded-lg border border-stone-200 p-2 text-stone-600 hover:bg-stone-100 dark:border-stone-800 dark:text-stone-300 dark:hover:bg-stone-800"
+                >
+                  <Pencil className="h-4 w-4" />
+                </button>
                 <button
                   type="button"
                   onClick={() => remove(qcm)}
